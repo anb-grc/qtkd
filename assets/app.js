@@ -380,88 +380,88 @@ function startQuiz(quizMode = 'optimized') {
       let options = [];
       let finalQHtml = qHtml;
       
-      let textForRegex = qHtml.replace(/<br\s*\/?>/gi, '\n');
       let tmpDiv = document.createElement('div');
-      tmpDiv.innerHTML = textForRegex;
-      let plainText = tmpDiv.textContent || tmpDiv.innerText;
+      tmpDiv.innerHTML = qHtml;
       
-      let match = plainText.match(/A[\.\)]\s*(.*?)\s*B[\.\)]\s*(.*?)\s*C[\.\)]\s*(.*?)\s*D[\.\)]\s*(.*)/is);
+      let optionsGrid = tmpDiv.querySelector('.options-grid');
       
-      if (match) {
-        options = [match[1].trim(), match[2].trim(), match[3].trim(), match[4].trim()];
-        options = options.map(opt => opt.replace(/\n/g, '<br>'));
-        
-        if (qHtml.includes('options-grid')) {
-            let gridIndex = qHtml.indexOf('<div class="options-grid">');
-            if (gridIndex > -1) {
-                finalQHtml = qHtml.substring(0, gridIndex).trim();
-                finalQHtml = finalQHtml.replace(/(<br\s*\/?>\s*)+$/, "");
-            }
-        } else {
-            let matches = [...qHtml.matchAll(/A[\.\)](?:\s|&nbsp;|<br|<\/?p>|<span)/g)];
-            let cutIndex = matches.length > 0 ? matches[matches.length - 1].index : -1;
-            if(cutIndex > -1) {
-                finalQHtml = qHtml.substring(0, cutIndex).trim();
-                finalQHtml = finalQHtml.replace(/(<br\s*\/?>\s*)+$/, "");
-            }
-        }
-        
-        let tmpCorrectDiv = document.createElement('div');
-        tmpCorrectDiv.innerHTML = correctAns;
-        let plainCorrect = tmpCorrectDiv.textContent || tmpCorrectDiv.innerText;
-        let normCorrect = normalizeTextForSearch(plainCorrect);
-        
-        let correctIdx = options.findIndex(opt => {
-           let normOpt = normalizeTextForSearch(opt);
-           return normOpt.includes(normCorrect) || normCorrect.includes(normOpt);
-        });
-        
-        if (correctIdx === -1) {
-           let tokens = normCorrect.split(' ').filter(t => t.length > 0);
-           if (tokens.length > 0) {
-               let regexPattern = tokens.join('[\\s\\S]*?');
-               let regex = new RegExp(regexPattern, 'i');
-               correctIdx = options.findIndex(opt => {
-                  let normOpt = normalizeTextForSearch(opt);
-                  return regex.test(normOpt);
-               });
-           }
-        }
-        if(correctIdx === -1) correctIdx = 0;
-        
-        let mappedOptions = options.map((opt, idx) => {
-            let text = opt;
-            if (idx !== correctIdx) {
-                text = stripHighlight(text);
-            }
-            return { text: text, isCorrect: idx === correctIdx };
-        });
-        mappedOptions.sort(() => 0.5 - Math.random());
-        options = mappedOptions.map(o => o.text);
-        correctAns = mappedOptions.find(o => o.isCorrect).text;
-      } else {
-        options = [correctAns];
-        let attempts = 0;
-        
-        let cleanText = (s) => stripHighlight(s).replace(/[.,;!?’'"\s]+/g, '').toLowerCase();
-        let isNumStr = (s) => /^\d+$/.test(cleanText(s));
-        let correctIsNum = isNumStr(correctAns);
-
-        while(options.length < 4 && attempts < 200) {
-          let randAns = allAnswers[Math.floor(Math.random() * allAnswers.length)];
-          randAns = stripHighlight(randAns);
+      if (optionsGrid) {
+          // Extract the options directly from the grid
+          let optDivs = optionsGrid.querySelectorAll('div');
+          options = Array.from(optDivs).map(d => d.innerHTML.trim());
           
-          let cleanRand = cleanText(randAns);
-          let isDuplicate = options.some(opt => cleanText(opt) === cleanRand);
-          let typeMismatch = (correctIsNum !== isNumStr(randAns)) && (attempts < 100);
-
-          if(!isDuplicate && !typeMismatch) {
-            options.push(randAns);
+          // Remove options-grid from the question text
+          optionsGrid.remove();
+          finalQHtml = tmpDiv.innerHTML.trim();
+          finalQHtml = finalQHtml.replace(/(<br\s*\/?>\s*)+$/, "");
+      } else {
+          // Legacy fallback if options-grid is missing
+          let textForRegex = qHtml.replace(/<br\s*\/?>/gi, '\n');
+          let tmpTextDiv = document.createElement('div');
+          tmpTextDiv.innerHTML = textForRegex;
+          let plainText = tmpTextDiv.textContent || tmpTextDiv.innerText;
+          
+          let match = plainText.match(/A[\.\)]\s*(.*?)\s*B[\.\)]\s*(.*?)\s*C[\.\)]\s*(.*?)\s*D[\.\)]\s*(.*)/is);
+          if (match) {
+              options = [match[1].trim(), match[2].trim(), match[3].trim(), match[4].trim()];
+              options = options.map(opt => opt.replace(/\n/g, '<br>'));
+              let matches = [...qHtml.matchAll(/A[\.\)](?:\s|&nbsp;|<br|<\/?p>|<span)/g)];
+              let cutIndex = matches.length > 0 ? matches[matches.length - 1].index : -1;
+              if(cutIndex > -1) {
+                  finalQHtml = qHtml.substring(0, cutIndex).trim();
+                  finalQHtml = finalQHtml.replace(/(<br\s*\/?>\s*)+$/, "");
+              }
+          } else {
+              // Final fallback: no options found, and we no longer borrow distractors.
+              options = [correctAns, "N/A", "N/A", "N/A"];
           }
-          attempts++;
-        }
-        options.sort(() => 0.5 - Math.random());
       }
+
+      // Cleanup A., B., C., D. prefixes if they exist at the start of options
+      options = options.map(opt => {
+          return opt.replace(/^((?:<[^>]+>\s*)*)[A-D][\.\)]\s*(?:<br\s*\/?>\s*)?/i, '$1').trim();
+      });
+
+      // Find the correct option index
+      let tmpCorrectDiv = document.createElement('div');
+      tmpCorrectDiv.innerHTML = correctAns;
+      let plainCorrect = tmpCorrectDiv.textContent || tmpCorrectDiv.innerText;
+      let normCorrect = normalizeTextForSearch(plainCorrect);
+      
+      let correctIdx = options.findIndex(opt => {
+         let tmpOptDiv = document.createElement('div');
+         tmpOptDiv.innerHTML = opt;
+         let plainOpt = tmpOptDiv.textContent || tmpOptDiv.innerText;
+         let normOpt = normalizeTextForSearch(plainOpt);
+         return normOpt.includes(normCorrect) || normCorrect.includes(normOpt);
+      });
+      
+      if (correctIdx === -1) {
+         let tokens = normCorrect.split(' ').filter(t => t.length > 0);
+         if (tokens.length > 0) {
+             let regexPattern = tokens.join('[\\s\\S]*?');
+             let regex = new RegExp(regexPattern, 'i');
+             correctIdx = options.findIndex(opt => {
+                let tmpOptDiv = document.createElement('div');
+                tmpOptDiv.innerHTML = opt;
+                let plainOpt = tmpOptDiv.textContent || tmpOptDiv.innerText;
+                let normOpt = normalizeTextForSearch(plainOpt);
+                return regex.test(normOpt);
+             });
+         }
+      }
+      if(correctIdx === -1) correctIdx = 0;
+      
+      let mappedOptions = options.map((opt, idx) => {
+          let text = opt;
+          if (idx !== correctIdx) {
+              text = stripHighlight(text);
+          }
+          return { text: text, isCorrect: idx === correctIdx };
+      });
+      mappedOptions.sort(() => 0.5 - Math.random());
+      options = mappedOptions.map(o => o.text);
+      correctAns = mappedOptions.find(o => o.isCorrect).text;
       
       html += `
         <div class="quiz-q-box" id="quiz-q-${index}" data-correct="${options.indexOf(correctAns)}">
