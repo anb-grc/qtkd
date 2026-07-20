@@ -1,0 +1,7 @@
+_sources/
+raw_inputs/
+staging/
+scratch/
+PROJECT_LOG.md
+.agents/
+Source_of_Truth.md

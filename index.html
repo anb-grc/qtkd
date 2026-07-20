@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>TVU - Ngân Hàng Đề Thi</title>
+  <style>
+  :root {
+    --bg:#F8FAFC; --surface:#FFFFFF; --border:#E2E8F0;
+    --text:#1E293B; --muted:#64748B; --primary:#4F46E5;
+    --r:16px;
+    --shadow:0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-hover:0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body {
+    font-family: -apple-system, 'Segoe UI', system-ui, sans-serif;
+    font-size: 16px; line-height: 1.6; color: var(--text); background: var(--bg);
+    padding: 40px 20px;
+  }
+  .container { max-width: 800px; margin: 0 auto; }
+  .header { text-align: center; margin-bottom: 40px; }
+  .header h1 { font-size: 2.5em; font-weight: 900; letter-spacing: -1px; line-height: 1.2; margin-bottom: 10px; }
+  .header p { color: var(--muted); font-size: 1.1em; }
+  
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+  .card {
+    display: flex; align-items: center; justify-content: space-between;
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--r);
+    padding: 20px; text-decoration: none; color: var(--text);
+    box-shadow: var(--shadow); transition: all 0.2s ease;
+  }
+  .card:hover { transform: translateY(-3px); box-shadow: var(--shadow-hover); border-color: var(--primary); }
+  .card-content { display: flex; align-items: center; gap: 15px; }
+  .icon-box {
+    width: 48px; height: 48px; border-radius: 12px; display: flex; align-items: center; justify-content: center;
+    font-size: 1.5em; background: transparent;
+  }
+  .card-info h2 { font-size: 1.1em; font-weight: 700; margin-bottom: 4px; }
+  .card-info p { font-size: 0.9em; color: var(--muted); }
+  .arrow { color: var(--muted); font-weight: bold; font-size: 1.2em; transition: transform 0.2s; }
+  .card:hover .arrow { transform: translateX(4px); color: var(--primary); }
+  footer { text-align: center; margin-top: 50px; color: var(--muted); font-size: 0.9em; font-weight: 500; }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <h1><span style="color:#1a3a6b;">TVU</span><br><span style="font-size:0.65em; font-weight:800; background:linear-gradient(135deg,#1a3a6b,#2b5ea7); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text;">QUẢN TRỊ KINH DOANH</span></h1>
+      <p>Hệ thống Kiến thức tối ưu & Ôn luyện hiệu quả</p>
+    </div>
+
+    <div class="search-subject-wrap" style="margin-bottom: 20px;">
+      <input type="text" id="searchSubject" placeholder="🔍 Tìm kiếm môn học..." oninput="filterSubjects()" style="width: 100%; padding: 12px 18px; border: 1.5px solid var(--border); border-radius: var(--r); font-size: 1em; color: var(--text); background: var(--surface); outline: none; transition: border-color 0.2s, box-shadow 0.2s;" />
+    </div>
+
+    <div class="grid" id="subjectsGrid">
+      <!-- Nguyên lý kế toán -->
+      <a href="./10. Nguyên lý kế toán/Ngan_hang_de_Nguyen_ly_ke_toan.html" class="card">
+        <div class="card-content">
+          <div class="icon-box icon-ketoan">📊</div>
+          <div class="card-info">
+            <h2>Nguyên lý kế toán</h2>
+            <p>Học nhanh & Thi thử</p>
+          </div>
+        </div>
+        <div class="arrow">→</div>
+      </a>
+
+      <!-- Kinh tế chính trị Mác - Lênin -->
+      <a href="./11. Kinh tế chính trị Mác - Lênin/Ngan_hang_de_Mac_Lenin.html" class="card">
+        <div class="card-content">
+          <div class="icon-box icon-maclenin">📖</div>
+          <div class="card-info">
+            <h2>KTCT Mác - Lênin</h2>
+            <p>Học nhanh & Thi thử</p>
+          </div>
+        </div>
+        <div class="arrow">→</div>
+      </a>
+
+      <!-- Thống kê ứng dụng -->
+      <a href="./12. Thống kê ứng dụng trong kinh doanh/Ngan_hang_de_Thong_ke.html" class="card">
+        <div class="card-content">
+          <div class="icon-box icon-thongke">📈</div>
+          <div class="card-info">
+            <h2>Thống kê ứng dụng</h2>
+            <p>Học nhanh & Thi thử</p>
+          </div>
+        </div>
+        <div class="arrow">→</div>
+      </a>
+    </div>
+
+    <footer>
+      ⚡️ Học ít - hiểu nhanh - nhớ lâu.
+    </footer>
+  </div>
+
+  <script>
+    function filterSubjects() {
+      const input = document.getElementById('searchSubject').value.toLowerCase();
+      const grid = document.getElementById('subjectsGrid');
+      const cards = grid.querySelectorAll('.card');
+      
+      cards.forEach(card => {
+        const title = card.querySelector('h2').textContent.toLowerCase();
+        if (title.includes(input)) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+      
+      const searchBox = document.getElementById('searchSubject');
+      if(input.length > 0) {
+          searchBox.style.borderColor = 'var(--primary)';
+          searchBox.style.boxShadow = '0 0 0 3px rgba(79,70,229,.1)';
+      } else {
+          searchBox.style.borderColor = 'var(--border)';
+          searchBox.style.boxShadow = 'none';
+      }
+    }
+  </script>
+</body>
+</html>

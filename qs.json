@@ -1,0 +1,330 @@
+{
+  "10": [
+    {
+      "q": "Nguyên tắc nhất quán là việc áp dụng chính sách kế toán phải được ổn định ít nhất trong 1 kỳ kế toán năm",
+      "a": "✅ Đáp án: Đúng"
+    },
+    {
+      "q": "Tài khoản 414",
+      "a": "✅ Đáp án: cuối kỳ nếu có số dư thì có số dư bên Có"
+    },
+    {
+      "q": "Chi phí khác chi bằng tiền mặt 4.000.000 đồng, kế toán ghi",
+      "a": "✅ Đáp án: Nợ 811 4.000.000 / Có 111 4.000.000"
+    },
+    {
+      "q": "Khi doanh nghiệp xuất hàng hóa ký gửi đại lý bán, kế toán ghi",
+      "a": "✅ Đáp án: Nợ 157 / Có 156"
+    },
+    {
+      "q": "Rút tiền gửi ngân hàng 10.000.000 đồng về nhập quỹ tiền mặt, kế toán ghi",
+      "a": "✅ Đáp án: Nợ 111 10.000.000 / Có 112 10.000.000"
+    },
+    {
+      "q": "Chi sửa chữa nhỏ TSCĐ dùng trực tiếp sản xuất sản phẩm bằng tiền mặt 2.000.000 đồng, kế toán ghi",
+      "a": "✅ Đáp án: Nợ 627 2.000.000 / Có 111 2.000.000"
+    },
+    {
+      "q": "Vay ngân hàng 30.000.000 đồng chuyển trả nợ người bán, kế toán ghi",
+      "a": "✅ Đáp án: Nợ 331 30.000.000 / Có 341 30.000.000"
+    },
+    {
+      "q": "Chi sửa chữa nhỏ TSCĐ dùng ở bộ phận quản lý doanh nghiệp bằng tiền mặt 2.000.000 đồng, kế toán ghi",
+      "a": "✅ Đáp án: Nợ 642 2.000.000 / Có 111 2.000.000"
+    },
+    {
+      "q": "Dùng lợi nhuận sau thuế chưa phân phối bổ sung quỹ đầu tư phát triển 10.000.000 đồng, kế toán ghi",
+      "a": "✅ Đáp án: Nợ 421 10.000.000 / Có 414 10.000.000"
+    },
+    {
+      "q": "Chi tiền mặt 10.000.000 đồng hỗ trợ trẻ em nghèo, trong đó trích từ quỹ phúc lợi 50%, còn lại đưa vào chi phí khác của doanh nghiệp, kế toán ghi",
+      "a": "✅ Đáp án: Nợ 353 5.000.000, Nợ 811 5.000.000 / Có 111 10.000.000"
+    },
+    {
+      "q": "Nguyên vật liệu xuất dùng không hết nhập lại kho được ghi chép vào sổ sách kế toán trước khi tập hợp và kết chuyển chi phí phát sinh trong kỳ sang tài khoản 154",
+      "a": "✅ Đáp án: Đúng"
+    },
+    {
+      "q": "Chi phí khác phát sinh ở phân xưởng chi bằng tiền mặt 2.000.000 đồng, kế toán ghi",
+      "a": "✅ Đáp án: Nợ 627 2.000.000 / Có 111 2.000.000"
+    },
+    {
+      "q": "Tài khoản 421",
+      "a": "✅ Đáp án: cuối kỳ có thể có số dư bên Nợ hoặc bên Có"
+    },
+    {
+      "q": "Các tài khoản 641, 642, 635, 811",
+      "a": "✅ Đáp án: cuối kỳ luôn luôn không có số dư"
+    },
+    {
+      "q": "Trích khấu hao TSCĐ dùng ở bộ phận quản lý doanh nghiệp 20.000.000 đồng, kế toán ghi",
+      "a": "✅ Đáp án: Nợ 642 20.000.000 / Có 214 20.000.000"
+    },
+    {
+      "q": "Thu nhập khác bằng tiền mặt 5.000.000 đồng, kế toán ghi",
+      "a": "✅ Đáp án: Nợ 111 5.000.000 / Có 711 5.000.000"
+    },
+    {
+      "q": "Nguyên vật liệu mua chất lượng kém nên được người bán giảm giá 10% trên giá mua chưa thuế. Biết giá mua của lô nguyên vật liệu trước đây chưa thuế là 10.000.000 đồng, thuế GTGT 10%, chưa thanh toán. Kế toán ghi đối với phần giảm giá",
+      "a": "✅ Đáp án: Nợ 331 1.100.000 / Có 152 1.000.000, Có 133 100.000"
+    },
+    {
+      "q": "Nhận giấy báo Có từ ngân hàng do người mua trả nợ cho doanh nghiệp, kế toán ghi",
+      "a": "✅ Đáp án: Nợ 112 / Có 131"
+    },
+    {
+      "q": "Tài khoản 131",
+      "a": "✅ Đáp án: cuối kỳ có thể có số dư bên Nợ hoặc bên Có"
+    },
+    {
+      "q": "Nhận giấy báo Nợ từ ngân hàng do ngân hàng trích tiền từ tài khoản của doanh nghiệp trả nợ cho người bán, kế toán ghi",
+      "a": "✅ Đáp án: Nợ 331 / Có 112"
+    },
+    {
+      "q": "Trong nội dung bảng cân đối kế toán của doanh nghiệp có trình bày",
+      "a": "✅ Đáp án: nợ phải trả của doanh nghiệp"
+    },
+    {
+      "q": "Nợ phải trả phát sinh do",
+      "a": "✅ Đáp án: mua hàng hóa chưa thanh toán"
+    },
+    {
+      "q": "Đối tượng kế toán nào sau đây là Nợ phải trả?",
+      "a": "✅ Đáp án: Khoản khách hàng trả trước"
+    },
+    {
+      "q": "Đối tượng kế toán nào sau đây là vốn chủ sở hữu?",
+      "a": "✅ Đáp án: Quỹ đầu tư phát triển"
+    },
+    {
+      "q": "Khoản phải trả người bán",
+      "a": "✅ Đáp án: là một loại nguồn vốn góp phần hình thành nên tài sản của doanh nghiệp"
+    },
+    {
+      "q": "Tài khoản 334",
+      "a": "✅ Đáp án: cuối kỳ có thể có số dư bên Có khác 0 hoặc bằng 0"
+    },
+    {
+      "q": "Khi lập bảng cân đối kế toán thì các tài khoản 621, 622 và 627",
+      "a": "✅ Đáp án: không có mặt trên bảng cân đối kế toán"
+    },
+    {
+      "q": "Khi mua nguyên vật liệu có phát sinh chi phí vận chuyển thì chi phí này được hạch toán vào bên Nợ của tài khoản",
+      "a": "✅ Đáp án: 152"
+    },
+    {
+      "q": "Nhân viên phân xưởng thanh toán tiền tạm ứng kỳ trước 50.000.000 đồng gồm chi phí mua TSCĐ 40.000.000 đồng, thuế GTGT 10%, tiền thừa nộp lại cho doanh nghiệp bằng tiền mặt, kế toán ghi",
+      "a": "✅ Đáp án: Nợ 211 40.000.000, Nợ 133 4.000.000, Nợ 111 6.000.000 / Có 141 50.000.000"
+    },
+    {
+      "q": "Nguyên vật liệu xuất dùng không hết nhập lại kho trị giá 2.000.000 đồng, kế toán ghi",
+      "a": "✅ Đáp án: Nợ 152 2.000.000 / Có 621 2.000.000"
+    },
+    {
+      "q": "Trừ lương công nhân viên 2.000.000 đồng do trước đây làm mất tài sản của doanh nghiệp, kế toán ghi",
+      "a": "✅ Đáp án: Nợ 334 2.000.000 / Có 138 2.000.000"
+    },
+    {
+      "q": "Tài khoản 331",
+      "a": "✅ Đáp án: Cuối kỳ có thể có số dư bên Nợ hoặc bên Có"
+    },
+    {
+      "q": "Các tài khoản 511, 515, 711 cuối kỳ không có số dư",
+      "a": "✅ Đáp án: Đúng"
+    }
+  ],
+  "11": [
+    {
+      "q": "Chức năng nào của môn Kinh tế chính trị Mác - Lênin góp phần xây dựng lý tưởng khoa học cho những chủ thể có mong muốn thực hành xây dựng chế độ xã hội tốt đẹp hướng tới giải phóng con người, xóa bỏ dần áp bức bóc lột, bất công giữa con người với con người?",
+      "a": "✅ Đáp án: Tư tưởng"
+    },
+    {
+      "q": "Điền vào chỗ trống:<br><br>Đối tượng nghiên cứu của Kinh tế chính trị Mác – Lênin là các quan hệ xã hội của sản xuất và trao đổi mà các quan hệ này được đặt trong sự liên hệ biện chứng với trình độ phát triển của lực lượng sản xuất và ___ tương ứng của phương thức sản xuất nhất định.",
+      "a": "✅ Đáp án: kiến trúc thượng tầng"
+    },
+    {
+      "q": "Điền vào chỗ trống:<br><br>Chủ nghĩa trọng nông được hình thành và phát triển tại Pháp từ nửa cuối thế kỷ ___ đến nửa đầu thế kỷ ___.",
+      "a": "✅ Đáp án: XVII | XVIII"
+    },
+    {
+      "q": "Điền vào chỗ trống:<br><br>Với học thuyết ___, C.Mác đã xây dựng cơ sở khoa học cách mạng cho sự hình thành chủ nghĩa Mác như một chỉnh thể làm nên tư tưởng cho giai cấp công nhân và nhân dân lao động.",
+      "a": "✅ Đáp án: giá trị thặng dư nói riêng và Bộ Tư bản nói chung"
+    },
+    {
+      "q": "Các phạm trù, khái niệm khoa học với tư các là kết quả nghiên cứu và phát triển khoa học kinh tế chính trị ở giai đoạn sau đều có sự",
+      "a": "✅ Đáp án: Kế thừa một cách sáng tạo trên cơ sở những tiền đề lý luận đã được khám phá ở giai đoạn trước đó, đồng thời dựa trên cơ sở kết quả tổng kết thực tiễn kinh tế của xã hội đang diễn ra."
+    },
+    {
+      "q": "Quá trình phát triển của khoa học Kinh tế chính trị được khái quát qua các thời kỳ sau:",
+      "a": "✅ Đáp án: 1. Từ thời kỳ cổ đại đến thế kỷ XVIII.<br>2. Từ sau thế kỷ XVIII đến nay."
+    },
+    {
+      "q": "Tác phẩm “Chuyên luận về kinh tế chính trị” của nhà kinh tế nào?",
+      "a": "✅ Đáp án: A. Montchrestien"
+    },
+    {
+      "q": "Nguồn gốc trực tiếp của sự hình thành Kinh tế chính trị Mác – Lênin là gì?",
+      "a": "✅ Đáp án: Kinh tế chính trị tư sản cổ điển Anh."
+    },
+    {
+      "q": "Môn học Kinh tế chính trị Mác - Lênin có mấy chức năng?",
+      "a": "✅ Đáp án: 4."
+    },
+    {
+      "q": "Chủ nghĩa trọng thương hình thành và phát triển trong giai đoạn từ giữa thế kỷ XV đến giữa thế kỷ bao nhiêu ở Tây Âu?",
+      "a": "✅ Đáp án: XVII"
+    },
+    {
+      "q": "Muốn đo lường giá trị của các hàng hóa, bản thân tiền phải có:",
+      "a": "✅ Đáp án: Giá trị."
+    },
+    {
+      "q": "Vai trò của Nhà nước khi tham gia thị trường là:",
+      "a": "✅ Đáp án: Thực hiện chức năng quản lý Nhà nước về kinh tế đồng thời thực hiện những biện pháp để khắc phục những khuyết tật của thị trường."
+    },
+    {
+      "q": "Một trong những điều kiện để nền sản xuất hàng hóa ra đời là:",
+      "a": "✅ Đáp án: Phân công lao động xã hội."
+    },
+    {
+      "q": "Về bản chất, tiền là một loại hàng hóa đặc biệt, là kết quả của quá trình phát triển của",
+      "a": "✅ Đáp án: sản xuất và trao đổi hàng hóa"
+    },
+    {
+      "q": "Xét về mặt cấu thành, lượng giá trị của một đơn vị hàng hóa được sản xuất ra, bao hàm:",
+      "a": "✅ Đáp án: Hao phí lao động quá khứ + hao phí lao động mới kết tinh thêm."
+    },
+    {
+      "q": "Nền kinh tế thị trường có mấy ưu thế?",
+      "a": "✅ Đáp án: 3."
+    },
+    {
+      "q": "Điền vào chỗ trống:<br><br>Hàng hóa là sản phẩm của ___, có thể thỏa mãn nhu cầu nào đó của con người thông qua trao đổi, mua bán.",
+      "a": "✅ Đáp án: người lao động"
+    },
+    {
+      "q": "Lượng giá trị của đơn vị hàng hóa thay đổi:",
+      "a": "✅ Đáp án: Tỷ lệ nghịch với năng suất lao động."
+    },
+    {
+      "q": "Giá trị sử dụng của hàng hóa là giá trị sử dụng nhằm đáp ứng yêu cầu của",
+      "a": "✅ Đáp án: người mua"
+    },
+    {
+      "q": "Hàng hóa có mấy thuộc tính?",
+      "a": "✅ Đáp án: 2."
+    },
+    {
+      "q": "Điền vào chỗ trống:<br><br>Thị trường là tổng hòa những mối quan hệ kinh tế trong đó như cầu của các chủ thể được đáp ứng thông qua việc ___ với sự xác định giá cả và số lượng hàng hóa, dịch vụ tương ứng với trình độ phát triển nhất định của nền sản xuất xã hội.",
+      "a": "✅ Đáp án: trao đổi, mua bán"
+    },
+    {
+      "q": "Năng suất lao động và thời gian hao phí lao động cần thiết trong một đơn vị hàng hóa có mối quan hệ",
+      "a": "✅ Đáp án: tỷ lệ nghịch"
+    },
+    {
+      "q": "Giá trị thặng dư ký hiệu là:",
+      "a": "✅ Đáp án: m"
+    },
+    {
+      "q": "Tiền biến thành tư bản khi được dùng để mang lại:",
+      "a": "✅ Đáp án: Giá trị thặng dư."
+    },
+    {
+      "q": "Một trong những điều kiện để sức lao động trở thành hàng hóa là:",
+      "a": "✅ Đáp án: Người lao động được tự do về thân thể."
+    },
+    {
+      "q": "Lý luận giá trị thặng dư của C.Mác, được trình bày cô đọng nhất trong tác phẩm:",
+      "a": "✅ Đáp án: Bộ Tư bản"
+    },
+    {
+      "q": "m là ký hiệu của:",
+      "a": "✅ Đáp án: Giá trị thặng dư."
+    },
+    {
+      "q": "Các nhân tố ảnh hưởng tới tỷ suất lợi nhuận bao gồm: Tỷ suất giá trị thặng dư; Cấu tạo hữu cơ tư bản; Tốc độ chu chuyển của tư bản;",
+      "a": "✅ Đáp án: Tiết kiệm tư bản bất biến"
+    },
+    {
+      "q": "Trong quy luật lưu thông tiền tệ, khi lưu thông hàng hóa phát triển, việc thanh toán không dùng tiền mặt trở nên phổ biến thì số lượng tiền cần thiết cho lưu thông (M) được xác định như sau:",
+      "a": "✅ Đáp án: M = [P.Q - (G1+G2) + G3] / V"
+    },
+    {
+      "q": "Khi xuất hiện phạm trù chi phí sản xuất thì giá trị hàng hóa sẽ biểu hiện thành:",
+      "a": "✅ Đáp án: G = k + m"
+    },
+    {
+      "q": "Phương án nào sau đây KHÔNG phải là chức năng của môn Kinh tế chính trị Mác - Lênin?",
+      "a": "✅ Đáp án: Chức năng liên ngành."
+    },
+    {
+      "q": "Thuật ngữ khoa học “Kinh tế chính trị” được xuất hiện ở châu Âu năm nào?",
+      "a": "✅ Đáp án: 1615"
+    },
+    {
+      "q": "Các nhà kinh tế tiêu biểu của chủ nghĩa trọng thương ở Tây Âu:",
+      "a": "✅ Đáp án: Stafford, Thomas Mun, Xcaphuri, A.Serra, A.Montchrestien."
+    },
+    {
+      "q": "Giữa giá trị của vàng và giá trị của hàng hóa trong thực tế đã có một tỷ lệ nhất định. Cơ sở của tỷ lệ này là:",
+      "a": "✅ Đáp án: Thời gian lao động xã hội cần thiết để hao phí sản xuất ra hàng hóa đó."
+    },
+    {
+      "q": "Điền vào chỗ trống:<br><br>Tiền phản ánh ___ và mối quan hệ giữa những người sản xuất và trao đổi hàng hàng hóa.",
+      "a": "✅ Đáp án: lao động xã hội"
+    },
+    {
+      "q": "Việc cố tình xóa bỏ nền sản xuất hàng hóa, sẽ làm cho xã hội",
+      "a": "✅ Đáp án: khan hiếm và khủng hoảng"
+    },
+    {
+      "q": "Sở dĩ các hàng hóa trao đổi được với nhau là vì giữa chúng có một điểm chung. Điểm chung đó là",
+      "a": "✅ Đáp án: đều là sản phẩm của lao động"
+    },
+    {
+      "q": "Thời gian lao động xã hội cần thiết là thời gian đòi hỏi để sản xuất ra một ___ nào đó trong những điều kiện bình thường của xã hội với trình độ thành thạo trung bình, cường độ lao động trung bình.",
+      "a": "✅ Đáp án: giá trị sử dụng"
+    },
+    {
+      "q": "Một trong những điều kiện để nền sản xuất hàng hóa ra đời là:",
+      "a": "✅ Đáp án: Sự tách biệt về mặt kinh tế của các chủ thể sản xuất."
+    },
+    {
+      "q": "Sản xuất hàng hóa tồn tại trong:",
+      "a": "✅ Đáp án: Các xã hội có phân công lao động xã hội và sự tách biệt về mặt kinh tế của các chủ thể sản xuất."
+    },
+    {
+      "q": "Lao động cụ thể phản ánh tính chất ___ của lao động sản xuất hàng hóa.",
+      "a": "✅ Đáp án: tư nhân"
+    },
+    {
+      "q": "Khi nghiên cứu phương thức sản xuất tư bản chủ nghĩa, C.Mác bắt đầu bằng sự phân tích",
+      "a": "✅ Đáp án: hàng hóa"
+    },
+    {
+      "q": "Các hình thái tư bản đều vận động theo công thức:",
+      "a": "✅ Đáp án: T-H-T’"
+    },
+    {
+      "q": "Tiền trong nền sản xuất tư bản chủ nghĩa vận động trong quan hệ:",
+      "a": "✅ Đáp án: T-H-T"
+    },
+    {
+      "q": "Giá trị của hàng hóa sức lao động cũng do số lượng ___ để sản xuất và tái sản xuất ra sức lao động quyết định.",
+      "a": "✅ Đáp án: lao động xã hội cần thiết"
+    },
+    {
+      "q": "Để sức lao động trở thành hàng hóa cần những điều kiện nào?",
+      "a": "✅ Đáp án: Người lao động được tự do về thân thể; Người lao động không có đủ các tư liệu sản xuất cần thiết để tự kết hợp với sức lao động của mình tạo ra hàng hóa để bán, cho nên họ phải bán sức lao động."
+    },
+    {
+      "q": "Hàng hóa sức lao động có mấy thuộc tính?",
+      "a": "✅ Đáp án: 2."
+    },
+    {
+      "q": "C. Mác viết: “___ là toàn bộ những năng lực thể chất và tinh thần tồn tại trong cơ thể, trong một con người đang sống, và được người đó đem ra vận dụng mỗi khi sản xuất ra một giá trị sử dụng nào đó”.",
+      "a": "✅ Đáp án: Sức lao động"
+    }
+  ]
+}

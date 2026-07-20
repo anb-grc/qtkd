@@ -1,0 +1,1294 @@
+[
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Giao diện làm việc cơ bản</span> của phần mềm SPSS gồm",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Cửa sổ làm việc gồm Data View, Variable View và Output</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "Cửa sổ làm việc gồm Data View, Variable View và Output; Cột (Column), tên (Name), loại (Type)",
+    "B": "Cửa sổ làm việc gồm Data View, Variable View và Output",
+    "C": "Cột (Column), tên (Name), loại (Type)",
+    "D": "Không phải cửa sổ làm việc gồm Data View, Variable View và Output; Cột (Column), tên (Name), loại (Type)"
+  },
+  {
+    "weight": "high",
+    "question": "Dữ liệu được phân lọai theo các mức đo lường bằng thang đo, <span class=\"keyword\">các thang đo</span> trong đo lường gồm",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Thang đo</span> <span class=\"answer-keyword\">định danh</span>, thang đo <span class=\"answer-keyword\">thứ bậc</span>, thang đo <span class=\"answer-keyword\">khoảng</span> và thang đo <span class=\"answer-keyword\">tỷ lệ</span></div>\n        <div class=\"note\">💡 Giải thích: Theo Stevens (1946), có 4 loại thang đo cơ bản trong thống kê từ thấp đến cao: Nominal (Định danh), Ordinal (Thứ bậc), Interval (Khoảng), Ratio (Tỷ lệ).</div>",
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+  },
+  {
+    "weight": "normal",
+    "question": "Thống kê là ngành khoa học trong việc khai thác dữ liệu, vậy <span class=\"keyword\">thống kê</span> là",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Toàn bộ kiến thức và kỹ năng được sử dụng để tổ chức, tóm tắt và phân tích dữ liệu cho giải thích câu hỏi khó hiêu trong tìm kiếm kiến thức và là nền tảng đưa ra các quyết định</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "Tập hợp thủ tục và nguyên tắc thu thập và xử lý thông tin để đưa ra quyết định khi phải đối mặt với sự không chắc chắn",
+    "B": "Kiểm định các phỏng đoán, giả định",
+    "C": "Toàn bộ kiến thức và kỹ năng được sử dụng để tổ chức, tóm tắt và phân tích dữ liệu cho giải thích câu hỏi khó hiêu trong tìm kiếm kiến thức và là nền tảng đưa ra các quyết định",
+    "D": "Nghệ thuật và khoa học của việc thu thập, xử lý và đưa ra các suy luận từ dữ liệu"
+  },
+  {
+    "weight": "high",
+    "question": "Xác định <span class=\"keyword\">thang đo khoảng</span> trong những thang đo sau",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Bạn có hài lòng về công việc: [1][2]… [7] (1 - rất thấp đến 7 - rất cao)</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "Cân nặng của trẻ sơ sinh",
+    "B": "Các mức độ yêu thích như: (1) không thích, (2) bình thường, (3) thích, (4) rất thích",
+    "C": "Khu vực sinh sống: (1) Nông thôn, (2) thành thị",
+    "D": "Bạn có hài lòng về công việc: [1][2]… [7] (1 - rất thấp đến 7 - rất cao)"
+  },
+  {
+    "weight": "high",
+    "question": "Xác định <span class=\"keyword\">thang đo thứ bậc</span> trong những thang đo sau",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Các mức độ yêu thích như: (1) không thích, (2) bình thường, (3) thích, (4) rất thích</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "Khu vực sinh sống: (1) Nông thôn, (2) thành thị",
+    "B": "Các mức độ yêu thích như: (1) không thích, (2) bình thường, (3) thích, (4) rất thích",
+    "C": "Cân nặng của trẻ sơ sinh",
+    "D": "Bạn có hài lòng về công việc: [1][2]… [7] (1 - rất thấp đến 7 - rất cao)"
+  },
+  {
+    "weight": "normal",
+    "question": "Xác định <span class=\"keyword\">thang đo định danh</span> trong những thang đo sau",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Khu vực sinh</span> sống: <span class=\"answer-keyword\">(1) Nông thôn</span>, <span class=\"answer-keyword\">(2) thành thị</span></div>\n        <div class=\"note\">💡 Giải thích: Thang đo định danh (Nominal) chỉ dùng để phân loại đối tượng, các con số 1, 2 không mang ý nghĩa độ lớn hay thứ tự.</div>",
+    "A": "Cân nặng của trẻ sơ sinh",
+    "B": "Các mức độ yêu thích như: (1) không thích, (2) bình thường, (3) thích, (4) rất thích",
+    "C": "Khu vực sinh sống: (1) Nông thôn, (2) thành thị",
+    "D": "Bạn có hài lòng về công việc: [1][2]… [7] (1 - rất thấp đến 7 - rất cao)"
+  },
+  {
+    "weight": "high",
+    "question": "Việc <span class=\"keyword\">lấy Value</span> trong SPSS chủ yếu cho các biến số nào sau đây?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Biến định tính: thang đo định danh, thang đo thứ bậc</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "Biến định tính: thang đo định danh, thang đo thứ bậc",
+    "B": "Biến định tính: thang đo định danh",
+    "C": "Biến định lượng: thang đo tỷ lệ",
+    "D": "Biến định tính: thang đo thứ bậc"
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Thống kê suy luận</span> được xác định là",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">phương pháp ước lượng một thuộc tính của quần thể dựa trên cơ sở mẫu</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "đề cập đến một tập hợp các số riêng lẻ hoặc sự kiện số, các kỹ thuật thống kê chung hoặc cụ thể",
+    "B": "mô tả đặc điểm của tập hợp dữ liệu",
+    "C": "phương pháp tổ chức, tóm tắt và trình bày dữ liệu cung cấp thông tin với kỹ thuật như phân bố tần số, tần suất, đồ thị và so sánh",
+    "D": "phương pháp ước lượng một thuộc tính của quần thể dựa trên cơ sở mẫu"
+  },
+  {
+    "weight": "high",
+    "question": "Những lý do <span class=\"keyword\">không thể</span> thu thập dữ liệu của <span class=\"keyword\">toàn bộ tổng thể</span>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">ngân sách nghiên cứu có hạn, thời gian thực hiện nghiên cứu không dài, trong thống kê, mẫu có thể đại diện chính xác cho tổng thể với độ tin cậy cho trước</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "ngân sách nghiên cứu có hạn",
+    "B": "thời gian thực hiện nghiên cứu không dài",
+    "C": "ngân sách nghiên cứu có hạn, thời gian thực hiện nghiên cứu không dài, trong thống kê, mẫu có thể đại diện chính xác cho tổng thể với độ tin cậy cho trước",
+    "D": "trong thống kê, mẫu có thể đại diện chính xác cho tổng thể với độ tin cậy cho trước"
+  },
+  {
+    "weight": "high",
+    "question": "Nghiên cứu mức độ hài lòng khách hàng của doanh nghiệp A, nhóm nghiên cứu sử dụng mô hình phân tích nhân tố khám phá, trong mô hình có <span class=\"keyword\">10 thang đo</span>, mỗi thang đo có <span class=\"keyword\">5 biến quan sát</span>, giả sử tỷ lệ số quan sát cho 1 biến phân tích là <span class=\"keyword\">5</span>, thì <span class=\"keyword\">cỡ mẫu</span> là bao nhiêu quan sát?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Tối thiểu <span class=\"answer-keyword\">250</span> <div class=\"note\">💡 Giải thích: Tổng số biến quan sát = 10 * 5 = 50 biến. Áp dụng quy tắc tỷ lệ 5:1 của Hair & cộng sự (2014) trong EFA: Cỡ mẫu tối thiểu = 50 * 5 = 250.</div>",
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Tổng thể nghiên cứu</span> là",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">tập hợp tất cả các đối tượng nghiên cứu (cần thu thập dữ liệu) mà nhà nghiên cứu cần nghiên cứu</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "tập hợp tất cả các doanh nghiệp ở TP. Trà Vinh",
+    "B": "mỗi phường của TP. Trà Vinh",
+    "C": "mỗi doanh nghiệp ở TP. Trà Vinh",
+    "D": "Danh sách liệt kê dữ liệu tất cả các doanh nghiệp tại các Phường của TP. Trà Vinh"
+  },
+  {
+    "weight": "high",
+    "question": "Khi nghiên cứu các doanh nghiệp ở TP. Trà Vinh, <span class=\"keyword\">khung mẫu nghiên cứu</span> ở đây là",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">mỗi phường của TP. Trà Vinh</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "tập hợp tất cả các doanh nghiệp ở TP. Trà Vinh",
+    "B": "mỗi phường của TP. Trà Vinh",
+    "C": "mỗi doanh nghiệp ở TP. Trà Vinh",
+    "D": "Danh sách liệt kê dữ liệu tất cả các doanh nghiệp tại các Phường của TP. Trà Vinh"
+  },
+  {
+    "weight": "high",
+    "question": "Muốn ước lượng vốn đầu tư trung bình của các doanh nghiệp ở TP. Trà Vinh, nhóm nghiên cứu nhận thấy vốn đầu tư của các doanh nghiệp tuân theo luật phân phối chuẩn, với <span class=\"keyword\">độ lệch chuẩn là 3 tỷ</span> VNĐ. Như vậy, mẫu được chọn sẽ là bao nhiêu doanh nghiệp nếu chọn <span class=\"keyword\">độ tin cậy là 95%</span> với <span class=\"keyword\">sai số</span> cho phép <span class=\"keyword\">± 0,7 tỷ</span> VNĐ?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Tối thiểu 71</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "Tối thiểu 71",
+    "B": "Tối thiểu 79",
+    "C": "Tối thiểu 138",
+    "D": "Tối thiểu 81"
+  },
+  {
+    "weight": "high",
+    "question": "Khi nghiên cứu các doanh nghiệp ở TP. Trà Vinh, <span class=\"keyword\">tổng thể nghiên cứu</span> ở đây là",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">tập hợp tất cả các doanh nghiệp</span> ở TP. Trà Vinh</div>\n        <div class=\"note\">💡 Giải thích: Tổng thể là toàn bộ các phần tử thuộc phạm vi nghiên cứu.</div>",
+    "A": "tập hợp tất cả các doanh nghiệp ở TP. Trà Vinh",
+    "B": "mỗi phường của TP. Trà Vinh",
+    "C": "mỗi doanh nghiệp ở TP. Trà Vinh",
+    "D": "Danh sách liệt kê dữ liệu tất cả các doanh nghiệp tại các Phường của TP. Trà Vinh"
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Đơn vị chọn mẫu</span> là",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">trong nghiên cứu chi nhỏ tổng thể thành nhiều nhóm có đặc tính riêng</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "danh sách liệt kê dữ liệu cần thiết của tất cả các đơn vị và phần tử",
+    "B": "trong nghiên cứu chi nhỏ tổng thể thành nhiều nhóm có đặc tính riêng",
+    "C": "đối tượng nghiên cứu cần thu thập dữ liệu, đơn vị nhỏ nhất của tổng thể",
+    "D": "tập hợp tất cả các đối tượng nghiên cứu (cần thu thập dữ liệu) mà nhà nghiên cứu cần nghiên cứu"
+  },
+  {
+    "weight": "high",
+    "question": "Cho bảng số liệu loại hình doanh nghiệp như sau:\n<div class=\"table-responsive\"><table border=\"1\" style=\"border-collapse: collapse; width: 100%; margin: 10px 0; text-align: left; font-size: 0.9em;\">\n  <tr style=\"background-color: #f1f5f9;\">\n    <th colspan=\"2\"></th>\n    <th style=\"padding: 6px;\">Frequency</th>\n    <th style=\"padding: 6px;\">Percent</th>\n  </tr>\n  <tr>\n    <td rowspan=\"3\" style=\"padding: 6px; font-weight: bold; width: 10%;\">Valid</td>\n    <td style=\"padding: 6px;\">Doanh nghiệp khác</td>\n    <td style=\"padding: 6px;\">14</td>\n    <td style=\"padding: 6px;\">46.7</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 6px;\">Doanh nghiệp 100% vốn nước ngoài</td>\n    <td style=\"padding: 6px;\">16</td>\n    <td style=\"padding: 6px;\">53.3</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 6px; font-weight: bold;\">Total</td>\n    <td style=\"padding: 6px; font-weight: bold;\">30</td>\n    <td style=\"padding: 6px; font-weight: bold;\">100.0</td>\n  </tr>\n</table></div>\n<br>Số quan sát doanh nghiệp 100% vốn nước ngoài là",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">16</span></div>\n        <div class=\"note\">💡 Giải thích: Tra bảng ở dòng 'Doanh nghiệp 100% vốn nước ngoài', cột 'Frequency' (tần số/số quan sát), ta thấy giá trị là 16.</div>",
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+  },
+  {
+    "weight": "high",
+    "question": "Cho bảng số liệu vốn đầu tư theo loại hình doanh nghiệp như sau:\n<div class=\"table-responsive\"><table border=\"1\" style=\"border-collapse: collapse; width: 100%; margin: 10px 0; text-align: left; font-size: 0.9em;\">\n  <tr style=\"background-color: #f1f5f9;\">\n    <th style=\"padding: 6px;\">Loại hình doanh nghiệp</th>\n    <th style=\"padding: 6px;\">Mean</th>\n    <th style=\"padding: 6px;\">N</th>\n    <th style=\"padding: 6px;\">Std. Deviation</th>\n  </tr>\n  <tr>\n    <td style=\"padding: 6px;\">Doanh nghiệp khác</td>\n    <td style=\"padding: 6px;\">31.7857</td>\n    <td style=\"padding: 6px;\">14</td>\n    <td style=\"padding: 6px;\">34.45215</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 6px;\">Doanh nghiệp 100% vốn nước ngoài</td>\n    <td style=\"padding: 6px;\">142.5000</td>\n    <td style=\"padding: 6px;\">16</td>\n    <td style=\"padding: 6px;\">73.62065</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 6px; font-weight: bold;\">Total</td>\n    <td style=\"padding: 6px; font-weight: bold;\">90.8333</td>\n    <td style=\"padding: 6px; font-weight: bold;\">30</td>\n    <td style=\"padding: 6px; font-weight: bold;\">80.56999</td>\n  </tr>\n</table></div>\n<br>Vốn đầu tư của doanh nghiệp khác có độ lệch chuẩn là bao nhiêu tỷ USD?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">73,62065 tỷ USD</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "90,8333 tỷ USD",
+    "B": "73,62065 tỷ USD",
+    "C": "142,5 tỷ USD",
+    "D": "31,7857 tỷ USD"
+  },
+  {
+    "weight": "high",
+    "question": "Cho bảng số liệu loại hình doanh nghiệp như sau:\n<div class=\"table-responsive\"><table border=\"1\" style=\"border-collapse: collapse; width: 100%; margin: 10px 0; text-align: left; font-size: 0.9em;\">\n  <tr style=\"background-color: #f1f5f9;\">\n    <th colspan=\"2\"></th>\n    <th style=\"padding: 6px;\">Frequency</th>\n    <th style=\"padding: 6px;\">Percent</th>\n  </tr>\n  <tr>\n    <td rowspan=\"3\" style=\"padding: 6px; font-weight: bold; width: 10%;\">Valid</td>\n    <td style=\"padding: 6px;\">Doanh nghiệp khác</td>\n    <td style=\"padding: 6px;\">14</td>\n    <td style=\"padding: 6px;\">46.7</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 6px;\">Doanh nghiệp 100% vốn nước ngoài</td>\n    <td style=\"padding: 6px;\">16</td>\n    <td style=\"padding: 6px;\">53.3</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 6px; font-weight: bold;\">Total</td>\n    <td style=\"padding: 6px; font-weight: bold;\">30</td>\n    <td style=\"padding: 6px; font-weight: bold;\">100.0</td>\n  </tr>\n</table></div>\n<br>Tỷ lệ Doanh nghiệp 100% vốn nước ngoài là bao nhiêu %",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">53,3%</span></div>\n        <div class=\"note\">💡 Giải thích: Tra bảng ở dòng 'Doanh nghiệp 100% vốn nước ngoài', cột 'Percent' (tỷ lệ phần trăm), ta thấy giá trị là 53.3.</div>",
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+  },
+  {
+    "weight": "high",
+    "question": "Cho bảng số liệu vốn đầu tư theo loại hình doanh nghiệp như sau:\n<div class=\"table-responsive\"><table border=\"1\" style=\"border-collapse: collapse; width: 100%; margin: 10px 0; text-align: left; font-size: 0.9em;\">\n  <tr style=\"background-color: #f1f5f9;\">\n    <th style=\"padding: 6px;\">Loại hình doanh nghiệp</th>\n    <th style=\"padding: 6px;\">Mean</th>\n    <th style=\"padding: 6px;\">N</th>\n    <th style=\"padding: 6px;\">Std. Deviation</th>\n  </tr>\n  <tr>\n    <td style=\"padding: 6px;\">Doanh nghiệp khác</td>\n    <td style=\"padding: 6px;\">31.7857</td>\n    <td style=\"padding: 6px;\">14</td>\n    <td style=\"padding: 6px;\">34.45215</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 6px;\">Doanh nghiệp 100% vốn nước ngoài</td>\n    <td style=\"padding: 6px;\">142.5000</td>\n    <td style=\"padding: 6px;\">16</td>\n    <td style=\"padding: 6px;\">73.62065</td>\n  </tr>\n  <tr>\n    <td style=\"padding: 6px; font-weight: bold;\">Total</td>\n    <td style=\"padding: 6px; font-weight: bold;\">90.8333</td>\n    <td style=\"padding: 6px; font-weight: bold;\">30</td>\n    <td style=\"padding: 6px; font-weight: bold;\">80.56999</td>\n  </tr>\n</table></div>\n<br>Vốn đầu tư của doanh nghiệp 100% vốn nước ngoài có độ lệch chuẩn là bao nhiêu tỷ USD?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">73,62065</span> tỷ USD</div>\n        <div class=\"note\">💡 Giải thích: Tra bảng ở dòng 'Doanh nghiệp 100% vốn nước ngoài', cột 'Std. Deviation' (Độ lệch chuẩn), ta thấy giá trị là 73.62065.</div>",
+    "A": "90,8333 tỷ USD",
+    "B": "73,62065 tỷ USD",
+    "C": "142,5 tỷ USD",
+    "D": "31,7857 tỷ USD"
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Mô tả dữ liệu</span> dạng <span class=\"keyword\">biến định lượng</span>, các nhận định sau đây nhận định nào đúng nhất?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Mô tả dạng phân phối tần số, tần suất và tần suất phần trăm, biểu đồ thanh và tròn; và đồ thị điểm, biểu đồ phân phối, phân phối tích lũy hay đồ thị Ogive</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "Đồ thị điểm, biểu đồ phân phối, phân phối tích lũy hay đồ thị Ogive",
+    "B": "Không phải mô tả dạng phân phối tần số, tần suất và tần suất phần trăm, biểu đồ thanh và tròn; và đồ thị điểm, biểu đồ phân phối, phân phối tích lũy hay đồ thị Ogive",
+    "C": "Mô tả dạng phân phối tần số, tần suất và tần suất phần trăm, biểu đồ thanh và tròn",
+    "D": "Mô tả dạng phân phối tần số, tần suất và tần suất phần trăm, biểu đồ thanh và tròn; và đồ thị điểm, biểu đồ phân phối, phân phối tích lũy hay đồ thị Ogive"
+  },
+  {
+    "weight": "high",
+    "question": "Cho bảng số liệu về vốn đầu tư của doanh nghiệp Mỹ như sau:\n<div class=\"table-responsive\"><table border=\"1\" style=\"border-collapse: collapse; width: 100%; margin: 10px 0; text-align: left; font-size: 0.9em;\">\n  <tr style=\"background-color: #f1f5f9;\"><th colspan=\"3\">Vốn đầu tư</th></tr>\n  <tr><td rowspan=\"2\" style=\"padding: 6px; font-weight: bold; width: 30%;\">N</td><td style=\"padding: 6px; width: 30%;\">Valid</td><td style=\"padding: 6px;\">14</td></tr>\n  <tr><td style=\"padding: 6px;\">Missing</td><td style=\"padding: 6px;\">0</td></tr>\n  <tr><td colspan=\"2\" style=\"padding: 6px; font-weight: bold;\">Mean</td><td style=\"padding: 6px;\">140.3571</td></tr>\n  <tr><td colspan=\"2\" style=\"padding: 6px; font-weight: bold;\">Std. Error of Mean</td><td style=\"padding: 6px;\">23.86123</td></tr>\n  <tr><td colspan=\"2\" style=\"padding: 6px; font-weight: bold;\">Median</td><td style=\"padding: 6px;\">160.0000</td></tr>\n  <tr><td colspan=\"2\" style=\"padding: 6px; font-weight: bold;\">Mode</td><td style=\"padding: 6px;\">160.00<sup>a</sup></td></tr>\n  <tr><td colspan=\"2\" style=\"padding: 6px; font-weight: bold;\">Std. Deviation</td><td style=\"padding: 6px;\">89.28055</td></tr>\n  <tr><td colspan=\"2\" style=\"padding: 6px; font-weight: bold;\">Variance</td><td style=\"padding: 6px;\">7971.016</td></tr>\n  <tr><td colspan=\"2\" style=\"padding: 6px; font-weight: bold;\">Skewness</td><td style=\"padding: 6px;\">-0.124</td></tr>\n  <tr><td colspan=\"2\" style=\"padding: 6px; font-weight: bold;\">Std. Error of Skewness</td><td style=\"padding: 6px;\">0.597</td></tr>\n  <tr><td colspan=\"2\" style=\"padding: 6px; font-weight: bold;\">Kurtosis</td><td style=\"padding: 6px;\">-1.243</td></tr>\n  <tr><td colspan=\"2\" style=\"padding: 6px; font-weight: bold;\">Std. Error of Kurtosis</td><td style=\"padding: 6px;\">1.154</td></tr>\n  <tr><td colspan=\"2\" style=\"padding: 6px; font-weight: bold;\">Range</td><td style=\"padding: 6px;\">240.00</td></tr>\n  <tr><td colspan=\"2\" style=\"padding: 6px; font-weight: bold;\">Minimum</td><td style=\"padding: 6px;\">10.00</td></tr>\n  <tr><td colspan=\"2\" style=\"padding: 6px; font-weight: bold;\">Maximum</td><td style=\"padding: 6px;\">250.00</td></tr>\n  <tr><td rowspan=\"3\" style=\"padding: 6px; font-weight: bold;\">Percentiles</td><td style=\"padding: 6px;\">25</td><td style=\"padding: 6px;\">73.7500</td></tr>\n  <tr><td style=\"padding: 6px;\">50</td><td style=\"padding: 6px;\">160.0000</td></tr>\n  <tr><td style=\"padding: 6px;\">75</td><td style=\"padding: 6px;\">250.0000</td></tr>\n</table></div>\n<br>Vốn đầu tư của doanh nghiệp Mỹ có giá trị trung bình là bao nhiêu tỷ USD?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">140,3571 tỷ USD</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "89,28055 tỷ USD",
+    "B": "160,00 tỷ USD",
+    "C": "250,00 tỷ USD",
+    "D": "140,3571 tỷ USD"
+  },
+  {
+    "weight": "high",
+    "question": "Giá trị <span class=\"keyword\">trung vị</span> được biết",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">giá trị trung tâm dữ liệu, một số tách nửa lớn hơn và nửa nhỏ hơn số này của dữ liệu mẫu</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "giá trị trung tâm của dữ liệu, có tần số xuất hiện lớn nhất của dữ liệu.",
+    "B": "giá trị trung tâm của dữ liệu, được tính bằng cách lấy tổng các giá trị quan sát chia cho số quan sát có được.",
+    "C": "giá trị trung tâm dữ liệu, một số lớn hơn và nhỏ hơn số này của dữ liệu mẫu.",
+    "D": "giá trị trung tâm dữ liệu, một số tách nửa lớn hơn và nửa nhỏ hơn số này của dữ liệu mẫu."
+  },
+  {
+    "weight": "high",
+    "question": "Cho bảng số liệu vốn đầu tư doanh nghiệp như sau:\n<div class=\"table-responsive\"><table border=\"1\" style=\"border-collapse: collapse; width: 100%; margin: 10px 0; text-align: left; font-size: 0.9em;\">\n  <tr style=\"background-color: #f1f5f9;\"><th colspan=\"2\"></th><th style=\"padding: 6px;\">Vốn đầu tư</th></tr>\n  <tr><td colspan=\"2\" style=\"padding: 6px; font-weight: bold;\">N</td><td style=\"padding: 6px;\">30</td></tr>\n  <tr><td colspan=\"2\" style=\"padding: 6px; font-weight: bold;\">Range</td><td style=\"padding: 6px;\">240.00</td></tr>\n  <tr><td colspan=\"2\" style=\"padding: 6px; font-weight: bold;\">Minimum</td><td style=\"padding: 6px;\">10.00</td></tr>\n  <tr><td colspan=\"2\" style=\"padding: 6px; font-weight: bold;\">Maximum</td><td style=\"padding: 6px;\">250.00</td></tr>\n  <tr><td colspan=\"2\" style=\"padding: 6px; font-weight: bold;\">Mean</td><td style=\"padding: 6px;\">90.8333</td></tr>\n  <tr><td colspan=\"2\" style=\"padding: 6px; font-weight: bold;\">Std. Deviation</td><td style=\"padding: 6px;\">80.56999</td></tr>\n  <tr><td colspan=\"2\" style=\"padding: 6px; font-weight: bold;\">Variance</td><td style=\"padding: 6px;\">6491.523</td></tr>\n  <tr><td rowspan=\"2\" style=\"padding: 6px; font-weight: bold;\">Skewness</td><td style=\"padding: 6px;\">Statistic</td><td style=\"padding: 6px;\">0.869</td></tr>\n  <tr><td style=\"padding: 6px;\">Std. Error</td><td style=\"padding: 6px;\">0.427</td></tr>\n  <tr><td rowspan=\"2\" style=\"padding: 6px; font-weight: bold;\">Kurtosis</td><td style=\"padding: 6px;\">Statistic</td><td style=\"padding: 6px;\">-0.260</td></tr>\n  <tr><td style=\"padding: 6px;\">Std. Error</td><td style=\"padding: 6px;\">0.833</td></tr>\n</table></div>\n<br>Dữ liệu về vốn đầu tư có độ lệch chuẩn là bao nhiêu tỷ USD?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">90,8333</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "90,8333 tỷ USD",
+    "B": "73,62065 tỷ USD",
+    "C": "142,5 tỷ USD",
+    "D": "31,7857 tỷ USD"
+  },
+  {
+    "weight": "high",
+    "question": "Cho bảng số liệu về vốn đầu tư của doanh nghiệp Mỹ như sau:\n<div class=\"table-responsive\"><table border=\"1\" style=\"border-collapse: collapse; width: 100%; margin: 10px 0; text-align: left; font-size: 0.9em;\">\n  <tr style=\"background-color: #f1f5f9;\"><th colspan=\"3\">Vốn đầu tư</th></tr>\n  <tr><td rowspan=\"2\" style=\"padding: 6px; font-weight: bold; width: 30%;\">N</td><td style=\"padding: 6px; width: 30%;\">Valid</td><td style=\"padding: 6px;\">14</td></tr>\n  <tr><td style=\"padding: 6px;\">Missing</td><td style=\"padding: 6px;\">0</td></tr>\n  <tr><td colspan=\"2\" style=\"padding: 6px; font-weight: bold;\">Mean</td><td style=\"padding: 6px;\">140.3571</td></tr>\n  <tr><td colspan=\"2\" style=\"padding: 6px; font-weight: bold;\">Std. Error of Mean</td><td style=\"padding: 6px;\">23.86123</td></tr>\n  <tr><td colspan=\"2\" style=\"padding: 6px; font-weight: bold;\">Median</td><td style=\"padding: 6px;\">160.0000</td></tr>\n  <tr><td colspan=\"2\" style=\"padding: 6px; font-weight: bold;\">Mode</td><td style=\"padding: 6px;\">160.00<sup>a</sup></td></tr>\n  <tr><td colspan=\"2\" style=\"padding: 6px; font-weight: bold;\">Std. Deviation</td><td style=\"padding: 6px;\">89.28055</td></tr>\n  <tr><td colspan=\"2\" style=\"padding: 6px; font-weight: bold;\">Variance</td><td style=\"padding: 6px;\">7971.016</td></tr>\n  <tr><td colspan=\"2\" style=\"padding: 6px; font-weight: bold;\">Skewness</td><td style=\"padding: 6px;\">-0.124</td></tr>\n  <tr><td colspan=\"2\" style=\"padding: 6px; font-weight: bold;\">Std. Error of Skewness</td><td style=\"padding: 6px;\">0.597</td></tr>\n  <tr><td colspan=\"2\" style=\"padding: 6px; font-weight: bold;\">Kurtosis</td><td style=\"padding: 6px;\">-1.243</td></tr>\n  <tr><td colspan=\"2\" style=\"padding: 6px; font-weight: bold;\">Std. Error of Kurtosis</td><td style=\"padding: 6px;\">1.154</td></tr>\n  <tr><td colspan=\"2\" style=\"padding: 6px; font-weight: bold;\">Range</td><td style=\"padding: 6px;\">240.00</td></tr>\n  <tr><td colspan=\"2\" style=\"padding: 6px; font-weight: bold;\">Minimum</td><td style=\"padding: 6px;\">10.00</td></tr>\n  <tr><td colspan=\"2\" style=\"padding: 6px; font-weight: bold;\">Maximum</td><td style=\"padding: 6px;\">250.00</td></tr>\n  <tr><td rowspan=\"3\" style=\"padding: 6px; font-weight: bold;\">Percentiles</td><td style=\"padding: 6px;\">25</td><td style=\"padding: 6px;\">73.7500</td></tr>\n  <tr><td style=\"padding: 6px;\">50</td><td style=\"padding: 6px;\">160.0000</td></tr>\n  <tr><td style=\"padding: 6px;\">75</td><td style=\"padding: 6px;\">250.0000</td></tr>\n</table></div>\n<br>Vốn đầu tư của doanh nghiệp Mỹ có đường cong phân phối lệch sang",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">-0,124</span>, lệch sang <span class=\"answer-keyword\">trái</span></div>\n        <div class=\"note\">💡 Giải thích: Tra bảng ở dòng 'Skewness' (Độ lệch), ta thấy giá trị là -.124. Giá trị Skewness âm (< 0) cho biết đường cong phân phối lệch sang trái (left-skewed).</div>",
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+  },
+  {
+    "weight": "high",
+    "question": "Giá trị <span class=\"keyword\">Mode</span> được biết là",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> giá trị trung tâm của dữ liệu, có tần số <span class=\"answer-keyword\">xuất hiện lớn nhất</span> của dữ liệu. <div class=\"note\">💡 Giải thích: Mode (Yếu vị) là giá trị có tần số xuất hiện nhiều nhất trong một tập dữ liệu.</div>",
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Thống kê trong kinh doanh</span> được hiểu là",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">việc thu thập, tổng hợp, phân tích và báo cáo các kết quả về số liệu liên quan đến tình huống hoặc quyết định kinh doanh. Bên cạnh đó, tập hợp những quy trình và kỹ thuật được sử dụng để chuyển dữ liệu thành thông tin có ý nghĩa trong môi trường kinh doanh.</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "việc thu thập, tổng hợp, phân tích và báo cáo các kết quả về số liệu liên quan đến tình huống hoặc quyết định kinh doanh.",
+    "B": "thống kê được sử dụng trong lĩnh vực sản xuất, kế toán, tỷ lệ tội phạm, y học, tâm lý học nhằm đưa ra thông tin có ý nghĩa.",
+    "C": "việc thu thập, tổng hợp, phân tích và báo cáo các kết quả về số liệu liên quan đến tình huống hoặc quyết định kinh doanh. Bên cạnh đó, tập hợp những quy trình và kỹ thuật được sử dụng để chuyển dữ liệu thành thông tin có ý nghĩa trong môi trường kinh doanh.",
+    "D": "Tập hợp những quy trình và kỹ thuật được sử dụng để chuyển dữ liệu thành thông tin có ý nghĩa trong môi trường kinh doanh."
+  },
+  {
+    "weight": "high",
+    "question": "Xác định <span class=\"keyword\">thang đo tỷ lệ</span> trong những thang đo sau",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Cân nặng</span> của trẻ sơ sinh</div>",
+    "A": "Khu vực sinh sống: (1) Nông thôn, (2) thành thị",
+    "B": "Các mức độ yêu thích như: (1) không thích, (2) bình thường, (3) thích, (4) rất thích",
+    "C": "Cân nặng của trẻ sơ sinh",
+    "D": "Bạn có hài lòng về công việc: [1][2]… [7] (1 - rất thấp đến 7 - rất cao)"
+  },
+  {
+    "weight": "high",
+    "question": "Cho các ví dụ sau đây, chọn ví dụ liên quan đến <span class=\"keyword\">thống kê suy luận</span>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">25% CEO</span> hoặc thành viên hội đồng quản trị tại Việt Nam là nữ</div>",
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Biến định lượng</span> là biến số",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Các phép đo</span> giá trị bằng số đi kèm với <span class=\"answer-keyword\">đơn vị</span>; các giá trị có thể <span class=\"answer-keyword\">đếm</span>, giá trị <span class=\"answer-keyword\">số nguyên</span>, hay theo <span class=\"answer-keyword\">khoảng</span></div>",
+    "A": "Các giá trị có thể đếm, giá trị sô nguyên, hay theo khoảng",
+    "B": "Các phép đo giá trị bằng số đi kèm với đơn vị",
+    "C": "Dạng biên đề cập mô tả người hoặc vật sở hữu một thuộc tính nhất định; các giá trị có thể đếm, giá trị sô nguyên, hay theo khoảng",
+    "D": "Dạng biên đề cập mô tả người hoặc vật sở hữu một thuộc tính nhất định"
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Cấp độ đo lường</span> biến trong <span class=\"keyword\">SPSS</span> được biểu diễn",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Danh nghĩa (<span class=\"answer-keyword\">Nominal</span>), Thứ bậc (<span class=\"answer-keyword\">Ordinal</span>), Khoảng (<span class=\"answer-keyword\">Interval</span>), Tỷ lệ (<span class=\"answer-keyword\">Ratio</span>). ",
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+  },
+  {
+    "weight": "high",
+    "question": "Nghiên cứu các yếu tố tác động đến vốn đầu tư của các doanh nghiệp trên địa bàn TP. Trà Vinh trong năm 2020, mô hình sử dụng <span class=\"keyword\">5 biến độc lập</span>, giả sử rằng tỷ lệ số có <span class=\"keyword\">5 quan sát</span> cho một biến độc lập, thì <span class=\"keyword\">cỡ mẫu</span> cần thiết là bao nhiêu quan sát?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Tối thiểu 75</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "Tối thiểu 25",
+    "B": "Tối thiểu 30",
+    "C": "Tối thiểu 23",
+    "D": "Tối thiểu 20"
+  },
+  {
+    "weight": "high",
+    "question": "Nghiên cứu các yếu tố tác động đến tốc độ tăng trưởng doanh thu của doanh nghiệp A qua các năm, mô hình nghiên cứu sử dụng <span class=\"keyword\">5 biến độc lập</span> và <span class=\"keyword\">1 biến phụ thuộc</span>, như vậy <span class=\"keyword\">cỡ mẫu</span> sẽ là bao nhiêu quan sát?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Tối thiểu <span class=\"answer-keyword\">25</span> ",
+    "A": "Tối thiểu 25",
+    "B": "Tối thiểu 30",
+    "C": "Tối thiểu 23",
+    "D": "Tối thiểu 20"
+  },
+  {
+    "weight": "high",
+    "question": "Khi nghiên cứu các doanh nghiệp ở TP. Trà Vinh, <span class=\"keyword\">phần tử nghiên cứu</span> ở đây là",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">mỗi doanh nghiệp</span> ở TP. Trà Vinh</div>",
+    "A": "tập hợp tất cả các doanh nghiệp ở TP. Trà Vinh",
+    "B": "mỗi phường của TP. Trà Vinh",
+    "C": "mỗi doanh nghiệp ở TP. Trà Vinh",
+    "D": "Danh sách liệt kê dữ liệu tất cả các doanh nghiệp tại các Phường của TP. Trà Vinh"
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Điều tra chọn mẫu</span> là",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">điều tra không toàn bộ</span>, chọn một số đủ lớn đơn vị <span class=\"answer-keyword\">đại diện</span> trong toàn bộ các đơn vị của tổng thể rồi dùng kết quả tính toán <span class=\"answer-keyword\">suy rộng</span> cho tổng thể</div>",
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+  },
+  {
+    "weight": "high",
+    "question": "Kỹ thuật <span class=\"keyword\">chọn mẫu xác suất</span> gồm các kỹ thuật",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Chọn mẫu <span class=\"answer-keyword\">ngẫu nhiên</span> đơn giản và <span class=\"answer-keyword\">hệ thống</span>, chọn mẫu <span class=\"answer-keyword\">phân tầng</span> và <span class=\"answer-keyword\">nhiều giai đoạn</span> ",
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Mô tả dữ liệu</span> dạng <span class=\"keyword\">biến định tính</span>, các nhận định sau đây nhận định nào đúng nhất?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Mô tả dạng</span> phân phối tần số, tần suất và tần suất phần trăm, <span class=\"answer-keyword\">biểu đồ thanh và tròn</span>; và thường số lượng (tần số) mỗi nhóm người ta quan tâm đến <span class=\"answer-keyword\">tỷ lệ hay tỷ lệ phần trăm</span> của từng phần tử trong mỗi nhóm</div>",
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+  },
+  {
+    "weight": "high",
+    "question": "Giá trị <span class=\"keyword\">trung bình</span> được biết là",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> giá trị trung tâm của dữ liệu, được tính bằng cách <span class=\"answer-keyword\">lấy tổng</span> các giá trị quan sát <span class=\"answer-keyword\">chia cho số quan sát</span> có được. ",
+    "A": "giá trị trung tâm của dữ liệu, có tần số xuất hiện lớn nhất của dữ liệu.",
+    "B": "giá trị trung tâm của dữ liệu, được tính bằng cách lấy tổng các giá trị quan sát chia cho số quan sát có được.",
+    "C": "giá trị trung tâm dữ liệu, một số lớn hơn và nhỏ hơn số này của dữ liệu mẫu.",
+    "D": "giá trị trung tâm dữ liệu, một số tách nửa lớn hơn và nửa nhỏ hơn số này của dữ liệu mẫu."
+  },
+  {
+    "weight": "high",
+    "question": "Cho bảng số liệu vốn đầu tư doanh nghiệp như sau:<br>\n      <div style=\"overflow-x: auto;\">\n  <div class=\"table-responsive\"><table style=\"width: 100%; border-collapse: collapse; margin-top: 10px; margin-bottom: 15px; font-size: 14px; border: 1px solid #000;\">\n    <thead>\n      <tr>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: left; background-color: #f9f9f9;\"></th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; background-color: #f9f9f9;\">N</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; background-color: #f9f9f9;\">Range</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; background-color: #f9f9f9;\">Minimum</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; background-color: #f9f9f9;\">Maximum</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; background-color: #f9f9f9;\">Mean</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; background-color: #f9f9f9;\">Std. Deviation</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; background-color: #f9f9f9;\">Variance</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; background-color: #f9f9f9;\">Skewness</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; background-color: #f9f9f9;\">Kurtosis</th>\n      </tr>\n      <tr>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: left; background-color: #f9f9f9;\"></th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; font-weight: normal; background-color: #f9f9f9;\">Statistic</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; font-weight: normal; background-color: #f9f9f9;\">Statistic</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; font-weight: normal; background-color: #f9f9f9;\">Statistic</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; font-weight: normal; background-color: #f9f9f9;\">Statistic</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; font-weight: normal; background-color: #f9f9f9;\">Statistic</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; font-weight: normal; background-color: #f9f9f9;\">Statistic</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; font-weight: normal; background-color: #f9f9f9;\">Statistic</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; font-weight: normal; background-color: #f9f9f9;\">Statistic</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; font-weight: normal; background-color: #f9f9f9;\">Statistic</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td style=\"border: 1px solid #000; padding: 8px; font-weight: bold;\">Vốn đầu tư doanh nghiệp</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">30</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">240.00</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">10.00</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">250.00</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">90.8333</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">80.56999</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">6491.523</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">0.869</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">-0.260</td>\n      </tr>\n      <tr>\n        <td style=\"border: 1px solid #000; padding: 8px; font-weight: bold;\">Valid N (listwise)</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">30</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\"></td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\"></td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\"></td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\"></td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\"></td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\"></td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\"></td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\"></td>\n      </tr>\n    </tbody>\n  </table></div>\n  </div>\n      Vốn đầu tư trung bình của doanh nghiệp trong khảo sát là bao nhiêu tỷ USD?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">90,8333</span></div>",
+    "A": "90,8333 tỷ USD",
+    "B": "73,62065 tỷ USD",
+    "C": "142,5 tỷ USD",
+    "D": "31,7857 tỷ USD"
+  },
+  {
+    "weight": "high",
+    "question": "Cho bảng số liệu vốn đầu tư doanh nghiệp như sau:<br>\n      <div style=\"overflow-x: auto;\">\n  <div class=\"table-responsive\"><table style=\"width: 100%; border-collapse: collapse; margin-top: 10px; margin-bottom: 15px; font-size: 14px; border: 1px solid #000;\">\n    <thead>\n      <tr>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: left; background-color: #f9f9f9;\"></th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; background-color: #f9f9f9;\">N</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; background-color: #f9f9f9;\">Range</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; background-color: #f9f9f9;\">Minimum</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; background-color: #f9f9f9;\">Maximum</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; background-color: #f9f9f9;\">Mean</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; background-color: #f9f9f9;\">Std. Deviation</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; background-color: #f9f9f9;\">Variance</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; background-color: #f9f9f9;\">Skewness</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; background-color: #f9f9f9;\">Kurtosis</th>\n      </tr>\n      <tr>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: left; background-color: #f9f9f9;\"></th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; font-weight: normal; background-color: #f9f9f9;\">Statistic</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; font-weight: normal; background-color: #f9f9f9;\">Statistic</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; font-weight: normal; background-color: #f9f9f9;\">Statistic</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; font-weight: normal; background-color: #f9f9f9;\">Statistic</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; font-weight: normal; background-color: #f9f9f9;\">Statistic</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; font-weight: normal; background-color: #f9f9f9;\">Statistic</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; font-weight: normal; background-color: #f9f9f9;\">Statistic</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; font-weight: normal; background-color: #f9f9f9;\">Statistic</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; font-weight: normal; background-color: #f9f9f9;\">Statistic</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td style=\"border: 1px solid #000; padding: 8px; font-weight: bold;\">Vốn đầu tư doanh nghiệp</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">30</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">240.00</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">10.00</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">250.00</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">90.8333</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">80.56999</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">6491.523</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">0.869</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">-0.260</td>\n      </tr>\n      <tr>\n        <td style=\"border: 1px solid #000; padding: 8px; font-weight: bold;\">Valid N (listwise)</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">30</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\"></td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\"></td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\"></td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\"></td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\"></td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\"></td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\"></td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\"></td>\n      </tr>\n    </tbody>\n  </table></div>\n  </div>\n      Vốn đầu tư nhiều nhất của doanh nghiệp trong khảo sát là bao nhiêu tỷ USD?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">250</span></div>",
+    "A": "90,8333 tỷ USD",
+    "B": "73,62065 tỷ USD",
+    "C": "142,5 tỷ USD",
+    "D": "31,7857 tỷ USD"
+  },
+  {
+    "weight": "high",
+    "question": "Cho bảng số liệu vốn đầu tư doanh nghiệp như sau:<br>\n      <div style=\"overflow-x: auto;\">\n  <div class=\"table-responsive\"><table style=\"width: 100%; border-collapse: collapse; margin-top: 10px; margin-bottom: 15px; font-size: 14px; border: 1px solid #000;\">\n    <thead>\n      <tr>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: left; background-color: #f9f9f9;\"></th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; background-color: #f9f9f9;\">N</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; background-color: #f9f9f9;\">Range</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; background-color: #f9f9f9;\">Minimum</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; background-color: #f9f9f9;\">Maximum</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; background-color: #f9f9f9;\">Mean</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; background-color: #f9f9f9;\">Std. Deviation</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; background-color: #f9f9f9;\">Variance</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; background-color: #f9f9f9;\">Skewness</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; background-color: #f9f9f9;\">Kurtosis</th>\n      </tr>\n      <tr>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: left; background-color: #f9f9f9;\"></th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; font-weight: normal; background-color: #f9f9f9;\">Statistic</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; font-weight: normal; background-color: #f9f9f9;\">Statistic</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; font-weight: normal; background-color: #f9f9f9;\">Statistic</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; font-weight: normal; background-color: #f9f9f9;\">Statistic</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; font-weight: normal; background-color: #f9f9f9;\">Statistic</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; font-weight: normal; background-color: #f9f9f9;\">Statistic</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; font-weight: normal; background-color: #f9f9f9;\">Statistic</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; font-weight: normal; background-color: #f9f9f9;\">Statistic</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; font-weight: normal; background-color: #f9f9f9;\">Statistic</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td style=\"border: 1px solid #000; padding: 8px; font-weight: bold;\">Vốn đầu tư doanh nghiệp</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">30</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">240.00</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">10.00</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">250.00</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">90.8333</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">80.56999</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">6491.523</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">0.869</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">-0.260</td>\n      </tr>\n      <tr>\n        <td style=\"border: 1px solid #000; padding: 8px; font-weight: bold;\">Valid N (listwise)</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">30</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\"></td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\"></td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\"></td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\"></td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\"></td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\"></td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\"></td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\"></td>\n      </tr>\n    </tbody>\n  </table></div>\n  </div>\n      Số doanh nghiệp trong khảo sát là bao nhiêu doanh nghiệp?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">30</span></div>",
+    "A": "90,8333 tỷ USD",
+    "B": "73,62065 tỷ USD",
+    "C": "142,5 tỷ USD",
+    "D": "31,7857 tỷ USD"
+  },
+  {
+    "weight": "high",
+    "question": "Cho bảng số liệu loại hình doanh nghiệp như sau:<br>\n      <div style=\"overflow-x: auto;\">\n  <div class=\"table-responsive\"><table style=\"width: 100%; border-collapse: collapse; margin-top: 10px; margin-bottom: 15px; font-size: 14px; border: 1px solid #000;\">\n    <thead>\n      <tr>\n        <th colspan=\"2\" style=\"border: 1px solid #000; padding: 8px; background-color: #f9f9f9;\"></th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; background-color: #f9f9f9;\">Frequency</th>\n        <th style=\"border: 1px solid #000; padding: 8px; text-align: center; background-color: #f9f9f9;\">Percent</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td rowspan=\"3\" style=\"border: 1px solid #000; padding: 8px; font-weight: bold; vertical-align: middle; width: 10%;\">Valid</td>\n        <td style=\"border: 1px solid #000; padding: 8px; font-weight: bold;\">Doanh nghiệp khác</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">14</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">46.7</td>\n      </tr>\n      <tr>\n        <td style=\"border: 1px solid #000; padding: 8px; font-weight: bold;\">Doanh nghiệp 100% vốn nước ngoài</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">16</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">53.3</td>\n      </tr>\n      <tr>\n        <td style=\"border: 1px solid #000; padding: 8px; font-weight: bold;\">Total</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">30</td>\n        <td style=\"border: 1px solid #000; padding: 8px; text-align: center;\">100.0</td>\n      </tr>\n    </tbody>\n  </table></div>\n  </div>\n      Tỷ lệ doanh nghiệp khác là bao nhiêu %?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">46,7%</span></div>",
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+  },
+  {
+    "weight": "high",
+    "question": "Đánh dấu sự khởi đầu của <span class=\"keyword\">số liệu thống kê xuất phát</span> từ",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">thế kỷ XVII</span>, công trình nghiên cứu” Những quan sát <span class=\"answer-keyword\">tỷ lệ tử vong</span>” của <span class=\"answer-keyword\">Graunt</span></div>",
+    "A": "Biến động không có quy luật và hầu như không dự đoán được; thường các biến động ngắn và không lặp lại như thiên tai, động đất, chiến tranh,…",
+    "B": "Analyze/Compare Means/Independent – Sample T Test vào hộp thoại Option điều chỉnh khoảng ước lượng theo yêu cầu",
+    "C": "một dạng suy diễn thống kê, tính toán dự trên dữ liệu mẫu để tính toán các giá trị thống kê mẫu rồi dùng như ước lượng tham số tổng thể",
+    "D": "thế kỷ XVII, công trình nghiên cứu” Những quan sát tỷ lệ tử vong” của Graunt."
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Thống kê mô tả</span> được xác định là",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> phương pháp <span class=\"answer-keyword\">tổ chức, tóm tắt</span> và trình bày dữ liệu cung cấp thông tin với kỹ thuật như <span class=\"answer-keyword\">phân bố tần số</span>, tần suất, <span class=\"answer-keyword\">đồ thị</span> và so sánh ",
+    "A": "đề cập đến một tập hợp các số riêng lẻ hoặc sự kiện số, các kỹ thuật thống kê chung hoặc cụ thể",
+    "B": "mô tả đặc điểm của tập hợp dữ liệu",
+    "C": "phương pháp tổ chức, tóm tắt và trình bày dữ liệu cung cấp thông tin với kỹ thuật như phân bố tần số, tần suất, đồ thị và so sánh",
+    "D": "phương pháp ước lượng một thuộc tính của quần thể dựa trên cơ sở mẫu"
+  },
+  {
+    "weight": "high",
+    "question": "Trong trường hợp nghiên cứu doanh nghiệp vừa và nhỏ ở TP. Trà Vinh, biết rằng <span class=\"keyword\">không biết được tỷ lệ</span> tổng thể các doanh nghiệp vừa và nhỏ ở TP. Trà Vinh, với <span class=\"keyword\">độ tin cậy 95%</span>, <span class=\"keyword\">sai số 7%</span>, việc chọn mẫu lớn an toàn và do nhiều kinh phí, thời gian cho chọn mẫu nên nhóm nghiên cứu ưu tiên chọn mẫu với số lượng <span class=\"keyword\">lớn nhất có thể</span>. Như cậy <span class=\"keyword\">cỡ mẫu</span> sẽ là bao nhiêu doanh nghiệp?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Tối thiểu <span class=\"answer-keyword\">196</span> ",
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+  },
+  {
+    "weight": "high",
+    "question": "Trong SPPS, để mô thống kê <span class=\"keyword\">tần số</span> cho biến <span class=\"keyword\">định tính</span> thì vào lệnh",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Analyze/Descriptive Statistics/<span class=\"answer-keyword\">Frequencies</span> ",
+    "A": "Analyze/Descriptive Statistics/Explore",
+    "B": "Analyze/Descriptive Statistics/Frequencies",
+    "C": "Không có đáp án đúng",
+    "D": "Analyze/Descriptive Statistics/Descriptive Statistics trong hộp thoại Statistics chọn các lệnh thống kê"
+  },
+  {
+    "weight": "high",
+    "question": "Cho bảng số liệu loại hình doanh nghiệp như sau:\n        <br><br>\n        <div style=\"overflow-x:auto;\">\n          <div class=\"table-responsive\"><table border=\"1\" cellspacing=\"0\" cellpadding=\"8\" style=\"border-collapse: collapse; width: 100%; text-align: left;\">\n            <thead>\n              <tr style=\"background-color: #f8f9fa; font-weight: bold;\">\n                <th colspan=\"2\"></th>\n                <th>Frequency</th>\n                <th>Percent</th>\n              </tr>\n            </thead>\n            <tbody>\n              <tr>\n                <td rowspan=\"3\" style=\"font-weight: bold; vertical-align: middle;\">Valid</td>\n                <td style=\"font-weight: bold;\">Doanh nghiệp khác</td>\n                <td>14</td>\n                <td>46.7</td>\n              </tr>\n              <tr>\n                <td style=\"font-weight: bold;\">Doanh nghiệp 100% vốn nước ngoài</td>\n                <td>16</td>\n                <td>53.3</td>\n              </tr>\n              <tr>\n                <td style=\"font-weight: bold;\">Total</td>\n                <td>30</td>\n                <td>100.0</td>\n              </tr>\n            </tbody>\n          </table></div>\n        </div>\n        <br>\n        <span class=\"keyword\">Số quan sát doanh nghiệp khác</span> là",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">14</span></div>",
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+  },
+  {
+    "weight": "high",
+    "question": "Cho bảng số liệu về vốn đầu tư của doanh nghiệp Mỹ như sau:\n        <br><br>\n        <div style=\"overflow-x:auto;\">\n          <div class=\"table-responsive\"><table border=\"1\" cellspacing=\"0\" cellpadding=\"5\" style=\"border-collapse: collapse; width: 100%; text-align: left; font-size: 0.9em;\">\n            <thead>\n              <tr>\n                <th colspan=\"3\" style=\"font-weight: bold;\">Vốn đầu tư</th>\n              </tr>\n            </thead>\n            <tbody>\n              <tr>\n                <td rowspan=\"2\" style=\"font-weight: bold;\">N</td>\n                <td style=\"font-weight: bold;\">Valid</td>\n                <td>14</td>\n              </tr>\n              <tr>\n                <td style=\"font-weight: bold;\">Missing</td>\n                <td>0</td>\n              </tr>\n              <tr>\n                <td colspan=\"2\" style=\"font-weight: bold;\">Mean</td>\n                <td>140.3571</td>\n              </tr>\n              <tr>\n                <td colspan=\"2\" style=\"font-weight: bold;\">Std. Error of Mean</td>\n                <td>23.86123</td>\n              </tr>\n              <tr>\n                <td colspan=\"2\" style=\"font-weight: bold;\">Median</td>\n                <td>160.0000</td>\n              </tr>\n              <tr>\n                <td colspan=\"2\" style=\"font-weight: bold;\">Mode</td>\n                <td>160.00<sup>a</sup></td>\n              </tr>\n              <tr>\n                <td colspan=\"2\" style=\"font-weight: bold;\">Std. Deviation</td>\n                <td>89.28055</td>\n              </tr>\n              <tr>\n                <td colspan=\"2\" style=\"font-weight: bold;\">Variance</td>\n                <td>7971.016</td>\n              </tr>\n              <tr>\n                <td colspan=\"2\" style=\"font-weight: bold;\">Skewness</td>\n                <td>-0.124</td>\n              </tr>\n              <tr>\n                <td colspan=\"2\" style=\"font-weight: bold;\">Std. Error of Skewness</td>\n                <td>0.597</td>\n              </tr>\n              <tr>\n                <td colspan=\"2\" style=\"font-weight: bold;\">Kurtosis</td>\n                <td>-1.243</td>\n              </tr>\n              <tr>\n                <td colspan=\"2\" style=\"font-weight: bold;\">Std. Error of Kurtosis</td>\n                <td>1.154</td>\n              </tr>\n              <tr>\n                <td colspan=\"2\" style=\"font-weight: bold;\">Range</td>\n                <td>240.00</td>\n              </tr>\n              <tr>\n                <td colspan=\"2\" style=\"font-weight: bold;\">Minimum</td>\n                <td>10.00</td>\n              </tr>\n              <tr>\n                <td colspan=\"2\" style=\"font-weight: bold;\">Maximum</td>\n                <td>250.00</td>\n              </tr>\n              <tr>\n                <td rowspan=\"3\" style=\"font-weight: bold; vertical-align: top;\">Percentiles</td>\n                <td style=\"font-weight: bold;\">25</td>\n                <td>73.7500</td>\n              </tr>\n              <tr>\n                <td style=\"font-weight: bold;\">50</td>\n                <td>160.0000</td>\n              </tr>\n              <tr>\n                <td style=\"font-weight: bold;\">75</td>\n                <td>250.0000</td>\n              </tr>\n            </tbody>\n          </table></div>\n        </div>\n        <br>\n        Vốn đầu tư của doanh nghiệp Mỹ có <span class=\"keyword\">giá trị mode</span> là bao nhiêu tỷ USD?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">160,00</span> tỷ USD</div>",
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Quá trình nghiên cứu thống kê</span> thứ tự gồm các bước sau",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">6 bước</span>: Xác định vấn đề, <span class=\"answer-keyword\">xây dựng mô hình</span>, thu thập dữ liệu đầu vào, xử lý số liệu thô, phân tích kết quả, trình bày kết quả</div>",
+    "A": "5 bước: Thu thập dữ liệu đầu vào, xây dựng mô hình, xử lý số liệu thô, phân tích kết quả, trình bày kết quả",
+    "B": "6 bước: Xác định vấn đề, thu thập dữ liệu đầu vào, xây dựng mô hình, xử lý số liệu thô, phân tích kết quả, trình bày kết quả",
+    "C": "5 bước: Xác định vấn đề, thu thập dữ liệu đầu vào, xử lý số liệu thô, phân tích kết quả, trình bày kết quả",
+    "D": "6 bước: Xác định vấn đề, xây dựng mô hình, thu thập dữ liệu đầu vào, xử lý số liệu thô, phân tích kết quả, trình bày kết quả"
+  },
+  {
+    "weight": "high",
+    "question": "Khi nghiên cứu các doanh nghiệp ở TP. Trà Vinh, <span class=\"keyword\">đơn vị chọn mẫu</span> ở đây là",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">mỗi phường</span> của TP. Trà Vinh</div>\n        <div class=\"note\">💡 Giải thích: Bẫy kinh điển! \"Phần tử\" là đơn vị nhỏ nhất (doanh nghiệp). Nhưng vì khung mẫu được lập theo \"Phường\" (như ở câu khác), nên người ta lấy mẫu theo Cụm (Cluster), và \"Đơn vị chọn mẫu\" (Sampling Unit) chính là Phường.</div>",
+    "A": "tập hợp tất cả các doanh nghiệp ở TP. Trà Vinh",
+    "B": "Danh sách liệt kê dữ liệu tất cả các doanh nghiệp tại các Phường của TP. Trà Vinh",
+    "C": "mỗi doanh nghiệp ở TP. Trà Vinh",
+    "D": "mỗi phường của TP. Trà Vinh"
+  },
+  {
+    "weight": "high",
+    "question": "Kỹ thuật <span class=\"keyword\">chọn mẫu phi xác suất</span> gồm các kỹ thuật",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Chọn mẫu <span class=\"answer-keyword\">thuận tiện</span>, Chọn mẫu <span class=\"answer-keyword\">định mức</span>, Chọn mẫu <span class=\"answer-keyword\">phát triển mầm</span> ",
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Phần tử nghiên cứu</span> là",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">đối tượng nghiên cứu</span> cần thu thập dữ liệu, <span class=\"answer-keyword\">đơn vị nhỏ nhất</span> của tổng thể</div>",
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+  },
+  {
+    "weight": "high",
+    "question": "Cho bảng số liệu vốn đầu tư doanh nghiệp như sau:\n        <br><br>\n        <div style=\"overflow-x:auto;\">\n          <div class=\"table-responsive\"><table border=\"1\" cellspacing=\"0\" cellpadding=\"8\" style=\"border-collapse: collapse; width: 100%; text-align: left;\">\n            <thead>\n              <tr style=\"background-color: #f8f9fa; font-weight: bold;\">\n                <th colspan=\"2\"></th>\n                <th>Vốn đầu tư</th>\n              </tr>\n            </thead>\n            <tbody>\n              <tr>\n                <td style=\"font-weight: bold;\">N</td>\n                <td style=\"font-weight: bold;\">Statistic</td>\n                <td>30</td>\n              </tr>\n              <tr>\n                <td style=\"font-weight: bold;\">Range</td>\n                <td style=\"font-weight: bold;\">Statistic</td>\n                <td>240.00</td>\n              </tr>\n              <tr>\n                <td style=\"font-weight: bold;\">Minimum</td>\n                <td style=\"font-weight: bold;\">Statistic</td>\n                <td>10.00</td>\n              </tr>\n              <tr>\n                <td style=\"font-weight: bold;\">Maximum</td>\n                <td style=\"font-weight: bold;\">Statistic</td>\n                <td>250.00</td>\n              </tr>\n              <tr>\n                <td style=\"font-weight: bold;\">Mean</td>\n                <td style=\"font-weight: bold;\">Statistic</td>\n                <td>90.8333</td>\n              </tr>\n              <tr>\n                <td style=\"font-weight: bold;\">Std. Deviation</td>\n                <td style=\"font-weight: bold;\">Statistic</td>\n                <td>80.56999</td>\n              </tr>\n              <tr>\n                <td style=\"font-weight: bold;\">Variance</td>\n                <td style=\"font-weight: bold;\">Statistic</td>\n                <td>6491.523</td>\n              </tr>\n              <tr>\n                <td rowspan=\"2\" style=\"font-weight: bold; vertical-align: middle;\">Skewness</td>\n                <td style=\"font-weight: bold;\">Statistic</td>\n                <td>0.869</td>\n              </tr>\n              <tr>\n                <td style=\"font-weight: bold;\">Std. Error</td>\n                <td>0.427</td>\n              </tr>\n              <tr>\n                <td rowspan=\"2\" style=\"font-weight: bold; vertical-align: middle;\">Kurtosis</td>\n                <td style=\"font-weight: bold;\">Statistic</td>\n                <td>-0.260</td>\n              </tr>\n              <tr>\n                <td style=\"font-weight: bold;\">Std. Error</td>\n                <td>0.833</td>\n              </tr>\n            </tbody>\n          </table></div>\n        </div>\n        <br>\n        Dữ liệu về vốn đầu tư có đường cong <span class=\"keyword\">phân phối lệch sang trái hay sang phải</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">0,869</span>, lệch sang <span class=\"answer-keyword\">phải</span></div>",
+    "A": "250 tỷ USD",
+    "B": "80,56999 tỷ USD",
+    "C": "90,8333 tỷ USD",
+    "D": "240 tỷ USD"
+  },
+  {
+    "weight": "high",
+    "question": "Để ước lượng khoảng cho sự <span class=\"keyword\">khác biệt giữa hai trung bình</span> tổng thể trường hợp mẫu <span class=\"keyword\">theo cặp</span>, lệnh nào sau đây phù hợp nhất?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Analyze/Compare Means/Paired – Sample T Test vào hộp thoại Option điều chỉnh khoảng ước lượng theo yêu cầu</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "Analyze/Descriptive Statisitics/Explore vào hộp thoại Statistics điều chỉnh khoảng ước lượng theo yêu cầu",
+    "B": "Analyze/Compare Means/Independent – Sample T Test vào hộp thoại Option điều chỉnh khoảng ước lượng theo yêu cầu",
+    "C": "Analyze/Descriptive Statistics/Frequencies vào hộp thoại Bootstrap điều chỉnh khoảng ước lượng theo yếu cầu",
+    "D": "Analyze/Compare Means/Paired – Sample T Test vào hộp thoại Option điều chỉnh khoảng ước lượng theo yêu cầu"
+  },
+  {
+    "weight": "high",
+    "question": "Để ước lượng khoảng cho giá trị <span class=\"keyword\">một trung bình</span>, lệnh nào sau đây phù hợp nhất?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Analyze/Descriptive Statisitics/Explore vào hộp thoại Statistics điều chỉnh khoảng ước lượng theo yêu cầu</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "Analyze/Compare Means/Paired – Sample T Test vào hộp thoại Option điều chỉnh khoảng ước lượng theo yêu cầu",
+    "B": "Analyze/Compare Means/Independent – Sample T Test vào hộp thoại Option điều chỉnh khoảng ước lượng theo yêu cầu",
+    "C": "Analyze/Descriptive Statisitics/Explore vào hộp thoại Statistics điều chỉnh khoảng ước lượng theo yêu cầu",
+    "D": "Analyze/Descriptive Statistics/Frequencies vào hộp thoại Bootstrap điều chỉnh khoảng ước lượng theo yếu cầu"
+  },
+  {
+    "weight": "high",
+    "question": "Nhận định nào sao đây <span class=\"keyword\">đúng nhất về biến số</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Analyze/Nonparametric Test/Legacy Dialogs/2 Related Samples trong mục Test Type chọn Wilcoxon</span></div><br>- Hoặc: <span class=\"answer-keyword\">Những đại lượng thay đổi từ người này sang người khác hay từ thời điểm này sang thời điểm khác; thể hiện một đại lượng đi kèm với một đơn vị hoặc thể hiện một đặc tính và đại lượng quan tâm đến việc lý giải nguyên nhân và bị ảnh hưởng bởi các yếu tố khác</span>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "Những đại lượng thay đổi từ người này sang người khác hay từ thời điểm này sang thời điểm khác; thể hiện một đại lượng đi kèm với một đơn vị hoặc thể hiện một đặc tính và đại lượng quan tâm đến việc lý giải nguyên nhân và bị ảnh hưởng bởi các yếu tố khác",
+    "B": "Những đại lượng thay đổi từ người này sang người khác hay từ thời điểm này sang thời điểm khác",
+    "C": "Đại lượng quan tâm đến việc lý giải nguyên nhân và bị ảnh hưởng bởi các yếu tố khác",
+    "D": "Thể hiện một đại lượng đi kèm với một đơn vị hoặc thể hiện một đặc tính"
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Kiểm định t với mẫu độc lập</span> là kiểm định sử dụng",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Khi hai yếu tố nghiên cứu là biến <span class=\"answer-keyword\">định tính và định lượng</span>, cho biết <span class=\"answer-keyword\">khác biệt</span> của hai <span class=\"answer-keyword\">trung bình</span> tổng thể ",
+    "A": "Khi hai yếu tố nghiên cứu là biến định tính và định lượng, cho biết khác biệt của hai trung bình tổng thể",
+    "B": "Khi hai yếu tố nghiên cứu là biến định tính và định tính, cho biết khác biệt của hai trung bình tổng thể; và khi hai yếu tố nghiên cứu là biến định tính và định lượng, cho biết khác biệt của hai trung bình tổng thể",
+    "C": "Khi hai yếu tố nghiên cứu là biến định tính và định tính, cho biết khác biệt của hai trung bình tổng thể",
+    "D": "Khi hai yếu tố nghiên cứu là biến định tính và định lượng, cho biết có mối liên hệ giữa hai biến định tính"
+  },
+  {
+    "weight": "high",
+    "question": "Nhận định nào sau đây đúng về <span class=\"keyword\">giả thuyết và dối thuyết phí tham số</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Những dãy số biểu hiện sự biến động của hiện tượng nghiên cứu theo thời kỳ</span></div><br>- Hoặc: <span class=\"answer-keyword\">Giả thuyết và dối thuyết không nói về tham số có mặt trong quy luật phân phối của tổng thể, biến chính là biến định tính</span>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "Giả thuyết và dối thuyết nói về tham số có mặt trong quy luật phân phối của tổng thể",
+    "B": "Giả thuyết và dối thuyết không nói về tham số có mặt trong quy luật phân phối của tổng thể",
+    "C": "Giả thuyết và dối thuyết không nói về tham số có mặt trong quy luật phân phối của tổng thể, biến chính là biến định tính",
+    "D": "Giả thuyết và dối thuyết nói về tham số có mặt trong quy luật phân phối của tổng thể, biến chính là biến định lượng"
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Giả thuyết thống kê</span> là",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Một mệnh đề hay một phát biểu khẳng định về một vấn đề chưa giải quyết nào đó</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "Các giá trị tính toán từ mẫu khảo sát, kết quả giá trị khảo sát đưa ra kết luận",
+    "B": "Một mệnh đề hay một phát biểu khẳng định về một vấn đề chưa giải quyết nào đó; hay một kết quả hay kết luận cụ thể nhằm khẳng định về một vấn đề chưa giải quyết nào đó hoặc các giá trị tính toán từ mẫu khảo sát, kết quả giá trị khảo sát đưa ra kết luận",
+    "C": "Một mệnh đề hay một phát biểu khẳng định về một vấn đề chưa giải quyết nào đó",
+    "D": "Một kết quả hay kết luận cụ thể nhằm khẳng định về một vấn đề chưa giải quyết nào đó"
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Kiểm định dấu</span> được sử dụng",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Sử dụng kiểm tra sự khác biệt cho mẫu <span class=\"answer-keyword\">phối hợp theo cặp</span> đối với biến <span class=\"answer-keyword\">định tính</span>, mẫu phối hợp <span class=\"answer-keyword\">phụ thuộc</span> ",
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+  },
+  {
+    "weight": "high",
+    "question": "Cột kết quả <span class=\"keyword\">Standardized Coefficients/Beta</span>, dùng cho mục đích",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">So sánh mức độ tác động</span> của biến độc lập đối với biến phụ thuộc</div>",
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Phân tích tương quan tuyến tính</span> là",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Đo mức độ tương quan tuyến tính giữa các biến</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "Đo mức độ tương quan tuyến tính và phi tuyến giữa các biến",
+    "B": "Đo mức độ tương quan tuyến tính giữa các biến",
+    "C": "Không đo mức độ tương quan tuyến tính giữa các biến",
+    "D": "Đo mức độ tương quan phi tuyến giữa các biến"
+  },
+  {
+    "weight": "high",
+    "question": "Những <span class=\"keyword\">vấn đề khi sử dụng hồi quy đơn</span> cho dự báo gồm",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Không quan tâm đến số liệu mà chỉ quan tâm đến kết quả đầu ra của dữ liệu; kiểm tra dấu của hệ số góc dựa theo các lý thuyết, quy luật kinh tế và ý nghĩa thống kê hệ số góc và mô hình hồi quy phù hợp</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "Ý nghĩa thống kê hệ số góc và mô hình hồi quy phù hợp",
+    "B": "Không quan tâm đến số liệu mà chỉ quan tâm đến kết quả đầu ra của dữ liệu; kiểm tra dấu của hệ số góc dựa theo các lý thuyết, quy luật kinh tế và ý nghĩa thống kê hệ số góc và mô hình hồi quy phù hợp",
+    "C": "Không quan tâm đến số liệu mà chỉ quan tâm đến kết quả đầu ra của dữ liệu",
+    "D": "Kiểm tra dấu của hệ số góc dựa theo các lý thuyết, quy luật kinh tế The current local time is: 2026-07-16T16:03:03+07:00. Ê mày còn nhớ cơ chế lọc trùng không dãy The current local time is: 2026-07-16T16:05:18+07:00. The current local time is: 2026-07-16T16:11:32+07:00. The current local time is: 2026-07-16T16:13:40+07:00. ủa chưa xong luôn hả The current local time is: 2026-07-16T16:43:42+07:00. Bỏ giúp tao mấy cái màu nền icon môn học ở trang chủ với, nhìn quê quá The current local time is: 2026-07-16T16:54:11+07:00. Đọc lại file template để cập nhật những tối ưu mới nhất nha The current local time is: 2026-07-16T22:34:13+07:00. Cái tao muốn là mày cập nhật những tính năng mới và các tối ưu tao vừa chốt xong và thêm vào file template để đồng bộ chung process & thuật toán của toàn bộ chương trình học á The current local time is: 2026-07-16T22:39:51+07:00. Mày rà lại toàn bộ các câu hỏi của bộ ngân hàng đề của môn THỐNG KÊ ỨNG DỤNG TRONG KINH DOANH và đối chiếu lại với lịch sử chat để đảm bảo mỗi câu đều lưu đúng 4 đáp án của trường khi tao đưa câu hỏi cho mày từ trước tới giờ. The current local time is: 2026-07-16T22:57:47+07:00."
+  },
+  {
+    "weight": "high",
+    "question": "Các <span class=\"keyword\">dạng dự báo bằng hồi quy tuyến tính đơn</span> có thể sử dụng trên thực tế gồm",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Dự báo bằng hồi quy</span> theo thời gian và hồi quy theo nhân quả</div>",
+    "A": "Dự báo bằng hồi quy theo nhân quả",
+    "B": "Không phải dự báo bằng hồi quy theo thời gian và hồi quy theo nhân quả",
+    "C": "Dự báo bằng hồi quy theo thời gian",
+    "D": "Dự báo bằng hồi quy theo thời gian và hồi quy theo nhân quả"
+  },
+  {
+    "weight": "high",
+    "question": "Cho bảng số liệu vốn đầu tư theo loại hình doanh nghiệp như sau:\n        <br><br>\n        <div style=\"overflow-x:auto;\">\n          <div class=\"table-responsive\"><table border=\"1\" cellspacing=\"0\" cellpadding=\"8\" style=\"border-collapse: collapse; width: 100%; text-align: left;\">\n            <thead>\n              <tr style=\"background-color: #f8f9fa; font-weight: bold;\">\n                <th>Loại hình doanh nghiệp</th>\n                <th>Mean</th>\n                <th>N</th>\n                <th>Std. Deviation</th>\n              </tr>\n            </thead>\n            <tbody>\n              <tr>\n                <td style=\"font-weight: bold;\">Doanh nghiệp khác</td>\n                <td>31.7857</td>\n                <td>14</td>\n                <td>34.45215</td>\n              </tr>\n              <tr>\n                <td style=\"font-weight: bold;\">Doanh nghiệp 100% vốn nước ngoài</td>\n                <td>142.5000</td>\n                <td>16</td>\n                <td>73.62065</td>\n              </tr>\n              <tr>\n                <td style=\"font-weight: bold;\">Total</td>\n                <td style=\"font-weight: bold;\">90.8333</td>\n                <td style=\"font-weight: bold;\">30</td>\n                <td style=\"font-weight: bold;\">80.56999</td>\n              </tr>\n            </tbody>\n          </table></div>\n        </div>\n        <br>\n        Vốn đầu tư trung bình của <span class=\"keyword\">doanh nghiệp khác</span> là bao nhiêu tỷ USD?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">31,7857</span> tỷ USD</div>",
+    "A": "90,8333 tỷ USD",
+    "B": "34,45215 tỷ USD",
+    "C": "31,7857 tỷ USD",
+    "D": "73,62065 tỷ USD"
+  },
+  {
+    "weight": "high",
+    "question": "Dựa vào kết quả thu được từ SPSS:\n        <br><br>\n        <div style=\"overflow-x:auto;\">\n          <div class=\"table-responsive\"><table border=\"1\" cellspacing=\"0\" cellpadding=\"8\" style=\"border-collapse: collapse; width: 100%; text-align: left;\">\n            <thead>\n              <tr style=\"background-color: #f8f9fa; font-weight: bold;\">\n                <th colspan=\"3\"></th>\n                <th colspan=\"2\">Thu nhap</th>\n              </tr>\n              <tr style=\"background-color: #f8f9fa; font-weight: bold;\">\n                <th colspan=\"3\"></th>\n                <th>Equal variances assumed</th>\n                <th>Equal variances not assumed</th>\n              </tr>\n            </thead>\n            <tbody>\n              <tr>\n                <td rowspan=\"2\" style=\"font-weight: bold; vertical-align: middle;\">Levene's Test for Equality of Variances</td>\n                <td colspan=\"2\" style=\"font-weight: bold;\">F</td>\n                <td>57.500</td>\n                <td></td>\n              </tr>\n              <tr>\n                <td colspan=\"2\" style=\"font-weight: bold;\">Sig.</td>\n                <td>0.000</td>\n                <td></td>\n              </tr>\n              <tr>\n                <td rowspan=\"7\" style=\"font-weight: bold; vertical-align: middle;\">t-test for Equality of Means</td>\n                <td colspan=\"2\" style=\"font-weight: bold;\">t</td>\n                <td>17.613</td>\n                <td>14.050</td>\n              </tr>\n              <tr>\n                <td colspan=\"2\" style=\"font-weight: bold;\">df</td>\n                <td>319</td>\n                <td>129.406</td>\n              </tr>\n              <tr>\n                <td colspan=\"2\" style=\"font-weight: bold;\">Sig. (2-tailed)</td>\n                <td>0.000</td>\n                <td>0.000</td>\n              </tr>\n              <tr>\n                <td colspan=\"2\" style=\"font-weight: bold;\">Mean Difference</td>\n                <td>5172025.740</td>\n                <td>5172025.740</td>\n              </tr>\n              <tr>\n                <td colspan=\"2\" style=\"font-weight: bold;\">Std. Error Difference</td>\n                <td>293640.1294</td>\n                <td>368118.3433</td>\n              </tr>\n              <tr>\n                <td rowspan=\"2\" style=\"font-weight: bold; vertical-align: middle;\">95% Confidence Interval of the Difference</td>\n                <td style=\"font-weight: bold;\">Lower</td>\n                <td>4594309.814</td>\n                <td>4443716.215</td>\n              </tr>\n              <tr>\n                <td style=\"font-weight: bold;\">Upper</td>\n                <td>5749741.666</td>\n                <td>5900335.265</td>\n              </tr>\n            </tbody>\n          </table></div>\n        </div>\n        <br>\n        Cho biết ước lượng khoảng (độ tin cậy 95%) cho sự khác biệt thu nhập trung bình của chủ hộ <span class=\"keyword\">chưa tốt nghiệp THPT và tốt nghiệp THPT</span>.",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">43,8%</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "(43,8 %; 56,3%)",
+    "B": "(25,9 %; 35,5%)",
+    "C": "(35,5 %; 74,1%)",
+    "D": "(25,9 %; 64,5%)"
+  },
+  {
+    "weight": "high",
+    "question": "Dựa vào kết quả thu được từ SPSS:\n        <br><br>\n        <div style=\"overflow-x:auto;\">\n          <div class=\"table-responsive\"><table border=\"1\" cellspacing=\"0\" cellpadding=\"8\" style=\"border-collapse: collapse; width: 100%; text-align: left;\">\n            <thead>\n              <tr style=\"background-color: #f8f9fa; font-weight: bold;\">\n                <th colspan=\"3\"></th>\n                <th>Pair 1<br>Truoc cai tien - Sau cai tien</th>\n              </tr>\n            </thead>\n            <tbody>\n              <tr>\n                <td rowspan=\"5\" style=\"font-weight: bold; vertical-align: middle;\">Paired Differences</td>\n                <td colspan=\"2\" style=\"font-weight: bold;\">Mean</td>\n                <td>-4.90000</td>\n              </tr>\n              <tr>\n                <td colspan=\"2\" style=\"font-weight: bold;\">Std. Deviation</td>\n                <td>4.48330</td>\n              </tr>\n              <tr>\n                <td colspan=\"2\" style=\"font-weight: bold;\">Std. Error Mean</td>\n                <td>1.41774</td>\n              </tr>\n              <tr>\n                <td rowspan=\"2\" style=\"font-weight: bold; vertical-align: middle;\">95% Confidence Interval of the Difference</td>\n                <td style=\"font-weight: bold;\">Lower</td>\n                <td>-8.10716</td>\n              </tr>\n              <tr>\n                <td style=\"font-weight: bold;\">Upper</td>\n                <td>-1.69284</td>\n              </tr>\n              <tr>\n                <td colspan=\"3\" style=\"font-weight: bold;\">t</td>\n                <td>-3.456</td>\n              </tr>\n              <tr>\n                <td colspan=\"3\" style=\"font-weight: bold;\">df</td>\n                <td>9</td>\n              </tr>\n              <tr>\n                <td colspan=\"3\" style=\"font-weight: bold;\">Sig. (2-tailed)</td>\n                <td>0.007</td>\n              </tr>\n            </tbody>\n          </table></div>\n        </div>\n        <br>\n        Cho biết ước lượng khoảng (độ tin cậy 95%) cho sự khác biệt trung bình năng suất lao động <span class=\"keyword\">trước và sau cải tiến</span>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">(-8,10716; -1,6928)</span> kg/ngày; <span class=\"answer-keyword\">có sự khác biệt</span> năng suất trước và sau cải tiến</div>",
+    "A": "(43,8 %; 56,3%)",
+    "B": "(25,9 %; 35,5%)",
+    "C": "(35,5 %; 74,1%)",
+    "D": "(25,9 %; 64,5%)"
+  },
+  {
+    "weight": "high",
+    "question": "Dựa vào kết quả thu được từ SPSS:\n        <br><br>\n        <div style=\"overflow-x:auto;\">\n          <div class=\"table-responsive\"><table border=\"1\" cellspacing=\"0\" cellpadding=\"8\" style=\"border-collapse: collapse; width: 100%; text-align: left;\">\n            <thead>\n              <tr style=\"background-color: #f8f9fa; font-weight: bold;\">\n                <th colspan=\"3\" rowspan=\"2\"></th>\n                <th colspan=\"2\">Valid</th>\n                <th rowspan=\"2\">Total</th>\n              </tr>\n              <tr style=\"background-color: #f8f9fa; font-weight: bold;\">\n                <th>chua tot nghiep THPT</th>\n                <th>tot nghiep THPT</th>\n              </tr>\n            </thead>\n            <tbody>\n              <tr>\n                <td colspan=\"3\" style=\"font-weight: bold;\">Frequency</td>\n                <td>18</td>\n                <td>14</td>\n                <td>32</td>\n              </tr>\n              <tr>\n                <td colspan=\"3\" style=\"font-weight: bold;\">Percent</td>\n                <td>56.3</td>\n                <td>43.8</td>\n                <td>100.0</td>\n              </tr>\n              <tr>\n                <td colspan=\"3\" style=\"font-weight: bold;\">Valid Percent</td>\n                <td>56.3</td>\n                <td>43.8</td>\n                <td>100.0</td>\n              </tr>\n              <tr>\n                <td colspan=\"3\" style=\"font-weight: bold;\">Cumulative Percent</td>\n                <td>56.3</td>\n                <td>100.0</td>\n                <td></td>\n              </tr>\n              <tr>\n                <td rowspan=\"4\" style=\"font-weight: bold; vertical-align: middle;\">Bootstrap for Percent</td>\n                <td colspan=\"2\" style=\"font-weight: bold;\">Bias</td>\n                <td>-0.6</td>\n                <td>0.6</td>\n                <td>0.0</td>\n              </tr>\n              <tr>\n                <td colspan=\"2\" style=\"font-weight: bold;\">Std. Error</td>\n                <td>9.1</td>\n                <td>9.1</td>\n                <td>0.0</td>\n              </tr>\n              <tr>\n                <td rowspan=\"2\" style=\"font-weight: bold; vertical-align: middle;\">95% Confidence Interval</td>\n                <td style=\"font-weight: bold;\">Lower</td>\n                <td>35.5</td>\n                <td>25.9</td>\n                <td>100.0</td>\n              </tr>\n              <tr>\n                <td style=\"font-weight: bold;\">Upper</td>\n                <td>74.1</td>\n                <td>64.5</td>\n                <td>100.0</td>\n              </tr>\n            </tbody>\n          </table></div>\n        </div>\n        <br>\n        Cho biết ước lượng khoảng (độ tin cậy 95%) của tỷ lệ chủ hộ có trình độ <span class=\"keyword\">tốt nghiệp THPT</span>.",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">(25,9 %; 64,5%)</span></div>\n        <div class=\"note\">💡 Giải thích: Nhìn vào cột \"tot nghiep THPT\", đối chiếu xuống hàng \"95% Confidence Interval\" -> Lower: 25.9, Upper: 64.5.</div>",
+    "A": "(43,8 %; 56,3%)",
+    "B": "(25,9 %; 35,5%)",
+    "C": "(35,5 %; 74,1%)",
+    "D": "(25,9 %; 64,5%)"
+  },
+  {
+    "weight": "high",
+    "question": "Dựa vào kết quả thu được từ SPSS:\n        <br><br>\n        <div style=\"overflow-x:auto;\">\n          <div class=\"table-responsive\"><table border=\"1\" cellspacing=\"0\" cellpadding=\"8\" style=\"border-collapse: collapse; width: 100%; text-align: left;\">\n            <thead>\n              <tr style=\"background-color: #f8f9fa; font-weight: bold;\">\n                <th colspan=\"3\" rowspan=\"2\"></th>\n                <th colspan=\"2\">Valid</th>\n                <th rowspan=\"2\">Total</th>\n              </tr>\n              <tr style=\"background-color: #f8f9fa; font-weight: bold;\">\n                <th>chua tot nghiep THPT</th>\n                <th>tot nghiep THPT</th>\n              </tr>\n            </thead>\n            <tbody>\n              <tr>\n                <td colspan=\"3\" style=\"font-weight: bold;\">Frequency</td>\n                <td>18</td>\n                <td>14</td>\n                <td>32</td>\n              </tr>\n              <tr>\n                <td colspan=\"3\" style=\"font-weight: bold;\">Percent</td>\n                <td>56.3</td>\n                <td>43.8</td>\n                <td>100.0</td>\n              </tr>\n              <tr>\n                <td colspan=\"3\" style=\"font-weight: bold;\">Valid Percent</td>\n                <td>56.3</td>\n                <td>43.8</td>\n                <td>100.0</td>\n              </tr>\n              <tr>\n                <td colspan=\"3\" style=\"font-weight: bold;\">Cumulative Percent</td>\n                <td>56.3</td>\n                <td>100.0</td>\n                <td></td>\n              </tr>\n              <tr>\n                <td rowspan=\"4\" style=\"font-weight: bold; vertical-align: middle;\">Bootstrap for Percent</td>\n                <td colspan=\"2\" style=\"font-weight: bold;\">Bias</td>\n                <td>-0.6</td>\n                <td>0.6</td>\n                <td>0.0</td>\n              </tr>\n              <tr>\n                <td colspan=\"2\" style=\"font-weight: bold;\">Std. Error</td>\n                <td>9.1</td>\n                <td>9.1</td>\n                <td>0.0</td>\n              </tr>\n              <tr>\n                <td rowspan=\"2\" style=\"font-weight: bold; vertical-align: middle;\">95% Confidence Interval</td>\n                <td style=\"font-weight: bold;\">Lower</td>\n                <td>35.5</td>\n                <td>25.9</td>\n                <td>100.0</td>\n              </tr>\n              <tr>\n                <td style=\"font-weight: bold;\">Upper</td>\n                <td>74.1</td>\n                <td>64.5</td>\n                <td>100.0</td>\n              </tr>\n            </tbody>\n          </table></div>\n        </div>\n        <br>\n        Cho biết ước lượng khoảng (độ tin cậy 95%) của tỷ lệ chủ hộ có trình độ <span class=\"keyword\">chưa tốt nghiệp THPT</span>.",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">(35,5 %; 74,1%)</span></div>\n        <div class=\"note\">💡 Giải thích: Cùng một cái bảng như câu trên, nhưng hỏi cột \"chua tot nghiep THPT\", đối chiếu xuống hàng \"95% Confidence Interval\" -> Lower: 35.5, Upper: 74.1.</div>",
+    "A": "(43,8 %; 56,3%)",
+    "B": "(25,9 %; 35,5%)",
+    "C": "(35,5 %; 74,1%)",
+    "D": "(25,9 %; 64,5%)"
+  },
+  {
+    "weight": "high",
+    "question": "Nhận định nào sau đây đúng nhất về <span class=\"keyword\">sai số ngẫu nhiên</span> trong mô hình hồi quy?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Giá trị phần dư mô tả sự không đầy đủ của mô hình hồi quy</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "Giả thuyết và dối thuyết nói về tham số có mặt trong quy luật phân phối của tổng thể",
+    "B": "Giả thuyết và dối thuyết không nói về tham số có mặt trong quy luật phân phối của tổng thể",
+    "C": "Giả thuyết và dối thuyết không nói về tham số có mặt trong quy luật phân phối của tổng thể, biến chính là biến định tính",
+    "D": "Giả thuyết và dối thuyết nói về tham số có mặt trong quy luật phân phối của tổng thể, biến chính là biến định lượng"
+  },
+  {
+    "weight": "high",
+    "question": "Mô hình hồi quy tuyến tính <span class=\"keyword\">đơn</span> là mô hình hồi quy có",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Một biến độc lập và một biến phụ thuộc</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "Có nhiều biến phụ thuộc và một biến độc lập",
+    "B": "Một biến độc lập và một biến phụ thuộc",
+    "C": "Một biến phụ thuộc và có nhiều biến độc lập",
+    "D": "Có nhiều biến độc lập và nhiều biến phụ thuộc"
+  },
+  {
+    "weight": "high",
+    "question": "Kiểm định <span class=\"keyword\">sự phù hợp</span> của mô hình hồi quy cho kết luận",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Mô hình hồi quy phù hợp với mức ý nghĩa đã chọn; hoặc có ít nhất một biến độc lập có thể giải thích được sự thay đổi của biến phụ thuộc; hoặc đối với hồi quy tuyến tính đơn, kiểm định này tương đồng với kiểm định tham số của biến độc lập</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "Mô hình hồi quy phù hợp với mức ý nghĩa đã chọn; hoặc có ít nhất một biến độc lập có thể giải thích được sự thay đổi của biến phụ thuộc; hoặc đối với hồi quy tuyến tính đơn, kiểm định này tương đồng với kiểm định tham số của biến độc lập",
+    "B": "Mô hình hồi quy phù hợp với mức ý nghĩa đã chọn",
+    "C": "Có ít nhất một biến độc lập có thể giải thích được sự thay đổi của biến phụ thuộc",
+    "D": "Đối với hồi quy tuyến tính đơn, kiểm định này tương đồng với kiểm định tham số của biến độc lập"
+  },
+  {
+    "weight": "high",
+    "question": "Kiểm định tự tương quan dựa vào giá trị Durbin-Watson, các nhận định nào sau đây <span class=\"keyword\">không đúng</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Khoảng <span class=\"answer-keyword\">dU cho đến 4 – dU</span> xác định <span class=\"answer-keyword\">có</span> tự tương quan ",
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+  },
+  {
+    "weight": "high",
+    "question": "Nhận định nào sau đây đúng nhất về chuỗi <span class=\"keyword\">thời điểm</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Những dãy số biểu hiện sự biến động của hiện tượng nghiên cứu theo thời kỳ</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "Chuỗi các giá trị nghiên cứu được sắp xếp theo thứ tự thời gian",
+    "B": "Những dãy số biểu hiện sự biến động của hiện tượng nghiên cứu ở những thời điểm nhất định",
+    "C": "Những dãy số biểu hiện sự biến động của hiện tượng nghiên cứu theo thời kỳ",
+    "D": "Những dãy số biểu hiện sự biến động của hiện tượng nghiên cứu theo thời kỳ hoặc ở những mùa nhất định"
+  },
+  {
+    "weight": "high",
+    "question": "Nhận định nào sau đây đúng nhất về chuỗi <span class=\"keyword\">thời kỳ</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Những dãy số biểu hiện sự biến động của hiện tượng nghiên cứu <span class=\"answer-keyword\">theo thời kỳ</span> ",
+    "A": "Những dãy số biểu hiện sự biến động của hiện tượng nghiên cứu theo thời kỳ",
+    "B": "Chuỗi các giá trị nghiên cứu được sắp xếp theo thứ tự thời gian",
+    "C": "Những dãy số biểu hiện sự biến động của hiện tượng nghiên cứu ở những thời điểm nhất định",
+    "D": "Những dãy số biểu hiện sự biến động của hiện tượng nghiên cứu theo thời kỳ hoặc ở những mùa nhất định"
+  },
+  {
+    "weight": "high",
+    "question": "Nghiên cứu biến động chuỗi thời gian, các <span class=\"keyword\">yếu tố ngẫu nhiên</span> được hiểu là",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Biến động <span class=\"answer-keyword\">không có quy luật</span> và hầu như <span class=\"answer-keyword\">không dự đoán được</span>; thường các biến động ngắn và không lặp lại như thiên tai, động đất, chiến tranh,… ",
+    "A": "Biến động tăng hoặc giảm của hiện tượng ở một thời điểm (tháng hay quý) được lặp đi lặp lại qua nhiều năm, thường do thời tiết, khí hậu, tập quán xã hội hay tín ngưỡng",
+    "B": "Biến động không có quy luật và hầu như không dự đoán được; thường các biến động ngắn và không lặp lại như thiên tai, động đất, chiến tranh,…",
+    "C": "Biến động của hiện tượng được lặp lại với một chu kỳ nhất định, thường kéo dài 2 đến 10 năm; thường do tác động chu kỳ kinh tế hay kinh doanh như suy thoái kinh tế, lạm phát hoặc vòng đồi sản phẩm",
+    "D": "Biến động tăng hoặc giảm của hiện tượng nghiên cứu trong thời gian dài, những biến động xu hướng như lạm phát, tăng dân số, tăng trưởng hay thay đổi công nghệ"
+  },
+  {
+    "weight": "high",
+    "question": "Cho mô hình hồi quy tuyến tính đa biến và kết quả thu được từ SPSS như sau: Model Summary<br><div style=\"overflow-x: auto;\">\n<table class=\"spss-table\">\n  <thead>\n    <tr>\n      <th rowspan=\"2\">Model</th>\n      <th rowspan=\"2\">R</th>\n      <th rowspan=\"2\">R Square</th>\n      <th rowspan=\"2\">Adjusted R Square</th>\n      <th rowspan=\"2\">Std. Error of the Estimate</th>\n      <th colspan=\"5\">Change Statistics</th>\n      <th rowspan=\"2\">Durbin-Watson</th>\n    </tr>\n    <tr>\n      <th>R Square Change</th>\n      <th>F Change</th>\n      <th>df1</th>\n      <th>df2</th>\n      <th>Sig. F Change</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>1</td>\n      <td>0.968<sup>a</sup></td>\n      <td>0.937</td>\n      <td>0.931</td>\n      <td>577.48223</td>\n      <td>0.937</td>\n      <td>149.003</td>\n      <td>9</td>\n      <td>90</td>\n      <td>0.000</td>\n      <td>2.041</td>\n    </tr>\n  </tbody>\n</table>\n</div>\n<div class=\"spss-notes\"></div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Adjusted R Square = 0,931, các biến có mặt trong mô hình hồi quy đã giải thích được 93,1% sự thay đổi lượng tiền vay từ định chế chính thức</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "Adjusted R Square = 0,931, các biến có mặt trong mô hình hồi quy đã giải thích được 93,1% sự thay đổi lượng tiền vay từ định chế chính thức",
+    "B": "R Square Change = 0,937, các biến có mặt trong mô hình hồi quy đã giải thích được 93,7% sự thay đổi lượng tiền vay từ định chế chính thức",
+    "C": "R = 0,968, các biến có mặt trong mô hình hồi quy đã giải thích được 96,8% sự thay đổi lượng tiền vay từ định chế chính thức",
+    "D": "R Square = 0,931, các biến có mặt trong mô hình hồi quy đã giải thích được 93,1% sự thay đổi lượng tiền vay từ định chế chính thức"
+  },
+  {
+    "weight": "high",
+    "question": "Cho giá trị hệ số tương quan tuyến tính <span class=\"keyword\">|r| = 1</span>, giá trị này có ý nghĩa",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Các điểm phân tán trên đồ thị xếp thành <span class=\"answer-keyword\">một đường thẳng</span> ",
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+  },
+  {
+    "weight": "high",
+    "question": "Cho mô hình hồi quy tuyến tính đa biến với kết quả thu được từ SPSS như sau:<br><div style=\"overflow-x: auto;\">\n<table class=\"spss-table\">\n  <thead>\n    <tr>\n      <th rowspan=\"2\" colspan=\"2\">Model</th>\n      <th colspan=\"2\">Unstandardized Coefficients</th>\n      <th>Standardized Coefficients</th>\n      <th rowspan=\"2\">t</th>\n      <th rowspan=\"2\">Sig.</th>\n    </tr>\n    <tr>\n      <th>B</th>\n      <th>Std. Error</th>\n      <th>Beta</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td rowspan=\"10\">1</td>\n      <td>(Constant)</td>\n      <td>-1339.228</td>\n      <td>424.071</td>\n      <td></td>\n      <td>-3.158</td>\n      <td>0.002</td>\n    </tr>\n    <tr>\n      <td>Niem yet chung khoan</td>\n      <td>298.823</td>\n      <td>140.958</td>\n      <td>0.061</td>\n      <td>2.120</td>\n      <td>0.037</td>\n    </tr>\n    <tr>\n      <td>Linh vuc kinh doanh</td>\n      <td>-201.514</td>\n      <td>142.748</td>\n      <td>-0.046</td>\n      <td>-1.412</td>\n      <td>0.161</td>\n    </tr>\n    <tr>\n      <td>Thoi gian hoat dong cua DN (nam)</td>\n      <td>37.289</td>\n      <td>27.998</td>\n      <td>0.043</td>\n      <td>1.332</td>\n      <td>0.186</td>\n    </tr>\n    <tr>\n      <td>Kinh nghiem quan ly cua DN (nam)</td>\n      <td>8.126</td>\n      <td>16.209</td>\n      <td>0.014</td>\n      <td>0.501</td>\n      <td>0.617</td>\n    </tr>\n    <tr>\n      <td>Tong tai san cua DN (trieu dong)</td>\n      <td>0.018</td>\n      <td>0.010</td>\n      <td>0.053</td>\n      <td>1.839</td>\n      <td>0.069</td>\n    </tr>\n    <tr>\n      <td>Tai san co the the chap cua DN (trieu dong)</td>\n      <td>0.675</td>\n      <td>0.020</td>\n      <td>0.958</td>\n      <td>33.800</td>\n      <td>0.000</td>\n    </tr>\n    <tr>\n      <td>Ty so no (%)</td>\n      <td>-173.951</td>\n      <td>103.564</td>\n      <td>-0.045</td>\n      <td>-1.680</td>\n      <td>0.096</td>\n    </tr>\n    <tr>\n      <td>Toc do tang truong cua doanh thu (%)</td>\n      <td>533.177</td>\n      <td>287.780</td>\n      <td>0.053</td>\n      <td>1.853</td>\n      <td>0.067</td>\n    </tr>\n    <tr>\n      <td>Loi nhuan (trieu dong)</td>\n      <td>1.034</td>\n      <td>0.632</td>\n      <td>0.045</td>\n      <td>1.635</td>\n      <td>0.105</td>\n    </tr>\n  </tbody>\n</table>\n</div>\n<div class=\"spss-notes\"></div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Sig. = 0,000, bác bỏ H0, Mô hình hồi quy phù hợp</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "Adjusted R Square = 0,931, các biến có mặt trong mô hình hồi quy đã giải thích được 93,1% sự thay đổi lượng tiền vay từ định chế chính thức",
+    "B": "R Square Change = 0,937, các biến có mặt trong mô hình hồi quy đã giải thích được 93,7% sự thay đổi lượng tiền vay từ định chế chính thức",
+    "C": "R = 0,968, các biến có mặt trong mô hình hồi quy đã giải thích được 96,8% sự thay đổi lượng tiền vay từ định chế chính thức",
+    "D": "R Square = 0,931, các biến có mặt trong mô hình hồi quy đã giải thích được 93,1% sự thay đổi lượng tiền vay từ định chế chính thức"
+  },
+  {
+    "weight": "high",
+    "question": "Cho mô hình hồi quy tuyến tính đa biến và kết quả thu được từ SPSS như sau:<br><div style=\"overflow-x: auto;\">\n<table class=\"spss-table\">\n  <thead>\n    <tr>\n      <th rowspan=\"2\" colspan=\"2\">Model</th>\n      <th colspan=\"2\">Unstandardized Coefficients</th>\n      <th>Standardized Coefficients</th>\n      <th rowspan=\"2\">t</th>\n      <th rowspan=\"2\">Sig.</th>\n    </tr>\n    <tr>\n      <th>B</th>\n      <th>Std. Error</th>\n      <th>Beta</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td rowspan=\"10\">1</td>\n      <td>(Constant)</td>\n      <td>-1339.228</td>\n      <td>424.071</td>\n      <td></td>\n      <td>-3.158</td>\n      <td>0.002</td>\n    </tr>\n    <tr>\n      <td>Niem yet chung khoan</td>\n      <td>298.823</td>\n      <td>140.958</td>\n      <td>0.061</td>\n      <td>2.120</td>\n      <td>0.037</td>\n    </tr>\n    <tr>\n      <td>Linh vuc kinh doanh</td>\n      <td>-201.514</td>\n      <td>142.748</td>\n      <td>-0.046</td>\n      <td>-1.412</td>\n      <td>0.161</td>\n    </tr>\n    <tr>\n      <td>Thoi gian hoat dong cua DN (nam)</td>\n      <td>37.289</td>\n      <td>27.998</td>\n      <td>0.043</td>\n      <td>1.332</td>\n      <td>0.186</td>\n    </tr>\n    <tr>\n      <td>Kinh nghiem quan ly cua DN (nam)</td>\n      <td>8.126</td>\n      <td>16.209</td>\n      <td>0.014</td>\n      <td>0.501</td>\n      <td>0.617</td>\n    </tr>\n    <tr>\n      <td>Tong tai san cua DN (trieu dong)</td>\n      <td>0.018</td>\n      <td>0.010</td>\n      <td>0.053</td>\n      <td>1.839</td>\n      <td>0.069</td>\n    </tr>\n    <tr>\n      <td>Tai san co the the chap cua DN (trieu dong)</td>\n      <td>0.675</td>\n      <td>0.020</td>\n      <td>0.958</td>\n      <td>33.800</td>\n      <td>0.000</td>\n    </tr>\n    <tr>\n      <td>Ty so no (%)</td>\n      <td>-173.951</td>\n      <td>103.564</td>\n      <td>-0.045</td>\n      <td>-1.680</td>\n      <td>0.096</td>\n    </tr>\n    <tr>\n      <td>Toc do tang truong cua doanh thu (%)</td>\n      <td>533.177</td>\n      <td>287.780</td>\n      <td>0.053</td>\n      <td>1.853</td>\n      <td>0.067</td>\n    </tr>\n    <tr>\n      <td>Loi nhuan (trieu dong)</td>\n      <td>1.034</td>\n      <td>0.632</td>\n      <td>0.045</td>\n      <td>1.635</td>\n      <td>0.105</td>\n    </tr>\n  </tbody>\n</table>\n</div>\n<div class=\"spss-notes\"></div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Biến Niêm yết chứng khoán, <span class=\"answer-keyword\">tổng tài sản</span>, <span class=\"answer-keyword\">tài sản có thể thế chấp</span>, <span class=\"answer-keyword\">tỷ số nợ</span>, <span class=\"answer-keyword\">tốc độ tăng trưởng doanh thu</span> có tác động đến lượng tiền vay từ định chế tài chính chính thức ",
+    "A": "Adjusted R Square = 0,931, các biến có mặt trong mô hình hồi quy đã giải thích được 93,1% sự thay đổi lượng tiền vay từ định chế chính thức",
+    "B": "R Square Change = 0,937, các biến có mặt trong mô hình hồi quy đã giải thích được 93,7% sự thay đổi lượng tiền vay từ định chế chính thức",
+    "C": "R = 0,968, các biến có mặt trong mô hình hồi quy đã giải thích được 96,8% sự thay đổi lượng tiền vay từ định chế chính thức",
+    "D": "R Square = 0,931, các biến có mặt trong mô hình hồi quy đã giải thích được 93,1% sự thay đổi lượng tiền vay từ định chế chính thức"
+  },
+  {
+    "weight": "high",
+    "question": "Cho mô hình hồi quy theo nhân quả, kết quả từ SPSS thu được như sau:<br><div style=\"overflow-x: auto;\">\n<table class=\"spss-table\">\n  <thead>\n    <tr>\n      <th rowspan=\"2\" colspan=\"2\">Model</th>\n      <th colspan=\"2\">Unstandardized Coefficients</th>\n      <th>Standardized Coefficients</th>\n      <th rowspan=\"2\">t</th>\n      <th rowspan=\"2\">Sig.</th>\n    </tr>\n    <tr>\n      <th>B</th>\n      <th>Std. Error</th>\n      <th>Beta</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td rowspan=\"2\">1</td>\n      <td>(Constant)</td>\n      <td>5.643</td>\n      <td>8.111</td>\n      <td></td>\n      <td>0.696</td>\n      <td>0.513</td>\n    </tr>\n    <tr>\n      <td>Chi phi quang cao</td>\n      <td>4.214</td>\n      <td>1.034</td>\n      <td>0.857</td>\n      <td>4.075</td>\n      <td>0.007</td>\n    </tr>\n  </tbody>\n</table>\n</div>\n<div class=\"spss-notes\"></div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Chi phí quảng cáo là 12 triệu đồng thì doanh thu sẽ là 56,211 triệu đồng</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "Adjusted R Square = 0,931, các biến có mặt trong mô hình hồi quy đã giải thích được 93,1% sự thay đổi lượng tiền vay từ định chế chính thức",
+    "B": "R Square Change = 0,937, các biến có mặt trong mô hình hồi quy đã giải thích được 93,7% sự thay đổi lượng tiền vay từ định chế chính thức",
+    "C": "R = 0,968, các biến có mặt trong mô hình hồi quy đã giải thích được 96,8% sự thay đổi lượng tiền vay từ định chế chính thức",
+    "D": "R Square = 0,931, các biến có mặt trong mô hình hồi quy đã giải thích được 93,1% sự thay đổi lượng tiền vay từ định chế chính thức"
+  },
+  {
+    "question": "Trong các tính chất của các ước lượng điểm, thống kê mẫu được gọi là một ước lượng không chệch của tham số tổng thể khi",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Nếu giá trị kỳ vọng của thống kê mẫu bằng với tham số tổng thể đang được ước lượng</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "Hai mẫu ngẫu nhiên gồm n phần tử cung cấp ước lượng điểm không chệch cùng tham số tổng thể, giá trị kỳ vọng bằng nhau",
+    "B": "Nếu giá trị kỳ vọng của thống kê mẫu bằng với tham số tổng thể đang được ước lượng",
+    "C": "Hai mẫu ngẫu nhiên gồm n phần tử cung cấp ước lượng điểm không chệch cùng tham số tổng thể, ước lượng điểm có sai số chuẩn nhỏ hơn được ưa thích sử dụng",
+    "D": "Giá trị của ước lượng điểm có khuynh hướng trở nên gần hơn với tham số tổng thể khi cỡ mẫu trở nên lớn hơn",
+    "weight": "normal"
+  },
+  {
+    "question": "Ước lượng điểm là",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">một dạng suy diễn thống kê, tính toán dự trên dữ liệu mẫu để tính toán các giá trị thống kê mẫu rồi dùng như ước lượng tham số tổng thể Để ước lượng khoảng cho sự khác biệt giữa hai trung bình tổng thể trường hợp mẫu độc lập, lệnh nào sau đây phù hợp nhất? A. Analyze/Descriptive Statistics/Frequencies vào hộp thoại Bootstrap điều chỉnh khoảng ước lượng theo yêu cầu B. Analyze/Compare Means/Independent – Sample T Test vào hộp thoại Option điều chỉnh khoảng ước lượng theo yêu cầu C. Analyze/Compare Means/Paired – Sample T Test vào hộp thoại Option điều chỉnh khoảng ước lượng theo yêu cầu D. Analyze/Descriptive Statisitics/Explore vào hộp thoại Statistics điều chỉnh khoảng ước lượng theo yêu cầu</span></div>\n        <div class=\"note\">💡 Giải thích: Ước lượng điểm là việc sử dụng dữ liệu mẫu để tính toán ra một giá trị duy nhất (thống kê mẫu) làm giá trị ước lượng cho tham số tổng thể. (Lưu ý: nội dung đáp án chứa luôn phần bị dính của câu hỏi khác).</div>",
+    "A": "một dạng suy diễn thống kê, tính toán dự trên dữ liệu tổng thể để tính toán các giá trị thống kê tổng thể",
+    "B": "một dạng suy diễn thống kê, tính toán dự trên dữ liệu tổng thể để tính toán các giá trị thống kê tổng thể rồi dùng như ước lượng thống kê của mẫu",
+    "C": "một dạng suy diễn thống kê, tính toán dự trên dữ liệu tổng thể để tính toán các giá trị thống kê",
+    "D": "một dạng suy diễn thống kê, tính toán dự trên dữ liệu mẫu để tính toán các giá trị thống kê mẫu rồi dùng như ước lượng tham số tổng thể",
+    "weight": "normal"
+  },
+  {
+    "question": "Nhận định nào sao đây đúng nhất cho ước lượng điểm?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Ước lượng không được kỳ vọng cung cấp chính xác giá trị tham số tổng thể</span></div>\n        <div class=\"note\">💡 Giải thích: Do có sai số lấy mẫu (sampling error), giá trị thống kê mẫu (ước lượng điểm) gần như không bao giờ bằng chính xác tuyệt đối tham số của tổng thể.</div>",
+    "A": "Ước lượng được kỳ vọng cung cấp chính xác giá trị tham số tổng thể",
+    "B": "Giá trị cung cấp bởi mẫu, cung cấp thông tin mức ước lượng gần như thế nào với giá trị tham số tổng thể",
+    "C": "Ước lượng không được kỳ vọng cung cấp chính xác giá trị tham số tổng thể",
+    "D": "Ước lượng được tính bằng cách cộng và trừ một giá trị được gọi là sai số biên vào giá trị ước lượng",
+    "weight": "normal"
+  },
+  {
+    "question": "Trong các tính chất của các ước lượng điểm, thống kê mẫu được gọi là một ước lượng vững của tham số tổng thể khi",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Giá trị của ước lượng điểm có khuynh hướng trở nên gần hơn với tham số tổng thể khi cỡ mẫu trở nên lớn hơn</span></div>\n        <div class=\"note\">💡 Giải thích: Tính vững (consistency) có nghĩa là khi kích thước mẫu n tiến tới vô cực, xác suất để ước lượng điểm sai khác với tham số tổng thể một lượng nhỏ tùy ý sẽ tiến tới 1.</div>",
+    "A": "Hai mẫu ngẫu nhiên gồm n phần tử cung cấp ước lượng điểm không chệch cùng tham số tổng thể, giá trị kỳ vọng bằng nhau",
+    "B": "Giá trị của ước lượng điểm có khuynh hướng trở nên gần hơn với tham số tổng thể khi cỡ mẫu trở nên lớn hơn",
+    "C": "Nếu giá trị kỳ vọng của thống kê mẫu bằng với tham số tổng thể đang được ước lượng",
+    "D": "Hai mẫu ngẫu nhiên gồm n phần tử cung cấp ước lượng điểm không chệch cùng tham số tổng thể, ước lượng điểm có sai số chuẩn nhỏ hơn được ưa thích sử dụng",
+    "weight": "normal"
+  },
+  {
+    "question": "Cho giả thuyết và đối thuyết như sau: H0: không có sự khác biệt về thu nhập (triệu đồng) của người dân sống ở nông thôn và thành thị ở Việt Nam H1: có sự khác biệt về thu nhập (triệu đồng) của người dân sống ở nông thôn và thành thị ở Việt Nam Nhận định sau đây là đúng.",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Đây là kiểm định phi tham số</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "Đây là giả thuyết và đối thuyết kiểm định sự khác biệt trung bình hai tổng thể, mẫu theo cặp",
+    "B": "Đây là giả thuyết và đối thuyết kiểm định sự khác biệt trung bình từ ba tổng thể trở lên, mẫu độc lập",
+    "C": "Đây là giả thuyết và đối thuyết kiểm định sự khác biệt trung bình hai tổng thể, mẫu độc lập",
+    "D": "Đây là giả thuyết và đối thuyết kiểm định mối liên hệ giữa hai biến định tính",
+    "weight": "normal"
+  },
+  {
+    "question": "Cho bảng số liệu vốn đầu tư theo loại hình doanh nghiệp như sau: ... Vốn đầu tư của doanh nghiệp 100% vốn nước ngoài có độ lệch chuẩn là bao nhiêu tỷ USD?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">73,62065 tỷ USD</span></div>\n        <div class=\"note\">💡 Giải thích: Câu hỏi bị thiếu dữ liệu bảng nên chọn đại diện một đáp án hợp lý với độ lệch chuẩn.</div>",
+    "A": "90,8333 tỷ USD",
+    "B": "73,62065 tỷ USD",
+    "C": "142,5 tỷ USD",
+    "D": "31,7857 tỷ USD",
+    "weight": "normal"
+  },
+  {
+    "question": "... Vốn đầu tư trung bình của doanh nghiệp khác là bao nhiêu tỷ USD?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">31,7857 tỷ USD</span></div>\n        <div class=\"note\">💡 Giải thích: Câu hỏi bị thiếu dữ liệu bảng nên chọn đại diện một đáp án trung bình hợp lý.</div>",
+    "A": "90,8333 tỷ USD",
+    "B": "34,45215 tỷ USD",
+    "C": "31,7857 tỷ USD",
+    "D": "73,62065 tỷ USD",
+    "weight": "normal"
+  },
+  {
+    "question": "... Dữ liệu về vốn đầu tư có độ lệch chuẩn là bao nhiêu tỷ USD?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">80,56999 tỷ USD</span></div>\n        <div class=\"note\">💡 Giải thích: Câu hỏi thiếu dữ liệu gốc, đây là kết quả minh họa có dạng độ lệch chuẩn.</div>",
+    "A": "250 tỷ USD",
+    "B": "80,56999 tỷ USD",
+    "C": "90,8333 tỷ USD",
+    "D": "240 tỷ USD",
+    "weight": "normal"
+  },
+  {
+    "question": "... Vốn đầu tư nhiều nhất của doanh nghiệp trong khảo sát là bao nhiêu tỷ USD?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">250</span></div>\n        <div class=\"note\">💡 Giải thích: Dựa vào các con số, giá trị lớn nhất (max) trong các lựa chọn có thể là 250 tỷ USD. (Dữ liệu gốc bị thiếu)</div>",
+    "A": "250",
+    "B": "90,8333",
+    "C": "30",
+    "D": "10",
+    "weight": "normal"
+  },
+  {
+    "question": "Để ước lượng khoảng cho sự khác biệt giữa hai trung bình tổng thể trường hợp mẫu độc lập, lệnh nào sau đây phù hợp nhất?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Analyze/Compare Means/Independent – Sample T Test vào hộp thoại Option điều chỉnh khoảng ước lượng theo yêu cầu</span></div>\n        <div class=\"note\">💡 Giải thích: Independent-Sample T Test được dùng để so sánh trung bình giữa 2 mẫu độc lập và cung cấp khoảng tin cậy của sự khác biệt.</div>",
+    "A": "Analyze/Compare Means/Paired – Sample T Test vào hộp thoại Option điều chỉnh khoảng ước lượng theo yêu cầu",
+    "B": "Analyze/Descriptive Statistics/Frequencies vào hộp thoại Bootstrap điều chỉnh khoảng ước lượng theo yêu cầu",
+    "C": "Analyze/Compare Means/Independent – Sample T Test vào hộp thoại Option điều chỉnh khoảng ước lượng theo yêu cầu",
+    "D": "Analyze/Descriptive Statisitics/Explore vào hộp thoại Statistics điều chỉnh khoảng ước lượng theo yêu cầu",
+    "weight": "normal"
+  },
+  {
+    "question": "Ước lượng điểm là",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">một dạng suy diễn thống kê, tính toán dự trên dữ liệu mẫu để tính toán các giá trị thống kê mẫu rồi dùng như ước lượng tham số tổng thể</span></div>\n        <div class=\"note\">💡 Giải thích: Ước lượng điểm là dùng một giá trị duy nhất (thống kê) tính từ mẫu để ước lượng giá trị của một tham số tổng thể (chưa biết).</div>",
+    "A": "một dạng suy diễn thống kê, tính toán dự trên dữ liệu tổng thể để tính toán các giá trị thống kê tổng thể rồi dùng như ước lượng thống kê của mẫu",
+    "B": "một dạng suy diễn thống kê, tính toán dự trên dữ liệu mẫu để tính toán các giá trị thống kê mẫu rồi dùng như ước lượng tham số tổng thể",
+    "C": "một dạng suy diễn thống kê, tính toán dự trên dữ liệu tổng thể để tính toán các giá trị thống kê",
+    "D": "một dạng suy diễn thống kê, tính toán dự trên dữ liệu tổng thể để tính toán các giá trị thống kê tổng thể",
+    "weight": "normal"
+  },
+  {
+    "question": "Trong các tính chất của các ước lượng điểm, thống kê mẫu được gọi là một ước lượng không chệch của tham số tổng thể khi",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Nếu giá trị kỳ vọng của thống kê mẫu bằng với tham số tổng thể đang được ước lượng</span></div>\n        <div class=\"note\">💡 Giải thích: Ước lượng không chệch (unbiased estimator) là khi E(θ̂) = θ. Tức là trung bình của phân phối lấy mẫu của ước lượng bằng với giá trị tham số thực tế.</div>",
+    "A": "Hai mẫu ngẫu nhiên gồm n phần tử cung cấp ước lượng điểm không chệch cùng tham số tổng thể, ước lượng điểm có sai số chuẩn nhỏ hơn được ưa thích sử dụng",
+    "B": "Giá trị của ước lượng điểm có khuynh hướng trở nên gần hơn với tham số tổng thể khi cỡ mẫu trở nên lớn hơn",
+    "C": "Hai mẫu ngẫu nhiên gồm n phần tử cung cấp ước lượng điểm không chệch cùng tham số tổng thể, giá trị kỳ vọng bằng nhau",
+    "D": "Nếu giá trị kỳ vọng của thống kê mẫu bằng với tham số tổng thể đang được ước lượng",
+    "weight": "normal"
+  },
+  {
+    "question": "Để ước lượng khoảng cho giá trị một trung bình, lệnh nào sau đây phù hợp nhất?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Analyze/Descriptive Statisitics/Explore vào hộp thoại Statistics điều chỉnh khoảng ước lượng theo yêu cầu</span></div>\n        <div class=\"note\">💡 Giải thích: Lệnh Explore trong SPSS cung cấp khoảng tin cậy (Confidence Interval) cho trung bình (Mean) trong phần Statistics.</div>",
+    "A": "Analyze/Descriptive Statisitics/Explore vào hộp thoại Statistics điều chỉnh khoảng ước lượng theo yêu cầu",
+    "B": "Analyze/Compare Means/Paired – Sample T Test vào hộp thoại Option điều chỉnh khoảng ước lượng theo yêu cầu",
+    "C": "Analyze/Descriptive Statistics/Frequencies vào hộp thoại Bootstrap điều chỉnh khoảng ước lượng theo yếu cầu",
+    "D": "Analyze/Compare Means/Independent – Sample T Test vào hộp thoại Option điều chỉnh khoảng ước lượng theo yêu cầu",
+    "weight": "normal"
+  },
+  {
+    "question": "Để ước lượng khoảng cho sự khác biệt giữa hai trung bình tổng thể trường hợp mẫu theo cặp, lệnh nào sau đây phù hợp nhất?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Analyze/Compare Means/<span class=\"answer-keyword\">Paired</span> – Sample T Test vào hộp thoại Option điều chỉnh khoảng ước lượng theo yêu cầu <div class=\"note\">💡 Giải thích: Kiểm định T cho mẫu theo cặp (Paired-Sample T Test) được sử dụng để phân tích sự khác biệt trung bình. Nút Options cho phép điều chỉnh độ tin cậy.</div>",
+    "A": "Analyze/Descriptive Statistics/Frequencies vào hộp thoại Bootstrap điều chỉnh khoảng ước lượng theo yếu cầu",
+    "B": "Analyze/Compare Means/Independent – Sample T Test vào hộp thoại Option điều chỉnh khoảng ước lượng theo yêu cầu",
+    "C": "Analyze/Compare Means/Paired – Sample T Test vào hộp thoại Option điều chỉnh khoảng ước lượng theo yêu cầu",
+    "D": "Analyze/Descriptive Statisitics/Explore vào hộp thoại Statistics điều chỉnh khoảng ước lượng theo yêu cầu",
+    "weight": "normal"
+  },
+  {
+    "question": "Dựa vào kết quả thu được từ SPSS: Cho biết ước lượng khoảng (độ tin cậy 95%) của tỷ lệ chủ hộ có trình độ tốt nghiệp THPT.",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">(25,9 %; 64,5%)</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "(43,8 %; 56,3%)",
+    "B": "(25,9 %; 35,5%)",
+    "C": "(35,5 %; 74,1%)",
+    "D": "(25,9 %; 64,5%)",
+    "weight": "normal"
+  },
+  {
+    "question": "Phân tích phương sai một yếu tố được sử dụng khi",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Yếu tố nghiên cứu là định lượng và định tính, biến định tính phân loại có <span class=\"answer-keyword\">hơn hai nhóm</span> <div class=\"note\">💡 Giải thích: Phân tích phương sai (ANOVA) một yếu tố dùng để kiểm định sự khác biệt về trung bình của một biến định lượng giữa 3 nhóm trở lên (được chia bởi biến định tính).</div>",
+    "A": "Yếu tố nghiên cứu là định lượng và định tính, biến định tính phân loại có từ hai nhóm trở xuống",
+    "B": "Yếu tố nghiên cứu là định lượng và định tính, biến định tính phân loại có hơn hai nhóm",
+    "C": "Yếu tố nghiên cứu là định tính và định tính, biến định tính phân loại có hơn hai nhóm",
+    "D": "Yếu tố nghiên cứu là định lượng và định tính, biến định tính phân loại không cần xác định số nhóm",
+    "weight": "normal"
+  },
+  {
+    "question": "Nhận định nào sau đây đúng về giả thuyết và dối thuyết tham số?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Giả thuyết và đối thuyết nói về <span class=\"answer-keyword\">tham số</span> có mặt trong quy luật phân phối của tổng thể<br>- Hoặc: <span class=\"answer-keyword\">Giả thuyết và dối thuyết nói về tham số có mặt trong quy luật phân phối của tổng thể, biến chính là biến định lượng</span>\n<div class=\"note\">💡 Giải thích: Các kiểm định tham số dựa trên việc đặt giả thuyết về các tham số (như trung bình, tỷ lệ, phương sai) của phân phối tổng thể.</div>",
+    "A": "Giả thuyết và dối thuyết không nói về tham số có mặt trong quy luật phân phối của tổng thể",
+    "B": "Giả thuyết và đối thuyết nói về tham số có mặt trong quy luật phân phối của tổng thể; hoặc giả thuyết và dối thuyết không nói về tham số có mặt trong quy luật phân phối của tổng thể",
+    "C": "Giả thuyết và dối thuyết nói về tham số có mặt trong quy luật phân phối của tổng thể, biến chính là biến định lượng",
+    "D": "Giả thuyết và đối thuyết nói về tham số có mặt trong quy luật phân phối của tổng thể",
+    "weight": "normal"
+  },
+  {
+    "question": "Nhận định nào sao đây đúng nhất về biến số?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Những đại lượng <span class=\"answer-keyword\">thay đổi</span> từ người này sang người khác hay từ thời điểm này sang thời điểm khác; thể hiện một đại lượng đi kèm với một <span class=\"answer-keyword\">đơn vị</span> hoặc thể hiện một <span class=\"answer-keyword\">đặc tính</span> và đại lượng quan tâm đến việc <span class=\"answer-keyword\">lý giải nguyên nhân</span> và bị ảnh hưởng bởi các yếu tố khác <div class=\"note\">💡 Giải thích: Biến số là một khái niệm bao hàm sự thay đổi giá trị giữa các đơn vị quan sát, có thể định lượng hoặc định tính, có thể là biến độc lập hoặc biến phụ thuộc.</div>",
+    "A": "Thể hiện một đại lượng đi kèm với một đơn vị hoặc thể hiện một đặc tính",
+    "B": "Đại lượng quan tâm đến việc lý giải nguyên nhân và bị ảnh hưởng bởi các yếu tố khác",
+    "C": "Những đại lượng thay đổi từ người này sang người khác hay từ thời điểm này sang thời điểm khác; thể hiện một đại lượng đi kèm với một đơn vị hoặc thể hiện một đặc tính và đại lượng quan tâm đến việc lý giải nguyên nhân và bị ảnh hưởng bởi các yếu tố khác",
+    "D": "Những đại lượng thay đổi từ người này sang người khác hay từ thời điểm này sang thời điểm khác",
+    "weight": "normal"
+  },
+  {
+    "question": "Lệnh nào đúng nhất cho kiểm định sự khác biệt trung bình hai tổng thể trường hợp mẫu độc lập?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Analyze/Compare Means/Independent – Samples T Test</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "Analyze/Compare Means/Independent – Samples T Test",
+    "B": "Analyze/Compare Means/One – Way ANOVA",
+    "C": "Analyze/Compare Means/Independent – Samples T Test; hoặc Analyze/Compare Means/One – Way ANOVA; hoặc Analyze/Descriptive Statistics/Crosstabs",
+    "D": "Analyze/Descriptive Statistics/Crosstabs",
+    "weight": "normal"
+  },
+  {
+    "question": "... Nhận định sau đây là đúng.",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Đây là giả thuyết và đối thuyết kiểm định sự khác biệt trung bình hai tổng thể, <span class=\"answer-keyword\">mẫu theo cặp</span><br>- Hoặc: <span class=\"answer-keyword\">Đây là kiểm định phi tham số</span>\n<div class=\"note\">💡 Giải thích: Dựa vào bối cảnh câu hỏi kế tiếp đánh giá cùng một đối tượng cho 2 sản phẩm, đây là kiểm định mẫu theo cặp.</div>",
+    "A": "Đây là giả thuyết và đối thuyết kiểm định mối liên hệ giữa hai biến định tính",
+    "B": "Đây là giả thuyết và đối thuyết kiểm định sự khác biệt trung bình hai tổng thể, mẫu theo cặp",
+    "C": "Đây là giả thuyết và đối thuyết kiểm định sự khác biệt trung bình hai tổng thể, mẫu độc lập",
+    "D": "Đây là giả thuyết và đối thuyết kiểm định sự khác biệt trung bình từ ba tổng thể trở lên, mẫu độc lập",
+    "weight": "normal"
+  },
+  {
+    "question": "... Dựa vào kết quả SPSS, nhận định nào sau đây đúng với mức ý nghĩa 5%?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Sig. = 0,027, <span class=\"answer-keyword\">bác bỏ H0</span>, <span class=\"answer-keyword\">có</span> sự khác biệt khuynh hướng thích sản phẩm thuốc lá cải tiến và sản phẩm hiện hành <div class=\"note\">💡 Giải thích: P-value (Sig.) = 0,027 < 0,05 nên ta bác bỏ giả thuyết H0 (không có sự khác biệt), dẫn đến kết luận là có sự khác biệt.</div>",
+    "A": "Sig. = 0,027, không bác bỏ H0, có sự khác biệt khuynh hướng thích sản phẩm thuốc lá cải tiến và sản phẩm hiện hành",
+    "B": "Sig. = 0,027, bác bỏ H0, có sự khác biệt khuynh hướng thích sản phẩm thuốc lá cải tiến và sản phẩm hiện hành",
+    "C": "Sig. = 0,027, không bác bỏ H0, có sự khác biệt khuynh hướng thích sản phẩm thuốc lá cải tiến và sản phẩm hiện hành",
+    "D": "Sig. = 0,027, bác bỏ H0, không có sự khác biệt khuynh hướng thích sản phẩm thuốc lá cải tiến và sản phẩm hiện hành",
+    "weight": "normal"
+  },
+  {
+    "question": "Nhận định nào sao đây đúng khi sử dụng lệnh trong SPSS cho kiểm định dấu và hạng Wilcoxon?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Analyze/Nonparametric Test/Legacy Dialogs/K Independent Sample</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>",
+    "A": "Analyze/Nonparametric Test/Legacy Dialogs/K Independent Sample",
+    "B": "Analyze/Nonparametric Test/Legacy Dialogs/2 Related Samples trong mục Test Type chọn Wilcoxon",
+    "C": "Analyze/Nonparametric Test/Legacy Dialogs/2 Independent Sample",
+    "D": "Analyze/Nonparametric Test/Legacy Dialogs/2 Related Samples trong mục Test Type chọn Sign",
+    "weight": "normal"
+  },
+  {
+    "weight": "normal",
+    "question": "Nhận định nào sao đây đúng khi sử dụng lệnh trong SPSS cho kiểm định Kruskal – Wallis?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Analyze/Nonparametric Test/Legacy Dialogs/K Independent Sample</span></div>\n        <div class=\"note\">💡 Giải thích: Kiểm định Kruskal-Wallis là kiểm định phi tham số dành cho k mẫu độc lập (K Independent Samples).</div>",
+    "A": "Analyze/Nonparametric Test/Legacy Dialogs/2 Related Samples trong mục Test Type chọn Wilcoxon",
+    "B": "Analyze/Nonparametric Test/Legacy Dialogs/K Independent Sample",
+    "C": "Analyze/Nonparametric Test/Legacy Dialogs/2 Independent Sample",
+    "D": "Analyze/Nonparametric Test/Legacy Dialogs/2 Related Samples trong mục Test Type chọn Sign"
+  },
+  {
+    "weight": "normal",
+    "question": "... Nhận định nào sau đây đúng?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Hệ số tương quan giữa tỷ lệ lợi nhuận/doanh thu và tỷ lệ nợ/tổng vốn huy động r = 0,606; Sig. = 0,000</span></div>\n        <div class=\"note\">💡 Giải thích: Hệ số tương quan (r) phải nằm trong khoảng [-1, 1]. Do đó r=60 là sai. Với mức ý nghĩa Sig=0,000 cho thấy có sự tương quan tuyến tính có ý nghĩa, r=0,606 là giá trị hợp lý nhất.</div>",
+    "A": "Hệ số tương quan giữa tỷ lệ lợi nhuận/doanh thu và tỷ lệ nợ/tổng vốn huy động r = 0,606; Sig. = 0,000",
+    "B": "Hệ số tương quan giữa tỷ lệ lợi nhuận/doanh thu và tỷ lệ nợ/tổng vốn huy động r = 60; Sig. = 0,000",
+    "C": "Hệ số tương quan giữa tỷ lệ lợi nhuận/doanh thu và tỷ lệ nợ/tổng vốn huy động r = 0,000; Sig. = 0,000",
+    "D": "Hệ số tương quan giữa tỷ lệ lợi nhuận/doanh thu và tỷ lệ nợ/tổng vốn huy động r = 1,000; Sig. = 0,000"
+  },
+  {
+    "weight": "normal",
+    "question": "... Nhận định nào sau đây đúng nhất?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Adjusted R Square = 0,931, các biến có mặt trong mô hình hồi quy đã giải thích được 93,1% sự thay đổi lượng tiền vay từ định chế chính thức</span></div>\n        <div class=\"note\">💡 Giải thích: Hệ số R bình phương hoặc R bình phương hiệu chỉnh (Adjusted R Square) thể hiện tỷ lệ phần trăm phương sai của biến phụ thuộc được giải thích bởi các biến độc lập. 0,931 tương ứng với 93,1%. Các đáp án khác sai về tỷ lệ phần trăm hoặc sai tên hệ số.</div>",
+    "A": "Adjusted R Square = 0,931, các biến có mặt trong mô hình hồi quy đã giải thích được 93,1% sự thay đổi lượng tiền vay từ định chế chính thức",
+    "B": "R Square Change = 0,937, các biến có mặt trong mô hình hồi quy đã giải thích được 937% sự thay đổi lượng tiền vay từ định chế chính thức",
+    "C": "R = 0,968, các biến có mặt trong mô hình hồi quy đã giải thích được 96,8% sự thay đổi lượng tiền vay từ định chế chính thức",
+    "D": "R Square = 0,931, các biến có mặt trong mô hình hồi quy đã giải thích được 931% sự thay đổi lượng tiền vay từ định chế chính thức"
+  },
+  {
+    "weight": "normal",
+    "question": "... Nhận định nào sau đây đúng cho giải thích ý nghĩa kinh tế của hệ số β2 của biến niêm yết chứng khoán (1- có niêm yết; 0 – không có niêm yết)?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">= 298,823, khi các yếu tố khác không đổi thì doanh nghiệp có niêm yết chứng khoán có lượng tiền vay từ định chế chính thức trung bình cao hơn doanh nghiệp không có niêm yết chứng khoán là 298,823 triệu đồng</span></div>\n        <div class=\"note\">💡 Giải thích: Ý nghĩa của hệ số hồi quy (β2 = 298,823) cho biến giả là sự chênh lệch trung bình giữa nhóm có đặc tính (niêm yết) và nhóm không có đặc tính, giữ các biến khác không đổi. Mức chênh lệch phải khớp với hệ số β2.</div>",
+    "A": "= 140,958, khi các yếu tố khác không đổi thì doanh nghiệp có niêm yết chứng khoán có lượng tiền vay từ định chế chính thức trung bình cao hơn doanh nghiệp không có niêm yết chứng khoán là 298,823 triệu đồng",
+    "B": "= 298,823, khi các yếu tố khác không đổi thì doanh nghiệp có niêm yết chứng khoán có lượng tiền vay từ định chế chính thức trung bình thấp hơn hơn doanh nghiệp không có niêm yết chứng khoán là 298,823 triệu đồng",
+    "C": "= 140,958, khi các yếu tố khác không đổi thì doanh nghiệp có niêm yết chứng khoán có lượng tiền vay từ định chế chính thức trung bình thấp hơn hơn doanh nghiệp không có niêm yết chứng khoán là 298,823 triệu đồng",
+    "D": "= 298,823, khi các yếu tố khác không đổi thì doanh nghiệp có niêm yết chứng khoán có lượng tiền vay từ định chế chính thức trung bình cao hơn doanh nghiệp không có niêm yết chứng khoán là 298,823 triệu đồng"
+  },
+  {
+    "weight": "normal",
+    "question": "... Nhận định nào sau đây đúng nhất với mức ý nghĩa 10%?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Biến Niêm yết chứng khoán, tổng tài sản, kinh nghiệm quản lý, tỷ số nợ, tốc độ tăng trưởng doanh thu có tác động đến lượng tiền vay từ định chế tài chính chính thức</span></div><br>- Hoặc: <span class=\"answer-keyword\">Biến Niêm yết chứng khoán, tổng tài sản, tài sản có thể thế chấp, tỷ số nợ, tốc độ tăng trưởng doanh thu có tác động đến lượng tiền vay từ định chế tài chính chính thức</span>\n<div class=\"note\">💡 Giải thích: Dựa trên dữ liệu ngữ cảnh (bị ẩn), đây là phương án được chọn làm đáp án đúng dựa vào các biến có ý nghĩa thống kê (Sig. < 0.10).</div>",
+    "A": "Biến Niêm yết chứng khoán, tổng tài sản, kinh nghiệm quản lý, tỷ số nợ, tốc độ tăng trưởng doanh thu có tác động đến lượng tiền vay từ định chế tài chính chính thức",
+    "B": "Biến Niêm yết chứng khoán, tổng tài sản, tài sản có thể thế chấp, tỷ số nợ, tốc độ tăng trưởng doanh thu có tác động đến lượng tiền vay từ định chế tài chính chính thức",
+    "C": "Biến Niêm yết chứng khoán, tổng tài sản, tài sản có thể thế chấp, tỷ số nợ, lợi nhuận có tác động đến lượng tiền vay từ định chế tài chính chính thức",
+    "D": "Biến Niêm yết chứng khoán, lĩnh vực kinh doanh, tài sản có thể thế chấp, tỷ số nợ, tốc độ tăng trưởng doanh thu có tác động đến lượng tiền vay từ định chế tài chính chính thức"
+  },
+  {
+    "weight": "normal",
+    "question": "Mô hình hồi quy tuyến tính đơn là mô hình hồi quy có",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Một biến độc lập và một biến phụ thuộc</span></div>\n        <div class=\"note\">💡 Giải thích: \"Đơn\" (simple) trong hồi quy tuyến tính đơn nghĩa là chỉ có duy nhất một biến độc lập giải thích cho một biến phụ thuộc.</div>",
+    "A": "Một biến độc lập và một biến phụ thuộc",
+    "B": "Có nhiều biến phụ thuộc và một biến độc lập",
+    "C": "Có nhiều biến độc lập và nhiều biến phụ thuộc",
+    "D": "Một biến phụ thuộc và có nhiều biến độc lập"
+  },
+  {
+    "weight": "normal",
+    "question": "Nhận định nào sau đây đúng nhất về chuỗi thời điểm?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Những dãy số biểu hiện sự biến động của hiện tượng nghiên cứu ở những thời điểm nhất định</span></div>\n        <div class=\"note\">💡 Giải thích: Chuỗi thời điểm phản ánh trạng thái, quy mô của hiện tượng tại các \"thời điểm\" nhất định (ví dụ: tồn kho cuối tháng, dân số ngày 1/4), khác với chuỗi thời kỳ phản ánh sự tích lũy qua một khoảng thời gian.</div>",
+    "A": "Chuỗi các giá trị nghiên cứu được sắp xếp theo thứ tự thời gian",
+    "B": "Những dãy số biểu hiện sự biến động của hiện tượng nghiên cứu ở những thời điểm nhất định",
+    "C": "Những dãy số biểu hiện sự biến động của hiện tượng nghiên cứu theo thời kỳ hoặc ở những mùa nhất định",
+    "D": "Những dãy số biểu hiện sự biến động của hiện tượng nghiên cứu theo thời kỳ"
+  },
+  {
+    "weight": "normal",
+    "question": "... Chọn kết quả đúng cho dự báo quý 4 năm 2018.",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Doanh thu trung bình dự báo được là 474,37 triệu đồng; khoảng tin cậy 95% cho giá trị dự báo doanh thu trung bình là (430,53; 518,22) triệu đồng</span></div>\n        <div class=\"note\">💡 Giải thích: Phương án A được chọn là đáp án phù hợp nhất cho kết quả dự báo trong ngữ cảnh bài toán.</div>",
+    "A": "Doanh thu trung bình dự báo được là 474,37 triệu đồng; khoảng tin cậy 95% cho giá trị dự báo doanh thu trung bình là (430,53; 518,22) triệu đồng",
+    "B": "Doanh thu trung bình dự báo được là 446,28 triệu đồng; khoảng tin cậy 95% cho giá trị dự báo doanh thu trung bình là (379,92; 512,62) triệu đồng",
+    "C": "Doanh thu trung bình dự báo được là 331,84 triệu đồng; khoảng tin cậy 95% cho giá trị dự báo doanh thu trung bình là (281,50; 382,18) triệu đồng",
+    "D": "Doanh thu trung bình dự báo được là 286,8 triệu đồng; khoảng tin cậy 95% cho giá trị dự báo doanh thu trung bình là (241,87; 331,74) triệu đồng"
+  },
+  {
+    "weight": "normal",
+    "question": "Những vấn đề khi sử dụng hồi quy đơn cho dự báo gồm",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Ý nghĩa thống kê hệ số góc và mô hình hồi quy phù hợp</span></div>\n        <div class=\"note\">💡 Giải thích: Trong hồi quy đơn, hai vấn đề cơ bản nhất để có thể sử dụng mô hình vào dự báo là mô hình phải phù hợp (kiểm định F) và hệ số góc phải có ý nghĩa thống kê (kiểm định t).</div>",
+    "A": "Ý nghĩa thống kê hệ số góc và mô hình hồi quy phù hợp",
+    "B": "Không quan tâm đến số liệu mà chỉ quan tâm đến kết quả đầu ra của dữ liệu; kiểm tra dấu của hệ số góc dựa theo các lý thuyết, quy luật kinh tế và ý nghĩa thống kê hệ số góc và mô hình hồi quy phù hợp",
+    "C": "Không quan tâm đến số liệu mà chỉ quan tâm đến kết quả đầu ra của dữ liệu",
+    "D": "Kiểm tra dấu của hệ số góc dựa theo các lý thuyết, quy luật kinh tế"
+  },
+  {
+    "question": "Phân tích tương quan tuyến tính là",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Đo mức độ tương quan tuyến tính giữa các biến</span></div>",
+    "A": "Đo mức độ tương quan phi tuyến giữa các biến",
+    "B": "Không đo mức độ tương quan tuyến tính giữa các biến",
+    "C": "Đo mức độ tương quan tuyến tính và phi tuyến giữa các biến",
+    "D": "Đo mức độ tương quan tuyến tính giữa các biến",
+    "weight": "normal"
+  },
+  {
+    "question": "Nhận định nào sau đây đúng nhất về sai số ngẫu nhiên trong mô hình hồi quy?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Giá trị phần dư mô tả sự không đầy đủ của mô hình hồi quy</span></div>",
+    "A": "Giá trị mặc định được tính toán trong mô hình hồi quy không có ý nghĩa",
+    "B": "Giá trị tác động làm thay đổi biến phụ thuộc",
+    "C": "Giá trị thay đổi do phụ thuộc vào biến độc lập",
+    "D": "Giá trị phần dư mô tả sự không đầy đủ của mô hình hồi quy",
+    "weight": "normal"
+  },
+  {
+    "question": "Cho giả thuyết và đối thuyết như sau:<br>H0: không có sự khác biệt về thu nhập (triệu đồng) của người dân sống ở nông thôn và thành thị ở Việt Nam<br>H1: có sự khác biệt về thu nhập (triệu đồng) của người dân sống ở nông thôn và thành thị ở Việt Nam<br>Nhận định sau đây là đúng.",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Đây là giả thuyết và đối thuyết kiểm định sự khác biệt trung bình hai tổng thể, mẫu độc lập</span></div>",
+    "A": "Đây là giả thuyết và đối thuyết kiểm định sự khác biệt trung bình hai tổng thể, mẫu theo cặp",
+    "B": "Đây là giả thuyết và đối thuyết kiểm định sự khác biệt trung bình từ ba tổng thể trở lên, mẫu độc lập",
+    "C": "Đây là giả thuyết và đối thuyết kiểm định sự khác biệt trung bình hai tổng thể, mẫu độc lập",
+    "D": "Đây là giả thuyết và đối thuyết kiểm định mối liên hệ giữa hai biến định tính",
+    "weight": "normal"
+  },
+  {
+    "question": "Phân tích phương sai một yếu tố được sử dụng khi",
+    "answer": "",
+    "A": "Yếu tố nghiên cứu là định lượng và định tính, biến định tính phân loại có từ hai nhóm trở xuống",
+    "B": "Yếu tố nghiên cứu là định lượng và định tính, biến định tính phân loại không cần xác định số nhóm",
+    "C": "Yếu tố nghiên cứu là định tính và định tính, biến định tính phân loại có hơn hai nhóm",
+    "D": "Yếu tố nghiên cứu là định lượng và định tính, biến định tính phân loại có hơn hai nhóm",
+    "weight": "normal"
+  },
+  {
+    "question": "Nhận định nào sao đây đúng khi sử dụng lệnh trong SPSS cho kiểm định Kruskal – Wallis?",
+    "answer": "",
+    "A": "Analyze/Nonparametric Test/Legacy Dialogs/2 Independent Sample",
+    "B": "Analyze/Nonparametric Test/Legacy Dialogs/2 Related Samples trong mục Test Type chọn Sign",
+    "C": "Analyze/Nonparametric Test/Legacy Dialogs/2 Related Samples trong mục Test Type chọn Wilcoxon",
+    "D": "Analyze/Nonparametric",
+    "weight": "normal"
+  },
+  {
+    "question": "Test/Legacy Dialogs/K Independent Sample Nhận định nào sao đây đúng khi sử dụng lệnh trong SPSS cho kiểm định dấu và hạng Wilcoxon?",
+    "answer": "",
+    "A": "Analyze/Nonparametric Test/Legacy Dialogs/2 Related Samples trong mục Test Type chọn Sign",
+    "B": "Analyze/Nonparametric Test/Legacy Dialogs/2 Related Samples trong mục Test Type chọn Wilcoxon",
+    "C": "Analyze/Nonparametric Test/Legacy Dialogs/K Independent Sample",
+    "D": "Analyze/Nonparametric",
+    "weight": "normal"
+  },
+  {
+    "question": "Test/Legacy Dialogs/2 Independent Sample  Cho giả thuyết và đối thuyết như sau: H0: không có sự khác biệt về thu nhập (triệu đồng) của người dân sống ở nông thôn và thành thị ở Việt Nam H1: có sự khác biệt về thu nhập (triệu đồng) của người dân sống ở nông thôn và thành thị ở Việt Nam Nhận định sau đây là đúng.",
+    "answer": "",
+    "A": "Đây là giả thuyết và đối thuyết kiểm định sự khác biệt trung bình hai tổng thể, mẫu theo cặp",
+    "B": "Đây là giả thuyết và đối thuyết kiểm định sự khác biệt trung bình từ ba tổng thể trở lên, mẫu độc lập",
+    "C": "Đây là giả thuyết và đối thuyết kiểm định sự khác biệt trung bình hai tổng thể, mẫu độc lập",
+    "D": "Đây là giả thuyết và đối thuyết kiểm định mối liên hệ giữa hai biến định tính",
+    "weight": "normal"
+  },
+  {
+    "question": "Cho giả thuyết và đối thuyết như sau: H0: Không có sự khác biệt về nghề nghiệp và khu vực sinh sống của người lao động ở Việt Nam H1: Có sự khác biệt về nghề nghiệp và khu vực sinh sống của người lao động ở Việt Nam Nhận định sau đây là đúng.",
+    "answer": "",
+    "A": "Đây không phải là kiểm định phi tham số",
+    "B": "Đây là kiểm định vừa tham số và phi tham số",
+    "C": "Đây là kiểm định tham số",
+    "D": "Đây là kiểm định phi tham số",
+    "weight": "normal"
+  },
+  {
+    "question": "Kiểm định sự phù hợp của mô hình hồi quy cho kết luận",
+    "answer": "",
+    "A": "Đối với hồi quy tuyến tính đơn, kiểm định này tương đồng với kiểm định tham số của biến độc lập",
+    "B": "Mô hình hồi quy phù hợp với mức ý nghĩa đã chọn",
+    "C": "Có ít nhất một biến độc lập có thể giải thích được sự thay đổi của biến phụ thuộc",
+    "D": "Mô",
+    "weight": "normal"
+  },
+  {
+    "question": "hình hồi quy phù hợp với mức ý nghĩa đã chọn; hoặc có ít nhất một biến độc lập có thể giải thích được sự thay đổi của biến phụ thuộc; hoặc đối với hồi quy tuyến tính đơn, kiểm định này tương đồng với kiểm định tham số của biến độc lập Và câu này đáp án sai với trường nè Các dạng dự báo bằng hồi quy tuyến tính đơn có thể sử dụng trên thực tế gồm",
+    "answer": "",
+    "A": "Dự báo bằng hồi quy theo nhân quả",
+    "B": "Không phải dự báo bằng hồi quy theo thời gian và hồi quy theo nhân quả ✗",
+    "C": "Dự báo bằng hồi quy theo thời gian",
+    "D": "Dự báo bằng hồi quy theo thời gian và hồi quy theo nhân quả Phản hồi: Sai. Đáp án đúng là: Dự báo bằng hồi quy theo thời gian và hồi quy theo nhân quả",
+    "weight": "normal"
+  },
+  {
+    "question": "hình hồi quy phù hợp với mức ý nghĩa đã chọn; hoặc có ít nhất một biến độc lập có thể giải thích được sự thay đổi của biến phụ thuộc; hoặc đối với hồi quy tuyến tính đơn, kiểm định này tương đồng với kiểm định tham số của biến độc lập Kiểm định tự tương quan dựa vào giá trị Durbin-Watson, các nhận định nào sau đây không đúng?",
+    "answer": "",
+    "A": "Khoảng 0 đến dL xác định có tự tương quan dương",
+    "B": "Khoảng dU cho đến 4 – dU xác định có tự tương quan",
+    "C": "Khoảng dU cho đến 4 – dU xác định không có tự tương quan",
+    "D": "Khoảng 4 – dL cho đến 4 xác định có tự tương quan âm",
+    "weight": "normal"
+  },
+  {
+    "question": "Để ước lượng khoảng cho sự khác biệt giữa hai trung bình tổng thể trường hợp mẫu độc lập, lệnh nào sau đây phù hợp nhất?",
+    "answer": "",
+    "A": "Analyze/Descriptive Statistics/Frequencies vào hộp thoại Bootstrap điều chỉnh khoảng ước lượng theo yêu cầu",
+    "B": "Analyze/Compare Means/Independent – Sample T Test vào hộp thoại Option điều chỉnh khoảng ước lượng theo yêu cầu",
+    "C": "Analyze/Compare Means/Paired – Sample T Test vào hộp thoại Option điều chỉnh khoảng ước lượng theo yêu cầu",
+    "D": "Analyze/Descriptive Statisitics/Explore vào hộp thoại Statistics điều chỉnh khoảng ước lượng theo yêu cầu",
+    "weight": "normal"
+  },
+  {
+    "question": "Biến định tính là biến số",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Dạng biên đề cập mô tả người hoặc vật sở hữu một thuộc tính nhất định</span></div>\n<div class=\"note\">💡 Giải thích: Biến định tính (qualitative variable) biểu thị một thuộc tính, tính chất hay phân loại của phần tử nghiên cứu.</div>",
+    "A": "Các giá trị có thể đếm, giá trị sô nguyên, hay theo khoảng",
+    "B": "Các phép đo giá trị bằng số đi kèm với đơn vị",
+    "C": "Dạng biên đề cập mô tả người hoặc vật sở hữu một thuộc tính nhất định",
+    "D": "Dạng biên đề cập mô tả người hoặc vật sở hữu một thuộc tính nhất định; các giá trị có thể đếm, giá trị sô nguyên, hay theo khoảng",
+    "weight": "normal"
+  },
+  {
+    "question": "Các kiểm định phi tham số sử dụng chủ yếu là",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Kiểm định dấu hoặc kiểm định dấu và hạng Wilcoxon; kiểm định Mann – Whitney; và kiểm định Kruskal – Wallis</span></div>\n<div class=\"note\">💡 Giải thích: Đây là 3 nhóm kiểm định phi tham số phổ biến nhất tương đương với t-test 1 mẫu/cặp, t-test độc lập và ANOVA.</div>",
+    "A": "Kiểm định dấu hoặc kiểm định dấu và hạng Wilcoxon, kiểm định Mann - Whitney",
+    "B": "Kiểm định Mann – Whitney, kiểm định Kruskal – Wallis",
+    "C": "Kiểm định dấu hoặc kiểm định dấu và hạng Wilcoxon; kiểm định Mann – Whitney; và kiểm định Kruskal – Wallis",
+    "D": "Kiểm định Kruskal – Wallis, kiểm định dấu hoặc kiểm định dấu và hạng Wilcoxon",
+    "weight": "normal"
+  },
+  {
+    "question": "Cho giả thuyết H0: μ1 = μ2 (không có sự khác biệt trung bình thu nhập của chủ hộ tốt nghiệp THPT và chưa tốt nghiệp THPT); H1: μ1 ≠ μ2 (có sự khác biệt trung bình thu nhập của chủ hộ tốt nghiệp THPT và chưa tốt nghiệp THPT).<br><div class=\"table-responsive\"><table class=\"table table-bordered\"><thead><tr><th colspan=\"2\" rowspan=\"2\"></th><th colspan=\"2\">Thu nhap</th></tr><tr><th>Equal variances assumed</th><th>Equal variances not assumed</th></tr></thead><tbody><tr><td>Levene's Test for Equality of Variances</td><td>F<br>Sig.</td><td>57.500<br>.000</td><td></td></tr><tr><td>t-test for Equality of Means</td><td>t<br>df<br>Sig. (2-tailed)<br>Mean Difference<br>Std. Error Difference<br>95% Confidence Interval of the Difference Lower<br>Upper</td><td>17.613<br>319<br>.000<br>5172025.740<br>293640.1294<br>4594309.814<br>5749741.666</td><td>14.050<br>129.406<br>.000<br>5172025.740<br>368118.3433<br>4443716.215<br>5900335.265</td></tr></tbody></table></div><br>Dựa vào kết quả SPSS có được, nhận định nào sao đây là đúng với mức ý nghĩa 5%.",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Kết quả cột 1, Sig. = 0,000, bác bỏ H0, có sự khác biệt trung bình thu nhập của chủ hộ tốt nghiệp THPT và chưa tốt nghiệp THPT</span></div>\n<div class=\"note\">💡 Giải thích: Levene's Test có Sig = 0.000 < 0.05 nên phương sai không bằng nhau, theo lý thuyết phải dùng dòng 'Equal variances not assumed'. Tuy nhiên đáp án được cung cấp trong đề lấy kết quả cột 1 (Equal variances assumed) với Sig = 0.000 < 0.05 để bác bỏ H0.</div>",
+    "A": "Kết quả cột 1, Sig. = 0,000, không bác bỏ H0, có sự khác biệt trung bình thu nhập của chủ hộ tốt nghiệp THPT và chưa tốt nghiệp THPT",
+    "B": "Kết quả cột 2, Sig. = 0,000, bác bỏ H0, có sự khác biệt trung bình thu nhập của chủ hộ tốt nghiệp THPT và chưa tốt nghiệp THPT",
+    "C": "Kết quả cột 1, Sig. = 0,000, bác bỏ H0, có sự khác biệt trung bình thu nhập của chủ hộ tốt nghiệp THPT và chưa tốt nghiệp THPT",
+    "D": "Kết quả cột 2, Sig. = 0,000, không bác bỏ H0, có sự khác biệt trung bình thu nhập của chủ hộ tốt nghiệp THPT và chưa tốt nghiệp THPT",
+    "weight": "normal"
+  },
+  {
+    "question": "Cho kết quả SPSS như sau:<br><div class=\"table-responsive\"><table class=\"table table-bordered\"><thead><tr><th colspan=\"2\"></th><th>Ty le loi nhuan/doanh thu (%)</th><th>Ty le no/tong von huy dong</th></tr></thead><tbody><tr><td>Pearson Correlation</td><td>Ty le loi nhuan/doanh thu (%)<br>Ty le no/tong von huy dong</td><td>1.000<br>.606</td><td>.606<br>1.000</td></tr><tr><td>Sig. (1-tailed)</td><td>Ty le loi nhuan/doanh thu (%)<br>Ty le no/tong von huy dong</td><td>.<br>.000</td><td>.000<br>.</td></tr><tr><td>N</td><td>Ty le loi nhuan/doanh thu (%)<br>Ty le no/tong von huy dong</td><td>60<br>60</td><td>60<br>60</td></tr></tbody></table></div><br>Nhận định nào sau đây đúng?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Hệ số tương quan giữa tỷ lệ lợi nhuận/doanh thu và tỷ lệ nợ/tổng vốn huy động r = 0,606; Sig. = 0,000</span></div>\n<div class=\"note\">💡 Giải thích: Từ bảng Correlations, r (Pearson Correlation) giao giữa 2 biến là 0.606 và Sig. (1-tailed) là 0.000.</div>",
+    "A": "Hệ số tương quan giữa tỷ lệ lợi nhuận/doanh thu và tỷ lệ nợ/tổng vốn huy động r = 1,000; Sig. = 0,000",
+    "B": "Hệ số tương quan giữa tỷ lệ lợi nhuận/doanh thu và tỷ lệ nợ/tổng vốn huy động r = 0,000; Sig. = 0,000",
+    "C": "Hệ số tương quan giữa tỷ lệ lợi nhuận/doanh thu và tỷ lệ nợ/tổng vốn huy động r = 60; Sig. = 0,000",
+    "D": "Hệ số tương quan giữa tỷ lệ lợi nhuận/doanh thu và tỷ lệ nợ/tổng vốn huy động r = 0,606; Sig. = 0,000",
+    "weight": "normal"
+  },
+  {
+    "question": "Cho kết quả phân tích dự báo Winters nhân tính như sau:<br><div class=\"table-responsive\"><table class=\"table table-bordered\"><thead><tr><th colspan=\"2\">Model</th><th>Q1 2018</th><th>Q2 2018</th><th>Q3 2018</th><th>Q4 2018</th></tr></thead><tbody><tr><td rowspan=\"3\">Doanh Thu-Model_1</td><td>Forecast</td><td>474.37</td><td>286.80</td><td>331.84</td><td>446.28</td></tr><tr><td>UCL</td><td>518.22</td><td>331.74</td><td>382.18</td><td>512.63</td></tr><tr><td>LCL</td><td>430.53</td><td>241.87</td><td>281.50</td><td>379.92</td></tr></tbody></table><p><small>For each model, forecasts start after the last non-missing in the range of the requested estimation period, and end at the last period for which non-missing values of all the predictors are available or at the end date of the requested forecast period, whichever is earlier.</small></p></div><br>Chọn kết quả đúng cho dự báo quý 4 năm 2018.",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Doanh thu trung bình dự báo được là 446,28 triệu đồng; khoảng tin cậy 95% cho giá trị dự báo doanh thu trung bình là (379,92; 512,62) triệu đồng</span></div>\n<div class=\"note\">💡 Giải thích: Cột Q4 2018 có Forecast = 446.28, khoảng tin cậy (LCL; UCL) = (379.92; 512.63).</div>",
+    "A": "Doanh thu trung bình dự báo được là 331,84 triệu đồng; khoảng tin cậy 95% cho giá trị dự báo doanh thu trung bình là (281,50; 382,18) triệu đồng",
+    "B": "Doanh thu trung bình dự báo được là 474,37 triệu đồng; khoảng tin cậy 95% cho giá trị dự báo doanh thu trung bình là (430,53; 518,22) triệu đồng",
+    "C": "Doanh thu trung bình dự báo được là 286,8 triệu đồng; khoảng tin cậy 95% cho giá trị dự báo doanh thu trung bình là (241,87; 331,74) triệu đồng",
+    "D": "Doanh thu trung bình dự báo được là 446,28 triệu đồng; khoảng tin cậy 95% cho giá trị dự báo doanh thu trung bình là (379,92; 512,62) triệu đồng",
+    "weight": "normal"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Thống kê"
+    ],
+    "question": "<div class=\"options-grid\">Khung mẫu là<div>A. đối tượng nghiên cứu cần thu thập dữ liệu, đơn vị nhỏ nhất của tổng thể</div><div>B. trong nghiên cứu chi nhỏ tổng thể thành nhiều nhóm có đặc tính riêng</div><div>C. danh sách liệt kê dữ liệu cần thiết của tất cả các đơn vị và phần tử</div><div>D. tập hợp tất cả các đối tượng nghiên cứu (cần thu thập dữ liệu) mà nhà nghiên cứu cần nghiên cứu</div></div>",
+    "A": "đối tượng nghiên cứu cần thu thập dữ liệu, đơn vị nhỏ nhất của tổng thể",
+    "B": "trong nghiên cứu chi nhỏ tổng thể thành nhiều nhóm có đặc tính riêng",
+    "C": "danh sách liệt kê dữ liệu cần thiết của tất cả các đơn vị và phần tử",
+    "D": "tập hợp tất cả các đối tượng nghiên cứu (cần thu thập dữ liệu) mà nhà nghiên cứu cần nghiên cứu",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">danh sách liệt kê dữ liệu cần thiết của tất cả các đơn vị và phần tử</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Thống kê"
+    ],
+    "question": "<div class=\"options-grid\">Kiểm định Kruskal – Wallis là kiểm định<div>A. Sử dụng kiểm tra sự khác biệt cho mẫu phối hợp theo cặp đối với biến định tính, mẫu phối hợp phụ thuộc</div><div>B. Sử dụng kiểm tra sự khác biệt cho mẫu phối hợp theo cặp đối với biến định tính, mẫu phối hợp phụ thuộc; trong đó cho biết độ lớn cá chênh lệch</div><div>C. Sử dụng kiểm tra sự khác biệt cho hai mẫu độc lập và đối với biến định lượng; trong đó cho biết độ lớn cá chênh lệch</div><div>D. Sử dụng kiểm tra sự khác biệt cho nhiều mẫu độc lập và đối với biến định lượng; trong đó cho biết độ lớn cá chênh lệch</div></div>",
+    "A": "Sử dụng kiểm tra sự khác biệt cho mẫu phối hợp theo cặp đối với biến định tính, mẫu phối hợp phụ thuộc",
+    "B": "Sử dụng kiểm tra sự khác biệt cho mẫu phối hợp theo cặp đối với biến định tính, mẫu phối hợp phụ thuộc; trong đó cho biết độ lớn cá chênh lệch",
+    "C": "Sử dụng kiểm tra sự khác biệt cho hai mẫu độc lập và đối với biến định lượng; trong đó cho biết độ lớn cá chênh lệch",
+    "D": "Sử dụng kiểm tra sự khác biệt cho nhiều mẫu độc lập và đối với biến định lượng; trong đó cho biết độ lớn cá chênh lệch",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Sử dụng kiểm tra sự khác biệt cho nhiều mẫu độc lập và đối với biến định lượng; trong đó cho biết độ lớn cá chênh lệch</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Thống kê"
+    ],
+    "question": "<div class=\"options-grid\">Dựa vào kết quả thu được từ SPSS:\n<div class=\"table-responsive\" style=\"margin: 15px 0;\">\n  <table class=\"table table-bordered\">\n    <thead>\n      <tr>\n        <th colspan=\"3\" class=\"text-center\">Descriptives</th>\n        <th class=\"text-center\">Statistic</th>\n        <th class=\"text-center\">Std. Error</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td rowspan=\"13\" class=\"font-weight-bold\">Thu nhap</td>\n        <td colspan=\"2\">Mean</td>\n        <td class=\"text-right\">7849549.550</td>\n        <td class=\"text-right\">353116.1708</td>\n      </tr>\n      <tr>\n        <td rowspan=\"2\">95% Confidence Interval for Mean</td>\n        <td>Lower Bound</td>\n        <td class=\"text-right\">7149756.182</td>\n        <td></td>\n      </tr>\n      <tr>\n        <td>Upper Bound</td>\n        <td class=\"text-right\">8549342.917</td>\n        <td></td>\n      </tr>\n      <tr>\n        <td colspan=\"2\">5% Trimmed Mean</td>\n        <td class=\"text-right\">7657657.658</td>\n        <td></td>\n      </tr>\n      <tr>\n        <td colspan=\"2\">Median</td>\n        <td class=\"text-right\">8000000.000</td>\n        <td></td>\n      </tr>\n      <tr>\n        <td colspan=\"2\">Variance</td>\n        <td class=\"text-right\">1.384E+13</td>\n        <td></td>\n      </tr>\n      <tr>\n        <td colspan=\"2\">Std. Deviation</td>\n        <td class=\"text-right\">3720309.710</td>\n        <td></td>\n      </tr>\n      <tr>\n        <td colspan=\"2\">Minimum</td>\n        <td class=\"text-right\">1.00E+006</td>\n        <td></td>\n      </tr>\n      <tr>\n        <td colspan=\"2\">Maximum</td>\n        <td class=\"text-right\">2.00E+007</td>\n        <td></td>\n      </tr>\n      <tr>\n        <td colspan=\"2\">Range</td>\n        <td class=\"text-right\">19000000.00</td>\n        <td></td>\n      </tr>\n      <tr>\n        <td colspan=\"2\">Interquartile Range</td>\n        <td class=\"text-right\">4000000.00</td>\n        <td></td>\n      </tr>\n      <tr>\n        <td colspan=\"2\">Skewness</td>\n        <td class=\"text-right\">.764</td>\n        <td class=\"text-right\">.229</td>\n      </tr>\n      <tr>\n        <td colspan=\"2\">Kurtosis</td>\n        <td class=\"text-right\">1.677</td>\n        <td class=\"text-right\">.455</td>\n      </tr>\n    </tbody>\n  </table>\n</div>\nCho biết ước lượng khoảng (độ tin cậy 95%) của thu nhập trung bình là:<div>A. (7.657.657,658; 8.000.000 đồng/tháng)</div><div>B. (7.149.756,182; 8.549.342,917) đồng/tháng</div><div>C. (1.000.000; 20.000.000) đồng/tháng</div><div>D. (40.00.000; 19.000.000) đồng/tháng</div></div>",
+    "A": "(7.657.657,658; 8.000.000 đồng/tháng)",
+    "B": "(7.149.756,182; 8.549.342,917) đồng/tháng",
+    "C": "(1.000.000; 20.000.000) đồng/tháng",
+    "D": "(40.00.000; 19.000.000) đồng/tháng",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">(7.149.756,182; 8.549.342,917) đồng/tháng</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Thống kê"
+    ],
+    "question": "<div class=\"options-grid\"><p>Cho giả thuyết H<sub>0</sub>: μ<sub>1</sub> = μ<sub>2</sub> = μ<sub>3</sub> (không có sự khác biệt trung bình vốn đầu tư của doanh nghiệp Mỹ, Nhật và nước khác); H<sub>1</sub>: μ<sub>i</sub> ≠ μ<sub>j</sub> (ít nhất một trung bình khác trung bình còn lại, cụ thể có sự khác biệt trung bình vốn đầu tư của doanh nghiệp Mỹ, Nhật và nước khác).</p>\n<div class=\"table-responsive\" style=\"margin: 15px 0;\">\n  <table class=\"table table-bordered text-center\" style=\"font-size: 0.95em;\">\n    <thead>\n      <tr>\n        <th colspan=\"7\" class=\"text-center\" style=\"font-weight: bold;\">Multiple Comparisons</th>\n      </tr>\n      <tr>\n        <th colspan=\"7\" class=\"text-left\" style=\"font-weight: normal;\">\n          Dependent Variable: VONDT<br>\n          Dunnett t (2-sided)<sup>a</sup>\n        </th>\n      </tr>\n      <tr>\n        <th rowspan=\"2\" class=\"align-middle\">(I) Loai quoc gia DN</th>\n        <th rowspan=\"2\" class=\"align-middle\">(J) Loai quoc gia DN</th>\n        <th rowspan=\"2\" class=\"align-middle\">Mean Difference (I-J)</th>\n        <th rowspan=\"2\" class=\"align-middle\">Std. Error</th>\n        <th rowspan=\"2\" class=\"align-middle\">Sig.</th>\n        <th colspan=\"2\">95% Confidence Interval</th>\n      </tr>\n      <tr>\n        <th>Lower Bound</th>\n        <th>Upper Bound</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td>My</td>\n        <td>QG khac</td>\n        <td>131.72944*</td>\n        <td>25.11152</td>\n        <td>.000</td>\n        <td>74.7085</td>\n        <td>188.7504</td>\n      </tr>\n      <tr>\n        <td>Nhat</td>\n        <td>QG khac</td>\n        <td>87.51821*</td>\n        <td>26.85452</td>\n        <td>.004</td>\n        <td>26.5394</td>\n        <td>148.4970</td>\n      </tr>\n    </tbody>\n  </table>\n  <div style=\"font-size: 0.85em; text-align: left; margin-top: 5px; color: #555;\">\n    *. The mean difference is significant at the 0.05 level.<br>\n    a. Dunnett t-tests treat one group as a control, and compare all other groups against it.\n  </div>\n</div>\n<p style=\"margin-top: 10px; font-weight: bold;\">Dựa vào kết quả SPSS có được, nhận định nào sao đây là đúng với mức ý nghĩa 5%?</p><div>A. Cả hai: Sig.=0,000; bác bỏ H0, có sự khác biệt trung bình vốn đầu tư của doanh nghiệp Mỹ và nước khác; và Sig.=0,004; có sự khác biệt trung bình vốn đầu tư của doanh nghiệp Nhật và nước khác đều đúng</div><div>B. Sig.=0,000; bác bỏ H0, có sự khác biệt trung bình vốn đầu tư của doanh nghiệp Mỹ và nước khác</div><div>C. Cả hai: Sig.=0,000; bác bỏ H0, có sự khác biệt trung bình vốn đầu tư của doanh nghiệp Mỹ và nước khác; và Sig.=0,004; có sự khác biệt trung bình vốn đầu tư của doanh nghiệp Nhật và nước khác đều sai</div><div>D. Sig.=0,004; có sự khác biệt trung bình vốn đầu tư của doanh nghiệp Nhật và nước khác</div></div>",
+    "A": "Cả hai: Sig.=0,000; bác bỏ H0, có sự khác biệt trung bình vốn đầu tư của doanh nghiệp Mỹ và nước khác; và Sig.=0,004; có sự khác biệt trung bình vốn đầu tư của doanh nghiệp Nhật và nước khác đều đúng",
+    "B": "Sig.=0,000; bác bỏ H0, có sự khác biệt trung bình vốn đầu tư của doanh nghiệp Mỹ và nước khác",
+    "C": "Cả hai: Sig.=0,000; bác bỏ H0, có sự khác biệt trung bình vốn đầu tư của doanh nghiệp Mỹ và nước khác; và Sig.=0,004; có sự khác biệt trung bình vốn đầu tư của doanh nghiệp Nhật và nước khác đều sai",
+    "D": "Sig.=0,004; có sự khác biệt trung bình vốn đầu tư của doanh nghiệp Nhật và nước khác",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Cả hai: Sig.=0,000; bác bỏ H0, có sự khác biệt trung bình vốn đầu tư của doanh nghiệp Mỹ và nước khác; và Sig.=0,004; có sự khác biệt trung bình vốn đầu tư của doanh nghiệp Nhật và nước khác đều đúng</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Thống kê"
+    ],
+    "question": "<div class=\"options-grid\"><p>Kiểm định với H<sub>0</sub>: không có sự khác biệt về số lượt khách hàng đến siêu thị Co.op ở Tp.HCM, Vũng Tàu và Bình Dương; H<sub>1</sub>: có sự khác biệt về số lượt khách hàng đến siêu thị Co.op ở Tp.HCM, Vũng Tàu và Bình Dương.</p>\n<div class=\"table-responsive\" style=\"margin: 15px 0;\">\n  <table class=\"table table-bordered\" style=\"max-width: 350px; margin: 0 auto; font-size: 1.1em;\">\n    <thead>\n      <tr>\n        <th colspan=\"2\" class=\"text-center\" style=\"font-size: 1.3em; font-weight: bold; border-bottom: 2px solid #333;\">Test Statistics<sup>a,b</sup></th>\n      </tr>\n      <tr>\n        <th></th>\n        <th class=\"text-center\">So luot khach<br>den sieu thi</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td>Chi-Square</td>\n        <td class=\"text-right\">11.335</td>\n      </tr>\n      <tr>\n        <td>df</td>\n        <td class=\"text-right\">2</td>\n      </tr>\n      <tr>\n        <td>Asymp. Sig.</td>\n        <td class=\"text-right\">.003</td>\n      </tr>\n    </tbody>\n  </table>\n  <div style=\"font-size: 1em; text-align: center; margin-top: 10px; color: #444;\">\n    a. Kruskal Wallis Test<br>\n    b. Grouping Variable: Loai sieu thi Co.op\n  </div>\n</div>\n<p style=\"margin-top: 15px; font-weight: bold;\">Dựa vào kết quả SPSS, nhận định nào sau đây đúng với mức ý nghĩa 5%?</p><div>A. Sig. = 0,003; không bác bỏ H0, không có sự khác biệt về số lượt khách hàng đến siêu thị Co.op ở Tp.HCM, Vũng Tàu và Bình Dương</div><div>B. Sig. = 11,335; bác bỏ H0, có sự khác biệt về số lượt khách hàng đến siêu thị Co.op ở Tp.HCM, Vũng Tàu và Bình Dương</div><div>C. Sig. = 0,003; bác bỏ H0, không có sự khác biệt về số lượt khách hàng đến siêu thị Co.op ở Tp.HCM, Vũng Tàu và Bình Dương</div><div>D. Sig. = 0,003; bác bỏ H0, có sự khác biệt về số lượt khách hàng đến siêu thị Co.op ở Tp.HCM, Vũng Tàu và Bình Dương</div></div>",
+    "A": "Sig. = 0,003; không bác bỏ H0, không có sự khác biệt về số lượt khách hàng đến siêu thị Co.op ở Tp.HCM, Vũng Tàu và Bình Dương",
+    "B": "Sig. = 11,335; bác bỏ H0, có sự khác biệt về số lượt khách hàng đến siêu thị Co.op ở Tp.HCM, Vũng Tàu và Bình Dương",
+    "C": "Sig. = 0,003; bác bỏ H0, không có sự khác biệt về số lượt khách hàng đến siêu thị Co.op ở Tp.HCM, Vũng Tàu và Bình Dương",
+    "D": "Sig. = 0,003; bác bỏ H0, có sự khác biệt về số lượt khách hàng đến siêu thị Co.op ở Tp.HCM, Vũng Tàu và Bình Dương",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Sig. = 0,003; bác bỏ H0, có sự khác biệt về số lượt khách hàng đến siêu thị Co.op ở Tp.HCM, Vũng Tàu và Bình Dương</span></div>\n<div class=\"note\">💡 Giải thích: (Đã khớp với đáp án chuẩn)</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Thống kê"
+    ],
+    "question": "Khung mẫu là\n<div class=\"options-grid\">\n<div>A. trong nghiên cứu chi nhỏ tổng thể thành nhiều nhóm có đặc tính riêng</div>\n<div>B. tập hợp tất cả các đối tượng nghiên cứu (cần thu thập dữ liệu) mà nhà nghiên cứu cần nghiên cứu</div>\n<div>C. <span class=\"keyword\">danh sách</span> liệt kê dữ liệu cần thiết của tất cả các đơn vị và phần tử</div>\n<div>D. đối tượng nghiên cứu cần thu thập dữ liệu, đơn vị nhỏ nhất của tổng thể</div>\n</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">danh sách</span> liệt kê dữ liệu cần thiết của tất cả các đơn vị và phần tử</div>\n<div class=\"note\">💡 Giải thích: Khung mẫu (sampling frame) là danh sách cụ thể các phần tử để từ đó rút ra mẫu.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Thống kê"
+    ],
+    "question": "Cho bảng số liệu về vốn đầu tư của doanh nghiệp Mỹ như sau: Vốn đầu tư N Valid 14 Missing 0 Mean 140.3571 Std. Error of Mean 23.86123 Median 160.0000 Mode 160.00a Std. Deviation 89.28055 Variance 7971.016 Skewness -.124 Std. Error of Skewness .597 Kurtosis -1.243 Std. Error of Kurtosis 1.154 Range 240.00 Minimum 10.00 Maximum 250.00 Percentiles 25 73.7500 50 160.0000 75 250.0000 Vốn đầu tư của doanh nghiệp Mỹ có đường cong phân phối lệch sang\n<div class=\"options-grid\">\n<div>A. 1,154, lệch sang phải</div>\n<div>B. 0,597, lệch sang phải</div>\n<div>C. <span class=\"keyword\">-0,124</span>, lệch sang trái</div>\n<div>D. -1,243, lệch sang trái</div>\n</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">-0,124</span>, lệch sang trái</div>\n<div class=\"note\">💡 Giải thích: Dựa vào thông số Skewness = -0.124 (âm) nên phân phối lệch sang trái.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Thống kê"
+    ],
+    "question": "[Hình ảnh bị thiếu] Dựa vào kết quả thu được từ SPSS: Cho biết ước lượng khoảng (độ tin cậy 95%) cho sự khác biệt trung bình năng suất lao động trước và sau cải tiến\n<div class=\"options-grid\">\n<div>A. (-4,9000; 4,4833) kg/ngày; không có sự khác biệt năng suất trước và sau cải tiến</div>\n<div>B. (1,41774; 4,4833) kg/ngày; có sự khác biệt năng suất trước và sau cải tiến</div>\n<div>C. (-1,6928; -3,456) kg/ngày; có sự khác biệt năng suất trước và sau cải tiến</div>\n<div>D. <span class=\"keyword\">(-8,10716; -1,6928)</span> kg/ngày; có sự khác biệt năng suất trước và sau cải tiến</div>\n</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">(-8,10716; -1,6928)</span> kg/ngày; có sự khác biệt năng suất trước và sau cải tiến</div>\n<div class=\"note\">💡 Giải thích: Dữ liệu bảng SPSS không hiển thị trong câu hỏi gốc, nên học thuộc con số này.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Thống kê"
+    ],
+    "question": "Ước lượng điểm là\n<div class=\"options-grid\">\n<div>A. một dạng suy diễn thống kê, tính toán dự trên dữ liệu tổng thể để tính toán các giá trị thống kê tổng thể</div>\n<div>B. một dạng suy diễn thống kê, tính toán dự trên <span class=\"keyword\">dữ liệu mẫu</span> để tính toán các giá trị thống kê mẫu rồi dùng như ước lượng tham số tổng thể</div>\n<div>C. một dạng suy diễn thống kê, tính toán dự trên dữ liệu tổng thể để tính toán các giá trị thống kê tổng thể rồi dùng như ước lượng thống kê của mẫu</div>\n<div>D. một dạng suy diễn thống kê, tính toán dự trên dữ liệu tổng thể để tính toán các giá trị thống kê</div>\n</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: một dạng suy diễn thống kê, tính toán dự trên <span class=\"answer-keyword\">dữ liệu mẫu</span> để tính toán các giá trị thống kê mẫu rồi dùng như ước lượng tham số tổng thể</div>\n<div class=\"note\">💡 Giải thích: Ước lượng luôn đi từ mẫu (sample) để suy ra cho tổng thể (population).</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Thống kê"
+    ],
+    "question": "[Hình ảnh bị thiếu] Dựa vào kết quả thu được từ SPSS: Cho biết ước lượng khoảng (độ tin cậy 95%) của thu nhập trung bình là:\n<div class=\"options-grid\">\n<div>A. <span class=\"keyword\">(7.149.756,182; 8.549.342,917)</span> đồng/tháng</div>\n<div>B. (7.657.657,658; 8.000.000 đồng/tháng)</div>\n<div>C. (40.00.000; 19.000.000) đồng/tháng</div>\n<div>D. (1.000.000; 20.000.000) đồng/tháng</div>\n</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">(7.149.756,182; 8.549.342,917)</span> đồng/tháng</div>\n<div class=\"note\">💡 Giải thích: Hình ảnh bị thiếu, mẹo học thuộc đáp án này (7.1...; 8.5...).</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Thống kê"
+    ],
+    "question": "Lệnh nào đúng nhất cho kiểm định sự khác biệt trung bình từ ba tổng thể trở lên, trường hợp mẫu độc lập?\n<div class=\"options-grid\">\n<div>A. Analyze/Descriptive Statistics/Crosstabs</div>\n<div>B. Analyze/Compare Means/Independent – Samples T Test; hoặc Analyze/Compare Means/One – Way ANOVA; hoặc Analyze/Descriptive Statistics/Crosstabs</div>\n<div>C. Analyze/Compare Means/Independent – Samples T Test</div>\n<div>D. Analyze/Compare Means/<span class=\"keyword\">One – Way ANOVA</span></div>\n</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: Analyze/Compare Means/<span class=\"answer-keyword\">One – Way ANOVA</span></div>\n<div class=\"note\">💡 Giải thích: 3 tổng thể trở lên -> sử dụng phương sai ANOVA (One-Way ANOVA).</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Thống kê"
+    ],
+    "question": "[Hình ảnh bị thiếu] Cho mô hình hồi quy tuyến tính đa biến với giả thuyết H0: R2 = 0; H1: R2 ≠ 0 và kết quả thu được từ SPSS như sau. Nhận định nào sau đây đúng nhất với mức ý nghĩa 5%?\n<div class=\"options-grid\">\n<div>A. Sig. = 149,003, bác bỏ H0, Mô hình hồi quy phù hợp</div>\n<div>B. Sig. = 0,000, bác bỏ H0, Mô hình hồi quy không phù hợp</div>\n<div>C. Sig. = 0,000, không bác bỏ H0, Mô hình hồi quy phù hợp</div>\n<div>D. <span class=\"keyword\">Sig. = 0,000, bác bỏ H0</span>, Mô hình hồi quy <span class=\"keyword\">phù hợp</span></div>\n</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Sig. = 0,000, bác bỏ H0</span>, Mô hình hồi quy <span class=\"answer-keyword\">phù hợp</span></div>\n<div class=\"note\">💡 Giải thích: Sig < 0.05 => Bác bỏ H0, mô hình phù hợp.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Thống kê"
+    ],
+    "question": "[Hình ảnh bị thiếu] Cho mô hình hồi quy tuyến tính đa biến và kết quả thu được từ SPSS như sau. Nhận định nào sau đây đúng nhất với mức ý nghĩa 10%?\n<div class=\"options-grid\">\n<div>A. Biến Niêm yết chứng khoán, tổng tài sản, kinh nghiệm quản lý, tỷ số nợ, tốc độ tăng trưởng doanh thu có tác động đến lượng tiền vay...</div>\n<div>B. Biến Niêm yết chứng khoán, tổng tài sản, tài sản có thể thế chấp, tỷ số nợ, lợi nhuận có tác động đến lượng tiền vay...</div>\n<div>C. Biến Niêm yết chứng khoán, lĩnh vực kinh doanh, tài sản có thể thế chấp, tỷ số nợ, tốc độ tăng trưởng doanh thu có tác động...</div>\n<div>D. Biến Niêm yết chứng khoán, tổng tài sản, <span class=\"keyword\">tài sản có thể thế chấp</span>, tỷ số nợ, <span class=\"keyword\">tốc độ tăng trưởng doanh thu</span> có tác động đến lượng tiền vay...</div>\n</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: Biến Niêm yết chứng khoán, tổng tài sản, <span class=\"answer-keyword\">tài sản có thể thế chấp</span>, tỷ số nợ, <span class=\"answer-keyword\">tốc độ tăng trưởng doanh thu</span> có tác động đến lượng tiền vay từ định chế tài chính chính thức</div>\n<div class=\"note\">💡 Giải thích: Ảnh thiếu nên các biến này là các biến có Sig < 0.10. Cần học thuộc đáp án.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Thống kê"
+    ],
+    "question": "[Hình ảnh bị thiếu] Cho mô hình hồi quy tuyến tính đa biến, kiểm định giả thuyết H0: β4 = 0 (biến kinh nghiệm quản lý không tác động đến lượng tiền vay từ định chế chính thức); H1: β4 ≠ 0. Kết quả thu được từ SPSS như sau. Nhận định nào sau đây đúng nhất với mức ý nghĩa 5%?\n<div class=\"options-grid\">\n<div>A. <span class=\"keyword\">Sig. = 0,617, không bác bỏ H0</span>, biến kinh nghiệm quản lý <span class=\"keyword\">không có tác động</span> đến lượng tiền vay từ định chế chính thức</div>\n<div>B. Sig. = 0,161, không bác bỏ H0, biến kinh nghiệm quản lý không có tác động đến lượng tiền vay từ định chế chính thức</div>\n<div>C. Sig. = 0,617, bác bỏ H0, biến kinh nghiệm quản lý có tác động đến lượng tiền vay từ định chế chính thức</div>\n<div>D. Sig. = 0,617, không bác bỏ H0, biến niêm kinh nghiệm quản lý có tác động đến lượng tiền vay từ định chế chính thức</div>\n</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Sig. = 0,617, không bác bỏ H0</span>, biến kinh nghiệm quản lý <span class=\"answer-keyword\">không có tác động</span> đến lượng tiền vay từ định chế chính thức</div>\n<div class=\"note\">💡 Giải thích: Sig = 0.617 > 0.05 => Không bác bỏ H0 (tức là không có tác động).</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Thống kê"
+    ],
+    "question": "Nghiên cứu biến động chuỗi thời gian, các yếu tố thời vụ/tính mùa được hiểu là\n<div class=\"options-grid\">\n<div>A. Biến động tăng hoặc giảm của hiện tượng nghiên cứu trong thời gian dài...</div>\n<div>B. Biến động của hiện tượng được lặp lại với một chu kỳ nhất định, thường kéo dài 2 đến 10 năm...</div>\n<div>C. Biến động tăng hoặc giảm của hiện tượng ở một thời điểm (tháng hay quý) được <span class=\"keyword\">lặp đi lặp lại qua nhiều năm</span>, thường do thời tiết, khí hậu...</div>\n<div>D. Biến động không có quy luật và hầu như không dự đoán được...</div>\n</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: Biến động tăng hoặc giảm của hiện tượng ở một thời điểm (tháng hay quý) được <span class=\"answer-keyword\">lặp đi lặp lại qua nhiều năm</span>, thường do thời tiết, khí hậu, tập quán xã hội hay tín ngưỡng</div>\n<div class=\"note\">💡 Giải thích: Tính mùa (Seasonal) gắn liền với sự lặp lại theo mùa (thời tiết, khí hậu, tháng/quý) trong nhiều năm.</div>"
+  }
+]
