@@ -3,20 +3,69 @@
     "title": "Chương 1: Đối tượng & Phương pháp nghiên cứu",
     "blocks": [
       {
-        "type": "vs-wrap",
-        "titleA": "Trọng thương",
-        "descA": "Nhấn mạnh lưu thông, thương mại, mua bán để tạo ra thặng dư.",
-        "titleB": "Trọng nông",
-        "descB": "Chỉ có nông nghiệp mới tạo ra giá trị mới thực sự."
-      },
-      {
         "type": "flowchart",
         "nodes": [
-          {"title": "Trọng thương", "content": "Thương mại"},
+          {"title": "Trọng thương", "content": "Lưu thông, Thương mại"},
           {"title": "Trọng nông", "content": "Nông nghiệp"},
-          {"title": "Cổ điển Anh", "content": "Sản xuất công nghiệp", "interactive": "cloze"},
-          {"title": "Mác - Lênin", "content": "Phương thức sản xuất"}
+          {"title": "Cổ điển Anh", "content": "Nền sản xuất công nghiệp", "interactive": "cloze"},
+          {"title": "Mác - Lênin", "content": "Quy luật phương thức Sản xuất"}
         ]
+      },
+      {
+        "type": "vs-wrap",
+        "titleA": "Quy luật kinh tế",
+        "descA": "Mang tính khách quan. Con người không thể tạo ra hay xóa bỏ, chỉ có thể nhận thức và tuân theo.",
+        "titleB": "Chính sách kinh tế",
+        "descB": "Mang tính chủ quan. Là công cụ để vận dụng quy luật vào thực tiễn."
+      },
+      {
+        "type": "t-account",
+        "title": "Phương pháp Trừu tượng hóa khoa học",
+        "debit": [
+          {"text": "Gạt bỏ yếu tố Ngẫu nhiên"},
+          {"text": "Gạt bỏ yếu tố Tạm thời"},
+          {"text": "Gạt bỏ Hiện tượng bề ngoài"}
+        ],
+        "credit": [
+          {"text": "Giữ lại Bản chất"},
+          {"text": "Giữ lại Yếu tố Điển hình"},
+          {"text": "Giữ lại Yếu tố Bền vững"}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Chương 2: Hàng hóa & Thị trường",
+    "blocks": [
+      {
+        "type": "venn-diagram",
+        "titleA": "Giá trị sử dụng",
+        "descA": "Công dụng của vật. Do thuộc tính tự nhiên quyết định. (Lao động cụ thể tạo ra)",
+        "titleB": "Giá trị",
+        "descB": "Hao phí lao động xã hội kết tinh trong hàng hóa. (Lao động trừu tượng tạo ra)",
+        "overlap": "Hàng hóa"
+      },
+      {
+        "type": "flip-card",
+        "front": "Dịch vụ có phải là hàng hóa không? Nó khác hàng hóa thông thường ở điểm cốt lõi nào?",
+        "back": "Dịch vụ là hàng hóa VÔ HÌNH. Điểm khác biệt chí mạng: Dịch vụ KHÔNG THỂ CẤT TRỮ. Quá trình sản xuất và tiêu dùng diễn ra đồng thời."
+      },
+      {
+        "type": "formula-breakdown",
+        "formula": "W = c + v + m",
+        "variables": [
+          {"symbol": "W", "desc": "Giá trị hàng hóa (Value)"},
+          {"symbol": "c", "desc": "Tư bản bất biến (Máy móc, nguyên vật liệu - Chuyển dần giá trị)"},
+          {"symbol": "v", "desc": "Tư bản khả biến (Sức lao động - Tạo ra giá trị mới)"},
+          {"symbol": "m", "desc": "Giá trị thặng dư (Phần bị nhà tư bản chiếm không)"}
+        ]
+      },
+      {
+        "type": "vs-wrap",
+        "titleA": "Kinh tế thị trường (Ưu điểm)",
+        "descA": "Tạo động lực sáng tạo, phân bổ nguồn lực hiệu quả qua giá cả, thỏa mãn tối đa nhu cầu.",
+        "titleB": "Kinh tế thị trường (Khuyết tật)",
+        "descB": "Tiềm ẩn khủng hoảng, cạn kiệt tài nguyên, phân hóa giàu nghèo sâu sắc."
       }
     ]
   }
