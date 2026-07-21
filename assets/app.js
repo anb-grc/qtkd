@@ -705,7 +705,7 @@ async function renderKnowledgeBase() {
     if (!kbContainer) return;
 
     try {
-        let kbUrl = '../../kb.json'; // Tạm thời link ra ngoài root vì kb.json đang ở ngoài cùng, hoặc để kb.json ở cùng folder môn học
+        let kbUrl = '../kb.json'; // Tạm thời link ra ngoài root
         if (typeof KB_DATA_URL !== 'undefined') kbUrl = KB_DATA_URL; 
         
         const res = await fetch(kbUrl);
