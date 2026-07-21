@@ -1,0 +1,467 @@
+[
+  {
+    "title": "Chương 1: Đối tượng, phương pháp và chức năng của Kinh tế chính trị Mác - Lênin",
+    "blocks": [
+      {
+        "type": "mindmap",
+        "title": "Quá trình hình thành & phát triển (How & What)",
+        "content": {
+          "nodes": [
+            "Chủ nghĩa trọng thương",
+            "Chủ nghĩa trọng nông",
+            "KTCT tư sản cổ điển Anh",
+            "KTCT Mác - Lênin"
+          ],
+          "connections": [
+            {
+              "from": "Chủ nghĩa trọng thương",
+              "to": "Chủ nghĩa trọng nông",
+              "label": "Chuyển từ lưu thông sang sản xuất nông nghiệp"
+            },
+            {
+              "from": "Chủ nghĩa trọng nông",
+              "to": "KTCT tư sản cổ điển Anh",
+              "label": "Hệ thống hóa toàn bộ sản xuất"
+            },
+            {
+              "from": "KTCT tư sản cổ điển Anh",
+              "to": "KTCT Mác - Lênin",
+              "label": "Kế thừa có phê phán (Đỉnh cao)"
+            }
+          ]
+        }
+      },
+      {
+        "type": "vs-wrap",
+        "title": "Đối tượng nghiên cứu (VS)",
+        "content": {
+          "left": {
+            "title": "Kinh tế học vi mô/vĩ mô",
+            "items": [
+              "Nghiên cứu hành vi thực dụng",
+              "Chú trọng các chỉ số định lượng (GDP, giá cả)"
+            ]
+          },
+          "right": {
+            "title": "Kinh tế chính trị Mác - Lênin",
+            "items": [
+              "Nghiên cứu Quan hệ sản xuất (bản chất bóc lột/hợp tác)",
+              "Xét trong mối quan hệ với Lực lượng sản xuất & Kiến trúc thượng tầng"
+            ]
+          },
+          "conclusion": "Bẫy (Trap): Sinh viên hay nhầm đối tượng nghiên cứu là biểu hiện kinh tế bề ngoài, thực chất là TÌM RA QUY LUẬT XÃ HỘI."
+        }
+      },
+      {
+        "type": "pyramid",
+        "title": "4 Chức năng cốt lõi",
+        "content": {
+          "levels": [
+            "Chức năng phương pháp luận (Nền tảng)",
+            "Chức năng tư tưởng (Giai cấp công nhân)",
+            "Chức năng thực tiễn (Cải tạo thế giới)",
+            "Chức năng nhận thức (Hiểu quy luật)"
+          ],
+          "context": "Nhận thức đúng -> Áp dụng thực tiễn -> Trở thành tư tưởng -> Tạo ra phương pháp giải quyết vấn đề mới."
+        }
+      }
+    ]
+  },
+  {
+    "title": "Chương 2: Hàng hóa, thị trường và quy luật giá trị",
+    "blocks": [
+      {
+        "type": "venn-diagram",
+        "title": "Hai thuộc tính của hàng hóa (What & Trap)",
+        "content": {
+          "setA": {
+            "name": "Giá trị sử dụng",
+            "attributes": [
+              "Thuộc tính tự nhiên",
+              "Thỏa mãn nhu cầu",
+              "Phạm trù vĩnh viễn"
+            ]
+          },
+          "setB": {
+            "name": "Giá trị",
+            "attributes": [
+              "Thuộc tính xã hội",
+              "Hao phí sức lao động",
+              "Phạm trù lịch sử (chỉ có trong kinh tế hàng hóa)"
+            ]
+          },
+          "intersection": [
+            "Cùng tồn tại nhưng mâu thuẫn",
+            "Bẫy: Hàng hóa phải có CẢ 2, thiếu 1 thì không phải hàng hóa"
+          ]
+        }
+      },
+      {
+        "type": "formula-breakdown",
+        "title": "Lượng giá trị hàng hóa (Math)",
+        "content": {
+          "formula": "G = c + v + m",
+          "variables": [
+            {
+              "symbol": "c",
+              "meaning": "Giá trị TLSX chuyển vào (Lao động quá khứ)"
+            },
+            {
+              "symbol": "v",
+              "meaning": "Giá trị sức lao động (Bù đắp hao phí thể lực/trí lực)"
+            },
+            {
+              "symbol": "m",
+              "meaning": "Giá trị thặng dư (Phần lao động không công)"
+            }
+          ],
+          "explanation": "Thời gian lao động xã hội cần thiết quyết định lượng giá trị, chứ KHÔNG PHẢI thời gian lao động cá biệt."
+        }
+      },
+      {
+        "type": "t-account",
+        "title": "Tính hai mặt của lao động sản xuất hàng hóa (VS)",
+        "content": {
+          "left": {
+            "header": "Lao động Cụ thể",
+            "entries": [
+              "Tạo ra Giá trị sử dụng",
+              "Có hình thức chuyên môn nhất định",
+              "Phạm trù vĩnh viễn"
+            ]
+          },
+          "right": {
+            "header": "Lao động Trừu tượng",
+            "entries": [
+              "Tạo ra Giá trị hàng hóa",
+              "Sự tiêu hao sức cơ bắp/thần kinh",
+              "Phạm trù lịch sử"
+            ]
+          },
+          "summary": "Mác là người đầu tiên phát hiện ra tính hai mặt này (Điểm khác biệt với KTCT cổ điển)."
+        }
+      },
+      {
+        "type": "process-steps",
+        "title": "Sự phát triển của Hình thái giá trị & Tiền tệ (How)",
+        "content": {
+          "steps": [
+            {
+              "step": 1,
+              "name": "Giản đơn (Ngẫu nhiên)",
+              "desc": "Trao đổi trực tiếp 1-1"
+            },
+            {
+              "step": 2,
+              "name": "Mở rộng",
+              "desc": "1 hàng hóa đổi lấy nhiều hàng hóa khác"
+            },
+            {
+              "step": 3,
+              "name": "Chung",
+              "desc": "Nhiều hàng hóa cùng đổi lấy 1 vật ngang giá chung"
+            },
+            {
+              "step": 4,
+              "name": "Tiền tệ",
+              "desc": "Vàng/Bạc độc quyền đóng vai trò vật ngang giá chung"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "title": "Chương 3: Giá trị thặng dư trong nền kinh tế thị trường",
+    "blocks": [
+      {
+        "type": "vs-wrap",
+        "title": "Lưu thông hàng hóa giản đơn vs Công thức tư bản (VS & Trap)",
+        "content": {
+          "left": {
+            "title": "H - T - H",
+            "items": [
+              "Bắt đầu và kết thúc là Hàng hóa",
+              "Mục tiêu: Lấy giá trị sử dụng",
+              "Có giới hạn"
+            ]
+          },
+          "right": {
+            "title": "T - H - T' (T' = T + m)",
+            "items": [
+              "Bắt đầu và kết thúc là Tiền",
+              "Mục tiêu: Lấy Giá trị thặng dư (m)",
+              "Không có giới hạn"
+            ]
+          },
+          "conclusion": "Bẫy: Tiền tự nó không sinh lời, m được sinh ra trong SẢN XUẤT, nhưng không thể tách rời LƯU THÔNG."
+        }
+      },
+      {
+        "type": "flip-card",
+        "title": "Hàng hóa Sức lao động (Điều kiện & Đặc điểm) (What)",
+        "content": {
+          "front": "2 Điều kiện để Sức lao động biến thành Hàng hóa",
+          "back": "1. Người LĐ được tự do thân thể.\n2. Người LĐ bị tước đoạt hết tư liệu sản xuất (vô sản).\nĐặc điểm đặc biệt: Giá trị sử dụng của nó khi tiêu dùng lại TẠO RA GIÁ TRỊ LỚN HƠN chính nó (m)."
+        }
+      },
+      {
+        "type": "formula-breakdown",
+        "title": "Tỷ suất và Khối lượng Giá trị thặng dư (Math)",
+        "content": {
+          "formula": "m' = (m / v) * 100% | M = m' * V",
+          "variables": [
+            {
+              "symbol": "m'",
+              "meaning": "Tỷ suất giá trị thặng dư (Trình độ bóc lột)"
+            },
+            {
+              "symbol": "v",
+              "meaning": "Tư bản khả biến (Sức lao động)"
+            },
+            {
+              "symbol": "M",
+              "meaning": "Khối lượng giá trị thặng dư (Quy mô bóc lột)"
+            }
+          ],
+          "explanation": "Nhà tư bản luôn tìm cách tăng cả m' và M."
+        }
+      },
+      {
+        "type": "matrix-table",
+        "title": "Hai phương pháp sản xuất Giá trị thặng dư (How & Case)",
+        "content": {
+          "headers": [
+            "Phương pháp",
+            "Cách làm",
+            "Bản chất / Rủi ro"
+          ],
+          "rows": [
+            [
+              "m Tuyệt đối",
+              "Kéo dài ngày lao động vượt thời gian tất yếu, giữ nguyên năng suất",
+              "Giới hạn sinh lý & Bị công nhân đấu tranh"
+            ],
+            [
+              "m Tương đối",
+              "Rút ngắn thời gian tất yếu nhờ tăng NSLĐ xã hội (giảm giá trị SLĐ)",
+              "Tinh vi hơn, xu hướng chủ đạo của CNTB"
+            ],
+            [
+              "m Siêu ngạch",
+              "Tăng NSLĐ cá biệt (cao hơn NSLĐ xã hội)",
+              "Hình thức biến tướng của m tương đối, động lực cạnh tranh"
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "title": "Chương 4: Cạnh tranh và Độc quyền",
+    "blocks": [
+      {
+        "type": "timeline",
+        "title": "Quá trình chuyển biến (How)",
+        "content": {
+          "events": [
+            {
+              "time": "Giai đoạn đầu CNTB",
+              "desc": "Cạnh tranh tự do là chủ đạo"
+            },
+            {
+              "time": "Giai đoạn tích tụ & tập trung",
+              "desc": "Cạnh tranh gay gắt dẫn tới phá sản nhỏ, gom thành quy mô lớn"
+            },
+            {
+              "time": "Giai đoạn Độc quyền",
+              "desc": "Hình thành tổ chức độc quyền (Cartel, Syndicate, Trust...) để thỏa hiệp"
+            }
+          ]
+        }
+      },
+      {
+        "type": "mindmap",
+        "title": "5 Đặc điểm của CNTB Độc quyền (Lênin) (What)",
+        "content": {
+          "nodes": [
+            "Tổ chức độc quyền",
+            "Tư bản tài chính",
+            "Xuất khẩu tư bản",
+            "Phân chia thị trường",
+            "Phân chia lãnh thổ"
+          ],
+          "connections": [
+            {
+              "from": "Tổ chức độc quyền",
+              "to": "Tư bản tài chính",
+              "label": "Dung hợp với độc quyền ngân hàng"
+            },
+            {
+              "from": "Tư bản tài chính",
+              "to": "Xuất khẩu tư bản",
+              "label": "Sinh lời ở các nước kém phát triển"
+            },
+            {
+              "from": "Xuất khẩu tư bản",
+              "to": "Phân chia thị trường",
+              "label": "Các liên minh độc quyền quốc tế"
+            },
+            {
+              "from": "Phân chia thị trường",
+              "to": "Phân chia lãnh thổ",
+              "label": "Bằng vũ lực (Chiến tranh thế giới)"
+            }
+          ]
+        }
+      },
+      {
+        "type": "vs-wrap",
+        "title": "Cạnh tranh vs Độc quyền (VS & Trap)",
+        "content": {
+          "left": {
+            "title": "Cạnh tranh tự do",
+            "items": [
+              "Làm giảm giá cả",
+              "Thúc đẩy đổi mới linh hoạt"
+            ]
+          },
+          "right": {
+            "title": "Độc quyền",
+            "items": [
+              "Áp đặt giá cả độc quyền",
+              "Kìm hãm kỹ thuật (khi cần)"
+            ]
+          },
+          "conclusion": "Bẫy: Độc quyền sinh ra từ cạnh tranh, nhưng KHÔNG THỦ TIÊU cạnh tranh, mà làm cạnh tranh thêm tàn khốc."
+        }
+      }
+    ]
+  },
+  {
+    "title": "Chương 5: Kinh tế thị trường định hướng XHCN & Lợi ích kinh tế",
+    "blocks": [
+      {
+        "type": "venn-diagram",
+        "title": "Bản chất KTTT định hướng XHCN (What & VS)",
+        "content": {
+          "setA": {
+            "name": "Kinh tế thị trường",
+            "attributes": [
+              "Tuân theo quy luật cung cầu",
+              "Cạnh tranh",
+              "Động lực lợi nhuận"
+            ]
+          },
+          "setB": {
+            "name": "Định hướng XHCN",
+            "attributes": [
+              "Nhà nước chi phối",
+              "Mục tiêu dân giàu, nước mạnh",
+              "Phân phối công bằng"
+            ]
+          },
+          "intersection": [
+            "Dùng công cụ thị trường để giải phóng LLSX, nhưng bị chế định bởi nguyên tắc XHCN."
+          ]
+        }
+      },
+      {
+        "type": "process-steps",
+        "title": "Hoàn thiện thể chế KTTT (How)",
+        "content": {
+          "steps": [
+            {
+              "step": 1,
+              "name": "Đa dạng hóa sở hữu",
+              "desc": "Khuyến khích tư nhân làm động lực quan trọng"
+            },
+            {
+              "step": 2,
+              "name": "Đồng bộ hóa thị trường",
+              "desc": "Phát triển thị trường vốn, BĐS, khoa học công nghệ, lao động"
+            },
+            {
+              "step": 3,
+              "name": "Nâng cao năng lực Nhà nước",
+              "desc": "Chuyển từ hành chính mệnh lệnh sang kiến tạo, quản lý bằng pháp luật"
+            }
+          ]
+        }
+      },
+      {
+        "type": "pyramid",
+        "title": "Hệ thống lợi ích kinh tế (What)",
+        "content": {
+          "levels": [
+            "Lợi ích cá nhân (Cơ sở, động lực trực tiếp)",
+            "Lợi ích tập thể",
+            "Lợi ích xã hội (Định hướng, tối cao)"
+          ],
+          "context": "Khi có mâu thuẫn, Nhà nước sử dụng công cụ vĩ mô để hài hòa lợi ích."
+        }
+      }
+    ]
+  },
+  {
+    "title": "Chương 6: Công nghiệp hóa, Hiện đại hóa & Hội nhập kinh tế quốc tế",
+    "blocks": [
+      {
+        "type": "matrix-table",
+        "title": "Các cuộc Cách mạng Công nghiệp (What & How)",
+        "content": {
+          "headers": [
+            "Cuộc CMCN",
+            "Cốt lõi",
+            "Ý nghĩa / Tác động"
+          ],
+          "rows": [
+            [
+              "Lần 1",
+              "Cơ khí, máy hơi nước",
+              "Chuyển từ lao động thủ công sang cơ khí"
+            ],
+            [
+              "Lần 2",
+              "Điện khí hóa, dây chuyền",
+              "Sản xuất hàng loạt, động cơ đốt trong"
+            ],
+            [
+              "Lần 3",
+              "Tự động hóa, máy tính",
+              "Kỷ nguyên công nghệ thông tin, Internet"
+            ],
+            [
+              "Lần 4",
+              "Số hóa, AI, IoT, Big Data",
+              "Xóa nhòa ranh giới vật lý - số - sinh học, cơ hội Catch-up cho VN"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "t-account",
+        "title": "Cơ hội và Thách thức khi Hội nhập (VS & Case)",
+        "content": {
+          "left": {
+            "header": "Cơ hội",
+            "entries": [
+              "Thị trường xuất khẩu lớn",
+              "Tiếp thu vốn, công nghệ (FDI)",
+              "Thúc đẩy cải cách thể chế"
+            ]
+          },
+          "right": {
+            "header": "Thách thức",
+            "entries": [
+              "Sức ép cạnh tranh gay gắt",
+              "Phụ thuộc kinh tế bên ngoài",
+              "Gia tăng bất bình đẳng xã hội"
+            ]
+          },
+          "summary": "Việt Nam cần độc lập, tự chủ kinh tế kết hợp với chủ động hội nhập."
+        }
+      }
+    ]
+  }
+]

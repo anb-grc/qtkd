@@ -65,7 +65,7 @@
   /* QUIZ MODE */
   .mode-switch{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px;justify-content:center;}
   .mode-switch button{padding:8px 14px;border-radius:99px;border:none;font-weight:600;cursor:pointer;background:var(--border);color:var(--muted);transition:all 0.2s;font-size:.85em;white-space:nowrap;display:inline-flex;align-items:center;gap:6px;}
-  .mode-switch button .btn-icon{font-size:1.1em;line-height:1;margin-top:-2px;}
+  .mode-switch button .btn-icon{font-size:1.1em;line-height:1;}
   .mode-switch button.active{background:var(--primary);color:white;box-shadow:var(--shadow);}
   
   .quiz-mode .search-wrap, .quiz-mode #searchMeta, .quiz-mode #questions-list, .quiz-mode #noResult, .quiz-mode .stats, .quiz-mode .instruction {display:none !important;}
@@ -259,7 +259,7 @@
     box-shadow: 0 8px 20px rgba(239,68,68,0.3); position: relative; z-index: 2;
   }
   .kb-mm-branches { 
-    display: flex; gap: 20px; position: relative; padding-top: 30px; margin-top: -10px; width: 100%; justify-content: center;
+    display: flex; gap: 20px; position: relative; padding-top: 30px;  width: 100%; justify-content: center;
   }
   .kb-mm-branches::before {
     content: ''; position: absolute; top: 0; left: 50%; width: 2px; height: 30px; 
@@ -409,7 +409,7 @@
     .kb-vs-wrap { flex-direction: column; gap: 0; }
     .kb-vs-card { text-align: center; }
     .kb-vs-card .vs-title { justify-content: center; }
-    .kb-vs-badge { margin: -8px 0; align-self: center; }
+    .kb-vs-badge { 0; align-self: center; }
     .kb-vs-badge.rotatable { transform: rotate(90deg); }
     .kb-funnel { flex-direction: column; align-items: stretch; }
     .kb-funnel-box { text-align: center; }
@@ -437,3 +437,82 @@
   .question table th, .quiz-q-box table th {
       font-weight: 600;
   }
+
+  /* --- NEW 9 PREMIUM COMPONENTS --- */
+  
+  /* 1. Venn Diagram (Tier 1) */
+  .kb-venn { display: flex; justify-content: center; align-items: center; margin: 30px 0; position: relative; min-height: 250px; }
+  .kb-venn-circle { width: 180px; height: 180px; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-align: center; padding: 20px; font-weight: 700; color: white; position: absolute; mix-blend-mode: multiply; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s; }
+  .kb-venn-circle:hover { transform: scale(1.05); z-index: 10; }
+  .kb-venn-circle.left { background: rgba(59, 130, 246, 0.85); left: calc(50% - 120px); }
+  .kb-venn-circle.right { background: rgba(236, 72, 153, 0.85); right: calc(50% - 120px); }
+  .kb-venn-overlap { position: absolute; z-index: 5; text-align: center; width: 100px; font-weight: 800; color: #4c1d95; text-shadow: 0 0 5px white; }
+
+  /* 2. Formula Breakdown (Tier 1) */
+  .kb-formula { background: linear-gradient(135deg, #f8fafc, #f1f5f9); border: 2px solid #cbd5e1; border-radius: 16px; padding: 25px; margin: 30px 0; text-align: center; box-shadow: 0 4px 20px rgba(0,0,0,0.05); }
+  .kb-formula-main { font-size: 2em; font-weight: 900; font-family: "Cambria Math", serif; color: #1e293b; margin-bottom: 20px; letter-spacing: 2px; }
+  .kb-formula-parts { display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; }
+  .kb-formula-part { background: white; padding: 10px 15px; border-radius: 8px; border-left: 4px solid var(--primary); box-shadow: 0 2px 8px rgba(0,0,0,0.05); flex: 1; min-width: 150px; text-align: left; }
+  .kb-formula-part b { color: var(--primary); display: inline-block; margin-bottom: 4px; font-size: 1.1em; }
+
+  /* 3. T-Account (Tier 1) */
+  .kb-t-account { max-width: 400px; margin: 30px auto; background: white; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); overflow: hidden; }
+  .kb-t-header { background: #1e293b; color: white; text-align: center; padding: 12px; font-weight: 800; font-size: 1.1em; }
+  .kb-t-body { display: flex; border-top: 4px solid #1e293b; }
+  .kb-t-side { flex: 1; padding: 10px; }
+  .kb-t-side.debit { border-right: 4px solid #1e293b; }
+  .kb-t-title { font-weight: 700; text-align: center; color: #64748b; border-bottom: 1px solid #e2e8f0; padding-bottom: 5px; margin-bottom: 10px; text-transform: uppercase; font-size: 0.85em; }
+  .kb-t-row { display: flex; justify-content: space-between; font-size: 0.9em; margin-bottom: 5px; }
+  .kb-t-row span:last-child { font-weight: 600; }
+
+  /* 4. Flip Card (Tier 1) */
+  .kb-flip-wrap { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin: 30px 0; }
+  .kb-flip-card { background: transparent; width: 250px; height: 180px; perspective: 1000px; cursor: pointer; }
+  .kb-flip-inner { position: relative; width: 100%; height: 100%; text-align: center; transition: transform 0.6s; transform-style: preserve-3d; }
+  .kb-flip-card:hover .kb-flip-inner { transform: rotateY(180deg); }
+  .kb-flip-front, .kb-flip-back { position: absolute; width: 100%; height: 100%; backface-visibility: hidden; border-radius: 16px; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+  .kb-flip-front { background: linear-gradient(135deg, #4f46e5, #3b82f6); color: white; font-weight: 800; font-size: 1.2em; }
+  .kb-flip-back { background: white; color: #1e293b; transform: rotateY(180deg); border: 2px solid #3b82f6; font-size: 0.95em; line-height: 1.5; }
+
+  /* 5. Hotspot Image (Tier 1) */
+  .kb-hotspot-wrap { position: relative; max-width: 600px; margin: 30px auto; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+  .kb-hotspot-img { width: 100%; display: block; }
+  .kb-hotspot-point { position: absolute; width: 24px; height: 24px; background: #ef4444; border: 3px solid white; border-radius: 50%; cursor: pointer; box-shadow: 0 2px 5px rgba(0,0,0,0.3); animation: pulseBadgePink 2s infinite; }
+  .kb-hotspot-tooltip { position: absolute; bottom: 130%; left: 50%; transform: translateX(-50%); background: #1e293b; color: white; padding: 8px 12px; border-radius: 8px; font-size: 0.85em; white-space: nowrap; opacity: 0; pointer-events: none; transition: opacity 0.2s; z-index: 10; font-weight: 600; }
+  .kb-hotspot-tooltip::after { content: ''; position: absolute; top: 100%; left: 50%;  border-width: 5px; border-style: solid; border-color: #1e293b transparent transparent transparent; }
+  .kb-hotspot-point:hover .kb-hotspot-tooltip { opacity: 1; }
+
+  /* 6. Quadrant Matrix (Tier 2) */
+  .kb-quadrant { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 8px; max-width: 500px; margin: 30px auto; position: relative; background: #94a3b8; border: 4px solid #94a3b8; border-radius: 12px; overflow: hidden; }
+  .kb-quad-cell { background: white; padding: 25px 20px; text-align: center; display: flex; flex-direction: column; justify-content: center; transition: background 0.3s; }
+  .kb-quad-cell:hover { background: #f8fafc; }
+  .kb-quad-cell h4 { color: #1e293b; font-weight: 800; margin-bottom: 5px; font-size: 1.1em; }
+  .kb-quad-cell p { font-size: 0.85em; color: #64748b; }
+  .kb-quad-cell.q1 { border-bottom-right-radius: 4px; } .kb-quad-cell.q2 { border-bottom-left-radius: 4px; }
+  .kb-quad-cell.q3 { border-top-right-radius: 4px; } .kb-quad-cell.q4 { border-top-left-radius: 4px; }
+
+  /* 7. Onion / Concentric (Tier 2) */
+  .kb-onion { display: flex; justify-content: center; align-items: center; margin: 40px 0; min-height: 300px; }
+  .kb-onion-layer { border-radius: 50%; display: flex; justify-content: center; align-items: flex-start; padding-top: 15px; font-weight: 700; text-align: center; box-shadow: inset 0 0 20px rgba(0,0,0,0.05); transition: transform 0.3s; position: absolute; }
+  .kb-onion-layer:hover { transform: scale(1.02); }
+  .kb-onion-layer.l1 { width: 300px; height: 300px; background: #e0e7ff; border: 2px solid #a5b4fc; z-index: 1; color: #3730a3; }
+  .kb-onion-layer.l2 { width: 220px; height: 220px; background: #c7d2fe; border: 2px solid #818cf8; z-index: 2; color: #312e81; top: calc(50% - 110px); }
+  .kb-onion-layer.l3 { width: 140px; height: 140px; background: #a5b4fc; border: 2px solid #6366f1; z-index: 3; color: white; top: calc(50% - 70px); align-items: center; padding-top: 0; }
+
+  /* 8. Spectrum / Scale (Tier 2) */
+  .kb-spectrum { margin: 40px 10px; position: relative; }
+  .kb-spec-line { height: 12px; background: linear-gradient(90deg, #ef4444, #f59e0b, #10b981); border-radius: 99px; position: relative; box-shadow: inset 0 2px 4px rgba(0,0,0,0.1); }
+  .kb-spec-labels { display: flex; justify-content: space-between; margin-top: 10px; font-weight: 700; font-size: 0.85em; color: #475569; }
+  .kb-spec-point { position: absolute; top: -14px; width: 40px; height: 40px; background: white; border: 4px solid #3b82f6; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; box-shadow: 0 4px 10px rgba(0,0,0,0.15); transform: translateX(-50%); transition: transform 0.2s; cursor: pointer; }
+  .kb-spec-point:hover { transform: translateX(-50%) scale(1.1); }
+
+  /* 9. Horizontal Snap Carousel (Tier 3) */
+  .kb-carousel { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; gap: 15px; padding: 10px 5px 20px 5px; -webkit-overflow-scrolling: touch; margin: 20px 0; }
+  .kb-carousel::-webkit-scrollbar { height: 8px; }
+  .kb-carousel::-webkit-scrollbar-track { background: #f1f5f9; border-radius: 4px; }
+  .kb-carousel::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+  .kb-carousel-item { scroll-snap-align: center; flex: 0 0 80%; max-width: 300px; background: white; border: 1px solid #e2e8f0; border-radius: 16px; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+  .kb-carousel-item h4 { color: #0f172a; margin-bottom: 8px; font-size: 1.1em; border-bottom: 2px solid #e2e8f0; padding-bottom: 5px; }
+  .kb-carousel-item p { font-size: 0.9em; color: #475569; }
+/* Fix cho Emoji */
+.fn-icon, .cn-icon, .fi, .kb-venn-overlap-hint { line-height: 1; display: inline-block; }
