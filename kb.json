@@ -1,71 +1,373 @@
 [
   {
-    "title": "Chương 1: Đối tượng & Phương pháp nghiên cứu",
+    "title": "Chuyên đề 1: Nền tảng, Lịch sử & Phương pháp luận",
     "blocks": [
       {
-        "type": "flowchart",
-        "nodes": [
-          {"title": "Trọng thương", "content": "Lưu thông, Thương mại"},
-          {"title": "Trọng nông", "content": "Nông nghiệp"},
-          {"title": "Cổ điển Anh", "content": "Nền sản xuất công nghiệp", "interactive": "cloze"},
-          {"title": "Mác - Lênin", "content": "Quy luật phương thức Sản xuất"}
-        ]
+        "type": "timeline",
+        "title": "Lịch Sử Phát Triển",
+        "data": {
+          "items": [
+            {
+              "time": "Từ thế kỷ XV về trước",
+              "content": "Tư tưởng kinh tế trong triết học, luận lý. Trình độ sản xuất xã hội tạo tiền đề lý luận."
+            },
+            {
+              "time": "Giữa TK XV - giữa TK XVII",
+              "content": "Chủ nghĩa trọng thương (William Stafford, Thomas Mun)."
+            },
+            {
+              "time": "Cuối TK XVII - nửa đầu TK XVIII",
+              "content": "Chủ nghĩa trọng nông (Pierr Boisguillebert, Fancois Quesney)."
+            },
+            {
+              "time": "Cuối TK XVIII - nửa đầu TK XIX",
+              "content": "Kinh tế chính trị cổ điển Anh (William Petty, A.Smith, David Ricard). Giá trị do hao phí lao động tạo ra."
+            },
+            {
+              "time": "Nửa cuối TK XIX",
+              "content": "Kinh tế chính trị C.Mác & Ph.Ăngghen. Phương thức sản xuất TBCN, quy luật thặng dư."
+            },
+            {
+              "time": "Cuối TK XIX - đầu TK XX",
+              "content": "V.I.Lênin phát triển lý luận về độc quyền, độc quyền nhà nước."
+            }
+          ]
+        }
       },
       {
-        "type": "vs-wrap",
-        "titleA": "Quy luật kinh tế",
-        "descA": "Mang tính khách quan. Con người không thể tạo ra hay xóa bỏ, chỉ có thể nhận thức và tuân theo.",
-        "titleB": "Chính sách kinh tế",
-        "descB": "Mang tính chủ quan. Là công cụ để vận dụng quy luật vào thực tiễn."
+        "type": "features",
+        "title": "Đối Tượng, Mục Đích & Phương Pháp",
+        "data": {
+          "items": [
+            {
+              "title": "Đối tượng nghiên cứu",
+              "description": "Các quan hệ xã hội của sản xuất và trao đổi gắn với sự phát triển của LLSX và KTTT."
+            },
+            {
+              "title": "Mục đích nghiên cứu",
+              "description": "Tìm ra các quy luật kinh tế chi phối sự vận động xã hội, thúc đẩy văn minh."
+            },
+            {
+              "title": "Phương pháp nghiên cứu",
+              "description": "Trừu tượng hóa khoa học, phép biện chứng duy vật, và các phương pháp liên ngành."
+            }
+          ]
+        }
       },
       {
-        "type": "t-account",
-        "title": "Phương pháp Trừu tượng hóa khoa học",
-        "debit": [
-          {"text": "Gạt bỏ yếu tố Ngẫu nhiên"},
-          {"text": "Gạt bỏ yếu tố Tạm thời"},
-          {"text": "Gạt bỏ Hiện tượng bề ngoài"}
-        ],
-        "credit": [
-          {"text": "Giữ lại Bản chất"},
-          {"text": "Giữ lại Yếu tố Điển hình"},
-          {"text": "Giữ lại Yếu tố Bền vững"}
-        ]
+        "type": "mindmap",
+        "title": "Chức Năng Của Kinh Tế Chính Trị",
+        "data": {
+          "root": "Chức Năng",
+          "children": [
+            {
+              "name": "Nhận thức",
+              "children": [
+                { "name": "Quy luật kinh tế" },
+                { "name": "Sự vận động xã hội" }
+              ]
+            },
+            {
+              "name": "Thực tiễn",
+              "children": [
+                { "name": "Vận dụng vào quản trị" },
+                { "name": "Hoạch định chính sách" }
+              ]
+            },
+            {
+              "name": "Tư tưởng",
+              "children": [
+                { "name": "Nền tảng tư tưởng tiến bộ" },
+                { "name": "Xây dựng xã hội tốt đẹp" }
+              ]
+            },
+            {
+              "name": "Phương pháp luận",
+              "children": [
+                { "name": "Nền tảng cho các môn khoa học kinh tế" }
+              ]
+            }
+          ]
+        }
       }
     ]
   },
   {
-    "title": "Chương 2: Hàng hóa & Thị trường",
+    "title": "Chuyên đề 2: Các Quy Luật Kinh Tế Xuyên Suốt",
     "blocks": [
       {
-        "type": "venn-diagram",
-        "titleA": "Giá trị sử dụng",
-        "descA": "Công dụng của vật. Do thuộc tính tự nhiên quyết định. (Lao động cụ thể tạo ra)",
-        "titleB": "Giá trị",
-        "descB": "Hao phí lao động xã hội kết tinh trong hàng hóa. (Lao động trừu tượng tạo ra)",
-        "overlap": "Hàng hóa"
+        "type": "pyramid",
+        "title": "Hệ Thống Quy Luật Kinh Tế",
+        "data": {
+          "levels": [
+            {
+              "name": "Quy luật Giá trị",
+              "description": "Sản xuất và trao đổi dựa trên hao phí lao động xã hội cần thiết."
+            },
+            {
+              "name": "Quy luật Cung - Cầu",
+              "description": "Điều tiết sản xuất, thay đổi cơ cấu thị trường và ảnh hưởng giá cả."
+            },
+            {
+              "name": "Quy luật Cạnh tranh",
+              "description": "Thúc đẩy cải tiến, phân bổ nguồn lực nhưng cũng tạo phân hóa."
+            },
+            {
+              "name": "Quy luật Lưu thông tiền tệ",
+              "description": "Lưu thông tiền tệ phải căn cứ trên yêu cầu của lưu thông hàng hóa."
+            }
+          ]
+        }
       },
       {
-        "type": "flip-card",
-        "front": "Dịch vụ có phải là hàng hóa không? Nó khác hàng hóa thông thường ở điểm cốt lõi nào?",
-        "back": "Dịch vụ là hàng hóa VÔ HÌNH. Điểm khác biệt chí mạng: Dịch vụ KHÔNG THỂ CẤT TRỮ. Quá trình sản xuất và tiêu dùng diễn ra đồng thời."
-      },
-      {
-        "type": "formula-breakdown",
-        "formula": "W = c + v + m",
-        "variables": [
-          {"symbol": "W", "desc": "Giá trị hàng hóa (Value)"},
-          {"symbol": "c", "desc": "Tư bản bất biến (Máy móc, nguyên vật liệu - Chuyển dần giá trị)"},
-          {"symbol": "v", "desc": "Tư bản khả biến (Sức lao động - Tạo ra giá trị mới)"},
-          {"symbol": "m", "desc": "Giá trị thặng dư (Phần bị nhà tư bản chiếm không)"}
-        ]
+        "type": "formula",
+        "title": "Công Thức Sản Xuất Giá Trị Thặng Dư",
+        "data": {
+          "formula": "G = c + (v + m)",
+          "variables": [
+            {
+              "symbol": "G",
+              "definition": "Giá trị hàng hóa"
+            },
+            {
+              "symbol": "c",
+              "definition": "Tư bản bất biến (Tư liệu sản xuất)"
+            },
+            {
+              "symbol": "v",
+              "definition": "Tư bản khả biến (Sức lao động)"
+            },
+            {
+              "symbol": "m",
+              "definition": "Giá trị thặng dư (Lao động thặng dư)"
+            }
+          ]
+        }
       },
       {
         "type": "vs-wrap",
-        "titleA": "Kinh tế thị trường (Ưu điểm)",
-        "descA": "Tạo động lực sáng tạo, phân bổ nguồn lực hiệu quả qua giá cả, thỏa mãn tối đa nhu cầu.",
-        "titleB": "Kinh tế thị trường (Khuyết tật)",
-        "descB": "Tiềm ẩn khủng hoảng, cạn kiệt tài nguyên, phân hóa giàu nghèo sâu sắc."
+        "title": "Phương Pháp Sản Xuất Giá Trị Thặng Dư",
+        "data": {
+          "left": {
+            "title": "Tuyệt Đối",
+            "content": "Kéo dài ngày lao động vượt quá thời gian lao động tất yếu, năng suất và giá trị sức lao động không đổi."
+          },
+          "right": {
+            "title": "Tương Đối",
+            "content": "Rút ngắn thời gian lao động tất yếu bằng cách tăng năng suất lao động xã hội, độ dài ngày lao động không đổi."
+          }
+        }
+      },
+      {
+        "type": "quadrant",
+        "title": "Tác Động Của Cạnh Tranh",
+        "data": {
+          "q1": {
+            "title": "Tích cực (Kinh tế)",
+            "content": "Thúc đẩy LLSX, điều chỉnh linh hoạt phân bổ nguồn lực."
+          },
+          "q2": {
+            "title": "Tích cực (Xã hội)",
+            "content": "Thúc đẩy thỏa mãn nhu cầu xã hội, năng lực cạnh tranh."
+          },
+          "q3": {
+            "title": "Tiêu cực (Kinh tế)",
+            "content": "Lãng phí nguồn lực, gây tổn hại môi trường kinh doanh."
+          },
+          "q4": {
+            "title": "Tiêu cực (Xã hội)",
+            "content": "Phân hóa xã hội, tổn hại phúc lợi, rủi ro khủng hoảng."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "Chuyên đề 3: Sự Tiến Hóa Của Nền Sản Xuất & Hàng Hóa",
+    "blocks": [
+      {
+        "type": "cycle",
+        "title": "Tuần Hoàn Của Tư Bản",
+        "data": {
+          "steps": [
+            "T (Tiền) - Mua Tư liệu sản xuất & Sức lao động",
+            "Sản xuất (Quá trình tạo ra giá trị mới H')",
+            "H' (Hàng hóa mới) - Mang giá trị thặng dư",
+            "T' (Tiền thu về) - T' = T + m"
+          ]
+        }
+      },
+      {
+        "type": "onion",
+        "title": "Bản Chất Hàng Hóa",
+        "data": {
+          "layers": [
+            {
+              "name": "Giá trị sử dụng",
+              "description": "Công dụng thỏa mãn nhu cầu con người."
+            },
+            {
+              "name": "Giá trị",
+              "description": "Hao phí lao động xã hội kết tinh trong hàng hóa."
+            },
+            {
+              "name": "Lao động cụ thể",
+              "description": "Tạo ra giá trị sử dụng, tính chất tư nhân."
+            },
+            {
+              "name": "Lao động trừu tượng",
+              "description": "Tạo ra giá trị, tính chất xã hội của lao động."
+            }
+          ]
+        }
+      },
+      {
+        "type": "flowchart",
+        "title": "Nguồn Gốc & Sự Phát Triển Của Tiền Tệ",
+        "data": {
+          "steps": [
+            "Hình thái giá trị giản đơn (Ngẫu nhiên)",
+            "Hình thái giá trị đầy đủ (Mở rộng)",
+            "Hình thái chung của giá trị (Vật trung gian chung)",
+            "Hình thái tiền (Vàng, Bạc)",
+            "Tiền tệ thực hiện các chức năng: Thước đo, Lưu thông, Cất trữ, Thanh toán, Tiền thế giới"
+          ]
+        }
+      },
+      {
+        "type": "features",
+        "title": "Cách Mạng Công Nghiệp & Công Nghiệp Hóa",
+        "data": {
+          "items": [
+            {
+              "title": "CMCN Lần 1 (TK 18-19)",
+              "description": "Cơ giới hóa bằng năng lượng nước và hơi nước."
+            },
+            {
+              "title": "CMCN Lần 2 (Cuối TK 19 - Đầu TK 20)",
+              "description": "Điện, động cơ đốt trong, sản xuất dây chuyền."
+            },
+            {
+              "title": "CMCN Lần 3 (Thập niên 1960 - 2000)",
+              "description": "Công nghệ thông tin, tự động hóa, thiết bị điện tử."
+            },
+            {
+              "title": "CMCN Lần 4 (Từ 2011)",
+              "description": "Kỹ thuật số, vật lý, sinh học, AI, IoT, Dữ liệu lớn."
+            }
+          ]
+        }
+      },
+      {
+        "type": "vs-wrap",
+        "title": "Tích Tụ vs Tập Trung Tư Bản",
+        "data": {
+          "left": {
+            "title": "Tích tụ tư bản",
+            "content": "Tăng quy mô bằng cách tư bản hóa giá trị thặng dư. Làm tăng quy mô tư bản xã hội."
+          },
+          "right": {
+            "title": "Tập trung tư bản",
+            "content": "Hợp nhất các tư bản cá biệt thành chỉnh thể lớn hơn. Không làm tăng quy mô tư bản xã hội."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "Chuyên đề 4: Hệ Sinh Thái Các Chủ Thể & Vai Trò Của Nhà Nước",
+    "blocks": [
+      {
+        "type": "venn",
+        "title": "Mối Quan Hệ Giữa Các Chủ Thể Thị Trường",
+        "data": {
+          "left": "Người Sản Xuất",
+          "right": "Người Tiêu Dùng",
+          "intersection": "Chủ thể trung gian"
+        }
+      },
+      {
+        "type": "hotspot",
+        "title": "Vai Trò Của Nhà Nước Trong Kinh Tế Thị Trường Định Hướng XHCN",
+        "data": {
+          "image": "N/A",
+          "points": [
+            {
+              "title": "Quản lý kinh tế",
+              "description": "Kiến tạo môi trường pháp lý, ổn định vĩ mô."
+            },
+            {
+              "title": "Khắc phục khuyết tật",
+              "description": "Sử dụng công cụ kinh tế điều tiết rủi ro thị trường."
+            },
+            {
+              "title": "Phân phối công bằng",
+              "description": "Phân phối theo lao động, an sinh xã hội, phúc lợi."
+            },
+            {
+              "title": "Hài hòa lợi ích",
+              "description": "Bảo vệ lợi ích hợp pháp, giải quyết mâu thuẫn cá nhân - xã hội."
+            }
+          ]
+        }
+      },
+      {
+        "type": "mindmap",
+        "title": "Đặc Trưng Thể Chế Kinh Tế Định Hướng XHCN",
+        "data": {
+          "root": "KTTT Định Hướng XHCN",
+          "children": [
+            {
+              "name": "Mục tiêu",
+              "children": [
+                { "name": "Dân giàu, nước mạnh, dân chủ, công bằng, văn minh" }
+              ]
+            },
+            {
+              "name": "Sở hữu & Thành phần",
+              "children": [
+                { "name": "Đa dạng hóa sở hữu" },
+                { "name": "Kinh tế nhà nước chủ đạo" }
+              ]
+            },
+            {
+              "name": "Quản lý",
+              "children": [
+                { "name": "Nhà nước pháp quyền XHCN" },
+                { "name": "Đảng lãnh đạo" }
+              ]
+            },
+            {
+              "name": "Phân phối",
+              "children": [
+                { "name": "Theo kết quả lao động & vốn" },
+                { "name": "An sinh xã hội" }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "quadrant",
+        "title": "Hội Nhập Kinh Tế Quốc Tế",
+        "data": {
+          "q1": {
+            "title": "Mở rộng thị trường",
+            "content": "Thu hút FDI, tiếp thu công nghệ, vốn, chuyển dịch cơ cấu."
+          },
+          "q2": {
+            "title": "Nâng cao năng lực",
+            "content": "Nâng cao chất lượng nguồn nhân lực, cải cách thể chế."
+          },
+          "q3": {
+            "title": "Thách thức cạnh tranh",
+            "content": "Doanh nghiệp trong nước gặp khó khăn, nền kinh tế dễ tổn thương."
+          },
+          "q4": {
+            "title": "Rủi ro xã hội",
+            "content": "Gia tăng bất bình đẳng, nguy cơ mất bản sắc văn hóa, an ninh."
+          }
+        }
       }
     ]
   }
