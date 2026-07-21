@@ -708,7 +708,7 @@ async function renderKnowledgeBase() {
         let kbUrl = 'kb.json'; // Link to kb.json in the same directory as the HTML file
         if (typeof KB_DATA_URL !== 'undefined') kbUrl = KB_DATA_URL; 
         
-        const res = await fetch(kbUrl);
+        const res = await fetch(kbUrl + "?t=" + new Date().getTime());
         if (!res.ok) throw new Error("Could not fetch " + kbUrl);
         window.kbData = await res.json();
         
