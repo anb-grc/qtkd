@@ -705,7 +705,7 @@ async function renderKnowledgeBase() {
     if (!kbContainer) return;
 
     try {
-        let kbUrl = '../kb.json'; // Tạm thời link ra ngoài root
+        let kbUrl = 'kb.json'; // Link to kb.json in the same directory as the HTML file
         if (typeof KB_DATA_URL !== 'undefined') kbUrl = KB_DATA_URL; 
         
         const res = await fetch(kbUrl);
