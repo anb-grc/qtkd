@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luyện thi - KTCT Mác - Lênin</title>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <div class="page-header">
+  <h1>Luyện thi — <em>[KTCT Mác - Lênin]</em></h1>
+  <p class="stats" id="totalCount">Tổng: <span>0 câu</span></p>
+  <p class="instruction" id="mode-instruction">💡 Trắc nghiệm: Đọc → Tự nghĩ → CLICK để kiểm tra &nbsp;|&nbsp; Tự luận: Đọc → Tự viết → CLICK xem gợi ý</p>
+  </div>
+  <div class="mode-switch">
+    <button id="btnKnowledgeMode" onclick="switchMode('knowledge')"><span class="btn-icon">🧠</span> Kiến thức nền</button>
+    <button id="btnStudyMode" class="active" onclick="switchMode('study')"><span class="btn-icon">📖</span> Ngân hàng đề</button>
+    <button id="btnQuizMode" onclick="switchMode('quiz')"><span class="btn-icon">🎯</span> Thi Thử</button>
+    <button id="btnHistory" onclick="renderHistory()" style="background:#f39c12; color:#fff; margin-left:10px; border-left: 1px solid rgba(255,255,255,0.3);"><span class="btn-icon">📈</span> Lịch sử</button>
+  </div>
+
+  <div id="quiz-result-summary"></div>
+  <div id="quiz-container">
+    <div id="quiz-content"></div>
+  </div>
+
+  <div id="knowledge-container">
+    <!-- HƯỚNG DẪN / THƯ VIỆN COMPONENT (CÓ THỂ XÓA KHI LÀM MÔN MỚI) -->
+    <div class="kb-section">
+      <div class="kb-header" onclick="toggleKb('kb-guide-components')">
+        <span>🎨 Thư viện Component Trực quan (Mẫu)</span>
+        <span>▼</span>
+      </div>
+      <div class="kb-content" id="kb-guide-components">
+        <h2>1. Thẻ lưới tính năng (Features Grid)</h2>
+        <div class="kb-features" data-aos="fade-up">
+          <div class="kb-feat-card f1">
+            <span class="fi">1️⃣</span><span class="ft">Thẻ Nhóm 1</span>
+            <span class="fd">Sử dụng class f1 (Xanh dương). Phù hợp cho tính năng, đặc điểm thứ nhất.</span>
+          </div>
+          <div class="kb-feat-card f2">
+            <span class="fi">2️⃣</span><span class="ft">Thẻ Nhóm 2</span>
+            <span class="fd">Sử dụng class f2 (Xanh lá). Phù hợp cho tính năng, đặc điểm thứ hai.</span>
+          </div>
+          <div class="kb-feat-card f3">
+            <span class="fi">3️⃣</span><span class="ft">Thẻ Nhóm 3</span>
+            <span class="fd">Sử dụng class f3 (Tím). Phù hợp cho tính năng, đặc điểm thứ ba.</span>
+          </div>
+          <div class="kb-feat-card f4">
+            <span class="fi">4️⃣</span><span class="ft">Thẻ Nhóm 4</span>
+            <span class="fd">Sử dụng class f4 (Hồng đỏ). Phù hợp cho tính năng, đặc điểm thứ tư.</span>
+          </div>
+        </div>
+
+        <h2>2. Thẻ so sánh đối lập (VS Wrap)</h2>
+        <div class="kb-vs-wrap" data-aos="fade-up">
+          <div class="kb-vs-card green">
+            <div class="vs-title">🌞 Khái niệm A</div>
+            <div class="vs-body">Nội dung của khái niệm A, mang ý nghĩa tích cực hoặc vế đầu tiên.</div>
+          </div>
+          <div class="kb-vs-badge rotatable">VS</div>
+          <div class="kb-vs-card amber">
+            <div class="vs-title">🌚 Khái niệm B</div>
+            <div class="vs-body">Nội dung của khái niệm B, mang ý nghĩa cảnh báo, hoặc vế đối lập.</div>
+          </div>
+        </div>
+
+        <h2>3. Sơ đồ chu trình 2x2 (Cycle Grid)</h2>
+        <div class="kb-cycle" data-aos="fade-up">
+          <div class="kb-cycle-node">
+            <span class="cn-icon">🔄</span>
+            <span class="cn-title">Bước 1</span>
+            <span class="cn-desc">Mô tả ngắn gọn bước 1.</span>
+          </div>
+          <div class="kb-cycle-node kb-cycle-center">
+            <span class="cn-icon">⭐</span>
+            <span class="cn-title">Trung tâm</span>
+            <span class="cn-desc">Yếu tố hạt nhân hoặc bước quan trọng nhất.</span>
+          </div>
+          <div class="kb-cycle-node">
+            <span class="cn-icon">➡️</span>
+            <span class="cn-title">Bước 2</span>
+            <span class="cn-desc">Mô tả bước 2.</span>
+          </div>
+          <div class="kb-cycle-node">
+            <span class="cn-icon">✅</span>
+            <span class="cn-title">Bước 3</span>
+            <span class="cn-desc">Kết quả cuối cùng.</span>
+          </div>
+        </div>
+
+        <h2>4. Sơ đồ Phễu / Quy trình ngang (Funnel)</h2>
+        <div class="kb-funnel" data-aos="fade-up">
+          <div class="kb-funnel-box f-red">
+            <span class="fn-icon">📥</span><span class="fn-title">Đầu vào</span>
+            <div class="fn-items"><span class="fn-tag">Nguyên liệu</span><span class="fn-tag">Dữ liệu</span></div>
+          </div>
+          <div class="kb-funnel-arrow"></div>
+          <div class="kb-funnel-box f-green">
+            <span class="fn-icon">📤</span><span class="fn-title">Đầu ra</span>
+            <div class="fn-items"><span class="fn-tag">Thành phẩm</span><span class="fn-tag">Kết quả</span></div>
+          </div>
+        </div>
+        <div class="kb-funnel-note" data-aos="fade-up">💡 Ghi chú: Có thể thêm khối ghi chú ở dưới phễu bằng class kb-funnel-note.</div>
+
+        <h2>5. Sơ đồ tư duy (Mindmap)</h2>
+        <div class="kb-mindmap" data-aos="fade-up">
+          <div class="kb-mm-root">Chủ đề chính (Gốc)</div>
+          <div class="kb-mm-branches">
+            <div class="kb-mm-branch">
+              <div class="kb-mm-node"><span class="nt">Nhánh 1</span><span class="nd">Nội dung nhánh 1</span></div>
+            </div>
+            <div class="kb-mm-branch">
+              <div class="kb-mm-node"><span class="nt">Nhánh 2</span><span class="nd">Nội dung nhánh 2</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- NỘI DUNG KIẾN THỨC NỀN SẼ ĐƯỢC NHÚNG VÀO ĐÂY DƯỚI DẠNG ACCORDION -->
+    <div id="knowledge-content"></div>
+  </div>
+
+  <div class="search-wrap">
+    <input type="text" id="searchBox" placeholder="🔍 Nhập từ khóa để tìm nhanh..." oninput="filterQuestions()" />
+    <button id="clearBtn" onclick="clearSearch()">✕ Xóa</button>
+  </div>
+  <div id="searchMeta"></div>
+  <div id="noResult">Không tìm thấy câu hỏi nào phù hợp.</div>
+
+  <div id="questions-list">
+    <!-- CÁC CÂU HỎI SẼ ĐƯỢC CHÈN VÀO ĐÂY -->
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- Thư viện MathJax để hiển thị công thức toán học -->
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script>
+    const QS_DATA_URL = 'TEN_MON_HOC_qs.json';
+    
+    // Cấu hình riêng cho môn học này (dùng cho chế độ Luyện Cấu Trúc)
+    window.subjectConfig = {
+      quizTotal: 40, // Tổng số câu hỏi trong 1 đề thi
+      structure: [
+        // Mở comment và sửa lại theo cấu trúc đề thi thực tế. Nếu bỏ trống, hệ thống sẽ bốc ngẫu nhiên.
+        // { tag: "Chương 1", count: 10 },
+        // { tag: "Chương 2", count: 15 },
+        // { tag: "Bài tập", count: 15 }
+      ]
+    };
+  </script>
+  <script src="../assets/app.js?1784261156"></script>
+
+  <!-- MODAL LỊCH SỬ -->
+  <div id="history-modal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 9999; align-items: center; justify-content: center; backdrop-filter: blur(3px);">
+    <div style="background: #fff; width: 90%; max-width: 400px; padding: 20px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.2); position: relative;">
+      <button onclick="closeHistory()" style="position: absolute; top: 15px; right: 15px; background: none; border: none; font-size: 1.5rem; cursor: pointer; color: #888;">&times;</button>
+      <div id="history-content"></div>
+    </div>
+  </div>
+
+</body>
+</html>
