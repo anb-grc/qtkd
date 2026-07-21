@@ -750,128 +750,182 @@ async function renderKnowledgeBase() {
 function renderKbBlock(block) {
     let type = block.type;
     switch(type) {
-        // TIER 1
         case 'vs-wrap':
+            let leftTitle = block.titleA || (block.content && block.content.left && block.content.left.title) || 'Vấn đề A';
+            let leftDesc = block.descA || (block.content && block.content.left && block.content.left.items ? block.content.left.items.join('<br>') : '');
+            let rightTitle = block.titleB || (block.content && block.content.right && block.content.right.title) || 'Vấn đề B';
+            let rightDesc = block.descB || (block.content && block.content.right && block.content.right.items ? block.content.right.items.join('<br>') : '');
+            let conclusion = (block.content && block.content.conclusion) ? `<div style="text-align:center; margin-top:10px; font-weight:bold; color:var(--primary); font-size:0.9em;">💡 ${block.content.conclusion}</div>` : '';
             return `
             <div class="kb-vs-wrap">
                 <div class="kb-vs-card green">
-                    <div class="vs-title">🟢 ${block.titleA}</div>
-                    <div class="vs-body">${block.descA}</div>
+                    <div class="vs-title">🟢 ${leftTitle}</div>
+                    <div class="vs-body">${leftDesc}</div>
                 </div>
                 <div class="kb-vs-badge pulseBadge">VS</div>
                 <div class="kb-vs-card amber">
-                    <div class="vs-title">🔴 ${block.titleB}</div>
-                    <div class="vs-body">${block.descB}</div>
+                    <div class="vs-title">🔴 ${rightTitle}</div>
+                    <div class="vs-body">${rightDesc}</div>
                 </div>
-            </div>`;
-            
+            </div>
+            ${conclusion}`;
+
         case 'venn-diagram':
+            let vTitleA = block.titleA || (block.content && block.content.setA && block.content.setA.name) || 'Tập hợp A';
+            let vDescA = block.descA || (block.content && block.content.setA && block.content.setA.attributes ? block.content.setA.attributes.join('<br>') : '');
+            let vTitleB = block.titleB || (block.content && block.content.setB && block.content.setB.name) || 'Tập hợp B';
+            let vDescB = block.descB || (block.content && block.content.setB && block.content.setB.attributes ? block.content.setB.attributes.join('<br>') : '');
+            let vOverlap = block.overlap || (block.content && block.content.intersection ? block.content.intersection.join('<br>') : '');
             return `
             <div class="kb-venn">
                 <div class="kb-venn-circle left">
-                    <div class="kb-venn-title">${block.titleA}</div>
-                    <div class="kb-venn-desc">${block.descA}</div>
+                    <div class="kb-venn-title">${vTitleA}</div>
+                    <div class="kb-venn-desc" style="font-size:0.8em; font-weight:normal; margin-top:4px;">${vDescA}</div>
                 </div>
                 <div class="kb-venn-circle right">
-                    <div class="kb-venn-title">${block.titleB}</div>
-                    <div class="kb-venn-desc">${block.descB}</div>
+                    <div class="kb-venn-title">${vTitleB}</div>
+                    <div class="kb-venn-desc" style="font-size:0.8em; font-weight:normal; margin-top:4px;">${vDescB}</div>
                 </div>
                 <div class="kb-venn-overlap kb-interactive" data-action="reveal-venn">
-                    <div class="kb-venn-overlap-text hidden-content">${block.overlap || ''}</div>
+                    <div class="kb-venn-overlap-text hidden-content" style="font-size:0.8em;">${vOverlap}</div>
                     <div class="kb-venn-overlap-hint">???</div>
                 </div>
             </div>`;
-            
-        case 'formula-breakdown':
-            let varsHtml = '';
-            if (block.variables) {
-                block.variables.forEach(v => {
-                    varsHtml += `<div class="kb-formula-part kb-interactive" data-action="highlight-var" data-var="${v.symbol}">
-                        <b>${v.symbol}</b>: ${v.desc}
-                    </div>`;
-                });
-            }
+
+        case 'mindmap':
+            let mmNodes = (block.content && block.content.nodes) ? block.content.nodes : (block.nodes || []);
+            let mmConns = (block.content && block.content.connections) ? block.content.connections : [];
+            let mmHtml = mmNodes.map(n => `<div style="padding:8px 14px; background:var(--bg); border:1px solid var(--border); border-radius:20px; font-weight:600; font-size:0.9em; display:inline-block;">📌 ${n}</div>`).join('');
+            let connHtml = mmConns.map(c => `<div style="font-size:0.85em; color:var(--muted); margin:4px 0;">⚡ <b>${c.from}</b> ➔ <b>${c.to}</b>: ${c.label}</div>`).join('');
             return `
-            <div class="kb-formula">
-                <div class="kb-formula-main">${block.formula}</div>
-                <div class="kb-formula-parts">${varsHtml}</div>
-            </div>`;
-            
-        case 't-account':
-            let debitHtml = block.debit ? block.debit.map((d, i) => `<div class="kb-t-row kb-interactive" data-link="${d.linkTo || ''}"><span>${d.text}</span><span>${d.amount || ''}</span></div>`).join('') : '';
-            let creditHtml = block.credit ? block.credit.map((c, i) => `<div class="kb-t-row" id="${c.id || ''}"><span>${c.text}</span><span>${c.amount || ''}</span></div>`).join('') : '';
-            return `
-            <div class="kb-t-account">
-                <div class="kb-t-header">${block.title}</div>
-                <div class="kb-t-body">
-                    <div class="kb-t-side debit">
-                        <div class="kb-t-title">NỢ (Debit)</div>
-                        ${debitHtml}
-                    </div>
-                    <div class="kb-t-side credit">
-                        <div class="kb-t-title">CÓ (Credit)</div>
-                        ${creditHtml}
-                    </div>
-                </div>
-            </div>`;
-            
-        case 'flip-card':
-            return `
-            <div class="kb-flip-wrap">
-                <div class="kb-flip-card kb-interactive" data-action="flip">
-                    <div class="kb-flip-inner">
-                        <div class="kb-flip-front">
-                            <p>${block.front}</p>
-                        </div>
-                        <div class="kb-flip-back">
-                            <p>${block.back}</p>
-                        </div>
-                    </div>
-                </div>
-            </div>`;
-            
-        case 'hotspot':
-            let pointsHtml = '';
-            if (block.points) {
-                block.points.forEach(p => {
-                    pointsHtml += `<div class="kb-hotspot-point kb-interactive" style="top:${p.top}; left:${p.left};" data-action="hotspot">
-                        <div class="kb-hotspot-tooltip">${p.text}</div>
-                    </div>`;
-                });
-            }
-            return `
-            <div class="kb-hotspot-wrap">
-                <img src="${block.image}" class="kb-hotspot-img" alt="Hotspot image"/>
-                ${pointsHtml}
+            <div style="background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:16px; margin:15px 0;">
+                <div style="font-weight:700; margin-bottom:12px; color:var(--primary);">🗺️ ${block.title || 'Sơ đồ tư duy'}</div>
+                <div style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:12px;">${mmHtml}</div>
+                ${connHtml ? `<div style="border-top:1px dashed var(--border); padding-top:8px;">${connHtml}</div>` : ''}
             </div>`;
 
-        // TIER 2
-        case 'flowchart':
-            let nodesHtml = '';
-            if (block.nodes) {
-                block.nodes.forEach((n, idx) => {
-                    let isCloze = n.interactive === 'cloze';
-                    let clozeStyle = isCloze ? 'background: #1e293b; color: transparent; cursor: pointer;' : '';
-                    let hintHtml = isCloze ? `<div class="cloze-hint" style="position:absolute; color:white; font-weight:bold; left:50%; top:50%; transform:translate(-50%, -50%);">???</div>` : '';
-                    
-                    nodesHtml += `
-                    <div class="kb-cycle-node kb-interactive" style="position:relative; ${clozeStyle}" data-action="cloze">
-                        <span class="cn-icon">⚡</span>
-                        <span class="cn-title">${n.title}</span>
-                        <span class="cn-desc">${n.content}</span>
-                        ${hintHtml}
-                    </div>`;
-                    
-                    if (idx < block.nodes.length - 1) {
-                        nodesHtml += `<div class="kb-funnel-arrow" style="transform: rotate(-90deg);"></div>`;
-                    }
-                });
-            }
-            return `<div class="kb-cycle" style="display:flex; flex-direction:column; gap:10px;">${nodesHtml}</div>`;
-            
-        // ... (other components can be added as needed)
+        case 'pyramid':
+            let levels = (block.content && block.content.levels) ? block.content.levels : [];
+            let context = (block.content && block.content.context) ? block.content.context : '';
+            let pyrHtml = levels.map((lvl, idx) => {
+                let width = 100 - (idx * 15);
+                return `<div class="kb-pyr-level" style="width:${width}%; margin:4px auto; padding:8px 12px; text-align:center; background:linear-gradient(135deg, var(--primary), var(--secondary)); color:white; border-radius:6px; font-weight:600; font-size:0.9em;">${lvl}</div>`;
+            }).reverse().join('');
+            return `
+            <div style="margin:20px 0; text-align:center;">
+                <div style="font-weight:700; margin-bottom:10px; color:var(--primary);">🔺 ${block.title || 'Mô hình tháp'}</div>
+                <div style="display:flex; flex-direction:column; align-items:center;">${pyrHtml}</div>
+                ${context ? `<div style="font-size:0.85em; color:var(--muted); margin-top:8px;">${context}</div>` : ''}
+            </div>`;
+
+        case 'formula-breakdown':
+            let formStr = block.formula || (block.content && block.content.formula) || '';
+            let varsList = block.variables || (block.content && block.content.variables) || [];
+            let exp = (block.content && block.content.explanation) || block.explanation || '';
+            let varsHtml = varsList.map(v => `<div class="kb-formula-part"><b>${v.symbol}</b>: ${v.meaning || v.desc}</div>`).join('');
+            return `
+            <div class="kb-formula">
+                <div style="font-weight:700; margin-bottom:8px; color:var(--primary);">🧮 ${block.title || 'Công thức'}</div>
+                <div class="kb-formula-main">${formStr}</div>
+                <div class="kb-formula-parts">${varsHtml}</div>
+                ${exp ? `<div style="font-size:0.85em; color:var(--muted); margin-top:8px; line-height:1.4;">${exp}</div>` : ''}
+            </div>`;
+
+        case 'process-steps':
+            let steps = (block.content && block.content.steps) ? block.content.steps : [];
+            let stepsHtml = steps.map(s => `
+                <div style="display:flex; gap:12px; align-items:flex-start; margin-bottom:10px;">
+                    <div style="background:var(--primary); color:white; width:24px; height:24px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:bold; font-size:0.8em; flex-shrink:0;">${s.step}</div>
+                    <div>
+                        <div style="font-weight:700; font-size:0.95em;">${s.name}</div>
+                        <div style="font-size:0.85em; color:var(--muted);">${s.desc}</div>
+                    </div>
+                </div>
+            `).join('');
+            return `
+            <div style="background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:16px; margin:15px 0;">
+                <div style="font-weight:700; margin-bottom:12px; color:var(--primary);">🔄 ${block.title || 'Quy trình'}</div>
+                ${stepsHtml}
+            </div>`;
+
+        case 't-account':
+            let leftHeader = (block.content && block.content.left && block.content.left.header) || 'Bên Trái';
+            let leftEntries = (block.content && block.content.left && block.content.left.entries) || [];
+            let rightHeader = (block.content && block.content.right && block.content.right.header) || 'Bên Phải';
+            let rightEntries = (block.content && block.content.right && block.content.right.entries) || [];
+            let summary = (block.content && block.content.summary) || '';
+            let lHtml = leftEntries.map(e => `<div class="kb-t-row"><span>${typeof e === 'string' ? e : e.text}</span></div>`).join('');
+            let rHtml = rightEntries.map(e => `<div class="kb-t-row"><span>${typeof e === 'string' ? e : e.text}</span></div>`).join('');
+            return `
+            <div class="kb-t-account">
+                <div class="kb-t-header">${block.title || 'Tài khoản T'}</div>
+                <div class="kb-t-body">
+                    <div class="kb-t-side debit">
+                        <div class="kb-t-title">${leftHeader}</div>
+                        ${lHtml}
+                    </div>
+                    <div class="kb-t-side credit">
+                        <div class="kb-t-title">${rightHeader}</div>
+                        ${rHtml}
+                    </div>
+                </div>
+                ${summary ? `<div style="padding:10px; font-size:0.85em; text-align:center; color:var(--muted); font-style:italic;">${summary}</div>` : ''}
+            </div>`;
+
+        case 'matrix-table':
+            let headers = (block.content && block.content.headers) ? block.content.headers : [];
+            let rows = (block.content && block.content.rows) ? block.content.rows : [];
+            let thHtml = headers.map(h => `<th style="padding:8px; border:1px solid var(--border); background:var(--bg); font-weight:700;">${h}</th>`).join('');
+            let trHtml = rows.map(r => `<tr>${r.map(c => `<td style="padding:8px; border:1px solid var(--border); font-size:0.9em;">${c}</td>`).join('')}</tr>`).join('');
+            return `
+            <div style="margin:15px 0; overflow-x:auto;">
+                <div style="font-weight:700; margin-bottom:8px; color:var(--primary);">📊 ${block.title || 'Bảng tổng hợp'}</div>
+                <table style="width:100%; border-collapse:collapse;">
+                    <thead><tr>${thHtml}</tr></thead>
+                    <tbody>${trHtml}</tbody>
+                </table>
+            </div>`;
+
+        case 'timeline':
+            let events = (block.content && block.content.events) ? block.content.events : [];
+            let tlHtml = events.map(ev => `
+                <div class="kb-tl-item">
+                    <div class="kb-tl-content">
+                        <div class="kb-tl-title">⏳ ${ev.time}</div>
+                        <div class="kb-tl-desc">${ev.desc}</div>
+                    </div>
+                </div>
+            `).join('');
+            return `
+            <div style="margin:15px 0;">
+                <div style="font-weight:700; margin-bottom:8px; color:var(--primary);">📅 ${block.title || 'Dòng thời gian'}</div>
+                <div class="kb-timeline">${tlHtml}</div>
+            </div>`;
+
+        case 'flip-card':
+            let frontText = block.front || (block.content && block.content.front) || '';
+            let backText = block.back || (block.content && block.content.back) || '';
+            return `
+            <div class="kb-flip-wrap" style="margin:15px 0;">
+                <div style="font-weight:700; margin-bottom:6px; color:var(--primary);">🃏 ${block.title || 'Thẻ lật (Bấm để lật)'}</div>
+                <div class="kb-flip-card kb-interactive" data-action="flip" onclick="this.classList.toggle('flipped')">
+                    <div class="kb-flip-inner">
+                        <div class="kb-flip-front" style="padding:15px; background:var(--surface); border:2px dashed var(--primary); border-radius:12px; text-align:center;">
+                            <p style="font-weight:600; margin:0;">${frontText}</p>
+                        </div>
+                        <div class="kb-flip-back" style="padding:15px; background:var(--primary-lt); border:2px solid var(--primary); border-radius:12px; text-align:center;">
+                            <p style="margin:0; white-space:pre-line;">${backText}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>`;
+
         default:
-            return `<div style="padding:15px; border-left:4px solid var(--primary); background:white; margin:15px 0; border-radius:8px;">${block.content || JSON.stringify(block)}</div>`;
+            let defaultContent = typeof block.content === 'object' ? JSON.stringify(block.content, null, 2) : (block.content || '');
+            return `<div style="padding:15px; border-left:4px solid var(--primary); background:white; margin:15px 0; border-radius:8px;">
+                <div style="font-weight:700; margin-bottom:4px;">${block.title || ''}</div>
+                <pre style="white-space:pre-wrap; font-family:inherit; font-size:0.9em; margin:0;">${defaultContent}</pre>
+            </div>`;
     }
 }
 
