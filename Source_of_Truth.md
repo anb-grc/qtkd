@@ -11,7 +11,13 @@ Hệ thống được sinh ra để giải quyết một nỗi đau duy nhất: 
 
 **2. Giá Trị Cốt Lõi (Core Value):**
 - **Tôn trọng Bản gốc:** Tuyệt đối không được tóm tắt, viết tắt hay tự ý thay đổi bất kỳ từ ngữ nào trong đề và đáp án của trường. Sự xa lạ về mặt câu chữ sẽ giết chết trí nhớ của sinh viên trong phòng thi.
-- **Double Exclusion (Loại trừ kép):** Thay vì bắt học sinh nhớ cả câu dài, hệ thống chỉ Highlight (in đậm + đổi màu) các "Từ khóa cốt lõi" tạo nên điểm khác biệt giữa đáp án đúng và đáp án sai. Nhìn lướt qua là loại ngay đáp án bẫy.
+- **Double Exclusion (Loại trừ kép) - Ma trận Lục Hợp:** Thay vì bắt học sinh nhớ cả câu dài, hệ thống chỉ Highlight (in đậm + đổi màu) các "Từ khóa cốt lõi" tạo nên điểm khác biệt giữa đáp án đúng và đáp án sai. Bắt buộc tuân thủ 6 tiêu chuẩn sau:
+  1. Độc bản (Danh từ cốt lõi của câu hỏi)
+  2. Ngữ cảnh (Phạm vi/Mốc thời gian của câu hỏi)
+  3. Lật kèo (Điều kiện phủ định/ngoại trừ)
+  4. Đối chiếu chéo (Từ khóa đáp án ĐÚNG tuyệt đối không được xuất hiện trong 3 đáp án SAI)
+  5. Mỏ neo (Từ khóa đáp án phải nối logic 1-1 với từ khóa câu hỏi)
+  6. Cô đọng (Tối đa 1-3 chữ/cụm, giới hạn 1-2 cụm/câu).
 
 ---
 
