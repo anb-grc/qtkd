@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Chương 1: Đối tượng & Phương pháp nghiên cứu",
+    "blocks": [
+      {
+        "type": "vs-wrap",
+        "titleA": "Trọng thương",
+        "descA": "Nhấn mạnh lưu thông, thương mại, mua bán để tạo ra thặng dư.",
+        "titleB": "Trọng nông",
+        "descB": "Chỉ có nông nghiệp mới tạo ra giá trị mới thực sự."
+      },
+      {
+        "type": "flowchart",
+        "nodes": [
+          {"title": "Trọng thương", "content": "Thương mại"},
+          {"title": "Trọng nông", "content": "Nông nghiệp"},
+          {"title": "Cổ điển Anh", "content": "Sản xuất công nghiệp", "interactive": "cloze"},
+          {"title": "Mác - Lênin", "content": "Phương thức sản xuất"}
+        ]
+      }
+    ]
+  }
+]

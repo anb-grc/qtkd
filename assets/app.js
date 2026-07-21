@@ -254,6 +254,7 @@ function switchMode(mode) {
       document.body.classList.add('knowledge-mode');
       if (btnKnowledge) btnKnowledge.classList.add('active');
       if (instEl) instEl.innerHTML = '💡 Nhấn vào từng chương để xem nội dung &nbsp;|&nbsp; Tương tác với các thẻ, biểu đồ để ghi nhớ sâu';
+      if (typeof renderKnowledgeBase === 'function') { renderKnowledgeBase(); }
     }
 }
 
@@ -690,4 +691,208 @@ function showQuizModal() {
         modal = document.getElementById('quiz-mode-modal');
     }
     modal.style.display = 'flex';
+}
+
+// ---------------------------------
+// KNOWLEDGE BASE LOGIC (19 Components & 6D Matrix)
+// ---------------------------------
+window.kbData = [];
+window.kbRendered = false;
+
+async function renderKnowledgeBase() {
+    if (window.kbRendered) return;
+    const kbContainer = document.getElementById('knowledge-content');
+    if (!kbContainer) return;
+
+    try {
+        let kbUrl = '../../kb.json'; // Tạm thời link ra ngoài root vì kb.json đang ở ngoài cùng, hoặc để kb.json ở cùng folder môn học
+        if (typeof KB_DATA_URL !== 'undefined') kbUrl = KB_DATA_URL; 
+        
+        const res = await fetch(kbUrl);
+        if (!res.ok) throw new Error("Could not fetch " + kbUrl);
+        window.kbData = await res.json();
+        
+        let html = '';
+        window.kbData.forEach((chapter, index) => {
+            let chapterId = 'kb-chap-' + index;
+            html += \`
+            <div class="kb-section">
+                <div class="kb-header" onclick="toggleKb('\${chapterId}')">
+                    <span>📚 \${chapter.title}</span>
+                    <span>▼</span>
+                </div>
+                <div class="kb-content" id="\${chapterId}">
+            \`;
+            
+            if (chapter.blocks && chapter.blocks.length > 0) {
+                chapter.blocks.forEach(block => {
+                    html += renderKbBlock(block);
+                });
+            }
+            
+            html += \`
+                </div>
+            </div>\`;
+        });
+        
+        kbContainer.innerHTML = html;
+        window.kbRendered = true;
+        
+        // Setup interactive listeners
+        setupKbInteractions(kbContainer);
+
+    } catch (e) {
+        console.error("Knowledge Base Error:", e);
+        kbContainer.innerHTML = \`<div style="padding:20px; color:var(--warn); text-align:center;">Chưa có dữ liệu Kiến thức nền (kb.json) cho môn này.</div>\`;
+    }
+}
+
+function renderKbBlock(block) {
+    let type = block.type;
+    switch(type) {
+        // TIER 1
+        case 'vs-wrap':
+            return \`
+            <div class="kb-vs-wrap">
+                <div class="kb-vs-card green">
+                    <div class="vs-title">🟢 \${block.titleA}</div>
+                    <div class="vs-body">\${block.descA}</div>
+                </div>
+                <div class="kb-vs-badge pulseBadge">VS</div>
+                <div class="kb-vs-card amber">
+                    <div class="vs-title">🔴 \${block.titleB}</div>
+                    <div class="vs-body">\${block.descB}</div>
+                </div>
+            </div>\`;
+            
+        case 'venn-diagram':
+            return \`
+            <div class="kb-venn">
+                <div class="kb-venn-circle left">
+                    <div class="kb-venn-title">\${block.titleA}</div>
+                    <div class="kb-venn-desc">\${block.descA}</div>
+                </div>
+                <div class="kb-venn-circle right">
+                    <div class="kb-venn-title">\${block.titleB}</div>
+                    <div class="kb-venn-desc">\${block.descB}</div>
+                </div>
+                <div class="kb-venn-overlap kb-interactive" data-action="reveal-venn">
+                    <div class="kb-venn-overlap-text hidden-content">\${block.overlap || ''}</div>
+                    <div class="kb-venn-overlap-hint">???</div>
+                </div>
+            </div>\`;
+            
+        case 'formula-breakdown':
+            let varsHtml = '';
+            if (block.variables) {
+                block.variables.forEach(v => {
+                    varsHtml += \`<div class="kb-formula-part kb-interactive" data-action="highlight-var" data-var="\${v.symbol}">
+                        <b>\${v.symbol}</b>: \${v.desc}
+                    </div>\`;
+                });
+            }
+            return \`
+            <div class="kb-formula">
+                <div class="kb-formula-main">\${block.formula}</div>
+                <div class="kb-formula-parts">\${varsHtml}</div>
+            </div>\`;
+            
+        case 't-account':
+            let debitHtml = block.debit ? block.debit.map((d, i) => \`<div class="kb-t-row kb-interactive" data-link="\${d.linkTo || ''}"><span>\${d.text}</span><span>\${d.amount || ''}</span></div>\`).join('') : '';
+            let creditHtml = block.credit ? block.credit.map((c, i) => \`<div class="kb-t-row" id="\${c.id || ''}"><span>\${c.text}</span><span>\${c.amount || ''}</span></div>\`).join('') : '';
+            return \`
+            <div class="kb-t-account">
+                <div class="kb-t-header">\${block.title}</div>
+                <div class="kb-t-body">
+                    <div class="kb-t-side debit">
+                        <div class="kb-t-title">NỢ (Debit)</div>
+                        \${debitHtml}
+                    </div>
+                    <div class="kb-t-side credit">
+                        <div class="kb-t-title">CÓ (Credit)</div>
+                        \${creditHtml}
+                    </div>
+                </div>
+            </div>\`;
+            
+        case 'flip-card':
+            return \`
+            <div class="kb-flip-wrap">
+                <div class="kb-flip-card kb-interactive" data-action="flip">
+                    <div class="kb-flip-inner">
+                        <div class="kb-flip-front">
+                            <p>\${block.front}</p>
+                        </div>
+                        <div class="kb-flip-back">
+                            <p>\${block.back}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>\`;
+            
+        case 'hotspot':
+            let pointsHtml = '';
+            if (block.points) {
+                block.points.forEach(p => {
+                    pointsHtml += \`<div class="kb-hotspot-point kb-interactive" style="top:\${p.top}; left:\${p.left};" data-action="hotspot">
+                        <div class="kb-hotspot-tooltip">\${p.text}</div>
+                    </div>\`;
+                });
+            }
+            return \`
+            <div class="kb-hotspot-wrap">
+                <img src="\${block.image}" class="kb-hotspot-img" alt="Hotspot image"/>
+                \${pointsHtml}
+            </div>\`;
+
+        // TIER 2
+        case 'flowchart':
+            let nodesHtml = '';
+            if (block.nodes) {
+                block.nodes.forEach((n, idx) => {
+                    let isCloze = n.interactive === 'cloze';
+                    let clozeStyle = isCloze ? 'background: #1e293b; color: transparent; cursor: pointer;' : '';
+                    let hintHtml = isCloze ? \`<div class="cloze-hint" style="position:absolute; color:white; font-weight:bold; left:50%; top:50%; transform:translate(-50%, -50%);">???</div>\` : '';
+                    
+                    nodesHtml += \`
+                    <div class="kb-cycle-node kb-interactive" style="position:relative; \${clozeStyle}" data-action="cloze">
+                        <span class="cn-icon">⚡</span>
+                        <span class="cn-title">\${n.title}</span>
+                        <span class="cn-desc">\${n.content}</span>
+                        \${hintHtml}
+                    </div>\`;
+                    
+                    if (idx < block.nodes.length - 1) {
+                        nodesHtml += \`<div class="kb-funnel-arrow" style="transform: rotate(-90deg);"></div>\`;
+                    }
+                });
+            }
+            return \`<div class="kb-cycle" style="display:flex; flex-direction:column; gap:10px;">\${nodesHtml}</div>\`;
+            
+        // ... (other components can be added as needed)
+        default:
+            return \`<div style="padding:15px; border-left:4px solid var(--primary); background:white; margin:15px 0; border-radius:8px;">\${block.content || JSON.stringify(block)}</div>\`;
+    }
+}
+
+function setupKbInteractions(container) {
+    container.addEventListener('click', function(e) {
+        let interactiveEl = e.target.closest('.kb-interactive');
+        if (!interactiveEl) return;
+        
+        let action = interactiveEl.getAttribute('data-action');
+        
+        if (action === 'cloze') {
+            interactiveEl.style.background = '';
+            interactiveEl.style.color = '';
+            let hint = interactiveEl.querySelector('.cloze-hint');
+            if (hint) hint.remove();
+        }
+        else if (action === 'reveal-venn') {
+            let hint = interactiveEl.querySelector('.kb-venn-overlap-hint');
+            let text = interactiveEl.querySelector('.kb-venn-overlap-text');
+            if (hint) hint.style.display = 'none';
+            if (text) text.classList.remove('hidden-content');
+        }
+    });
 }
