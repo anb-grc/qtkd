@@ -928,8 +928,8 @@ function renderKbBlock(block) {
             return `
             <div style="margin:20px 0;">
                 <div style="font-weight:700; margin-bottom:8px; color:var(--primary);">📍 ${title || 'Hotspot'}</div>
-                <div class="kb-hotspot-wrap" style="background:var(--surface); min-height:200px; display:flex; align-items:center; justify-content:center; border:1px dashed var(--border);">
-                    <div style="color:var(--muted);">Khu vực tương tác</div>
+                <div class="kb-hotspot-wrap" style="background-color:var(--bg); background-image:radial-gradient(var(--border-md) 2px, transparent 2px); background-size: 20px 20px; background-position: 0 0; min-height:220px; display:flex; align-items:center; justify-content:center; border:1px solid var(--border);">
+                    <div style="color:var(--muted); font-size:0.85em; font-weight:600; text-transform:uppercase; letter-spacing:2px; opacity:0.5; position:absolute;">Bản đồ Tương tác</div>
                     ${ptsHtml}
                 </div>
             </div>`;

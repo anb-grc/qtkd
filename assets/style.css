@@ -1,7 +1,7 @@
 :root {
     --bg:#F8FAFC; --surface:#FFFFFF; --border:#E2E8F0; --border-md:#CBD5E1;
     --text:#0F172A; --muted:#64748B;
-    --primary:#4F46E5; --primary-lt:#EEF2FF;
+    --primary:#4F46E5; --primary-lt:#EEF2FF; --secondary:#8b5cf6;
     --success:#059669; --success-lt:#ECFDF5;
     --warn:#D97706; --warn-lt:#FFFBEB;
     --kw-bg:#FFF7ED; --kw-fg:#C2410C;
