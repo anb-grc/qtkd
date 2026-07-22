@@ -985,6 +985,53 @@ function renderKbBlock(block) {
                 </div>
             </div>`;
             
+        case 'spectrum':
+            let specItems = data.items || [];
+            let specPoints = specItems.map((item, idx) => {
+                let left = (specItems.length > 1) ? (idx / (specItems.length - 1)) * 100 : 50;
+                return `<div class="kb-spec-point" style="left: ${left}%" title="${item.title || ''}">${idx + 1}</div>`;
+            }).join('');
+            
+            let specLabels = specItems.map(item => `
+                <div>
+                    <div style="font-weight: 800; color: var(--primary); margin-bottom: 4px;">${item.title || ''}</div>
+                    <div style="font-size: 0.9em; font-weight:normal;">${item.description || item.desc || ''}</div>
+                </div>
+            `).join('');
+            
+            return `
+            <div style="margin:25px 0;">
+                <div style="font-weight:700; margin-bottom:24px; color:var(--primary);">🌈 ${title || 'Phổ khái niệm'}</div>
+                <div class="kb-spectrum">
+                    <div class="kb-spec-line">
+                        ${specPoints}
+                    </div>
+                    <div class="kb-spec-labels" style="margin-top: 24px;">
+                        ${specLabels}
+                    </div>
+                </div>
+            </div>`;
+            
+        case 'carousel':
+            let carItems = data.items || [];
+            let carHtml = carItems.map(item => `
+                <div class="kb-carousel-item">
+                    <h4 style="color: var(--primary);">${item.title || item.name || ''}</h4>
+                    <p>${item.description || item.desc || item.content || ''}</p>
+                </div>
+            `).join('');
+            
+            return `
+            <div style="margin:20px 0;">
+                <div style="font-weight:700; margin-bottom:8px; color:var(--primary); display:flex; justify-content:space-between; align-items:center;">
+                    <span>🎠 ${title || 'Vuốt ngang'}</span>
+                    <span style="font-size:0.8em; color:var(--muted); font-weight:normal; background:var(--surface); padding:2px 8px; border-radius:12px; border:1px solid var(--border);">← Vuốt →</span>
+                </div>
+                <div class="kb-carousel">
+                    ${carHtml}
+                </div>
+            </div>`;
+            
         case 'matrix-table':
             let headers = data.headers || data.columns || [];
             let rows = data.rows || data.items || [];
