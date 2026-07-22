@@ -749,116 +749,201 @@ async function renderKnowledgeBase() {
 
 function renderKbBlock(block) {
     let type = block.type;
+    let data = block.data || {};
+    let content = block.content || {};
+    
+    let title = block.title || '';
+    
     switch(type) {
-        case 'vs-wrap':
-            let leftTitle = block.titleA || (block.content && block.content.left && block.content.left.title) || 'Vấn đề A';
-            let leftDesc = block.descA || (block.content && block.content.left && block.content.left.items ? block.content.left.items.join('<br>') : '');
-            let rightTitle = block.titleB || (block.content && block.content.right && block.content.right.title) || 'Vấn đề B';
-            let rightDesc = block.descB || (block.content && block.content.right && block.content.right.items ? block.content.right.items.join('<br>') : '');
-            let conclusion = (block.content && block.content.conclusion) ? `<div style="text-align:center; margin-top:10px; font-weight:bold; color:var(--primary); font-size:0.9em;">💡 ${block.content.conclusion}</div>` : '';
-            return `
-            <div class="kb-vs-wrap">
-                <div class="kb-vs-card green">
-                    <div class="vs-title">🟢 ${leftTitle}</div>
-                    <div class="vs-body">${leftDesc}</div>
-                </div>
-                <div class="kb-vs-badge pulseBadge">VS</div>
-                <div class="kb-vs-card amber">
-                    <div class="vs-title">🔴 ${rightTitle}</div>
-                    <div class="vs-body">${rightDesc}</div>
-                </div>
-            </div>
-            ${conclusion}`;
-
-        case 'venn-diagram':
-            let vTitleA = block.titleA || (block.content && block.content.setA && block.content.setA.name) || 'Tập hợp A';
-            let vDescA = block.descA || (block.content && block.content.setA && block.content.setA.attributes ? block.content.setA.attributes.join('<br>') : '');
-            let vTitleB = block.titleB || (block.content && block.content.setB && block.content.setB.name) || 'Tập hợp B';
-            let vDescB = block.descB || (block.content && block.content.setB && block.content.setB.attributes ? block.content.setB.attributes.join('<br>') : '');
-            let vOverlap = block.overlap || (block.content && block.content.intersection ? block.content.intersection.join('<br>') : '');
-            return `
-            <div class="kb-venn">
-                <div class="kb-venn-circle left">
-                    <div class="kb-venn-title">${vTitleA}</div>
-                    <div class="kb-venn-desc" style="font-size:0.8em; font-weight:normal; margin-top:4px;">${vDescA}</div>
-                </div>
-                <div class="kb-venn-circle right">
-                    <div class="kb-venn-title">${vTitleB}</div>
-                    <div class="kb-venn-desc" style="font-size:0.8em; font-weight:normal; margin-top:4px;">${vDescB}</div>
-                </div>
-                <div class="kb-venn-overlap kb-interactive" data-action="reveal-venn">
-                    <div class="kb-venn-overlap-text hidden-content" style="font-size:0.8em;">${vOverlap}</div>
-                    <div class="kb-venn-overlap-hint">???</div>
-                </div>
-            </div>`;
-
-        case 'mindmap':
-            let mmNodes = (block.content && block.content.nodes) ? block.content.nodes : (block.nodes || []);
-            let mmConns = (block.content && block.content.connections) ? block.content.connections : [];
-            let mmHtml = mmNodes.map(n => `<div style="padding:8px 14px; background:var(--bg); border:1px solid var(--border); border-radius:20px; font-weight:600; font-size:0.9em; display:inline-block;">📌 ${n}</div>`).join('');
-            let connHtml = mmConns.map(c => `<div style="font-size:0.85em; color:var(--muted); margin:4px 0;">⚡ <b>${c.from}</b> ➔ <b>${c.to}</b>: ${c.label}</div>`).join('');
-            return `
-            <div style="background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:16px; margin:15px 0;">
-                <div style="font-weight:700; margin-bottom:12px; color:var(--primary);">🗺️ ${block.title || 'Sơ đồ tư duy'}</div>
-                <div style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:12px;">${mmHtml}</div>
-                ${connHtml ? `<div style="border-top:1px dashed var(--border); padding-top:8px;">${connHtml}</div>` : ''}
-            </div>`;
-
-        case 'pyramid':
-            let levels = (block.content && block.content.levels) ? block.content.levels : [];
-            let context = (block.content && block.content.context) ? block.content.context : '';
-            let pyrHtml = levels.map((lvl, idx) => {
-                let width = 100 - (idx * 15);
-                return `<div class="kb-pyr-level" style="width:${width}%; margin:4px auto; padding:8px 12px; text-align:center; background:linear-gradient(135deg, var(--primary), var(--secondary)); color:white; border-radius:6px; font-weight:600; font-size:0.9em;">${lvl}</div>`;
-            }).reverse().join('');
-            return `
-            <div style="margin:20px 0; text-align:center;">
-                <div style="font-weight:700; margin-bottom:10px; color:var(--primary);">🔺 ${block.title || 'Mô hình tháp'}</div>
-                <div style="display:flex; flex-direction:column; align-items:center;">${pyrHtml}</div>
-                ${context ? `<div style="font-size:0.85em; color:var(--muted); margin-top:8px;">${context}</div>` : ''}
-            </div>`;
-
-        case 'formula-breakdown':
-            let formStr = block.formula || (block.content && block.content.formula) || '';
-            let varsList = block.variables || (block.content && block.content.variables) || [];
-            let exp = (block.content && block.content.explanation) || block.explanation || '';
-            let varsHtml = varsList.map(v => `<div class="kb-formula-part"><b>${v.symbol}</b>: ${v.meaning || v.desc}</div>`).join('');
-            return `
-            <div class="kb-formula">
-                <div style="font-weight:700; margin-bottom:8px; color:var(--primary);">🧮 ${block.title || 'Công thức'}</div>
-                <div class="kb-formula-main">${formStr}</div>
-                <div class="kb-formula-parts">${varsHtml}</div>
-                ${exp ? `<div style="font-size:0.85em; color:var(--muted); margin-top:8px; line-height:1.4;">${exp}</div>` : ''}
-            </div>`;
-
-        case 'process-steps':
-            let steps = (block.content && block.content.steps) ? block.content.steps : [];
-            let stepsHtml = steps.map(s => `
-                <div style="display:flex; gap:12px; align-items:flex-start; margin-bottom:10px;">
-                    <div style="background:var(--primary); color:white; width:24px; height:24px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:bold; font-size:0.8em; flex-shrink:0;">${s.step}</div>
-                    <div>
-                        <div style="font-weight:700; font-size:0.95em;">${s.name}</div>
-                        <div style="font-size:0.85em; color:var(--muted);">${s.desc}</div>
+        case 'timeline':
+            let events = data.items || content.events || [];
+            let tlHtml = events.map(ev => `
+                <div class="kb-tl-item">
+                    <div class="kb-tl-content">
+                        <div class="kb-tl-title">⏳ ${ev.time}</div>
+                        <div class="kb-tl-desc">${ev.content || ev.desc || ''}</div>
                     </div>
                 </div>
             `).join('');
             return `
-            <div style="background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:16px; margin:15px 0;">
-                <div style="font-weight:700; margin-bottom:12px; color:var(--primary);">🔄 ${block.title || 'Quy trình'}</div>
-                ${stepsHtml}
+            <div style="margin:15px 0;">
+                <div style="font-weight:700; margin-bottom:8px; color:var(--primary);">📅 ${title || 'Dòng thời gian'}</div>
+                <div class="kb-timeline">${tlHtml}</div>
             </div>`;
 
+        case 'features':
+            let features = data.items || [];
+            let featHtml = features.map(f => `
+                <div style="background:var(--surface); padding:12px; border-radius:8px; margin-bottom:8px; border-left:4px solid var(--primary);">
+                    <div style="font-weight:700;">${f.title}</div>
+                    <div style="font-size:0.9em; color:var(--muted); margin-top:4px;">${f.description}</div>
+                </div>
+            `).join('');
+            return `
+            <div style="margin:15px 0;">
+                <div style="font-weight:700; margin-bottom:8px; color:var(--primary);">📋 ${title || 'Đặc điểm'}</div>
+                ${featHtml}
+            </div>`;
+            
+        case 'mindmap':
+            let root = data.root || 'Root';
+            let children = data.children || content.nodes || block.nodes || [];
+            let nodesHtml = children.map(n => `<div style="padding:8px 14px; background:var(--bg); border:1px solid var(--border); border-radius:20px; font-weight:600; font-size:0.9em; display:inline-block;">📌 ${n.name || n}</div>`).join('');
+            return `
+            <div style="background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:16px; margin:15px 0; text-align:center;">
+                <div style="font-weight:700; margin-bottom:12px; color:var(--primary); text-align:left;">🗺️ ${title || 'Sơ đồ tư duy'}</div>
+                <div style="font-weight:800; font-size:1.1em; color:white; background:var(--primary); display:inline-block; padding:8px 16px; border-radius:20px; margin-bottom:15px;">🧠 ${root}</div>
+                <div style="display:flex; flex-wrap:wrap; gap:8px; justify-content:center;">${nodesHtml}</div>
+            </div>`;
+            
+        case 'pyramid':
+            let levels = data.levels || content.levels || [];
+            let pyrHtml = levels.map((lvl, idx) => {
+                let width = 100 - (idx * 15);
+                return `<div class="kb-pyr-level" style="width:${width}%; margin:4px auto; padding:8px 12px; text-align:center; background:linear-gradient(135deg, var(--primary), var(--secondary)); color:white; border-radius:6px; font-weight:600; font-size:0.9em;">${lvl.name || lvl} <div style="font-size:0.8em; font-weight:normal; margin-top:4px;">${lvl.description || ''}</div></div>`;
+            }).reverse().join('');
+            return `
+            <div style="margin:20px 0; text-align:center;">
+                <div style="font-weight:700; margin-bottom:10px; color:var(--primary); text-align:left;">🔺 ${title || 'Mô hình tháp'}</div>
+                <div style="display:flex; flex-direction:column; align-items:center;">${pyrHtml}</div>
+            </div>`;
+            
+        case 'formula':
+        case 'formula-breakdown':
+            let formStr = data.formula || block.formula || content.formula || '';
+            let varsList = data.variables || block.variables || content.variables || [];
+            let varsHtml = varsList.map(v => `<div class="kb-formula-part"><b>${v.symbol}</b>: ${v.definition || v.meaning || v.desc}</div>`).join('');
+            return `
+            <div class="kb-formula">
+                <div style="font-weight:700; margin-bottom:8px; color:var(--primary); text-align:left;">🧮 ${title || 'Công thức'}</div>
+                <div class="kb-formula-main">${formStr}</div>
+                <div class="kb-formula-parts">${varsHtml}</div>
+            </div>`;
+            
+        case 'vs-wrap':
+            let lTitle = (data.left && data.left.title) || block.titleA || (content.left && content.left.title) || 'Vấn đề A';
+            let lDesc = (data.left && data.left.content) || block.descA || (content.left && content.left.items ? content.left.items.join('<br>') : '');
+            let rTitle = (data.right && data.right.title) || block.titleB || (content.right && content.right.title) || 'Vấn đề B';
+            let rDesc = (data.right && data.right.content) || block.descB || (content.right && content.right.items ? content.right.items.join('<br>') : '');
+            return `
+            <div style="margin:15px 0;">
+                <div style="font-weight:700; margin-bottom:8px; color:var(--primary);">⚖️ ${title || 'So sánh'}</div>
+                <div class="kb-vs-wrap">
+                    <div class="kb-vs-card green">
+                        <div class="vs-title">🟢 ${lTitle}</div>
+                        <div class="vs-body">${lDesc}</div>
+                    </div>
+                    <div class="kb-vs-badge pulseBadge">VS</div>
+                    <div class="kb-vs-card amber">
+                        <div class="vs-title">🔴 ${rTitle}</div>
+                        <div class="vs-body">${rDesc}</div>
+                    </div>
+                </div>
+            </div>`;
+            
+        case 'quadrant':
+            let q1 = data.q1 || {title: 'Q1', content: ''};
+            let q2 = data.q2 || {title: 'Q2', content: ''};
+            let q3 = data.q3 || {title: 'Q3', content: ''};
+            let q4 = data.q4 || {title: 'Q4', content: ''};
+            return `
+            <div style="margin:20px 0;">
+                <div style="font-weight:700; margin-bottom:8px; color:var(--primary);">⊞ ${title || 'Ma trận 4 góc'}</div>
+                <div class="kb-quadrant">
+                    <div class="kb-quad-cell q1"><h4>${q1.title}</h4><p>${q1.content}</p></div>
+                    <div class="kb-quad-cell q2"><h4>${q2.title}</h4><p>${q2.content}</p></div>
+                    <div class="kb-quad-cell q3"><h4>${q3.title}</h4><p>${q3.content}</p></div>
+                    <div class="kb-quad-cell q4"><h4>${q4.title}</h4><p>${q4.content}</p></div>
+                </div>
+            </div>`;
+            
+        case 'cycle':
+        case 'flowchart':
+        case 'process-steps':
+            let steps = data.steps || content.steps || [];
+            let flowHtml = steps.map((s, i) => {
+                let name = s.name || s;
+                let desc = s.desc || '';
+                return `
+                <div style="display:flex; align-items:center; margin-bottom:10px;">
+                    <div style="width:30px; height:30px; border-radius:50%; background:var(--primary); color:white; display:flex; align-items:center; justify-content:center; font-weight:bold; margin-right:12px; flex-shrink:0;">${i+1}</div>
+                    <div style="background:white; padding:10px 15px; border-radius:8px; border:1px solid var(--border); width:100%; box-shadow:var(--shadow-sm);">
+                        <div style="font-weight:600;">${name}</div>
+                        ${desc ? `<div style="font-size:0.85em; color:var(--muted); margin-top:4px;">${desc}</div>` : ''}
+                    </div>
+                </div>`;
+            }).join('');
+            return `
+            <div style="background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:16px; margin:15px 0;">
+                <div style="font-weight:700; margin-bottom:12px; color:var(--primary);">🔄 ${title || 'Quy trình / Chu trình'}</div>
+                ${flowHtml}
+            </div>`;
+            
+        case 'onion':
+            let layers = data.layers || [];
+            let onionHtml = layers.map((l, i) => {
+                let classN = (i === 0) ? 'l1' : (i === 1) ? 'l2' : 'l3';
+                return `<div class="kb-onion-layer ${classN}" style="margin: 0 auto; margin-bottom: -40px; position:relative; z-index:${10-i}">
+                    <div><strong>${l.name}</strong><br><span style="font-size:0.85em;font-weight:normal;">${l.description}</span></div>
+                </div>`;
+            }).join('');
+            return `
+            <div style="margin:20px 0; padding-bottom:40px;">
+                <div style="font-weight:700; margin-bottom:8px; color:var(--primary); text-align:left;">🎯 ${title || 'Mô hình Onion'}</div>
+                <div class="kb-onion">${onionHtml}</div>
+            </div>`;
+            
+        case 'venn':
+        case 'venn-diagram':
+            let vLTitle = data.left || block.titleA || (content.setA && content.setA.name) || 'Tập hợp A';
+            let vRTitle = data.right || block.titleB || (content.setB && content.setB.name) || 'Tập hợp B';
+            let vOverlap = data.intersection || block.overlap || (content.intersection ? content.intersection.join('<br>') : 'Giao điểm');
+            return `
+            <div style="margin:15px 0;">
+                <div style="font-weight:700; margin-bottom:8px; color:var(--primary);">⭕ ${title || 'Biểu đồ Venn'}</div>
+                <div class="kb-venn">
+                    <div class="kb-venn-circle left">
+                        <div class="kb-venn-title">${vLTitle}</div>
+                    </div>
+                    <div class="kb-venn-circle right">
+                        <div class="kb-venn-title">${vRTitle}</div>
+                    </div>
+                    <div class="kb-venn-overlap kb-interactive" data-action="reveal-venn">
+                        <div class="kb-venn-overlap-text hidden-content" style="font-size:0.8em;">${vOverlap}</div>
+                        <div class="kb-venn-overlap-hint">???</div>
+                    </div>
+                </div>
+            </div>`;
+            
+        case 'hotspot':
+            let points = data.points || [];
+            let ptsHtml = points.map((p, i) => {
+                let left = 20 + (i * 20) % 60;
+                let top = 30 + (i * 25) % 50;
+                return `
+                <div class="kb-hotspot-point" style="left:${left}%; top:${top}%;">
+                    <div class="kb-hotspot-tooltip"><strong>${p.title}</strong><br>${p.description}</div>
+                </div>`;
+            }).join('');
+            return `
+            <div style="margin:20px 0;">
+                <div style="font-weight:700; margin-bottom:8px; color:var(--primary);">📍 ${title || 'Hotspot'}</div>
+                <div class="kb-hotspot-wrap" style="background:var(--surface); min-height:200px; display:flex; align-items:center; justify-content:center; border:1px dashed var(--border);">
+                    <div style="color:var(--muted);">Khu vực tương tác</div>
+                    ${ptsHtml}
+                </div>
+            </div>`;
+            
         case 't-account':
-            let leftHeader = (block.content && block.content.left && block.content.left.header) || 'Bên Trái';
-            let leftEntries = (block.content && block.content.left && block.content.left.entries) || [];
-            let rightHeader = (block.content && block.content.right && block.content.right.header) || 'Bên Phải';
-            let rightEntries = (block.content && block.content.right && block.content.right.entries) || [];
-            let summary = (block.content && block.content.summary) || '';
+            let leftHeader = (data.left && data.left.header) || (content.left && content.left.header) || 'Bên Trái';
+            let leftEntries = (data.left && data.left.entries) || (content.left && content.left.entries) || [];
+            let rightHeader = (data.right && data.right.header) || (content.right && content.right.header) || 'Bên Phải';
+            let rightEntries = (data.right && data.right.entries) || (content.right && content.right.entries) || [];
             let lHtml = leftEntries.map(e => `<div class="kb-t-row"><span>${typeof e === 'string' ? e : e.text}</span></div>`).join('');
             let rHtml = rightEntries.map(e => `<div class="kb-t-row"><span>${typeof e === 'string' ? e : e.text}</span></div>`).join('');
             return `
             <div class="kb-t-account">
-                <div class="kb-t-header">${block.title || 'Tài khoản T'}</div>
+                <div class="kb-t-header">${title || 'Tài khoản T'}</div>
                 <div class="kb-t-body">
                     <div class="kb-t-side debit">
                         <div class="kb-t-title">${leftHeader}</div>
@@ -869,45 +954,14 @@ function renderKbBlock(block) {
                         ${rHtml}
                     </div>
                 </div>
-                ${summary ? `<div style="padding:10px; font-size:0.85em; text-align:center; color:var(--muted); font-style:italic;">${summary}</div>` : ''}
             </div>`;
-
-        case 'matrix-table':
-            let headers = (block.content && block.content.headers) ? block.content.headers : [];
-            let rows = (block.content && block.content.rows) ? block.content.rows : [];
-            let thHtml = headers.map(h => `<th style="padding:8px; border:1px solid var(--border); background:var(--bg); font-weight:700;">${h}</th>`).join('');
-            let trHtml = rows.map(r => `<tr>${r.map(c => `<td style="padding:8px; border:1px solid var(--border); font-size:0.9em;">${c}</td>`).join('')}</tr>`).join('');
-            return `
-            <div style="margin:15px 0; overflow-x:auto;">
-                <div style="font-weight:700; margin-bottom:8px; color:var(--primary);">📊 ${block.title || 'Bảng tổng hợp'}</div>
-                <table style="width:100%; border-collapse:collapse;">
-                    <thead><tr>${thHtml}</tr></thead>
-                    <tbody>${trHtml}</tbody>
-                </table>
-            </div>`;
-
-        case 'timeline':
-            let events = (block.content && block.content.events) ? block.content.events : [];
-            let tlHtml = events.map(ev => `
-                <div class="kb-tl-item">
-                    <div class="kb-tl-content">
-                        <div class="kb-tl-title">⏳ ${ev.time}</div>
-                        <div class="kb-tl-desc">${ev.desc}</div>
-                    </div>
-                </div>
-            `).join('');
-            return `
-            <div style="margin:15px 0;">
-                <div style="font-weight:700; margin-bottom:8px; color:var(--primary);">📅 ${block.title || 'Dòng thời gian'}</div>
-                <div class="kb-timeline">${tlHtml}</div>
-            </div>`;
-
+            
         case 'flip-card':
-            let frontText = block.front || (block.content && block.content.front) || '';
-            let backText = block.back || (block.content && block.content.back) || '';
+            let frontText = block.front || data.front || content.front || 'Mặt trước';
+            let backText = block.back || data.back || content.back || 'Mặt sau';
             return `
             <div class="kb-flip-wrap" style="margin:15px 0;">
-                <div style="font-weight:700; margin-bottom:6px; color:var(--primary);">🃏 ${block.title || 'Thẻ lật (Bấm để lật)'}</div>
+                <div style="font-weight:700; margin-bottom:6px; color:var(--primary);">🃏 ${title || 'Thẻ lật (Bấm để lật)'}</div>
                 <div class="kb-flip-card kb-interactive" data-action="flip" onclick="this.classList.toggle('flipped')">
                     <div class="kb-flip-inner">
                         <div class="kb-flip-front" style="padding:15px; background:var(--surface); border:2px dashed var(--primary); border-radius:12px; text-align:center;">
@@ -919,16 +973,31 @@ function renderKbBlock(block) {
                     </div>
                 </div>
             </div>`;
-
+            
+        case 'matrix-table':
+            let headers = data.headers || content.headers || [];
+            let rows = data.rows || content.rows || [];
+            let thHtml = headers.map(h => `<th style="padding:8px; border:1px solid var(--border); background:var(--bg); font-weight:700;">${h}</th>`).join('');
+            let trHtml = rows.map(r => `<tr>${r.map(c => `<td style="padding:8px; border:1px solid var(--border); font-size:0.9em;">${c}</td>`).join('')}</tr>`).join('');
+            return `
+            <div style="margin:15px 0; overflow-x:auto;">
+                <div style="font-weight:700; margin-bottom:8px; color:var(--primary);">📊 ${title || 'Bảng tổng hợp'}</div>
+                <table style="width:100%; border-collapse:collapse;">
+                    <thead><tr>${thHtml}</tr></thead>
+                    <tbody>${trHtml}</tbody>
+                </table>
+            </div>`;
+            
         default:
-            let defaultContent = typeof block.content === 'object' ? JSON.stringify(block.content, null, 2) : (block.content || '');
+            let defaultContent = typeof data === 'object' && Object.keys(data).length > 0 ? JSON.stringify(data, null, 2) : 
+                                 (typeof content === 'object' && Object.keys(content).length > 0 ? JSON.stringify(content, null, 2) : 
+                                 (block.content || ''));
             return `<div style="padding:15px; border-left:4px solid var(--primary); background:white; margin:15px 0; border-radius:8px;">
-                <div style="font-weight:700; margin-bottom:4px;">${block.title || ''}</div>
+                <div style="font-weight:700; margin-bottom:4px;">${title || ''}</div>
                 <pre style="white-space:pre-wrap; font-family:inherit; font-size:0.9em; margin:0;">${defaultContent}</pre>
             </div>`;
     }
 }
-
 function setupKbInteractions(container) {
     container.addEventListener('click', function(e) {
         let interactiveEl = e.target.closest('.kb-interactive');
