@@ -5,186 +5,206 @@
       {
         "type": "timeline",
         "title": "Tiến Trình Lịch Sử Hình Thành",
-        "data": [
-          {
-            "title": "TK 15 - 17",
-            "description": "Chủ nghĩa trọng thương. Trọng tâm lưu thông, thương mại."
-          },
-          {
-            "title": "TK 17 - 18",
-            "description": "Chủ nghĩa trọng nông. Trọng tâm sản xuất nông nghiệp."
-          },
-          {
-            "title": "TK 18 - 19",
-            "description": "KTCT Cổ điển Anh. Trọng tâm sản xuất, giá trị lao động."
-          },
-          {
-            "title": "TK 19 - Nay",
-            "description": "Mác-Lênin. Hoàn thiện, phát triển quy luật nền sản xuất xã hội."
-          }
-        ]
+        "data": {
+          "items": [
+            {
+              "title": "TK 15 - 17",
+              "description": "Chủ nghĩa trọng thương. Trọng tâm lưu thông, thương mại."
+            },
+            {
+              "title": "TK 17 - 18",
+              "description": "Chủ nghĩa trọng nông. Trọng tâm sản xuất nông nghiệp."
+            },
+            {
+              "title": "TK 18 - 19",
+              "description": "KTCT Cổ điển Anh. Trọng tâm sản xuất, giá trị lao động."
+            },
+            {
+              "title": "TK 19 - Nay",
+              "description": "Mác-Lênin. Hoàn thiện, phát triển quy luật nền sản xuất xã hội."
+            }
+          ]
+        }
       },
       {
         "type": "vs-wrap",
         "title": "So Sánh Đối Tượng Nghiên Cứu",
-        "data": [
-          {
+        "data": {
+          "left": {
             "title": "Tiền Nhiệm",
-            "description": "Nghiên cứu phiến diện. Giới hạn trong lưu thông hoặc nông nghiệp."
+            "desc": "Nghiên cứu phiến diện. Giới hạn trong lưu thông hoặc nông nghiệp."
           },
-          {
+          "right": {
             "title": "Mác - Lênin",
-            "description": "Chỉnh thể thống nhất. Toàn diện quan hệ sản xuất và trao đổi."
+            "desc": "Chỉnh thể thống nhất. Toàn diện quan hệ sản xuất và trao đổi."
           }
-        ]
+        }
       },
       {
         "type": "spectrum",
         "title": "Phạm Vi Nghĩa Khái Niệm",
-        "data": [
-          {
-            "title": "Nghĩa Hẹp",
-            "description": "Quan hệ sản xuất, trao đổi trong một phương thức cụ thể."
-          },
-          {
-            "title": "Nghĩa Rộng",
-            "description": "Quy luật chi phối trao đổi vật chất toàn lịch sử loài người."
-          }
-        ]
+        "data": {
+          "items": [
+            {
+              "title": "Nghĩa Hẹp",
+              "description": "Quan hệ sản xuất, trao đổi trong một phương thức cụ thể."
+            },
+            {
+              "title": "Nghĩa Rộng",
+              "description": "Quy luật chi phối trao đổi vật chất toàn lịch sử loài người."
+            }
+          ]
+        }
       },
       {
         "type": "onion",
         "title": "Cấu Trúc Liên Hệ Biện Chứng",
-        "data": [
-          {
-            "title": "Lõi Trung Tâm",
-            "description": "Quan hệ sản xuất, trao đổi. Đối tượng nghiên cứu cốt lõi."
-          },
-          {
-            "title": "Lớp Tương Tác",
-            "description": "Lực lượng sản xuất. Yếu tố quy định trình độ nền kinh tế."
-          },
-          {
-            "title": "Vỏ Kiến Trúc",
-            "description": "Kiến trúc thượng tầng. Khung thể chế, chính trị, tư tưởng."
-          }
-        ]
+        "data": {
+          "layers": [
+            {
+              "title": "Lõi Trung Tâm",
+              "description": "Quan hệ sản xuất, trao đổi. Đối tượng nghiên cứu cốt lõi."
+            },
+            {
+              "title": "Lớp Tương Tác",
+              "description": "Lực lượng sản xuất. Yếu tố quy định trình độ nền kinh tế."
+            },
+            {
+              "title": "Vỏ Kiến Trúc",
+              "description": "Kiến trúc thượng tầng. Khung thể chế, chính trị, tư tưởng."
+            }
+          ]
+        }
       },
       {
         "type": "pyramid",
         "title": "Thang Bậc Mục Đích Nghiên Cứu",
-        "data": [
-          {
-            "title": "Tầng Đỉnh",
-            "description": "Phát hiện quy luật khách quan chi phối nền sản xuất."
-          },
-          {
-            "title": "Tầng Giữa",
-            "description": "Giải quyết hài hòa lợi ích, điều chỉnh hành vi con người."
-          },
-          {
-            "title": "Tầng Đáy",
-            "description": "Thúc đẩy phát triển văn minh, giàu có toàn diện."
-          }
-        ]
+        "data": {
+          "levels": [
+            {
+              "title": "Tầng Đỉnh",
+              "description": "Phát hiện quy luật khách quan chi phối nền sản xuất."
+            },
+            {
+              "title": "Tầng Giữa",
+              "description": "Giải quyết hài hòa lợi ích, điều chỉnh hành vi con người."
+            },
+            {
+              "title": "Tầng Đáy",
+              "description": "Thúc đẩy phát triển văn minh, giàu có toàn diện."
+            }
+          ]
+        }
       },
       {
         "type": "features",
         "title": "Đặc Trưng Quy Luật Kinh Tế",
-        "data": [
-          {
-            "title": "Tuyệt Đối Khách Quan",
-            "description": "Tồn tại độc lập ý chí. Không thể tự ý xóa bỏ."
-          },
-          {
-            "title": "Chi Phối Hành Vi",
-            "description": "Tác động mạnh mẽ động cơ, quan hệ lợi ích thực tế."
-          },
-          {
-            "title": "Phân Biệt Chính Sách",
-            "description": "Chính sách là chủ quan. Quy luật là bản chất tất yếu."
-          }
-        ]
+        "data": {
+          "items": [
+            {
+              "title": "Tuyệt Đối Khách Quan",
+              "description": "Tồn tại độc lập ý chí. Không thể tự ý xóa bỏ."
+            },
+            {
+              "title": "Chi Phối Hành Vi",
+              "description": "Tác động mạnh mẽ động cơ, quan hệ lợi ích thực tế."
+            },
+            {
+              "title": "Phân Biệt Chính Sách",
+              "description": "Chính sách là chủ quan. Quy luật là bản chất tất yếu."
+            }
+          ]
+        }
       },
       {
         "type": "process-steps",
         "title": "Tiến Trình Trừu Tượng Hóa Khoa Học",
-        "data": [
-          {
-            "title": "Quan Sát",
-            "description": "Tiếp cận hiện tượng kinh tế bề ngoài, phức tạp."
-          },
-          {
-            "title": "Gạt Bỏ",
-            "description": "Loại trừ yếu tố ngẫu nhiên, tạm thời, gián tiếp."
-          },
-          {
-            "title": "Tách Lọc",
-            "description": "Giữ lại bản chất điển hình, bền vững, cốt lõi."
-          }
-        ]
+        "data": {
+          "steps": [
+            {
+              "title": "Quan Sát",
+              "description": "Tiếp cận hiện tượng kinh tế bề ngoài, phức tạp."
+            },
+            {
+              "title": "Gạt Bỏ",
+              "description": "Loại trừ yếu tố ngẫu nhiên, tạm thời, gián tiếp."
+            },
+            {
+              "title": "Tách Lọc",
+              "description": "Giữ lại bản chất điển hình, bền vững, cốt lõi."
+            }
+          ]
+        }
       },
       {
         "type": "mindmap",
         "title": "Hệ Thống Phương Pháp Luận",
-        "data": [
-          {
-            "title": "Trừu tượng hóa",
-            "description": "Phương pháp chủ đạo. Bóc tách bản chất kinh tế."
-          },
-          {
-            "title": "Biện chứng duy vật",
-            "description": "Triết học nền tảng. Đánh giá đa chiều, liên tục."
-          },
-          {
-            "title": "Nghiên cứu hiện đại",
-            "description": "Liên ngành, tổng kết thực tiễn, phân tích số liệu."
-          }
-        ]
+        "data": {
+          "root": "Trừu tượng hóa",
+          "children": [
+            {
+              "title": "Biện chứng duy vật",
+              "description": "Triết học nền tảng. Đánh giá đa chiều, liên tục."
+            },
+            {
+              "title": "Nghiên cứu hiện đại",
+              "description": "Liên ngành, tổng kết thực tiễn, phân tích số liệu."
+            }
+          ]
+        }
       },
       {
         "type": "matrix-table",
         "title": "Ma Trận 4 Chức Năng Hệ Thống",
-        "data": [
-          {
-            "Chức năng": "Nhận thức",
-            "Nội dung": "Tri thức lý luận, quy luật kinh tế cốt lõi."
-          },
-          {
-            "Chức năng": "Thực tiễn",
-            "Nội dung": "Vận dụng quy luật, quản trị hoạch định chính sách."
-          },
-          {
-            "Chức năng": "Tư tưởng",
-            "Nội dung": "Nền tảng lý tưởng tiến bộ, giải phóng con người."
-          },
-          {
-            "Chức năng": "Phương pháp luận",
-            "Nội dung": "Cơ sở lý luận cho khoa học kinh tế chuyên ngành."
-          }
-        ]
+        "data": {
+          "headers": [
+            "Cột 1",
+            "Cột 2",
+            "Cột 3"
+          ],
+          "rows": [
+            {
+              "Chức năng": "Nhận thức",
+              "Nội dung": "Tri thức lý luận, quy luật kinh tế cốt lõi."
+            },
+            {
+              "Chức năng": "Thực tiễn",
+              "Nội dung": "Vận dụng quy luật, quản trị hoạch định chính sách."
+            },
+            {
+              "Chức năng": "Tư tưởng",
+              "Nội dung": "Nền tảng lý tưởng tiến bộ, giải phóng con người."
+            },
+            {
+              "Chức năng": "Phương pháp luận",
+              "Nội dung": "Cơ sở lý luận cho khoa học kinh tế chuyên ngành."
+            }
+          ]
+        }
       },
       {
         "type": "quadrant",
         "title": "Phân Khúc Yếu Tố Nền Tảng",
-        "data": [
-          {
-            "title": "Bản Chất Khách Quan",
-            "description": "Quy luật kinh tế tất yếu, chi phối vĩ mô."
-          },
-          {
-            "title": "Hiện Tượng Bề Mặt",
-            "description": "Ngẫu nhiên, tạm thời, vỏ bọc kinh tế."
-          },
-          {
-            "title": "Hành Động Chủ Quan",
-            "description": "Chính sách kinh tế, công cụ quản trị nhà nước."
-          },
-          {
-            "title": "Nhận Thức Khoa Học",
-            "description": "Trừu tượng hóa, tư duy lý luận sâu sắc."
-          }
-        ]
+        "data": {
+          "quadrants": [
+            {
+              "title": "Bản Chất Khách Quan",
+              "description": "Quy luật kinh tế tất yếu, chi phối vĩ mô."
+            },
+            {
+              "title": "Hiện Tượng Bề Mặt",
+              "description": "Ngẫu nhiên, tạm thời, vỏ bọc kinh tế."
+            },
+            {
+              "title": "Hành Động Chủ Quan",
+              "description": "Chính sách kinh tế, công cụ quản trị nhà nước."
+            },
+            {
+              "title": "Nhận Thức Khoa Học",
+              "description": "Trừu tượng hóa, tư duy lý luận sâu sắc."
+            }
+          ]
+        }
       }
     ]
   },
@@ -702,68 +722,74 @@
       {
         "type": "onion",
         "title": "Cấp Độ Hình Thành Độc Quyền",
-        "data": [
-          {
-            "name": "Độc Quyền Nhà Nước",
-            "description": "Bảo vệ chế độ, điều tiết vĩ mô."
-          },
-          {
-            "name": "Độc Quyền Tư Nhân",
-            "description": "Thao túng giá cả, tối đa siêu lợi nhuận."
-          },
-          {
-            "name": "Tích Tụ & Tập Trung",
-            "description": "Gia tăng quy mô, liên kết tư bản chéo."
-          },
-          {
-            "name": "Cạnh Tranh Tự Do",
-            "description": "Tự do ganh đua, đào thải doanh nghiệp yếu."
-          }
-        ]
+        "data": {
+          "layers": [
+            {
+              "name": "Độc Quyền Nhà Nước",
+              "description": "Bảo vệ chế độ, điều tiết vĩ mô."
+            },
+            {
+              "name": "Độc Quyền Tư Nhân",
+              "description": "Thao túng giá cả, tối đa siêu lợi nhuận."
+            },
+            {
+              "name": "Tích Tụ & Tập Trung",
+              "description": "Gia tăng quy mô, liên kết tư bản chéo."
+            },
+            {
+              "name": "Cạnh Tranh Tự Do",
+              "description": "Tự do ganh đua, đào thải doanh nghiệp yếu."
+            }
+          ]
+        }
       },
       {
         "type": "features",
         "title": "Đặc Trưng Các Chủ Thể Cốt Lõi",
-        "data": [
-          {
-            "title": "Người Sản Xuất",
-            "description": "Sử dụng đầu vào, tối ưu chi phí, trách nhiệm an toàn."
-          },
-          {
-            "title": "Người Tiêu Dùng",
-            "description": "Quyết định sức mua, định hướng thị trường chung."
-          },
-          {
-            "title": "Trung Gian",
-            "description": "Kết nối cung cầu, môi giới, thương nhân, linh hoạt."
-          },
-          {
-            "title": "Nhà Nước Điều Tiết",
-            "description": "Kiến tạo môi trường, giải quyết khuyết tật kinh tế."
-          }
-        ]
+        "data": {
+          "items": [
+            {
+              "title": "Người Sản Xuất",
+              "description": "Sử dụng đầu vào, tối ưu chi phí, trách nhiệm an toàn."
+            },
+            {
+              "title": "Người Tiêu Dùng",
+              "description": "Quyết định sức mua, định hướng thị trường chung."
+            },
+            {
+              "title": "Trung Gian",
+              "description": "Kết nối cung cầu, môi giới, thương nhân, linh hoạt."
+            },
+            {
+              "title": "Nhà Nước Điều Tiết",
+              "description": "Kiến tạo môi trường, giải quyết khuyết tật kinh tế."
+            }
+          ]
+        }
       },
       {
         "type": "pyramid",
         "title": "Kiến Trúc Kinh Tế Thị Trường XHCN",
-        "data": [
-          {
-            "title": "Mục Tiêu",
-            "description": "Dân giàu, nước mạnh, công bằng, văn minh."
-          },
-          {
-            "title": "Sở Hữu",
-            "description": "Nhiều thành phần, bình đẳng pháp lý, đa dạng."
-          },
-          {
-            "title": "Quản Lý",
-            "description": "Nhà nước pháp quyền, Đảng lãnh đạo, dân giám sát."
-          },
-          {
-            "title": "Phân Phối",
-            "description": "Theo kết quả lao động, hiệu quả, an sinh xã hội."
-          }
-        ]
+        "data": {
+          "levels": [
+            {
+              "title": "Mục Tiêu",
+              "description": "Dân giàu, nước mạnh, công bằng, văn minh."
+            },
+            {
+              "title": "Sở Hữu",
+              "description": "Nhiều thành phần, bình đẳng pháp lý, đa dạng."
+            },
+            {
+              "title": "Quản Lý",
+              "description": "Nhà nước pháp quyền, Đảng lãnh đạo, dân giám sát."
+            },
+            {
+              "title": "Phân Phối",
+              "description": "Theo kết quả lao động, hiệu quả, an sinh xã hội."
+            }
+          ]
+        }
       },
       {
         "type": "t-account",
@@ -812,24 +838,26 @@
       {
         "type": "process-steps",
         "title": "Bản Chất Độc Quyền Nhà Nước",
-        "data": [
-          {
-            "step": "Tích Tụ Cao",
-            "description": "Cơ cấu kinh tế lớn, cần trung tâm điều tiết."
-          },
-          {
-            "step": "Ngành Then Chốt",
-            "description": "Tư nhân không đầu tư, nhà nước bảo trợ."
-          },
-          {
-            "step": "Mâu Thuẫn Xã Hội",
-            "description": "Phân hóa giàu nghèo, cần nhà nước xoa dịu."
-          },
-          {
-            "step": "Bành Trướng",
-            "description": "Vấp rào cản quốc gia, cần nhà nước hậu thuẫn."
-          }
-        ]
+        "data": {
+          "steps": [
+            {
+              "step": "Tích Tụ Cao",
+              "description": "Cơ cấu kinh tế lớn, cần trung tâm điều tiết."
+            },
+            {
+              "step": "Ngành Then Chốt",
+              "description": "Tư nhân không đầu tư, nhà nước bảo trợ."
+            },
+            {
+              "step": "Mâu Thuẫn Xã Hội",
+              "description": "Phân hóa giàu nghèo, cần nhà nước xoa dịu."
+            },
+            {
+              "step": "Bành Trướng",
+              "description": "Vấp rào cản quốc gia, cần nhà nước hậu thuẫn."
+            }
+          ]
+        }
       },
       {
         "type": "venn",
