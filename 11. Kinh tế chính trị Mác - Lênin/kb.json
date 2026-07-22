@@ -41,19 +41,17 @@
         }
       },
       {
-        "type": "spectrum",
+        "type": "vs-wrap",
         "title": "Phạm Vi Nghĩa Khái Niệm",
         "data": {
-          "items": [
-            {
-              "title": "Nghĩa Hẹp",
-              "description": "Quan hệ sản xuất, trao đổi trong một phương thức cụ thể."
-            },
-            {
-              "title": "Nghĩa Rộng",
-              "description": "Quy luật chi phối trao đổi vật chất toàn lịch sử loài người."
-            }
-          ]
+          "left": {
+            "title": "Nghĩa Hẹp",
+            "desc": "Quan hệ sản xuất, trao đổi trong một phương thức cụ thể."
+          },
+          "right": {
+            "title": "Nghĩa Rộng",
+            "desc": "Quy luật chi phối trao đổi vật chất toàn lịch sử loài người."
+          }
         }
       },
       {
@@ -611,27 +609,17 @@
         }
       },
       {
-        "type": "spectrum",
+        "type": "vs-wrap",
         "title": "Tiến Trình Độc Quyền",
         "data": {
-          "endpoints": [
-            "Tự Do",
-            "Nhà Nước"
-          ],
-          "items": [
-            {
-              "title": "Cạnh Tranh Tự Do",
-              "description": "Thương trường khốc liệt. Quy luật giá trị chi phối."
-            },
-            {
-              "title": "Độc Quyền Tư Nhân",
-              "description": "Thủ tiêu đối thủ nhỏ. Thiết lập liên minh độc quyền."
-            },
-            {
-              "title": "Độc Quyền Nhà Nước",
-              "description": "Dung hợp sức mạnh Nhà nước & Tư bản. Cứu vãn khủng hoảng."
-            }
-          ]
+          "left": {
+            "title": "Cạnh Tranh Tự Do",
+            "desc": "Thương trường khốc liệt. Quy luật giá trị chi phối."
+          },
+          "right": {
+            "title": "Độc Quyền Tư Nhân",
+            "desc": "Thủ tiêu đối thủ nhỏ. Thiết lập liên minh độc quyền."
+          }
         }
       },
       {
