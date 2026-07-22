@@ -751,9 +751,15 @@ function renderKbBlock(block) {
     let type = block.type;
     let data = block.data || {};
     let content = block.content || {};
-    
     let title = block.title || '';
     
+    // Wrapper helper
+    const wrapBlock = (icon, defaultTitle, innerHtml, extraClass = '') => `
+        <div class="kb-block ${extraClass}">
+            <div class="kb-block-title">${icon} ${title || defaultTitle}</div>
+            <div class="kb-block-content">${innerHtml}</div>
+        </div>`;
+
     switch(type) {
         case 'timeline':
             let events = data.items || data.events || content.events || [];
@@ -765,36 +771,26 @@ function renderKbBlock(block) {
                     </div>
                 </div>
             `).join('');
-            return `
-            <div style="margin:15px 0;">
-                <div style="font-weight:700; margin-bottom:8px; color:var(--primary);">📅 ${title || 'Dòng thời gian'}</div>
-                <div class="kb-timeline">${tlHtml}</div>
-            </div>`;
+            return wrapBlock('📅', 'Dòng thời gian', `<div class="kb-timeline">${tlHtml}</div>`);
 
         case 'features':
             let features = data.items || data.features || [];
             let featHtml = features.map(f => `
-                <div style="background:var(--surface); padding:12px; border-radius:8px; margin-bottom:8px; border-left:4px solid var(--primary);">
-                    <div style="font-weight:700;">${f.title || f.name || ''}</div>
-                    <div style="font-size:0.9em; color:var(--muted); margin-top:4px;">${f.description || f.desc || f.content || ''}</div>
+                <div class="kb-card feature-card">
+                    <div class="kb-card-title">${f.title || f.name || ''}</div>
+                    <div class="kb-card-desc">${f.description || f.desc || f.content || ''}</div>
                 </div>
             `).join('');
-            return `
-            <div style="margin:15px 0;">
-                <div style="font-weight:700; margin-bottom:8px; color:var(--primary);">📋 ${title || 'Đặc điểm'}</div>
-                ${featHtml}
-            </div>`;
+            return wrapBlock('📋', 'Đặc điểm', featHtml);
             
         case 'mindmap':
             let root = data.root || 'Root';
             let children = data.children || data.branches || data.nodes || content.nodes || block.nodes || [];
-            let nodesHtml = children.map(n => `<div style="padding:8px 14px; background:var(--bg); border:1px solid var(--border); border-radius:20px; font-weight:600; font-size:0.9em; display:inline-block;">📌 ${n.name || n.label || n.title || n}</div>`).join('');
-            return `
-            <div style="background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:16px; margin:15px 0; text-align:center;">
-                <div style="font-weight:700; margin-bottom:12px; color:var(--primary); text-align:left;">🗺️ ${title || 'Sơ đồ tư duy'}</div>
-                <div style="font-weight:800; font-size:1.1em; color:white; background:var(--primary); display:inline-block; padding:8px 16px; border-radius:20px; margin-bottom:15px;">🧠 ${root}</div>
-                <div style="display:flex; flex-wrap:wrap; gap:8px; justify-content:center;">${nodesHtml}</div>
-            </div>`;
+            let nodesHtml = children.map(n => `<div class="kb-mindmap-node">📌 ${n.name || n.label || n.title || n}</div>`).join('');
+            return wrapBlock('🗺️', 'Sơ đồ tư duy', `
+                <div class="kb-mindmap-root">🧠 ${root}</div>
+                <div class="kb-mindmap-children">${nodesHtml}</div>
+            `, 'text-center');
             
         case 'pyramid':
             let levels = data.levels || content.levels || [];
@@ -802,39 +798,28 @@ function renderKbBlock(block) {
                 let width = 100 - (idx * 15);
                 let name = lvl.name || lvl.title || lvl.level || lvl;
                 let desc = lvl.description || lvl.desc || '';
-                return `<div class="kb-pyr-level" style="width:${width}%; margin:4px auto; padding:8px 12px; text-align:center; background:linear-gradient(135deg, var(--primary), var(--secondary)); color:white; border-radius:6px; font-weight:600; font-size:0.9em;">${name} <div style="font-size:0.8em; font-weight:normal; margin-top:4px;">${desc}</div></div>`;
+                return `<div class="kb-pyr-level" style="width:${width}%;">${name} <div class="kb-pyr-desc">${desc}</div></div>`;
             }).reverse().join('');
-            return `
-            <div style="margin:20px 0; text-align:center;">
-                <div style="font-weight:700; margin-bottom:10px; color:var(--primary); text-align:left;">🔺 ${title || 'Mô hình tháp'}</div>
-                <div style="display:flex; flex-direction:column; align-items:center;">${pyrHtml}</div>
-            </div>`;
+            return wrapBlock('🔺', 'Mô hình tháp', `<div class="kb-pyramid">${pyrHtml}</div>`, 'text-center');
             
         case 'formula':
         case 'formula-breakdown':
             let formStr = data.formula || data.equation || block.formula || content.formula || '';
             let varsList = data.variables || block.variables || content.variables || [];
             let varsHtml = varsList.map(v => `<div class="kb-formula-part"><b>${v.symbol || v.name || v.key || '?'}</b>: ${v.definition || v.meaning || v.desc || v.description || ''}</div>`).join('');
-            return `
-            <div class="kb-formula">
-                <div style="font-weight:700; margin-bottom:8px; color:var(--primary); text-align:left;">🧮 ${title || 'Công thức'}</div>
+            return wrapBlock('🧮', 'Công thức', `
                 <div class="kb-formula-main">${formStr}</div>
                 <div class="kb-formula-parts">${varsHtml}</div>
-            </div>`;
+            `);
             
         case 'vs-wrap':
             let lTitle = (data.left && data.left.title) || data.col1_title || data.side1_title || block.titleA || 'Vấn đề A';
             let lDesc = (data.left && (data.left.content || data.left.desc || data.left.description)) || data.col1_desc || data.side1_desc || block.descA || (data.left && data.left.items ? data.left.items.join('<br>') : '');
             let rTitle = (data.right && data.right.title) || data.col2_title || data.side2_title || block.titleB || 'Vấn đề B';
             let rDesc = (data.right && (data.right.content || data.right.desc || data.right.description)) || data.col2_desc || data.side2_desc || block.descB || (data.right && data.right.items ? data.right.items.join('<br>') : '');
-            
-            // Fallback for arrays inside left/right
             if (Array.isArray(lDesc)) lDesc = lDesc.join('<br>• ');
             if (Array.isArray(rDesc)) rDesc = rDesc.join('<br>• ');
-
-            return `
-            <div style="margin:15px 0;">
-                <div style="font-weight:700; margin-bottom:8px; color:var(--primary);">⚖️ ${title || 'So sánh'}</div>
+            return wrapBlock('⚖️', 'So sánh', `
                 <div class="kb-vs-wrap">
                     <div class="kb-vs-card green">
                         <div class="vs-title">🟢 ${lTitle}</div>
@@ -846,7 +831,7 @@ function renderKbBlock(block) {
                         <div class="vs-body">${rDesc}</div>
                     </div>
                 </div>
-            </div>`;
+            `);
             
         case 'quadrant':
             let qs = data.quadrants || data.items || [];
@@ -854,16 +839,14 @@ function renderKbBlock(block) {
             let q2 = qs[1] || data.q2 || data.top_right || {title: 'Q2', content: ''};
             let q3 = qs[2] || data.q3 || data.bottom_left || {title: 'Q3', content: ''};
             let q4 = qs[3] || data.q4 || data.bottom_right || {title: 'Q4', content: ''};
-            return `
-            <div style="margin:20px 0;">
-                <div style="font-weight:700; margin-bottom:8px; color:var(--primary);">⊞ ${title || 'Ma trận 4 góc'}</div>
+            return wrapBlock('⊞', 'Ma trận 4 góc', `
                 <div class="kb-quadrant">
                     <div class="kb-quad-cell q1"><h4>${q1.title || q1.name || ''}</h4><p>${q1.content || q1.desc || q1.description || ''}</p></div>
                     <div class="kb-quad-cell q2"><h4>${q2.title || q2.name || ''}</h4><p>${q2.content || q2.desc || q2.description || ''}</p></div>
                     <div class="kb-quad-cell q3"><h4>${q3.title || q3.name || ''}</h4><p>${q3.content || q3.desc || q3.description || ''}</p></div>
                     <div class="kb-quad-cell q4"><h4>${q4.title || q4.name || ''}</h4><p>${q4.content || q4.desc || q4.description || ''}</p></div>
                 </div>
-            </div>`;
+            `);
             
         case 'cycle':
         case 'flowchart':
@@ -873,19 +856,15 @@ function renderKbBlock(block) {
                 let name = s.name || s.title || s.step || s;
                 let desc = s.desc || s.description || s.content || '';
                 return `
-                <div style="display:flex; align-items:center; margin-bottom:10px;">
-                    <div style="width:30px; height:30px; border-radius:50%; background:var(--primary); color:white; display:flex; align-items:center; justify-content:center; font-weight:bold; margin-right:12px; flex-shrink:0;">${i+1}</div>
-                    <div style="background:white; padding:10px 15px; border-radius:8px; border:1px solid var(--border); width:100%; box-shadow:var(--shadow-sm);">
-                        <div style="font-weight:600;">${name}</div>
-                        ${desc ? `<div style="font-size:0.85em; color:var(--muted); margin-top:4px;">${desc}</div>` : ''}
+                <div class="kb-process-step">
+                    <div class="kb-process-idx">${i+1}</div>
+                    <div class="kb-card process-card">
+                        <div class="kb-card-title">${name}</div>
+                        ${desc ? `<div class="kb-card-desc">${desc}</div>` : ''}
                     </div>
                 </div>`;
             }).join('');
-            return `
-            <div style="background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:16px; margin:15px 0;">
-                <div style="font-weight:700; margin-bottom:12px; color:var(--primary);">🔄 ${title || 'Quy trình / Chu trình'}</div>
-                ${flowHtml}
-            </div>`;
+            return wrapBlock('🔄', 'Quy trình / Chu trình', flowHtml);
             
         case 'onion':
             let layers = data.layers || data.levels || [];
@@ -893,15 +872,11 @@ function renderKbBlock(block) {
                 let classN = (i === 0) ? 'l1' : (i === 1) ? 'l2' : 'l3';
                 let name = l.name || l.title || l.layer || l;
                 let desc = l.description || l.desc || l.content || '';
-                return `<div class="kb-onion-layer ${classN}" style="margin: 0 auto; margin-bottom: -40px; position:relative; z-index:${10-i}">
-                    <div><strong>${name}</strong><br><span style="font-size:0.85em;font-weight:normal;">${desc}</span></div>
+                return `<div class="kb-onion-layer ${classN}" style="z-index:${10-i}">
+                    <div><strong>${name}</strong><br><span class="onion-desc">${desc}</span></div>
                 </div>`;
             }).join('');
-            return `
-            <div style="margin:20px 0; padding-bottom:40px;">
-                <div style="font-weight:700; margin-bottom:8px; color:var(--primary); text-align:left;">🎯 ${title || 'Mô hình Onion'}</div>
-                <div class="kb-onion">${onionHtml}</div>
-            </div>`;
+            return wrapBlock('🎯', 'Mô hình Onion', `<div class="kb-onion">${onionHtml}</div>`, 'onion-block');
             
         case 'venn':
         case 'venn-diagram':
@@ -909,22 +884,16 @@ function renderKbBlock(block) {
             let vRTitle = (data.right && data.right.title) || data.right || data.setB || block.titleB || 'Tập hợp B';
             let vOverlap = (data.intersection && data.intersection.desc) || data.intersection || data.overlap || block.overlap || 'Giao điểm';
             if (Array.isArray(vOverlap)) vOverlap = vOverlap.join('<br>');
-            return `
-            <div style="margin:15px 0;">
-                <div style="font-weight:700; margin-bottom:8px; color:var(--primary);">⭕ ${title || 'Biểu đồ Venn'}</div>
+            return wrapBlock('⭕', 'Biểu đồ Venn', `
                 <div class="kb-venn">
-                    <div class="kb-venn-circle left">
-                        <div class="kb-venn-title">${vLTitle.name || vLTitle}</div>
-                    </div>
-                    <div class="kb-venn-circle right">
-                        <div class="kb-venn-title">${vRTitle.name || vRTitle}</div>
-                    </div>
+                    <div class="kb-venn-circle left"><div class="kb-venn-title">${vLTitle.name || vLTitle}</div></div>
+                    <div class="kb-venn-circle right"><div class="kb-venn-title">${vRTitle.name || vRTitle}</div></div>
                     <div class="kb-venn-overlap kb-interactive" data-action="reveal-venn">
-                        <div class="kb-venn-overlap-text hidden-content" style="font-size:0.8em;">${vOverlap}</div>
+                        <div class="kb-venn-overlap-text hidden-content">${vOverlap}</div>
                         <div class="kb-venn-overlap-hint">???</div>
                     </div>
                 </div>
-            </div>`;
+            `);
             
         case 'hotspot':
             let points = data.points || data.items || [];
@@ -936,14 +905,12 @@ function renderKbBlock(block) {
                     <div class="kb-hotspot-tooltip"><strong>${p.title || p.name}</strong><br>${p.description || p.desc || p.content}</div>
                 </div>`;
             }).join('');
-            return `
-            <div style="margin:20px 0;">
-                <div style="font-weight:700; margin-bottom:8px; color:var(--primary);">📍 ${title || 'Hotspot'}</div>
-                <div class="kb-hotspot-wrap" style="background-color:var(--bg); background-image:radial-gradient(var(--border-md) 2px, transparent 2px); background-size: 20px 20px; background-position: 0 0; min-height:220px; display:flex; align-items:center; justify-content:center; border:1px solid var(--border);">
-                    <div style="color:var(--muted); font-size:0.85em; font-weight:600; text-transform:uppercase; letter-spacing:2px; opacity:0.5; position:absolute;">Bản đồ Tương tác</div>
+            return wrapBlock('📍', 'Hotspot', `
+                <div class="kb-hotspot-wrap">
+                    <div class="kb-hotspot-bg-text">Bản đồ Tương tác</div>
                     ${ptsHtml}
                 </div>
-            </div>`;
+            `);
             
         case 't-account':
             let leftHeader = (data.left && data.left.header) || data.debit_title || 'Bên Trái';
@@ -952,38 +919,32 @@ function renderKbBlock(block) {
             let rightEntries = (data.right && data.right.entries) || data.credit_entries || [];
             let lHtml = leftEntries.map(e => `<div class="kb-t-row"><span>${typeof e === 'string' ? e : e.text}</span></div>`).join('');
             let rHtml = rightEntries.map(e => `<div class="kb-t-row"><span>${typeof e === 'string' ? e : e.text}</span></div>`).join('');
-            return `
-            <div class="kb-t-account">
-                <div class="kb-t-header">${title || 'Tài khoản T'}</div>
-                <div class="kb-t-body">
-                    <div class="kb-t-side debit">
-                        <div class="kb-t-title">${leftHeader}</div>
-                        ${lHtml}
-                    </div>
-                    <div class="kb-t-side credit">
-                        <div class="kb-t-title">${rightHeader}</div>
-                        ${rHtml}
+            return wrapBlock('📈', 'Tài khoản T', `
+                <div class="kb-t-account">
+                    <div class="kb-t-body">
+                        <div class="kb-t-side debit">
+                            <div class="kb-t-title">${leftHeader}</div>
+                            ${lHtml}
+                        </div>
+                        <div class="kb-t-side credit">
+                            <div class="kb-t-title">${rightHeader}</div>
+                            ${rHtml}
+                        </div>
                     </div>
                 </div>
-            </div>`;
+            `);
             
         case 'flip-card':
             let frontText = block.front || data.front || content.front || 'Mặt trước';
             let backText = block.back || data.back || content.back || 'Mặt sau';
-            return `
-            <div class="kb-flip-wrap" style="margin:15px 0;">
-                <div style="font-weight:700; margin-bottom:6px; color:var(--primary);">🃏 ${title || 'Thẻ lật (Bấm để lật)'}</div>
+            return wrapBlock('🃏', 'Thẻ lật (Bấm để lật)', `
                 <div class="kb-flip-card kb-interactive" data-action="flip" onclick="this.classList.toggle('flipped')">
                     <div class="kb-flip-inner">
-                        <div class="kb-flip-front" style="padding:15px; background:var(--surface); border:2px dashed var(--primary); border-radius:12px; text-align:center;">
-                            <p style="font-weight:600; margin:0;">${frontText}</p>
-                        </div>
-                        <div class="kb-flip-back" style="padding:15px; background:var(--primary-lt); border:2px solid var(--primary); border-radius:12px; text-align:center;">
-                            <p style="margin:0; white-space:pre-line;">${backText}</p>
-                        </div>
+                        <div class="kb-flip-front"><p>${frontText}</p></div>
+                        <div class="kb-flip-back"><p>${backText}</p></div>
                     </div>
                 </div>
-            </div>`;
+            `);
             
         case 'spectrum':
             let specItems = data.items || [];
@@ -991,77 +952,58 @@ function renderKbBlock(block) {
                 let left = (specItems.length > 1) ? (idx / (specItems.length - 1)) * 100 : 50;
                 return `<div class="kb-spec-point" style="left: ${left}%" title="${item.title || ''}">${idx + 1}</div>`;
             }).join('');
-            
             let specLabels = specItems.map(item => `
                 <div>
-                    <div style="font-weight: 800; color: var(--primary); margin-bottom: 4px;">${item.title || ''}</div>
-                    <div style="font-size: 0.9em; font-weight:normal;">${item.description || item.desc || ''}</div>
+                    <div class="kb-spec-label-title">${item.title || ''}</div>
+                    <div class="kb-spec-label-desc">${item.description || item.desc || ''}</div>
                 </div>
             `).join('');
-            
-            return `
-            <div style="margin:25px 0;">
-                <div style="font-weight:700; margin-bottom:24px; color:var(--primary);">🌈 ${title || 'Phổ khái niệm'}</div>
+            return wrapBlock('🌈', 'Phổ khái niệm', `
                 <div class="kb-spectrum">
-                    <div class="kb-spec-line">
-                        ${specPoints}
-                    </div>
-                    <div class="kb-spec-labels" style="margin-top: 24px;">
-                        ${specLabels}
-                    </div>
+                    <div class="kb-spec-line">${specPoints}</div>
+                    <div class="kb-spec-labels">${specLabels}</div>
                 </div>
-            </div>`;
+            `);
             
         case 'carousel':
             let carItems = data.items || [];
             let carHtml = carItems.map(item => `
                 <div class="kb-carousel-item">
-                    <h4 style="color: var(--primary);">${item.title || item.name || ''}</h4>
+                    <h4>${item.title || item.name || ''}</h4>
                     <p>${item.description || item.desc || item.content || ''}</p>
                 </div>
             `).join('');
-            
-            return `
-            <div style="margin:20px 0;">
-                <div style="font-weight:700; margin-bottom:8px; color:var(--primary); display:flex; justify-content:space-between; align-items:center;">
-                    <span>🎠 ${title || 'Vuốt ngang'}</span>
-                    <span style="font-size:0.8em; color:var(--muted); font-weight:normal; background:var(--surface); padding:2px 8px; border-radius:12px; border:1px solid var(--border);">← Vuốt →</span>
-                </div>
-                <div class="kb-carousel">
-                    ${carHtml}
-                </div>
-            </div>`;
+            return wrapBlock('🎠', 'Vuốt ngang', `
+                <div class="kb-carousel-hint"><span>← Vuốt →</span></div>
+                <div class="kb-carousel">${carHtml}</div>
+            `);
             
         case 'matrix-table':
             let headers = data.headers || data.columns || [];
             let rows = data.rows || data.items || [];
-            let thHtml = headers.map(h => `<th style="padding:8px; border:1px solid var(--border); background:var(--bg); font-weight:700;">${h}</th>`).join('');
+            let thHtml = headers.map(h => `<th>${h}</th>`).join('');
             let trHtml = rows.map(r => {
                 if (Array.isArray(r)) {
-                    return `<tr>${r.map(c => `<td style="padding:8px; border:1px solid var(--border); font-size:0.9em;">${c}</td>`).join('')}</tr>`;
+                    return `<tr>${r.map(c => `<td>${c}</td>`).join('')}</tr>`;
                 } else if (typeof r === 'object') {
-                    // Fallback if r is an object and headers match the keys
-                    return `<tr>${headers.map(h => `<td style="padding:8px; border:1px solid var(--border); font-size:0.9em;">${r[h.toLowerCase()] || r[h] || ''}</td>`).join('')}</tr>`;
+                    return `<tr>${headers.map(h => `<td>${r[h.toLowerCase()] || r[h] || ''}</td>`).join('')}</tr>`;
                 }
                 return '';
             }).join('');
-            return `
-            <div style="margin:15px 0; overflow-x:auto;">
-                <div style="font-weight:700; margin-bottom:8px; color:var(--primary);">📊 ${title || 'Bảng tổng hợp'}</div>
-                <table style="width:100%; border-collapse:collapse;">
-                    <thead><tr>${thHtml}</tr></thead>
-                    <tbody>${trHtml}</tbody>
-                </table>
-            </div>`;
+            return wrapBlock('📊', 'Bảng tổng hợp', `
+                <div class="kb-table-wrap">
+                    <table class="kb-table">
+                        <thead><tr>${thHtml}</tr></thead>
+                        <tbody>${trHtml}</tbody>
+                    </table>
+                </div>
+            `);
             
         default:
             let defaultContent = typeof data === 'object' && Object.keys(data).length > 0 ? JSON.stringify(data, null, 2) : 
                                  (typeof content === 'object' && Object.keys(content).length > 0 ? JSON.stringify(content, null, 2) : 
                                  (block.content || ''));
-            return `<div style="padding:15px; border-left:4px solid var(--primary); background:white; margin:15px 0; border-radius:8px;">
-                <div style="font-weight:700; margin-bottom:4px;">${title || ''}</div>
-                <pre style="white-space:pre-wrap; font-family:inherit; font-size:0.9em; margin:0;">${defaultContent}</pre>
-            </div>`;
+            return wrapBlock('📝', title || 'Thông tin', `<pre class="kb-default-pre">${defaultContent}</pre>`);
     }
 }
 function setupKbInteractions(container) {
