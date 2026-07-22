@@ -756,12 +756,12 @@ function renderKbBlock(block) {
     
     switch(type) {
         case 'timeline':
-            let events = data.items || content.events || [];
+            let events = data.items || data.events || content.events || [];
             let tlHtml = events.map(ev => `
                 <div class="kb-tl-item">
                     <div class="kb-tl-content">
-                        <div class="kb-tl-title">⏳ ${ev.time}</div>
-                        <div class="kb-tl-desc">${ev.content || ev.desc || ''}</div>
+                        <div class="kb-tl-title">⏳ ${ev.time || ev.year || ev.date || ''}</div>
+                        <div class="kb-tl-desc">${ev.content || ev.desc || ev.description || ev.event || ''}</div>
                     </div>
                 </div>
             `).join('');
@@ -772,11 +772,11 @@ function renderKbBlock(block) {
             </div>`;
 
         case 'features':
-            let features = data.items || [];
+            let features = data.items || data.features || [];
             let featHtml = features.map(f => `
                 <div style="background:var(--surface); padding:12px; border-radius:8px; margin-bottom:8px; border-left:4px solid var(--primary);">
-                    <div style="font-weight:700;">${f.title}</div>
-                    <div style="font-size:0.9em; color:var(--muted); margin-top:4px;">${f.description}</div>
+                    <div style="font-weight:700;">${f.title || f.name || ''}</div>
+                    <div style="font-size:0.9em; color:var(--muted); margin-top:4px;">${f.description || f.desc || f.content || ''}</div>
                 </div>
             `).join('');
             return `
@@ -787,8 +787,8 @@ function renderKbBlock(block) {
             
         case 'mindmap':
             let root = data.root || 'Root';
-            let children = data.children || content.nodes || block.nodes || [];
-            let nodesHtml = children.map(n => `<div style="padding:8px 14px; background:var(--bg); border:1px solid var(--border); border-radius:20px; font-weight:600; font-size:0.9em; display:inline-block;">📌 ${n.name || n}</div>`).join('');
+            let children = data.children || data.branches || data.nodes || content.nodes || block.nodes || [];
+            let nodesHtml = children.map(n => `<div style="padding:8px 14px; background:var(--bg); border:1px solid var(--border); border-radius:20px; font-weight:600; font-size:0.9em; display:inline-block;">📌 ${n.name || n.label || n.title || n}</div>`).join('');
             return `
             <div style="background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:16px; margin:15px 0; text-align:center;">
                 <div style="font-weight:700; margin-bottom:12px; color:var(--primary); text-align:left;">🗺️ ${title || 'Sơ đồ tư duy'}</div>
@@ -800,7 +800,9 @@ function renderKbBlock(block) {
             let levels = data.levels || content.levels || [];
             let pyrHtml = levels.map((lvl, idx) => {
                 let width = 100 - (idx * 15);
-                return `<div class="kb-pyr-level" style="width:${width}%; margin:4px auto; padding:8px 12px; text-align:center; background:linear-gradient(135deg, var(--primary), var(--secondary)); color:white; border-radius:6px; font-weight:600; font-size:0.9em;">${lvl.name || lvl} <div style="font-size:0.8em; font-weight:normal; margin-top:4px;">${lvl.description || ''}</div></div>`;
+                let name = lvl.name || lvl.title || lvl.level || lvl;
+                let desc = lvl.description || lvl.desc || '';
+                return `<div class="kb-pyr-level" style="width:${width}%; margin:4px auto; padding:8px 12px; text-align:center; background:linear-gradient(135deg, var(--primary), var(--secondary)); color:white; border-radius:6px; font-weight:600; font-size:0.9em;">${name} <div style="font-size:0.8em; font-weight:normal; margin-top:4px;">${desc}</div></div>`;
             }).reverse().join('');
             return `
             <div style="margin:20px 0; text-align:center;">
@@ -810,9 +812,9 @@ function renderKbBlock(block) {
             
         case 'formula':
         case 'formula-breakdown':
-            let formStr = data.formula || block.formula || content.formula || '';
+            let formStr = data.formula || data.equation || block.formula || content.formula || '';
             let varsList = data.variables || block.variables || content.variables || [];
-            let varsHtml = varsList.map(v => `<div class="kb-formula-part"><b>${v.symbol}</b>: ${v.definition || v.meaning || v.desc}</div>`).join('');
+            let varsHtml = varsList.map(v => `<div class="kb-formula-part"><b>${v.symbol || v.name || v.key || '?'}</b>: ${v.definition || v.meaning || v.desc || v.description || ''}</div>`).join('');
             return `
             <div class="kb-formula">
                 <div style="font-weight:700; margin-bottom:8px; color:var(--primary); text-align:left;">🧮 ${title || 'Công thức'}</div>
@@ -821,10 +823,15 @@ function renderKbBlock(block) {
             </div>`;
             
         case 'vs-wrap':
-            let lTitle = (data.left && data.left.title) || block.titleA || (content.left && content.left.title) || 'Vấn đề A';
-            let lDesc = (data.left && data.left.content) || block.descA || (content.left && content.left.items ? content.left.items.join('<br>') : '');
-            let rTitle = (data.right && data.right.title) || block.titleB || (content.right && content.right.title) || 'Vấn đề B';
-            let rDesc = (data.right && data.right.content) || block.descB || (content.right && content.right.items ? content.right.items.join('<br>') : '');
+            let lTitle = (data.left && data.left.title) || data.col1_title || data.side1_title || block.titleA || 'Vấn đề A';
+            let lDesc = (data.left && (data.left.content || data.left.desc || data.left.description)) || data.col1_desc || data.side1_desc || block.descA || (data.left && data.left.items ? data.left.items.join('<br>') : '');
+            let rTitle = (data.right && data.right.title) || data.col2_title || data.side2_title || block.titleB || 'Vấn đề B';
+            let rDesc = (data.right && (data.right.content || data.right.desc || data.right.description)) || data.col2_desc || data.side2_desc || block.descB || (data.right && data.right.items ? data.right.items.join('<br>') : '');
+            
+            // Fallback for arrays inside left/right
+            if (Array.isArray(lDesc)) lDesc = lDesc.join('<br>• ');
+            if (Array.isArray(rDesc)) rDesc = rDesc.join('<br>• ');
+
             return `
             <div style="margin:15px 0;">
                 <div style="font-weight:700; margin-bottom:8px; color:var(--primary);">⚖️ ${title || 'So sánh'}</div>
@@ -842,28 +849,29 @@ function renderKbBlock(block) {
             </div>`;
             
         case 'quadrant':
-            let q1 = data.q1 || {title: 'Q1', content: ''};
-            let q2 = data.q2 || {title: 'Q2', content: ''};
-            let q3 = data.q3 || {title: 'Q3', content: ''};
-            let q4 = data.q4 || {title: 'Q4', content: ''};
+            let qs = data.quadrants || data.items || [];
+            let q1 = qs[0] || data.q1 || data.top_left || {title: 'Q1', content: ''};
+            let q2 = qs[1] || data.q2 || data.top_right || {title: 'Q2', content: ''};
+            let q3 = qs[2] || data.q3 || data.bottom_left || {title: 'Q3', content: ''};
+            let q4 = qs[3] || data.q4 || data.bottom_right || {title: 'Q4', content: ''};
             return `
             <div style="margin:20px 0;">
                 <div style="font-weight:700; margin-bottom:8px; color:var(--primary);">⊞ ${title || 'Ma trận 4 góc'}</div>
                 <div class="kb-quadrant">
-                    <div class="kb-quad-cell q1"><h4>${q1.title}</h4><p>${q1.content}</p></div>
-                    <div class="kb-quad-cell q2"><h4>${q2.title}</h4><p>${q2.content}</p></div>
-                    <div class="kb-quad-cell q3"><h4>${q3.title}</h4><p>${q3.content}</p></div>
-                    <div class="kb-quad-cell q4"><h4>${q4.title}</h4><p>${q4.content}</p></div>
+                    <div class="kb-quad-cell q1"><h4>${q1.title || q1.name || ''}</h4><p>${q1.content || q1.desc || q1.description || ''}</p></div>
+                    <div class="kb-quad-cell q2"><h4>${q2.title || q2.name || ''}</h4><p>${q2.content || q2.desc || q2.description || ''}</p></div>
+                    <div class="kb-quad-cell q3"><h4>${q3.title || q3.name || ''}</h4><p>${q3.content || q3.desc || q3.description || ''}</p></div>
+                    <div class="kb-quad-cell q4"><h4>${q4.title || q4.name || ''}</h4><p>${q4.content || q4.desc || q4.description || ''}</p></div>
                 </div>
             </div>`;
             
         case 'cycle':
         case 'flowchart':
         case 'process-steps':
-            let steps = data.steps || content.steps || [];
+            let steps = data.steps || data.process || content.steps || [];
             let flowHtml = steps.map((s, i) => {
-                let name = s.name || s;
-                let desc = s.desc || '';
+                let name = s.name || s.title || s.step || s;
+                let desc = s.desc || s.description || s.content || '';
                 return `
                 <div style="display:flex; align-items:center; margin-bottom:10px;">
                     <div style="width:30px; height:30px; border-radius:50%; background:var(--primary); color:white; display:flex; align-items:center; justify-content:center; font-weight:bold; margin-right:12px; flex-shrink:0;">${i+1}</div>
@@ -880,11 +888,13 @@ function renderKbBlock(block) {
             </div>`;
             
         case 'onion':
-            let layers = data.layers || [];
+            let layers = data.layers || data.levels || [];
             let onionHtml = layers.map((l, i) => {
                 let classN = (i === 0) ? 'l1' : (i === 1) ? 'l2' : 'l3';
+                let name = l.name || l.title || l.layer || l;
+                let desc = l.description || l.desc || l.content || '';
                 return `<div class="kb-onion-layer ${classN}" style="margin: 0 auto; margin-bottom: -40px; position:relative; z-index:${10-i}">
-                    <div><strong>${l.name}</strong><br><span style="font-size:0.85em;font-weight:normal;">${l.description}</span></div>
+                    <div><strong>${name}</strong><br><span style="font-size:0.85em;font-weight:normal;">${desc}</span></div>
                 </div>`;
             }).join('');
             return `
@@ -895,18 +905,19 @@ function renderKbBlock(block) {
             
         case 'venn':
         case 'venn-diagram':
-            let vLTitle = data.left || block.titleA || (content.setA && content.setA.name) || 'Tập hợp A';
-            let vRTitle = data.right || block.titleB || (content.setB && content.setB.name) || 'Tập hợp B';
-            let vOverlap = data.intersection || block.overlap || (content.intersection ? content.intersection.join('<br>') : 'Giao điểm');
+            let vLTitle = (data.left && data.left.title) || data.left || data.setA || block.titleA || 'Tập hợp A';
+            let vRTitle = (data.right && data.right.title) || data.right || data.setB || block.titleB || 'Tập hợp B';
+            let vOverlap = (data.intersection && data.intersection.desc) || data.intersection || data.overlap || block.overlap || 'Giao điểm';
+            if (Array.isArray(vOverlap)) vOverlap = vOverlap.join('<br>');
             return `
             <div style="margin:15px 0;">
                 <div style="font-weight:700; margin-bottom:8px; color:var(--primary);">⭕ ${title || 'Biểu đồ Venn'}</div>
                 <div class="kb-venn">
                     <div class="kb-venn-circle left">
-                        <div class="kb-venn-title">${vLTitle}</div>
+                        <div class="kb-venn-title">${vLTitle.name || vLTitle}</div>
                     </div>
                     <div class="kb-venn-circle right">
-                        <div class="kb-venn-title">${vRTitle}</div>
+                        <div class="kb-venn-title">${vRTitle.name || vRTitle}</div>
                     </div>
                     <div class="kb-venn-overlap kb-interactive" data-action="reveal-venn">
                         <div class="kb-venn-overlap-text hidden-content" style="font-size:0.8em;">${vOverlap}</div>
@@ -916,13 +927,13 @@ function renderKbBlock(block) {
             </div>`;
             
         case 'hotspot':
-            let points = data.points || [];
+            let points = data.points || data.items || [];
             let ptsHtml = points.map((p, i) => {
                 let left = 20 + (i * 20) % 60;
                 let top = 30 + (i * 25) % 50;
                 return `
                 <div class="kb-hotspot-point" style="left:${left}%; top:${top}%;">
-                    <div class="kb-hotspot-tooltip"><strong>${p.title}</strong><br>${p.description}</div>
+                    <div class="kb-hotspot-tooltip"><strong>${p.title || p.name}</strong><br>${p.description || p.desc || p.content}</div>
                 </div>`;
             }).join('');
             return `
@@ -935,10 +946,10 @@ function renderKbBlock(block) {
             </div>`;
             
         case 't-account':
-            let leftHeader = (data.left && data.left.header) || (content.left && content.left.header) || 'Bên Trái';
-            let leftEntries = (data.left && data.left.entries) || (content.left && content.left.entries) || [];
-            let rightHeader = (data.right && data.right.header) || (content.right && content.right.header) || 'Bên Phải';
-            let rightEntries = (data.right && data.right.entries) || (content.right && content.right.entries) || [];
+            let leftHeader = (data.left && data.left.header) || data.debit_title || 'Bên Trái';
+            let leftEntries = (data.left && data.left.entries) || data.debit_entries || [];
+            let rightHeader = (data.right && data.right.header) || data.credit_title || 'Bên Phải';
+            let rightEntries = (data.right && data.right.entries) || data.credit_entries || [];
             let lHtml = leftEntries.map(e => `<div class="kb-t-row"><span>${typeof e === 'string' ? e : e.text}</span></div>`).join('');
             let rHtml = rightEntries.map(e => `<div class="kb-t-row"><span>${typeof e === 'string' ? e : e.text}</span></div>`).join('');
             return `
@@ -975,10 +986,18 @@ function renderKbBlock(block) {
             </div>`;
             
         case 'matrix-table':
-            let headers = data.headers || content.headers || [];
-            let rows = data.rows || content.rows || [];
+            let headers = data.headers || data.columns || [];
+            let rows = data.rows || data.items || [];
             let thHtml = headers.map(h => `<th style="padding:8px; border:1px solid var(--border); background:var(--bg); font-weight:700;">${h}</th>`).join('');
-            let trHtml = rows.map(r => `<tr>${r.map(c => `<td style="padding:8px; border:1px solid var(--border); font-size:0.9em;">${c}</td>`).join('')}</tr>`).join('');
+            let trHtml = rows.map(r => {
+                if (Array.isArray(r)) {
+                    return `<tr>${r.map(c => `<td style="padding:8px; border:1px solid var(--border); font-size:0.9em;">${c}</td>`).join('')}</tr>`;
+                } else if (typeof r === 'object') {
+                    // Fallback if r is an object and headers match the keys
+                    return `<tr>${headers.map(h => `<td style="padding:8px; border:1px solid var(--border); font-size:0.9em;">${r[h.toLowerCase()] || r[h] || ''}</td>`).join('')}</tr>`;
+                }
+                return '';
+            }).join('');
             return `
             <div style="margin:15px 0; overflow-x:auto;">
                 <div style="font-weight:700; margin-bottom:8px; color:var(--primary);">📊 ${title || 'Bảng tổng hợp'}</div>
