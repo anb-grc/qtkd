@@ -1,0 +1,247 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 0;
+}
+.circleContainer {
+  position: relative;
+  width: 240px;
+  height: 240px;
+  margin: 64px 0;
+  border-radius: 50%;
+  border: 2px dashed var(--color-border);
+  animation: spinSlow 30s linear infinite;
+}
+@keyframes spinSlow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.nodeWrapper {
+  position: absolute;
+  top: calc(50% - 60px);
+  left: calc(50% - 60px);
+  width: 120px;
+  height: 120px;
+  transform: rotate(var(--angle)) translate(120px) rotate(calc(-1 * var(--angle)));
+  /* Counter-rotate to keep text upright, also counter-rotate the slow spin */
+  animation: counterSpin 30s linear infinite;
+}
+@keyframes counterSpin {
+  from { transform: rotate(var(--angle)) translate(120px) rotate(calc(-1 * var(--angle))) rotate(0deg); }
+  to { transform: rotate(var(--angle)) translate(120px) rotate(calc(-1 * var(--angle))) rotate(-360deg); }
+}
+.node {
+  background: var(--glass-bg);
+  backdrop-filter: none;
+  border: 1.5px solid var(--color-accent-primary);
+  border-radius: 50%;
+  width: 100%; height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: var(--space-sm);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: none;
+}
+.node:hover {
+  transform: scale(1.1);
+  background: var(--color-bg-card-hover);
+  border-color: var(--color-accent-secondary);
+  box-shadow: none;
+}
+.index {
+  background: var(--gradient-accent);
+  color: white;
+  width: 24px; height: 24px;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 800; font-size: 12px;
+  margin-bottom: 4px;
+}
+.name {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+/* ÁO GIÁP KỸ THUẬT: Chế độ gọn nhẹ (Compact) khi có từ 6 ý trở lên trên Desktop */
+.compact .nodeWrapper {
+  top: calc(50% - 42px);
+  left: calc(50% - 42px);
+  width: 84px;
+  height: 84px;
+}
+.compact .node {
+  padding: var(--space-xs);
+}
+.compact .index {
+  width: 20px;
+  height: 20px;
+  font-size: 10px;
+  margin-bottom: 2px;
+}
+.compact .name {
+  font-size: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.centerNode {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  opacity: 0.5;
+  animation: counterSpinCenter 30s linear infinite;
+}
+@keyframes counterSpinCenter {
+  from { transform: translate(-50%, -50%) rotate(0deg); }
+  to { transform: translate(-50%, -50%) rotate(-360deg); }
+}
+.details {
+  display: flex; flex-direction: column; gap: var(--space-sm); width: 100%;
+}
+.detailCard {
+  display: flex; gap: var(--space-md);
+  background: transparent;
+  padding: 4px 0;
+  border-radius: 0;
+  border: none;
+}
+.indexBadge {
+  background: var(--color-bg-card);
+  border: 1.5px solid var(--color-accent-primary);
+  color: var(--color-accent-primary);
+  width: 32px; height: 32px;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 900;
+  flex-shrink: 0;
+}
+.detailContent strong { color: var(--color-text-primary); }
+.detailContent p { color: var(--color-text-secondary); font-size: var(--text-sm); margin-top: 4px; }
+
+@media (max-width: 600px) {
+  .circleContainer {
+    width: 200px;
+    height: 200px;
+    margin: 48px 0;
+  }
+  .nodeWrapper {
+    width: 80px;
+    height: 80px;
+    top: calc(50% - 40px);
+    left: calc(50% - 40px);
+    transform: rotate(var(--angle)) translate(100px) rotate(calc(-1 * var(--angle)));
+  }
+  @keyframes counterSpin {
+    from { transform: rotate(var(--angle)) translate(100px) rotate(calc(-1 * var(--angle))) rotate(0deg); }
+    to { transform: rotate(var(--angle)) translate(100px) rotate(calc(-1 * var(--angle))) rotate(-360deg); }
+  }
+  .node {
+    padding: var(--space-xs);
+  }
+  .index {
+    width: 20px; height: 20px; font-size: 10px; margin-bottom: 2px;
+  }
+  .name {
+    font-size: 9px;
+  }
+  .centerNode {
+    font-size: 1.5rem;
+  }
+  
+  /* ÁO GIÁP KỸ THUẬT: Chế độ gọn nhẹ (Compact) trên Mobile khi có từ 6 ý trở lên */
+  .compact .nodeWrapper {
+    width: 64px;
+    height: 64px;
+    top: calc(50% - 32px);
+    left: calc(50% - 32px);
+  }
+  .compact .index {
+    width: 16px;
+    height: 16px;
+    font-size: 9px;
+    margin-bottom: 1px;
+  }
+  .compact .name {
+    font-size: 8px;
+    -webkit-line-clamp: 2;
+  }
+}
+
+
+.nodeWrapper {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.nodeWrapper:hover {
+  transform: scale(1.1);
+  z-index: 10;
+}
+.nodeWrapper.active .node {
+  box-shadow: none;
+  border-color: rgba(255, 255, 255, 0.5);
+  filter: brightness(1.15);
+}
+
+.detailsPanel {
+  width: 100%;
+  max-width: 100%;
+  background: transparent;
+  border-radius: 0;
+  padding: var(--space-sm) 0 0 0;
+  margin-top: var(--space-sm);
+  border: none;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  min-height: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.detailHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-xs);
+}
+.detailBadge {
+  background: var(--color-accent-primary);
+  color: white;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: var(--text-xs);
+}
+.detailsPanel strong {
+  color: var(--color-text-primary);
+  font-size: var(--text-base);
+}
+.detailsPanel p {
+  color: var(--color-text-secondary);
+  font-size: var(--text-sm);
+  margin: 0;
+  line-height: var(--leading-relaxed);
+}
+.placeholder {
+  text-align: center;
+  color: var(--color-text-secondary);
+  font-style: italic;
+  font-size: var(--text-sm);
+  opacity: 0.7;
+}

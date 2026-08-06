@@ -1,0 +1,126 @@
+.perspective {
+  perspective: 1200px;
+  min-height: 250px;
+  margin: 0;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  min-height: 250px;
+  position: relative;
+  transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+.card.flipped {
+  transform: rotateY(180deg);
+}
+
+.card:hover:not(.flipped) {
+  transform: translateY(-5px) rotateX(5deg) rotateY(-5deg);
+}
+
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-2xl);
+  border-radius: var(--radius-xl);
+  text-align: center;
+  overflow: hidden;
+  
+  scrollbar-width: none;
+  box-shadow: none;
+}
+
+.face::-webkit-scrollbar { display: none; }
+
+/* Decorative background elements */
+.decorCircle {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: white;
+  opacity: 0.03;
+  top: -20px;
+  right: -20px;
+}
+
+.front {
+  background: linear-gradient(135deg, var(--color-bg-secondary) 0%, #20203a 100%);
+  border: 1.5px solid var(--color-border);
+}
+
+.front::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: radial-gradient(circle at center, rgba(108, 92, 231, 0.1) 0%, transparent 70%);
+}
+
+.back {
+  background: var(--gradient-accent);
+  color: white;
+  transform: rotateY(180deg);
+  border: 1.5px solid rgba(255,255,255,0.2);
+}
+
+.label {
+  position: absolute;
+  top: var(--space-md);
+  font-size: var(--text-xs);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--color-accent-secondary);
+  z-index: 2;
+  padding: 4px 12px;
+  border: 1.5px solid var(--color-accent-primary);
+  border-radius: var(--radius-full);
+}
+
+.back .label {
+  color: #fff;
+  border-color: rgba(255,255,255,0.4);
+}
+
+.content {
+  font-weight: 600;
+  font-size: var(--text-lg);
+  line-height: var(--leading-relaxed);
+  z-index: 2;
+}
+
+.back .content {
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  font-size: var(--text-base);
+  line-height: var(--leading-normal);
+}
+
+.hint {
+  position: absolute;
+  bottom: var(--space-md);
+  font-size: var(--text-xs);
+  opacity: 0.5;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  z-index: 2;
+  transition: opacity 0.3s;
+}
+
+.card:hover .hint {
+  opacity: 0.9;
+}

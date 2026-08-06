@@ -1,0 +1,141 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 0;
+}
+
+/* Math Window (Editorial clean look) */
+.mathWrapper {
+  border-radius: 0;
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.mathWindow {
+  background: transparent;
+  border: none;
+  overflow: hidden;
+  position: relative;
+}
+
+
+
+.copyBtnWrapper {
+  display: flex;
+  justify-content: center;
+  padding-bottom: var(--space-md);
+}
+.copyBtn {
+  font-size: var(--text-xs);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  padding: 4px 12px;
+  border-radius: var(--radius-sm);
+  background: rgba(255,255,255,0.05);
+  transition: all 0.2s;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+.copyBtn:hover {
+  background: rgba(255,255,255,0.2);
+  color: #fff;
+}
+
+.mathContent {
+  padding: var(--space-md) var(--space-md);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  font-size: var(--text-xl);
+  font-weight: 700;
+  color: #fff;
+}
+
+/* Formula parts interaction */
+.formulaPart {
+  transition: color 0.3s, text-shadow 0.3s;
+  white-space: nowrap;
+}
+.isVariable {
+  color: var(--color-warning);
+  cursor: pointer;
+  display: inline-block;
+}
+.isVariable:hover, .partHovered {
+  color: var(--color-accent-secondary);
+  text-shadow: 0 0 15px var(--color-accent-glow);
+  transform: scale(1.1);
+}
+
+/* Variables Grid */
+.variablesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--space-md);
+}
+
+.varCard {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  background: transparent;
+  padding: var(--space-sm) var(--space-md);
+  border-radius: 0;
+  border: none;
+  border-left: 2px solid rgba(255, 255, 255, 0.15);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.varCard:hover, .varHovered {
+  transform: translateX(5px);
+  border-left-color: var(--color-accent-primary);
+  background: transparent;
+}
+
+.symbolBox {
+  font-weight: 700;
+  font-size: var(--text-sm);
+  color: var(--color-bg-primary);
+  background: var(--color-warning);
+  min-width: 32px;
+  padding: 0 10px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  box-shadow: none;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.varCard:hover .symbolBox, .varHovered .symbolBox {
+  background: var(--color-accent-secondary);
+  box-shadow: none;
+}
+
+.def {
+  color: var(--color-text-primary);
+  font-weight: 500;
+  flex: 1;
+  font-size: var(--text-sm);
+}
+
+@media (max-width: 768px) {
+  .mathContent {
+    font-size: var(--text-lg);
+    padding: var(--space-md) var(--space-sm);
+  }
+  .variablesGrid {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .varCard {
+    width: 100%;
+  }
+}
+

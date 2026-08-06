@@ -1,0 +1,113 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.instruction {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  line-height: var(--leading-relaxed);
+}
+
+.calcGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+
+.controlsCol {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  width: 100%;
+}
+
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-md);
+  background: var(--glass-bg, rgba(255, 255, 255, 0.03));
+  border: 1.5px solid var(--color-border, rgba(255, 255, 255, 0.08));
+}
+
+.labelRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.labelName {
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.labelValue {
+  font-size: var(--text-md);
+  font-weight: 800;
+  color: var(--color-accent-secondary);
+}
+
+.slider {
+  width: 100%;
+  accent-color: var(--color-accent-primary);
+  cursor: pointer;
+  height: 24px;
+}
+
+.outputsCol {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  width: 100%;
+  padding: var(--space-md) var(--space-lg);
+  border-radius: var(--radius-md);
+  background: rgba(108, 92, 231, 0.1);
+  border: 1.5px solid rgba(108, 92, 231, 0.3);
+}
+
+
+.outHeader {
+  font-size: var(--text-xs);
+  font-weight: 800;
+  color: var(--color-accent-secondary);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+.outRow {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  align-items: center;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.outRow:last-child {
+  border-bottom: none;
+}
+
+.outLabel {
+  font-size: var(--text-sm);
+  color: var(--color-text-primary);
+  font-weight: 600;
+}
+
+.outVal {
+  font-size: var(--text-lg);
+  font-weight: 900;
+  color: var(--color-success, #2ed573);
+}

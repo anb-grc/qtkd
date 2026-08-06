@@ -6,63 +6,99 @@
   <title>TVU - Ngân Hàng Đề Thi</title>
   <style>
   :root {
-    --bg:#F8FAFC; --surface:#FFFFFF; --border:#E2E8F0;
-    --text:#1E293B; --muted:#64748B; --primary:#4F46E5;
-    --r:16px;
-    --shadow:0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    --shadow-hover:0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    /* === Dark Mode Tokens (Kỷ Nguyên 34 Component) === */
+    --bg: #0f0f1a;
+    --surface: #1e1e35;
+    --surface-hover: #252545;
+    --border: rgba(255, 255, 255, 0.08);
+    --border-hover: rgba(162, 155, 254, 0.3);
+    --text: #ffffff;
+    --muted: rgba(255, 255, 255, 0.7);
+    --primary: #6c5ce7;
+    --secondary: #a29bfe;
+    --r: 16px;
+    --shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    --shadow-hover: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 20px rgba(108, 92, 231, 0.25);
   }
-  * { box-sizing:border-box; margin:0; padding:0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
     font-family: -apple-system, 'Segoe UI', system-ui, sans-serif;
     font-size: 16px; line-height: 1.6; color: var(--text); background: var(--bg);
-    padding: 40px 20px;
+    padding: 50px 24px;
   }
   .container { max-width: 800px; margin: 0 auto; }
-  .header { text-align: center; margin-bottom: 40px; }
-  .header h1 { font-size: 2.5em; font-weight: 900; letter-spacing: -1px; line-height: 1.2; margin-bottom: 10px; }
-  .header p { color: var(--muted); font-size: 1.1em; }
+  .header { text-align: center; margin-bottom: 44px; }
+  .header h1 { font-size: 2.6em; font-weight: 800; letter-spacing: -0.5px; line-height: 1.25; margin-bottom: 12px; }
+  .header p { color: var(--muted); font-size: 1.05em; font-weight: 400; }
   
-  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+  .search-subject-wrap { margin-bottom: 28px; }
+  #searchSubject {
+    width: 100%; padding: 14px 22px; border: 1px solid var(--border); border-radius: 99px;
+    font-size: 1em; color: var(--text); background: var(--surface); outline: none;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  #searchSubject::placeholder { color: rgba(255, 255, 255, 0.4); }
+  #searchSubject:focus {
+    border-color: var(--secondary);
+    box-shadow: 0 0 0 4px rgba(162, 155, 254, 0.15);
+  }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr)); gap: 20px; }
   .card {
     display: flex; align-items: center; justify-content: space-between;
-    background: var(--surface); border: 1px solid var(--border); border-radius: var(--r);
-    padding: 20px; text-decoration: none; color: var(--text);
-    box-shadow: var(--shadow); transition: all 0.2s ease;
+    background: rgba(30, 30, 53, 0.7); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--border); border-radius: var(--r);
+    padding: 22px 24px; text-decoration: none; color: var(--text);
+    box-shadow: var(--shadow); transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .card:hover { transform: translateY(-3px); box-shadow: var(--shadow-hover); border-color: var(--primary); }
-  .card-content { display: flex; align-items: center; gap: 15px; }
-  .icon-box {
-    width: 48px; height: 48px; border-radius: 12px; display: flex; align-items: center; justify-content: center;
-    font-size: 1.5em; background: transparent;
+  .card:hover {
+    transform: translateY(-3px);
+    background: var(--surface-hover);
+    box-shadow: var(--shadow-hover);
+    border-color: var(--border-hover);
   }
-  .card-info h2 { font-size: 1.1em; font-weight: 700; margin-bottom: 4px; }
-  .card-info p { font-size: 0.9em; color: var(--muted); }
-  .arrow { color: var(--muted); font-weight: bold; font-size: 1.2em; transition: transform 0.2s; }
-  .card:hover .arrow { transform: translateX(4px); color: var(--primary); }
-  footer { text-align: center; margin-top: 50px; color: var(--muted); font-size: 0.9em; font-weight: 500; }
+  .card-content { display: flex; align-items: center; gap: 18px; }
+  .mod-number {
+    width: 44px; height: 44px; border-radius: 12px; display: flex; align-items: center; justify-content: center;
+    font-size: 1.05em; font-weight: 800; color: #ffffff !important;
+    background: rgba(162, 155, 254, 0.15); border: 1px solid rgba(162, 155, 254, 0.3);
+    flex-shrink: 0; text-transform: uppercase; letter-spacing: 0.5px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .mod-number span { display: inline-block; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+  .card:hover .mod-number { transform: rotate(45deg); background: var(--secondary); border-color: var(--secondary); box-shadow: 0 0 15px rgba(162, 155, 254, 0.4); }
+  .card:hover .mod-number span { transform: rotate(-45deg); }
+  .card-info h2 { font-size: 1.12em; font-weight: 700; margin-bottom: 4px; color: var(--text); }
+  .card-info p { font-size: 0.88em; color: var(--muted); }
+  .card-tags { margin-bottom: 6px; }
+  .tag-program { display: inline-block; padding: 2px 8px; border-radius: 6px; background: rgba(162, 155, 254, 0.15); color: var(--secondary); font-size: 0.75em; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; border: 1px solid rgba(162, 155, 254, 0.3); }
+  .arrow { color: var(--muted); font-weight: 600; font-size: 1.2em; transition: all 0.2s; }
+  .card:hover .arrow { transform: translateX(5px); color: var(--secondary); }
+  
+  footer { text-align: center; margin-top: 60px; color: var(--muted); font-size: 0.88em; font-weight: 500; letter-spacing: 0.3px; }
   </style>
 </head>
 <body>
 
   <div class="container">
     <div class="header">
-      <h1><span style="color:#1a3a6b;">TVU</span><br><span style="font-size:0.65em; font-weight:800; background:linear-gradient(135deg,#1a3a6b,#2b5ea7); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text;">QUẢN TRỊ KINH DOANH</span></h1>
-      <p>Hệ thống Kiến thức tối ưu & Ôn luyện hiệu quả</p>
+      <h1><span style="color:var(--secondary); text-transform:uppercase; letter-spacing: 2px; font-size: 1.1em;">LEARNIZ</span></h1>
+      <p>Kiến thức trực quan, dễ dàng ôn luyện</p>
     </div>
 
-    <div class="search-subject-wrap" style="margin-bottom: 20px;">
-      <input type="text" id="searchSubject" placeholder="🔍 Tìm kiếm môn học..." oninput="filterSubjects()" style="width: 100%; padding: 12px 18px; border: 1.5px solid var(--border); border-radius: var(--r); font-size: 1em; color: var(--text); background: var(--surface); outline: none; transition: border-color 0.2s, box-shadow 0.2s;" />
+    <div class="search-subject-wrap">
+      <input type="text" id="searchSubject" placeholder="Tìm kiếm môn học..." oninput="filterSubjects()" />
     </div>
 
     <div class="grid" id="subjectsGrid">
       <!-- Nguyên lý kế toán -->
       <a href="./10. Nguyên lý kế toán/Ngan_hang_de_Nguyen_ly_ke_toan.html" class="card">
         <div class="card-content">
-          <div class="icon-box icon-ketoan">📊</div>
+          <div class="mod-number"><span>10</span></div>
           <div class="card-info">
+            <div class="card-tags"><span class="tag-program">Quản trị kinh doanh</span></div>
             <h2>Nguyên lý kế toán</h2>
-            <p>Học nhanh & Thi thử</p>
+            <p>Nắm vững quy trình ghi chép và lập báo cáo tài chính.</p>
           </div>
         </div>
         <div class="arrow">→</div>
@@ -71,10 +107,11 @@
       <!-- Kinh tế chính trị Mác - Lênin -->
       <a href="./11. Kinh tế chính trị Mác - Lênin/Ngan_hang_de_Mac_Lenin.html" class="card">
         <div class="card-content">
-          <div class="icon-box icon-maclenin">📖</div>
+          <div class="mod-number"><span>11</span></div>
           <div class="card-info">
+            <div class="card-tags"><span class="tag-program">Quản trị kinh doanh</span></div>
             <h2>KTCT Mác - Lênin</h2>
-            <p>Học nhanh & Thi thử</p>
+            <p>Bản chất quy luật kinh tế và giá trị thặng dư.</p>
           </div>
         </div>
         <div class="arrow">→</div>
@@ -83,10 +120,11 @@
       <!-- Thống kê ứng dụng -->
       <a href="./12. Thống kê ứng dụng trong kinh doanh/Ngan_hang_de_Thong_ke.html" class="card">
         <div class="card-content">
-          <div class="icon-box icon-thongke">📈</div>
+          <div class="mod-number"><span>12</span></div>
           <div class="card-info">
+            <div class="card-tags"><span class="tag-program">Quản trị kinh doanh</span></div>
             <h2>Thống kê ứng dụng</h2>
-            <p>Học nhanh & Thi thử</p>
+            <p>Công cụ phân tích, thu thập và dự báo dữ liệu kinh doanh.</p>
           </div>
         </div>
         <div class="arrow">→</div>
@@ -94,7 +132,7 @@
     </div>
 
     <footer>
-      ⚡️ Học ít - hiểu nhanh - nhớ lâu.
+      <i>Học ít — hiểu nhanh — nhớ lâu</i>
     </footer>
   </div>
 
@@ -115,8 +153,8 @@
       
       const searchBox = document.getElementById('searchSubject');
       if(input.length > 0) {
-          searchBox.style.borderColor = 'var(--primary)';
-          searchBox.style.boxShadow = '0 0 0 3px rgba(79,70,229,.1)';
+          searchBox.style.borderColor = 'var(--secondary)';
+          searchBox.style.boxShadow = '0 0 0 4px rgba(162,155,254,0.15)';
       } else {
           searchBox.style.borderColor = 'var(--border)';
           searchBox.style.boxShadow = 'none';

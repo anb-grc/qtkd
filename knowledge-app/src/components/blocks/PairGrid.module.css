@@ -1,0 +1,147 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.instruction {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  line-height: var(--leading-relaxed);
+  margin-bottom: var(--space-xs);
+}
+
+.board {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 12px;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  align-items: start;
+}
+
+@media (min-width: 640px) {
+  .board {
+    gap: var(--space-xl, 24px);
+  }
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm, 12px);
+  width: 100%;
+  min-width: 0;
+}
+
+.colHeader {
+  font-size: 11px;
+  font-weight: 800;
+  color: var(--color-accent-secondary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 2px;
+  line-height: 1.4;
+  word-break: normal;
+  overflow-wrap: break-word;
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .colHeader {
+    font-size: var(--text-xs);
+    letter-spacing: 1.5px;
+  }
+}
+
+.itemCard {
+  padding: 10px 12px;
+  border-radius: var(--radius-md);
+  border: 1.5px solid var(--color-border, rgba(255, 255, 255, 0.08));
+  background: var(--glass-bg, rgba(255, 255, 255, 0.03));
+  color: var(--color-text-secondary);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-height: 52px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  line-height: 1.4;
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+
+@media (min-width: 640px) {
+  .itemCard {
+    padding: var(--space-sm) var(--space-md);
+    font-size: var(--text-sm);
+    min-height: 56px;
+  }
+}
+
+.itemCard:hover:not(.disabled) {
+  border: 1.5px solid var(--color-accent-primary) !important;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--color-text-primary);
+  transform: translateX(3px);
+}
+
+.selected {
+  border: 1.5px solid #ffffff !important;
+  background: rgba(0, 206, 201, 0.15) !important;
+  color: #fff !important;
+}
+
+.matched {
+  border: 1.5px solid var(--color-border, rgba(255, 255, 255, 0.08)) !important;
+  background: var(--glass-bg, rgba(255, 255, 255, 0.03)) !important;
+  color: var(--color-text-secondary, rgba(255, 255, 255, 0.85)) !important;
+  opacity: 0.5 !important;
+  cursor: default;
+  pointer-events: none;
+}
+
+.errorFlash {
+  border-color: var(--color-danger, #ff4757) !important;
+  background: rgba(255, 71, 87, 0.2) !important;
+  animation: shake 0.3s ease;
+}
+
+.resetBtn {
+  align-self: center;
+  margin-top: var(--space-sm);
+  font-size: var(--text-xs);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 8px 18px;
+  border-radius: var(--radius-sm);
+  border: 1.5px solid var(--color-accent-primary);
+  color: var(--color-accent-secondary);
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.resetBtn:hover {
+  border: 1.5px solid var(--color-accent-primary);
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  75% { transform: translateX(4px); }
+}

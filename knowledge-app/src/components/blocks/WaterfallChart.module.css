@@ -1,0 +1,92 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.chartContainer {
+  align-items: center;
+    display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .chartContainer {
+    
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+  }
+}
+
+.svgWrapper {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  overflow: visible;
+}
+
+@media (min-width: 768px) {
+  .svgWrapper {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+}
+
+.detailsPanel {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  width: 100%;
+  padding: var(--space-sm) 0 0 0;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  font-size: var(--text-sm);
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .detailsPanel {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+  }
+}
+
+.stepTitle {
+  font-weight: 800;
+  color: var(--color-text-primary);
+  font-size: var(--text-md);
+}
+
+.stepValue {
+  font-size: var(--text-lg);
+  font-weight: 900;
+}
+
+.stepNotes {
+  color: var(--color-text-secondary);
+  line-height: var(--leading-relaxed);
+}
+
+.axisText {
+  font-size: 11px;
+  fill: var(--color-text-secondary);
+  font-weight: 600;
+}
+
+@media (min-width: 640px) {
+  .axisText {
+    font-size: 12px;
+  }
+}

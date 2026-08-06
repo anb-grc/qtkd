@@ -1,0 +1,151 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 0;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  width: 100%;
+  padding: var(--space-md) var(--space-lg);
+  border-radius: var(--radius-md);
+  border: 1.5px solid var(--color-border);
+  background: var(--glass-bg);
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: left;
+}
+
+.option:hover:not(:disabled) {
+  border-color: var(--color-accent-primary);
+  background: rgba(108, 92, 231, 0.1);
+  transform: translateX(4px);
+}
+
+.selected {
+  border-color: var(--color-accent-secondary);
+  background: rgba(0, 206, 201, 0.1);
+}
+
+.optLetter {
+  font-weight: 800;
+  color: var(--color-text-muted);
+  width: 24px;
+}
+
+.option:hover .optLetter, .selected .optLetter {
+  color: var(--color-text-primary);
+}
+
+.optText {
+  flex: 1;
+  color: var(--color-text-secondary);
+  font-size: var(--text-md);
+}
+
+.option:hover .optText, .selected .optText {
+  color: var(--color-text-primary);
+}
+
+.icon {
+  font-weight: 900;
+  font-size: var(--text-lg);
+}
+
+/* Submitted States */
+.correct {
+  border-color: var(--color-success) !important;
+  background: rgba(39, 201, 63, 0.1) !important;
+}
+.correct .optLetter, .correct .optText { color: var(--color-success); }
+.correct .icon { color: var(--color-success); }
+
+.incorrect {
+  border-color: var(--color-danger) !important;
+  background: rgba(255, 95, 86, 0.1) !important;
+}
+.incorrect .optLetter, .incorrect .optText { color: var(--color-danger); }
+.incorrect .icon { color: var(--color-danger); }
+
+.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+}
+
+.submitBtn, .resetBtn {
+  font-size: var(--text-xs);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  border: 1.5px solid var(--color-accent-primary);
+  color: var(--color-accent-secondary);
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+  flex-shrink: 0;
+  /* Reset width/height in case inherited */
+  width: auto;
+  height: auto;
+  line-height: 1;
+}
+
+.submitBtn:disabled {
+  border-color: rgba(255,255,255,0.1);
+  color: var(--color-text-muted);
+  cursor: not-allowed;
+}
+
+.submitBtn:not(:disabled):hover, .resetBtn:hover {
+  background: rgba(108, 92, 231, 0.1);
+  color: #fff;
+  box-shadow: none;
+  transform: translateY(-2px);
+}
+
+
+
+.explanation {
+  padding: var(--space-lg);
+  border-radius: var(--radius-md);
+  animation: fadeIn 0.4s ease;
+}
+
+.expSuccess {
+  background: rgba(39, 201, 63, 0.1);
+  border-left: 2.25px solid var(--color-success);
+}
+.expSuccess h4 { color: var(--color-success); margin: 0 0 var(--space-xs) 0; }
+
+.expError {
+  background: rgba(255, 95, 86, 0.1);
+  border-left: 2.25px solid var(--color-danger);
+}
+.expError h4 { color: var(--color-danger); margin: 0 0 var(--space-xs) 0; }
+
+.explanation p {
+  margin: 0;
+  color: var(--color-text-primary);
+  line-height: var(--leading-relaxed);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

@@ -1,0 +1,106 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.chartWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .chartWrapper {
+    
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+}
+
+.svgBox {
+  width: 100%;
+  max-width: 340px;
+  height: auto;
+  aspect-ratio: 1;
+  display: block;
+  margin: 0 auto;
+  overflow: visible;
+}
+
+@media (min-width: 768px) {
+  .svgBox {
+    margin: 0 auto;
+  }
+}
+
+.axisText {
+  font-size: 11px;
+  font-weight: 700;
+  fill: var(--color-text-secondary);
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+@media (min-width: 640px) {
+  .axisText {
+    font-size: 12px;
+  }
+}
+
+.legendList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .legendList {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding-top: 0;
+  }
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-md);
+  background: var(--glass-bg, rgba(255, 255, 255, 0.03));
+  border: 1.5px solid var(--color-border, rgba(255, 255, 255, 0.08));
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: var(--text-sm);
+  color: var(--color-text-primary);
+  font-weight: 600;
+}
+
+.legendItem:hover {
+  border-color: var(--color-accent-primary);
+  background: rgba(108, 92, 231, 0.1);
+  transform: translateX(4px);
+}
+
+.legendItemInactive {
+  opacity: 0.4;
+  filter: grayscale(80%);
+}
+
+.colorIndicator {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  border: 1.5px solid rgba(255, 255, 255, 0.8);
+}

@@ -1,0 +1,103 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.gridWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+
+
+.svgWrapper {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  height: auto;
+  display: block;
+  overflow: visible;
+}
+
+.cellContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 4px 6px;
+  box-sizing: border-box;
+  overflow: hidden;
+  user-select: none;
+}
+
+.cellTitle {
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 1.25;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.cellShare {
+  font-size: var(--text-xs);
+  font-weight: 800;
+  color: var(--color-accent-secondary);
+  margin-top: 4px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.infoBox {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: var(--space-sm) 0 0 0;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.infoTitle {
+  font-size: var(--text-md);
+  font-weight: 800;
+  color: var(--color-accent-secondary);
+}
+
+.infoWeight {
+  font-size: var(--text-sm);
+  font-weight: 800;
+  color: var(--color-text-primary);
+}
+
+.infoVal {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+}
+
+.placeholderBox {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}

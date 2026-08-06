@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.chartContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .chartContainer {
+    
+    align-items: stretch;
+    justify-content: center;
+    gap: 24px;
+  }
+}
+
+.flowsList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .flowsList {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+}
+
+.legendBox {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  width: 100%;
+  padding: var(--space-sm) 0 0 0;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .legendBox {
+    width: 100%;
+  }
+}
+
+.legendTitle {
+  font-weight: 800;
+  color: var(--color-accent-secondary);
+  font-size: var(--text-md);
+  margin-bottom: var(--space-xs);
+}
+
+.legendDesc {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  line-height: var(--leading-relaxed);
+}

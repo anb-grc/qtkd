@@ -45,10 +45,10 @@ function buildFilterUI(data) {
     
     let controlsHtml = `
         <div style="display:flex; gap:10px; margin-top:10px; flex-wrap:wrap; width:100%;">
-            <select id="tagFilter" onchange="filterQuestions()" style="padding:8px; border-radius:8px; border:1px solid #ccc; flex:1; min-width:150px; background: #fff; font-family: inherit;">
+            <select id="tagFilter" onchange="filterQuestions()" style="padding:8px 14px; border-radius:8px; border:1px solid var(--border); flex:1; min-width:150px; background: var(--surface); color: var(--text); font-family: inherit;">
                 ${tagOptions}
             </select>
-            <select id="limitFilter" onchange="changeLimit()" style="padding:8px; border-radius:8px; border:1px solid #ccc; flex:1; min-width:150px; background: #fff; font-family: inherit;">
+            <select id="limitFilter" onchange="changeLimit()" style="padding:8px 14px; border-radius:8px; border:1px solid var(--border); flex:1; min-width:150px; background: var(--surface); color: var(--text); font-family: inherit;">
                 ${limitOptions}
             </select>
         </div>
@@ -158,7 +158,7 @@ function renderBatch() {
         // Render tags visually
         let tagsHtml = '';
         if(q.tags && Array.isArray(q.tags)) {
-            tagsHtml = '<div style="margin-bottom:8px;">' + q.tags.map(t => `<span style="display:inline-block; background:var(--surface); border:1px solid #ddd; padding:2px 8px; border-radius:12px; font-size:0.8em; margin-right:5px; margin-bottom:5px; color:#555;">🏷️ ${t}</span>`).join('') + '</div>';
+            tagsHtml = '<div style="margin-bottom:8px;">' + q.tags.map(t => `<span style="display:inline-block; background:var(--surface); border:1px solid var(--border); padding:2px 10px; border-radius:12px; font-size:0.8em; margin-right:6px; margin-bottom:5px; color:var(--muted); font-weight:600;">${t}</span>`).join('') + '</div>';
         }
         
         // Using onclick directly instead of addEventListener for simplicity
@@ -186,7 +186,7 @@ function renderBatch() {
     if(window.currentRendered < window.filteredData.length) {
         let remain = window.filteredData.length - window.currentRendered;
         let nextBatchSize = Math.min(window.currentLimit, remain);
-        list.insertAdjacentHTML('beforeend', `<button id="btnLoadMore" onclick="renderBatch()" style="display:block; width:100%; padding:12px; background:var(--border); color:var(--muted); border:none; border-radius:8px; font-weight:bold; cursor:pointer; margin-top:15px; font-size:1.1em; transition: opacity 0.2s;">⬇️ Xem thêm ${nextBatchSize} câu nữa (Còn ${remain})</button>`);
+        list.insertAdjacentHTML('beforeend', `<button id="btnLoadMore" onclick="renderBatch()" style="display:block; width:100%; padding:12px; background:var(--surface); color:var(--text); border:1px solid var(--border); border-radius:8px; font-weight:bold; cursor:pointer; margin-top:15px; font-size:1.05em; transition: opacity 0.2s;">Xem thêm ${nextBatchSize} câu nữa (Còn ${remain})</button>`);
     }
     
     if (window.MathJax && typeof window.MathJax.typesetPromise === 'function') {
@@ -249,7 +249,7 @@ function switchMode(mode) {
 
     if(mode === 'study') {
       if (btnStudy) btnStudy.classList.add('active');
-      if (instEl) instEl.innerHTML = '💡 Trắc nghiệm: Đọc → Tự nghĩ → CLICK để kiểm tra &nbsp;|&nbsp; Tự luận: Đọc → Tự viết → CLICK xem gợi ý';
+      if (instEl) instEl.innerHTML = 'Trắc nghiệm: Đọc → Tự nghĩ → CLICK để kiểm tra <br> Tự luận: Đọc → Tự viết → CLICK xem gợi ý';
     } else if(mode === 'knowledge') {
       document.body.classList.add('knowledge-mode');
       if (btnKnowledge) btnKnowledge.classList.add('active');
@@ -585,34 +585,34 @@ function renderHistory() {
         return;
     }
     
-    let contentHtml = '<h2 style="margin-top:0; color:var(--primary); font-size:1.5rem;">📈 Lịch sử thi thử</h2>';
-    contentHtml += '<p style="color:var(--muted); font-size:0.9em; margin-bottom:20px;">💡 Theo dõi sự tiến bộ của bạn qua các lần thi thử. Hãy cố gắng duy trì mức điểm Tốt (màu xanh lá).</p>';
+    let contentHtml = '<h2 style="margin-top:0; color:var(--text); font-size:1.4em;">Lịch sử thi thử</h2>';
+    contentHtml += '<p style="color:var(--muted); font-size:0.9em; margin-bottom:20px;">Theo dõi sự tiến bộ của bạn qua các lần thi thử. Hãy cố gắng duy trì mức điểm Tốt (màu xanh lá).</p>';
     
     if (history.length === 0) {
-      contentHtml += '<p style="color:#666;">Bạn chưa có lịch sử làm bài nào cho môn này.</p>';
+      contentHtml += '<p style="color:var(--muted);">Bạn chưa có lịch sử làm bài nào cho môn này.</p>';
     } else {
       contentHtml += `
-        <div style="max-height: 250px; overflow-y: auto; margin-bottom: 20px; border-radius: 8px; border: 1px solid #eee;">
-          <table style="width: 100%; border-collapse: collapse; text-align: center; font-size: 0.9em;">
-            <thead style="background: #f8f9fa; position: sticky; top: 0;">
+        <div style="max-height: 250px; overflow-y: auto; margin-bottom: 20px; border-radius: 8px; border: 1px solid var(--border);">
+          <table style="width: 100%; border-collapse: collapse; text-align: center; font-size: 0.9em; background: var(--surface); color: var(--text);">
+            <thead style="background: rgba(15,15,26,0.6); position: sticky; top: 0;">
               <tr>
-                <th style="padding: 10px; border-bottom: 2px solid #ddd;">Lần</th>
-                <th style="padding: 10px; border-bottom: 2px solid #ddd;">Thời gian</th>
-                <th style="padding: 10px; border-bottom: 2px solid #ddd;">Điểm (Hệ 10)</th>
-                <th style="padding: 10px; border-bottom: 2px solid #ddd;">Câu đúng</th>
+                <th style="padding: 10px; border-bottom: 1px solid var(--border);">Lần</th>
+                <th style="padding: 10px; border-bottom: 1px solid var(--border);">Thời gian</th>
+                <th style="padding: 10px; border-bottom: 1px solid var(--border);">Điểm (Hệ 10)</th>
+                <th style="padding: 10px; border-bottom: 1px solid var(--border);">Câu đúng</th>
               </tr>
             </thead>
             <tbody>
       `;
       history.forEach((h, i) => {
-        let color = h.percent >= 80 ? 'var(--success)' : (h.percent >= 50 ? '#f39c12' : '#e74c3c');
+        let color = h.percent >= 80 ? 'var(--success)' : (h.percent >= 50 ? 'var(--warn)' : 'var(--danger)');
         let score10 = ((h.score / h.total) * 10).toFixed(1);
         contentHtml += `
-          <tr style="border-bottom: 1px solid #eee;">
-            <td style="padding: 10px; color:#888;">#${i + 1}</td>
-            <td style="padding: 10px; color: #555;">${h.date}</td>
+          <tr style="border-bottom: 1px solid var(--border);">
+            <td style="padding: 10px; color:var(--muted);">#${i + 1}</td>
+            <td style="padding: 10px; color: var(--text);">${h.date}</td>
             <td style="padding: 10px; font-weight: 600; color: ${color};">${score10}</td>
-            <td style="padding: 10px; font-weight: bold; color: #555;">${h.score}/${h.total}</td>
+            <td style="padding: 10px; font-weight: bold; color: var(--text);">${h.score}/${h.total}</td>
           </tr>
         `;
       });
@@ -631,8 +631,8 @@ function renderHistory() {
           
           contentHtml += `
             <div style="text-align: center; margin-top: 15px;">
-              <h3 style="font-size: 0.9rem; margin-bottom: 10px; color:#555;">Sự tiến bộ (Điểm hệ 10)</h3>
-              <svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" style="border: 1px solid #eaeaea; border-radius: 8px; background: #fafafa; width:100%; max-width:320px;">
+              <h3 style="font-size: 0.9rem; margin-bottom: 10px; color:var(--text);">Sự tiến bộ (Điểm hệ 10)</h3>
+              <svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" style="border: 1px solid var(--border); border-radius: 8px; background: var(--surface); width:100%; max-width:320px;">
                 <polyline fill="none" stroke="var(--primary)" stroke-width="3" points="${points}" />
                 ${history.map((item, idx) => {
                     let x = padX + (idx / (history.length - 1)) * (w - 2 * padX);
@@ -669,21 +669,21 @@ function showQuizModal() {
     let modal = document.getElementById('quiz-mode-modal');
     if (!modal) {
         let html = `
-        <div id="quiz-mode-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); z-index:9999; justify-content:center; align-items:center;">
-            <div style="background:var(--surface); width:90%; max-width:400px; border-radius:16px; padding:24px; text-align:center; box-shadow:var(--shadow-md); animation: fadeUp 0.3s ease;">
-                <h2 style="margin-top:0; color:var(--text); font-size:1.4em;">Chọn chế độ Luyện thi</h2>
-                <p style="color:var(--muted); font-size:0.9em; margin-bottom:20px;">Bạn muốn làm bài theo hình thức nào?</p>
-                <div style="display:flex; flex-direction:column; gap:12px;">
-                    <button onclick="startQuiz('optimized')" style="padding:14px; background:var(--warn-lt); color:var(--warn); border:2px solid var(--warn); border-radius:12px; font-size:1.05em; font-weight:700; cursor:pointer; display:flex; flex-direction:column; align-items:center;">
-                        <span>🎯 Luyện Tối Ưu (80/20)</span>
-                        <span style="font-size:0.75em; font-weight:normal; opacity:0.8; margin-top:4px;">Chỉ bốc câu hỏi trọng tâm, thường ra thi</span>
+        <div id="quiz-mode-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); z-index:9999; justify-content:center; align-items:center; backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px);">
+            <div style="background:var(--surface); border:1px solid var(--border); width:90%; max-width:400px; border-radius:16px; padding:26px; text-align:center; box-shadow:var(--shadow-md); animation: fadeUp 0.3s ease;">
+                <h2 style="margin-top:0; color:var(--text); font-size:1.35em;">Chọn chế độ Luyện thi</h2>
+                <p style="color:var(--muted); font-size:0.92em; margin-bottom:22px;">Bạn muốn làm bài theo hình thức nào?</p>
+                <div style="display:flex; flex-direction:column; gap:14px;">
+                    <button onclick="startQuiz('optimized')" class="modal-btn modal-btn-opt">
+                        <span>Luyện Tối Ưu (80/20)</span>
+                        <span class="modal-btn-sub">Chỉ bốc câu hỏi trọng tâm, thường ra thi</span>
                     </button>
-                    <button onclick="startQuiz('structured')" style="padding:14px; background:var(--primary-lt); color:var(--primary); border:2px solid var(--primary); border-radius:12px; font-size:1.05em; font-weight:700; cursor:pointer; display:flex; flex-direction:column; align-items:center;">
-                        <span>📑 Luyện Cấu Trúc Đề</span>
-                        <span style="font-size:0.75em; font-weight:normal; opacity:0.8; margin-top:4px;">Bốc theo cấu trúc chương/dạng bài chuẩn</span>
+                    <button onclick="startQuiz('structured')" class="modal-btn modal-btn-str">
+                        <span>Luyện Cấu Trúc Đề</span>
+                        <span class="modal-btn-sub">Bốc theo cấu trúc chương/dạng bài chuẩn</span>
                     </button>
                 </div>
-                <button onclick="document.getElementById('quiz-mode-modal').style.display='none'" style="margin-top:20px; padding:8px 20px; background:transparent; border:none; color:var(--muted); font-weight:600; cursor:pointer;">Hủy bỏ</button>
+                <button onclick="document.getElementById('quiz-mode-modal').style.display='none'" class="modal-btn-cancel">Hủy bỏ</button>
             </div>
         </div>
         `;
@@ -692,6 +692,31 @@ function showQuizModal() {
     }
     modal.style.display = 'flex';
 }
+
+// ---------------------------------
+// MODAL CLOSE HANDLERS (ESC & BACKDROP)
+// ---------------------------------
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' || e.keyCode === 27) {
+        let quizModal = document.getElementById('quiz-mode-modal');
+        if (quizModal && quizModal.style.display !== 'none') {
+            quizModal.style.display = 'none';
+        }
+        let historyModal = document.getElementById('history-modal');
+        if (historyModal && historyModal.style.display !== 'none') {
+            historyModal.style.display = 'none';
+        }
+    }
+});
+
+document.addEventListener('click', function(e) {
+    if (e.target && e.target.id === 'quiz-mode-modal') {
+        e.target.style.display = 'none';
+    }
+    if (e.target && e.target.id === 'history-modal') {
+        e.target.style.display = 'none';
+    }
+});
 
 // ---------------------------------
 // KNOWLEDGE BASE LOGIC (19 Components & 6D Matrix)
