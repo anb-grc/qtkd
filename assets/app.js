@@ -141,7 +141,7 @@ function renderBatch() {
         let actualIndex = window.currentRendered + idx;
         let weightAttr = (q.weight && q.weight !== 'normal') ? `data-weight="${q.weight}"` : '';
         
-        let displayQ = q.question;
+        let displayQ = q.question.replace(/<br\s*\/?>\s*<br\s*\/?>/gi, '<br>');
         let matches = [...displayQ.matchAll(/A[\.\)](?:\s|&nbsp;|<br|<\/?p>|<span)/g)];
         if (matches.length > 0 && !displayQ.includes('options-grid')) {
             let cutIndex = matches[matches.length - 1].index;
@@ -376,7 +376,7 @@ function startQuiz(quizMode = 'optimized') {
     
     let html = '';
     quizQuestions.forEach((qObj, index) => {
-      let qHtml = qObj.question;
+      let qHtml = qObj.question.replace(/<br\s*\/?>\s*<br\s*\/?>/gi, '<br>');
       let correctAns = extractRawAnswerData(qObj);
       let options = [];
       let finalQHtml = qHtml;
