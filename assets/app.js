@@ -768,7 +768,7 @@ async function renderKnowledgeBase() {
 
     } catch (e) {
         console.error("Knowledge Base Error:", e);
-        kbContainer.innerHTML = `<div style="padding:20px; color:var(--warn); text-align:center;">Chưa có dữ liệu Kiến thức nền (kb.json) cho môn này.</div>`;
+        kbContainer.innerHTML = `<div style="padding:20px; color:var(--warn); text-align:center;">Chưa có dữ liệu</div>`;
     }
 }
 
