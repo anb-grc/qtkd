@@ -830,14 +830,17 @@ function showQuizModal() {
                     <h2 style="margin-top:0; color:var(--text); font-size:1.35em;">Số lượng câu hỏi</h2>
                     <p style="color:var(--muted); font-size:0.92em; margin-bottom:22px;">Bạn muốn thi bao nhiêu câu?</p>
                     <div style="display:flex; flex-direction:column; gap:14px;">
-                        <button onclick="startQuizWithCount(15)" class="modal-btn modal-btn-str" style="flex-direction:row; justify-content:space-between; padding:16px 20px;">
-                            <span>15 Câu</span><span style="font-size:0.85em; font-weight:normal; opacity:0.8;">(Kiểm tra nhanh)</span>
+                        <button onclick="startQuizWithCount(15)" class="modal-btn modal-btn-str">
+                            <span>Kiểm tra nhanh</span>
+                            <span class="modal-btn-sub">(15 Câu)</span>
                         </button>
-                        <button onclick="startQuizWithCount(20)" class="modal-btn modal-btn-str" style="flex-direction:row; justify-content:space-between; padding:16px 20px;">
-                            <span>20 Câu</span><span style="font-size:0.85em; font-weight:normal; opacity:0.8;">(Tiêu chuẩn)</span>
+                        <button onclick="startQuizWithCount(20)" class="modal-btn modal-btn-str">
+                            <span>Tiêu chuẩn</span>
+                            <span class="modal-btn-sub">(20 Câu)</span>
                         </button>
-                        <button onclick="startQuizWithCount(40)" class="modal-btn modal-btn-opt" style="flex-direction:row; justify-content:space-between; padding:16px 20px;">
-                            <span>40 Câu</span><span style="font-size:0.85em; font-weight:normal; opacity:0.8;">(Thi thật)</span>
+                        <button onclick="startQuizWithCount(40)" class="modal-btn modal-btn-opt">
+                            <span>Thi thật</span>
+                            <span class="modal-btn-sub">(40 Câu)</span>
                         </button>
                     </div>
                     <button onclick="document.getElementById('quiz-modal-step-2').style.display='none'; document.getElementById('quiz-modal-step-1').style.display='block';" class="modal-btn-cancel">Quay lại</button>
