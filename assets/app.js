@@ -201,7 +201,8 @@ function renderBatch() {
         }
         
         // Using onclick directly instead of addEventListener for simplicity
-        let ansHtml = q.answer.replace(/(<div class="answer-title">[\s\S]*?<\/div>)([\s\S]*?)(?=<div|$)/i, function(match, p1, p2) {
+        let rawAnswer = q.answer.replace(/(✅|💡)\s*/g, '');
+        let ansHtml = rawAnswer.replace(/(<div class="answer-title">[\s\S]*?<\/div>)([\s\S]*?)(?=<div|$)/i, function(match, p1, p2) {
             if(p2.trim()) {
                 return p1 + `<div class="answer-text" style="flex: 1; line-height: 1.6; padding-top: 2px;">${p2}</div>`;
             }
@@ -515,7 +516,8 @@ function startQuiz(quizMode = 'optimized') {
               </div>
           `;
       }
-      let ansHtml = qObj.answer.replace(/(<div class="answer-title">[\s\S]*?<\/div>)([\s\S]*?)(?=<div|$)/i, function(match, p1, p2) {
+      let rawAnswerObj = qObj.answer.replace(/(✅|💡)\s*/g, '');
+      let ansHtml = rawAnswerObj.replace(/(<div class="answer-title">[\s\S]*?<\/div>)([\s\S]*?)(?=<div|$)/i, function(match, p1, p2) {
           if(p2.trim()) {
               return p1 + `<div class="answer-text" style="flex: 1; line-height: 1.6; padding-top: 2px;">${p2}</div>`;
           }
