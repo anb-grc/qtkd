@@ -226,12 +226,27 @@ window.onload = async () => {
 
 // QUIZ LOGIC
 let quizQuestions = [];
+let quizSubmitted = false;
+
+// Variables for Countdown Timer
+let timerInterval = null;
+let timeRemaining = 0;
+
+function showToast(msg) {
+    let t = document.createElement('div');
+    t.style.cssText = "position:fixed; bottom:20px; left:50%; transform:translateX(-50%); background:rgba(0,0,0,0.8); color:#fff; padding:10px 20px; border-radius:20px; z-index:99999;";
+    t.innerText = msg;
+    document.body.appendChild(t);
+    setTimeout(() => t.remove(), 2000);
+}
 
 function switchMode(mode) {
     if(mode === 'quiz') {
       showQuizModal();
       return;
     }
+
+    stopTimer(); // Always stop timer when leaving quiz mode
 
     const fabSubmit = document.getElementById('fabSubmit');
     if (fabSubmit) fabSubmit.classList.remove('visible');
@@ -299,6 +314,9 @@ function extractRawAnswerData(qObj) {
 function startQuiz(quizMode = 'optimized') {
     let modal = document.getElementById('quiz-mode-modal');
     if (modal) modal.style.display = 'none';
+
+    stopTimer(); // Ensure previous timer is stopped
+    quizSubmitted = false;
 
     // Đổi giao diện sang chế độ Thi thử
     document.body.classList.remove('knowledge-mode');
@@ -476,9 +494,77 @@ function startQuiz(quizMode = 'optimized') {
     document.getElementById('quiz-content').innerHTML = html;
     if (window.MathJax && typeof window.MathJax.typesetPromise === 'function') { MathJax.typesetPromise(); }
     window.scrollTo({top: 0, behavior: 'smooth'});
+
+    // Khởi động đồng hồ đếm ngược (1.5 phút mỗi câu)
+    const totalTimeSeconds = quizQuestions.length * 90; 
+    startTimer(totalTimeSeconds);
+}
+
+// ---------------------------------
+// TIMER LOGIC
+// ---------------------------------
+function startTimer(seconds) {
+    timeRemaining = seconds;
+    const timerEl = document.getElementById('quizTimer');
+    if (timerEl) {
+        timerEl.style.display = 'flex';
+        updateTimerDisplay();
+    }
+    
+    timerInterval = setInterval(() => {
+        timeRemaining--;
+        if (timeRemaining <= 0) {
+            stopTimer();
+            const textEl = document.getElementById('timerText');
+            if (textEl) textEl.innerText = "HẾT GIỜ!";
+            if (!quizSubmitted) {
+                showToast("Hết giờ! Hệ thống tự động nộp bài.");
+                submitQuiz();
+            }
+        } else {
+            updateTimerDisplay();
+        }
+    }, 1000);
+}
+
+function stopTimer() {
+    if (timerInterval) {
+        clearInterval(timerInterval);
+        timerInterval = null;
+    }
+    const timerEl = document.getElementById('quizTimer');
+    if (timerEl && quizSubmitted) {
+        // Giữ lại hiển thị
+    } else if (timerEl) {
+        timerEl.style.display = 'none';
+    }
+}
+
+function updateTimerDisplay() {
+    const timerEl = document.getElementById('quizTimer');
+    const textEl = document.getElementById('timerText');
+    if (!timerEl || !textEl) return;
+    
+    let m = Math.floor(timeRemaining / 60);
+    let s = timeRemaining % 60;
+    
+    if (timeRemaining <= 60) {
+        timerEl.style.borderColor = '#ff7675';
+        textEl.style.color = '#ff7675';
+        timerEl.style.animation = 'pulse 1s infinite';
+    } else {
+        timerEl.style.borderColor = 'var(--secondary)';
+        textEl.style.color = 'inherit';
+        timerEl.style.animation = 'none';
+    }
+    
+    textEl.innerText = `${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
 }
 
 function submitQuiz() {
+    quizSubmitted = true;
+    stopTimer();
+    
     let score = 0;
     let wrongIndices = [];
     
@@ -502,10 +588,12 @@ function submitQuiz() {
               document.getElementById(`lbl-q${index}-opt${selectedIdx}`).classList.add('wrong');
               wrongIndices.push(index);
               qBox.classList.add('is-wrong');
+              qBox.querySelector('.quiz-q-num').style.color = '#ff7675';
             }
           } else {
             wrongIndices.push(index);
             qBox.classList.add('is-wrong');
+            qBox.querySelector('.quiz-q-num').style.color = '#ff7675';
           }
           allRadios.forEach(inp => inp.disabled = true);
       } else {
@@ -1071,7 +1159,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.body.addEventListener('change', (e) => {
         if (document.body.classList.contains('quiz-mode') && e.target.type === 'radio') {
-            const checkedCount = document.querySelectorAll('#quiz-container input[type="radio"]:checked').length;
+            const checkedCount = document.querySelectorAll('#quiz-content input[type="radio"]:checked').length;
             const validQuestions = quizQuestions.filter(q => Array.isArray(q.options) && q.options.length > 0).length;
             if (validQuestions > 0 && (checkedCount / validQuestions) >= 0.5) {
                 fabSubmit.classList.add('visible');

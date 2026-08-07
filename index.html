@@ -91,44 +91,7 @@
     </div>
 
     <div class="grid" id="subjectsGrid">
-      <!-- Nguyên lý kế toán -->
-      <a href="./10. Nguyên lý kế toán/Ngan_hang_de_Nguyen_ly_ke_toan.html" class="card">
-        <div class="card-content">
-          <div class="mod-number"><span>10</span></div>
-          <div class="card-info">
-            <div class="card-tags"><span class="tag-program">Quản trị kinh doanh</span></div>
-            <h2>Nguyên lý kế toán</h2>
-            <p>Nắm vững quy trình ghi chép và lập báo cáo tài chính.</p>
-          </div>
-        </div>
-        <div class="arrow">→</div>
-      </a>
-
-      <!-- Kinh tế chính trị Mác - Lênin -->
-      <a href="./11. Kinh tế chính trị Mác - Lênin/Ngan_hang_de_Mac_Lenin.html" class="card">
-        <div class="card-content">
-          <div class="mod-number"><span>11</span></div>
-          <div class="card-info">
-            <div class="card-tags"><span class="tag-program">Quản trị kinh doanh</span></div>
-            <h2>KTCT Mác - Lênin</h2>
-            <p>Bản chất quy luật kinh tế và giá trị thặng dư.</p>
-          </div>
-        </div>
-        <div class="arrow">→</div>
-      </a>
-
-      <!-- Thống kê ứng dụng -->
-      <a href="./12. Thống kê ứng dụng trong kinh doanh/Ngan_hang_de_Thong_ke.html" class="card">
-        <div class="card-content">
-          <div class="mod-number"><span>12</span></div>
-          <div class="card-info">
-            <div class="card-tags"><span class="tag-program">Quản trị kinh doanh</span></div>
-            <h2>Thống kê ứng dụng</h2>
-            <p>Công cụ phân tích, thu thập và dự báo dữ liệu kinh doanh.</p>
-          </div>
-        </div>
-        <div class="arrow">→</div>
-      </a>
+      <!-- Môn học sẽ được render từ config.js -->
     </div>
 
     <footer>
@@ -136,6 +99,7 @@
     </footer>
   </div>
 
+  <script src="./assets/config.js"></script>
   <script>
     function normalizeTextForSearch(text) {
         return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
@@ -166,23 +130,38 @@
     }
 
     window.addEventListener('DOMContentLoaded', () => {
-        const cards = document.querySelectorAll('.card');
-        cards.forEach(card => {
-            const href = card.getAttribute('href');
-            if (href) {
-                let jsonUrl = href.substring(href.lastIndexOf('/') + 1).replace('.html', '_qs.json');
-                let key = 'tvu_history_' + jsonUrl.replace(/[^a-zA-Z0-9]/g, '_');
-                let history = JSON.parse(localStorage.getItem(key) || '[]');
-                if (history.length > 0) {
-                    let lastAttempt = history[history.length - 1];
-                    let scoreTag = document.createElement('div');
-                    scoreTag.style.marginTop = '8px';
-                    scoreTag.style.fontSize = '0.85em';
-                    let color = lastAttempt.percent >= 80 ? '#4cd137' : (lastAttempt.percent >= 50 ? '#fbc531' : '#e84118');
-                    scoreTag.innerHTML = `Lần thi gần nhất: <b style="color: ${color}">${lastAttempt.score}/${lastAttempt.total}</b> <span style="color:var(--muted)">(${lastAttempt.percent}%)</span>`;
-                    card.querySelector('.card-info').appendChild(scoreTag);
-                }
+        const grid = document.getElementById('subjectsGrid');
+        
+        window.TVU_SUBJECTS.forEach(subject => {
+            const card = document.createElement('a');
+            card.href = `./quiz.html?id=${subject.id}`;
+            card.className = 'card';
+            
+            // Lấy JSON Path filename để tính localStorage key (y chang cũ để giữ điểm)
+            let jsonFilename = subject.jsonPath.substring(subject.jsonPath.lastIndexOf('/') + 1);
+            let historyKey = 'tvu_history_' + jsonFilename.replace(/[^a-zA-Z0-9]/g, '_');
+            let history = JSON.parse(localStorage.getItem(historyKey) || '[]');
+            
+            let scoreHtml = '';
+            if (history.length > 0) {
+                let lastAttempt = history[history.length - 1];
+                let color = lastAttempt.percent >= 80 ? '#4cd137' : (lastAttempt.percent >= 50 ? '#fbc531' : '#e84118');
+                scoreHtml = `<div style="margin-top:8px; font-size:0.85em;">Lần thi gần nhất: <b style="color: ${color}">${lastAttempt.score}/${lastAttempt.total}</b> <span style="color:var(--muted)">(${lastAttempt.percent}%)</span></div>`;
             }
+
+            card.innerHTML = `
+                <div class="card-content">
+                  <div class="mod-number"><span>${subject.id}</span></div>
+                  <div class="card-info">
+                    <div class="card-tags"><span class="tag-program">${subject.program}</span></div>
+                    <h2>${subject.name}</h2>
+                    <p>${subject.desc}</p>
+                    ${scoreHtml}
+                  </div>
+                </div>
+                <div class="arrow">→</div>
+            `;
+            grid.appendChild(card);
         });
     });
   </script>
