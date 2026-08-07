@@ -229,7 +229,7 @@ function renderBatch() {
     if(window.currentRendered < window.filteredData.length) {
         let remain = window.filteredData.length - window.currentRendered;
         let nextBatchSize = Math.min(window.currentLimit, remain);
-        list.insertAdjacentHTML('beforeend', `<button id="btnLoadMore" onclick="renderBatch()" style="display:block; width:100%; padding:12px; background:var(--surface); color:var(--text); border:1px solid var(--border); border-radius:8px; font-weight:bold; cursor:pointer; margin-top:15px; font-size:1.05em; transition: opacity 0.2s;">Xem thêm ${nextBatchSize} câu nữa (Còn ${remain})</button>`);
+        list.insertAdjacentHTML('beforeend', `<button id="btnLoadMore" onclick="renderBatch()" style="display:block; width:100%; padding:10px; background:var(--surface); color:var(--text); border:1px solid var(--border); border-radius:8px; font-weight:bold; cursor:pointer; margin-top:10px; font-size:1em; transition: opacity 0.2s;">Xem thêm ${nextBatchSize} câu nữa (Còn ${remain})</button>`);
     }
     
     if (window.MathJax && typeof window.MathJax.typesetPromise === 'function') {
@@ -662,9 +662,9 @@ function submitQuiz() {
     let summary = document.getElementById('quiz-result-summary');
     summary.style.display = 'block';
     summary.innerHTML = `
-      <div>Điểm của bạn: <span style="color:var(--primary);font-size:1.5em;">${score10} / 10</span></div>
-      <div style="font-size: 0.9em; color: #666; margin-top: 5px;">(Trả lời đúng ${score} / ${quizQuestions.length} câu)</div>
-      <div style="margin-top: 15px; display: flex; flex-direction: column; gap: 10px; align-items: center;">
+      <div>Điểm của bạn: <span style="color:var(--primary);font-size:1.4em;">${score10} / 10</span></div>
+      <div style="font-size: 0.85em; color: #666; margin-top: 2px;">(Trả lời đúng ${score} / ${quizQuestions.length} câu)</div>
+      <div style="margin-top: 12px; display: flex; flex-direction: column; gap: 8px; align-items: center;">
         ${wrongIndices.length > 0 ? `<button class="btn-filter-wrong" onclick="filterWrongQuestions()" style="margin-top:0;">Chỉ xem ${wrongIndices.length} câu sai</button>` : `<div style="color:var(--success); display:flex; align-items:center;">Tuyệt vời! Bạn làm đúng hết!</div>`}
         <button class="btn-continue-quiz" onclick="showQuizModal()">Luyện tiếp</button>
       </div>

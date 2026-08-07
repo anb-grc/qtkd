@@ -526,7 +526,7 @@
   .btn-submit-quiz:hover{transform:translateY(-2px);box-shadow:0 8px 25px rgba(108, 92, 231, 0.5);}
   .btn-submit-quiz:active{transform:translateY(0) scale(0.96);}
   
-  #quiz-result-summary{text-align:center;font-size:1.2em;font-weight:700;margin:0 auto 20px;width:fit-content;max-width:100%;padding:20px 40px;background:var(--surface);border-radius:var(--r);border:1px solid var(--success);display:none;box-shadow:var(--shadow);}
+  #quiz-result-summary{text-align:center;font-size:1.15em;font-weight:700;margin-bottom:20px;padding:15px;background:var(--surface);border-radius:var(--r);border:1px solid var(--success);display:none;box-shadow:var(--shadow);}
   .btn-filter-wrong{background:var(--warn);color:#0f0f1a;border:none;padding:8px 16px;border-radius:12px;font-weight:700;cursor:pointer;margin-top:10px; transition: all 0.2s; white-space: nowrap;}
   .btn-filter-wrong:hover { opacity: 0.95; transform: scale(1.04); box-shadow:0 4px 15px rgba(255, 193, 7, 0.35); }
   .btn-filter-wrong:active { transform: scale(0.96); }
