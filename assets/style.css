@@ -752,3 +752,80 @@
 .modal-btn-cancel:hover { color: var(--danger); background: rgba(244, 63, 94, 0.12); border-color: rgba(244, 63, 94, 0.3); box-shadow: 0 0 12px rgba(244, 63, 94, 0.2); }
 .modal-btn-cancel:active { transform: scale(0.95); }
 
+/* === KEYWORD MODE & PRINT MODE === */
+
+/* Keyword mode toggles */
+body.keyword-mode-active .q-full-text,
+body.keyword-mode-active .a-full-text {
+    display: none !important;
+}
+
+body.keyword-mode-active .q-keyword-only,
+body.keyword-mode-active .a-keyword-only {
+    display: block !important;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: var(--secondary);
+}
+
+body.keyword-mode-active .question-container {
+    padding: 16px;
+}
+
+@media print {
+    /* Hide non-printable elements */
+    .page-header,
+    .mode-switch,
+    .search-wrap,
+    #searchMeta,
+    #btnLoadMore,
+    #quizTimer,
+    .back-link,
+    #history-modal {
+        display: none !important;
+    }
+
+    /* Override colors for printing */
+    body {
+        background: #fff !important;
+        color: #000 !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .question-container {
+        page-break-inside: avoid;
+        background: none !important;
+        border: none !important;
+        border-bottom: 1px solid #ccc !important;
+        box-shadow: none !important;
+        border-radius: 0 !important;
+        padding: 10px 0 !important;
+        margin-bottom: 10px !important;
+    }
+
+    /* Expand all answers */
+    .question-container .answer {
+        display: flex !important;
+        margin-top: 8px !important;
+    }
+
+    .keyword, .answer-keyword {
+        color: #000 !important;
+        font-weight: bold !important;
+        text-decoration: underline;
+        background: none !important;
+    }
+
+    /* If keyword mode is active, make sure keyword texts are black */
+    body.keyword-mode-active .q-keyword-only,
+    body.keyword-mode-active .a-keyword-only {
+        color: #000 !important;
+        display: block !important;
+    }
+
+    body.keyword-mode-active .q-full-text,
+    body.keyword-mode-active .a-full-text {
+        display: none !important;
+    }
+}

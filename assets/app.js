@@ -52,6 +52,10 @@ function buildFilterUI(data) {
                 ${limitOptions}
             </select>
             <button id="sortBtn" onclick="sortQuestions()" style="padding:8px 14px; border-radius:8px; border:1px solid var(--border); width:fit-content; background: var(--surface); color: var(--text); font-family: inherit; cursor:pointer; white-space:nowrap;">High ↑</button>
+            <button id="modeBtn" onclick="toggleKeywordMode()" style="padding:8px 14px; border-radius:8px; border:1px solid var(--border); width:fit-content; background: var(--surface); color: var(--text); font-family: inherit; cursor:pointer; white-space:nowrap; transition: all 0.2s;">Đầy đủ</button>
+            <button id="printBtn" onclick="window.print()" style="padding:8px 14px; border-radius:8px; border:1px solid var(--border); width:fit-content; background: var(--surface); color: var(--text); cursor:pointer; display:flex; align-items:center; justify-content:center;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+            </button>
         </div>
     `;
     
@@ -61,6 +65,47 @@ function buildFilterUI(data) {
         div.innerHTML = controlsHtml;
         wrap.appendChild(div.firstElementChild);
     }
+}
+
+window.isKeywordMode = false;
+function toggleKeywordMode() {
+    window.isKeywordMode = !window.isKeywordMode;
+    const btn = document.getElementById('modeBtn');
+    if (window.isKeywordMode) {
+        btn.textContent = 'Từ khóa';
+        btn.style.color = 'var(--secondary)';
+        btn.style.borderColor = 'var(--secondary)';
+        document.body.classList.add('keyword-mode-active');
+    } else {
+        btn.textContent = 'Đầy đủ';
+        btn.style.color = 'var(--text)';
+        btn.style.borderColor = 'var(--border)';
+        document.body.classList.remove('keyword-mode-active');
+    }
+}
+
+function extractKeywords(htmlStr, isAnswer) {
+    let div = document.createElement('div');
+    div.innerHTML = htmlStr;
+    let keywords = [];
+    let selector = isAnswer ? '.answer-keyword' : '.keyword';
+    let nodes = div.querySelectorAll(selector);
+    
+    if (nodes.length === 0) {
+        if (isAnswer) {
+            let note = div.querySelector('.note');
+            if(note) note.remove();
+            return div.innerHTML;
+        }
+        return htmlStr;
+    }
+    
+    nodes.forEach(node => {
+        keywords.push(`<span class="${node.className}">${node.innerHTML}</span>`);
+    });
+    
+    let prefix = isAnswer ? '<div class="answer-title">✅ </div>' : '';
+    return prefix + keywords.join(' ... ');
 }
 
 function changeLimit() {
@@ -211,12 +256,21 @@ function renderBatch() {
             }
             return match;
         });
+        
+        let keywordQ = extractKeywords(displayQ, false);
+        let keywordA = extractKeywords(ansHtml, true);
 
         html += `
         <div class="question-container" ${weightAttr} onclick="toggleAnswer(this)">
             ${tagsHtml}
-            <div class="question" style="font-weight: normal;">${displayQ}</div>
-            <div class="answer" style="display: none;">${ansHtml}</div>
+            <div class="question" style="font-weight: normal;">
+                <div class="q-full-text">${displayQ}</div>
+                <div class="q-keyword-only" style="display: none;">${keywordQ}</div>
+            </div>
+            <div class="answer" style="display: none;">
+                <div class="a-full-text">${ansHtml}</div>
+                <div class="a-keyword-only" style="display: none;">${keywordA}</div>
+            </div>
         </div>
         `;
     });
