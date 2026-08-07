@@ -233,6 +233,9 @@ function switchMode(mode) {
       return;
     }
 
+    const fabSubmit = document.getElementById('fabSubmit');
+    if (fabSubmit) fabSubmit.classList.remove('visible');
+
     document.body.classList.remove('quiz-mode', 'knowledge-mode');
     
     const summary = document.getElementById('quiz-result-summary');
@@ -515,12 +518,14 @@ function submitQuiz() {
       qBox.classList.add('show-hints');
     });
     
-    document.getElementById('btnSubmitQuiz').style.display = 'none';
+    const fabSubmit = document.getElementById('fabSubmit');
+    if (fabSubmit) fabSubmit.classList.remove('visible');
+
+    let score10 = ((score / quizQuestions.length) * 10).toFixed(1);
     saveHistory(score, quizQuestions.length);
     
     let summary = document.getElementById('quiz-result-summary');
     summary.style.display = 'block';
-    let score10 = ((score / quizQuestions.length) * 10).toFixed(1);
     summary.innerHTML = `
       <div>🎯 Điểm của bạn: <span style="color:var(--primary);font-size:1.5em;">${score10} / 10</span></div>
       <div style="font-size: 0.9em; color: #666; margin-top: 5px;">(Trả lời đúng ${score} / ${quizQuestions.length} câu)</div>
@@ -653,6 +658,9 @@ function clearHistory() {
 // QUIZ MODAL LOGIC
 // ---------------------------------
 function showQuizModal() {
+    const fabSubmit = document.getElementById('fabSubmit');
+    if (fabSubmit) fabSubmit.classList.remove('visible');
+
     let modal = document.getElementById('quiz-mode-modal');
     if (!modal) {
         let html = `
@@ -1039,3 +1047,37 @@ function setupKbInteractions(container) {
         }
     });
 }
+
+// FAB LOGIC
+document.addEventListener('DOMContentLoaded', () => {
+    let fabHtml = `
+    <div class="fab-container" id="fabContainer">
+        <button class="fab-btn fab-submit" id="fabSubmit" onclick="submitQuiz()">Nộp Bài</button>
+        <button class="fab-btn" id="fabBackToTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑</button>
+    </div>
+    `;
+    document.body.insertAdjacentHTML('beforeend', fabHtml);
+
+    const fabBackToTop = document.getElementById('fabBackToTop');
+    const fabSubmit = document.getElementById('fabSubmit');
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) {
+            fabBackToTop.classList.add('visible');
+        } else {
+            fabBackToTop.classList.remove('visible');
+        }
+    });
+
+    document.body.addEventListener('change', (e) => {
+        if (document.body.classList.contains('quiz-mode') && e.target.type === 'radio') {
+            const checkedCount = document.querySelectorAll('#quiz-container input[type="radio"]:checked').length;
+            const validQuestions = quizQuestions.filter(q => Array.isArray(q.options) && q.options.length > 0).length;
+            if (validQuestions > 0 && (checkedCount / validQuestions) >= 0.5) {
+                fabSubmit.classList.add('visible');
+            } else {
+                fabSubmit.classList.remove('visible');
+            }
+        }
+    });
+});

@@ -118,6 +118,66 @@
   #btnHistory{background:rgba(255, 193, 7, 0.12) !important;color:var(--warn) !important;border:1px solid rgba(255, 193, 7, 0.35) !important;}
   #btnHistory:hover{background:var(--warn) !important;color:#0f0f1a !important;border-color:var(--warn) !important;transform:translateY(-2px);box-shadow:0 4px 16px rgba(255, 193, 7, 0.4) !important;}
   #btnHistory:active{transform:scale(0.96) !important;}
+
+  .btn-submit:hover {background: var(--secondary); transform: translateY(-2px); box-shadow: 0 4px 15px rgba(162,155,254,0.4);}
+  .btn-submit:active {transform: scale(0.98);}
+  
+  /* FAB (Floating Action Buttons) */
+  .fab-container {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      z-index: 9999;
+  }
+  .fab-btn {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: var(--primary);
+      color: #fff;
+      border: none;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4), 0 0 0 2px rgba(162,155,254,0.3);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.4em;
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      opacity: 0;
+      transform: translateY(20px);
+      pointer-events: none;
+  }
+  .fab-btn.visible {
+      opacity: 1;
+      transform: translateY(0);
+      pointer-events: auto;
+  }
+  .fab-btn:hover {
+      background: var(--secondary);
+      transform: translateY(-3px) scale(1.05);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.5), 0 0 15px rgba(162,155,254,0.4);
+  }
+  .fab-submit {
+      width: auto;
+      padding: 0 24px;
+      border-radius: 99px;
+      font-size: 1.1em;
+      font-weight: 700;
+      background: linear-gradient(135deg, #00b894, #00cec9);
+      box-shadow: 0 4px 15px rgba(0, 184, 148, 0.3), 0 0 0 2px rgba(0, 184, 148, 0.2);
+  }
+  .fab-submit:hover {
+      background: linear-gradient(135deg, #00cec9, #00b894);
+      box-shadow: 0 8px 20px rgba(0, 184, 148, 0.4), 0 0 15px rgba(0, 206, 201, 0.4);
+  }
+  @media (max-width: 600px) {
+      .fab-container { bottom: 16px; right: 16px; gap: 10px; }
+      .fab-btn { width: 44px; height: 44px; font-size: 1.2em; }
+      .fab-submit { padding: 0 20px; font-size: 1em; }
+  }
   
   .quiz-mode .search-wrap, .quiz-mode #searchMeta, .quiz-mode #questions-list, .quiz-mode #noResult, .quiz-mode .stats, .quiz-mode .instruction {display:none !important;}
   .knowledge-mode .search-wrap, .knowledge-mode #searchMeta, .knowledge-mode #questions-list, .knowledge-mode #noResult, .knowledge-mode .stats, .knowledge-mode .instruction {display:none !important;}

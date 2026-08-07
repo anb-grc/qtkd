@@ -137,13 +137,17 @@
   </div>
 
   <script>
+    function normalizeTextForSearch(text) {
+        return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+    }
+
     function filterSubjects() {
-      const input = document.getElementById('searchSubject').value.toLowerCase();
+      const input = normalizeTextForSearch(document.getElementById('searchSubject').value);
       const grid = document.getElementById('subjectsGrid');
       const cards = grid.querySelectorAll('.card');
       
       cards.forEach(card => {
-        const title = card.querySelector('h2').textContent.toLowerCase();
+        const title = normalizeTextForSearch(card.querySelector('h2').textContent);
         if (title.includes(input)) {
           card.style.display = 'flex';
         } else {
@@ -160,6 +164,27 @@
           searchBox.style.boxShadow = 'none';
       }
     }
+
+    window.addEventListener('DOMContentLoaded', () => {
+        const cards = document.querySelectorAll('.card');
+        cards.forEach(card => {
+            const href = card.getAttribute('href');
+            if (href) {
+                let jsonUrl = href.substring(href.lastIndexOf('/') + 1).replace('.html', '_qs.json');
+                let key = 'tvu_history_' + jsonUrl.replace(/[^a-zA-Z0-9]/g, '_');
+                let history = JSON.parse(localStorage.getItem(key) || '[]');
+                if (history.length > 0) {
+                    let lastAttempt = history[history.length - 1];
+                    let scoreTag = document.createElement('div');
+                    scoreTag.style.marginTop = '8px';
+                    scoreTag.style.fontSize = '0.85em';
+                    let color = lastAttempt.percent >= 80 ? '#4cd137' : (lastAttempt.percent >= 50 ? '#fbc531' : '#e84118');
+                    scoreTag.innerHTML = `Lần thi gần nhất: <b style="color: ${color}">${lastAttempt.score}/${lastAttempt.total}</b> <span style="color:var(--muted)">(${lastAttempt.percent}%)</span>`;
+                    card.querySelector('.card-info').appendChild(scoreTag);
+                }
+            }
+        });
+    });
   </script>
 </body>
 </html>
