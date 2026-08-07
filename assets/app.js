@@ -44,13 +44,14 @@ function buildFilterUI(data) {
     `;
     
     let controlsHtml = `
-        <div style="display:flex; gap:10px; margin-top:10px; flex-wrap:wrap; width:100%;">
+        <div style="display:flex; gap:10px; margin-top:10px; flex-wrap:wrap; width:100%; align-items:center;">
             <select id="tagFilter" onchange="filterQuestions()" style="padding:8px 14px; border-radius:8px; border:1px solid var(--border); width:fit-content; max-width:100%; background: var(--surface); color: var(--text); font-family: inherit;">
                 ${tagOptions}
             </select>
             <select id="limitFilter" onchange="changeLimit()" style="padding:8px 14px; border-radius:8px; border:1px solid var(--border); width:fit-content; background: var(--surface); color: var(--text); font-family: inherit;">
                 ${limitOptions}
             </select>
+            <button id="sortBtn" onclick="sortQuestions()" style="padding:8px 14px; border-radius:8px; border:1px solid var(--border); width:fit-content; background: var(--surface); color: var(--text); font-family: inherit; cursor:pointer; white-space:nowrap;">High ↑</button>
         </div>
     `;
     
@@ -69,6 +70,30 @@ function changeLimit() {
     } else {
         window.currentLimit = parseInt(val);
     }
+    window.currentRendered = 0;
+    document.getElementById('questions-list').innerHTML = '';
+    renderBatch();
+}
+
+// Sắp xếp: toggle High↑ (high trước) ↔ Low↑ (low trước)
+window.currentSortDir = 'high-first';
+function sortQuestions() {
+    const btn = document.getElementById('sortBtn');
+    if (window.currentSortDir === 'high-first') {
+        window.currentSortDir = 'low-first';
+        btn.textContent = 'Low ↑';
+    } else {
+        window.currentSortDir = 'high-first';
+        btn.textContent = 'High ↑';
+    }
+
+    const weightOrder = { high: 0, normal: 1 };
+    window.filteredData.sort((a, b) => {
+        const wA = weightOrder[a.weight] ?? 1;
+        const wB = weightOrder[b.weight] ?? 1;
+        return window.currentSortDir === 'high-first' ? wA - wB : wB - wA;
+    });
+
     window.currentRendered = 0;
     document.getElementById('questions-list').innerHTML = '';
     renderBatch();
