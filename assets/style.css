@@ -556,16 +556,33 @@
     .kb-funnel-arrow::before { transform: rotate(135deg); margin-left: 0; margin-top: 2px; }
   }
 
-    /* Tối ưu hiển thị bảng (Table) */
+  /* Tối ưu hiển thị bảng (Table) */
   .table-responsive {
       width: 100%;
       overflow-x: auto;
       -webkit-overflow-scrolling: touch;
       margin-bottom: 10px;
   }
+  
+  /* Tùy chỉnh thanh cuộn mỏng và tinh tế cho bảng */
+  .table-responsive::-webkit-scrollbar {
+      height: 6px; 
+  }
+  .table-responsive::-webkit-scrollbar-track {
+      background: var(--bg); 
+      border-radius: 4px;
+  }
+  .table-responsive::-webkit-scrollbar-thumb {
+      background: var(--border-md); 
+      border-radius: 4px;
+  }
+  .table-responsive::-webkit-scrollbar-thumb:hover {
+      background: var(--primary-lt); 
+  }
+
   table {
       width: 100%;
-      border-collapse: collapse;
+      border-collapse: collapse !important;
   }
   table th, table td {
       padding: 8px;
@@ -577,11 +594,15 @@
       font-weight: 600;
   }
   
-  /* Reset hardcoded inline backgrounds for Dark Mode visibility */
+  /* Reset hardcoded inline backgrounds & borders for Dark Mode visibility */
+  .question table, .quiz-q-box table {
+      border: 1px solid var(--border-md) !important;
+  }
   .question table th, .question table tr, .question table td,
   .quiz-q-box table th, .quiz-q-box table tr, .quiz-q-box table td {
       background-color: transparent !important;
       color: var(--text) !important;
+      border: 1px solid var(--border-md) !important;
   }
 
   /* --- NEW 9 PREMIUM COMPONENTS & RESPONSIVE OVERHAUL --- */
