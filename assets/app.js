@@ -310,7 +310,7 @@ function switchMode(mode) {
     } else if(mode === 'knowledge') {
       document.body.classList.add('knowledge-mode');
       if (btnKnowledge) btnKnowledge.classList.add('active');
-      if (instEl) instEl.innerHTML = '💡 Nhấn vào từng chương để xem nội dung &nbsp;|&nbsp; Tương tác với các thẻ, biểu đồ để ghi nhớ sâu';
+      if (instEl) instEl.innerHTML = 'Nhấn vào từng chương để xem nội dung &nbsp;|&nbsp; Tương tác với các thẻ, biểu đồ để ghi nhớ sâu';
       if (typeof renderKnowledgeBase === 'function') { renderKnowledgeBase(); }
     }
 }
@@ -369,7 +369,7 @@ function startQuiz(quizMode = 'optimized') {
     if (btnStudy) btnStudy.classList.remove('active');
     if (btnKnowledge) btnKnowledge.classList.remove('active');
     if (btnQuiz) btnQuiz.classList.add('active');
-    if (instEl) instEl.innerHTML = '💡 Đọc kỹ câu hỏi → Chọn 1 đáp án đúng nhất → Bấm Nộp bài để chấm điểm & xem giải thích';
+    if (instEl) instEl.innerHTML = 'Đọc kỹ câu hỏi → Chọn 1 đáp án đúng nhất → Bấm Nộp bài để chấm điểm & xem giải thích';
     
     document.getElementById('quiz-result-summary').style.display = 'none';
     
@@ -654,11 +654,11 @@ function submitQuiz() {
     let summary = document.getElementById('quiz-result-summary');
     summary.style.display = 'block';
     summary.innerHTML = `
-      <div>🎯 Điểm của bạn: <span style="color:var(--primary);font-size:1.5em;">${score10} / 10</span></div>
+      <div>Điểm của bạn: <span style="color:var(--primary);font-size:1.5em;">${score10} / 10</span></div>
       <div style="font-size: 0.9em; color: #666; margin-top: 5px;">(Trả lời đúng ${score} / ${quizQuestions.length} câu)</div>
       <div style="margin-top: 15px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
-        ${wrongIndices.length > 0 ? `<button class="btn-filter-wrong" onclick="filterWrongQuestions()">👁️ Chỉ xem ${wrongIndices.length} câu sai</button>` : `<div style="color:var(--success); display:flex; align-items:center;">Tuyệt vời! Bạn làm đúng hết!</div>`}
-        <button class="btn-continue-quiz" onclick="showQuizModal()">🔄 Luyện tiếp</button>
+        ${wrongIndices.length > 0 ? `<button class="btn-filter-wrong" onclick="filterWrongQuestions()">Chỉ xem ${wrongIndices.length} câu sai</button>` : `<div style="color:var(--success); display:flex; align-items:center;">Tuyệt vời! Bạn làm đúng hết!</div>`}
+        <button class="btn-continue-quiz" onclick="showQuizModal()">Luyện tiếp</button>
       </div>
     `;
     window.scrollTo({top: 0, behavior: 'smooth'});
@@ -762,7 +762,7 @@ function renderHistory() {
             </div>
           `;
       }
-      contentHtml += `<div style="text-align: center; margin-top: 20px;"><button class="btn-clear-history" onclick="clearHistory()">🗑️ Xóa lịch sử</button></div>`;
+      contentHtml += `<div style="text-align: center; margin-top: 20px;"><button class="btn-clear-history" onclick="clearHistory()">Xóa lịch sử</button></div>`;
     }
     document.getElementById('history-content').innerHTML = contentHtml;
     modal.style.display = 'flex';
@@ -865,7 +865,7 @@ async function renderKnowledgeBase() {
             html += `
             <div class="kb-section">
                 <div class="kb-header" onclick="toggleKb('${chapterId}')">
-                    <span>📚 ${chapter.title}</span>
+                    <span>${chapter.title}</span>
                     <span>▼</span>
                 </div>
                 <div class="kb-content" id="${chapterId}">
@@ -934,7 +934,7 @@ function renderKbBlock(block) {
             let root = data.root || 'Root';
             let children = data.children || data.branches || data.nodes || content.nodes || block.nodes || [];
             let nodesHtml = children.map(n => `<div class="kb-mindmap-node">📌 ${n.name || n.label || n.title || n}</div>`).join('');
-            return wrapBlock('🗺️', 'Sơ đồ tư duy', `
+            return wrapBlock('', 'Sơ đồ tư duy', `
                 <div class="kb-mindmap-root">🧠 ${root}</div>
                 <div class="kb-mindmap-children">${nodesHtml}</div>
             `, 'text-center');
@@ -966,7 +966,7 @@ function renderKbBlock(block) {
             let rDesc = (data.right && (data.right.content || data.right.desc || data.right.description)) || data.col2_desc || data.side2_desc || block.descB || (data.right && data.right.items ? data.right.items.join('<br>') : '');
             if (Array.isArray(lDesc)) lDesc = lDesc.join('<br>• ');
             if (Array.isArray(rDesc)) rDesc = rDesc.join('<br>• ');
-            return wrapBlock('⚖️', 'So sánh', `
+            return wrapBlock('', 'So sánh', `
                 <div class="kb-vs-wrap">
                     <div class="kb-vs-card green">
                         <div class="vs-title">🟢 ${lTitle}</div>
@@ -1011,7 +1011,7 @@ function renderKbBlock(block) {
                     </div>
                 </div>`;
             }).join('');
-            return wrapBlock('🔄', 'Quy trình / Chu trình', flowHtml);
+            return wrapBlock('', 'Quy trình / Chu trình', flowHtml);
             
         case 'onion':
             let layers = data.layers || data.levels || [];
@@ -1023,7 +1023,7 @@ function renderKbBlock(block) {
                     <div><strong>${name}</strong><br><span class="onion-desc">${desc}</span></div>
                 </div>`;
             }).join('');
-            return wrapBlock('🎯', 'Mô hình Onion', `<div class="kb-onion">${onionHtml}</div>`, 'onion-block');
+            return wrapBlock('', 'Mô hình Onion', `<div class="kb-onion">${onionHtml}</div>`, 'onion-block');
             
         case 'venn':
         case 'venn-diagram':
