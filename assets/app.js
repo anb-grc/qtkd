@@ -378,7 +378,7 @@ function startQuiz(quizMode = 'optimized') {
     document.getElementById('quiz-result-summary').style.display = 'none';
     
     let selected = [];
-    const totalQuestions = (window.subjectConfig && window.subjectConfig.quizTotal) ? window.subjectConfig.quizTotal : 40;
+    const totalQuestions = window.selectedQuizCount || ((window.subjectConfig && window.subjectConfig.quizTotal) ? window.subjectConfig.quizTotal : 40);
     
     if (quizMode === 'optimized') {
         let highPriority = window.quizData.filter(q => q.weight === 'high' || (q.tags && (q.tags.includes('80/20') || q.tags.includes('Trọng tâm'))));
@@ -397,22 +397,28 @@ function startQuiz(quizMode = 'optimized') {
     } else if (quizMode === 'structured') {
         if (window.subjectConfig && window.subjectConfig.structure && window.subjectConfig.structure.length > 0) {
             let usedQuestions = new Set();
+            let totalConfigured = window.subjectConfig.structure.reduce((sum, rule) => sum + rule.count, 0);
             window.subjectConfig.structure.forEach(rule => {
                 let pool = window.quizData.filter(q => q.tags && q.tags.includes(rule.tag) && !usedQuestions.has(q.question));
                 pool.sort(() => 0.5 - Math.random());
-                let picked = pool.slice(0, rule.count);
+                // Quy đổi tỷ lệ nếu totalQuestions khác với config gốc
+                let scaledCount = Math.round(rule.count * (totalQuestions / totalConfigured));
+                let picked = pool.slice(0, scaledCount);
                 picked.forEach(q => {
                     selected.push(q);
                     usedQuestions.add(q.question);
                 });
             });
-            // Nếu cấu trúc không bốc đủ totalQuestions, bù thêm ngẫu nhiên
+            // Nếu cấu trúc không bốc đủ totalQuestions (do làm tròn), bù thêm ngẫu nhiên
             if (selected.length < totalQuestions) {
                 let pool = window.quizData.filter(q => !usedQuestions.has(q.question));
                 pool.sort(() => 0.5 - Math.random());
                 let remain = totalQuestions - selected.length;
                 let picked = pool.slice(0, Math.min(remain, pool.length));
                 picked.forEach(q => selected.push(q));
+            }
+            if (selected.length > totalQuestions) {
+                selected = selected.slice(0, totalQuestions);
             }
         } else {
             // Fallback nếu không có config cấu trúc: Bốc ngẫu nhiên toàn bộ
@@ -800,27 +806,66 @@ function showQuizModal() {
     if (!modal) {
         let html = `
         <div id="quiz-mode-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); z-index:9999; justify-content:center; align-items:center; backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px);">
-            <div style="background:var(--surface); border:1px solid var(--border); width:90%; max-width:400px; border-radius:16px; padding:26px; text-align:center; box-shadow:var(--shadow-md); animation: fadeUp 0.3s ease;">
-                <h2 style="margin-top:0; color:var(--text); font-size:1.35em;">Chọn chế độ Luyện thi</h2>
-                <p style="color:var(--muted); font-size:0.92em; margin-bottom:22px;">Bạn muốn làm bài theo hình thức nào?</p>
-                <div style="display:flex; flex-direction:column; gap:14px;">
-                    <button onclick="startQuiz('optimized')" class="modal-btn modal-btn-opt">
-                        <span>Luyện Tối Ưu (80/20)</span>
-                        <span class="modal-btn-sub">Chỉ bốc câu hỏi trọng tâm, thường ra thi</span>
-                    </button>
-                    <button onclick="startQuiz('structured')" class="modal-btn modal-btn-str">
-                        <span>Luyện Cấu Trúc Đề</span>
-                        <span class="modal-btn-sub">Bốc theo cấu trúc chương/dạng bài chuẩn</span>
-                    </button>
+            <div style="background:var(--surface); border:1px solid var(--border); width:90%; max-width:400px; border-radius:16px; padding:26px; text-align:center; box-shadow:var(--shadow-md); animation: fadeUp 0.3s ease; position:relative; overflow:hidden;">
+                
+                <!-- BƯỚC 1: CHỌN CHẾ ĐỘ -->
+                <div id="quiz-modal-step-1">
+                    <h2 style="margin-top:0; color:var(--text); font-size:1.35em;">Chọn chế độ Luyện thi</h2>
+                    <p style="color:var(--muted); font-size:0.92em; margin-bottom:22px;">Bạn muốn làm bài theo hình thức nào?</p>
+                    <div style="display:flex; flex-direction:column; gap:14px;">
+                        <button onclick="selectQuizMode('optimized')" class="modal-btn modal-btn-opt">
+                            <span>Luyện Tối Ưu (80/20)</span>
+                            <span class="modal-btn-sub">Chỉ bốc câu hỏi trọng tâm, thường ra thi</span>
+                        </button>
+                        <button onclick="selectQuizMode('structured')" class="modal-btn modal-btn-str">
+                            <span>Luyện Cấu Trúc Đề</span>
+                            <span class="modal-btn-sub">Bốc theo cấu trúc chương/dạng bài chuẩn</span>
+                        </button>
+                    </div>
+                    <button onclick="document.getElementById('quiz-mode-modal').style.display='none'" class="modal-btn-cancel">Hủy bỏ</button>
                 </div>
-                <button onclick="document.getElementById('quiz-mode-modal').style.display='none'" class="modal-btn-cancel">Hủy bỏ</button>
+
+                <!-- BƯỚC 2: CHỌN SỐ CÂU HỎI -->
+                <div id="quiz-modal-step-2" style="display:none;">
+                    <h2 style="margin-top:0; color:var(--text); font-size:1.35em;">Số lượng câu hỏi</h2>
+                    <p style="color:var(--muted); font-size:0.92em; margin-bottom:22px;">Bạn muốn thi bao nhiêu câu?</p>
+                    <div style="display:flex; flex-direction:column; gap:14px;">
+                        <button onclick="startQuizWithCount(15)" class="modal-btn modal-btn-str" style="flex-direction:row; justify-content:space-between; padding:16px 20px;">
+                            <span>15 Câu</span><span style="font-size:0.85em; font-weight:normal; opacity:0.8;">(Kiểm tra nhanh)</span>
+                        </button>
+                        <button onclick="startQuizWithCount(20)" class="modal-btn modal-btn-str" style="flex-direction:row; justify-content:space-between; padding:16px 20px;">
+                            <span>20 Câu</span><span style="font-size:0.85em; font-weight:normal; opacity:0.8;">(Tiêu chuẩn)</span>
+                        </button>
+                        <button onclick="startQuizWithCount(40)" class="modal-btn modal-btn-opt" style="flex-direction:row; justify-content:space-between; padding:16px 20px;">
+                            <span>40 Câu</span><span style="font-size:0.85em; font-weight:normal; opacity:0.8;">(Thi thật)</span>
+                        </button>
+                    </div>
+                    <button onclick="document.getElementById('quiz-modal-step-2').style.display='none'; document.getElementById('quiz-modal-step-1').style.display='block';" class="modal-btn-cancel">Quay lại</button>
+                </div>
+
             </div>
         </div>
         `;
         document.body.insertAdjacentHTML('beforeend', html);
         modal = document.getElementById('quiz-mode-modal');
     }
+    
+    // Đảm bảo luôn bắt đầu ở bước 1 mỗi khi mở modal
+    document.getElementById('quiz-modal-step-2').style.display = 'none';
+    document.getElementById('quiz-modal-step-1').style.display = 'block';
     modal.style.display = 'flex';
+}
+
+window.tempQuizMode = 'optimized';
+window.selectQuizMode = function(mode) {
+    window.tempQuizMode = mode;
+    document.getElementById('quiz-modal-step-1').style.display = 'none';
+    document.getElementById('quiz-modal-step-2').style.display = 'block';
+}
+
+window.startQuizWithCount = function(count) {
+    window.selectedQuizCount = count;
+    startQuiz(window.tempQuizMode);
 }
 
 // ---------------------------------
