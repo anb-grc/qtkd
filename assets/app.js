@@ -664,8 +664,8 @@ function submitQuiz() {
     summary.innerHTML = `
       <div>Điểm của bạn: <span style="color:var(--primary);font-size:1.5em;">${score10} / 10</span></div>
       <div style="font-size: 0.9em; color: #666; margin-top: 5px;">(Trả lời đúng ${score} / ${quizQuestions.length} câu)</div>
-      <div style="margin-top: 15px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
-        ${wrongIndices.length > 0 ? `<button class="btn-filter-wrong" onclick="filterWrongQuestions()">Chỉ xem ${wrongIndices.length} câu sai</button>` : `<div style="color:var(--success); display:flex; align-items:center;">Tuyệt vời! Bạn làm đúng hết!</div>`}
+      <div style="margin-top: 15px; display: flex; flex-direction: column; gap: 10px; align-items: center;">
+        ${wrongIndices.length > 0 ? `<button class="btn-filter-wrong" onclick="filterWrongQuestions()" style="margin-top:0;">Chỉ xem ${wrongIndices.length} câu sai</button>` : `<div style="color:var(--success); display:flex; align-items:center;">Tuyệt vời! Bạn làm đúng hết!</div>`}
         <button class="btn-continue-quiz" onclick="showQuizModal()">Luyện tiếp</button>
       </div>
     `;
