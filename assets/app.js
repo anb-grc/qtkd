@@ -35,20 +35,20 @@ function buildFilterUI(data) {
     });
     
     let limitOptions = `
-        <option value="5">Hiển thị: 5 câu</option>
-        <option value="10">Hiển thị: 10 câu</option>
-        <option value="15" selected>Hiển thị: 15 câu</option>
-        <option value="20">Hiển thị: 20 câu</option>
-        <option value="40">Hiển thị: 40 câu</option>
-        <option value="all">Hiển thị: Tất cả</option>
+        <option value="5">5 câu</option>
+        <option value="10">10 câu</option>
+        <option value="15" selected>15 câu</option>
+        <option value="20">20 câu</option>
+        <option value="40">40 câu</option>
+        <option value="all">Tất cả</option>
     `;
     
     let controlsHtml = `
         <div style="display:flex; gap:10px; margin-top:10px; flex-wrap:wrap; width:100%;">
-            <select id="tagFilter" onchange="filterQuestions()" style="padding:8px 14px; border-radius:8px; border:1px solid var(--border); flex:1; min-width:150px; background: var(--surface); color: var(--text); font-family: inherit;">
+            <select id="tagFilter" onchange="filterQuestions()" style="padding:8px 14px; border-radius:8px; border:1px solid var(--border); width:fit-content; max-width:100%; background: var(--surface); color: var(--text); font-family: inherit;">
                 ${tagOptions}
             </select>
-            <select id="limitFilter" onchange="changeLimit()" style="padding:8px 14px; border-radius:8px; border:1px solid var(--border); flex:1; min-width:150px; background: var(--surface); color: var(--text); font-family: inherit;">
+            <select id="limitFilter" onchange="changeLimit()" style="padding:8px 14px; border-radius:8px; border:1px solid var(--border); width:fit-content; background: var(--surface); color: var(--text); font-family: inherit;">
                 ${limitOptions}
             </select>
         </div>
