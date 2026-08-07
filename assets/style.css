@@ -97,7 +97,7 @@
   .answer{display:none;flex-wrap:wrap;align-items:flex-start;gap:10px;margin-top:18px;padding-top:18px;border-top:1px dashed var(--border-md);font-size:.96em;color:var(--text);line-height:1.75;}
   .answer-title{display:inline-block;max-width:100%;font-size:.85em;font-weight:700;color:var(--success);background:var(--success-lt);padding:6px 16px;border-radius:12px;margin-bottom:0px;line-height:1.5;word-break:break-word;border:1px solid rgba(0, 210, 160, 0.3);}
   .note{flex-basis:100%;font-size:.88em;color:var(--muted);margin-top:6px;background:rgba(15, 15, 26, 0.6);border:1px solid rgba(255, 193, 7, 0.3);padding:14px 18px;border-radius:8px;line-height:1.7;}
-  .answer-text{flex: 1; line-height: 1.75; padding-top: 4px; font-weight:500;}
+  .answer-text{flex: 1; line-height: 1.75; padding-top: 3px; font-weight:500;}
   
   /* BADGES */
   .badge{display:inline-block;font-size:.66em;font-weight:700;padding:2px 8px;border-radius:99px;text-transform:uppercase;letter-spacing:.4px;}
@@ -522,7 +522,7 @@
   .quiz-opt-label.wrong .opt-text{color:#ffffff;font-weight:700;}
   
   .quiz-actions{text-align:center;margin:30px 0;}
-  .btn-submit-quiz{background:var(--primary);color:white;border:1px solid rgba(255,255,255,0.1);padding:12px 30px;font-size:1.1em;font-weight:600;border-radius:12px;cursor:pointer;box-shadow:var(--shadow), 0 0 15px rgba(108, 92, 231, 0.3);transition:all 0.2s;}
+  .btn-submit-quiz{background:var(--primary);color:white;border:1px solid rgba(255,255,255,0.1);padding:10px 24px;font-size:1.05em;font-weight:700;letter-spacing:1px;text-transform:uppercase;border-radius:12px;cursor:pointer;box-shadow:var(--shadow), 0 0 15px rgba(108, 92, 231, 0.3);transition:all 0.2s;}
   .btn-submit-quiz:hover{transform:translateY(-2px);box-shadow:0 8px 25px rgba(108, 92, 231, 0.5);}
   .btn-submit-quiz:active{transform:translateY(0) scale(0.96);}
   

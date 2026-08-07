@@ -537,7 +537,7 @@ function startQuiz(quizMode = 'optimized') {
       </div>`;
     });
     
-    html += `<div class="quiz-actions"><button class="btn-submit-quiz" id="btnSubmitQuiz" onclick="submitQuiz()">Nộp Bài (Chấm Điểm)</button></div>`;
+    html += `<div class="quiz-actions"><button class="btn-submit-quiz" id="btnSubmitQuiz" onclick="submitQuiz()">NỘP</button></div>`;
     document.getElementById('quiz-content').innerHTML = html;
     if (window.MathJax && typeof window.MathJax.typesetPromise === 'function') { MathJax.typesetPromise(); }
     window.scrollTo({top: 0, behavior: 'smooth'});
@@ -1187,7 +1187,7 @@ function setupKbInteractions(container) {
 document.addEventListener('DOMContentLoaded', () => {
     let fabHtml = `
     <div class="fab-container" id="fabContainer">
-        <button class="fab-btn fab-submit" id="fabSubmit" onclick="submitQuiz()">Nộp Bài</button>
+        <button class="fab-btn fab-submit" id="fabSubmit" onclick="submitQuiz()">Nộp</button>
         <button class="fab-btn" id="fabBackToTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑</button>
     </div>
     `;
