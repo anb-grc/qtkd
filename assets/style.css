@@ -160,6 +160,17 @@
       transform: translateY(-3px) scale(1.05);
       box-shadow: 0 8px 20px rgba(0,0,0,0.5), 0 0 15px rgba(162,155,254,0.4);
   }
+  #fabBackToTop {
+      width: 40px;
+      height: 40px;
+      font-size: 1.1em;
+      background: rgba(108, 92, 231, 0.5); /* var(--primary) with 50% opacity */
+      backdrop-filter: blur(4px);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  }
+  #fabBackToTop:hover {
+      background: rgba(162, 155, 254, 0.8); /* var(--secondary) with more opacity on hover */
+  }
   .fab-submit {
       width: auto;
       padding: 0 24px;
