@@ -52,11 +52,13 @@ Quy trình co-work chuẩn hóa cho toàn bộ vòng đời môn học, vận h�
 - **Bước 1:** **User** mở khung chat lên và nhập mật lệnh: **"Bắt đầu"**.
 - **Bước 2:** **Agent** lắng nghe mật lệnh, lập tức quét thư mục `_sources/` ở gốc Workspace, đối chiếu với danh sách môn đã build để tìm ra các môn học mới. Sau đó, **liệt kê rõ ràng danh sách các môn chưa được build** và hỏi User: *"Mày muốn bắt đầu môn nào trước?"*
 - **Bước 3:** **User** phản hồi chọn tên môn học cần xử lý.
-- **Bước 4:** **Agent** tiếp nhận tên môn, tự động tạo thư mục môn học đó và xây nền móng giàn giáo (`raw_inputs/`, `staging/`, file `kb.json` và file `qs.json`), hoàn tất phản hồi kèm **Báo Cáo Nghiệm Thu** (Đã build những gì, trạng thái từng cái).
-- **Bước 5 & 6:** **User** ok hoặc yêu cầu hiệu chỉnh ➔ Chốt nghiệm thu xong nền móng ban đầu.
+- **Bước 4:** **Agent** tiếp nhận tên môn, tự động làm việc bên trong thư mục môn học đó tại `_sources/[Tên Môn]/` và xây nền móng giàn giáo (`raw_inputs/`, `staging/`, file `kb.json` và file `qs.json`), hoàn tất phản hồi kèm **Báo Cáo Nghiệm Thu** (Đã build những gì, trạng thái từng cái).
+- **Bước 5:** (Tuỳ chọn) Nếu web chưa khai báo môn, cập nhật ngay file `assets/config.js` trỏ đường dẫn tới `_sources/[Tên Môn]/Ngan_hang_de...qs.json` để App nhận diện.
+- **Bước 6:** Khi nghe mật lệnh "Bắt đầu cày búa", Agent lôi source thô ra làm theo Kiến trúc 3 Lớp ở Bước 9. Làm im lặng, xong báo cáo.
 - **Bước 7:** **User** (nếu chưa có sẵn) quăng toàn bộ kiến thức và tài liệu giáo trình của trường vào thư mục `_sources/[Tên Môn]/`, sau đó thông báo cho Agent.
-- **Bước 8:** **Agent** tự động đọc phân rã theo nguyên tắc *"Tinh gọn từ ngữ, Cấm bỏ sót tầng ý"*, chuyển đổi thành kiến thức trực quan nhét vào `kb.json` (sử dụng Kho 34 Component), test build thành công và xuất **Báo Cáo Nghiệm Thu** (thông tin, trạng thái, các component áp dụng).
-- **Bước 9 & 10:** **User** chốt hoặc hiệu chỉnh thêm ➔ Chốt final "Kiến thức nền" và trigger Deploy CI/CD trực tiếp lên trang Kiến thức môn học.
+- **Bước 8:** **Agent** tiến hành chắt lọc và cấu trúc lại theo Ma trận 34 linh kiện (Component) (nhớ bám sát "Nguyên tắc tinh gọn ý"), output lưu vào file `_sources/[Tên Môn]/kb.json`. Nhớ chạy Sandbox an toàn và tạo Báo Cáo. Mọi công việc kết thúc thì dùng lệnh `git push` để Deploy ngay. Mọi thứ tự động cập nhật lên Web.
+- **Bước 9 (The Core 3-layer protection):**
+  - Thi triển luân lưu Kiến trúc 3 lớp: Lọc trùng trên Staging ➔ Khảm bùa Ma Trận Lục Hợp (Highlight từ khóa, tách `<div class="options-grid">` và `<div class="note">`) ➔ Safe Write vào `qs.json`.g Kiến thức môn học.
 - **Bước 11:** **User** quăng bộ câu hỏi trắc nghiệm (có đáp án hoặc **chưa có đáp án**) vào thư mục `raw_inputs/` của môn đó cho Agent.
 - **Bước 12:** **Agent** kích hoạt Dây chuyền Xử lý Đề 1 Chạm:
   - **Quy tắc Tự Giải Đề:** Với những câu hỏi *chưa có đáp án*, Agent có nghĩa vụ móc nối dữ liệu lý do từ Bước 8 để tự động suy luận bẻ khóa tìm đáp án đúng 100%.
