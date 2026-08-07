@@ -378,45 +378,8 @@ function startQuiz(quizMode = 'optimized') {
     quizQuestions.forEach((qObj, index) => {
       let qHtml = qObj.question.replace(/<br\s*\/?>\s*<br\s*\/?>/gi, '<br>');
       let correctAns = extractRawAnswerData(qObj);
-      let options = [];
+      let options = qObj.options && qObj.options.length >= 4 ? [...qObj.options] : [];
       let finalQHtml = qHtml;
-      
-      let tmpDiv = document.createElement('div');
-      tmpDiv.innerHTML = qHtml;
-      
-      let optionsGrid = tmpDiv.querySelector('.options-grid');
-      
-      if (optionsGrid) {
-          // Extract the options directly from the grid
-          let optDivs = optionsGrid.querySelectorAll('div');
-          options = Array.from(optDivs).map(d => d.innerHTML.trim());
-          
-          // Remove options-grid from the question text
-          optionsGrid.remove();
-          finalQHtml = tmpDiv.innerHTML.trim();
-          finalQHtml = finalQHtml.replace(/(<br\s*\/?>\s*)+$/, "");
-      } else {
-          // Legacy fallback if options-grid is missing
-          let textForRegex = qHtml.replace(/<br\s*\/?>/gi, '\n');
-          let tmpTextDiv = document.createElement('div');
-          tmpTextDiv.innerHTML = textForRegex;
-          let plainText = tmpTextDiv.textContent || tmpTextDiv.innerText;
-          
-          let match = plainText.match(/A[\.\)]\s*(.*?)\s*B[\.\)]\s*(.*?)\s*C[\.\)]\s*(.*?)\s*D[\.\)]\s*(.*)/is);
-          if (match) {
-              options = [match[1].trim(), match[2].trim(), match[3].trim(), match[4].trim()];
-              options = options.map(opt => opt.replace(/\n/g, '<br>'));
-              let matches = [...qHtml.matchAll(/A[\.\)](?:\s|&nbsp;|<br|<\/?p>|<span)/g)];
-              let cutIndex = matches.length > 0 ? matches[matches.length - 1].index : -1;
-              if(cutIndex > -1) {
-                  finalQHtml = qHtml.substring(0, cutIndex).trim();
-                  finalQHtml = finalQHtml.replace(/(<br\s*\/?>\s*)+$/, "");
-              }
-          } else {
-              // Final fallback: no options found, and we no longer borrow distractors.
-              options = [correctAns, "N/A", "N/A", "N/A"];
-          }
-      }
 
       // Cleanup A., B., C., D. prefixes if they exist at the start of options
       options = options.map(opt => {
@@ -453,16 +416,21 @@ function startQuiz(quizMode = 'optimized') {
       }
       if(correctIdx === -1) correctIdx = 0;
       
-      let mappedOptions = options.map((opt, idx) => {
-          let text = opt;
-          if (idx !== correctIdx) {
-              text = stripHighlight(text);
-          }
-          return { text: text, isCorrect: idx === correctIdx };
-      });
-      mappedOptions.sort(() => 0.5 - Math.random());
-      options = mappedOptions.map(o => o.text);
-      correctAns = mappedOptions.find(o => o.isCorrect).text;
+      if (options.length > 0) {
+          let mappedOptions = options.map((opt, idx) => {
+              let text = opt;
+              if (idx !== correctIdx) {
+                  text = stripHighlight(text);
+              }
+              return { text: text, isCorrect: idx === correctIdx };
+          });
+          mappedOptions.sort(() => 0.5 - Math.random());
+          options = mappedOptions.map(o => o.text);
+          let correctOption = mappedOptions.find(o => o.isCorrect);
+          correctAns = correctOption ? correctOption.text : "";
+      } else {
+          correctAns = "";
+      }
       
       html += `
         <div class="quiz-q-box" id="quiz-q-${index}" data-correct="${options.indexOf(correctAns)}">
@@ -470,14 +438,23 @@ function startQuiz(quizMode = 'optimized') {
           <div class="quiz-q-text">${finalQHtml}</div>
           <div class="quiz-options">
       `;
-      options.forEach((opt, optIdx) => {
-        html += `
-          <label class="quiz-opt-label" id="lbl-q${index}-opt${optIdx}">
-            <input type="radio" name="q_${index}" value="${optIdx}">
-            <span class="opt-text">${opt}</span>
-          </label>
-        `;
-      });
+      
+      if (options.length > 0) {
+          options.forEach((opt, optIdx) => {
+            html += `
+              <label class="quiz-opt-label" id="lbl-q${index}-opt${optIdx}">
+                <input type="radio" name="q_${index}" value="${optIdx}">
+                <span class="opt-text">${opt}</span>
+              </label>
+            `;
+          });
+      } else {
+          html += `
+              <div class="quiz-essay-placeholder" style="padding: 10px; background: rgba(255,255,255,0.05); border-radius: 8px; margin-bottom: 12px;">
+                 <p style="color: rgba(255,255,255,0.7); font-style: italic; font-size: 0.9em; margin: 0;">(Chế độ tự luận: Bạn hãy tự suy nghĩ câu trả lời và bấm Nộp bài để xem đáp án đúng)</p>
+              </div>
+          `;
+      }
       let ansHtml = qObj.answer.replace(/(<div class="answer-title">[\s\S]*?<\/div>)([\s\S]*?)(?=<div|$)/i, function(match, p1, p2) {
           if(p2.trim()) {
               return p1 + `<div class="answer-text" style="flex: 1; line-height: 1.6; padding-top: 2px;">${p2}</div>`;
@@ -507,20 +484,30 @@ function submitQuiz() {
       let correctIdx = parseInt(qBox.dataset.correct);
       let selected = document.querySelector(`input[name="q_${index}"]:checked`);
       
-      document.getElementById(`lbl-q${index}-opt${correctIdx}`).classList.add('correct');
+      let allRadios = qBox.querySelectorAll('input[type="radio"]');
+      let isEssay = allRadios.length === 0;
       
-      if(selected) {
-        let selectedIdx = parseInt(selected.value);
-        if(selectedIdx === correctIdx) {
-          score++;
-        } else {
-          document.getElementById(`lbl-q${index}-opt${selectedIdx}`).classList.add('wrong');
-          wrongIndices.push(index);
-          qBox.classList.add('is-wrong');
-        }
+      if (!isEssay) {
+          let correctLabel = document.getElementById(`lbl-q${index}-opt${correctIdx}`);
+          if (correctLabel) correctLabel.classList.add('correct');
+          
+          if(selected) {
+            let selectedIdx = parseInt(selected.value);
+            if(selectedIdx === correctIdx) {
+              score++;
+            } else {
+              document.getElementById(`lbl-q${index}-opt${selectedIdx}`).classList.add('wrong');
+              wrongIndices.push(index);
+              qBox.classList.add('is-wrong');
+            }
+          } else {
+            wrongIndices.push(index);
+            qBox.classList.add('is-wrong');
+          }
+          allRadios.forEach(inp => inp.disabled = true);
       } else {
-        wrongIndices.push(index);
-        qBox.classList.add('is-wrong');
+          // Tự luận: Không chấm điểm sai, mặc định cộng điểm khuyến khích để ko bị điểm 0.
+          score++;
       }
       
       qBox.querySelectorAll('input').forEach(inp => inp.disabled = true);
