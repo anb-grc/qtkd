@@ -47,25 +47,26 @@ Thay vì bắt học sinh nhớ cả câu dài, hệ thống chỉ Highlight (in
 
 ## TẦNG 3: ARCHITECTURE & PROCESS (Quy trình & Tổ chức)
 
-**1. Giao Thức Hợp Tác 11 Bước Dev ↔ Agent & Vòng Lặp CI/CD Song Song:**
+**1. Giao Thức Hợp Tác 13 Bước Dev ↔ Agent & Vòng Lặp CI/CD Song Song:**
 Quy trình co-work chuẩn hóa cho toàn bộ vòng đời môn học, vận hành theo tiêu chí: *“Làm tới đâu, kiểm thử 0 lỗi, lên sàn Vercel ngay tới đó”*:
 - **Bước 1:** **User** mở khung chat lên và nhập mật lệnh: **"Bắt đầu"**.
 - **Bước 2:** **Agent** lắng nghe mật lệnh, lập tức quét thư mục `_sources/` ở gốc Workspace, đối chiếu với danh sách môn đã build để tìm ra các môn học mới. Sau đó, **liệt kê rõ ràng danh sách các môn chưa được build** và hỏi User: *"Mày muốn bắt đầu môn nào trước?"*
 - **Bước 3:** **User** phản hồi chọn tên môn học cần xử lý.
-- **Bước 4:** **Agent** tiếp nhận tên môn, tự động làm việc bên trong thư mục môn học đó tại `_sources/[Tên Môn]/` và xây nền móng giàn giáo (`raw_inputs/`, `staging/`, file `kb.json` và file `qs.json`), hoàn tất phản hồi kèm **Báo Cáo Nghiệm Thu** (Đã build những gì, trạng thái từng cái).
-- **Bước 5:** (Tuỳ chọn) Nếu web chưa khai báo môn, cập nhật ngay file `assets/config.js` trỏ đường dẫn tới `_sources/[Tên Môn]/Ngan_hang_de...qs.json` để App nhận diện.
-- **Bước 6:** Khi nghe mật lệnh "Bắt đầu cày búa", Agent lôi source thô ra làm theo Kiến trúc 3 Lớp ở Bước 9. Làm im lặng, xong báo cáo.
-- **Bước 7:** **User** (nếu chưa có sẵn) quăng toàn bộ kiến thức và tài liệu giáo trình của trường vào thư mục `_sources/[Tên Môn]/`, sau đó thông báo cho Agent.
-- **Bước 8:** **Agent** tiến hành chắt lọc và cấu trúc lại theo Ma trận 34 linh kiện (Component) (nhớ bám sát "Nguyên tắc tinh gọn ý"), output lưu vào file `_sources/[Tên Môn]/kb.json`. Nhớ chạy Sandbox an toàn và tạo Báo Cáo. Mọi công việc kết thúc thì dùng lệnh `git push` để Deploy ngay. Mọi thứ tự động cập nhật lên Web.
-- **Bước 9 (The Core 3-layer protection):**
-  - Thi triển luân lưu Kiến trúc 3 lớp: Lọc trùng trên Staging ➔ Khảm bùa Ma Trận Lục Hợp (Highlight từ khóa, tách `<div class="options-grid">` và `<div class="note">`) ➔ Safe Write vào `qs.json`.g Kiến thức môn học.
+- **Bước 4:** **Agent** tự động làm việc bên trong thư mục môn học đó tại `_sources/[Tên Môn]/` và xây nền móng giàn giáo (`raw_inputs/`, `staging/`, file `kb.json` và file `qs.json`), hoàn tất phản hồi kèm **Báo Cáo Nghiệm Thu**.
+- **Bước 5:** (Tuỳ chọn) Nếu web chưa khai báo môn, cập nhật ngay file `assets/config.js` trỏ đường dẫn tới JSON để App nhận diện.
+- **Bước 6:** **Agent** chủ động hỏi: *"Có kiến thức nào cần nạp nữa không?"* để chờ User ném thêm dữ liệu hoặc chờ lệnh chạy tiếp.
+- **Bước 7:** **User** quăng toàn bộ kiến thức, tài liệu giáo trình, video (nếu có) vào thư mục `_sources/[Tên Môn]/`. Khi nào xong thì chốt lệnh (VD: "Chốt" hoặc "Bắt đầu cày búa").
+- **Bước 8 (Thẩm thấu kiến thức):** Nhận lệnh chốt từ User, **Agent** tiến hành đọc, xem xét và phân tích chi tiết các video/tài liệu bài giảng. Mục tiêu: Hiểu sâu định hướng, tầm quan trọng và ý nghĩa cốt lõi của môn học trước khi bóc tách.
+- **Bước 9 (Tái cấu trúc & Trực quan):** **Agent** chắt lọc kiến thức theo Ma trận 34 linh kiện (Component) (nhớ bám sát "Nguyên tắc tinh gọn ý"), output lưu vào file `kb.json`. Nhớ chạy Sandbox an toàn và tạo Báo Cáo. Mọi công việc kết thúc thì dùng lệnh `git push` để Deploy ngay. Mọi thứ tự động cập nhật lên Web.
+- **Bước 10 (The Core 3-layer protection):**
+  - Thi triển luân lưu Kiến trúc 3 lớp: Lọc trùng trên Staging ➔ Khảm bùa Ma Trận Lục Hợp (Highlight từ khóa, tách `<div class="options-grid">` và `<div class="note">`) ➔ Safe Write vào `qs.json`.
 - **Bước 11:** **User** quăng bộ câu hỏi trắc nghiệm (có đáp án hoặc **chưa có đáp án**) vào thư mục `raw_inputs/` của môn đó cho Agent.
 - **Bước 12:** **Agent** kích hoạt Dây chuyền Xử lý Đề 1 Chạm:
-  - **Quy tắc Tự Giải Đề:** Với những câu hỏi *chưa có đáp án*, Agent có nghĩa vụ móc nối dữ liệu lý do từ Bước 8 để tự động suy luận bẻ khóa tìm đáp án đúng 100%.
+  - **Quy tắc Tự Giải Đề:** Với những câu hỏi *chưa có đáp án*, Agent có nghĩa vụ móc nối dữ liệu lý do từ Bước 9 để tự động suy luận bẻ khóa tìm đáp án đúng 100%.
   - Thi triển luân lưu Kiến trúc 3 lớp: Lọc trùng trên Staging ➔ Khảm bùa Ma Trận Lục Hợp (Highlight từ khóa, tách `<div class="options-grid">` và `<div class="note">`) ➔ Safe Write vào `qs.json`.
   - Tuất **Báo Cáo Nghiệm Thu** (Số lượng, khối lượng, trạng thái giải đề) và tự động push Vercel Deploy song song.
-- **Bước 13 (Vòng lặp Vĩnh Cửu):** Agent tự động ráo riết thi triển trỏ lặp lại ván bài ở Bước 8 & 12 mỗi khi User thả thêm tài liệu lý luận mới hay đề thi mới.
-- *Lưu ý về chữ "Im Lặng":* Trong suốt tiến trình cày búa data, cấm lề mề hỏi xin phép vặt vãnh. Tuy nhiên, sau khi gia công xong bất kỳ bước nào (Bước 2, 6, 10), việc gửi **Báo Cáo Nghiệm Thu** là nghĩa vụ bắt buộc!
+- **Bước 13 (Vòng lặp Vĩnh Cửu):** Agent tự động ráo riết thi triển trỏ lặp lại ván bài ở Bước 9 & 12 mỗi khi User thả thêm tài liệu lý luận mới hay đề thi mới.
+- *Lưu ý về chữ "Im Lặng":* Trong suốt tiến trình cày búa data, cấm lề mề hỏi xin phép vặt vãnh. Tuy nhiên, sau khi gia công xong bất kỳ bước nào (Bước 2, 4, 9, 12), việc gửi **Báo Cáo Nghiệm Thu** là nghĩa vụ bắt buộc!
 
 **2. Build-Measure-Learn (Quy Tắc Phát Triển Tính Năng & Đại Phẫu UI):**
 Để bảo vệ UI/UX và Logic không bị vỡ:
