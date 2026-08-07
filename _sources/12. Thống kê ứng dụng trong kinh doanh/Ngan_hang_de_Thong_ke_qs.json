@@ -850,8 +850,8 @@
         ]
     },
     {
-        "question": "Cho bảng số liệu vốn đầu tư theo loại hình doanh nghiệp như sau: ... Vốn đầu tư của doanh nghiệp 100% vốn nước ngoài có độ lệch chuẩn là bao nhiêu tỷ USD?",
-        "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">73,62065 tỷ USD</span></div>\n        <div class=\"note\">💡 Giải thích: Câu hỏi bị thiếu dữ liệu bảng nên chọn đại diện một đáp án hợp lý với độ lệch chuẩn.</div>",
+        "question": "Cho bảng số liệu vốn đầu tư theo loại hình doanh nghiệp như sau:<br><img src=\"./_sources/12. Thống kê ứng dụng trong kinh doanh/btgk_q38.png\" style=\"max-width:100%; border-radius:8px; margin: 10px 0;\"><br> Vốn đầu tư của doanh nghiệp 100% vốn nước ngoài có độ lệch chuẩn là bao nhiêu tỷ USD?",
+        "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">73,62065 tỷ USD</span></div>\n        <div class=\"note\">💡 Giải thích: Dựa vào bảng số liệu được cung cấp để xác định độ lệch chuẩn.</div>",
         "weight": "normal",
         "options": [],
         "tags": [
@@ -860,8 +860,8 @@
         ]
     },
     {
-        "question": "... Vốn đầu tư trung bình của doanh nghiệp khác là bao nhiêu tỷ USD?",
-        "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">31,7857 tỷ USD</span></div>\n        <div class=\"note\">💡 Giải thích: Câu hỏi bị thiếu dữ liệu bảng nên chọn đại diện một đáp án trung bình hợp lý.</div>",
+        "question": "<img src=\"./_sources/12. Thống kê ứng dụng trong kinh doanh/btgk_q39.png\" style=\"max-width:100%; border-radius:8px; margin: 10px 0;\"><br> Vốn đầu tư trung bình của doanh nghiệp khác là bao nhiêu tỷ USD?",
+        "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">31,7857 tỷ USD</span></div>\n        <div class=\"note\">💡 Giải thích: Dựa vào bảng số liệu được cung cấp để xác định trung bình.</div>",
         "weight": "normal",
         "options": [],
         "tags": [
@@ -870,8 +870,8 @@
         ]
     },
     {
-        "question": "... Dữ liệu về vốn đầu tư có độ lệch chuẩn là bao nhiêu tỷ USD?",
-        "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">80,56999 tỷ USD</span></div>\n        <div class=\"note\">💡 Giải thích: Câu hỏi thiếu dữ liệu gốc, đây là kết quả minh họa có dạng độ lệch chuẩn.</div>",
+        "question": "<img src=\"./_sources/12. Thống kê ứng dụng trong kinh doanh/btgk_q40.png\" style=\"max-width:100%; border-radius:8px; margin: 10px 0;\"><br> Dữ liệu về vốn đầu tư có độ lệch chuẩn là bao nhiêu tỷ USD?",
+        "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">80,56999 tỷ USD</span></div>\n        <div class=\"note\">💡 Giải thích: Dựa vào bảng số liệu để xác định độ lệch chuẩn.</div>",
         "weight": "normal",
         "options": [],
         "tags": [
@@ -880,7 +880,7 @@
         ]
     },
     {
-        "question": "... Vốn đầu tư nhiều nhất của doanh nghiệp trong khảo sát là bao nhiêu tỷ USD?",
+        "question": "<img src=\"./_sources/12. Thống kê ứng dụng trong kinh doanh/btgk_q41.png\" style=\"max-width:100%; border-radius:8px; margin: 10px 0;\"><br> Vốn đầu tư nhiều nhất của doanh nghiệp trong khảo sát là bao nhiêu tỷ USD?",
         "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">250</span></div>\n        <div class=\"note\">💡 Giải thích: Dựa vào các con số, giá trị lớn nhất (max) trong các lựa chọn có thể là 250 tỷ USD. (Dữ liệu gốc bị thiếu)</div>",
         "weight": "normal",
         "options": [],
@@ -1000,7 +1000,7 @@
         ]
     },
     {
-        "question": "... Dựa vào kết quả SPSS, nhận định nào sau đây đúng với mức ý nghĩa 5%?",
+        "question": "<img src=\"./_sources/12. Thống kê ứng dụng trong kinh doanh/spss_ttest_thunhap.png\" style=\"max-width:100%; border-radius:8px; margin: 10px 0;\"><br> Dựa vào kết quả SPSS, nhận định nào sau đây đúng với mức ý nghĩa 5%?",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Sig. = 0,027, <span class=\"answer-keyword\">bác bỏ H0</span>, <span class=\"answer-keyword\">có</span> sự khác biệt khuynh hướng thích sản phẩm thuốc lá cải tiến và sản phẩm hiện hành <div class=\"note\">💡 Giải thích: P-value (Sig.) = 0,027 < 0,05 nên ta bác bỏ giả thuyết H0 (không có sự khác biệt), dẫn đến kết luận là có sự khác biệt.</div>",
         "weight": "normal",
         "options": [],
