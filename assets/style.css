@@ -576,6 +576,13 @@
   .question table th, .quiz-q-box table th {
       font-weight: 600;
   }
+  
+  /* Reset hardcoded inline backgrounds for Dark Mode visibility */
+  .question table th, .question table tr, .question table td,
+  .quiz-q-box table th, .quiz-q-box table tr, .quiz-q-box table td {
+      background-color: transparent !important;
+      color: var(--text) !important;
+  }
 
   /* --- NEW 9 PREMIUM COMPONENTS & RESPONSIVE OVERHAUL --- */
 
