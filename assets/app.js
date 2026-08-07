@@ -180,10 +180,24 @@ function renderBatch() {
             displayQ = `<div style="font-weight: 600;">${questionPart}</div><div style="font-weight: normal; margin-top: 12px;">${optionsPart}</div>`;
         }
         
-        // Render tags visually
+        // Render tags visually with color-coding & Glassmorphism
         let tagsHtml = '';
         if(q.tags && Array.isArray(q.tags)) {
-            tagsHtml = '<div style="margin-bottom:8px;">' + q.tags.map(t => `<span style="display:inline-block; background:var(--surface); border:1px solid var(--border); padding:2px 10px; border-radius:12px; font-size:0.8em; margin-right:6px; margin-bottom:5px; color:var(--muted); font-weight:600;">${t}</span>`).join('') + '</div>';
+            let tagsMapHtml = q.tags.map(t => {
+                let style = '';
+                if(t === 'High' || t === 'Trọng tâm' || t === '80/20') {
+                    // Glassmorphism Tím nhạt/Accent
+                    style = `background: rgba(162, 155, 254, 0.15); border: 1px solid rgba(162, 155, 254, 0.3); color: var(--secondary); box-shadow: 0 0 10px rgba(162, 155, 254, 0.05); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);`;
+                } else if(t === 'Low') {
+                    // Chìm (Muted outline)
+                    style = `background: transparent; border: 1px dashed var(--border); color: var(--muted);`;
+                } else {
+                    // Glassmorphism Xanh dương nhạt (Topic)
+                    style = `background: rgba(116, 185, 255, 0.15); border: 1px solid rgba(116, 185, 255, 0.3); color: #74b9ff; backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);`;
+                }
+                return `<span style="display:inline-block; padding:3px 12px; border-radius:12px; font-size:0.72em; margin-right:8px; margin-bottom:8px; font-weight:700; text-transform:uppercase; letter-spacing:0.5px; ${style}">${t}</span>`;
+            }).join('');
+            tagsHtml = `<div style="margin-bottom:12px; display:flex; flex-wrap:wrap;">${tagsMapHtml}</div>`;
         }
         
         // Using onclick directly instead of addEventListener for simplicity
