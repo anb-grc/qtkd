@@ -49,18 +49,20 @@ Thay vì bắt học sinh nhớ cả câu dài, hệ thống chỉ Highlight (in
 
 **1. Giao Thức Hợp Tác 11 Bước Dev ↔ Agent & Vòng Lặp CI/CD Song Song:**
 Quy trình co-work chuẩn hóa cho toàn bộ vòng đời môn học, vận hành theo tiêu chí: *“Làm tới đâu, kiểm thử 0 lỗi, lên sàn Vercel ngay tới đó”*:
-- **Bước 1:** **User** tạo thư mục môn học mới, sau đó mở khung chat lên và nhập mật lệnh: **"Bắt đầu"**.
-- **Bước 2:** **Agent** lắng nghe mật lệnh, tự động xây nền móng giàn giáo (`_sources/`, `raw_inputs/`, `staging/`, file `kb.json` và file `qs.json`), hoàn tất phản hồi kèm **Báo Cáo Nghiệm Thu** (Đã build những gì, trạng thái từng cái).
-- **Bước 3 & 4:** **User** ok hoặc yêu cầu hiệu chỉnh ➔ Chốt nghiệm thu xong nền móng ban đầu.
-- **Bước 5:** **User** quăng toàn bộ kiến thức và tài liệu giáo trình của trường vào thư mục `_sources/`, sau đó thông báo cho Agent.
-- **Bước 6:** **Agent** tự động đọc phân rã theo nguyên tắc *"Tinh gọn từ ngữ, Cấm bỏ sót tầng ý"*, chuyển đổi thành kiến thức trực quan nhét vào `kb.json` (sử dụng Kho 34 Component), test build thành công và xuất **Báo Cáo Nghiệm Thu** (thông tin, trạng thái, các component áp dụng).
-- **Bước 7 & 8:** **User** chốt hoặc hiệu chỉnh thêm ➔ Chốt final "Kiến thức nền" và trigger Deploy CI/CD trực tiếp lên trang Kiến thức môn học.
-- **Bước 9:** **User** quăng bộ câu hỏi trắc nghiệm (có đáp án hoặc **chưa có đáp án**) vào `raw_inputs/` cho Agent.
-- **Bước 10:** **Agent** kích hoạt Dây chuyền Xử lý Đề 1 Chạm:
-  - **Quy tắc Tự Giải Đề:** Với những câu hỏi *chưa có đáp án*, Agent có nghĩa vụ móc nối dữ liệu lý do từ Bước 6 để tự động suy luận bẻ khóa tìm đáp án đúng 100%.
+- **Bước 1:** **User** mở khung chat lên và nhập mật lệnh: **"Bắt đầu"**.
+- **Bước 2:** **Agent** lắng nghe mật lệnh, lập tức quét thư mục `_sources/` ở gốc Workspace, đối chiếu với danh sách môn đã build để tìm ra các môn học mới. Sau đó, **liệt kê rõ ràng danh sách các môn chưa được build** và hỏi User: *"Mày muốn bắt đầu môn nào trước?"*
+- **Bước 3:** **User** phản hồi chọn tên môn học cần xử lý.
+- **Bước 4:** **Agent** tiếp nhận tên môn, tự động tạo thư mục môn học đó và xây nền móng giàn giáo (`raw_inputs/`, `staging/`, file `kb.json` và file `qs.json`), hoàn tất phản hồi kèm **Báo Cáo Nghiệm Thu** (Đã build những gì, trạng thái từng cái).
+- **Bước 5 & 6:** **User** ok hoặc yêu cầu hiệu chỉnh ➔ Chốt nghiệm thu xong nền móng ban đầu.
+- **Bước 7:** **User** (nếu chưa có sẵn) quăng toàn bộ kiến thức và tài liệu giáo trình của trường vào thư mục `_sources/[Tên Môn]/`, sau đó thông báo cho Agent.
+- **Bước 8:** **Agent** tự động đọc phân rã theo nguyên tắc *"Tinh gọn từ ngữ, Cấm bỏ sót tầng ý"*, chuyển đổi thành kiến thức trực quan nhét vào `kb.json` (sử dụng Kho 34 Component), test build thành công và xuất **Báo Cáo Nghiệm Thu** (thông tin, trạng thái, các component áp dụng).
+- **Bước 9 & 10:** **User** chốt hoặc hiệu chỉnh thêm ➔ Chốt final "Kiến thức nền" và trigger Deploy CI/CD trực tiếp lên trang Kiến thức môn học.
+- **Bước 11:** **User** quăng bộ câu hỏi trắc nghiệm (có đáp án hoặc **chưa có đáp án**) vào thư mục `raw_inputs/` của môn đó cho Agent.
+- **Bước 12:** **Agent** kích hoạt Dây chuyền Xử lý Đề 1 Chạm:
+  - **Quy tắc Tự Giải Đề:** Với những câu hỏi *chưa có đáp án*, Agent có nghĩa vụ móc nối dữ liệu lý do từ Bước 8 để tự động suy luận bẻ khóa tìm đáp án đúng 100%.
   - Thi triển luân lưu Kiến trúc 3 lớp: Lọc trùng trên Staging ➔ Khảm bùa Ma Trận Lục Hợp (Highlight từ khóa, tách `<div class="options-grid">` và `<div class="note">`) ➔ Safe Write vào `qs.json`.
   - Tuất **Báo Cáo Nghiệm Thu** (Số lượng, khối lượng, trạng thái giải đề) và tự động push Vercel Deploy song song.
-- **Bước 11 (Vòng lặp Vĩnh Cửu):** Agent tự động ráo riết thi triển trỏ lặp lại ván bài ở Bước 6 & 10 mỗi khi User thả thêm tài liệu lý luận mới hay đề thi mới.
+- **Bước 13 (Vòng lặp Vĩnh Cửu):** Agent tự động ráo riết thi triển trỏ lặp lại ván bài ở Bước 8 & 12 mỗi khi User thả thêm tài liệu lý luận mới hay đề thi mới.
 - *Lưu ý về chữ "Im Lặng":* Trong suốt tiến trình cày búa data, cấm lề mề hỏi xin phép vặt vãnh. Tuy nhiên, sau khi gia công xong bất kỳ bước nào (Bước 2, 6, 10), việc gửi **Báo Cáo Nghiệm Thu** là nghĩa vụ bắt buộc!
 
 **2. Build-Measure-Learn (Quy Tắc Phát Triển Tính Năng & Đại Phẫu UI):**
