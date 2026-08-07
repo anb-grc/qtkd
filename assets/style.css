@@ -557,49 +557,48 @@
   }
 
   /* Tối ưu hiển thị bảng (Table) */
-  .table-responsive {
+  .table-responsive, div[style*="overflow-x"] {
       width: 100%;
       overflow-x: auto;
       -webkit-overflow-scrolling: touch;
       margin-bottom: 10px;
   }
   
-  /* Tùy chỉnh thanh cuộn mỏng và tinh tế cho bảng */
-  .table-responsive::-webkit-scrollbar {
+  /* Thanh cuộn chuẩn cho toàn bộ dự án (body, bảng, code block) */
+  ::-webkit-scrollbar {
+      width: 6px;
       height: 6px; 
   }
-  .table-responsive::-webkit-scrollbar-track {
-      background: var(--bg); 
+  ::-webkit-scrollbar-track {
+      background: transparent; 
       border-radius: 4px;
   }
-  .table-responsive::-webkit-scrollbar-thumb {
+  ::-webkit-scrollbar-thumb {
       background: var(--border-md); 
       border-radius: 4px;
   }
-  .table-responsive::-webkit-scrollbar-thumb:hover {
+  ::-webkit-scrollbar-thumb:hover {
       background: var(--primary-lt); 
   }
 
+  /* Chuẩn hóa toàn bộ bảng trong dự án */
   table {
       width: 100%;
       border-collapse: collapse !important;
+      border: 1px solid var(--border-md) !important;
   }
   table th, table td {
       padding: 8px;
   }
-  .question table td, .quiz-q-box table td {
-      font-weight: 400;
-  }
-  .question table th, .quiz-q-box table th {
+  table th {
       font-weight: 600;
   }
-  
-  /* Reset hardcoded inline backgrounds & borders for Dark Mode visibility */
-  .question table, .quiz-q-box table {
-      border: 1px solid var(--border-md) !important;
+  table td {
+      font-weight: 400;
   }
-  .question table th, .question table tr, .question table td,
-  .quiz-q-box table th, .quiz-q-box table tr, .quiz-q-box table td {
+  
+  /* Ép mọi ô/cột/dòng phải tuân thủ chuẩn Dark Mode, bỏ qua inline style */
+  table th, table tr, table td {
       background-color: transparent !important;
       color: var(--text) !important;
       border: 1px solid var(--border-md) !important;
