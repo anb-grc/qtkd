@@ -83,7 +83,7 @@ Quy trình co-work chuẩn hóa cho toàn bộ vòng đời môn học, vận h�
   4. **Kiểm Chứng Phản Xạ (Checklist/Formula):** `InteractiveCalc`, `PriorityMatrix`, `ScenarioGrid`...
 
 **2. Lớp UI/UX Standards ("Less is More"):**
-- **Quy Chuẩn Viết In Hoa (Uppercase Consistency):** Toàn bộ tiêu đề, nhãn thẻ VIẾT IN HOA (`text-transform: uppercase`) bắt buộc đồng bộ về một tone chuẩn: **Xanh Sáng (`var(--color-accent-secondary)`)**. (Ngoại lệ duy nhất: các thẻ cảnh báo Bẫy Nguy Hiểm dùng mờ Đỏ `--color-danger`). Cấm đem màu rực rỡ (đỏ, xanh lá, cam) rải thảm lên tiêu đề gây hoa mắt xao nhãng!
+- **Quy Chuẩn Viết In Hoa (Uppercase Consistency):** Không bắt buộc cứng nhắc một màu. Các chuỗi VIẾT IN HOA (`text-transform: uppercase`) được phép phối màu linh hoạt (`--primary`, `--secondary`, `--muted`, v.v...) tùy theo bối cảnh khối UI (VD: Component Kiến thức nền). Tuy nhiên, vẫn **CẤM** lạm dụng các màu rực rỡ chói mắt (đỏ tươi, xanh lá chuối, cam nguyên bản) rải thảm lên tiêu đề gây xao nhãng. (Ngoại lệ: Các thẻ cảnh báo Bẫy Nguy Hiểm/Bẫy Lật Kèo vẫn ưu tiên dùng mờ Đỏ `--color-danger`).
 - **Quy Chuẩn Màu Nội Dung:** Văn bản câu hỏi/ý chính dùng **Trắng nguyên bản (`#ffffff`)**; đoạn giải thích dài hay thông tin phụ dùng **Xám mờ (`rgba(255, 255, 255, 0.7)`)**.
 - **Tối Giản Tuyệt Đối:** Nghiêm cấm nhét các icon phèn phèn hoặc emoji rễ ràng rườm rà không phục vụ trực tiếp việc giải thích.
 - **Cấm Margin Âm:** Tuyệt đối KHÔNG DÙNG "margin âm" (`margin: -Xpx`). Bắt buộc canh giãn bố trí bởi Flexbox/Grid `gap`.
