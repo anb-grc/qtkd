@@ -68,9 +68,9 @@
     document.getElementById('subjectTitle').innerHTML = `<em>${subject.name.toUpperCase()}</em>`;
     document.getElementById('programLabel').innerText = subject.program;
 
-    // Truyền Data URL cho app.js
-    var QS_DATA_URL = subject.jsonPath;
-    var KB_DATA_URL = subject.jsonPath.substring(0, subject.jsonPath.lastIndexOf('/')) + '/kb.json';
+    // Truyền Data URL cho app.js, nhớ normalize NFC để sửa lỗi 404 trên Vercel (Linux) do lệch Unicode
+    var QS_DATA_URL = subject.jsonPath.normalize('NFC');
+    var KB_DATA_URL = subject.jsonPath.substring(0, subject.jsonPath.lastIndexOf('/')).normalize('NFC') + '/kb.json';
     
     // Cấu hình riêng cho môn học này (dùng cho chế độ Luyện Cấu Trúc)
     window.subjectConfig = {
