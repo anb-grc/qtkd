@@ -1,6 +1,6 @@
 .container {
   overflow-x: auto;
-  padding: 0 var(--space-md);
+  padding: var(--space-md) var(--space-md) var(--space-3xl) var(--space-md);
   display: flex;
   justify-content: center;
   justify-content: safe center;
@@ -405,7 +405,7 @@
 
 @media (max-width: 768px) {
   .container {
-    padding: var(--space-md) 4px;
+    padding: var(--space-md) 4px var(--space-3xl) 4px;
   }
   .rootWrapper {
     width: 100%;
