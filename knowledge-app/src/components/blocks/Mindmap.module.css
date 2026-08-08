@@ -24,7 +24,7 @@
 .children {
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: minmax(0, 1fr);
+  grid-auto-columns: minmax(140px, 1fr);
   position: relative;
   padding-top: 20px;
   margin-top: 0;
@@ -406,6 +406,9 @@
 @media (max-width: 768px) {
   .container {
     padding: var(--space-md) 4px var(--space-3xl) 4px;
+  }
+  .children {
+    grid-auto-columns: minmax(120px, 1fr);
   }
   .rootWrapper {
     width: 100%;
