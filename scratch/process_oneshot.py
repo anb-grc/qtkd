@@ -2,19 +2,19 @@ import json
 import os
 import shutil
 
-# Dữ liệu JSON đã được giải và highlight theo Ma trận Lục hợp
+# Dữ liệu JSON đã được giải và highlight theo Ma trận Lục hợp (ĐÃ SỬA LỖI 4 CÂU)
 data = [
     {
         "weight": "normal",
         "tags": ["Tài chính doanh nghiệp"],
         "question": "Mục đích tài chính cuối cùng của các doanh nghiệp là <span class=\"keyword\">tối đa hóa</span>",
         "options": [
-            "A. lợi nhuận.",
-            "B. <span class=\"answer-keyword\">tài sản</span>.",
+            "A. <span class=\"answer-keyword\">lợi nhuận</span>.",
+            "B. tài sản.",
             "C. các chỉ số tài chính.",
             "D. doanh thu."
         ],
-        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. tài sản.\n<div class=\"note\">Trong quản trị tài chính hiện đại, mục tiêu cuối cùng của doanh nghiệp là tối đa hóa giá trị tài sản (hoặc tối đa hóa giá trị doanh nghiệp / tài sản của chủ sở hữu).</div>"
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. lợi nhuận.\n<div class=\"note\">Theo giáo trình, mục tiêu tài chính cuối cùng của doanh nghiệp được định hướng là tối đa hóa lợi nhuận.</div>"
     },
     {
         "weight": "normal",
@@ -74,7 +74,7 @@ data = [
             "C. sở hữu tài sản.",
             "D. lệ phí."
         ],
-        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. thuế.\n<div class=\"note\">Thuế là nguồn thu chủ yếu, mang tính bắt buộc và chiếm tỷ trọng lớn nhất (thường trên 80-90%) trong tổng thu Ngân sách Nhà nước của Việt Nam cũng như hầu hết các quốc gia.</div>"
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. thuế.\n<div class=\"note\">Thuế là nguồn thu chủ yếu, mang tính bắt buộc và chiếm tỷ trọng lớn nhất trong tổng thu Ngân sách Nhà nước.</div>"
     },
     {
         "weight": "normal",
@@ -93,36 +93,36 @@ data = [
         "tags": ["Ngân sách Nhà nước"],
         "question": "<span class=\"keyword\">Phí</span> thuộc ngân sách nhà nước thu về",
         "options": [
-            "A. <span class=\"answer-keyword\">đủ để bù đắp</span> chi phí đã bỏ ra.",
-            "B. không đủ bù đắp chi phí đã bỏ ra.",
+            "A. đủ để bù đắp chi phí đã bỏ ra.",
+            "B. <span class=\"answer-keyword\">không đủ bù đắp</span> chi phí đã bỏ ra.",
             "C. không tính tới chi phí đã bỏ ra.",
             "D. vượt quá chi phí đã bỏ ra."
         ],
-        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. đủ để bù đắp chi phí đã bỏ ra.\n<div class=\"note\">Theo quy định, Phí là khoản tiền mà tổ chức, cá nhân phải trả nhằm cơ bản bù đắp chi phí (hoặc một phần chi phí) mà cơ quan nhà nước, đơn vị sự nghiệp cung cấp dịch vụ công.</div>"
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. không đủ bù đắp chi phí đã bỏ ra.\n<div class=\"note\">Trong tài chính công, phí do nhà nước thu thường mang tính chất phục vụ công cộng nên khoản thu về thường không đủ bù đắp toàn bộ chi phí đã bỏ ra.</div>"
     },
     {
         "weight": "normal",
         "tags": ["Ngân sách Nhà nước"],
         "question": "Những <span class=\"keyword\">khoản mục thu thường xuyên</span> trong cân đối ngân sách nhà nước bao gồm:",
         "options": [
-            "A. thuế, sở hữu tài sản, phí và lệ phí.",
+            "A. <span class=\"answer-keyword\">thuế</span>, <span class=\"answer-keyword\">sở hữu tài sản</span>, phí và lệ phí.",
             "B. thuế, sở hữu tài sản, phí và lệ phí, phát hành trái phiếu chính phủ.",
-            "C. thuế, <span class=\"answer-keyword\">sở hữu tài sản</span>, phí và lệ phí, <span class=\"answer-keyword\">lợi tức cổ phần</span> của Nhà nước.",
+            "C. thuế, sở hữu tài sản, phí và lệ phí, lợi tức cổ phần của Nhà nước.",
             "D. thuế, phí và lệ phí, từ các khoản viện trợ có hoàn lại."
         ],
-        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. thuế, sở hữu tài sản, phí và lệ phí, lợi tức cổ phần của Nhà nước.\n<div class=\"note\">Thu thường xuyên của NSNN bao gồm các khoản thu thuế, phí, lệ phí và các khoản thu từ hoạt động kinh tế, từ tài sản của Nhà nước (như lợi tức cổ phần...). Viện trợ hay phát hành trái phiếu không phải thu thường xuyên.</div>"
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. thuế, sở hữu tài sản, phí và lệ phí.\n<div class=\"note\">Các khoản thu thường xuyên chính của Ngân sách Nhà nước chủ yếu là Thuế, Phí, Lệ phí và Thu từ sở hữu tài sản.</div>"
     },
     {
         "weight": "normal",
         "tags": ["Ngân sách Nhà nước"],
         "question": "Trong các khoản chi sau, khoản chi nào là thuộc <span class=\"keyword\">chi thường xuyên</span>?",
         "options": [
-            "A. Chi <span class=\"answer-keyword\">khoa học, công nghệ</span> và môi trường.",
+            "A. Chi khoa học, công nghệ và môi trường.",
             "B. Chi giải quyết việc làm.",
-            "C. Chi dân số kế hoạch hóa gia đình.",
+            "C. Chi <span class=\"answer-keyword\">dân số kế hoạch hóa</span> gia đình.",
             "D. Chi trợ cấp ngân sách cho phường, xã."
         ],
-        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Chi khoa học, công nghệ và môi trường.\n<div class=\"note\">Chi thường xuyên chủ yếu bao gồm chi cho các hoạt động sự nghiệp giáo dục, y tế, khoa học công nghệ, quản lý nhà nước, an ninh quốc phòng... để duy trì hoạt động ổn định của xã hội.</div>"
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. Chi dân số kế hoạch hóa gia đình.\n<div class=\"note\">Chi dân số kế hoạch hóa gia đình thuộc nhóm chi sự nghiệp y tế, xã hội - một bộ phận của chi thường xuyên nhằm duy trì hoạt động xã hội.</div>"
     }
 ]
 
@@ -138,4 +138,4 @@ with open(staging_file, 'w', encoding='utf-8') as f:
 if isinstance(data, list):
     # Overwrite main
     shutil.copy2(staging_file, main_file)
-    print("DONE: Processed 10 questions and wrote to qs.json.")
+    print("DONE: Processed and fixed 10 questions and wrote to qs.json.")
