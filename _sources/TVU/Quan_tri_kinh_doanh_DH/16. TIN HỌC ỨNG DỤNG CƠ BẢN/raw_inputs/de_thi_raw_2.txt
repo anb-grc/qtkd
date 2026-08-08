@@ -1,0 +1,179 @@
+Tiếp nè
+Câu 1:
+1 điểm
+Trong cấu trúc của một máy tính điện tử, thiết bị nào sau đây KHÔNG phải là thiết bị nhập?
+A. Bàn phím
+B. Chuột
+C. Màn hình
+D. Máy quét
+Gắn cờ
+
+Câu 2:
+1 điểm
+Loại mạng nào sau đây là một hệ thống mạng tư nhân trong một tòa nhà, một khu vực và có phạm vi hoạt động từ vài mét cho đến 1 km?
+A. LAN
+B. MAN
+C. WAN
+D. INTERNET
+Gắn cờ
+
+Câu 3:
+1 điểm
+Phần mềm nào sau đây là phần mềm ứng dụng?
+A. Windows 10
+B. Unix
+C. Google Chrome
+D. Linux
+Gắn cờ
+
+Câu 4:
+1 điểm
+Hãy cho biết phần mềm nào sau đây KHÔNG phải là phần mềm độc hại (Malware)?
+A. Adware
+B. Unikey
+C. Spyware
+D. Trojan Horse
+Gắn cờ
+
+Câu 5:
+1 điểm
+Trong hệ điều hành Windows 10, để thực hiện thao tác gỡ bỏ font chữ đã cài vào máy tính người sử dụng sẽ chọn nhóm lệnh nào trong cửa sổ All Control Panel Items của Control Panel?
+A. Fonts
+B. Date and Time
+C. Devices and Printers
+D. User Accounts
+Gắn cờ
+
+Câu 6:
+1 điểm
+Hãy cho biết tổ hợp phím nào được sử dụng để đóng cửa sổ 1 chương trình ứng dụng?
+A. CTRL+F4
+B. ALT+F4
+C. SHIFT+F4
+D. ALT+TAB
+Gắn cờ
+
+Câu 7:
+1 điểm
+Hãy cho biết đối tượng nào sauđây sẽ có phần mở rộng?
+A. Ổ đĩa
+B. Tập tin
+C. Thư mục
+D. Đường dẫn
+Gắn cờ
+
+Câu 8:
+1 điểm
+Trong chương trình File Explorer, khi tìm kiếm tập tin thì ký tự nào sau đây được sử dụng để đại diện cho nhiều ký tự bất kỳ trong chuỗi từ khóa?
+A. #
+B. *
+C. ?
+D. !
+Gắn cờ
+
+Câu 9:
+1 điểm
+Trong chương trình File Explorer, khi tìm kiếm tập tin thì ký tự nào sau đây được sử dụng để đại diện cho 1 ký tự trong chuỗi từ khóa?
+A. *
+B. ?
+C. #
+D. !
+Gắn cờ
+
+Câu 10:
+1 điểm
+Phần mềm WinRAR được cài đặt vào Windows, mục đích dùng để làm gì?
+A. Gõ dấu tiếng việt
+B. Soạn thảo văn bản
+C. Vẽ cơ bản
+D. Giải nén dữ liệu
+Gắn cờ
+
+Câu 11:
+1 điểm
+Hãy cho biết tổ hợp phím nào được sử dụng để chuyển đổi qua lại giữa các cửa sổ của các ứng dụng đang mở?
+A. ALT+TAB
+B. SHIFT+TAB
+C. Windows+TAB
+D. CTRL+TAB
+Gắn cờ
+
+Câu 12:
+1 điểm
+Trong chương trình Microsoft Office Word 2013, hãy cho biết thao tác nào sau đây được sử dụng để chia cột cho đoạn văn bản đang được chọn?
+A. Home, Nhóm Editing, Columns
+B. Insert, Nhóm Text, Columns
+C. Page Layout, Nhóm Page Setup, Columns
+D. Design, Nhóm Page Background, Columns
+Gắn cờ
+
+Câu 13:
+1 điểm
+Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng chữ Drop Cap tùy chọn nào xác định khoảng cách chữ cái và văn bản còn lại?
+A. Lines to drop
+B. Font
+C. Distance from text
+D. Position
+Gắn cờ
+
+Câu 14:
+1 điểm
+Trong chương trình Microsoft Office Word 2013, khi định dạng khung viền cho trang giấy tùy chọn nào cho phép chọn kiểu đường viền?
+A. Styles
+B. Preview
+C. Color
+D. Width
+Gắn cờ
+
+Câu 15:
+1 điểm
+Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng cho đối tượng Shape lệnh nào cho phép xác định màu đường viền của Shape?
+A. Shape Outline
+B. Shape Fill
+C. Align Text
+D. Shape Effects
+Gắn cờ
+
+Câu 16:
+1 điểm
+Trong chương trình Microsoft Office Word 2013, cho biết tổ hợp phím tắt nào được sử dụng để định dạng chữ in nghiêng?
+A. CTRL+I
+B. CTRL+B
+C. CTRL+U
+D. CTRL+Z
+Gắn cờ
+
+Câu 17:
+1 điểm
+Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng bảng biểu, nhóm lệnh nào trong thẻ Layout cho phép thay đổi độ rộng của ô?
+A. Alignment
+B. Merge
+C. Cell Size
+D. Rows & Columns
+Gắn cờ
+
+Câu 18:
+1 điểm
+Khi mở hộp thoại Font trong chương trình Microsoft Office Word 2013, để thiết lập thông số màu chữ cho văn bản đang chọn khối ta sử dụng tùy chọn nào sau đây?
+A. Font Style
+B. Font size
+C. Underline Color
+D. Font Color
+Gắn cờ
+
+Câu 19:
+1 điểm
+Trong chương trình Microsoft Office Word 2013, khi định dạng khung viền cho trang giấy tùy chọn nào cho phép chọn màu của đường viền?
+A. Styles
+B. Width
+C. Color
+D. Preview
+Gắn cờ
+
+Câu 20:
+1 điểm
+Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng bảng biểu, lệnh nào thiết lập việc lặp lại tiêu đề bảng ở các trang giấy?
+A. Convert to Text
+B. Distribute Columns
+C. Repeat Header Rows
+D. Sort
