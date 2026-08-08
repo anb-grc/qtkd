@@ -1,0 +1,179 @@
+Xây ngân hàng đề
+Câu 1:
+1 điểm
+Trong cấu trúc phần cứng của một máy tính điện tử, thiết bị vật lý nào được sử dụng để lưu trữ dữ liệu trong quá trình máy tính xử lý?
+A. Bộ nhớ
+B. Bàn phím
+C. Bo mạch chủ
+D. Vỏ máy tính
+Gắn cờ
+
+Câu 2:
+1 điểm
+Trong cấu trúc phần cứng của một máy tính điện tử, thiết bị nào được sử dụng để nhập dữ liệu?
+A. Vỏ máy tính
+B. Bàn phím
+C. Thanh ghi
+D. Bo mạch chủ
+Gắn cờ
+
+Câu 3:
+1 điểm
+Hãy cho biết phần mềm nào sau đây là phần mềm độc hại (Malware)?
+A. Window Defender
+B. Unikey
+C. Mozilla Firefox
+D. Trojan Horse
+Gắn cờ
+
+Câu 4:
+1 điểm
+Dịch vụ nào sau đây được hiểu là tin nhắn tức thời?
+A. SMS (Short Messaging Service)
+B. VoIP (Voice over Internet Protocol)
+C. TCP/IP (Transmission Control Protocol/Internet Protocol)
+D. IM (Instant Messaging)
+Gắn cờ
+
+Câu 5:
+1 điểm
+Trong cấu trúc của một máy tính điện tử, bộ phận ALU (Arithmetic-Logic Unit) trong CPU là gì?
+A. Các thanh ghi
+B. Khối tính toán số học và logic
+C. Khối điều khiển
+D. Bộ nhớ trung gian
+Gắn cờ
+
+Câu 6:
+1 điểm
+Trong cấu trúc của một máy tính điện tử, bộ phận nào là trung tâm điều hành máy tính, có nhiệm vụ giải mã các lệnh, tạo ra các tín hiệu điều khiển công việc của các bộ phận khác của máy tính theo yêu cầu của người sử dụng hoặc theo chương trình đã cài đặt.
+A. Các thanh ghi (Registers)
+B. USB Flash Drive
+C. ALU (Arithmetic-Logic Unit)
+D. CU (Control Unit)
+Gắn cờ
+
+Câu 7:
+1 điểm
+Trong cấu trúc của một máy tính điện tử, đơn vị xử lý trung tâm (CPU - Central Processing Unit) gồm bao nhiêu bộ phận chính?
+A. 4
+B. 2
+C. 1
+D. 3
+Gắn cờ
+
+Câu 8:
+1 điểm
+Phần mềm nào sau đây là phần mềm ứng dụng?
+A. Windows 10
+B. Google Chrome
+C. Unix
+D. Linux
+Gắn cờ
+
+Câu 9:
+1 điểm
+Hãy cho biết khi nhập văn bản bằng kiểu gõ Telex thì phím f đại diện cho dấu gì?
+A. Dấu nặng
+B. Dấu hỏi
+C. Dấu huyền
+D. Dấu sắc
+Gắn cờ
+
+Câu 10:
+1 điểm
+Trong cửa sổ File Explorer, tổ hợp phím nào được sử dụng dán đối tượng vừa sao chép vào vị trí hiện hành?
+A. Ctrl + A
+B. Ctrl + V
+C. Ctrl + P
+D. Ctrl + C
+Gắn cờ
+
+Câu 11:
+1 điểm
+Để bật hoặc tắt chế độ gõ dấu tiếng Việt khi sử dụng phần mềm tiện ích Unikey, chúng ta chọn tổ hợp phím nào sau đây?
+A. Shift + Z
+B. Ctrl + Shift
+C. Alt + Shift
+D. Ctrl + Shift + F6
+Gắn cờ
+
+Câu 12:
+1 điểm
+Hãy cho biết đối tượng nào sauđây sẽ có phần mở rộng?
+A. Đường dẫn
+B. Ổ đĩa
+C. Tập tin
+D. Thư mục
+Gắn cờ
+
+Câu 13:
+1 điểm
+Trong cửa sổ Recycle Bin, để phục hồi đối tượng sau khi xóa, người dùng nhấp phải trên đối tượng cần phục hồi và chọn lệnh nào sau đây?
+A. Delete
+B. Cut
+C. Properties
+D. Restore
+Gắn cờ
+
+Câu 14:
+1 điểm
+Để thay đổi quy ước về thời gian, ta vào Control Panel, chọn Region, chọn Additional settings, trong Customize Format ta chọn thẻ nào sau đây?
+A. Numbers
+B. Date
+C. Time
+D. Currency
+Gắn cờ
+
+Câu 15:
+1 điểm
+Trong chương trình File Explorer, khi tìm kiếm tập tin thì ký tự nào sau đây được sử dụng để đại diện cho 1 ký tự trong chuỗi từ khóa?
+A. #
+B. *
+C. !
+D. ?
+Gắn cờ
+
+Câu 16:
+1 điểm
+Trong hệ điều hành Windows 10, để thực hiện thao tác gỡ bỏ font chữ đã cài vào máy tính người sử dụng sẽ chọn nhóm lệnh nào trong cửa sổ All Control Panel Items của Control Panel?
+A. Devices and Printers
+B. User Accounts
+C. Fonts
+D. Date and Time
+Gắn cờ
+
+Câu 17:
+1 điểm
+Phần mềm Unikey được cài đặt vào Windows, mục đích dùng để làm gì?
+A. Gõ dấu tiếng việt
+B. Vẽ cơ bản
+C. Giải nén dữ liệu
+D. Duyệt web
+Gắn cờ
+
+Câu 18:
+1 điểm
+Trong chương trình File Explorer, khi tìm kiếm tập tin thì ký tự nào sau đây được sử dụng để đại diện cho nhiều ký tự bất kỳ trong chuỗi từ khóa?
+A. *
+B. ?
+C. !
+D. #
+Gắn cờ
+
+Câu 19:
+1 điểm
+Trong cửa sổ File Explorer, để sửa đổi tên đối tượng, chúng ta vào thẻ Home và chọn lệnh Rename ở nhóm lệnh nào?
+A. Organize
+B. New
+C. Open
+D. Clipboard
+Gắn cờ
+
+Câu 20:
+1 điểm
+Hãy cho biết font chữ nào được chọn khi người sử dụng soạn thảo văn bản với bảng mã Unicode?
+A. .Vn-time
+B. VNI-Thuphap
+C. Vni-Times
+D. Times New Roman
