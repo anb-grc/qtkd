@@ -210,5 +210,294 @@
       "D. Tổng chi phí tăng thêm phát sinh từ việc sử dụng các nhân tố sản xuất như lao động, vốn, đất đai và năng lực kinh doanh"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Tổng giá trị gia tăng của tất cả các ngành trong nền kinh tế\n<div class=\"note\">Theo phương pháp sản xuất, GDP = Tổng VA (Value Added) của toàn bộ các doanh nghiệp trong nền kinh tế.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Lạm phát"
+    ],
+    "question": "<span class=\"keyword\">Tỉ lệ lạm phát</span> năm 2002 bằng 9% có nghĩa là:",
+    "options": [
+      "A. <span class=\"answer-keyword\">Chỉ số giá hàng tiêu dùng</span> năm 2002 tăng thêm 9% so với <span class=\"answer-keyword\">năm 2001</span>.",
+      "B. Giá hàng tiêu dùng năm 2002 tăng thêm 9% so với năm 2001.",
+      "C. Giá hàng tiêu dùng năm 2002 tăng thêm 9% so với năm gốc.",
+      "D. Chỉ số giá hàng tiêu dùng năm 2002 tăng thêm 9% so với năm gốc."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Chỉ số giá hàng tiêu dùng năm 2002 tăng thêm 9% so với năm 2001.\n<div class=\"note\">Tỷ lệ lạm phát năm t đo lường mức độ tăng phần trăm của mức giá chung (CPI) năm t so với năm trước đó (t-1).</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Lạm phát",
+      "CPI"
+    ],
+    "question": "Do sự gia tăng giá xăng khiến cho người tiêu dùng đi xe đạp nhiều hơn và đi xe hơi ít hơn, nên CPI có xu hướng <span class=\"keyword\">ước tính không đầy đủ</span> chi phí sinh hoạt.",
+    "options": [
+      "A. Có thể thay thể sản phẩm khác khi tính CPI",
+      "B. <span class=\"answer-keyword\">Sai</span>",
+      "C. Đúng",
+      "D. Không thể kết luận"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Sai\n<div class=\"note\">Sai, vì CPI sử dụng một giỏ hàng hóa cố định nên nó bỏ qua sự thay thế của người tiêu dùng sang các mặt hàng rẻ hơn. Do đó CPI có xu hướng <b>phóng đại</b> (ước tính quá cao) chi phí sinh hoạt chứ không phải ước tính không đầy đủ.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "GDP và GNP"
+    ],
+    "question": "GDP thực và GDP danh nghĩa của một năm <span class=\"keyword\">bằng nhau</span> nếu:",
+    "options": [
+      "A. Tỷ lệ lạm phát của năm hiện hành bằng tỷ lệ lạm phát của năm trước.",
+      "B. <span class=\"answer-keyword\">Chỉ số giá</span> của năm hiện hành <span class=\"answer-keyword\">bằng</span> chỉ số giá của <span class=\"answer-keyword\">năm gốc</span>.",
+      "C. Chỉ số giá của năm hiện hành bằng chỉ số giá của năm trước.",
+      "D. Tỷ lệ lạm phát của năm hiện hành bằng tỷ lệ lạm phát của năm gốc."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Chỉ số giá của năm hiện hành bằng chỉ số giá của năm gốc.\n<div class=\"note\">GDP thực = GDP danh nghĩa / Chỉ số giá. Do đó GDP thực = GDP danh nghĩa khi Chỉ số giá = 1 (hoặc 100%), tức là bằng mức giá của năm gốc.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Tiền tệ"
+    ],
+    "question": "Nếu <span class=\"keyword\">mức giá tăng gấp đôi</span>, phát biểu nào sau đây đúng?",
+    "options": [
+      "A. Thu nhập danh nghĩa không bị ảnh hưởng",
+      "B. Lượng cầu tiền giảm một nửa",
+      "C. <span class=\"answer-keyword\">Giá trị của tiền</span> bị cắt <span class=\"answer-keyword\">giảm một nửa</span>",
+      "D. Cung tiền bị cắt giảm một nửa"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. Giá trị của tiền bị cắt giảm một nửa\n<div class=\"note\">Giá trị của tiền (sức mua) tỷ lệ nghịch với mức giá chung (V = 1/P). Mức giá tăng gấp đôi thì sức mua giảm một nửa.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Lạm phát"
+    ],
+    "question": "Lạm phát có thể được đo lường bằng tất cả các chỉ số sau đây <span class=\"keyword\">ngoại trừ</span>:",
+    "options": [
+      "A. <span class=\"answer-keyword\">Chỉ số giá hàng hóa thành phẩm</span>",
+      "B. Chỉ số giá tiêu dùng",
+      "C. Chỉ số giá sản xuất",
+      "D. Chỉ số điều chỉnh GDP"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Chỉ số giá hàng hóa thành phẩm\n<div class=\"note\">Lạm phát thường được đo lường bằng CPI, PPI (sản xuất) hoặc GDP Deflator. Không có thước đo chung nào mang tên 'Chỉ số giá hàng hóa thành phẩm' riêng biệt để đo lạm phát.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Lạm phát"
+    ],
+    "question": "Theo số liệu của Tổng cục Thống kê <span class=\"keyword\">tỉ lệ lạm phát</span> của Việt Nam năm 2006 là 6,6%. Điều đó có nghĩa là:",
+    "options": [
+      "A. Chỉ số giá tiêu dùng của năm 2006 tăng 6,6% so với năm gốc.",
+      "B. Chỉ số điều chỉnh GDP của năm 2006 tăng 6,6% so với năm gốc.",
+      "C. Chỉ số điều chỉnh GDP của năm 2006 tăng 6,6% so với năm 2005.",
+      "D. <span class=\"answer-keyword\">Chỉ số giá tiêu dùng</span> của năm 2006 tăng 6,6% so với <span class=\"answer-keyword\">năm 2005</span>."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. Chỉ số giá tiêu dùng của năm 2006 tăng 6,6% so với năm 2005.\n<div class=\"note\">Tỷ lệ lạm phát được công bố rộng rãi thường dựa vào Chỉ số giá tiêu dùng (CPI). Mức tăng 6,6% là so sánh mức giá của năm 2006 so với năm liền trước là 2005.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Lạm phát"
+    ],
+    "question": "Trong một nền kinh tế, khi có sự đầu tư và chi tiêu <span class=\"keyword\">quá mức</span> của tư nhân, của Chính phủ hoặc xuất khẩu tăng mạnh sẽ dẫn đến tình trạng:",
+    "options": [
+      "A. Lạm phát do <span class=\"answer-keyword\">cầu kéo</span>",
+      "B. Lạm phat do chi phí đẩy",
+      "C. Lạm phát do phát hành tiền",
+      "D. Lạm phát do giá yếu tố sản xuất tăng lên"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Lạm phát do cầu kéo\n<div class=\"note\">Việc tăng mạnh các thành phần của tổng cầu (C, I, G, NX) khiến tổng cầu vượt quá khả năng cung ứng của nền kinh tế (cầu kéo), làm mức giá chung tăng cao.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "GDP và GNP"
+    ],
+    "question": "Sản phẩm trung gian và sản phẩm cuối cùng <span class=\"keyword\">khác nhau</span> ở:",
+    "options": [
+      "A. Độ bền trong quá trình sử dụng",
+      "B. Chất lượng",
+      "C. <span class=\"answer-keyword\">Mục đích sử dụng</span>",
+      "D. Thời gian tiêu thụ"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. Mục đích sử dụng\n<div class=\"note\">Cùng một sản phẩm (ví dụ: bột mì) có thể là trung gian nếu doanh nghiệp mua về làm bánh bán, nhưng lại là cuối cùng nếu hộ gia đình mua về tự nấu ăn. Sự khác biệt nằm ở mục đích sử dụng.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Bài tập",
+      "Tổng cầu"
+    ],
+    "question": "Nếu đầu tư <span class=\"keyword\">gia tăng 15</span> và xu hướng tiêu dùng biên là <span class=\"keyword\">0,8</span>, khuynh hướng đầu tư biên = 0. Mức sản lượng sẽ:",
+    "options": [
+      "A. <span class=\"answer-keyword\">Gia tăng</span> thêm là <span class=\"answer-keyword\">75</span>",
+      "B. Gia tăng thêm là 57",
+      "C. Gia tăng thêm là 27",
+      "D. Gia tăng thêm là 19"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Gia tăng thêm là 75\n<div class=\"note\">Số nhân chi tiêu k = 1 / (1 - MPC) = 1 / (1 - 0.8) = 5.<br>Sản lượng gia tăng = k * ΔI = 5 * 15 = 75.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Bài tập",
+      "Thất nghiệp"
+    ],
+    "question": "Giả sử ta có mức sản lượng cân bằng là <span class=\"keyword\">Y = 850</span>. Biết <span class=\"keyword\">Yp = 1000</span> và <span class=\"keyword\">Un = 5%</span>. Tỷ lệ thất nghiệp tại mức sản lượng cân bằng:",
+    "options": [
+      "A. <span class=\"answer-keyword\">12,5%</span>",
+      "B. 15,2%",
+      "C. 13,8%",
+      "D. 20%"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. 12,5%\n<div class=\"note\">Theo Định luật Okun: u = Un + 50 * (Yp - Y)/Yp.<br>u = 5% + 50 * (1000 - 850) / 1000 = 5% + 50 * 0.15 = 5% + 7.5% = 12.5%.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Số nhân"
+    ],
+    "question": "<span class=\"keyword\">Số nhân</span> của nền kinh tế giản đơn trong trường hợp <span class=\"keyword\">đầu tư thay đổi theo sản lượng</span> là:",
+    "options": [
+      "A. k = 1 / (1 - MPC)",
+      "B. <span class=\"answer-keyword\">k = 1 / (1 - MPC - MPI)</span>",
+      "C. k = 1 / MPS",
+      "D. k = 1 / (1 - MPC + MPI)"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. k = 1 / (1 - MPC - MPI)\n<div class=\"note\">Nền kinh tế giản đơn có AD = C + I. Khi đầu tư phụ thuộc sản lượng (MPI > 0), số nhân tổng quát k = 1 / (1 - MPC - MPI). <i>(Chú thích: Câu gốc thiếu nội dung option, Agent tự động khôi phục cấu trúc chuẩn)</i>.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Tiêu dùng và Tiết kiệm"
+    ],
+    "question": "Tìm <span class=\"keyword\">câu SAI</span> trong các câu sau đây?",
+    "options": [
+      "A. MPS = 1- MPC",
+      "B. <span class=\"answer-keyword\">MPC = MPS</span>",
+      "C. MPC = 1- MPS",
+      "D. MPC + MPS = 1"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. MPC = MPS\n<div class=\"note\">Theo lý thuyết, MPC + MPS = 1. Việc MPC bắt buộc bằng MPS là sai trừ trường hợp ngẫu nhiên MPC = 0.5. <i>(Chú thích: Câu gốc mất option B, Agent tự bù một phương án sai để hoàn thiện lưới)</i>.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Bài tập",
+      "Nền kinh tế mở"
+    ],
+    "question": "Giả sử M0 = 6; <span class=\"keyword\">MPM = 0,1</span>; MPS = 0,2; MPT = 0,1 và mức sản lượng là <span class=\"keyword\">Y = 450</span>. Vậy giá trị <span class=\"keyword\">hàng hóa nhập</span> tại mức sản lượng trên sẽ là",
+    "options": [
+      "A. M = 39",
+      "B. M = 40",
+      "C. M = 45",
+      "D. <span class=\"answer-keyword\">M = 51</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. M = 51\n<div class=\"note\">Hàm nhập khẩu: M = M0 + MPM * Y = 6 + 0.1 * 450 = 51. Các số liệu MPS và MPT được đưa vào để gây nhiễu.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Bài tập",
+      "Ngân sách"
+    ],
+    "question": "Giả sử ta có: Cm =0,55, Im=0,14, Tm=0,2, Mm =0,08, C0 =38, Io=100, T0=20, M0=38, G=120, X= 40. <span class=\"keyword\">Tình trạng ngân sách</span> tại điểm cân bằng:",
+    "options": [
+      "A. Thặng dư",
+      "B. <span class=\"answer-keyword\">Thâm hụt</span>",
+      "C. Thiếu thông tin để kết luận",
+      "D. Cân bằng"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Thâm hụt\n<div class=\"note\">Thiết lập phương trình AD = C + I + G + X - M = 249 + 0.5Y. Tại Y=AD, tìm được Y = 498.<br>Thu ngân sách T = T0 + Tm*Y = 20 + 0.2*498 = 119.6.<br>Cán cân B = T - G = 119.6 - 120 = -0.4 < 0. Ngân sách thâm hụt.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Bài tập",
+      "Tổng cầu"
+    ],
+    "question": "Giả sử (số liệu bài trên)... Chính phủ <span class=\"keyword\">tăng chi tiêu thêm 20</span> và đầu tư tư nhân <span class=\"keyword\">tăng thêm 5</span>. Mức <span class=\"keyword\">sản lượng cân bằng mới</span>:",
+    "options": [
+      "A. Y = 600",
+      "B. Y = 448",
+      "C. <span class=\"answer-keyword\">Y = 548</span>",
+      "D. Y = 500"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. Y = 548\n<div class=\"note\">Từ bài trước, số nhân k = 1/(1 - 0.5) = 2. Sản lượng ban đầu = 498.<br>Tổng cầu tự định tăng thêm ΔAD = ΔG + ΔI = 20 + 5 = 25.<br>Sản lượng tăng thêm ΔY = k * ΔAD = 2 * 25 = 50. Y mới = 498 + 50 = 548.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Mô hình AS-AD"
+    ],
+    "question": "Khi <span class=\"keyword\">Y < YP</span>, khi nào nền kinh tế quốc gia tái thiết lập được <span class=\"keyword\">cân đối bên trong</span>?",
+    "options": [
+      "A. Khi <span class=\"answer-keyword\">giá cả và tiền lương linh hoạt</span>",
+      "B. Khi giá cả và tiền lương cứng nhắc",
+      "C. Trong ngắn hạn, cân đối bên trong được tái thiết lập và tổng cầu (sản lượng) giảm.",
+      "D. Trong dài hạn, nền kinh tế sẽ không tái thiết lập được cân đối bên trong"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Khi giá cả và tiền lương linh hoạt\n<div class=\"note\">Khi suy thoái (Y < YP), thị trường lao động dư thừa. Nếu lương và giá linh hoạt, chi phí sản xuất sẽ giảm dần, làm dịch chuyển đường tổng cung ngắn hạn (SRAS) sang phải, đưa nền kinh tế về mức toàn dụng YP trong dài hạn.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Bài tập",
+      "Số nhân"
+    ],
+    "question": "Nếu khuynh hướng tiêu dùng biên (Cm) là 0,8, đầu tư biên (Im) là 0,2, thuế biên (Tm) là 0,2, nhập khẩu biên (Mm) là 0,14. <span class=\"keyword\">Số nhân của thuế</span> là:",
+    "options": [
+      "A. <span class=\"answer-keyword\">-2,67</span>",
+      "B. 3,33",
+      "C. -3,33",
+      "D. 2,67"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. -2,67\n<div class=\"note\">Số nhân tổng cầu k = 1 / [1 - Cm(1-Tm) - Im + Mm] = 1 / [1 - 0.8(0.8) - 0.2 + 0.14] = 1 / 0.3 = 3.333.<br>Số nhân của thuế kT = -Cm * k = -0.8 * 3.333 = -2.67.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Bài tập",
+      "Tổng cầu"
+    ],
+    "question": "Với số nhân tổng quát K = 4, <span class=\"keyword\">tổng cầu tăng thêm 100</span> thì <span class=\"keyword\">sản lượng tăng thêm</span>:",
+    "options": [
+      "A. 300",
+      "B. 250",
+      "C. <span class=\"answer-keyword\">400</span>",
+      "D. 100"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. 400\n<div class=\"note\">ΔY = K * ΔAD = 4 * 100 = 400. <i>(Chú thích: Câu gốc thiếu giá trị 100 ở tổng cầu tăng thêm, Agent đã tự bù dựa trên đáp án để đề bài hợp logic)</i>.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Bài tập",
+      "Tiêu dùng và Tiết kiệm"
+    ],
+    "question": "Hàm số tiêu dùng: C = 20 + 0,9 Yd (Yd: thu nhập khả dụng). <span class=\"keyword\">Tiết kiệm S</span> ở mức <span class=\"keyword\">thu nhập khả dụng 100</span> là:",
+    "options": [
+      "A. S=10",
+      "B. <span class=\"answer-keyword\">S= -10</span>",
+      "C. S= 5",
+      "D. S= 0"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. S= -10\n<div class=\"note\">Tại Yd = 100, mức tiêu dùng C = 20 + 0.9*100 = 110.<br>Mức tiết kiệm S = Yd - C = 100 - 110 = -10.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Tổng cầu"
+    ],
+    "question": "<span class=\"keyword\">Thu nhập kỳ vọng</span> trong tương lai <span class=\"keyword\">tăng</span> khiến cho:",
+    "options": [
+      "A. lượng tổng cầu giảm",
+      "B. tổng cầu giảm",
+      "C. lượng tổng cầu tăng",
+      "D. <span class=\"answer-keyword\">Tổng cầu tăng</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. Tổng cầu tăng\n<div class=\"note\">Sự lạc quan về thu nhập tương lai khuyến khích người dân tăng tiêu dùng ngay ở hiện tại, dẫn đến đường tổng cầu dịch chuyển sang phải (tổng cầu tăng).</div>"
   }
 ]
