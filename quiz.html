@@ -70,6 +70,7 @@
 
     // Truyền Data URL cho app.js
     var QS_DATA_URL = subject.jsonPath;
+    var KB_DATA_URL = subject.jsonPath.substring(0, subject.jsonPath.lastIndexOf('/')) + '/kb.json';
     
     // Cấu hình riêng cho môn học này (dùng cho chế độ Luyện Cấu Trúc)
     window.subjectConfig = {
