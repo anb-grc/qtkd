@@ -186,7 +186,7 @@ data = [
     }
 ]
 
-subject_dir = '/Users/thien-ban/Library/CloudStorage/OneDrive-Personal/03_WORK/11. LearnIZ/_sources/TVU/Quan_tri_kinh_doanh_DH/15. TÀI CHÍNH TIỀN TỆ'
+subject_dir = '/Users/thien-ban/Library/CloudStorage/OneDrive-Personal/03_WORK/11. LearnIZ/_sources/TVU/Quan_tri_kinh_doanh_DH/14. KINH TẾ VĨ MÔ'
 staging_file = os.path.join(subject_dir, 'staging', 'temp_qs.json')
 main_file = os.path.join(subject_dir, 'qs.json')
 
