@@ -3,15 +3,18 @@
     "title": "Giáo Dục Thể Chất 1 - Điền Kinh",
     "blocks": [
       {
-        "type": "HeroCard",
+        "type": "features",
         "data": {
-          "title": "Tổng Quan Điền Kinh",
-          "subtitle": "Nữ hoàng của các môn thể thao",
-          "description": "Điền kinh bao gồm Chạy, Nhảy, Ném đẩy và Đi bộ. Bắt nguồn từ Olympic cổ đại (Hy Lạp - 776 TCN). Ngày nay, điền kinh là môn thi đấu trung tâm, hướng đến phát triển toàn diện sức mạnh, sức bền và độ dẻo dai."
+          "items": [
+            {
+              "title": "Tổng Quan Điền Kinh",
+              "description": "<strong>Nữ hoàng của các môn thể thao</strong><br/>Điền kinh bao gồm Chạy, Nhảy, Ném đẩy và Đi bộ. Bắt nguồn từ Olympic cổ đại (Hy Lạp - 776 TCN). Ngày nay, điền kinh là môn thi đấu trung tâm, hướng đến phát triển toàn diện sức mạnh, sức bền và độ dẻo dai."
+            }
+          ]
         }
       },
       {
-        "type": "ProcessSteps",
+        "type": "process-steps",
         "data": {
           "title": "9 Động Tác Thể Dục Phát Triển Chung",
           "steps": [
@@ -64,7 +67,7 @@
         }
       },
       {
-        "type": "ProcessSteps",
+        "type": "process-steps",
         "data": {
           "title": "Kỹ Thuật Chạy Cự Ly Ngắn & Xuất Phát Thấp",
           "steps": [
@@ -97,7 +100,7 @@
         }
       },
       {
-        "type": "ComparisonTable",
+        "type": "matrix-table",
         "data": {
           "title": "Phân Biệt Chạy Cự Ly Ngắn và Cự Ly Trung Bình",
           "headers": [
@@ -130,50 +133,49 @@
         }
       },
       {
-        "type": "DeltaCheatSheet",
+        "type": "features",
         "data": {
           "title": "Luật Thi Đấu & Lỗi Phạm Quy",
           "items": [
             {
-              "term": "Xuất phát sớm (False start)",
-              "definition": "Rời vị trí hoặc chuyển động trước khi có súng lệnh/hiệu lệnh 'Chạy!' -> Bị loại."
+              "title": "Xuất phát sớm (False start)",
+              "description": "Rời vị trí hoặc chuyển động trước khi có súng lệnh/hiệu lệnh 'Chạy!' -> Bị loại."
             },
             {
-              "term": "Chạy sai làn",
-              "definition": "Giẫm vạch hoặc lấn sang làn đối thủ (trong cự ly ngắn) -> Phạm quy."
+              "title": "Chạy sai làn",
+              "description": "Giẫm vạch hoặc lấn sang làn đối thủ (trong cự ly ngắn) -> Phạm quy."
             },
             {
-              "term": "Cản trở đối thủ",
-              "definition": "Xô đẩy, kéo, hoặc cố tình gây cản trở khi vượt -> Bị loại."
+              "title": "Cản trở đối thủ",
+              "description": "Xô đẩy, kéo, hoặc cố tình gây cản trở khi vượt -> Bị loại."
             },
             {
-              "term": "Tính thành tích",
-              "definition": "Chỉ tính khi THÂN (NGỰC) chạm mặt phẳng đích. Đầu, tay, chân không tính."
+              "title": "Tính thành tích",
+              "description": "Chỉ tính khi THÂN (NGỰC) chạm mặt phẳng đích. Đầu, tay, chân không tính."
             }
           ]
         }
       },
       {
-        "type": "EcosystemMap",
+        "type": "mindmap",
         "data": {
-          "title": "Thành Tích Nổi Bật",
-          "center": "Điền Kinh",
-          "nodes": [
+          "root": "Điền Kinh",
+          "children": [
             {
-              "name": "Thế Giới",
-              "desc": "Usain Bolt (Người nhanh nhất hành tinh), Bob Beamon (Kỷ lục nhảy xa 23 năm)"
+              "label": "Thế Giới",
+              "description": "Usain Bolt (Người nhanh nhất hành tinh), Bob Beamon (Kỷ lục nhảy xa 23 năm)"
             },
             {
-              "name": "Châu Á",
-              "desc": "Trung Quốc thống trị ASIAD. Liu Xiang vô địch Olympic 110m rào."
+              "label": "Châu Á",
+              "description": "Trung Quốc thống trị ASIAD. Liu Xiang vô địch Olympic 110m rào."
             },
             {
-              "name": "Đông Nam Á",
-              "desc": "Thái Lan thống trị SEA Games. Việt Nam lấy điền kinh làm mũi nhọn."
+              "label": "Đông Nam Á",
+              "description": "Thái Lan thống trị SEA Games. Việt Nam lấy điền kinh làm mũi nhọn."
             },
             {
-              "name": "Việt Nam",
-              "desc": "Nguyễn Thị Oanh (Biểu tượng hiện đại, 4 HCV SEA Games 32), Hoàng Nguyên Thanh (Marathon)"
+              "label": "Việt Nam",
+              "description": "Nguyễn Thị Oanh (Biểu tượng hiện đại, 4 HCV SEA Games 32), Hoàng Nguyên Thanh (Marathon)"
             }
           ]
         }
