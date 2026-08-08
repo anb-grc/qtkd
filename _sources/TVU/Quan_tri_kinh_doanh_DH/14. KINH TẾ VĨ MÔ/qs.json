@@ -499,5 +499,246 @@
       "D. <span class=\"answer-keyword\">Tổng cầu tăng</span>"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. Tổng cầu tăng\n<div class=\"note\">Sự lạc quan về thu nhập tương lai khuyến khích người dân tăng tiêu dùng ngay ở hiện tại, dẫn đến đường tổng cầu dịch chuyển sang phải (tổng cầu tăng).</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "GDP và GNP"
+    ],
+    "question": "Khoản mục nào sau đây <span class=\"keyword\">KHÔNG được tính</span> vào GDP của <span class=\"keyword\">năm 2015</span>?",
+    "options": [
+      "A. Doanh thu dịch vụ của nhà môi giới bất động sản năm 2015",
+      "B. Một ngôi nhà được <span class=\"answer-keyword\">xây dựng năm 2014</span> và được bán lần đầu tiên trong năm 2015",
+      "C. Doanh thu của dịch vụ cắt tóc năm 2015",
+      "D. Doanh thu của một chiếc xe Honda sản xuất năm 2015 ở Tennessee"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Một ngôi nhà được xây dựng năm 2014 và được bán lần đầu tiên trong năm 2015\n<div class=\"note\">GDP chỉ tính giá trị hàng hóa dịch vụ sản xuất ra TRONG NĂM hiện tại. Nhà xây năm 2014 đã được tính vào GDP 2014 dưới dạng đầu tư, không tính lại vào 2015.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Kinh tế vĩ mô"
+    ],
+    "question": "Vấn đề nào sau đây <span class=\"keyword\">KHÔNG được</span> các nhà kinh tế vĩ mô <span class=\"keyword\">quan tâm</span> nghiên cứu?",
+    "options": [
+      "A. Các yếu tố quyết định lạm phát.",
+      "B. <span class=\"answer-keyword\">Thị phần</span> tương đối giữa <span class=\"answer-keyword\">Vietcombank và Sacombank</span>.",
+      "C. Tăng trưởng GDP thực tế của Việt Nam.",
+      "D. Các cân thương mại của Việt Nam."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Thị phần tương đối giữa Vietcombank và Sacombank.\n<div class=\"note\">Vĩ mô nghiên cứu tổng thể nền kinh tế. Sự cạnh tranh thị phần giữa các doanh nghiệp hoặc ngân hàng cụ thể là đối tượng nghiên cứu của Kinh tế vi mô.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Tăng trưởng"
+    ],
+    "question": "Nếu hai nước cùng khởi đầu với mức GDP bình quân đầu người như nhau, và một nước <span class=\"keyword\">tăng trưởng 2%/năm</span> còn nước kia <span class=\"keyword\">tăng trưởng 4%/năm</span>, thì kết luận gì?",
+    "options": [
+      "A. GDP bình quân của một nước sẽ luôn lớn hơn GDP bình quân của nước còn lại 2%.",
+      "B. Mức sống của hai nước sẽ gặp nhau do quy luật lợi suất giảm dần đối với tư bản.",
+      "C. <span class=\"answer-keyword\">Mức sống</span> của nước có tốc độ tăng trưởng 4% sẽ <span class=\"answer-keyword\">tăng dần khoảng cách</span> với mức sống của nước tăng trưởng chậm hơn do <span class=\"answer-keyword\">tăng trưởng kép</span>.",
+      "D. Năm sau, kinh tế của nước tăng trưởng 4% sẽ lớn gấp hai lần nước tăng trưởng 2%."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. Mức sống của nước có tốc độ tăng trưởng 4% sẽ tăng dần khoảng cách...\n<div class=\"note\">Sự tăng trưởng liên tục tạo ra hiệu ứng lãi kép (tăng trưởng kép), làm cho khoảng cách giữa hai nước nới rộng rất lớn theo thời gian, không dừng lại ở mức 2%.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "GDP và GNP"
+    ],
+    "question": "Hạng mục nào dưới đây <span class=\"keyword\">KHÔNG nằm trong</span> cách tính GNP?",
+    "options": [
+      "A. Chi tiêu <span class=\"answer-keyword\">trợ cấp xã hội</span> và giá trị thỏa mãn của việc <span class=\"answer-keyword\">giải trí nghỉ ngơi</span>",
+      "B. Lương giáo viên phổ thông",
+      "C. Công việc nội trợ được chi trả trong nước",
+      "D. Chi tiêu của Chính phủ về hàng hóa và dịch vụ"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Chi tiêu trợ cấp xã hội và giá trị thỏa mãn của việc giải trí nghỉ ngơi\n<div class=\"note\">Trợ cấp xã hội là chuyển giao một chiều, không tạo ra hàng hóa. Giá trị giải trí vô hình không có giao dịch trên thị trường nên cũng bị loại khỏi GNP.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Tăng trưởng"
+    ],
+    "question": "Tốc độ <span class=\"keyword\">tăng GDP thực tế</span> của Việt Nam năm 2006 là <span class=\"keyword\">8,2%</span>. Điều đó có nghĩa là:",
+    "options": [
+      "A. GDP tính theo giá cố định của năm 2006 bằng 108,2% so với năm gốc.",
+      "B. GDP danh nghĩa của năm 2006 bằng 108,2% so với năm gốc.",
+      "C. <span class=\"answer-keyword\">GDP tính theo giá cố định</span> của năm 2006 bằng 108,2% so với <span class=\"answer-keyword\">năm 2005</span>.",
+      "D. GDP danh nghĩa của năm 2006 bằng 108,2% so với năm 2005."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. GDP tính theo giá cố định của năm 2006 bằng 108,2% so với năm 2005.\n<div class=\"note\">Tăng trưởng luôn dựa vào GDP thực (tính theo giá cố định). Tăng 8,2% nghĩa là GDP thực bằng 108,2% so với năm liền kề trước đó (2005).</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Tổng cầu"
+    ],
+    "question": "Trong nền kinh tế mở, GDP tính theo phương pháp chi tiêu và theo luồng sản phẩm cuối cùng đều <span class=\"keyword\">bằng</span>:",
+    "options": [
+      "A. <span class=\"answer-keyword\">GDP = C + I + G + X – M</span>",
+      "B. GDP = C + I + G + Te",
+      "C. GDP = C + I + G + X + M",
+      "D. GDP = C + I + G + D."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. GDP = C + I + G + X – M\n<div class=\"note\">Đây là công thức chuẩn đo lường Tổng sản phẩm quốc nội theo chi tiêu tổng cầu, với X - M là xuất khẩu ròng (NX).</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Tiêu dùng và Tiết kiệm"
+    ],
+    "question": "<span class=\"keyword\">Thu nhập khả dụng</span> là",
+    "options": [
+      "A. Thu nhập của công chúng bao gồm cả thuế thu nhập cá nhân.",
+      "B. Thu nhập được quyền <span class=\"answer-keyword\">dùng tự do</span> theo ý muốn dân chúng.",
+      "C. Tiết kiệm còn lại sau khi đã tiêu dùng.",
+      "D. Thu nhập tài sản ròng từ nước ngoài."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Thu nhập được quyền dùng tự do theo ý muốn dân chúng.\n<div class=\"note\">Thu nhập khả dụng (Yd) là thu nhập còn lại của dân cư sau khi nộp thuế trực thu, họ có toàn quyền quyết định đem đi tiêu dùng (C) hay tiết kiệm (S).</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "GDP và GNP"
+    ],
+    "question": "Lợi nhuận do một <span class=\"keyword\">công ty Việt Nam</span> tạo ra tại <span class=\"keyword\">Mátxcơva</span> sẽ được tính vào:",
+    "options": [
+      "A. cả GDP và GNP của Nga",
+      "B. cả GDP và GNP của Việt Nam",
+      "C. GDP của Việt Nam và GNP của Nga",
+      "D. <span class=\"answer-keyword\">GNP của Việt Nam</span> và <span class=\"answer-keyword\">GDP của Nga</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. GNP của Việt Nam và GDP của Nga\n<div class=\"note\">GDP tính theo lãnh thổ (tại Nga -> GDP Nga). GNP tính theo quốc tịch (do công ty Việt Nam sở hữu -> GNP Việt Nam).</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Thất nghiệp"
+    ],
+    "question": "Chính sách nào sau đây của chính phủ <span class=\"keyword\">thất bại</span> đối với việc <span class=\"keyword\">giảm</span> tỷ lệ thất nghiệp?",
+    "options": [
+      "A. Thiết lập các cơ quan việc làm",
+      "B. <span class=\"answer-keyword\">Tăng tiền lương tối thiểu</span>",
+      "C. Thiết lập chương trình đào tạo công nhân",
+      "D. Giảm trợ cấp thất nghiệp"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Tăng tiền lương tối thiểu\n<div class=\"note\">Việc ép tiền lương tối thiểu cao hơn mức cân bằng thị trường sẽ khiến doanh nghiệp cắt giảm nhân công, gây dư thừa lao động, làm TĂNG thất nghiệp cơ cấu chứ không phải giảm.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Thất nghiệp"
+    ],
+    "question": "Thành phần nào sau đây thuộc <span class=\"keyword\">lực lượng lao động</span> của quốc gia?",
+    "options": [
+      "A. Học sinh trường trung học chuyên nghiệp",
+      "B. Sinh viên năm cuối",
+      "C. <span class=\"answer-keyword\">Bộ đội xuất ngũ</span>",
+      "D. Người nội trợ"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. Bộ đội xuất ngũ\n<div class=\"note\">Bộ đội xuất ngũ trong độ tuổi lao động có nhu cầu việc làm được xếp vào lực lượng lao động. Học sinh, sinh viên, và người nội trợ toàn thời gian thuộc nhóm dân số không tham gia LLLĐ.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Lạm phát"
+    ],
+    "question": "Yếu tố nào sau đây là nguyên nhân của <span class=\"keyword\">lạm phát cao</span>?",
+    "options": [
+      "A. Ngân sách chính phủ bội chi và được tài trợ bằng nợ vay nước ngoài.",
+      "B. Ngân sách chính phủ bội chi bất luận nó được tài trợ thế nào.",
+      "C. Ngân sách chính phủ bội chi và được tài trợ bằng phát hành tín phiếu kho bạc.",
+      "D. Ngân sách chính phủ bội chi và được tài trợ bằng <span class=\"answer-keyword\">phát hành tiền giấy</span>."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. Ngân sách chính phủ bội chi và được tài trợ bằng phát hành tiền giấy.\n<div class=\"note\">Việc Chính phủ bù đắp thâm hụt bằng cách in thêm tiền (tài trợ bằng tiền giấy) sẽ làm cung tiền (M) tăng đột biến, gây ra lạm phát rất cao (siêu lạm phát).</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Bài tập",
+      "Tổng cầu"
+    ],
+    "question": "Nền kinh tế giản đơn có: C = 120 + 0,7Yd; I = 50 + 0,1Y; Yp = 1000. Sản lượng <span class=\"keyword\">cần phải thay đổi</span> là bao nhiêu để đạt được mức sản lượng tiềm năng?",
+    "options": [
+      "A. <span class=\"answer-keyword\">150</span>",
+      "B. 140",
+      "C. 120",
+      "D. 130"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. 150\n<div class=\"note\">Tổng cầu AD = C + I = 170 + 0.8Y. Tại Y = AD ➔ Y = 850.<br>Mức Yp = 1000. Lượng cần thay đổi = Yp - Y = 1000 - 850 = 150.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Bài tập",
+      "Tổng cầu"
+    ],
+    "question": "Trong nền kinh tế giản đơn giả sử có hai khu vực sau: C = 120 + 0,7Yd; I = 50 + 0,1Y. Mức <span class=\"keyword\">sản lượng cân bằng</span> là:",
+    "options": [
+      "A. 1000",
+      "B. 600",
+      "C. <span class=\"answer-keyword\">850</span>",
+      "D. 750"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. 850\n<div class=\"note\">AD = C + I = 170 + 0.8Y. Tại điểm cân bằng Y = AD ➔ Y = 170 / (1 - 0.8) = 850.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Bài tập",
+      "Nền kinh tế mở"
+    ],
+    "question": "Giả sử M0 = 6; MPM = 0,1; MPS = 0,2; MPT = 0,1 và mức sản lượng là 450. Vậy <span class=\"keyword\">giá trị hàng hóa nhập</span> tại mức sản lượng trên sẽ là",
+    "options": [
+      "A. <span class=\"answer-keyword\">M = 51</span>",
+      "B. M = 39",
+      "C. M = 40",
+      "D. M = 45"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. M = 51\n<div class=\"note\">Hàm nhập khẩu M = M0 + MPM * Y = 6 + 0.1 * 450 = 51.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Số nhân"
+    ],
+    "question": "<span class=\"keyword\">Số nhân chi tiêu của Chính phủ</span> về hàng hóa và dịch vụ:",
+    "options": [
+      "A. Một trừ số nhân đầu tư",
+      "B. <span class=\"answer-keyword\">Bằng với số nhân</span> của đầu tư",
+      "C. Bằng với số nhân chi chuyển nhượng",
+      "D. Nghịch đảo số nhân đầu tư"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Bằng với số nhân của đầu tư\n<div class=\"note\">Chi tiêu của CP (G) và Đầu tư tư nhân (I) đều tác động trực tiếp và toàn phần vào tổng cầu (ΔAD = ΔG hoặc ΔI), do đó số nhân của chúng (k) luôn bằng nhau.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Tổng cầu"
+    ],
+    "question": "Chi <span class=\"keyword\">chuyển nhượng</span> của chính phủ <span class=\"keyword\">giảm</span> khiến cho:",
+    "options": [
+      "A. tổng cầu tăng",
+      "B. <span class=\"answer-keyword\">tổng cầu giảm</span>",
+      "C. lượng tổng cầu tăng",
+      "D. lượng tổng cầu giảm"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. tổng cầu giảm\n<div class=\"note\">Chi chuyển nhượng (Tr) giảm làm thu nhập khả dụng (Yd) của dân giảm ➔ Tiêu dùng (C) giảm ➔ Dẫn đến đường tổng cầu dịch sang trái (Tổng cầu giảm).</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Tổng cầu"
+    ],
+    "question": "Yếu tố nào sau đây thay đổi khi <span class=\"keyword\">di chuyển dọc</span> theo đường tổng cầu?",
+    "options": [
+      "A. Lợi nhuận trong tương lai của các dự án đầu tư.",
+      "B. Thu nhập trong tương lai của hộ gia đình.",
+      "C. Khối lượng tiền trong nền kinh tế.",
+      "D. <span class=\"answer-keyword\">Mức giá chung</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. Mức giá chung\n<div class=\"note\">Đường tổng cầu biểu diễn mối quan hệ giữa Mức giá (P) và Sản lượng (Y). Chỉ có sự thay đổi của Mức giá chung (biến nội sinh trên trục tung) mới làm trượt/di chuyển dọc theo đường tổng cầu.</div>"
   }
 ]
