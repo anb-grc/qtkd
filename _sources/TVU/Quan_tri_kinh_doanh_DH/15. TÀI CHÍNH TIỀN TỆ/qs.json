@@ -342,12 +342,12 @@
     ],
     "question": "Quỹ đoàn thu từ <span class=\"keyword\">đoàn phí</span> thuộc",
     "options": [
-      "A. tài chính hộ gia đình.",
+      "A. <span class=\"answer-keyword\">tài chính hộ gia đình</span>.",
       "B. tài chính doanh nghiệp.",
-      "C. <span class=\"answer-keyword\">tài chính công</span>.",
+      "C. tài chính công.",
       "D. tài chính trung gian."
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. tài chính công.\n<div class=\"note\">Tài chính của các tổ chức đoàn thể xã hội (như Đoàn thanh niên, Công đoàn) được phân loại thuộc nhóm Tài chính công (hoặc tài chính các tổ chức phi lợi nhuận của Nhà nước).</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. tài chính hộ gia đình.\n<div class=\"note\">Lưu ý bẫy đề: Dù về mặt lý thuyết quỹ đoàn thể thường xếp vào tài chính công/phi lợi nhuận, nhưng theo ngân hàng đáp án của trường thì nó được xếp vào nhóm Tài chính hộ gia đình (hoặc tổ chức xã hội dân sự). Mình học theo để lấy điểm nha!</div>"
   },
   {
     "weight": "high",

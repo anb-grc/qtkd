@@ -12,6 +12,8 @@ subject_dir = '/Users/thien-ban/Library/CloudStorage/OneDrive-Personal/03_WORK/1
 staging_file = os.path.join(subject_dir, 'staging', 'temp_qs.json')
 main_file = os.path.join(subject_dir, 'qs.json')
 
+os.makedirs(os.path.dirname(staging_file), exist_ok=True)
+
 new_data = [
     {
         "weight": "normal",
