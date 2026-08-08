@@ -740,5 +740,289 @@
       "D. <span class=\"answer-keyword\">Mức giá chung</span>"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. Mức giá chung\n<div class=\"note\">Đường tổng cầu biểu diễn mối quan hệ giữa Mức giá (P) và Sản lượng (Y). Chỉ có sự thay đổi của Mức giá chung (biến nội sinh trên trục tung) mới làm trượt/di chuyển dọc theo đường tổng cầu.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Tiền tệ"
+    ],
+    "question": "Khi cung tiền và cầu tiền được biểu diễn bằng một đồ thị với trục tung là lãi suất và trục hoành là lượng tiền, sự <span class=\"keyword\">cắt giảm thu nhập</span> làm:",
+    "options": [
+      "A. Dịch chuyển đường cầu tiền sang phải và làm tăng lãi suất cân bằng",
+      "B. <span class=\"answer-keyword\">Dịch chuyển</span> đường <span class=\"answer-keyword\">cầu tiền sang trái</span> và làm <span class=\"answer-keyword\">giảm lãi suất</span> cân bằng",
+      "C. Dịch chuyển đường cầu tiền sang trái và làm tăng lãi suất cân bằng",
+      "D. Dịch chuyển đường cầu tiền sang phải và làm giảm lãi suất cân bằng"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Dịch chuyển đường cầu tiền sang trái và làm giảm lãi suất cân bằng\n<div class=\"note\">Khi thu nhập giảm, cầu tiền giao dịch giảm dẫn tới đường cầu tiền (MD) dịch chuyển sang trái. Với cung tiền không đổi, điểm cân bằng mới sẽ nằm ở mức lãi suất thấp hơn.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Tiền tệ"
+    ],
+    "question": "Hoạt động nào sau đây của ngân hàng trung ương sẽ làm <span class=\"keyword\">tăng cơ sở tiền tệ</span>?",
+    "options": [
+      "A. Bán ngoại tệ trên thị trường ngoại hối",
+      "B. Hạ tỷ lệ dự trữ bắt buộc đối với các ngân hàng thương mại",
+      "C. Tăng lãi suất chiết khấu",
+      "D. <span class=\"answer-keyword\">Cho</span> các <span class=\"answer-keyword\">ngân hàng thương mại vay</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. Cho các ngân hàng thương mại vay\n<div class=\"note\">Cơ sở tiền tệ (MB) = Tiền mặt + Dự trữ. Khi NHTW cho NHTM vay, khoản dự trữ của NHTM tăng lên làm MB tăng trực tiếp. Việc hạ dự trữ bắt buộc chỉ tăng số nhân tiền tệ m chứ không tăng MB.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Lạm phát"
+    ],
+    "question": "Nếu <span class=\"keyword\">lạm phát trong thực tế lớn hơn</span> so với mức mà mọi người kỳ vọng, thì phát biểu nào sau đây đúng?",
+    "options": [
+      "A. Lãi suất thực tế không bị ảnh hưởng",
+      "B. Của cải được tái phân phối từ người đi vay sang người cho vay",
+      "C. <span class=\"answer-keyword\">Của cải</span> được tái phân phối <span class=\"answer-keyword\">từ người cho vay sang người đi vay</span>",
+      "D. Không có sự tái phân phối nào xảy ra"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. Của cải được tái phân phối từ người cho vay sang người đi vay\n<div class=\"note\">Lãi suất thực = Lãi suất danh nghĩa - Lạm phát thực tế. Lạm phát bất ngờ tăng cao làm lãi suất thực giảm, tiền mất giá nên người đi vay hưởng lợi vì trả nợ bằng đồng tiền rẻ hơn, người cho vay bị thiệt.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Lạm phát",
+      "Bài tập"
+    ],
+    "question": "Lãi suất danh nghĩa 7%, cung tiền tăng 5%/năm. Nếu chính phủ <span class=\"keyword\">tăng tốc độ tăng tiền</span> từ 5% <span class=\"keyword\">lên đến 9%</span>, hiệu ứng Fisher cho thấy rằng trong dài hạn, lãi suất danh nghĩa sẽ là:",
+    "options": [
+      "A. 9%",
+      "B. 12%",
+      "C. <span class=\"answer-keyword\">11%</span>",
+      "D. 4%"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. 11%\n<div class=\"note\">Tăng trưởng cung tiền tăng thêm 4% (từ 5% lên 9%) làm lạm phát cũng tăng thêm 4%. Theo hiệu ứng Fisher (lãi suất danh nghĩa điều chỉnh 1:1 với lạm phát), lãi suất danh nghĩa mới = 7% + 4% = 11%.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Tăng trưởng"
+    ],
+    "question": "Để thúc đẩy tăng trưởng, Chính phủ <span class=\"keyword\">KHÔNG nên</span> làm gì sau đây?",
+    "options": [
+      "A. <span class=\"answer-keyword\">Quốc hữu hóa</span> các ngành quan trọng",
+      "B. Kiểm soát sự gia tăng dân số",
+      "C. Thúc đẩy thương mại tự do",
+      "D. Khuyến khích tiết kiệm và đầu tư"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Quốc hữu hóa các ngành quan trọng\n<div class=\"note\">Các chính sách mở cửa thương mại, thu hút đầu tư, tiết kiệm và quản lý dân số đều là những biện pháp truyền thống tốt để tăng trưởng (mô hình Solow). Quốc hữu hóa thường dập tắt động lực cạnh tranh.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Tiền tệ"
+    ],
+    "question": "Ngân hàng thương mại <span class=\"keyword\">tạo tiền</span> bằng cách",
+    "options": [
+      "A. <span class=\"answer-keyword\">Cho khách hàng vay tiền</span>",
+      "B. Bán trái phiếu cho ngân hàng trung ương",
+      "C. Nhận tiền gửi của khách hàng",
+      "D. Bán trái phiếu cho công chúng"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Cho khách hàng vay tiền\n<div class=\"note\">Bản chất của quá trình tạo tiền của NHTM là thông qua việc cho vay lại các khoản tiền gửi dư thừa (sau khi trích lập dự trữ bắt buộc) để tạo ra các khoản tiền gửi phái sinh mới.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Tiền tệ"
+    ],
+    "question": "<span class=\"keyword\">Mở rộng tiền tệ</span> (hoặc nới lỏng tiền tệ):",
+    "options": [
+      "A. <span class=\"answer-keyword\">Là một chính sách</span> do NHTƯ thực hiện để kích cầu bằng cách <span class=\"answer-keyword\">hạ lãi suất chiết khấu</span>, <span class=\"answer-keyword\">giảm dự trữ</span> bắt buộc, hoặc <span class=\"answer-keyword\">mua trái phiếu</span> chính phủ",
+      "B. Là một chính sách do NHTƯ thực hiện để kích cầu bằng cách tăng lãi suất chiết khấu, tăng tỷ lệ dự trữ bắt buộc, hoặc bán ra chứng khoán nhà nước",
+      "C. Là một chính sách do NHTƯ thực hiện để kích cầu bằng cách phát hành trái phiếu chính phủ.",
+      "D. Là một chính sách do NHTƯ thực hiện để kích cầu bằng cách giảm thuế, tăng trợ cấp xã hội, hoặc tăng chi tiêu ngân sách"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Là một chính sách do NHTƯ thực hiện để kích cầu bằng cách hạ lãi suất chiết khấu...\n<div class=\"note\">Đáp án B là thắt chặt tiền tệ. Đáp án D là chính sách tài khóa. Chỉ có A là mô tả đầy đủ 3 công cụ nới lỏng tiền tệ.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Nền kinh tế mở"
+    ],
+    "question": "Tác động ngắn hạn của chính sách <span class=\"keyword\">nới lỏng tiền tệ</span> trong nền kinh tế mở với cơ chế <span class=\"keyword\">tỷ giá hối đoái thả nổi</span> là:",
+    "options": [
+      "A. Đồng nội tệ tăng giá",
+      "B. Thặng dư hoặc tăng thâm hụt cán cân thương mại",
+      "C. <span class=\"answer-keyword\">Đồng nội tệ giảm giá</span>",
+      "D. Sản lượng giảm"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. Đồng nội tệ giảm giá\n<div class=\"note\">Nới lỏng tiền tệ ➔ Lãi suất giảm ➔ Vốn chảy ra nước ngoài ➔ Cầu ngoại tệ tăng, Cung ngoại tệ giảm ➔ Tỷ giá E tăng, tức là Đồng nội tệ bị giảm giá (mất giá) so với ngoại tệ.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Nền kinh tế mở"
+    ],
+    "question": "Trong cơ chế tỷ giá hối đoái <span class=\"keyword\">thả nổi hoàn toàn</span>, phát biểu nào sau đây đúng?",
+    "options": [
+      "A. <span class=\"answer-keyword\">Dự trữ ngoại tệ</span> của quốc gia <span class=\"answer-keyword\">không thay đổi</span>, bất luận diễn biến trên thị trường ngoại hối",
+      "B. Dự trữ ngoại tệ của quốc gia tăng khi tỷ giá hối đoái giảm",
+      "C. Dự trữ ngoại tệ của quốc gia thay đổi tùy theo diễn biến trên thị trường ngoại hối",
+      "D. Dự trữ ngoại tệ của quốc gia giảm khi tỷ giá hối đoái tăng"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Dự trữ ngoại tệ của quốc gia không thay đổi...\n<div class=\"note\">Thả nổi hoàn toàn nghĩa là tỷ giá được xác định duy nhất bởi quy luật cung - cầu thị trường, Ngân hàng Trung ương tuyệt đối không can thiệp mua bán, nên Quỹ dự trữ ngoại hối quốc gia không thay đổi.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Bài tập",
+      "Mô hình IS-LM"
+    ],
+    "question": "Giả sử: C = 100 + 0,8Yd ; I = 240 + 0,16Y – 80r; X = 210; M = 50 + 0,2Y; G = 500; T = 50 + 0,2Y. <span class=\"keyword\">Phương trình đường IS</span> có dạng?",
+    "options": [
+      "A. Y = 2400 - 320r",
+      "B. Y = 2400 + 320r",
+      "C. Y = 2400 + 200r",
+      "D. <span class=\"answer-keyword\">Y = 2400 – 200r</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. Y = 2400 – 200r\n<div class=\"note\">C = 100 + 0.8(Y - 50 - 0.2Y) = 60 + 0.64Y.<br>Cân bằng Y = AD = C + I + G + X - M ➔ Y = (60+0.64Y) + (240+0.16Y-80r) + 500 + 210 - (50+0.2Y).<br>➔ 0.4Y = 960 - 80r ➔ Y = 2400 - 200r.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Bài tập",
+      "Mô hình IS-LM"
+    ],
+    "question": "Nếu sự <span class=\"keyword\">gia tăng chi tiêu</span> của Chính phủ là <span class=\"keyword\">10 tỷ</span> dẫn đến <span class=\"keyword\">đường IS dịch chuyển 40 tỷ</span>, có thể kết luận rằng số nhân tồng cầu là:",
+    "options": [
+      "A. <span class=\"answer-keyword\">4</span>",
+      "B. 10",
+      "C. 40",
+      "D. 0,2"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. 4\n<div class=\"note\">Khoảng cách dịch chuyển ngang của đường IS do G thay đổi chính bằng: ΔIS = k * ΔG. Ta có 40 = k * 10 ➔ Số nhân k = 4.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Mô hình IS-LM"
+    ],
+    "question": "Các điểm <span class=\"keyword\">nằm trên đường IS</span> thỏa mãn điều kiện:",
+    "options": [
+      "A. Thị trường tiền tệ cân bằng",
+      "B. Thị trường chứng khoán cân bằng",
+      "C. <span class=\"answer-keyword\">Thị trường hàng hóa</span> cân bằng",
+      "D. Thị trường ngoại hối cân bằng."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. Thị trường hàng hóa cân bằng\n<div class=\"note\">Đường IS (Investment = Savings) tập hợp các điểm phối hợp giữa Lãi suất (r) và Sản lượng (Y) sao cho thị trường hàng hóa (cầu hàng hóa) cân bằng.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Bài tập",
+      "Mô hình IS-LM"
+    ],
+    "question": "Giả sử đường <span class=\"keyword\">IS: Y = 2400 – 200r</span> và <span class=\"keyword\">LM: r = -6 + 0,005Y</span>. Sản lượng và lãi suất cân bằng sẽ là:",
+    "options": [
+      "A. r = 3%, Y = 3600",
+      "B. r = 5%, Y =1800",
+      "C. r = 4%, Y =1800",
+      "D. <span class=\"answer-keyword\">r = 3%, Y =1800</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. r = 3%, Y =1800\n<div class=\"note\">Giải hệ PT: Thay LM vào IS ➔ Y = 2400 - 200(-6 + 0.005Y) = 3600 - Y ➔ 2Y = 3600 ➔ Y = 1800.<br>Thế ngược lại r = -6 + 0.005(1800) = 3 (tức 3%).</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Tổng cung và Tổng cầu"
+    ],
+    "question": "Trên đồ thị, trục hoành ghi sản lượng, trục tung ghi mức giá chung, đường <span class=\"keyword\">tổng cung AS dịch chuyển</span> khi:",
+    "options": [
+      "A. Mức giá chung thay đổi",
+      "B. <span class=\"answer-keyword\">Công nghệ sản xuất</span> có những thay đổi đáng kể",
+      "C. Thu nhập quốc gia không đổi",
+      "D. Chính phủ thay đổi các khoản chi ngân sách"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Công nghệ sản xuất có những thay đổi đáng kể\n<div class=\"note\">Mức giá (trục tung) thay đổi sẽ gây ra sự trượt (di chuyển dọc) đường AS. Chính phủ chi ngân sách làm dịch chuyển AD. Tiến bộ công nghệ làm dịch chuyển (Shift) nguyên đường AS.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Tổng cung và Tổng cầu"
+    ],
+    "question": "Các nhà kinh tế học <span class=\"keyword\">cổ điển</span> cho rằng đường tổng cung AS:",
+    "options": [
+      "A. AS nằm ngang",
+      "B. AS nằm ngang khi Y<YP và thẳng đứng khi Y=YP",
+      "C. <span class=\"answer-keyword\">Thẳng đứng</span> tại mức <span class=\"answer-keyword\">sản lượng tiềm năng</span>",
+      "D. AS dốc lên"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. Thẳng đứng tại mức sản lượng tiềm năng\n<div class=\"note\">Trường phái Cổ điển tin vào sự linh hoạt hoàn toàn của giá và lương, cho rằng nền kinh tế luôn tự điều chỉnh ở mức toàn dụng, do đó AS luôn thẳng đứng (đường dài hạn).</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Tổng cung và Tổng cầu"
+    ],
+    "question": "Đường tổng cung <span class=\"keyword\">ngắn hạn</span>:",
+    "options": [
+      "A. <span class=\"answer-keyword\">có độ dốc là số dương.</span>",
+      "B. là đường thẳng đứng.",
+      "C. có độ dốc là số âm.",
+      "D. là đường nằm ngang."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. có độ dốc là số dương.\n<div class=\"note\">Trong ngắn hạn, khi mức giá chung tăng, tiền lương danh nghĩa thường cứng nhắc, lợi nhuận thực doanh nghiệp tăng nên họ mở rộng quy mô, tạo ra đường SRAS dốc lên (độ dốc dương).</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Tổng cung và Tổng cầu"
+    ],
+    "question": "<span class=\"keyword\">Tiến bộ công nghệ</span> sẽ:",
+    "options": [
+      "A. làm đường SAS dịch chuyển sang phải và không làm đường LAS dịch chuyển.",
+      "B. không làm dịch chuyển đường LAS và đường SAS.",
+      "C. làm đường LAS dịch chuyển sang phải và không làm đường SAS dịch chuyển.",
+      "D. làm <span class=\"answer-keyword\">cả đường LAS và đường SAS</span> dịch chuyển <span class=\"answer-keyword\">sang phải</span>."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. làm cả đường LAS và đường SAS dịch chuyển sang phải.\n<div class=\"note\">Tiến bộ công nghệ làm tăng năng lực cốt lõi của nền kinh tế, qua đó đẩy mức sản lượng tiềm năng lên, làm dịch chuyển cả Tổng cung dài hạn (LAS) và Tổng cung ngắn hạn (SAS) sang phải.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Tổng cung và Tổng cầu"
+    ],
+    "question": "Đường <span class=\"keyword\">tổng cầu (AD) dịch chuyển</span> là do:",
+    "options": [
+      "A. <span class=\"answer-keyword\">Các nhân tố tác động đến C, I, G, X, M</span> thay đổi",
+      "B. Mức giá chung",
+      "C. Năng lực sản xuất của quốc gia thay đổi",
+      "D. Mức giá chung trong nền kinh tế thay đổi"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Các nhân tố tác động đến C, I, G, X, M thay đổi\n<div class=\"note\">Sự thay đổi của mức giá chỉ gây trượt dọc trên AD. Tổng cầu AD = C+I+G+X-M, sự kiện phi giá nào thay đổi cấu thành này sẽ làm dịch chuyển đường AD.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Tổng cung và Tổng cầu"
+    ],
+    "question": "<span class=\"keyword\">Tiền lương danh nghĩa giảm</span>, thì:",
+    "options": [
+      "A. làm tăng lượng tổng cung dài hạn.",
+      "B. làm giảm lượng tổng cung dài hạn.",
+      "C. <span class=\"answer-keyword\">làm tăng</span> lượng <span class=\"answer-keyword\">tổng cung ngắn hạn</span>.",
+      "D. làm giảm lượng tổng cung ngắn hạn."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. làm tăng lượng tổng cung ngắn hạn.\n<div class=\"note\">Tiền lương danh nghĩa giảm làm giảm chi phí đầu vào, khiến đường cung ngắn hạn (SRAS) dịch sang phải, tức là tăng lượng tổng cung trong ngắn hạn. (Tổng cung dài hạn phụ thuộc nguồn lực chứ không phụ thuộc tiền lương).</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Tổng cung và Tổng cầu"
+    ],
+    "question": "Trong ngắn hạn đường tổng cung có dạng:",
+    "options": [
+      "A. thể hiện mức sản lượng thực tiềm năng.",
+      "B. thẳng đứng.",
+      "C. dịch chuyển khi mức giá chung thay đổi.",
+      "D. thể hiện <span class=\"answer-keyword\">tác động của mức giá chung</span> lên sản lượng thực khi giá và các yếu tố khác không đổi."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. thể hiện tác động của mức giá chung lên sản lượng thực khi giá và các yếu tố khác không đổi.\n<div class=\"note\">Đường AS dốc lên trong ngắn hạn mô tả quan hệ thuận chiều: Mức giá chung (P) thay đổi (tác động) sẽ làm thay đổi sản lượng cung cấp (Y) trong điều kiện giá yếu tố đầu vào (như lương) chưa kịp thay đổi (cứng nhắc).</div>"
   }
 ]
