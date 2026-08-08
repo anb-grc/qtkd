@@ -3,54 +3,110 @@ import os
 
 path = "_sources/TVU/Quan_tri_kinh_doanh_DH/13. GIÁO DỤC THỂ CHẤT 1/kb.json"
 
-if not os.path.exists(path):
-    print("File not found")
-    exit(1)
-
-with open(path, "r", encoding="utf-8") as f:
-    data = json.load(f)
-
-for chapter in data:
-    for block in chapter.get("blocks", []):
-        if block["type"] == "HeroCard":
-            block["type"] = "features"
-            title = block["data"].get("title", "")
-            sub = block["data"].get("subtitle", "")
-            desc = block["data"].get("description", "")
-            full_desc = f"<strong>{sub}</strong><br/>{desc}" if sub else desc
-            block["data"] = {
-                "items": [{"title": title, "description": full_desc}]
+data = [
+  {
+    "title": "Giáo Dục Thể Chất 1 - Điền Kinh & Thể dục",
+    "blocks": [
+      {
+        "type": "mindmap",
+        "title": "Bức Tranh Toàn Cảnh Điền Kinh",
+        "data": {
+          "root": "ĐIỀN KINH",
+          "children": [
+            {
+              "label": "Định nghĩa",
+              "description": "Là <strong>nữ hoàng</strong> của các môn thể thao, bao gồm đi bộ, chạy, nhảy, ném đẩy."
+            },
+            {
+              "label": "Lịch sử",
+              "description": "Bắt nguồn từ Olympic cổ đại (Hy Lạp - 776 TCN)."
+            },
+            {
+              "label": "Mục đích",
+              "description": "Phát triển toàn diện <strong>sức mạnh, sức bền, độ dẻo dai</strong>."
             }
-        elif block["type"] == "ProcessSteps":
-            block["type"] = "process-steps"
-        elif block["type"] == "ComparisonTable":
-            block["type"] = "matrix-table"
-        elif block["type"] == "DeltaCheatSheet":
-            block["type"] = "features"
-            items = block["data"].get("items", [])
-            new_items = []
-            for it in items:
-                new_items.append({
-                    "title": it.get("term", ""),
-                    "description": it.get("definition", "")
-                })
-            block["data"]["items"] = new_items
-        elif block["type"] == "EcosystemMap":
-            block["type"] = "mindmap"
-            center = block["data"].get("center", "")
-            nodes = block["data"].get("nodes", [])
-            children = []
-            for n in nodes:
-                children.append({
-                    "label": n.get("name", ""),
-                    "description": n.get("desc", "")
-                })
-            block["data"] = {
-                "root": center,
-                "children": children
+          ]
+        }
+      },
+      {
+        "type": "process-steps",
+        "title": "9 Động Tác Thể Dục Phát Triển Chung",
+        "data": {
+          "steps": [
+            {"name": "1. Vươn thở", "description": "Hít thở sâu, kết hợp vươn tay lên cao."},
+            {"name": "2. Tay ngực", "description": "Dang tay ngang, gập khuỷu tay trước ngực."},
+            {"name": "3. Lườn", "description": "Nghiêng người sang hai bên, một tay chống hông."},
+            {"name": "4. Bụng", "description": "Gập thân, tay chạm mũi chân."},
+            {"name": "5. Vặn mình", "description": "Vặn thân sang hai bên, tay đưa ngang."},
+            {"name": "6. Chân", "description": "Lăng chân, khuỵu gối, tay duỗi thẳng."},
+            {"name": "7. Toàn thân", "description": "Ngồi khuỵu, gập thân, vươn mình vung tay."},
+            {"name": "8. Nhảy", "description": "Nhảy giạng chân, tay vung cao."},
+            {"name": "9. Điều hòa", "description": "Thả lỏng tay chân, hít thở đều."}
+          ]
+        }
+      },
+      {
+        "type": "process-steps",
+        "title": "Kỹ Thuật Chạy Cự Ly Ngắn (Xuất Phát Thấp)",
+        "data": {
+          "steps": [
+            {"name": "1. Vào chỗ", "description": "Chống tay sát vạch, hình vòm. Khoảng cách hai chân 10cm. Vai nhô về trước vạch."},
+            {"name": "2. Sẵn sàng", "description": "Nâng mông cao hơn đầu. Trọng tâm dồn về hai tay và chân trước. Chờ hiệu lệnh."},
+            {"name": "3. Xuất phát (Chạy!)", "description": "Đạp chân mạnh về trước, đánh tay ngược chiều, thân ngả về trước."},
+            {"name": "4. Chạy lao & Giữa quãng", "description": "Nâng dần thân người. Bước chạy dài dần, tần số nhanh. Tiếp đất bằng nửa trước bàn chân."},
+            {"name": "5. Về đích", "description": "Duy trì tốc độ tối đa. <strong>Lao ngực hoặc xoay vai</strong> chạm dây đích. Không giảm tốc trước vạch."}
+          ]
+        }
+      },
+      {
+        "type": "vs-wrap",
+        "title": "Phân Biệt Cự Ly Ngắn & Trung Bình",
+        "data": {
+          "left": {
+            "title": "Cự Ly Ngắn (60m - 400m)",
+            "content": "<ul><li><strong>Xuất phát:</strong> Thấp (vào chỗ, sẵn sàng, chạy)</li><li><strong>Làn chạy:</strong> Chạy đúng làn riêng suốt cự ly</li><li><strong>Kỹ thuật:</strong> Đạp sau mạnh, nhanh, chạy lao tốc độ cao</li><li><strong>Về đích:</strong> Lao ngực/xoay vai chạm dây đích</li></ul>"
+          },
+          "right": {
+            "title": "Cự Ly Trung Bình (800m - 5000m)",
+            "content": "<ul><li><strong>Xuất phát:</strong> Cao (thân hơi ngả về trước)</li><li><strong>Làn chạy:</strong> Xuất phát theo làn hoặc chung, sau đó nhập làn</li><li><strong>Kỹ thuật:</strong> Đạp sau đều, tiết kiệm sức, nhịp thở 2-2 hoặc 3-3</li><li><strong>Về đích:</strong> Tăng dần tần số và độ dài bước, dành sức đoạn cuối</li></ul>"
+          }
+        }
+      },
+      {
+        "type": "delta-cheat-sheet",
+        "title": "Bẫy Lật Kèo: Luật & Phạm Quy",
+        "data": {
+          "items": [
+            {
+              "questionSnippet": "Hành vi nào dẫn đến <strong>bị loại</strong> ngay lập tức?",
+              "keyword": "Xuất phát sớm",
+              "correctDelta": "Rời vị trí/chuyển động <strong>trước khi</strong> có súng lệnh/hiệu lệnh 'Chạy!'",
+              "wrongTraps": ["Sau khi có hiệu lệnh 1 giây", "Đứng dậy chậm"],
+              "explanation": "Trong điền kinh hiện đại, lỗi xuất phát sớm (False start) sẽ bị truất quyền thi đấu ngay lập tức (không cảnh cáo)."
+            },
+            {
+              "questionSnippet": "Tính thành tích khi bộ phận nào <strong>chạm đích</strong>?",
+              "keyword": "Thân (Ngực)",
+              "correctDelta": "Chỉ tính khi <strong>Thân (Ngực) hoặc Vai</strong> chạm mặt phẳng đích.",
+              "wrongTraps": ["Chạm Đầu", "Chạm Tay", "Chạm Chân"],
+              "explanation": "Cấm để ý bẫy Đầu/Tay/Chân. Chỉ có phần Thân (Ngực/Vai) mới được tính là vượt qua vạch đích."
+            },
+            {
+              "questionSnippet": "Lỗi <strong>chạy sai làn</strong> thường xảy ra ở cự ly nào?",
+              "keyword": "Cự ly ngắn",
+              "correctDelta": "Giẫm vạch hoặc lấn sang làn đối thủ trong <strong>cự ly ngắn</strong>.",
+              "wrongTraps": ["Cự ly trung bình", "Marathon"],
+              "explanation": "Cự ly ngắn quy định vận động viên phải chạy 100% trong làn của mình. Lấn vạch là phạm quy."
             }
+          ]
+        }
+      }
+    ]
+  }
+]
 
+os.makedirs(os.path.dirname(path), exist_ok=True)
 with open(path, "w", encoding="utf-8") as f:
     json.dump(data, f, ensure_ascii=False, indent=2)
 
-print("Mapping done successfully.")
+print("Đã tái cấu trúc kb.json chuẩn schema 34 components.")

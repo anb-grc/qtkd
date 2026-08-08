@@ -3,7 +3,7 @@
 
 ---
 
-## I. TỔNG QUAN VỀ KINH TẾ HỌC VÀ KINH TẾ VĨ MÔ
+## I. CHỦ ĐỀ 1: TỔNG QUAN VỀ KINH TẾ HỌC VÀ KINH TẾ VĨ MÔ
 
 ### 1. Phân biệt Kinh tế Vi mô và Vĩ mô
 - **Kinh tế Vi mô:** Nghiên cứu cách ứng xử của các cá thể (người tiêu dùng, nhà sản xuất), tách biệt từng bộ phận riêng lẻ của nền kinh tế.
@@ -26,7 +26,7 @@
 
 ---
 
-## II. ĐO LƯỜNG SẢN LƯỢNG QUỐC GIA
+## II. CHỦ ĐỀ 2: ĐO LƯỜNG SẢN LƯỢNG QUỐC GIA
 
 ### 1. Tổng Sản Phẩm Quốc Nội (GDP - Gross Domestic Product)
 Tính theo **lãnh thổ**. Là tổng giá trị thị trường của tất cả hàng hóa/dịch vụ cuối cùng được sản xuất trong một quốc gia.
@@ -47,7 +47,7 @@ Tính theo **sở hữu quốc tịch**. Là tổng giá trị hàng hóa/dịch
 
 ---
 
-## III. LẠM PHÁT VÀ THẤT NGHIỆP
+## III. CHỦ ĐỀ 3: LẠM PHÁT VÀ THẤT NGHIỆP
 
 ### 1. Thất nghiệp
 - **Công thức:** `Tỷ lệ thất nghiệp U(%) = (Số người thất nghiệp / Lực lượng lao động) × 100`
@@ -66,7 +66,7 @@ Tính theo **sở hữu quốc tịch**. Là tổng giá trị hàng hóa/dịch
 
 ---
 
-## IV. TỔNG CẦU TRONG KINH TẾ ĐÓNG VÀ KINH TẾ MỞ
+## IV. CHỦ ĐỀ 4 & 5: TỔNG CẦU TRONG KINH TẾ ĐÓNG VÀ KINH TẾ MỞ
 
 ### 1. Tổng Cầu (AD)
 - **Các thành phần cấu thành:**
@@ -81,7 +81,7 @@ Tính theo **sở hữu quốc tịch**. Là tổng giá trị hàng hóa/dịch
 
 ---
 
-## V. TIỀN TỆ VÀ CHÍNH SÁCH TIỀN TỆ
+## V. CHỦ ĐỀ 6: TIỀN TỆ VÀ CHÍNH SÁCH TIỀN TỆ
 
 ### 1. Chức năng và Khối lượng Tiền
 - **Chức năng cơ bản:** (1) Phương tiện trao đổi, (2) Cất trữ giá trị, (3) Đơn vị hạch toán.
@@ -99,7 +99,7 @@ Tính theo **sở hữu quốc tịch**. Là tổng giá trị hàng hóa/dịch
 
 ---
 
-## VI. MÔ HÌNH IS - LM
+## VI. CHỦ ĐỀ 7: MÔ HÌNH IS - LM
 
 ### 1. Đường IS (Thị trường Hàng hóa)
 - Đại diện cho sự cân bằng Đầu tư (I) = Tiết kiệm (S).
@@ -115,7 +115,7 @@ Tính theo **sở hữu quốc tịch**. Là tổng giá trị hàng hóa/dịch
 
 ---
 
-## VII. TỔNG CUNG VÀ CHU KỲ KINH DOANH
+## VII. CHỦ ĐỀ 8: TỔNG CUNG VÀ CHU KỲ KINH DOANH
 
 ### 1. Tổng Cung (AS)
 - **Dài hạn:** Đường thẳng đứng tại mức sản lượng tự nhiên (chỉ phụ thuộc công nghệ, vốn, lao động; không phụ thuộc giá).
@@ -127,14 +127,14 @@ Tính theo **sở hữu quốc tịch**. Là tổng giá trị hàng hóa/dịch
 
 ---
 
-## VIII. NGOẠI HỐI & TỶ GIÁ
+## VIII. CHỦ ĐỀ 9: NGOẠI HỐI & TỶ GIÁ
 
 - **Ngoại hối:** Gồm ngoại tệ, phương tiện thanh toán bằng ngoại tệ (hối phiếu, séc), chứng khoán ngoại tệ, và vàng/đá quý làm tiền tệ.
 - **Tỷ giá hối đoái:** Là giá của một đồng tiền biểu diễn bằng đồng tiền khác. Việc yết giá (Ví dụ: USD/VND) bao gồm tỷ giá mua và tỷ giá bán.
 
 ---
 
-## IX. PHÂN TÍCH TĂNG TRƯỞNG KINH TẾ (THỰC TIỄN VN)
+## IX. CHỦ ĐỀ 10: PHÂN TÍCH TĂNG TRƯỞNG KINH TẾ (THỰC TIỄN VN)
 
 - **Các nhân tố thúc đẩy (TFP):** Đóng góp của Vốn, Lao động, và Yếu tố tổng hợp (Khoa học công nghệ, quản lý).
 - **Chất lượng tăng trưởng:** Tăng trưởng không chỉ là lượng (GDP tăng) mà phải là chất (Cải thiện mức sống thực, giảm nghèo, bền vững môi trường).

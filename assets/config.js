@@ -46,5 +46,13 @@ window.TVU_SUBJECTS = [
     program: "Quản trị kinh doanh (Đại học)",
     desc: "Nắm vững các nguyên lý về tài chính, tiền tệ và hoạt động tín dụng, ngân hàng.",
     jsonPath: "./_sources/TVU/Quan_tri_kinh_doanh_DH/15. TÀI CHÍNH TIỀN TỆ/qs.json"
+  },
+  {
+    id: "16",
+    name: "Tin Học Ứng Dụng Cơ Bản",
+    organization: "TVU",
+    program: "Quản trị kinh doanh (Đại học)",
+    desc: "Môn học tin học ứng dụng cơ bản.",
+    jsonPath: "./_sources/TVU/Quan_tri_kinh_doanh_DH/16. TIN HỌC ỨNG DỤNG CƠ BẢN/qs.json"
   }
 ];

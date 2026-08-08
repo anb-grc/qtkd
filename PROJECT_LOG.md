@@ -11,3 +11,4 @@ Khi chạy xong luồng xử lý câu hỏi mới, Agent tự động thêm 1 d�
 ## Nhật Ký Cập Nhật
 
 - [2026-07-19] [Hệ thống] Khởi tạo dự án, dọn dẹp cấu trúc thư mục (3-layer protection).
+- [x] (2026-08-08) [KINH TẾ VĨ MÔ]: Tái cấu trúc và trực quan hóa 34 Component từ raw_transcript thành kb.json. Đã commit và chờ Push.
