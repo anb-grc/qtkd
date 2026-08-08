@@ -50,12 +50,12 @@ Thay vì bắt học sinh nhớ cả câu dài, hệ thống chỉ Highlight (in
 **1. Giao Thức Hợp Tác 13 Bước Dev ↔ Agent & Vòng Lặp CI/CD Song Song:**
 Quy trình co-work chuẩn hóa cho toàn bộ vòng đời môn học, vận hành theo tiêu chí: *“Làm tới đâu, kiểm thử 0 lỗi, lên sàn Vercel ngay tới đó”*:
 - **Bước 1:** **User** mở khung chat lên và nhập mật lệnh: **"Bắt đầu"**.
-- **Bước 2:** **Agent** lắng nghe mật lệnh, lập tức quét thư mục `_sources/` ở gốc Workspace, đối chiếu với danh sách môn đã build để tìm ra các môn học mới. Sau đó, **liệt kê rõ ràng danh sách các môn chưa được build** và hỏi User: *"Mày muốn bắt đầu môn nào trước?"*
+- **Bước 2:** **Agent** lắng nghe mật lệnh, lập tức quét thư mục `_sources/` ở gốc Workspace (và các thư mục Chương trình bên trong), đối chiếu với danh sách môn đã build để tìm ra các môn học mới. Sau đó, **liệt kê rõ ràng danh sách các môn chưa được build** và hỏi User: *"Mày muốn bắt đầu môn nào trước?"*
 - **Bước 3:** **User** phản hồi chọn tên môn học cần xử lý.
-- **Bước 4:** **Agent** tự động làm việc bên trong thư mục môn học đó tại `_sources/[Tên Môn]/` và xây nền móng giàn giáo (`raw_inputs/`, `staging/`, file `kb.json` và file `qs.json`), hoàn tất phản hồi kèm **Báo Cáo Nghiệm Thu**.
+- **Bước 4:** **Agent** tự động làm việc bên trong thư mục môn học đó tại `_sources/[Tên Chương Trình]/[Tên Môn]/` và xây nền móng giàn giáo (`raw_inputs/`, `staging/`, file `kb.json` và file `qs.json`), hoàn tất phản hồi kèm **Báo Cáo Nghiệm Thu**.
 - **Bước 5:** (Tuỳ chọn) Nếu web chưa khai báo môn, cập nhật ngay file `assets/config.js` trỏ đường dẫn tới JSON để App nhận diện.
 - **Bước 6:** **Agent** chủ động hỏi: *"Có kiến thức nào cần nạp nữa không?"* để chờ User ném thêm dữ liệu hoặc chờ lệnh chạy tiếp.
-- **Bước 7:** **User** quăng toàn bộ kiến thức, tài liệu giáo trình, video (nếu có) vào thư mục `_sources/[Tên Môn]/`. Khi nào xong thì chốt lệnh (VD: "Chốt" hoặc "Bắt đầu cày búa").
+- **Bước 7:** **User** quăng toàn bộ kiến thức, tài liệu giáo trình, video (nếu có) vào thư mục `_sources/[Tên Chương Trình]/[Tên Môn]/`. Khi nào xong thì chốt lệnh (VD: "Chốt" hoặc "Bắt đầu cày búa").
 - **Bước 8 (Thẩm thấu kiến thức):** Nhận lệnh chốt từ User, **Agent** tiến hành đọc, xem xét và phân tích chi tiết các video/tài liệu bài giảng. Mục tiêu: Hiểu sâu định hướng, tầm quan trọng và ý nghĩa cốt lõi của môn học trước khi bóc tách.
 - **Bước 9 (Tái cấu trúc & Trực quan):** **Agent** chắt lọc kiến thức theo Ma trận 34 linh kiện (Component) (nhớ bám sát "Nguyên tắc tinh gọn ý"), output lưu vào file `kb.json`. Nhớ chạy Sandbox an toàn và tạo Báo Cáo. Mọi công việc kết thúc thì dùng lệnh `git push` để Deploy ngay. Mọi thứ tự động cập nhật lên Web.
 - **Bước 10 (The Core 3-layer protection):**
