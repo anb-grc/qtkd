@@ -22,9 +22,8 @@
 }
 
 .children {
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: minmax(140px, 1fr);
+  display: flex;
+  justify-content: center;
   position: relative;
   padding-top: 20px;
   margin-top: 0;
@@ -58,6 +57,7 @@
   position: relative;
   transition: var(--transition-normal);
   width: 100%; /* FORCES EQUAL WIDTH FOR PERFECT SYMMETRY! */
+  flex: 1 0 140px;
   z-index: 1;
 }
 
@@ -406,9 +406,10 @@
 @media (max-width: 768px) {
   .container {
     padding: var(--space-md) 4px var(--space-3xl) 4px;
+    justify-content: flex-start;
   }
-  .children {
-    grid-auto-columns: minmax(120px, 1fr);
+  .nodeWrapper {
+    flex: 1 0 120px;
   }
   .rootWrapper {
     width: 100%;

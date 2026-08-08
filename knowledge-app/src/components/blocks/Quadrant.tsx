@@ -6,8 +6,9 @@ export function Quadrant({ data }: { data: QuadrantBlock['data'] }) {
   const [openStates, setOpenStates] = useState<Record<number, boolean>>({});
 
   let quads: { title: string; content: string }[] = [];
-  if (data.quadrants && Array.isArray(data.quadrants)) {
-    quads = data.quadrants.map((q: any) => ({
+  const rawQuads = data.quadrants || (data as any).items || (data as any).elements;
+  if (rawQuads && Array.isArray(rawQuads)) {
+    quads = rawQuads.map((q: any) => ({
       title: q.title || q.name || q.label || '',
       content: q.content || q.description || q.desc || (Array.isArray(q.items) ? q.items.join('<br/>') : '')
     }));

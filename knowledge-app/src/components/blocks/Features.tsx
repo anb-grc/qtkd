@@ -17,7 +17,7 @@ export function Features({ data }: { data: FeaturesBlock['data'] }) {
         return (
           <div 
             key={idx} 
-            className={`${styles.featureCard} ${isOpen ? styles.open : ''}`} 
+            className={`${styles.card} ${isOpen ? styles.open : ''}`} 
             style={{ '--index': idx } as React.CSSProperties}
             onClick={() => setOpenStates(prev => ({ ...prev, [idx]: !prev[idx] }))}
           >
