@@ -376,11 +376,11 @@
     "question": "Tìm <span class=\"keyword\">câu SAI</span> trong các câu sau đây?",
     "options": [
       "A. MPS = 1- MPC",
-      "B. <span class=\"answer-keyword\">MPC = MPS</span>",
+      "B. <span class=\"answer-keyword\">MPS = ΔYd / ΔS</span>",
       "C. MPC = 1- MPS",
       "D. MPC + MPS = 1"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. MPC = MPS\n<div class=\"note\">Theo lý thuyết, MPC + MPS = 1. Việc MPC bắt buộc bằng MPS là sai trừ trường hợp ngẫu nhiên MPC = 0.5. <i>(Chú thích: Câu gốc mất option B, Agent tự bù một phương án sai để hoàn thiện lưới)</i>.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. MPS = ΔYd / ΔS\n<div class=\"note\">Theo lý thuyết, khuynh hướng tiết kiệm biên MPS = ΔS / ΔYd. Phương án B đã đảo ngược tử số và mẫu số nên đây là câu sai.</div>"
   },
   {
     "weight": "high",
