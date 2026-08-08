@@ -18,6 +18,7 @@ window.TVU_SUBJECTS = [
     name: "Thống kê ứng dụng trong kinh doanh",
     program: "Quản trị kinh doanh",
     desc: "Công cụ phân tích, thu thập và dự báo dữ liệu kinh doanh.",
+    jsonPath: "./_sources/12. Thống kê ứng dụng trong kinh doanh/Ngan_hang_de_Thong_ke_qs.json"
   },
   {
     id: "13",
