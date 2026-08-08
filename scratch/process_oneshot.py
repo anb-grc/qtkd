@@ -8,7 +8,7 @@ def clean_html(raw_html):
     cleantext = re.sub(cleanr, '', raw_html)
     return cleantext
 
-subject_dir = '/Users/thien-ban/Library/CloudStorage/OneDrive-Personal/03_WORK/11. LearnIZ/_sources/TVU/Quan_tri_kinh_doanh_DH/16. TIN HỌC ỨNG DỤNG CƠ BẢN'
+subject_dir = '/Users/thien-ban/Library/CloudStorage/OneDrive-Personal/03_WORK/11. LearnIZ/_sources/TVU/Quan_tri_kinh_doanh_DH/13. GIÁO DỤC THỂ CHẤT 1'
 staging_file = os.path.join(subject_dir, 'staging', 'temp_qs.json')
 main_file = os.path.join(subject_dir, 'qs.json')
 
@@ -17,243 +17,243 @@ os.makedirs(os.path.dirname(staging_file), exist_ok=True)
 new_data = [
     {
         "weight": "normal",
-        "tags": ["Phần cứng"],
-        "question": "Trong cấu trúc của một máy tính điện tử, thiết bị nào sau đây <span class=\"keyword\">KHÔNG phải</span> là thiết bị nhập?",
+        "tags": ["Luật thi đấu"],
+        "question": "<span class=\"keyword\">Đường chạy ngoài trời</span> tiêu chuẩn dài:",
         "options": [
-            "A. Bàn phím",
-            "B. Chuột",
-            "C. <span class=\"answer-keyword\">Màn hình</span>",
-            "D. Máy quét"
+            "A. <span class=\"answer-keyword\">400m</span>",
+            "B. 500m",
+            "C. 300m",
+            "D. 350m"
         ],
-        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. Màn hình\n<div class=\"note\">Màn hình là thiết bị xuất dữ liệu, không phải thiết bị nhập.</div>"
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. 400m\n<div class=\"note\">Theo chuẩn World Athletics, một vòng sân điền kinh ngoài trời tiêu chuẩn được đo ở làn trong cùng có chiều dài chính xác là 400 mét.</div>"
     },
     {
         "weight": "normal",
-        "tags": ["Mạng máy tính"],
-        "question": "Loại mạng nào sau đây là một hệ thống mạng tư nhân trong một tòa nhà, một khu vực và có <span class=\"keyword\">phạm vi hoạt động từ vài mét cho đến 1 km</span>?",
+        "tags": ["Luật thi đấu"],
+        "question": "<span class=\"keyword\">Luật mới</span> được áp dụng đầu tiên tại:",
         "options": [
-            "A. <span class=\"answer-keyword\">LAN</span>",
-            "B. MAN",
-            "C. WAN",
-            "D. INTERNET"
+            "A. Giải quốc gia",
+            "B. <span class=\"answer-keyword\">Giải quốc tế</span>",
+            "C. Trường học",
+            "D. Giải phong trào"
         ],
-        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. LAN\n<div class=\"note\">LAN (Local Area Network) là mạng cục bộ, phạm vi giới hạn trong một tòa nhà, công ty.</div>"
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Giải quốc tế\n<div class=\"note\">Khi World Athletics ban hành luật mới, nó bắt buộc phải được áp dụng ngay tại các giải vô địch quốc tế cấp cao nhất, sau đó mới cập nhật dần xuống các giải quốc gia.</div>"
     },
     {
         "weight": "normal",
-        "tags": ["Phần mềm"],
-        "question": "Phần mềm nào sau đây là phần mềm <span class=\"keyword\">ứng dụng</span>?",
+        "tags": ["Lịch sử điền kinh"],
+        "question": "Sự phát triển của <span class=\"keyword\">đồng hồ bấm giờ</span> ảnh hưởng mạnh nhất tới:",
         "options": [
-            "A. Windows 10",
-            "B. Unix",
-            "C. <span class=\"answer-keyword\">Google Chrome</span>",
-            "D. Linux"
+            "A. Ném",
+            "B. Đi bộ",
+            "C. Nhảy",
+            "D. <span class=\"answer-keyword\">Chạy</span>"
         ],
-        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. Google Chrome\n<div class=\"note\">Windows, Unix, Linux là hệ điều hành (phần mềm hệ thống). Google Chrome là phần mềm ứng dụng.</div>"
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. Chạy\n<div class=\"note\">Nhảy và Ném được đo bằng khoảng cách (mét/cm). Chỉ có môn chạy mới phụ thuộc sinh tử vào đồng hồ bấm giờ điện tử (đo đến 1/1000 giây) để phân định thắng thua.</div>"
     },
     {
         "weight": "normal",
-        "tags": ["Phần mềm"],
-        "question": "Hãy cho biết phần mềm nào sau đây <span class=\"keyword\">KHÔNG phải</span> là phần mềm độc hại (Malware)?",
+        "tags": ["Lịch sử điền kinh"],
+        "question": "<span class=\"keyword\">Nữ giới</span> bị hạn chế điền kinh do quan niệm:",
         "options": [
-            "A. Adware",
-            "B. <span class=\"answer-keyword\">Unikey</span>",
-            "C. Spyware",
-            "D. Trojan Horse"
+            "A. <span class=\"answer-keyword\">Văn hóa-sinh lý</span>",
+            "B. Kinh tế",
+            "C. Chính trị",
+            "D. Kỹ thuật"
         ],
-        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Unikey\n<div class=\"note\">Unikey là bộ gõ tiếng Việt hợp pháp. Adware, Spyware, Trojan là các loại mã độc.</div>"
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Văn hóa-sinh lý\n<div class=\"note\">Thời xưa, định kiến văn hóa (phụ nữ phải yểu điệu) và sự hiểu lầm về sinh lý (cho rằng vận động mạnh làm mất khả năng sinh đẻ) đã cản trở nữ giới.</div>"
     },
     {
         "weight": "normal",
-        "tags": ["Windows"],
-        "question": "Trong hệ điều hành Windows 10, để thực hiện thao tác <span class=\"keyword\">gỡ bỏ font chữ</span> đã cài vào máy tính người sử dụng sẽ chọn nhóm lệnh nào trong cửa sổ All Control Panel Items của Control Panel?",
+        "tags": ["Lịch sử điền kinh"],
+        "question": "Thời kỳ nào điền kinh <span class=\"keyword\">bị gián đoạn</span> ở châu Âu?",
         "options": [
-            "A. <span class=\"answer-keyword\">Fonts</span>",
-            "B. Date and Time",
-            "C. Devices and Printers",
-            "D. User Accounts"
+            "A. Phục Hưng",
+            "B. <span class=\"answer-keyword\">Trung cổ</span>",
+            "C. Khai sáng",
+            "D. Cổ đại"
         ],
-        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Fonts\n<div class=\"note\">Mục Fonts dùng để xem, cài đặt và gỡ bỏ font chữ.</div>"
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Trung cổ\n<div class=\"note\">Trong \"Đêm trường Trung cổ\" dưới sự thống trị của thần quyền, các môn thể thao phô diễn vẻ đẹp hình thể con người bị coi là tà giáo và bị cấm đoán.</div>"
     },
     {
         "weight": "normal",
-        "tags": ["Windows"],
-        "question": "Hãy cho biết tổ hợp phím nào được sử dụng để <span class=\"keyword\">đóng cửa sổ</span> 1 chương trình ứng dụng?",
+        "tags": ["Lịch sử điền kinh"],
+        "question": "Nội dung nào <span class=\"keyword\">KHÔNG có</span> trong điền kinh cổ đại?",
         "options": [
-            "A. CTRL+F4",
-            "B. <span class=\"answer-keyword\">ALT+F4</span>",
-            "C. SHIFT+F4",
-            "D. ALT+TAB"
+            "A. Ném",
+            "B. <span class=\"answer-keyword\">Chạy tiếp sức</span>",
+            "C. Nhảy",
+            "D. Chạy"
         ],
-        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. ALT+F4\n<div class=\"note\">ALT + F4 đóng cửa sổ ứng dụng hiện tại. CTRL + F4 chỉ đóng tab bên trong ứng dụng.</div>"
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Chạy tiếp sức\n<div class=\"note\">Điền kinh cổ đại ở Hy Lạp đề cao chủ nghĩa anh hùng cá nhân (chạy, ném lao, ném đĩa). Chạy tiếp sức (đề cao tính đồng đội) là sản phẩm của điền kinh hiện đại.</div>"
     },
     {
         "weight": "normal",
-        "tags": ["Windows"],
-        "question": "Hãy cho biết đối tượng nào sau đây sẽ có <span class=\"keyword\">phần mở rộng</span>?",
+        "tags": ["Lịch sử điền kinh"],
+        "question": "<span class=\"keyword\">IAAF</span> được thành lập vào năm nào?",
         "options": [
-            "A. Ổ đĩa",
-            "B. <span class=\"answer-keyword\">Tập tin</span>",
-            "C. Thư mục",
-            "D. Đường dẫn"
+            "A. 1936",
+            "B. <span class=\"answer-keyword\">1912</span>",
+            "C. 1908",
+            "D. 1920"
         ],
-        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Tập tin\n<div class=\"note\">Chỉ có tập tin (file) mới có định dạng phân biệt qua phần mở rộng (extension).</div>"
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. 1912\n<div class=\"note\">Liên đoàn Điền kinh Quốc tế (IAAF) chính thức ra đời vào năm 1912 tại Stockholm (Thụy Điển).</div>"
     },
     {
         "weight": "normal",
-        "tags": ["Windows"],
-        "question": "Trong chương trình File Explorer, khi tìm kiếm tập tin thì ký tự nào sau đây được sử dụng để đại diện cho <span class=\"keyword\">nhiều ký tự bất kỳ</span> trong chuỗi từ khóa?",
+        "tags": ["Luật thi đấu"],
+        "question": "<span class=\"keyword\">Quyết định cuối</span> trong điền kinh thuộc về:",
         "options": [
-            "A. #",
-            "B. <span class=\"answer-keyword\">*</span>",
-            "C. ?",
-            "D. !"
+            "A. Ban huấn luyện",
+            "B. HLV",
+            "C. <span class=\"answer-keyword\">Trọng tài trưởng</span>",
+            "D. Vận động viên"
         ],
-        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. *\n<div class=\"note\">Dấu sao (*) là ký tự đại diện cho một chuỗi nhiều ký tự bất kỳ.</div>"
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. Trọng tài trưởng\n<div class=\"note\">Trọng tài trưởng là cấp phân xử cao nhất.</div>"
     },
     {
         "weight": "normal",
-        "tags": ["Windows"],
-        "question": "Trong chương trình File Explorer, khi tìm kiếm tập tin thì ký tự nào sau đây được sử dụng để đại diện cho <span class=\"keyword\">1 ký tự</span> trong chuỗi từ khóa?",
+        "tags": ["Luật thi đấu"],
+        "question": "<span class=\"keyword\">Khu vực trao – nhận</span> gậy tiếp sức dài:",
         "options": [
-            "A. *",
-            "B. <span class=\"answer-keyword\">?</span>",
-            "C. #",
-            "D. !"
+            "A. <span class=\"answer-keyword\">30m</span>",
+            "B. 20m",
+            "C. 10m",
+            "D. 40m"
         ],
-        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. ?\n<div class=\"note\">Dấu hỏi chấm (?) đại diện cho một và chỉ một ký tự bất kỳ.</div>"
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. 30m\n<div class=\"note\">Theo luật thi đấu mới nhất, khu vực chạy đà (10m) và vùng trao gậy (20m cũ) đã được gộp chung thành một \"Khu vực trao gậy\" duy nhất dài 30m.</div>"
     },
     {
         "weight": "normal",
-        "tags": ["Windows"],
-        "question": "Phần mềm <span class=\"keyword\">WinRAR</span> được cài đặt vào Windows, mục đích dùng để làm gì?",
+        "tags": ["Luật thi đấu"],
+        "question": "Tiếp sức 4×100m có <span class=\"keyword\">mấy lần</span> trao gậy?",
         "options": [
-            "A. Gõ dấu tiếng việt",
-            "B. Soạn thảo văn bản",
-            "C. Vẽ cơ bản",
-            "D. <span class=\"answer-keyword\">Giải nén dữ liệu</span>"
+            "A. <span class=\"answer-keyword\">3</span>",
+            "B. 4",
+            "C. 2",
+            "D. 1"
         ],
-        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. Giải nén dữ liệu\n<div class=\"note\">WinRAR là phần mềm quản lý và nén/giải nén các tệp tin lưu trữ (ZIP, RAR).</div>"
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. 3\n<div class=\"note\">Đội có 4 người: Người 1 trao cho 2, 2 trao 3, 3 trao 4. Tổng cộng diễn ra 3 lần trao.</div>"
     },
     {
         "weight": "normal",
-        "tags": ["Windows"],
-        "question": "Hãy cho biết tổ hợp phím nào được sử dụng để <span class=\"keyword\">chuyển đổi qua lại</span> giữa các cửa sổ của các ứng dụng đang mở?",
+        "tags": ["Lịch sử điền kinh"],
+        "question": "Olympic <span class=\"keyword\">đỉnh cao</span> của điền kinh vì:",
         "options": [
-            "A. <span class=\"answer-keyword\">ALT+TAB</span>",
-            "B. SHIFT+TAB",
-            "C. Windows+TAB",
-            "D. CTRL+TAB"
+            "A. <span class=\"answer-keyword\">Quy tụ vận động viên ưu tú nhất</span>",
+            "B. Giải thưởng cao",
+            "C. Truyền hình trực tiếp",
+            "D. Dễ tổ chức"
         ],
-        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. ALT+TAB\n<div class=\"note\">ALT + TAB giúp chuyển nhanh (switch) giữa các cửa sổ chương trình đang mở.</div>"
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Quy tụ vận động viên ưu tú nhất\n<div class=\"note\">Thế vận hội Olympic là đấu trường danh giá nhất hành tinh, nơi những siêu sao điền kinh giỏi nhất bắt buộc phải tranh tài để khẳng định vị thế.</div>"
     },
     {
         "weight": "normal",
-        "tags": ["Word"],
-        "question": "Trong chương trình Microsoft Office Word 2013, hãy cho biết thao tác nào sau đây được sử dụng để <span class=\"keyword\">chia cột</span> cho đoạn văn bản đang được chọn?",
+        "tags": ["Luật thi đấu"],
+        "question": "<span class=\"keyword\">Giày thi đấu</span> bị cấm khi:",
         "options": [
-            "A. Home, Nhóm Editing, Columns",
-            "B. Insert, Nhóm Text, Columns",
-            "C. <span class=\"answer-keyword\">Page Layout, Nhóm Page Setup, Columns</span>",
-            "D. Design, Nhóm Page Background, Columns"
+            "A. Quá đắt",
+            "B. <span class=\"answer-keyword\">Có CN hỗ trợ quá mức</span>",
+            "C. Nhẹ",
+            "D. Không có đinh"
         ],
-        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. Page Layout, Nhóm Page Setup, Columns\n<div class=\"note\">Tính năng chia cột văn bản nằm trong thẻ Page Layout (hoặc Layout), nhóm Page Setup.</div>"
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Có CN hỗ trợ quá mức\n<div class=\"note\">Cấm dùng lò xo hay tấm carbon quá dày làm mất đi tính công bằng về sức mạnh tự nhiên.</div>"
     },
     {
         "weight": "normal",
-        "tags": ["Word"],
-        "question": "Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng chữ <span class=\"keyword\">Drop Cap</span> tùy chọn nào xác định <span class=\"keyword\">khoảng cách</span> chữ cái và văn bản còn lại?",
+        "tags": ["Luật thi đấu"],
+        "question": "<span class=\"keyword\">Đi bộ</span> thể thao, yêu cầu nhất là:",
         "options": [
-            "A. Lines to drop",
-            "B. Font",
-            "C. <span class=\"answer-keyword\">Distance from text</span>",
-            "D. Position"
+            "A. Nhanh",
+            "B. Đẹp",
+            "C. Kỹ thuật",
+            "D. <span class=\"answer-keyword\">Một chân luôn tiếp đất</span>"
         ],
-        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. Distance from text\n<div class=\"note\">Distance from text dùng để thiết lập khoảng cách (độ rỗng) giữa chữ Drop Cap lớn và phần văn bản kế bên.</div>"
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. Một chân luôn tiếp đất\n<div class=\"note\">Nếu cả 2 chân cùng rời mặt đất thì đó là chạy, không còn là đi bộ.</div>"
     },
     {
         "weight": "normal",
-        "tags": ["Word"],
-        "question": "Trong chương trình Microsoft Office Word 2013, khi định dạng khung viền cho trang giấy tùy chọn nào cho phép chọn <span class=\"keyword\">kiểu đường viền</span>?",
+        "tags": ["Lịch sử điền kinh"],
+        "question": "Quốc gia được xem là <span class=\"keyword\">cái nôi</span> của điền kinh hiện đại?",
         "options": [
-            "A. <span class=\"answer-keyword\">Styles</span>",
-            "B. Preview",
-            "C. Color",
-            "D. Width"
+            "A. Hy Lạp",
+            "B. <span class=\"answer-keyword\">Anh</span>",
+            "C. Mỹ",
+            "D. Pháp"
         ],
-        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Styles\n<div class=\"note\">Styles quy định kiểu đường nét (liền, đứt khúc, dấu chấm...). Color (Màu) và Width (Độ dày).</div>"
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Anh\n<div class=\"note\">Nước Anh thế kỷ 19 là nơi đầu tiên hệ thống hóa luật lệ, phân làn đường chạy và tổ chức các giải thi đấu điền kinh chuyên nghiệp.</div>"
     },
     {
         "weight": "normal",
-        "tags": ["Word"],
-        "question": "Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng cho đối tượng Shape lệnh nào cho phép xác định <span class=\"keyword\">màu đường viền</span> của Shape?",
+        "tags": ["Lịch sử điền kinh"],
+        "question": "Vận động viên giành 3 Huy Chương Vàng <span class=\"keyword\">chạy dài</span> Olympic 1952 là:",
         "options": [
-            "A. <span class=\"answer-keyword\">Shape Outline</span>",
-            "B. Shape Fill",
-            "C. Align Text",
-            "D. Shape Effects"
+            "A. Usain Bolt",
+            "B. Kipchoge",
+            "C. Mo Farah",
+            "D. <span class=\"answer-keyword\">Emil Zátopek</span>"
         ],
-        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Shape Outline\n<div class=\"note\">Shape Outline quản lý màu và độ dày của viền hình vẽ, trong khi Shape Fill là màu nền bên trong.</div>"
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. Emil Zátopek\n<div class=\"note\">\"Đầu máy xe lửa Tiệp Khắc\" đã vô địch cả 5000m, 10000m và marathon.</div>"
     },
     {
         "weight": "normal",
-        "tags": ["Word"],
-        "question": "Trong chương trình Microsoft Office Word 2013, cho biết tổ hợp phím tắt nào được sử dụng để định dạng chữ <span class=\"keyword\">in nghiêng</span>?",
+        "tags": ["Thể dục tay không"],
+        "question": "<span class=\"keyword\">Thứ tự đúng</span> của một số động tác đầu là gì?",
         "options": [
-            "A. <span class=\"answer-keyword\">CTRL+I</span>",
-            "B. CTRL+B",
-            "C. CTRL+U",
-            "D. CTRL+Z"
+            "A. <span class=\"answer-keyword\">Vươn thở – Tay – Chân</span>",
+            "B. Chân - Tay - Vươn thở",
+            "C. Bụng - Tay - Chân",
+            "D. Tay - Vươn thở - Chân"
         ],
-        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. CTRL+I\n<div class=\"note\">CTRL+I = Italic (Nghiêng), CTRL+B = Bold (Đậm), CTRL+U = Underline (Gạch chân).</div>"
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Vươn thở – Tay – Chân\n<div class=\"note\">Động tác đầu tiên luôn bắt buộc là Vươn thở để điều hòa hô hấp, sau đó mới phát triển dần xuống Tay và Chân.</div>"
     },
     {
         "weight": "normal",
-        "tags": ["Word"],
-        "question": "Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng bảng biểu, nhóm lệnh nào trong thẻ Layout cho phép thay đổi <span class=\"keyword\">độ rộng của ô</span>?",
+        "tags": ["Thể dục tay không"],
+        "question": "Động tác <span class=\"keyword\">bụng</span> giúp phát triển gì?",
         "options": [
-            "A. Alignment",
-            "B. Merge",
-            "C. <span class=\"answer-keyword\">Cell Size</span>",
-            "D. Rows & Columns"
+            "A. Tay",
+            "B. <span class=\"answer-keyword\">Bụng</span>",
+            "C. Chân",
+            "D. Lưng"
         ],
-        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. Cell Size\n<div class=\"note\">Nhóm Cell Size chứa Height và Width để điều chỉnh chiều cao và độ rộng của hàng/cột.</div>"
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Bụng\n<div class=\"note\">Các động tác gập thân giúp siết và phát triển cơ bụng.</div>"
     },
     {
         "weight": "normal",
-        "tags": ["Word"],
-        "question": "Khi mở hộp thoại Font trong chương trình Microsoft Office Word 2013, để thiết lập thông số <span class=\"keyword\">màu chữ</span> cho văn bản đang chọn khối ta sử dụng tùy chọn nào sau đây?",
+        "tags": ["Lịch sử điền kinh"],
+        "question": "Emil Zátopek giành Huy Chương Vàng Olympic ở các <span class=\"keyword\">cự ly</span>:",
         "options": [
-            "A. Font Style",
-            "B. Font size",
-            "C. Underline Color",
-            "D. <span class=\"answer-keyword\">Font Color</span>"
+            "A. 100m - 200m - 400m",
+            "B. 800m - 1500m - 3000m",
+            "C. 110m rào - 400m rào",
+            "D. <span class=\"answer-keyword\">5000m - 10000m - marathon</span>"
         ],
-        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. Font Color\n<div class=\"note\">Font Color là tùy chọn để thay đổi màu sắc của văn bản.</div>"
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. 5000m - 10000m - marathon\n<div class=\"note\">Ông vô địch cả 3 cự ly dài siêu đẳng này ở Olympic 1952.</div>"
     },
     {
         "weight": "normal",
-        "tags": ["Word"],
-        "question": "Trong chương trình Microsoft Office Word 2013, khi định dạng khung viền cho trang giấy tùy chọn nào cho phép chọn <span class=\"keyword\">màu của đường viền</span>?",
+        "tags": ["Lịch sử điền kinh"],
+        "question": "Liu Xiang Huy Chương Vàng Olympic <span class=\"keyword\">năm nào</span>?",
         "options": [
-            "A. Styles",
-            "B. Width",
-            "C. <span class=\"answer-keyword\">Color</span>",
-            "D. Preview"
+            "A. <span class=\"answer-keyword\">Athens 2004</span>",
+            "B. Rio 2016",
+            "C. Beijing 2008",
+            "D. London 2012"
         ],
-        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. Color\n<div class=\"note\">Tùy chọn Color thiết lập màu sắc cho khung viền của trang (Page Border).</div>"
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Athens 2004\n<div class=\"note\">Kỷ lục 110m rào nam.</div>"
     },
     {
         "weight": "normal",
-        "tags": ["Word"],
-        "question": "Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng bảng biểu, lệnh nào thiết lập việc <span class=\"keyword\">lặp lại tiêu đề bảng</span> ở các trang giấy?",
+        "tags": ["Thể dục tay không"],
+        "question": "Khi tập thể dục tay không cần <span class=\"keyword\">chú ý</span> điều gì?",
         "options": [
-            "A. Convert to Text",
-            "B. Distribute Columns",
-            "C. <span class=\"answer-keyword\">Repeat Header Rows</span>",
-            "D. Sort"
+            "A. Tập nhanh",
+            "B. Dụng cụ",
+            "C. <span class=\"answer-keyword\">Đúng nhịp và kỹ thuật</span>",
+            "D. Trang phục đẹp"
         ],
-        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. Repeat Header Rows\n<div class=\"note\">Repeat Header Rows giúp dòng đầu tiên của bảng tự động lặp lại khi bảng bị tràn sang trang mới.</div>"
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. Đúng nhịp và kỹ thuật\n<div class=\"note\">Phải đúng biên độ và nhịp điệu mới hiệu quả và tránh chấn thương.</div>"
     }
 ]
 
