@@ -957,51 +957,10 @@ window.kbData = [];
 window.kbRendered = false;
 
 async function renderKnowledgeBase() {
+    // Vô hiệu hóa hàm này vì đã có React (knowledge-app) đảm nhận việc render vào #knowledge-content
     if (window.kbRendered) return;
-    const kbContainer = document.getElementById('knowledge-content');
-    if (!kbContainer) return;
-
-    try {
-        let kbUrl = 'kb.json'; // Link to kb.json in the same directory as the HTML file
-        if (typeof KB_DATA_URL !== 'undefined') kbUrl = KB_DATA_URL; 
-        
-        const res = await fetch(kbUrl + "?t=" + new Date().getTime());
-        if (!res.ok) throw new Error("Could not fetch " + kbUrl);
-        window.kbData = await res.json();
-        
-        let html = '';
-        window.kbData.forEach((chapter, index) => {
-            let chapterId = 'kb-chap-' + index;
-            html += `
-            <div class="kb-section">
-                <div class="kb-header" onclick="toggleKb('${chapterId}')">
-                    <span>${chapter.title}</span>
-                    <span>▼</span>
-                </div>
-                <div class="kb-content" id="${chapterId}">
-            `;
-            
-            if (chapter.blocks && chapter.blocks.length > 0) {
-                chapter.blocks.forEach(block => {
-                    html += renderKbBlock(block);
-                });
-            }
-            
-            html += `
-                </div>
-            </div>`;
-        });
-        
-        kbContainer.innerHTML = html;
-        window.kbRendered = true;
-        
-        // Setup interactive listeners
-        setupKbInteractions(kbContainer);
-
-    } catch (e) {
-        console.error("Knowledge Base Error:", e);
-        kbContainer.innerHTML = `<div style="padding:20px; color:var(--warn); text-align:center;">Chưa có dữ liệu</div>`;
-    }
+    window.kbRendered = true;
+    console.log("Knowledge base is now managed by React knowledge-app.");
 }
 
 function renderKbBlock(block) {

@@ -30,5 +30,13 @@ window.TVU_SUBJECTS = [
     program: "Quản trị kinh doanh (Đại học)",
     desc: "Môn học giáo dục thể chất cơ bản.",
     jsonPath: "./_sources/TVU/Quan_tri_kinh_doanh_DH/13. GIÁO DỤC THỂ CHẤT 1/qs.json"
+  },
+  {
+    id: "14",
+    name: "Kinh Tế Vĩ Mô",
+    organization: "TVU",
+    program: "Quản trị kinh doanh (Đại học)",
+    desc: "Nghiên cứu nền kinh tế tổng thể, tăng trưởng, lạm phát và thất nghiệp.",
+    jsonPath: "./_sources/TVU/Quan_tri_kinh_doanh_DH/14. KINH TẾ VĨ MÔ/qs.json"
   }
 ];

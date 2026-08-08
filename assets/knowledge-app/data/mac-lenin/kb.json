@@ -1,0 +1,1006 @@
+{
+  "subject": "Hệ Thống Thiết Kế Tích Hợp (Showcase Đầy Đủ)",
+  "sections": [
+    {
+      "title": "Bộ Sưu Tập Trực Quan Hóa Tri Thức Toàn Diện",
+      "blocks": [
+        {
+          "type": "mindmap",
+          "title": "Bản Đồ Tư Duy Nguyên Tắc Thiết Kế",
+          "data": {
+            "root": "Hệ Thống UI/UX Chuẩn",
+            "children": [
+              {
+                "name": "Nguyên Tắc Thị Giác",
+                "description": "Thiết kế Editorial Clean, loại bỏ hoàn toàn viền hộp dày và đổ bóng rườm rà gây xao nhãng."
+              },
+              {
+                "name": "Trải Nghiệm Tương Tác",
+                "description": "Các trạng thái Hover, Active và micro-animation mượt mà, điều hướng người dùng vô cùng trực quan."
+              }
+            ]
+          }
+        },
+        {
+          "type": "timeline",
+          "title": "Trục Thời Gian Chuẩn Hóa Hệ Thống",
+          "data": {
+            "items": [
+              {
+                "time": "Giai đoạn 1: Kiến Tạo",
+                "content": "Khởi tạo kiến trúc hệ thống và chuẩn hóa bộ nhận diện cho từng thành phần UI cơ sở."
+              },
+              {
+                "time": "Giai đoạn 2: Tinh Chỉnh",
+                "content": "Thiết kế tương tác chạm tinh tế và kiểm thử độ hiển thị linh hoạt trên các thiết bị di động."
+              },
+              {
+                "time": "Giai đoạn 3: Hoàn Thiện",
+                "content": "Hoàn thiện hệ sinh thái 19 component tối ưu cho trải nghiệm tập trung và khả năng quét nội dung cực nhanh."
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "title": "Các Tính Năng Trực Quan Hóa Nổi Bật",
+          "data": {
+            "items": [
+              {
+                "title": "Cơ Chế Bôi Đậm Từ Khóa",
+                "description": "Sử dụng thẻ highlight chắt lọc tối đa từ 1-3 cụm từ cốt lõi, giúp mắt nhận diện trọng tâm ngay lập tức."
+              },
+              {
+                "title": "Bố Cục Lưới Ngăn Nắp",
+                "description": "Mọi thẻ bài đều áp dụng Flexbox gap chuẩn mực, tuyệt đối loại bỏ các lề đệm âm và khoảng trống vô lý."
+              },
+              {
+                "title": "Tối Ưu Khả Năng Đọc (Scannable)",
+                "description": "Tỷ lệ tương phản chữ, phím và màu sắc được chỉnh đốn theo tiêu chuẩn cao cấp của thiết kế hiện đại."
+              }
+            ]
+          }
+        },
+        {
+          "type": "vs-wrap",
+          "title": "Đối Chứng Hai Trường Phái Thiết Kế",
+          "data": {
+            "left": {
+              "title": "Giao Diện Cũ (Rối Rắm)",
+              "content": "Lạm dụng đổ bóng (box-shadow) và viền khung dày rườm rà. Màu sắc nền chõi nhau khiến thị giác nhanh hao tổn lực sự."
+            },
+            "right": {
+              "title": "Chuẩn Editorial Clean",
+              "content": "Đường nét thanh mảnh, nét gạch chân ôm sát từ khóa. Trở nên cực kỳ tinh khôi, tập trung tuyệt đối vào nội dung thực thi."
+            }
+          }
+        },
+        {
+          "type": "flip-card",
+          "title": "Thẻ Ghi Nhớ Chủ Động Tương Tác",
+          "data": {
+            "front": "Chạm vào chính giữa thẻ này để trải nghiệm cảm giác lật lướt mượt mà sang mặt bên kia...",
+            "back": "Trạng thái lật nhẹ nhàng hỗ trợ tuyệt đối cho kỹ thuật Active Recall (Chủ động ghi nhớ), giúp não bộ khắc sâu nội dung nhanh chóng!"
+          }
+        },
+        {
+          "type": "venn",
+          "title": "Sự Giao Thoa Giữa Thẩm Mỹ Và Hiệu Năng",
+          "data": {
+            "left": {
+              "title": "Thẩm Mỹ Thị Giác (UI)",
+              "items": [
+                "Màu sắc tinh tế",
+                "Bố cục ngăn nắp"
+              ]
+            },
+            "right": {
+              "title": "Trải Nghiệm Dùng (UX)",
+              "items": [
+                "Thao tác trực quan",
+                "Phản hồi mượt mà"
+              ]
+            },
+            "intersection": "Sự kết hợp hài hòa mang lại sản phẩm cao cấp, vừa ưng mắt vừa mượt tay khi thao tác"
+          }
+        },
+        {
+          "type": "formula",
+          "title": "Phân Dã Công Thức Tối Ưu Hiệu Năng",
+          "data": {
+            "formula": "Hiệu Năng = (Tốc Độ + Độ Chính Xác) / Thời Gian",
+            "variables": [
+              {
+                "symbol": "Tốc Độ",
+                "definition": "Khả năng phản hồi tức thì và hiển thị không độ trễ của giao diện Web App"
+              },
+              {
+                "symbol": "Độ Chính Xác",
+                "definition": "Dữ liệu được bọc giáp an toàn, tuyệt đối không bị gián đoạn vì sai tên biến"
+              },
+              {
+                "symbol": "Thời Gian",
+                "definition": "Thời gian hao phí của người dùng để quét và tiếp thu triệt để thông tin"
+              }
+            ],
+            "example": "Ví dụ: Khi bố cục giao diện càng sạch sẽ và mạch lạc, thời gian tiếp nhận càng giảm xuống, giúp chỉ số Hiệu Năng tổng thể bứt phá lên đỉnh cao."
+          }
+        },
+        {
+          "type": "funnel",
+          "title": "Phễu Lọc Thông Tin Và Tri Thức Cốt Lõi",
+          "data": {
+            "stages": [
+              {
+                "name": "Tầng 1: Khai Cung Rộng Rãi",
+                "description": "Tiếp nhận lượng lớn dữ liệu thô ban đầu, bao quát toàn cảnh cấu trúc tài liệu."
+              },
+              {
+                "name": "Tầng 2: Chọn Lọc & Sắp Xếp",
+                "description": "Phân chia nội dung vào các mô-đun chức năng phù hợp, dọn dẹp tạp chất và lề thừa."
+              },
+              {
+                "name": "Tầng 3: Tinh Hoa Tối Ưu",
+                "description": "Kết quả cô đọng nhất hiển thị cho người xem, sẵn sàng cho thao tác giải đề tốc ký."
+              }
+            ]
+          }
+        },
+        {
+          "type": "pyramid",
+          "title": "Kim Tự Tháp Cấu Trúc Trải Nghiệm Người Dùng",
+          "data": {
+            "layers": [
+              {
+                "name": "Đỉnh Tháp: Trải Nghiệm & Vi Chuyển Động",
+                "description": "Các vi chuyển động (micro-animations) cùng hiệu ứng lướt hover tinh tế mang lại điểm nhấn sang trọng cho toàn ứng dụng."
+              },
+              {
+                "name": "Thân Tháp: Kiến Trúc & Bố Cục Lưới",
+                "description": "Cách tổ chức phân cấp thông tin rõ rành rành, sắp đặt theo từng dòng vô cùng ngăn nắp."
+              },
+              {
+                "name": "Đáy Tháp: Nền Tảng Token & CSS",
+                "description": "Hệ thống biến định nghĩa màu sắc, bảng font typography cùng nền móng Responsive chịu lực vững chãi."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quadrant",
+          "title": "Ma Trận Đánh Giá Phương Pháp Hiển Thị",
+          "data": {
+            "x_axis": "Độ Phức Tạp Của Giao Diện",
+            "y_axis": "Giá Trị Trải Nghiệm Mang Lại",
+            "quadrants": [
+              {
+                "title": "Góc Vàng: Tối Ưu & Ưu Tiên",
+                "content": "Giao diện tối giản, thao tác nhẹ nhàng nhưng mang lại giá trị ghi nhớ cực lớn cho người trải nghiệm."
+              },
+              {
+                "title": "Góc Chiến Lược: Đầu Tư Chiều Sâu",
+                "content": "Dành cho các sơ đồ tương tác phức tạp nhưng chứa đựng lượng dữ liệu phong phú cần khai phá."
+              },
+              {
+                "title": "Góc Tức Thì: Trực Quan Nhanh",
+                "content": "Hiển thị các khối thông tin tường minh phục vụ cho mục đích nhìn vội, nhặt ý trong tíc tắc."
+              },
+              {
+                "title": "Góc Trầm: Kiên Quyết Tránh",
+                "content": "Các chi tiết đồ họa cồng kềnh, viền dày đổ bóng nặng trịch chỉ làm mỏi mệt người coi."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cycle",
+          "title": "Vòng Tuần Hoàn Nhận Thức Hoàn Hảo",
+          "data": {
+            "steps": [
+              {
+                "name": "Bước 1: Quan Sát",
+                "description": "Tiếp xúc với giao diện sạch sẽ, màu sắc hài hòa không xao nhãng tầm nhìn."
+              },
+              {
+                "name": "Bước 2: Chạm & Lật",
+                "description": "Thực hiện thao tác nhấp tay, lướt qua các điểm chạm để xem giải thích chuyên sâu."
+              },
+              {
+                "name": "Bước 3: Ghi Khắc",
+                "description": "Brain nắm bắt từ khóa highlight được canh trúng tim logic đối xứng."
+              },
+              {
+                "name": "Bước 4: Thành Thạo",
+                "description": "Làm chủ tốc độ đọc và khả năng phân biệt dữ liệu một cách nhạy bén nhất."
+              }
+            ]
+          }
+        },
+        {
+          "type": "process-steps",
+          "title": "Quy Trình Hoạt Động Và Chuẩn Hóa Dữ Liệu",
+          "data": {
+            "steps": [
+              {
+                "name": "Bắt Đầu Nạp Dữ Liệu",
+                "description": "Hệ thống tự động tiếp nhận cấu trúc JSON từ backend, sẵn sàng phân mảnh ra các thẻ khối."
+              },
+              {
+                "name": "Chuẩn Hóa Áo Giáp",
+                "description": "Cơ chế defensive normalization kiểm tra, tự động chuyển hóa trơn tru mọi tên biến đầu vào."
+              },
+              {
+                "name": "Trình Chiếu Hoàn Hảo",
+                "description": "Giao diện hiện ra mượt mà từng milimét, đẹp rực rỡ và vững chắc trước mọi thiết bị di động."
+              }
+            ]
+          }
+        },
+        {
+          "type": "onion",
+          "title": "Cấu Trúc Ba Lớp Thấu Hiểu Bố Cục",
+          "data": {
+            "layers": [
+              {
+                "name": "Hạt Nhân Trải Nghiệm",
+                "description": "Mục tiêu chí thượng của toàn ứng dụng: Tối đa hóa hiệu năng ôn luyện và nhận diện logic nhanh chớp nhoáng."
+              },
+              {
+                "name": "Tổ Chức Dữ Liệu",
+                "description": "Cấu trúc dữ liệu dạng tháp, nhãn, hoặc vòng tuần hoàn giúp lập bản đồ tư duy ngay trong não bộ."
+              },
+              {
+                "name": "Giao Diện Thị Giác",
+                "description": "Áo khoác Editorial Clean tinh khôi, tạo hứng thú và cảm giác thanh thản khi theo dõi lâu dài."
+              }
+            ]
+          }
+        },
+        {
+          "type": "hotspot",
+          "title": "Điểm Chạm Tương Tác Minh Họa Không Gian",
+          "data": {
+            "points": [
+              {
+                "x": 30,
+                "y": 40,
+                "title": "Điểm Chạm Nổi #1: Trực Quan",
+                "description": "Khi chạm vào nút phát sáng này, thông tin mở rộng lập tức nổi lên một cách trang nhã mà không che lấp tầm nhìn."
+              },
+              {
+                "x": 70,
+                "y": 60,
+                "title": "Điểm Chạm Nổi #2: Sắc Sảo",
+                "description": "Phân bổ hài hòa trên không gian đồ họa, kích Thích tính tò mò và thói quen khám phá chi tiết của người học."
+              }
+            ]
+          }
+        },
+        {
+          "type": "t-account",
+          "title": "Bảng Đối Chiếu Song Song Vốn Ứng Trước",
+          "data": {
+            "left": {
+              "header": "Bên Trái (Hệ Cũ)",
+              "entries": [
+                "Bố cục chật hẹp hoặc bị méo lề",
+                "Thiếu đồng bộ kích thước chiều ngang với toàn bộ trang",
+                "Mở rộng trên các thiết bị di động thường bị xô l lệch"
+              ]
+            },
+            "right": {
+              "header": "Bên Phải (Hệ Chuẩn Hiện Tại)",
+              "entries": [
+                "Chiều ngang được dàn trải bằng phẳng với 100% các khối khác",
+                "Thanh chia cột gạch thẳng thớm, cân đối hài hòa",
+                "Bo viền và đệm lề tuân thủ 100% tiêu chuẩn chung"
+              ]
+            }
+          }
+        },
+        {
+          "type": "spectrum",
+          "title": "Dải Phổ Chuyển Hóa Tự Do Và Nâng Cao",
+          "data": {
+            "items": [
+              {
+                "title": "Cực Trái: Tĩnh & Ban Đầu",
+                "description": "Đại diện cho các thông tin nền tảng, cơ sở xuất phát hoặc trạng thái thuở sơ khai trong một hệ thống khảo sát."
+              },
+              {
+                "title": "Cực Phải: Linh Hoạt & Đỉnh Cao",
+                "description": "Đại diện cho trạng thái tối ưu trọn vẹn, tính thanh khoản hoặc sự tinh tế cao nhất đạt được sau khi tinh chỉnh."
+              }
+            ]
+          }
+        },
+        {
+          "type": "carousel",
+          "title": "Bảng Trượt Đa Tầng Không Gian Linh Hoạt",
+          "data": {
+            "items": [
+              {
+                "title": "Slide 1: Trình Thẻ Mở Đầu",
+                "description": "Thẻ đầu tiên trên bảng trượt, hỗ trợ thu cất nội dung gọn gàng vào trong từng thanh slide riêng biệt."
+              },
+              {
+                "title": "Slide 2: Điều Hướng Dễ Dàng",
+                "description": "Hai nút mũi tên lùi/tiến cùng hàng phím nhấp nháy chấm tròn bên dưới hỗ trợ điều hướng cực kỳ ưng tay."
+              },
+              {
+                "title": "Slide 3: Tối Ưu Không Gian",
+                "description": "Giải pháp tuyệt vời khi cần chèn hàng loạt thẻ kiến thức dài mà không làm giãn quá nhiều chiều dọc của web."
+              }
+            ]
+          }
+        },
+        {
+          "type": "matrix-table",
+          "title": "Bảng Đánh Giá Đa Tiêu Chí Trình Mặc",
+          "data": {
+            "headers": [
+              "Tiêu Chí Khảo Sát",
+              "Cách Thể Hiện Cũ",
+              "Thực Trạng Chuẩn Mới"
+            ],
+            "rows": [
+              [
+                "Khả năng linh động",
+                "Bị giới hạn trong khuôn mẫu cũ kĩ",
+                "Tự điều hướng mượt mà mọi phân rã độ phân giải"
+              ],
+              [
+                "Độ chịu lực trước dữ liệu",
+                "Dễ sụp rách nếu sai khác tên trường",
+                "Bọc giáp vững chắc, bẻ cong mọi biến thể JSON"
+              ],
+              [
+                "Hiệu quả thẩm mỹ",
+                "Cảm giác nặng nề lác mắt",
+                "Thẳng thớm, gọn gàng mang hơi thở tạp chí hiện đại"
+              ]
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Trắc Nghiệm Soi Lề Bôi Đậm Tương Tác",
+          "data": {
+            "question": "Trong hệ thống UI/UX của chúng ta, <span class=\"keyword\">giá trị cốt lõi nhất</span> khi trình bày dữ liệu trắc nghiệm là gì?",
+            "options": [
+              "Là sự rực rỡ bùng nổ của muôn vàn màu sắc chõi nhau rườm rà",
+              "Là sự <span class=\"answer-keyword\">cô đọng cực đại</span> và thiết kế <span class=\"answer-keyword\">Editorial Clean</span> sắc bén, tinh khôi",
+              "Là việc bắt người xem phải tốn công lướt chồm hổm qua vô vàn quảng cáo dư thừa",
+              "Là cấu trúc thẻ lỏng lẻo, thường xuyên vỡ giao diện khi chuyển sang màn hình ngang"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Chính xác! Giao diện Editorial Clean giúp đôi mắt tập trung chuyên sâu vào từ khóa, giảm hao phí năng lượng nhận thức và đem lại hiệu quả thực thi cao nhất trong tíc tắc."
+          }
+        },
+        {
+          "type": "radar-chart",
+          "title": "Năng Lực Giải Đề & Quét Từ Khóa Lục Hợp",
+          "data": {
+            "title": "Biểu Đồ Đánh Giá Kỹ Năng Làm Bài Trắc Nghiệm Tốc Độ Cao",
+            "axes": [
+              "Khả năng ghi nhớ",
+              "Tốc độ làm bài",
+              "Nhận diện bẫy",
+              "Tư duy tổng hợp",
+              "Phản xạ trực giác"
+            ],
+            "datasets": [
+              {
+                "label": "Sinh Viên Dùng App Hack Nhão (Lục Hợp)",
+                "color": "#00d2a0",
+                "values": [
+                  95,
+                  90,
+                  98,
+                  88,
+                  92
+                ],
+                "description": "Nắm vững ma trận từ khóa Độc Bản, xử lý thần tốc."
+              },
+              {
+                "label": "Học Thuộc Lòng Nhồi Nhét Truyền Thống",
+                "color": "#ff6b6b",
+                "values": [
+                  50,
+                  45,
+                  30,
+                  40,
+                  35
+                ],
+                "description": "Dễ lúng túng khi gặp các bẫy lật kèo và phủ định."
+              }
+            ]
+          }
+        },
+        {
+          "type": "line-chart",
+          "title": "Diễn Biến Phong Độ Ôn Thi Theo Tuần",
+          "data": {
+            "title": "Trục Theo Dõi Độ Nhạy Bến Trước Kỳ Thi",
+            "xAxisLabel": "Thời gian tiến bộ",
+            "yAxisLabel": "Tỷ lệ nhận diện bẫy (%)",
+            "points": [
+              {
+                "label": "Tuần 1",
+                "value": 40,
+                "annotation": "Mới tiếp cận",
+                "explanation": "Sinh viên còn bơ vơ trước hàng ngàn câu hỏi thô."
+              },
+              {
+                "label": "Tuần 2",
+                "value": 58,
+                "annotation": "Làm quen bẫy",
+                "explanation": "Bắt đầu nhận diện được câu phủ định Lặt Kèo."
+              },
+              {
+                "label": "Tuần 3",
+                "value": 75,
+                "annotation": "Tăng tốc",
+                "explanation": "Thành thạo đối chiếu chéo các đáp án sai Delta."
+              },
+              {
+                "label": "Tuần 4",
+                "value": 88,
+                "annotation": "Nhạy bén",
+                "explanation": "Phản xạ thần tốc với từ khóa Độc Bản."
+              },
+              {
+                "label": "Tuần 5",
+                "value": 95,
+                "annotation": "Tinh thông",
+                "explanation": "Tự tin bóc tách 100% câu hỏi trong ngân hàng."
+              },
+              {
+                "label": "Lúc Vào Thi",
+                "value": 99,
+                "annotation": "Đạt điểm tối đa",
+                "explanation": "Vượt thi nhẹ nhàng nhờ phong độ kiên định."
+              }
+            ]
+          }
+        },
+        {
+          "type": "bar-chart",
+          "title": "Phân Bổ Mật Độ Bẫy Trắc Nghiệm Theo Chương",
+          "data": {
+            "title": "Thống Kê Trọng Tâm Cạm Bẫy Trong Ngân Hàng Đề Thi",
+            "orientation": "vertical",
+            "maxValue": 80,
+            "items": [
+              {
+                "label": "Chương 1: Khái Luận (Từ khóa Lật Kèo)",
+                "value": 25,
+                "unit": "câu bẫy",
+                "highlight": false,
+                "explanation": "Chủ yếu xoay quanh định nghĩa và khái niệm nền tảng."
+              },
+              {
+                "label": "Chương 2: Hàng Hóa & Thị Trường",
+                "value": 45,
+                "unit": "câu bẫy",
+                "highlight": true,
+                "explanation": "Trọng tâm bẫy cực dày! Đặc biệt là hàng hóa sức lao động và lượng giá trị."
+              },
+              {
+                "label": "Chương 3: Giá Trị Thặng Dư",
+                "value": 65,
+                "unit": "câu bẫy",
+                "highlight": true,
+                "explanation": "Vùng cạm bẫy lớn nhất! Các bài tập tính toán tỷ suất m' và cấu tạo hữu cơ c/v."
+              },
+              {
+                "label": "Chương 4: Độc Quyền & Cạnh Tranh",
+                "value": 35,
+                "unit": "câu bẫy",
+                "highlight": false,
+                "explanation": "Bẫy về nguyên nhân xuất hiện và các hình thức độc quyền nhà nước."
+              },
+              {
+                "label": "Chương 5: Kinh Tế Thị Trường XHCN",
+                "value": 30,
+                "unit": "câu bẫy",
+                "highlight": false,
+                "explanation": "Bẫy về thể chế và cơ cấu sở hữu trong nền kinh tế."
+              }
+            ]
+          }
+        },
+        {
+          "type": "scatter-plot",
+          "title": "Ma Trận Tương Quan Nỗ Lực & Hiệu Quả Đích",
+          "data": {
+            "title": "Tương Quan Giữa Thời Gian Luyện Đề Và Điểm Số Đạt Được",
+            "xAxisLabel": "Thời gian luyện trên Web (Giờ)",
+            "yAxisLabel": "Điểm kiểm tra thực tế (Thang 100)",
+            "xMin": 0,
+            "xMax": 12,
+            "yMin": 20,
+            "yMax": 100,
+            "points": [
+              {
+                "x": 2,
+                "y": 45,
+                "name": "Sinh viên A",
+                "category": "Chưa nhạy bẫy",
+                "size": 8,
+                "strategy": "Cần tập trung rèn luyện các từ khóa Lật Kèo và Ngữ cảnh."
+              },
+              {
+                "x": 4,
+                "y": 60,
+                "name": "Sinh viên B",
+                "category": "Đang tiến bộ",
+                "size": 10,
+                "strategy": "Đã hiểu khái niệm nhưng dễ bị nhầm khi gặp đáp án chênh 1 chữ."
+              },
+              {
+                "x": 6,
+                "y": 78,
+                "name": "Sinh viên C",
+                "category": "Thạo Lục Hợp",
+                "size": 14,
+                "strategy": "Áp dụng thuần thục đối chiếu chéo Delta để loại bỏ đáp án sai."
+              },
+              {
+                "x": 8,
+                "y": 90,
+                "name": "Sinh viên D",
+                "category": "Thạo Lục Hợp",
+                "size": 16,
+                "strategy": "Phán đoán nhanh bén, làm bài gấp đôi tốc độ bình thường."
+              },
+              {
+                "x": 10,
+                "y": 98,
+                "name": "Thủ Khoa TVU",
+                "category": "Siêu thủ khoa",
+                "size": 20,
+                "strategy": "Đạt cảnh giới thượng thừa: Quét chớp nhoáng, bẻ mọi bẫy tinh vi!"
+              }
+            ]
+          }
+        },
+        {
+          "type": "area-chart",
+          "title": "Lực Hút Khối Lượng Tri Thức Ghi Nhớ",
+          "data": {
+            "title": "Sự Bùng Nổ Tích Lũy Từ Khóa Lục Hợp Trước Kỳ Thi",
+            "thresholdValue": 50,
+            "thresholdLabel": "Ngưỡng An Toàn (50 điểm)",
+            "positiveRegionExplanation": "Vùng Kiến Thức Nằm Lòng (Tự tin xử lý mọi biến thể đề)",
+            "negativeRegionExplanation": "Vùng Nhớ Vặt / Học Vẹt (Dễ bị đánh lừa bởi bẫy phủ định)",
+            "points": [
+              {
+                "label": "Ngày 1",
+                "value": 20,
+                "note": "Bắt đầu làm quen với ngân hàng đề thi thô."
+              },
+              {
+                "label": "Ngày 5",
+                "value": 45,
+                "note": "Tiến dần gần tới ngưỡng an toàn nhờ học bảng Từ khóa."
+              },
+              {
+                "label": "Ngày 10",
+                "value": 75,
+                "note": "Bứt phá vượt ngưỡng! Khối kiến thức cốt lõi tăng nhanh."
+              },
+              {
+                "label": "Ngày 15",
+                "value": 130,
+                "note": "Tích lũy vốn từ khóa Lục Hợp cực kỳ uyên thâm."
+              },
+              {
+                "label": "Ngày 20",
+                "value": 200,
+                "note": "Hầu như không còn sai sót ở các câu trắc nghiệm bẫy."
+              },
+              {
+                "label": "Ngày Thi",
+                "value": 280,
+                "note": "Đỉnh cao tri thức: Sẵn sàng giành trọn điểm số!"
+              }
+            ]
+          }
+        },
+        {
+          "type": "sankey-diagram",
+          "title": "Luồng Phân Bổ Giá Trị Thặng Dư (Tư Bản)",
+          "data": {
+            "title": "Sự Hóa Thân Và Bí Mật Phân Bổ Giá Trị Thặng Dư Trong Doanh Nghiệp",
+            "flows": [
+              {
+                "from": "Lao Động Thặng Dư (m)",
+                "to": "Lợi Nhuận Công Nghiệp",
+                "value": 45,
+                "highlight": true,
+                "explanation": "Nhà tư bản sản xuất trực tiếp chiếm đoạt phần lớn giá trị thặng dư do công nhân tạo ra."
+              },
+              {
+                "from": "Lao Động Thặng Dư (m)",
+                "to": "Lợi Nhuận Thương Nghiệp",
+                "value": 25,
+                "highlight": false,
+                "explanation": "Nhường một phần cho tư bản thương nghiệp thông qua chênh lệch giá để đẩy nhanh tốc độ tiêu thụ."
+              },
+              {
+                "from": "Lao Động Thặng Dư (m)",
+                "to": "Lợi Tức Cho Vay (z)",
+                "value": 15,
+                "highlight": false,
+                "explanation": "Một phần chuyển thành lợi tức cho giới tư bản tiền tệ cho vay vốn."
+              },
+              {
+                "from": "Lao Động Thặng Dư (m)",
+                "to": "Địa Tô Đất Đai (r)",
+                "value": 15,
+                "highlight": false,
+                "explanation": "Phần nộp cho chủ đất dưới hình thức địa tô siêu ngạch hoặc chênh lệch."
+              }
+            ]
+          }
+        },
+        {
+          "type": "waterfall-chart",
+          "title": "Dòng Tiền Tối Ưu Lợi Nhuận Khách Hàng",
+          "data": {
+            "title": "Phân Tích Thác Nước Từ Doanh Thu Thô Đến Trị Giá Độc Bản",
+            "unit": "$",
+            "steps": [
+              {
+                "label": "Doanh thu gộp",
+                "value": 500,
+                "type": "start",
+                "note": "Mức khởi điểm",
+                "explanation": "Tổng dòng tiền thu về chưa trừ chi phí hao hụt và rủi ro thị trường."
+              },
+              {
+                "label": "Chi phí nguyên liệu",
+                "value": 120,
+                "type": "sub",
+                "note": "Hao phí vật chất",
+                "explanation": "Hao phí vật chất tất yếu trong quá trình vận hành sản xuất."
+              },
+              {
+                "label": "Tối ưu AI Hack Não",
+                "value": 80,
+                "type": "add",
+                "note": "Tăng trưởng công nghệ",
+                "explanation": "Tăng trưởng vọt nhờ cải tiến kỹ thuật hack não và tự động hóa quy trình."
+              },
+              {
+                "label": "Rủi ro lạm phát",
+                "value": 90,
+                "type": "sub",
+                "note": "Hao hụt vĩ mô",
+                "explanation": "Khoản hao hụt do dao động bất ngờ của nền kinh tế vĩ mô."
+              },
+              {
+                "label": "Lợi Nhuận Đích Ròng",
+                "value": 370,
+                "type": "total",
+                "note": "Thành quả bảo toàn",
+                "explanation": "Con số tài chính kim tự tháp cuối cùng được bảo toàn ngoạn mục!"
+              }
+            ]
+          }
+        },
+        {
+          "type": "gauge-chart",
+          "title": "Đồng Hồ Kháo Kiểm Sức Phản Xạ Đề Thi",
+          "data": {
+            "title": "Đo Lường Tốc Độ Phát Hiện Từ Khóa Độc Bản Lục Hợp",
+            "min": 0,
+            "max": 100,
+            "currentValue": 85,
+            "valueLabel": "Phản Xạ Thần Tộc",
+            "unit": " Điểm Nhạy",
+            "zones": [
+              {
+                "label": "Vùng Cạm Bẫy (Yếu)",
+                "min": 0,
+                "max": 40,
+                "color": "#ff6b6b",
+                "advice": "Nguy cơ sập bẫy cao! Cần luyện thêm bảng từ khóa Độc Bản."
+              },
+              {
+                "label": "Vùng Do Dự (Trung bình)",
+                "min": 40.1,
+                "max": 74.9,
+                "color": "#feca57",
+                "advice": "Đã có nền tảng nhưng tốc độ làm bài còn chậm, dễ vân vân giữa 2 đáp án."
+              },
+              {
+                "label": "Vùng Phản Xạ Thần Tộc",
+                "min": 75,
+                "max": 100,
+                "color": "#00d2a0",
+                "advice": "Đạt ngưỡng phản xạ THẦN TỘC! Lướt qua dòng đề thi là chộp ngay đúng bẫy phủ định và khoanh ngay phương án <span class=\"answer-keyword\">Độc Bản</span> trong vòng 3 giây!"
+              }
+            ]
+          }
+        },
+        {
+          "type": "treemap",
+          "title": "Bản Đồ Trọng lượng Cấu Trúc Đề Thi & Điểm Bẫy",
+          "data": {
+            "title": "Phân Bổ Tỷ Trọng Kiến Thức Môn Học",
+            "rootLabel": "Khối lượng kiến thức Kinh tế chính trị",
+            "items": [
+              {
+                "name": "Hàng Hóa & Sức Lao Động",
+                "value": 40,
+                "category": "Kinh tế chính trị",
+                "highlight": true,
+                "details": "BẪY KINH THIÊN: Nhớ kỹ hàng hóa sức lao động mang tính <span class=\"keyword\">đặc biệt</span> vì khi tiêu dùng nó tạo ra một giá trị mới <span class=\"answer-keyword\">lớn hơn giá trị bản thân nó</span> (chính là giá trị thặng dư)."
+              },
+              {
+                "name": "Quy Luật Giá Trị & Cạnh Tranh",
+                "value": 25,
+                "category": "Thị trường",
+                "highlight": false,
+                "details": "Quy luật cơ bản của sản xuất và lưu thông hàng hóa, dựa trên ao động xã hội cần thiết."
+              },
+              {
+                "name": "Độc Quyền Tự Nhiên & Nhà Nước",
+                "value": 20,
+                "category": "Kinh tế vĩ mô",
+                "highlight": true,
+                "details": "BẪY THỜI GIAN: Độc quyền không tiêu diệt cạnh tranh mà làm cho cạnh tranh trở nên <span class=\"answer-keyword\">gay gắt, quyết liệt hơn</span>."
+              },
+              {
+                "name": "Các Phương Pháp Sản Xuất Thặng Dư",
+                "value": 15,
+                "category": "Kinh tế chính trị",
+                "highlight": false,
+                "details": "Phân biệt thặng dư tuyệt đối (kéo dài ngày lao động) và tương đối (tăng năng suất lao động)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "decision-tree",
+          "title": "Cây Quyết Định Chọn Đáp Án Vượt Bẫy Lật Kèo",
+          "data": {
+            "title": "Trò Chơi Ngã Rẽ Trí Tuệ: Xử Lý Biến Thể Câu Hỏi Phủ Định",
+            "startNodeId": "step_1",
+            "nodes": {
+              "step_1": {
+                "label": "Đề Bài Xuất Hiện: \"Yếu tố nào KHÔNG thuộc tính chất...\"",
+                "question": "Bạn vừa chạm trán câu hỏi có chữ <span class=\"keyword\">KHÔNG</span>. Đâu là động thái phản xạ đầu tiên của bạn?",
+                "isTrap": false,
+                "explanation": "Nhận diện bẫy phủ định là kỹ năng sinh tồn trong môn thi trắc nghiệm.",
+                "options": [
+                  {
+                    "text": "Đọc nghìn nghịt đáp án dài nhất rồi khoanh vội vì ngỡ là đúng",
+                    "nextNodeId": "step_trap",
+                    "tag": "Nguy hiểm"
+                  },
+                  {
+                    "text": "Kích hoạt tiêu chuẩn Lật Kèo: Khoanh vùng chữ KHÔNG và truy lùng phương án mang logic đảo ngược",
+                    "nextNodeId": "step_win",
+                    "tag": "Khuyên dùng"
+                  }
+                ]
+              },
+              "step_trap": {
+                "label": "BỊ LỌT HỐ CẠM BẪY ĐỀ THI!",
+                "outcome": "💥 Bạn đã dính bẫy tử huyệt của câu hỏi phủ định. Điểm số bị hao hụt cay đắng!",
+                "isTrap": true,
+                "explanation": "Khi gặp chữ <span class=\"keyword\">KHÔNG, NGOẠI TRỪ, SAI</span>, tuyệt đối cấm khoanh theo lối mòn thuận tai! Đáp án dài nhất thường là kiến thức đúng sách giáo khoa (tức là đáp án SAI của bài)."
+              },
+              "step_win": {
+                "label": "CHIẾN THẮNG TUYỆT ĐỔI - KHOANH ĐÚNG DELTA CORE!",
+                "outcome": "🏆 Bạn đã chộp đúng phương án lạc loài duy nhất, giật trọn 10 điểm nhẹ như lông hồng!",
+                "isTrap": false,
+                "explanation": "Quá đẳng cấp! Tư duy Lục Hợp giúp bạn loại bỏ ngay lập tức 3 đáp án rườm rà đúng lý thuyết để chộp ngay kẻ lạ mặt."
+              }
+            }
+          }
+        },
+        {
+          "type": "chat-simulation",
+          "title": "Thực Chiến Xử Lý Cạm Bẫy Quản Trị / HR",
+          "data": {
+            "title": "Phòng Trao Đổi: Tranh Luận Định Mức Tiền Lương Thâm Niên Vs Hiệu Quả",
+            "scenario": "Tình huống căng thẳng giữa Giám Đốc Nhân sự (HR) và Trưởng Phòng Sales về việc cải tổ quỹ thù lao theo hiệu suất KPI, chạm trán các bẫy luật lao động.",
+            "messages": [
+              {
+                "sender": "Giám Đốc HR (Lan Anh)",
+                "role": "manager",
+                "avatar": "",
+                "text": "Tuần tới chúng ta phải xóa bỏ hoàn toàn lương thâm niên và trừ trực tiếp 50% lương cứng của các nhân viên sales không đạt KPI tháng này!",
+                "isTrap": true,
+                "highlight": false,
+                "note": "BẪY NGHIỆP VỤ THỰC TẾ: Việc tự ý cắt giảm lương cứng dưới mức lương tối thiểu vùng do không đạt KPI là <span class=\"keyword\">vi phạm quy định pháp luật lao động</span>."
+              },
+              {
+                "sender": "Trưởng Phòng Sales (Minh Tuấn)",
+                "role": "sales_lead",
+                "avatar": "",
+                "text": "Khoan đã! Thay vì tước bỏ thù lao cứng trái luật, tại sao chúng ta không giữ lương cơ bản và áp dụng thang thưởng hoa hồng lũy tiến (Delta Commission)? Ai làm vượt 120% sẽ được x2 hệ số thưởng!",
+                "isTrap": false,
+                "highlight": true,
+                "note": "Gợi ý xuất sắc! Cân bằng hài hòa giữa Động lực bán hàng và tính Pháp lý vững chắc."
+              },
+              {
+                "sender": "Cố Vấn Chiến Lược (Bạn)",
+                "role": "advisor",
+                "avatar": "",
+                "text": "Chính xác! Trong bài tập tình huống Quản trị nhân sự, khi chọn đáp án xử lý vi phạm KPI, phải luôn loại bỏ các phương án bẫy như <span class=\"answer-keyword\">Cắt lương cứng</span> hoặc <span class=\"answer-keyword\">Sa thải lập tức không qua hội đồng disciplinary</span>.",
+                "isTrap": false,
+                "highlight": false,
+                "note": "Tiêu chuẩn đối chiếu Lục Hợp: Loại trừ ngay đáp án mang tính độc đoán trái quy chế."
+              }
+            ]
+          }
+        },
+        {
+          "type": "pair-grid",
+          "title": "Bàn Cờ Nối Ô Nhanh (Khái Niệm ↔ Bản Chất Lục Hợp)",
+          "data": {
+            "title": "Thực Hành Ghép Đôi Thần Tộc Tránh Bẫy Khái Niệm Kinh Tế",
+            "instruction": "Nhấn chọn 1 ô thuật ngữ ở cột trái, rồi tìm ô bản chất/đặc điểm cốt lõi tương ứng ở cột phải để ghép nối!",
+            "pairs": [
+              {
+                "id": "pair_1",
+                "leftText": "Tư Bản Bất Biến (c)",
+                "rightText": "Giá trị KHÔNG thay đổi về lượng trong quá trình sản xuất",
+                "explanation": "Tư bản bất biến (c) tồn tại dưới hình thức tư liệu sản xuất, chỉ được lao động cụ thể chuyển nguyên vẹn giá trị vào sản phẩm mới."
+              },
+              {
+                "id": "pair_2",
+                "leftText": "Tư Bản Khả Biến (v)",
+                "rightText": "Nguồn gốc TRỰC TIẾP duy nhất tạo ra giá trị thặng dư",
+                "explanation": "Tư bản khả biến (v) dùng để mua sức lao động, thông qua quá trình tiêu dùng sức lao động mà gia tăng về lượng (tạo ra m)."
+              },
+              {
+                "id": "pair_3",
+                "leftText": "Tư Bản Cố Định",
+                "rightText": "Tham gia TOÀN BỘ vào sản xuất nhưng chu chuyển GIÁ TRỊ TỪNG PHẦN",
+                "explanation": "Máy móc, nhà xưởng tham gia cả vòng sản xuất dài nhưng hao mòn dần và chuyển từng phần giá trị vào sản phẩm."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Cảm Xúc Ôn Thi & Điểm Đau (Pain Point)",
+          "data": {
+            "title": "Hành Trình Vượt Thời Gian Ôn Thi Môn Khối Dày Kèo",
+            "persona": "Sinh Viên Trắc Nghiệm TVU",
+            "stages": [
+              {
+                "stage": "Mở Tài Liệu Gốc",
+                "action": "Tải file PDF hàng trăm trang với 2.000 câu hỏi thô chưa qua chỉnh lý.",
+                "emotion": "negative",
+                "painPoint": "Hoa mắt ngợp thở, các câu hỏi chằng chéo nhau không biết đâu là trọng tâm, dễ buồn ngủ và chán nản.",
+                "solution": "Áp dụng ngay <span class=\"answer-keyword\">Kiến trúc 3 lớp Tiệt Trùng</span> của App để lọc bớt câu trùng và hiển thị Editorial Clean."
+              },
+              {
+                "stage": "Gặp Đề Biến Thể",
+                "action": "Làm bài thử nhưng liên tục chọn sai ở những câu na ná nhau chênh lệch vài từ.",
+                "emotion": "frustration",
+                "painPoint": "Học thuộc vẹt nên bị lừa bởi các bẫy đảo ngữ, bẫy phủ định và từ khóa tinh vi.",
+                "solution": "Kích hoạt <span class=\"answer-keyword\">Ma Trận Lục Hợp</span>: Chỉ chèn thẻ bôi đậm vào các từ khóa Độc Bản & Đối Chiếu Chéo Delta.",
+                "trapWarning": "Cấm học theo kiểu nhắm mắt chọn câu dài nhất hoặc học thuộc vị trí A/B/C/D!"
+              },
+              {
+                "stage": "Tự Tin Làm Chủ",
+                "action": "Luyện trên App, lướt câu hỏi nào là điểm huyệt câu đó thần tốc.",
+                "emotion": "positive",
+                "solution": "Ghi nhớ sâu nhờ tương tác trực tiếp trên 34 component Đẹp mắt - Tối ưu - SSoT!"
+              }
+            ]
+          }
+        },
+        {
+          "type": "interactive-calc",
+          "title": "Bảng Tính Tự Động Biến Chuyển Cấu Trúc Giá Trị",
+          "data": {
+            "title": "Mô Phỏng Tính Toán Giá Trị Thặng Dư & Tỷ Suất Lợi Nhuận",
+            "description": "Điều chỉnh các thông số để kiểm chứng ngay công thức và tốc độ nhận nhạy đề thi",
+            "operation": "divide",
+            "resultLabel": "Hệ Số Phản Xạ Thực Chiến",
+            "unit": " Điểm",
+            "inputs": [
+              {
+                "id": "c_val",
+                "name": "Độ Khái Quát Từ Khóa Lục Hợp",
+                "min": 10,
+                "max": 100,
+                "defaultValue": 80,
+                "step": 5,
+                "unit": "%"
+              },
+              {
+                "id": "v_val",
+                "name": "Thời Gian Suy Nghĩ Trên Câu (Giờ/Số giây)",
+                "min": 1,
+                "max": 10,
+                "defaultValue": 2,
+                "step": 1,
+                "unit": "giây"
+              }
+            ],
+            "diagnoses": [
+              {
+                "minThreshold": 0,
+                "maxThreshold": 20,
+                "message": "Nguy hiểm! Thời gian suy nghĩ quá lâu mà độ chính xác thấp -> Cần ôn lại bảng từ khóa.",
+                "color": "#ff6b6b"
+              },
+              {
+                "minThreshold": 20.01,
+                "maxThreshold": 50,
+                "message": "Tốt! Bạn xử lý câu hỏi vững chãi, sẵn sàng chinh phục ngân hàng đề thi thô.",
+                "color": "#00d2a0"
+              },
+              {
+                "minThreshold": 50.01,
+                "maxThreshold": 100,
+                "message": "SIÊU HOÀN HẢO! Tốc độ phản xạ như chớp mắt, nhạy bén tuyệt đối trước bẫy Lục Hợp!",
+                "color": "#00d2a0"
+              }
+            ]
+          }
+        },
+        {
+          "type": "delta-cheat-sheet",
+          "title": "Ma Trận Song Sát Bẫy Đề Thi & Từ Khóa",
+          "data": {
+            "title": "Bảng Sát Hạch Thần Tộc: Chĩa Ngay Mũi Đao Vào Đúng Đáp Án Bẫy",
+            "categoryFilters": [
+              "Khái Niệm Cốt Lõi",
+              "Bẫy Phủ Định",
+              "Bẫy Con Số"
+            ],
+            "items": [
+              {
+                "category": "Khái Niệm Cốt Lõi",
+                "questionSnippet": "Giá trị sử dụng của hàng hóa là gì và do yếu tố nào quy định?",
+                "keyword": "Do yếu tố nào quy định",
+                "correctDelta": "Thuộc tính tự nhiên của vật thể hàng hóa quyết định",
+                "wrongTraps": [
+                  "Do ý muốn chủ quan của người mua sắm quyết định",
+                  "Do giá cả trên thị trường cao hay thấp quyết định",
+                  "Do chi phí sản xuất quảng cáo quyết định"
+                ],
+                "explanation": "Nguyên tắc Độc Bản (1): Giá trị sử dụng là công dụng của vật, do <span class=\"answer-keyword\">thuộc tính tự nhiên</span> của chất liệu cấu tạo nên nó quy định, không phụ thuộc vào giá cả hay sở thích cá nhân."
+              },
+              {
+                "category": "Bẫy Phủ Định",
+                "questionSnippet": "Yếu tố nào SAU ĐÂY KHÔNG thuộc cấu trúc của lực lượng sản xuất?",
+                "keyword": "KHÔNG thuộc cấu trúc LLSX",
+                "correctDelta": "Quan hệ sở hữu về tư liệu sản xuất",
+                "wrongTraps": [
+                  "Người lao động với tri thức và kinh nghiệm",
+                  "Tư liệu sản xuất và máy móc công cụ",
+                  "Đối tượng lao động và nguyên liệu thô"
+                ],
+                "explanation": "Nguyên tắc Lật Kèo (3): Lực lượng sản xuất gồm Người lao động và Tư liệu sản xuất. <span class=\"answer-keyword\">Quan hệ sở hữu</span> là nhân tố cốt lõi của <span class=\"keyword\">Quan hệ sản xuất</span>, tuyệt đối không bị nhầm lẫn!"
+              },
+              {
+                "category": "Bẫy Con Số",
+                "questionSnippet": "Cấu tạo hữu cơ của tư bản (c/v) thay đổi theo xu hướng nào trong sự phát triển của CNTB?",
+                "keyword": "Xu hướng thay đổi cấu tạo hữu cơ (c/v)",
+                "correctDelta": "Tăng lên không ngừng cả về tương đối và tuyệt đối",
+                "wrongTraps": [
+                  "Giảm xuống liên tục do máy móc rẻ đi",
+                  "Bản chất luôn cố định ở tỷ lệ 1 : 1",
+                  "Chỉ tăng trong nông nghiệp, giảm trong công nghiệp"
+                ],
+                "explanation": "Nguyên tắc Ngữ cảnh (2): Trong tiến trình hiện đại hóa, máy móc thay thế con người ngày càng nhiều, do đó lượng <span class=\"answer-keyword\">c (tư bản bất biến)</span> tăng nhanh hơn <span class=\"keyword\">v (tư bản khả biến)</span> khiến tỷ lệ c/v có xu hướng không ngừng tăng lên."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
