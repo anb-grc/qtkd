@@ -38,5 +38,13 @@ window.TVU_SUBJECTS = [
     program: "Quản trị kinh doanh (Đại học)",
     desc: "Nghiên cứu nền kinh tế tổng thể, tăng trưởng, lạm phát và thất nghiệp.",
     jsonPath: "./_sources/TVU/Quan_tri_kinh_doanh_DH/14. KINH TẾ VĨ MÔ/qs.json"
+  },
+  {
+    id: "15",
+    name: "Tài Chính Tiền Tệ",
+    organization: "TVU",
+    program: "Quản trị kinh doanh (Đại học)",
+    desc: "Nắm vững các nguyên lý về tài chính, tiền tệ và hoạt động tín dụng, ngân hàng.",
+    jsonPath: "./_sources/TVU/Quan_tri_kinh_doanh_DH/15. TÀI CHÍNH TIỀN TỆ/qs.json"
   }
 ];
