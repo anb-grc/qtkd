@@ -6,7 +6,7 @@ export function Features({ data }: { data: FeaturesBlock['data'] }) {
   const [openStates, setOpenStates] = useState<Record<number, boolean>>({});
   const itemsRaw = data.items || (data as any).features || [];
   const items = itemsRaw.map((item: any) => ({
-    title: item.title || item.name || item.label || '',
+    title: (item.title || item.name || item.label || '').replace(/^(Bước\s+)?\d+[\.\-\)]?\s*/i, ''),
     description: item.description || item.desc || item.content || ''
   }));
 

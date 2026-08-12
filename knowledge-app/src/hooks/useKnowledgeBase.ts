@@ -31,7 +31,11 @@ export function useKnowledgeBase(jsonPath: string): UseKnowledgeBaseResult {
 
         const rawJson = await response.json();
         const json: KnowledgeBase = Array.isArray(rawJson)
-          ? { subject: 'Kinh tế chính trị Mác - Lênin', sections: rawJson }
+          ? { 
+              subject: 'Kinh tế chính trị Mác - Lênin', 
+              overview: { type: 'mindmap', title: '', data: { root: '', children: [] } },
+              details: []
+            }
           : rawJson;
 
         if (!cancelled) {

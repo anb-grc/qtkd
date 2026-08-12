@@ -19,14 +19,6 @@
   box-shadow: none;
 }
 
-@media (min-width: 768px) {
-  .container {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-  }
-}
 
 .imagePlaceholder {
   position: relative;
@@ -241,7 +233,6 @@
   word-wrap: break-word;
 }
 
-@media (max-width: 600px) {
   .imagePlaceholder {
     height: 240px;
   }
@@ -269,5 +260,4 @@
   .detailDesc {
     font-size: var(--text-xs);
   }
-}
 

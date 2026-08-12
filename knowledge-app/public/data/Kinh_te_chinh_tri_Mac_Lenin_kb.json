@@ -1,0 +1,480 @@
+[
+  {
+    "title": "Chuyên đề 1: Nền tảng, Lịch sử & Phương pháp luận",
+    "blocks": [
+      {
+        "type": "timeline",
+        "title": "Dòng chảy lịch sử Kinh tế chính trị",
+        "weight": "normal",
+        "events": [
+          {
+            "time": "Trước TK XV",
+            "title": "Thời kỳ Cổ đại",
+            "description": "Tư tưởng kinh tế hòa lẫn trong triết học và luận lý, chưa tách thành khoa học độc lập."
+          },
+          {
+            "time": "Giữa XV - Giữa XVII",
+            "title": "Chủ nghĩa Trọng thương",
+            "description": "Lần đầu tiên thuật ngữ 'Kinh tế chính trị' xuất hiện (1615). Trọng tâm nghiên cứu nằm ở lĩnh vực lưu thông và thương mại."
+          },
+          {
+            "time": "Cuối XVII - Đầu XVIII",
+            "title": "Chủ nghĩa Trọng nông",
+            "description": "Phát triển mạnh ở Pháp, chuyển trọng tâm nghiên cứu sang các quan hệ kinh tế trong lĩnh vực nông nghiệp."
+          },
+          {
+            "time": "Cuối XVIII - Nửa đầu XIX",
+            "title": "KTCT Tư sản Cổ điển Anh",
+            "description": "Đại diện: A.Smith, D.Ricardo. Chuyển đối tượng nghiên cứu vào nền sản xuất, phát hiện giá trị do hao phí lao động tạo ra."
+          },
+          {
+            "time": "Giữa XIX trở đi",
+            "title": "KTCT Mác - Lênin",
+            "description": "Kế thừa có phê phán, tạo ra hệ thống lý luận khoa học, cách mạng, toàn diện về phương thức sản xuất TBCN và quá độ lên CNXH."
+          }
+        ]
+      },
+      {
+        "type": "vs-wrap",
+        "title": "Đối tượng nghiên cứu: Nghĩa Hẹp vs Nghĩa Rộng",
+        "weight": "high",
+        "comparisons": [
+          {
+            "left": "Nghĩa Hẹp",
+            "right": "Nghĩa Rộng",
+            "leftTitle": "Một phương thức",
+            "rightTitle": "Xuyên suốt lịch sử"
+          }
+        ],
+        "description": "Theo nghĩa hẹp, KTCT chỉ nghiên cứu quan hệ sản xuất & trao đổi trong <span class=\"keyword\">MỘT</span> phương thức sản xuất nhất định. Theo nghĩa rộng, nghiên cứu quy luật chi phối sự sản xuất & trao đổi trong <span class=\"keyword\">TOÀN BỘ</span> lịch sử xã hội loài người."
+      },
+      {
+        "type": "flip-card",
+        "title": "Bẫy Nhận Thức: Đối tượng nghiên cứu",
+        "weight": "high",
+        "question": "Câu hỏi: Đối tượng nghiên cứu của KTCT Mác-Lênin CHỈ LÀ các quan hệ sản xuất?",
+        "answer": "Sai. Đối tượng nghiên cứu là sự <span class=\"keyword\">thống nhất biện chứng</span> giữa <span class=\"keyword\">quan hệ sản xuất</span> và <span class=\"keyword\">quan hệ trao đổi</span>, được đặt trong mối liên hệ với trình độ phát triển của <span class=\"keyword\">lực lượng sản xuất</span> và <span class=\"keyword\">kiến trúc thượng tầng</span>."
+      },
+      {
+        "type": "pyramid",
+        "title": "Tháp Mục đích nghiên cứu",
+        "weight": "high",
+        "levels": [
+          {
+            "title": "Quy luật cốt lõi",
+            "description": "Cao nhất: Phát hiện ra các <span class=\"keyword\">quy luật kinh tế</span> chi phối quan hệ SX và TĐ."
+          },
+          {
+            "title": "Động lực kinh tế",
+            "description": "Xuyên suốt: Thúc đẩy sự giàu có của xã hội."
+          },
+          {
+            "title": "Giá trị xã hội",
+            "description": "Nền tảng: Cung cấp cơ sở khoa học thúc đẩy văn minh và phát triển toàn diện."
+          }
+        ]
+      },
+      {
+        "type": "vs-wrap",
+        "title": "Quy luật Kinh tế vs Chính sách Kinh tế",
+        "weight": "high",
+        "comparisons": [
+          {
+            "left": "Quy Luật Kinh Tế",
+            "right": "Chính Sách Kinh Tế",
+            "leftTitle": "Khách Quan",
+            "rightTitle": "Chủ Quan"
+          }
+        ],
+        "description": "Quy luật kinh tế tồn tại <span class=\"keyword\">khách quan</span>, độc lập với ý chí con người. Chính sách kinh tế là <span class=\"keyword\">chủ quan</span>, do nhà nước ban hành dựa trên việc nhận thức và vận dụng quy luật kinh tế."
+      },
+      {
+        "type": "mindmap",
+        "title": "Hệ thống Phương pháp nghiên cứu",
+        "weight": "normal",
+        "nodes": [
+          {
+            "id": "root",
+            "title": "Phương pháp nghiên cứu"
+          },
+          {
+            "id": "p1",
+            "parentId": "root",
+            "title": "Biện chứng duy vật"
+          },
+          {
+            "id": "p2",
+            "parentId": "root",
+            "title": "Trừu tượng hóa khoa học"
+          },
+          {
+            "id": "p3",
+            "parentId": "root",
+            "title": "Nghiên cứu liên ngành"
+          }
+        ],
+        "description": "Phương pháp <span class=\"keyword\">chủ yếu</span> là Trừu tượng hóa khoa học: Gạt bỏ các yếu tố ngẫu nhiên, tạm thời để tìm ra bản chất cốt lõi, bền vững."
+      },
+      {
+        "type": "features",
+        "title": "4 Chức năng của Kinh tế chính trị Mác - Lênin",
+        "weight": "normal",
+        "features": [
+          {
+            "title": "Chức năng Nhận thức",
+            "description": "Cung cấp hệ thống tri thức lý luận mở về quy luật chi phối sự vận động của sản xuất và trao đổi."
+          },
+          {
+            "title": "Chức năng Thực tiễn",
+            "description": "Trang bị kỹ năng vận dụng quy luật vào hoạt động lao động và quản trị quốc gia."
+          },
+          {
+            "title": "Chức năng Tư tưởng",
+            "description": "Xây dựng nền tảng tư tưởng cho người lao động, củng cố niềm tin vào xã hội dân chủ, công bằng."
+          },
+          {
+            "title": "Chức năng Phương pháp luận",
+            "description": "Là nền tảng lý luận khoa học cho các môn kinh tế chuyên ngành khác."
+          }
+        ]
+      },
+      {
+        "type": "quiz",
+        "title": "Kiểm tra nhanh",
+        "weight": "high",
+        "question": "Phương pháp nghiên cứu <span class=\"keyword\">chủ yếu</span> và đặc thù của Kinh tế chính trị Mác - Lênin là gì?",
+        "options": [
+          "Phương pháp mô hình hóa toán học",
+          "Phương pháp lịch sử",
+          "Phương pháp trừu tượng hóa khoa học",
+          "Phương pháp thống kê phân tích"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Để nghiên cứu các quan hệ xã hội phức tạp ẩn giấu dưới các hiện tượng kinh tế, KTCT Mác-Lênin dùng phương pháp <span class=\"keyword\">trừu tượng hóa khoa học</span> để gạt bỏ cái ngẫu nhiên, tìm ra bản chất tất yếu."
+      }
+    ]
+  },
+  {
+    "title": "Chuyên đề 2: Các Quy Luật Kinh Tế Xuyên Suốt",
+    "blocks": [
+      {
+        "type": "pyramid",
+        "title": "Hệ thống Quy luật Kinh tế",
+        "weight": "normal",
+        "levels": [
+          {
+            "title": "Quy luật Giá trị Thặng dư",
+            "description": "Tuyệt đối: Quy luật kinh tế cơ bản của Chủ nghĩa Tư bản."
+          },
+          {
+            "title": "Quy luật Giá trị",
+            "description": "Nền tảng: Quy luật cơ bản của mọi nền sản xuất hàng hóa."
+          },
+          {
+            "title": "Các quy luật phái sinh",
+            "description": "Bổ trợ: Cung - Cầu, Cạnh tranh, Lưu thông tiền tệ."
+          }
+        ]
+      },
+      {
+        "type": "formula-breakdown",
+        "title": "Quy luật Giá trị",
+        "weight": "high",
+        "formula": "Giá cả ≈ Giá trị",
+        "variables": [
+          {
+            "name": "Giá trị",
+            "description": "Hao phí lao động xã hội cần thiết (Trục xoay trung tâm)."
+          },
+          {
+            "name": "Giá cả",
+            "description": "Biểu hiện bằng tiền của giá trị, dao động lên xuống do Cung - Cầu."
+          }
+        ],
+        "description": "Yêu cầu sản xuất và trao đổi phải dựa trên cơ sở <span class=\"keyword\">hao phí lao động xã hội cần thiết</span>. Giá cả vận động xoay quanh giá trị."
+      },
+      {
+        "type": "flip-card",
+        "title": "Bẫy nhận thức: Quy luật Giá trị",
+        "weight": "high",
+        "question": "Câu hỏi: Quy luật giá trị chỉ hoạt động trong CNTB?",
+        "answer": "Sai. Quy luật giá trị hoạt động ở <span class=\"keyword\">bất cứ đâu có sản xuất và trao đổi hàng hóa</span>. Nó là quy luật cơ bản của sản xuất hàng hóa."
+      },
+      {
+        "type": "vs-wrap",
+        "title": "Cạnh tranh: Nội bộ ngành vs Giữa các ngành",
+        "weight": "high",
+        "comparisons": [
+          {
+            "left": "Nội bộ ngành",
+            "right": "Giữa các ngành",
+            "leftTitle": "Hình thành Giá trị thị trường",
+            "rightTitle": "Hình thành Tỷ suất lợi nhuận bình quân"
+          }
+        ],
+        "description": "Cạnh tranh nội bộ ngành nhằm giành ưu thế sản xuất tiêu thụ, tạo ra <span class=\"keyword\">giá trị xã hội</span>. Cạnh tranh giữa các ngành nhằm tìm nơi đầu tư có lợi, tạo ra <span class=\"keyword\">lợi nhuận bình quân</span>."
+      },
+      {
+        "type": "formula",
+        "title": "Quy luật Lưu thông tiền tệ",
+        "weight": "high",
+        "formula": "M = (P * Q) / V",
+        "description": "M: Số lượng tiền cần thiết. P: Mức giá cả. Q: Khối lượng hàng hóa. V: Tốc độ vòng quay của tiền. Quy luật yêu cầu lượng tiền phát hành phải <span class=\"keyword\">tương ứng</span> với nhu cầu lưu thông."
+      },
+      {
+        "type": "features",
+        "title": "Bản chất Giá trị Thặng dư (m)",
+        "weight": "normal",
+        "features": [
+          {
+            "title": "Nguồn gốc",
+            "description": "Là phần giá trị mới dôi ra ngoài giá trị sức lao động do công nhân tạo ra."
+          },
+          {
+            "title": "Bản chất",
+            "description": "Phản ánh quan hệ bóc lột giữa tư bản và lao động làm thuê."
+          },
+          {
+            "title": "Mục đích",
+            "description": "Là động lực tuyệt đối của nền sản xuất tư bản chủ nghĩa."
+          }
+        ]
+      },
+      {
+        "type": "quiz",
+        "title": "Test nhanh: Giá trị thặng dư",
+        "weight": "high",
+        "question": "Nguồn gốc duy nhất tạo ra giá trị thặng dư là gì?",
+        "options": [
+          "Máy móc thiết bị hiện đại",
+          "Quá trình lưu thông mua rẻ bán đắt",
+          "<span class=\"keyword\">Lao động sống</span> (sức lao động) của công nhân",
+          "Sự điều tiết của nhà nước"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Máy móc chỉ chuyển dịch giá trị (c), lưu thông không tạo ra giá trị mới. Chỉ có sự tiêu dùng <span class=\"keyword\">hàng hóa sức lao động</span> trong quá trình sản xuất mới tạo ra giá trị lớn hơn giá trị của bản thân nó."
+      }
+    ]
+  },
+  {
+    "title": "Chuyên đề 3: Sự Tiến Hóa Của Nền Sản Xuất & Hàng Hóa",
+    "blocks": [
+      {
+        "type": "vs-wrap",
+        "title": "Hai thuộc tính của Hàng hóa",
+        "weight": "high",
+        "comparisons": [
+          {
+            "left": "Giá trị sử dụng",
+            "right": "Giá trị",
+            "leftTitle": "Công dụng thỏa mãn nhu cầu",
+            "rightTitle": "Hao phí lao động kết tinh"
+          }
+        ],
+        "description": "Mọi hàng hóa đều phải có đủ 2 thuộc tính. Giá trị sử dụng là phạm trù <span class=\"keyword\">vĩnh viễn</span>, Giá trị là phạm trù <span class=\"keyword\">lịch sử</span>."
+      },
+      {
+        "type": "venn",
+        "title": "Tính 2 mặt của Lao động sản xuất",
+        "weight": "normal",
+        "leftCircle": "Lao động Cụ thể",
+        "rightCircle": "Lao động Trừu tượng",
+        "intersection": "Tạo ra Hàng hóa",
+        "description": "Lao động cụ thể tạo ra <span class=\"keyword\">giá trị sử dụng</span> (tính tư nhân). Lao động trừu tượng tạo ra <span class=\"keyword\">giá trị</span> (tính xã hội)."
+      },
+      {
+        "type": "timeline",
+        "title": "4 Hình thái tiến hóa của Tiền tệ",
+        "weight": "normal",
+        "events": [
+          {
+            "time": "Giai đoạn 1",
+            "title": "Giản đơn (Ngẫu nhiên)",
+            "description": "Trao đổi vật đổi vật ngẫu nhiên (1 con cừu = 2 cái rìu)."
+          },
+          {
+            "time": "Giai đoạn 2",
+            "title": "Đầy đủ (Mở rộng)",
+            "description": "Một hàng hóa đổi được với nhiều hàng hóa khác nhau."
+          },
+          {
+            "time": "Giai đoạn 3",
+            "title": "Chung của giá trị",
+            "description": "Xuất hiện vật ngang giá chung đóng vai trò trung gian trao đổi."
+          },
+          {
+            "time": "Giai đoạn 4",
+            "title": "Hình thái Tiền",
+            "description": "Vàng/Bạc độc chiếm vị trí vật ngang giá chung."
+          }
+        ]
+      },
+      {
+        "type": "t-account",
+        "title": "Công thức chung của Tư bản",
+        "weight": "high",
+        "leftColumn": "Lưu thông Hàng hóa giản đơn",
+        "rightColumn": "Lưu thông Tư bản",
+        "leftItems": [
+          "Công thức: H - T - H",
+          "Mục đích: Giá trị sử dụng",
+          "Giới hạn: Có giới hạn"
+        ],
+        "rightItems": [
+          "Công thức: T - H - T'",
+          "Mục đích: Giá trị thặng dư (T' > T)",
+          "Giới hạn: Không có giới hạn"
+        ]
+      },
+      {
+        "type": "flip-card",
+        "title": "Bẫy nhận thức: Tư bản",
+        "weight": "high",
+        "question": "Tư bản có phải là tiền không?",
+        "answer": "Tiền <span class=\"keyword\">chỉ biến thành tư bản</span> khi nó được dùng để bóc lột sức lao động của người khác nhằm mang lại giá trị thặng dư."
+      },
+      {
+        "type": "mindmap",
+        "title": "Tích lũy Tư bản",
+        "weight": "normal",
+        "nodes": [
+          {
+            "id": "root",
+            "title": "Tích lũy Tư bản"
+          },
+          {
+            "id": "c1",
+            "parentId": "root",
+            "title": "Tích tụ tư bản"
+          },
+          {
+            "id": "c2",
+            "parentId": "root",
+            "title": "Tập trung tư bản"
+          }
+        ],
+        "description": "Bản chất của tích lũy tư bản là biến một phần <span class=\"keyword\">giá trị thặng dư</span> thành tư bản phụ thêm để mở rộng quy mô."
+      },
+      {
+        "type": "features",
+        "title": "Nguyên nhân hình thành Độc quyền",
+        "weight": "normal",
+        "features": [
+          {
+            "title": "Tích tụ & Tập trung",
+            "description": "Cạnh tranh khốc liệt dẫn đến doanh nghiệp nhỏ bị thôn tính, hình thành các tổ chức khổng lồ."
+          },
+          {
+            "title": "Cách mạng khoa học công nghệ",
+            "description": "Đòi hỏi nguồn vốn lớn mà chỉ các tập đoàn mới đáp ứng được."
+          },
+          {
+            "title": "Khủng hoảng kinh tế",
+            "description": "Các doanh nghiệp phải liên kết để sống sót."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Chuyên đề 4: Hệ Sinh Thái Các Chủ Thể & Vai Trò Của Nhà Nước",
+    "blocks": [
+      {
+        "type": "features",
+        "title": "Các chủ thể trên thị trường",
+        "weight": "normal",
+        "features": [
+          {
+            "title": "Người sản xuất",
+            "description": "Cung cấp hàng hóa dịch vụ. Mục tiêu: Lợi nhuận & Trách nhiệm xã hội."
+          },
+          {
+            "title": "Người tiêu dùng",
+            "description": "Mua hàng hóa. Sức mua của họ quyết định sự phát triển của người sản xuất."
+          },
+          {
+            "title": "Chủ thể trung gian",
+            "description": "Cầu nối (thương nhân, môi giới, ngân hàng). Giúp thị trường linh hoạt, sống động."
+          },
+          {
+            "title": "Nhà nước",
+            "description": "Quản lý kinh tế vĩ mô và khắc phục khuyết tật thị trường."
+          }
+        ]
+      },
+      {
+        "type": "vs-wrap",
+        "title": "Kinh tế thị trường Định hướng XHCN",
+        "weight": "high",
+        "comparisons": [
+          {
+            "left": "Kinh tế Thị trường TBCN",
+            "right": "KTTT Định hướng XHCN",
+            "leftTitle": "Mục tiêu Lợi nhuận tối đa",
+            "rightTitle": "Mục tiêu Dân giàu nước mạnh"
+          }
+        ],
+        "description": "KTTT định hướng XHCN ở Việt Nam có nòng cốt là <span class=\"keyword\">kinh tế nhà nước</span> giữ vai trò chủ đạo, phân phối chủ yếu theo <span class=\"keyword\">lao động</span>."
+      },
+      {
+        "type": "matrix-table",
+        "title": "Lợi ích kinh tế và Quan hệ lợi ích",
+        "weight": "normal",
+        "headers": [
+          "Yếu tố",
+          "Bản chất",
+          "Tác động"
+        ],
+        "rows": [
+          [
+            "Lợi ích kinh tế",
+            "Là lợi ích vật chất thu được khi thực hiện các hoạt động kinh tế",
+            "Động lực trực tiếp của các chủ thể"
+          ],
+          [
+            "Quan hệ lợi ích",
+            "Sự thiết lập tương tác giữa các chủ thể nhằm giành lợi ích",
+            "Vừa thống nhất, vừa mâu thuẫn"
+          ]
+        ],
+        "description": "Nhà nước đóng vai trò điều hòa mâu thuẫn lợi ích thông qua chính sách phân phối lại."
+      },
+      {
+        "type": "mindmap",
+        "title": "Cách mạng Công nghiệp & CNH-HĐH",
+        "weight": "normal",
+        "nodes": [
+          {
+            "id": "root",
+            "title": "Công nghiệp hóa"
+          },
+          {
+            "id": "cmcn1",
+            "parentId": "root",
+            "title": "CMCN (Lịch sử)"
+          },
+          {
+            "id": "cnhhdh",
+            "parentId": "root",
+            "title": "CNH-HĐH (Việt Nam)"
+          }
+        ],
+        "description": "Việt Nam thực hiện CNH, HĐH nhằm tạo ra <span class=\"keyword\">cơ sở vật chất - kỹ thuật</span> cho CNXH, thích ứng với CMCN 4.0."
+      },
+      {
+        "type": "quiz",
+        "title": "Kiểm tra nhanh",
+        "weight": "high",
+        "question": "Thành phần kinh tế nào giữ vai trò CHỦ ĐẠO trong nền kinh tế thị trường định hướng XHCN ở Việt Nam?",
+        "options": [
+          "Kinh tế tư nhân",
+          "Kinh tế có vốn đầu tư nước ngoài",
+          "<span class=\"keyword\">Kinh tế nhà nước</span>",
+          "Kinh tế tập thể"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Kinh tế nhà nước nắm giữ các huyết mạch của nền kinh tế, đóng vai trò <span class=\"keyword\">chủ đạo</span> để định hướng toàn bộ nền kinh tế đi theo quỹ đạo XHCN."
+      }
+    ]
+  }
+]

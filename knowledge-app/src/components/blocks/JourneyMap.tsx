@@ -3,7 +3,10 @@ import type { JourneyMapBlock } from '../../types/schema';
 import styles from './JourneyMap.module.css';
 
 export function JourneyMap({ data }: { data: JourneyMapBlock['data'] }) {
-  const stages = data.stages || [];
+  const stages = (data.stages || []).map((st: any) => ({
+    ...st,
+    stage: typeof st.stage === 'string' ? st.stage.replace(/^(Bước\s+)?\d+[\.\-\)]?\s*/i, '') : st.stage
+  }));
   const [activeIdx, setActiveIdx] = useState<number>(0);
   const [hoveredIdx, setHoveredIdx] = useState<number | null>(null);
 

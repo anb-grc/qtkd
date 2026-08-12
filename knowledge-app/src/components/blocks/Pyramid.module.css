@@ -68,7 +68,6 @@
 }
 
 /* Mobile: tăng độ dốc hình tháp, tự động canh padding an toàn theo tỷ lệ thu nhỏ */
-@media (max-width: 600px) {
   .container {
     padding: var(--space-lg) 0;
   }
@@ -85,7 +84,6 @@
   .name {
     font-size: var(--text-sm);
   }
-}
 
 .level.active {
   background: rgba(108, 92, 231, 1);

@@ -8,29 +8,65 @@
         {
           "id": "node_tong_quan",
           "label": "Tổng Quan",
-          "description": "Lịch sử & Vị thế"
+          "description": "Lịch sử & Vị thế",
+          "children": [
+            {
+              "id": "node_tong_quan_1",
+              "label": "Biên niên sử"
+            },
+            {
+              "id": "node_tong_quan_2",
+              "label": "Kỷ lục nổi bật"
+            }
+          ]
         },
         {
           "id": "node_thuc_hanh",
           "label": "Thực Hành Chung",
-          "description": "Đội hình & Khởi động"
+          "description": "Đội hình & Khởi động",
+          "children": [
+            {
+              "id": "node_thuc_hanh_1",
+              "label": "Chuỗi 9 Động tác"
+            },
+            {
+              "id": "node_thuc_hanh_2",
+              "label": "Phân loại Khởi động"
+            }
+          ]
         },
         {
           "id": "node_ky_thuat",
           "label": "Kỹ Thuật Chạy",
-          "description": "Ngắn & Trung Bình"
+          "description": "Ngắn & Trung Bình",
+          "children": [
+            {
+              "id": "node_ky_thuat_1",
+              "label": "So sánh Đặc điểm"
+            },
+            {
+              "id": "node_ky_thuat_2",
+              "label": "Kỹ thuật Xuất phát"
+            }
+          ]
         },
         {
           "id": "node_luat_thi_dau",
           "label": "Luật Thi Đấu",
-          "description": "Lỗi & Phạm quy"
+          "description": "Lỗi & Phạm quy",
+          "children": [
+            {
+              "id": "node_luat_1",
+              "label": "Các Lỗi Nghiêm Trọng"
+            }
+          ]
         }
       ]
     }
   },
   "details": [
     {
-      "node_id": "node_tong_quan",
+      "node_id": "node_tong_quan_1",
       "components": [
         {
           "type": "timeline",
@@ -64,6 +100,27 @@
             ]
           }
         },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Nhanh",
+          "data": {
+            "quiz_tags": ["Luật thi đấu"],
+            "question": "Olympic hiện đại đầu tiên được tổ chức vào năm nào?",
+            "options": [
+              "776 TCN",
+              "1864",
+              "1896",
+              "1912"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Năm 1896, Olympic hiện đại đầu tiên được tổ chức tại Athens, Hy Lạp."
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_tong_quan_2",
+      "components": [
         {
           "type": "features",
           "title": "Thành Tích & Kỷ Lục Nổi Bật",
@@ -106,7 +163,7 @@
       ]
     },
     {
-      "node_id": "node_thuc_hanh",
+      "node_id": "node_thuc_hanh_1",
       "components": [
         {
           "type": "process-steps",
@@ -153,6 +210,26 @@
           }
         },
         {
+          "type": "quiz",
+          "title": "Kiểm tra Nhanh",
+          "data": {
+            "question": "Trong chuỗi 9 động tác thể dục phát triển chung, động tác số 9 là gì?",
+            "options": [
+              "Tay ngực",
+              "Vặn mình",
+              "Nhảy",
+              "Điều hòa"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Động tác thứ 9 (cuối cùng) luôn là động tác Điều hòa để đưa cơ thể về trạng thái hồi phục sau khi vận động."
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_thuc_hanh_2",
+      "components": [
+        {
           "type": "vs-wrap",
           "title": "Phân loại Khởi động",
           "data": {
@@ -184,7 +261,7 @@
       ]
     },
     {
-      "node_id": "node_ky_thuat",
+      "node_id": "node_ky_thuat_1",
       "components": [
         {
           "type": "vs-wrap",
@@ -200,6 +277,26 @@
             }
           }
         },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Nhanh",
+          "data": {
+            "question": "Trong chạy cự ly Trung bình (800-5000m), nhịp thở nào thường được khuyến nghị?",
+            "options": [
+              "1 bước hít - 1 bước thở",
+              "2 bước hít - 2 bước thở",
+              "Hít thở tự do",
+              "Nín thở rút đích"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Đối với cự ly trung bình, nhịp thở 2 bước hít - 2 bước thở là phổ biến nhất để đảm bảo cơ thể được cung cấp đủ oxy duy trì sức bền."
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_ky_thuat_2",
+      "components": [
         {
           "type": "process-steps",
           "title": "Kỹ thuật Xuất phát thấp",
@@ -238,7 +335,7 @@
       ]
     },
     {
-      "node_id": "node_luat_thi_dau",
+      "node_id": "node_luat_1",
       "components": [
         {
           "type": "delta-cheat-sheet",

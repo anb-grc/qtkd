@@ -94,7 +94,6 @@
   white-space: nowrap;
 }
 
-@media (max-width: 600px) {
   .container {
     padding: var(--space-lg) var(--space-sm);
   }
@@ -123,7 +122,6 @@
   }
   .grid::before, .grid::after { display: block; }
   .yAxis, .xAxis { display: none; }
-}
 
 
 .quadrant {

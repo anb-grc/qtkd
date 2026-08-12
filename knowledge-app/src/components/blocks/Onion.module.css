@@ -9,14 +9,6 @@
   padding: 0;
 }
 
-@media (min-width: 768px) {
-  .container {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-  }
-}
 
 .onionWrapper {
   position: relative;
@@ -99,7 +91,6 @@
 .details strong { color: var(--color-text-primary); font-size: var(--text-sm); word-break: break-word; }
 .details p { color: var(--color-text-secondary); font-size: var(--text-xs); margin: 0; word-break: break-word; line-height: 1.6;}
 
-@media (max-width: 600px) {
   .onionWrapper {
     width: 300px;
     height: 300px;
@@ -118,7 +109,6 @@
     width: 100%;
     padding: 0;
   }
-}
 
 .placeholder {
   text-align: center;

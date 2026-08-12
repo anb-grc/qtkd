@@ -16,14 +16,6 @@
   width: 100%;
 }
 
-@media (min-width: 768px) {
-  .chartContainer {
-    
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
-  }
-}
 
 .svgWrapper {
   width: 100%;
@@ -33,12 +25,6 @@
   overflow: visible;
 }
 
-@media (min-width: 768px) {
-  .svgWrapper {
-    max-width: 760px;
-    margin: 0 auto;
-  }
-}
 
 .barsList {
   display: flex;
@@ -47,11 +33,6 @@
   width: 100%;
 }
 
-@media (min-width: 768px) {
-  .barsList {
-    width: 100%;
-    }
-}
 
 .legendList {
   display: flex;
@@ -60,11 +41,6 @@
   width: 100%;
 }
 
-@media (min-width: 768px) {
-  .legendList {
-    width: 100%;
-    }
-}
 
 .legendItem {
   display: flex;
@@ -104,11 +80,6 @@
   font-weight: 600;
 }
 
-@media (min-width: 640px) {
-  .axisText {
-    font-size: 12px;
-  }
-}
 
 .barRect {
   transition: opacity 0.2s ease, transform 0.2s ease;

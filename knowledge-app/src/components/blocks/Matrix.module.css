@@ -49,11 +49,9 @@ td.active:not(:first-child) {
   user-select: text;
 }
 
-@media (max-width: 600px) {
   .container { margin: 0; padding: var(--space-sm) 0; }
   th, td {
     padding: var(--space-sm) 4px;
     font-size: var(--text-xs);
   }
-}
 

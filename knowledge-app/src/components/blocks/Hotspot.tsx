@@ -9,7 +9,7 @@ export function Hotspot({ data }: { data: HotspotBlock['data'] }) {
 
   const ptsRaw = data.points || (data as any).spots || [];
   const points = ptsRaw.map((pt: any) => ({
-    title: pt.title || pt.label || pt.name || '',
+    title: (pt.title || pt.label || pt.name || '').replace(/^(Bước\s+)?\d+[\.\-\)]?\s*/i, ''),
     description: pt.description || pt.desc || pt.content || ''
   }));
 

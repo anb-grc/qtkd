@@ -50,15 +50,6 @@
   width: 100%;
 }
 
-@media (min-width: 640px) {
-  .optionsList {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .optionBtn {
-    flex: 1 1 280px;
-  }
-}
 
 .optionBtn {
   display: flex;

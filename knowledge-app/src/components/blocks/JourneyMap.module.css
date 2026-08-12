@@ -23,20 +23,6 @@
   margin-bottom: 4px;
 }
 
-@media (min-width: 768px) {
-  .personaText {
-    text-align: center;
-  }
-  
-  .stageTabs {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: var(--space-md);
-    max-width: 960px;
-    margin: 0 auto;
-  }
-}
 
 .stageTab {
   display: inline-flex;
@@ -56,16 +42,6 @@
   word-break: normal;
 }
 
-@media (min-width: 768px) {
-  .stageTab {
-    flex: 1 1 auto;
-    min-width: 140px;
-    max-width: 260px;
-    white-space: normal;
-    justify-content: center;
-    text-align: center;
-  }
-}
 
 .stageTab:hover {
   background: rgba(255, 255, 255, 0.08);
@@ -113,11 +89,9 @@
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 
-@media (max-width: 600px) {
   .cardContent {
     padding: var(--space-md) var(--space-sm);
   }
-}
 
 .sectionGroup {
   display: flex;

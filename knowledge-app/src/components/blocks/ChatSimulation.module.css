@@ -28,11 +28,6 @@
   animation: fadeIn 0.3s ease;
 }
 
-@media (min-width: 640px) {
-  .messageRow {
-    max-width: 75%;
-  }
-}
 
 .rowRight {
   align-self: flex-end;
@@ -82,13 +77,6 @@
   margin: var(--space-sm) auto 0;
 }
 
-@media (min-width: 640px) {
-  .choicesBox {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-  }
-}
 
 .choiceBtn {
   display: inline-flex;
@@ -107,13 +95,6 @@
   text-align: left;
 }
 
-@media (min-width: 640px) {
-  .choiceBtn {
-    width: auto;
-    flex: 1 1 220px;
-    max-width: 360px;
-  }
-}
 
 .choiceBtn:hover {
   background: var(--color-accent-secondary);

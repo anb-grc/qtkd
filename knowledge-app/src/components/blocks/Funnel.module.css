@@ -70,7 +70,6 @@
 }
 
 /* Mobile: đồng bộ độ dốc hình phễu chuẩn xác theo hình tháp (30% - 70%) */
-@media (max-width: 600px) {
   .container {
     padding: var(--space-lg) 0;
   }
@@ -87,7 +86,6 @@
   .name {
     font-size: var(--text-sm);
   }
-}
 
 .stage.active {
   background: rgba(108, 92, 231, 1);

@@ -128,7 +128,6 @@
 .detailContent strong { color: var(--color-text-primary); }
 .detailContent p { color: var(--color-text-secondary); font-size: var(--text-sm); margin-top: 4px; }
 
-@media (max-width: 600px) {
   .circleContainer {
     width: 200px;
     height: 200px;
@@ -175,7 +174,6 @@
     font-size: 8px;
     -webkit-line-clamp: 2;
   }
-}
 
 
 .nodeWrapper {

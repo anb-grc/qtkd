@@ -1,5 +1,6 @@
 import type { Block } from '../../types/schema';
 import { BlockWrapper } from '../common/BlockWrapper';
+import { slugify } from '../../utils/stringUtils';
 
 // Import 8 original components
 import { Mindmap } from './Mindmap';
@@ -42,9 +43,11 @@ import { DeltaCheatSheet } from './DeltaCheatSheet';
 interface BlockRendererProps {
   block: Block;
   index?: number;
+  qsData?: any[];
+  onQuizPass?: () => void;
 }
 
-export function BlockRenderer({ block, index }: BlockRendererProps) {
+export function BlockRenderer({ block, index, qsData, onQuizPass }: BlockRendererProps) {
   const renderContent = () => {
     switch (block.type) {
       case 'mindmap':
@@ -86,8 +89,28 @@ export function BlockRenderer({ block, index }: BlockRendererProps) {
         return <Carousel data={block.data} />;
       case 'matrix-table':
         return <MatrixTable data={block.data} />;
-      case 'quiz':
-        return <Quiz data={block.data as any} />;
+      case 'quiz': {
+        const quizData = block.data as any;
+        let pool = [...(quizData.questions || [])];
+        
+        if (quizData.quiz_tags && Array.isArray(quizData.quiz_tags) && qsData && qsData.length > 0) {
+          const matchTags = quizData.quiz_tags.map((t: string) => slugify(t));
+          
+          const matchedQs = qsData.filter(q => {
+            const qTags = Array.isArray(q.tags) ? q.tags.map((t: string) => slugify(t)) : [];
+            return matchTags.some((mt: string) => qTags.includes(mt));
+          }).map(q => ({
+             question: q.question || q.q || '',
+             options: q.options || q.choices || [],
+             correctAnswer: typeof q.correctAnswer === 'number' ? q.correctAnswer : (q.answer || 0),
+             explanation: q.explanation || q.note || ''
+          }));
+          
+          pool = [...pool, ...matchedQs];
+        }
+        
+        return <Quiz data={{ ...quizData, questions: pool }} onPass={onQuizPass} />;
+      }
       case 'radar-chart':
         return <RadarChart data={block.data} />;
       case 'line-chart':
@@ -133,9 +156,11 @@ export function BlockRenderer({ block, index }: BlockRendererProps) {
     }
   };
 
-  const blockTitle = block.type === 'quiz' && (block.data as any)?.question 
-    ? (block.data as any).question 
-    : block.title;
+  const isQuiz = block.type === 'quiz';
+  let blockTitle = block.title;
+  if (isQuiz) {
+    blockTitle = '';
+  }
 
   return (
     <BlockWrapper title={blockTitle} id={block.id} index={index}>

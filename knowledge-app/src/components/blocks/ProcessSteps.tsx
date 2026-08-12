@@ -7,7 +7,7 @@ export function ProcessSteps({ data }: { data: ProcessStepsBlock['data'] | Flowc
   const [openStates, setOpenStates] = useState<Record<number, boolean>>({});
   const stepsRaw = data.steps || (data as any).items || [];
   const steps = stepsRaw.map((s: any) => ({
-    name: s.name || s.title || s.label || '',
+    name: (s.name || s.title || s.label || '').replace(/^(Bước\s+)?\d+[\.\-\)]?\s*/i, ''),
     description: s.description || s.desc || s.content || ''
   }));
 

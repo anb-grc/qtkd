@@ -6,12 +6,6 @@
   padding: 0;
 }
 
-@media (min-width: 768px) {
-  .container {
-    
-    align-items: stretch;
-  }
-}
 
 .side {
   flex: 1;

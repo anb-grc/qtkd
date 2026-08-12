@@ -4,7 +4,11 @@
 
 export interface KnowledgeBase {
   subject: string;
-  sections: Section[];
+  overview: MindmapBlock;
+  details: {
+    node_id: string;
+    components: Block[];
+  }[];
 }
 
 export interface Section {
@@ -76,6 +80,7 @@ export interface MindmapBlock extends BaseBlock {
 }
 
 export interface MindmapNode {
+  id?: string;
   label: string;
   description?: string;
   children?: MindmapNode[];
@@ -280,10 +285,17 @@ export interface FlipCardBlock extends BaseBlock {
 export interface QuizBlock extends BaseBlock {
   type: 'quiz';
   data: {
-    question: string;
-    options: string[];
-    correctAnswer: number;
+    quiz_tags?: string[];
+    question?: string;
+    options?: string[];
+    correctAnswer?: number;
     explanation?: string;
+    questions?: {
+      question: string;
+      options: string[];
+      correctAnswer: number;
+      explanation?: string;
+    }[];
   };
 }
 

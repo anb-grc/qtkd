@@ -13,7 +13,7 @@ interface BlockWrapperProps {
  * BlockWrapper — Card chung bọc ngoài mọi block component.
  * Cung cấp: số thứ tự tự nhiên (hoặc thanh accent), tiêu đề, nút thu gọn/mở rộng, viền card glassmorphism.
  */
-export function BlockWrapper({ title, id, children, className = '', index }: BlockWrapperProps) {
+export function BlockWrapper({ title, id, children, className = '' }: BlockWrapperProps) {
   const [isLearned, setIsLearned] = useState(() => {
     if (!id) return false;
     return localStorage.getItem(`learned_${id}`) === 'true';
@@ -39,12 +39,7 @@ export function BlockWrapper({ title, id, children, className = '', index }: Blo
         role="button"
         tabIndex={0}
       >
-        <div className={styles.blockTitle}>
-          {index ? (
-            <span className={styles.blockNumber}>{index}.</span>
-          ) : (
-            <span className={styles.blockAccent} aria-hidden="true" />
-          )}
+        <div className={styles.blockTitle} style={{ justifyContent: 'center', textAlign: 'center' }}>
           <span dangerouslySetInnerHTML={{ __html: title }} />
         </div>
         <div className={styles.blockActions}>

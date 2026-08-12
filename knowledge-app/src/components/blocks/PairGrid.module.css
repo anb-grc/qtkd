@@ -25,11 +25,6 @@
   align-items: start;
 }
 
-@media (min-width: 640px) {
-  .board {
-    gap: var(--space-xl, 24px);
-  }
-}
 
 .column {
   display: flex;
@@ -52,12 +47,6 @@
   text-align: center;
 }
 
-@media (min-width: 640px) {
-  .colHeader {
-    font-size: var(--text-xs);
-    letter-spacing: 1.5px;
-  }
-}
 
 .itemCard {
   padding: 10px 12px;
@@ -80,13 +69,6 @@
   overflow-wrap: break-word;
 }
 
-@media (min-width: 640px) {
-  .itemCard {
-    padding: var(--space-sm) var(--space-md);
-    font-size: var(--text-sm);
-    min-height: 56px;
-  }
-}
 
 .itemCard:hover:not(.disabled) {
   border: 1.5px solid var(--color-accent-primary) !important;

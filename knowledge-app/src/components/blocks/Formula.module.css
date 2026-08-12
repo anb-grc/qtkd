@@ -81,19 +81,18 @@
   display: flex;
   align-items: center;
   gap: var(--space-md);
-  background: transparent;
+  background: rgba(255, 255, 255, 0.03);
   padding: var(--space-sm) var(--space-md);
-  border-radius: 0;
-  border: none;
-  border-left: 2px solid rgba(255, 255, 255, 0.15);
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   transition: all 0.3s ease;
   cursor: pointer;
 }
 
 .varCard:hover, .varHovered {
   transform: translateX(5px);
-  border-left-color: var(--color-accent-primary);
-  background: transparent;
+  border-color: var(--color-accent-primary);
+  background: rgba(108, 92, 231, 0.1);
 }
 
 .symbolBox {
@@ -125,7 +124,6 @@
   font-size: var(--text-sm);
 }
 
-@media (max-width: 768px) {
   .mathContent {
     font-size: var(--text-lg);
     padding: var(--space-md) var(--space-sm);
@@ -137,5 +135,4 @@
   .varCard {
     width: 100%;
   }
-}
 

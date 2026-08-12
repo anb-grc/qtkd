@@ -1,66 +1,102 @@
 .container {
-  overflow-x: auto;
-  padding: var(--space-md) var(--space-md) var(--space-3xl) var(--space-md);
+  overflow: hidden;
+  padding: 0;
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 769px) {
+  .container {
+    height: 100% !important;
+  }
+}
+
+.transformWrapper {
+  width: 100% !important;
+  height: 100% !important;
+  cursor: grab;
+}
+
+.transformWrapper:active {
+  cursor: grabbing;
+}
+
+.zoomControls {
   display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 8px;
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  z-index: 1000;
+  pointer-events: auto;
+}
+
+.zoomBtn {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  justify-content: safe center;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
+  padding: 0;
+  line-height: 1;
+  cursor: pointer;
+  transition: all 0.2s;
 }
 
-.container::-webkit-scrollbar {
-  display: none;
+.zoomBtn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.1);
 }
 
-.rootWrapper, .nodeWrapper {
+
+.rootWrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
-  transition: var(--transition-normal);
   flex-shrink: 0;
+  padding: 16px var(--space-md) var(--space-xl) var(--space-md);
 }
 
-.children {
+/* Children container: flex row, children side by side */
+.childrenSvg {
   display: flex;
+  flex-direction: row;
+  align-items: flex-start;
   justify-content: center;
   position: relative;
-  padding-top: 20px;
-  margin-top: 0;
-  width: 100%;
-  gap: 0 !important;
+  padding-top: 28px;  /* gap between parent and children */
+  gap: 24px;
 }
 
-/* Connectors - Gradient Lines */
-.children::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 2px;
-  height: 22px;
-  background: var(--color-accent-secondary);
-  opacity: 0.6;
-  transition: all 0.3s ease;
-  z-index: 2;
-}
-
-.children::after {
-  display: none;
+/* Each child slot has equal width */
+.childSlot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 0 auto;
+  min-width: 140px;
+  position: relative;
 }
 
 .nodeWrapper {
-  padding: 20px 12px 0 12px;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
+  padding: 0 8px;
   transition: var(--transition-normal);
-  width: 100%; /* FORCES EQUAL WIDTH FOR PERFECT SYMMETRY! */
-  flex: 1 0 140px;
-  margin: 0 !important;
   z-index: 1;
+  width: 100%;
 }
 
 .nodeWrapper:hover,
@@ -70,143 +106,7 @@
   z-index: 999 !important;
 }
 
-@media (max-width: 768px) {
-  .nodeWrapper {
-    padding: 16px 3px 0 3px;
-  }
-  .children {
-    padding-top: 16px;
-  }
-  .children::before {
-    height: 18px;
-  }
-  .verticalDrop {
-    height: 16px;
-  }
-}
-
-.connectorLeft, .connectorRight {
-  position: absolute;
-  top: 0;
-  width: 50%;
-  height: 2px;
-  background: var(--color-accent-secondary);
-  opacity: 0.5;
-  transition: background 0.3s ease, opacity 0.3s ease;
-  z-index: 1;
-}
-
-.connectorLeft {
-  left: 0;
-}
-
-.connectorRight {
-  right: 0;
-}
-
-.centerLeftChild .connectorRight {
-  right: 14px !important;
-  width: calc(50% - 14px) !important;
-}
-
-.centerRightChild .connectorLeft {
-  left: 14px !important;
-  width: calc(50% - 14px) !important;
-}
-
-.nodeWrapper.centerLeftChild:first-child:not(:last-child) .verticalDrop {
-  right: 14px !important;
-  width: calc(50% - 14px) !important;
-}
-
-.nodeWrapper.centerRightChild:last-child:not(:first-child) .verticalDrop {
-  left: 14px !important;
-  width: calc(50% - 14px) !important;
-}
-
-.nodeWrapper:first-child .connectorLeft {
-  display: none;
-}
-
-.nodeWrapper:last-child .connectorRight {
-  display: none;
-}
-
-.verticalDrop {
-  position: absolute;
-  box-sizing: border-box;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 2px;
-  height: 20px;
-  background: var(--color-accent-secondary);
-  opacity: 0.5;
-  transition: all 0.3s ease;
-  z-index: 1;
-}
-
-/* Smooth rounded elbow curves for outer branches */
-.nodeWrapper:first-child:not(:last-child) .connectorRight {
-  display: none;
-}
-.nodeWrapper:first-child:not(:last-child) .verticalDrop {
-  left: calc(50% - 1px);
-  right: auto;
-  width: calc(50% + 1px);
-  transform: none;
-  background: transparent !important;
-  border-top: 2px solid var(--color-accent-secondary);
-  border-left: 2px solid var(--color-accent-secondary);
-  border-top-left-radius: var(--radius-md);
-}
-
-.nodeWrapper:last-child:not(:first-child) .connectorLeft {
-  display: none;
-}
-.nodeWrapper:last-child:not(:first-child) .verticalDrop {
-  left: 0;
-  width: calc(50% + 1px);
-  transform: none;
-  background: transparent !important;
-  border-top: 2px solid var(--color-accent-secondary);
-  border-right: 2px solid var(--color-accent-secondary);
-  border-top-right-radius: var(--radius-md);
-}
-
-/* Active Highlight — horizontal: color only, vertical: color + glow */
-.connectorLeft.active,
-.connectorRight.active {
-  opacity: 1;
-  background: var(--color-warning);
-  z-index: 1;
-}
-
-.verticalDrop.active {
-  opacity: 1;
-  background: var(--color-warning);
-  box-shadow: none;
-  z-index: 1;
-}
-
-.nodeWrapper:first-child:not(:last-child) .verticalDrop.active {
-  border-top-color: var(--color-warning);
-  border-left-color: var(--color-warning);
-}
-
-.nodeWrapper:last-child:not(:first-child) .verticalDrop.active {
-  border-top-color: var(--color-warning);
-  border-right-color: var(--color-warning);
-}
-
-/* Parent Vertical Drop highlight */
-.children.hasHover::before {
-  background: var(--color-warning);
-  opacity: 1;
-  box-shadow: none;
-}
-
-
+/* ─── Node Boxes ──────────────────────────────────────────── */
 .rootNode {
   padding: var(--space-md) var(--space-lg);
   border-radius: var(--radius-md);
@@ -214,12 +114,17 @@
   text-align: center;
   position: relative;
   z-index: 2;
-  cursor: pointer;
+  cursor: default;
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 48px;
+  background: var(--gradient-accent);
+  font-weight: 800;
+  font-size: var(--text-lg);
+  border: 1.5px solid rgba(255,255,255,0.2);
+  max-width: 280px;
 }
 
 .node {
@@ -234,7 +139,7 @@
   word-break: normal;
   overflow-wrap: break-word;
   max-width: 260px;
-  width: 100%;
+  width: fit-content;
   min-height: 48px;
   line-height: var(--leading-snug);
   display: flex;
@@ -242,24 +147,19 @@
   justify-content: center;
   align-items: center;
   background: var(--color-bg-card);
-  backdrop-filter: none;
   border: 1.5px solid var(--color-border);
   font-weight: 600;
   font-size: var(--text-sm);
 }
 
-.rootNode {
-  background: var(--gradient-accent);
-  font-weight: 800;
-  font-size: var(--text-lg);
-  border: 1.5px solid rgba(255,255,255,0.2);
-  max-width: 280px;
+.rootNode:hover, .node:hover, .nodeActiveLine {
+  transform: scale(1.02);
+  border-color: var(--color-accent-primary) !important;
 }
 
-/* Hover & Active Animations */
-.rootNode:hover, .node:hover {
-  transform: scale(1.02);
-  border-color: var(--color-accent-primary);
+.nodeSelected {
+  border-color: var(--color-warning) !important;
+  box-shadow: 0 0 12px rgba(234, 179, 8, 0.4);
 }
 
 .nodeExpanded, .nodeExpanded:hover {
@@ -273,6 +173,12 @@
   display: block;
 }
 
+.rootNode span, .node span {
+  position: relative;
+  z-index: 3;
+}
+
+/* ─── Expand Icon ──────────────────────────────────────────── */
 .node .expandIcon {
   position: absolute;
   bottom: 4px;
@@ -289,6 +195,7 @@
   transform: translateX(-50%) rotate(180deg);
 }
 
+/* ─── Description Popup ──────────────────────────────────────── */
 .descSpacer {
   width: 0;
   display: flex;
@@ -312,35 +219,11 @@
   pointer-events: none;
 }
 
-
-
-/* Tam giác viền (Border) */
 .descSpacer::before {
   top: 0;
   border-bottom: 13px solid var(--color-border);
 }
 
-/* Align Edge Spacers to Prevent Screen Overflow */
-.nodeWrapper:first-child:not(:last-child) .descSpacer {
-  justify-content: flex-start;
-}
-.nodeWrapper:first-child:not(:last-child) .descSpacer::before,
-.nodeWrapper:first-child:not(:last-child) .descSpacer::after {
-  left: 20px;
-  transform: none;
-}
-
-.nodeWrapper:last-child:not(:first-child) .descSpacer {
-  justify-content: flex-end;
-}
-.nodeWrapper:last-child:not(:first-child) .descSpacer::before,
-.nodeWrapper:last-child:not(:first-child) .descSpacer::after {
-  left: auto;
-  right: 20px;
-  transform: none;
-}
-
-/* Tam giác nền (Background) đè lên viền của hộp */
 .descSpacer::after {
   top: 1px;
   border-bottom: 13px solid var(--color-bg-secondary);
@@ -400,22 +283,18 @@
   border-color: var(--color-accent-primary);
 }
 
-.rootNode span, .node span {
-  position: relative;
-  z-index: 3;
-}
-
+/* ─── Mobile ─────────────────────────────────────────────────── */
 @media (max-width: 768px) {
   .container {
-    padding: var(--space-md) 4px var(--space-3xl) 4px;
+    padding: var(--space-md) 4px 16px 4px;
     justify-content: flex-start;
   }
-  .nodeWrapper {
-    flex: 1 0 120px;
+  .childSlot {
+    min-width: 100px;
   }
-  .rootWrapper {
-    width: 100%;
-    max-width: 100%;
+  .childrenSvg {
+    padding-top: 20px;
+    gap: 12px;
   }
   .rootNode, .node {
     padding: var(--space-md) var(--space-sm);
@@ -426,8 +305,8 @@
     max-width: 95%;
   }
   .node {
-    width: 100%;
-    max-width: 100%;
+    width: fit-content;
+    max-width: 180px;
     padding: var(--space-md) var(--space-xs) calc(var(--space-md) + 4px) var(--space-xs);
     word-break: break-word;
   }
@@ -442,4 +321,15 @@
   .nodeDescription.expanded .descContent {
     padding: var(--space-sm);
   }
+}
+
+.nodeCompleted {
+  border-color: var(--color-success) !important;
+  box-shadow: 0 0 15px rgba(46, 204, 113, 0.3) !important;
+  background: rgba(46, 204, 113, 0.1) !important;
+}
+
+.nodeCompleted .nodeText {
+  color: var(--color-success) !important;
+  font-weight: 700;
 }

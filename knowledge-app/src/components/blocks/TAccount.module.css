@@ -101,7 +101,6 @@
   background: rgba(255, 255, 255, 0.08);
 }
 
-@media (max-width: 768px) {
   .sideHeader {
     font-size: var(--text-xs);
     letter-spacing: 0.3px;
@@ -117,4 +116,3 @@
   .sideBody li:last-child {
     padding-bottom: 2px;
   }
-}

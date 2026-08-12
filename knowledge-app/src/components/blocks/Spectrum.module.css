@@ -74,14 +74,12 @@
   margin: 0; 
 }
 
-@media (max-width: 768px) {
   .container { 
     padding: var(--space-lg) 0; 
   }
   .line {
     top: calc(var(--space-lg) + (var(--marker-size) - var(--line-thickness)) / 2);
   }
-}
 
 
 .header {
@@ -106,8 +104,6 @@
   opacity: 1;
   margin-top: var(--space-xs);
 }
-@media (max-width: 600px) {
   .header {
     justify-content: flex-start;
   }
-}

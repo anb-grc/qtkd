@@ -165,7 +165,6 @@
   font-weight: 600;
 }
 
-@media (max-width: 600px) {
   .vennArea {
     width: 280px;
     height: 160px;
@@ -186,5 +185,4 @@
     width: 50px;
     height: 120px;
   }
-}
 

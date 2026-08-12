@@ -6,7 +6,7 @@ import App from './App';
 const container = document.getElementById('knowledge-content') || document.getElementById('root');
 
 // Lấy biến toàn cục KB_DATA_URL từ quiz.html, hoặc dùng mock data
-const dataPath = (window as any).KB_DATA_URL || "/data/mac-lenin/kb.json";
+const dataPath = (window as any).KB_DATA_URL || "/data/gdtc-1/kb.json";
 
 if (container) {
   createRoot(container).render(
