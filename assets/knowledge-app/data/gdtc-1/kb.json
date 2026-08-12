@@ -104,7 +104,9 @@
           "type": "quiz",
           "title": "Kiểm tra Nhanh",
           "data": {
-            "quiz_tags": ["Luật thi đấu"],
+            "quiz_tags": [
+              "Lịch sử điền kinh"
+            ],
             "question": "Olympic hiện đại đầu tiên được tổ chức vào năm nào?",
             "options": [
               "776 TCN",
@@ -157,7 +159,10 @@
               "1928"
             ],
             "correctAnswer": 2,
-            "explanation": "Năm 1908 tại Olympic London, cự ly Marathon được kéo dài thêm một chút để vạch xuất phát đặt ngay dưới cửa sổ lâu đài Windsor cho hoàng gia xem, từ đó ấn định luôn 42.195km."
+            "explanation": "Năm 1908 tại Olympic London, cự ly Marathon được kéo dài thêm một chút để vạch xuất phát đặt ngay dưới cửa sổ lâu đài Windsor cho hoàng gia xem, từ đó ấn định luôn 42.195km.",
+            "quiz_tags": [
+              "Lịch sử điền kinh"
+            ]
           }
         }
       ]
@@ -221,7 +226,10 @@
               "Điều hòa"
             ],
             "correctAnswer": 3,
-            "explanation": "Động tác thứ 9 (cuối cùng) luôn là động tác Điều hòa để đưa cơ thể về trạng thái hồi phục sau khi vận động."
+            "explanation": "Động tác thứ 9 (cuối cùng) luôn là động tác Điều hòa để đưa cơ thể về trạng thái hồi phục sau khi vận động.",
+            "quiz_tags": [
+              "Thể dục tay không"
+            ]
           }
         }
       ]
@@ -255,7 +263,10 @@
               "Động tác thể dục"
             ],
             "correctAnswer": 1,
-            "explanation": "Bật cóc là bài tập tác động mạnh trực tiếp vào nhóm cơ đùi/chân để phục vụ riêng cho việc chạy, nên nó là Khởi động chuyên môn."
+            "explanation": "Bật cóc là bài tập tác động mạnh trực tiếp vào nhóm cơ đùi/chân để phục vụ riêng cho việc chạy, nên nó là Khởi động chuyên môn.",
+            "quiz_tags": [
+              "Thể dục tay không"
+            ]
           }
         }
       ]
@@ -289,7 +300,12 @@
               "Nín thở rút đích"
             ],
             "correctAnswer": 1,
-            "explanation": "Đối với cự ly trung bình, nhịp thở 2 bước hít - 2 bước thở là phổ biến nhất để đảm bảo cơ thể được cung cấp đủ oxy duy trì sức bền."
+            "explanation": "Đối với cự ly trung bình, nhịp thở 2 bước hít - 2 bước thở là phổ biến nhất để đảm bảo cơ thể được cung cấp đủ oxy duy trì sức bền.",
+            "quiz_tags": [
+              "Kỹ thuật chạy",
+              "Kỹ thuật xuất phát",
+              "Kỹ thuật đi bộ"
+            ]
           }
         }
       ]
@@ -329,7 +345,12 @@
               "Xuất phát 3 điểm"
             ],
             "correctAnswer": 1,
-            "explanation": "800m thuộc cự ly Trung bình, do đó bắt buộc sử dụng kỹ thuật Xuất phát cao."
+            "explanation": "800m thuộc cự ly Trung bình, do đó bắt buộc sử dụng kỹ thuật Xuất phát cao.",
+            "quiz_tags": [
+              "Kỹ thuật chạy",
+              "Kỹ thuật xuất phát",
+              "Kỹ thuật đi bộ"
+            ]
           }
         }
       ]
@@ -388,7 +409,10 @@
               "Ngực (Thân)"
             ],
             "correctAnswer": 3,
-            "explanation": "Luật điền kinh quy định chỉ tính thành tích khi mặt phẳng ngực (thân) cắt ngang vạch đích."
+            "explanation": "Luật điền kinh quy định chỉ tính thành tích khi mặt phẳng ngực (thân) cắt ngang vạch đích.",
+            "quiz_tags": [
+              "Luật thi đấu"
+            ]
           }
         }
       ]

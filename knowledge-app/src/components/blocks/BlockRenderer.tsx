@@ -93,20 +93,27 @@ export function BlockRenderer({ block, index, qsData, onQuizPass }: BlockRendere
         const quizData = block.data as any;
         let pool = [...(quizData.questions || [])];
         
-        if (quizData.quiz_tags && Array.isArray(quizData.quiz_tags) && qsData && qsData.length > 0) {
-          const matchTags = quizData.quiz_tags.map((t: string) => slugify(t));
-          
-          const matchedQs = qsData.filter(q => {
-            const qTags = Array.isArray(q.tags) ? q.tags.map((t: string) => slugify(t)) : [];
-            return matchTags.some((mt: string) => qTags.includes(mt));
-          }).map(q => ({
+        if (qsData && qsData.length > 0) {
+          let matchedQs = [];
+          if (quizData.quiz_tags && Array.isArray(quizData.quiz_tags) && quizData.quiz_tags.length > 0) {
+            const matchTags = quizData.quiz_tags.map((t: string) => slugify(t));
+            matchedQs = qsData.filter(q => {
+              const qTags = Array.isArray(q.tags) ? q.tags.map((t: string) => slugify(t)) : [];
+              return matchTags.some((mt: string) => qTags.includes(mt));
+            });
+          } else {
+            // Fallback: Nếu không khai báo thẻ, lấy toàn bộ ngân hàng câu hỏi
+            matchedQs = [...qsData];
+          }
+
+          const formattedQs = matchedQs.map(q => ({
              question: q.question || q.q || '',
              options: q.options || q.choices || [],
              correctAnswer: typeof q.correctAnswer === 'number' ? q.correctAnswer : (q.answer || 0),
              explanation: q.explanation || q.note || ''
           }));
           
-          pool = [...pool, ...matchedQs];
+          pool = [...pool, ...formattedQs];
         }
         
         return <Quiz data={{ ...quizData, questions: pool }} onPass={onQuizPass} />;
