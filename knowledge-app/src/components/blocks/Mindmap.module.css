@@ -64,7 +64,7 @@
   align-items: center;
   position: relative;
   flex-shrink: 0;
-  padding: 16px var(--space-md) var(--space-xl) var(--space-md);
+  padding: 8px var(--space-md) var(--space-md) var(--space-md);
 }
 
 /* Children container: flex row, children side by side */
@@ -286,7 +286,7 @@
 /* ─── Mobile ─────────────────────────────────────────────────── */
 @media (max-width: 768px) {
   .container {
-    padding: var(--space-md) 4px 16px 4px;
+    padding: 8px 4px 8px 4px;
     justify-content: flex-start;
   }
   .childSlot {

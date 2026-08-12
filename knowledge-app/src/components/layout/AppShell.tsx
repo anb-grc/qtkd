@@ -62,10 +62,6 @@ export function AppShell({ dataPath }: AppShellProps) {
 
   return (
     <div className={styles.hubContainer}>
-      <header className={styles.header}>
-        <h1 className={styles.title}>{data.subject}</h1>
-      </header>
-
       <main className={styles.mainLayout}>
         {/* Left Pane: Mindmap */}
         <section className={styles.leftPane}>

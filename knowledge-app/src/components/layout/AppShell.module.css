@@ -5,19 +5,7 @@
   overflow: hidden;
 }
 
-.header {
-  padding: var(--space-md) var(--space-xl);
-  background: var(--color-bg);
-  z-index: 10;
-}
-
-.title {
-  margin: 0;
-  font-size: var(--font-size-xl);
-  font-weight: 700;
-  color: var(--color-text);
-  text-transform: uppercase;
-}
+/* Header is removed, title is handled by host app */
 
 /* Mobile layout globally enforced as per user request */
 .mainLayout {
@@ -151,5 +139,9 @@
     flex: 0 0 0px;
     border-top: none;
     opacity: 0;
+  }
+
+  .sidePanelContent {
+    padding: var(--space-md) 0;
   }
 }
