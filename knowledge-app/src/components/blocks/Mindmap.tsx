@@ -275,12 +275,27 @@ function MindmapZoomControls({ rootWrapperRef, containerRef, expandedIdx }: { ro
   }, [rootWrapperRef, containerRef]);
 
   useEffect(() => {
-    if (!hasAutoFit.current && rootWrapperRef.current && containerRef.current) {
+    const container = containerRef.current;
+    if (!container) return;
+
+    const observer = new ResizeObserver(() => {
+      if (!hasAutoFit.current && container.clientWidth > 0 && container.clientHeight > 0) {
+        setTimeout(() => {
+          doAutoFit();
+          hasAutoFit.current = true;
+        }, 50);
+      }
+    });
+    observer.observe(container);
+
+    if (!hasAutoFit.current && container.clientWidth > 0 && container.clientHeight > 0) {
       setTimeout(() => {
         doAutoFit();
         hasAutoFit.current = true;
-      }, 100);
+      }, 50);
     }
+
+    return () => observer.disconnect();
   }, [doAutoFit]);
 
   // Cập nhật khi đóng/mở node

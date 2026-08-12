@@ -6,7 +6,7 @@
 <title>TÊN MÔN HỌC</title>
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="./assets/style.css">
-<link rel="stylesheet" href="./assets/knowledge-app/kb-app.css?v=13">
+<link rel="stylesheet" href="./assets/knowledge-app/kb-app.css?v=14">
 </head>
 <body>
   <div class="page-header">
@@ -60,7 +60,7 @@
     const subject = window.TVU_SUBJECTS ? window.TVU_SUBJECTS.find(s => s.id === subjectId) : null;
     
     if (!subject) {
-        document.body.innerHTML = '<div style="padding:50px; text-align:center; color:white;"><h2>Không tìm thấy môn học!</h2><a href="./index.html" style="color:var(--primary)">Quay lại trang chủ</a></div>';
+        document.body.innerHTML = '<div style="padding:50px; text-align:center; color:white;"><h2 style="color:var(--text);">Không tìm thấy môn học!</h2><a href="./index.html" style="color:var(--primary)">Quay lại trang chủ</a></div>';
         throw new Error("Subject not found");
     }
 
@@ -80,7 +80,7 @@
     };
   </script>
     <script src="./assets/app.js"></script>
-    <script type="module" src="./assets/knowledge-app/kb-app.js?v=13"></script>
+    <script type="module" src="./assets/knowledge-app/kb-app.js?v=14"></script>
 
   <!-- MODAL LỊCH SỬ (Đã đồng bộ Dark Mode / Glassmorphism) -->
   <div id="history-modal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 9999; align-items: center; justify-content: center; backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);">
