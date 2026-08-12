@@ -24,7 +24,9 @@ export function useKnowledgeBase(jsonPath: string): UseKnowledgeBaseResult {
         setLoading(true);
         setError(null);
 
-        const response = await fetch(jsonPath);
+        // Thêm cache buster để luôn lấy file json mới nhất, tránh bị trình duyệt cache file cũ
+        const fetchUrl = jsonPath.includes('?') ? jsonPath : `${jsonPath}?v=${new Date().getTime()}`;
+        const response = await fetch(fetchUrl);
         if (!response.ok) {
           throw new Error(`Không tải được dữ liệu: ${response.status}`);
         }

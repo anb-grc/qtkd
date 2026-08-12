@@ -16,7 +16,9 @@ export function useQuestionBank(kbPath: string) {
       
       try {
         setLoading(true);
-        const response = await fetch(qsPath);
+        // Thêm cache buster
+        const fetchUrl = qsPath.includes('?') ? qsPath : `${qsPath}?v=${new Date().getTime()}`;
+        const response = await fetch(fetchUrl);
         if (!response.ok) {
           // File không tồn tại hoặc lỗi, ta im lặng chấp nhận (không có qs.json)
           if (!cancelled) setQsData([]);
