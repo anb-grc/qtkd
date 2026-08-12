@@ -112,33 +112,33 @@
   }
   
   .leftPane {
-    flex: 0 0 auto;
-    transition: flex 0.3s ease;
-  }
-  
-  .mainLayout:has(.rightPane.hidden) .leftPane {
     flex: 1;
+    height: 100%;
   }
 
   .rightPane {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
     width: 100%;
     max-width: 100%;
-    position: relative;
-    height: auto;
-    flex: 1;
+    height: 85vh;
+    z-index: 1000;
     border-left: none;
     border-top: 1px solid var(--color-border);
-    border-radius: 20px 20px 0 0;
-    transform: none;
-    transition: flex 0.3s ease, opacity 0.3s ease;
+    border-radius: 24px 24px 0 0;
+    transform: translateY(0);
+    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease;
     opacity: 1;
     overflow: hidden;
+    box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.5);
   }
 
   .rightPane.hidden {
-    flex: 0 0 0px;
-    border-top: none;
+    transform: translateY(100%);
     opacity: 0;
+    pointer-events: none;
   }
 
   .sidePanelContent {
