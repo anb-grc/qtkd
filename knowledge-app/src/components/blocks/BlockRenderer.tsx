@@ -106,12 +106,23 @@ export function BlockRenderer({ block, index, qsData, onQuizPass }: BlockRendere
             matchedQs = [...qsData];
           }
 
-          const formattedQs = matchedQs.map(q => ({
-             question: q.question || q.q || '',
-             options: q.options || q.choices || [],
-             correctAnswer: typeof q.correctAnswer === 'number' ? q.correctAnswer : (q.answer || 0),
-             explanation: q.explanation || q.note || ''
-          }));
+          const formattedQs = matchedQs.map(q => {
+             let ansIdx = typeof q.correctAnswer === 'number' ? q.correctAnswer : 0;
+             if (typeof q.correctAnswer !== 'number' && q.answer) {
+               const match = String(q.answer).match(/✅ Đáp án:<\/div>\s*([A-D])/i);
+               if (match) {
+                 const letter = match[1].toUpperCase();
+                 ansIdx = letter === 'A' ? 0 : letter === 'B' ? 1 : letter === 'C' ? 2 : letter === 'D' ? 3 : 0;
+               }
+             }
+             
+             return {
+               question: q.question || q.q || '',
+               options: q.options || q.choices || [],
+               correctAnswer: ansIdx,
+               explanation: q.explanation || q.note || (typeof q.answer === 'string' ? q.answer : '')
+             };
+          });
           
           pool = [...pool, ...formattedQs];
         }
