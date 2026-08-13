@@ -109,15 +109,10 @@
   .tu-luan .answer-title{color:var(--warn);background:var(--warn-lt);border-color:rgba(255, 193, 7, 0.3);}
   .tu-luan.first-match{box-shadow:0 0 0 2px rgba(255,193,7,.3),var(--shadow-md);}
   /* QUIZ MODE */
-  .mode-switch{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px;justify-content:center;}
-  .mode-switch button{padding:8px 14px;border-radius:12px;border:1px solid var(--border);font-weight:600;cursor:pointer;background:var(--surface);color:var(--muted);transition:all 0.2s cubic-bezier(0.4, 0, 0.2, 1);font-size:.85em;white-space:nowrap;display:inline-flex;align-items:center;gap:6px;}
-  .mode-switch button .btn-icon{font-size:1.1em;line-height:1;}
-  .mode-switch button:hover:not(.active){background:var(--surface-hover);color:var(--text);border-color:var(--secondary);transform:translateY(-2px);box-shadow:0 4px 15px rgba(162, 155, 254, 0.2);}
-  .mode-switch button:active{transform:scale(0.96) !important;opacity:0.9;}
-  .mode-switch button.active{background:var(--primary);color:white;box-shadow:var(--shadow), 0 0 15px rgba(108, 92, 231, 0.35);border-color:var(--secondary);}
-  #btnHistory{background:rgba(255, 193, 7, 0.12) !important;color:var(--warn) !important;border:1px solid rgba(255, 193, 7, 0.35) !important;}
-  #btnHistory:hover{background:var(--warn) !important;color:#0f0f1a !important;border-color:var(--warn) !important;transform:translateY(-2px);box-shadow:0 4px 16px rgba(255, 193, 7, 0.4) !important;}
-  #btnHistory:active{transform:scale(0.96) !important;}
+  .mode-switch{display:flex;flex-wrap:wrap;gap:16px;margin-bottom:20px;justify-content:center;}
+  .mode-switch button{padding:4px 8px;border:none;background:transparent !important;color:var(--muted);font-weight:700;text-transform:uppercase;letter-spacing:0.5px;cursor:pointer;transition:all 0.2s cubic-bezier(0.4, 0, 0.2, 1);font-size:0.8em;white-space:nowrap;display:inline-flex;align-items:center;text-underline-offset:4px;text-decoration-thickness:2px;}
+  .mode-switch button:hover{color:var(--secondary) !important;text-shadow:0 0 10px rgba(162, 155, 254, 0.6);text-decoration:underline;text-decoration-color:var(--secondary);transform:translateY(-1px);}
+  .mode-switch button:active, .mode-switch button.active{color:var(--warn) !important;text-shadow:0 0 10px rgba(255, 193, 7, 0.6);text-decoration:underline;text-decoration-color:var(--warn);transform:scale(0.96);}
 
   .btn-submit:hover {background: var(--secondary); transform: translateY(-2px); box-shadow: 0 4px 15px rgba(162,155,254,0.4);}
   .btn-submit:active {transform: scale(0.98);}
