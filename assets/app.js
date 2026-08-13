@@ -31,6 +31,7 @@ function buildFilterUI(data) {
     
     let tagOptions = `<option value="all">Tất cả</option>`;
     Array.from(allTags).sort().forEach(t => {
+        if (t.toLowerCase() === 'high' || t.toLowerCase() === 'low') return;
         tagOptions += `<option value="${t}">${t}</option>`;
     });
     
