@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
 import { createPortal } from 'react-dom';
-import { TransformWrapper, TransformComponent, useControls, useTransformContext, useTransformEffect } from 'react-zoom-pan-pinch';
+import { TransformWrapper, TransformComponent, useControls } from 'react-zoom-pan-pinch';
 import type { MindmapBlock, MindmapNode } from '../../types/schema';
 import styles from './Mindmap.module.css';
 
@@ -238,7 +238,6 @@ function Node({ node: rawNode, isExpanded, onToggleExpand, onHover, onSelect, is
 
 function MindmapZoomControls({ rootWrapperRef, containerRef, expandedIdx }: { rootWrapperRef: React.RefObject<HTMLDivElement | null>, containerRef: React.RefObject<HTMLDivElement | null>, expandedIdx: number | null }) {
   const { zoomIn, zoomOut, setTransform } = useControls();
-  const ctx = useTransformContext();
   const hasAutoFit = useRef(false);
 
   const doAutoFit = useCallback(() => {
@@ -265,14 +264,6 @@ function MindmapZoomControls({ rootWrapperRef, containerRef, expandedIdx }: { ro
     setTransform(x, y, scale, 300);
   }, [rootWrapperRef, setTransform]);
 
-  const updateHeight = useCallback((currentScale: number) => {
-    const wrapper = rootWrapperRef.current;
-    const container = containerRef.current;
-    if (!wrapper || !container) return;
-
-    const contentHeight = wrapper.scrollHeight;
-    container.style.height = `${contentHeight * currentScale + 40}px`;
-  }, [rootWrapperRef, containerRef]);
 
   useEffect(() => {
     const container = containerRef.current;
@@ -298,18 +289,10 @@ function MindmapZoomControls({ rootWrapperRef, containerRef, expandedIdx }: { ro
     return () => observer.disconnect();
   }, [doAutoFit]);
 
-  // Cập nhật khi đóng/mở node
+  // Đã bỏ tính năng cập nhật height qua JS
   useEffect(() => {
-    const timer = setTimeout(() => {
-      updateHeight(ctx.state.scale);
-    }, 50);
-    return () => clearTimeout(timer);
-  }, [expandedIdx, updateHeight, ctx.state.scale]);
-
-  // Cập nhật khi zoom/pan
-  useTransformEffect((ref) => {
-    updateHeight(ref.state.scale);
-  });
+    // Không làm gì thêm, để CSS lo
+  }, [expandedIdx]);
 
   return (
     <div className={styles.zoomControls}>
@@ -340,18 +323,33 @@ export function Mindmap({ data, completedNodes = [], onNodeSelect, selectedNodeI
     };
   }, []);
 
-  // Hack: Trình duyệt trên Mac hay miss sự kiện keydown của Cmd, ta giả lập keydown khi cuộn chuột có Cmd
+  const transformRef = useRef<any>(null);
+
   useEffect(() => {
+    const container = containerRef.current;
+    if (!container) return;
+
     const handleWheel = (e: WheelEvent) => {
-      if (e.metaKey) {
-        window.dispatchEvent(new KeyboardEvent('keydown', { key: 'Meta', metaKey: true, bubbles: true }));
-      } else {
-        window.dispatchEvent(new KeyboardEvent('keyup', { key: 'Meta', metaKey: false, bubbles: true }));
+      // Nếu có giữ phím modifier (Cmd, Ctrl, Alt, Shift, Esc), ta muốn Zoom.
+      // Bỏ qua (không chặn) để thư viện react-zoom-pan-pinch tự xử lý Zoom.
+      if (e.metaKey || e.ctrlKey || e.altKey || e.shiftKey || isEscPressed) {
+        return;
       }
+      
+      // Nếu KHÔNG giữ phím nào, ta muốn Pan (cuộn trang).
+      // Chặn sự kiện lại không cho thư viện xử lý (vì thư viện đang được set mặc định là Zoom).
+      e.preventDefault();
+      e.stopPropagation();
+
+      const ref = transformRef.current;
+      if (!ref) return;
+      const { positionX, positionY, scale } = ref.state;
+      ref.setTransform(positionX - e.deltaX, positionY - e.deltaY, scale, 0);
     };
-    window.addEventListener('wheel', handleWheel, { capture: true });
-    return () => window.removeEventListener('wheel', handleWheel, { capture: true });
-  }, []);
+
+    container.addEventListener('wheel', handleWheel, { capture: true, passive: false });
+    return () => container.removeEventListener('wheel', handleWheel, { capture: true });
+  }, [isEscPressed]);
 
   const rootText = data.root || (data as any).title || (data as any).name || '';
   const rawChildren = data.children || (data as any).branches || (data as any).nodes || [];
@@ -378,21 +376,15 @@ export function Mindmap({ data, completedNodes = [], onNodeSelect, selectedNodeI
   return (
     <div className={styles.container} ref={containerRef}>
       <TransformWrapper
+        ref={transformRef}
         initialScale={1}
         minScale={0.3}
         maxScale={2}
         wheel={{ 
           step: 0.1, 
-          activationKeys: ["Escape", "Control", "Alt", "Shift", "Meta", "Command", "OS", "MetaLeft", "MetaRight", "OSLeft", "OSRight"] 
+          activationKeys: [] // Mặc định luôn là Zoom. Pan sẽ được xử lý bằng event capture phía trên.
         }}
         centerZoomedOut={false}
-        onWheel={(ref, e) => {
-          // Chỉ cuộn trang (pan) nếu không giữ phím modifier nào
-          if (!e.ctrlKey && !e.metaKey && !e.altKey && !e.shiftKey && !isEscPressed) {
-            const { positionX, positionY, scale } = ref.state;
-            ref.setTransform(positionX - e.deltaX, positionY - e.deltaY, scale, 0);
-          }
-        }}
       >
         {() => (
           <>
