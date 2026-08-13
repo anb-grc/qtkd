@@ -772,7 +772,7 @@ function renderHistory() {
         return;
     }
     
-    let contentHtml = '<h2 style="margin-top:0; color:var(--text); font-size:1.4em;">Lịch sử thi thử</h2>';
+    let contentHtml = '<h2 style="margin-top:0; color:var(--text); font-size:1.4em; text-align:center;">LỊCH SỬ THI THỬ</h2>';
     contentHtml += '<p style="color:var(--muted); font-size:0.9em; margin-bottom:20px;">Theo dõi sự tiến bộ của bạn qua các lần thi thử. Hãy cố gắng duy trì mức điểm Tốt (màu xanh lá).</p>';
     
     if (history.length === 0) {
