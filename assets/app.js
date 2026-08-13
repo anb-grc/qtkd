@@ -53,6 +53,9 @@ function buildFilterUI(data) {
             </select>
             <div style="flex: 1;"></div>
             <div style="display:flex; gap:0px; align-items:center;">
+                <button id="sortBtn" onclick="sortQuestions()" style="padding:8px; border:none; background:transparent; color: var(--text); cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+                </button>
                 <button id="modeBtn" onclick="toggleKeywordMode()" style="padding:8px; border:none; background:transparent; color: var(--text); cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"></path></svg>
                 </button>
@@ -122,26 +125,18 @@ function changeLimit() {
 
 // Sắp xếp: toggle High↑ (high trước) ↔ Low↑ (low trước)
 window.currentSortDir = 'high-first';
+window.isHighSorted = false;
 function sortQuestions() {
+    window.isHighSorted = !window.isHighSorted;
     const btn = document.getElementById('sortBtn');
-    if (window.currentSortDir === 'high-first') {
-        window.currentSortDir = 'low-first';
-        btn.textContent = 'Low ↑';
+    if (window.isHighSorted) {
+        btn.style.color = 'var(--accent)';
+        document.body.classList.add('sort-high-active');
     } else {
-        window.currentSortDir = 'high-first';
-        btn.textContent = 'High ↑';
+        btn.style.color = 'var(--text)';
+        document.body.classList.remove('sort-high-active');
     }
-
-    const weightOrder = { high: 0, normal: 1 };
-    window.filteredData.sort((a, b) => {
-        const wA = weightOrder[a.weight] ?? 1;
-        const wB = weightOrder[b.weight] ?? 1;
-        return window.currentSortDir === 'high-first' ? wA - wB : wB - wA;
-    });
-
-    window.currentRendered = 0;
-    document.getElementById('questions-list').innerHTML = '';
-    renderBatch();
+    filterQuestions();
 }
 
 function filterQuestions() {
@@ -173,6 +168,15 @@ function filterQuestions() {
         
         return matchSearch && matchTag;
     });
+    
+    if (window.isHighSorted) {
+        const weightOrder = { high: 0, normal: 1 };
+        window.filteredData.sort((a, b) => {
+            const wA = weightOrder[a.weight] ?? 1;
+            const wB = weightOrder[b.weight] ?? 1;
+            return wA - wB;
+        });
+    }
     
     window.currentRendered = 0;
     document.getElementById('questions-list').innerHTML = '';
