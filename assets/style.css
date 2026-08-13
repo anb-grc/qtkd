@@ -109,8 +109,8 @@
   .tu-luan .answer-title{color:var(--warn);background:var(--warn-lt);border-color:rgba(255, 193, 7, 0.3);}
   .tu-luan.first-match{box-shadow:0 0 0 2px rgba(255,193,7,.3),var(--shadow-md);}
   /* QUIZ MODE */
-  .mode-switch{display:flex;flex-wrap:wrap;gap:16px;margin-bottom:20px;justify-content:center;}
-  .mode-switch button{padding:4px 8px;border:none;background:transparent !important;color:var(--muted);font-weight:700;text-transform:uppercase;letter-spacing:0.5px;cursor:pointer;transition:all 0.2s cubic-bezier(0.4, 0, 0.2, 1);font-size:0.8em;white-space:nowrap;display:inline-flex;align-items:center;text-underline-offset:4px;text-decoration-thickness:2px;}
+  .mode-switch{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:20px;justify-content:center;}
+  .mode-switch button{padding:4px 4px;border:none;background:transparent !important;color:var(--muted);font-weight:700;text-transform:uppercase;letter-spacing:0.5px;cursor:pointer;transition:all 0.2s cubic-bezier(0.4, 0, 0.2, 1);font-size:0.8em;white-space:nowrap;display:inline-flex;align-items:center;text-underline-offset:4px;text-decoration-thickness:2px;}
   .mode-switch button:hover{color:var(--secondary) !important;text-shadow:0 0 10px rgba(162, 155, 254, 0.6);text-decoration:underline;text-decoration-color:var(--secondary);transform:translateY(-1px);}
   .mode-switch button:active, .mode-switch button.active{color:var(--warn) !important;text-shadow:0 0 10px rgba(255, 193, 7, 0.6);text-decoration:underline;text-decoration-color:var(--warn);transform:scale(0.96);}
 
