@@ -7,85 +7,77 @@
       "root": "KINH TẾ VĨ MÔ",
       "children": [
         {
-          "id": "node_1",
-          "label": "Đo Lường Vĩ Mô",
-          "description": "GDP, GNP, Lạm phát, Thất nghiệp",
+          "id": "yp1",
+          "label": "Đo Lường & Tổng Cầu",
+          "description": "Các chỉ tiêu đo lường kinh tế và tổng cầu",
           "children": [
             {
-              "id": "node_1_1",
-              "label": "GDP & GNP",
-              "description": "Quốc nội (Lãnh thổ) vs Quốc gia (Quốc tịch)"
+              "id": "yp1_1",
+              "label": "Phân biệt GDP và GNP",
+              "description": "Tiêu chí Lãnh thổ vs Quốc tịch"
             },
             {
-              "id": "node_1_2",
-              "label": "3 PP Tính GDP",
-              "description": "Chi tiêu, Thu nhập, Giá trị gia tăng"
-            },
-            {
-              "id": "node_1_3",
-              "label": "Lạm Phát & Thất Nghiệp",
-              "description": "CPI, Chu kỳ kinh doanh"
+              "id": "yp1_2",
+              "label": "Phương pháp tính GDP",
+              "description": "Công thức tính theo chi tiêu"
             }
           ]
         },
         {
-          "id": "node_2",
+          "id": "yp2",
           "label": "Tiền Tệ & Chính Sách",
-          "description": "Cung tiền, NHTW, Lãi suất",
+          "description": "Tiền tệ và vai trò của NHTW",
           "children": [
             {
-              "id": "node_2_1",
-              "label": "Khối Lượng Tiền",
-              "description": "M0 (Tiền mặt), M1 (Giao dịch), M2 (Rộng)"
+              "id": "yp2_1",
+              "label": "Các khối lượng tiền tệ",
+              "description": "Cơ cấu phân lớp của tiền (M0, M1, M2)"
             },
             {
-              "id": "node_2_2",
+              "id": "yp2_2",
               "label": "Công cụ của NHTW",
-              "description": "Dự trữ bắt buộc, Lãi suất chiết khấu, Thị trường mở"
+              "description": "Các biện pháp can thiệp cung tiền"
+            }
+          ]
+        },
+        {
+          "id": "yp3",
+          "label": "Mô hình Cân Bằng & Tổng Cung",
+          "description": "Phân tích vĩ mô thông qua đồ thị",
+          "children": [
+            {
+              "id": "yp3_1",
+              "label": "Phân tích Tổng Cung (AS)",
+              "description": "Sự khác biệt giữa ngắn hạn và dài hạn"
             },
             {
-              "id": "node_2_3",
-              "label": "Mô Hình IS-LM",
+              "id": "yp3_2",
+              "label": "Mô hình IS-LM",
               "description": "Sự cân bằng thị trường Hàng hóa (IS) & Tiền tệ (LM)"
             }
           ]
         },
         {
-          "id": "node_3",
-          "label": "Tổng Cung & Cầu",
-          "description": "AD, AS ngắn hạn & dài hạn",
+          "id": "yp4",
+          "label": "Bẫy Lật Kèo",
+          "description": "Các cạm bẫy lý thuyết",
           "children": [
             {
-              "id": "node_3_1",
-              "label": "Tổng Cầu (AD)",
-              "description": "AD = C + I + G + NX (Nền kinh tế mở)"
-            },
-            {
-              "id": "node_3_2",
-              "label": "Tổng Cung Ngắn Hạn (SRAS)",
-              "description": "Đường dốc lên (Tiền lương/giá cứng nhắc)"
-            },
-            {
-              "id": "node_3_3",
-              "label": "Tổng Cung Dài Hạn (LRAS)",
-              "description": "Đường thẳng đứng (Phụ thuộc nguồn lực, công nghệ)"
+              "id": "yp4_1",
+              "label": "Bẫy lý thuyết Vĩ mô",
+              "description": "Phân biệt các khái niệm dễ nhầm lẫn"
             }
           ]
         },
         {
-          "id": "node_4",
+          "id": "yp5",
           "label": "Đấu Trường Thực Chiến",
-          "description": "Luyện đề trắc nghiệm",
+          "description": "Thực hành giải đề",
           "children": [
             {
-              "id": "node_4_1",
-              "label": "Bộ Câu Hỏi Trắc Nghiệm",
-              "description": "Lấy điểm tối đa"
-            },
-            {
-              "id": "node_4_2",
-              "label": "Nhận Diện Bẫy Lật Kèo",
-              "description": "Loại trừ phương án sai"
+              "id": "yp5_1",
+              "label": "Ngân hàng Đề thi",
+              "description": "Trích xuất câu hỏi trắc nghiệm"
             }
           ]
         }
@@ -94,7 +86,7 @@
   },
   "details": [
     {
-      "node_id": "node_1",
+      "node_id": "yp1_1",
       "components": [
         {
           "type": "vs-wrap",
@@ -109,7 +101,12 @@
               "content": "Tính theo **SỞ HỮU QUỐC TỊCH**. Tổng giá trị hàng hóa do công dân nước đó tạo ra, *dù ở trong hay ngoài nước*."
             }
           }
-        },
+        }
+      ]
+    },
+    {
+      "node_id": "yp1_2",
+      "components": [
         {
           "type": "formula-breakdown",
           "title": "Công Thức Huyết Mạch: Tính GDP Theo Chi Tiêu",
@@ -139,7 +136,32 @@
       ]
     },
     {
-      "node_id": "node_2",
+      "node_id": "yp2_1",
+      "components": [
+        {
+          "type": "onion",
+          "title": "Phân Lớp Khối Lượng Tiền Tệ",
+          "data": {
+            "layers": [
+              {
+                "title": "M0",
+                "content": "Tiền mặt (Tiền giấy, tiền xu)"
+              },
+              {
+                "title": "M1",
+                "content": "M0 + Tiền gửi thanh toán"
+              },
+              {
+                "title": "M2",
+                "content": "M1 + Tiền gửi tiết kiệm có kỳ hạn"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "yp2_2",
       "components": [
         {
           "type": "decision-tree",
@@ -176,7 +198,7 @@
       ]
     },
     {
-      "node_id": "node_3",
+      "node_id": "yp3_1",
       "components": [
         {
           "type": "quadrant",
@@ -187,23 +209,28 @@
             "quadrants": [
               {
                 "title": "Tổng Cung Dài Hạn (LRAS)",
-                "content": "Đường thẳng đứng tại sản lượng tiềm năng. Chỉ phụ thuộc công nghệ & nguồn lực. KHÔNG bị ảnh hưởng bởi giá."
+                "content": "Đường thẳng đứng tại sản lượng tự nhiên. Phụ thuộc công nghệ, KHÔNG phụ thuộc giá."
               },
               {
                 "title": "Dịch Chuyển LRAS",
-                "content": "Tiến bộ công nghệ làm LRAS dịch sang phải (Tăng trưởng)."
+                "content": "Tiến bộ công nghệ làm LRAS dịch phải (Tăng trưởng bền vững)."
               },
               {
                 "title": "Tổng Cung Ngắn Hạn (SRAS)",
-                "content": "Đường dốc lên. Tiền lương/giá cả cứng nhắc khiến sản lượng phản ứng thuận chiều với mức giá chung."
+                "content": "Đường dốc lên. Tiền lương cứng nhắc khiến sản lượng phản ứng với mức giá chung."
               },
               {
                 "title": "Dịch Chuyển SRAS",
-                "content": "Giá đầu vào (lương, xăng dầu) giảm làm SRAS dịch phải (tăng cung)."
+                "content": "Giá đầu vào (lương, xăng dầu) giảm làm SRAS dịch phải."
               }
             ]
           }
-        },
+        }
+      ]
+    },
+    {
+      "node_id": "yp4_1",
+      "components": [
         {
           "type": "delta-cheat-sheet",
           "title": "Cảnh Báo Lật Kèo: Bẫy Trắc Nghiệm KTVM",
@@ -217,7 +244,7 @@
                   "Tăng tổng cung DÀI HẠN",
                   "Giảm tổng cung dài hạn"
                 ],
-                "explanation": "Giá đầu vào (lương) chỉ ảnh hưởng trong ngắn hạn (SRAS dịch phải). Dài hạn phụ thuộc công nghệ, không phụ thuộc tiền lương."
+                "explanation": "Giá đầu vào (lương) chỉ ảnh hưởng ngắn hạn (SRAS dịch phải). Dài hạn phụ thuộc công nghệ."
               },
               {
                 "questionSnippet": "Phát hành trái phiếu chính phủ là chính sách gì?",
@@ -227,7 +254,7 @@
                   "Chính sách tiền tệ nới lỏng",
                   "Chính sách tiền tệ thắt chặt"
                 ],
-                "explanation": "NHTW mua/bán trái phiếu là chính sách Tiền tệ. Chính phủ phát hành trái phiếu (vay nợ) là chính sách Tài khóa."
+                "explanation": "NHTW mua/bán trái phiếu = Tiền tệ. Chính phủ phát hành trái phiếu (vay nợ) = Tài khóa."
               }
             ]
           }
@@ -235,7 +262,7 @@
       ]
     },
     {
-      "node_id": "node_4",
+      "node_id": "yp5_1",
       "components": [
         {
           "type": "quiz",
