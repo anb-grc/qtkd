@@ -63,7 +63,7 @@
   body{font-family:-apple-system,'Segoe UI',system-ui,sans-serif;font-size:15px;line-height:1.7;color:var(--text);background:var(--bg);padding:40px 24px 80px;max-width:860px;margin:auto;}
   
   /* HEADER */
-  .page-header{text-align:center;margin-bottom:28px;}
+  .page-header{text-align:center;margin-bottom:28px;position:relative;}
   .page-header h1{font-size:1.45em;font-weight:700;letter-spacing:-.3px;color:var(--text);margin-bottom:8px;}
   .page-header h1 em{font-style:normal;color:var(--secondary);}
   #totalCount{font-size:.84em;color:var(--muted);display:block;margin-bottom:10px;}
