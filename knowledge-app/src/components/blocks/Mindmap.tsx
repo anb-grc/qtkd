@@ -323,6 +323,22 @@ function MindmapZoomControls({ rootWrapperRef, containerRef, expandedIdx }: { ro
 export function Mindmap({ data, completedNodes = [], onNodeSelect, selectedNodeId }: Props) {
   const [expandedIdx, setExpandedIdx] = useState<number | null>(null);
   const [hoveredIdx, setHoveredIdx] = useState<number | null>(null);
+  const [isEscPressed, setIsEscPressed] = useState(false);
+
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setIsEscPressed(true);
+    };
+    const handleKeyUp = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setIsEscPressed(false);
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    window.addEventListener('keyup', handleKeyUp);
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+      window.removeEventListener('keyup', handleKeyUp);
+    };
+  }, []);
 
   const rootText = data.root || (data as any).title || (data as any).name || '';
   const rawChildren = data.children || (data as any).branches || (data as any).nodes || [];
@@ -352,8 +368,18 @@ export function Mindmap({ data, completedNodes = [], onNodeSelect, selectedNodeI
         initialScale={1}
         minScale={0.3}
         maxScale={2}
-        wheel={{ step: 0.1 }}
+        wheel={{ 
+          step: 0.1, 
+          activationKeys: ["Escape", "Control", "Alt", "Shift", "Meta"] 
+        }}
         centerZoomedOut={false}
+        onWheel={(ref, e) => {
+          // Chỉ cuộn trang (pan) nếu không giữ phím modifier nào
+          if (!e.ctrlKey && !e.metaKey && !e.altKey && !e.shiftKey && !isEscPressed) {
+            const { positionX, positionY, scale } = ref.state;
+            ref.setTransform(positionX - e.deltaX, positionY - e.deltaY, scale, 0);
+          }
+        }}
       >
         {() => (
           <>
