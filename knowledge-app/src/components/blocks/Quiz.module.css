@@ -93,6 +93,14 @@
   color: var(--color-text-primary);
 }
 
+/* Khử highlight từ khoá trong đáp án để không làm lộ đáp án */
+.optText :global(.answer-keyword), .optText :global(.keyword) {
+  color: inherit !important;
+  font-weight: inherit !important;
+  text-decoration: none !important;
+  background: none !important;
+}
+
 .icon {
   font-weight: 900;
   font-size: var(--text-lg);
