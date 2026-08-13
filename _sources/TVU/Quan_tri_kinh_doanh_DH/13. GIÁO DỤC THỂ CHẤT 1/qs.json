@@ -2,16 +2,506 @@
   {
     "weight": "normal",
     "tags": [
+      "Lịch sử & Tổ chức"
+    ],
+    "question": "<span class=\"keyword\">Luật điền kinh</span> cập nhật bởi:",
+    "options": [
+      "A. IOC",
+      "B. UNESCO",
+      "C. FIFA",
+      "D. <span class=\"answer-keyword\">World Athletics</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. World Athletics\n<div class=\"note\">World Athletics (trước đây là IAAF) là cơ quan quản lý và cập nhật luật điền kinh trên toàn thế giới.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Lịch sử & Tổ chức"
+    ],
+    "question": "Điền kinh là môn <span class=\"keyword\">trung tâm</span> Olympic vì:",
+    "options": [
+      "A. Nhiều khán giả",
+      "B. Thể hiện sức mạnh",
+      "C. Dễ tổ chức",
+      "D. <span class=\"answer-keyword\">Là môn nền tảng</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. Là môn nền tảng\n<div class=\"note\">Điền kinh là môn nền tảng (chạy, nhảy, ném) của thể thao, xuất hiện từ thời Hy Lạp cổ đại.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
       "Luật thi đấu"
     ],
-    "question": "<span class=\"keyword\">Đường chạy ngoài trời</span> tiêu chuẩn dài:",
+    "question": "Quyết định <span class=\"keyword\">cuối cùng</span> trong điền kinh thuộc về:",
+    "options": [
+      "A. Ban huấn luyện",
+      "B. HLV",
+      "C. <span class=\"answer-keyword\">Trọng tài trưởng</span>",
+      "D. Vận động viên"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. Trọng tài trưởng\n<div class=\"note\">Trọng tài trưởng là người có tiếng nói tối cao trên sân thi đấu.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Lịch sử & Tổ chức"
+    ],
+    "question": "Ở <span class=\"keyword\">Việt Nam</span>, điền kinh du nhập mạnh mẽ từ:",
+    "options": [
+      "A. 1954–1975",
+      "B. <span class=\"answer-keyword\">Sau 1975</span>",
+      "C. Trước 1945",
+      "D. 1945–1954"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Sau 1975\n<div class=\"note\">Sau 1975, điền kinh phong trào và chuyên nghiệp được phát triển mạnh và có hệ thống trên toàn quốc.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Sinh lý & Huấn luyện"
+    ],
+    "question": "Ứng dụng <span class=\"keyword\">sinh lý học</span> giúp cải thiện yếu tố nào?",
+    "options": [
+      "A. <span class=\"answer-keyword\">Tốc độ phục hồi</span>",
+      "B. Chiến thuật",
+      "C. Trọng tài",
+      "D. Luật thi đấu"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Tốc độ phục hồi\n<div class=\"note\">Khoa học sinh lý giúp vận động viên đo lường mức độ mệt mỏi và tối ưu thời gian phục hồi cơ bắp.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Lịch sử & Tổ chức"
+    ],
+    "question": "Nội dung nào <span class=\"keyword\">KHÔNG cho nữ</span> tham gia Olympic ban đầu?",
+    "options": [
+      "A. Nhảy cao",
+      "B. <span class=\"answer-keyword\">800m</span>",
+      "C. 100m",
+      "D. Ném đĩa"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. 800m\n<div class=\"note\">Olympic 1928, phụ nữ thi 800m bị cho là kiệt sức nên nội dung này bị cấm tới tận năm 1960.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luật thi đấu"
+    ],
+    "question": "Gậy phải <span class=\"keyword\">trao</span> trong:",
+    "options": [
+      "A. Ngoài khu vực",
+      "B. Trước vạch xuất phát",
+      "C. <span class=\"answer-keyword\">Khu vực trao gậy</span>",
+      "D. Làn bất kỳ"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. Khu vực trao gậy\n<div class=\"note\">Động tác trao nhận gậy phải diễn ra hoàn toàn bên trong vùng giới hạn 30m.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Lịch sử & Tổ chức"
+    ],
+    "question": "<span class=\"keyword\">World Athletics</span> tiền thân là:",
+    "options": [
+      "A. FIFA",
+      "B. FINA",
+      "C. <span class=\"answer-keyword\">IAAF</span>",
+      "D. IOC"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. IAAF\n<div class=\"note\">Liên đoàn Điền kinh Quốc tế (IAAF) đổi tên thành World Athletics vào năm 2019.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Sinh lý & Huấn luyện"
+    ],
+    "question": "Khối <span class=\"keyword\">xã hội chủ nghĩa</span> nổi bật điền kinh nhờ:",
+    "options": [
+      "A. Công nghệ giày",
+      "B. Thể hình di truyền",
+      "C. <span class=\"answer-keyword\">Hệ thống đào tạo tập trung</span>",
+      "D. Thời tiết"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. Hệ thống đào tạo tập trung\n<div class=\"note\">Liên Xô và Đông Âu áp dụng quy mô tuyển chọn, đào tạo tập trung từ bé.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luật thi đấu"
+    ],
+    "question": "Luật <span class=\"keyword\">quan trọng</span> trong:",
+    "options": [
+      "A. Trọng tài",
+      "B. <span class=\"answer-keyword\">Huấn luyện, trọng tài và tổ chức</span>",
+      "C. Huấn luyện",
+      "D. Tổ chức thi đấu"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Huấn luyện, trọng tài và tổ chức\n<div class=\"note\">Luật đóng vai trò bao trùm lên mọi khâu của môn thể thao.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Lịch sử & Tổ chức"
+    ],
+    "question": "Châu lục thống trị cự ly <span class=\"keyword\">trung bình, dài</span> từ TK XX?",
+    "options": [
+      "A. <span class=\"answer-keyword\">Châu Phi</span>",
+      "B. Châu Âu",
+      "C. Châu Á",
+      "D. Châu Mỹ"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Châu Phi\n<div class=\"note\">Vận động viên Kenya, Ethiopia (Đông Phi) thống trị tuyệt đối nhờ lợi thế địa lý (vùng cao) và thể tạng.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luật thi đấu"
+    ],
+    "question": "Ném lao <span class=\"keyword\">không hợp lệ</span> khi:",
+    "options": [
+      "A. Lao chạm đất",
+      "B. <span class=\"answer-keyword\">Lao rơi ngoài góc ném</span>",
+      "C. Ném đúng hướng",
+      "D. Ném xa"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Lao rơi ngoài góc ném\n<div class=\"note\">Lao phải cắm mũi xuống trong phạm vi giới hạn ranh giới góc ném.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Lịch sử & Tổ chức"
+    ],
+    "question": "Nước đăng cai 1908 <span class=\"keyword\">chuẩn hóa marathon</span> là:",
+    "options": [
+      "A. <span class=\"answer-keyword\">Anh</span>",
+      "B. Hy Lạp",
+      "C. Mỹ",
+      "D. Pháp"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Anh\n<div class=\"note\">Olympic London 1908 kéo dài quãng đường marathon thành 42,195 km để chạy đến tận Lâu đài Windsor.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luật thi đấu"
+    ],
+    "question": "Trong chạy 800m, vận động viên <span class=\"keyword\">nhập làn</span>:",
+    "options": [
+      "A. Theo bốc thăm",
+      "B. Chạy tự do",
+      "C. Chạy theo làn suốt",
+      "D. <span class=\"answer-keyword\">Nhập làn sau đoạn quy định</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. Nhập làn sau đoạn quy định\n<div class=\"note\">Sau khi xuất phát và chạy hết đoạn cong đầu tiên, vận động viên được phép chạy cắt vào làn trong cùng.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luật thi đấu"
+    ],
+    "question": "<span class=\"keyword\">Góc ném lao</span> hợp lệ là:",
+    "options": [
+      "A. 30°",
+      "B. <span class=\"answer-keyword\">34,92°</span>",
+      "C. 29°",
+      "D. 28,5°"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. 34,92°\n<div class=\"note\">Theo giáo trình, đây là góc giới hạn chính xác cho khu vực ném lao hợp lệ.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luật thi đấu"
+    ],
+    "question": "Xuất phát <span class=\"keyword\">sớm</span> xác định khi vận động viên phản ứng dưới:",
+    "options": [
+      "A. 0,05 giây",
+      "B. 0,20 giây",
+      "C. <span class=\"answer-keyword\">0,10 giây</span>",
+      "D. 0,15 giây"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. 0,10 giây\n<div class=\"note\">Máy tính mặc định con người không thể phản ứng nhanh hơn 0.1 giây; nhỏ hơn mức này bị coi là xuất phát lỗi (sớm).</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luật thi đấu"
+    ],
+    "question": "<span class=\"keyword\">Giày thi đấu</span> bị cấm khi:",
+    "options": [
+      "A. Có đinh",
+      "B. Nhẹ",
+      "C. <span class=\"answer-keyword\">Có CN hỗ trợ quá mức</span>",
+      "D. Đắt tiền"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. Có CN hỗ trợ quá mức\n<div class=\"note\">Cấm các đôi giày gắn carbon siêu nẩy tạo lợi thế không công bằng so với lực tự nhiên của người.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Lịch sử & Tổ chức"
+    ],
+    "question": "Sau <span class=\"keyword\">Thế chiến II</span>, điền kinh phát triển mạnh nhờ:",
+    "options": [
+      "A. <span class=\"answer-keyword\">Khoa học huấn luyện</span>",
+      "B. Truyền thông xã hội",
+      "C. May mắn",
+      "D. Tài trợ cá nhân"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Khoa học huấn luyện\n<div class=\"note\">Kỷ nguyên khoa học ứng dụng và công nghệ y sinh bắt đầu được khai phá vào thể thao chuyên nghiệp.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Sinh lý & Huấn luyện"
+    ],
+    "question": "Điền kinh là <span class=\"keyword\">cơ sở</span> để phát triển môn nào sau?",
+    "options": [
+      "A. Võ thuật",
+      "B. Cờ vua",
+      "C. Bóng đá",
+      "D. <span class=\"answer-keyword\">Hầu hết các môn thể thao</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. Hầu hết các môn thể thao\n<div class=\"note\">Tố chất nền tảng của điền kinh (chạy, nhảy) là bắt buộc trong bóng đá, võ thuật, bóng rổ, v.v...</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luật thi đấu"
+    ],
+    "question": "Đi bộ thể thao <span class=\"keyword\">phạm luật</span> khi:",
+    "options": [
+      "A. <span class=\"answer-keyword\">Hai chân rời đất</span>",
+      "B. Đi nhanh",
+      "C. Thở mạnh",
+      "D. Vung tay"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Hai chân rời đất\n<div class=\"note\">Bắt buộc phải có ít nhất 1 chân tiếp xúc mặt đất, nếu cả 2 chân rời đất thì đó là CHẠY, không còn là đi bộ.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Kỷ lục & VĐV"
+    ],
+    "question": "<span class=\"keyword\">Usain Bolt</span> giành Huy Chương Vàng Olympic 100m ở bao nhiêu kỳ liên tiếp?",
+    "options": [
+      "A. 2",
+      "B. 4",
+      "C. 1",
+      "D. <span class=\"answer-keyword\">3</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. 3\n<div class=\"note\">Kỳ tích vô tiền khoáng hậu tại 3 kỳ Olympic liên tiếp (2008, 2012, 2016).</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Kỷ lục & VĐV"
+    ],
+    "question": "<span class=\"keyword\">Bolt</span> giành Huy Chương Vàng 100m Olympic các năm:",
+    "options": [
+      "A. <span class=\"answer-keyword\">2008–2012–2016</span>",
+      "B. 2000–2004–2008",
+      "C. 2012–2016–2021",
+      "D. 2004–2008–2012"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. 2008–2012–2016\n<div class=\"note\">Huyền thoại tia chớp Jamaica vô địch tại Bắc Kinh, London và Rio de Janeiro.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Thể dục tay không"
+    ],
+    "question": "<span class=\"keyword\">Nhịp hô</span> trong bài thể dục tay không thường là gì?",
+    "options": [
+      "A. 1-2-2003",
+      "B. <span class=\"answer-keyword\">1-2-3-4</span>",
+      "C. 1-2",
+      "D. Tự do"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. 1-2-3-4\n<div class=\"note\">Chuẩn nhịp hô đều đặn 4 nhịp (và 5-6-7-8) trong các bài tập thể dục truyền thống.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Kỷ lục & VĐV"
+    ],
+    "question": "<span class=\"keyword\">Elaine Thompson-Herah</span> “cú đúp” Olympic ở:",
+    "options": [
+      "A. 200m–400m",
+      "B. <span class=\"answer-keyword\">100m–200m</span>",
+      "C. 200m–tiếp sức",
+      "D. 100m–400m"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. 100m–200m\n<div class=\"note\">Nữ hoàng tốc độ mới người Jamaica thâu tóm cả 100m và 200m.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Kỷ lục & VĐV"
+    ],
+    "question": "<span class=\"keyword\">Liu Xiang</span> Huy Chương Vàng Olympic năm nào?",
+    "options": [
+      "A. Rio 2016",
+      "B. <span class=\"answer-keyword\">Athens 2004</span>",
+      "C. Beijing 2008",
+      "D. London 2012"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Athens 2004\n<div class=\"note\">Vận động viên Trung Quốc tạo địa chấn khi vô địch và phá kỷ lục 110m rào nam.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Kỷ lục & VĐV"
+    ],
+    "question": "<span class=\"keyword\">Nữ</span> vận động viên nhiều Huy Chương Vàng điền kinh Olympic nhất:",
+    "options": [
+      "A. <span class=\"answer-keyword\">Allyson Felix</span>",
+      "B. Jackie Joyner-Kersee",
+      "C. Florence Griffith-Joyner",
+      "D. Shelly-Ann Fraser-Pryce"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Allyson Felix\n<div class=\"note\">Huyền thoại Mỹ nắm giữ tới 7 HCV điền kinh tại Olympic.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Kỷ lục & VĐV"
+    ],
+    "question": "Kỷ lục 8,90m <span class=\"keyword\">Bob Beamon</span> tồn tại bao lâu?",
+    "options": [
+      "A. 10 năm",
+      "B. 15 năm",
+      "C. <span class=\"answer-keyword\">23 năm</span>",
+      "D. 30 năm"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. 23 năm\n<div class=\"note\">Lập năm 1968, tồn tại tới 1991 mới bị Mike Powell phá.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Thể dục tay không"
+    ],
+    "question": "Động tác <span class=\"keyword\">đầu tiên</span> trong bài thể dục tay không là gì?",
+    "options": [
+      "A. Chân",
+      "B. Tay",
+      "C. Bụng",
+      "D. <span class=\"answer-keyword\">Vươn thở</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. Vươn thở\n<div class=\"note\">Khởi đầu bằng hô hấp để mở phổi, cung cấp oxy trước khi làm nóng cơ.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Kỷ lục & VĐV"
+    ],
+    "question": "<span class=\"keyword\">Emil Zátopek</span> giành Huy Chương Vàng Olympic ở các cự ly:",
+    "options": [
+      "A. 800m - 1500m - 5000m",
+      "B. <span class=\"answer-keyword\">5000m - 10000m – marathon</span>",
+      "C. 10000m - marathon - 800m",
+      "D. 1500m - marathon - 3000m"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. 5000m - 10000m – marathon\n<div class=\"note\">\"Đầu máy xe lửa Tiệp Khắc\" làm nên kỳ tích ăn 3 vô tiền khoáng hậu năm 1952.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Kỷ lục & VĐV"
+    ],
+    "question": "Olympic 1968 kỷ lục <span class=\"keyword\">nhảy xa</span> nổi tiếng của:",
+    "options": [
+      "A. Ivana Vuleta",
+      "B. Mike Powell",
+      "C. Carl Lewis",
+      "D. <span class=\"answer-keyword\">Bob Beamon</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. Bob Beamon\n<div class=\"note\">Cú nhảy thế kỷ 8,90m tại Mexico City.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Kỷ lục & VĐV"
+    ],
+    "question": "Vận động viên <span class=\"keyword\">châu Á</span> Huy Chương Vàng Olympic 110m rào là:",
+    "options": [
+      "A. Koji Murofushi",
+      "B. <span class=\"answer-keyword\">Liu Xiang</span>",
+      "C. Yuki Koike",
+      "D. Su Bingtian"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Liu Xiang\n<div class=\"note\">Người phá vỡ sự thống trị của Mỹ và Châu Âu ở cự ly rào ngắn (Athens 2004).</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Thể dục tay không"
+    ],
+    "question": "Động tác <span class=\"keyword\">nhảy</span> có tác dụng gì?",
+    "options": [
+      "A. Tăng chiều cao",
+      "B. Không có tác dụng",
+      "C. <span class=\"answer-keyword\">Phát triển toàn thân</span>",
+      "D. Tăng sức bền"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. Phát triển toàn thân\n<div class=\"note\">Động tác nhảy kích thích sự dẻo dai và phối hợp toàn thân.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Kỷ lục & VĐV"
+    ],
+    "question": "<span class=\"keyword\">Mike Powell</span> phá kỷ lục nhảy xa Bob Beamon tại:",
+    "options": [
+      "A. Olympic",
+      "B. ASIAD",
+      "C. <span class=\"answer-keyword\">Giải vô địch thế giới</span>",
+      "D. SEA Games"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. Giải vô địch thế giới\n<div class=\"note\">Năm 1991 tại Tokyo, Powell nhảy 8,95m, phá vỡ kỷ lục tồn tại 23 năm của Beamon.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Thể dục tay không"
+    ],
+    "question": "Khi tập thể dục tay không cần <span class=\"keyword\">chú ý</span> điều gì?",
+    "options": [
+      "A. Tập nhanh",
+      "B. Không cần đều",
+      "C. Chỉ cần mạnh",
+      "D. <span class=\"answer-keyword\">Đúng nhịp và kỹ thuật</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. Đúng nhịp và kỹ thuật\n<div class=\"note\">Điều chỉnh nhịp điệu và biên độ động tác để mang lại hiệu quả tối ưu và tránh chấn thương.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Thể dục tay không"
+    ],
+    "question": "Động tác <span class=\"keyword\">chân</span> có tác dụng gì?",
+    "options": [
+      "A. Phát triển tay",
+      "B. Giảm cân nhanh",
+      "C. <span class=\"answer-keyword\">Phát triển chân</span>",
+      "D. Tăng trí nhớ"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. Phát triển chân\n<div class=\"note\">Động tác gập duỗi gối và bước tập trung trực tiếp vào cơ bắp đùi, bắp chân.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luật thi đấu"
+    ],
+    "question": "<span class=\"keyword\">Đường chạy</span> ngoài trời tiêu chuẩn dài:",
     "options": [
       "A. <span class=\"answer-keyword\">400m</span>",
       "B. 500m",
       "C. 300m",
       "D. 350m"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. 400m\n<div class=\"note\">Theo chuẩn World Athletics, một vòng sân điền kinh ngoài trời tiêu chuẩn được đo ở làn trong cùng có chiều dài chính xác là 400 mét.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. 400m\n<div class=\"note\">Đo theo mép viền làn trong cùng chuẩn quốc tế.</div>"
   },
   {
     "weight": "normal",
@@ -25,12 +515,12 @@
       "C. Trường học",
       "D. Giải phong trào"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Giải quốc tế\n<div class=\"note\">Khi World Athletics ban hành luật mới, nó bắt buộc phải được áp dụng ngay tại các giải vô địch quốc tế cấp cao nhất, sau đó mới cập nhật dần xuống các giải quốc gia.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Giải quốc tế\n<div class=\"note\">Luật mới được áp đặt từ trên (quốc tế) trước khi cập nhật xuống hệ thống giải trong nước.</div>"
   },
   {
     "weight": "normal",
     "tags": [
-      "Lịch sử điền kinh"
+      "Lịch sử & Tổ chức"
     ],
     "question": "Sự phát triển của <span class=\"keyword\">đồng hồ bấm giờ</span> ảnh hưởng mạnh nhất tới:",
     "options": [
@@ -39,26 +529,26 @@
       "C. Nhảy",
       "D. <span class=\"answer-keyword\">Chạy</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. Chạy\n<div class=\"note\">Nhảy và Ném được đo bằng khoảng cách (mét/cm). Chỉ có môn chạy mới phụ thuộc sinh tử vào đồng hồ bấm giờ điện tử (đo đến 1/1000 giây) để phân định thắng thua.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. Chạy\n<div class=\"note\">Khắc phục sai số của bấm giờ tay, quyết định thành bại tính bằng phần nghìn giây.</div>"
   },
   {
     "weight": "normal",
     "tags": [
-      "Lịch sử điền kinh"
+      "Lịch sử & Tổ chức"
     ],
-    "question": "<span class=\"keyword\">Nữ giới</span> bị hạn chế điền kinh do quan niệm:",
+    "question": "Nữ giới bị <span class=\"keyword\">hạn chế</span> điền kinh do quan niệm:",
     "options": [
       "A. <span class=\"answer-keyword\">Văn hóa-sinh lý</span>",
       "B. Kinh tế",
       "C. Chính trị",
       "D. Kỹ thuật"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Văn hóa-sinh lý\n<div class=\"note\">Thời xưa, định kiến văn hóa (phụ nữ phải yểu điệu) và sự hiểu lầm về sinh lý (cho rằng vận động mạnh làm mất khả năng sinh đẻ) đã cản trở nữ giới.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Văn hóa-sinh lý\n<div class=\"note\">Định kiến phụ nữ yếu đuối, không hợp vận động mạnh.</div>"
   },
   {
     "weight": "normal",
     "tags": [
-      "Lịch sử điền kinh"
+      "Lịch sử & Tổ chức"
     ],
     "question": "Thời kỳ nào điền kinh <span class=\"keyword\">bị gián đoạn</span> ở châu Âu?",
     "options": [
@@ -67,12 +557,12 @@
       "C. Khai sáng",
       "D. Cổ đại"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Trung cổ\n<div class=\"note\">Trong \"Đêm trường Trung cổ\" dưới sự thống trị của thần quyền, các môn thể thao phô diễn vẻ đẹp hình thể con người bị coi là tà giáo và bị cấm đoán.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Trung cổ\n<div class=\"note\">Thần quyền cấm đoán các môn thể thao tôn vinh vẻ đẹp hình thể trần trụi.</div>"
   },
   {
     "weight": "normal",
     "tags": [
-      "Lịch sử điền kinh"
+      "Lịch sử & Tổ chức"
     ],
     "question": "Nội dung nào <span class=\"keyword\">KHÔNG có</span> trong điền kinh cổ đại?",
     "options": [
@@ -81,12 +571,12 @@
       "C. Nhảy",
       "D. Chạy"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Chạy tiếp sức\n<div class=\"note\">Điền kinh cổ đại ở Hy Lạp đề cao chủ nghĩa anh hùng cá nhân (chạy, ném lao, ném đĩa). Chạy tiếp sức (đề cao tính đồng đội) là sản phẩm của điền kinh hiện đại.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Chạy tiếp sức\n<div class=\"note\">Chạy tiếp sức là nội dung đồng đội do người hiện đại nghĩ ra.</div>"
   },
   {
     "weight": "normal",
     "tags": [
-      "Lịch sử điền kinh"
+      "Lịch sử & Tổ chức"
     ],
     "question": "<span class=\"keyword\">IAAF</span> được thành lập vào năm nào?",
     "options": [
@@ -95,77 +585,49 @@
       "C. 1908",
       "D. 1920"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. 1912\n<div class=\"note\">Liên đoàn Điền kinh Quốc tế (IAAF) chính thức ra đời vào năm 1912 tại Stockholm (Thụy Điển).</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. 1912\n<div class=\"note\">Thành lập tại Stockholm.</div>"
   },
   {
     "weight": "normal",
     "tags": [
       "Luật thi đấu"
     ],
-    "question": "<span class=\"keyword\">Quyết định cuối</span> trong điền kinh thuộc về:",
-    "options": [
-      "A. Ban huấn luyện",
-      "B. HLV",
-      "C. <span class=\"answer-keyword\">Trọng tài trưởng</span>",
-      "D. Vận động viên"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. Trọng tài trưởng\n<div class=\"note\">Trọng tài trưởng là cấp phân xử cao nhất.</div>"
-  },
-  {
-    "weight": "normal",
-    "tags": [
-      "Luật thi đấu"
-    ],
-    "question": "<span class=\"keyword\">Khu vực trao – nhận</span> gậy tiếp sức dài:",
+    "question": "<span class=\"keyword\">Khu vực trao</span> – nhận gậy tiếp sức dài:",
     "options": [
       "A. <span class=\"answer-keyword\">30m</span>",
       "B. 20m",
       "C. 10m",
       "D. 40m"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. 30m\n<div class=\"note\">Theo luật thi đấu mới nhất, khu vực chạy đà (10m) và vùng trao gậy (20m cũ) đã được gộp chung thành một \"Khu vực trao gậy\" duy nhất dài 30m.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. 30m\n<div class=\"note\">Gộp khu vực chạy đà và khu vực trao gậy (20m cũ) lại làm một.</div>"
   },
   {
     "weight": "normal",
     "tags": [
       "Luật thi đấu"
     ],
-    "question": "Tiếp sức 4×100m có <span class=\"keyword\">mấy lần</span> trao gậy?",
+    "question": "Tiếp sức 4×100m có <span class=\"keyword\">mấy lần trao</span> gậy?",
     "options": [
       "A. <span class=\"answer-keyword\">3</span>",
       "B. 4",
       "C. 2",
-      "D. 1"
+      "D. 5"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. 3\n<div class=\"note\">Đội có 4 người: Người 1 trao cho 2, 2 trao 3, 3 trao 4. Tổng cộng diễn ra 3 lần trao.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. 3\n<div class=\"note\">Người 1 -> 2 -> 3 -> 4. Tính ra có 3 lần trao tay.</div>"
   },
   {
     "weight": "normal",
     "tags": [
-      "Lịch sử điền kinh"
+      "Lịch sử & Tổ chức"
     ],
     "question": "Olympic <span class=\"keyword\">đỉnh cao</span> của điền kinh vì:",
     "options": [
       "A. <span class=\"answer-keyword\">Quy tụ vận động viên ưu tú nhất</span>",
-      "B. Giải thưởng cao",
-      "C. Truyền hình trực tiếp",
-      "D. Dễ tổ chức"
+      "B. Truyền thông mạnh",
+      "C. Giải thưởng lớn",
+      "D. Nhiều môn"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Quy tụ vận động viên ưu tú nhất\n<div class=\"note\">Thế vận hội Olympic là đấu trường danh giá nhất hành tinh, nơi những siêu sao điền kinh giỏi nhất bắt buộc phải tranh tài để khẳng định vị thế.</div>"
-  },
-  {
-    "weight": "normal",
-    "tags": [
-      "Luật thi đấu"
-    ],
-    "question": "<span class=\"keyword\">Giày thi đấu</span> bị cấm khi:",
-    "options": [
-      "A. Quá đắt",
-      "B. <span class=\"answer-keyword\">Có CN hỗ trợ quá mức</span>",
-      "C. Nhẹ",
-      "D. Không có đinh"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Có CN hỗ trợ quá mức\n<div class=\"note\">Cấm dùng lò xo hay tấm carbon quá dày làm mất đi tính công bằng về sức mạnh tự nhiên.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Quy tụ vận động viên ưu tú nhất\n<div class=\"note\">Đấu trường khắc nghiệt và khao khát nhất của mọi VĐV điền kinh chuyên nghiệp.</div>"
   },
   {
     "weight": "normal",
@@ -174,40 +636,26 @@
     ],
     "question": "<span class=\"keyword\">Đi bộ</span> thể thao, yêu cầu nhất là:",
     "options": [
-      "A. Nhanh",
-      "B. Đẹp",
-      "C. Kỹ thuật",
+      "A. Chạy chậm",
+      "B. Tốc độ",
+      "C. Không nhảy",
       "D. <span class=\"answer-keyword\">Một chân luôn tiếp đất</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. Một chân luôn tiếp đất\n<div class=\"note\">Nếu cả 2 chân cùng rời mặt đất thì đó là chạy, không còn là đi bộ.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. Một chân luôn tiếp đất\n<div class=\"note\">Chân nhấc lên phải đặt xuống trước khi chân kia dỡ khỏi mặt đất.</div>"
   },
   {
     "weight": "normal",
     "tags": [
-      "Lịch sử điền kinh"
+      "Lịch sử & Tổ chức"
     ],
     "question": "Quốc gia được xem là <span class=\"keyword\">cái nôi</span> của điền kinh hiện đại?",
     "options": [
-      "A. Hy Lạp",
+      "A. Đức",
       "B. <span class=\"answer-keyword\">Anh</span>",
       "C. Mỹ",
       "D. Pháp"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Anh\n<div class=\"note\">Nước Anh thế kỷ 19 là nơi đầu tiên hệ thống hóa luật lệ, phân làn đường chạy và tổ chức các giải thi đấu điền kinh chuyên nghiệp.</div>"
-  },
-  {
-    "weight": "normal",
-    "tags": [
-      "Lịch sử điền kinh"
-    ],
-    "question": "Vận động viên giành 3 Huy Chương Vàng <span class=\"keyword\">chạy dài</span> Olympic 1952 là:",
-    "options": [
-      "A. Usain Bolt",
-      "B. Kipchoge",
-      "C. Mo Farah",
-      "D. <span class=\"answer-keyword\">Emil Zátopek</span>"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. Emil Zátopek\n<div class=\"note\">\"Đầu máy xe lửa Tiệp Khắc\" đã vô địch cả 5000m, 10000m và marathon.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Anh\n<div class=\"note\">Nước Anh thế kỷ 19 chuẩn hóa và hệ thống hóa môn thể thao này.</div>"
   },
   {
     "weight": "normal",
@@ -217,11 +665,11 @@
     "question": "<span class=\"keyword\">Thứ tự đúng</span> của một số động tác đầu là gì?",
     "options": [
       "A. <span class=\"answer-keyword\">Vươn thở – Tay – Chân</span>",
-      "B. Chân - Tay - Vươn thở",
-      "C. Bụng - Tay - Chân",
-      "D. Tay - Vươn thở - Chân"
+      "B. Chân – Tay – Vươn thở",
+      "C. Bụng – Tay – Chân",
+      "D. Tay – Vươn thở – Chân"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Vươn thở – Tay – Chân\n<div class=\"note\">Động tác đầu tiên luôn bắt buộc là Vươn thở để điều hòa hô hấp, sau đó mới phát triển dần xuống Tay và Chân.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Vươn thở – Tay – Chân\n<div class=\"note\">Khởi đầu với hô hấp (vươn thở) rồi mới xuống các chi.</div>"
   },
   {
     "weight": "normal",
@@ -230,53 +678,11 @@
     ],
     "question": "Động tác <span class=\"keyword\">bụng</span> giúp phát triển gì?",
     "options": [
-      "A. Tay",
+      "A. Vai",
       "B. <span class=\"answer-keyword\">Bụng</span>",
-      "C. Chân",
-      "D. Lưng"
+      "C. Lưng",
+      "D. Tay"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Bụng\n<div class=\"note\">Các động tác gập thân giúp siết và phát triển cơ bụng.</div>"
-  },
-  {
-    "weight": "normal",
-    "tags": [
-      "Lịch sử điền kinh"
-    ],
-    "question": "Emil Zátopek giành Huy Chương Vàng Olympic ở các <span class=\"keyword\">cự ly</span>:",
-    "options": [
-      "A. 100m - 200m - 400m",
-      "B. 800m - 1500m - 3000m",
-      "C. 110m rào - 400m rào",
-      "D. <span class=\"answer-keyword\">5000m - 10000m - marathon</span>"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. 5000m - 10000m - marathon\n<div class=\"note\">Ông vô địch cả 3 cự ly dài siêu đẳng này ở Olympic 1952.</div>"
-  },
-  {
-    "weight": "normal",
-    "tags": [
-      "Lịch sử điền kinh"
-    ],
-    "question": "Liu Xiang Huy Chương Vàng Olympic <span class=\"keyword\">năm nào</span>?",
-    "options": [
-      "A. <span class=\"answer-keyword\">Athens 2004</span>",
-      "B. Rio 2016",
-      "C. Beijing 2008",
-      "D. London 2012"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Athens 2004\n<div class=\"note\">Kỷ lục 110m rào nam.</div>"
-  },
-  {
-    "weight": "normal",
-    "tags": [
-      "Thể dục tay không"
-    ],
-    "question": "Khi tập thể dục tay không cần <span class=\"keyword\">chú ý</span> điều gì?",
-    "options": [
-      "A. Tập nhanh",
-      "B. Dụng cụ",
-      "C. <span class=\"answer-keyword\">Đúng nhịp và kỹ thuật</span>",
-      "D. Trang phục đẹp"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. Đúng nhịp và kỹ thuật\n<div class=\"note\">Phải đúng biên độ và nhịp điệu mới hiệu quả và tránh chấn thương.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Bụng\n<div class=\"note\">Cơ bụng tham gia gập duỗi thân người.</div>"
   }
 ]
