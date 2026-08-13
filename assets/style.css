@@ -191,7 +191,7 @@
   }
   
   .quiz-mode .search-wrap, .quiz-mode #searchMeta, .quiz-mode #questions-list, .quiz-mode #noResult, .quiz-mode .stats, .quiz-mode .instruction {display:none !important;}
-  .knowledge-mode .search-wrap, .knowledge-mode #searchMeta, .knowledge-mode #questions-list, .knowledge-mode #noResult, .knowledge-mode .stats, .knowledge-mode .instruction {display:none !important;}
+  .knowledge-mode .search-wrap, .knowledge-mode #searchMeta, .knowledge-mode #questions-list, .knowledge-mode #noResult {display:none !important;}
   
   #quiz-container, #knowledge-container {display:none;}
   .quiz-mode #quiz-container{display:block;}

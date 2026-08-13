@@ -364,11 +364,15 @@ function switchMode(mode) {
 
     if(mode === 'study') {
       if (btnStudy) btnStudy.classList.add('active');
+      const tc = document.getElementById('totalCount');
+      if (tc) tc.innerHTML = `Tổng: <span>${window.quizData ? window.quizData.length : 0} câu</span>`;
       if (instEl) instEl.innerHTML = 'Trắc nghiệm: Đọc → Tự nghĩ → CLICK để kiểm tra <br> Tự luận: Đọc → Tự viết → CLICK xem gợi ý';
     } else if(mode === 'knowledge') {
       document.body.classList.add('knowledge-mode');
       if (btnKnowledge) btnKnowledge.classList.add('active');
-      if (instEl) instEl.innerHTML = 'Nhấn vào từng chương để xem nội dung &nbsp;|&nbsp; Tương tác với các thẻ, biểu đồ để ghi nhớ sâu';
+      const tc = document.getElementById('totalCount');
+      if (tc) tc.innerHTML = `Trực quan hóa: <span>Sơ đồ tư duy</span>`;
+      if (instEl) instEl.innerHTML = 'Thu phóng: Cuộn chuột hoặc dùng 2 ngón tay <br> Di chuyển: Nhấn giữ & Kéo sơ đồ';
       if (typeof renderKnowledgeBase === 'function') { renderKnowledgeBase(); }
     }
 }
