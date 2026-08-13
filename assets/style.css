@@ -203,6 +203,16 @@
   .quiz-mode #quiz-container{display:block;}
   .knowledge-mode #knowledge-container{display:block;}
   
+  /* Cho phép Mindmap tràn viền trên PC (Xoá khoảng đen 2 bên) */
+  body.knowledge-mode { max-width: 100%; padding-left: 0; padding-right: 0; }
+  body.knowledge-mode .page-header, body.knowledge-mode .mode-switch { 
+      max-width: 860px; 
+      margin-left: auto; 
+      margin-right: auto; 
+      padding-left: 24px; 
+      padding-right: 24px; 
+  }
+  
   /* Kiến thức nền Accordion */
   .kb-section {margin-bottom: 24px; background: rgba(30, 30, 53, 0.7); backdrop-filter: blur(12px); border-radius: var(--r); box-shadow: var(--shadow); border: 1px solid var(--border); overflow:hidden;}
   .kb-header {padding: 20px 24px; font-weight: 700; font-size: 1.15em; background: var(--surface); color: var(--text); cursor: pointer; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border); transition: background 0.2s;}
