@@ -797,9 +797,27 @@ body.keyword-mode-active .question-container {
     }
 
     /* Override colors for printing */
+    :root {
+        --text: #000 !important;
+        --text-rgb: 0,0,0 !important;
+        --muted: #333 !important;
+        --bg: #fff !important;
+        --surface: #fff !important;
+        --primary: #000 !important;
+        --secondary: #000 !important;
+        --border: #ccc !important;
+        --color-success: #000 !important;
+        --color-danger: #000 !important;
+    }
+
+    body, * {
+        color: #000 !important;
+        text-shadow: none !important;
+        box-shadow: none !important;
+    }
+
     body {
         background: #fff !important;
-        color: #000 !important;
         padding: 0 !important;
         margin: 0 !important;
     }
