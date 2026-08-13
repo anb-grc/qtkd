@@ -814,6 +814,8 @@ body.keyword-mode-active .question-container {
         color: #000 !important;
         text-shadow: none !important;
         box-shadow: none !important;
+        filter: none !important;
+        opacity: 1 !important;
     }
 
     body {
