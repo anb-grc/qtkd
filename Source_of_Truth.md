@@ -63,7 +63,25 @@ Quy trình co-work chuẩn hóa cho toàn bộ vòng đời môn học, vận h�
 - **Bước 6:** **Agent** chủ động hỏi: *"Có kiến thức nào cần nạp nữa không? (Mày có thể hô 'Bỏ qua' để sang thẳng phần Đề thi)"* để chờ User ném thêm dữ liệu hoặc chờ lệnh nhảy cóc.
 - **Bước 7:** **User** quăng toàn bộ kiến thức, tài liệu giáo trình vào thư mục môn học rồi chốt lệnh (VD: "Chốt"). NẾU User hô *"Bỏ qua"* hoặc *"Nhảy qua đề thi"*, Agent lập tức BỎ QUA Bước 8 & 9 và nhảy thẳng sang Bước 10.
 - **Bước 8 (Thẩm thấu kiến thức):** Nhận lệnh chốt từ User, **Agent** **BẮT BUỘC** dùng công cụ `list_dir` hoặc lệnh `ls` vào thư mục môn học để quét xem User đã thả những file gì vào. Khi đã xác định được file thì mới tiến hành đọc, xem xét và phân tích chi tiết các tài liệu bài giảng (tuyệt đối cấm đoán mò nội dung nếu chưa thấy file). Mục tiêu: Hiểu sâu định hướng, tầm quan trọng và ý nghĩa cốt lõi của môn học trước khi bóc tách.
-- **Bước 9 (Tái cấu trúc & Trực quan):** **Agent** chắt lọc kiến thức theo Ma trận 34 linh kiện (Component). **BẮT BUỘC** dùng tool `view_file` đọc file `knowledge-app/src/types/schema.ts` để lấy chuẩn cấu trúc JSON.
+- **Bước 8.5 (Checkpoint Duyệt Bản Nháp — CỬA CHẶN BẮT BUỘC):** Sau khi thẩm thấu xong, Agent **PHẢI DỪNG LẠI** và xuất một **Bản Nháp Trực Quan Hóa** (Staging Draft) theo template chuẩn bên dưới. Trình User xem và chờ lệnh **"Duyệt"** rồi mới được tiến hành Bước 9. Nếu User yêu cầu chỉnh sửa (đổi Component, thêm/bớt nhánh, sửa data), Agent phải sửa bản nháp rồi trình lại cho đến khi User hài lòng. **NGHIÊM CẤM** nhảy thẳng vào viết `kb.json` mà chưa qua checkpoint này.
+  - **TEMPLATE BẢN NHÁP (Bắt buộc tuân thủ):**
+    ```
+    ## TẦNG OVERVIEW
+    => [Component: mindmap]
+    - Root: TÊN MÔN HỌC
+    - Nhánh 1 (node_id): Tên nhánh — Mô tả ngắn
+      - Lá con (node_id): Tên lá
+
+    ## TẦNG DETAILS
+    ### Nhánh: TÊN NHÁNH (node_id)
+    => [Component: tên_component_được_chọn]
+    - Dữ liệu đã bóc tách theo đúng field chuẩn của Component
+      (VD: time + content cho timeline, left + right cho vs-wrap,
+       steps[].name + description cho process-steps, v.v...)
+    > Lý do chọn Component: [Giải thích ngắn gọn tại sao chọn Component này]
+    ```
+  - **Quy tắc khi viết bản nháp:** (1) Mỗi nhánh mindmap phải ghi rõ `node_id` để liên kết. (2) Mỗi khối Details phải ghi rõ tên Component được đề xuất và lý do chọn. (3) Data phải được mapping sẵn vào đúng field name của Component (tham chiếu `schema.ts`). (4) Tuân thủ nguyên tắc *"Tinh gọn từ ngữ, Cấm bỏ sót tầng ý"* — gọt sạch câu chữ rườm rà nhưng bảo toàn 100% cấu trúc tầng lớp trí tuệ.
+- **Bước 9 (Tái cấu trúc & Trực quan):** Nhận lệnh **"Duyệt"** từ User, **Agent** chuyển đổi bản nháp đã duyệt thành `kb.json` theo Ma trận 34 linh kiện (Component). **BẮT BUỘC** dùng tool `view_file` đọc file `knowledge-app/src/types/schema.ts` để lấy chuẩn cấu trúc JSON.
   - **CẤU TRÚC KHUNG XƯƠNG (FRAME OVERVIEW):** File `kb.json` **BẮT BUỘC** phải tuân thủ kiến trúc phân tầng. Bắt đầu bằng một khối `overview` (thường dùng `mindmap` hoặc `roadmap`) để làm bản đồ điều hướng chính. Sau đó, các thành phần mổ xẻ chi tiết (Deep Dive) và Đề thi (Quiz) được đặt trong mảng `details`, liên kết chặt chẽ với các Node của overview thông qua `node_id`.
   - **TÍCH HỢP ĐỀ THI:** Khối `quiz` bên trong `details` tự động bốc dữ liệu từ `qs.json`. Thêm thuộc tính `"quiz_tags": ["Tag 1"]` vào `data` của khối Quiz để lọc câu hỏi. Nếu bỏ trống, hệ thống sẽ bốc toàn bộ ngân hàng câu hỏi. **TUYỆT ĐỐI** không hard-code câu hỏi vào `kb.json`.
   - Nhớ bám sát "Nguyên tắc tinh gọn ý", chạy Sandbox an toàn và tạo Báo Cáo. Mọi công việc kết thúc thì chạy lệnh Git theo **Quy Tắc Phạm Vi Commit** (Tầng 2, Mục 4): `git add "_sources/[Tổ chức]/[Chương trình]/[Tên Môn]/" && git commit -m "Cập nhật kiến thức" && git push`. Mọi thứ tự động cập nhật lên Web.
