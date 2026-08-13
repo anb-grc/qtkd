@@ -44,15 +44,15 @@ function buildFilterUI(data) {
     `;
     
     let controlsHtml = `
-        <div style="display:flex; gap:10px; margin-top:10px; flex-wrap:wrap; width:100%; align-items:center;">
-            <select id="tagFilter" onchange="filterQuestions()" style="padding:8px 14px; border-radius:8px; border:1px solid var(--border); width:fit-content; max-width:100%; background: var(--surface); color: var(--text); font-family: inherit;">
+        <div style="display:flex; gap:8px; margin-top:10px; flex-wrap:nowrap; width:100%; align-items:center;">
+            <select id="tagFilter" onchange="filterQuestions()" style="padding:8px 12px; border-radius:var(--r); border:1px solid var(--border); width: 130px; flex-shrink: 1; background: var(--surface); color: var(--text); font-family: inherit; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
                 ${tagOptions}
             </select>
-            <select id="limitFilter" onchange="changeLimit()" style="padding:8px 14px; border-radius:8px; border:1px solid var(--border); width:fit-content; background: var(--surface); color: var(--text); font-family: inherit;">
+            <select id="limitFilter" onchange="changeLimit()" style="padding:8px 12px; border-radius:var(--r); border:1px solid var(--border); width:fit-content; flex-shrink: 0; background: var(--surface); color: var(--text); font-family: inherit;">
                 ${limitOptions}
             </select>
             <div style="flex: 1;"></div>
-            <div style="display:flex; gap:0px; align-items:center;">
+            <div style="display:flex; gap:0px; align-items:center; flex-shrink: 0;">
                 <button id="sortBtn" onclick="sortQuestions()" style="padding:8px; border:none; background:transparent; color: var(--text); cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
                 </button>
