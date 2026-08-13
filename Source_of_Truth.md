@@ -41,7 +41,13 @@ Thay vì bắt học sinh nhớ cả câu dài, hệ thống chỉ Highlight (in
 **3. Giới hạn Vùng nổ (Blast Radius - Kiến trúc 3 Lớp):**
 - **Lớp 1 (Raw):** Mọi text thô từ User phải được lưu thành file tại `raw_inputs/`.
 - **Lớp 2 (Staging):** File Database thật `_qs.json` phải được COPY sang `staging/temp_qs.json`. AI chỉ được phép nhào nặn, cắt gọt, tẩy trùng trên file Staging này.
-- **Lớp 3 (Main & CI/CD):** Chỉ khi JSON trong Staging parse thành công không lỗi, hệ thống mới được phép ghi đè lên file gốc, ghi log vào `PROJECT_LOG.md`, tự động chạy chuỗi lệnh `git add . && git commit -m "[thông điệp]" && git push` để Vercel deploy song song.
+- **Lớp 3 (Main & CI/CD):** Chỉ khi JSON trong Staging parse thành công không lỗi, hệ thống mới được phép ghi đè lên file gốc, ghi log vào `PROJECT_LOG.md`, và chạy lệnh Git theo **Quy Tắc Phạm Vi Commit** (xem mục 4 bên dưới).
+
+**4. Quy Tắc Đa Nhiệm Đồng Thời (Parallel Mode - Chống Giẫm Đạp Tài Nguyên):**
+Khi User mở nhiều khung chat cùng làm việc trên một Workspace, hệ thống phân định rõ **2 vai trò Agent** để tránh xung đột Git:
+- **Khung Chat Data (Subject Worker):** Agent được User giao cày 1 môn học cố định (từ Bước 3). Agent này **BỊ KHÓA VÙNG TRỜI** trong thư mục môn đó. Lệnh Git lúc này **NGHIÊM CẤM** dùng `git add .`. Bắt buộc phải dùng `git add "_sources/[Tổ chức]/[Chương trình]/[Tên Môn]/"` để chỉ commit đúng phạm vi môn học đang làm. Đồng thời **KHÔNG ĐƯỢC** tự ý mở và chỉnh sửa file `assets/config.js` trừ khi User ra lệnh trực tiếp, nhằm tránh Race Condition (2 Agent ghi đè cùng lúc gây mất data môn học).
+- **Khung Chat System (App Developer):** Agent được User giao sửa UI/UX, thêm tính năng, refactor hệ thống chung. Agent này vẫn hoạt động bình thường theo quy trình Build-Measure-Learn (Mục 2 của Tầng 3). Lệnh `git add` được phép chạy trên các file hệ thống (`.html`, `.js`, `.css`, `config.js`) để push tính năng lên Vercel.
+- **Nguyên tắc chung:** Mỗi Agent phải tự ý thức vai trò của mình (Data Worker hay System Developer) dựa trên ngữ cảnh cuộc hội thoại với User để chọn phạm vi `git add` cho chính xác.
 
 ---
 
@@ -60,7 +66,7 @@ Quy trình co-work chuẩn hóa cho toàn bộ vòng đời môn học, vận h�
 - **Bước 9 (Tái cấu trúc & Trực quan):** **Agent** chắt lọc kiến thức theo Ma trận 34 linh kiện (Component). **BẮT BUỘC** dùng tool `view_file` đọc file `knowledge-app/src/types/schema.ts` để lấy chuẩn cấu trúc JSON.
   - **CẤU TRÚC KHUNG XƯƠNG (FRAME OVERVIEW):** File `kb.json` **BẮT BUỘC** phải tuân thủ kiến trúc phân tầng. Bắt đầu bằng một khối `overview` (thường dùng `mindmap` hoặc `roadmap`) để làm bản đồ điều hướng chính. Sau đó, các thành phần mổ xẻ chi tiết (Deep Dive) và Đề thi (Quiz) được đặt trong mảng `details`, liên kết chặt chẽ với các Node của overview thông qua `node_id`.
   - **TÍCH HỢP ĐỀ THI:** Khối `quiz` bên trong `details` tự động bốc dữ liệu từ `qs.json`. Thêm thuộc tính `"quiz_tags": ["Tag 1"]` vào `data` của khối Quiz để lọc câu hỏi. Nếu bỏ trống, hệ thống sẽ bốc toàn bộ ngân hàng câu hỏi. **TUYỆT ĐỐI** không hard-code câu hỏi vào `kb.json`.
-  - Nhớ bám sát "Nguyên tắc tinh gọn ý", chạy Sandbox an toàn và tạo Báo Cáo. Mọi công việc kết thúc thì dùng chuỗi lệnh `git add . && git commit -m "Cập nhật kiến thức" && git push` để Deploy ngay. Mọi thứ tự động cập nhật lên Web.
+  - Nhớ bám sát "Nguyên tắc tinh gọn ý", chạy Sandbox an toàn và tạo Báo Cáo. Mọi công việc kết thúc thì chạy lệnh Git theo **Quy Tắc Phạm Vi Commit** (Tầng 2, Mục 4): `git add "_sources/[Tổ chức]/[Chương trình]/[Tên Môn]/" && git commit -m "Cập nhật kiến thức" && git push`. Mọi thứ tự động cập nhật lên Web.
 - **Bước 10:** **User** quăng bộ câu hỏi trắc nghiệm (có đáp án hoặc **chưa có đáp án**) vào thư mục `raw_inputs/` của môn đó cho Agent.
 - **Bước 11:** **Agent** kích hoạt Dây chuyền Xử lý Đề 1 Chạm:
   - **Quy tắc Quét File:** BẮT BUỘC dùng `list_dir` vào thư mục `raw_inputs/` để tìm file đề thi User vừa thả vào trước khi xử lý, cấm đoán mò.
@@ -68,7 +74,7 @@ Quy trình co-work chuẩn hóa cho toàn bộ vòng đời môn học, vận h�
     1. **Câu hỏi Thảo luận (Cày chuyên cần):** Agent BẮT BUỘC nhập vai một sinh viên xuất sắc, hành văn rõ ràng, mạch lạc, chia ý cụ thể và trình bày theo dạng quan điểm/góc nhìn cá nhân để đối đáp với giáo viên. **LƯU Ý ĐẶC BIỆT:** Vẫn giữ sự lễ phép (dạ, thưa thầy/cô, theo em) nhưng cấm tuyệt đối dùng các cụm từ xưng hô sáo rỗng, thảo mai kiểu "đã lắng nghe", "cảm ơn thầy cô",... cứ đi thẳng trực diện vào vấn đề chuyên môn một cách tự nhiên. Giải xong chỉ in text ra màn hình cho User copy. **TUYỆT ĐỐI KHÔNG lưu vào `qs.json`**.
     2. **Câu hỏi Tự luận (Thi cử):** KHÔNG nhập vai sinh viên. Bắt buộc giữ văn phong chuẩn mực khoa học theo nguyên tắc ngân hàng đề. Giải xong **LƯU vào `qs.json`** như bình thường.
   - Thi triển luân lưu Kiến trúc 3 lớp (The Core 3-layer protection): Lọc trùng trên Staging ➔ Khảm bùa Ma Trận Lục Hợp (Highlight từ khóa, tách `<div class="options-grid">` và `<div class="note">`) ➔ Safe Write vào `qs.json`.
-  - Xuất **Báo Cáo Nghiệm Thu** (Số lượng, khối lượng, trạng thái giải đề) và tự động chạy chuỗi lệnh `git add . && git commit -m "Cập nhật đề thi" && git push` để Vercel Deploy song song.
+  - Xuất **Báo Cáo Nghiệm Thu** (Số lượng, khối lượng, trạng thái giải đề) và chạy lệnh Git theo **Quy Tắc Phạm Vi Commit** (Tầng 2, Mục 4): `git add "_sources/[Tổ chức]/[Chương trình]/[Tên Môn]/" && git commit -m "Cập nhật đề thi" && git push` để Vercel Deploy song song.
 - **Bước 12 (Vòng lặp Vĩnh Cửu & Cơ Chế Nạp Bù):** Bất cứ lúc nào (kể cả khi đã hô 'Bỏ qua' ở Bước 7), nếu User thả thêm tài liệu lý luận mới hay đề thi mới và hô *"Nạp thêm kiến thức"* hoặc *"Thêm đề"*, Agent tự động kích hoạt lại Bước 8 & Bước 9 (để build lại `kb.json`) hoặc Bước 11 (để update `qs.json`).
 - *Lưu ý về chữ "Im Lặng":* Trong suốt tiến trình cày búa data, cấm lề mề hỏi xin phép vặt vãnh. Tuy nhiên, sau khi gia công xong bất kỳ bước nào (Bước 2, 4, 9, 11), việc gửi **Báo Cáo Nghiệm Thu** là nghĩa vụ bắt buộc!
 
