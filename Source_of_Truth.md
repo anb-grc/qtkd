@@ -7,7 +7,7 @@ File này là Chân lý gốc (Single Source of Truth) định hình toàn bộ 
 ## TẦNG 1: THE WHY (Chân lý gốc & Domain)
 
 **1. Mục Tiêu Tối Thượng (User Problem):**
-Hệ thống được sinh ra để giải quyết một nỗi đau duy nhất: Giúp sinh viên ôn thi trắc nghiệm với tốc độ **cực nhanh, chống xao nhãng, trực quan hóa kiến thức phức tạp và nhận diện bẫy dễ dàng**. Mọi tính năng, giao diện hay logic code nếu không phục vụ trực tiếp cho mục tiêu này đều được coi là "Rác" (Waste) và phải bị loại bỏ.
+Hệ thống được sinh ra để giải quyết một nỗi đau duy nhất: Giúp sinh viên ôn kiến thức một cách tối ưu đồng thời thi trắc nghiệm **cực nhanh, chống xao nhãng, trực quan hóa kiến thức phức tạp và nhận diện bẫy dễ dàng**. Mọi tính năng, giao diện hay logic code nếu không phục vụ trực tiếp cho mục tiêu này đều được coi là "Rác" (Waste) và phải bị loại bỏ.
 
 **2. Giá Trị Cốt Lõi (Core Value) & Ranh Giới Xử Lý Dữ Liệu:**
 Hệ thống phân định rõ hai vùng xử lý với tiêu chuẩn tuyệt đối:

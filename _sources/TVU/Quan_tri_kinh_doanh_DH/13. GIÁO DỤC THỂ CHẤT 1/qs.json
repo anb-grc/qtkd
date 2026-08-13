@@ -684,5 +684,61 @@
       "D. Tay"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Bụng\n<div class=\"note\">Cơ bụng tham gia gập duỗi thân người.</div>"
+  },
+  {
+    "weight": "normal",
+    "question": "Đặc trưng bắt buộc về làn chạy đối với cự ly <span class=\"keyword\">ngắn</span> (60m-400m) là gì?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. <span class=\"answer-keyword\">Chạy 100% trong làn của mình</span>, nếu lấn làn sẽ bị truất quyền thi đấu.\n<div class=\"note\">Kỹ thuật cự ly ngắn đòi hỏi duy trì tốc độ tối đa, vận động viên bắt buộc phải chạy 100% trên làn đường của mình. Lấn làn đồng nghĩa với việc bị loại.</div>",
+    "options": [
+      "A. Được nhập làn sau khi chạy hết đoạn cong đầu tiên.",
+      "B. Chạy 100% trong làn của mình, nếu lấn làn sẽ bị truất quyền thi đấu.",
+      "C. Chỉ chạy trong làn ở 100m đầu, sau đó được tự do.",
+      "D. Không quy định làn chạy, ai nhanh thì chiếm làn trong."
+    ],
+    "tags": [
+      "Đặc điểm cự ly"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Trong nội dung chạy <span class=\"keyword\">800m</span>, vận động viên được phép <span class=\"keyword\">nhập làn</span> khi nào?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. <span class=\"answer-keyword\">Sau khi chạy hết đoạn cong đầu tiên</span>.\n<div class=\"note\">Trái ngược với cự ly ngắn, cự ly trung bình 800m cho phép vận động viên cắt vào làn trong cùng sau khi chạy hết đoạn cong đầu tiên để tối ưu quãng đường.</div>",
+    "options": [
+      "A. Sau khi chạy hết đoạn cong đầu tiên.",
+      "B. Ngay sau khi xuất phát rời khỏi bàn đạp.",
+      "C. Phải chạy hết vòng đầu tiên (400m).",
+      "D. Bắt buộc chạy 100% trên làn của mình từ đầu đến cuối."
+    ],
+    "tags": [
+      "Đặc điểm cự ly"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Trong kỹ thuật xuất phát <span class=\"keyword\">thấp</span>, ở khẩu lệnh <span class=\"keyword\">Sẵn sàng</span>, người chạy cần thực hiện động tác nào sau đây?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. <span class=\"answer-keyword\">Từ từ nâng mông lên cao hơn vai</span>.\n<div class=\"note\">Ở bước \"Sẵn sàng\", mông cần được nâng lên cao hơn vai để chuẩn bị trọng tâm tốt nhất cho pha lao về phía trước khi có lệnh \"Chạy\". Mắt nhìn về phía trước cách vạch tầm 20-25cm.</div>",
+    "options": [
+      "A. Hai tay chống vòm sát vạch xuất phát, đầu gối chạm đất.",
+      "B. Từ từ nâng mông lên cao hơn vai.",
+      "C. Đạp mạnh chân sau rời bàn đạp, hai tay đánh ngược chiều.",
+      "D. Giữ nguyên tư thế quỳ, dồn trọng tâm vào hai gót chân."
+    ],
+    "tags": [
+      "Kỹ thuật xuất phát"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Trong kỹ thuật xuất phát thấp, ở khẩu lệnh <span class=\"keyword\">Vào chỗ</span>, tư thế <span class=\"keyword\">chân</span> đúng là:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. <span class=\"answer-keyword\">Chân thuận đặt ở bàn đạp trước</span>, chân kia ở bàn đạp sau.\n<div class=\"note\">Ở khẩu lệnh \"Vào chỗ\", vận động viên phải hạ trọng tâm, chân thuận đặt ở bàn đạp trước để tạo lực đẩy mạnh nhất, chân kia đặt bàn đạp sau.</div>",
+    "options": [
+      "A. Hai chân đứng song song ngay sau vạch xuất phát.",
+      "B. Hai chân chụm lại, kiễng gót chờ lệnh.",
+      "C. Chân thuận đặt ở bàn đạp trước, chân kia ở bàn đạp sau.",
+      "D. Chân không thuận đặt ở bàn đạp trước, chân thuận đặt ở bàn đạp sau."
+    ],
+    "tags": [
+      "Kỹ thuật xuất phát"
+    ]
   }
 ]

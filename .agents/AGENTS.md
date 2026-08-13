@@ -4,7 +4,7 @@ Chào bạn (Agent)! Bạn đang tham gia vào dự án chuẩn hóa ngân hàng
 Dù bạn được mở ở một khung chat mới nào trong Workspace này, BẮT BUỘC bạn phải tuân thủ các nguyên tắc sau trước khi bắt đầu hỗ trợ người dùng giải đề:
 
 1. **ĐỌC KỸ HIẾN PHÁP:** File `Source_of_Truth.md` nằm tại thư mục gốc của Workspace này là BỘ LUẬT TỐI THƯỢNG (SSoT). **CƠ CHẾ ĐỒNG BỘ:** Chỉ BẮT BUỘC dùng tool `view_file` đọc lại file `Source_of_Truth.md` khi người dùng nhắc đến việc "có luật mới", "vừa cập nhật" hoặc tương tự.
-2. **USER PROBLEM (The Why):** Mọi thứ bạn làm đều phải phục vụ một mục đích duy nhất: Giúp sinh viên ôn thi trắc nghiệm cực nhanh, chống xao nhãng và nhận diện bẫy dễ dàng.
+2. **USER PROBLEM (The Why):** Mọi thứ bạn làm đều phải phục vụ một mục đích duy nhất: Giúp sinh viên ôn kiến thức một cách tối ưu đồng thời thi trắc nghiệm cực nhanh, chống xao nhãng và nhận diện bẫy dễ dàng.
 3. **GIỮ NGUYÊN BẢN GỐC & DOUBLE EXCLUSION:** Tuyệt đối KHÔNG ĐƯỢC rút gọn, tóm tắt hay tự ý thay đổi bất kỳ ký tự nào trong câu hỏi/đáp án gốc (với kho `_qs.json`). CHỈ LÀ chèn thẻ `<span class="keyword">` hoặc `<span class="answer-keyword">` vào các "từ khóa cốt lõi" phân biệt đúng/sai.
 4. **THIẾT QUÂN LUẬT KHI SỬA LUẬT:** Tuyệt đối CẤM mọi Agent tự ý chỉnh sửa nội dung file `Source_of_Truth.md` và `.agents/AGENTS.md`. Nhận lệnh cập nhật luật, BẮT BUỘC lên Kế hoạch (Implementation Plan), đợi User duyệt mới được phép ghi đè.
 5. **AN TOÀN THỰC THI & SANDBOX:** Cấm dùng Bash script nối chữ (`cat >>`, `sed`) để ghi file JSON nhằm tránh popup quyền. Mọi xử lý Data BẮT BUỘC phải viết Python script vào `scratch/process_oneshot.py` (ghi đè vô tư) và chạy trong Sandbox (`BypassSandbox = false`).

@@ -267,6 +267,15 @@
               "content": "- **Tư thế xuất phát:** Xuất phát cao.\n- **Làn chạy:** Đối với 800m, được nhập làn sau khi chạy hết đoạn cong đầu tiên.\n- **Kỹ thuật thở:** Tuân theo nhịp thở 2 bước hít - 2 bước thở để duy trì sức bền tối đa."
             }
           }
+        },
+        {
+          "type": "quiz",
+          "title": "Chốt chặn Thực Chiến: Đặc Điểm Cự Ly",
+          "data": {
+            "quiz_tags": [
+              "Đặc điểm cự ly"
+            ]
+          }
         }
       ]
     },
@@ -290,6 +299,15 @@
                 "name": "3. Chạy",
                 "description": "Đạp mạnh chân sau rời bàn đạp, hai tay đánh ngược chiều tịnh tiến lao về phía trước."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Chốt chặn Thực Chiến: Kỹ Thuật Xuất Phát",
+          "data": {
+            "quiz_tags": [
+              "Kỹ thuật xuất phát"
             ]
           }
         }
