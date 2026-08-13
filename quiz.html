@@ -6,7 +6,7 @@
 <title>TÊN MÔN HỌC</title>
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="./assets/style.css">
-<link rel="stylesheet" href="./assets/knowledge-app/kb-app.css?v=23">
+<link rel="stylesheet" href="./assets/knowledge-app/kb-app.css?v=24">
 </head>
 <body>
   <div class="page-header">
@@ -22,8 +22,8 @@
       <span id="timerText">00:00</span>
   </div>
   <div class="mode-switch">
-    <button id="btnKnowledgeMode" onclick="switchMode('knowledge')">Kiến thức nền</button>
-    <button id="btnStudyMode" class="active" onclick="switchMode('study')">Ngân hàng đề</button>
+    <button id="btnKnowledgeMode" onclick="switchMode('knowledge')">Kiến thức</button>
+    <button id="btnStudyMode" class="active" onclick="switchMode('study')">Luyện đề</button>
     <button id="btnQuizMode" onclick="switchMode('quiz')">Thi Thử</button>
     <button id="btnHistory" onclick="renderHistory()">Lịch sử</button>
   </div>
@@ -80,7 +80,7 @@
     };
   </script>
     <script src="./assets/app.js"></script>
-    <script type="module" src="./assets/knowledge-app/kb-app.js?v=23"></script>
+    <script type="module" src="./assets/knowledge-app/kb-app.js?v=24"></script>
 
   <!-- MODAL LỊCH SỬ (Đã đồng bộ Dark Mode / Glassmorphism) -->
   <div id="history-modal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 9999; align-items: center; justify-content: center; backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);">
