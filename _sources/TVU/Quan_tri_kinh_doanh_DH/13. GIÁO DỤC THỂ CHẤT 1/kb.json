@@ -1,63 +1,71 @@
 {
+  "subject": "GIÁO DỤC THỂ CHẤT 1",
   "overview": {
     "type": "mindmap",
     "title": "Bức Tranh Toàn Cảnh Điền Kinh",
     "data": {
-      "root": "ĐIỀN KINH",
+      "root": "GIÁO DỤC THỂ CHẤT 1 (ĐIỀN KINH)",
       "children": [
         {
-          "id": "node_tong_quan",
-          "label": "Tổng Quan",
-          "description": "Lịch sử & Vị thế",
+          "id": "tc1",
+          "label": "Tổng Quan Lịch Sử",
+          "description": "Biên niên sử & Huyền thoại",
           "children": [
             {
-              "id": "node_tong_quan_1",
-              "label": "Biên niên sử"
+              "id": "tc1_1",
+              "label": "Biên niên sử & Tổ chức",
+              "description": "Quá trình hình thành"
             },
             {
-              "id": "node_tong_quan_2",
-              "label": "Kỷ lục nổi bật"
+              "id": "tc1_2",
+              "label": "Thành Tích & Kỷ Lục",
+              "description": "Các nhân vật huyền thoại"
             }
           ]
         },
         {
-          "id": "node_thuc_hanh",
-          "label": "Thực Hành Chung",
-          "description": "Đội hình & Khởi động",
+          "id": "tc2",
+          "label": "Thực Hành Khởi Động",
+          "description": "Thể dục & Khởi động",
           "children": [
             {
-              "id": "node_thuc_hanh_1",
-              "label": "Chuỗi 9 Động tác"
+              "id": "tc2_1",
+              "label": "Chuỗi 9 Động tác",
+              "description": "Bài tập phát triển chung"
             },
             {
-              "id": "node_thuc_hanh_2",
-              "label": "Phân loại Khởi động"
+              "id": "tc2_2",
+              "label": "Phân loại Khởi động",
+              "description": "Chung vs Chuyên môn"
             }
           ]
         },
         {
-          "id": "node_ky_thuat",
-          "label": "Kỹ Thuật Chạy",
-          "description": "Ngắn & Trung Bình",
+          "id": "tc3",
+          "label": "Kỹ Thuật Trọng Tâm",
+          "description": "Chạy ngắn & Trung bình",
           "children": [
             {
-              "id": "node_ky_thuat_1",
-              "label": "So sánh Đặc điểm"
+              "id": "tc3_1",
+              "label": "Đặc điểm Cự ly",
+              "description": "Ngắn vs Trung bình"
             },
             {
-              "id": "node_ky_thuat_2",
-              "label": "Kỹ thuật Xuất phát"
+              "id": "tc3_2",
+              "label": "Kỹ thuật Xuất phát",
+              "description": "Quy trình xuất phát thấp"
             }
           ]
         },
         {
-          "id": "node_luat_thi_dau",
+          "id": "tc4",
           "label": "Luật Thi Đấu",
-          "description": "Lỗi & Phạm quy",
+          "description": "Cạm bẫy & Phạm quy",
           "children": [
             {
-              "id": "node_luat_1",
-              "label": "Các Lỗi Nghiêm Trọng"
+              "id": "tc4_1",
+              "label": "Lỗi Phạm Quy Nghiêm Trọng",
+              "description": "Các lỗi bị loại trực tiếp"
             }
           ]
         }
@@ -66,7 +74,7 @@
   },
   "details": [
     {
-      "node_id": "node_tong_quan_1",
+      "node_id": "tc1_1",
       "components": [
         {
           "type": "timeline",
@@ -75,53 +83,48 @@
             "items": [
               {
                 "time": "776 TCN",
-                "content": "Olympic đầu tiên tại Hy Lạp (chạy 192m, thưởng vòng nguyệt quế)"
+                "content": "Olympic đầu tiên tại Hy Lạp cổ đại (chạy 192m, thưởng vòng nguyệt quế)."
               },
               {
                 "time": "1864",
-                "content": "Phục hưng tại Anh (cái nôi điền kinh hiện đại)"
+                "content": "Phục hưng tại Anh - Quốc gia được xem là cái nôi của điền kinh hiện đại."
               },
               {
                 "time": "1896",
-                "content": "Olympic hiện đại đầu tiên tại Athens"
+                "content": "Olympic hiện đại đầu tiên được tổ chức tại Athens."
               },
               {
                 "time": "1908",
-                "content": "Chuẩn hóa cự ly Marathon (42.195km)"
+                "content": "Nước Anh chuẩn hóa cự ly Marathon chính thức là 42.195km."
               },
               {
                 "time": "1912",
-                "content": "Thành lập IAAF (nay là World Athletics)"
+                "content": "Thành lập Liên đoàn Điền kinh Quốc tế (IAAF) - nay là World Athletics."
               },
               {
                 "time": "1928",
-                "content": "Nữ giới được thi đấu điền kinh"
+                "content": "Nữ giới lần đầu tiên được tham gia thi đấu điền kinh (dù bị hạn chế)."
+              },
+              {
+                "time": "Sau 1975",
+                "content": "Điền kinh Việt Nam phát triển mạnh mẽ và có hệ thống."
               }
             ]
           }
         },
         {
           "type": "quiz",
-          "title": "Kiểm tra Nhanh",
+          "title": "Chốt chặn Thực Chiến: Lịch Sử & Tổ Chức",
           "data": {
             "quiz_tags": [
-              "Lịch sử điền kinh"
-            ],
-            "question": "Olympic hiện đại đầu tiên được tổ chức vào năm nào?",
-            "options": [
-              "776 TCN",
-              "1864",
-              "1896",
-              "1912"
-            ],
-            "correctAnswer": 2,
-            "explanation": "Năm 1896, Olympic hiện đại đầu tiên được tổ chức tại Athens, Hy Lạp."
+              "Lịch sử & Tổ chức"
+            ]
           }
         }
       ]
     },
     {
-      "node_id": "node_tong_quan_2",
+      "node_id": "tc1_2",
       "components": [
         {
           "type": "features",
@@ -130,103 +133,89 @@
             "items": [
               {
                 "title": "Usain Bolt",
-                "description": "Vô địch 100m 3 kỳ Olympic liên tiếp (2008, 2012, 2016)."
+                "description": "Huyền thoại Jamaica giành Huy Chương Vàng 100m ở 3 kỳ Olympic liên tiếp (2008-2012-2016)."
               },
               {
                 "title": "Bob Beamon",
-                "description": "Kỷ lục nhảy xa 8.90m tại Olympic 1968, tồn tại 23 năm."
+                "description": "Cú nhảy xa 8.90m tại Olympic 1968, thiết lập kỷ lục tồn tại suốt 23 năm trước khi bị Mike Powell phá."
               },
               {
-                "title": "Nguyễn Thị Oanh",
-                "description": "Giành 4 HCV cá nhân tại SEA Games 32 (800m, 1500m, 3000m, 5000m)."
+                "title": "Elaine Thompson-Herah",
+                "description": "Nữ hoàng tốc độ mới người Jamaica, giành cú đúp ở 100m và 200m."
               },
               {
-                "title": "Hoàng Nguyên Thanh",
-                "description": "HCV Marathon SEA Games đầu tiên cho Việt Nam."
+                "title": "Liu Xiang",
+                "description": "Vận động viên Trung Quốc tạo địa chấn, đại diện Châu Á đoạt HCV 110m rào tại Athens 2004."
+              },
+              {
+                "title": "Emil Zátopek",
+                "description": "Làm nên kỳ tích ăn ba vĩ đại: 5000m, 10000m và marathon."
               }
             ]
           }
         },
         {
           "type": "quiz",
-          "title": "Chốt chặn 1: Lịch sử",
+          "title": "Chốt chặn Thực Chiến: Kỷ Lục & VĐV",
           "data": {
-            "question": "Cự ly Marathon 42.195km chính thức được chuẩn hóa vào năm nào?",
-            "options": [
-              "1864",
-              "1896",
-              "1908",
-              "1928"
-            ],
-            "correctAnswer": 2,
-            "explanation": "Năm 1908 tại Olympic London, cự ly Marathon được kéo dài thêm một chút để vạch xuất phát đặt ngay dưới cửa sổ lâu đài Windsor cho hoàng gia xem, từ đó ấn định luôn 42.195km.",
             "quiz_tags": [
-              "Lịch sử điền kinh"
+              "Kỷ lục & VĐV"
             ]
           }
         }
       ]
     },
     {
-      "node_id": "node_thuc_hanh_1",
+      "node_id": "tc2_1",
       "components": [
         {
           "type": "process-steps",
-          "title": "Chuỗi 9 Động tác Thể dục Phát triển chung",
+          "title": "Chuỗi 9 Động Tác Thể Dục Tay Không",
           "data": {
             "steps": [
               {
                 "name": "1. Vươn thở",
-                "description": "Chân trái sang ngang, 2 tay lên cao, hít vào."
+                "description": "Động tác đầu tiên. Khởi đầu bằng hô hấp để mở phổi."
               },
               {
-                "name": "2. Tay ngực",
-                "description": "Bước chân lên, dang tay ngang ngửa lòng bàn tay."
+                "name": "2. Tay",
+                "description": "Phát triển cơ tay và vai."
               },
               {
                 "name": "3. Lườn",
-                "description": "Nghiêng người sang trái, tay phải giơ cao áp sát tai."
+                "description": "Nghiêng người, tăng độ dẻo dai cơ lườn."
               },
               {
                 "name": "4. Bụng",
-                "description": "Gập thân, 2 tay chạm đầu bàn chân."
+                "description": "Gập thân, phát triển cơ bụng."
               },
               {
                 "name": "5. Vặn mình",
-                "description": "Vặn mình sang trái, tay đưa ngang."
+                "description": "Xoay người sang 2 bên."
               },
               {
                 "name": "6. Chân",
-                "description": "Chân trái chống khuỵu, 2 tay duỗi thẳng phía trước."
+                "description": "Phát triển trực tiếp cơ bắp đùi và bắp chân."
               },
               {
                 "name": "7. Toàn thân",
-                "description": "Ngồi khuỵu, vươn mình, tay vung lên cao."
+                "description": "Phối hợp liên hoàn nhiều nhóm cơ."
               },
               {
                 "name": "8. Nhảy",
-                "description": "Nhảy giạng chân, tay vung lên cao đập vào nhau."
+                "description": "Kích thích sự dẻo dai và phát triển toàn thân."
               },
               {
                 "name": "9. Điều hòa",
-                "description": "Nâng đùi, thả lỏng tay chân, hít thở sâu."
+                "description": "Thả lỏng, đưa cơ thể về trạng thái ổn định."
               }
             ]
           }
         },
         {
           "type": "quiz",
-          "title": "Kiểm tra Nhanh",
+          "title": "Chốt chặn Thực Chiến: Thể Dục Tay Không",
           "data": {
-            "question": "Trong chuỗi 9 động tác thể dục phát triển chung, động tác số 9 là gì?",
-            "options": [
-              "Tay ngực",
-              "Vặn mình",
-              "Nhảy",
-              "Điều hòa"
-            ],
-            "correctAnswer": 3,
-            "explanation": "Động tác thứ 9 (cuối cùng) luôn là động tác Điều hòa để đưa cơ thể về trạng thái hồi phục sau khi vận động.",
             "quiz_tags": [
               "Thể dục tay không"
             ]
@@ -235,128 +224,79 @@
       ]
     },
     {
-      "node_id": "node_thuc_hanh_2",
+      "node_id": "tc2_2",
       "components": [
         {
           "type": "vs-wrap",
-          "title": "Phân loại Khởi động",
+          "title": "Phân Loại Khởi Động",
           "data": {
             "left": {
-              "title": "Khởi động chung",
-              "content": "- Xoay khớp (cổ, vai, hông, gối)<br>- Ép dọc, ép ngang<br>- Chạy bước nhỏ"
+              "title": "Khởi Động Chung",
+              "content": "Giúp cơ thể chuyển từ trạng thái tĩnh sang động, tăng thân nhiệt từ từ.\n\n**Các bài tập:**\n- Xoay các khớp (cổ, vai, hông, gối, cổ tay chân)\n- Ép dọc, ép ngang\n- Chạy bước nhỏ nhẹ nhàng"
             },
             "right": {
-              "title": "Khởi động chuyên môn",
-              "content": "- Chạy đạp sau<br>- Chạy tăng tốc 30m<br>- Bật cóc, bật xa liên tục"
+              "title": "Khởi Động Chuyên Môn",
+              "content": "Tác động sâu vào các nhóm cơ chính sẽ sử dụng trong thi đấu, kích thích hệ thần kinh trung ương.\n\n**Các bài tập:**\n- Chạy đạp sau\n- Chạy tăng tốc ngắn (30m)\n- Bật cóc, bật xa liên tục"
             }
           }
         },
         {
           "type": "quiz",
-          "title": "Chốt chặn 2: Khởi động",
+          "title": "Chốt chặn Thực Chiến: Sinh Lý & Huấn Luyện",
           "data": {
-            "question": "Động tác 'Bật cóc, bật xa liên tục' thuộc nhóm khởi động nào?",
-            "options": [
-              "Khởi động chung",
-              "Khởi động chuyên môn",
-              "Bài tập sức bền",
-              "Động tác thể dục"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Bật cóc là bài tập tác động mạnh trực tiếp vào nhóm cơ đùi/chân để phục vụ riêng cho việc chạy, nên nó là Khởi động chuyên môn.",
             "quiz_tags": [
-              "Thể dục tay không"
+              "Sinh lý & Huấn luyện"
             ]
           }
         }
       ]
     },
     {
-      "node_id": "node_ky_thuat_1",
+      "node_id": "tc3_1",
       "components": [
         {
           "type": "vs-wrap",
-          "title": "So sánh Đặc điểm Cự ly",
+          "title": "So Sánh Đặc Điểm Kỹ Thuật Chạy",
           "data": {
             "left": {
-              "title": "Cự ly Ngắn (60-400m)",
-              "content": "- **Xuất phát:** Thấp<br>- **Làn chạy:** Bắt buộc 100% đúng làn<br>- **Kỹ thuật:** Tần số bước cực nhanh"
+              "title": "Cự Ly Ngắn (60m - 400m)",
+              "content": "- **Tư thế xuất phát:** Xuất phát thấp (dùng bàn đạp).\n- **Làn chạy:** Bắt buộc chạy 100% trong làn của mình. Nếu lấn làn sẽ bị truất quyền thi đấu.\n- **Kỹ thuật:** Đòi hỏi tần số bước cực nhanh, sức bộc phát mạnh mẽ."
             },
             "right": {
-              "title": "Cự ly Trung bình (800-5000m)",
-              "content": "- **Xuất phát:** Cao<br>- **Làn chạy:** Được phép chạy chung/nhập làn (từ 1500m)<br>- **Nhịp thở:** 2 bước hít - 2 bước thở"
+              "title": "Cự Ly Trung Bình (800m - 5000m)",
+              "content": "- **Tư thế xuất phát:** Xuất phát cao.\n- **Làn chạy:** Đối với 800m, được nhập làn sau khi chạy hết đoạn cong đầu tiên.\n- **Kỹ thuật thở:** Tuân theo nhịp thở 2 bước hít - 2 bước thở để duy trì sức bền tối đa."
             }
-          }
-        },
-        {
-          "type": "quiz",
-          "title": "Kiểm tra Nhanh",
-          "data": {
-            "question": "Trong chạy cự ly Trung bình (800-5000m), nhịp thở nào thường được khuyến nghị?",
-            "options": [
-              "1 bước hít - 1 bước thở",
-              "2 bước hít - 2 bước thở",
-              "Hít thở tự do",
-              "Nín thở rút đích"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Đối với cự ly trung bình, nhịp thở 2 bước hít - 2 bước thở là phổ biến nhất để đảm bảo cơ thể được cung cấp đủ oxy duy trì sức bền.",
-            "quiz_tags": [
-              "Kỹ thuật chạy",
-              "Kỹ thuật xuất phát",
-              "Kỹ thuật đi bộ"
-            ]
           }
         }
       ]
     },
     {
-      "node_id": "node_ky_thuat_2",
+      "node_id": "tc3_2",
       "components": [
         {
           "type": "process-steps",
-          "title": "Kỹ thuật Xuất phát thấp",
+          "title": "Kỹ Thuật Xuất Phát Thấp",
           "data": {
             "steps": [
               {
                 "name": "1. Vào chỗ",
-                "description": "Hai tay vòm sát vạch (cách 10cm). Chân trước cách vạch 1-1.5 bàn chân."
+                "description": "Hai tay chống vòm sát vạch xuất phát. Chân thuận đặt ở bàn đạp trước, chân kia ở bàn đạp sau."
               },
               {
                 "name": "2. Sẵn sàng",
-                "description": "Nâng mông cao hơn đầu. Mắt nhìn cách vạch 20-25cm."
+                "description": "Từ từ nâng mông lên cao hơn vai. Mắt nhìn về phía trước cách vạch tầm 20-25cm."
               },
               {
                 "name": "3. Chạy",
-                "description": "Đạp mạnh chân sau, đánh tay ngược chiều."
+                "description": "Đạp mạnh chân sau rời bàn đạp, hai tay đánh ngược chiều tịnh tiến lao về phía trước."
               }
-            ]
-          }
-        },
-        {
-          "type": "quiz",
-          "title": "Chốt chặn 3: Kỹ thuật",
-          "data": {
-            "question": "Vận động viên thi đấu cự ly 800m sẽ sử dụng kỹ thuật xuất phát nào?",
-            "options": [
-              "Xuất phát thấp",
-              "Xuất phát cao",
-              "Tùy chọn",
-              "Xuất phát 3 điểm"
-            ],
-            "correctAnswer": 1,
-            "explanation": "800m thuộc cự ly Trung bình, do đó bắt buộc sử dụng kỹ thuật Xuất phát cao.",
-            "quiz_tags": [
-              "Kỹ thuật chạy",
-              "Kỹ thuật xuất phát",
-              "Kỹ thuật đi bộ"
             ]
           }
         }
       ]
     },
     {
-      "node_id": "node_luat_1",
+      "node_id": "tc4_1",
       "components": [
         {
           "type": "delta-cheat-sheet",
@@ -364,52 +304,45 @@
           "data": {
             "items": [
               {
-                "questionSnippet": "Hậu quả của việc rời vị trí trước hiệu lệnh còi (Xuất phát sớm)?",
-                "keyword": "BỊ LOẠI NGAY",
-                "correctDelta": "Vận động viên lập tức **BỊ LOẠI** khỏi cuộc thi.",
+                "questionSnippet": "Xuất phát sớm xác định khi phản ứng dưới bao nhiêu giây?",
+                "keyword": "0,10 giây",
+                "correctDelta": "Dưới **0,10 giây**",
                 "wrongTraps": [
-                  "Bị cảnh cáo lần 1",
-                  "Bị trừ điểm thành tích"
+                  "0,05 giây",
+                  "0,15 giây",
+                  "0,20 giây"
                 ],
-                "explanation": "Trong điền kinh hiện đại, lỗi False Start sẽ bị truất quyền thi đấu ngay lập tức."
+                "explanation": "Máy tính mặc định con người không thể phản ứng nhanh hơn 0.1 giây. Nhanh hơn mức này chắc chắn là xuất phát sớm và VĐV sẽ bị loại trực tiếp."
               },
               {
-                "questionSnippet": "Quy định về chạm đích để tính thành tích?",
-                "keyword": "THÂN (NGỰC)",
-                "correctDelta": "Thành tích chỉ được tính khi **THÂN (NGỰC)** chạm mặt phẳng đích.",
+                "questionSnippet": "Góc ném lao hợp lệ là bao nhiêu?",
+                "keyword": "34,92°",
+                "correctDelta": "**34,92°**",
                 "wrongTraps": [
-                  "Chạm Đầu",
-                  "Chạm Tay",
-                  "Chạm Mũi chân"
+                  "29°",
+                  "30°",
+                  "28,5°"
                 ],
-                "explanation": "Các bộ phận tay, đầu, chân qua vạch trước không có giá trị tính thành tích."
+                "explanation": "Theo chuẩn giáo trình, đây là góc giới hạn chính xác cho khu vực ném lao hợp lệ. Lao rơi ngoài góc này không được công nhận."
               },
               {
-                "questionSnippet": "Lỗi cản trở trong thi đấu chạy?",
-                "keyword": "CẤM XÔ ĐẨY",
-                "correctDelta": "Được phép vượt lên nhưng **CẤM xô đẩy, cản trở** đối thủ.",
+                "questionSnippet": "Đi bộ thể thao phạm luật khi nào?",
+                "keyword": "Hai chân rời đất",
+                "correctDelta": "**Hai chân rời đất** cùng lúc",
                 "wrongTraps": [
-                  "Không được phép vượt đối thủ",
-                  "Được phép tì đè nhẹ"
+                  "Đi nhanh",
+                  "Thở mạnh",
+                  "Vung tay"
                 ],
-                "explanation": "Hành vi lấn làn, xô đẩy ở mọi cự ly đều dẫn đến việc bị truất quyền thi đấu."
+                "explanation": "Quy định cốt lõi của đi bộ là lúc nào cũng phải có ít nhất 1 chân tiếp xúc mặt đất. Khi 2 chân rời đất thì chuyển thành 'chạy'."
               }
             ]
           }
         },
         {
           "type": "quiz",
-          "title": "Chốt chặn 4: Luật",
+          "title": "Chốt chặn Thực Chiến: Luật Thi Đấu",
           "data": {
-            "question": "Khi VĐV lao qua vạch đích, bộ phận nào chạm vạch trước sẽ quyết định thành tích?",
-            "options": [
-              "Đầu",
-              "Mũi chân",
-              "Tay",
-              "Ngực (Thân)"
-            ],
-            "correctAnswer": 3,
-            "explanation": "Luật điền kinh quy định chỉ tính thành tích khi mặt phẳng ngực (thân) cắt ngang vạch đích.",
             "quiz_tags": [
               "Luật thi đấu"
             ]
