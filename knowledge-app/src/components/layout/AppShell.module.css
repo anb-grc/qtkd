@@ -146,6 +146,6 @@
   }
 
   .sidePanelContent {
-    padding: var(--space-md) 0;
+    padding: var(--space-md);
   }
 }
