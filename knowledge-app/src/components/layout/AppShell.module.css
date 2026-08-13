@@ -1,7 +1,8 @@
 .hubContainer {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: calc(100vh - 220px);
+  min-height: 400px;
   overflow: hidden;
 }
 

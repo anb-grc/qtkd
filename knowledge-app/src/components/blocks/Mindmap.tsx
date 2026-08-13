@@ -370,7 +370,7 @@ export function Mindmap({ data, completedNodes = [], onNodeSelect, selectedNodeI
         maxScale={2}
         wheel={{ 
           step: 0.1, 
-          activationKeys: ["Escape", "Control", "Alt", "Shift", "Meta"] 
+          activationKeys: ["Escape", "Control", "Alt", "Shift", "Meta", "Command", "OS"] 
         }}
         centerZoomedOut={false}
         onWheel={(ref, e) => {
