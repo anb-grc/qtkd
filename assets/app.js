@@ -29,7 +29,7 @@ function buildFilterUI(data) {
         }
     });
     
-    let tagOptions = `<option value="all">Tất cả dạng câu hỏi</option>`;
+    let tagOptions = `<option value="all">Tất cả</option>`;
     Array.from(allTags).sort().forEach(t => {
         tagOptions += `<option value="${t}">${t}</option>`;
     });
@@ -51,10 +51,12 @@ function buildFilterUI(data) {
             <select id="limitFilter" onchange="changeLimit()" style="padding:8px 14px; border-radius:8px; border:1px solid var(--border); width:fit-content; background: var(--surface); color: var(--text); font-family: inherit;">
                 ${limitOptions}
             </select>
-            <button id="sortBtn" onclick="sortQuestions()" style="padding:8px 14px; border-radius:8px; border:1px solid var(--border); width:fit-content; background: var(--surface); color: var(--text); font-family: inherit; cursor:pointer; white-space:nowrap;">High ↑</button>
-            <button id="modeBtn" onclick="toggleKeywordMode()" style="padding:8px 14px; border-radius:8px; border:1px solid var(--border); width:fit-content; background: var(--surface); color: var(--text); font-family: inherit; cursor:pointer; white-space:nowrap; transition: all 0.2s;">Đầy đủ</button>
-            <button id="printBtn" onclick="window.print()" style="padding:8px 14px; border-radius:8px; border:1px solid var(--border); width:fit-content; background: var(--surface); color: var(--text); cursor:pointer; display:flex; align-items:center; justify-content:center;">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+            <div style="flex: 1;"></div>
+            <button id="modeBtn" onclick="toggleKeywordMode()" style="padding:8px; border:none; background:transparent; color: var(--text); cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"></path></svg>
+            </button>
+            <button id="printBtn" onclick="window.print()" style="padding:8px; border:none; background:transparent; color: var(--text); cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
             </button>
         </div>
     `;
@@ -72,14 +74,10 @@ function toggleKeywordMode() {
     window.isKeywordMode = !window.isKeywordMode;
     const btn = document.getElementById('modeBtn');
     if (window.isKeywordMode) {
-        btn.textContent = 'Từ khóa';
         btn.style.color = 'var(--secondary)';
-        btn.style.borderColor = 'var(--secondary)';
         document.body.classList.add('keyword-mode-active');
     } else {
-        btn.textContent = 'Đầy đủ';
         btn.style.color = 'var(--text)';
-        btn.style.borderColor = 'var(--border)';
         document.body.classList.remove('keyword-mode-active');
     }
 }
