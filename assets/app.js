@@ -864,19 +864,19 @@ function showQuizModal() {
                 
                 <!-- BƯỚC 1: CHỌN CHẾ ĐỘ -->
                 <div id="quiz-modal-step-1">
-                    <h2 style="margin-top:0; color:var(--text); font-size:1.35em;">Chọn chế độ Luyện thi</h2>
-                    <p style="color:var(--muted); font-size:0.92em; margin-bottom:22px;">Bạn muốn làm bài theo hình thức nào?</p>
+                    <h2 style="margin-top:0; color:var(--text); font-size:1.35em;">CHỌN CHẾ ĐỘ THI THỬ</h2>
+                    <p style="color:var(--muted); font-size:0.92em; margin-bottom:22px;">Bạn muốn thi thử theo hình thức nào?</p>
                     <div style="display:flex; flex-direction:column; gap:14px;">
                         <button onclick="selectQuizMode('optimized')" class="modal-btn modal-btn-opt">
-                            <span>Luyện Tối Ưu (80/20)</span>
-                            <span class="modal-btn-sub">Chỉ bốc câu hỏi trọng tâm, thường ra thi</span>
+                            <span>Tối Ưu</span>
+                            <span class="modal-btn-sub">Tập trung 20% câu hỏi chiếm 80% tỉ lệ ra thi</span>
                         </button>
                         <button onclick="selectQuizMode('structured')" class="modal-btn modal-btn-str">
-                            <span>Luyện Cấu Trúc Đề</span>
-                            <span class="modal-btn-sub">Bốc theo cấu trúc chương/dạng bài chuẩn</span>
+                            <span>Cấu Trúc Đề</span>
+                            <span class="modal-btn-sub">Các câu hỏi theo cấu trúc đề thi chuẩn</span>
                         </button>
                     </div>
-                    <button onclick="document.getElementById('quiz-mode-modal').style.display='none'" class="modal-btn-cancel">Hủy bỏ</button>
+                    <button onclick="document.getElementById('quiz-mode-modal').style.display='none'" class="modal-btn-cancel">Quay lại</button>
                 </div>
 
                 <!-- BƯỚC 2: CHỌN SỐ CÂU HỎI -->
