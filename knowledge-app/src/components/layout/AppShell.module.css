@@ -117,11 +117,6 @@
     transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   }
 
-  .mainLayout:has(.rightPane:not(.hidden)) .leftPane {
-    flex: 0 0 40vh;
-    height: 40vh;
-  }
-
   .rightPane {
     position: fixed;
     left: 0;
