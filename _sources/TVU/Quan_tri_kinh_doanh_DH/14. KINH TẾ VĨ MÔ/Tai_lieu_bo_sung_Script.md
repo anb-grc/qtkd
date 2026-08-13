@@ -9,7 +9,7 @@
 - **Kinh tế Vi mô:** Nghiên cứu cách ứng xử của các cá thể (người tiêu dùng, nhà sản xuất), tách biệt từng bộ phận riêng lẻ của nền kinh tế.
 - **Kinh tế Vĩ mô:** Nghiên cứu đặc điểm, cấu trúc, và hành vi tổng thể của nền kinh tế thông qua các biến số lớn như: GDP, GNP, lạm phát, thất nghiệp, cung tiền.
 
-### 2. Mười Nguyên Lý Kinh Tế Học Cơ Bản
+### 2. 10 Nguyên Lý Kinh Tế Học Cơ Bản
 **a. Nhóm 1: Con người ra quyết định**
 1. **Đánh đổi:** Để có một thứ, ta phải từ bỏ một thứ khác. 
 2. **Chi phí cơ hội:** Chi phí của một thứ là cái ta từ bỏ để có được nó.
