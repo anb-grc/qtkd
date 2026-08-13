@@ -340,6 +340,19 @@ export function Mindmap({ data, completedNodes = [], onNodeSelect, selectedNodeI
     };
   }, []);
 
+  // Hack: Trình duyệt trên Mac hay miss sự kiện keydown của Cmd, ta giả lập keydown khi cuộn chuột có Cmd
+  useEffect(() => {
+    const handleWheel = (e: WheelEvent) => {
+      if (e.metaKey) {
+        window.dispatchEvent(new KeyboardEvent('keydown', { key: 'Meta', metaKey: true, bubbles: true }));
+      } else {
+        window.dispatchEvent(new KeyboardEvent('keyup', { key: 'Meta', metaKey: false, bubbles: true }));
+      }
+    };
+    window.addEventListener('wheel', handleWheel, { capture: true });
+    return () => window.removeEventListener('wheel', handleWheel, { capture: true });
+  }, []);
+
   const rootText = data.root || (data as any).title || (data as any).name || '';
   const rawChildren = data.children || (data as any).branches || (data as any).nodes || [];
   const children: MindmapNode[] = rawChildren.map(normalizeNode);
@@ -370,7 +383,7 @@ export function Mindmap({ data, completedNodes = [], onNodeSelect, selectedNodeI
         maxScale={2}
         wheel={{ 
           step: 0.1, 
-          activationKeys: ["Escape", "Control", "Alt", "Shift", "Meta", "Command", "OS"] 
+          activationKeys: ["Escape", "Control", "Alt", "Shift", "Meta", "Command", "OS", "MetaLeft", "MetaRight", "OSLeft", "OSRight"] 
         }}
         centerZoomedOut={false}
         onWheel={(ref, e) => {

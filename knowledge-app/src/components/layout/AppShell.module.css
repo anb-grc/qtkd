@@ -1,7 +1,7 @@
 .hubContainer {
   display: flex;
   flex-direction: column;
-  height: calc(100vh - 220px);
+  height: calc(100dvh - 220px);
   min-height: 400px;
   overflow: hidden;
 }
@@ -12,6 +12,7 @@
 .mainLayout {
   display: flex;
   flex: 1;
+  height: 100%;
   overflow: hidden;
   position: relative;
 }
@@ -20,6 +21,7 @@
 .leftPane {
   flex: 1;
   min-width: 0;
+  min-height: 0;
   position: relative;
   background: var(--color-bg-subtle);
 }
