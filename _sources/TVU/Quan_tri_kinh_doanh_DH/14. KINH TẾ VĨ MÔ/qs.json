@@ -2,7 +2,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Tổng Quan Kinh Tế Học"
+      "Tổng Quan Kinh Tế Học",
+      "Kiến thức"
     ],
     "question": "Kinh tế vĩ mô <span class=\"keyword\">ít đề cập</span> đến:",
     "options": [
@@ -16,7 +17,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Đo Lường Sản Lượng Quốc Gia"
+      "Đo Lường Sản Lượng Quốc Gia",
+      "Kiến thức"
     ],
     "question": "Tất cả những yếu tố dưới đây là bộ phận của thu nhập quốc dân, <span class=\"keyword\">trừ</span>:",
     "options": [
@@ -30,7 +32,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Đo Lường Sản Lượng Quốc Gia"
+      "Đo Lường Sản Lượng Quốc Gia",
+      "Kiến thức"
     ],
     "question": "Tại Việt Nam nếu <span class=\"keyword\">GDP lớn hơn GNP</span> thì:",
     "options": [
@@ -44,7 +47,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Đo Lường Sản Lượng Quốc Gia"
+      "Đo Lường Sản Lượng Quốc Gia",
+      "Kiến thức"
     ],
     "question": "Khoản chi tiêu 40.000$ mua một chiếc xe BMW được <span class=\"keyword\">sản xuất tại Đức</span> của bạn được tính vào GDP của Việt Nam như thế nào?",
     "options": [
@@ -58,7 +62,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Tổng Quan Kinh Tế Học"
+      "Tổng Quan Kinh Tế Học",
+      "Kiến thức"
     ],
     "question": "\"<span class=\"keyword\">Chỉ số giá</span> hàng tiêu dùng ở Việt Nam <span class=\"keyword\">tăng khoảng 12%</span> mỗi năm trong giai đoạn 2007-2010\" câu nói này thuộc:",
     "options": [
@@ -72,7 +77,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Tổng Quan Kinh Tế Học"
+      "Tổng Quan Kinh Tế Học",
+      "Kiến thức"
     ],
     "question": "Chủ đề nào dưới đây được <span class=\"keyword\">kinh tế vĩ mô</span> quan tâm?",
     "options": [
@@ -86,7 +92,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Chính Sách Tiền Tệ"
+      "Chính Sách Tiền Tệ",
+      "Kiến thức"
     ],
     "question": "Theo lý thuyết của Keynes kết hợp chính sách nào trong các chính sách sau đây thích hợp nhất đối với một Chính phủ đang <span class=\"keyword\">cắt giảm thất nghiệp</span>?",
     "options": [
@@ -100,7 +107,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Tổng Quan Kinh Tế Học"
+      "Tổng Quan Kinh Tế Học",
+      "Kiến thức"
     ],
     "question": "Phát biểu nào sau đây <span class=\"keyword\">KHÔNG đúng</span>?",
     "options": [
@@ -114,7 +122,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Đo Lường Sản Lượng Quốc Gia"
+      "Đo Lường Sản Lượng Quốc Gia",
+      "Kiến thức"
     ],
     "question": "Trong nền kinh tế <span class=\"keyword\">mở</span>, phát biểu nào sau đây đúng?",
     "options": [
@@ -129,7 +138,8 @@
     "weight": "high",
     "tags": [
       "Bài tập",
-      "Đo Lường Sản Lượng Quốc Gia"
+      "Đo Lường Sản Lượng Quốc Gia",
+      "Kiến thức"
     ],
     "question": "Có các chỉ tiêu như sau: GNP = 5000; DI = 4100; B = -200; C = 3800; NX = -100. Giả sử khấu hao, lợi nhuận nộp và không chia, NIA đều bằng không. <span class=\"keyword\">Chi tiêu của Chính phủ</span> về hàng hóa và dịch vụ là:",
     "options": [
@@ -143,7 +153,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Đo Lường Sản Lượng Quốc Gia"
+      "Đo Lường Sản Lượng Quốc Gia",
+      "Kiến thức"
     ],
     "question": "<span class=\"keyword\">Sản phẩm trung gian</span> có thể được định nghĩa là sản phẩm:",
     "options": [
@@ -157,7 +168,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Đo Lường Sản Lượng Quốc Gia"
+      "Đo Lường Sản Lượng Quốc Gia",
+      "Kiến thức"
     ],
     "question": "Những khoản mục nào sau đây sẽ được <span class=\"keyword\">tính vào GDP năm nay</span>?",
     "options": [
@@ -172,7 +184,8 @@
     "weight": "high",
     "tags": [
       "Bài tập",
-      "Tăng Trưởng Kinh Tế"
+      "Tăng Trưởng Kinh Tế",
+      "Kiến thức"
     ],
     "question": "Giả sử GDP danh nghĩa năm 2011 là 20 tỷ và năm 2012 là 25,3 tỷ. Biết chỉ số giá năm 2011 là 100% và năm 2012 là 115%. <span class=\"keyword\">Tốc độ tăng trưởng</span> kinh tế năm 2012 là:",
     "options": [
@@ -186,7 +199,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Đo Lường Sản Lượng Quốc Gia"
+      "Đo Lường Sản Lượng Quốc Gia",
+      "Kiến thức"
     ],
     "question": "Trong nền kinh tế giản đơn và nền kinh tế <span class=\"keyword\">đóng</span> có Chính phủ, phát biểu nào sau đây đúng?",
     "options": [
@@ -200,7 +214,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Đo Lường Sản Lượng Quốc Gia"
+      "Đo Lường Sản Lượng Quốc Gia",
+      "Kiến thức"
     ],
     "question": "Nếu tính theo phương pháp <span class=\"keyword\">giá trị gia tăng</span> thì GDP bằng:",
     "options": [
@@ -214,7 +229,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Lạm Phát Và Thất Nghiệp"
+      "Lạm Phát Và Thất Nghiệp",
+      "Kiến thức"
     ],
     "question": "<span class=\"keyword\">Tỉ lệ lạm phát</span> năm 2002 bằng 9% có nghĩa là:",
     "options": [
@@ -229,7 +245,8 @@
     "weight": "normal",
     "tags": [
       "Lạm Phát Và Thất Nghiệp",
-      "Đo Lường Sản Lượng Quốc Gia"
+      "Đo Lường Sản Lượng Quốc Gia",
+      "Kiến thức"
     ],
     "question": "Do sự gia tăng giá xăng khiến cho người tiêu dùng đi xe đạp nhiều hơn và đi xe hơi ít hơn, nên CPI có xu hướng <span class=\"keyword\">ước tính không đầy đủ</span> chi phí sinh hoạt.",
     "options": [
@@ -243,7 +260,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Đo Lường Sản Lượng Quốc Gia"
+      "Đo Lường Sản Lượng Quốc Gia",
+      "Kiến thức"
     ],
     "question": "GDP thực và GDP danh nghĩa của một năm <span class=\"keyword\">bằng nhau</span> nếu:",
     "options": [
@@ -257,7 +275,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Tiền Tệ"
+      "Tiền Tệ",
+      "Kiến thức"
     ],
     "question": "Nếu <span class=\"keyword\">mức giá tăng gấp đôi</span>, phát biểu nào sau đây đúng?",
     "options": [
@@ -271,7 +290,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Lạm Phát Và Thất Nghiệp"
+      "Lạm Phát Và Thất Nghiệp",
+      "Kiến thức"
     ],
     "question": "Lạm phát có thể được đo lường bằng tất cả các chỉ số sau đây <span class=\"keyword\">ngoại trừ</span>:",
     "options": [
@@ -285,7 +305,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Lạm Phát Và Thất Nghiệp"
+      "Lạm Phát Và Thất Nghiệp",
+      "Kiến thức"
     ],
     "question": "Theo số liệu của Tổng cục Thống kê <span class=\"keyword\">tỉ lệ lạm phát</span> của Việt Nam năm 2006 là 6,6%. Điều đó có nghĩa là:",
     "options": [
@@ -299,7 +320,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Lạm Phát Và Thất Nghiệp"
+      "Lạm Phát Và Thất Nghiệp",
+      "Kiến thức"
     ],
     "question": "Trong một nền kinh tế, khi có sự đầu tư và chi tiêu <span class=\"keyword\">quá mức</span> của tư nhân, của Chính phủ hoặc xuất khẩu tăng mạnh sẽ dẫn đến tình trạng:",
     "options": [
@@ -313,7 +335,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Đo Lường Sản Lượng Quốc Gia"
+      "Đo Lường Sản Lượng Quốc Gia",
+      "Kiến thức"
     ],
     "question": "Sản phẩm trung gian và sản phẩm cuối cùng <span class=\"keyword\">khác nhau</span> ở:",
     "options": [
@@ -328,7 +351,8 @@
     "weight": "high",
     "tags": [
       "Bài tập",
-      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở"
+      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở",
+      "Kiến thức"
     ],
     "question": "Nếu đầu tư <span class=\"keyword\">gia tăng 15</span> và xu hướng tiêu dùng biên là <span class=\"keyword\">0,8</span>, khuynh hướng đầu tư biên = 0. Mức sản lượng sẽ:",
     "options": [
@@ -343,7 +367,8 @@
     "weight": "high",
     "tags": [
       "Bài tập",
-      "Lạm Phát Và Thất Nghiệp"
+      "Lạm Phát Và Thất Nghiệp",
+      "Kiến thức"
     ],
     "question": "Giả sử ta có mức sản lượng cân bằng là <span class=\"keyword\">Y = 850</span>. Biết <span class=\"keyword\">Yp = 1000</span> và <span class=\"keyword\">Un = 5%</span>. Tỷ lệ thất nghiệp tại mức sản lượng cân bằng:",
     "options": [
@@ -357,7 +382,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở"
+      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở",
+      "Kiến thức"
     ],
     "question": "<span class=\"keyword\">Số nhân</span> của nền kinh tế giản đơn trong trường hợp <span class=\"keyword\">đầu tư thay đổi theo sản lượng</span> là:",
     "options": [
@@ -371,7 +397,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở"
+      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở",
+      "Kiến thức"
     ],
     "question": "Tìm <span class=\"keyword\">câu SAI</span> trong các câu sau đây?",
     "options": [
@@ -386,7 +413,8 @@
     "weight": "high",
     "tags": [
       "Bài tập",
-      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở"
+      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở",
+      "Kiến thức"
     ],
     "question": "Giả sử M0 = 6; <span class=\"keyword\">MPM = 0,1</span>; MPS = 0,2; MPT = 0,1 và mức sản lượng là <span class=\"keyword\">Y = 450</span>. Vậy giá trị <span class=\"keyword\">hàng hóa nhập</span> tại mức sản lượng trên sẽ là",
     "options": [
@@ -401,7 +429,8 @@
     "weight": "high",
     "tags": [
       "Bài tập",
-      "Chính Sách Tiền Tệ"
+      "Chính Sách Tiền Tệ",
+      "Kiến thức"
     ],
     "question": "Giả sử ta có: Cm =0,55, Im=0,14, Tm=0,2, Mm =0,08, C0 =38, Io=100, T0=20, M0=38, G=120, X= 40. <span class=\"keyword\">Tình trạng ngân sách</span> tại điểm cân bằng:",
     "options": [
@@ -416,7 +445,8 @@
     "weight": "high",
     "tags": [
       "Bài tập",
-      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở"
+      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở",
+      "Kiến thức"
     ],
     "question": "Giả sử (số liệu bài trên)... Chính phủ <span class=\"keyword\">tăng chi tiêu thêm 20</span> và đầu tư tư nhân <span class=\"keyword\">tăng thêm 5</span>. Mức <span class=\"keyword\">sản lượng cân bằng mới</span>:",
     "options": [
@@ -430,7 +460,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Tổng Cung Và Chu Kỳ Kinh Doanh"
+      "Tổng Cung Và Chu Kỳ Kinh Doanh",
+      "Kiến thức"
     ],
     "question": "Khi <span class=\"keyword\">Y < YP</span>, khi nào nền kinh tế quốc gia tái thiết lập được <span class=\"keyword\">cân đối bên trong</span>?",
     "options": [
@@ -445,7 +476,8 @@
     "weight": "high",
     "tags": [
       "Bài tập",
-      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở"
+      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở",
+      "Kiến thức"
     ],
     "question": "Nếu khuynh hướng tiêu dùng biên (Cm) là 0,8, đầu tư biên (Im) là 0,2, thuế biên (Tm) là 0,2, nhập khẩu biên (Mm) là 0,14. <span class=\"keyword\">Số nhân của thuế</span> là:",
     "options": [
@@ -460,7 +492,8 @@
     "weight": "high",
     "tags": [
       "Bài tập",
-      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở"
+      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở",
+      "Kiến thức"
     ],
     "question": "Với số nhân tổng quát K = 4, <span class=\"keyword\">tổng cầu tăng thêm 100</span> thì <span class=\"keyword\">sản lượng tăng thêm</span>:",
     "options": [
@@ -475,7 +508,8 @@
     "weight": "high",
     "tags": [
       "Bài tập",
-      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở"
+      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở",
+      "Kiến thức"
     ],
     "question": "Hàm số tiêu dùng: C = 20 + 0,9 Yd (Yd: thu nhập khả dụng). <span class=\"keyword\">Tiết kiệm S</span> ở mức <span class=\"keyword\">thu nhập khả dụng 100</span> là:",
     "options": [
@@ -489,7 +523,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở"
+      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở",
+      "Kiến thức"
     ],
     "question": "<span class=\"keyword\">Thu nhập kỳ vọng</span> trong tương lai <span class=\"keyword\">tăng</span> khiến cho:",
     "options": [
@@ -503,7 +538,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Đo Lường Sản Lượng Quốc Gia"
+      "Đo Lường Sản Lượng Quốc Gia",
+      "Kiến thức"
     ],
     "question": "Khoản mục nào sau đây <span class=\"keyword\">KHÔNG được tính</span> vào GDP của <span class=\"keyword\">năm 2015</span>?",
     "options": [
@@ -517,7 +553,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Tổng Quan Kinh Tế Học"
+      "Tổng Quan Kinh Tế Học",
+      "Kiến thức"
     ],
     "question": "Vấn đề nào sau đây <span class=\"keyword\">KHÔNG được</span> các nhà kinh tế vĩ mô <span class=\"keyword\">quan tâm</span> nghiên cứu?",
     "options": [
@@ -531,7 +568,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Tăng Trưởng Kinh Tế"
+      "Tăng Trưởng Kinh Tế",
+      "Kiến thức"
     ],
     "question": "Nếu hai nước cùng khởi đầu với mức GDP bình quân đầu người như nhau, và một nước <span class=\"keyword\">tăng trưởng 2%/năm</span> còn nước kia <span class=\"keyword\">tăng trưởng 4%/năm</span>, thì kết luận gì?",
     "options": [
@@ -545,7 +583,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Đo Lường Sản Lượng Quốc Gia"
+      "Đo Lường Sản Lượng Quốc Gia",
+      "Kiến thức"
     ],
     "question": "Hạng mục nào dưới đây <span class=\"keyword\">KHÔNG nằm trong</span> cách tính GNP?",
     "options": [
@@ -559,7 +598,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Tăng Trưởng Kinh Tế"
+      "Tăng Trưởng Kinh Tế",
+      "Kiến thức"
     ],
     "question": "Tốc độ <span class=\"keyword\">tăng GDP thực tế</span> của Việt Nam năm 2006 là <span class=\"keyword\">8,2%</span>. Điều đó có nghĩa là:",
     "options": [
@@ -573,7 +613,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở"
+      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở",
+      "Kiến thức"
     ],
     "question": "Trong nền kinh tế mở, GDP tính theo phương pháp chi tiêu và theo luồng sản phẩm cuối cùng đều <span class=\"keyword\">bằng</span>:",
     "options": [
@@ -587,7 +628,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở"
+      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở",
+      "Kiến thức"
     ],
     "question": "<span class=\"keyword\">Thu nhập khả dụng</span> là",
     "options": [
@@ -601,7 +643,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Đo Lường Sản Lượng Quốc Gia"
+      "Đo Lường Sản Lượng Quốc Gia",
+      "Kiến thức"
     ],
     "question": "Lợi nhuận do một <span class=\"keyword\">công ty Việt Nam</span> tạo ra tại <span class=\"keyword\">Mátxcơva</span> sẽ được tính vào:",
     "options": [
@@ -615,7 +658,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Lạm Phát Và Thất Nghiệp"
+      "Lạm Phát Và Thất Nghiệp",
+      "Kiến thức"
     ],
     "question": "Chính sách nào sau đây của chính phủ <span class=\"keyword\">thất bại</span> đối với việc <span class=\"keyword\">giảm</span> tỷ lệ thất nghiệp?",
     "options": [
@@ -629,7 +673,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Lạm Phát Và Thất Nghiệp"
+      "Lạm Phát Và Thất Nghiệp",
+      "Kiến thức"
     ],
     "question": "Thành phần nào sau đây thuộc <span class=\"keyword\">lực lượng lao động</span> của quốc gia?",
     "options": [
@@ -643,7 +688,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Lạm Phát Và Thất Nghiệp"
+      "Lạm Phát Và Thất Nghiệp",
+      "Kiến thức"
     ],
     "question": "Yếu tố nào sau đây là nguyên nhân của <span class=\"keyword\">lạm phát cao</span>?",
     "options": [
@@ -658,7 +704,8 @@
     "weight": "high",
     "tags": [
       "Bài tập",
-      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở"
+      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở",
+      "Kiến thức"
     ],
     "question": "Nền kinh tế giản đơn có: C = 120 + 0,7Yd; I = 50 + 0,1Y; Yp = 1000. Sản lượng <span class=\"keyword\">cần phải thay đổi</span> là bao nhiêu để đạt được mức sản lượng tiềm năng?",
     "options": [
@@ -673,7 +720,8 @@
     "weight": "high",
     "tags": [
       "Bài tập",
-      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở"
+      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở",
+      "Kiến thức"
     ],
     "question": "Trong nền kinh tế giản đơn giả sử có hai khu vực sau: C = 120 + 0,7Yd; I = 50 + 0,1Y. Mức <span class=\"keyword\">sản lượng cân bằng</span> là:",
     "options": [
@@ -688,7 +736,8 @@
     "weight": "high",
     "tags": [
       "Bài tập",
-      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở"
+      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở",
+      "Kiến thức"
     ],
     "question": "Giả sử M0 = 6; MPM = 0,1; MPS = 0,2; MPT = 0,1 và mức sản lượng là 450. Vậy <span class=\"keyword\">giá trị hàng hóa nhập</span> tại mức sản lượng trên sẽ là",
     "options": [
@@ -702,7 +751,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở"
+      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở",
+      "Kiến thức"
     ],
     "question": "<span class=\"keyword\">Số nhân chi tiêu của Chính phủ</span> về hàng hóa và dịch vụ:",
     "options": [
@@ -716,7 +766,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở"
+      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở",
+      "Kiến thức"
     ],
     "question": "Chi <span class=\"keyword\">chuyển nhượng</span> của chính phủ <span class=\"keyword\">giảm</span> khiến cho:",
     "options": [
@@ -730,7 +781,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở"
+      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở",
+      "Kiến thức"
     ],
     "question": "Yếu tố nào sau đây thay đổi khi <span class=\"keyword\">di chuyển dọc</span> theo đường tổng cầu?",
     "options": [
@@ -744,7 +796,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Tiền Tệ"
+      "Tiền Tệ",
+      "Kiến thức"
     ],
     "question": "Khi cung tiền và cầu tiền được biểu diễn bằng một đồ thị với trục tung là lãi suất và trục hoành là lượng tiền, sự <span class=\"keyword\">cắt giảm thu nhập</span> làm:",
     "options": [
@@ -758,7 +811,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Tiền Tệ"
+      "Tiền Tệ",
+      "Kiến thức"
     ],
     "question": "Hoạt động nào sau đây của ngân hàng trung ương sẽ làm <span class=\"keyword\">tăng cơ sở tiền tệ</span>?",
     "options": [
@@ -772,7 +826,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Lạm Phát Và Thất Nghiệp"
+      "Lạm Phát Và Thất Nghiệp",
+      "Kiến thức"
     ],
     "question": "Nếu <span class=\"keyword\">lạm phát trong thực tế lớn hơn</span> so với mức mà mọi người kỳ vọng, thì phát biểu nào sau đây đúng?",
     "options": [
@@ -787,7 +842,8 @@
     "weight": "high",
     "tags": [
       "Bài tập",
-      "Lạm Phát Và Thất Nghiệp"
+      "Lạm Phát Và Thất Nghiệp",
+      "Kiến thức"
     ],
     "question": "Lãi suất danh nghĩa 7%, cung tiền tăng 5%/năm. Nếu chính phủ <span class=\"keyword\">tăng tốc độ tăng tiền</span> từ 5% <span class=\"keyword\">lên đến 9%</span>, hiệu ứng Fisher cho thấy rằng trong dài hạn, lãi suất danh nghĩa sẽ là:",
     "options": [
@@ -801,7 +857,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Tăng Trưởng Kinh Tế"
+      "Tăng Trưởng Kinh Tế",
+      "Kiến thức"
     ],
     "question": "Để thúc đẩy tăng trưởng, Chính phủ <span class=\"keyword\">KHÔNG nên</span> làm gì sau đây?",
     "options": [
@@ -815,7 +872,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Tiền Tệ"
+      "Tiền Tệ",
+      "Kiến thức"
     ],
     "question": "Ngân hàng thương mại <span class=\"keyword\">tạo tiền</span> bằng cách",
     "options": [
@@ -829,7 +887,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Tiền Tệ"
+      "Tiền Tệ",
+      "Kiến thức"
     ],
     "question": "<span class=\"keyword\">Mở rộng tiền tệ</span> (hoặc nới lỏng tiền tệ):",
     "options": [
@@ -843,7 +902,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở"
+      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở",
+      "Kiến thức"
     ],
     "question": "Tác động ngắn hạn của chính sách <span class=\"keyword\">nới lỏng tiền tệ</span> trong nền kinh tế mở với cơ chế <span class=\"keyword\">tỷ giá hối đoái thả nổi</span> là:",
     "options": [
@@ -857,7 +917,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở"
+      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở",
+      "Kiến thức"
     ],
     "question": "Trong cơ chế tỷ giá hối đoái <span class=\"keyword\">thả nổi hoàn toàn</span>, phát biểu nào sau đây đúng?",
     "options": [
@@ -872,7 +933,8 @@
     "weight": "high",
     "tags": [
       "Bài tập",
-      "Mô Hình IS - LM"
+      "Mô Hình IS - LM",
+      "Kiến thức"
     ],
     "question": "Giả sử: C = 100 + 0,8Yd ; I = 240 + 0,16Y – 80r; X = 210; M = 50 + 0,2Y; G = 500; T = 50 + 0,2Y. <span class=\"keyword\">Phương trình đường IS</span> có dạng?",
     "options": [
@@ -887,7 +949,8 @@
     "weight": "high",
     "tags": [
       "Bài tập",
-      "Mô Hình IS - LM"
+      "Mô Hình IS - LM",
+      "Kiến thức"
     ],
     "question": "Nếu sự <span class=\"keyword\">gia tăng chi tiêu</span> của Chính phủ là <span class=\"keyword\">10 tỷ</span> dẫn đến <span class=\"keyword\">đường IS dịch chuyển 40 tỷ</span>, có thể kết luận rằng số nhân tồng cầu là:",
     "options": [
@@ -901,7 +964,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Mô Hình IS - LM"
+      "Mô Hình IS - LM",
+      "Kiến thức"
     ],
     "question": "Các điểm <span class=\"keyword\">nằm trên đường IS</span> thỏa mãn điều kiện:",
     "options": [
@@ -916,7 +980,8 @@
     "weight": "high",
     "tags": [
       "Bài tập",
-      "Mô Hình IS - LM"
+      "Mô Hình IS - LM",
+      "Kiến thức"
     ],
     "question": "Giả sử đường <span class=\"keyword\">IS: Y = 2400 – 200r</span> và <span class=\"keyword\">LM: r = -6 + 0,005Y</span>. Sản lượng và lãi suất cân bằng sẽ là:",
     "options": [
@@ -930,7 +995,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Tổng Cung Và Chu Kỳ Kinh Doanh"
+      "Tổng Cung Và Chu Kỳ Kinh Doanh",
+      "Kiến thức"
     ],
     "question": "Trên đồ thị, trục hoành ghi sản lượng, trục tung ghi mức giá chung, đường <span class=\"keyword\">tổng cung AS dịch chuyển</span> khi:",
     "options": [
@@ -944,7 +1010,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Tổng Cung Và Chu Kỳ Kinh Doanh"
+      "Tổng Cung Và Chu Kỳ Kinh Doanh",
+      "Kiến thức"
     ],
     "question": "Các nhà kinh tế học <span class=\"keyword\">cổ điển</span> cho rằng đường tổng cung AS:",
     "options": [
@@ -958,7 +1025,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Tổng Cung Và Chu Kỳ Kinh Doanh"
+      "Tổng Cung Và Chu Kỳ Kinh Doanh",
+      "Kiến thức"
     ],
     "question": "Đường tổng cung <span class=\"keyword\">ngắn hạn</span>:",
     "options": [
@@ -972,7 +1040,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Tổng Cung Và Chu Kỳ Kinh Doanh"
+      "Tổng Cung Và Chu Kỳ Kinh Doanh",
+      "Kiến thức"
     ],
     "question": "<span class=\"keyword\">Tiến bộ công nghệ</span> sẽ:",
     "options": [
@@ -986,7 +1055,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Tổng Cung Và Chu Kỳ Kinh Doanh"
+      "Tổng Cung Và Chu Kỳ Kinh Doanh",
+      "Kiến thức"
     ],
     "question": "Đường <span class=\"keyword\">tổng cầu (AD) dịch chuyển</span> là do:",
     "options": [
@@ -1000,7 +1070,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Tổng Cung Và Chu Kỳ Kinh Doanh"
+      "Tổng Cung Và Chu Kỳ Kinh Doanh",
+      "Kiến thức"
     ],
     "question": "<span class=\"keyword\">Tiền lương danh nghĩa giảm</span>, thì:",
     "options": [
@@ -1014,7 +1085,8 @@
   {
     "weight": "normal",
     "tags": [
-      "Tổng Cung Và Chu Kỳ Kinh Doanh"
+      "Tổng Cung Và Chu Kỳ Kinh Doanh",
+      "Kiến thức"
     ],
     "question": "Trong ngắn hạn đường tổng cung có dạng:",
     "options": [

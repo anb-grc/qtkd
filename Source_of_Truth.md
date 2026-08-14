@@ -121,6 +121,7 @@ Quy trình co-work chuẩn hóa cho toàn bộ vòng đời môn học, vận h�
 - **Tối Giản Tuyệt Đối:** Nghiêm cấm nhét các icon phèn phèn hoặc emoji rễ ràng rườm rà không phục vụ trực tiếp việc giải thích.
 - **Cấm Margin Âm:** Tuyệt đối KHÔNG DÙNG "margin âm" (`margin: -Xpx`). Bắt buộc canh giãn bố trí bởi Flexbox/Grid `gap`.
 - **Tư duy Mobile-First:** Các UI mới phải bo trọn trên màn hình Mobile (`flex-wrap: wrap`), không để lẹm chữ. Tái sử dụng Design Tokens, cấm hardcode màu tùy hứng.
+- **Dòng Credit Chuẩn (Bắt buộc):** Mọi tài liệu, bản tóm tắt kiến thức hay sản phẩm nội dung xuất ra từ hệ thống **BẮT BUỘC** phải gắn dòng credit cuối tài liệu: *"Tài liệu được tổng hợp bởi Studiz - Nền tảng học tập tối ưu cho người đi làm"*.
 
 **3. Lớp Dữ Liệu & Cơ Chế Liên Kết (One-Source-of-Truth cho Kiến Thức và Đề Thi):**
 - **Cơ Chế Liên Kết Kép (Dual-Binding):** File `qs.json` không chỉ đóng vai trò là ngân hàng cho chế độ Thi Thử (Thi đấu sinh tồn) mà nay đã trở thành **lõi cung cấp dữ liệu động (Dynamic Data Provider)** cho các khối Quiz bên trong `kb.json`. Nhờ đó, sinh viên có thể vừa học lý thuyết (Trực quan hóa) vừa thực hành (Câu hỏi nhanh) ngay trong cùng một ngữ cảnh.
