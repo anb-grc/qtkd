@@ -128,6 +128,7 @@ function buildFilterUI(data) {
     
     // Inject controls into search-wrap
     let div = document.createElement('div');
+    div.style.width = '100%';
     div.innerHTML = controlsHtml;
     wrap.appendChild(div);
 }
