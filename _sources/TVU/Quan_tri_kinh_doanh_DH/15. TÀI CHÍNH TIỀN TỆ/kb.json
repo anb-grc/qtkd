@@ -7,317 +7,39 @@
       "children": [
         {
           "id": "chuong_1",
-          "label": "Nhập môn tài chính",
-          "children": [
-            {
-              "label": "Ra đời & Phát triển",
-              "children": [
-                {
-                  "label": "Kinh tế hàng hóa - Tiền tệ"
-                },
-                {
-                  "label": "Nhà nước ra đời"
-                }
-              ]
-            },
-            {
-              "label": "Khái niệm",
-              "children": [
-                {
-                  "label": "Bên ngoài: Thu chi tiền tệ"
-                },
-                {
-                  "label": "Bên trong: Quan hệ kinh tế"
-                }
-              ]
-            },
-            {
-              "label": "Chức năng",
-              "children": [
-                {
-                  "label": "Phân phối (Giá trị, Liên tục)"
-                },
-                {
-                  "label": "Giám đốc (Kiểm tra bằng tiền)"
-                }
-              ]
-            },
-            {
-              "label": "Hệ thống tài chính",
-              "children": [
-                {
-                  "label": "Doanh nghiệp (Lợi nhuận)"
-                },
-                {
-                  "label": "Hộ gia đình (Tiêu dùng)"
-                },
-                {
-                  "label": "Tài chính công (Vĩ mô)"
-                },
-                {
-                  "label": "Trung gian TC (Dẫn vốn gián tiếp)"
-                }
-              ]
-            },
-            {
-              "label": "Vai trò",
-              "children": [
-                {
-                  "label": "Điều tiết kinh tế"
-                },
-                {
-                  "label": "Tích tụ vốn, tăng hiệu quả"
-                }
-              ]
-            },
-            {
-              "label": "Chính sách quốc gia",
-              "children": [
-                {
-                  "label": "Vốn & Doanh nghiệp"
-                },
-                {
-                  "label": "Ngân sách Nhà nước"
-                },
-                {
-                  "label": "Đối ngoại"
-                },
-                {
-                  "label": "Tiền tệ & Tín dụng"
-                }
-              ]
-            }
-          ]
+          "label": "Nhập môn tài chính"
         },
         {
           "id": "chuong_2",
-          "label": "Tài chính công",
-          "children": [
-            {
-              "label": "Bản chất",
-              "description": "Là toàn bộ khoản thu - chi của Nhà nước trong 1 năm"
-            },
-            {
-              "label": "Đặc điểm",
-              "description": "Gắn với quyền lực NN, không hoàn trả trực tiếp"
-            },
-            {
-              "label": "Vai trò",
-              "description": "Điều tiết vĩ mô, bình ổn giá cả, kiềm chế lạm phát"
-            },
-            {
-              "label": "Thu NSNN",
-              "description": "Tập trung nguồn tài chính (Thuế, phí, lệ phí...)"
-            },
-            {
-              "label": "Chi NSNN",
-              "description": "Phân phối nguồn tài chính (Đầu tư, thường xuyên...)"
-            },
-            {
-              "label": "Bội chi NSNN",
-              "description": "Chi > Thu và các biện pháp xử lý"
-            }
-          ]
+          "label": "Tài chính công"
         },
         {
           "id": "chuong_3",
-          "label": "Tài chính doanh nghiệp",
-          "children": [
-            {
-              "label": "Đặc điểm",
-              "description": "Là khâu cơ sở của hệ thống tài chính, gắn liền sản xuất kinh doanh, vận động nhằm mục tiêu kinh doanh."
-            },
-            {
-              "label": "Vai trò",
-              "description": "Huy động vốn, tổ chức sử dụng vốn hiệu quả, đòn bẩy điều tiết, giám sát kiểm tra."
-            },
-            {
-              "label": "Nội dung hoạt động",
-              "children": [
-                {
-                  "label": "Vốn kinh doanh"
-                },
-                {
-                  "label": "Nguồn vốn"
-                },
-                {
-                  "label": "Chi phí & Giá thành"
-                },
-                {
-                  "label": "Doanh thu & Lợi nhuận"
-                }
-              ]
-            }
-          ]
+          "label": "Tài chính doanh nghiệp"
         },
         {
           "id": "chuong_4",
-          "label": "Thị trường tài chính",
-          "children": [
-            {
-              "label": "Thị trường tiền tệ",
-              "description": "Ngắn hạn (dưới 1 năm)"
-            },
-            {
-              "label": "Thị trường vốn",
-              "description": "Dài hạn (trên 1 năm)"
-            },
-            {
-              "label": "Thị trường chứng khoán",
-              "description": "Mua bán chứng khoán các kỳ hạn"
-            }
-          ]
+          "label": "Thị trường tài chính"
         },
         {
           "id": "chuong_5",
-          "label": "Tiền tệ",
-          "children": [
-            {
-              "label": "Bản chất & Nguồn gốc",
-              "description": "Vật ngang giá chung, sản phẩm tất yếu của nền kinh tế hàng hóa."
-            },
-            {
-              "label": "Hình thái phát triển",
-              "description": "Hóa tệ -> Tiền giấy -> Tiền tín dụng -> Tiền điện tử"
-            },
-            {
-              "label": "Chức năng",
-              "description": "Thước đo giá trị, Phương tiện lưu thông, cất trữ, thanh toán, tiền tệ thế giới."
-            },
-            {
-              "label": "Cung cầu & Khối tiền",
-              "description": "Các khối M1, M2, M3, M4 và các nhân tố ảnh hưởng cung cầu."
-            }
-          ]
+          "label": "Tiền tệ"
         },
         {
           "id": "chuong_6",
-          "label": "Tín dụng và lãi suất",
-          "children": [
-            {
-              "label": "Tín dụng",
-              "children": [
-                {
-                  "label": "Đặc điểm",
-                  "description": "Giao dịch có hoàn trả, có giá cả là lãi suất"
-                },
-                {
-                  "label": "Các hình thức",
-                  "description": "Ngân hàng, Thương mại, Nhà nước, Thuê mua"
-                }
-              ]
-            },
-            {
-              "label": "Lãi suất",
-              "children": [
-                {
-                  "label": "Bản chất",
-                  "description": "Giá cả của quyền sử dụng vốn"
-                },
-                {
-                  "label": "Phân loại",
-                  "description": "Lãi suất thực, danh nghĩa, cơ bản, thả nổi..."
-                },
-                {
-                  "label": "Nhân tố",
-                  "description": "Cung cầu, rủi ro, lạm phát, vĩ mô"
-                }
-              ]
-            }
-          ]
+          "label": "Tín dụng và lãi suất"
         },
         {
           "id": "chuong_7",
-          "label": "Hệ thống ngân hàng",
-          "children": [
-            {
-              "label": "Ngân hàng Thương mại (NHTM)",
-              "description": "Tổ chức trung gian tài chính kinh doanh tiền tệ vì mục tiêu lợi nhuận."
-            },
-            {
-              "label": "Ngân hàng Trung ương (NHTW)",
-              "description": "Định chế quản lý Nhà nước về tiền tệ, tín dụng nằm trong bộ máy quyền lực quốc gia."
-            },
-            {
-              "label": "Chính sách tiền tệ",
-              "description": "Hệ thống biện pháp của Nhà nước để điều tiết tiền tệ, tín dụng và ngoại hối vĩ mô."
-            }
-          ]
+          "label": "Hệ thống ngân hàng"
         },
         {
           "id": "chuong_8",
-          "label": "Ngân hàng trung ương và lạm phát",
-          "children": [
-            {
-              "label": "Ngân hàng Trung ương",
-              "children": [
-                {
-                  "label": "Chức năng",
-                  "description": "Phát hành tiền, Ngân hàng của các NH, Ngân hàng của Nhà nước"
-                },
-                {
-                  "label": "Mô hình",
-                  "description": "Độc lập (tránh lạm phát) vs Trực thuộc (quản lý vĩ mô đồng bộ)"
-                }
-              ]
-            },
-            {
-              "label": "Chính sách Tiền tệ",
-              "children": [
-                {
-                  "label": "Mục tiêu",
-                  "description": "Ổn định giá trị tiền tệ, thúc đẩy tăng trưởng và tạo việc làm"
-                },
-                {
-                  "label": "Phân loại",
-                  "description": "Mở rộng (chống suy thoái) vs Thắt chặt (chống lạm phát)"
-                },
-                {
-                  "label": "Công cụ",
-                  "description": "Lãi suất, Tỷ giá, Dự trữ bắt buộc, Thị trường mở..."
-                }
-              ]
-            },
-            {
-              "label": "Lạm phát",
-              "children": [
-                {
-                  "label": "Mức độ (Định lượng)",
-                  "description": "Vừa phải (<10%), Phi mã (2-3 con số), Siêu phi mã"
-                },
-                {
-                  "label": "Nguyên nhân",
-                  "description": "Cầu kéo, Chi phí đẩy, Bội chi ngân sách, Tâm lý"
-                },
-                {
-                  "label": "Giải pháp cấp bách",
-                  "description": "Siết tín dụng, Giảm chi ngân sách, Can thiệp tỷ giá"
-                }
-              ]
-            }
-          ]
+          "label": "Ngân hàng trung ương và lạm phát"
         },
         {
           "id": "chuong_9",
-          "label": "Tài chính quốc tế",
-          "children": [
-            {
-              "label": "Tỷ giá hối đoái",
-              "description": "Đại lượng xác định quan hệ giá trị, sức mua giữa các đồng tiền"
-            },
-            {
-              "label": "Cán cân thanh toán",
-              "description": "Ghi chép giao dịch kinh tế của quốc gia với phần còn lại của thế giới"
-            },
-            {
-              "label": "Hoạt động TCQT",
-              "description": "Tín dụng quốc tế và Đầu tư quốc tế (FDI, ODA)"
-            },
-            {
-              "label": "Các tổ chức TCQT",
-              "description": "IMF, WB, ADB, UNDP"
-            }
-          ]
+          "label": "Tài chính quốc tế"
         }
       ]
     }
