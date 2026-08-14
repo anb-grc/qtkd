@@ -384,6 +384,7 @@ export function Mindmap({ data, completedNodes = [], onNodeSelect, selectedNodeI
           step: 0.1, 
           activationKeys: [] // Mặc định luôn là Zoom. Pan sẽ được xử lý bằng event capture phía trên.
         }}
+        limitToBounds={false}
         centerZoomedOut={false}
       >
         {() => (

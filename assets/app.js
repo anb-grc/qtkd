@@ -111,8 +111,8 @@ function buildFilterUI(data) {
             <select id="limitFilter" onchange="changeLimit()" style="padding:8px 12px; border-radius:var(--r); border:1px solid var(--border); width:fit-content; flex-shrink: 0; background: var(--surface); color: var(--text); font-family: inherit; font-size: 0.9em; cursor: pointer;">
                 ${limitOptions}
             </select>
-            <div style="flex: 1;"></div>
-            <div style="display:flex; gap:0px; align-items:center; flex-shrink: 0;">
+            <div style="flex: 1; min-width: 20px;"></div>
+            <div style="display:flex; gap:0px; align-items:center; flex-shrink: 0; margin-left: auto;">
                 <button id="sortBtn" onclick="sortQuestions()" style="padding:8px; border:none; background:transparent; color: var(--text); cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
                 </button>
