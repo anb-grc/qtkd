@@ -15,24 +15,25 @@ if ('serviceWorker' in navigator) {
 let deferredPrompt;
 const installBtn = document.getElementById('installAppBtn');
 
-// Detect iOS
-const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+// Kiểm tra xem đang mở bằng trình duyệt hay đã cài App (Standalone)
+const isStandalone = window.navigator.standalone || window.matchMedia('(display-mode: standalone)').matches;
 
-if (isIOS) {
-  // Check if already installed
-  const isStandalone = window.navigator.standalone || window.matchMedia('(display-mode: standalone)').matches;
-  if (!isStandalone && installBtn) {
-    installBtn.style.display = 'inline-flex';
+// Nếu đã cài app rồi thì ẩn nút đi trên mọi nền tảng
+if (isStandalone && installBtn) {
+  installBtn.style.display = 'none';
+} else if (!isStandalone && installBtn) {
+  // Nếu chưa cài thì hiện nút lên
+  installBtn.style.display = 'inline-flex';
+  
+  // Detect iOS
+  const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+
+  if (isIOS) {
     installBtn.addEventListener('click', () => {
       alert("Để cài đặt app trên iOS:\n1. Nhấn nút Share (Chia sẻ) ở trình duyệt Safari.\n2. Chọn 'Add to Home Screen' (Thêm vào MH chính).");
     });
-  } else if (installBtn) {
-    installBtn.style.display = 'none';
-  }
-} else {
-  // Android / Chrome
-  if (installBtn) {
-    installBtn.style.display = 'inline-flex';
+  } else {
+    // Android / Chrome
     installBtn.addEventListener('click', async () => {
       if (deferredPrompt) {
         deferredPrompt.prompt();
@@ -43,16 +44,16 @@ if (isIOS) {
         alert("Trình duyệt chưa sẵn sàng cài đặt hoặc bạn đang dùng trình duyệt nhúng (Zalo/Messenger). Vui lòng mở bằng Chrome hoặc chọn 'Thêm vào Màn hình chính' từ Menu trình duyệt (dấu 3 chấm).");
       }
     });
-  }
 
-  // Lắng nghe sự kiện cài đặt trên Android/Chrome
-  window.addEventListener('beforeinstallprompt', (e) => {
-    e.preventDefault();
-    deferredPrompt = e;
-  });
+    // Lắng nghe sự kiện cài đặt trên Android/Chrome
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferredPrompt = e;
+    });
+  }
 }
 
-// Ẩn nút sau khi đã cài đặt thành công
+// Ẩn nút ngay lập tức sau khi user vừa cài đặt xong
 window.addEventListener('appinstalled', () => {
   if (installBtn) {
     installBtn.style.display = 'none';
