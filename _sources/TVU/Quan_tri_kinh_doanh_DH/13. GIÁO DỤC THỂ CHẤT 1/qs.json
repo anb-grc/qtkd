@@ -958,5 +958,533 @@
       "D. <span class=\"answer-keyword\">Ngực (Thân)</span>"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. Ngực (Thân)\n<div class=\"note\">Luật điền kinh quy định chỉ tính thành tích khi mặt phẳng ngực (thân) cắt ngang vạch đích.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Luyện đề",
+      "Mẫu",
+      "High"
+    ],
+    "question": "Vận động viên xuất <span class=\"keyword\">phát</span> sớm sẽ bị:",
+    "options": [
+      "A. Nhắc nhở",
+      "B. Chạy lại",
+      "C.  <span class=\"answer-keyword\">Loại trực tiếp</span>",
+      "D. Trừ điểm"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Loại trực tiếp\n<div class=\"note\">Phạm quy xuất phát sẽ bị loại ngay.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luyện đề",
+      "Mẫu",
+      "Low"
+    ],
+    "question": "Nhảy xa, vận động <span class=\"keyword\">viên</span> giậm nhảy bằng:",
+    "options": [
+      "A. Bất kỳ",
+      "B. Hai chân",
+      "C. Nhảy đà",
+      "D.  <span class=\"answer-keyword\">Một chân</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Một chân\n<div class=\"note\">Chỉ được giậm bằng một chân.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luyện đề",
+      "Mẫu",
+      "Low"
+    ],
+    "question": "Sự chuyên nghiệp hóa vận động <span class=\"keyword\">viên</span> điền kinh diễn ra mạnh từ:",
+    "options": [
+      "A. Đầu TK XX",
+      "B.  <span class=\"answer-keyword\">Cuối TK XX</span>",
+      "C. TK XXI",
+      "D. Giữa TK XX"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Cuối TK XX\n<div class=\"note\">Chuyên nghiệp hóa mạnh cuối TK XX.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luyện đề",
+      "Mẫu",
+      "Low"
+    ],
+    "question": "Olympic hiện đại đầu tiên <span class=\"keyword\">tổ</span> chức năm 1896 tại:",
+    "options": [
+      "A.  <span class=\"answer-keyword\">Athens</span>",
+      "B. Rome",
+      "C. London",
+      "D. Paris"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Athens\n<div class=\"note\">Olympic đầu tiên tại Athens.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luyện đề",
+      "Mẫu",
+      "Low"
+    ],
+    "question": "Thành tích điền kinh phản <span class=\"keyword\">ánh</span> trực tiếp yếu tố nào?",
+    "options": [
+      "A. Trí tuệ",
+      "B. Kỹ năng xã hội",
+      "C.  <span class=\"answer-keyword\">Sức mạnh thể chất</span>",
+      "D. Nghệ thuật"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Sức mạnh thể chất\n<div class=\"note\">Thể hiện sức mạnh thể lực rõ nhất.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luyện đề",
+      "Mẫu",
+      "Low"
+    ],
+    "question": "Công nghệ nào làm thay đổi <span class=\"keyword\">mạnh</span> xác định thứ hạng chạy ngắn?",
+    "options": [
+      "A.  <span class=\"answer-keyword\">Camera photo-finish</span>",
+      "B. Đồng hồ cơ",
+      "C. GPS",
+      "D. Radar"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Camera photo-finish\n<div class=\"note\">Photo-finish cho kết quả chính xác.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luyện đề",
+      "Mẫu",
+      "Low"
+    ],
+    "question": "Vai trò của <span class=\"keyword\">điền</span> kinh trong Olympic?",
+    "options": [
+      "A.  <span class=\"answer-keyword\">Trung tâm</span>",
+      "B. Giải trí",
+      "C. Thử nghiệm",
+      "D. Phụ trợ"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Trung tâm\n<div class=\"note\">Là môn trung tâm của Olympic.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luyện đề",
+      "Mẫu",
+      "Low"
+    ],
+    "question": "Luật yêu cầu <span class=\"keyword\">trọng</span> tài phải:",
+    "options": [
+      "A.  <span class=\"answer-keyword\">Khách quan</span>",
+      "B. Ưu tiên chủ nhà",
+      "C. Cứng nhắc",
+      "D. Linh hoạt"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Khách quan\n<div class=\"note\">Trọng tài luôn phải khách quan.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luyện đề",
+      "Mẫu",
+      "Low"
+    ],
+    "question": "Marathon được <span class=\"keyword\">thi</span> đấu trên:",
+    "options": [
+      "A. Đường núi",
+      "B. Đường cát",
+      "C.  <span class=\"answer-keyword\">Đường trường</span>",
+      "D. Sân vận động"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Đường trường\n<div class=\"note\">Thi đấu chủ yếu trên đường trường.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luyện đề",
+      "Mẫu",
+      "Low"
+    ],
+    "question": "Thành tích thi <span class=\"keyword\">đấu</span> công nhận khi:",
+    "options": [
+      "A. Có trọng tài",
+      "B.  <span class=\"answer-keyword\">Đúng luật</span>",
+      "C. Có truyền hình",
+      "D. Có khán giả"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Đúng luật\n<div class=\"note\">Chỉ công nhận khi đúng luật.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luyện đề",
+      "Mẫu",
+      "Low"
+    ],
+    "question": "Đi bộ thể thao xuất <span class=\"keyword\">hiện</span> tại Olympic từ năm:",
+    "options": [
+      "A.  <span class=\"answer-keyword\">1908</span>",
+      "B. 1920",
+      "C. 1904",
+      "D. 1896"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> 1908\n<div class=\"note\">Đi bộ thể thao có từ 1908.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luyện đề",
+      "Mẫu",
+      "Low"
+    ],
+    "question": "Có khiếu nại, đội <span class=\"keyword\">phải</span> nộp đơn trong:",
+    "options": [
+      "A.  <span class=\"answer-keyword\">30 phút</span>",
+      "B. 10 phút",
+      "C. Ngay",
+      "D. 24 giờ"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> 30 phút\n<div class=\"note\">Phải gửi đơn trong 30 phút.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luyện đề",
+      "Mẫu",
+      "Low"
+    ],
+    "question": "Kỷ lục 8,90 m Bob <span class=\"keyword\">Beamon</span> tồn tại bao lâu?",
+    "options": [
+      "A. 15 năm",
+      "B. 10 năm",
+      "C.  <span class=\"answer-keyword\">23 năm</span>",
+      "D. 30 năm"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> 23 năm\n<div class=\"note\">23 năm kỷ lục không bị phá.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luyện đề",
+      "Mẫu",
+      "Low"
+    ],
+    "question": "Kỷ lục Olympic có <span class=\"keyword\">thể</span> bị phá tại:",
+    "options": [
+      "A. Vòng loại",
+      "B. Chung kết",
+      "C. Bán kết",
+      "D.  <span class=\"answer-keyword\">Bất kỳ vòng nào</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Bất kỳ vòng nào\n<div class=\"note\">Bất cứ vòng nào đều có thể lập kỷ lục mới.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luyện đề",
+      "Mẫu",
+      "Low"
+    ],
+    "question": "Olympic 1968 tại Mexico <span class=\"keyword\">City</span> nổi bật vì:",
+    "options": [
+      "A. Ít kỷ lục",
+      "B. Thời tiết lạnh",
+      "C. Sân cỏ tự nhiên",
+      "D.  <span class=\"answer-keyword\">Độ cao ảnh hưởng thành tích</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Độ cao ảnh hưởng thành tích\n<div class=\"note\">Độ cao Mexico City ảnh hưởng mạnh thành tích.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luyện đề",
+      "Mẫu",
+      "Low"
+    ],
+    "question": "ASIAD giúp đánh giá <span class=\"keyword\">trình</span> độ điền kinh của:",
+    "options": [
+      "A.  <span class=\"answer-keyword\">Châu lục</span>",
+      "B. Quốc gia",
+      "C. Khu vực",
+      "D. Thế giới"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Châu lục\n<div class=\"note\">Đánh giá mạnh/yếu cấp châu lục.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luyện đề",
+      "Mẫu",
+      "Low"
+    ],
+    "question": "Quốc gia thống trị <span class=\"keyword\">điền</span> kinh SEA Games là:",
+    "options": [
+      "A. Việt Nam",
+      "B.  <span class=\"answer-keyword\">Thái Lan</span>",
+      "C. Singapore",
+      "D. Indonesia"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Thái Lan\n<div class=\"note\">Thái Lan thống trị điền kinh SEA Games.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luyện đề",
+      "Mẫu",
+      "Low"
+    ],
+    "question": "Tay trong chạy cự ly <span class=\"keyword\">ngắn</span> có vai trò gì?",
+    "options": [
+      "A. Để vẫy",
+      "B.  <span class=\"answer-keyword\">Giữ thăng bằng</span>",
+      "C. Không quan trọng",
+      "D. Chỉ để đẹp"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Giữ thăng bằng\n<div class=\"note\">Hỗ trợ lực chạy</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luyện đề",
+      "Mẫu",
+      "Low"
+    ],
+    "question": "Thành tích đại <span class=\"keyword\">hội</span> giúp định hướng:",
+    "options": [
+      "A.  <span class=\"answer-keyword\">Đào tạo trẻ, đầu tư trọng điểm và chiến lược quốc gia</span>",
+      "B. Đầu tư trọng điểm",
+      "C. Đào tạo trẻ",
+      "D. Chiến lược quốc gia"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Đào tạo trẻ, đầu tư trọng điểm và chiến lược quốc gia\n<div class=\"note\">Định hướng phát triển nhiều mặt cho điền kinh.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luyện đề",
+      "Mẫu",
+      "Low"
+    ],
+    "question": "Điền kinh xuất hiện ngay từ kỳ <span class=\"keyword\">Olympic</span> hiện đại đầu tiên năm 1896 tại:",
+    "options": [
+      "A. Rome",
+      "B. London",
+      "C.  <span class=\"answer-keyword\">Athens</span>",
+      "D. Paris"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Athens\n<div class=\"note\">Athens là nơi xuất hiện điền kinh Olympic hiện đại đầu.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luyện đề",
+      "Mẫu",
+      "Low"
+    ],
+    "question": "Các đại hội tạo điều <span class=\"keyword\">kiện</span> cho vận động viên:",
+    "options": [
+      "A. Cọ xát",
+      "B. Phát triển tâm lý",
+      "C. Tích lũy kinh nghiệm",
+      "D.  <span class=\"answer-keyword\">Cọ xát, tích lũy kinh nghiệm và phát triển tâm lý</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Cọ xát, tích lũy kinh nghiệm và phát triển tâm lý\n<div class=\"note\">Giúp học hỏi, rèn luyện, trưởng thành.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luyện đề",
+      "Mẫu",
+      "Low"
+    ],
+    "question": "Thành tích điền kinh <span class=\"keyword\">đại</span> hội có ý nghĩa:",
+    "options": [
+      "A.  <span class=\"answer-keyword\">Thể thao, giáo dục và xã hội</span>",
+      "B. Giáo dục",
+      "C. Xã hội",
+      "D. Thể thao"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Thể thao, giáo dục và xã hội\n<div class=\"note\">Ý nghĩa toàn diện: thể thao, xã hội, giáo dụ</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luyện đề",
+      "Mẫu",
+      "Low"
+    ],
+    "question": "Xu hướng các đại <span class=\"keyword\">hội</span> hiện nay là:",
+    "options": [
+      "A. Giảm thi đấu",
+      "B. Thi đấu cá nhân",
+      "C.  <span class=\"answer-keyword\">Tăng nội dung hỗn hợp</span>",
+      "D. Loại điền kinh"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Tăng nội dung hỗn hợp\n<div class=\"note\">Tăng các nội dung hỗn hợp tính mới.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luyện đề",
+      "Mẫu",
+      "Low"
+    ],
+    "question": "Tiếp sức 4×400m nữ <span class=\"keyword\">Việt</span> Nam từng đạt:",
+    "options": [
+      "A. Huy Chương Vàng SEA Games",
+      "B.  <span class=\"answer-keyword\">Huy Chương Bạc ASIAD</span>",
+      "C. Chuẩn Olympic",
+      "D. Kỷ lục thế giới"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Huy Chương Bạc ASIAD\n<div class=\"note\">Đội nữ đạt Huy Chương Bạc ASIAD tiếp sức 4×400m.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luyện đề",
+      "Mẫu",
+      "Low"
+    ],
+    "question": "Yếu tố nào ảnh hưởng lớn <span class=\"keyword\">đến</span> thành tích chạy trung bình?",
+    "options": [
+      "A. Màu giày",
+      "B. Khán giả",
+      "C.  <span class=\"answer-keyword\">Sức bền và VO2max</span>",
+      "D. Thời tiết nhẹ"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Sức bền và VO2max\n<div class=\"note\">Sức bền quyết định</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luyện đề",
+      "Mẫu",
+      "Low"
+    ],
+    "question": "Nội dung đưa Việt Nam <span class=\"keyword\">lần</span> đầu vào chung kết ASIAD:",
+    "options": [
+      "A.  <span class=\"answer-keyword\">400m rào</span>",
+      "B. 100m",
+      "C. 200m",
+      "D. Nhảy cao"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> 400m rào\n<div class=\"note\">400m rào là lần đầu vào chung kết.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luyện đề",
+      "Mẫu",
+      "Low"
+    ],
+    "question": "Vận động viên Việt Nam <span class=\"keyword\">nào</span> đã dự Olympic điền kinh:",
+    "options": [
+      "A.  <span class=\"answer-keyword\">Trương Thanh Hằng, Lê Tú Chinh và Quách Thị Lan</span>",
+      "B. Lê Tú Chinh",
+      "C. Quách Thị Lan",
+      "D. Trương Thanh Hằng"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Trương Thanh Hằng, Lê Tú Chinh và Quách Thị Lan\n<div class=\"note\">Cả ba đều từng dự Olympic.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luyện đề",
+      "Mẫu",
+      "Low"
+    ],
+    "question": "Nguyễn Văn Lai nhiều lần <span class=\"keyword\">vô</span> địch SEA Games nội dung:",
+    "options": [
+      "A.  <span class=\"answer-keyword\">5000m</span>",
+      "B. 1500m",
+      "C. Marathon",
+      "D. 800m"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> 5000m\n<div class=\"note\">Vô địch nhiều lần ở 5000m.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luyện đề",
+      "Mẫu",
+      "Low"
+    ],
+    "question": "Lê Tú Chinh nổi <span class=\"keyword\">nhất</span> ở nội dung nào?",
+    "options": [
+      "A.  <span class=\"answer-keyword\">100m</span>",
+      "B. 200m",
+      "C. 400m",
+      "D. 800m"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> 100m\n<div class=\"note\">Lê Tú Chinh nhanh nhất 100m nữ.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luyện đề",
+      "Mẫu",
+      "Low"
+    ],
+    "question": "Khi chạy trung bình, nhịp <span class=\"keyword\">thở</span> nên như thế nào?",
+    "options": [
+      "A. Không cần chú ý",
+      "B. Nín thở",
+      "C. Nhanh, gấp",
+      "D.  <span class=\"answer-keyword\">Đều và nhịp nhàng</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Đều và nhịp nhàng\n<div class=\"note\">Giữ nhịp thở ổn định</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luyện đề",
+      "Mẫu",
+      "Low"
+    ],
+    "question": "Điều kiện giúp nữ <span class=\"keyword\">Việt</span> Nam đạt thành tích:",
+    "options": [
+      "A. Tâm lý",
+      "B. Thể hình",
+      "C.  <span class=\"answer-keyword\">Thể hình, tâm lý và phù hợp sinh lý</span>",
+      "D. Phù hợp sinh lý"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Thể hình, tâm lý và phù hợp sinh lý\n<div class=\"note\">Đầy đủ cả thể hình, tâm lý, sinh lý.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luyện đề",
+      "Mẫu",
+      "Low"
+    ],
+    "question": "Nội dung giúp Việt Nam đạt <span class=\"keyword\">thành</span> tích tốt tại SEA Games là:",
+    "options": [
+      "A. Ném lao",
+      "B.  <span class=\"answer-keyword\">Chạy trung bình–dài</span>",
+      "C. Nhảy sào",
+      "D. Chạy ngắn"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Chạy trung bình–dài\n<div class=\"note\">Việt Nam mạnh các nhóm chạy trung bình, dài.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "Luyện đề",
+      "Mẫu",
+      "Low"
+    ],
+    "question": "Thế mạnh truyền thống <span class=\"keyword\">điền</span> kinh Việt Nam:",
+    "options": [
+      "A.  <span class=\"answer-keyword\">Sức bền</span>",
+      "B. Sức mạnh",
+      "C. Tốc độ",
+      "D. Linh hoạt"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Sức bền\n<div class=\"note\">Sức bền là thế mạnh.</div>"
   }
 ]
