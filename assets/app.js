@@ -345,44 +345,23 @@ window.onload = async () => {
             const res = await fetch(QS_DATA_URL);
             let qsData = await res.json();
             
-            // Dán nhãn [Mẫu] cho câu hỏi từ ngân hàng
+            let kienThucCount = 0;
+            let mauCount = 0;
+            
+            // Dán nhãn [Mẫu] cho câu hỏi gốc nếu chưa được dán nhãn [Kiến thức]
             qsData.forEach(q => {
                 if (!q.tags) q.tags = [];
-                if (!q.tags.includes('Mẫu')) q.tags.push('Mẫu');
+                if (q.tags.includes('Kiến thức')) {
+                    kienThucCount++;
+                } else {
+                    if (!q.tags.includes('Mẫu')) q.tags.push('Mẫu');
+                    mauCount++;
+                }
             });
             
-            let combinedData = [...qsData];
+            console.log(`[Hệ thống] Đã tải ${mauCount} câu [Mẫu] và ${kienThucCount} câu [Kiến thức].`);
             
-            // Thử load kb.json nếu có KB_DATA_URL
-            if (typeof KB_DATA_URL !== 'undefined') {
-                try {
-                    const kbRes = await fetch(KB_DATA_URL);
-                    if (kbRes.ok) {
-                        const kbJson = await kbRes.json();
-                        if (kbJson.details && Array.isArray(kbJson.details)) {
-                            kbJson.details.forEach(detail => {
-                                if (detail.components && Array.isArray(detail.components)) {
-                                    detail.components.forEach(comp => {
-                                        if (comp.type === 'quiz' && comp.data && Array.isArray(comp.data.questions)) {
-                                            comp.data.questions.forEach(q => {
-                                                let newQ = { ...q };
-                                                if (!newQ.tags) newQ.tags = [];
-                                                if (!newQ.tags.includes('Kiến thức')) newQ.tags.push('Kiến thức');
-                                                if (!newQ.weight) newQ.weight = 'normal';
-                                                combinedData.push(newQ);
-                                            });
-                                        }
-                                    });
-                                }
-                            });
-                        }
-                    }
-                } catch (kbErr) {
-                    console.log("No kb.json found or failed to parse, continuing with qs.json only.", kbErr);
-                }
-            }
-            
-            window.quizData = combinedData;
+            window.quizData = qsData;
             window.filteredData = window.quizData;
             
             buildFilterUI(window.quizData);
