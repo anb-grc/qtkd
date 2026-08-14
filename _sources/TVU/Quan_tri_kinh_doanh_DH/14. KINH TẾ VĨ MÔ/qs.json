@@ -1267,5 +1267,19 @@
     "tags": [
       "Tăng Trưởng Kinh Tế"
     ]
+  },
+  {
+    "weight": "normal",
+    "question": "Tìm câu <span class=\"keyword\">SAI</span> trong các câu sau đây?",
+    "options": [
+      "A. MPC + MPS = 1",
+      "B. MPS = 1 - MPC",
+      "C. <span class=\"answer-keyword\">\\(MPS = \\frac{\\Delta Y_d}{\\Delta S}\\)</span>",
+      "D. MPC = 1 - MPS"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. \\(MPS = \\frac{\\Delta Y_d}{\\Delta S}\\)\n<div class=\"note\">Công thức đúng của Khuynh hướng tiết kiệm biên là \\(MPS = \\frac{\\Delta S}{\\Delta Y_d}\\) (mức thay đổi của tiết kiệm chia cho mức thay đổi của thu nhập khả dụng). Công thức ở đáp án C bị đảo ngược tử và mẫu nên là phát biểu sai.</div>",
+    "tags": [
+      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở"
+    ]
   }
 ]
