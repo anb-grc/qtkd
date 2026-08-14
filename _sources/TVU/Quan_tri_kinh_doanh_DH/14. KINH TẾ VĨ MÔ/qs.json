@@ -1024,5 +1024,248 @@
       "D. thể hiện <span class=\"answer-keyword\">tác động của mức giá chung</span> lên sản lượng thực khi giá và các yếu tố khác không đổi."
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. thể hiện tác động của mức giá chung lên sản lượng thực khi giá và các yếu tố khác không đổi.\n<div class=\"note\">Đường AS dốc lên trong ngắn hạn mô tả quan hệ thuận chiều: Mức giá chung (P) thay đổi (tác động) sẽ làm thay đổi sản lượng cung cấp (Y) trong điều kiện giá yếu tố đầu vào (như lương) chưa kịp thay đổi (cứng nhắc).</div>"
+  },
+  {
+    "weight": "normal",
+    "question": "Để tính <span class=\"keyword\">tốc độ tăng trưởng kinh tế</span> giữa các thời kỳ, người ta sử dụng:",
+    "options": [
+      "A. Chỉ tiêu danh nghĩa",
+      "B. <span class=\"answer-keyword\">Chỉ tiêu thực</span>",
+      "C. Chỉ tiêu sản xuất",
+      "D. Chỉ tiêu theo giá thị trường"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Chỉ tiêu thực\n<div class=\"note\">Tốc độ tăng trưởng kinh tế được tính dựa trên GDP thực để loại trừ sự ảnh hưởng của lạm phát (sự thay đổi giá cả).</div>",
+    "tags": [
+      "Tăng Trưởng Kinh Tế"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Theo cách tiếp cận chi tiêu trong việc tính GDP, khoản mục <span class=\"keyword\">chi trả lương</span> cho công nhân viên chức làm việc cho <span class=\"keyword\">bộ máy quản lý nhà nước</span> được tính là:",
+    "options": [
+      "A. Tiêu dùng",
+      "B. Không tính vào GDP",
+      "C. <span class=\"answer-keyword\">Mua hàng của Chính phủ</span>",
+      "D. Đầu tư"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. Mua hàng của Chính phủ\n<div class=\"note\">Chi trả lương cho cán bộ, công chức nhà nước được xem là khoản Chính phủ mua dịch vụ sức lao động, tính vào G (Mua hàng của Chính phủ).</div>",
+    "tags": [
+      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Thu nhập được tạo ra từ một <span class=\"keyword\">công ty liên doanh</span> (giữa Việt Nam và Nhật Bản) <span class=\"keyword\">tại Việt Nam</span> sẽ được tính vào:",
+    "options": [
+      "A. Cả GDP và GNP của hai nước",
+      "B. <span class=\"answer-keyword\">GDP của Việt Nam</span> và GNP của Nhật Bản",
+      "C. GNP của Việt Nam và GDP của Nhật Bản",
+      "D. Cả GDP và GNP của Việt Nam; GNP của Nhật Bản"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. GDP của Việt Nam và GNP của Nhật Bản\n<div class=\"note\">Sản xuất \"tại Việt Nam\" nên tính vào GDP của Việt Nam. Doanh nghiệp Nhật Bản nên thu nhập này thuộc sở hữu của công dân Nhật Bản, tính vào GNP của Nhật Bản.</div>",
+    "tags": [
+      "Đo Lường Sản Lượng Quốc Gia"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Có số liệu thống kê như sau (Năm 2010: P gạo 10, thịt 20, xăng 40; Q lần lượt 2, 3, 4. Năm 2011: P gạo 11, thịt 22, xăng 42). Tính tỷ lệ lạm phát (theo CPI) của năm 2011 so với năm 2010. Biết <span class=\"keyword\">năm gốc là năm 2010</span>.",
+    "options": [
+      "A. If = 10%",
+      "B. If = 7,7%",
+      "C. If = 10,7%",
+      "D. <span class=\"answer-keyword\">If = 6,7%</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. If = 6,7%\n<div class=\"note\">Chi phí giỏ hàng năm 2010 (năm gốc cố định Q) = 10*2 + 20*3 + 40*4 = 240. Chi phí giỏ hàng năm 2011 = 11*2 + 22*3 + 42*4 = 256. CPI 2011 = (256/240)*100 = 106.67. Tỷ lệ lạm phát = 6.67%.</div>",
+    "tags": [
+      "Bài tập",
+      "Lạm Phát Và Thất Nghiệp"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Nếu đầu tư gia tăng thêm một lượng 15 và xu hướng tiêu dùng biên là 0,8, khuynh hướng đầu tư biên = 0. Mức <span class=\"keyword\">sản lượng</span> sẽ:",
+    "options": [
+      "A. <span class=\"answer-keyword\">Gia tăng thêm là 75</span>",
+      "B. Gia tăng thêm là 57",
+      "C. Gia tăng thêm là 19",
+      "D. Gia tăng thêm là 27"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Gia tăng thêm là 75\n<div class=\"note\">Số nhân tổng cầu k = 1 / (1 - MPC) = 1 / (1 - 0.8) = 5. Mức sản lượng gia tăng: ΔY = k * ΔI = 5 * 15 = 75.</div>",
+    "tags": [
+      "Bài tập",
+      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Tỷ giá hối đoái tăng</span> khiến cho:",
+    "options": [
+      "A. lượng tổng cầu giảm",
+      "B. tổng cầu giảm",
+      "C. lượng tổng cầu tăng",
+      "D. <span class=\"answer-keyword\">tổng cầu tăng</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. tổng cầu tăng\n<div class=\"note\">Tỷ giá hối đoái tăng (nội tệ giảm giá) làm hàng hóa trong nước rẻ hơn so với nước ngoài, từ đó xuất khẩu tăng và nhập khẩu giảm (NX tăng), kéo theo tổng cầu (AD) tăng.</div>",
+    "tags": [
+      "Ngoại Hối & Tỷ Giá"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Giả sử sản lượng cân bằng ở mức thất nghiệp tự nhiên, chính phủ muốn <span class=\"keyword\">tăng chi tiêu</span> thêm 5 tỷ đồng mà <span class=\"keyword\">không muốn lạm phát cao</span> xảy ra thì Chính phủ nên:",
+    "options": [
+      "A. Tăng thuế ít hơn 5 tỷ",
+      "B. <span class=\"answer-keyword\">Tăng thuế hơn 5 tỷ</span>",
+      "C. Giảm thuế 5 tỷ",
+      "D. Tăng thuế 5 tỷ"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Tăng thuế hơn 5 tỷ\n<div class=\"note\">Để giữ sản lượng không đổi (tránh lạm phát do vượt mức Yp), tổng tác động phải bằng 0. Do số nhân của thuế nhỏ hơn số nhân chi tiêu Chính phủ (|kT| < kG), Chính phủ phải tăng thuế một lượng lớn hơn mức tăng chi tiêu (> 5 tỷ) để bù trừ hoàn toàn.</div>",
+    "tags": [
+      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Chính sách <span class=\"keyword\">gia tăng thuế</span> của Chính phủ sẽ:",
+    "options": [
+      "A. <span class=\"answer-keyword\">Dẫn đến đường IS dịch chuyển sang trái</span>",
+      "B. Có sự di chuyển dọc trên đường IS",
+      "C. Không ảnh hưởng gì trên đường IS",
+      "D. Dẫn đến đường IS dịch chuyển sang phải"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Dẫn đến đường IS dịch chuyển sang trái\n<div class=\"note\">Thuế tăng làm giảm thu nhập khả dụng, từ đó làm giảm tiêu dùng và tổng cầu, dẫn đến mức thu nhập cân bằng giảm ở mọi mức lãi suất, đường IS dịch sang trái.</div>",
+    "tags": [
+      "Mô Hình IS - LM"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Trong điều kiện các yếu tố khác không đổi, chi tiêu tự định <span class=\"keyword\">giảm</span> khiến cho:",
+    "options": [
+      "A. Đường LM dịch chuyển sang phải",
+      "B. <span class=\"answer-keyword\">Đường IS dịch chuyển sang trái</span>",
+      "C. Đường LM dịch chuyển sang trái",
+      "D. Đường IS dịch chuyển sang phải"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Đường IS dịch chuyển sang trái\n<div class=\"note\">Chi tiêu tự định giảm làm giảm tổng cầu, mức sản lượng cân bằng giảm ở mọi mức lãi suất, khiến đường IS dịch sang trái.</div>",
+    "tags": [
+      "Mô Hình IS - LM"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Biến số nào sau đây <span class=\"keyword\">KHÔNG</span> trực tiếp ảnh hưởng đến tổng cung?",
+    "options": [
+      "A. Lực lượng lao động.",
+      "B. Lượng vốn",
+      "C. Trình độ công nghệ",
+      "D. <span class=\"answer-keyword\">Lượng cầu</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. Lượng cầu\n<div class=\"note\">Tổng cung phụ thuộc vào năng lực sản xuất của nền kinh tế (vốn, lao động, công nghệ, tài nguyên). Lượng cầu là biến số bên phía tổng cầu, không quyết định năng lực sản xuất.</div>",
+    "tags": [
+      "Tổng Cung Và Chu Kỳ Kinh Doanh"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Khi cán cân thanh toán thặng dư, trong cơ chế <span class=\"keyword\">tỷ giá hối đoái thả nổi</span> thì",
+    "options": [
+      "A. <span class=\"answer-keyword\">Tỷ giá hối đoái có xu hướng giảm xuống</span>",
+      "B. Tỷ giá hối đoái có xu hướng không đổi",
+      "C. Tỷ giá hối đoái cân bằng",
+      "D. Tỷ giá hối đoái có xu hướng tăng lên"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Tỷ giá hối đoái có xu hướng giảm xuống\n<div class=\"note\">Thặng dư cán cân thanh toán nghĩa là dòng ngoại tệ chảy vào nhiều hơn chảy ra, làm cung ngoại tệ tăng, khiến giá của ngoại tệ (tỷ giá hối đoái) giảm xuống.</div>",
+    "tags": [
+      "Ngoại Hối & Tỷ Giá"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Chính phủ trong một nền kinh tế chi tiêu cho hàng hóa và dịch vụ là 100 triệu USD và trợ cấp ở mức đến 10% thu nhập quốc dân. Tỷ lệ thuế trực thu là 30%. Thâm hụt hay thặng dư của Chính phủ là bao nhiêu, nếu <span class=\"keyword\">thu nhập tại điểm cân bằng là 400</span> triệu USD?",
+    "options": [
+      "A. <span class=\"answer-keyword\">Thâm hụt 20 triệu USD</span>",
+      "B. Thặng dư 20 triệu USD",
+      "C. Thăng dư 100 triệu USD",
+      "D. Thâm hụt 100 triệu USD"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Thâm hụt 20 triệu USD\n<div class=\"note\">Thuế thu được: T = 30% * 400 = 120. Trợ cấp: Tr = 10% * 400 = 40. Ngân sách: B = T - Tr - G = 120 - 40 - 100 = -20 (Thâm hụt 20 triệu USD).</div>",
+    "tags": [
+      "Bài tập",
+      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Chính phủ trong một nền kinh tế chi tiêu cho hàng hóa và dịch vụ là 100 triệu USD và trợ cấp ở mức đến 10% thu nhập quốc dân. Tỷ lệ thuế trực thu là 30%. Trong <span class=\"keyword\">khung thu nhập nào</span>, Chính phủ bị <span class=\"keyword\">thâm hụt ngân sách</span>?",
+    "options": [
+      "A. 500 triệu USD",
+      "B. > 300 triệu USD",
+      "C. < 480 triệu USD",
+      "D. <span class=\"answer-keyword\">< 500 triệu USD</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. < 500 triệu USD\n<div class=\"note\">Thâm hụt ngân sách xảy ra khi: T - Tr - G < 0 ➔ 0.3Y - 0.1Y - 100 < 0 ➔ 0.2Y < 100 ➔ Y < 500 triệu USD.</div>",
+    "tags": [
+      "Bài tập",
+      "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Cho các hàm số sau: tài khoản vốn K= -1.000 +200r; xuất khẩu X =200; nhập khẩu Z= 100+0,2 Y. <span class=\"keyword\">Đường BP</span> có dạng:",
+    "options": [
+      "A. Y= -450 +100r",
+      "B. <span class=\"answer-keyword\">Y = -4.500 + 1.000r</span>",
+      "C. Y = -4.500 +100r",
+      "D. Y= -450 + 1.000r"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Y = -4.500 + 1.000r\n<div class=\"note\">Phương trình đường cán cân thanh toán (BP = 0): NX + K = 0 ➔ (X - Z) + K = 0 ➔ 200 - (100 + 0.2Y) - 1000 + 200r = 0 ➔ -900 - 0.2Y + 200r = 0 ➔ 0.2Y = 200r - 900 ➔ Y = 1000r - 4500.</div>",
+    "tags": [
+      "Bài tập",
+      "Ngoại Hối & Tỷ Giá"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Câu nào nói về <span class=\"keyword\">tiền lương hiệu quả</span> là đúng?",
+    "options": [
+      "A. Việc trả trên mức lương cân bằng cạnh tranh tạo ra rủi ro về đạo đức vì nó làm cho công nhân vô trách nhiệm",
+      "B. <span class=\"answer-keyword\">Việc trả trên mức lương cân bằng cạnh tranh có thể cải thiện sức khoẻ công nhân, giảm bớt tốc độ thay thế công nhân, cải tiến chất lượng công nhân, và nâng cao nỗ lực công nhân.</span>",
+      "C. Việc trả lương ở mức thấp nhất có thể luôn luôn đạt hiệu quả nhất",
+      "D. Doanh nghiệp không có sự lựa chọn nào về việc trả tiền lương hiệu quả hay không bởi vì tiền lương này được xác định bởi luật."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Việc trả trên mức lương cân bằng cạnh tranh có thể cải thiện sức khoẻ công nhân, giảm bớt tốc độ thay thế công nhân, cải tiến chất lượng công nhân, và nâng cao nỗ lực công nhân.\n<div class=\"note\">Lý thuyết tiền lương hiệu quả cho rằng trả lương cao hơn mức cân bằng thị trường có thể tăng năng suất nhờ cải thiện sức khỏe, giảm nghỉ việc, thu hút nhân tài và tăng động lực làm việc.</div>",
+    "tags": [
+      "Lạm Phát Và Thất Nghiệp"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Nhiều <span class=\"keyword\">nước Đông Á</span> đang tăng trưởng rất nhanh vì sao?",
+    "options": [
+      "A. <span class=\"answer-keyword\">Họ đã giành một tỷ lệ rất lớn của GDP cho tiết kiệm và đầu tư</span>",
+      "B. Họ là các nước đế quốc và đã vơ vét được của cải từ chiến thắng trước đây trong chiến tranh",
+      "C. Họ đã luôn luôn giàu có và sẽ tiếp tục giàu có, điều này vẫn được biết đến như là “nước chảy chỗ trũng”",
+      "D. Họ có nguồntài nguyên dồi dào"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Họ đã giành một tỷ lệ rất lớn của GDP cho tiết kiệm và đầu tư\n<div class=\"note\">Sự thần kỳ kinh tế của Đông Á (như Hàn Quốc, Đài Loan, Singapore) chủ yếu dựa trên tỷ lệ tiết kiệm và đầu tư rất cao, thúc đẩy tích lũy vốn và tăng trưởng nhanh chóng.</div>",
+    "tags": [
+      "Tăng Trưởng Kinh Tế"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Nước nào sau đây có thể được sử dụng như ví dụ chứng tỏ rằng một nền kinh tế <span class=\"keyword\">không cần</span> phải có sự phong phú <span class=\"keyword\">tài nguyên thiên nhiên</span> để thành công?",
+    "options": [
+      "A. Hoa Kỳ",
+      "B. Úc",
+      "C. Nga",
+      "D. <span class=\"answer-keyword\">Nhật Bản</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. Nhật Bản\n<div class=\"note\">Nhật Bản là quốc gia rất nghèo tài nguyên thiên nhiên nhưng đã đạt được sự thành công và phát triển kinh tế vượt bậc thông qua vốn nhân lực và công nghệ.</div>",
+    "tags": [
+      "Tăng Trưởng Kinh Tế"
+    ]
   }
 ]
