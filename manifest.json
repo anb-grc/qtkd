@@ -1,6 +1,6 @@
 {
-  "name": "LearnIZ - Ngân Hàng Đề Thi",
-  "short_name": "LearnIZ",
+  "name": "Studiz - Ngân Hàng Đề Thi",
+  "short_name": "Studiz",
   "description": "Nền tảng ôn thi trắc nghiệm và kiến thức tối ưu.",
   "start_url": "./index.html",
   "display": "standalone",
