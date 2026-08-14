@@ -7,223 +7,53 @@
       "root": "Tài chính - Tiền tệ",
       "children": [
         {
-          "label": "Nhập môn tài chính",
+          "label": "Tổng quan và Hệ thống Tài chính",
           "children": [
             {
-              "id": "chuong_1_comp_1",
-              "label": "Bản chất của tài chính"
+              "id": "chuong_1",
+              "label": "Nhập môn tài chính"
             },
             {
-              "id": "chuong_1_comp_2",
-              "label": "Hai chức năng cơ bản của tài chính"
+              "id": "chuong_2",
+              "label": "Tài chính công"
             },
             {
-              "id": "chuong_1_comp_3",
-              "label": "Bốn khâu của hệ thống tài chính"
+              "id": "chuong_3",
+              "label": "Tài chính doanh nghiệp"
             },
             {
-              "id": "chuong_1_comp_4",
-              "label": "Kênh dẫn vốn"
-            },
-            {
-              "id": "chuong_1_comp_5",
-              "label": "5 Nội dung Chính sách tài chính quốc gia"
-            },
-            {
-              "id": "chuong_1_quiz",
-              "label": "Ôn tập kiến thức"
+              "id": "chuong_4",
+              "label": "Thị trường tài chính"
             }
           ]
         },
         {
-          "label": "Tài chính công",
+          "label": "Tiền tệ và Tín dụng",
           "children": [
             {
-              "id": "chuong_2_comp_1",
-              "label": "ĐẶC ĐIỂM CỦA NGÂN SÁCH NHÀ NƯỚC"
+              "id": "chuong_5",
+              "label": "Tiền tệ"
             },
             {
-              "id": "chuong_2_comp_2",
-              "label": "THU VÀ CHI NGÂN SÁCH NHÀ NƯỚC"
-            },
-            {
-              "id": "chuong_2_comp_3",
-              "label": "VAI TRÒ CỦA NGÂN SÁCH NHÀ NƯỚC"
-            },
-            {
-              "id": "chuong_2_comp_4",
-              "label": "BỘI CHI NGÂN SÁCH NHÀ NƯỚC"
-            },
-            {
-              "id": "chuong_2_comp_5",
-              "label": "HỆ THỐNG NGÂN SÁCH NHÀ NƯỚC VIỆT NAM"
-            },
-            {
-              "id": "chuong_2_quiz",
-              "label": "Ôn tập kiến thức"
+              "id": "chuong_6",
+              "label": "Tín dụng và lãi suất"
             }
           ]
         },
         {
-          "label": "Tài chính doanh nghiệp",
+          "label": "Hệ thống Ngân hàng và Quốc tế",
           "children": [
             {
-              "id": "chuong_3_comp_1",
-              "label": "So sánh Nguồn vốn kinh doanh"
+              "id": "chuong_7",
+              "label": "Hệ thống ngân hàng"
             },
             {
-              "id": "chuong_3_comp_2",
-              "label": "So sánh Vốn Cố định và Vốn Lưu động"
+              "id": "chuong_8",
+              "label": "Ngân hàng trung ương và lạm phát"
             },
             {
-              "id": "chuong_3_comp_3",
-              "label": "Mối quan hệ Chi phí - Giá thành - Lợi nhuận"
-            },
-            {
-              "id": "chuong_3_quiz",
-              "label": "Ôn tập kiến thức"
-            }
-          ]
-        },
-        {
-          "label": "Thị trường tài chính",
-          "children": [
-            {
-              "id": "chuong_4_comp_1",
-              "label": "Phân biệt Thị trường Tiền tệ và Thị trường Vốn"
-            },
-            {
-              "id": "chuong_4_comp_2",
-              "label": "So sánh Cổ phiếu và Trái phiếu"
-            },
-            {
-              "id": "chuong_4_comp_3",
-              "label": "Thị trường Sơ cấp vs Thị trường Thứ cấp"
-            },
-            {
-              "id": "chuong_4_comp_4",
-              "label": "4 Chức năng cốt lõi của Thị trường tài chính"
-            },
-            {
-              "id": "chuong_4_quiz",
-              "label": "Ôn tập kiến thức"
-            }
-          ]
-        },
-        {
-          "label": "Tiền tệ",
-          "children": [
-            {
-              "id": "chuong_5_comp_1",
-              "label": "SỰ PHÁT TRIỂN CÁC HÌNH THÁI TIỀN TỆ"
-            },
-            {
-              "id": "chuong_5_comp_2",
-              "label": "5 CHỨC NĂNG CỐT LÕI CỦA TIỀN TỆ"
-            },
-            {
-              "id": "chuong_5_comp_3",
-              "label": "QUY LUẬT LƯU THÔNG TIỀN TỆ"
-            },
-            {
-              "id": "chuong_5_comp_4",
-              "label": "CẤU TRÚC CÁC KHỐI TIỀN TỆ THEO TÍNH LỎNG (M1 -> M4)"
-            },
-            {
-              "id": "chuong_5_quiz",
-              "label": "Ôn tập kiến thức"
-            }
-          ]
-        },
-        {
-          "label": "Tín dụng và lãi suất",
-          "children": [
-            {
-              "id": "chuong_6_comp_1",
-              "label": "Phân biệt 4 Hình thức Tín dụng"
-            },
-            {
-              "id": "chuong_6_comp_2",
-              "label": "Lãi suất Danh nghĩa vs Lãi suất Thực"
-            },
-            {
-              "id": "chuong_6_comp_3",
-              "label": "4 Nhân tố chính ảnh hưởng đến Lãi suất"
-            },
-            {
-              "id": "chuong_6_quiz",
-              "label": "Ôn tập kiến thức"
-            }
-          ]
-        },
-        {
-          "label": "Hệ thống ngân hàng",
-          "children": [
-            {
-              "id": "chuong_7_comp_1",
-              "label": "3 CHỨC NĂNG CỐT LÕI CỦA NGÂN HÀNG THƯƠNG MẠI"
-            },
-            {
-              "id": "chuong_7_comp_2",
-              "label": "3 CHỨC NĂNG CỦA NGÂN HÀNG TRUNG ƯƠNG"
-            },
-            {
-              "id": "chuong_7_comp_3",
-              "label": "CHÍNH SÁCH TIỀN TỆ: MỞ RỘNG VS THẮT CHẶT"
-            },
-            {
-              "id": "chuong_7_comp_4",
-              "label": "6 CÔNG CỤ CỦA CHÍNH SÁCH TIỀN TỆ"
-            },
-            {
-              "id": "chuong_7_quiz",
-              "label": "Ôn tập kiến thức"
-            }
-          ]
-        },
-        {
-          "label": "Ngân hàng trung ương và lạm phát",
-          "children": [
-            {
-              "id": "chuong_8_comp_1",
-              "label": "Mô hình tổ chức Ngân hàng Trung ương"
-            },
-            {
-              "id": "chuong_8_comp_2",
-              "label": "2 Trạng thái của Chính sách Tiền tệ"
-            },
-            {
-              "id": "chuong_8_comp_3",
-              "label": "Các Nhóm nguyên nhân gây ra Lạm phát"
-            },
-            {
-              "id": "chuong_8_comp_4",
-              "label": "Nhóm Biện pháp Kiềm chế Lạm phát cấp bách"
-            },
-            {
-              "id": "chuong_8_quiz",
-              "label": "Ôn tập kiến thức"
-            }
-          ]
-        },
-        {
-          "label": "Tài chính quốc tế",
-          "children": [
-            {
-              "id": "chuong_9_comp_1",
-              "label": "Niêm yết Tỷ giá Hối đoái"
-            },
-            {
-              "id": "chuong_9_comp_2",
-              "label": "Nội dung Cán cân Thanh toán"
-            },
-            {
-              "id": "chuong_9_comp_3",
-              "label": "Phân loại ODA theo tính chất tài trợ"
-            },
-            {
-              "id": "chuong_9_quiz",
-              "label": "Ôn tập kiến thức"
+              "id": "chuong_9",
+              "label": "Tài chính quốc tế"
             }
           ]
         }
@@ -232,7 +62,7 @@
   },
   "details": [
     {
-      "node_id": "chuong_1_comp_1",
+      "node_id": "chuong_1",
       "components": [
         {
           "type": "vs-wrap",
@@ -247,12 +77,7 @@
               "content": "Là các quan hệ kinh tế nảy sinh trong quá trình phân phối của cải xã hội dưới hình thức giá trị để tạo lập và sử dụng quỹ tiền tệ."
             }
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_1_comp_2",
-      "components": [
+        },
         {
           "type": "vs-wrap",
           "title": "Hai chức năng cơ bản của tài chính",
@@ -266,12 +91,7 @@
               "content": "Kiểm tra quá trình vận động tài chính bằng đồng tiền, giúp phát hiện và điều chỉnh quá trình phân phối đạt hiệu quả cao."
             }
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_1_comp_3",
-      "components": [
+        },
         {
           "type": "quadrant",
           "title": "Bốn khâu của hệ thống tài chính",
@@ -297,12 +117,7 @@
               }
             ]
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_1_comp_4",
-      "components": [
+        },
         {
           "type": "vs-wrap",
           "title": "Kênh dẫn vốn",
@@ -316,12 +131,7 @@
               "content": "Vốn chuyển qua các trung gian tài chính (ngân hàng, quỹ...). Người cấp vốn và người dùng vốn không liên hệ trực tiếp với nhau."
             }
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_1_comp_5",
-      "components": [
+        },
         {
           "type": "features",
           "title": "5 Nội dung Chính sách tài chính quốc gia",
@@ -349,12 +159,7 @@
               }
             ]
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_1_quiz",
-      "components": [
+        },
         {
           "type": "quiz",
           "title": "Ôn tập kiến thức Nhập môn tài chính",
@@ -365,7 +170,7 @@
       ]
     },
     {
-      "node_id": "chuong_2_comp_1",
+      "node_id": "chuong_2",
       "components": [
         {
           "type": "features",
@@ -386,12 +191,7 @@
               }
             ]
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_2_comp_2",
-      "components": [
+        },
         {
           "type": "vs-wrap",
           "title": "THU VÀ CHI NGÂN SÁCH NHÀ NƯỚC",
@@ -405,12 +205,7 @@
               "content": "Là quá trình phân phối lại nguồn tài chính để thực hiện mục tiêu vĩ mô. Gồm chi đầu tư phát triển, chi thường xuyên (sự nghiệp, quản lý) và chi trả nợ, viện trợ."
             }
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_2_comp_3",
-      "components": [
+        },
         {
           "type": "quadrant",
           "title": "VAI TRÒ CỦA NGÂN SÁCH NHÀ NƯỚC",
@@ -436,12 +231,7 @@
               }
             ]
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_2_comp_4",
-      "components": [
+        },
         {
           "type": "formula-breakdown",
           "title": "BỘI CHI NGÂN SÁCH NHÀ NƯỚC",
@@ -459,12 +249,7 @@
             ],
             "example": "Giải pháp tình thế: Vay nợ, phát hành tiền. Giải pháp lâu dài: Tăng thu, giảm chi."
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_2_comp_5",
-      "components": [
+        },
         {
           "type": "pyramid",
           "title": "HỆ THỐNG NGÂN SÁCH NHÀ NƯỚC VIỆT NAM",
@@ -484,12 +269,7 @@
               }
             ]
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_2_quiz",
-      "components": [
+        },
         {
           "type": "quiz",
           "title": "Ôn tập kiến thức Tài chính công",
@@ -500,7 +280,7 @@
       ]
     },
     {
-      "node_id": "chuong_3_comp_1",
+      "node_id": "chuong_3",
       "components": [
         {
           "type": "vs-wrap",
@@ -515,12 +295,7 @@
               "content": "**Vai trò:** Đảm bảo vốn kịp thời, tạo áp lực thúc đẩy sử dụng vốn tiết kiệm, hiệu quả.\n**Hạn chế:** Phụ thuộc, tốn kém chi phí, thời gian; rủi ro giảm lợi nhuận nếu lãi cao."
             }
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_3_comp_2",
-      "components": [
+        },
         {
           "type": "vs-wrap",
           "title": "So sánh Vốn Cố định và Vốn Lưu động",
@@ -534,12 +309,7 @@
               "content": "**Đặc trưng:** Phục vụ sản xuất - lưu thông, chuyển toàn bộ 1 lần vào giá thành.\n**Quản lý:** Trên tất cả hình thái biểu hiện, phân loại theo tiêu thức để tối ưu."
             }
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_3_comp_3",
-      "components": [
+        },
         {
           "type": "process-steps",
           "title": "Mối quan hệ Chi phí - Giá thành - Lợi nhuận",
@@ -563,12 +333,7 @@
               }
             ]
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_3_quiz",
-      "components": [
+        },
         {
           "type": "quiz",
           "title": "Ôn tập kiến thức Tài chính doanh nghiệp",
@@ -579,7 +344,7 @@
       ]
     },
     {
-      "node_id": "chuong_4_comp_1",
+      "node_id": "chuong_4",
       "components": [
         {
           "type": "vs-wrap",
@@ -594,12 +359,7 @@
               "content": "- **Kỳ hạn**: Dài hạn (trên 1 năm).\n- **Đặc điểm**: Rủi ro cao hơn, sinh lời cao hơn.\n- **Công cụ**: Cổ phiếu, Trái phiếu dài hạn, Chứng chỉ đầu tư."
             }
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_4_comp_2",
-      "components": [
+        },
         {
           "type": "venn",
           "title": "So sánh Cổ phiếu và Trái phiếu",
@@ -624,12 +384,7 @@
             },
             "intersection": "Là chứng khoán trung/dài hạn, công cụ của thị trường vốn, dễ dàng mua bán, chuyển nhượng."
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_4_comp_3",
-      "components": [
+        },
         {
           "type": "vs-wrap",
           "title": "Thị trường Sơ cấp vs Thị trường Thứ cấp",
@@ -643,12 +398,7 @@
               "content": "- **Bản chất**: Mua đi bán lại chứng khoán đã phát hành.\n- **Mục đích**: Tạo tính thanh khoản, thay đổi quyền sở hữu.\n- **Dòng tiền**: Chuyển giao giữa các nhà đầu tư với nhau."
             }
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_4_comp_4",
-      "components": [
+        },
         {
           "type": "features",
           "title": "4 Chức năng cốt lõi của Thị trường tài chính",
@@ -672,12 +422,7 @@
               }
             ]
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_4_quiz",
-      "components": [
+        },
         {
           "type": "quiz",
           "title": "Ôn tập kiến thức Thị trường tài chính",
@@ -688,7 +433,7 @@
       ]
     },
     {
-      "node_id": "chuong_5_comp_1",
+      "node_id": "chuong_5",
       "components": [
         {
           "type": "process-steps",
@@ -713,12 +458,7 @@
               }
             ]
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_5_comp_2",
-      "components": [
+        },
         {
           "type": "features",
           "title": "5 CHỨC NĂNG CỐT LÕI CỦA TIỀN TỆ",
@@ -746,12 +486,7 @@
               }
             ]
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_5_comp_3",
-      "components": [
+        },
         {
           "type": "formula-breakdown",
           "title": "QUY LUẬT LƯU THÔNG TIỀN TỆ",
@@ -785,12 +520,7 @@
             ],
             "example": "Lượng tiền thực tế phải luôn thích ứng với lượng tiền cần thiết (M) để đảm bảo ổn định lưu thông, tránh lạm phát hoặc thiểu phát."
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_5_comp_4",
-      "components": [
+        },
         {
           "type": "onion",
           "title": "CẤU TRÚC CÁC KHỐI TIỀN TỆ THEO TÍNH LỎNG (M1 -> M4)",
@@ -814,12 +544,7 @@
               }
             ]
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_5_quiz",
-      "components": [
+        },
         {
           "type": "quiz",
           "title": "Ôn tập kiến thức Tiền tệ",
@@ -830,7 +555,7 @@
       ]
     },
     {
-      "node_id": "chuong_6_comp_1",
+      "node_id": "chuong_6",
       "components": [
         {
           "type": "matrix-table",
@@ -869,12 +594,7 @@
               ]
             ]
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_6_comp_2",
-      "components": [
+        },
         {
           "type": "vs-wrap",
           "title": "Lãi suất Danh nghĩa vs Lãi suất Thực",
@@ -888,12 +608,7 @@
               "content": "Là lãi suất đã được điều chỉnh theo những thay đổi của lạm phát. Phản ánh đúng lợi suất thực tế thu được.\n**Công thức:** Lãi suất thực = Lãi suất danh nghĩa - Tỷ lệ lạm phát."
             }
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_6_comp_3",
-      "components": [
+        },
         {
           "type": "cycle",
           "title": "4 Nhân tố chính ảnh hưởng đến Lãi suất",
@@ -917,12 +632,7 @@
               }
             ]
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_6_quiz",
-      "components": [
+        },
         {
           "type": "quiz",
           "title": "Ôn tập kiến thức Tín dụng và lãi suất",
@@ -933,7 +643,7 @@
       ]
     },
     {
-      "node_id": "chuong_7_comp_1",
+      "node_id": "chuong_7",
       "components": [
         {
           "type": "features",
@@ -954,12 +664,7 @@
               }
             ]
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_7_comp_2",
-      "components": [
+        },
         {
           "type": "features",
           "title": "3 CHỨC NĂNG CỦA NGÂN HÀNG TRUNG ƯƠNG",
@@ -979,12 +684,7 @@
               }
             ]
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_7_comp_3",
-      "components": [
+        },
         {
           "type": "vs-wrap",
           "title": "CHÍNH SÁCH TIỀN TỆ: MỞ RỘNG VS THẮT CHẶT",
@@ -998,12 +698,7 @@
               "content": "Áp dụng khi nền kinh tế phát triển thái quá, đồng thời lạm phát ngày càng gia tăng. Mục đích giảm lượng tiền cung ứng để hạ nhiệt."
             }
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_7_comp_4",
-      "components": [
+        },
         {
           "type": "features",
           "title": "6 CÔNG CỤ CỦA CHÍNH SÁCH TIỀN TỆ",
@@ -1035,12 +730,7 @@
               }
             ]
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_7_quiz",
-      "components": [
+        },
         {
           "type": "quiz",
           "title": "Ôn tập kiến thức Hệ thống ngân hàng",
@@ -1051,7 +741,7 @@
       ]
     },
     {
-      "node_id": "chuong_8_comp_1",
+      "node_id": "chuong_8",
       "components": [
         {
           "type": "vs-wrap",
@@ -1066,12 +756,7 @@
               "content": "- CP bổ nhiệm nhân sự và can thiệp trực tiếp chính sách.\n- Giúp phối hợp đồng bộ các công cụ quản lý vĩ mô.\n- Đại diện: Việt Nam (NHNN), Anh, Nhật Bản."
             }
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_8_comp_2",
-      "components": [
+        },
         {
           "type": "vs-wrap",
           "title": "2 Trạng thái của Chính sách Tiền tệ",
@@ -1085,12 +770,7 @@
               "content": "- Bối cảnh: Kinh tế nóng, lạm phát cao.\n- Hành động: Tăng lãi suất, rút bớt tiền khỏi lưu thông.\n- Kết quả: Giảm chi tiêu, gửi tiết kiệm nhiều hơn, kìm hãm đà tăng giá cả."
             }
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_8_comp_3",
-      "components": [
+        },
         {
           "type": "features",
           "title": "Các Nhóm nguyên nhân gây ra Lạm phát",
@@ -1114,12 +794,7 @@
               }
             ]
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_8_comp_4",
-      "components": [
+        },
         {
           "type": "process-steps",
           "title": "Nhóm Biện pháp Kiềm chế Lạm phát cấp bách",
@@ -1139,12 +814,7 @@
               }
             ]
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_8_quiz",
-      "components": [
+        },
         {
           "type": "quiz",
           "title": "Ôn tập kiến thức Ngân hàng trung ương và lạm phát",
@@ -1155,7 +825,7 @@
       ]
     },
     {
-      "node_id": "chuong_9_comp_1",
+      "node_id": "chuong_9",
       "components": [
         {
           "type": "vs-wrap",
@@ -1170,12 +840,7 @@
               "content": "Nội tệ đóng vai trò hàng hoá (đơn vị cố định = 1), Ngoại tệ là tiền tệ (đơn vị thay đổi)."
             }
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_9_comp_2",
-      "components": [
+        },
         {
           "type": "process-steps",
           "title": "Nội dung Cán cân Thanh toán",
@@ -1203,12 +868,7 @@
               }
             ]
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_9_comp_3",
-      "components": [
+        },
         {
           "type": "features",
           "title": "Phân loại ODA theo tính chất tài trợ",
@@ -1228,12 +888,7 @@
               }
             ]
           }
-        }
-      ]
-    },
-    {
-      "node_id": "chuong_9_quiz",
-      "components": [
+        },
         {
           "type": "quiz",
           "title": "Ôn tập kiến thức Tài chính quốc tế",
