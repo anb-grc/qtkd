@@ -296,8 +296,8 @@ function MindmapZoomControls({ rootWrapperRef, containerRef, expandedIdx }: { ro
 
   return (
     <div className={styles.zoomControls}>
-      <button className={styles.zoomBtn} onClick={() => zoomIn()}>+</button>
-      <button className={styles.zoomBtn} onClick={() => zoomOut()}>−</button>
+      <button className={styles.zoomBtn} onClick={() => zoomIn(0.2)}>+</button>
+      <button className={styles.zoomBtn} onClick={() => zoomOut(0.2)}>−</button>
       <button className={styles.zoomBtn} onClick={() => doAutoFit()}>↺</button>
     </div>
   );
