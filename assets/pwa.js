@@ -25,8 +25,8 @@ if (isStandalone && installBtn) {
   // Nếu chưa cài thì hiện nút lên
   installBtn.style.display = 'inline-flex';
   
-  // Detect iOS
-  const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+  // Detect iOS (Bao gồm cả Safari iOS khi bật chế độ Desktop - hiển thị MacIntel)
+  const isIOS = (/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
 
   if (isIOS) {
     installBtn.addEventListener('click', () => {
