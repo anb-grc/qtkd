@@ -52,32 +52,8 @@
             },
             {
               "id": "yp3_2",
-              "label": "Mô hình IS-LM",
-              "description": "Sự cân bằng thị trường Hàng hóa (IS) & Tiền tệ (LM)"
-            }
-          ]
-        },
-        {
-          "id": "yp4",
-          "label": "Bẫy Lật Kèo",
-          "description": "Các cạm bẫy lý thuyết",
-          "children": [
-            {
-              "id": "yp4_1",
               "label": "Bẫy lý thuyết Vĩ mô",
               "description": "Phân biệt các khái niệm dễ nhầm lẫn"
-            }
-          ]
-        },
-        {
-          "id": "yp5",
-          "label": "Đấu Trường Thực Chiến",
-          "description": "Thực hành giải đề",
-          "children": [
-            {
-              "id": "yp5_1",
-              "label": "Ngân hàng Đề thi",
-              "description": "Trích xuất câu hỏi trắc nghiệm"
             }
           ]
         }
@@ -100,6 +76,16 @@
               "title": "GNP (Quốc gia)",
               "content": "Tính theo **SỞ HỮU QUỐC TỊCH**. Tổng giá trị hàng hóa do công dân nước đó tạo ra, *dù ở trong hay ngoài nước*."
             }
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Chốt chặn: Đo Lường Sản Lượng",
+          "data": {
+            "quiz_tags": [
+              "Đo Lường Sản Lượng Quốc Gia",
+              "Tổng Quan Kinh Tế Học"
+            ]
           }
         }
       ]
@@ -132,6 +118,16 @@
             ],
             "example": "Sự gia tăng chi tiêu ban đầu sẽ tạo ra nhiều vòng chi tiêu khuếch đại tổng thu nhập (gọi là Số nhân chi tiêu)."
           }
+        },
+        {
+          "type": "quiz",
+          "title": "Chốt chặn: Tổng Cầu",
+          "data": {
+            "quiz_tags": [
+              "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở",
+              "Tăng Trưởng Kinh Tế"
+            ]
+          }
         }
       ]
     },
@@ -155,6 +151,15 @@
                 "title": "M2",
                 "content": "M1 + Tiền gửi tiết kiệm có kỳ hạn"
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Chốt chặn: Tiền Tệ",
+          "data": {
+            "quiz_tags": [
+              "Tiền Tệ"
             ]
           }
         }
@@ -194,6 +199,15 @@
               }
             }
           }
+        },
+        {
+          "type": "quiz",
+          "title": "Chốt chặn: Chính Sách Tiền Tệ",
+          "data": {
+            "quiz_tags": [
+              "Chính Sách Tiền Tệ"
+            ]
+          }
         }
       ]
     },
@@ -225,11 +239,20 @@
               }
             ]
           }
+        },
+        {
+          "type": "quiz",
+          "title": "Chốt chặn: Tổng Cung",
+          "data": {
+            "quiz_tags": [
+              "Tổng Cung Và Chu Kỳ Kinh Doanh"
+            ]
+          }
         }
       ]
     },
     {
-      "node_id": "yp4_1",
+      "node_id": "yp3_2",
       "components": [
         {
           "type": "delta-cheat-sheet",
@@ -258,17 +281,16 @@
               }
             ]
           }
-        }
-      ]
-    },
-    {
-      "node_id": "yp5_1",
-      "components": [
+        },
         {
           "type": "quiz",
-          "title": "Ngân Hàng Đề: Kinh Tế Vĩ Mô",
+          "title": "Chốt chặn: Lạm Phát & IS-LM",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Lạm Phát Và Thất Nghiệp",
+              "Mô Hình IS - LM",
+              "Ngoại Hối & Tỷ Giá"
+            ]
           }
         }
       ]
