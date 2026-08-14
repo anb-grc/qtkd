@@ -7,7 +7,7 @@
       "children": [
         {
           "id": "chuong_1",
-          "label": "Chương 1: Nhập môn tài chính",
+          "label": "Nhập môn tài chính",
           "children": [
             {
               "label": "Ra đời & Phát triển",
@@ -91,7 +91,7 @@
         },
         {
           "id": "chuong_2",
-          "label": "TỔNG QUAN TÀI CHÍNH CÔNG",
+          "label": "Tài chính công",
           "children": [
             {
               "label": "Bản chất",
@@ -121,7 +121,7 @@
         },
         {
           "id": "chuong_3",
-          "label": "Bản đồ Tài chính Doanh nghiệp",
+          "label": "Tài chính doanh nghiệp",
           "children": [
             {
               "label": "Đặc điểm",
@@ -152,7 +152,7 @@
         },
         {
           "id": "chuong_4",
-          "label": "Bức tranh tổng quan Thị trường tài chính",
+          "label": "Thị trường tài chính",
           "children": [
             {
               "label": "Thị trường tiền tệ",
@@ -170,7 +170,7 @@
         },
         {
           "id": "chuong_5",
-          "label": "TỔNG QUAN VỀ TIỀN TỆ",
+          "label": "Tiền tệ",
           "children": [
             {
               "label": "Bản chất & Nguồn gốc",
@@ -192,7 +192,7 @@
         },
         {
           "id": "chuong_6",
-          "label": "Tín dụng & Lãi suất",
+          "label": "Tín dụng và lãi suất",
           "children": [
             {
               "label": "Tín dụng",
@@ -228,7 +228,7 @@
         },
         {
           "id": "chuong_7",
-          "label": "TỔNG QUAN HỆ THỐNG NGÂN HÀNG",
+          "label": "Hệ thống ngân hàng",
           "children": [
             {
               "label": "Ngân hàng Thương mại (NHTM)",
@@ -246,7 +246,7 @@
         },
         {
           "id": "chuong_8",
-          "label": "Bức tranh toàn cảnh: Ngân hàng Trung ương & Lạm phát",
+          "label": "Ngân hàng trung ương và lạm phát",
           "children": [
             {
               "label": "Ngân hàng Trung ương",
@@ -299,7 +299,7 @@
         },
         {
           "id": "chuong_9",
-          "label": "Tài chính Quốc tế",
+          "label": "Tài chính quốc tế",
           "children": [
             {
               "label": "Tỷ giá hối đoái",
