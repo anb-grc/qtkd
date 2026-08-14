@@ -376,5 +376,243 @@
       "D. tìm ra các biện pháp để quản lý và tăng nhanh vòng quay của vốn lưu động."
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. tìm ra các biện pháp quản lý sử dụng hiệu quả nhất đối với mỗi loại.\n<div class=\"note\">Vì đặc điểm luân chuyển của VCĐ (dần dần) và VLĐ (toàn bộ 1 lần) hoàn toàn khác nhau, việc phân biệt chúng giúp nhà quản trị áp dụng biện pháp quản lý chuyên biệt và tối ưu hóa hiệu quả cho từng loại.</div>"
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Mục đích tài chính cuối cùng</span> của các doanh nghiệp là tối đa hóa",
+    "options": [
+      "A. <span class=\"answer-keyword\">lợi nhuận</span>.",
+      "B. tài sản.",
+      "C. các chỉ số tài chính.",
+      "D. doanh thu."
+    ],
+    "answer": "<div class=\"options-grid\">\n  <div class=\"option\">A. <span class=\"answer-keyword\">lợi nhuận</span>.</div>\n  <div class=\"option\">B. tài sản.</div>\n  <div class=\"option\">C. các chỉ số tài chính.</div>\n  <div class=\"option\">D. doanh thu.</div>\n</div>\n<div class=\"note\">Mục đích cuối cùng của quản trị tài chính doanh nghiệp luôn là tối đa hóa lợi nhuận và giá trị doanh nghiệp.</div>",
+    "tags": [
+      "Mẫu"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Sự tồn tại của <span class=\"keyword\">nền sản xuất hàng hóa – tiền tệ</span> và <span class=\"keyword\">Nhà nước</span> được coi là những tiền đề phát sinh và phát triển của",
+    "options": [
+      "A. tổ chức tài chính trung gian.",
+      "B. ngân hàng.",
+      "C. <span class=\"answer-keyword\">tài chính</span>.",
+      "D. tiền tệ."
+    ],
+    "answer": "<div class=\"options-grid\">\n  <div class=\"option\">A. tổ chức tài chính trung gian.</div>\n  <div class=\"option\">B. ngân hàng.</div>\n  <div class=\"option\">C. <span class=\"answer-keyword\">tài chính</span>.</div>\n  <div class=\"option\">D. tiền tệ.</div>\n</div>\n<div class=\"note\">Tài chính ra đời và phát triển dựa trên 2 tiền đề khách quan là nền sản xuất hàng hóa - tiền tệ và sự ra đời của Nhà nước.</div>",
+    "tags": [
+      "Mẫu"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Những <span class=\"keyword\">tiềm năng tài chính</span> mà các chủ thể trong xã hội có thể <span class=\"keyword\">khai thác, sử dụng</span> nhằm thực hiện các mục đích của mình là",
+    "options": [
+      "A. các quỹ tiền tệ.",
+      "B. các khâu tài chính.",
+      "C. các chủ thể phân phối.",
+      "D. <span class=\"answer-keyword\">nguồn tài chính</span>."
+    ],
+    "answer": "<div class=\"options-grid\">\n  <div class=\"option\">A. các quỹ tiền tệ.</div>\n  <div class=\"option\">B. các khâu tài chính.</div>\n  <div class=\"option\">C. các chủ thể phân phối.</div>\n  <div class=\"option\">D. <span class=\"answer-keyword\">nguồn tài chính</span>.</div>\n</div>\n<div class=\"note\">Nguồn tài chính là những tiềm năng tài chính (của cải xã hội) mà các chủ thể có thể khai thác, sử dụng.</div>",
+    "tags": [
+      "Mẫu"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Tài chính</span> là gì?",
+    "options": [
+      "A. Tài chính là các chứng khoán.",
+      "B. Tài chính là tiền và các loại ngoại tệ.",
+      "C. Tài chính là các luồng tiền.",
+      "D. Tài chính là <span class=\"answer-keyword\">sự vận động</span> của <span class=\"answer-keyword\">vốn tiền tệ</span>."
+    ],
+    "answer": "<div class=\"options-grid\">\n  <div class=\"option\">A. Tài chính là các chứng khoán.</div>\n  <div class=\"option\">B. Tài chính là tiền và các loại ngoại tệ.</div>\n  <div class=\"option\">C. Tài chính là các luồng tiền.</div>\n  <div class=\"option\">D. Tài chính là <span class=\"answer-keyword\">sự vận động</span> của <span class=\"answer-keyword\">vốn tiền tệ</span>.</div>\n</div>\n<div class=\"note\">Về mặt hiện tượng, tài chính biểu hiện thông qua sự vận động của vốn tiền tệ (thu vào, chi ra) để tạo lập và sử dụng các quỹ tiền tệ.</div>",
+    "tags": [
+      "Mẫu"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Khoản thu nào dưới đây chiếm <span class=\"keyword\">tỷ trọng lớn nhất</span> trong tổng <span class=\"keyword\">thu ngân sách</span> nhà nước ở Việt Nam?",
+    "options": [
+      "A. phí.",
+      "B. <span class=\"answer-keyword\">thuế</span>.",
+      "C. sở hữu tài sản.",
+      "D. lệ phí."
+    ],
+    "answer": "<div class=\"options-grid\">\n  <div class=\"option\">A. phí.</div>\n  <div class=\"option\">B. <span class=\"answer-keyword\">thuế</span>.</div>\n  <div class=\"option\">C. sở hữu tài sản.</div>\n  <div class=\"option\">D. lệ phí.</div>\n</div>\n<div class=\"note\">Thuế là nguồn thu mang tính bắt buộc và đóng vai trò chủ đạo, chiếm tỷ trọng lớn nhất trong tổng thu ngân sách nhà nước.</div>",
+    "tags": [
+      "Mẫu"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Đâu là <span class=\"keyword\">khâu cuối cùng</span> trong chu trình <span class=\"keyword\">quản lý ngân sách</span> nhà nước?",
+    "options": [
+      "A. <span class=\"answer-keyword\">Quyết toán</span> ngân sách",
+      "B. Chấp hành dự toán chi",
+      "C. Chấp hành dự toán thu",
+      "D. Hình thành ngân sách"
+    ],
+    "answer": "<div class=\"options-grid\">\n  <div class=\"option\">A. <span class=\"answer-keyword\">Quyết toán</span> ngân sách</div>\n  <div class=\"option\">B. Chấp hành dự toán chi</div>\n  <div class=\"option\">C. Chấp hành dự toán thu</div>\n  <div class=\"option\">D. Hình thành ngân sách</div>\n</div>\n<div class=\"note\">Chu trình quản lý ngân sách gồm 3 khâu: Lập dự toán -> Chấp hành dự toán -> Quyết toán ngân sách.</div>",
+    "tags": [
+      "Mẫu"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Những khoản mục <span class=\"keyword\">thu thường xuyên</span> trong cân đối ngân sách nhà nước bao gồm:",
+    "options": [
+      "A. <span class=\"answer-keyword\">thuế, sở hữu tài sản, phí và lệ phí</span>.",
+      "B. thuế, sở hữu tài sản, phí và lệ phí, phát hành trái phiếu chính phủ.",
+      "C. thuế, sở hữu tài sản, phí và lệ phí, lợi tức cổ phần của Nhà nước.",
+      "D. thuế, phí và lệ phí, từ các khoản viện trợ có hoàn lại."
+    ],
+    "answer": "<div class=\"options-grid\">\n  <div class=\"option\">A. <span class=\"answer-keyword\">thuế, sở hữu tài sản, phí và lệ phí</span>.</div>\n  <div class=\"option\">B. thuế, sở hữu tài sản, phí và lệ phí, phát hành trái phiếu chính phủ.</div>\n  <div class=\"option\">C. thuế, sở hữu tài sản, phí và lệ phí, lợi tức cổ phần của Nhà nước.</div>\n  <div class=\"option\">D. thuế, phí và lệ phí, từ các khoản viện trợ có hoàn lại.</div>\n</div>\n<div class=\"note\">Thu thường xuyên là các khoản thu mang tính ổn định, lặp lại như thuế, phí, lệ phí và thu từ sở hữu tài sản. Trái phiếu, viện trợ không phải thu thường xuyên.</div>",
+    "tags": [
+      "Mẫu"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Cấu thành đầy đủ của <span class=\"keyword\">vốn lưu động</span> là",
+    "options": [
+      "A. <span class=\"answer-keyword\">vốn bằng tiền, đầu tư tài chính ngắn hạn, hàng tồn kho, tài sản ngắn hạn khác</span>.",
+      "B. đầu tư tài chính ngắn hạn, hàng tồn kho, tài sản ngắn hạn khác.",
+      "C. vốn bằng tiền, đầu tư tài chính dài hạn, hàng tồn kho, các khoản thu ngắn hạn.",
+      "D. vốn bằng tiền, đầu tư tài chính ngắn hạn, các khoản thu ngắn hạn, giá trị tài sản cố định."
+    ],
+    "answer": "<div class=\"options-grid\">\n  <div class=\"option\">A. <span class=\"answer-keyword\">vốn bằng tiền, đầu tư tài chính ngắn hạn, hàng tồn kho, tài sản ngắn hạn khác</span>.</div>\n  <div class=\"option\">B. đầu tư tài chính ngắn hạn, hàng tồn kho, tài sản ngắn hạn khác.</div>\n  <div class=\"option\">C. vốn bằng tiền, đầu tư tài chính dài hạn, hàng tồn kho, các khoản thu ngắn hạn.</div>\n  <div class=\"option\">D. vốn bằng tiền, đầu tư tài chính ngắn hạn, các khoản thu ngắn hạn, giá trị tài sản cố định.</div>\n</div>\n<div class=\"note\">Vốn lưu động biểu hiện bằng tiền của toàn bộ tài sản ngắn hạn, bao gồm: tiền, đầu tư ngắn hạn, các khoản phải thu, hàng tồn kho và TS ngắn hạn khác.</div>",
+    "tags": [
+      "Mẫu"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Chi phí sản xuất kinh doanh</span> của doanh nghiệp là",
+    "options": [
+      "A. biểu hiện <span class=\"answer-keyword\">bằng tiền</span> của <span class=\"answer-keyword\">hao phí</span> về các yếu tố có liên quan và phục vụ cho hoạt động kinh doanh trong 1 khoảng thời gian nhất định.",
+      "B. biểu hiện về mặt giá trị của hao phí về các yếu tố có liên quan và phục vụ cho hoạt động kinh doanh trong 1 khoảng thời gian.",
+      "C. biểu hiện về mặt giá trị của hao phí vế các yếu tố không liên quan và phục vụ cho hoạt động kinh doanh trong 1 khoảng thời gian.",
+      "D. biểu hiện bằng tiền của hao phí về các yếu tố có liên quan và không phục vụ cho hoạt động kinh doanh trong 1 khoảng thời gian nhất định."
+    ],
+    "answer": "<div class=\"options-grid\">\n  <div class=\"option\">A. biểu hiện <span class=\"answer-keyword\">bằng tiền</span> của <span class=\"answer-keyword\">hao phí</span> về các yếu tố có liên quan và phục vụ cho hoạt động kinh doanh trong 1 khoảng thời gian nhất định.</div>\n  <div class=\"option\">B. biểu hiện về mặt giá trị của hao phí về các yếu tố có liên quan và phục vụ cho hoạt động kinh doanh trong 1 khoảng thời gian.</div>\n  <div class=\"option\">C. biểu hiện về mặt giá trị của hao phí vế các yếu tố không liên quan và phục vụ cho hoạt động kinh doanh trong 1 khoảng thời gian.</div>\n  <div class=\"option\">D. biểu hiện bằng tiền của hao phí về các yếu tố có liên quan và không phục vụ cho hoạt động kinh doanh trong 1 khoảng thời gian nhất định.</div>\n</div>\n<div class=\"note\">Chi phí luôn được đo lường dưới hình thái tiền tệ (biểu hiện bằng tiền) phản ánh những hao phí nguồn lực để phục vụ sản xuất kinh doanh.</div>",
+    "tags": [
+      "Mẫu"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Để lập <span class=\"keyword\">quỹ dự phòng bắt buộc</span>, doanh nghiệp phải lấy từ nguồn nào sau đây?",
+    "options": [
+      "A. <span class=\"answer-keyword\">Lợi nhuận ròng</span>",
+      "B. Doanh thu",
+      "C. Vốn pháp định",
+      "D. Vốn chủ sở hữu"
+    ],
+    "answer": "<div class=\"options-grid\">\n  <div class=\"option\">A. <span class=\"answer-keyword\">Lợi nhuận ròng</span></div>\n  <div class=\"option\">B. Doanh thu</div>\n  <div class=\"option\">C. Vốn pháp định</div>\n  <div class=\"option\">D. Vốn chủ sở hữu</div>\n</div>\n<div class=\"note\">Các quỹ của doanh nghiệp (như quỹ dự phòng, quỹ khen thưởng...) đều được trích lập từ phần lợi nhuận ròng (lợi nhuận sau thuế).</div>",
+    "tags": [
+      "Mẫu"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Một <span class=\"keyword\">đặc điểm</span> của <span class=\"keyword\">vốn cố định</span>",
+    "options": [
+      "A. Vốn cố định bị tiêu dùng hoàn toàn trong việc chế tạo ra sản phẩm.",
+      "B. Vốn cố định chuyển một lần toàn bộ giá trị vào giá thành sản phẩm mới được tạo ra.",
+      "C. Vốn cố định được thu hồi <span class=\"answer-keyword\">dần từng phần</span> tương ứng với phần hao mòn của tài sản cố định, đến khi TSCĐ hết thời gian sử dụng, giá trị của nó được thu hồi về đủ thì vốn cố định mới hoàn thành một vòng luân chuyển.",
+      "D. Vốn cố định được thu hồi một lần toàn bộ sau khi bán hàng đi thu tiền về và lúc đó kết thúc vòng tuần hoàn của vốn."
+    ],
+    "answer": "<div class=\"options-grid\">\n  <div class=\"option\">A. Vốn cố định bị tiêu dùng hoàn toàn trong việc chế tạo ra sản phẩm.</div>\n  <div class=\"option\">B. Vốn cố định chuyển một lần toàn bộ giá trị vào giá thành sản phẩm mới được tạo ra.</div>\n  <div class=\"option\">C. Vốn cố định được thu hồi <span class=\"answer-keyword\">dần từng phần</span> tương ứng với phần hao mòn của tài sản cố định, đến khi TSCĐ hết thời gian sử dụng, giá trị của nó được thu hồi về đủ thì vốn cố định mới hoàn thành một vòng luân chuyển.</div>\n  <div class=\"option\">D. Vốn cố định được thu hồi một lần toàn bộ sau khi bán hàng đi thu tiền về và lúc đó kết thúc vòng tuần hoàn của vốn.</div>\n</div>\n<div class=\"note\">Vốn cố định luân chuyển giá trị của nó dần dần từng phần vào giá trị sản phẩm tương ứng với phần khấu hao của TSCĐ.</div>",
+    "tags": [
+      "Mẫu"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Nhân tố cấu thành</span> <span class=\"keyword\">vốn cố định</span> là",
+    "options": [
+      "A. Tài sản ngằn hạn.",
+      "B. Hàng tồn kho.",
+      "C. Vốn bằng tiền.",
+      "D. <span class=\"answer-keyword\">Đầu tư tài chính dài hạn</span>."
+    ],
+    "answer": "<div class=\"options-grid\">\n  <div class=\"option\">A. Tài sản ngằn hạn.</div>\n  <div class=\"option\">B. Hàng tồn kho.</div>\n  <div class=\"option\">C. Vốn bằng tiền.</div>\n  <div class=\"option\">D. <span class=\"answer-keyword\">Đầu tư tài chính dài hạn</span>.</div>\n</div>\n<div class=\"note\">Vốn cố định bao gồm giá trị còn lại của TSCĐ, chi phí xây dựng cơ bản dở dang, tài sản thế chấp dài hạn và đầu tư tài chính dài hạn.</div>",
+    "tags": [
+      "Mẫu"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Vốn lưu động</span> của doanh nghiệp theo nguyên lý chung có thể được hiểu là",
+    "options": [
+      "A. giá trị của tài sản lưu động, bằng phát minh sáng chế và các loại chứng khoán Nhà nước khác.",
+      "B. giá trị của tài sản lưu động và một số tài sản khác có thời gian luân chuyển từ 5 đến 10 năm.",
+      "C. giá trị của công cụ lao động và nguyên nhiên vật liệu có thời gian sử dụng ngắn.",
+      "D. giá trị của <span class=\"answer-keyword\">toàn bộ tài sản lưu động</span> của doanh nghiệp đó."
+    ],
+    "answer": "<div class=\"options-grid\">\n  <div class=\"option\">A. giá trị của tài sản lưu động, bằng phát minh sáng chế và các loại chứng khoán Nhà nước khác.</div>\n  <div class=\"option\">B. giá trị của tài sản lưu động và một số tài sản khác có thời gian luân chuyển từ 5 đến 10 năm.</div>\n  <div class=\"option\">C. giá trị của công cụ lao động và nguyên nhiên vật liệu có thời gian sử dụng ngắn.</div>\n  <div class=\"option\">D. giá trị của <span class=\"answer-keyword\">toàn bộ tài sản lưu động</span> của doanh nghiệp đó.</div>\n</div>\n<div class=\"note\">Theo nguyên lý chung, vốn lưu động là số tiền ứng trước về tài sản lưu động và tài sản lưu thông, biểu hiện giá trị của toàn bộ TS ngắn hạn.</div>",
+    "tags": [
+      "Mẫu"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Trong các chủ thể sau thì chủ thế nào là chủ thể có <span class=\"keyword\">quyền sử dụng</span> các nguồn lực tài chính?",
+    "options": [
+      "A. Ngân hàng cho vay vốn",
+      "B. Bố cho con tiền đóng học phí",
+      "C. Sinh viên <span class=\"answer-keyword\">thuê nhà trọ</span>",
+      "D. Cá nhân đầu tư vào doanh nghiệp"
+    ],
+    "answer": "<div class=\"options-grid\">\n  <div class=\"option\">A. Ngân hàng cho vay vốn</div>\n  <div class=\"option\">B. Bố cho con tiền đóng học phí</div>\n  <div class=\"option\">C. Sinh viên <span class=\"answer-keyword\">thuê nhà trọ</span></div>\n  <div class=\"option\">D. Cá nhân đầu tư vào doanh nghiệp</div>\n</div>\n<div class=\"note\">Sinh viên dùng tiền để chi trả tiền thuê trọ là hành vi trực tiếp tiêu dùng/sử dụng quỹ tiền tệ để đáp ứng nhu cầu đời sống.</div>",
+    "tags": [
+      "Mẫu"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Bản chất</span> của tài chính doanh nghiệp là hệ thống những <span class=\"keyword\">mối quan hệ</span> nào dưới hình thái giá trị phát sinh trong quá trình hình thành, phân phối và sử dụng các quỹ tiền tệ của doanh nghiệp nhằm phục vụ cho các hoạt động của doanh nghiệp và góp phần đạt được mục tiêu của doanh nghiệp?",
+    "options": [
+      "A. Quan hệ xã hội",
+      "B. Quan hệ <span class=\"answer-keyword\">kinh tế</span>",
+      "C. Quan hệ tiền tệ",
+      "D. Quan hệ mật thiết"
+    ],
+    "answer": "<div class=\"options-grid\">\n  <div class=\"option\">A. Quan hệ xã hội</div>\n  <div class=\"option\">B. Quan hệ <span class=\"answer-keyword\">kinh tế</span></div>\n  <div class=\"option\">C. Quan hệ tiền tệ</div>\n  <div class=\"option\">D. Quan hệ mật thiết</div>\n</div>\n<div class=\"note\">Bản chất của tài chính nói chung và tài chính doanh nghiệp nói riêng đều là hệ thống các quan hệ kinh tế phát sinh trong phân phối các quỹ tiền tệ.</div>",
+    "tags": [
+      "Mẫu"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Nguồn <span class=\"keyword\">vốn quan trọng nhất</span> đáp ứng nhu cầu đầu tư phát triển và hiện đại hóa các doanh nghiệp Việt Nam là",
+    "options": [
+      "A. Nguồn vốn sẵn có trong các tầng lớp dân cư.",
+      "B. <span class=\"answer-keyword\">Tín dụng trung và dài hạn</span> từ các ngân hàng thương mại, đặc biệt là ngân hàng thương mại Nhà nước.",
+      "C. Ngân sách nhà nước hỗ trợ.",
+      "D. Chủ doanh nghiệp bỏ thêm vốn vào sản xuất kinh doanh."
+    ],
+    "answer": "<div class=\"options-grid\">\n  <div class=\"option\">A. Nguồn vốn sẵn có trong các tầng lớp dân cư.</div>\n  <div class=\"option\">B. <span class=\"answer-keyword\">Tín dụng trung và dài hạn</span> từ các ngân hàng thương mại, đặc biệt là ngân hàng thương mại Nhà nước.</div>\n  <div class=\"option\">C. Ngân sách nhà nước hỗ trợ.</div>\n  <div class=\"option\">D. Chủ doanh nghiệp bỏ thêm vốn vào sản xuất kinh doanh.</div>\n</div>\n<div class=\"note\">Trong bối cảnh kinh tế Việt Nam, hệ thống ngân hàng (đặc biệt là tín dụng trung/dài hạn) vẫn là kênh cung ứng vốn quan trọng và chủ đạo nhất cho doanh nghiệp.</div>",
+    "tags": [
+      "Mẫu"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Sự <span class=\"keyword\">khác nhau căn bản</span> của vốn lưu động và vốn cố định là",
+    "options": [
+      "A. quy mô và hình thức tồn tại.",
+      "B. đặc điểm luân chuyển, vai trò và hình thức tồn tại.",
+      "C. quy mô và đặc điểm luân chuyển.",
+      "D. <span class=\"answer-keyword\">đặc điểm luân chuyển</span>, hình thức tồn tại, <span class=\"answer-keyword\">thời gian sử dụng</span>."
+    ],
+    "answer": "<div class=\"options-grid\">\n  <div class=\"option\">A. quy mô và hình thức tồn tại.</div>\n  <div class=\"option\">B. đặc điểm luân chuyển, vai trò và hình thức tồn tại.</div>\n  <div class=\"option\">C. quy mô và đặc điểm luân chuyển.</div>\n  <div class=\"option\">D. <span class=\"answer-keyword\">đặc điểm luân chuyển</span>, hình thức tồn tại, <span class=\"answer-keyword\">thời gian sử dụng</span>.</div>\n</div>\n<div class=\"note\">Vốn cố định và vốn lưu động khác nhau rõ rệt nhất ở phương thức luân chuyển giá trị (dần dần vs 1 lần) và thời gian sử dụng (dài hạn vs ngắn hạn).</div>",
+    "tags": [
+      "Mẫu"
+    ]
   }
 ]

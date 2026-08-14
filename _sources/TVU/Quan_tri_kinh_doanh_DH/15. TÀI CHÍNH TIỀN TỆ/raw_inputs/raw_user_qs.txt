@@ -1,0 +1,446 @@
+<USER_REQUEST>
+Bỏ qua các bước build ngân hàng đề luôn nha.
+Câu 1:
+
+1 điểm
+
+Mục đích tài chính cuối cùng của các doanh nghiệp là tối đa hóa
+
+A.
+lợi nhuận.
+B.
+tài sản.
+C.
+các chỉ số tài chính.
+D.
+doanh thu.
+
+Gắn cờ
+Câu 2:
+
+1 điểm
+
+Sự tồn tại của nền sản xuất hàng hóa – tiền tệ và Nhà nước được coi là những tiền đề phát sinh và phát triển của
+
+A.
+tổ chức tài chính trung gian.
+B.
+ngân hàng.
+C.
+tài chính.
+D.
+tiền tệ.
+
+Gắn cờ
+Câu 3:
+
+1 điểm
+
+Ý nào sau đây KHÔNG phải vai trò của tài chính ở tầm vi mô?
+
+A.
+Tăng cường tiềm lực tài chính của đất nước.
+B.
+Điều tiết kinh tế.
+C.
+Tích tụ và tập trung vốn, cung ứng vốn cho các nhu cầu công nghiệp hóa, hiện đại hóa.
+D.
+Xác lập và tăng cường các quan hệ kinh tế - xã hội.
+
+Gắn cờ
+Câu 4:
+
+1 điểm
+
+Những tiềm năng tài chính mà các chủ thể trong xã hội có thể khai thác, sử dụng nhằm thực hiện các mục đích của mình là
+
+A.
+các quỹ tiền tệ.
+B.
+các khâu tài chính.
+C.
+các chủ thể phân phối.
+D.
+nguồn tài chính.
+
+Gắn cờ
+Câu 5:
+
+1 điểm
+
+Tài chính là gì?
+
+A.
+Tài chính là các chứng khoán.
+B.
+Tài chính là tiền và các loại ngoại tệ.
+C.
+Tài chính là các luồng tiền.
+D.
+Tài chính là sự vận động của vốn tiền tệ.
+
+Gắn cờ
+Câu 6:
+
+1 điểm
+
+Khoản thu nào dưới đây chiếm tỷ trọng lớn nhất trong tổng thu ngân sách nhà nước ở Việt Nam?
+
+A.
+phí.
+B.
+thuế.
+C.
+sở hữu tài sản.
+D.
+lệ phí.
+
+Gắn cờ
+Câu 7:
+
+1 điểm
+
+Đâu là khâu cuối cùng trong chu trình quản lý ngân sách nhà nước?
+
+A.
+Quyết toán ngân sách
+B.
+Chấp hành dự toán chi
+C.
+Chấp hành dự toán thu
+D.
+Hình thành ngân sách
+
+Gắn cờ
+Câu 8:
+
+1 điểm
+
+Phí thuộc ngân sách nhà nước thu về
+
+A.
+đủ để bù đắp chi phí đã bỏ ra.
+B.
+không đủ bù đắp chi phí đã bỏ ra.
+C.
+không tính tới chi phí đã bỏ ra.
+D.
+vượt quá chi phí đã bỏ ra.
+
+Gắn cờ
+Câu 9:
+
+1 điểm
+
+Những khoản mục thu thường xuyên trong cân đối ngân sách nhà nước bao gồm:
+
+A.
+thuế, sở hữu tài sản, phí và lệ phí.
+B.
+thuế, sở hữu tài sản, phí và lệ phí, phát hành trái phiếu chính phủ.
+C.
+thuế, sở hữu tài sản, phí và lệ phí, lợi tức cổ phần của Nhà nước.
+D.
+thuế, phí và lệ phí, từ các khoản viện trợ có hoàn lại.
+
+Gắn cờ
+Câu 10:
+
+1 điểm
+
+Trong các khoản chi sau, khoản chi nào là thuộc chi thường xuyên?
+
+A.
+Chi khoa học, công nghệ và môi trường.
+B.
+Chi giải quyết việc làm.
+C.
+Chi dân số kế hoạch hóa gia đình.
+D.
+Chi trợ cấp ngân sách cho phường, xã.
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-08-08T22:29:12+07:00.
+</ADDITIONAL_METADATA>
+
+---
+
+<USER_REQUEST>
+Sai nhiều z cha, có bám theo tài liệu kiến thức trong folder không đó?
+Câu 1:
+
+0 / 1 điểm
+
+Mục đích tài chính cuối cùng của các doanh nghiệp là tối đa hóa
+
+A.
+lợi nhuận.
+B.
+tài sản.
+✗
+C.
+các chỉ số tài chính.
+D.
+doanh thu.
+Phản hồi:
+Sai. Đáp án đúng là: lợi nhuận.
+Câu 8:
+
+0 / 1 điểm
+
+Phí thuộc ngân sách nhà nước thu về
+
+A.
+đủ để bù đắp chi phí đã bỏ ra.
+✗
+B.
+không đủ bù đắp chi phí đã bỏ ra.
+C.
+không tính tới chi phí đã bỏ ra.
+D.
+vượt quá chi phí đã bỏ ra.
+Phản hồi:
+Sai. Đáp án đúng là: không đủ bù đắp chi phí đã bỏ ra.
+Câu 9:
+
+0 / 1 điểm
+
+Những khoản mục thu thường xuyên trong cân đối ngân sách nhà nước bao gồm:
+
+A.
+thuế, sở hữu tài sản, phí và lệ phí.
+B.
+thuế, sở hữu tài sản, phí và lệ phí, phát hành trái phiếu chính phủ.
+C.
+thuế, sở hữu tài sản, phí và lệ phí, lợi tức cổ phần của Nhà nước.
+✗
+D.
+thuế, phí và lệ phí, từ các khoản viện trợ có hoàn lại.
+Câu 10:
+
+0 / 1 điểm
+
+Trong các khoản chi sau, khoản chi nào là thuộc chi thường xuyên?
+
+A.
+Chi khoa học, công nghệ và môi trường.
+✗
+B.
+Chi giải quyết việc làm.
+C.
+Chi dân số kế hoạch hóa gia đình.
+D.
+Chi trợ cấp ngân sách cho phường, xã.
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-08-08T23:07:43+07:00.
+</ADDITIONAL_METADATA>
+
+---
+
+<USER_REQUEST>
+Câu 9:
+
+0 / 1 điểm
+
+Những khoản mục thu thường xuyên trong cân đối ngân sách nhà nước bao gồm:
+
+A.
+thuế, sở hữu tài sản, phí và lệ phí.
+B.
+thuế, sở hữu tài sản, phí và lệ phí, phát hành trái phiếu chính phủ.
+C.
+thuế, sở hữu tài sản, phí và lệ phí, lợi tức cổ phần của Nhà nước.
+✗
+D.
+thuế, phí và lệ phí, từ các khoản viện trợ có hoàn lại.
+Phản hồi:
+Sai. Đáp án đúng là: thuế, sở hữu tài sản, phí và lệ phí.
+
+Câu 10:
+
+0 / 1 điểm
+
+Trong các khoản chi sau, khoản chi nào là thuộc chi thường xuyên?
+
+A.
+Chi khoa học, công nghệ và môi trường.
+✗
+B.
+Chi giải quyết việc làm.
+C.
+Chi dân số kế hoạch hóa gia đình.
+D.
+Chi trợ cấp ngân sách cho phường, xã.
+Phản hồi:
+Sai. Đáp án đúng là: Chi dân số kế hoạch hóa gia đình.
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-08-08T23:12:15+07:00.
+</ADDITIONAL_METADATA>
+
+---
+
+<USER_REQUEST>
+Câu 1:
+
+1 điểm
+
+Cấu thành đầy đủ của vốn lưu động là
+
+A.
+vốn bằng tiền, đầu tư tài chính ngắn hạn, hàng tồn kho, tài sản ngắn hạn khác.
+B.
+đầu tư tài chính ngắn hạn, hàng tồn kho, tài sản ngắn hạn khác.
+C.
+vốn bằng tiền, đầu tư tài chính dài hạn, hàng tồn kho, các khoản thu ngắn hạn.
+D.
+vốn bằng tiền, đầu tư tài chính ngắn hạn, các khoản thu ngắn hạn, giá trị tài sản cố định.
+
+Gắn cờ
+Câu 2:
+
+1 điểm
+
+Chi phí sản xuất kinh doanh của doanh nghiệp là
+
+A.
+biểu hiện bằng tiền của hao phí về các yếu tố có liên quan và phục vụ cho hoạt động kinh doanh trong 1 khoảng thời gian nhất định.
+B.
+biểu hiện về mặt giá trị của hao phí về các yếu tố có liên quan và phục vụ cho hoạt động kinh doanh trong 1 khoảng thời gian.
+C.
+biểu hiện về mặt giá trị của hao phí vế các yếu tố không liên quan và phục vụ cho hoạt động kinh doanh trong 1 khoảng thời gian.
+D.
+biểu hiện bằng tiền của hao phí về các yếu tố có liên quan và không phục vụ cho hoạt động kinh doanh trong 1 khoảng thời gian nhất định.
+
+Gắn cờ
+Câu 3:
+
+1 điểm
+
+Để lập quỹ dự phòng bắt buộc, doanh nghiệp phải lấy từ nguồn nào sau đây?
+
+A.
+Lợi nhuận ròng
+B.
+Doanh thu
+C.
+Vốn pháp định
+D.
+Vốn chủ sở hữu
+
+Gắn cờ
+Câu 4:
+
+1 điểm
+
+Một đặc điểm của vốn cố định
+
+A.
+Vốn cố định bị tiêu dùng hoàn toàn trong việc chế tạo ra sản phẩm.
+B.
+Vốn cố định chuyển một lần toàn bộ giá trị vào giá thành sản phẩm mới được tạo ra.
+C.
+Vốn cố định được thu hồi dần từng phần tương ứng với phần hao mòn của tài sản cố định, đến khi TSCĐ hết thời gian sử dụng, giá trị của nó được thu hồi về đủ thì vốn cố định mới hoàn thành một vòng luân chuyển.
+D.
+Vốn cố định được thu hồi một lần toàn bộ sau khi bán hàng đi thu tiền về và lúc đó kết thúc vòng tuần hoàn của vốn.
+
+Gắn cờ
+Câu 5:
+
+1 điểm
+
+Nhân tố cấu thành vốn cố định là
+
+A.
+Tài sản ngằn hạn.
+B.
+Hàng tồn kho.
+C.
+Vốn bằng tiền.
+D.
+Đầu tư tài chính dài hạn.
+
+Gắn cờ
+Câu 6:
+
+1 điểm
+
+Vốn lưu động của doanh nghiệp theo nguyên lý chung có thể được hiểu là
+
+A.
+giá trị của tài sản lưu động, bằng phát minh sáng chế và các loại chứng khoán Nhà nước khác.
+B.
+giá trị của tài sản lưu động và một số tài sản khác có thời gian luân chuyển từ 5 đến 10 năm.
+C.
+giá trị của công cụ lao động và nguyên nhiên vật liệu có thời gian sử dụng ngắn.
+D.
+giá trị của toàn bộ tài sản lưu động của doanh nghiệp đó.
+
+Gắn cờ
+Câu 7:
+
+1 điểm
+
+Trong các chủ thể sau thì chủ thế nào là chủ thể có quyền sử dụng các nguồn lực tài chính?
+
+A.
+Ngân hàng cho vay vốn
+B.
+Bố cho con tiền đóng học phí
+C.
+Sinh viên thuê nhà trọ
+D.
+Cá nhân đầu tư vào doanh nghiệp
+
+Gắn cờ
+Câu 8:
+
+1 điểm
+
+Bản chất của tài chính doanh nghiệp là hệ thống những mối quan hệ nào dưới hình thái giá trị phát sinh trong quá trình hình thành, phân phối và sử dụng các quỹ tiền tệ của doanh nghiệp nhằm phục vụ cho các hoạt động của doanh nghiệp và góp phần đạt được mục tiêu của doanh nghiệp?
+
+A.
+Quan hệ xã hội
+B.
+Quan hệ kinh tế
+C.
+Quan hệ tiền tệ
+D.
+Quan hệ mật thiết
+
+Gắn cờ
+Câu 9:
+
+1 điểm
+
+Nguồn vốn quan trọng nhất đáp ứng nhu cầu đầu tư phát triển và hiện đại hóa các doanh nghiệp Việt Nam là
+
+A.
+Nguồn vốn sẵn có trong các tầng lớp dân cư.
+B.
+Tín dụng trung và dài hạn từ các ngân hàng thương mại, đặc biệt là ngân hàng thương mại Nhà nước.
+C.
+Ngân sách nhà nước hỗ trợ.
+D.
+Chủ doanh nghiệp bỏ thêm vốn vào sản xuất kinh doanh.
+
+Gắn cờ
+Câu 10:
+
+1 điểm
+
+Sự khác nhau căn bản của vốn lưu động và vốn cố định là
+
+A.
+quy mô và hình thức tồn tại.
+B.
+đặc điểm luân chuyển, vai trò và hình thức tồn tại.
+C.
+quy mô và đặc điểm luân chuyển.
+D.
+đặc điểm luân chuyển, hình thức tồn tại, thời gian sử dụng.
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-08-08T23:35:22+07:00.
+</ADDITIONAL_METADATA>
