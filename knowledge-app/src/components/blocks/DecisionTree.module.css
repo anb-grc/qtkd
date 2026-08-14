@@ -77,7 +77,7 @@
 }
 
 .resetBtn {
-  align-self: flex-start;
+  align-self: center;
   margin-top: var(--space-xs);
   padding: 8px 18px;
   background: transparent;
