@@ -18,28 +18,46 @@ function normalizeTextForSearch(text) {
     return s.replace(/\s+/g, ' ').trim();
 }
 
-function toggleTagFilter(tag, btnEl) {
-    if (window.activeTagFilters.has(tag)) {
-        window.activeTagFilters.delete(tag);
-        btnEl.classList.remove('active');
-        btnEl.style.background = 'var(--surface)';
-        btnEl.style.color = 'var(--text)';
-        btnEl.style.borderColor = 'var(--border)';
-    } else {
-        window.activeTagFilters.add(tag);
-        btnEl.classList.add('active');
-        btnEl.style.background = 'rgba(162, 155, 254, 0.15)';
-        btnEl.style.color = 'var(--secondary)';
-        btnEl.style.borderColor = 'rgba(162, 155, 254, 0.3)';
+function toggleTagsDropdown() {
+    let list = document.getElementById('tagsDropdownList');
+    if (list) {
+        list.style.display = list.style.display === 'none' ? 'block' : 'none';
     }
+}
+
+function toggleTagCheckbox(cb) {
+    let tag = cb.value;
+    if (cb.checked) {
+        window.activeTagFilters.add(tag);
+    } else {
+        window.activeTagFilters.delete(tag);
+    }
+    
+    let label = document.getElementById('tagsDropdownLabel');
+    if (label) {
+        if (window.activeTagFilters.size === 0) {
+            label.innerText = 'Lọc theo dạng câu hỏi (Tất cả)';
+        } else {
+            label.innerText = `Đã chọn ${window.activeTagFilters.size} dạng câu hỏi`;
+        }
+    }
+    
     filterQuestions();
 }
+
+document.addEventListener('click', function(e) {
+    let container = document.getElementById('tagsDropdownContainer');
+    if (container && !container.contains(e.target)) {
+        let list = document.getElementById('tagsDropdownList');
+        if (list) list.style.display = 'none';
+    }
+});
 
 function buildFilterUI(data) {
     let wrap = document.querySelector('.search-wrap');
     if (!wrap) return;
     
-    if (document.getElementById('tagsContainer')) return; // Đã build rồi thì không build lại
+    if (document.getElementById('tagsDropdownContainer')) return; // Đã build rồi thì không build lại
     
     // Thu thập tất cả tags từ data
     let allTags = new Set();
@@ -51,21 +69,32 @@ function buildFilterUI(data) {
     
     let tagsArr = Array.from(allTags).sort().filter(t => t.toLowerCase() !== 'high' && t.toLowerCase() !== 'low');
     
-    let tagsHtml = `<div id="tagsContainer" style="display:flex; gap:8px; margin-top:12px; flex-wrap:nowrap; overflow-x:auto; padding-bottom:8px; -webkit-overflow-scrolling: touch;">`;
-    // Đảm bảo Mẫu và Kiến thức được ưu tiên lên đầu
+    let tagsHtml = `
+        <div id="tagsDropdownContainer" style="position: relative; margin-top: 12px; width: 100%;">
+            <button id="tagsDropdownBtn" onclick="toggleTagsDropdown()" style="width: 100%; padding: 12px 16px; border-radius: var(--r); border: 1px solid var(--border); background: var(--surface); color: var(--text); font-family: inherit; font-size: 0.9em; text-align: left; display: flex; justify-content: space-between; align-items: center; box-shadow: var(--shadow); cursor: pointer; transition: all 0.2s;">
+                <span id="tagsDropdownLabel">Lọc theo dạng câu hỏi (Tất cả)</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div id="tagsDropdownList" style="display: none; position: absolute; top: 100%; left: 0; right: 0; margin-top: 6px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--r); box-shadow: 0 8px 24px rgba(0,0,0,0.12); z-index: 100; max-height: 280px; overflow-y: auto; padding: 8px;">
+    `;
+    
     let priorityTags = ['Mẫu', 'Kiến thức'];
     let otherTags = tagsArr.filter(t => !priorityTags.includes(t));
     let sortedTags = [...priorityTags.filter(t => tagsArr.includes(t)), ...otherTags];
     
     sortedTags.forEach(t => {
         let isActive = window.activeTagFilters.has(t);
-        let bg = isActive ? 'rgba(162, 155, 254, 0.15)' : 'var(--surface)';
-        let color = isActive ? 'var(--secondary)' : 'var(--text)';
-        let border = isActive ? 'rgba(162, 155, 254, 0.3)' : 'var(--border)';
-        let cls = isActive ? 'filter-tag active' : 'filter-tag';
-        tagsHtml += `<button class="${cls}" onclick="toggleTagFilter('${t}', this)" style="padding:6px 14px; border-radius:20px; border:1px solid ${border}; background:${bg}; color:${color}; font-family:inherit; font-weight:600; font-size:0.85em; cursor:pointer; white-space:nowrap; transition:all 0.2s;">${t}</button>`;
+        tagsHtml += `
+                <label class="tag-checkbox-label" style="display: flex; align-items: center; padding: 10px 12px; cursor: pointer; border-radius: 8px; transition: background 0.2s;">
+                    <input type="checkbox" value="${t}" ${isActive ? 'checked' : ''} onchange="toggleTagCheckbox(this)" style="margin-right: 12px; transform: scale(1.2); accent-color: var(--primary); cursor: pointer;">
+                    <span style="font-size: 0.9em; color: var(--text); font-weight: 500;">${t}</span>
+                </label>
+        `;
     });
-    tagsHtml += `</div>`;
+    tagsHtml += `
+            </div>
+        </div>
+    `;
     
     let limitOptions = `
         <option value="5">5 câu</option>
