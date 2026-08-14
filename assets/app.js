@@ -1,6 +1,7 @@
 // Global variables for Data-Driven Rendering
 window.quizData = [];
 window.filteredData = [];
+window.activeTagFilters = new Set();
 window.currentRendered = 0;
 window.currentLimit = 15;
 
@@ -17,9 +18,28 @@ function normalizeTextForSearch(text) {
     return s.replace(/\s+/g, ' ').trim();
 }
 
+function toggleTagFilter(tag, btnEl) {
+    if (window.activeTagFilters.has(tag)) {
+        window.activeTagFilters.delete(tag);
+        btnEl.classList.remove('active');
+        btnEl.style.background = 'var(--surface)';
+        btnEl.style.color = 'var(--text)';
+        btnEl.style.borderColor = 'var(--border)';
+    } else {
+        window.activeTagFilters.add(tag);
+        btnEl.classList.add('active');
+        btnEl.style.background = 'rgba(162, 155, 254, 0.15)';
+        btnEl.style.color = 'var(--secondary)';
+        btnEl.style.borderColor = 'rgba(162, 155, 254, 0.3)';
+    }
+    filterQuestions();
+}
+
 function buildFilterUI(data) {
     let wrap = document.querySelector('.search-wrap');
     if (!wrap) return;
+    
+    if (document.getElementById('tagsContainer')) return; // Đã build rồi thì không build lại
     
     // Thu thập tất cả tags từ data
     let allTags = new Set();
@@ -29,11 +49,23 @@ function buildFilterUI(data) {
         }
     });
     
-    let tagOptions = `<option value="all">Tất cả</option>`;
-    Array.from(allTags).sort().forEach(t => {
-        if (t.toLowerCase() === 'high' || t.toLowerCase() === 'low') return;
-        tagOptions += `<option value="${t}">${t}</option>`;
+    let tagsArr = Array.from(allTags).sort().filter(t => t.toLowerCase() !== 'high' && t.toLowerCase() !== 'low');
+    
+    let tagsHtml = `<div id="tagsContainer" style="display:flex; gap:8px; margin-top:12px; flex-wrap:nowrap; overflow-x:auto; padding-bottom:8px; -webkit-overflow-scrolling: touch;">`;
+    // Đảm bảo Mẫu và Kiến thức được ưu tiên lên đầu
+    let priorityTags = ['Mẫu', 'Kiến thức'];
+    let otherTags = tagsArr.filter(t => !priorityTags.includes(t));
+    let sortedTags = [...priorityTags.filter(t => tagsArr.includes(t)), ...otherTags];
+    
+    sortedTags.forEach(t => {
+        let isActive = window.activeTagFilters.has(t);
+        let bg = isActive ? 'rgba(162, 155, 254, 0.15)' : 'var(--surface)';
+        let color = isActive ? 'var(--secondary)' : 'var(--text)';
+        let border = isActive ? 'rgba(162, 155, 254, 0.3)' : 'var(--border)';
+        let cls = isActive ? 'filter-tag active' : 'filter-tag';
+        tagsHtml += `<button class="${cls}" onclick="toggleTagFilter('${t}', this)" style="padding:6px 14px; border-radius:20px; border:1px solid ${border}; background:${bg}; color:${color}; font-family:inherit; font-weight:600; font-size:0.85em; cursor:pointer; white-space:nowrap; transition:all 0.2s;">${t}</button>`;
     });
+    tagsHtml += `</div>`;
     
     let limitOptions = `
         <option value="5">5 câu</option>
@@ -45,10 +77,7 @@ function buildFilterUI(data) {
     `;
     
     let controlsHtml = `
-        <div style="display:flex; gap:8px; margin-top:10px; flex-wrap:nowrap; width:100%; align-items:center;">
-            <select id="tagFilter" onchange="filterQuestions()" style="padding:8px 12px; border-radius:var(--r); border:1px solid var(--border); width: 130px; flex-shrink: 1; background: var(--surface); color: var(--text); font-family: inherit; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
-                ${tagOptions}
-            </select>
+        <div style="display:flex; gap:8px; margin-top:4px; flex-wrap:nowrap; width:100%; align-items:center;">
             <select id="limitFilter" onchange="changeLimit()" style="padding:8px 12px; border-radius:var(--r); border:1px solid var(--border); width:fit-content; flex-shrink: 0; background: var(--surface); color: var(--text); font-family: inherit;">
                 ${limitOptions}
             </select>
@@ -68,11 +97,9 @@ function buildFilterUI(data) {
     `;
     
     // Inject controls into search-wrap
-    if(!document.getElementById('tagFilter')) {
-        let div = document.createElement('div');
-        div.innerHTML = controlsHtml;
-        wrap.appendChild(div.firstElementChild);
-    }
+    let div = document.createElement('div');
+    div.innerHTML = tagsHtml + controlsHtml;
+    wrap.appendChild(div);
 }
 
 window.isKeywordMode = false;
@@ -149,22 +176,25 @@ function filterQuestions() {
         let matchSearch = true;
         let matchTag = true;
         
-        if (query) {
-             let htmlStr = q.question.replace(/<br\s*\/?>/gi, ' ');
-             let plainText = htmlStr.replace(/<[^>]+>/g, ' ');
-             const qText = normalizeTextForSearch(plainText);
-             
-             let qStr = query.replace(/^dien vao cho trong /, '');
-             let tStr = qText.replace(/^dien vao cho trong /, '');
-             
-             // Tìm kiếm tương đối:
-             matchSearch = tStr.includes(qStr);
+        if (query.length > 0) {
+            let fullText = (q.question || '') + " " + (q.options ? q.options.join(" ") : "") + " " + (q.explanation || '');
+            let normFull = normalizeTextForSearch(fullText);
+            
+            // Logic tìm kiếm đa từ khoá (AND)
+            let terms = query.split(/\s+/).filter(t => t.length > 0);
+            matchSearch = terms.every(term => normFull.includes(term));
         }
         
-        if (tagFilter !== 'all') {
-             if (!q.tags || !q.tags.includes(tagFilter)) {
-                 matchTag = false;
-             }
+        if (window.activeTagFilters && window.activeTagFilters.size > 0) {
+            matchTag = false;
+            if (q.tags && Array.isArray(q.tags)) {
+                for (let t of window.activeTagFilters) {
+                    if (q.tags.includes(t)) {
+                        matchTag = true;
+                        break;
+                    }
+                }
+            }
         }
         
         return matchSearch && matchTag;
@@ -313,7 +343,46 @@ window.onload = async () => {
     if (typeof QS_DATA_URL !== 'undefined') {
         try {
             const res = await fetch(QS_DATA_URL);
-            window.quizData = await res.json();
+            let qsData = await res.json();
+            
+            // Dán nhãn [Mẫu] cho câu hỏi từ ngân hàng
+            qsData.forEach(q => {
+                if (!q.tags) q.tags = [];
+                if (!q.tags.includes('Mẫu')) q.tags.push('Mẫu');
+            });
+            
+            let combinedData = [...qsData];
+            
+            // Thử load kb.json nếu có KB_DATA_URL
+            if (typeof KB_DATA_URL !== 'undefined') {
+                try {
+                    const kbRes = await fetch(KB_DATA_URL);
+                    if (kbRes.ok) {
+                        const kbJson = await kbRes.json();
+                        if (kbJson.details && Array.isArray(kbJson.details)) {
+                            kbJson.details.forEach(detail => {
+                                if (detail.components && Array.isArray(detail.components)) {
+                                    detail.components.forEach(comp => {
+                                        if (comp.type === 'quiz' && comp.data && Array.isArray(comp.data.questions)) {
+                                            comp.data.questions.forEach(q => {
+                                                let newQ = { ...q };
+                                                if (!newQ.tags) newQ.tags = [];
+                                                if (!newQ.tags.includes('Kiến thức')) newQ.tags.push('Kiến thức');
+                                                if (!newQ.weight) newQ.weight = 'normal';
+                                                combinedData.push(newQ);
+                                            });
+                                        }
+                                    });
+                                }
+                            });
+                        }
+                    }
+                } catch (kbErr) {
+                    console.log("No kb.json found or failed to parse, continuing with qs.json only.", kbErr);
+                }
+            }
+            
+            window.quizData = combinedData;
             window.filteredData = window.quizData;
             
             buildFilterUI(window.quizData);
