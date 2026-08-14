@@ -1,20 +1,279 @@
 import json
 import os
+import shutil
+import re
 
-qs_path = "/Users/thien-ban/Library/CloudStorage/OneDrive-Personal/03_WORK/11. LearnIZ/_sources/TVU/Quan_tri_kinh_doanh_DH/15. TÀI CHÍNH TIỀN TỆ/qs.json"
+def clean_html(raw_html):
+    cleanr = re.compile('<.*?>')
+    cleantext = re.sub(cleanr, '', raw_html)
+    return cleantext
 
-with open(qs_path, "r", encoding="utf-8") as f:
-    questions = json.load(f)
+subject_dir = '/Users/thien-ban/Library/CloudStorage/OneDrive-Personal/03_WORK/11. LearnIZ/_sources/TVU/Quan_tri_kinh_doanh_DH/13. GIÁO DỤC THỂ CHẤT 1'
+staging_file = os.path.join(subject_dir, 'staging', 'temp_qs.json')
+main_file = os.path.join(subject_dir, 'qs.json')
 
-count = 0
-for q in questions:
-    if "tags" not in q:
-        q["tags"] = []
-    if "[Kiến thức]" not in q["tags"]:
-        q["tags"].append("[Kiến thức]")
-        count += 1
+os.makedirs(os.path.dirname(staging_file), exist_ok=True)
 
-with open(qs_path, "w", encoding="utf-8") as f:
-    json.dump(questions, f, ensure_ascii=False, indent=2)
+new_data = [
+    {
+        "weight": "normal",
+        "tags": ["Luật thi đấu"],
+        "question": "<span class=\"keyword\">Đường chạy ngoài trời</span> tiêu chuẩn dài:",
+        "options": [
+            "A. <span class=\"answer-keyword\">400m</span>",
+            "B. 500m",
+            "C. 300m",
+            "D. 350m"
+        ],
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. 400m\n<div class=\"note\">Theo chuẩn World Athletics, một vòng sân điền kinh ngoài trời tiêu chuẩn được đo ở làn trong cùng có chiều dài chính xác là 400 mét.</div>"
+    },
+    {
+        "weight": "normal",
+        "tags": ["Luật thi đấu"],
+        "question": "<span class=\"keyword\">Luật mới</span> được áp dụng đầu tiên tại:",
+        "options": [
+            "A. Giải quốc gia",
+            "B. <span class=\"answer-keyword\">Giải quốc tế</span>",
+            "C. Trường học",
+            "D. Giải phong trào"
+        ],
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Giải quốc tế\n<div class=\"note\">Khi World Athletics ban hành luật mới, nó bắt buộc phải được áp dụng ngay tại các giải vô địch quốc tế cấp cao nhất, sau đó mới cập nhật dần xuống các giải quốc gia.</div>"
+    },
+    {
+        "weight": "normal",
+        "tags": ["Lịch sử điền kinh"],
+        "question": "Sự phát triển của <span class=\"keyword\">đồng hồ bấm giờ</span> ảnh hưởng mạnh nhất tới:",
+        "options": [
+            "A. Ném",
+            "B. Đi bộ",
+            "C. Nhảy",
+            "D. <span class=\"answer-keyword\">Chạy</span>"
+        ],
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. Chạy\n<div class=\"note\">Nhảy và Ném được đo bằng khoảng cách (mét/cm). Chỉ có môn chạy mới phụ thuộc sinh tử vào đồng hồ bấm giờ điện tử (đo đến 1/1000 giây) để phân định thắng thua.</div>"
+    },
+    {
+        "weight": "normal",
+        "tags": ["Lịch sử điền kinh"],
+        "question": "<span class=\"keyword\">Nữ giới</span> bị hạn chế điền kinh do quan niệm:",
+        "options": [
+            "A. <span class=\"answer-keyword\">Văn hóa-sinh lý</span>",
+            "B. Kinh tế",
+            "C. Chính trị",
+            "D. Kỹ thuật"
+        ],
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Văn hóa-sinh lý\n<div class=\"note\">Thời xưa, định kiến văn hóa (phụ nữ phải yểu điệu) và sự hiểu lầm về sinh lý (cho rằng vận động mạnh làm mất khả năng sinh đẻ) đã cản trở nữ giới.</div>"
+    },
+    {
+        "weight": "normal",
+        "tags": ["Lịch sử điền kinh"],
+        "question": "Thời kỳ nào điền kinh <span class=\"keyword\">bị gián đoạn</span> ở châu Âu?",
+        "options": [
+            "A. Phục Hưng",
+            "B. <span class=\"answer-keyword\">Trung cổ</span>",
+            "C. Khai sáng",
+            "D. Cổ đại"
+        ],
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Trung cổ\n<div class=\"note\">Trong \"Đêm trường Trung cổ\" dưới sự thống trị của thần quyền, các môn thể thao phô diễn vẻ đẹp hình thể con người bị coi là tà giáo và bị cấm đoán.</div>"
+    },
+    {
+        "weight": "normal",
+        "tags": ["Lịch sử điền kinh"],
+        "question": "Nội dung nào <span class=\"keyword\">KHÔNG có</span> trong điền kinh cổ đại?",
+        "options": [
+            "A. Ném",
+            "B. <span class=\"answer-keyword\">Chạy tiếp sức</span>",
+            "C. Nhảy",
+            "D. Chạy"
+        ],
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Chạy tiếp sức\n<div class=\"note\">Điền kinh cổ đại ở Hy Lạp đề cao chủ nghĩa anh hùng cá nhân (chạy, ném lao, ném đĩa). Chạy tiếp sức (đề cao tính đồng đội) là sản phẩm của điền kinh hiện đại.</div>"
+    },
+    {
+        "weight": "normal",
+        "tags": ["Lịch sử điền kinh"],
+        "question": "<span class=\"keyword\">IAAF</span> được thành lập vào năm nào?",
+        "options": [
+            "A. 1936",
+            "B. <span class=\"answer-keyword\">1912</span>",
+            "C. 1908",
+            "D. 1920"
+        ],
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. 1912\n<div class=\"note\">Liên đoàn Điền kinh Quốc tế (IAAF) chính thức ra đời vào năm 1912 tại Stockholm (Thụy Điển).</div>"
+    },
+    {
+        "weight": "normal",
+        "tags": ["Luật thi đấu"],
+        "question": "<span class=\"keyword\">Quyết định cuối</span> trong điền kinh thuộc về:",
+        "options": [
+            "A. Ban huấn luyện",
+            "B. HLV",
+            "C. <span class=\"answer-keyword\">Trọng tài trưởng</span>",
+            "D. Vận động viên"
+        ],
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. Trọng tài trưởng\n<div class=\"note\">Trọng tài trưởng là cấp phân xử cao nhất.</div>"
+    },
+    {
+        "weight": "normal",
+        "tags": ["Luật thi đấu"],
+        "question": "<span class=\"keyword\">Khu vực trao – nhận</span> gậy tiếp sức dài:",
+        "options": [
+            "A. <span class=\"answer-keyword\">30m</span>",
+            "B. 20m",
+            "C. 10m",
+            "D. 40m"
+        ],
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. 30m\n<div class=\"note\">Theo luật thi đấu mới nhất, khu vực chạy đà (10m) và vùng trao gậy (20m cũ) đã được gộp chung thành một \"Khu vực trao gậy\" duy nhất dài 30m.</div>"
+    },
+    {
+        "weight": "normal",
+        "tags": ["Luật thi đấu"],
+        "question": "Tiếp sức 4×100m có <span class=\"keyword\">mấy lần</span> trao gậy?",
+        "options": [
+            "A. <span class=\"answer-keyword\">3</span>",
+            "B. 4",
+            "C. 2",
+            "D. 1"
+        ],
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. 3\n<div class=\"note\">Đội có 4 người: Người 1 trao cho 2, 2 trao 3, 3 trao 4. Tổng cộng diễn ra 3 lần trao.</div>"
+    },
+    {
+        "weight": "normal",
+        "tags": ["Lịch sử điền kinh"],
+        "question": "Olympic <span class=\"keyword\">đỉnh cao</span> của điền kinh vì:",
+        "options": [
+            "A. <span class=\"answer-keyword\">Quy tụ vận động viên ưu tú nhất</span>",
+            "B. Giải thưởng cao",
+            "C. Truyền hình trực tiếp",
+            "D. Dễ tổ chức"
+        ],
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Quy tụ vận động viên ưu tú nhất\n<div class=\"note\">Thế vận hội Olympic là đấu trường danh giá nhất hành tinh, nơi những siêu sao điền kinh giỏi nhất bắt buộc phải tranh tài để khẳng định vị thế.</div>"
+    },
+    {
+        "weight": "normal",
+        "tags": ["Luật thi đấu"],
+        "question": "<span class=\"keyword\">Giày thi đấu</span> bị cấm khi:",
+        "options": [
+            "A. Quá đắt",
+            "B. <span class=\"answer-keyword\">Có CN hỗ trợ quá mức</span>",
+            "C. Nhẹ",
+            "D. Không có đinh"
+        ],
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Có CN hỗ trợ quá mức\n<div class=\"note\">Cấm dùng lò xo hay tấm carbon quá dày làm mất đi tính công bằng về sức mạnh tự nhiên.</div>"
+    },
+    {
+        "weight": "normal",
+        "tags": ["Luật thi đấu"],
+        "question": "<span class=\"keyword\">Đi bộ</span> thể thao, yêu cầu nhất là:",
+        "options": [
+            "A. Nhanh",
+            "B. Đẹp",
+            "C. Kỹ thuật",
+            "D. <span class=\"answer-keyword\">Một chân luôn tiếp đất</span>"
+        ],
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. Một chân luôn tiếp đất\n<div class=\"note\">Nếu cả 2 chân cùng rời mặt đất thì đó là chạy, không còn là đi bộ.</div>"
+    },
+    {
+        "weight": "normal",
+        "tags": ["Lịch sử điền kinh"],
+        "question": "Quốc gia được xem là <span class=\"keyword\">cái nôi</span> của điền kinh hiện đại?",
+        "options": [
+            "A. Hy Lạp",
+            "B. <span class=\"answer-keyword\">Anh</span>",
+            "C. Mỹ",
+            "D. Pháp"
+        ],
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Anh\n<div class=\"note\">Nước Anh thế kỷ 19 là nơi đầu tiên hệ thống hóa luật lệ, phân làn đường chạy và tổ chức các giải thi đấu điền kinh chuyên nghiệp.</div>"
+    },
+    {
+        "weight": "normal",
+        "tags": ["Lịch sử điền kinh"],
+        "question": "Vận động viên giành 3 Huy Chương Vàng <span class=\"keyword\">chạy dài</span> Olympic 1952 là:",
+        "options": [
+            "A. Usain Bolt",
+            "B. Kipchoge",
+            "C. Mo Farah",
+            "D. <span class=\"answer-keyword\">Emil Zátopek</span>"
+        ],
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. Emil Zátopek\n<div class=\"note\">\"Đầu máy xe lửa Tiệp Khắc\" đã vô địch cả 5000m, 10000m và marathon.</div>"
+    },
+    {
+        "weight": "normal",
+        "tags": ["Thể dục tay không"],
+        "question": "<span class=\"keyword\">Thứ tự đúng</span> của một số động tác đầu là gì?",
+        "options": [
+            "A. <span class=\"answer-keyword\">Vươn thở – Tay – Chân</span>",
+            "B. Chân - Tay - Vươn thở",
+            "C. Bụng - Tay - Chân",
+            "D. Tay - Vươn thở - Chân"
+        ],
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Vươn thở – Tay – Chân\n<div class=\"note\">Động tác đầu tiên luôn bắt buộc là Vươn thở để điều hòa hô hấp, sau đó mới phát triển dần xuống Tay và Chân.</div>"
+    },
+    {
+        "weight": "normal",
+        "tags": ["Thể dục tay không"],
+        "question": "Động tác <span class=\"keyword\">bụng</span> giúp phát triển gì?",
+        "options": [
+            "A. Tay",
+            "B. <span class=\"answer-keyword\">Bụng</span>",
+            "C. Chân",
+            "D. Lưng"
+        ],
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Bụng\n<div class=\"note\">Các động tác gập thân giúp siết và phát triển cơ bụng.</div>"
+    },
+    {
+        "weight": "normal",
+        "tags": ["Lịch sử điền kinh"],
+        "question": "Emil Zátopek giành Huy Chương Vàng Olympic ở các <span class=\"keyword\">cự ly</span>:",
+        "options": [
+            "A. 100m - 200m - 400m",
+            "B. 800m - 1500m - 3000m",
+            "C. 110m rào - 400m rào",
+            "D. <span class=\"answer-keyword\">5000m - 10000m - marathon</span>"
+        ],
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. 5000m - 10000m - marathon\n<div class=\"note\">Ông vô địch cả 3 cự ly dài siêu đẳng này ở Olympic 1952.</div>"
+    },
+    {
+        "weight": "normal",
+        "tags": ["Lịch sử điền kinh"],
+        "question": "Liu Xiang Huy Chương Vàng Olympic <span class=\"keyword\">năm nào</span>?",
+        "options": [
+            "A. <span class=\"answer-keyword\">Athens 2004</span>",
+            "B. Rio 2016",
+            "C. Beijing 2008",
+            "D. London 2012"
+        ],
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. Athens 2004\n<div class=\"note\">Kỷ lục 110m rào nam.</div>"
+    },
+    {
+        "weight": "normal",
+        "tags": ["Thể dục tay không"],
+        "question": "Khi tập thể dục tay không cần <span class=\"keyword\">chú ý</span> điều gì?",
+        "options": [
+            "A. Tập nhanh",
+            "B. Dụng cụ",
+            "C. <span class=\"answer-keyword\">Đúng nhịp và kỹ thuật</span>",
+            "D. Trang phục đẹp"
+        ],
+        "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. Đúng nhịp và kỹ thuật\n<div class=\"note\">Phải đúng biên độ và nhịp điệu mới hiệu quả và tránh chấn thương.</div>"
+    }
+]
 
-print(f"Đã thêm tag [Kiến thức] vào {count} câu hỏi.")
+try:
+    with open(main_file, 'r', encoding='utf-8') as f:
+        existing_data = json.load(f)
+except Exception:
+    existing_data = []
+
+existing_questions_cleaned = [clean_html(item['question']) for item in existing_data]
+
+added_count = 0
+for item in new_data:
+    q_clean = clean_html(item['question'])
+    if q_clean not in existing_questions_cleaned:
+        existing_data.append(item)
+        added_count += 1
+
+with open(staging_file, 'w', encoding='utf-8') as f:
+    json.dump(existing_data, f, ensure_ascii=False, indent=2)
+
+shutil.copy2(staging_file, main_file)
+print(f"DONE: Appended {added_count} new questions. Total questions now: {len(existing_data)}")

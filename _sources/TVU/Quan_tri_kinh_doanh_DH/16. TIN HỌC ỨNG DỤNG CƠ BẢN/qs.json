@@ -2,8 +2,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Phần cứng",
-      "Kiến thức"
+      "Phần cứng"
     ],
     "question": "Trong cấu trúc phần cứng của một máy tính điện tử, thiết bị vật lý nào được sử dụng để <span class=\"keyword\">lưu trữ dữ liệu</span> trong quá trình máy tính xử lý?",
     "options": [
@@ -17,8 +16,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Phần cứng",
-      "Kiến thức"
+      "Phần cứng"
     ],
     "question": "Trong cấu trúc phần cứng của một máy tính điện tử, thiết bị nào được sử dụng để <span class=\"keyword\">nhập dữ liệu</span>?",
     "options": [
@@ -32,8 +30,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Phần mềm",
-      "Kiến thức"
+      "Phần mềm"
     ],
     "question": "Hãy cho biết phần mềm nào sau đây là phần mềm <span class=\"keyword\">độc hại</span> (Malware)?",
     "options": [
@@ -47,8 +44,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Mạng máy tính",
-      "Kiến thức"
+      "Mạng máy tính"
     ],
     "question": "Dịch vụ nào sau đây được hiểu là <span class=\"keyword\">tin nhắn tức thời</span>?",
     "options": [
@@ -62,8 +58,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Phần cứng",
-      "Kiến thức"
+      "Phần cứng"
     ],
     "question": "Trong cấu trúc của một máy tính điện tử, bộ phận <span class=\"keyword\">ALU</span> (Arithmetic-Logic Unit) trong CPU là gì?",
     "options": [
@@ -77,8 +72,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Phần cứng",
-      "Kiến thức"
+      "Phần cứng"
     ],
     "question": "Trong cấu trúc của một máy tính điện tử, bộ phận nào là <span class=\"keyword\">trung tâm điều hành</span> máy tính, có nhiệm vụ giải mã các lệnh, tạo ra các tín hiệu điều khiển công việc của các bộ phận khác?",
     "options": [
@@ -92,8 +86,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Phần cứng",
-      "Kiến thức"
+      "Phần cứng"
     ],
     "question": "Trong cấu trúc của một máy tính điện tử, đơn vị xử lý trung tâm (<span class=\"keyword\">CPU</span>) gồm bao nhiêu <span class=\"keyword\">bộ phận chính</span>?",
     "options": [
@@ -107,8 +100,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Phần mềm",
-      "Kiến thức"
+      "Phần mềm"
     ],
     "question": "Phần mềm nào sau đây là phần mềm <span class=\"keyword\">ứng dụng</span>?",
     "options": [
@@ -122,8 +114,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Gõ tiếng Việt",
-      "Kiến thức"
+      "Gõ tiếng Việt"
     ],
     "question": "Hãy cho biết khi nhập văn bản bằng kiểu gõ <span class=\"keyword\">Telex</span> thì phím <span class=\"keyword\">f</span> đại diện cho dấu gì?",
     "options": [
@@ -137,8 +128,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Windows",
-      "Kiến thức"
+      "Windows"
     ],
     "question": "Trong cửa sổ File Explorer, tổ hợp phím nào được sử dụng <span class=\"keyword\">dán đối tượng</span> vừa sao chép vào vị trí hiện hành?",
     "options": [
@@ -152,8 +142,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Gõ tiếng Việt",
-      "Kiến thức"
+      "Gõ tiếng Việt"
     ],
     "question": "Để <span class=\"keyword\">bật hoặc tắt</span> chế độ gõ dấu tiếng Việt khi sử dụng phần mềm tiện ích Unikey, chúng ta chọn tổ hợp phím nào sau đây?",
     "options": [
@@ -167,8 +156,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Windows",
-      "Kiến thức"
+      "Windows"
     ],
     "question": "Hãy cho biết đối tượng nào sau đây sẽ có <span class=\"keyword\">phần mở rộng</span>?",
     "options": [
@@ -182,8 +170,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Windows",
-      "Kiến thức"
+      "Windows"
     ],
     "question": "Trong cửa sổ Recycle Bin, để <span class=\"keyword\">phục hồi đối tượng</span> sau khi xóa, người dùng nhấp phải trên đối tượng cần phục hồi và chọn lệnh nào sau đây?",
     "options": [
@@ -197,8 +184,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Windows",
-      "Kiến thức"
+      "Windows"
     ],
     "question": "Để thay đổi quy ước về <span class=\"keyword\">thời gian</span>, ta vào Control Panel, chọn Region, chọn Additional settings, trong Customize Format ta chọn thẻ nào sau đây?",
     "options": [
@@ -212,8 +198,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Windows",
-      "Kiến thức"
+      "Windows"
     ],
     "question": "Trong chương trình File Explorer, khi tìm kiếm tập tin thì ký tự nào sau đây được sử dụng để đại diện cho <span class=\"keyword\">1 ký tự</span> trong chuỗi từ khóa?",
     "options": [
@@ -227,8 +212,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Windows",
-      "Kiến thức"
+      "Windows"
     ],
     "question": "Trong hệ điều hành Windows 10, để thực hiện thao tác <span class=\"keyword\">gỡ bỏ font chữ</span> đã cài vào máy tính người sử dụng sẽ chọn nhóm lệnh nào trong cửa sổ All Control Panel Items?",
     "options": [
@@ -242,8 +226,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Gõ tiếng Việt",
-      "Kiến thức"
+      "Gõ tiếng Việt"
     ],
     "question": "Phần mềm <span class=\"keyword\">Unikey</span> được cài đặt vào Windows, mục đích dùng để làm gì?",
     "options": [
@@ -257,8 +240,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Windows",
-      "Kiến thức"
+      "Windows"
     ],
     "question": "Trong chương trình File Explorer, khi tìm kiếm tập tin thì ký tự nào sau đây được sử dụng để đại diện cho <span class=\"keyword\">nhiều ký tự</span> bất kỳ trong chuỗi từ khóa?",
     "options": [
@@ -272,8 +254,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Windows",
-      "Kiến thức"
+      "Windows"
     ],
     "question": "Trong cửa sổ File Explorer, để sửa đổi tên đối tượng, chúng ta vào thẻ Home và chọn <span class=\"keyword\">lệnh Rename</span> ở nhóm lệnh nào?",
     "options": [
@@ -287,8 +268,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Gõ tiếng Việt",
-      "Kiến thức"
+      "Gõ tiếng Việt"
     ],
     "question": "Hãy cho biết font chữ nào được chọn khi người sử dụng soạn thảo văn bản với bảng mã <span class=\"keyword\">Unicode</span>?",
     "options": [
@@ -302,8 +282,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Phần cứng",
-      "Kiến thức"
+      "Phần cứng"
     ],
     "question": "Trong cấu trúc của một máy tính điện tử, thiết bị nào sau đây <span class=\"keyword\">KHÔNG phải</span> là thiết bị nhập?",
     "options": [
@@ -317,8 +296,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Mạng máy tính",
-      "Kiến thức"
+      "Mạng máy tính"
     ],
     "question": "Loại mạng nào sau đây là một hệ thống mạng tư nhân trong một tòa nhà, một khu vực và có <span class=\"keyword\">phạm vi hoạt động từ vài mét cho đến 1 km</span>?",
     "options": [
@@ -332,8 +310,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Phần mềm",
-      "Kiến thức"
+      "Phần mềm"
     ],
     "question": "Hãy cho biết phần mềm nào sau đây <span class=\"keyword\">KHÔNG phải</span> là phần mềm độc hại (Malware)?",
     "options": [
@@ -347,8 +324,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Windows",
-      "Kiến thức"
+      "Windows"
     ],
     "question": "Trong hệ điều hành Windows 10, để thực hiện thao tác <span class=\"keyword\">gỡ bỏ font chữ</span> đã cài vào máy tính người sử dụng sẽ chọn nhóm lệnh nào trong cửa sổ All Control Panel Items của Control Panel?",
     "options": [
@@ -362,8 +338,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Windows",
-      "Kiến thức"
+      "Windows"
     ],
     "question": "Hãy cho biết tổ hợp phím nào được sử dụng để <span class=\"keyword\">đóng cửa sổ</span> 1 chương trình ứng dụng?",
     "options": [
@@ -377,8 +352,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Windows",
-      "Kiến thức"
+      "Windows"
     ],
     "question": "Phần mềm <span class=\"keyword\">WinRAR</span> được cài đặt vào Windows, mục đích dùng để làm gì?",
     "options": [
@@ -392,8 +366,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Windows",
-      "Kiến thức"
+      "Windows"
     ],
     "question": "Hãy cho biết tổ hợp phím nào được sử dụng để <span class=\"keyword\">chuyển đổi qua lại</span> giữa các cửa sổ của các ứng dụng đang mở?",
     "options": [
@@ -407,8 +380,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Word",
-      "Kiến thức"
+      "Word"
     ],
     "question": "Trong chương trình Microsoft Office Word 2013, hãy cho biết thao tác nào sau đây được sử dụng để <span class=\"keyword\">chia cột</span> cho đoạn văn bản đang được chọn?",
     "options": [
@@ -422,8 +394,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Word",
-      "Kiến thức"
+      "Word"
     ],
     "question": "Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng chữ <span class=\"keyword\">Drop Cap</span> tùy chọn nào xác định <span class=\"keyword\">khoảng cách</span> chữ cái và văn bản còn lại?",
     "options": [
@@ -437,8 +408,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Word",
-      "Kiến thức"
+      "Word"
     ],
     "question": "Trong chương trình Microsoft Office Word 2013, khi định dạng khung viền cho trang giấy tùy chọn nào cho phép chọn <span class=\"keyword\">kiểu đường viền</span>?",
     "options": [
@@ -452,8 +422,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Word",
-      "Kiến thức"
+      "Word"
     ],
     "question": "Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng cho đối tượng Shape lệnh nào cho phép xác định <span class=\"keyword\">màu đường viền</span> của Shape?",
     "options": [
@@ -467,8 +436,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Word",
-      "Kiến thức"
+      "Word"
     ],
     "question": "Trong chương trình Microsoft Office Word 2013, cho biết tổ hợp phím tắt nào được sử dụng để định dạng chữ <span class=\"keyword\">in nghiêng</span>?",
     "options": [
@@ -482,8 +450,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Word",
-      "Kiến thức"
+      "Word"
     ],
     "question": "Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng bảng biểu, nhóm lệnh nào trong thẻ Layout cho phép thay đổi <span class=\"keyword\">độ rộng của ô</span>?",
     "options": [
@@ -497,8 +464,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Word",
-      "Kiến thức"
+      "Word"
     ],
     "question": "Khi mở hộp thoại Font trong chương trình Microsoft Office Word 2013, để thiết lập thông số <span class=\"keyword\">màu chữ</span> cho văn bản đang chọn khối ta sử dụng tùy chọn nào sau đây?",
     "options": [
@@ -512,8 +478,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Word",
-      "Kiến thức"
+      "Word"
     ],
     "question": "Trong chương trình Microsoft Office Word 2013, khi định dạng khung viền cho trang giấy tùy chọn nào cho phép chọn <span class=\"keyword\">màu của đường viền</span>?",
     "options": [
@@ -527,8 +492,7 @@
   {
     "weight": "normal",
     "tags": [
-      "Word",
-      "Kiến thức"
+      "Word"
     ],
     "question": "Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng bảng biểu, lệnh nào thiết lập việc <span class=\"keyword\">lặp lại tiêu đề bảng</span> ở các trang giấy?",
     "options": [
