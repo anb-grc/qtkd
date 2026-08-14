@@ -1,1 +1,537 @@
-[]
+{
+  "subject": "Tin Học Ứng Dụng Cơ Bản",
+  "overview": {
+    "type": "mindmap",
+    "title": "Tổng Quan Môn Học",
+    "data": {
+      "root": "TIN HỌC ỨNG DỤNG CƠ BẢN",
+      "children": [
+        {
+          "id": "th1",
+          "label": "Phần Cứng & Phần Mềm",
+          "description": "Cấu trúc máy tính, ứng dụng CNTT, an toàn",
+          "children": [
+            {
+              "id": "th1_1",
+              "label": "Kiến Trúc Phần Cứng",
+              "description": "CPU, bộ nhớ, thiết bị I/O"
+            },
+            {
+              "id": "th1_2",
+              "label": "Phần Mềm & Ứng Dụng CNTT",
+              "description": "Hệ thống vs Ứng dụng, e-Gov, e-Commerce, e-Learning"
+            }
+          ]
+        },
+        {
+          "id": "th2",
+          "label": "Windows 10",
+          "description": "Quản lý file, phần mềm tiện ích",
+          "children": [
+            {
+              "id": "th2_1",
+              "label": "Quản Lý Tập Tin & Thư Mục",
+              "description": "Chọn, tạo, copy, cut, xóa, phục hồi"
+            },
+            {
+              "id": "th2_2",
+              "label": "Bộ Gõ Unikey & WinRAR",
+              "description": "Bảng mã, kiểu gõ, nén/giải nén"
+            }
+          ]
+        },
+        {
+          "id": "th3",
+          "label": "Microsoft Word 2013",
+          "description": "Soạn thảo & định dạng",
+          "children": [
+            {
+              "id": "th3_1",
+              "label": "Định Dạng Văn Bản",
+              "description": "Font, Paragraph, Tab, chia cột, Drop Cap"
+            },
+            {
+              "id": "th3_2",
+              "label": "Chèn Đối Tượng",
+              "description": "Ảnh, Shape, SmartArt, Table, Header/Footer"
+            }
+          ]
+        },
+        {
+          "id": "th4",
+          "label": "Microsoft Excel 2013",
+          "description": "Bảng tính & hàm",
+          "children": [
+            {
+              "id": "th4_1",
+              "label": "Hệ Thống Hàm",
+              "description": "Chuỗi, ngày, toán, thống kê, logic, dò tìm"
+            },
+            {
+              "id": "th4_2",
+              "label": "Sắp Xếp & Lọc Trích",
+              "description": "Sort, Advanced Filter"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "details": [
+    {
+      "node_id": "th1_1",
+      "components": [
+        {
+          "type": "features",
+          "title": "Kiến Trúc Phần Cứng — CPU Là Trung Tâm",
+          "data": {
+            "items": [
+              {
+                "title": "Khối Điều Khiển (CU)",
+                "description": "Giải mã lệnh, điều phối hoạt động toàn hệ thống."
+              },
+              {
+                "title": "Khối Tính Toán (ALU)",
+                "description": "Thực hiện phép toán số học và logic."
+              },
+              {
+                "title": "Thanh Ghi (Registers)",
+                "description": "Bộ nhớ tốc độ cao bên trong CPU."
+              },
+              {
+                "title": "Bộ nhớ trong (ROM)",
+                "description": "Chỉ đọc. Lưu firmware nhà sản xuất. Không mất khi tắt nguồn."
+              },
+              {
+                "title": "Bộ nhớ trong (RAM)",
+                "description": "Truy cập ngẫu nhiên. Lưu tạm dữ liệu chương trình đang chạy. Mất khi tắt nguồn."
+              },
+              {
+                "title": "Bộ nhớ ngoài",
+                "description": "Ổ cứng, đĩa quang, USB, thẻ nhớ. Dung lượng lớn, không mất khi tắt nguồn."
+              },
+              {
+                "title": "Thiết bị nhập",
+                "description": "Bàn phím, chuột, máy quét, micro, máy ảnh."
+              },
+              {
+                "title": "Thiết bị xuất",
+                "description": "Màn hình, máy in, loa, máy chiếu."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Chốt chặn: Phần cứng",
+          "data": {
+            "quiz_tags": [
+              "Phần cứng"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "th1_2",
+      "components": [
+        {
+          "type": "vs-wrap",
+          "title": "Phần Mềm Hệ Thống vs Phần Mềm Ứng Dụng",
+          "data": {
+            "left": {
+              "title": "Phần Mềm Hệ Thống",
+              "content": "Hệ điều hành (Windows, Linux, macOS). Điều khiển phần cứng, quản lý tài nguyên, là nền tảng để cài đặt phần mềm ứng dụng."
+            },
+            "right": {
+              "title": "Phần Mềm Ứng Dụng",
+              "content": "Phục vụ nhu cầu cụ thể: Unikey (gõ tiếng Việt), Zalo (nhắn tin), Microsoft Office (văn phòng), Google Chrome (duyệt web)."
+            }
+          }
+        },
+        {
+          "type": "features",
+          "title": "Ứng Dụng Của CNTT & Truyền Thông",
+          "data": {
+            "items": [
+              {
+                "title": "Chính phủ điện tử (e-Gov)",
+                "description": "Chính phủ vận hành trên nền tảng công nghệ. Công khai, minh bạch, kiểm soát lẫn nhau."
+              },
+              {
+                "title": "Kinh doanh trực tuyến (e-Commerce)",
+                "description": "Giảm chi phí điều hành. Giao dịch B2B, B2C, C2C qua Internet."
+              },
+              {
+                "title": "Giáo dục trực tuyến (e-Learning)",
+                "description": "Tiết kiệm thời gian, nội dung nhất quán, linh động chọn khóa học."
+              },
+              {
+                "title": "Dịch vụ truyền thông",
+                "description": "IM (tin nhắn tức thời), SMS (tin nhắn ngắn), VoIP (thoại qua IP), Email."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Chốt chặn: Phần mềm & CNTT",
+          "data": {
+            "quiz_tags": [
+              "Phần mềm",
+              "Mạng máy tính"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "th2_1",
+      "components": [
+        {
+          "type": "matrix-table",
+          "title": "Phím Tắt Quản Lý Tập Tin",
+          "data": {
+            "headers": [
+              "Thao tác",
+              "Phím tắt",
+              "Menu chuột phải",
+              "Ribbon (Home)"
+            ],
+            "rows": [
+              [
+                "Chọn tất cả",
+                "Ctrl + A",
+                "—",
+                "Select → Select All"
+              ],
+              [
+                "Sao chép",
+                "Ctrl + C → Ctrl + V",
+                "Copy → Paste",
+                "Copy → Paste"
+              ],
+              [
+                "Di chuyển",
+                "Ctrl + X → Ctrl + V",
+                "Cut → Paste",
+                "Cut → Paste"
+              ],
+              [
+                "Đổi tên",
+                "F2",
+                "Rename",
+                "Rename"
+              ],
+              [
+                "Xóa (Recycle Bin)",
+                "Delete",
+                "Delete",
+                "Delete"
+              ],
+              [
+                "Xóa vĩnh viễn",
+                "Shift + Delete",
+                "—",
+                "—"
+              ],
+              [
+                "Phục hồi",
+                "—",
+                "Restore (trong Recycle Bin)",
+                "—"
+              ]
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Chốt chặn: Windows 10",
+          "data": {
+            "quiz_tags": [
+              "Windows"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "th2_2",
+      "components": [
+        {
+          "type": "pair-grid",
+          "title": "Bảng Mã, Kiểu Gõ & WinRAR — Ghép Cặp Nhanh",
+          "data": {
+            "instruction": "Nối cặp kiến thức bên trái với đáp án bên phải",
+            "pairs": [
+              {
+                "id": "p1",
+                "leftText": "Bảng mã Unicode",
+                "rightText": "Times New Roman, Arial, Tahoma"
+              },
+              {
+                "id": "p2",
+                "leftText": "Bảng mã VNI Windows",
+                "rightText": "VNI-Times, VNI-Arial"
+              },
+              {
+                "id": "p3",
+                "leftText": "Bảng mã TCVN3 (ABC)",
+                "rightText": ".VnTime, .VnTimeH"
+              },
+              {
+                "id": "p4",
+                "leftText": "Telex: dấu Sắc",
+                "rightText": "Phím S"
+              },
+              {
+                "id": "p5",
+                "leftText": "Telex: dấu Huyền",
+                "rightText": "Phím F"
+              },
+              {
+                "id": "p6",
+                "leftText": "Telex: chữ Đ",
+                "rightText": "Gõ DD"
+              },
+              {
+                "id": "p7",
+                "leftText": "VNI: dấu Sắc",
+                "rightText": "Phím 1"
+              },
+              {
+                "id": "p8",
+                "leftText": "VNI: mũ (â, ê, ô)",
+                "rightText": "Phím 6"
+              },
+              {
+                "id": "p9",
+                "leftText": "Chuyển V ↔ E",
+                "rightText": "Ctrl + Shift hoặc click biểu tượng"
+              },
+              {
+                "id": "p10",
+                "leftText": "Extract Here",
+                "rightText": "Giải nén tại vị trí hiện hành"
+              },
+              {
+                "id": "p11",
+                "leftText": "Extract to \"tên/\"",
+                "rightText": "Tạo thư mục cùng tên, giải nén vào đó"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Chốt chặn: Unikey",
+          "data": {
+            "quiz_tags": [
+              "Gõ tiếng Việt"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "th3_1",
+      "components": [
+        {
+          "type": "process-steps",
+          "title": "Quy Trình Soạn Thảo Văn Bản",
+          "data": {
+            "steps": [
+              {
+                "name": "1. Tạo mới văn bản",
+                "description": "Ctrl + N hoặc File → New → Blank Document."
+              },
+              {
+                "name": "2. Cài đặt trang giấy",
+                "description": "Page Layout → Margins, Orientation, Size. Đổi đơn vị: File → Options → Advanced."
+              },
+              {
+                "name": "3. Chọn font & cỡ chữ",
+                "description": "Home → Font. Chọn font phù hợp bảng mã Unikey."
+              },
+              {
+                "name": "4. Lưu & đặt tên",
+                "description": "Ctrl + S. Phần mở rộng mặc định: .docx."
+              },
+              {
+                "name": "5. Nhập văn bản thô",
+                "description": "Enter = ngắt đoạn. Shift + Enter = ngắt dòng (trong cùng đoạn)."
+              },
+              {
+                "name": "6. Định dạng",
+                "description": "Font (B, I, U, màu), Paragraph (canh lề, giãn dòng, bullet/numbering, tab)."
+              },
+              {
+                "name": "7. Lưu cập nhật",
+                "description": "Ctrl + S để lưu lại sau khi định dạng xong."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Chốt chặn: Microsoft Word",
+          "data": {
+            "quiz_tags": [
+              "Word"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "th3_2",
+      "components": [
+        {
+          "type": "features",
+          "title": "6 Loại Đối Tượng Chèn Vào Word",
+          "data": {
+            "items": [
+              {
+                "title": "Hình ảnh (Pictures)",
+                "description": "Insert → Pictures (máy tính) hoặc Online Pictures (Internet). Wrap Text: Square, Behind Text, In Front of Text..."
+              },
+              {
+                "title": "Hình khối (Shapes)",
+                "description": "Insert → Shapes. Đổ màu: Shape Fill. Bỏ viền: Shape Outline → No Outline. Gom nhóm: Format → Group."
+              },
+              {
+                "title": "Lưu đồ (SmartArt)",
+                "description": "Insert → SmartArt. Chọn loại: List, Process, Cycle, Hierarchy. Nhập dữ liệu qua Text Pane."
+              },
+              {
+                "title": "Bảng biểu (Table)",
+                "description": "Insert → Table. Trộn ô: Merge Cells. Kẻ khung: Design → Borders. Canh lề ô: Layout → Alignment."
+              },
+              {
+                "title": "Header / Footer / Số trang",
+                "description": "Insert → Header & Footer. Page Number: Top/Bottom/Current Position. Đóng: Design → Close."
+              },
+              {
+                "title": "Chú thích (Footnote/Endnote)",
+                "description": "References → Insert Footnote (cuối trang) / Insert Endnote (cuối tài liệu)."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "th4_1",
+      "components": [
+        {
+          "type": "pyramid",
+          "title": "Hệ Thống 6 Nhóm Hàm Excel",
+          "data": {
+            "levels": [
+              {
+                "name": "Hàm Xử Lý Chuỗi",
+                "description": "LEFT, RIGHT, MID (trích ký tự), VALUE (chuyển chuỗi → số)"
+              },
+              {
+                "name": "Hàm Ngày Giờ",
+                "description": "TODAY, NOW, DAY, MONTH, YEAR, WEEKDAY, DATE"
+              },
+              {
+                "name": "Hàm Toán Học",
+                "description": "ABS, INT, MOD, ODD, PRODUCT, ROUND, SUM, SUMIF"
+              },
+              {
+                "name": "Hàm Thống Kê",
+                "description": "MAX, MIN, AVERAGE, COUNT, COUNTA, COUNTBLANK, COUNTIF, RANK"
+              },
+              {
+                "name": "Hàm Luận Lý",
+                "description": "AND (tất cả đúng), OR (ít nhất 1 đúng), IF (rẽ nhánh điều kiện)"
+              },
+              {
+                "name": "Hàm Dò Tìm",
+                "description": "VLOOKUP (dò theo cột), HLOOKUP (dò theo dòng). Cố định vùng bằng F4."
+              }
+            ]
+          }
+        },
+        {
+          "type": "delta-cheat-sheet",
+          "title": "Bẫy Nhầm Lẫn Hàm Excel",
+          "data": {
+            "items": [
+              {
+                "questionSnippet": "Hàm nào lấy phần nguyên?",
+                "keyword": "INT",
+                "correctDelta": "INT (làm tròn xuống)",
+                "wrongTraps": [
+                  "MOD (chia lấy dư)",
+                  "ABS (giá trị tuyệt đối)"
+                ],
+                "explanation": "INT(-5.6) = -6 (tròn xuống). MOD là chia lấy dư, ABS là trị tuyệt đối."
+              },
+              {
+                "questionSnippet": "COUNT đếm gì?",
+                "keyword": "COUNT",
+                "correctDelta": "Đếm ô chứa giá trị số",
+                "wrongTraps": [
+                  "Đếm ô khác rỗng (COUNTA)",
+                  "Đếm ô rỗng (COUNTBLANK)"
+                ],
+                "explanation": "COUNT chỉ đếm Number + Date. COUNTA đếm mọi ô có giá trị. COUNTBLANK đếm ô trống."
+              },
+              {
+                "questionSnippet": "VLOOKUP lấy giá trị ở cột mấy?",
+                "keyword": "Cột 1 = trị dò",
+                "correctDelta": "Lấy từ cột 2 trở đi",
+                "wrongTraps": [
+                  "Lấy từ cột 1",
+                  "Lấy cột cuối cùng"
+                ],
+                "explanation": "Cột 1 của table_array là cột chứa trị dò. Giá trị trả về bắt đầu từ cột 2."
+              },
+              {
+                "questionSnippet": "Địa chỉ $B$2 là gì?",
+                "keyword": "Tuyệt đối",
+                "correctDelta": "Cố định cả cột và dòng",
+                "wrongTraps": [
+                  "Chỉ cố định cột ($B2)",
+                  "Chỉ cố định dòng (B$2)"
+                ],
+                "explanation": "$B$2 = tuyệt đối. $B2 = hỗn hợp (cố định cột). B$2 = hỗn hợp (cố định dòng)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Chốt chặn: Microsoft Excel",
+          "data": {
+            "quiz_tags": [
+              "Microsoft Excel"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "th4_2",
+      "components": [
+        {
+          "type": "vs-wrap",
+          "title": "Sắp Xếp vs Lọc Trích",
+          "data": {
+            "left": {
+              "title": "Sắp Xếp (Sort)",
+              "content": "Chọn bảng dữ liệu → Data → Sort.\n\n• A → Z: Tăng dần.\n• Z → A: Giảm dần.\n• Sort by / Then by: Đa tiêu chí.\n• Check My data has headers nếu có dòng tiêu đề."
+            },
+            "right": {
+              "title": "Lọc Trích (Advanced Filter)",
+              "content": "3 bước: (1) Tạo vùng điều kiện (copy tiêu đề, nhập giá trị). (2) Chọn bảng dữ liệu. (3) Data → Advanced.\n\n• Điều kiện VÀ: cùng dòng.\n• Điều kiện HOẶC: khác dòng.\n• Copy to another location để xuất kết quả riêng."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
