@@ -24,24 +24,31 @@ if (isIOS) {
   if (!isStandalone && installBtn) {
     installBtn.style.display = 'inline-flex';
     installBtn.addEventListener('click', () => {
-      alert("Để cài đặt app trên iOS:\\n1. Nhấn nút Share (Chia sẻ) ở trình duyệt Safari.\\n2. Chọn 'Add to Home Screen' (Thêm vào MH chính).");
+      alert("Để cài đặt app trên iOS:\n1. Nhấn nút Share (Chia sẻ) ở trình duyệt Safari.\n2. Chọn 'Add to Home Screen' (Thêm vào MH chính).");
     });
+  } else if (installBtn) {
+    installBtn.style.display = 'none';
   }
 } else {
+  // Android / Chrome
+  if (installBtn) {
+    installBtn.style.display = 'inline-flex';
+    installBtn.addEventListener('click', async () => {
+      if (deferredPrompt) {
+        deferredPrompt.prompt();
+        const { outcome } = await deferredPrompt.userChoice;
+        console.log(`User response: ${outcome}`);
+        deferredPrompt = null;
+      } else {
+        alert("Trình duyệt chưa sẵn sàng cài đặt hoặc bạn đang dùng trình duyệt nhúng (Zalo/Messenger). Vui lòng mở bằng Chrome hoặc chọn 'Thêm vào Màn hình chính' từ Menu trình duyệt (dấu 3 chấm).");
+      }
+    });
+  }
+
   // Lắng nghe sự kiện cài đặt trên Android/Chrome
   window.addEventListener('beforeinstallprompt', (e) => {
     e.preventDefault();
     deferredPrompt = e;
-    if (installBtn) {
-      installBtn.style.display = 'inline-flex';
-      installBtn.addEventListener('click', async () => {
-        installBtn.style.display = 'none';
-        deferredPrompt.prompt();
-        const { outcome } = await deferredPrompt.userChoice;
-        console.log(`User response to the install prompt: ${outcome}`);
-        deferredPrompt = null;
-      });
-    }
   });
 }
 
