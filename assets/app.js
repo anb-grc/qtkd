@@ -36,9 +36,9 @@ function toggleTagCheckbox(cb) {
     let label = document.getElementById('tagsDropdownLabel');
     if (label) {
         if (window.activeTagFilters.size === 0) {
-            label.innerText = 'Lọc theo dạng câu hỏi (Tất cả)';
+            label.innerText = 'Tất cả';
         } else {
-            label.innerText = `Đã chọn ${window.activeTagFilters.size} dạng câu hỏi`;
+            label.innerText = `Đã chọn (${window.activeTagFilters.size})`;
         }
     }
     
@@ -70,12 +70,12 @@ function buildFilterUI(data) {
     let tagsArr = Array.from(allTags).sort().filter(t => t.toLowerCase() !== 'high' && t.toLowerCase() !== 'low');
     
     let tagsHtml = `
-        <div id="tagsDropdownContainer" style="position: relative; margin-top: 12px; width: 100%;">
-            <button id="tagsDropdownBtn" onclick="toggleTagsDropdown()" style="width: 100%; padding: 12px 16px; border-radius: var(--r); border: 1px solid var(--border); background: var(--surface); color: var(--text); font-family: inherit; font-size: 0.9em; text-align: left; display: flex; justify-content: space-between; align-items: center; box-shadow: var(--shadow); cursor: pointer; transition: all 0.2s;">
-                <span id="tagsDropdownLabel">Lọc theo dạng câu hỏi (Tất cả)</span>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+        <div id="tagsDropdownContainer" style="position: relative; flex-shrink: 0;">
+            <button id="tagsDropdownBtn" onclick="toggleTagsDropdown()" style="padding: 8px 12px; border-radius: var(--r); border: 1px solid var(--border); background: var(--surface); color: var(--text); font-family: inherit; font-size: 0.9em; display: flex; align-items: center; gap: 6px; box-shadow: var(--shadow); cursor: pointer; transition: all 0.2s; white-space: nowrap;">
+                <span id="tagsDropdownLabel">Tất cả</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
             </button>
-            <div id="tagsDropdownList" style="display: none; position: absolute; top: 100%; left: 0; right: 0; margin-top: 6px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--r); box-shadow: 0 8px 24px rgba(0,0,0,0.12); z-index: 100; max-height: 280px; overflow-y: auto; padding: 8px;">
+            <div id="tagsDropdownList" style="display: none; position: absolute; top: 100%; left: 0; min-width: 220px; margin-top: 6px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--r); box-shadow: 0 8px 24px rgba(0,0,0,0.12); z-index: 100; max-height: 280px; overflow-y: auto; padding: 6px;">
     `;
     
     let priorityTags = ['Mẫu', 'Kiến thức'];
@@ -85,8 +85,8 @@ function buildFilterUI(data) {
     sortedTags.forEach(t => {
         let isActive = window.activeTagFilters.has(t);
         tagsHtml += `
-                <label class="tag-checkbox-label" style="display: flex; align-items: center; padding: 10px 12px; cursor: pointer; border-radius: 8px; transition: background 0.2s;">
-                    <input type="checkbox" value="${t}" ${isActive ? 'checked' : ''} onchange="toggleTagCheckbox(this)" style="margin-right: 12px; transform: scale(1.2); accent-color: var(--primary); cursor: pointer;">
+                <label class="tag-checkbox-label" style="display: flex; align-items: center; padding: 8px 10px; cursor: pointer; border-radius: 6px; transition: background 0.2s; margin-bottom: 2px;">
+                    <input type="checkbox" value="${t}" ${isActive ? 'checked' : ''} onchange="toggleTagCheckbox(this)" style="margin-right: 10px; transform: scale(1.1); accent-color: var(--primary); cursor: pointer;">
                     <span style="font-size: 0.9em; color: var(--text); font-weight: 500;">${t}</span>
                 </label>
         `;
@@ -106,8 +106,9 @@ function buildFilterUI(data) {
     `;
     
     let controlsHtml = `
-        <div style="display:flex; gap:8px; margin-top:4px; flex-wrap:nowrap; width:100%; align-items:center;">
-            <select id="limitFilter" onchange="changeLimit()" style="padding:8px 12px; border-radius:var(--r); border:1px solid var(--border); width:fit-content; flex-shrink: 0; background: var(--surface); color: var(--text); font-family: inherit;">
+        <div style="display:flex; gap:8px; margin-top:12px; flex-wrap:wrap; width:100%; align-items:center;">
+            ${tagsHtml}
+            <select id="limitFilter" onchange="changeLimit()" style="padding:8px 12px; border-radius:var(--r); border:1px solid var(--border); width:fit-content; flex-shrink: 0; background: var(--surface); color: var(--text); font-family: inherit; font-size: 0.9em; cursor: pointer;">
                 ${limitOptions}
             </select>
             <div style="flex: 1;"></div>
@@ -127,7 +128,7 @@ function buildFilterUI(data) {
     
     // Inject controls into search-wrap
     let div = document.createElement('div');
-    div.innerHTML = tagsHtml + controlsHtml;
+    div.innerHTML = controlsHtml;
     wrap.appendChild(div);
 }
 
