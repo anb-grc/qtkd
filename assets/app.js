@@ -318,13 +318,11 @@ function renderBatch() {
             let tagsMapHtml = displayTags.map(t => {
                 let style = '';
                 if(t === 'High' || t === 'Trọng tâm' || t === '80/20') {
-                    // Glassmorphism Tím nhạt/Accent
-                    style = `background: rgba(162, 155, 254, 0.15); border: 1px solid rgba(162, 155, 254, 0.3); color: var(--secondary); box-shadow: 0 0 10px rgba(162, 155, 254, 0.05); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);`;
+                    style = `color: var(--secondary);`;
                 } else {
-                    // Glassmorphism Xanh dương nhạt (Topic/Framework)
-                    style = `background: rgba(116, 185, 255, 0.15); border: 1px solid rgba(116, 185, 255, 0.3); color: #74b9ff; backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);`;
+                    style = `color: #74b9ff;`;
                 }
-                return `<span style="display:inline-block; padding:3px 12px; border-radius:12px; font-size:0.72em; margin-right:8px; margin-bottom:8px; font-weight:700; text-transform:uppercase; letter-spacing:0.5px; ${style}">${t}</span>`;
+                return `<span style="display:inline-block; font-size:0.72em; margin-right:12px; margin-bottom:8px; font-weight:700; text-transform:uppercase; letter-spacing:0.5px; ${style}">${t}</span>`;
             }).join('');
             
             if (displayTags.length > 0) {
@@ -335,7 +333,7 @@ function renderBatch() {
         // Using onclick directly instead of addEventListener for simplicity
         let rawAnswer = q.answer.replace(/(✅|💡)\s*/g, '');
         rawAnswer = rawAnswer.replace(/<div class="answer-title">\s*(Đáp án:\s*)([\s\S]*?)<\/div>/i, function(match, label, content) {
-            return `<div class="answer-title">${label.trim()}</div>` + (content.trim() ? ` ${content}` : '');
+            return `<span class="answer-title">${label.trim()}</span>` + (content.trim() ? ` ${content}` : '');
         });
         let ansHtml = rawAnswer.replace(/(<div class="answer-title">[\s\S]*?<\/div>)([\s\S]*?)(?=<div|$)/i, function(match, p1, p2) {
             if(p2.trim()) {
@@ -690,7 +688,7 @@ function startQuiz(quizMode = 'optimized') {
       }
       let rawAnswerObj = qObj.answer.replace(/(✅|💡)\s*/g, '');
       rawAnswerObj = rawAnswerObj.replace(/<div class="answer-title">\s*(Đáp án:\s*)([\s\S]*?)<\/div>/i, function(match, label, content) {
-          return `<div class="answer-title">${label.trim()}</div>` + (content.trim() ? ` ${content}` : '');
+          return `<span class="answer-title">${label.trim()}</span>` + (content.trim() ? ` ${content}` : '');
       });
       let ansHtml = rawAnswerObj.replace(/(<div class="answer-title">[\s\S]*?<\/div>)([\s\S]*?)(?=<div|$)/i, function(match, p1, p2) {
           if(p2.trim()) {

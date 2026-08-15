@@ -101,9 +101,9 @@
   .keyword{color:var(--kw-fg);font-weight:700;}
   .answer-keyword{color:var(--success);font-weight:800;}
   .answer{display:none;flex-wrap:wrap;align-items:flex-start;gap:10px;margin-top:18px;padding-top:18px;border-top:1px dashed var(--border-md);font-size:.96em;color:var(--text);line-height:1.75;}
-  .answer-title{display:inline-block;max-width:100%;font-size:.85em;font-weight:700;color:var(--success);background:var(--success-lt);padding:6px 16px;border-radius:12px;margin-bottom:0px;line-height:1.5;word-break:break-word;border:1px solid rgba(0, 210, 160, 0.3);}
+  .answer-title{display:inline;font-weight:700;color:var(--success);margin-right:6px;}
   .note{flex-basis:100%;font-size:.88em;color:var(--muted);margin-top:6px;background:rgba(15, 15, 26, 0.6);border:1px solid rgba(255, 193, 7, 0.3);padding:14px 18px;border-radius:8px;line-height:1.7;}
-  .answer-text{flex: 1; line-height: 1.75; padding-top: 3px; font-weight:500;}
+  .answer-text{display:inline;line-height:1.75;font-weight:500;}
   
   /* BADGES */
   .badge{display:inline-block;font-size:.66em;font-weight:700;padding:2px 8px;border-radius:99px;text-transform:uppercase;letter-spacing:.4px;}
@@ -112,7 +112,7 @@
   
   /* TỰ LUẬN */
   .tu-luan{}
-  .tu-luan .answer-title{color:var(--warn);background:var(--warn-lt);border-color:rgba(255, 193, 7, 0.3);}
+  .tu-luan .answer-title{color:var(--warn);}
   .tu-luan.first-match{box-shadow:0 0 0 2px rgba(255,193,7,.3),var(--shadow-md);}
   /* QUIZ MODE */
   .mode-switch{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:20px;justify-content:center;}
