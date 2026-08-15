@@ -44,7 +44,7 @@ export function Quadrant({ data }: { data: QuadrantBlock['data'] }) {
             >
               <div className={styles.qHeader}>
                 <h4 className={styles.title}>{quad.title}</h4>
-                <div className={styles.clickHint}>{isActive ? '▲' : '▼'}</div>
+                
               </div>
               <div className={styles.contentWrapper}>
                 <p className={styles.content} dangerouslySetInnerHTML={{ __html: quad.content }} />
