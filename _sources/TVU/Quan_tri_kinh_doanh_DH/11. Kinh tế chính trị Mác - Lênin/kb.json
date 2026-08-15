@@ -1,6 +1,6 @@
 [
   {
-    "title": "Chuyên đề 1: Nền tảng, Lịch sử & Phương pháp luận",
+    "title": "Nền tảng, Lịch sử & Phương pháp luận",
     "blocks": [
       {
         "type": "timeline",
@@ -63,28 +63,42 @@
             {
               "name": "Nhận thức",
               "children": [
-                { "name": "Quy luật kinh tế" },
-                { "name": "Sự vận động xã hội" }
+                {
+                  "name": "Quy luật kinh tế"
+                },
+                {
+                  "name": "Sự vận động xã hội"
+                }
               ]
             },
             {
               "name": "Thực tiễn",
               "children": [
-                { "name": "Vận dụng vào quản trị" },
-                { "name": "Hoạch định chính sách" }
+                {
+                  "name": "Vận dụng vào quản trị"
+                },
+                {
+                  "name": "Hoạch định chính sách"
+                }
               ]
             },
             {
               "name": "Tư tưởng",
               "children": [
-                { "name": "Nền tảng tư tưởng tiến bộ" },
-                { "name": "Xây dựng xã hội tốt đẹp" }
+                {
+                  "name": "Nền tảng tư tưởng tiến bộ"
+                },
+                {
+                  "name": "Xây dựng xã hội tốt đẹp"
+                }
               ]
             },
             {
               "name": "Phương pháp luận",
               "children": [
-                { "name": "Nền tảng cho các môn khoa học kinh tế" }
+                {
+                  "name": "Nền tảng cho các môn khoa học kinh tế"
+                }
               ]
             }
           ]
@@ -93,7 +107,7 @@
     ]
   },
   {
-    "title": "Chuyên đề 2: Các Quy Luật Kinh Tế Xuyên Suốt",
+    "title": "Các Quy Luật Kinh Tế Xuyên Suốt",
     "blocks": [
       {
         "type": "pyramid",
@@ -183,7 +197,7 @@
     ]
   },
   {
-    "title": "Chuyên đề 3: Sự Tiến Hóa Của Nền Sản Xuất & Hàng Hóa",
+    "title": "Sự Tiến Hóa Của Nền Sản Xuất & Hàng Hóa",
     "blocks": [
       {
         "type": "cycle",
@@ -275,7 +289,7 @@
     ]
   },
   {
-    "title": "Chuyên đề 4: Hệ Sinh Thái Các Chủ Thể & Vai Trò Của Nhà Nước",
+    "title": "Hệ Sinh Thái Các Chủ Thể & Vai Trò Của Nhà Nước",
     "blocks": [
       {
         "type": "venn",
@@ -320,28 +334,42 @@
             {
               "name": "Mục tiêu",
               "children": [
-                { "name": "Dân giàu, nước mạnh, dân chủ, công bằng, văn minh" }
+                {
+                  "name": "Dân giàu, nước mạnh, dân chủ, công bằng, văn minh"
+                }
               ]
             },
             {
               "name": "Sở hữu & Thành phần",
               "children": [
-                { "name": "Đa dạng hóa sở hữu" },
-                { "name": "Kinh tế nhà nước chủ đạo" }
+                {
+                  "name": "Đa dạng hóa sở hữu"
+                },
+                {
+                  "name": "Kinh tế nhà nước chủ đạo"
+                }
               ]
             },
             {
               "name": "Quản lý",
               "children": [
-                { "name": "Nhà nước pháp quyền XHCN" },
-                { "name": "Đảng lãnh đạo" }
+                {
+                  "name": "Nhà nước pháp quyền XHCN"
+                },
+                {
+                  "name": "Đảng lãnh đạo"
+                }
               ]
             },
             {
               "name": "Phân phối",
               "children": [
-                { "name": "Theo kết quả lao động & vốn" },
-                { "name": "An sinh xã hội" }
+                {
+                  "name": "Theo kết quả lao động & vốn"
+                },
+                {
+                  "name": "An sinh xã hội"
+                }
               ]
             }
           ]

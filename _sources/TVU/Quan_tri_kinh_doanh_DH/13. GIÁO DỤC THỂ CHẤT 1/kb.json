@@ -147,7 +147,7 @@
           "data": {
             "quiz_tags": [
               "NHẬP MÔN ĐIỀN KINH",
-              "[Nền tảng]"
+              "Nền tảng"
             ]
           }
         }
@@ -182,7 +182,7 @@
           "data": {
             "quiz_tags": [
               "NHẬP MÔN ĐIỀN KINH",
-              "[Cấu trúc]"
+              "Cấu trúc"
             ]
           }
         }
@@ -217,7 +217,7 @@
           "data": {
             "quiz_tags": [
               "NHẬP MÔN ĐIỀN KINH",
-              "[Hệ thống]"
+              "Hệ thống"
             ]
           }
         }
@@ -260,7 +260,7 @@
           "data": {
             "quiz_tags": [
               "NHẬP MÔN ĐIỀN KINH",
-              "[Phân luồng]"
+              "Phân luồng"
             ]
           }
         }
@@ -295,7 +295,7 @@
           "data": {
             "quiz_tags": [
               "NHẬP MÔN ĐIỀN KINH",
-              "[Logic & Nguyên tắc]"
+              "Logic "[Logic & Nguyên tắc]" Nguyên tắc"
             ]
           }
         }
@@ -330,7 +330,7 @@
           "data": {
             "quiz_tags": [
               "ĐỘI HÌNH ĐỘI NGŨ VÀ BÀI THỂ DỤC PHÁT TRIỂN CHUNG",
-              "[Nền tảng]"
+              "Nền tảng"
             ]
           }
         }
@@ -369,7 +369,7 @@
           "data": {
             "quiz_tags": [
               "ĐỘI HÌNH ĐỘI NGŨ VÀ BÀI THỂ DỤC PHÁT TRIỂN CHUNG",
-              "[Cấu trúc]"
+              "Cấu trúc"
             ]
           }
         }
@@ -404,7 +404,7 @@
           "data": {
             "quiz_tags": [
               "ĐỘI HÌNH ĐỘI NGŨ VÀ BÀI THỂ DỤC PHÁT TRIỂN CHUNG",
-              "[Hệ thống]"
+              "Hệ thống"
             ]
           }
         }
@@ -433,7 +433,7 @@
           "data": {
             "quiz_tags": [
               "ĐỘI HÌNH ĐỘI NGŨ VÀ BÀI THỂ DỤC PHÁT TRIỂN CHUNG",
-              "[Phân luồng]"
+              "Phân luồng"
             ]
           }
         }
@@ -472,7 +472,7 @@
           "data": {
             "quiz_tags": [
               "ĐỘI HÌNH ĐỘI NGŨ VÀ BÀI THỂ DỤC PHÁT TRIỂN CHUNG",
-              "[Giới hạn & Rủi ro]"
+              "Giới hạn "[Giới hạn & Rủi ro]" Rủi ro"
             ]
           }
         }
@@ -511,7 +511,7 @@
           "data": {
             "quiz_tags": [
               "KỸ THUẬT CHẠY CỰ LY NGẮN",
-              "[Cấu trúc]"
+              "Cấu trúc"
             ]
           }
         }
@@ -540,7 +540,7 @@
           "data": {
             "quiz_tags": [
               "KỸ THUẬT CHẠY CỰ LY NGẮN",
-              "[Hệ thống]"
+              "Hệ thống"
             ]
           }
         }
@@ -575,7 +575,7 @@
           "data": {
             "quiz_tags": [
               "KỸ THUẬT CHẠY CỰ LY NGẮN",
-              "[Phân luồng]"
+              "Phân luồng"
             ]
           }
         }
@@ -610,7 +610,7 @@
           "data": {
             "quiz_tags": [
               "KỸ THUẬT CHẠY CỰ LY NGẮN",
-              "[Logic & Nguyên tắc]"
+              "Logic "[Logic & Nguyên tắc]" Nguyên tắc"
             ]
           }
         }
@@ -645,7 +645,7 @@
           "data": {
             "quiz_tags": [
               "KỸ THUẬT CHẠY CỰ LY NGẮN",
-              "[Giới hạn & Rủi ro]"
+              "Giới hạn "[Giới hạn & Rủi ro]" Rủi ro"
             ]
           }
         }
@@ -688,7 +688,7 @@
           "data": {
             "quiz_tags": [
               "KỸ THUẬT CHẠY CỰ LY NGẮN",
-              "[Góc nhìn Đa chiều]"
+              "Góc nhìn Đa chiều"
             ]
           }
         }
@@ -717,7 +717,7 @@
           "data": {
             "quiz_tags": [
               "KỸ THUẬT CHẠY CỰ LY TRUNG BÌNH",
-              "[Cấu trúc]"
+              "Cấu trúc"
             ]
           }
         }
@@ -752,7 +752,7 @@
           "data": {
             "quiz_tags": [
               "KỸ THUẬT CHẠY CỰ LY TRUNG BÌNH",
-              "[Phân luồng]"
+              "Phân luồng"
             ]
           }
         }
@@ -783,7 +783,7 @@
           "data": {
             "quiz_tags": [
               "KỸ THUẬT CHẠY CỰ LY TRUNG BÌNH",
-              "[Hệ thống]"
+              "Hệ thống"
             ]
           }
         }
@@ -814,7 +814,7 @@
           "data": {
             "quiz_tags": [
               "KỸ THUẬT CHẠY CỰ LY TRUNG BÌNH",
-              "[Logic & Nguyên tắc]"
+              "Logic "[Logic & Nguyên tắc]" Nguyên tắc"
             ]
           }
         }
@@ -849,7 +849,7 @@
           "data": {
             "quiz_tags": [
               "KỸ THUẬT CHẠY CỰ LY TRUNG BÌNH",
-              "[Góc nhìn Đa chiều]"
+              "Góc nhìn Đa chiều"
             ]
           }
         }
