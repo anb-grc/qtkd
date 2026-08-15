@@ -78,20 +78,36 @@
       "components": [
         {
           "type": "timeline",
-          "title": "Tiến trình Lịch sử & Tổ chức Điền kinh",
+          "title": "Biên niên sử Điền Kinh",
           "data": {
             "items": [
               {
                 "time": "776 TCN",
-                "content": "Khởi nguồn tại Hy Lạp cổ đại."
+                "content": "Olympic đầu tiên tại Hy Lạp cổ đại (chạy 192m, thưởng vòng nguyệt quế)."
+              },
+              {
+                "time": "1864",
+                "content": "Phục hưng tại Anh - Quốc gia được xem là cái nôi của điền kinh hiện đại."
               },
               {
                 "time": "1896",
-                "content": "Olympic hiện đại đầu tiên tại Athens (Môn điền kinh có mặt ngay từ đầu)."
+                "content": "Olympic hiện đại đầu tiên được tổ chức tại Athens."
               },
               {
-                "time": "Hiện tại",
-                "content": "World Athletics (trước là IAAF) là cơ quan quản lý tối cao."
+                "time": "1908",
+                "content": "Nước Anh chuẩn hóa cự ly Marathon chính thức là 42.195km."
+              },
+              {
+                "time": "1912",
+                "content": "Thành lập Liên đoàn Điền kinh Quốc tế (IAAF) - nay là World Athletics."
+              },
+              {
+                "time": "1928",
+                "content": "Nữ giới lần đầu tiên được tham gia thi đấu điền kinh (dù bị hạn chế)."
+              },
+              {
+                "time": "Sau 1975",
+                "content": "Điền kinh Việt Nam phát triển mạnh mẽ và có hệ thống."
               }
             ]
           }
@@ -187,7 +203,15 @@
             "items": [
               {
                 "title": "Usain Bolt",
-                "description": "Người đàn ông nhanh nhất hành tinh."
+                "description": "Người đàn ông nhanh nhất hành tinh (kỷ lục 100m - 9.58s)."
+              },
+              {
+                "title": "Florence Griffith-Joyner",
+                "description": "Nữ hoàng tốc độ, giữ kỷ lục thế giới 100m (10.49s) từ năm 1988."
+              },
+              {
+                "title": "Mike Powell",
+                "description": "Kỷ lục nhảy xa 8.95m tại Tokyo 1991, xô đổ cột mốc cũ."
               },
               {
                 "title": "Bob Beamon",
@@ -253,39 +277,39 @@
             "steps": [
               {
                 "name": "1. Vươn thở",
-                "description": "Bắt đầu bài tập bằng cách mở phổi."
+                "description": "Động tác đầu tiên. Khởi đầu bằng hô hấp để mở phổi."
               },
               {
                 "name": "2. Tay",
-                "description": ""
+                "description": "Phát triển cơ tay và vai."
               },
               {
                 "name": "3. Lườn",
-                "description": ""
+                "description": "Nghiêng người, tăng độ dẻo dai cơ lườn."
               },
               {
                 "name": "4. Bụng",
-                "description": ""
+                "description": "Gập thân, phát triển cơ bụng."
               },
               {
                 "name": "5. Vặn mình",
-                "description": ""
+                "description": "Xoay người sang 2 bên."
               },
               {
                 "name": "6. Chân",
-                "description": ""
+                "description": "Phát triển trực tiếp cơ bắp đùi và bắp chân."
               },
               {
                 "name": "7. Toàn thân",
-                "description": ""
+                "description": "Phối hợp liên hoàn nhiều nhóm cơ."
               },
               {
                 "name": "8. Nhảy",
-                "description": "Phát triển toàn thân."
+                "description": "Kích thích sự dẻo dai và phát triển toàn thân."
               },
               {
                 "name": "9. Điều hòa",
-                "description": "Kết thúc bài tập."
+                "description": "Thả lỏng, đưa cơ thể về trạng thái ổn định."
               }
             ]
           }
@@ -311,11 +335,11 @@
           "data": {
             "left": {
               "title": "Khởi động Chung",
-              "content": "Làm ấm cơ thể, tăng nhịp tim và sự linh hoạt của khớp."
+              "content": "Giúp cơ thể chuyển từ trạng thái tĩnh sang động, tăng thân nhiệt từ từ.\n\n**Các bài tập:**\n- Xoay các khớp (cổ, vai, hông, gối, cổ tay chân)\n- Ép dọc, ép ngang\n- Chạy bước nhỏ nhẹ nhàng"
             },
             "right": {
               "title": "Khởi động Chuyên môn",
-              "content": "Kích thích thần kinh, làm quen với các nhóm cơ bắp đặc thù dùng cho môn thi đấu."
+              "content": "Tác động sâu vào các nhóm cơ chính sẽ sử dụng trong thi đấu, kích thích hệ thần kinh trung ương.\n\n**Các bài tập:**\n- Chạy đạp sau\n- Chạy tăng tốc ngắn (30m)\n- Bật cóc, bật xa liên tục"
             }
           }
         },
@@ -369,12 +393,12 @@
           "title": "Đặc điểm Cự ly Chạy",
           "data": {
             "left": {
-              "title": "Cự ly Ngắn",
-              "content": "Xuất phát thấp. Yêu cầu sức bộc phát, tốc độ tối đa."
+              "title": "Cự Ly Ngắn (60m - 400m)",
+              "content": "- **Tư thế xuất phát:** Xuất phát thấp (dùng bàn đạp).\n- **Làn chạy:** Bắt buộc chạy 100% trong làn của mình. Nếu lấn làn sẽ bị truất quyền thi đấu.\n- **Kỹ thuật:** Đòi hỏi tần số bước cực nhanh, sức bộc phát mạnh mẽ."
             },
             "right": {
-              "title": "Cự ly Trung bình/Dài",
-              "content": "Xuất phát cao. Yêu cầu sức bền, chiến thuật phân phối thể lực."
+              "title": "Cự Ly Trung Bình/Dài",
+              "content": "- **Tư thế xuất phát:** Xuất phát cao.\n- **Làn chạy:** Đối với 800m, được nhập làn sau khi chạy hết đoạn cong đầu tiên.\n- **Kỹ thuật thở:** Tuân theo nhịp thở 2 bước hít - 2 bước thở để duy trì sức bền tối đa."
             }
           }
         },
@@ -399,16 +423,16 @@
           "data": {
             "steps": [
               {
-                "name": "Vào chỗ",
-                "description": "Chống tay vòm, đặt chân vào bàn đạp."
+                "name": "1. Vào chỗ",
+                "description": "Hai tay chống vòm sát vạch xuất phát. Chân thuận đặt ở bàn đạp trước, chân kia ở bàn đạp sau."
               },
               {
-                "name": "Sẵn sàng",
-                "description": "Nâng mông cao hơn vai."
+                "name": "2. Sẵn sàng",
+                "description": "Từ từ nâng mông lên cao hơn vai. Mắt nhìn về phía trước cách vạch tầm 20-25cm."
               },
               {
-                "name": "Chạy",
-                "description": "Đạp mạnh bàn đạp lao tới."
+                "name": "3. Chạy",
+                "description": "Đạp mạnh chân sau rời bàn đạp, hai tay đánh ngược chiều tịnh tiến lao về phía trước."
               }
             ]
           }
@@ -465,7 +489,7 @@
       "components": [
         {
           "type": "delta-cheat-sheet",
-          "title": "Lỗi Phạm Quy Nghiêm Trọng",
+          "title": "Các Lỗi Phạm Quy Nghiêm Trọng",
           "data": {
             "items": [
               {
@@ -477,29 +501,29 @@
                   "0,15 giây",
                   "0,20 giây"
                 ],
-                "explanation": "Bị loại trực tiếp nếu phản ứng < 0.1s."
+                "explanation": "Máy tính mặc định con người không thể phản ứng nhanh hơn 0.1 giây. Nhanh hơn mức này chắc chắn là xuất phát sớm và VĐV sẽ bị loại trực tiếp."
+              },
+              {
+                "questionSnippet": "Góc ném lao hợp lệ là bao nhiêu?",
+                "keyword": "34,92°",
+                "correctDelta": "**34,92°**",
+                "wrongTraps": [
+                  "29°",
+                  "30°",
+                  "28,5°"
+                ],
+                "explanation": "Theo chuẩn giáo trình, đây là góc giới hạn chính xác cho khu vực ném lao hợp lệ. Lao rơi ngoài góc này không được công nhận."
               },
               {
                 "questionSnippet": "Đi bộ thể thao phạm luật khi nào?",
                 "keyword": "Hai chân rời đất",
-                "correctDelta": "**Hai chân rời đất**",
+                "correctDelta": "**Hai chân rời đất** cùng lúc",
                 "wrongTraps": [
-                  "Vung tay",
+                  "Đi nhanh",
                   "Thở mạnh",
-                  "Đi nhanh"
+                  "Vung tay"
                 ],
-                "explanation": "Đi bộ bắt buộc phải luôn có 1 chân tiếp đất."
-              },
-              {
-                "questionSnippet": "Ném lao không hợp lệ khi:",
-                "keyword": "Ngoài góc ném",
-                "correctDelta": "Rơi **ngoài góc ném** (34,92°)",
-                "wrongTraps": [
-                  "Lao chạm đất",
-                  "Ném đúng hướng",
-                  "Ném xa"
-                ],
-                "explanation": "Góc giới hạn là 34,92°. Rơi ra ngoài góc này bị hủy kết quả."
+                "explanation": "Quy định cốt lõi của đi bộ là lúc nào cũng phải có ít nhất 1 chân tiếp xúc mặt đất. Khi 2 chân rời đất thì chuyển thành 'chạy'."
               }
             ]
           }
