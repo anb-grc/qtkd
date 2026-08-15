@@ -102,7 +102,7 @@
   .answer-keyword{color:var(--success);font-weight:800;}
   .answer{display:none;flex-wrap:wrap;align-items:flex-start;gap:10px;margin-top:18px;padding-top:18px;border-top:1px dashed var(--border-md);font-size:.96em;color:var(--text);line-height:1.75;}
   .answer-title{display:inline;font-weight:700;color:var(--success);margin-right:6px;}
-  .note{flex-basis:100%;font-size:.88em;color:var(--muted);margin-top:6px;background:rgba(15, 15, 26, 0.6);border:1px solid rgba(255, 193, 7, 0.3);padding:14px 18px;border-radius:8px;line-height:1.7;}
+  .note{width:100%;box-sizing:border-box;display:block;font-size:.88em;color:var(--muted);margin-top:6px;background:rgba(15, 15, 26, 0.6);border:1px solid rgba(255, 193, 7, 0.3);padding:14px 18px;border-radius:8px;line-height:1.7;}
   .answer-text{display:inline;line-height:1.75;font-weight:500;}
   
   /* BADGES */
