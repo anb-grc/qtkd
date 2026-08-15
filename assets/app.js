@@ -67,7 +67,18 @@ function buildFilterUI(data) {
         }
     });
     
-    let tagsArr = Array.from(allTags).sort().filter(t => t.toLowerCase() !== 'high' && t.toLowerCase() !== 'low');
+    const fwTags = [
+        'Nền tảng', '[Nền tảng]', 'Cấu trúc', '[Cấu trúc]',
+        'Hệ thống', '[Hệ thống]', 'Phân luồng', '[Phân luồng]',
+        'Logic & Nguyên tắc', '[Logic & Nguyên tắc]',
+        'Giới hạn & Rủi ro', '[Giới hạn & Rủi ro]',
+        'Góc nhìn Đa chiều', '[Góc nhìn Đa chiều]', 'Góc nhìn đa chiều', '[Góc nhìn đa chiều]'
+    ];
+    
+    let tagsArr = Array.from(allTags).sort().filter(t => {
+        if (t === 'Mẫu' || t === 'Kiến thức') return true;
+        return fwTags.includes(t);
+    });
     
     let tagsHtml = `
         <div id="tagsDropdownContainer" style="position: relative; flex-shrink: 0;">
@@ -294,21 +305,31 @@ function renderBatch() {
         // Render tags visually with color-coding & Glassmorphism
         let tagsHtml = '';
         if(q.tags && Array.isArray(q.tags)) {
-            let tagsMapHtml = q.tags.map(t => {
+            const fwTags = [
+                'Nền tảng', '[Nền tảng]', 'Cấu trúc', '[Cấu trúc]',
+                'Hệ thống', '[Hệ thống]', 'Phân luồng', '[Phân luồng]',
+                'Logic & Nguyên tắc', '[Logic & Nguyên tắc]',
+                'Giới hạn & Rủi ro', '[Giới hạn & Rủi ro]',
+                'Góc nhìn Đa chiều', '[Góc nhìn Đa chiều]', 'Góc nhìn đa chiều', '[Góc nhìn đa chiều]'
+            ];
+            
+            let displayTags = q.tags.filter(t => t === 'High' || t === 'Trọng tâm' || t === '80/20' || t === 'Mẫu' || t === 'Kiến thức' || fwTags.includes(t));
+            
+            let tagsMapHtml = displayTags.map(t => {
                 let style = '';
                 if(t === 'High' || t === 'Trọng tâm' || t === '80/20') {
                     // Glassmorphism Tím nhạt/Accent
                     style = `background: rgba(162, 155, 254, 0.15); border: 1px solid rgba(162, 155, 254, 0.3); color: var(--secondary); box-shadow: 0 0 10px rgba(162, 155, 254, 0.05); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);`;
-                } else if(t === 'Low') {
-                    // Chìm (Muted outline)
-                    style = `background: transparent; border: 1px dashed var(--border); color: var(--muted);`;
                 } else {
-                    // Glassmorphism Xanh dương nhạt (Topic)
+                    // Glassmorphism Xanh dương nhạt (Topic/Framework)
                     style = `background: rgba(116, 185, 255, 0.15); border: 1px solid rgba(116, 185, 255, 0.3); color: #74b9ff; backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);`;
                 }
                 return `<span style="display:inline-block; padding:3px 12px; border-radius:12px; font-size:0.72em; margin-right:8px; margin-bottom:8px; font-weight:700; text-transform:uppercase; letter-spacing:0.5px; ${style}">${t}</span>`;
             }).join('');
-            tagsHtml = `<div style="margin-bottom:12px; display:flex; flex-wrap:wrap;">${tagsMapHtml}</div>`;
+            
+            if (displayTags.length > 0) {
+                tagsHtml = `<div style="margin-bottom:12px; display:flex; flex-wrap:wrap;">${tagsMapHtml}</div>`;
+            }
         }
         
         // Using onclick directly instead of addEventListener for simplicity
