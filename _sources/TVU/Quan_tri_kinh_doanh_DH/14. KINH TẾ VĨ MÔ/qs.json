@@ -6,7 +6,7 @@
       "Tổng Quan & Đo Lường Tăng Trưởng",
       "Nền tảng"
     ],
-    "question": "Kinh tế vĩ mô <span class=\"keyword\">ít đề cập</span> đến:",
+    "question": "<span class=\"keyword\">Kinh tế vĩ mô</span> <span class=\"keyword\">ít đề cập</span> đến:",
     "options": [
       "Thất nghiệp",
       "Sự thay đổi <span class=\"answer-keyword\">giá cả tương đối</span>",
@@ -22,7 +22,7 @@
       "Tổng Quan & Đo Lường Tăng Trưởng",
       "Logic & Nguyên tắc"
     ],
-    "question": "Tất cả những yếu tố dưới đây là bộ phận của thu nhập quốc dân, <span class=\"keyword\">trừ</span>:",
+    "question": "Tất cả những yếu tố dưới đây là bộ phận của <span class=\"keyword\">thu nhập quốc dân</span>, <span class=\"keyword\">trừ</span>:",
     "options": [
       "Tiền trả tù nhân cho công việc họ làm trong tù.",
       "<span class=\"answer-keyword\">Trợ cấp</span> ốm đau.",
@@ -310,7 +310,7 @@
       "Cú Sốc Vĩ Mô: Lạm Phát & Thất Nghiệp",
       "Nền tảng"
     ],
-    "question": "Lạm phát có thể được đo lường bằng tất cả các chỉ số sau đây <span class=\"keyword\">ngoại trừ</span>:",
+    "question": "<span class=\"keyword\">Lạm phát</span> có thể được đo lường bằng tất cả các chỉ số sau đây <span class=\"keyword\">ngoại trừ</span>:",
     "options": [
       "<span class=\"answer-keyword\">Chỉ số giá hàng hóa thành phẩm</span>",
       "Chỉ số giá tiêu dùng",
@@ -1297,7 +1297,7 @@
   },
   {
     "weight": "normal",
-    "question": "Biến số nào sau đây <span class=\"keyword\">KHÔNG</span> trực tiếp ảnh hưởng đến tổng cung?",
+    "question": "Biến số nào sau đây <span class=\"keyword\">KHÔNG</span> trực tiếp ảnh hưởng đến <span class=\"keyword\">tổng cung</span>?",
     "options": [
       "Lực lượng lao động.",
       "Lượng vốn",
