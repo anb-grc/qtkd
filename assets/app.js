@@ -335,9 +335,9 @@ function renderBatch() {
         rawAnswer = rawAnswer.replace(/<div class="answer-title">\s*(Đáp án:\s*)([\s\S]*?)<\/div>/i, function(match, label, content) {
             return `<span class="answer-title">${label.trim()}</span>` + (content.trim() ? ` ${content}` : '');
         });
-        let ansHtml = rawAnswer.replace(/(<div class="answer-title">[\s\S]*?<\/div>)([\s\S]*?)(?=<div|$)/i, function(match, p1, p2) {
+        let ansHtml = rawAnswer.replace(/(<span class="answer-title">[\s\S]*?<\/span>)([\s\S]*?)(?=<div|$)/i, function(match, p1, p2) {
             if(p2.trim()) {
-                return p1 + `<div class="answer-text">${p2}</div>`;
+                return p1 + `<span class="answer-text">${p2}</span>`;
             }
             return match;
         });
@@ -690,9 +690,9 @@ function startQuiz(quizMode = 'optimized') {
       rawAnswerObj = rawAnswerObj.replace(/<div class="answer-title">\s*(Đáp án:\s*)([\s\S]*?)<\/div>/i, function(match, label, content) {
           return `<span class="answer-title">${label.trim()}</span>` + (content.trim() ? ` ${content}` : '');
       });
-      let ansHtml = rawAnswerObj.replace(/(<div class="answer-title">[\s\S]*?<\/div>)([\s\S]*?)(?=<div|$)/i, function(match, p1, p2) {
+      let ansHtml = rawAnswerObj.replace(/(<span class="answer-title">[\s\S]*?<\/span>)([\s\S]*?)(?=<div|$)/i, function(match, p1, p2) {
           if(p2.trim()) {
-              return p1 + `<div class="answer-text">${p2}</div>`;
+              return p1 + `<span class="answer-text">${p2}</span>`;
           }
           return match;
       });
