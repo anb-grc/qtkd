@@ -14,3 +14,4 @@ Khi chạy xong luồng xử lý câu hỏi mới, Agent tự động thêm 1 d�
 - [x] (2026-08-08) [KINH TẾ VĨ MÔ]: Tái cấu trúc và trực quan hóa 34 Component từ raw_transcript thành kb.json. Đã commit và chờ Push.
 - [2026-08-13] [GIÁO DỤC THỂ CHẤT 1] Tiệt trùng, áp dụng Ma Trận Lục Hợp, lọc trùng 55 câu thô xuống còn 50 câu (gộp 5 câu). Cập nhật vào qs.json.
 - [2026-08-13] [GIÁO DỤC THỂ CHẤT 1] Cập nhật lại kb.json theo kiến trúc Mindmap siêu phân mảnh và fix lỗi hardcode câu hỏi.
+- 2026-08-15: Hoàn thành Build kb.json (Khung MECE 7 Tầng) cho môn GIÁO DỤC THỂ CHẤT 1.
