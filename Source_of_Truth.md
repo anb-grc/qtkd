@@ -32,7 +32,7 @@ Thay vì bắt học sinh nhớ cả câu dài, hệ thống chỉ Highlight (in
   3. **Lật kèo** (Điều kiện phủ định/ngoại trừ)
   4. **Đối chiếu chéo** (Từ khóa đáp án ĐÚNG tuyệt đối không được xuất hiện trong 3 đáp án SAI - Delta)
   5. **Mỏ neo** (Từ khóa đáp án phải nối logic 1-1 với từ khóa câu hỏi)
-  6. **Cô đọng** (Tối đa 1-3 chữ/cụm, giới hạn 1-2 cụm/câu).
+  6. **Cô đọng** (Đủ ý & Bao quát: 2-4 cụm từ khóa/câu hỏi, mỗi cụm 2-4 chữ). Đảm bảo người dùng chỉ cần ráp các từ khóa lại là hiểu được 80% câu hỏi mà không cần đọc chữ thường.
 
 ---
 

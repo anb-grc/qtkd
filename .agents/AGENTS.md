@@ -22,7 +22,7 @@ Dù bạn được mở ở một khung chat mới nào trong Workspace này, B�
 10. **THUẬT TOÁN HIGHLIGHT (MA TRẬN LỤC HỢP):** Khi bôi đậm từ khóa (Bước 2), BẮT BUỘC tuân thủ 6 tiêu chuẩn đối xứng:
     - **CÂU HỎI (`<span class="keyword">`)**: (1) Độc bản (Danh từ cốt lõi), (2) Ngữ cảnh (Mốc thời gian/Điều kiện), (3) Lật kèo (Phủ định/Bẫy).
     - **ĐÁP ÁN (`<span class="answer-keyword">`)**: (4) Đối chiếu chéo (Tuyệt đối không trùng với 3 đáp án sai - Delta), (5) Mỏ neo (Khớp logic 1-1 với keyword câu hỏi).
-    - **GIAO DIỆN CHUNG**: (6) Cô đọng (Tối đa 1-3 chữ/cụm, Tối đa 1-2 cụm/câu hỏi).
+    - **GIAO DIỆN CHUNG**: (6) Cô đọng (Đủ ý & Bao quát: 2-4 cụm từ khóa/câu hỏi, mỗi cụm 2-4 chữ. Đảm bảo đọc từ khóa hiểu được 80% câu).
 11. **KHO VŨ KHÍ 34 COMPONENT & NGUYÊN TẮC TINH GỌN Ý:** Cấm gượng ép nhét hết 34 linh kiện vào một bài; áp dụng Quy tắc Bộ Tứ Cốt Lõi (4 - 7 component/bài). Khi trực quan hóa vào `kb.json`, BẮT BUỘC tuân thủ nguyên tắc: *"Tinh gọn từ ngữ, Cấm bỏ sót tầng ý"*. ĐẶC BIỆT LƯU Ý:
     - BẮT BUỘC dùng tool `view_file` đọc `knowledge-app/src/types/schema.ts` để lấy chuẩn cấu trúc JSON.
     - Cấu trúc `kb.json` BẮT BUỘC có khối `overview` (dùng mindmap/roadmap làm bản đồ chính) và mảng `details` chứa các component mổ xẻ liên kết theo `node_id`.
