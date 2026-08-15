@@ -295,7 +295,7 @@
           "data": {
             "quiz_tags": [
               "NHẬP MÔN ĐIỀN KINH",
-              "Logic "[Logic & Nguyên tắc]" Nguyên tắc"
+              "Logic & Nguyên tắc"
             ]
           }
         }
@@ -472,7 +472,7 @@
           "data": {
             "quiz_tags": [
               "ĐỘI HÌNH ĐỘI NGŨ VÀ BÀI THỂ DỤC PHÁT TRIỂN CHUNG",
-              "Giới hạn "[Giới hạn & Rủi ro]" Rủi ro"
+              "Giới hạn & Rủi ro"
             ]
           }
         }
@@ -610,7 +610,7 @@
           "data": {
             "quiz_tags": [
               "KỸ THUẬT CHẠY CỰ LY NGẮN",
-              "Logic "[Logic & Nguyên tắc]" Nguyên tắc"
+              "Logic & Nguyên tắc"
             ]
           }
         }
@@ -645,7 +645,7 @@
           "data": {
             "quiz_tags": [
               "KỸ THUẬT CHẠY CỰ LY NGẮN",
-              "Giới hạn "[Giới hạn & Rủi ro]" Rủi ro"
+              "Giới hạn & Rủi ro"
             ]
           }
         }
@@ -814,7 +814,7 @@
           "data": {
             "quiz_tags": [
               "KỸ THUẬT CHẠY CỰ LY TRUNG BÌNH",
-              "Logic "[Logic & Nguyên tắc]" Nguyên tắc"
+              "Logic & Nguyên tắc"
             ]
           }
         }

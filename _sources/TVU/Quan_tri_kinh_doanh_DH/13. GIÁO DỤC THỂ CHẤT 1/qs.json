@@ -213,7 +213,7 @@
     "weight": "high",
     "tags": [
       "NHẬP MÔN ĐIỀN KINH",
-      "Logic "[Logic & Nguyên tắc]" Nguyên tắc"
+      "Logic & Nguyên tắc"
     ],
     "question": "<span class=\"keyword\">Góc ném lao</span> hợp lệ là:",
     "options": [
@@ -228,7 +228,7 @@
     "weight": "high",
     "tags": [
       "KỸ THUẬT CHẠY CỰ LY NGẮN",
-      "Giới hạn "[Giới hạn & Rủi ro]" Rủi ro"
+      "Giới hạn & Rủi ro"
     ],
     "question": "Xuất phát <span class=\"keyword\">sớm</span> xác định khi vận động viên phản ứng dưới:",
     "options": [
@@ -243,7 +243,7 @@
     "weight": "normal",
     "tags": [
       "NHẬP MÔN ĐIỀN KINH",
-      "Logic "[Logic & Nguyên tắc]" Nguyên tắc"
+      "Logic & Nguyên tắc"
     ],
     "question": "<span class=\"keyword\">Giày thi đấu</span> bị cấm khi:",
     "options": [
@@ -543,7 +543,7 @@
     "weight": "normal",
     "tags": [
       "NHẬP MÔN ĐIỀN KINH",
-      "Logic "[Logic & Nguyên tắc]" Nguyên tắc"
+      "Logic & Nguyên tắc"
     ],
     "question": "<span class=\"keyword\">Luật mới</span> được áp dụng đầu tiên tại:",
     "options": [
@@ -558,7 +558,7 @@
     "weight": "normal",
     "tags": [
       "ĐỘI HÌNH ĐỘI NGŨ VÀ BÀI THỂ DỤC PHÁT TRIỂN CHUNG",
-      "Giới hạn "[Giới hạn & Rủi ro]" Rủi ro"
+      "Giới hạn & Rủi ro"
     ],
     "question": "Sự phát triển của <span class=\"keyword\">đồng hồ bấm giờ</span> ảnh hưởng mạnh nhất tới:",
     "options": [
@@ -633,7 +633,7 @@
     "weight": "normal",
     "tags": [
       "NHẬP MÔN ĐIỀN KINH",
-      "Logic "[Logic & Nguyên tắc]" Nguyên tắc"
+      "Logic & Nguyên tắc"
     ],
     "question": "<span class=\"keyword\">Khu vực trao</span> – nhận gậy tiếp sức dài:",
     "options": [
@@ -678,7 +678,7 @@
     "weight": "normal",
     "tags": [
       "KỸ THUẬT CHẠY CỰ LY NGẮN",
-      "Logic "[Logic & Nguyên tắc]" Nguyên tắc"
+      "Logic & Nguyên tắc"
     ],
     "question": "<span class=\"keyword\">Đi bộ</span> thể thao, yêu cầu nhất là:",
     "options": [
@@ -746,7 +746,7 @@
     ],
     "tags": [
       "KỸ THUẬT CHẠY CỰ LY NGẮN",
-      "Giới hạn "[Giới hạn & Rủi ro]" Rủi ro"
+      "Giới hạn & Rủi ro"
     ]
   },
   {
@@ -888,7 +888,7 @@
     "weight": "normal",
     "tags": [
       "KỸ THUẬT CHẠY CỰ LY TRUNG BÌNH",
-      "Logic "[Logic & Nguyên tắc]" Nguyên tắc"
+      "Logic & Nguyên tắc"
     ],
     "question": "Khi lao qua vạch đích, <span class=\"keyword\">bộ phận nào</span> chạm vạch trước sẽ quyết định thành tích?",
     "options": [
@@ -903,7 +903,7 @@
     "weight": "high",
     "tags": [
       "KỸ THUẬT CHẠY CỰ LY NGẮN",
-      "Giới hạn "[Giới hạn & Rủi ro]" Rủi ro"
+      "Giới hạn & Rủi ro"
     ],
     "question": "Vận động viên xuất <span class=\"keyword\">phát</span> sớm sẽ bị:",
     "options": [
@@ -1038,7 +1038,7 @@
     "weight": "normal",
     "tags": [
       "NHẬP MÔN ĐIỀN KINH",
-      "Logic "[Logic & Nguyên tắc]" Nguyên tắc"
+      "Logic & Nguyên tắc"
     ],
     "question": "Thành tích thi <span class=\"keyword\">đấu</span> công nhận khi:",
     "options": [
