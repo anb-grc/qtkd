@@ -2,58 +2,95 @@
   "subject": "KINH TẾ VĨ MÔ",
   "overview": {
     "type": "mindmap",
-    "title": "Bản Đồ Tư Duy KTVM",
+    "title": "Bản Đồ KINH TẾ VĨ MÔ",
     "data": {
       "root": "KINH TẾ VĨ MÔ",
       "children": [
         {
-          "id": "yp1",
-          "label": "Đo Lường & Tổng Cầu",
-          "description": "Các chỉ tiêu đo lường kinh tế và tổng cầu",
+          "label": "Tổng Quan & Đo Lường Tăng Trưởng",
           "children": [
             {
-              "id": "yp1_1",
-              "label": "Phân biệt GDP và GNP",
-              "description": "Tiêu chí Lãnh thổ vs Quốc tịch"
+              "id": "c1_10_nguyen_ly",
+              "label": "10 Nguyên lý Kinh tế học cơ bản"
             },
             {
-              "id": "yp1_2",
-              "label": "Phương pháp tính GDP",
-              "description": "Công thức tính theo chi tiêu"
+              "id": "c1_gdp_gnp",
+              "label": "Khái niệm GDP và GNP"
+            },
+            {
+              "id": "c1_phuong_phap",
+              "label": "3 Phương pháp tính GDP"
+            },
+            {
+              "id": "c1_thuc_danh_nghia",
+              "label": "Phân biệt GDP Thực tế và Danh nghĩa"
+            },
+            {
+              "id": "c1_tang_truong",
+              "label": "Phân tích Tăng trưởng"
             }
           ]
         },
         {
-          "id": "yp2",
-          "label": "Tiền Tệ & Chính Sách",
-          "description": "Tiền tệ và vai trò của NHTW",
+          "label": "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô",
           "children": [
             {
-              "id": "yp2_1",
-              "label": "Các khối lượng tiền tệ",
-              "description": "Cơ cấu phân lớp của tiền (M0, M1, M2)"
+              "id": "c2_tong_cau",
+              "label": "Cấu trúc Tổng cầu và Số nhân chi tiêu"
             },
             {
-              "id": "yp2_2",
-              "label": "Công cụ của NHTW",
-              "description": "Các biện pháp can thiệp cung tiền"
+              "id": "c2_tong_cung",
+              "label": "Tổng cung Ngắn hạn và Dài hạn"
+            },
+            {
+              "id": "c2_is_lm",
+              "label": "Đường IS và Đường LM"
+            },
+            {
+              "id": "c2_chu_ky",
+              "label": "Chu kỳ kinh doanh và 3 Chỉ tiêu"
             }
           ]
         },
         {
-          "id": "yp3",
-          "label": "Mô hình Cân Bằng & Tổng Cung",
-          "description": "Phân tích vĩ mô thông qua đồ thị",
+          "label": "Thị Trường Tiền Tệ & Tài Chính Quốc Tế",
           "children": [
             {
-              "id": "yp3_1",
-              "label": "Phân tích Tổng Cung (AS)",
-              "description": "Sự khác biệt giữa ngắn hạn và dài hạn"
+              "id": "c3_tien_te",
+              "label": "Chức năng và Khối lượng tiền"
             },
             {
-              "id": "yp3_2",
-              "label": "Bẫy lý thuyết Vĩ mô",
-              "description": "Phân biệt các khái niệm dễ nhầm lẫn"
+              "id": "c3_nhtw",
+              "label": "Vai trò và 3 Công cụ của NHTW"
+            },
+            {
+              "id": "c3_ngoai_hoi",
+              "label": "Ngoại hối và Tỷ giá hối đoái"
+            },
+            {
+              "id": "c3_can_can",
+              "label": "Cán cân thương mại"
+            }
+          ]
+        },
+        {
+          "label": "Cú Sốc Vĩ Mô: Lạm Phát & Thất Nghiệp",
+          "children": [
+            {
+              "id": "c4_that_nghiep",
+              "label": "Phân loại 3 hình thức Thất nghiệp"
+            },
+            {
+              "id": "c4_cong_thuc_u",
+              "label": "Công thức Tỷ lệ Thất nghiệp U(%)"
+            },
+            {
+              "id": "c4_lam_phat",
+              "label": "Khái niệm, CPI và 3 cấp độ Lạm phát"
+            },
+            {
+              "id": "c4_danh_doi",
+              "label": "Sự đánh đổi ngắn hạn Lạm phát vs Thất nghiệp"
             }
           ]
         }
@@ -62,234 +99,691 @@
   },
   "details": [
     {
-      "node_id": "yp1_1",
+      "node_id": "c1_10_nguyen_ly",
       "components": [
         {
           "type": "vs-wrap",
-          "title": "So Sánh Khái Niệm Lõi: GDP vs GNP",
+          "title": "Hai nhóm Nguyên lý cốt lõi",
           "data": {
             "left": {
-              "title": "GDP (Quốc nội)",
-              "content": "Tính theo **LÃNH THỔ**. Tổng giá trị hàng hóa cuối cùng sản xuất *trong phạm vi biên giới quốc gia*, không phân biệt quốc tịch."
+              "title": "Nhóm 1: Con người ra quyết định",
+              "content": "1. Đánh đổi (Muốn cái này phải bỏ cái kia).\n2. Chi phí cơ hội (Cái phải từ bỏ).\n3. Thay đổi cận biên (Điều chỉnh nhỏ quanh mức hiện tại).\n4. Phản ứng với kích thích (Thay đổi hành vi theo chi phí/lợi ích)."
             },
             "right": {
-              "title": "GNP (Quốc gia)",
-              "content": "Tính theo **SỞ HỮU QUỐC TỊCH**. Tổng giá trị hàng hóa do công dân nước đó tạo ra, *dù ở trong hay ngoài nước*."
+              "title": "Nhóm 2: Tương tác và Toàn cục kinh tế",
+              "content": "5. Thương mại giúp mọi người cùng có lợi.\n6. Thị trường là nơi tốt nhất để tổ chức hoạt động kinh tế.\n7. Chính phủ có thể cải thiện kết cục thị trường.\n8. Mức sống phụ thuộc vào năng lực sản xuất.\n9. Lạm phát xảy ra khi chính phủ in quá nhiều tiền.\n10. Sự đánh đổi ngắn hạn giữa Lạm phát và Thất nghiệp."
             }
           }
         },
         {
           "type": "quiz",
-          "title": "Chốt chặn: Đo Lường Sản Lượng",
+          "title": "Câu Hỏi Nhanh",
           "data": {
             "quiz_tags": [
-              "Đo Lường Sản Lượng Quốc Gia",
-              "Tổng Quan Kinh Tế Học"
+              "Tổng Quan & Đo Lường Tăng Trưởng",
+              "[Logic & Nguyên tắc]"
             ]
           }
         }
       ]
     },
     {
-      "node_id": "yp1_2",
+      "node_id": "c1_gdp_gnp",
+      "components": [
+        {
+          "type": "vs-wrap",
+          "title": "Phân biệt GDP và GNP",
+          "data": {
+            "left": {
+              "title": "GDP (Quốc Nội)",
+              "content": "Tính theo Lãnh thổ địa lý. Ví dụ: Công ty Honda (Nhật) sản xuất xe tại Việt Nam thì tính vào GDP của Việt Nam."
+            },
+            "right": {
+              "title": "GNP (Quốc Gia)",
+              "content": "Tính theo Sở hữu/Quốc tịch. Ví dụ: Viettel (Việt Nam) kinh doanh tại Campuchia thì doanh thu tính vào GNP của Việt Nam."
+            }
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Tổng Quan & Đo Lường Tăng Trưởng",
+              "[Nền tảng]"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "c1_phuong_phap",
       "components": [
         {
           "type": "formula-breakdown",
-          "title": "Công Thức Huyết Mạch: Tính GDP Theo Chi Tiêu",
+          "title": "Phương pháp Chi tiêu",
           "data": {
             "formula": "Y = C + I + G + NX",
             "variables": [
               {
+                "symbol": "Y",
+                "definition": "Tổng sản phẩm quốc nội (GDP)"
+              },
+              {
                 "symbol": "C",
-                "definition": "Tiêu dùng hộ gia đình (Phụ thuộc thu nhập khả dụng)"
+                "definition": "Tiêu dùng của Hộ gia đình (Phụ thuộc thu nhập khả dụng)"
               },
               {
                 "symbol": "I",
-                "definition": "Đầu tư doanh nghiệp (Phụ thuộc tỷ lệ lãi suất)"
+                "definition": "Đầu tư của Doanh nghiệp (Phụ thuộc lãi suất và kỳ vọng)"
               },
               {
                 "symbol": "G",
-                "definition": "Chi tiêu Chính phủ (Biến số độc lập)"
+                "definition": "Chi tiêu của Chính phủ (Là biến số độc lập)"
               },
               {
                 "symbol": "NX",
-                "definition": "Xuất khẩu ròng = Xuất khẩu (X) - Nhập khẩu (M)"
+                "definition": "Xuất khẩu ròng (Xuất khẩu X - Nhập khẩu M)"
               }
             ],
-            "example": "Sự gia tăng chi tiêu ban đầu sẽ tạo ra nhiều vòng chi tiêu khuếch đại tổng thu nhập (gọi là Số nhân chi tiêu)."
+            "example": "Ngoài phương pháp chi tiêu, còn có phương pháp Thu nhập (cộng Tiền lương, Lãi, Lợi nhuận, Tiền thuê) và phương pháp Giá trị gia tăng VA."
           }
         },
         {
           "type": "quiz",
-          "title": "Chốt chặn: Tổng Cầu",
+          "title": "Câu Hỏi Nhanh",
           "data": {
             "quiz_tags": [
-              "Tổng Cầu Trong Kinh Tế Đóng Và Kinh Tế Mở",
-              "Tăng Trưởng Kinh Tế"
+              "Tổng Quan & Đo Lường Tăng Trưởng",
+              "[Cấu trúc]"
             ]
           }
         }
       ]
     },
     {
-      "node_id": "yp2_1",
+      "node_id": "c1_thuc_danh_nghia",
       "components": [
         {
-          "type": "onion",
-          "title": "Phân Lớp Khối Lượng Tiền Tệ",
+          "type": "t-account",
+          "title": "GDP Danh Nghĩa vs Thực Tế",
           "data": {
-            "layers": [
+            "left": {
+              "header": "GDP Danh Nghĩa (Nominal)",
+              "entries": [
+                "Tính theo giá hiện hành của năm tính toán.",
+                "Chứa đựng sự trượt giá (Lạm phát).",
+                "Phản ánh tổng giá trị tuyệt đối tại thời điểm đó."
+              ]
+            },
+            "right": {
+              "header": "GDP Thực Tế (Real)",
+              "entries": [
+                "Tính theo giá cố định của một năm gốc.",
+                "Đã loại bỏ ảnh hưởng của Lạm phát.",
+                "Phản ánh tốc độ tăng trưởng sản lượng thực tế của nền kinh tế."
+              ]
+            }
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Tổng Quan & Đo Lường Tăng Trưởng",
+              "[Góc nhìn Đa chiều]"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "c1_tang_truong",
+      "components": [
+        {
+          "type": "features",
+          "title": "Phân tích Tăng trưởng",
+          "data": {
+            "items": [
               {
-                "title": "M0",
-                "content": "Tiền mặt (Tiền giấy, tiền xu)"
+                "title": "Nhân tố TFP (Yếu tố tổng hợp)",
+                "description": "Bao gồm Vốn, Lao động, Khoa học công nghệ và Năng lực quản lý đóng góp vào tăng trưởng."
               },
               {
-                "title": "M1",
-                "content": "M0 + Tiền gửi thanh toán"
-              },
-              {
-                "title": "M2",
-                "content": "M1 + Tiền gửi tiết kiệm có kỳ hạn"
+                "title": "Lượng vs Chất",
+                "description": "Tăng trưởng (GDP tăng) phải đi đôi với cải thiện mức sống, giảm nghèo và bền vững môi trường."
               }
             ]
           }
         },
         {
           "type": "quiz",
-          "title": "Chốt chặn: Tiền Tệ",
+          "title": "Câu Hỏi Nhanh",
           "data": {
             "quiz_tags": [
-              "Tiền Tệ"
+              "Tổng Quan & Đo Lường Tăng Trưởng",
+              "[Hệ thống]"
             ]
           }
         }
       ]
     },
     {
-      "node_id": "yp2_2",
+      "node_id": "c2_tong_cau",
+      "components": [
+        {
+          "type": "features",
+          "title": "Cấu trúc Tổng cầu (AD)",
+          "data": {
+            "items": [
+              {
+                "title": "Tiêu dùng (C)",
+                "description": "Gắn với Xu hướng tiêu dùng cận biên (MPC). Ví dụ: MPC = 0.8 nghĩa là có thêm 1đ thì sẽ tiêu 0.8đ."
+              },
+              {
+                "title": "Đầu tư (I)",
+                "description": "Chịu tác động ngược chiều với Lãi suất."
+              },
+              {
+                "title": "Chi tiêu CP (G)",
+                "description": "Là biến số ngoại sinh độc lập do Nhà nước ấn định."
+              },
+              {
+                "title": "Xuất khẩu ròng (NX)",
+                "description": "Sự chênh lệch giữa Xuất khẩu (X) và Nhập khẩu (M)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "interactive-calc",
+          "title": "Mô phỏng Số nhân chi tiêu (k)",
+          "data": {
+            "formulaLabel": "k = 1 / (1 - MPC)",
+            "description": "Sự gia tăng chi tiêu ban đầu sẽ tạo ra nhiều vòng chi tiêu tiếp theo, khuếch đại tổng thu nhập.",
+            "inputs": [
+              {
+                "id": "mpc",
+                "name": "Xu hướng tiêu dùng cận biên (MPC)",
+                "defaultValue": 0.8,
+                "step": 0.1,
+                "min": 0.1,
+                "max": 0.99
+              }
+            ],
+            "operation": "add",
+            "resultLabel": "Số nhân chi tiêu (k) (Chỉ mang tính mô phỏng)"
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô",
+              "[Cấu trúc]"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "c2_tong_cung",
+      "components": [
+        {
+          "type": "vs-wrap",
+          "title": "Tổng cung Ngắn hạn vs Dài hạn",
+          "data": {
+            "left": {
+              "title": "Ngắn hạn (SRAS)",
+              "content": "Đường dốc lên. Lý do: Tiền lương và Giá cả bị cứng nhắc (khó điều chỉnh ngay) hoặc do nhận thức sai lầm của người sản xuất."
+            },
+            "right": {
+              "title": "Dài hạn (LRAS)",
+              "content": "Đường thẳng đứng tại mức sản lượng tự nhiên. Chỉ phụ thuộc vào Công nghệ, Vốn, Lao động; hoàn toàn không đổi theo mức giá."
+            }
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô",
+              "[Nền tảng]"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "c2_is_lm",
+      "components": [
+        {
+          "type": "t-account",
+          "title": "Đường IS vs Đường LM",
+          "data": {
+            "left": {
+              "header": "Đường IS (Thị trường Hàng hóa)",
+              "entries": [
+                "Cân bằng: Đầu tư (I) = Tiết kiệm (S).",
+                "Quan hệ nghịch đảo giữa Lãi suất (R) và Sản lượng (Y).",
+                "Đồ thị dốc xuống.",
+                "Dịch chuyển: Tăng chi tiêu chính phủ (G) làm IS dịch sang phải."
+              ]
+            },
+            "right": {
+              "header": "Đường LM (Thị trường Tiền tệ)",
+              "entries": [
+                "Cân bằng: Cầu tiền (L) = Cung tiền (M).",
+                "Quan hệ đồng biến giữa Lãi suất (R) và Sản lượng (Y).",
+                "Đồ thị dốc lên.",
+                "Giao điểm E của IS và LM xác định trạng thái cân bằng chung."
+              ]
+            }
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô",
+              "[Hệ thống]"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "c2_chu_ky",
+      "components": [
+        {
+          "type": "process-steps",
+          "title": "Chu kỳ Kinh doanh",
+          "data": {
+            "steps": [
+              {
+                "name": "Mở rộng",
+                "description": "Tăng trưởng, GDP thực tế tăng."
+              },
+              {
+                "name": "Đỉnh",
+                "description": "Điểm chuyển hướng từ mở rộng sang thu hẹp."
+              },
+              {
+                "name": "Thu hẹp (Suy thoái)",
+                "description": "Sản lượng giảm, thất nghiệp tăng."
+              },
+              {
+                "name": "Đáy",
+                "description": "Điểm thấp nhất trước khi phục hồi."
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "title": "3 Loại Chỉ Tiêu Dự Báo",
+          "data": {
+            "items": [
+              {
+                "title": "Chỉ tiêu chỉ đạo",
+                "description": "Báo trước xu hướng (Ví dụ: Giấy phép xây dựng mới)."
+              },
+              {
+                "title": "Chỉ tiêu trùng hợp",
+                "description": "Biến động cùng lúc với nền kinh tế (Ví dụ: Doanh thu bán lẻ)."
+              },
+              {
+                "title": "Chỉ tiêu trễ",
+                "description": "Phản ứng sau khi kinh tế đã đổi hướng (Ví dụ: Tỷ lệ thất nghiệp kéo dài)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô",
+              "[Phân luồng]"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "c3_tien_te",
+      "components": [
+        {
+          "type": "pyramid",
+          "title": "Khối Lượng Tiền Tệ",
+          "data": {
+            "levels": [
+              {
+                "name": "M0 (Tiền mặt)",
+                "description": "Tiền giấy, tiền xu (Thanh khoản cao nhất)."
+              },
+              {
+                "name": "M1 (Tiền giao dịch)",
+                "description": "M0 + Tiền gửi thanh toán."
+              },
+              {
+                "name": "M2 (Tiền rộng)",
+                "description": "M1 + Tiền gửi có kỳ hạn."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Thị Trường Tiền Tệ & Tài Chính Quốc Tế",
+              "[Nền tảng]"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "c3_nhtw",
+      "components": [
+        {
+          "type": "features",
+          "title": "3 Công Cụ Chính Sách Tiền Tệ",
+          "data": {
+            "items": [
+              {
+                "title": "Nghiệp vụ thị trường mở",
+                "description": "Mua/Bán trái phiếu Chính phủ để bơm/hút tiền (Công cụ linh hoạt và sử dụng nhiều nhất)."
+              },
+              {
+                "title": "Tỷ lệ dự trữ bắt buộc",
+                "description": "Tăng/Giảm tỷ lệ tiền giữ lại tại Ngân hàng Thương mại (Tác động mạnh mẽ đến Số nhân tiền)."
+              },
+              {
+                "title": "Lãi suất chiết khấu",
+                "description": "Lãi suất NHTW cho các NHTM vay (Là một hình thức phạt hoặc khuyến khích)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Thị Trường Tiền Tệ & Tài Chính Quốc Tế",
+              "[Hệ thống]"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "c3_ngoai_hoi",
+      "components": [
+        {
+          "type": "delta-cheat-sheet",
+          "title": "Ngoại hối và Yết giá",
+          "data": {
+            "items": [
+              {
+                "questionSnippet": "Phương tiện thanh toán nào thuộc Ngoại hối?",
+                "keyword": "Chứng khoán, hối phiếu",
+                "correctDelta": "Ngoại tệ, Hối phiếu bằng ngoại tệ, Chứng khoán ngoại tệ, Vàng/Đá quý.",
+                "wrongTraps": [
+                  "Chỉ có ngoại tệ mặt"
+                ],
+                "explanation": "Ngoại hối bao trùm cả tài sản và công cụ thanh toán quốc tế."
+              },
+              {
+                "questionSnippet": "Trong yết giá USD/VND, tỷ giá mua và bán khác nhau thế nào?",
+                "keyword": "Mua thấp - Bán cao",
+                "correctDelta": "Tỷ giá mua luôn thấp hơn tỷ giá bán.",
+                "wrongTraps": [
+                  "Tỷ giá bán thấp hơn mua",
+                  "Bằng nhau"
+                ],
+                "explanation": "Ngân hàng kinh doanh ngoại hối thu lợi nhuận từ chênh lệch Mua thấp - Bán cao."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Thị Trường Tiền Tệ & Tài Chính Quốc Tế",
+              "[Cấu trúc]"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "c3_can_can",
+      "components": [
+        {
+          "type": "vs-wrap",
+          "title": "Cán Cân Thương Mại (NX)",
+          "data": {
+            "left": {
+              "title": "Xuất Siêu (Thặng Dư: X > M)",
+              "content": "Tăng dự trữ ngoại hối, tạo việc làm. Lưu ý: Đề thi hay bẫy 'Thặng dư ảo' do khối FDI nước ngoài thao túng xuất khẩu."
+            },
+            "right": {
+              "title": "Nhập Siêu (Thâm Hụt: X < M)",
+              "content": "Gây áp lực tỷ giá, mất dự trữ. Lưu ý: 'Nhập siêu tích cực' là khi ta nhập khẩu ròng máy móc thiết bị để mở rộng sản xuất tương lai."
+            }
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Thị Trường Tiền Tệ & Tài Chính Quốc Tế",
+              "[Giới hạn & Rủi ro]"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "c4_that_nghiep",
+      "components": [
+        {
+          "type": "delta-cheat-sheet",
+          "title": "3 Hình Thức Thất Nghiệp",
+          "data": {
+            "items": [
+              {
+                "questionSnippet": "Do công nghệ thay đổi, công nhân bị sa thải do không đáp ứng chuyên môn là loại thất nghiệp gì?",
+                "keyword": "Lệch chuyên môn / Kỹ năng",
+                "correctDelta": "Thất nghiệp cơ cấu",
+                "wrongTraps": [
+                  "Chu kỳ",
+                  "Cọ xát",
+                  "Tự nhiên"
+                ],
+                "explanation": "Cơ cấu nền kinh tế đổi mới khiến kỹ năng cũ không còn khớp."
+              },
+              {
+                "questionSnippet": "Khủng hoảng kinh tế làm doanh nghiệp phá sản khiến người lao động mất việc?",
+                "keyword": "Khủng hoảng / Suy thoái",
+                "correctDelta": "Thất nghiệp chu kỳ",
+                "wrongTraps": [
+                  "Cơ cấu",
+                  "Cọ xát"
+                ],
+                "explanation": "Đặc trưng của pha thu hẹp trong chu kỳ kinh doanh."
+              },
+              {
+                "questionSnippet": "Sinh viên mới ra trường đang nộp hồ sơ xin việc?",
+                "keyword": "Chuyển việc / Đang tìm",
+                "correctDelta": "Thất nghiệp cọ xát (tạm thời)",
+                "wrongTraps": [
+                  "Cơ cấu",
+                  "Chu kỳ"
+                ],
+                "explanation": "Độ trễ thông tin trên thị trường lao động."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Cú Sốc Vĩ Mô: Lạm Phát & Thất Nghiệp",
+              "[Cấu trúc]"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "c4_cong_thuc_u",
+      "components": [
+        {
+          "type": "formula-breakdown",
+          "title": "Tỷ Lệ Thất Nghiệp",
+          "data": {
+            "formula": "U(%) = (Số người thất nghiệp / Lực lượng lao động) * 100",
+            "variables": [
+              {
+                "symbol": "Số người thất nghiệp",
+                "definition": "Người trong độ tuổi, có khả năng, đang tìm việc nhưng chưa có."
+              },
+              {
+                "symbol": "Lực lượng lao động",
+                "definition": "Bằng Số người đang làm việc + Số người thất nghiệp."
+              }
+            ],
+            "example": "Lưu ý bẫy: Những người 'không muốn làm việc' (như người nội trợ) không nằm trong Lực lượng lao động."
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Cú Sốc Vĩ Mô: Lạm Phát & Thất Nghiệp",
+              "[Logic & Nguyên tắc]"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "c4_lam_phat",
+      "components": [
+        {
+          "type": "spectrum",
+          "title": "Cấp Độ Lạm Phát",
+          "data": {
+            "items": [
+              {
+                "title": "Vừa phải (<10%/năm)",
+                "description": "Tác động tích cực, bôi trơn và kích thích nền kinh tế phát triển."
+              },
+              {
+                "title": "Phi mã (2-3 con số)",
+                "description": "Tiền mất giá nhanh, hợp đồng bị phá vỡ, kinh tế bất ổn."
+              },
+              {
+                "title": "Siêu lạm phát (>200%/năm)",
+                "description": "Sự tàn phá khốc liệt, hệ thống tài chính sụp đổ hoàn toàn."
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "title": "Chỉ Số Giá Tiêu Dùng (CPI) & Tác Động",
+          "data": {
+            "items": [
+              {
+                "title": "Khái niệm CPI",
+                "description": "Đo lường mức giá trung bình của một giỏ hàng hóa và dịch vụ tiêu biểu."
+              },
+              {
+                "title": "Tác động của Lạm phát",
+                "description": "Giảm thu nhập thực tế, hao mòn tài sản, gây phân hóa giàu nghèo, nhưng có thể giúp chính phủ giảm gánh nặng nợ công thực tế."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Cú Sốc Vĩ Mô: Lạm Phát & Thất Nghiệp",
+              "[Giới hạn & Rủi ro]"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "c4_danh_doi",
       "components": [
         {
           "type": "decision-tree",
-          "title": "Nhận Diện Chính Sách Tiền Tệ của NHTW",
+          "title": "Sự Đánh Đổi Ngắn Hạn",
           "data": {
-            "startNodeId": "start",
+            "startNodeId": "root",
             "nodes": {
-              "start": {
-                "label": "Mục tiêu của NHTW?",
+              "root": {
+                "label": "Chính phủ quyết định Bơm Tiền (Tăng Tổng Cầu)",
                 "options": [
                   {
-                    "text": "Kích Cầu (Mở Rộng)",
-                    "nextNodeId": "expansion"
-                  },
-                  {
-                    "text": "Chống Lạm Phát (Thắt Chặt)",
-                    "nextNodeId": "contraction"
+                    "text": "Chi tiêu tăng",
+                    "nextNodeId": "step1"
                   }
                 ]
               },
-              "expansion": {
-                "label": "Chính Sách Nới Lỏng Tiền Tệ",
-                "explanation": "Hạ dự trữ bắt buộc, giảm lãi suất chiết khấu, hoặc MUA trái phiếu. Kết quả: Tăng cung tiền, giảm lãi suất.",
-                "isTrap": false
+              "step1": {
+                "label": "Sản lượng tăng, Doanh nghiệp thuê thêm lao động",
+                "options": [
+                  {
+                    "text": "Hệ quả 1",
+                    "nextNodeId": "step2"
+                  },
+                  {
+                    "text": "Hệ quả 2",
+                    "nextNodeId": "step3"
+                  }
+                ]
               },
-              "contraction": {
-                "label": "Chính Sách Thắt Chặt Tiền Tệ",
-                "explanation": "Tăng dự trữ bắt buộc, tăng lãi suất chiết khấu, hoặc BÁN trái phiếu. Kết quả: Giảm cung tiền, tăng lãi suất.",
-                "isTrap": false
+              "step2": {
+                "label": "Thất nghiệp GIẢM",
+                "explanation": "Đây là mặt tích cực của việc mở rộng kinh tế."
+              },
+              "step3": {
+                "label": "Lạm phát TĂNG",
+                "isTrap": true,
+                "explanation": "Đường cong Phillips minh họa: Trong ngắn hạn, tỷ lệ thất nghiệp và lạm phát luôn đi ngược chiều nhau."
               }
             }
           }
         },
         {
           "type": "quiz",
-          "title": "Chốt chặn: Chính Sách Tiền Tệ",
+          "title": "Câu Hỏi Nhanh",
           "data": {
             "quiz_tags": [
-              "Chính Sách Tiền Tệ"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "node_id": "yp3_1",
-      "components": [
-        {
-          "type": "quadrant",
-          "title": "Phân Tích Tổng Cung (AS)",
-          "data": {
-            "x_axis": "Thời gian",
-            "y_axis": "Mức giá",
-            "quadrants": [
-              {
-                "title": "Tổng Cung Dài Hạn (LRAS)",
-                "content": "Đường thẳng đứng tại sản lượng tự nhiên. Phụ thuộc công nghệ, KHÔNG phụ thuộc giá."
-              },
-              {
-                "title": "Dịch Chuyển LRAS",
-                "content": "Tiến bộ công nghệ làm LRAS dịch phải (Tăng trưởng bền vững)."
-              },
-              {
-                "title": "Tổng Cung Ngắn Hạn (SRAS)",
-                "content": "Đường dốc lên. Tiền lương cứng nhắc khiến sản lượng phản ứng với mức giá chung."
-              },
-              {
-                "title": "Dịch Chuyển SRAS",
-                "content": "Giá đầu vào (lương, xăng dầu) giảm làm SRAS dịch phải."
-              }
-            ]
-          }
-        },
-        {
-          "type": "quiz",
-          "title": "Chốt chặn: Tổng Cung",
-          "data": {
-            "quiz_tags": [
-              "Tổng Cung Và Chu Kỳ Kinh Doanh"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "node_id": "yp3_2",
-      "components": [
-        {
-          "type": "delta-cheat-sheet",
-          "title": "Cảnh Báo Lật Kèo: Bẫy Trắc Nghiệm KTVM",
-          "data": {
-            "items": [
-              {
-                "questionSnippet": "Tiền lương danh nghĩa giảm làm ảnh hưởng tổng cung như thế nào?",
-                "keyword": "Tiền lương giảm",
-                "correctDelta": "Tăng tổng cung NGẮN HẠN",
-                "wrongTraps": [
-                  "Tăng tổng cung DÀI HẠN",
-                  "Giảm tổng cung dài hạn"
-                ],
-                "explanation": "Giá đầu vào (lương) chỉ ảnh hưởng ngắn hạn (SRAS dịch phải). Dài hạn phụ thuộc công nghệ."
-              },
-              {
-                "questionSnippet": "Phát hành trái phiếu chính phủ là chính sách gì?",
-                "keyword": "Phát hành trái phiếu (bởi CP)",
-                "correctDelta": "Chính sách TÀI KHÓA",
-                "wrongTraps": [
-                  "Chính sách tiền tệ nới lỏng",
-                  "Chính sách tiền tệ thắt chặt"
-                ],
-                "explanation": "NHTW mua/bán trái phiếu = Tiền tệ. Chính phủ phát hành trái phiếu (vay nợ) = Tài khóa."
-              }
-            ]
-          }
-        },
-        {
-          "type": "quiz",
-          "title": "Chốt chặn: Lạm Phát & IS-LM",
-          "data": {
-            "quiz_tags": [
-              "Lạm Phát Và Thất Nghiệp",
-              "Mô Hình IS - LM",
-              "Ngoại Hối & Tỷ Giá"
+              "Cú Sốc Vĩ Mô: Lạm Phát & Thất Nghiệp",
+              "[Góc nhìn Đa chiều]"
             ]
           }
         }
