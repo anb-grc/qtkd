@@ -12,27 +12,27 @@
             {
               "id": "chuong_1_comp_1",
               "label": "Sự ra đời và phát triển của tài chính",
-              "description": "(Nền tảng)"
+              "description": ""
             },
             {
               "id": "chuong_1_comp_2",
               "label": "Khái niệm và bản chất của tài chính",
-              "description": "(Nền tảng)"
+              "description": ""
             },
             {
               "id": "chuong_1_comp_3",
               "label": "Chức năng của tài chính",
-              "description": "(Cấu trúc)"
+              "description": ""
             },
             {
               "id": "chuong_1_comp_4",
               "label": "Hệ thống tài chính",
-              "description": "(Hệ thống)"
+              "description": ""
             },
             {
               "id": "chuong_1_comp_5",
               "label": "Vai trò của tài chính",
-              "description": "(Phân luồng)"
+              "description": ""
             },
             {
               "id": "chuong_1_comp_6",
@@ -47,12 +47,12 @@
             {
               "id": "chuong_2_comp_1",
               "label": "Bản chất & Mối quan hệ của NSNN",
-              "description": "(Nền tảng)"
+              "description": ""
             },
             {
               "id": "chuong_2_comp_2",
               "label": "Đặc điểm nhận diện NSNN",
-              "description": "(Cấu trúc)"
+              "description": ""
             },
             {
               "id": "chuong_2_comp_3",
@@ -62,7 +62,7 @@
             {
               "id": "chuong_2_comp_4",
               "label": "Cấu trúc Thu - Chi NSNN",
-              "description": "(Phân luồng)"
+              "description": ""
             },
             {
               "id": "chuong_2_comp_5",
@@ -77,7 +77,7 @@
             {
               "id": "chuong_2_comp_7",
               "label": "Hệ thống tổ chức & Nguyên tắc phân cấp",
-              "description": "(Hệ thống)"
+              "description": ""
             }
           ]
         },
@@ -87,22 +87,22 @@
             {
               "id": "chuong_3_comp_1",
               "label": "Tổng quan Tài chính doanh nghiệp",
-              "description": "(Nền tảng)"
+              "description": ""
             },
             {
               "id": "chuong_3_comp_2",
               "label": "Bản chất Vốn kinh doanh",
-              "description": "(Cấu trúc)"
+              "description": ""
             },
             {
               "id": "chuong_3_comp_3",
               "label": "Cơ cấu Nguồn vốn kinh doanh",
-              "description": "(Cấu trúc)"
+              "description": ""
             },
             {
               "id": "chuong_3_comp_4",
               "label": "Phân luồng Vốn cố định và Vốn lưu động",
-              "description": "(Phân luồng)"
+              "description": ""
             },
             {
               "id": "chuong_3_comp_5",
@@ -112,7 +112,7 @@
             {
               "id": "chuong_3_comp_6",
               "label": "Doanh thu và Lợi nhuận",
-              "description": "(Hệ thống)"
+              "description": ""
             }
           ]
         },
@@ -122,27 +122,27 @@
             {
               "id": "chuong_4_comp_1",
               "label": "Tổng quan Thị trường Tài chính",
-              "description": "(Nền tảng)"
+              "description": ""
             },
             {
               "id": "chuong_4_comp_2",
               "label": "Phân loại Công cụ Thị trường Tài chính",
-              "description": "(Cấu trúc)"
+              "description": ""
             },
             {
               "id": "chuong_4_comp_3",
               "label": "Hệ sinh thái Thị trường Tiền tệ",
-              "description": "(Hệ thống)"
+              "description": ""
             },
             {
               "id": "chuong_4_comp_4",
               "label": "Cấu trúc Thị trường Vốn",
-              "description": "(Hệ thống)"
+              "description": ""
             },
             {
               "id": "chuong_4_comp_5",
               "label": "Luân chuyển Chứng khoán Sơ cấp & Thứ cấp",
-              "description": "(Phân luồng)"
+              "description": ""
             },
             {
               "id": "chuong_4_comp_6",
@@ -157,17 +157,17 @@
             {
               "id": "chuong_5_comp_1",
               "label": "Nguồn gốc và Bản chất của Tiền tệ",
-              "description": "(Nền tảng)"
+              "description": ""
             },
             {
               "id": "chuong_5_comp_2",
               "label": "Sự phát triển các hình thái của Tiền tệ",
-              "description": "(Cấu trúc)"
+              "description": ""
             },
             {
               "id": "chuong_5_comp_3",
               "label": "Chức năng và Vai trò của Tiền tệ",
-              "description": "(Hệ thống)"
+              "description": ""
             },
             {
               "id": "chuong_5_comp_4",
@@ -177,7 +177,7 @@
             {
               "id": "chuong_5_comp_5",
               "label": "Cung - Cầu Tiền tệ",
-              "description": "(Phân luồng)"
+              "description": ""
             },
             {
               "id": "chuong_5_comp_6",
@@ -197,22 +197,22 @@
             {
               "id": "chuong_6_comp_1",
               "label": "Tổng quan về Tín dụng",
-              "description": "(Nền tảng)"
+              "description": ""
             },
             {
               "id": "chuong_6_comp_2",
               "label": "Các hình thức tín dụng",
-              "description": "(Cấu trúc)"
+              "description": ""
             },
             {
               "id": "chuong_6_comp_3",
               "label": "Bản chất và Ý nghĩa Lãi suất",
-              "description": "(Nền tảng)"
+              "description": ""
             },
             {
               "id": "chuong_6_comp_4",
               "label": "Phân loại Lãi suất",
-              "description": "(Phân luồng)"
+              "description": ""
             },
             {
               "id": "chuong_6_comp_5",
@@ -227,22 +227,22 @@
             {
               "id": "chuong_7_comp_1",
               "label": "Lịch sử ra đời và phát triển Hệ thống ngân hàng",
-              "description": "(Nền tảng)"
+              "description": ""
             },
             {
               "id": "chuong_7_comp_2",
               "label": "Ngân hàng Thương mại (NHTM)",
-              "description": "(Cấu trúc)"
+              "description": ""
             },
             {
               "id": "chuong_7_comp_3",
               "label": "Ngân hàng Trung ương (NHTW)",
-              "description": "(Hệ thống)"
+              "description": ""
             },
             {
               "id": "chuong_7_comp_4",
               "label": "Chính sách Tiền tệ Quốc gia",
-              "description": "(Phân luồng)"
+              "description": ""
             },
             {
               "id": "chuong_7_comp_5",
@@ -257,22 +257,22 @@
             {
               "id": "chuong_8_comp_1",
               "label": "Khái Niệm Lạm Phát",
-              "description": "(Nền tảng)"
+              "description": ""
             },
             {
               "id": "chuong_8_comp_2",
               "label": "Đo Lường Lạm Phát Bằng CPI",
-              "description": "(Cấu trúc)"
+              "description": ""
             },
             {
               "id": "chuong_8_comp_3",
               "label": "Phân Loại Lạm Phát Theo Định Lượng",
-              "description": "(Hệ thống)"
+              "description": ""
             },
             {
               "id": "chuong_8_comp_4",
               "label": "Phân Loại Lạm Phát Theo Định Tính",
-              "description": "(Phân luồng)"
+              "description": ""
             },
             {
               "id": "chuong_8_comp_5",
@@ -297,17 +297,17 @@
             {
               "id": "chuong_9_comp_1",
               "label": "Tỷ giá hối đoái và cơ chế hình thành",
-              "description": "(Nền tảng)"
+              "description": ""
             },
             {
               "id": "chuong_9_comp_2",
               "label": "Cấu trúc cán cân thanh toán quốc tế",
-              "description": "(Cấu trúc)"
+              "description": ""
             },
             {
               "id": "chuong_9_comp_3",
               "label": "Luồng vốn tín dụng và đầu tư quốc tế",
-              "description": "(Phân luồng)"
+              "description": ""
             },
             {
               "id": "chuong_9_comp_4",
@@ -317,7 +317,7 @@
             {
               "id": "chuong_9_comp_5",
               "label": "Hệ thống tổ chức tài chính quốc tế",
-              "description": "(Hệ thống)"
+              "description": ""
             }
           ]
         }
