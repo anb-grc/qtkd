@@ -7,202 +7,195 @@
       "root": "Tài chính - Tiền tệ",
       "children": [
         {
-          "label": "Tổng quan và Hệ thống Tài chính",
+          "label": "Nhập môn tài chính",
           "children": [
             {
-              "label": "Nhập môn tài chính",
-              "children": [
-                {
-                  "id": "chuong_1_comp_1",
-                  "label": "Bản chất của tài chính"
-                },
-                {
-                  "id": "chuong_1_comp_2",
-                  "label": "Hai chức năng cơ bản của tài chính"
-                },
-                {
-                  "id": "chuong_1_comp_3",
-                  "label": "Bốn khâu của hệ thống tài chính"
-                },
-                {
-                  "id": "chuong_1_comp_4",
-                  "label": "Kênh dẫn vốn"
-                },
-                {
-                  "id": "chuong_1_comp_5",
-                  "label": "5 Nội dung Chính sách tài chính quốc gia"
-                }
-              ]
+              "id": "chuong_1_comp_1",
+              "label": "Bản chất của tài chính"
             },
             {
-              "label": "Tài chính công",
-              "children": [
-                {
-                  "id": "chuong_2_comp_1",
-                  "label": "ĐẶC ĐIỂM CỦA NGÂN SÁCH NHÀ NƯỚC"
-                },
-                {
-                  "id": "chuong_2_comp_2",
-                  "label": "THU VÀ CHI NGÂN SÁCH NHÀ NƯỚC"
-                },
-                {
-                  "id": "chuong_2_comp_3",
-                  "label": "VAI TRÒ CỦA NGÂN SÁCH NHÀ NƯỚC"
-                },
-                {
-                  "id": "chuong_2_comp_4",
-                  "label": "BỘI CHI NGÂN SÁCH NHÀ NƯỚC"
-                },
-                {
-                  "id": "chuong_2_comp_5",
-                  "label": "HỆ THỐNG NGÂN SÁCH NHÀ NƯỚC VIỆT NAM"
-                }
-              ]
+              "id": "chuong_1_comp_2",
+              "label": "Hai chức năng cơ bản của tài chính"
             },
             {
-              "label": "Tài chính doanh nghiệp",
-              "children": [
-                {
-                  "id": "chuong_3_comp_1",
-                  "label": "So sánh Nguồn vốn kinh doanh"
-                },
-                {
-                  "id": "chuong_3_comp_2",
-                  "label": "So sánh Vốn Cố định và Vốn Lưu động"
-                },
-                {
-                  "id": "chuong_3_comp_3",
-                  "label": "Mối quan hệ Chi phí - Giá thành - Lợi nhuận"
-                }
-              ]
+              "id": "chuong_1_comp_3",
+              "label": "Bốn khâu của hệ thống tài chính"
             },
             {
-              "label": "Thị trường tài chính",
-              "children": [
-                {
-                  "id": "chuong_4_comp_1",
-                  "label": "Phân biệt Thị trường Tiền tệ và Thị trường Vốn"
-                },
-                {
-                  "id": "chuong_4_comp_2",
-                  "label": "So sánh Cổ phiếu và Trái phiếu"
-                },
-                {
-                  "id": "chuong_4_comp_3",
-                  "label": "Thị trường Sơ cấp vs Thị trường Thứ cấp"
-                },
-                {
-                  "id": "chuong_4_comp_4",
-                  "label": "4 Chức năng cốt lõi của Thị trường tài chính"
-                }
-              ]
+              "id": "chuong_1_comp_4",
+              "label": "Kênh dẫn vốn"
+            },
+            {
+              "id": "chuong_1_comp_5",
+              "label": "5 Nội dung Chính sách tài chính quốc gia"
             }
           ]
         },
         {
-          "label": "Tiền tệ và Tín dụng",
+          "label": "Ngân sách Nhà nước (Tài chính công)",
           "children": [
             {
-              "label": "Tiền tệ",
-              "children": [
-                {
-                  "id": "chuong_5_comp_1",
-                  "label": "SỰ PHÁT TRIỂN CÁC HÌNH THÁI TIỀN TỆ"
-                },
-                {
-                  "id": "chuong_5_comp_2",
-                  "label": "5 CHỨC NĂNG CỐT LÕI CỦA TIỀN TỆ"
-                },
-                {
-                  "id": "chuong_5_comp_3",
-                  "label": "QUY LUẬT LƯU THÔNG TIỀN TỆ"
-                },
-                {
-                  "id": "chuong_5_comp_4",
-                  "label": "CẤU TRÚC CÁC KHỐI TIỀN TỆ THEO TÍNH LỎNG (M1 -> M4)"
-                }
-              ]
+              "id": "chuong_2_comp_1",
+              "label": "Đặc điểm của ngân sách nhà nước"
             },
             {
-              "label": "Tín dụng và lãi suất",
-              "children": [
-                {
-                  "id": "chuong_6_comp_1",
-                  "label": "Phân biệt 4 Hình thức Tín dụng"
-                },
-                {
-                  "id": "chuong_6_comp_2",
-                  "label": "Lãi suất Danh nghĩa vs Lãi suất Thực"
-                },
-                {
-                  "id": "chuong_6_comp_3",
-                  "label": "4 Nhân tố chính ảnh hưởng đến Lãi suất"
-                }
-              ]
+              "id": "chuong_2_comp_2",
+              "label": "Thu và chi ngân sách nhà nước"
+            },
+            {
+              "id": "chuong_2_comp_3",
+              "label": "Vai trò của ngân sách nhà nước"
+            },
+            {
+              "id": "chuong_2_comp_4",
+              "label": "Bội chi ngân sách nhà nước"
+            },
+            {
+              "id": "chuong_2_comp_5",
+              "label": "Hệ thống ngân sách nhà nước việt nam"
             }
           ]
         },
         {
-          "label": "Hệ thống Ngân hàng và Quốc tế",
+          "label": "Tài chính doanh nghiệp",
           "children": [
             {
-              "label": "Hệ thống ngân hàng",
-              "children": [
-                {
-                  "id": "chuong_7_comp_1",
-                  "label": "3 CHỨC NĂNG CỐT LÕI CỦA NGÂN HÀNG THƯƠNG MẠI"
-                },
-                {
-                  "id": "chuong_7_comp_2",
-                  "label": "3 CHỨC NĂNG CỦA NGÂN HÀNG TRUNG ƯƠNG"
-                },
-                {
-                  "id": "chuong_7_comp_3",
-                  "label": "CHÍNH SÁCH TIỀN TỆ: MỞ RỘNG VS THẮT CHẶT"
-                },
-                {
-                  "id": "chuong_7_comp_4",
-                  "label": "6 CÔNG CỤ CỦA CHÍNH SÁCH TIỀN TỆ"
-                }
-              ]
+              "id": "chuong_3_comp_1",
+              "label": "Bản đồ Tài chính Doanh nghiệp"
             },
             {
-              "label": "Ngân hàng trung ương và lạm phát",
-              "children": [
-                {
-                  "id": "chuong_8_comp_1",
-                  "label": "Mô hình tổ chức Ngân hàng Trung ương"
-                },
-                {
-                  "id": "chuong_8_comp_2",
-                  "label": "2 Trạng thái của Chính sách Tiền tệ"
-                },
-                {
-                  "id": "chuong_8_comp_3",
-                  "label": "Các Nhóm nguyên nhân gây ra Lạm phát"
-                },
-                {
-                  "id": "chuong_8_comp_4",
-                  "label": "Nhóm Biện pháp Kiềm chế Lạm phát cấp bách"
-                }
-              ]
+              "id": "chuong_3_comp_2",
+              "label": "So sánh Nguồn vốn kinh doanh"
             },
             {
-              "label": "Tài chính quốc tế",
-              "children": [
-                {
-                  "id": "chuong_9_comp_1",
-                  "label": "Niêm yết Tỷ giá Hối đoái"
-                },
-                {
-                  "id": "chuong_9_comp_2",
-                  "label": "Nội dung Cán cân Thanh toán"
-                },
-                {
-                  "id": "chuong_9_comp_3",
-                  "label": "Phân loại ODA theo tính chất tài trợ"
-                }
-              ]
+              "id": "chuong_3_comp_3",
+              "label": "So sánh Vốn Cố định và Vốn Lưu động"
+            },
+            {
+              "id": "chuong_3_comp_4",
+              "label": "Mối quan hệ Chi phí - Giá thành - Lợi nhuận"
+            }
+          ]
+        },
+        {
+          "label": "Thị trường tài chính",
+          "children": [
+            {
+              "id": "chuong_4_comp_1",
+              "label": "Phân biệt Thị trường Tiền tệ và Thị trường Vốn"
+            },
+            {
+              "id": "chuong_4_comp_2",
+              "label": "So sánh Cổ phiếu và Trái phiếu"
+            },
+            {
+              "id": "chuong_4_comp_3",
+              "label": "Thị trường Sơ cấp vs Thị trường Thứ cấp"
+            },
+            {
+              "id": "chuong_4_comp_4",
+              "label": "4 Chức năng cốt lõi của Thị trường tài chính"
+            }
+          ]
+        },
+        {
+          "label": "Tiền tệ",
+          "children": [
+            {
+              "id": "chuong_5_comp_1",
+              "label": "Sự phát triển các hình thái tiền tệ"
+            },
+            {
+              "id": "chuong_5_comp_2",
+              "label": "5 chức năng cốt lõi của tiền tệ"
+            },
+            {
+              "id": "chuong_5_comp_3",
+              "label": "Quy luật lưu thông tiền tệ"
+            },
+            {
+              "id": "chuong_5_comp_4",
+              "label": "Cấu trúc các khối tiền tệ theo tính lỏng (m1 -> m4)"
+            }
+          ]
+        },
+        {
+          "label": "Tín dụng và Lãi suất",
+          "children": [
+            {
+              "id": "chuong_6_comp_1",
+              "label": "Phân biệt 4 Hình thức Tín dụng"
+            },
+            {
+              "id": "chuong_6_comp_2",
+              "label": "Lãi suất Danh nghĩa vs Lãi suất Thực"
+            },
+            {
+              "id": "chuong_6_comp_3",
+              "label": "4 Nhân tố chính ảnh hưởng đến Lãi suất"
+            }
+          ]
+        },
+        {
+          "label": "Hệ thống ngân hàng",
+          "children": [
+            {
+              "id": "chuong_7_comp_1",
+              "label": "3 chức năng cốt lõi của ngân hàng thương mại"
+            },
+            {
+              "id": "chuong_7_comp_2",
+              "label": "3 chức năng của ngân hàng trung ương"
+            },
+            {
+              "id": "chuong_7_comp_3",
+              "label": "Chính sách tiền tệ: mở rộng vs thắt chặt"
+            },
+            {
+              "id": "chuong_7_comp_4",
+              "label": "6 công cụ của chính sách tiền tệ"
+            }
+          ]
+        },
+        {
+          "label": "Lạm phát",
+          "children": [
+            {
+              "id": "chuong_8_comp_1",
+              "label": "Bức tranh toàn cảnh: Ngân hàng Trung ương & Lạm phát"
+            },
+            {
+              "id": "chuong_8_comp_2",
+              "label": "Mô hình tổ chức Ngân hàng Trung ương"
+            },
+            {
+              "id": "chuong_8_comp_3",
+              "label": "2 Trạng thái của Chính sách Tiền tệ"
+            },
+            {
+              "id": "chuong_8_comp_4",
+              "label": "Các Nhóm nguyên nhân gây ra Lạm phát"
+            },
+            {
+              "id": "chuong_8_comp_5",
+              "label": "Nhóm Biện pháp Kiềm chế Lạm phát cấp bách"
+            }
+          ]
+        },
+        {
+          "label": "Tài chính quốc tế",
+          "children": [
+            {
+              "id": "chuong_9_comp_1",
+              "label": "Niêm yết Tỷ giá Hối đoái"
+            },
+            {
+              "id": "chuong_9_comp_2",
+              "label": "Nội dung Cán cân Thanh toán"
+            },
+            {
+              "id": "chuong_9_comp_3",
+              "label": "Phân loại ODA theo tính chất tài trợ"
             }
           ]
         }
@@ -231,7 +224,9 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 1"
+            ]
           }
         }
       ]
@@ -257,7 +252,9 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 1"
+            ]
           }
         }
       ]
@@ -295,7 +292,9 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 1"
+            ]
           }
         }
       ]
@@ -321,7 +320,9 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 1"
+            ]
           }
         }
       ]
@@ -361,7 +362,9 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 1"
+            ]
           }
         }
       ]
@@ -371,7 +374,7 @@
       "components": [
         {
           "type": "features",
-          "title": "ĐẶC ĐIỂM CỦA NGÂN SÁCH NHÀ NƯỚC",
+          "title": "Đặc điểm của ngân sách nhà nước",
           "data": {
             "items": [
               {
@@ -393,7 +396,9 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 2"
+            ]
           }
         }
       ]
@@ -403,14 +408,14 @@
       "components": [
         {
           "type": "vs-wrap",
-          "title": "THU VÀ CHI NGÂN SÁCH NHÀ NƯỚC",
+          "title": "Thu và chi ngân sách nhà nước",
           "data": {
             "left": {
-              "title": "THU NSNN",
+              "title": "Thu nsnn",
               "content": "Là việc Nhà nước dùng quyền lực tập trung nguồn tài chính (trên 80% từ thuế, phí, lệ phí). Chia làm 2 nhóm: Thu thường xuyên (bắt buộc) và Thu không thường xuyên."
             },
             "right": {
-              "title": "CHI NSNN",
+              "title": "Chi nsnn",
               "content": "Là quá trình phân phối lại nguồn tài chính để thực hiện mục tiêu vĩ mô. Gồm chi đầu tư phát triển, chi thường xuyên (sự nghiệp, quản lý) và chi trả nợ, viện trợ."
             }
           }
@@ -419,7 +424,9 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 2"
+            ]
           }
         }
       ]
@@ -429,7 +436,7 @@
       "components": [
         {
           "type": "quadrant",
-          "title": "VAI TRÒ CỦA NGÂN SÁCH NHÀ NƯỚC",
+          "title": "Vai trò của ngân sách nhà nước",
           "data": {
             "x_axis": "Cấp độ tác động",
             "y_axis": "Lĩnh vực",
@@ -457,7 +464,9 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 2"
+            ]
           }
         }
       ]
@@ -467,7 +476,7 @@
       "components": [
         {
           "type": "formula-breakdown",
-          "title": "BỘI CHI NGÂN SÁCH NHÀ NƯỚC",
+          "title": "Bội chi ngân sách nhà nước",
           "data": {
             "formula": "Chi NSNN > Thu NSNN",
             "variables": [
@@ -487,7 +496,9 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 2"
+            ]
           }
         }
       ]
@@ -497,7 +508,7 @@
       "components": [
         {
           "type": "pyramid",
-          "title": "HỆ THỐNG NGÂN SÁCH NHÀ NƯỚC VIỆT NAM",
+          "title": "Hệ thống ngân sách nhà nước việt nam",
           "data": {
             "levels": [
               {
@@ -519,13 +530,63 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 2"
+            ]
           }
         }
       ]
     },
     {
       "node_id": "chuong_3_comp_1",
+      "components": [
+        {
+          "type": "mindmap",
+          "title": "Bản đồ Tài chính Doanh nghiệp",
+          "data": {
+            "root": "Tài chính Doanh nghiệp",
+            "children": [
+              {
+                "label": "Đặc điểm",
+                "description": "Là khâu cơ sở của hệ thống tài chính, gắn liền sản xuất kinh doanh, vận động nhằm mục tiêu kinh doanh."
+              },
+              {
+                "label": "Vai trò",
+                "description": "Huy động vốn, tổ chức sử dụng vốn hiệu quả, đòn bẩy điều tiết, giám sát kiểm tra."
+              },
+              {
+                "label": "Nội dung hoạt động",
+                "children": [
+                  {
+                    "label": "Vốn kinh doanh"
+                  },
+                  {
+                    "label": "Nguồn vốn"
+                  },
+                  {
+                    "label": "Chi phí & Giá thành"
+                  },
+                  {
+                    "label": "Doanh thu & Lợi nhuận"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu hỏi nhanh",
+          "data": {
+            "quiz_tags": [
+              "Bài 3"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "chuong_3_comp_2",
       "components": [
         {
           "type": "vs-wrap",
@@ -545,13 +606,15 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 3"
+            ]
           }
         }
       ]
     },
     {
-      "node_id": "chuong_3_comp_2",
+      "node_id": "chuong_3_comp_3",
       "components": [
         {
           "type": "vs-wrap",
@@ -571,13 +634,15 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 3"
+            ]
           }
         }
       ]
     },
     {
-      "node_id": "chuong_3_comp_3",
+      "node_id": "chuong_3_comp_4",
       "components": [
         {
           "type": "process-steps",
@@ -607,7 +672,9 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 3"
+            ]
           }
         }
       ]
@@ -633,7 +700,9 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 4"
+            ]
           }
         }
       ]
@@ -670,7 +739,9 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 4"
+            ]
           }
         }
       ]
@@ -696,7 +767,9 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 4"
+            ]
           }
         }
       ]
@@ -732,7 +805,9 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 4"
+            ]
           }
         }
       ]
@@ -742,7 +817,7 @@
       "components": [
         {
           "type": "process-steps",
-          "title": "SỰ PHÁT TRIỂN CÁC HÌNH THÁI TIỀN TỆ",
+          "title": "Sự phát triển các hình thái tiền tệ",
           "data": {
             "steps": [
               {
@@ -768,7 +843,9 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 5"
+            ]
           }
         }
       ]
@@ -778,7 +855,7 @@
       "components": [
         {
           "type": "features",
-          "title": "5 CHỨC NĂNG CỐT LÕI CỦA TIỀN TỆ",
+          "title": "5 chức năng cốt lõi của tiền tệ",
           "data": {
             "items": [
               {
@@ -808,7 +885,9 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 5"
+            ]
           }
         }
       ]
@@ -818,7 +897,7 @@
       "components": [
         {
           "type": "formula-breakdown",
-          "title": "QUY LUẬT LƯU THÔNG TIỀN TỆ",
+          "title": "Quy luật lưu thông tiền tệ",
           "data": {
             "formula": "M = (PQ - PQb - PQk + PQd) / V",
             "variables": [
@@ -827,7 +906,7 @@
                 "definition": "Khối lượng tiền cần thiết cho lưu thông."
               },
               {
-                "symbol": "PQ",
+                "symbol": "Pq",
                 "definition": "Tổng giá cả hàng hóa."
               },
               {
@@ -854,7 +933,9 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 5"
+            ]
           }
         }
       ]
@@ -864,7 +945,7 @@
       "components": [
         {
           "type": "onion",
-          "title": "CẤU TRÚC CÁC KHỐI TIỀN TỆ THEO TÍNH LỎNG (M1 -> M4)",
+          "title": "Cấu trúc các khối tiền tệ theo tính lỏng (m1 -> m4)",
           "data": {
             "layers": [
               {
@@ -890,7 +971,9 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 5"
+            ]
           }
         }
       ]
@@ -940,7 +1023,9 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 6"
+            ]
           }
         }
       ]
@@ -966,7 +1051,9 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 6"
+            ]
           }
         }
       ]
@@ -1002,7 +1089,9 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 6"
+            ]
           }
         }
       ]
@@ -1012,7 +1101,7 @@
       "components": [
         {
           "type": "features",
-          "title": "3 CHỨC NĂNG CỐT LÕI CỦA NGÂN HÀNG THƯƠNG MẠI",
+          "title": "3 chức năng cốt lõi của ngân hàng thương mại",
           "data": {
             "items": [
               {
@@ -1034,7 +1123,9 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 7"
+            ]
           }
         }
       ]
@@ -1044,7 +1135,7 @@
       "components": [
         {
           "type": "features",
-          "title": "3 CHỨC NĂNG CỦA NGÂN HÀNG TRUNG ƯƠNG",
+          "title": "3 chức năng của ngân hàng trung ương",
           "data": {
             "items": [
               {
@@ -1066,7 +1157,9 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 7"
+            ]
           }
         }
       ]
@@ -1076,7 +1169,7 @@
       "components": [
         {
           "type": "vs-wrap",
-          "title": "CHÍNH SÁCH TIỀN TỆ: MỞ RỘNG VS THẮT CHẶT",
+          "title": "Chính sách tiền tệ: mở rộng vs thắt chặt",
           "data": {
             "left": {
               "title": "Chính sách mở rộng tiền tệ",
@@ -1092,7 +1185,9 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 7"
+            ]
           }
         }
       ]
@@ -1102,7 +1197,7 @@
       "components": [
         {
           "type": "features",
-          "title": "6 CÔNG CỤ CỦA CHÍNH SÁCH TIỀN TỆ",
+          "title": "6 công cụ của chính sách tiền tệ",
           "data": {
             "items": [
               {
@@ -1136,13 +1231,85 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 7"
+            ]
           }
         }
       ]
     },
     {
       "node_id": "chuong_8_comp_1",
+      "components": [
+        {
+          "type": "mindmap",
+          "title": "Bức tranh toàn cảnh: Ngân hàng Trung ương & Lạm phát",
+          "data": {
+            "root": "Tài chính Tiền tệ",
+            "children": [
+              {
+                "label": "Ngân hàng Trung ương",
+                "children": [
+                  {
+                    "label": "Chức năng",
+                    "description": "Phát hành tiền, Ngân hàng của các NH, Ngân hàng của Nhà nước"
+                  },
+                  {
+                    "label": "Mô hình",
+                    "description": "Độc lập (tránh lạm phát) vs Trực thuộc (quản lý vĩ mô đồng bộ)"
+                  }
+                ]
+              },
+              {
+                "label": "Chính sách Tiền tệ",
+                "children": [
+                  {
+                    "label": "Mục tiêu",
+                    "description": "Ổn định giá trị tiền tệ, thúc đẩy tăng trưởng và tạo việc làm"
+                  },
+                  {
+                    "label": "Phân loại",
+                    "description": "Mở rộng (chống suy thoái) vs Thắt chặt (chống lạm phát)"
+                  },
+                  {
+                    "label": "Công cụ",
+                    "description": "Lãi suất, Tỷ giá, Dự trữ bắt buộc, Thị trường mở..."
+                  }
+                ]
+              },
+              {
+                "label": "Lạm phát",
+                "children": [
+                  {
+                    "label": "Mức độ (Định lượng)",
+                    "description": "Vừa phải (<10%), Phi mã (2-3 con số), Siêu phi mã"
+                  },
+                  {
+                    "label": "Nguyên nhân",
+                    "description": "Cầu kéo, Chi phí đẩy, Bội chi ngân sách, Tâm lý"
+                  },
+                  {
+                    "label": "Giải pháp cấp bách",
+                    "description": "Siết tín dụng, Giảm chi ngân sách, Can thiệp tỷ giá"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu hỏi nhanh",
+          "data": {
+            "quiz_tags": [
+              "Bài 8"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "chuong_8_comp_2",
       "components": [
         {
           "type": "vs-wrap",
@@ -1162,13 +1329,15 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 8"
+            ]
           }
         }
       ]
     },
     {
-      "node_id": "chuong_8_comp_2",
+      "node_id": "chuong_8_comp_3",
       "components": [
         {
           "type": "vs-wrap",
@@ -1188,13 +1357,15 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 8"
+            ]
           }
         }
       ]
     },
     {
-      "node_id": "chuong_8_comp_3",
+      "node_id": "chuong_8_comp_4",
       "components": [
         {
           "type": "features",
@@ -1224,13 +1395,15 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 8"
+            ]
           }
         }
       ]
     },
     {
-      "node_id": "chuong_8_comp_4",
+      "node_id": "chuong_8_comp_5",
       "components": [
         {
           "type": "process-steps",
@@ -1256,7 +1429,9 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 8"
+            ]
           }
         }
       ]
@@ -1282,7 +1457,9 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 9"
+            ]
           }
         }
       ]
@@ -1322,7 +1499,9 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 9"
+            ]
           }
         }
       ]
@@ -1354,7 +1533,9 @@
           "type": "quiz",
           "title": "Câu hỏi nhanh",
           "data": {
-            "quiz_tags": []
+            "quiz_tags": [
+              "Bài 9"
+            ]
           }
         }
       ]
