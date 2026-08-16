@@ -89,9 +89,25 @@ function buildFilterUI(data) {
             <div id="tagsDropdownList" style="display: none; position: absolute; top: 100%; left: 0; min-width: 220px; margin-top: 6px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--r); box-shadow: 0 8px 24px rgba(0,0,0,0.12); z-index: 100; max-height: 280px; overflow-y: auto; padding: 6px;">
     `;
     
-    let priorityTags = ['Mẫu', 'Kiến thức'];
-    let otherTags = tagsArr.filter(t => !priorityTags.includes(t));
-    let sortedTags = [...priorityTags.filter(t => tagsArr.includes(t)), ...otherTags];
+    const exactOrder = [
+        'Mẫu', 'Kiến thức',
+        'Nền tảng', '[Nền tảng]', 
+        'Cấu trúc', '[Cấu trúc]',
+        'Hệ thống', '[Hệ thống]', 
+        'Phân luồng', '[Phân luồng]',
+        'Logic & Nguyên tắc', '[Logic & Nguyên tắc]',
+        'Giới hạn & Rủi ro', '[Giới hạn & Rủi ro]',
+        'Góc nhìn Đa chiều', '[Góc nhìn Đa chiều]', 'Góc nhìn đa chiều', '[Góc nhìn đa chiều]'
+    ];
+    
+    let sortedTags = tagsArr.sort((a, b) => {
+        let idxA = exactOrder.indexOf(a);
+        let idxB = exactOrder.indexOf(b);
+        if (idxA === -1) idxA = 999;
+        if (idxB === -1) idxB = 999;
+        if (idxA !== idxB) return idxA - idxB;
+        return a.localeCompare(b);
+    });
     
     sortedTags.forEach(t => {
         let isActive = window.activeTagFilters.has(t);
