@@ -75,7 +75,10 @@ function buildFilterUI(data) {
         'Góc nhìn Đa chiều', '[Góc nhìn Đa chiều]', 'Góc nhìn đa chiều', '[Góc nhìn đa chiều]'
     ];
     
-    let tagsArr = Array.from(allTags).sort();
+    let tagsArr = Array.from(allTags).sort().filter(t => {
+        if (t === 'Mẫu' || t === 'Kiến thức') return true;
+        return fwTags.includes(t);
+    });
     
     let tagsHtml = `
         <div id="tagsDropdownContainer" style="position: relative; flex-shrink: 0;">
@@ -302,7 +305,15 @@ function renderBatch() {
         // Render tags visually with color-coding & Glassmorphism
         let tagsHtml = '';
         if(q.tags && Array.isArray(q.tags)) {
-            let displayTags = [...q.tags];
+            const fwTags = [
+                'Nền tảng', '[Nền tảng]', 'Cấu trúc', '[Cấu trúc]',
+                'Hệ thống', '[Hệ thống]', 'Phân luồng', '[Phân luồng]',
+                'Logic & Nguyên tắc', '[Logic & Nguyên tắc]',
+                'Giới hạn & Rủi ro', '[Giới hạn & Rủi ro]',
+                'Góc nhìn Đa chiều', '[Góc nhìn Đa chiều]', 'Góc nhìn đa chiều', '[Góc nhìn đa chiều]'
+            ];
+            
+            let displayTags = q.tags.filter(t => t === 'High' || t === 'Trọng tâm' || t === '80/20' || t === 'Mẫu' || t === 'Kiến thức' || fwTags.includes(t));
             
             if (q.weight === 'high' && !displayTags.includes('High')) {
                 displayTags.unshift('High');
