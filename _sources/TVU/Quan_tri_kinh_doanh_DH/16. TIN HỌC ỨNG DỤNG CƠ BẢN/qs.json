@@ -574,5 +574,515 @@
       "Sort"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Repeat Header Rows</span>\n<div class=\"note\">Repeat Header Rows giúp dòng đầu tiên của bảng tự động lặp lại khi bảng bị tràn sang trang mới.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "ĐẠI CƯƠNG VỀ MÁY TÍNH ĐIỆN TỬ & CNTT",
+      "Cấu trúc"
+    ],
+    "question": "Trong cấu trúc của một máy tính điện tử, thiết bị nào sau đây <span class=\"keyword\">KHÔNG phải</span> là <span class=\"keyword\">thiết bị xuất</span>?",
+    "options": [
+      "<span class=\"answer-keyword\">Máy quét</span>",
+      "Màn hình",
+      "Máy in",
+      "Loa"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Máy quét</span>\\n<div class=\"note\">Các thiết bị nhập cơ bản gồm: bàn phím (keyboard), chuột (mouse), máy quét (scanner).</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "ĐẠI CƯƠNG VỀ MÁY TÍNH ĐIỆN TỬ & CNTT",
+      "Cấu trúc"
+    ],
+    "question": "Trong cấu trúc của một máy tính điện tử, <span class=\"keyword\">ổ đĩa cứng</span> thuộc <span class=\"keyword\">loại bộ nhớ</span> nào?",
+    "options": [
+      "<span class=\"answer-keyword\">Bộ nhớ ngoài</span>",
+      "Bộ nhớ trong",
+      "Bộ nhớ chỉ đọc",
+      "Bộ nhớ truy xuất ngẫu nhiên"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Bộ nhớ ngoài</span>\\n<div class=\"note\">Bộ nhớ ngoài là thiết bị lưu trữ thông tin với dung lượng lớn, thông tin không bị mất khi không có điện. Hiện nay có các loại bộ nhớ ngoài phổ biến như: Đĩa cứng (hard disk); Đĩa quang (Compact disk); thẻ nhớ...</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "ĐẠI CƯƠNG VỀ MÁY TÍNH ĐIỆN TỬ & CNTT",
+      "Cấu trúc"
+    ],
+    "question": "Trong cấu trúc của một máy tính điện tử, thiết bị nào sau đây là <span class=\"keyword\">thiết bị nhập</span>?",
+    "options": [
+      "<span class=\"answer-keyword\">Chuột</span>",
+      "Máy in",
+      "Loa",
+      "Màn hình"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Chuột</span>\\n<div class=\"note\">Các thiết bị nhập cơ bản gồm: bàn phím (keyboard), chuột (mouse), máy quét (scanner).</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "SỬ DỤNG HỆ ĐIỀU HÀNH WINDOWS 10",
+      "Phân luồng"
+    ],
+    "question": "Trong hệ điều hành Windows 10, nhấn tổ hợp phím nào để <span class=\"keyword\">sao chép (copy)</span> đối tượng đang được chọn khối?",
+    "options": [
+      "Ctrl + X",
+      "Ctrl + A",
+      "<span class=\"answer-keyword\">Ctrl + C</span>",
+      "Ctrl + P"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Ctrl + C</span>\\n<div class=\"note\">Ctrl + C dùng để sao chép đối tượng.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "SỬ DỤNG HỆ ĐIỀU HÀNH WINDOWS 10",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Trong hệ điều hành Windows 10, biểu tượng nào trên màn hình Desktop là nơi <span class=\"keyword\">lưu trữ tạm thời</span> các tập tin và các đối tượng <span class=\"keyword\">đã bị xoá</span>?",
+    "options": [
+      "Network",
+      "Shortcut",
+      "This PC",
+      "<span class=\"answer-keyword\">Recycle Bin</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Recycle Bin</span>\\n<div class=\"note\">This PC: biểu tượng duyệt nhanh tài nguyên, Recycle Bin: nơi lưu trữ tạm thời các tập tin và đối tượng đã bị xoá.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT WORD 2013 CƠ BẢN",
+      "Phân luồng"
+    ],
+    "question": "Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác <span class=\"keyword\">định dạng bảng biểu</span>, lệnh nào cho phép <span class=\"keyword\">tự động canh chỉnh</span> độ rộng của bảng biểu?",
+    "options": [
+      "<span class=\"answer-keyword\">Auto Fit</span>",
+      "Draw Table",
+      "Cell Margins",
+      "Text Direction"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Auto Fit</span>\\n<div class=\"note\">Auto Fit (Tự động canh chỉnh) dùng để tự động vừa vặn cột bảng biểu.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT WORD 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "question": "Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng cho <span class=\"keyword\">đối tượng Shape</span> nhóm lệnh nào trong thẻ Format cho phép định dạng <span class=\"keyword\">hướng chữ</span> cho nội dung văn bản bên trong Shape?",
+    "options": [
+      "Insert Shapes",
+      "Size",
+      "Shape Styles",
+      "<span class=\"answer-keyword\">Text</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Text</span>\\n<div class=\"note\">Nhóm Text chứa các định dạng hướng chữ (Text Direction) cho Shape.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT WORD 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "question": "Trong chương trình Microsoft Office Word 2013, lệnh <span class=\"keyword\">chèn chữ nghệ thuật</span> (WordArt) thuộc <span class=\"keyword\">nhóm lệnh nào</span> của thẻ Insert?",
+    "options": [
+      "Illustrations",
+      "Comments",
+      "Links",
+      "<span class=\"answer-keyword\">Text</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Text</span>\\n<div class=\"note\">WordArt nằm trong nhóm Text của thẻ Insert.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT WORD 2013 CƠ BẢN",
+      "Phân luồng"
+    ],
+    "question": "Trong chương trình Microsoft Office Word 2013, hãy cho biết khi thao tác trong bảng biểu, lệnh nào được sử dụng để <span class=\"keyword\">chèn thêm 1 dòng</span> ở <span class=\"keyword\">phía trên</span> dòng hiện hành?",
+    "options": [
+      "Insert Left",
+      "<span class=\"answer-keyword\">Insert Above</span>",
+      "Insert Below",
+      "Insert Right"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Insert Above</span>\\n<div class=\"note\">Insert Above để chèn một dòng mới phía trên dòng hiện tại trong bảng biểu.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT WORD 2013 CƠ BẢN",
+      "Phân luồng"
+    ],
+    "question": "Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác <span class=\"keyword\">chia cột</span> cho đoạn văn bản tùy chọn nào cho phép xác định <span class=\"keyword\">số cột</span> cần chia đoạn văn bản?",
+    "options": [
+      "Line between",
+      "Width and spacing",
+      "<span class=\"answer-keyword\">Number of columns</span>",
+      "Equal column width"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Number of columns</span>\\n<div class=\"note\">Tùy chọn Number of columns xác định số cột cần chia đoạn văn bản.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT WORD 2013 CƠ BẢN",
+      "Phân luồng"
+    ],
+    "question": "Trong chương trình Microsoft Office Word 2013, khi <span class=\"keyword\">cài đặt trang giấy</span>, thông số nào giúp xác định <span class=\"keyword\">hướng giấy</span>?",
+    "options": [
+      "Page Borders",
+      "<span class=\"answer-keyword\">Orientation</span>",
+      "Margin",
+      "Size"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Orientation</span>\\n<div class=\"note\">Thông số Orientation giúp xác định hướng giấy (dọc hoặc ngang).</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT WORD 2013 CƠ BẢN",
+      "Phân luồng"
+    ],
+    "question": "Trong chương trình Microsoft Office Word 2013, để tùy chỉnh các thông số <span class=\"keyword\">cài đặt trang giấy</span> chúng ta vào <span class=\"keyword\">thẻ nào</span> sau đây?",
+    "options": [
+      "<span class=\"answer-keyword\">Page Layout</span>",
+      "Insert",
+      "View",
+      "Home"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Page Layout</span>\\n<div class=\"note\">Thẻ Page Layout (hay Layout) chứa các công cụ thiết lập lề, khổ giấy, hướng giấy.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT WORD 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "question": "Trong chương trình Microsoft Office Word 2013, cho biết tùy chọn nào sau đây được sử dụng để <span class=\"keyword\">thay đổi hình dáng</span> cho đối tượng <span class=\"keyword\">WordArt</span>?",
+    "options": [
+      "Glow",
+      "Reflection",
+      "<span class=\"answer-keyword\">Transform</span>",
+      "Shadow"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Transform</span>\\n<div class=\"note\">Hiệu ứng Transform sử dụng để thay đổi hình dáng cho đối tượng WordArt.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT WORD 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "question": "Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng cho <span class=\"keyword\">đối tượng Shape</span> lệnh nào cho phép xác định <span class=\"keyword\">màu nền</span> của Shape?",
+    "options": [
+      "<span class=\"answer-keyword\">Shape Fill</span>",
+      "Shape Outline",
+      "Align Text",
+      "Shape Effects"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Shape Fill</span>\\n<div class=\"note\">Shape Fill dùng để đổ màu nền cho đối tượng Shape.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "Hệ thống"
+    ],
+    "question": "Trong chương trình Microsoft Office Excel 2013, để <span class=\"keyword\">chuyển đổi</span> dữ liệu chuỗi sang <span class=\"keyword\">chữ in hoa</span> người sử dụng dùng hàm gì?",
+    "options": [
+      "LEN",
+      "LEFT",
+      "MID",
+      "<span class=\"answer-keyword\">UPPER</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">UPPER</span>\\n<div class=\"note\">UPPER dùng để viết hoa toàn bộ chuỗi ký tự.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Trong chương trình Microsoft Office Excel 2013, cho biết lệnh nào được sử dụng để <span class=\"keyword\">xóa 1 worksheet</span>?",
+    "options": [
+      "<span class=\"answer-keyword\">Delete Sheet</span>",
+      "Delete Sheet Columns",
+      "Delete Sheet Rows",
+      "Delete Cells"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Delete Sheet</span>\\n<div class=\"note\">Lệnh Delete Sheet dùng để xóa toàn bộ một trang tính (worksheet).</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "Hệ thống"
+    ],
+    "question": "Trong chương trình Microsoft Office Excel 2013, cho biết <span class=\"keyword\">hàm NOW()</span> có <span class=\"keyword\">ý nghĩa</span> gì?",
+    "options": [
+      "Trả về ngày hiện hành của hệ thống",
+      "Trả về giá trị tháng trong biểu thức Date",
+      "Trả về giá trị dạng Date theo qui định của hệ thống",
+      "<span class=\"answer-keyword\">Trả về ngày và giờ hiện hành của hệ thống</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Trả về ngày và giờ hiện hành của hệ thống</span>\\n<div class=\"note\">Hàm NOW() trả về cả ngày và giờ hiện hành của hệ thống máy tính.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Trong chương trình Microsoft Office Excel 2013, khi định dạng cho dữ liệu trong hộp thoại Format Cells định dạng nào dùng để định dạng các <span class=\"keyword\">giá trị ngày và thời gian</span> tùy theo chọn lựa tại phần <span class=\"keyword\">Type và Locale</span>?",
+    "options": [
+      "Currency",
+      "<span class=\"answer-keyword\">Date</span>",
+      "Percentage",
+      "Number"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Date</span>\\n<div class=\"note\">Format Cells > Date cho phép định dạng ngày tháng hiển thị theo vùng (Locale).</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Trong chương trình Microsoft Office Excel 2013, cho biết lệnh nào được sử dụng để <span class=\"keyword\">hiển thị các Sheet đã ẩn</span>?",
+    "options": [
+      "Move or Copy…",
+      "Show",
+      "Insert…",
+      "<span class=\"answer-keyword\">Unhide</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Unhide</span>\\n<div class=\"note\">Lệnh Unhide dùng để hiển thị lại những sheet, cột, hoặc dòng đã bị ẩn.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "Hệ thống"
+    ],
+    "question": "Trong chương trình Microsoft Office Excel 2013, để <span class=\"keyword\">xác định thứ</span> trong tuần của một giá trị kiểu DATE, người sử dụng dùng hàm gì?",
+    "options": [
+      "<span class=\"answer-keyword\">WEEKDAY</span>",
+      "DAY",
+      "TODAY",
+      "DATE"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">WEEKDAY</span>\\n<div class=\"note\">Hàm WEEKDAY trả về một số thứ tự tương ứng với ngày trong tuần.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "Hệ thống"
+    ],
+    "question": "Trong chương trình Microsoft Office Excel 2013, khi sao chép công thức tại ô A3 thì <span class=\"keyword\">cú pháp địa chỉ</span> nào sau đây sẽ <span class=\"keyword\">tham chiếu chính xác</span> giá trị tại ô A3?",
+    "options": [
+      "A$3",
+      "A3",
+      "<span class=\"answer-keyword\">$A$3</span>",
+      "$A3"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">$A$3</span>\\n<div class=\"note\">Cú pháp địa chỉ $A$3 là địa chỉ tuyệt đối, cho phép cố định dòng và cố định cột khi sao chép công thức.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "Hệ thống"
+    ],
+    "question": "Trong chương trình Microsoft Office Excel 2013, cho biết hàm nào sau đây sẽ trả về <span class=\"keyword\">giá trị tuyệt đối</span> của một số thực?",
+    "options": [
+      "<span class=\"answer-keyword\">ABS</span>",
+      "INT",
+      "ODD",
+      "ROUND"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">ABS</span>\\n<div class=\"note\">Hàm ABS (Absolute) trả về giá trị tuyệt đối của một số.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Trong chương trình Microsoft Office Excel 2013, cho biết lệnh nào được sử dụng để <span class=\"keyword\">đổi tên</span> của một Sheet?",
+    "options": [
+      "Protect Sheet…",
+      "Move or Copy…",
+      "View Code",
+      "<span class=\"answer-keyword\">Rename</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Rename</span>\\n<div class=\"note\">Lệnh Rename cho phép đổi tên một Sheet.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Trong chương trình Microsoft Office PowerPoint 2013, để thực hiện thao tác chọn <span class=\"keyword\">hiệu ứng chuyển tiếp</span> <span class=\"keyword\">giữa các slide</span> trình chiếu người sử dụng sẽ vào thẻ lệnh nào?",
+    "options": [
+      "<span class=\"answer-keyword\">Thẻ Transitions</span>",
+      "Thẻ Animations",
+      "Thẻ Review",
+      "Thẻ Slide Show"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Thẻ Transitions</span>\\n<div class=\"note\">Thẻ Transitions chứa các hiệu ứng chuyển tiếp giữa các slide.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "question": "Trong chương trình Microsoft Office PowerPoint 2013, trong cửa sổ Header and Footer tùy chọn nào cho phép <span class=\"keyword\">đánh số thứ tự</span> cho <span class=\"keyword\">mỗi slide</span>?",
+    "options": [
+      "Date & time",
+      "Footer",
+      "Don’t show on title slide",
+      "<span class=\"answer-keyword\">Slide number</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Slide number</span>\\n<div class=\"note\">Tùy chọn Slide number trong Header and Footer dùng để đánh số trang cho từng slide.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Trong chương trình Microsoft Office PowerPoint 2013, cho biết lệnh nào sau đây được sử dụng để <span class=\"keyword\">trình chiếu</span> <span class=\"keyword\">slide hiện hành</span>?",
+    "options": [
+      "From Beginning",
+      "Custom Slide Show",
+      "<span class=\"answer-keyword\">From Current Slide</span>",
+      "Set Up Slide Show"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">From Current Slide</span>\\n<div class=\"note\">From Current Slide (Shift + F5) dùng để trình chiếu từ slide đang chọn.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "question": "Trong chương trình Microsoft Office PowerPoint 2013, tập tin trình chiếu có <span class=\"keyword\">phần mở rộng</span> là gì?",
+    "options": [
+      "txt",
+      "xlsx",
+      "<span class=\"answer-keyword\">pptx</span>",
+      "docx"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">pptx</span>\\n<div class=\"note\">Định dạng file trình chiếu của PowerPoint từ 2007 trở đi là .pptx.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "question": "Trong chương trình Microsoft Office PowerPoint 2013, khi thiết lập nội dung cho footer của mỗi slide trình chiếu tùy chọn nào quy định các nội dung của footer <span class=\"keyword\">không hiển thị</span> trên <span class=\"keyword\">slide tiêu đề</span>?",
+    "options": [
+      "Footer",
+      "Date & time",
+      "Slide number",
+      "<span class=\"answer-keyword\">Don’t show on title slide</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Don’t show on title slide</span>\\n<div class=\"note\">Tùy chọn Don’t show on title slide giúp ẩn footer ở slide đầu tiên (slide tiêu đề).</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Trong chương trình Microsoft Office PowerPoint 2013, cho biết <span class=\"keyword\">tổ hợp phím</span> nào được sử dụng để <span class=\"keyword\">tạo mới</span> một bài trình chiếu?",
+    "options": [
+      "CTRL+S",
+      "CTRL+O",
+      "CTRL+A",
+      "<span class=\"answer-keyword\">CTRL+N</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">CTRL+N</span>\\n<div class=\"note\">Tổ hợp phím Ctrl + N (New) dùng để tạo mới một file trình chiếu trắng.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Trong chương trình Microsoft Office PowerPoint 2013, <span class=\"keyword\">phím tắt</span> nào cho phép thực hiện trình chiếu bài thuyết trình <span class=\"keyword\">từ slide đầu tiên</span>?",
+    "options": [
+      "F3",
+      "F2",
+      "<span class=\"answer-keyword\">F5</span>",
+      "F1"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">F5</span>\\n<div class=\"note\">Phím F5 dùng để bắt đầu phiên trình chiếu từ slide đầu tiên.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "SỬ DỤNG INTERNET",
+      "Nền tảng"
+    ],
+    "question": "Loại tên miền nào sau đây do tổ chức <span class=\"keyword\">quản lý tài nguyên Internet Việt Nam</span> - Trung tâm Internet Việt Nam VNNIC chịu trách nhiệm quản lý và cấp cho người dùng?",
+    "options": [
+      "au",
+      "fr",
+      "jp",
+      "<span class=\"answer-keyword\">vn</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">vn</span>\\n<div class=\"note\">Domain mang tính địa lý: gồm 2 ký tự đại diện cho một quốc gia (vn là Việt Nam).</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "SỬ DỤNG INTERNET",
+      "Hệ thống"
+    ],
+    "question": "Trong cửa sổ trình duyệt web, tổ hợp phím nào được sử dụng <span class=\"keyword\">đánh dấu trang web</span> (tạo bookmark) để dễ dàng truy cập cho lần sau?",
+    "options": [
+      "CTRL + P",
+      "CTRL + S",
+      "<span class=\"answer-keyword\">CTRL + D</span>",
+      "CTRL + Z"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">CTRL + D</span>\\n<div class=\"note\">Ctrl + D (Bookmark) dùng để đánh dấu và lưu trữ trang web trên trình duyệt.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "SỬ DỤNG INTERNET",
+      "Hệ thống"
+    ],
+    "question": "Khi sử dụng dịch vụ thư điện tử Gmail, người dùng <span class=\"keyword\">kiểm tra thư mới</span> ở <span class=\"keyword\">mục nào</span>?",
+    "options": [
+      "<span class=\"answer-keyword\">Inbox</span>",
+      "Outbox",
+      "Chats",
+      "Drafts"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Inbox</span>\\n<div class=\"note\">Inbox (Hộp thư đến) là nơi chứa các email mới gửi tới tài khoản.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "SỬ DỤNG INTERNET",
+      "Hệ thống"
+    ],
+    "question": "Phần mềm ứng dụng nào sau đây gọi là <span class=\"keyword\">trình duyệt Web</span>?",
+    "options": [
+      "<span class=\"answer-keyword\">Mozilla Firefox</span>",
+      "WinRAR",
+      "Paint",
+      "Notepad"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Mozilla Firefox</span>\\n<div class=\"note\">Mozilla Firefox là phần mềm trình duyệt web mã nguồn mở phổ biến.</div>"
   }
 ]
