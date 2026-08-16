@@ -1,6 +1,6 @@
 [
   {
-    "weight": "normal",
+    "weight": "high",
     "tags": [
       "Mẫu",
       "Cấu trúc",
@@ -48,7 +48,7 @@
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. <span class=\"answer-keyword\">Trojan Horse</span>\n<div class=\"note\">Trojan Horse là một loại phần mềm độc hại ngụy trang dưới dạng phần mềm hợp pháp.</div>"
   },
   {
-    "weight": "normal",
+    "weight": "high",
     "tags": [
       "Mạng máy tính",
       "Hệ thống",
@@ -96,7 +96,7 @@
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. <span class=\"answer-keyword\">CU</span> (Control Unit)\n<div class=\"note\">CU (Control Unit) là khối điều khiển, đóng vai trò giải mã lệnh và điều phối hoạt động của toàn hệ thống.</div>"
   },
   {
-    "weight": "normal",
+    "weight": "high",
     "tags": [
       "Mẫu",
       "Cấu trúc",
@@ -144,7 +144,7 @@
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. <span class=\"answer-keyword\">Dấu huyền</span>\n<div class=\"note\">Trong bảng gõ Telex: s (sắc), f (huyền), r (hỏi), x (ngã), j (nặng).</div>"
   },
   {
-    "weight": "normal",
+    "weight": "high",
     "tags": [
       "Mẫu",
       "Hệ thống",
@@ -192,7 +192,7 @@
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. <span class=\"answer-keyword\">Tập tin</span>\n<div class=\"note\">Chỉ có tập tin (file) mới có phần mở rộng (extension) để hệ điều hành nhận biết định dạng.</div>"
   },
   {
-    "weight": "normal",
+    "weight": "high",
     "tags": [
       "Mẫu",
       "Hệ thống",
@@ -240,7 +240,7 @@
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. <span class=\"answer-keyword\">?</span>\n<div class=\"note\">Ký tự hỏi chấm (?) đại diện cho đúng một ký tự bất kỳ, còn dấu sao (*) đại diện cho chuỗi ký tự.</div>"
   },
   {
-    "weight": "normal",
+    "weight": "high",
     "tags": [
       "Mẫu",
       "Hệ thống",
@@ -288,7 +288,7 @@
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. <span class=\"answer-keyword\">*</span>\n<div class=\"note\">Ký tự dấu sao (*) đại diện cho một chuỗi nhiều ký tự (hoặc không có ký tự nào) trong tìm kiếm.</div>"
   },
   {
-    "weight": "normal",
+    "weight": "high",
     "tags": [
       "Mẫu",
       "Hệ thống",
@@ -336,7 +336,7 @@
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. <span class=\"answer-keyword\">Màn hình</span>\n<div class=\"note\">Màn hình là thiết bị xuất dữ liệu, không phải thiết bị nhập.</div>"
   },
   {
-    "weight": "normal",
+    "weight": "high",
     "tags": [
       "Mạng máy tính",
       "Hệ thống",
@@ -384,7 +384,7 @@
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. <span class=\"answer-keyword\">Fonts</span>\n<div class=\"note\">Mục Fonts dùng để xem, cài đặt và gỡ bỏ font chữ.</div>"
   },
   {
-    "weight": "normal",
+    "weight": "high",
     "tags": [
       "Mẫu",
       "Hệ thống",
@@ -432,7 +432,7 @@
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. <span class=\"answer-keyword\">ALT+TAB</span>\n<div class=\"note\">ALT + TAB giúp chuyển nhanh (switch) giữa các cửa sổ chương trình đang mở.</div>"
   },
   {
-    "weight": "normal",
+    "weight": "high",
     "tags": [
       "Word",
       "Mẫu",
@@ -480,7 +480,7 @@
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. <span class=\"answer-keyword\">Styles</span>\n<div class=\"note\">Styles quy định kiểu đường nét (liền, đứt khúc, dấu chấm...). Color (Màu) và Width (Độ dày).</div>"
   },
   {
-    "weight": "normal",
+    "weight": "high",
     "tags": [
       "Word",
       "Mẫu",
@@ -528,7 +528,7 @@
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. <span class=\"answer-keyword\">Cell Size</span>\n<div class=\"note\">Nhóm Cell Size chứa Height và Width để điều chỉnh chiều cao và độ rộng của hàng/cột.</div>"
   },
   {
-    "weight": "normal",
+    "weight": "high",
     "tags": [
       "Word",
       "Mẫu",
