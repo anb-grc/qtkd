@@ -10,6 +10,7 @@
       "Kiểm soát lạm phát"
     ],
     "tags": [
+      "Mẫu",
       "Thị trường Tài chính",
       "Cấu trúc"
     ]
@@ -25,6 +26,7 @@
       "Hợp tác xã"
     ],
     "tags": [
+      "Mẫu",
       "Tài chính doanh nghiệp",
       "Nền tảng"
     ]
@@ -40,6 +42,7 @@
     ],
     "answer": "<span class=\"answer-keyword\">Tiền tín dụng</span><div class=\"note\">Tiền tín dụng là đồng tiền phi vật chất, nằm trong tài khoản mở ở các ngân hàng, người sở hữu dùng séc hoặc lệnh thanh toán để giao dịch.</div>",
     "tags": [
+      "Mẫu",
       "Tiền tệ",
       "Nền tảng"
     ]
@@ -55,6 +58,7 @@
     ],
     "answer": "<span class=\"answer-keyword\">Chỉ cần tiền trong ý niệm</span><div class=\"note\">Để đo lường giá trị hàng hóa, việc đo lường chỉ cần thực hiện trong tư duy, ý niệm mà không nhất thiết phải có tiền mặt thực sự ngay lúc đó.</div>",
     "tags": [
+      "Mẫu",
       "Tiền tệ",
       "Nền tảng"
     ]
@@ -70,8 +74,9 @@
     ],
     "answer": "<span class=\"answer-keyword\">Giảm xuống</span><div class=\"note\">Theo công thức M = PQ/V, khối lượng tiền cần thiết (M) tỷ lệ nghịch với tốc độ luân chuyển (V). V tăng thì M giảm.</div>",
     "tags": [
+      "Mẫu",
       "Tiền tệ",
-      "Logic"
+      "Logic & Nguyên tắc"
     ]
   },
   {
@@ -85,6 +90,7 @@
     ],
     "answer": "<span class=\"answer-keyword\">Tiền gửi tiết kiệm</span><div class=\"note\">Theo cấu trúc độ lỏng, Khối M2 bao gồm Khối M1 và các khoản Tiền gửi tiết kiệm ở ngân hàng thương mại.</div>",
     "tags": [
+      "Mẫu",
       "Tiền tệ",
       "Cấu trúc"
     ]
@@ -100,6 +106,7 @@
     ],
     "answer": "<span class=\"answer-keyword\">Nhu cầu luân chuyển</span> hàng hóa<div class=\"note\">Nguyên tắc phát hành giấy bạc vào lưu thông phải căn cứ vào nhu cầu luân chuyển hàng hóa và dịch vụ thực tế trong nền kinh tế.</div>",
     "tags": [
+      "Mẫu",
       "Tiền tệ",
       "Cấu trúc"
     ]
@@ -115,8 +122,9 @@
     ],
     "answer": "<span class=\"answer-keyword\">Giảm bớt</span><div class=\"note\">Lãi suất tăng sẽ khuyến khích người dân gửi tiền vào ngân hàng để sinh lợi (tích lũy), do đó làm giảm mức cầu tiền tệ dành cho chi dùng, tiêu dùng.</div>",
     "tags": [
+      "Mẫu",
       "Tiền tệ",
-      "Logic"
+      "Logic & Nguyên tắc"
     ]
   },
   {
@@ -130,6 +138,7 @@
     ],
     "answer": "Chỉ chuyển nhượng quyền sử dụng vốn <span class=\"answer-keyword\">có tính hoàn trả</span><div class=\"note\">Trong tín dụng, người đi vay không có quyền sở hữu vốn mà chỉ được quyền sử dụng trong một thời gian nhất định, sau đó phải hoàn trả gốc và lãi (tính hoàn trả). Cấp phát ngân sách là không hoàn lại.</div>",
     "tags": [
+      "Mẫu",
       "Tín dụng và Lãi suất",
       "Nền tảng"
     ]
@@ -145,6 +154,7 @@
     ],
     "answer": "<span class=\"answer-keyword\">Hối phiếu</span> và <span class=\"answer-keyword\">lệnh phiếu</span><div class=\"note\">Tín dụng thương mại là quan hệ mua bán chịu hàng hóa giữa các doanh nghiệp, công cụ chứng nhận nợ là thương phiếu, bao gồm hối phiếu và lệnh phiếu.</div>",
     "tags": [
+      "Mẫu",
       "Tín dụng và Lãi suất",
       "Cấu trúc"
     ]
@@ -160,6 +170,7 @@
     ],
     "answer": "Gây <span class=\"answer-keyword\">chèn lấn đầu tư</span> của khu vực tư nhân<div class=\"note\">Khi Nhà nước phát hành trái phiếu nhiều, sẽ hút bớt vốn nhàn rỗi trong nền kinh tế, đẩy <span class=\"answer-keyword\">lãi suất</span> thị trường lên cao, khiến doanh nghiệp tư nhân khó tiếp cận vốn vay (hiệu ứng chèn lấn đầu tư).</div>",
     "tags": [
+      "Mẫu",
       "Tín dụng và Lãi suất",
       "Rủi ro"
     ]
@@ -175,6 +186,7 @@
     ],
     "answer": "<span class=\"answer-keyword\">Không nhất thiết</span> phải có <span class=\"answer-keyword\">tài sản thế chấp</span><div class=\"note\">Tín dụng thuê mua bản chất là công ty <span class=\"answer-keyword\">tài chính</span> cho thuê tài sản, quyền sở hữu vẫn thuộc công ty cho thuê, do đó doanh nghiệp đi thuê không nhất thiết phải dùng tài sản khác để thế chấp.</div>",
     "tags": [
+      "Mẫu",
       "Tín dụng và Lãi suất",
       "Cấu trúc"
     ]
@@ -190,8 +202,9 @@
     ],
     "answer": "<span class=\"answer-keyword\">Tỷ lệ lạm phát</span><div class=\"note\">Lãi suất thực là <span class=\"answer-keyword\">lãi suất</span> đã được điều chỉnh theo lạm phát. Công thức Fisher: Lãi suất thực = Lãi suất danh nghĩa - Tỷ lệ lạm phát.</div>",
     "tags": [
+      "Mẫu",
       "Tín dụng và Lãi suất",
-      "Logic"
+      "Logic & Nguyên tắc"
     ]
   },
   {
@@ -205,8 +218,9 @@
     ],
     "answer": "<span class=\"answer-keyword\">Lãi suất càng cao</span> để bù đắp rủi ro<div class=\"note\">Rủi ro và kỳ hạn là hai yếu tố tỷ lệ thuận với <span class=\"answer-keyword\">lãi suất</span>. Rủi ro mất vốn cao hoặc kỳ hạn dài (chi phí cơ hội lớn) bắt buộc ngân hàng phải thu phần bù rủi ro cao hơn.</div>",
     "tags": [
+      "Mẫu",
       "Tín dụng và Lãi suất",
-      "Logic"
+      "Logic & Nguyên tắc"
     ]
   },
   {
@@ -220,6 +234,7 @@
       "Cung ứng tiền cho Kho bạc"
     ],
     "tags": [
+      "Mẫu",
       "Hệ thống ngân hàng",
       "Nền tảng"
     ]
@@ -235,6 +250,7 @@
       "Chuyển khoản trực tiếp cho người dân"
     ],
     "tags": [
+      "Mẫu",
       "Hệ thống ngân hàng",
       "Phân luồng"
     ]
@@ -250,8 +266,9 @@
       "Giữ nguyên ở mức 0%"
     ],
     "tags": [
+      "Mẫu",
       "Hệ thống ngân hàng",
-      "Logic"
+      "Logic & Nguyên tắc"
     ]
   },
   {
@@ -265,8 +282,9 @@
       "Khuyến khích mở rộng tín dụng"
     ],
     "tags": [
+      "Mẫu",
       "Hệ thống ngân hàng",
-      "Logic"
+      "Logic & Nguyên tắc"
     ]
   },
   {
@@ -280,8 +298,9 @@
       "Mất cân đối cán cân thanh toán"
     ],
     "tags": [
+      "Mẫu",
       "Hệ thống ngân hàng",
-      "Logic"
+      "Logic & Nguyên tắc"
     ]
   },
   {
@@ -295,6 +314,7 @@
       "<span class=\"answer-keyword\">Ổn định</span> tỷ giá hối đoái"
     ],
     "tags": [
+      "Mẫu",
       "Hệ thống ngân hàng",
       "Nền tảng"
     ]
@@ -310,6 +330,7 @@
       "Khả năng kinh doanh đa ngành nghề trên thị trường quốc tế."
     ],
     "tags": [
+      "Mẫu",
       "Hệ thống ngân hàng",
       "Cấu trúc"
     ]
@@ -325,8 +346,9 @@
       "Chính sách giảm <span class=\"answer-keyword\">lãi suất</span> tín dụng."
     ],
     "tags": [
+      "Mẫu",
       "Lạm phát",
-      "Logic"
+      "Logic & Nguyên tắc"
     ]
   },
   {
@@ -340,6 +362,7 @@
       "Tăng cường cạnh tranh giữa các ngân hàng."
     ],
     "tags": [
+      "Mẫu",
       "Hệ thống ngân hàng",
       "Nền tảng"
     ]
@@ -355,6 +378,7 @@
       "Tăng tương ứng với thu nhập người lao động."
     ],
     "tags": [
+      "Mẫu",
       "Lạm phát",
       "Nền tảng"
     ]
@@ -370,6 +394,7 @@
       "Đồng nội tệ tăng giá mạnh so với ngoại tệ."
     ],
     "tags": [
+      "Mẫu",
       "Lạm phát",
       "Cấu trúc"
     ]
@@ -385,8 +410,9 @@
       "Giảm dần bội chi ngân sách nhà nước."
     ],
     "tags": [
+      "Mẫu",
       "Lạm phát",
-      "Logic"
+      "Logic & Nguyên tắc"
     ]
   },
   {
@@ -400,6 +426,7 @@
       "Sự ra đời của các tổ chức <span class=\"answer-keyword\">tài chính</span> toàn cầu"
     ],
     "tags": [
+      "Mẫu",
       "Tài chính quốc tế",
       "Nền tảng"
     ]
@@ -415,6 +442,7 @@
       "Đồng tiền định giá"
     ],
     "tags": [
+      "Mẫu",
       "Tài chính quốc tế",
       "Cấu trúc"
     ]
@@ -430,6 +458,7 @@
       "<span class=\"answer-keyword\">Chuyển tiền đơn phương</span>"
     ],
     "tags": [
+      "Mẫu",
       "Tài chính quốc tế",
       "Cấu trúc"
     ]
@@ -445,6 +474,7 @@
       "Tỷ giá giao nhận ngay"
     ],
     "tags": [
+      "Mẫu",
       "Tài chính quốc tế",
       "Nền tảng"
     ]
@@ -460,6 +490,7 @@
       "50%"
     ],
     "tags": [
+      "Mẫu",
       "Tài chính quốc tế",
       "Cấu trúc"
     ]
@@ -475,6 +506,7 @@
       "Xóa bỏ hoàn toàn hàng rào <span class=\"answer-keyword\">thuế</span> quan"
     ],
     "tags": [
+      "Mẫu",
       "Tài chính quốc tế",
       "Hệ thống"
     ]
@@ -482,6 +514,7 @@
   {
     "weight": "normal",
     "tags": [
+      "Mẫu",
       "Tài chính doanh nghiệp",
       "Nền tảng"
     ],
@@ -497,6 +530,7 @@
   {
     "weight": "normal",
     "tags": [
+      "Mẫu",
       "Nhập môn tài chính",
       "Nền tảng"
     ],
@@ -512,8 +546,9 @@
   {
     "weight": "normal",
     "tags": [
+      "Mẫu",
       "Nhập môn tài chính",
-      "Logic"
+      "Logic & Nguyên tắc"
     ],
     "question": "Ý nào sau đây <span class=\"keyword\">KHÔNG phải</span> vai trò của tài chính ở <span class=\"keyword\">tầm vi mô</span>?",
     "options": [
@@ -527,6 +562,7 @@
   {
     "weight": "normal",
     "tags": [
+      "Mẫu",
       "Nhập môn tài chính",
       "Nền tảng"
     ],
@@ -542,6 +578,7 @@
   {
     "weight": "normal",
     "tags": [
+      "Mẫu",
       "Nhập môn tài chính",
       "Nền tảng"
     ],
@@ -557,6 +594,7 @@
   {
     "weight": "high",
     "tags": [
+      "Mẫu",
       "Ngân sách Nhà nước",
       "Cấu trúc"
     ],
@@ -572,6 +610,7 @@
   {
     "weight": "normal",
     "tags": [
+      "Mẫu",
       "Ngân sách Nhà nước",
       "Cấu trúc"
     ],
@@ -587,6 +626,7 @@
   {
     "weight": "normal",
     "tags": [
+      "Mẫu",
       "Ngân sách Nhà nước",
       "Nền tảng"
     ],
@@ -602,6 +642,7 @@
   {
     "weight": "normal",
     "tags": [
+      "Mẫu",
       "Ngân sách Nhà nước",
       "Cấu trúc"
     ],
@@ -617,6 +658,7 @@
   {
     "weight": "normal",
     "tags": [
+      "Mẫu",
       "Ngân sách Nhà nước",
       "Phân luồng"
     ],
@@ -632,6 +674,7 @@
   {
     "weight": "high",
     "tags": [
+      "Mẫu",
       "Nhập môn tài chính",
       "Nền tảng"
     ],
@@ -647,8 +690,9 @@
   {
     "weight": "normal",
     "tags": [
+      "Mẫu",
       "Ngân sách Nhà nước",
-      "Logic"
+      "Logic & Nguyên tắc"
     ],
     "question": "Thuế được coi là có <span class=\"keyword\">vai trò quan trọng</span> đối với nền kinh tế bởi vì",
     "options": [
@@ -662,6 +706,7 @@
   {
     "weight": "normal",
     "tags": [
+      "Mẫu",
       "Ngân sách Nhà nước",
       "Cấu trúc"
     ],
@@ -677,8 +722,9 @@
   {
     "weight": "normal",
     "tags": [
+      "Mẫu",
       "Tài chính doanh nghiệp",
-      "Logic"
+      "Logic & Nguyên tắc"
     ],
     "question": "Vai trò nào của <span class=\"keyword\">tài chính doanh nghiệp</span> đặt ra như một vấn đề có <span class=\"keyword\">tính sống còn</span> đối với doanh nghiệp?",
     "options": [
@@ -692,6 +738,7 @@
   {
     "weight": "high",
     "tags": [
+      "Mẫu",
       "Tài chính doanh nghiệp",
       "Phân luồng"
     ],
@@ -707,6 +754,7 @@
   {
     "weight": "normal",
     "tags": [
+      "Mẫu",
       "Tài chính doanh nghiệp",
       "Nền tảng"
     ],
@@ -722,6 +770,7 @@
   {
     "weight": "high",
     "tags": [
+      "Mẫu",
       "Nhập môn tài chính",
       "Hệ thống"
     ],
@@ -737,6 +786,7 @@
   {
     "weight": "normal",
     "tags": [
+      "Mẫu",
       "Nhập môn tài chính",
       "Nền tảng"
     ],
@@ -752,8 +802,9 @@
   {
     "weight": "high",
     "tags": [
+      "Mẫu",
       "Ngân sách Nhà nước",
-      "Logic"
+      "Logic & Nguyên tắc"
     ],
     "question": "Yếu tố <span class=\"keyword\">khách quan</span> nào <span class=\"keyword\"><span class=\"keyword\">quyết định</span> mức động viên</span> của <span class=\"keyword\">thu ngân sách</span> nhà nước?",
     "options": [
@@ -767,8 +818,9 @@
   {
     "weight": "normal",
     "tags": [
+      "Mẫu",
       "Ngân sách Nhà nước",
-      "Logic"
+      "Logic & Nguyên tắc"
     ],
     "question": "Nhân tố nào <span class=\"keyword\">KHÔNG gây ảnh hưởng</span> đến <span class=\"keyword\">thu ngân sách</span> nhà nước?",
     "options": [
@@ -782,6 +834,7 @@
   {
     "weight": "normal",
     "tags": [
+      "Mẫu",
       "Tài chính doanh nghiệp",
       "Nền tảng"
     ],
@@ -797,6 +850,7 @@
   {
     "weight": "normal",
     "tags": [
+      "Mẫu",
       "Tài chính doanh nghiệp",
       "Nền tảng"
     ],
@@ -812,6 +866,7 @@
   {
     "weight": "normal",
     "tags": [
+      "Mẫu",
       "Tài chính doanh nghiệp",
       "Cấu trúc"
     ],
@@ -827,8 +882,9 @@
   {
     "weight": "normal",
     "tags": [
+      "Mẫu",
       "Tài chính doanh nghiệp",
-      "Logic"
+      "Logic & Nguyên tắc"
     ],
     "question": "<span class=\"keyword\">Vai trò của vốn</span> đối với các doanh nghiệp là",
     "options": [
@@ -842,6 +898,7 @@
   {
     "weight": "normal",
     "tags": [
+      "Mẫu",
       "Nhập môn tài chính",
       "Phân luồng"
     ],
@@ -857,8 +914,9 @@
   {
     "weight": "high",
     "tags": [
+      "Mẫu",
       "Ngân sách Nhà nước",
-      "Logic"
+      "Logic & Nguyên tắc"
     ],
     "question": "Giải pháp bù đắp <span class=\"keyword\">thâm hụt ngân sách</span> nhà nước có <span class=\"keyword\">chi phí cơ hội thấp nhất</span> là",
     "options": [
@@ -872,8 +930,9 @@
   {
     "weight": "high",
     "tags": [
+      "Mẫu",
       "Tài chính doanh nghiệp",
-      "Logic"
+      "Logic & Nguyên tắc"
     ],
     "question": "Ý nghĩa của việc nghiên cứu sự <span class=\"keyword\">phân biệt</span> giữa <span class=\"keyword\">vốn cố định và <span class=\"keyword\">vốn lưu động</span></span> của một doanh nghiệp là",
     "options": [
@@ -887,6 +946,7 @@
   {
     "weight": "normal",
     "tags": [
+      "Mẫu",
       "Tài chính doanh nghiệp",
       "Nền tảng"
     ],
@@ -902,6 +962,7 @@
   {
     "weight": "normal",
     "tags": [
+      "Mẫu",
       "Nhập môn tài chính",
       "Nền tảng"
     ],
@@ -917,6 +978,7 @@
   {
     "weight": "normal",
     "tags": [
+      "Mẫu",
       "Nhập môn tài chính",
       "Nền tảng"
     ],
@@ -932,6 +994,7 @@
   {
     "weight": "normal",
     "tags": [
+      "Mẫu",
       "Nhập môn tài chính",
       "Nền tảng"
     ],
@@ -947,6 +1010,7 @@
   {
     "weight": "normal",
     "tags": [
+      "Mẫu",
       "Ngân sách Nhà nước",
       "Cấu trúc"
     ],
@@ -962,6 +1026,7 @@
   {
     "weight": "normal",
     "tags": [
+      "Mẫu",
       "Ngân sách Nhà nước",
       "Cấu trúc"
     ],
@@ -985,6 +1050,7 @@
     ],
     "answer": "A. <span class=\"answer-keyword\"><span class=\"answer-keyword\">thuế</span>, sở hữu tài sản</span>, <span class=\"answer-keyword\">phí và lệ phí</span>.<div class=\"note\">Thu thường xuyên là các khoản thu mang tính ổn định, lặp lại như thuế, phí, lệ phí và thu từ sở hữu tài sản. Trái phiếu, viện trợ không phải thu thường xuyên.</div>",
     "tags": [
+      "Mẫu",
       "Ngân sách Nhà nước",
       "Nền tảng"
     ]
@@ -1000,6 +1066,7 @@
     ],
     "answer": "A. <span class=\"answer-keyword\">vốn bằng tiền</span>, <span class=\"answer-keyword\">đầu tư <span class=\"answer-keyword\">tài chính</span> ngắn hạn</span>, <span class=\"answer-keyword\">hàng tồn kho</span>, <span class=\"answer-keyword\">tài sản ngắn hạn khác</span>.<div class=\"note\">Vốn lưu động <span class=\"answer-keyword\">biểu hiện bằng tiền</span> của toàn bộ tài sản ngắn hạn, bao gồm: tiền, đầu tư ngắn hạn, các khoản phải thu, hàng tồn kho và TS ngắn hạn khác.</div>",
     "tags": [
+      "Mẫu",
       "Tài chính doanh nghiệp",
       "Cấu trúc"
     ]
@@ -1015,6 +1082,7 @@
     ],
     "answer": "A. <span class=\"answer-keyword\">biểu hiện bằng tiền</span> của hao phí về các yếu tố có liên quan và <span class=\"answer-keyword\">phục vụ cho hoạt động kinh doanh</span> trong 1 khoảng thời gian nhất định.<div class=\"note\">Chi phí luôn được đo lường dưới hình thái tiền tệ (biểu hiện bằng tiền) phản ánh những hao phí nguồn lực để phục vụ sản xuất kinh doanh.</div>",
     "tags": [
+      "Mẫu",
       "Tài chính doanh nghiệp",
       "Nền tảng"
     ]
@@ -1030,6 +1098,7 @@
     ],
     "answer": "A. <span class=\"answer-keyword\">Lợi nhuận ròng</span><div class=\"note\">Các quỹ của doanh nghiệp (như quỹ dự phòng, quỹ khen thưởng...) đều được trích lập từ phần <span class=\"answer-keyword\">lợi nhuận</span> ròng (lợi nhuận sau <span class=\"answer-keyword\">thuế</span>).</div>",
     "tags": [
+      "Mẫu",
       "Tài chính doanh nghiệp",
       "Phân luồng"
     ]
@@ -1045,8 +1114,9 @@
     ],
     "answer": "C. Vốn cố định được <span class=\"answer-keyword\">thu hồi dần từng phần</span> tương ứng với phần <span class=\"answer-keyword\">hao mòn</span> của tài sản cố định, đến khi TSCĐ hết <span class=\"answer-keyword\">thời gian sử dụng</span>, giá trị của nó được thu hồi về đủ thì vốn cố định mới hoàn thành một vòng luân chuyển.<div class=\"note\">Vốn cố định luân chuyển giá trị của nó dần dần từng phần vào giá trị sản phẩm tương ứng với phần khấu hao của TSCĐ.</div>",
     "tags": [
+      "Mẫu",
       "Tài chính doanh nghiệp",
-      "Logic"
+      "Logic & Nguyên tắc"
     ]
   },
   {
@@ -1060,6 +1130,7 @@
     ],
     "answer": "D. <span class=\"answer-keyword\">Đầu tư <span class=\"answer-keyword\">tài chính</span> dài hạn</span>.<div class=\"note\">Vốn cố định bao gồm giá trị còn lại của TSCĐ, chi phí xây dựng cơ bản dở dang, <span class=\"answer-keyword\">tài sản thế chấp</span> dài hạn và đầu tư tài chính dài hạn.</div>",
     "tags": [
+      "Mẫu",
       "Tài chính doanh nghiệp",
       "Cấu trúc"
     ]
@@ -1075,6 +1146,7 @@
     ],
     "answer": "D. giá trị của toàn bộ tài sản lưu động của doanh nghiệp đó.<div class=\"note\">Theo nguyên lý chung, vốn lưu động là số tiền ứng trước về tài sản lưu động và tài sản lưu thông, biểu hiện giá trị của toàn bộ TS ngắn hạn.</div>",
     "tags": [
+      "Mẫu",
       "Tài chính doanh nghiệp",
       "Nền tảng"
     ]
@@ -1090,6 +1162,7 @@
     ],
     "answer": "C. <span class=\"answer-keyword\">Sinh viên thuê nhà trọ</span><div class=\"note\">Sinh viên dùng tiền để chi trả tiền thuê trọ là hành vi trực tiếp tiêu dùng/sử dụng quỹ tiền tệ để đáp ứng nhu cầu đời sống.</div>",
     "tags": [
+      "Mẫu",
       "Nhập môn tài chính",
       "Phân luồng"
     ]
@@ -1105,6 +1178,7 @@
     ],
     "answer": "B. <span class=\"answer-keyword\">Quan hệ kinh tế</span><div class=\"note\">Bản chất của <span class=\"answer-keyword\">tài chính</span> nói chung và tài chính doanh nghiệp nói riêng đều là hệ thống các <span class=\"answer-keyword\">quan hệ kinh tế</span> phát sinh trong <span class=\"answer-keyword\">phân phối</span> các quỹ tiền tệ.</div>",
     "tags": [
+      "Mẫu",
       "Tài chính doanh nghiệp",
       "Nền tảng"
     ]
@@ -1120,6 +1194,7 @@
     ],
     "answer": "B. <span class=\"answer-keyword\">Tín dụng trung và dài hạn</span> từ các ngân hàng thương mại, đặc biệt là ngân hàng thương mại Nhà nước.<div class=\"note\">Trong bối cảnh kinh tế Việt Nam, hệ thống ngân hàng (đặc biệt là tín dụng trung/dài hạn) vẫn là kênh cung ứng vốn quan trọng và <span class=\"answer-keyword\">chủ đạo</span> nhất cho doanh nghiệp.</div>",
     "tags": [
+      "Mẫu",
       "Tài chính doanh nghiệp",
       "Hệ thống"
     ]
@@ -1135,8 +1210,9 @@
     ],
     "answer": "D. <span class=\"answer-keyword\">đặc điểm luân chuyển</span>, <span class=\"answer-keyword\">hình thức tồn tại</span>, <span class=\"answer-keyword\">thời gian sử dụng</span>.<div class=\"note\">Vốn cố định và vốn lưu động khác nhau rõ rệt nhất ở phương thức luân chuyển giá trị (dần dần vs 1 lần) và thời gian sử dụng (dài hạn vs ngắn hạn).</div>",
     "tags": [
+      "Mẫu",
       "Tài chính doanh nghiệp",
-      "Logic"
+      "Logic & Nguyên tắc"
     ]
   },
   {
@@ -1150,6 +1226,7 @@
     ],
     "answer": "<span class=\"answer-keyword\">Nền kinh tế hàng hóa</span> - tiền tệ và <span class=\"answer-keyword\">sự ra đời của Nhà nước</span>.<div class=\"note\">Theo nội dung bài học, nền kinh tế hàng hóa - tiền tệ tạo cơ sở trao đổi giá trị (tiền đề), kết hợp quyền lực của Nhà nước để hình thành quỹ tiền tệ tập trung (ngân sách).</div>",
     "tags": [
+      "Mẫu",
       "Nhập môn tài chính",
       "Nền tảng"
     ]
@@ -1165,6 +1242,7 @@
     ],
     "answer": "Là các <span class=\"answer-keyword\">quan hệ kinh tế</span> nảy sinh trong <span class=\"answer-keyword\">phân phối</span> của cải xã hội dưới hình thức giá trị.<div class=\"note\">Hình thức biểu hiện bên ngoài là sự thu chi tiền tệ, nhưng đi sâu vào bản chất (nội dung bên trong) chính là các quan hệ kinh tế diễn ra trong quá trình phân phối của cải.</div>",
     "tags": [
+      "Mẫu",
       "Nhập môn tài chính",
       "Nền tảng"
     ]
@@ -1180,8 +1258,9 @@
     ],
     "answer": "Sự <span class=\"answer-keyword\"><span class=\"answer-keyword\">phân phối</span> lại</span> một cách <span class=\"answer-keyword\">thường xuyên, liên tục</span>.<div class=\"note\">Chức năng phân phối của <span class=\"answer-keyword\">tài chính</span> chỉ diễn ra dưới hình thức giá trị. Đặc trưng nổi bật của nó là quá trình phân phối diễn ra thường xuyên, liên tục và bao gồm cả phân phối lại.</div>",
     "tags": [
+      "Mẫu",
       "Nhập môn tài chính",
-      "Logic"
+      "Logic & Nguyên tắc"
     ]
   },
   {
@@ -1195,6 +1274,7 @@
     ],
     "answer": "<span class=\"answer-keyword\">Tối đa hóa khả năng sinh lợi</span> (tạo ra <span class=\"answer-keyword\">lợi nhuận</span>).<div class=\"note\">Mọi hoạt động <span class=\"answer-keyword\">tài chính</span> doanh nghiệp từ huy động đến sử dụng vốn đều hướng tới mục đích cuối cùng là lợi nhuận. Hộ gia đình thì nhắm vào tiêu dùng, còn Nhà nước nhắm vào vĩ mô.</div>",
     "tags": [
+      "Mẫu",
       "Tài chính doanh nghiệp",
       "Nền tảng"
     ]
@@ -1210,8 +1290,9 @@
     ],
     "answer": "Thông qua trung gian <span class=\"answer-keyword\">tài chính</span> và các bên <span class=\"answer-keyword\">không liên hệ trực tiếp</span> với nhau.<div class=\"note\">Trái với kênh trực tiếp, kênh gián tiếp huy động vốn nhàn rỗi tập trung qua các trung gian (ngân hàng, quỹ bảo hiểm) để cho vay lại, nên người thừa vốn và thiếu vốn không trực tiếp gặp nhau.</div>",
     "tags": [
+      "Mẫu",
       "Thị trường Tài chính",
-      "Logic"
+      "Logic & Nguyên tắc"
     ]
   },
   {
@@ -1225,8 +1306,9 @@
     ],
     "answer": "Tiến tới <span class=\"answer-keyword\">cân bằng thu chi</span> và <span class=\"answer-keyword\">chấm dứt vay</span> trực tiếp từ ngân hàng trung ương.<div class=\"note\">Để kiểm soát lạm phát, chính sách <span class=\"answer-keyword\">tài chính</span> quốc gia bắt buộc phải chấm dứt việc nhà nước bù đắp thâm hụt bằng cách vay trực tiếp từ ngân hàng trung ương dưới mọi hình thức.</div>",
     "tags": [
+      "Mẫu",
       "Ngân sách Nhà nước",
-      "Logic"
+      "Logic & Nguyên tắc"
     ]
   },
   {
@@ -1240,6 +1322,7 @@
     ],
     "answer": "<span class=\"answer-keyword\">Không hoàn trả trực tiếp</span> là chủ yếu<div class=\"note\">Ngân sách Nhà nước là quỹ tiền tệ tập trung, thực hiện thu chi vì mục đích chung của xã hội, nguyên tắc đặc trưng là không hoàn trả trực tiếp (ví dụ thu <span class=\"answer-keyword\">thuế</span> dùng để xây điện, đường, trường, trạm).</div>",
     "tags": [
+      "Mẫu",
       "Ngân sách Nhà nước",
       "Nền tảng"
     ]
@@ -1255,6 +1338,7 @@
     ],
     "answer": "<span class=\"answer-keyword\">Thu <span class=\"answer-keyword\">thuế</span>, phí, lệ phí</span><div class=\"note\">Nhóm thu thường xuyên (thuế, phí, lệ phí) mang tính chất bắt buộc và là nguồn thu chủ lực, chiếm trên 80% tổng thu Ngân sách Nhà nước.</div>",
     "tags": [
+      "Mẫu",
       "Ngân sách Nhà nước",
       "Cấu trúc"
     ]
@@ -1270,6 +1354,7 @@
     ],
     "answer": "<span class=\"answer-keyword\">Mục đích chi tiêu</span><div class=\"note\">Căn cứ vào mục đích chi tiêu, chi NSNN được chia thành hai nhóm chính là chi tích lũy (đầu tư <span class=\"answer-keyword\">phát triển</span>) và chi tiêu dùng (chi thường xuyên).</div>",
     "tags": [
+      "Mẫu",
       "Ngân sách Nhà nước",
       "Phân luồng"
     ]
@@ -1285,8 +1370,9 @@
     ],
     "answer": "Điều tiết <span class=\"answer-keyword\">thu nhập giữa các tầng lớp dân cư</span><div class=\"note\">Vai trò về mặt xã hội của NSNN là điều tiết thu nhập giữa các tầng lớp dân cư, trong khi bình ổn giá cả thuộc vai trò thị trường, kích thích sản xuất thuộc vai trò kinh tế.</div>",
     "tags": [
+      "Mẫu",
       "Ngân sách Nhà nước",
-      "Đa chiều"
+      "Góc nhìn Đa chiều"
     ]
   },
   {
@@ -1300,8 +1386,9 @@
     ],
     "answer": "Sự <span class=\"answer-keyword\">thay đổi chính sách</span> thu - chi của Nhà nước<div class=\"note\">Bội chi NSNN chia làm hai loại: Bội chi chu kỳ (do thay đổi chu kỳ nền kinh tế) và bội chi cơ cấu (do thay đổi chủ quan trong chính sách thu - chi của Nhà nước).</div>",
     "tags": [
+      "Mẫu",
       "Ngân sách Nhà nước",
-      "Logic"
+      "Logic & Nguyên tắc"
     ]
   },
   {
@@ -1315,6 +1402,7 @@
     ],
     "answer": "Giữ vai trò <span class=\"answer-keyword\">chủ đạo</span>, <span class=\"answer-keyword\">chi phối</span> và <span class=\"answer-keyword\">trợ cấp</span> cho cấp dưới<div class=\"note\">Theo nguyên tắc tập trung, Ngân sách Trung ương giữ vai trò chủ đạo, nắm nguồn thu lớn, chi phối cấp dưới và trợ cấp để đảm bảo cân đối cho ngân sách cấp dưới.</div>",
     "tags": [
+      "Mẫu",
       "Ngân sách Nhà nước",
       "Hệ thống"
     ]
@@ -1330,8 +1418,9 @@
     ],
     "answer": "<span class=\"answer-keyword\">Dần từng phần</span> (vốn cố định) và <span class=\"answer-keyword\">một lần toàn bộ</span> (vốn lưu động) <div class=\"note\">Vốn cố định chuyển giá trị dần từng phần qua khấu hao sau nhiều chu kỳ, còn vốn lưu động chuyển toàn bộ 1 lần vào giá thành sản phẩm mới tạo ra.</div>",
     "tags": [
+      "Mẫu",
       "Tài chính doanh nghiệp",
-      "Logic"
+      "Logic & Nguyên tắc"
     ]
   },
   {
@@ -1345,6 +1434,7 @@
     ],
     "answer": "<span class=\"answer-keyword\">Giới hạn quy mô</span>, <span class=\"answer-keyword\">khó đáp ứng</span> đủ nhu cầu vốn <div class=\"note\">Vốn chủ sở hữu ban đầu thường bị hạn chế về quy mô, khó đáp ứng tức thời cho các dự án đầu tư rộng lớn, nên mới cần huy động thêm nợ phải trả.</div>",
     "tags": [
+      "Mẫu",
       "Tài chính doanh nghiệp",
       "Rủi ro"
     ]
@@ -1360,8 +1450,9 @@
     ],
     "answer": "<span class=\"answer-keyword\">Bảo toàn vốn cố định</span> về <span class=\"answer-keyword\">mặt giá trị</span> <div class=\"note\">Bảo toàn giá trị là phải duy trì được sức mua của vốn. Ngược lại, bảo toàn hiện vật là duy trì năng lực sản xuất ban đầu của tài sản.</div>",
     "tags": [
+      "Mẫu",
       "Tài chính doanh nghiệp",
-      "Logic"
+      "Logic & Nguyên tắc"
     ]
   },
   {
@@ -1375,6 +1466,7 @@
     ],
     "answer": "<span class=\"answer-keyword\">Doanh thu bất thường</span> <div class=\"note\">Những khoản thu không mang tính chất thường xuyên như nhượng bán tài sản cố định, vật tư ứ đọng, nợ vắng chủ... thuộc nhóm doanh thu bất thường.</div>",
     "tags": [
+      "Mẫu",
       "Tài chính doanh nghiệp",
       "Phân luồng"
     ]
@@ -1390,8 +1482,9 @@
     ],
     "answer": "<span class=\"answer-keyword\">Áp lực trả lãi định kỳ</span> <div class=\"note\">Chính vì nợ phải trả luôn kèm theo chi phí lãi vay, người sử dụng vốn chịu áp lực phải tính toán tối ưu, đầu tư hiệu quả để có lãi bù đắp.</div>",
     "tags": [
+      "Mẫu",
       "Tài chính doanh nghiệp",
-      "Logic"
+      "Logic & Nguyên tắc"
     ]
   },
   {
@@ -1405,6 +1498,7 @@
     ],
     "answer": "<span class=\"answer-keyword\">Vốn kinh doanh</span> <div class=\"note\">Theo khái niệm, vốn kinh doanh là <span class=\"answer-keyword\">biểu hiện bằng tiền</span> của toàn bộ tài sản hữu hình và vô hình được đầu tư vào quá trình kinh doanh để sinh lời.</div>",
     "tags": [
+      "Mẫu",
       "Tài chính doanh nghiệp",
       "Nền tảng"
     ]
@@ -1420,6 +1514,7 @@
     ],
     "answer": "<span class=\"answer-keyword\">Dưới 1 năm</span><div class=\"note\">Thị trường tiền tệ là nơi giao dịch các công cụ <span class=\"answer-keyword\">tài chính</span> ngắn hạn (thông thường là dưới 1 năm) có tính thanh khoản cao.</div>",
     "tags": [
+      "Mẫu",
       "Thị trường Tài chính",
       "Nền tảng"
     ]
@@ -1435,6 +1530,7 @@
     ],
     "answer": "<span class=\"answer-keyword\">Cổ phiếu và trái phiếu</span><div class=\"note\">Thị trường vốn chủ yếu sử dụng các công cụ trung và dài hạn như cổ phiếu và trái phiếu để huy động vốn.</div>",
     "tags": [
+      "Mẫu",
       "Thị trường Tài chính",
       "Cấu trúc"
     ]
@@ -1450,8 +1546,9 @@
     ],
     "answer": "<span class=\"answer-keyword\">Nhận lợi tức cố định</span><div class=\"note\">Cổ phiếu thường nhận cổ tức phụ thuộc vào kết quả kinh doanh, chỉ có cổ phiếu ưu đãi hoặc trái phiếu mới nhận lợi tức cố định.</div>",
     "tags": [
+      "Mẫu",
       "Thị trường Tài chính",
-      "Logic"
+      "Logic & Nguyên tắc"
     ]
   },
   {
@@ -1465,8 +1562,9 @@
     ],
     "answer": "<span class=\"answer-keyword\">Mua đi bán lại</span> chứng khoán đã phát hành<div class=\"note\">Thị trường thứ cấp là nơi lưu thông, mua đi bán lại các chứng khoán đã được phát hành ở thị trường sơ cấp, làm thay đổi quyền sở hữu.</div>",
     "tags": [
+      "Mẫu",
       "Thị trường Tài chính",
-      "Logic"
+      "Logic & Nguyên tắc"
     ]
   }
 ]
