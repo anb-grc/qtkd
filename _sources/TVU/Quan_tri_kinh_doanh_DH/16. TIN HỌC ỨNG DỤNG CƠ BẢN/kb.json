@@ -1,76 +1,92 @@
 {
-  "subject": "Tin Học Ứng Dụng Cơ Bản",
+  "subject": "TIN HỌC ỨNG DỤNG CƠ BẢN",
   "overview": {
     "type": "mindmap",
-    "title": "Tổng Quan Môn Học",
+    "title": "Bản Đồ Kiến Thức - Tin Học Ứng Dụng",
     "data": {
       "root": "TIN HỌC ỨNG DỤNG CƠ BẢN",
       "children": [
         {
           "id": "th1",
-          "label": "Phần Cứng & Phần Mềm",
-          "description": "Cấu trúc máy tính, ứng dụng CNTT, an toàn",
+          "label": "ĐẠI CƯƠNG VỀ MÁY TÍNH ĐIỆN TỬ & CNTT",
           "children": [
             {
               "id": "th1_1",
-              "label": "Kiến Trúc Phần Cứng",
-              "description": "CPU, bộ nhớ, thiết bị I/O"
+              "label": "Cấu Trúc Máy Tính Điện Tử"
             },
             {
               "id": "th1_2",
-              "label": "Phần Mềm & Ứng Dụng CNTT",
-              "description": "Hệ thống vs Ứng dụng, e-Gov, e-Commerce, e-Learning"
+              "label": "Mạng Máy Tính & Truyền Thông"
             }
           ]
         },
         {
           "id": "th2",
-          "label": "Windows 10",
-          "description": "Quản lý file, phần mềm tiện ích",
+          "label": "SỬ DỤNG HỆ ĐIỀU HÀNH WINDOWS 10",
           "children": [
             {
               "id": "th2_1",
-              "label": "Quản Lý Tập Tin & Thư Mục",
-              "description": "Chọn, tạo, copy, cut, xóa, phục hồi"
+              "label": "Quản Lý Tập Tin Và Thư Mục"
             },
             {
               "id": "th2_2",
-              "label": "Bộ Gõ Unikey & WinRAR",
-              "description": "Bảng mã, kiểu gõ, nén/giải nén"
+              "label": "Phần Mềm Tiện Ích: Unikey & WinRAR"
             }
           ]
         },
         {
           "id": "th3",
-          "label": "Microsoft Word 2013",
-          "description": "Soạn thảo & định dạng",
+          "label": "MICROSOFT WORD 2013 CƠ BẢN",
           "children": [
             {
               "id": "th3_1",
-              "label": "Định Dạng Văn Bản",
-              "description": "Font, Paragraph, Tab, chia cột, Drop Cap"
+              "label": "Cài Đặt Trang & Định Dạng"
             },
             {
               "id": "th3_2",
-              "label": "Chèn Đối Tượng",
-              "description": "Ảnh, Shape, SmartArt, Table, Header/Footer"
+              "label": "Chèn Các Đối Tượng"
             }
           ]
         },
         {
           "id": "th4",
-          "label": "Microsoft Excel 2013",
-          "description": "Bảng tính & hàm",
+          "label": "MICROSOFT EXCEL 2013 CƠ BẢN",
           "children": [
             {
               "id": "th4_1",
-              "label": "Hệ Thống Hàm",
-              "description": "Chuỗi, ngày, toán, thống kê, logic, dò tìm"
+              "label": "Hệ Thống Hàm & Bẫy Lý Thuyết"
             },
             {
               "id": "th4_2",
-              "label": "Sắp Xếp & Lọc Trích",
-              "description": "Sort, Advanced Filter"
+              "label": "Sắp Xếp & Lọc Trích Dữ Liệu"
+            }
+          ]
+        },
+        {
+          "id": "th5",
+          "label": "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+          "children": [
+            {
+              "id": "th5_1",
+              "label": "Tổng Quan & Cửa Sổ Làm Việc"
+            },
+            {
+              "id": "th5_2",
+              "label": "Slide Master & Thiết Lập Trình Chiếu"
+            }
+          ]
+        },
+        {
+          "id": "th6",
+          "label": "SỬ DỤNG INTERNET",
+          "children": [
+            {
+              "id": "th6_1",
+              "label": "Kiến Trúc Hạ Tầng Mạng"
+            },
+            {
+              "id": "th6_2",
+              "label": "Dịch Vụ & Trình Duyệt Web"
             }
           ]
         }
@@ -83,7 +99,7 @@
       "components": [
         {
           "type": "features",
-          "title": "Kiến Trúc Phần Cứng — CPU Là Trung Tâm",
+          "title": "Thành Phần Hệ Thống Máy Tính",
           "data": {
             "items": [
               {
@@ -92,41 +108,34 @@
               },
               {
                 "title": "Khối Tính Toán (ALU)",
-                "description": "Thực hiện phép toán số học và logic."
+                "description": "Thực hiện các phép toán số học và logic."
               },
               {
-                "title": "Thanh Ghi (Registers)",
-                "description": "Bộ nhớ tốc độ cao bên trong CPU."
+                "title": "Bộ nhớ ROM",
+                "description": "Bộ nhớ chỉ đọc, không mất dữ liệu khi tắt nguồn."
               },
               {
-                "title": "Bộ nhớ trong (ROM)",
-                "description": "Chỉ đọc. Lưu firmware nhà sản xuất. Không mất khi tắt nguồn."
+                "title": "Bộ nhớ RAM",
+                "description": "Bộ nhớ truy cập ngẫu nhiên, lưu tạm thời và mất dữ liệu khi tắt nguồn."
               },
               {
-                "title": "Bộ nhớ trong (RAM)",
-                "description": "Truy cập ngẫu nhiên. Lưu tạm dữ liệu chương trình đang chạy. Mất khi tắt nguồn."
+                "title": "Phần mềm hệ thống",
+                "description": "Hệ điều hành (Windows, Linux, macOS) điều khiển toàn bộ phần cứng."
               },
               {
-                "title": "Bộ nhớ ngoài",
-                "description": "Ổ cứng, đĩa quang, USB, thẻ nhớ. Dung lượng lớn, không mất khi tắt nguồn."
-              },
-              {
-                "title": "Thiết bị nhập",
-                "description": "Bàn phím, chuột, máy quét, micro, máy ảnh."
-              },
-              {
-                "title": "Thiết bị xuất",
-                "description": "Màn hình, máy in, loa, máy chiếu."
+                "title": "Phần mềm ứng dụng",
+                "description": "Chương trình phục vụ nhu cầu cụ thể: Unikey, Word, Chrome..."
               }
             ]
           }
         },
         {
           "type": "quiz",
-          "title": "Chốt chặn: Phần cứng",
+          "title": "Luyện Đề - Cấu Trúc Máy Tính Điện Tử",
           "data": {
             "quiz_tags": [
-              "Phần cứng"
+              "ĐẠI CƯƠNG VỀ MÁY TÍNH ĐIỆN TỬ & CNTT",
+              "Cấu trúc"
             ]
           }
         }
@@ -137,49 +146,45 @@
       "components": [
         {
           "type": "vs-wrap",
-          "title": "Phần Mềm Hệ Thống vs Phần Mềm Ứng Dụng",
+          "title": "So Sánh Quy Mô Mạng",
           "data": {
             "left": {
-              "title": "Phần Mềm Hệ Thống",
-              "content": "Hệ điều hành (Windows, Linux, macOS). Điều khiển phần cứng, quản lý tài nguyên, là nền tảng để cài đặt phần mềm ứng dụng."
+              "title": "Mạng LAN",
+              "content": "Phạm vi vài mét đến 1km. Thường dùng 1 dây cáp. Tốc độ cao nhưng dưới 100 Gbps."
             },
             "right": {
-              "title": "Phần Mềm Ứng Dụng",
-              "content": "Phục vụ nhu cầu cụ thể: Unikey (gõ tiếng Việt), Zalo (nhắn tin), Microsoft Office (văn phòng), Google Chrome (duyệt web)."
+              "title": "Mạng WAN",
+              "content": "Phạm vi quốc gia, châu lục. Truyền qua vệ tinh, cáp quang. Tốc độ vài Gbps."
             }
           }
         },
         {
           "type": "features",
-          "title": "Ứng Dụng Của CNTT & Truyền Thông",
+          "title": "Ứng Dụng CNTT Cốt Lõi",
           "data": {
             "items": [
               {
                 "title": "Chính phủ điện tử (e-Gov)",
-                "description": "Chính phủ vận hành trên nền tảng công nghệ. Công khai, minh bạch, kiểm soát lẫn nhau."
+                "description": "Xây dựng mối quan hệ công khai, minh bạch, có thể kiểm soát lẫn nhau."
               },
               {
                 "title": "Kinh doanh trực tuyến (e-Commerce)",
-                "description": "Giảm chi phí điều hành. Giao dịch B2B, B2C, C2C qua Internet."
-              },
-              {
-                "title": "Giáo dục trực tuyến (e-Learning)",
-                "description": "Tiết kiệm thời gian, nội dung nhất quán, linh động chọn khóa học."
+                "description": "Giao dịch B2B, B2C, C2C nhanh chóng, giảm chi phí."
               },
               {
                 "title": "Dịch vụ truyền thông",
-                "description": "IM (tin nhắn tức thời), SMS (tin nhắn ngắn), VoIP (thoại qua IP), Email."
+                "description": "Hội nghị trực tuyến (Video Conference), Email, VoIP, SMS."
               }
             ]
           }
         },
         {
           "type": "quiz",
-          "title": "Chốt chặn: Phần mềm & CNTT",
+          "title": "Luyện Đề - Mạng Máy Tính & Truyền Thông",
           "data": {
             "quiz_tags": [
-              "Phần mềm",
-              "Mạng máy tính"
+              "ĐẠI CƯƠNG VỀ MÁY TÍNH ĐIỆN TỬ & CNTT",
+              "Hệ thống"
             ]
           }
         }
@@ -190,55 +195,42 @@
       "components": [
         {
           "type": "matrix-table",
-          "title": "Phím Tắt Quản Lý Tập Tin",
+          "title": "Ma Trận Thao Tác Windows",
           "data": {
             "headers": [
-              "Thao tác",
-              "Phím tắt",
-              "Menu chuột phải",
-              "Ribbon (Home)"
+              "Thao Tác",
+              "Phím Tắt",
+              "Lệnh Chuột Phải"
             ],
             "rows": [
               [
                 "Chọn tất cả",
                 "Ctrl + A",
-                "—",
-                "Select → Select All"
+                "—"
               ],
               [
                 "Sao chép",
-                "Ctrl + C → Ctrl + V",
-                "Copy → Paste",
-                "Copy → Paste"
+                "Ctrl + C",
+                "Copy"
               ],
               [
-                "Di chuyển",
-                "Ctrl + X → Ctrl + V",
-                "Cut → Paste",
-                "Cut → Paste"
+                "Di chuyển (Cắt)",
+                "Ctrl + X",
+                "Cut"
               ],
               [
-                "Đổi tên",
-                "F2",
-                "Rename",
-                "Rename"
+                "Dán",
+                "Ctrl + V",
+                "Paste"
               ],
               [
-                "Xóa (Recycle Bin)",
-                "Delete",
+                "Xóa vào thùng rác",
                 "Delete",
                 "Delete"
               ],
               [
                 "Xóa vĩnh viễn",
                 "Shift + Delete",
-                "—",
-                "—"
-              ],
-              [
-                "Phục hồi",
-                "—",
-                "Restore (trong Recycle Bin)",
                 "—"
               ]
             ]
@@ -246,10 +238,11 @@
         },
         {
           "type": "quiz",
-          "title": "Chốt chặn: Windows 10",
+          "title": "Luyện Đề - Quản Lý Tập Tin",
           "data": {
             "quiz_tags": [
-              "Windows"
+              "SỬ DỤNG HỆ ĐIỀU HÀNH WINDOWS 10",
+              "Phân luồng"
             ]
           }
         }
@@ -260,74 +253,49 @@
       "components": [
         {
           "type": "pair-grid",
-          "title": "Bảng Mã, Kiểu Gõ & WinRAR — Ghép Cặp Nhanh",
+          "title": "Đồng Bộ Bảng Mã & Chức Năng Tiện Ích",
           "data": {
-            "instruction": "Nối cặp kiến thức bên trái với đáp án bên phải",
             "pairs": [
               {
                 "id": "p1",
                 "leftText": "Bảng mã Unicode",
-                "rightText": "Times New Roman, Arial, Tahoma"
+                "rightText": "Font: Times New Roman, Arial"
               },
               {
                 "id": "p2",
                 "leftText": "Bảng mã VNI Windows",
-                "rightText": "VNI-Times, VNI-Arial"
+                "rightText": "Font: VNI-Times, VNI-Arial"
               },
               {
                 "id": "p3",
                 "leftText": "Bảng mã TCVN3 (ABC)",
-                "rightText": ".VnTime, .VnTimeH"
+                "rightText": "Font: .VnTime"
               },
               {
                 "id": "p4",
-                "leftText": "Telex: dấu Sắc",
-                "rightText": "Phím S"
+                "leftText": "Chuyển Anh/Việt (V/E)",
+                "rightText": "Phím tắt: Ctrl + Shift"
               },
               {
                 "id": "p5",
-                "leftText": "Telex: dấu Huyền",
-                "rightText": "Phím F"
+                "leftText": "Kiểu gõ Telex: Sắc / Huyền / Mũ",
+                "rightText": "Phím: S / F / gõ đúp (aa, ee, oo)"
               },
               {
                 "id": "p6",
-                "leftText": "Telex: chữ Đ",
-                "rightText": "Gõ DD"
-              },
-              {
-                "id": "p7",
-                "leftText": "VNI: dấu Sắc",
-                "rightText": "Phím 1"
-              },
-              {
-                "id": "p8",
-                "leftText": "VNI: mũ (â, ê, ô)",
-                "rightText": "Phím 6"
-              },
-              {
-                "id": "p9",
-                "leftText": "Chuyển V ↔ E",
-                "rightText": "Ctrl + Shift hoặc click biểu tượng"
-              },
-              {
-                "id": "p10",
-                "leftText": "Extract Here",
-                "rightText": "Giải nén tại vị trí hiện hành"
-              },
-              {
-                "id": "p11",
-                "leftText": "Extract to \"tên/\"",
-                "rightText": "Tạo thư mục cùng tên, giải nén vào đó"
+                "leftText": "Lệnh Extract Here (WinRAR)",
+                "rightText": "Giải nén ngay tại vị trí hiện hành"
               }
             ]
           }
         },
         {
           "type": "quiz",
-          "title": "Chốt chặn: Unikey",
+          "title": "Luyện Đề - Phần Mềm Tiện Ích",
           "data": {
             "quiz_tags": [
-              "Gõ tiếng Việt"
+              "SỬ DỤNG HỆ ĐIỀU HÀNH WINDOWS 10",
+              "Logic & Nguyên tắc"
             ]
           }
         }
@@ -338,46 +306,43 @@
       "components": [
         {
           "type": "process-steps",
-          "title": "Quy Trình Soạn Thảo Văn Bản",
+          "title": "Quy Trình Chuẩn Bị Trang In (Word)",
           "data": {
             "steps": [
               {
-                "name": "1. Tạo mới văn bản",
-                "description": "Ctrl + N hoặc File → New → Blank Document."
+                "name": "Tạo mới tài liệu",
+                "description": "Dùng phím tắt Ctrl + N hoặc File > New."
               },
               {
-                "name": "2. Cài đặt trang giấy",
-                "description": "Page Layout → Margins, Orientation, Size. Đổi đơn vị: File → Options → Advanced."
+                "name": "Cài đặt trang (Page Layout)",
+                "description": "Thiết lập Margins (lề) và Orientation (hướng giấy)."
               },
               {
-                "name": "3. Chọn font & cỡ chữ",
-                "description": "Home → Font. Chọn font phù hợp bảng mã Unikey."
+                "name": "Chọn Font chữ",
+                "description": "Phải tương ứng với bảng mã tiếng Việt đang dùng (Unikey)."
               },
               {
-                "name": "4. Lưu & đặt tên",
-                "description": "Ctrl + S. Phần mở rộng mặc định: .docx."
+                "name": "Lưu file",
+                "description": "Dùng Ctrl + S, lưu dưới định dạng mặc định .docx."
               },
               {
-                "name": "5. Nhập văn bản thô",
-                "description": "Enter = ngắt đoạn. Shift + Enter = ngắt dòng (trong cùng đoạn)."
+                "name": "Nhập liệu thô",
+                "description": "Dùng Enter để ngắt đoạn, Shift + Enter để ngắt dòng."
               },
               {
-                "name": "6. Định dạng",
-                "description": "Font (B, I, U, màu), Paragraph (canh lề, giãn dòng, bullet/numbering, tab)."
-              },
-              {
-                "name": "7. Lưu cập nhật",
-                "description": "Ctrl + S để lưu lại sau khi định dạng xong."
+                "name": "Chia cột & Drop Cap",
+                "description": "Bắt buộc chia cột trước, sau đó mới tạo Drop Cap."
               }
             ]
           }
         },
         {
           "type": "quiz",
-          "title": "Chốt chặn: Microsoft Word",
+          "title": "Luyện Đề - Cài Đặt Trang",
           "data": {
             "quiz_tags": [
-              "Word"
+              "MICROSOFT WORD 2013 CƠ BẢN",
+              "Phân luồng"
             ]
           }
         }
@@ -388,33 +353,39 @@
       "components": [
         {
           "type": "features",
-          "title": "6 Loại Đối Tượng Chèn Vào Word",
+          "title": "Đặc Tính Các Đối Tượng (Insert)",
           "data": {
             "items": [
               {
                 "title": "Hình ảnh (Pictures)",
-                "description": "Insert → Pictures (máy tính) hoặc Online Pictures (Internet). Wrap Text: Square, Behind Text, In Front of Text..."
+                "description": "Wrap Text xác định vị trí ảnh (Square, Tight, Behind/In Front of Text)."
               },
               {
                 "title": "Hình khối (Shapes)",
-                "description": "Insert → Shapes. Đổ màu: Shape Fill. Bỏ viền: Shape Outline → No Outline. Gom nhóm: Format → Group."
+                "description": "Hỗ trợ đổ màu (Fill), bỏ viền (No Outline), gom nhóm (Group)."
               },
               {
                 "title": "Lưu đồ (SmartArt)",
-                "description": "Insert → SmartArt. Chọn loại: List, Process, Cycle, Hierarchy. Nhập dữ liệu qua Text Pane."
+                "description": "Gồm List, Process, Cycle, Hierarchy. Cập nhật qua Text Pane."
               },
               {
                 "title": "Bảng biểu (Table)",
-                "description": "Insert → Table. Trộn ô: Merge Cells. Kẻ khung: Design → Borders. Canh lề ô: Layout → Alignment."
+                "description": "Cho phép trộn ô (Merge Cells) và kẻ khung viền (Borders)."
               },
               {
-                "title": "Header / Footer / Số trang",
-                "description": "Insert → Header & Footer. Page Number: Top/Bottom/Current Position. Đóng: Design → Close."
-              },
-              {
-                "title": "Chú thích (Footnote/Endnote)",
-                "description": "References → Insert Footnote (cuối trang) / Insert Endnote (cuối tài liệu)."
+                "title": "Chú thích",
+                "description": "Footnote (cuối trang hiện tại) và Endnote (cuối toàn bộ tài liệu)."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Luyện Đề - Chèn Đối Tượng",
+          "data": {
+            "quiz_tags": [
+              "MICROSOFT WORD 2013 CƠ BẢN",
+              "Cấu trúc"
             ]
           }
         }
@@ -425,90 +396,81 @@
       "components": [
         {
           "type": "pyramid",
-          "title": "Hệ Thống 6 Nhóm Hàm Excel",
+          "title": "Phân Tầng Hàm Excel Cơ Bản",
           "data": {
             "levels": [
               {
-                "name": "Hàm Xử Lý Chuỗi",
-                "description": "LEFT, RIGHT, MID (trích ký tự), VALUE (chuyển chuỗi → số)"
-              },
-              {
-                "name": "Hàm Ngày Giờ",
-                "description": "TODAY, NOW, DAY, MONTH, YEAR, WEEKDAY, DATE"
-              },
-              {
-                "name": "Hàm Toán Học",
-                "description": "ABS, INT, MOD, ODD, PRODUCT, ROUND, SUM, SUMIF"
+                "name": "Hàm Dò Tìm (VLOOKUP, HLOOKUP)",
+                "description": "Dò chính xác/tương đối theo cột hoặc dòng. Rất hay thi."
               },
               {
                 "name": "Hàm Thống Kê",
-                "description": "MAX, MIN, AVERAGE, COUNT, COUNTA, COUNTBLANK, COUNTIF, RANK"
+                "description": "MAX, MIN, AVERAGE, COUNT, COUNTA, COUNTBLANK, RANK."
               },
               {
-                "name": "Hàm Luận Lý",
-                "description": "AND (tất cả đúng), OR (ít nhất 1 đúng), IF (rẽ nhánh điều kiện)"
+                "name": "Hàm Toán Học",
+                "description": "ABS, INT, MOD, ROUND, SUM."
               },
               {
-                "name": "Hàm Dò Tìm",
-                "description": "VLOOKUP (dò theo cột), HLOOKUP (dò theo dòng). Cố định vùng bằng F4."
+                "name": "Hàm Ngày Giờ & Chuỗi",
+                "description": "TODAY, NOW, DAY/MONTH/YEAR. LEFT, RIGHT, MID, VALUE."
               }
             ]
           }
         },
         {
           "type": "delta-cheat-sheet",
-          "title": "Bẫy Nhầm Lẫn Hàm Excel",
+          "title": "Bẫy Lý Thuyết Hàm Excel",
           "data": {
             "items": [
               {
-                "questionSnippet": "Hàm nào lấy phần nguyên?",
-                "keyword": "INT",
-                "correctDelta": "INT (làm tròn xuống)",
+                "questionSnippet": "Phân biệt INT và MOD",
+                "keyword": "INT vs MOD",
+                "correctDelta": "INT lấy phần nguyên, MOD lấy phần dư.",
                 "wrongTraps": [
-                  "MOD (chia lấy dư)",
-                  "ABS (giá trị tuyệt đối)"
+                  "INT làm tròn số",
+                  "MOD là giá trị tuyệt đối"
                 ],
-                "explanation": "INT(-5.6) = -6 (tròn xuống). MOD là chia lấy dư, ABS là trị tuyệt đối."
+                "explanation": "INT(5.6) = 5. MOD(15, 8) = 7."
               },
               {
-                "questionSnippet": "COUNT đếm gì?",
-                "keyword": "COUNT",
-                "correctDelta": "Đếm ô chứa giá trị số",
+                "questionSnippet": "Phân biệt COUNT và COUNTA",
+                "keyword": "COUNT vs COUNTA",
+                "correctDelta": "COUNT đếm ô kiểu số, COUNTA đếm ô có dữ liệu bất kỳ.",
                 "wrongTraps": [
-                  "Đếm ô khác rỗng (COUNTA)",
-                  "Đếm ô rỗng (COUNTBLANK)"
+                  "COUNTA đếm ô rỗng",
+                  "COUNT đếm chữ"
                 ],
-                "explanation": "COUNT chỉ đếm Number + Date. COUNTA đếm mọi ô có giá trị. COUNTBLANK đếm ô trống."
+                "explanation": "COUNTA không bỏ sót ô nào trừ khi nó hoàn toàn rỗng."
               },
               {
-                "questionSnippet": "VLOOKUP lấy giá trị ở cột mấy?",
-                "keyword": "Cột 1 = trị dò",
-                "correctDelta": "Lấy từ cột 2 trở đi",
+                "questionSnippet": "Quy tắc cột trị dò VLOOKUP",
+                "keyword": "Cột số mấy",
+                "correctDelta": "Cột 1 là cột chứa trị dò, lấy giá trị từ cột 2 trở đi.",
                 "wrongTraps": [
-                  "Lấy từ cột 1",
-                  "Lấy cột cuối cùng"
+                  "Lấy giá trị ở cột 1"
                 ],
-                "explanation": "Cột 1 của table_array là cột chứa trị dò. Giá trị trả về bắt đầu từ cột 2."
+                "explanation": "VLOOKUP luôn so khớp ở cột ngoài cùng bên trái (cột 1) của bảng tham chiếu."
               },
               {
-                "questionSnippet": "Địa chỉ $B$2 là gì?",
-                "keyword": "Tuyệt đối",
-                "correctDelta": "Cố định cả cột và dòng",
+                "questionSnippet": "Sao chép hàm RANK",
+                "keyword": "Khóa danh sách",
+                "correctDelta": "Tham số thứ 2 (danh sách) phải khóa tuyệt đối $.",
                 "wrongTraps": [
-                  "Chỉ cố định cột ($B2)",
-                  "Chỉ cố định dòng (B$2)"
+                  "Để địa chỉ tương đối"
                 ],
-                "explanation": "$B$2 = tuyệt đối. $B2 = hỗn hợp (cố định cột). B$2 = hỗn hợp (cố định dòng)."
+                "explanation": "Nếu không khóa $, khi kéo công thức xuống, danh sách tham chiếu sẽ bị trượt."
               }
             ]
           }
         },
         {
           "type": "quiz",
-          "title": "Chốt chặn: Microsoft Excel",
+          "title": "Luyện Đề - Hàm Excel",
           "data": {
             "quiz_tags": [
-              "Microsoft Excel"
+              "MICROSOFT EXCEL 2013 CƠ BẢN",
+              "Hệ thống"
             ]
           }
         }
@@ -519,16 +481,242 @@
       "components": [
         {
           "type": "vs-wrap",
-          "title": "Sắp Xếp vs Lọc Trích",
+          "title": "Sắp Xếp vs Lọc Trích Dữ Liệu",
           "data": {
             "left": {
               "title": "Sắp Xếp (Sort)",
-              "content": "Chọn bảng dữ liệu → Data → Sort.\n\n• A → Z: Tăng dần.\n• Z → A: Giảm dần.\n• Sort by / Then by: Đa tiêu chí.\n• Check My data has headers nếu có dòng tiêu đề."
+              "content": "Sắp xếp tăng/giảm dần. Có thể cài đặt đa tiêu chí ưu tiên (Sort by / Then by)."
             },
             "right": {
               "title": "Lọc Trích (Advanced Filter)",
-              "content": "3 bước: (1) Tạo vùng điều kiện (copy tiêu đề, nhập giá trị). (2) Chọn bảng dữ liệu. (3) Data → Advanced.\n\n• Điều kiện VÀ: cùng dòng.\n• Điều kiện HOẶC: khác dòng.\n• Copy to another location để xuất kết quả riêng."
+              "content": "Bắt buộc tạo Vùng Điều Kiện trước. Các điều kiện VÀ nằm cùng dòng, HOẶC nằm khác dòng."
             }
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Luyện Đề - Sắp Xếp & Lọc",
+          "data": {
+            "quiz_tags": [
+              "MICROSOFT EXCEL 2013 CƠ BẢN",
+              "Logic & Nguyên tắc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "th5_1",
+      "components": [
+        {
+          "type": "features",
+          "title": "Đặc Tính Nền Tảng PowerPoint 2013",
+          "data": {
+            "items": [
+              {
+                "title": "Đối Tượng Độc Lập",
+                "description": "Tất cả nội dung trên 1 slide đều được xem là đối tượng độc lập (Textbox, Chart, Shape)."
+              },
+              {
+                "title": "Bố Cục (Layout)",
+                "description": "Thiết kế dựa trên các Layout có sẵn hoặc Slide Master để đảm bảo tính đồng nhất."
+              },
+              {
+                "title": "Các Vùng Thao Tác",
+                "description": "Slide Pane (khung thu nhỏ trái), Slide Area (vùng thiết kế), Placeholder (khung định sẵn)."
+              },
+              {
+                "title": "Tính Tích Hợp",
+                "description": "Hỗ trợ chèn trực tiếp Excel Spreadsheet, lấy ảnh từ Online Pictures và lưu trữ đám mây OneDrive."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Luyện Đề - PowerPoint Tổng Quan",
+          "data": {
+            "quiz_tags": [
+              "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+              "Cấu trúc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "th5_2",
+      "components": [
+        {
+          "type": "process-steps",
+          "title": "Quy Trình Thiết Kế Bài Thuyết Trình",
+          "data": {
+            "steps": [
+              {
+                "name": "Phác thảo",
+                "description": "Chuẩn bị nội dung chữ và ý tưởng."
+              },
+              {
+                "name": "Tạo mới & Chọn Theme",
+                "description": "Blank Presentation hoặc các Theme có sẵn."
+              },
+              {
+                "name": "Slide Master",
+                "description": "Định dạng chung một lần cho tất cả (View > Master View > Slide Master)."
+              },
+              {
+                "name": "Thiết kế chi tiết",
+                "description": "Thêm Textbox, Shapes, Hình ảnh, Bảng biểu vào từng slide."
+              },
+              {
+                "name": "Thiết lập Trình chiếu",
+                "description": "Tùy chỉnh Animations (hiệu ứng phần tử) và Transitions (hiệu ứng chuyển slide)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "matrix-table",
+          "title": "Ma Trận Trình Chiếu (Slide Show)",
+          "data": {
+            "headers": [
+              "Lệnh Trình Chiếu",
+              "Phím Tắt",
+              "Ý Nghĩa"
+            ],
+            "rows": [
+              [
+                "From Beginning",
+                "F5",
+                "Trình chiếu từ Slide đầu tiên"
+              ],
+              [
+                "From Current Slide",
+                "Shift + F5",
+                "Trình chiếu từ Slide hiện tại"
+              ],
+              [
+                "Present Online",
+                "—",
+                "Trình chiếu trực tuyến qua mạng"
+              ],
+              [
+                "Custom Slide Show",
+                "—",
+                "Tạo phiên trình chiếu tùy chỉnh riêng rẽ"
+              ]
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Luyện Đề - Trình Chiếu",
+          "data": {
+            "quiz_tags": [
+              "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+              "Logic & Nguyên tắc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "th6_1",
+      "components": [
+        {
+          "type": "vs-wrap",
+          "title": "Cấu Trúc Hạ Tầng Cung Cấp Mạng",
+          "data": {
+            "left": {
+              "title": "IAP (Access Provider)",
+              "content": "Nhà cung cấp đường truyền và cổng kết nối quốc tế. Phân phối sỉ, nằm ở tầng cao nhất."
+            },
+            "right": {
+              "title": "ISP (Service Provider)",
+              "content": "Thuê đường truyền của IAP để cung cấp/bán lẻ dịch vụ Internet cho người dùng cuối (End-user)."
+            }
+          }
+        },
+        {
+          "type": "pair-grid",
+          "title": "Đồng Bộ Thuật Ngữ Web & Domain",
+          "data": {
+            "pairs": [
+              {
+                "id": "d1",
+                "leftText": "DNS (Domain Name System)",
+                "rightText": "Hệ thống đổi IP thành Tên miền dễ nhớ"
+              },
+              {
+                "id": "d2",
+                "leftText": "Web tĩnh",
+                "rightText": "Tạo sẵn, không thể tùy biến mã nguồn trực tiếp"
+              },
+              {
+                "id": "d3",
+                "leftText": "Web động",
+                "rightText": "Nội dung sinh ra theo yêu cầu, có thể tùy biến"
+              },
+              {
+                "id": "d4",
+                "leftText": "Tên miền .com",
+                "rightText": "Tổ chức thương mại (Commercial)"
+              },
+              {
+                "id": "d5",
+                "leftText": "Tên miền .edu",
+                "rightText": "Tổ chức giáo dục (Education)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Luyện Đề - Kiến Trúc Mạng",
+          "data": {
+            "quiz_tags": [
+              "SỬ DỤNG INTERNET",
+              "Nền tảng"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "th6_2",
+      "components": [
+        {
+          "type": "features",
+          "title": "Công Cụ & Dịch Vụ Mạng Cốt Lõi",
+          "data": {
+            "items": [
+              {
+                "title": "Trình duyệt Web",
+                "description": "Phần mềm để lướt Web như Chrome, Firefox, Opera, Internet Explorer."
+              },
+              {
+                "title": "Search Engine",
+                "description": "Công cụ tìm kiếm thông tin như Google (1997), Yahoo, Bing (2009)."
+              },
+              {
+                "title": "Thư điện tử (Email)",
+                "description": "Giao thức truyền nhận thư. Cấu trúc bắt buộc: <Tên tài khoản>@<Tên miền>."
+              },
+              {
+                "title": "Thao tác cơ bản",
+                "description": "Lưu trang (Ctrl+S), In trang (Ctrl+P), Bookmark đánh dấu (Ctrl+D)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Luyện Đề - Dịch Vụ Internet",
+          "data": {
+            "quiz_tags": [
+              "SỬ DỤNG INTERNET",
+              "Hệ thống"
+            ]
           }
         }
       ]
