@@ -1030,7 +1030,7 @@
       "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô",
       "Hệ thống"
     ],
-    "question": "Giả sử đường IS: Y = 2<span class=\"answer-keyword\">400 – 200r</span> và LM: r = -6 + 0,005Y. Sản lượng và lãi suất cân bằng sẽ là:",
+    "question": "Giả sử <span class=\"keyword\">đường IS</span>: Y = 2400 – 200r và LM: r = -6 + 0,005Y. Sản lượng và lãi suất cân bằng sẽ là:",
     "options": [
       "r = 3%, Y = 3600",
       "r = 5%, Y =1800",
@@ -1201,7 +1201,7 @@
   },
   {
     "weight": "high",
-    "question": "Có số liệu thống kê như sau (Năm 2010: P gạo 10, thịt 20, xăng 40; Q lần lượt 2, 3, 4. Năm 2011: P gạo 11, thịt 22, xăng 42). Tính tỷ lệ lạm phát (theo CPI) của năm 2011 so với năm 2010. Biết năm gốc là năm 2010.",
+    "question": "Có số liệu thống kê như sau (Năm 2010: P gạo 10, thịt 20, xăng 40; Q lần lượt 2, 3, 4. Năm 2011: P gạo 11, thịt 22, xăng 42). Tính <span class=\"keyword\">tỷ lệ lạm phát</span> (theo CPI) của năm 2011 so với năm 2010. Biết năm gốc là năm 2010.",
     "options": [
       "If = 10%",
       "If = 7,7%",
@@ -1329,7 +1329,7 @@
   },
   {
     "weight": "high",
-    "question": "Chính phủ trong một nền kinh tế chi tiêu cho hàng hóa và dịch vụ là 100 triệu USD và trợ cấp ở mức đến 10% thu nhập quốc dân. Tỷ lệ thuế trực thu là 30%. Thâm hụt hay thặng dư của Chính phủ là bao nhiêu, nếu thu nhập tại điểm cân bằng là 400 triệu USD?",
+    "question": "Chính phủ trong một nền kinh tế chi tiêu cho hàng hóa và dịch vụ là 100 triệu USD và trợ cấp ở mức đến 10% thu nhập quốc dân. Tỷ lệ thuế trực thu là 30%. <span class=\"keyword\">Thâm hụt hay thặng dư</span> của Chính phủ là bao nhiêu, nếu thu nhập tại điểm cân bằng là 400 triệu USD?",
     "options": [
       "<span class=\"answer-keyword\">Thâm hụt 20</span> triệu USD",
       "Thặng dư 20 triệu USD",
@@ -1494,7 +1494,7 @@
       "Tổng Quan & Đo Lường Tăng Trưởng",
       "[Nền tảng]"
     ],
-    "question": "Mức sống của chúng ta liên quan nhiều nhất đến:",
+    "question": "<span class=\"keyword\">Mức sống</span> của chúng ta liên quan nhiều nhất đến:",
     "options": [
       "Nguồn tài nguyên thiên nhiên của chúng ta, vì chúng giới hạn sản xuất.",
       "Nguồn cung tư bản của chúng ta, vì tất cả những gì có giá trị đều do máy móc sản xuất ra.",
@@ -1654,7 +1654,7 @@
       "Tổng Quan & Đo Lường Tăng Trưởng",
       "[Nền tảng]"
     ],
-    "question": "Đối với nền kinh tế nhỏ có vốn tự do luân chuyển hoàn toàn, thì:",
+    "question": "Đối với <span class=\"keyword\">nền kinh tế nhỏ</span> có vốn tự do luân chuyển hoàn toàn, thì:",
     "options": [
       "<span class=\"answer-keyword\">Đường BP nằm ngang</span>",
       "Đường BP dốc xuống",
@@ -1670,7 +1670,7 @@
       "Thị Trường Tiền Tệ & Tài Chính Quốc Tế",
       "[Hệ thống]"
     ],
-    "question": "Đương BP được định nghĩa là một đường tập hợp những phối hợp giữa lãi suất và sản lượng mà ở đó:",
+    "question": "<span class=\"keyword\">Đường BP</span> được định nghĩa là một đường tập hợp những phối hợp giữa lãi suất và sản lượng mà ở đó:",
     "options": [
       "Cán cân thương mại cân bằng",
       "<span class=\"answer-keyword\">Cán cân thanh toán</span> cân bằng",
@@ -1686,7 +1686,7 @@
       "Tổng Quan & Đo Lường Tăng Trưởng",
       "[Giới hạn & Rủi ro]"
     ],
-    "question": "ViệtNamtăng thuế nhập khẩu vàng từ 0,5% lên 1% và bỏ khung lãi suất trần VNĐ 12%/năm khiến cho:",
+    "question": "ViệtNamtăng <span class=\"keyword\">thuế nhập khẩu vàng</span> từ 0,5% lên 1% và bỏ khung lãi suất trần VNĐ 12%/năm khiến cho:",
     "options": [
       "Giá vàng trong nước giảm",
       "<span class=\"answer-keyword\">Giá vàng trong nước</span> tăng",
