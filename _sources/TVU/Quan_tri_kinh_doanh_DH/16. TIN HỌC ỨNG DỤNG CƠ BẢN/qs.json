@@ -13,7 +13,7 @@
       "Bo mạch chủ",
       "Vỏ máy tính"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Bộ nhớ</span>\n<div class=\"note\">Bộ nhớ (RAM, ROM, ổ cứng) là thiết bị vật lý dùng để lưu trữ dữ liệu và chương trình.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Bộ nhớ</span> <div class=\"note\">Bộ nhớ (RAM, ROM, ổ cứng) là thiết bị vật lý dùng để lưu trữ dữ liệu và chương trình.</div>"
   },
   {
     "weight": "normal",
@@ -29,7 +29,7 @@
       "Thanh ghi",
       "Bo mạch chủ"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Bàn phím</span>\n<div class=\"note\">Bàn phím là thiết bị nhập dữ liệu cơ bản nhất của máy tính.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Bàn phím</span> <div class=\"note\">Bàn phím là thiết bị nhập dữ liệu cơ bản nhất của máy tính.</div>"
   },
   {
     "weight": "normal",
@@ -45,7 +45,7 @@
       "Mozilla Firefox",
       "<span class=\"answer-keyword\">Trojan Horse</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Trojan Horse</span>\n<div class=\"note\">Trojan Horse là một loại phần mềm độc hại ngụy trang dưới dạng phần mềm hợp pháp.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Trojan Horse</span> <div class=\"note\">Trojan Horse là một loại phần mềm độc hại ngụy trang dưới dạng phần mềm hợp pháp.</div>"
   },
   {
     "weight": "high",
@@ -61,7 +61,7 @@
       "TCP/IP (Transmission Control Protocol/Internet Protocol)",
       "<span class=\"answer-keyword\">IM</span> (Instant Messaging)"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">IM</span> (Instant Messaging)\n<div class=\"note\">IM (Instant Messaging) là dịch vụ nhắn tin tức thời qua mạng Internet.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">IM</span> (Instant Messaging) <div class=\"note\">IM (Instant Messaging) là dịch vụ nhắn tin tức thời qua mạng Internet.</div>"
   },
   {
     "weight": "normal",
@@ -77,7 +77,7 @@
       "Khối điều khiển",
       "Bộ nhớ trung gian"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Khối <span class=\"answer-keyword\">tính toán số học và logic</span>\n<div class=\"note\">ALU (Arithmetic-Logic Unit) là khối chuyên đảm nhận các phép tính số học và phép toán logic trong CPU.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Khối <span class=\"answer-keyword\">tính toán số học và logic</span> <div class=\"note\">ALU (Arithmetic-Logic Unit) là khối chuyên đảm nhận các phép tính số học và phép toán logic trong CPU.</div>"
   },
   {
     "weight": "normal",
@@ -93,7 +93,7 @@
       "ALU (Arithmetic-Logic Unit)",
       "<span class=\"answer-keyword\">CU</span> (Control Unit)"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">CU</span> (Control Unit)\n<div class=\"note\">CU (Control Unit) là khối điều khiển, đóng vai trò giải mã lệnh và điều phối hoạt động của toàn hệ thống.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">CU</span> (Control Unit) <div class=\"note\">CU (Control Unit) là khối điều khiển, đóng vai trò giải mã lệnh và điều phối hoạt động của toàn hệ thống.</div>"
   },
   {
     "weight": "high",
@@ -109,7 +109,7 @@
       "1",
       "<span class=\"answer-keyword\">3</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">3</span>\n<div class=\"note\">CPU thường gồm 3 bộ phận chính: Khối điều khiển (CU), Khối tính toán số học và logic (ALU), và Các thanh ghi (Registers).</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">3</span> <div class=\"note\">CPU thường gồm 3 bộ phận chính: Khối điều khiển (CU), Khối tính toán số học và logic (ALU), và Các thanh ghi (Registers).</div>"
   },
   {
     "weight": "normal",
@@ -125,7 +125,7 @@
       "Unix",
       "Linux"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Google Chrome</span>\n<div class=\"note\">Google Chrome là trình duyệt web (phần mềm ứng dụng), trong khi Windows 10, Unix, Linux là hệ điều hành.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Google Chrome</span> <div class=\"note\">Google Chrome là trình duyệt web (phần mềm ứng dụng), trong khi Windows 10, Unix, Linux là hệ điều hành.</div>"
   },
   {
     "weight": "normal",
@@ -141,7 +141,7 @@
       "<span class=\"answer-keyword\">Dấu huyền</span>",
       "Dấu sắc"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Dấu huyền</span>\n<div class=\"note\">Trong bảng gõ Telex: s (sắc), f (huyền), r (hỏi), x (ngã), j (nặng).</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Dấu huyền</span> <div class=\"note\">Trong bảng gõ Telex: s (sắc), f (huyền), r (hỏi), x (ngã), j (nặng).</div>"
   },
   {
     "weight": "high",
@@ -157,7 +157,7 @@
       "Ctrl + P",
       "Ctrl + C"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Ctrl + V</span>\n<div class=\"note\">Ctrl + V dùng để dán (Paste) dữ liệu đã được copy.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Ctrl + V</span> <div class=\"note\">Ctrl + V dùng để dán (Paste) dữ liệu đã được copy.</div>"
   },
   {
     "weight": "normal",
@@ -173,7 +173,7 @@
       "Alt + Shift",
       "<span class=\"answer-keyword\">Ctrl + Shift</span> + F6"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Ctrl + Shift</span>\n<div class=\"note\">Mặc định Unikey sử dụng tổ hợp phím Ctrl + Shift hoặc Alt + Z để chuyển đổi nhanh giữa tiếng Việt và tiếng Anh.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Ctrl + Shift</span> <div class=\"note\">Mặc định Unikey sử dụng tổ hợp phím Ctrl + Shift hoặc Alt + Z để chuyển đổi nhanh giữa tiếng Việt và tiếng Anh.</div>"
   },
   {
     "weight": "normal",
@@ -189,7 +189,7 @@
       "<span class=\"answer-keyword\">Tập tin</span>",
       "Thư mục"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Tập tin</span>\n<div class=\"note\">Chỉ có tập tin (file) mới có phần mở rộng (extension) để hệ điều hành nhận biết định dạng.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Tập tin</span> <div class=\"note\">Chỉ có tập tin (file) mới có phần mở rộng (extension) để hệ điều hành nhận biết định dạng.</div>"
   },
   {
     "weight": "high",
@@ -205,7 +205,7 @@
       "Properties",
       "<span class=\"answer-keyword\">Restore</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Restore</span>\n<div class=\"note\">Lệnh Restore dùng để khôi phục các file/folder đã bị xóa vào Recycle Bin trở về vị trí ban đầu.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Restore</span> <div class=\"note\">Lệnh Restore dùng để khôi phục các file/folder đã bị xóa vào Recycle Bin trở về vị trí ban đầu.</div>"
   },
   {
     "weight": "normal",
@@ -221,7 +221,7 @@
       "<span class=\"answer-keyword\">Time</span>",
       "Currency"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Time</span>\n<div class=\"note\">Thẻ Time trong Customize Format cho phép định dạng lại kiểu hiển thị thời gian (giờ, phút, giây).</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Time</span> <div class=\"note\">Thẻ Time trong Customize Format cho phép định dạng lại kiểu hiển thị thời gian (giờ, phút, giây).</div>"
   },
   {
     "weight": "normal",
@@ -237,7 +237,7 @@
       "!",
       "<span class=\"answer-keyword\">?</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">?</span>\n<div class=\"note\">Ký tự hỏi chấm (?) đại diện cho đúng một ký tự bất kỳ, còn dấu sao (*) đại diện cho chuỗi ký tự.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">?</span> <div class=\"note\">Ký tự hỏi chấm (?) đại diện cho đúng một ký tự bất kỳ, còn dấu sao (*) đại diện cho chuỗi ký tự.</div>"
   },
   {
     "weight": "high",
@@ -253,7 +253,7 @@
       "<span class=\"answer-keyword\">Fonts</span>",
       "Date and Time"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Fonts</span>\n<div class=\"note\">Chức năng Fonts trong Control Panel dùng để quản lý (cài đặt, gỡ bỏ) các font chữ của hệ thống.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Fonts</span> <div class=\"note\">Chức năng Fonts trong Control Panel dùng để quản lý (cài đặt, gỡ bỏ) các font chữ của hệ thống.</div>"
   },
   {
     "weight": "normal",
@@ -269,7 +269,7 @@
       "Giải nén dữ liệu",
       "Duyệt web"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Gõ dấu tiếng việt</span>\n<div class=\"note\">Unikey là một bộ gõ tiếng Việt phổ biến trên Windows.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Gõ dấu tiếng việt</span> <div class=\"note\">Unikey là một bộ gõ tiếng Việt phổ biến trên Windows.</div>"
   },
   {
     "weight": "normal",
@@ -285,7 +285,7 @@
       "!",
       "#"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">*</span>\n<div class=\"note\">Ký tự dấu sao (*) đại diện cho một chuỗi nhiều ký tự (hoặc không có ký tự nào) trong tìm kiếm.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">*</span> <div class=\"note\">Ký tự dấu sao (*) đại diện cho một chuỗi nhiều ký tự (hoặc không có ký tự nào) trong tìm kiếm.</div>"
   },
   {
     "weight": "high",
@@ -301,7 +301,7 @@
       "Open",
       "Clipboard"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Organize</span>\n<div class=\"note\">Trong ribbon Home của File Explorer, lệnh Rename, Delete, Move to, Copy to thuộc nhóm lệnh Organize.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Organize</span> <div class=\"note\">Trong ribbon Home của File Explorer, lệnh Rename, Delete, Move to, Copy to thuộc nhóm lệnh Organize.</div>"
   },
   {
     "weight": "normal",
@@ -317,7 +317,7 @@
       "Vni-Times",
       "<span class=\"answer-keyword\">Times New Roman</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Times New Roman</span>\n<div class=\"note\">Times New Roman là font chữ chuẩn quốc tế hỗ trợ đầy đủ bảng mã Unicode (khác với .VnTime dùng mã TCVN3 hay Vni-Times dùng mã VNI).</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Times New Roman</span> <div class=\"note\">Times New Roman là font chữ chuẩn quốc tế hỗ trợ đầy đủ bảng mã Unicode (khác với .VnTime dùng mã TCVN3 hay Vni-Times dùng mã VNI).</div>"
   },
   {
     "weight": "normal",
@@ -333,7 +333,7 @@
       "<span class=\"answer-keyword\">Màn hình</span>",
       "Máy quét"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Màn hình</span>\n<div class=\"note\">Màn hình là thiết bị xuất dữ liệu, không phải thiết bị nhập.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Màn hình</span> <div class=\"note\">Màn hình là thiết bị xuất dữ liệu, không phải thiết bị nhập.</div>"
   },
   {
     "weight": "high",
@@ -349,7 +349,7 @@
       "WAN",
       "INTERNET"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">LAN</span>\n<div class=\"note\">LAN (Local Area Network) là mạng cục bộ, phạm vi giới hạn trong một tòa nhà, công ty.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">LAN</span> <div class=\"note\">LAN (Local Area Network) là mạng cục bộ, phạm vi giới hạn trong một tòa nhà, công ty.</div>"
   },
   {
     "weight": "normal",
@@ -365,7 +365,7 @@
       "Spyware",
       "Trojan Horse"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Unikey</span>\n<div class=\"note\">Unikey là bộ gõ tiếng Việt hợp pháp. Adware, Spyware, Trojan là các loại mã độc.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Unikey</span> <div class=\"note\">Unikey là bộ gõ tiếng Việt hợp pháp. Adware, Spyware, Trojan là các loại mã độc.</div>"
   },
   {
     "weight": "normal",
@@ -381,7 +381,7 @@
       "Devices and Printers",
       "User Accounts"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Fonts</span>\n<div class=\"note\">Mục Fonts dùng để xem, cài đặt và gỡ bỏ font chữ.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Fonts</span> <div class=\"note\">Mục Fonts dùng để xem, cài đặt và gỡ bỏ font chữ.</div>"
   },
   {
     "weight": "high",
@@ -397,7 +397,7 @@
       "SHIFT+F4",
       "ALT+TAB"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">ALT+F4</span>\n<div class=\"note\">ALT + F4 đóng cửa sổ ứng dụng hiện tại. CTRL + F4 chỉ đóng tab bên trong ứng dụng.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">ALT+F4</span> <div class=\"note\">ALT + F4 đóng cửa sổ ứng dụng hiện tại. CTRL + F4 chỉ đóng tab bên trong ứng dụng.</div>"
   },
   {
     "weight": "normal",
@@ -413,7 +413,7 @@
       "Vẽ cơ bản",
       "<span class=\"answer-keyword\">Giải nén dữ liệu</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Giải nén dữ liệu</span>\n<div class=\"note\">WinRAR là phần mềm quản lý và nén/giải nén các tệp tin lưu trữ (ZIP, RAR).</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Giải nén dữ liệu</span> <div class=\"note\">WinRAR là phần mềm quản lý và nén/giải nén các tệp tin lưu trữ (ZIP, RAR).</div>"
   },
   {
     "weight": "normal",
@@ -429,7 +429,7 @@
       "Windows+TAB",
       "CTRL+TAB"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">ALT+TAB</span>\n<div class=\"note\">ALT + TAB giúp chuyển nhanh (switch) giữa các cửa sổ chương trình đang mở.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">ALT+TAB</span> <div class=\"note\">ALT + TAB giúp chuyển nhanh (switch) giữa các cửa sổ chương trình đang mở.</div>"
   },
   {
     "weight": "high",
@@ -445,7 +445,7 @@
       "<span class=\"answer-keyword\">Page Layout, Nhóm Page Setup, Columns</span>",
       "Design, Nhóm Page Background, Columns"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Page Layout, Nhóm Page Setup, Columns</span>\n<div class=\"note\">Tính năng chia cột văn bản nằm trong thẻ Page Layout (hoặc Layout), nhóm Page Setup.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Page Layout, Nhóm Page Setup, Columns</span> <div class=\"note\">Tính năng chia cột văn bản nằm trong thẻ Page Layout (hoặc Layout), nhóm Page Setup.</div>"
   },
   {
     "weight": "normal",
@@ -461,7 +461,7 @@
       "<span class=\"answer-keyword\">Distance from text</span>",
       "Position"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Distance from text</span>\n<div class=\"note\">Distance from text dùng để thiết lập khoảng cách (độ rỗng) giữa chữ Drop Cap lớn và phần văn bản kế bên.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Distance from text</span> <div class=\"note\">Distance from text dùng để thiết lập khoảng cách (độ rỗng) giữa chữ Drop Cap lớn và phần văn bản kế bên.</div>"
   },
   {
     "weight": "normal",
@@ -477,7 +477,7 @@
       "Color",
       "Width"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Styles</span>\n<div class=\"note\">Styles quy định kiểu đường nét (liền, đứt khúc, dấu chấm...). Color (Màu) và Width (Độ dày).</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Styles</span> <div class=\"note\">Styles quy định kiểu đường nét (liền, đứt khúc, dấu chấm...). Color (Màu) và Width (Độ dày).</div>"
   },
   {
     "weight": "high",
@@ -493,7 +493,7 @@
       "Align Text",
       "Shape Effects"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Shape Outline</span>\n<div class=\"note\">Shape Outline quản lý màu và độ dày của viền hình vẽ, trong khi Shape Fill là màu nền bên trong.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Shape Outline</span> <div class=\"note\">Shape Outline quản lý màu và độ dày của viền hình vẽ, trong khi Shape Fill là màu nền bên trong.</div>"
   },
   {
     "weight": "normal",
@@ -509,7 +509,7 @@
       "CTRL+U",
       "CTRL+Z"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">CTRL+I</span>\n<div class=\"note\">CTRL+I = Italic (Nghiêng), CTRL+B = Bold (Đậm), CTRL+U = Underline (Gạch chân).</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">CTRL+I</span> <div class=\"note\">CTRL+I = Italic (Nghiêng), CTRL+B = Bold (Đậm), CTRL+U = Underline (Gạch chân).</div>"
   },
   {
     "weight": "normal",
@@ -525,7 +525,7 @@
       "<span class=\"answer-keyword\">Cell Size</span>",
       "Rows & Columns"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Cell Size</span>\n<div class=\"note\">Nhóm Cell Size chứa Height và Width để điều chỉnh chiều cao và độ rộng của hàng/cột.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Cell Size</span> <div class=\"note\">Nhóm Cell Size chứa Height và Width để điều chỉnh chiều cao và độ rộng của hàng/cột.</div>"
   },
   {
     "weight": "high",
@@ -541,7 +541,7 @@
       "Underline Color",
       "<span class=\"answer-keyword\">Font Color</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Font Color</span>\n<div class=\"note\">Font Color là tùy chọn để thay đổi màu sắc của văn bản.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Font Color</span> <div class=\"note\">Font Color là tùy chọn để thay đổi màu sắc của văn bản.</div>"
   },
   {
     "weight": "normal",
@@ -557,7 +557,7 @@
       "<span class=\"answer-keyword\">Color</span>",
       "Preview"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Color</span>\n<div class=\"note\">Tùy chọn Color thiết lập màu sắc cho khung viền của trang (Page Border).</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Color</span> <div class=\"note\">Tùy chọn Color thiết lập màu sắc cho khung viền của trang (Page Border).</div>"
   },
   {
     "weight": "normal",
@@ -573,7 +573,7 @@
       "<span class=\"answer-keyword\">Repeat Header Rows</span>",
       "Sort"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Repeat Header Rows</span>\n<div class=\"note\">Repeat Header Rows giúp dòng đầu tiên của bảng tự động lặp lại khi bảng bị tràn sang trang mới.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Repeat Header Rows</span> <div class=\"note\">Repeat Header Rows giúp dòng đầu tiên của bảng tự động lặp lại khi bảng bị tràn sang trang mới.</div>"
   },
   {
     "weight": "normal",
