@@ -315,6 +315,10 @@ function renderBatch() {
             
             let displayTags = q.tags.filter(t => t === 'High' || t === 'Trọng tâm' || t === '80/20' || t === 'Mẫu' || t === 'Kiến thức' || fwTags.includes(t));
             
+            if (q.weight === 'high' && !displayTags.includes('High')) {
+                displayTags.unshift('High');
+            }
+            
             let tagsMapHtml = displayTags.map(t => {
                 let style = '';
                 if(t === 'High' || t === 'Trọng tâm' || t === '80/20') {
