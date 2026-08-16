@@ -1438,5 +1438,293 @@
       "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô",
       "Logic & Nguyên tắc"
     ]
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "[Kiến thức]",
+      "Tổng Quan & Đo Lường Tăng Trưởng",
+      "[Giới hạn & Rủi ro]"
+    ],
+    "question": "Nhận định nào sau đây <span class=\"keyword\">KHÔNG</span> là vấn đề quan tâm của <span class=\"keyword\">kinh tế vĩ mô</span>?",
+    "options": [
+      "Giảm lãi suất sẽ khuyến khích gia tăng đầu tư.",
+      "<span class=\"answer-keyword\">Đánh thuế cao và</span> các mặt hàng tiêu dùng xa xỉ sẽ hạn chế tiêu dùng những mặt hàng này.",
+      "Tỷ lệ lạm phát của Việt Nam năm 2015 ở mức vừa phải.",
+      "Sự kiện Brexit đã làm thị trường vàng và thị trường chứng khoán biến động mạnh."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Đánh thuế cao và</span> các mặt hàng tiêu dùng xa xỉ sẽ hạn chế tiêu dùng những mặt hàng này."
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "[Kiến thức]",
+      "Tổng Quan & Đo Lường Tăng Trưởng",
+      "[Góc nhìn Đa chiều]"
+    ],
+    "question": "Tại ViệtNamnếu <span class=\"keyword\">gdp</span> lớn hơn GNP thì:",
+    "options": [
+      "Người ViệtNam đang sản xuất ở nước ngoài nhiều hơn so với người nước ngoài đang sản xuất ở ViệtNam.",
+      "<span class=\"answer-keyword\">Người nước ngoài đang</span> sản xuất ở ViệtNamnhiều hơn so với người ViệtNam đang sản xuất ở nước ngoài",
+      "GNP thực tế lớn hơn GNP danh nghĩa.",
+      "GDP thực tế lớn hơn GDP danh nghĩa."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Người nước ngoài đang</span> sản xuất ở ViệtNamnhiều hơn so với người ViệtNam đang sản xuất ở nước ngoài"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "[Kiến thức]",
+      "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô",
+      "[Giới hạn & Rủi ro]"
+    ],
+    "question": "Giả sử rằng khối lượng tư bản trong năm của một nền kinh tế <span class=\"keyword\">tăng</span> lên. Điều gì đã xảy ra?",
+    "options": [
+      "Khấu hao lớn hơn đầu tư ròng",
+      "Khấu hao không đổi so với đầu tư ròng",
+      "<span class=\"answer-keyword\">Đầu tư ròng lớn</span> hơn không",
+      "Đầu tư ròng lớn hơn tổng đầu tư"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Đầu tư ròng lớn</span> hơn không"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "[Kiến thức]",
+      "Tổng Quan & Đo Lường Tăng Trưởng",
+      "[Nền tảng]"
+    ],
+    "question": "Mức sống của chúng ta liên quan nhiều nhất đến:",
+    "options": [
+      "Nguồn tài nguyên thiên nhiên của chúng ta, vì chúng giới hạn sản xuất.",
+      "Nguồn cung tư bản của chúng ta, vì tất cả những gì có giá trị đều do máy móc sản xuất ra.",
+      "Mức độ làm việc chăm chỉ của chúng ta.",
+      "<span class=\"answer-keyword\">Năng suất của chúng</span> ta, vì thu nhập của chúng ta bằng chính những gì chúng ta sản xuất ra."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Năng suất của chúng</span> ta, vì thu nhập của chúng ta bằng chính những gì chúng ta sản xuất ra."
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "[Kiến thức]",
+      "Tổng Quan & Đo Lường Tăng Trưởng",
+      "[Phân luồng]"
+    ],
+    "question": "Trong một nền kinh tế, khi có sự đầu tư và chi tiêu quá mức của tư nhân, của Chính phủ hoặc xuất khẩu <span class=\"keyword\">tăng</span> mạnh sẽ dẫn đến tình trạng:",
+    "options": [
+      "Lạm phat do chi phí đẩy",
+      "Lạm phát do phát hành tiền",
+      "Lạm phát do giá yếu tố sản xuất tăng lên",
+      "<span class=\"answer-keyword\">Lạm phát do cầu</span> kéo"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Lạm phát do cầu</span> kéo"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "[Kiến thức]",
+      "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô",
+      "[Giới hạn & Rủi ro]"
+    ],
+    "question": "Nếu có một sự <span class=\"keyword\">giảm</span> sút trong đầu tư của tư nhân 10 tỷ và MPC = 0,75 mức sản lượng cân bằng sẽ là:",
+    "options": [
+      "Tăng lên 13,33 tỷ",
+      "Tăng 40 tỷ",
+      "<span class=\"answer-keyword\">Giảm xuống 40 tỷ</span>",
+      "Giảm xuống 13,33 tỷ"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Giảm xuống 40 tỷ</span>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "[Kiến thức]",
+      "Cú Sốc Vĩ Mô: Lạm Phát & Thất Nghiệp",
+      "[Hệ thống]"
+    ],
+    "question": "Giả sử ta có mức sản lượng cân bằng là 850. Biết Yp = 1000 và Un = 5%. Tỷ lệ <span class=\"keyword\">thất nghiệp</span> tại mức sản lượng cân bằng:",
+    "options": [
+      "<span class=\"answer-keyword\">12,5%</span>",
+      "13,8%",
+      "20%",
+      "15,2%"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">12,5%</span>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "[Kiến thức]",
+      "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô",
+      "[Giới hạn & Rủi ro]"
+    ],
+    "question": "Trên đồ thị, trục hoành ghi sản lượng quốc gia, trục tung ghi mức giá chung, đường <span class=\"keyword\">tổng cầu</span> AD dịch sang phải khi:",
+    "options": [
+      "<span class=\"answer-keyword\">Chính phủ tăng chi</span> tiêu cho quốc phòng",
+      "Nhập khẩu và xuất khẩu tăng",
+      "Nhập khẩu và xuất khẩu giảm",
+      "Chính phủ cắt giảm các khoản trợ cấp và giảm thuế"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Chính phủ tăng chi</span> tiêu cho quốc phòng"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "[Kiến thức]",
+      "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô",
+      "[Logic & Nguyên tắc]"
+    ],
+    "question": "Với số nhân tổng quát K = 4, <span class=\"keyword\">tổng cầu</span> <span class=\"keyword\">tăng</span> thêm thì sản lượng sẽ tăng thêm",
+    "options": [
+      "100",
+      "250",
+      "<span class=\"answer-keyword\">400</span>",
+      "300"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">400</span>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "[Kiến thức]",
+      "Tổng Quan & Đo Lường Tăng Trưởng",
+      "[Giới hạn & Rủi ro]"
+    ],
+    "question": "Khi cung tiền và cầu tiền được biểu diễn bằng một đồ thị với trục tung là lãi suất và trục hoành là lượng tiền, mức giá <span class=\"keyword\">tăng</span>:",
+    "options": [
+      "<span class=\"answer-keyword\">Làm dịch chuyển đường</span> cầu tiền sang phải và làm tăng lãi suất cân bằng",
+      "Làm dịch chuyển đường cầu tiền sang phải và làm giảm lãi suất cân bằng",
+      "Làm dịch chuyền đường cầu tiền sang trái và làm tăng lãi suất cân bằng",
+      "Làm dịch chuyển đường cầu tiền sang trái và làm giảm lãi suất cân bằng"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Làm dịch chuyển đường</span> cầu tiền sang phải và làm tăng lãi suất cân bằng"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "[Kiến thức]",
+      "Tổng Quan & Đo Lường Tăng Trưởng",
+      "[Giới hạn & Rủi ro]"
+    ],
+    "question": "Nếu tỷ giá hối đoái danh nghĩa <span class=\"keyword\">không</span> thay đổi đáng kể, tốc độ tăng giá trong nước tăng nhanh hơn giá thế giới, sức cạnh tranh của hàng hóa trong nước sẽ:",
+    "options": [
+      "Không thể kết luận",
+      "Không đổi",
+      "Tăng",
+      "<span class=\"answer-keyword\">Giảm</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Giảm</span>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "[Kiến thức]",
+      "Tổng Quan & Đo Lường Tăng Trưởng",
+      "[Logic & Nguyên tắc]"
+    ],
+    "question": "Nếu lãi suất danh nghĩa là 6% và tỷ lệ <span class=\"keyword\">lạm phát</span> là 3 %. Thì lãi suất thực bao nhiêu?",
+    "options": [
+      "18%",
+      "9%",
+      "<span class=\"answer-keyword\">3%</span>",
+      "2%"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">3%</span>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "[Kiến thức]",
+      "Tổng Quan & Đo Lường Tăng Trưởng",
+      "[Giới hạn & Rủi ro]"
+    ],
+    "question": "Chính sách nào của Chính phủ sẽ làm kinh tế <span class=\"keyword\">tăng</span> trưởng nhiều nhất?",
+    "options": [
+      "Tăng thuế thu nhập từ tiết kiệm, cung cấp tín dụng thuế đầu tư, và giảm thâm hụt",
+      "Giảm thuế thu nhập từ tiết kiệm, cung cấp tín dụng thuế đầu tư, và giảm thâm hụt",
+      "<span class=\"answer-keyword\">Tăng thuế thu nhập</span> từ tiết kiệm, cung cấp tín dụng thuế đầu tư, và tăng thâm hụt",
+      "Giảm thuế thu nhập từ tiết kiệm, cung cấp tín dụng thuế đầu tư, và tăng thâm hụt"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Tăng thuế thu nhập</span> từ tiết kiệm, cung cấp tín dụng thuế đầu tư, và tăng thâm hụt"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "[Kiến thức]",
+      "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô",
+      "[Giới hạn & Rủi ro]"
+    ],
+    "question": "Nếu ngân hàng Trung ương làm cho lượng cung tiền gia <span class=\"keyword\">tăng</span>:",
+    "options": [
+      "<span class=\"answer-keyword\">Đường LM dịch chuyển</span> sang phải",
+      "Chỉ có sự di chuyển dọc trên đường LM",
+      "Đường LM dịch chuyển sang trái",
+      "Đường IS dịch chuyển sang phải"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Đường LM dịch chuyển</span> sang phải"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "[Kiến thức]",
+      "Tổng Quan & Đo Lường Tăng Trưởng",
+      "[Nền tảng]"
+    ],
+    "question": "Đối với nền kinh tế nhỏ có vốn tự do luân chuyển hoàn toàn, thì:",
+    "options": [
+      "<span class=\"answer-keyword\">Đường BP nằm ngang</span>",
+      "Đường BP dốc xuống",
+      "Đường BP thẳng đứng",
+      "Đường BP dốc lên"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Đường BP nằm ngang</span>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "[Kiến thức]",
+      "Thị Trường Tiền Tệ & Tài Chính Quốc Tế",
+      "[Hệ thống]"
+    ],
+    "question": "Đương BP được định nghĩa là một đường tập hợp những phối hợp giữa lãi suất và sản lượng mà ở đó:",
+    "options": [
+      "Cán cân thương mại cân bằng",
+      "<span class=\"answer-keyword\">Cán cân thanh toán</span> cân bằng",
+      "Thị trường tiền tệ cân bằng",
+      "Thị trường hàng hóa cân bằng"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Cán cân thanh toán</span> cân bằng"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "[Kiến thức]",
+      "Tổng Quan & Đo Lường Tăng Trưởng",
+      "[Giới hạn & Rủi ro]"
+    ],
+    "question": "ViệtNamtăng thuế nhập khẩu vàng từ 0,5% lên 1% và bỏ khung lãi suất trần VNĐ 12%/năm khiến cho:",
+    "options": [
+      "Giá vàng trong nước giảm",
+      "<span class=\"answer-keyword\">Giá vàng trong nước</span> tăng",
+      "Giá USD giảm",
+      "Tổng cầu sẽ tăng do mọi người kỳ vọng giá vàng sẽ tăng nên chi tiêu cho việc mua vàng tích trữ nhiều hơn."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Giá vàng trong nước</span> tăng"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "[Kiến thức]",
+      "Tổng Quan & Đo Lường Tăng Trưởng",
+      "[Giới hạn & Rủi ro]"
+    ],
+    "question": "Khi OPEC <span class=\"keyword\">tăng</span> giá dầu thì:",
+    "options": [
+      "Tỷ lệ lạm phát ở các nước nhập khẩu dầu mỏ giảm",
+      "GDP thực tế ở các nước nhập khẩu dầu mỏ tăng",
+      "Không bị tác động",
+      "<span class=\"answer-keyword\">Thu nhập quốc dân</span> được phân phối lại từ các nước nhập khẩu dầu sang các nước xuất khẩu dầu"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Thu nhập quốc dân</span> được phân phối lại từ các nước nhập khẩu dầu sang các nước xuất khẩu dầu"
   }
 ]
