@@ -8,12 +8,12 @@
     ],
     "question": "Trong cấu trúc phần cứng của một máy tính điện tử, thiết bị vật lý nào được sử dụng để <span class=\"keyword\">lưu trữ dữ liệu</span> trong <span class=\"keyword\">quá trình máy tính xử lý</span>?",
     "options": [
-      "A. <span class=\"answer-keyword\">Bộ nhớ</span>",
-      "B. Bàn phím",
-      "C. Bo mạch chủ",
-      "D. Vỏ máy tính"
+      "<span class=\"answer-keyword\">Bộ nhớ</span>",
+      "Bàn phím",
+      "Bo mạch chủ",
+      "Vỏ máy tính"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. <span class=\"answer-keyword\">Bộ nhớ</span>\n<div class=\"note\">Bộ nhớ (RAM, ROM, ổ cứng) là thiết bị vật lý dùng để lưu trữ dữ liệu và chương trình.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Bộ nhớ</span>\n<div class=\"note\">Bộ nhớ (RAM, ROM, ổ cứng) là thiết bị vật lý dùng để lưu trữ dữ liệu và chương trình.</div>"
   },
   {
     "weight": "normal",
@@ -24,12 +24,12 @@
     ],
     "question": "Trong cấu trúc phần cứng của một máy tính điện tử, thiết bị nào được sử dụng để <span class=\"keyword\">nhập dữ liệu</span>?",
     "options": [
-      "A. Vỏ máy tính",
-      "B. <span class=\"answer-keyword\">Bàn phím</span>",
-      "C. Thanh ghi",
-      "D. Bo mạch chủ"
+      "Vỏ máy tính",
+      "<span class=\"answer-keyword\">Bàn phím</span>",
+      "Thanh ghi",
+      "Bo mạch chủ"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. <span class=\"answer-keyword\">Bàn phím</span>\n<div class=\"note\">Bàn phím là thiết bị nhập dữ liệu cơ bản nhất của máy tính.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Bàn phím</span>\n<div class=\"note\">Bàn phím là thiết bị nhập dữ liệu cơ bản nhất của máy tính.</div>"
   },
   {
     "weight": "normal",
@@ -40,12 +40,12 @@
     ],
     "question": "Hãy cho biết <span class=\"keyword\">phần mềm</span> nào sau đây là phần mềm <span class=\"keyword\">độc hại</span> (Malware)?",
     "options": [
-      "A. Window Defender",
-      "B. Unikey",
-      "C. Mozilla Firefox",
-      "D. <span class=\"answer-keyword\">Trojan Horse</span>"
+      "Window Defender",
+      "Unikey",
+      "Mozilla Firefox",
+      "<span class=\"answer-keyword\">Trojan Horse</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. <span class=\"answer-keyword\">Trojan Horse</span>\n<div class=\"note\">Trojan Horse là một loại phần mềm độc hại ngụy trang dưới dạng phần mềm hợp pháp.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Trojan Horse</span>\n<div class=\"note\">Trojan Horse là một loại phần mềm độc hại ngụy trang dưới dạng phần mềm hợp pháp.</div>"
   },
   {
     "weight": "high",
@@ -56,12 +56,12 @@
     ],
     "question": "Dịch vụ nào sau đây được hiểu là <span class=\"keyword\">tin nhắn tức thời</span>?",
     "options": [
-      "A. SMS (Short Messaging Service)",
-      "B. VoIP (Voice over Internet Protocol)",
-      "C. TCP/IP (Transmission Control Protocol/Internet Protocol)",
-      "D. <span class=\"answer-keyword\">IM</span> (Instant Messaging)"
+      "SMS (Short Messaging Service)",
+      "VoIP (Voice over Internet Protocol)",
+      "TCP/IP (Transmission Control Protocol/Internet Protocol)",
+      "<span class=\"answer-keyword\">IM</span> (Instant Messaging)"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. <span class=\"answer-keyword\">IM</span> (Instant Messaging)\n<div class=\"note\">IM (Instant Messaging) là dịch vụ nhắn tin tức thời qua mạng Internet.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">IM</span> (Instant Messaging)\n<div class=\"note\">IM (Instant Messaging) là dịch vụ nhắn tin tức thời qua mạng Internet.</div>"
   },
   {
     "weight": "normal",
@@ -72,12 +72,12 @@
     ],
     "question": "Trong cấu trúc của một máy tính điện tử, <span class=\"keyword\">bộ phận ALU</span> (Arithmetic-Logic Unit) trong CPU là gì?",
     "options": [
-      "A. Các thanh ghi",
-      "B. Khối <span class=\"answer-keyword\">tính toán số học và logic</span>",
-      "C. Khối điều khiển",
-      "D. Bộ nhớ trung gian"
+      "Các thanh ghi",
+      "Khối <span class=\"answer-keyword\">tính toán số học và logic</span>",
+      "Khối điều khiển",
+      "Bộ nhớ trung gian"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. Khối <span class=\"answer-keyword\">tính toán số học và logic</span>\n<div class=\"note\">ALU (Arithmetic-Logic Unit) là khối chuyên đảm nhận các phép tính số học và phép toán logic trong CPU.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Khối <span class=\"answer-keyword\">tính toán số học và logic</span>\n<div class=\"note\">ALU (Arithmetic-Logic Unit) là khối chuyên đảm nhận các phép tính số học và phép toán logic trong CPU.</div>"
   },
   {
     "weight": "normal",
@@ -88,12 +88,12 @@
     ],
     "question": "Trong cấu trúc của một máy tính điện tử, bộ phận nào là <span class=\"keyword\">trung tâm điều hành</span> máy tính, có nhiệm vụ <span class=\"keyword\">giải mã các lệnh</span>, tạo ra các <span class=\"keyword\">tín hiệu điều khiển</span> công việc của các bộ phận khác?",
     "options": [
-      "A. Các thanh ghi (Registers)",
-      "B. USB Flash Drive",
-      "C. ALU (Arithmetic-Logic Unit)",
-      "D. <span class=\"answer-keyword\">CU</span> (Control Unit)"
+      "Các thanh ghi (Registers)",
+      "USB Flash Drive",
+      "ALU (Arithmetic-Logic Unit)",
+      "<span class=\"answer-keyword\">CU</span> (Control Unit)"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. <span class=\"answer-keyword\">CU</span> (Control Unit)\n<div class=\"note\">CU (Control Unit) là khối điều khiển, đóng vai trò giải mã lệnh và điều phối hoạt động của toàn hệ thống.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">CU</span> (Control Unit)\n<div class=\"note\">CU (Control Unit) là khối điều khiển, đóng vai trò giải mã lệnh và điều phối hoạt động của toàn hệ thống.</div>"
   },
   {
     "weight": "high",
@@ -104,12 +104,12 @@
     ],
     "question": "Trong cấu trúc của một máy tính điện tử, <span class=\"keyword\">đơn vị xử lý trung tâm (CPU)</span> gồm <span class=\"keyword\">bao nhiêu bộ phận</span> chính?",
     "options": [
-      "A. 4",
-      "B. 2",
-      "C. 1",
-      "D. <span class=\"answer-keyword\">3</span>"
+      "4",
+      "2",
+      "1",
+      "<span class=\"answer-keyword\">3</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. <span class=\"answer-keyword\">3</span>\n<div class=\"note\">CPU thường gồm 3 bộ phận chính: Khối điều khiển (CU), Khối tính toán số học và logic (ALU), và Các thanh ghi (Registers).</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">3</span>\n<div class=\"note\">CPU thường gồm 3 bộ phận chính: Khối điều khiển (CU), Khối tính toán số học và logic (ALU), và Các thanh ghi (Registers).</div>"
   },
   {
     "weight": "normal",
@@ -120,12 +120,12 @@
     ],
     "question": "Phần mềm nào sau đây là <span class=\"keyword\">phần mềm ứng dụng</span>?",
     "options": [
-      "A. Windows 10",
-      "B. <span class=\"answer-keyword\">Google Chrome</span>",
-      "C. Unix",
-      "D. Linux"
+      "Windows 10",
+      "<span class=\"answer-keyword\">Google Chrome</span>",
+      "Unix",
+      "Linux"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. <span class=\"answer-keyword\">Google Chrome</span>\n<div class=\"note\">Google Chrome là trình duyệt web (phần mềm ứng dụng), trong khi Windows 10, Unix, Linux là hệ điều hành.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Google Chrome</span>\n<div class=\"note\">Google Chrome là trình duyệt web (phần mềm ứng dụng), trong khi Windows 10, Unix, Linux là hệ điều hành.</div>"
   },
   {
     "weight": "normal",
@@ -136,12 +136,12 @@
     ],
     "question": "Hãy cho biết khi nhập văn bản bằng <span class=\"keyword\">kiểu gõ Telex</span> thì <span class=\"keyword\">phím f</span> đại diện cho dấu gì?",
     "options": [
-      "A. Dấu nặng",
-      "B. Dấu hỏi",
-      "C. <span class=\"answer-keyword\">Dấu huyền</span>",
-      "D. Dấu sắc"
+      "Dấu nặng",
+      "Dấu hỏi",
+      "<span class=\"answer-keyword\">Dấu huyền</span>",
+      "Dấu sắc"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. <span class=\"answer-keyword\">Dấu huyền</span>\n<div class=\"note\">Trong bảng gõ Telex: s (sắc), f (huyền), r (hỏi), x (ngã), j (nặng).</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Dấu huyền</span>\n<div class=\"note\">Trong bảng gõ Telex: s (sắc), f (huyền), r (hỏi), x (ngã), j (nặng).</div>"
   },
   {
     "weight": "high",
@@ -152,12 +152,12 @@
     ],
     "question": "Trong cửa sổ File Explorer, tổ hợp phím nào được sử dụng <span class=\"keyword\">dán đối tượng</span> vừa sao chép vào vị trí hiện hành?",
     "options": [
-      "A. Ctrl + A",
-      "B. <span class=\"answer-keyword\">Ctrl + V</span>",
-      "C. Ctrl + P",
-      "D. Ctrl + C"
+      "Ctrl + A",
+      "<span class=\"answer-keyword\">Ctrl + V</span>",
+      "Ctrl + P",
+      "Ctrl + C"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. <span class=\"answer-keyword\">Ctrl + V</span>\n<div class=\"note\">Ctrl + V dùng để dán (Paste) dữ liệu đã được copy.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Ctrl + V</span>\n<div class=\"note\">Ctrl + V dùng để dán (Paste) dữ liệu đã được copy.</div>"
   },
   {
     "weight": "normal",
@@ -168,12 +168,12 @@
     ],
     "question": "Để <span class=\"keyword\">bật hoặc tắt</span> chế độ <span class=\"keyword\">gõ dấu tiếng Việt</span> khi sử dụng phần mềm tiện ích <span class=\"keyword\">Unikey</span>, chúng ta chọn tổ hợp phím nào sau đây?",
     "options": [
-      "A. Shift + Z",
-      "B. <span class=\"answer-keyword\">Ctrl + Shift</span>",
-      "C. Alt + Shift",
-      "D. <span class=\"answer-keyword\">Ctrl + Shift</span> + F6"
+      "Shift + Z",
+      "<span class=\"answer-keyword\">Ctrl + Shift</span>",
+      "Alt + Shift",
+      "<span class=\"answer-keyword\">Ctrl + Shift</span> + F6"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. <span class=\"answer-keyword\">Ctrl + Shift</span>\n<div class=\"note\">Mặc định Unikey sử dụng tổ hợp phím Ctrl + Shift hoặc Alt + Z để chuyển đổi nhanh giữa tiếng Việt và tiếng Anh.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Ctrl + Shift</span>\n<div class=\"note\">Mặc định Unikey sử dụng tổ hợp phím Ctrl + Shift hoặc Alt + Z để chuyển đổi nhanh giữa tiếng Việt và tiếng Anh.</div>"
   },
   {
     "weight": "normal",
@@ -184,12 +184,12 @@
     ],
     "question": "Hãy cho biết <span class=\"keyword\">đối tượng nào</span> sau đây sẽ <span class=\"keyword\">có phần mở rộng</span>?",
     "options": [
-      "A. Đường dẫn",
-      "B. Ổ đĩa",
-      "C. <span class=\"answer-keyword\">Tập tin</span>",
-      "D. Thư mục"
+      "Đường dẫn",
+      "Ổ đĩa",
+      "<span class=\"answer-keyword\">Tập tin</span>",
+      "Thư mục"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. <span class=\"answer-keyword\">Tập tin</span>\n<div class=\"note\">Chỉ có tập tin (file) mới có phần mở rộng (extension) để hệ điều hành nhận biết định dạng.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Tập tin</span>\n<div class=\"note\">Chỉ có tập tin (file) mới có phần mở rộng (extension) để hệ điều hành nhận biết định dạng.</div>"
   },
   {
     "weight": "high",
@@ -200,12 +200,12 @@
     ],
     "question": "Trong cửa sổ Recycle Bin, để <span class=\"keyword\">phục hồi đối tượng</span> <span class=\"keyword\">sau khi xóa</span>, người dùng nhấp phải trên đối tượng cần phục hồi và chọn lệnh nào sau đây?",
     "options": [
-      "A. Delete",
-      "B. Cut",
-      "C. Properties",
-      "D. <span class=\"answer-keyword\">Restore</span>"
+      "Delete",
+      "Cut",
+      "Properties",
+      "<span class=\"answer-keyword\">Restore</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. <span class=\"answer-keyword\">Restore</span>\n<div class=\"note\">Lệnh Restore dùng để khôi phục các file/folder đã bị xóa vào Recycle Bin trở về vị trí ban đầu.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Restore</span>\n<div class=\"note\">Lệnh Restore dùng để khôi phục các file/folder đã bị xóa vào Recycle Bin trở về vị trí ban đầu.</div>"
   },
   {
     "weight": "normal",
@@ -216,12 +216,12 @@
     ],
     "question": "Để <span class=\"keyword\">thay đổi quy ước</span> <span class=\"keyword\">về thời gian</span>, ta vào Control Panel, chọn Region, chọn Additional settings, trong Customize Format ta chọn thẻ nào sau đây?",
     "options": [
-      "A. Numbers",
-      "B. Date",
-      "C. <span class=\"answer-keyword\">Time</span>",
-      "D. Currency"
+      "Numbers",
+      "Date",
+      "<span class=\"answer-keyword\">Time</span>",
+      "Currency"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. <span class=\"answer-keyword\">Time</span>\n<div class=\"note\">Thẻ Time trong Customize Format cho phép định dạng lại kiểu hiển thị thời gian (giờ, phút, giây).</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Time</span>\n<div class=\"note\">Thẻ Time trong Customize Format cho phép định dạng lại kiểu hiển thị thời gian (giờ, phút, giây).</div>"
   },
   {
     "weight": "normal",
@@ -232,12 +232,12 @@
     ],
     "question": "Trong chương trình File Explorer, khi tìm kiếm tập tin thì ký tự nào sau đây được sử dụng để <span class=\"keyword\">đại diện</span> <span class=\"keyword\">cho 1 ký tự</span> trong chuỗi từ khóa?",
     "options": [
-      "A. #",
-      "B. *",
-      "C. !",
-      "D. <span class=\"answer-keyword\">?</span>"
+      "#",
+      "*",
+      "!",
+      "<span class=\"answer-keyword\">?</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. <span class=\"answer-keyword\">?</span>\n<div class=\"note\">Ký tự hỏi chấm (?) đại diện cho đúng một ký tự bất kỳ, còn dấu sao (*) đại diện cho chuỗi ký tự.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">?</span>\n<div class=\"note\">Ký tự hỏi chấm (?) đại diện cho đúng một ký tự bất kỳ, còn dấu sao (*) đại diện cho chuỗi ký tự.</div>"
   },
   {
     "weight": "high",
@@ -248,12 +248,12 @@
     ],
     "question": "Trong hệ điều hành Windows 10, để thực hiện thao tác <span class=\"keyword\">gỡ bỏ font chữ</span> đã cài vào máy tính người sử dụng sẽ chọn nhóm lệnh nào trong cửa sổ All Control Panel Items?",
     "options": [
-      "A. Devices and Printers",
-      "B. User Accounts",
-      "C. <span class=\"answer-keyword\">Fonts</span>",
-      "D. Date and Time"
+      "Devices and Printers",
+      "User Accounts",
+      "<span class=\"answer-keyword\">Fonts</span>",
+      "Date and Time"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. <span class=\"answer-keyword\">Fonts</span>\n<div class=\"note\">Chức năng Fonts trong Control Panel dùng để quản lý (cài đặt, gỡ bỏ) các font chữ của hệ thống.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Fonts</span>\n<div class=\"note\">Chức năng Fonts trong Control Panel dùng để quản lý (cài đặt, gỡ bỏ) các font chữ của hệ thống.</div>"
   },
   {
     "weight": "normal",
@@ -264,12 +264,12 @@
     ],
     "question": "Phần mềm <span class=\"keyword\">Unikey</span> được cài đặt vào Windows, <span class=\"keyword\">mục đích</span> dùng để làm gì?",
     "options": [
-      "A. <span class=\"answer-keyword\">Gõ dấu tiếng việt</span>",
-      "B. Vẽ cơ bản",
-      "C. Giải nén dữ liệu",
-      "D. Duyệt web"
+      "<span class=\"answer-keyword\">Gõ dấu tiếng việt</span>",
+      "Vẽ cơ bản",
+      "Giải nén dữ liệu",
+      "Duyệt web"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. <span class=\"answer-keyword\">Gõ dấu tiếng việt</span>\n<div class=\"note\">Unikey là một bộ gõ tiếng Việt phổ biến trên Windows.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Gõ dấu tiếng việt</span>\n<div class=\"note\">Unikey là một bộ gõ tiếng Việt phổ biến trên Windows.</div>"
   },
   {
     "weight": "normal",
@@ -280,12 +280,12 @@
     ],
     "question": "Trong chương trình File Explorer, khi tìm kiếm tập tin thì ký tự nào sau đây được sử dụng để <span class=\"keyword\">đại diện</span> <span class=\"keyword\">cho nhiều ký tự</span> bất kỳ trong chuỗi từ khóa?",
     "options": [
-      "A. <span class=\"answer-keyword\">*</span>",
-      "B. ?",
-      "C. !",
-      "D. #"
+      "<span class=\"answer-keyword\">*</span>",
+      "?",
+      "!",
+      "#"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. <span class=\"answer-keyword\">*</span>\n<div class=\"note\">Ký tự dấu sao (*) đại diện cho một chuỗi nhiều ký tự (hoặc không có ký tự nào) trong tìm kiếm.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">*</span>\n<div class=\"note\">Ký tự dấu sao (*) đại diện cho một chuỗi nhiều ký tự (hoặc không có ký tự nào) trong tìm kiếm.</div>"
   },
   {
     "weight": "high",
@@ -296,12 +296,12 @@
     ],
     "question": "Trong cửa sổ File Explorer, để <span class=\"keyword\">sửa đổi tên đối tượng</span>, chúng ta vào thẻ Home và chọn <span class=\"keyword\">lệnh Rename</span> ở nhóm lệnh nào?",
     "options": [
-      "A. <span class=\"answer-keyword\">Organize</span>",
-      "B. New",
-      "C. Open",
-      "D. Clipboard"
+      "<span class=\"answer-keyword\">Organize</span>",
+      "New",
+      "Open",
+      "Clipboard"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. <span class=\"answer-keyword\">Organize</span>\n<div class=\"note\">Trong ribbon Home của File Explorer, lệnh Rename, Delete, Move to, Copy to thuộc nhóm lệnh Organize.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Organize</span>\n<div class=\"note\">Trong ribbon Home của File Explorer, lệnh Rename, Delete, Move to, Copy to thuộc nhóm lệnh Organize.</div>"
   },
   {
     "weight": "normal",
@@ -312,12 +312,12 @@
     ],
     "question": "Hãy cho biết <span class=\"keyword\">font chữ nào</span> được chọn khi người sử dụng soạn thảo văn bản với <span class=\"keyword\">bảng mã Unicode</span>?",
     "options": [
-      "A. .Vn-time",
-      "B. VNI-Thuphap",
-      "C. Vni-Times",
-      "D. <span class=\"answer-keyword\">Times New Roman</span>"
+      ".Vn-time",
+      "VNI-Thuphap",
+      "Vni-Times",
+      "<span class=\"answer-keyword\">Times New Roman</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. <span class=\"answer-keyword\">Times New Roman</span>\n<div class=\"note\">Times New Roman là font chữ chuẩn quốc tế hỗ trợ đầy đủ bảng mã Unicode (khác với .VnTime dùng mã TCVN3 hay Vni-Times dùng mã VNI).</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Times New Roman</span>\n<div class=\"note\">Times New Roman là font chữ chuẩn quốc tế hỗ trợ đầy đủ bảng mã Unicode (khác với .VnTime dùng mã TCVN3 hay Vni-Times dùng mã VNI).</div>"
   },
   {
     "weight": "normal",
@@ -328,12 +328,12 @@
     ],
     "question": "Trong cấu trúc của một máy tính điện tử, thiết bị nào sau đây <span class=\"keyword\">KHÔNG phải</span> là <span class=\"keyword\">thiết bị nhập</span>?",
     "options": [
-      "A. Bàn phím",
-      "B. Chuột",
-      "C. <span class=\"answer-keyword\">Màn hình</span>",
-      "D. Máy quét"
+      "Bàn phím",
+      "Chuột",
+      "<span class=\"answer-keyword\">Màn hình</span>",
+      "Máy quét"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. <span class=\"answer-keyword\">Màn hình</span>\n<div class=\"note\">Màn hình là thiết bị xuất dữ liệu, không phải thiết bị nhập.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Màn hình</span>\n<div class=\"note\">Màn hình là thiết bị xuất dữ liệu, không phải thiết bị nhập.</div>"
   },
   {
     "weight": "high",
@@ -344,12 +344,12 @@
     ],
     "question": "Loại mạng nào sau đây là một hệ thống <span class=\"keyword\">mạng tư nhân</span> trong một tòa nhà, một khu vực và có <span class=\"keyword\">phạm vi</span> hoạt động từ <span class=\"keyword\">vài mét cho đến 1 km</span>?",
     "options": [
-      "A. <span class=\"answer-keyword\">LAN</span>",
-      "B. MAN",
-      "C. WAN",
-      "D. INTERNET"
+      "<span class=\"answer-keyword\">LAN</span>",
+      "MAN",
+      "WAN",
+      "INTERNET"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. <span class=\"answer-keyword\">LAN</span>\n<div class=\"note\">LAN (Local Area Network) là mạng cục bộ, phạm vi giới hạn trong một tòa nhà, công ty.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">LAN</span>\n<div class=\"note\">LAN (Local Area Network) là mạng cục bộ, phạm vi giới hạn trong một tòa nhà, công ty.</div>"
   },
   {
     "weight": "normal",
@@ -360,12 +360,12 @@
     ],
     "question": "Hãy cho biết phần mềm nào sau đây <span class=\"keyword\">KHÔNG phải</span> là <span class=\"keyword\">phần mềm độc hại</span> (Malware)?",
     "options": [
-      "A. Adware",
-      "B. <span class=\"answer-keyword\">Unikey</span>",
-      "C. Spyware",
-      "D. Trojan Horse"
+      "Adware",
+      "<span class=\"answer-keyword\">Unikey</span>",
+      "Spyware",
+      "Trojan Horse"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. <span class=\"answer-keyword\">Unikey</span>\n<div class=\"note\">Unikey là bộ gõ tiếng Việt hợp pháp. Adware, Spyware, Trojan là các loại mã độc.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Unikey</span>\n<div class=\"note\">Unikey là bộ gõ tiếng Việt hợp pháp. Adware, Spyware, Trojan là các loại mã độc.</div>"
   },
   {
     "weight": "normal",
@@ -376,12 +376,12 @@
     ],
     "question": "Trong hệ điều hành Windows 10, để thực hiện thao tác <span class=\"keyword\">gỡ bỏ font chữ</span> đã cài vào máy tính người sử dụng sẽ chọn nhóm lệnh nào trong cửa sổ All Control Panel Items của Control Panel?",
     "options": [
-      "A. <span class=\"answer-keyword\">Fonts</span>",
-      "B. Date and Time",
-      "C. Devices and Printers",
-      "D. User Accounts"
+      "<span class=\"answer-keyword\">Fonts</span>",
+      "Date and Time",
+      "Devices and Printers",
+      "User Accounts"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. <span class=\"answer-keyword\">Fonts</span>\n<div class=\"note\">Mục Fonts dùng để xem, cài đặt và gỡ bỏ font chữ.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Fonts</span>\n<div class=\"note\">Mục Fonts dùng để xem, cài đặt và gỡ bỏ font chữ.</div>"
   },
   {
     "weight": "high",
@@ -392,12 +392,12 @@
     ],
     "question": "Hãy cho biết tổ hợp phím nào được sử dụng để <span class=\"keyword\">đóng cửa sổ</span> 1 chương trình ứng dụng?",
     "options": [
-      "A. CTRL+F4",
-      "B. <span class=\"answer-keyword\">ALT+F4</span>",
-      "C. SHIFT+F4",
-      "D. ALT+TAB"
+      "CTRL+F4",
+      "<span class=\"answer-keyword\">ALT+F4</span>",
+      "SHIFT+F4",
+      "ALT+TAB"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> B. <span class=\"answer-keyword\">ALT+F4</span>\n<div class=\"note\">ALT + F4 đóng cửa sổ ứng dụng hiện tại. CTRL + F4 chỉ đóng tab bên trong ứng dụng.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">ALT+F4</span>\n<div class=\"note\">ALT + F4 đóng cửa sổ ứng dụng hiện tại. CTRL + F4 chỉ đóng tab bên trong ứng dụng.</div>"
   },
   {
     "weight": "normal",
@@ -408,12 +408,12 @@
     ],
     "question": "Phần mềm <span class=\"keyword\">WinRAR</span> được cài đặt vào Windows, <span class=\"keyword\">mục đích</span> dùng để làm gì?",
     "options": [
-      "A. Gõ dấu tiếng việt",
-      "B. Soạn thảo văn bản",
-      "C. Vẽ cơ bản",
-      "D. <span class=\"answer-keyword\">Giải nén dữ liệu</span>"
+      "Gõ dấu tiếng việt",
+      "Soạn thảo văn bản",
+      "Vẽ cơ bản",
+      "<span class=\"answer-keyword\">Giải nén dữ liệu</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. <span class=\"answer-keyword\">Giải nén dữ liệu</span>\n<div class=\"note\">WinRAR là phần mềm quản lý và nén/giải nén các tệp tin lưu trữ (ZIP, RAR).</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Giải nén dữ liệu</span>\n<div class=\"note\">WinRAR là phần mềm quản lý và nén/giải nén các tệp tin lưu trữ (ZIP, RAR).</div>"
   },
   {
     "weight": "normal",
@@ -424,12 +424,12 @@
     ],
     "question": "Hãy cho biết tổ hợp phím nào được sử dụng để <span class=\"keyword\">chuyển đổi qua lại</span> <span class=\"keyword\">giữa các cửa sổ</span> của các ứng dụng đang mở?",
     "options": [
-      "A. <span class=\"answer-keyword\">ALT+TAB</span>",
-      "B. SHIFT+TAB",
-      "C. Windows+TAB",
-      "D. CTRL+TAB"
+      "<span class=\"answer-keyword\">ALT+TAB</span>",
+      "SHIFT+TAB",
+      "Windows+TAB",
+      "CTRL+TAB"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. <span class=\"answer-keyword\">ALT+TAB</span>\n<div class=\"note\">ALT + TAB giúp chuyển nhanh (switch) giữa các cửa sổ chương trình đang mở.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">ALT+TAB</span>\n<div class=\"note\">ALT + TAB giúp chuyển nhanh (switch) giữa các cửa sổ chương trình đang mở.</div>"
   },
   {
     "weight": "high",
@@ -440,12 +440,12 @@
     ],
     "question": "Trong chương trình Microsoft Office Word 2013, hãy cho biết thao tác nào sau đây được sử dụng để <span class=\"keyword\">chia cột</span> cho <span class=\"keyword\">đoạn văn bản</span> đang được chọn?",
     "options": [
-      "A. Home, Nhóm Editing, Columns",
-      "B. Insert, Nhóm Text, Columns",
-      "C. <span class=\"answer-keyword\">Page Layout, Nhóm Page Setup, Columns</span>",
-      "D. Design, Nhóm Page Background, Columns"
+      "Home, Nhóm Editing, Columns",
+      "Insert, Nhóm Text, Columns",
+      "<span class=\"answer-keyword\">Page Layout, Nhóm Page Setup, Columns</span>",
+      "Design, Nhóm Page Background, Columns"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. <span class=\"answer-keyword\">Page Layout, Nhóm Page Setup, Columns</span>\n<div class=\"note\">Tính năng chia cột văn bản nằm trong thẻ Page Layout (hoặc Layout), nhóm Page Setup.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Page Layout, Nhóm Page Setup, Columns</span>\n<div class=\"note\">Tính năng chia cột văn bản nằm trong thẻ Page Layout (hoặc Layout), nhóm Page Setup.</div>"
   },
   {
     "weight": "normal",
@@ -456,12 +456,12 @@
     ],
     "question": "Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng chữ <span class=\"keyword\">Drop Cap</span> tùy chọn nào xác định <span class=\"keyword\">khoảng cách chữ cái</span> và văn bản còn lại?",
     "options": [
-      "A. Lines to drop",
-      "B. Font",
-      "C. <span class=\"answer-keyword\">Distance from text</span>",
-      "D. Position"
+      "Lines to drop",
+      "Font",
+      "<span class=\"answer-keyword\">Distance from text</span>",
+      "Position"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. <span class=\"answer-keyword\">Distance from text</span>\n<div class=\"note\">Distance from text dùng để thiết lập khoảng cách (độ rỗng) giữa chữ Drop Cap lớn và phần văn bản kế bên.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Distance from text</span>\n<div class=\"note\">Distance from text dùng để thiết lập khoảng cách (độ rỗng) giữa chữ Drop Cap lớn và phần văn bản kế bên.</div>"
   },
   {
     "weight": "normal",
@@ -472,12 +472,12 @@
     ],
     "question": "Trong chương trình Microsoft Office Word 2013, khi định dạng <span class=\"keyword\">khung viền</span> cho trang giấy tùy chọn nào cho phép chọn <span class=\"keyword\">kiểu đường viền</span>?",
     "options": [
-      "A. <span class=\"answer-keyword\">Styles</span>",
-      "B. Preview",
-      "C. Color",
-      "D. Width"
+      "<span class=\"answer-keyword\">Styles</span>",
+      "Preview",
+      "Color",
+      "Width"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. <span class=\"answer-keyword\">Styles</span>\n<div class=\"note\">Styles quy định kiểu đường nét (liền, đứt khúc, dấu chấm...). Color (Màu) và Width (Độ dày).</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Styles</span>\n<div class=\"note\">Styles quy định kiểu đường nét (liền, đứt khúc, dấu chấm...). Color (Màu) và Width (Độ dày).</div>"
   },
   {
     "weight": "high",
@@ -488,12 +488,12 @@
     ],
     "question": "Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng cho <span class=\"keyword\">đối tượng Shape</span> lệnh nào cho phép xác định <span class=\"keyword\">màu đường viền</span> của Shape?",
     "options": [
-      "A. <span class=\"answer-keyword\">Shape Outline</span>",
-      "B. Shape Fill",
-      "C. Align Text",
-      "D. Shape Effects"
+      "<span class=\"answer-keyword\">Shape Outline</span>",
+      "Shape Fill",
+      "Align Text",
+      "Shape Effects"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. <span class=\"answer-keyword\">Shape Outline</span>\n<div class=\"note\">Shape Outline quản lý màu và độ dày của viền hình vẽ, trong khi Shape Fill là màu nền bên trong.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Shape Outline</span>\n<div class=\"note\">Shape Outline quản lý màu và độ dày của viền hình vẽ, trong khi Shape Fill là màu nền bên trong.</div>"
   },
   {
     "weight": "normal",
@@ -504,12 +504,12 @@
     ],
     "question": "Trong chương trình Microsoft Office Word 2013, cho biết tổ hợp phím tắt nào được sử dụng để định dạng <span class=\"keyword\">chữ in nghiêng</span>?",
     "options": [
-      "A. <span class=\"answer-keyword\">CTRL+I</span>",
-      "B. CTRL+B",
-      "C. CTRL+U",
-      "D. CTRL+Z"
+      "<span class=\"answer-keyword\">CTRL+I</span>",
+      "CTRL+B",
+      "CTRL+U",
+      "CTRL+Z"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> A. <span class=\"answer-keyword\">CTRL+I</span>\n<div class=\"note\">CTRL+I = Italic (Nghiêng), CTRL+B = Bold (Đậm), CTRL+U = Underline (Gạch chân).</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">CTRL+I</span>\n<div class=\"note\">CTRL+I = Italic (Nghiêng), CTRL+B = Bold (Đậm), CTRL+U = Underline (Gạch chân).</div>"
   },
   {
     "weight": "normal",
@@ -520,12 +520,12 @@
     ],
     "question": "Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác <span class=\"keyword\">định dạng bảng biểu</span>, nhóm lệnh nào trong thẻ Layout cho phép <span class=\"keyword\">thay đổi độ rộng</span> của ô?",
     "options": [
-      "A. Alignment",
-      "B. Merge",
-      "C. <span class=\"answer-keyword\">Cell Size</span>",
-      "D. Rows & Columns"
+      "Alignment",
+      "Merge",
+      "<span class=\"answer-keyword\">Cell Size</span>",
+      "Rows & Columns"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. <span class=\"answer-keyword\">Cell Size</span>\n<div class=\"note\">Nhóm Cell Size chứa Height và Width để điều chỉnh chiều cao và độ rộng của hàng/cột.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Cell Size</span>\n<div class=\"note\">Nhóm Cell Size chứa Height và Width để điều chỉnh chiều cao và độ rộng của hàng/cột.</div>"
   },
   {
     "weight": "high",
@@ -536,12 +536,12 @@
     ],
     "question": "Khi mở <span class=\"keyword\">hộp thoại Font</span> trong chương trình Microsoft Office Word 2013, để thiết lập <span class=\"keyword\">thông số màu chữ</span> cho văn bản đang chọn khối ta sử dụng tùy chọn nào sau đây?",
     "options": [
-      "A. Font Style",
-      "B. Font size",
-      "C. Underline Color",
-      "D. <span class=\"answer-keyword\">Font Color</span>"
+      "Font Style",
+      "Font size",
+      "Underline Color",
+      "<span class=\"answer-keyword\">Font Color</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> D. <span class=\"answer-keyword\">Font Color</span>\n<div class=\"note\">Font Color là tùy chọn để thay đổi màu sắc của văn bản.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Font Color</span>\n<div class=\"note\">Font Color là tùy chọn để thay đổi màu sắc của văn bản.</div>"
   },
   {
     "weight": "normal",
@@ -552,12 +552,12 @@
     ],
     "question": "Trong chương trình Microsoft Office Word 2013, khi định dạng <span class=\"keyword\">khung viền</span> cho trang giấy tùy chọn nào cho phép chọn <span class=\"keyword\">màu của đường viền</span>?",
     "options": [
-      "A. Styles",
-      "B. Width",
-      "C. <span class=\"answer-keyword\">Color</span>",
-      "D. Preview"
+      "Styles",
+      "Width",
+      "<span class=\"answer-keyword\">Color</span>",
+      "Preview"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. <span class=\"answer-keyword\">Color</span>\n<div class=\"note\">Tùy chọn Color thiết lập màu sắc cho khung viền của trang (Page Border).</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Color</span>\n<div class=\"note\">Tùy chọn Color thiết lập màu sắc cho khung viền của trang (Page Border).</div>"
   },
   {
     "weight": "normal",
@@ -568,11 +568,11 @@
     ],
     "question": "Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác <span class=\"keyword\">định dạng bảng biểu</span>, lệnh nào thiết lập việc <span class=\"keyword\">lặp lại tiêu đề bảng</span> ở các trang giấy?",
     "options": [
-      "A. Convert to Text",
-      "B. Distribute Columns",
-      "C. <span class=\"answer-keyword\">Repeat Header Rows</span>",
-      "D. Sort"
+      "Convert to Text",
+      "Distribute Columns",
+      "<span class=\"answer-keyword\">Repeat Header Rows</span>",
+      "Sort"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> C. <span class=\"answer-keyword\">Repeat Header Rows</span>\n<div class=\"note\">Repeat Header Rows giúp dòng đầu tiên của bảng tự động lặp lại khi bảng bị tràn sang trang mới.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Repeat Header Rows</span>\n<div class=\"note\">Repeat Header Rows giúp dòng đầu tiên của bảng tự động lặp lại khi bảng bị tràn sang trang mới.</div>"
   }
 ]
