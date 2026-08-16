@@ -838,7 +838,7 @@
       "Tổng Quan & Đo Lường Tăng Trưởng",
       "Giới hạn & Rủi ro"
     ],
-    "question": "Khi cung tiền và cầu tiền được biểu diễn bằng một đồ thị với trục tung là lãi suất và trục hoành là lượng tiền, <span class=\"keyword\">sự cắt giảm thu nhập</span> làm:",
+    "question": "Khi <span class=\"keyword\">cung tiền và cầu tiền</span> được biểu diễn bằng một đồ thị với trục tung là lãi suất và trục hoành là lượng tiền, mức giá <span class=\"keyword\">tăng</span>:",
     "options": [
       "Dịch chuyển đường cầu tiền sang phải và làm tăng lãi suất cân bằng",
       "Dịch chuyển đường cầu tiền <span class=\"answer-keyword\">sang trái</span> và làm <span class=\"answer-keyword\">giảm lãi suất cân bằng</span>",
@@ -1478,7 +1478,7 @@
       "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô",
       "[Giới hạn & Rủi ro]"
     ],
-    "question": "Giả sử rằng khối lượng tư bản trong năm của một nền kinh tế <span class=\"keyword\">tăng</span> lên. Điều gì đã xảy ra?",
+    "question": "Giả sử rằng <span class=\"keyword\">khối lượng tư bản</span> trong năm của một nền kinh tế <span class=\"keyword\">tăng</span> lên. Điều gì đã xảy ra?",
     "options": [
       "Khấu hao lớn hơn đầu tư ròng",
       "Khấu hao không đổi so với đầu tư ròng",
@@ -1510,7 +1510,7 @@
       "Tổng Quan & Đo Lường Tăng Trưởng",
       "[Phân luồng]"
     ],
-    "question": "Trong một nền kinh tế, khi có sự đầu tư và chi tiêu quá mức của tư nhân, của Chính phủ hoặc xuất khẩu <span class=\"keyword\">tăng</span> mạnh sẽ dẫn đến tình trạng:",
+    "question": "Trong một nền kinh tế, khi có sự <span class=\"keyword\">đầu tư và chi tiêu quá mức</span> của tư nhân, của Chính phủ hoặc xuất khẩu <span class=\"keyword\">tăng</span> mạnh sẽ dẫn đến tình trạng:",
     "options": [
       "Lạm phat do chi phí đẩy",
       "Lạm phát do phát hành tiền",
@@ -1526,7 +1526,7 @@
       "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô",
       "[Giới hạn & Rủi ro]"
     ],
-    "question": "Nếu có một sự <span class=\"keyword\">giảm</span> sút trong đầu tư của tư nhân 10 tỷ và MPC = 0,75 mức sản lượng cân bằng sẽ là:",
+    "question": "Nếu có một sự <span class=\"keyword\">giảm</span> sút trong <span class=\"keyword\">đầu tư của tư nhân</span> 10 tỷ và MPC = 0,75 mức sản lượng cân bằng sẽ là:",
     "options": [
       "Tăng lên 13,33 tỷ",
       "Tăng 40 tỷ",
@@ -1571,22 +1571,6 @@
     "weight": "normal",
     "tags": [
       "[Kiến thức]",
-      "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô",
-      "[Logic & Nguyên tắc]"
-    ],
-    "question": "Với số nhân tổng quát K = 4, <span class=\"keyword\">tổng cầu</span> <span class=\"keyword\">tăng</span> thêm thì sản lượng sẽ tăng thêm",
-    "options": [
-      "100",
-      "250",
-      "<span class=\"answer-keyword\">400</span>",
-      "300"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">400</span>"
-  },
-  {
-    "weight": "normal",
-    "tags": [
-      "[Kiến thức]",
       "Tổng Quan & Đo Lường Tăng Trưởng",
       "[Giới hạn & Rủi ro]"
     ],
@@ -1606,7 +1590,7 @@
       "Tổng Quan & Đo Lường Tăng Trưởng",
       "[Giới hạn & Rủi ro]"
     ],
-    "question": "Nếu tỷ giá hối đoái danh nghĩa <span class=\"keyword\">không</span> thay đổi đáng kể, tốc độ tăng giá trong nước tăng nhanh hơn giá thế giới, sức cạnh tranh của hàng hóa trong nước sẽ:",
+    "question": "Nếu <span class=\"keyword\">tỷ giá hối đoái danh nghĩa</span> <span class=\"keyword\">không</span> thay đổi đáng kể, tốc độ tăng giá trong nước tăng nhanh hơn giá thế giới, sức cạnh tranh của hàng hóa trong nước sẽ:",
     "options": [
       "Không thể kết luận",
       "Không đổi",
@@ -1638,7 +1622,7 @@
       "Tổng Quan & Đo Lường Tăng Trưởng",
       "[Giới hạn & Rủi ro]"
     ],
-    "question": "Chính sách nào của Chính phủ sẽ làm kinh tế <span class=\"keyword\">tăng</span> trưởng nhiều nhất?",
+    "question": "<span class=\"keyword\">Chính sách</span> nào của Chính phủ sẽ làm kinh tế <span class=\"keyword\">tăng</span> trưởng nhiều nhất?",
     "options": [
       "Tăng thuế thu nhập từ tiết kiệm, cung cấp tín dụng thuế đầu tư, và giảm thâm hụt",
       "Giảm thuế thu nhập từ tiết kiệm, cung cấp tín dụng thuế đầu tư, và giảm thâm hụt",
@@ -1654,7 +1638,7 @@
       "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô",
       "[Giới hạn & Rủi ro]"
     ],
-    "question": "Nếu ngân hàng Trung ương làm cho lượng cung tiền gia <span class=\"keyword\">tăng</span>:",
+    "question": "Nếu ngân hàng Trung ương làm cho lượng <span class=\"keyword\">cung tiền</span> gia <span class=\"keyword\">tăng</span>:",
     "options": [
       "<span class=\"answer-keyword\">Đường LM dịch chuyển</span> sang phải",
       "Chỉ có sự di chuyển dọc trên đường LM",
@@ -1718,7 +1702,7 @@
       "Tổng Quan & Đo Lường Tăng Trưởng",
       "[Giới hạn & Rủi ro]"
     ],
-    "question": "Khi OPEC <span class=\"keyword\">tăng</span> giá dầu thì:",
+    "question": "Khi OPEC <span class=\"keyword\">tăng</span> <span class=\"keyword\">giá dầu</span> thì:",
     "options": [
       "Tỷ lệ lạm phát ở các nước nhập khẩu dầu mỏ giảm",
       "GDP thực tế ở các nước nhập khẩu dầu mỏ tăng",
