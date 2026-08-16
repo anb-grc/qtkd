@@ -149,7 +149,17 @@ Quy trình co-work chuẩn hóa cho toàn bộ vòng đời môn học, vận h�
   4. **Kiểm Chứng Phản Xạ (Checklist/Formula):** `InteractiveCalc`, `PriorityMatrix`, `ScenarioGrid`...
 - **Quy tắc Tương tác Mindmap:** Đối với Component `Mindmap` (hoặc các component dùng Zoom-Pan-Pinch), BẮT BUỘC tắt cơ chế neo giữa màn hình (`limitToBounds={false}`). User phải được tự do kéo (pan) bản đồ đi bất cứ đâu mà không bị giật (snap) tuột về trung tâm khi buông chuột.
 
-**2. Lớp UI/UX Standards ("Less is More"):**
+**2. Thuật toán Ánh Xạ Nhận Thức & Chống Thiên Lệch Component (Anti-Bias Logic):**
+- **Quy tắc Mỏ Neo (The Anchor Rule):** Tầng `overview` của `kb.json` BẮT BUỘC luôn là `mindmap` để làm gốc rễ định hướng.
+- **Quy tắc Chống Lười (Anti-Safe Choice Bias):** Khi chọn Component cho tầng `details`, Agent BẮT BUỘC phải rà soát qua các Component dị biệt (như `radar-chart`, `venn-diagram`, `funnel`, `kanban`, `ecosystem-map`, v.v.) trước tiên. CẤM lạm dụng `features`, `vs-wrap` hay `matrix-table` một cách vô tội vạ. Chỉ được dùng các Component cơ bản này khi dữ liệu thật sự quá ngắn hoặc không có các đặc tính giao thoa, chiều sâu, hay tiến trình.
+- **Cơ chế Đổ Xúc Xắc Component (Roulette Weighting):** Thay vì tự do chọn bừa, Agent phải quét các "Từ khóa hình thái" trong Text thô để kích hoạt Component đặc thù:
+  - Text chứa *"giai đoạn, bước, quy trình, tiếp theo"* ➔ BẮT BUỘC ưu tiên `funnel`, `process-steps`, `roadmap` hoặc `gantt-chart`.
+  - Text chứa *"ưu điểm, nhược điểm, sai lầm, rủi ro, ngoại lệ"* ➔ BẮT BUỘC ưu tiên `pain-point`, `delta-cheat-sheet` hoặc `true-false-grid`.
+  - Text mổ xẻ nhiều góc độ, đa chiều tiêu chí ➔ BẮT BUỘC ưu tiên `radar-chart`, `heatmap`, `matrix-table`.
+  - Text thể hiện sự bao hàm, lớp lang ➔ BẮT BUỘC ưu tiên `layered-model`, `hierarchical-tree`.
+- **Quy tắc Đo Lường Trọng Lượng (Data Gravity):** Text ngắn (< 50 từ) mang tính liệt kê ➔ Áp dụng Component nhẹ: `pair-grid`, `features`. Text dài, nhiều điều kiện phức tạp ➔ Ép dùng Component nặng và có tính tương tác: `decision-tree`, `interactive-calc`, `scenario-grid`.
+
+**3. Lớp UI/UX Standards ("Less is More"):**
 - **Quy Chuẩn Viết In Hoa (Uppercase Consistency):** Không bắt buộc cứng nhắc một màu. Các chuỗi VIẾT IN HOA (`text-transform: uppercase`) được phép phối màu linh hoạt (`--primary`, `--secondary`, `--muted`, v.v...) tùy theo bối cảnh khối UI (VD: Component Kiến thức nền). Tuy nhiên, vẫn **CẤM** lạm dụng các màu rực rỡ chói mắt (đỏ tươi, xanh lá chuối, cam nguyên bản) rải thảm lên tiêu đề gây xao nhãng. (Ngoại lệ: Các thẻ cảnh báo Bẫy Nguy Hiểm/Bẫy Lật Kèo vẫn ưu tiên dùng mờ Đỏ `--color-danger`).
 - **Quy Chuẩn Màu Nội Dung:** Văn bản câu hỏi/ý chính dùng **Trắng nguyên bản (`#ffffff`)**; đoạn giải thích dài hay thông tin phụ dùng **Xám mờ (`rgba(255, 255, 255, 0.7)`)**.
 - **Tối Giản Tuyệt Đối:** Nghiêm cấm nhét các icon phèn phèn hoặc emoji rễ ràng rườm rà không phục vụ trực tiếp việc giải thích.
@@ -160,7 +170,7 @@ Quy trình co-work chuẩn hóa cho toàn bộ vòng đời môn học, vận h�
   2. Trên Card Câu Hỏi: UI CHỈ render tối đa 3 loại thẻ: Thẻ nguồn gốc, Thẻ Khung Tư Duy, và Thẻ Trọng tâm (nhãn High/Trọng tâm). Ẩn hoàn toàn thẻ Tên kiến thức chuyên đề để giữ giao diện gọn gàng (mỗi câu chỉ hiện 1-2 tag). *(LƯU Ý DÀNH CHO AGENT: Tuyệt đối KHÔNG được chèn thủ công chữ `High` hay `Trọng tâm` vào mảng `tags` của `qs.json`. Các thẻ này do UI tự động đẻ ra dựa vào thuộc tính `weight` của câu hỏi).*
 - **Tư duy Mobile-First:** Các UI mới phải bo trọn trên màn hình Mobile (`flex-wrap: wrap`), không để lẹm chữ. Tái sử dụng Design Tokens, cấm hardcode màu tùy hứng.
 
-**3. Lớp Dữ Liệu & Cơ Chế Liên Kết (One-Source-of-Truth cho Kiến Thức và Đề Thi):**
+**4. Lớp Dữ Liệu & Cơ Chế Liên Kết (One-Source-of-Truth cho Kiến Thức và Đề Thi):**
 - **Cơ Chế Liên Kết Kép (Dual-Binding):** File `qs.json` không chỉ đóng vai trò là ngân hàng cho chế độ Thi Thử (Thi đấu sinh tồn) mà nay đã trở thành **lõi cung cấp dữ liệu động (Dynamic Data Provider)** cho các khối Quiz bên trong `kb.json`. Nhờ đó, sinh viên có thể vừa học lý thuyết (Trực quan hóa) vừa thực hành (Câu hỏi nhanh) ngay trong cùng một ngữ cảnh.
 - **Cơ Chế Thi Thử:** Nghiêm cấm mọi Agent tự ý đẻ file HTML hay dữ liệu JSON độc lập riêng lẻ cho chế độ Thi Thử. Chế độ Thi Thử là một **Cỗ máy trích xuất tự động (Automated Extraction Engine)** đọc trực tiếp mảng `options` trong `qs.json`, lột toàn bộ các thẻ bôi đậm highlight (`<span class="keyword">`, `<span class="answer-keyword">`, `<b>`) trả về văn bản thô trắng tinh y như phòng thi thật, và trộn ngẫu nhiên thứ tự để thi đấu sinh tồn! Đối với các môn Flashcard không có 4 lựa chọn, mảng `options` sẽ rỗng và App tự động ẩn chế độ Thi Thử.
 - **Cấu Trúc JSON Đề Thi (`qs.json`):** Để UI Filter/Sort hoạt động, cấu trúc JSON của mỗi câu hỏi **bắt buộc phải có đủ 5 keys sau**:
