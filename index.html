@@ -149,10 +149,24 @@
     window.addEventListener('DOMContentLoaded', () => {
         const grid = document.getElementById('subjectsGrid');
         
+        // Sắp xếp các môn theo lần mở gần nhất (mới nhất lên trên)
+        window.TVU_SUBJECTS.sort((a, b) => {
+            let tA = parseInt(localStorage.getItem('tvu_last_opened_' + a.id)) || 0;
+            let tB = parseInt(localStorage.getItem('tvu_last_opened_' + b.id)) || 0;
+            if (tA !== tB) return tB - tA;
+            // Nếu chưa mở hoặc trùng thời gian thì ưu tiên sort id
+            return parseInt(a.id) - parseInt(b.id); 
+        });
+        
         window.TVU_SUBJECTS.forEach(subject => {
             const card = document.createElement('a');
             card.href = `./quiz.html?id=${subject.id}`;
             card.className = 'card';
+            
+            // Lưu thời gian truy cập khi click vào môn
+            card.onclick = () => {
+                localStorage.setItem('tvu_last_opened_' + subject.id, Date.now());
+            };
             
             // Lấy JSON Path filename để tính localStorage key (y chang cũ để giữ điểm)
             let jsonFilename = subject.jsonPath.substring(subject.jsonPath.lastIndexOf('/') + 1);
