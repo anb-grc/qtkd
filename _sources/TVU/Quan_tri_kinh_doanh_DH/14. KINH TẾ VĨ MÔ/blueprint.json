@@ -1,0 +1,46 @@
+{
+  "subject": "KINH TẾ VĨ MÔ",
+  "version": "1.0",
+  "author": "The Veteran Professor (AI Agent)",
+  "core_focus_80_20": {
+    "root_concepts": [
+      "Các chỉ tiêu đo lường vĩ mô cốt lõi: GDP, GNP (Danh nghĩa vs Thực tế) và các phương pháp tính (Chi tiêu, Thu nhập, Giá trị gia tăng).",
+      "Mô hình Tổng cung (AS) - Tổng cầu (AD): Các nhân tố làm dịch chuyển đường AS và AD.",
+      "Chính sách tài khóa (Thuế, Chi tiêu chính phủ) và Chính sách tiền tệ (Lãi suất, Cung tiền) tác động đến AD.",
+      "Khái niệm và cách đo lường Lạm phát (CPI, GDP Deflator) và Thất nghiệp (tự nhiên vs chu kỳ)."
+    ],
+    "common_traps": [
+      "Bẫy phân biệt GDP (Lãnh thổ) và GNP (Quốc tịch). Thường xuyên bị gài bẫy người nước ngoài làm việc tại VN.",
+      "Bẫy phân biệt GDP danh nghĩa (tính theo giá hiện hành) và GDP thực (tính theo giá năm gốc).",
+      "Nhầm lẫn giữa Số nhân chi tiêu (k = 1/(1-MPC)) và Số nhân tiền tệ (mM = 1/rr).",
+      "Đánh tráo khái niệm giữa Thất nghiệp cơ cấu, ma sát và thất nghiệp chu kỳ.",
+      "Bẫy dịch chuyển dọc trên đường (di chuyển do Giá thay đổi) và dịch chuyển cả đường (do các cú sốc/nhân tố khác)."
+    ],
+    "high_coverage": [
+      "Tác động kép của Chính sách tài khóa mở rộng / thắt chặt đến Lãi suất, Đầu tư tư nhân (Hiện tượng lấn át - Crowding out) và Tổng cầu.",
+      "Mối quan hệ đánh đổi ngắn hạn giữa Lạm phát và Thất nghiệp (Đường Phillips)."
+    ]
+  },
+  "exam_matrix": [
+    {
+      "tag": "Tổng Quan & Đo Lường Tăng Trưởng",
+      "percentage": 30,
+      "description": "Bài tập tính GDP, GNP, Tốc độ tăng trưởng, GDP danh nghĩa và thực tế."
+    },
+    {
+      "tag": "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô",
+      "percentage": 30,
+      "description": "Các nhân tố dịch chuyển AD-AS, Số nhân chi tiêu, Chính sách vĩ mô."
+    },
+    {
+      "tag": "Cú Sốc Vĩ Mô: Lạm Phát & Thất Nghiệp",
+      "percentage": 20,
+      "description": "Tính CPI, Tỷ lệ lạm phát, Tỷ lệ thất nghiệp, Đường Phillips."
+    },
+    {
+      "tag": "Thị Trường Tiền Tệ & Tài Chính Quốc Tế",
+      "percentage": 20,
+      "description": "Cung cầu tiền, Số nhân tiền, Tỷ giá hối đoái và Cán cân thanh toán."
+    }
+  ]
+}
