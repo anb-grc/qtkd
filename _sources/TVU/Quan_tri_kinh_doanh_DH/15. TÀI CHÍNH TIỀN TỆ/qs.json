@@ -1066,14 +1066,14 @@
   },
   {
     "weight": "normal",
-    "question": "Vốn lưu động của doanh nghiệp theo nguyên lý chung có thể được hiểu là",
+    "question": "<span class=\"keyword\">Vốn lưu động</span> của doanh nghiệp theo nguyên lý chung có thể được hiểu là",
     "options": [
       "giá trị của tài sản lưu động, bằng phát minh sáng chế và các loại chứng khoán Nhà nước khác.",
       "giá trị của tài sản lưu động và một số tài sản khác có thời gian luân chuyển từ 5 đến 10 năm.",
-      "giá trị của công cụ lao động và nguyên nhiên vật liệu có <span class=\"answer-keyword\">thời gian sử dụng</span> ngắn.",
-      "giá trị của toàn bộ tài sản lưu động của doanh nghiệp đó."
+      "giá trị của công cụ lao động và nguyên nhiên vật liệu có thời gian sử dụng ngắn.",
+      "giá trị của <span class=\"answer-keyword\">toàn bộ</span> tài sản lưu động của doanh nghiệp đó."
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> giá trị của toàn bộ tài sản lưu động của doanh nghiệp đó.<div class=\"note\">Theo nguyên lý chung, vốn lưu động là số tiền ứng trước về tài sản lưu động và tài sản lưu thông, biểu hiện giá trị của toàn bộ TS ngắn hạn.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> giá trị của <span class=\"answer-keyword\">toàn bộ</span> tài sản lưu động của doanh nghiệp đó.<div class=\"note\">Theo nguyên lý chung, vốn lưu động là số tiền ứng trước về tài sản lưu động và tài sản lưu thông, biểu hiện giá trị của toàn bộ TS ngắn hạn.</div>",
     "tags": [
       "Tài chính doanh nghiệp",
       "Nền tảng"
@@ -1111,7 +1111,7 @@
   },
   {
     "weight": "normal",
-    "question": "Nguồn vốn quan trọng nhất đáp ứng nhu cầu đầu tư phát triển và hiện đại hóa các doanh nghiệp Việt Nam là",
+    "question": "<span class=\"keyword\">Nguồn vốn quan trọng nhất</span> đáp ứng nhu cầu đầu tư phát triển và hiện đại hóa các <span class=\"keyword\">doanh nghiệp Việt Nam</span> là",
     "options": [
       "Nguồn vốn sẵn có trong các tầng lớp dân cư.",
       "<span class=\"answer-keyword\">Tín dụng trung và dài hạn</span> từ các ngân hàng thương mại, đặc biệt là ngân hàng thương mại Nhà nước.",
@@ -1396,7 +1396,7 @@
   },
   {
     "weight": "normal",
-    "question": "Biểu hiện bằng tiền của toàn bộ tài sản hữu hình và vô hình được đầu tư vào kinh doanh nhằm mục đích sinh lời được gọi là gì?",
+    "question": "<span class=\"keyword\">Biểu hiện bằng tiền</span> của toàn bộ tài sản hữu hình và vô hình được đầu tư vào kinh doanh nhằm mục đích <span class=\"keyword\">sinh lời</span> được gọi là gì?",
     "options": [
       "Doanh thu",
       "Chi phí kinh doanh",
@@ -1476,7 +1476,7 @@
       "A. chứng khoán.",
       "B. tiền gửi ngân hàng.",
       "C. giấy tờ có giá.",
-      "D. của cải xã hội dưới hình thức giá trị."
+      "D. <span class=\"answer-keyword\">của cải xã hội</span> dưới hình thức <span class=\"answer-keyword\">giá trị</span>."
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div>D. <span class=\"answer-keyword\">của cải xã hội</span> dưới hình thức <span class=\"answer-keyword\">giá trị</span>.",
     "tags": [
@@ -1488,7 +1488,7 @@
     "weight": "normal",
     "question": "<span class=\"keyword\">Công cụ</span> tài chính nào dưới đây có thể <span class=\"keyword\">đem chiết khấu</span>?",
     "options": [
-      "A. Thương phiếu",
+      "A. <span class=\"answer-keyword\">Thương phiếu</span>",
       "B. Kỳ phiếu ngân hàng",
       "C. Chứng chỉ tiền gửi",
       "D. Tín phiếu kho bạc"
@@ -1505,7 +1505,7 @@
     "options": [
       "A. thị trường chứng khoán.",
       "B. thị trường mở.",
-      "C. nơi mua và bán các giấy tờ có giá với thời hạn trên một năm.",
+      "C. nơi mua và bán các giấy tờ có giá với <span class=\"answer-keyword\">thời hạn trên một năm</span>.",
       "D. thị trường tín dụng trung, dài hạn và thị trường chứng khoán."
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div>C. nơi mua và bán các giấy tờ có giá với <span class=\"answer-keyword\">thời hạn trên một năm</span>.",
@@ -1521,7 +1521,7 @@
       "A. giá trị của một hàng hóa nào đó mà nó có thể trao đổi.",
       "B. khả năng đổi được nhiều hay ít hàng hóa so với đồng tiền khác.",
       "C. sức mua của các loại hàng hóa, dịch vụ trong nền kinh tế.",
-      "D. khả năng đổi được nhiều hay ít hàng hóa khác trong trao đổi."
+      "D. <span class=\"answer-keyword\">khả năng đổi được</span> nhiều hay ít <span class=\"answer-keyword\">hàng hóa khác</span> trong trao đổi."
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div>D. <span class=\"answer-keyword\">khả năng đổi được</span> nhiều hay ít <span class=\"answer-keyword\">hàng hóa khác</span> trong trao đổi.",
     "tags": [
@@ -1535,7 +1535,7 @@
     "options": [
       "A. Chức năng phương tiện tích lũy giá trị",
       "B. Chức năng cất trữ và thanh toán",
-      "C. Chức năng phương tiện trao đổi và thanh toán",
+      "C. Chức năng <span class=\"answer-keyword\">phương tiện trao đổi</span> và thanh toán",
       "D. Chức năng thước đo giá trị"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div>C. Chức năng <span class=\"answer-keyword\">phương tiện trao đổi</span> và thanh toán",
@@ -1548,7 +1548,7 @@
     "weight": "normal",
     "question": "Khi nhiều người <span class=\"keyword\">muốn cho vay</span> vốn trong khi chỉ có ít người <span class=\"keyword\">muốn đi vay</span> thì <span class=\"keyword\">lãi suất</span> sẽ",
     "options": [
-      "A. Giảm.",
+      "A. <span class=\"answer-keyword\">Giảm</span>.",
       "B. Tăng.",
       "C. Thay đổi theo chính sách điều tiết của nhà nước.",
       "D. Không bị ảnh hưởng."
@@ -1565,7 +1565,7 @@
     "options": [
       "A. lãi suất áp dụng khi ngân hàng cho khách hàng vay dưới hình thức chiết khấu thương phiếu hoặc giấy tờ có giá khác chưa đến hạn thanh toán của khách hàng.",
       "B. lãi suất mà người đi vay phải trả cho ngân hàng khi đi vay từ ngân hàng.",
-      "C. lãi suất ngân hàng trả cho các khoản tiền gửi vào ngân hàng.",
+      "C. <span class=\"answer-keyword\">lãi suất ngân hàng trả</span> cho các khoản tiền gửi vào ngân hàng.",
       "D. lãi suất áp dụng khi ngân hàng trung ương cho các ngân hàng trung gian vay dưới hình thức chiết khấu lại thương phiếu hoặc giấy tờ có giá ngắn hạn chưa đến hạn thanh toán."
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div>C. <span class=\"answer-keyword\">lãi suất ngân hàng trả</span> cho các khoản tiền gửi vào ngân hàng.",
@@ -1579,7 +1579,7 @@
     "question": "Để <span class=\"keyword\">hạn chế nợ xấu</span>, các ngân hàng thương mại cần phải",
     "options": [
       "A. cho vay càng nhiều càng tốt.",
-      "B. tuân thủ các nguyên tắc và quy trình tín dụng, ngoài ra phải đặc biệt chú trọng vào tài sản thế chấp.",
+      "B. <span class=\"answer-keyword\">tuân thủ các nguyên tắc</span> và quy trình tín dụng, ngoài ra phải đặc biệt chú trọng vào <span class=\"answer-keyword\">tài sản thế chấp</span>.",
       "C. cho vay càng ít càng tốt.",
       "D. không ngừng đổi mới công nghệ và đa dạng hóa sản phẩm dịch vụ nhằm tăng cường khả năng tiếp cận, gần gũi và hỗ trợ khách hàng."
     ],
@@ -1593,7 +1593,7 @@
     "weight": "normal",
     "question": "<span class=\"keyword\">Tài khoản tiền gửi</span> thanh toán của khách hàng mở tại ngân hàng thương mại thuộc",
     "options": [
-      "A. nguồn vốn của ngân hàng thương mại.",
+      "A. <span class=\"answer-keyword\">nguồn vốn</span> của ngân hàng thương mại.",
       "B. tài khoản ngoại bảng của ngân hàng thương mại.",
       "C. tài sản của ngân hàng thương mại.",
       "D. không thuộc đối tượng theo dõi của ngân hàng thương mại."
@@ -1611,7 +1611,7 @@
       "A. Tốc độ tăng của chỉ số PPI",
       "B. Tốc độ tăng giá ngoại hối",
       "C. Tốc độ tăng của giá vàng",
-      "D. Tốc độ tăng của chỉ số CPI"
+      "D. Tốc độ tăng của <span class=\"answer-keyword\">chỉ số CPI</span>"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div>D. Tốc độ tăng của <span class=\"answer-keyword\">chỉ số CPI</span>",
     "tags": [
@@ -1623,7 +1623,7 @@
     "weight": "normal",
     "question": "<span class=\"keyword\">Lạm phát</span> sẽ tác động <span class=\"keyword\">xấu</span> đến",
     "options": [
-      "A. thu nhập cố định của những người làm công.",
+      "A. <span class=\"answer-keyword\">thu nhập cố định</span> của những người làm công.",
       "B. thu nhập của các chuyên gia nước ngoài.",
       "C. thu nhập của mọi tầng lớp dân cư.",
       "D. thu nhập của các ngân hàng thương mại và các tổ chức tín dụng."
@@ -1638,7 +1638,7 @@
     "weight": "normal",
     "question": "<span class=\"keyword\">Cán cân thanh toán</span> quốc tế của một nước có thực sự là <span class=\"keyword\">cân bằng</span> hay không?",
     "options": [
-      "A. Có",
+      "A. <span class=\"answer-keyword\">Có</span>",
       "B. Không",
       "C. Cân bằng chỉ khi có sự can thiệp của chính phủ",
       "D. Cân bằng chỉ là ngẫu nhiên tạm thời"
@@ -1653,7 +1653,7 @@
     "weight": "normal",
     "question": "<span class=\"keyword\">Phá giá tiền tệ</span> có tác động",
     "options": [
-      "A. đẩy mạnh xuất khẩu hànghóa.",
+      "A. <span class=\"answer-keyword\">đẩy mạnh xuất khẩu</span> hànghóa.",
       "B. giảm đầu tư vào trong nước.",
       "C. khuyến khích du lịch ra nước ngoài.",
       "D. tỷ giá hối đoái trở nên ổn định hơn."
