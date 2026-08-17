@@ -75,7 +75,7 @@
   justify-content: center;
   position: relative;
   padding-top: 28px;  /* gap between parent and children */
-  gap: 12px;
+  gap: 6px;
 }
 
 /* Each child slot has equal width */
@@ -84,7 +84,7 @@
   flex-direction: column;
   align-items: center;
   flex: 0 0 auto;
-  min-width: 100px;
+  min-width: 80px;
   position: relative;
 }
 
@@ -291,11 +291,11 @@
     justify-content: flex-start;
   }
   .childSlot {
-    min-width: 80px;
+    min-width: 60px;
   }
   .childrenSvg {
     padding-top: 20px;
-    gap: 8px;
+    gap: 4px;
   }
   .rootNode, .node {
     padding: var(--space-md) var(--space-sm);
