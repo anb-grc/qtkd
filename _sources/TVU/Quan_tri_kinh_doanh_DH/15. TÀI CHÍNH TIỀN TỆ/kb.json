@@ -443,25 +443,25 @@
       "node_id": "chuong_1_comp_4",
       "components": [
         {
-          "type": "accordion",
+          "type": "features",
           "title": "Hệ thống tài chính",
           "data": {
             "items": [
               {
                 "title": "Tài chính doanh nghiệp",
-                "content": "Huy động và sử dụng vốn hướng tới mục tiêu tối đa hóa lợi nhuận."
+                "description": "Huy động và sử dụng vốn hướng tới mục tiêu tối đa hóa lợi nhuận."
               },
               {
                 "title": "Tài chính hộ gia đình",
-                "content": "Phân bổ nguồn thu nhập hiện tại và tương lai để thỏa mãn nhu cầu tiêu dùng và tích lũy."
+                "description": "Phân bổ nguồn thu nhập hiện tại và tương lai để thỏa mãn nhu cầu tiêu dùng và tích lũy."
               },
               {
                 "title": "Tài chính công",
-                "content": "Hoạt động kinh tế của Nhà nước nhằm cung cấp dịch vụ công và điều tiết vĩ mô."
+                "description": "Hoạt động kinh tế của Nhà nước nhằm cung cấp dịch vụ công và điều tiết vĩ mô."
               },
               {
                 "title": "Trung gian tài chính",
-                "content": "Kênh dẫn vốn trực tiếp và gián tiếp (qua ngân hàng, quỹ tín dụng, bảo hiểm, chứng khoán) kết nối nơi thừa và thiếu vốn."
+                "description": "Kênh dẫn vốn trực tiếp và gián tiếp (qua ngân hàng, quỹ tín dụng, bảo hiểm, chứng khoán) kết nối nơi thừa và thiếu vốn."
               }
             ]
           }
@@ -560,21 +560,21 @@
       "node_id": "chuong_2_comp_1",
       "components": [
         {
-          "type": "accordion",
+          "type": "features",
           "title": "Bản chất & Mối quan hệ của NSNN",
           "data": {
             "items": [
               {
                 "title": "Khái niệm",
-                "content": "Toàn bộ các khoản thu, chi của Nhà nước trong dự toán được cơ quan thẩm quyền quyết định và thực hiện trong 1 năm."
+                "description": "Toàn bộ các khoản thu, chi của Nhà nước trong dự toán được cơ quan thẩm quyền quyết định và thực hiện trong 1 năm."
               },
               {
                 "title": "Bản chất",
-                "content": "Hệ thống các mối quan hệ kinh tế giữa Nhà nước và xã hội phát sinh trong quá trình phân phối nguồn tài chính."
+                "description": "Hệ thống các mối quan hệ kinh tế giữa Nhà nước và xã hội phát sinh trong quá trình phân phối nguồn tài chính."
               },
               {
                 "title": "Các mối quan hệ tài chính",
-                "content": ""
+                "description": ""
               }
             ]
           }
@@ -1045,17 +1045,17 @@
       "node_id": "chuong_3_comp_6",
       "components": [
         {
-          "type": "accordion",
+          "type": "features",
           "title": "Doanh thu và Lợi nhuận",
           "data": {
             "items": [
               {
                 "title": "Doanh thu",
-                "content": "Phân loại: Doanh thu kinh doanh chính, hoạt động tài chính, và thu nhập bất thường.\nVai trò: Là nguồn trang trải các khoản chi phí, cơ sở thực hiện nghĩa vụ với Nhà nước và đánh giá hiệu quả sản xuất."
+                "description": "Phân loại: Doanh thu kinh doanh chính, hoạt động tài chính, và thu nhập bất thường.\nVai trò: Là nguồn trang trải các khoản chi phí, cơ sở thực hiện nghĩa vụ với Nhà nước và đánh giá hiệu quả sản xuất."
               },
               {
                 "title": "Lợi nhuận",
-                "content": "Định nghĩa: Là chênh lệch giữa doanh thu và chi phí đã bỏ ra.\nVai trò: Là đòn bẩy kinh tế quan trọng, chỉ tiêu cơ bản đánh giá hiệu quả kinh doanh và là nguồn tích lũy mở rộng tái sản xuất."
+                "description": "Định nghĩa: Là chênh lệch giữa doanh thu và chi phí đã bỏ ra.\nVai trò: Là đòn bẩy kinh tế quan trọng, chỉ tiêu cơ bản đánh giá hiệu quả kinh doanh và là nguồn tích lũy mở rộng tái sản xuất."
               }
             ]
           }
@@ -1076,25 +1076,25 @@
       "node_id": "chuong_4_comp_1",
       "components": [
         {
-          "type": "accordion",
+          "type": "features",
           "title": "Tổng quan Thị trường Tài chính",
           "data": {
             "items": [
               {
                 "title": "Khái niệm",
-                "content": "Nơi trao đổi quyền sử dụng nguồn tài chính qua các phương thức và công cụ."
+                "description": "Nơi trao đổi quyền sử dụng nguồn tài chính qua các phương thức và công cụ."
               },
               {
                 "title": "Chức năng",
-                "content": ""
+                "description": ""
               },
               {
                 "title": "Vai trò",
-                "content": ""
+                "description": ""
               },
               {
                 "title": "Điều kiện hình thành",
-                "content": ""
+                "description": ""
               }
             ]
           }
@@ -1115,33 +1115,33 @@
       "node_id": "chuong_4_comp_2",
       "components": [
         {
-          "type": "accordion",
+          "type": "features",
           "title": "Phân loại Công cụ Thị trường Tài chính",
           "data": {
             "items": [
               {
                 "title": "Theo kỳ hạn huy động",
-                "content": ""
+                "description": ""
               },
               {
                 "title": "Theo chủ thể phát hành",
-                "content": ""
+                "description": ""
               },
               {
                 "title": "Theo lợi tức",
-                "content": ""
+                "description": ""
               },
               {
                 "title": "Theo tiêu chuẩn pháp lý",
-                "content": ""
+                "description": ""
               },
               {
                 "title": "Theo tính chất chứng khoán",
-                "content": ""
+                "description": ""
               },
               {
                 "title": "Theo tính chất người phát hành",
-                "content": ""
+                "description": ""
               }
             ]
           }
@@ -1162,21 +1162,21 @@
       "node_id": "chuong_4_comp_3",
       "components": [
         {
-          "type": "accordion",
+          "type": "features",
           "title": "Hệ sinh thái Thị trường Tiền tệ",
           "data": {
             "items": [
               {
                 "title": "Subsystems (Các bộ phận)",
-                "content": ""
+                "description": ""
               },
               {
                 "title": "Components (Công cụ)",
-                "content": "Tín phiếu kho bạc, Thương phiếu, Chứng chỉ tiền gửi, Giấy chấp nhận thanh toán, Hợp đồng mua lại, Trái phiếu ngắn hạn công ty, Tín phiếu ngân hàng."
+                "description": "Tín phiếu kho bạc, Thương phiếu, Chứng chỉ tiền gửi, Giấy chấp nhận thanh toán, Hợp đồng mua lại, Trái phiếu ngắn hạn công ty, Tín phiếu ngân hàng."
               },
               {
                 "title": "Actors (Chủ thể tham gia)",
-                "content": ""
+                "description": ""
               }
             ]
           }
@@ -1506,17 +1506,17 @@
       "node_id": "chuong_5_comp_5",
       "components": [
         {
-          "type": "accordion",
+          "type": "features",
           "title": "Cung - Cầu Tiền tệ",
           "data": {
             "items": [
               {
                 "title": "Luồng Cầu Tiền Tệ",
-                "content": ""
+                "description": ""
               },
               {
                 "title": "Luồng Cung Tiền Tệ (Từ NHNN)",
-                "content": ""
+                "description": ""
               }
             ]
           }
@@ -1740,29 +1740,29 @@
       "node_id": "chuong_6_comp_4",
       "components": [
         {
-          "type": "accordion",
+          "type": "features",
           "title": "Phân loại Lãi suất",
           "data": {
             "items": [
               {
                 "title": "Theo tính chất khoản vay",
-                "content": "Gồm lãi suất tiền gửi, tín dụng ngân hàng, chiết khấu, tái chiết khấu, và liên ngân hàng."
+                "description": "Gồm lãi suất tiền gửi, tín dụng ngân hàng, chiết khấu, tái chiết khấu, và liên ngân hàng."
               },
               {
                 "title": "Theo giá trị thực",
-                "content": "Gồm lãi suất danh nghĩa (chưa tính lạm phát) và lãi suất thực (đã trừ đi tỷ lệ lạm phát)."
+                "description": "Gồm lãi suất danh nghĩa (chưa tính lạm phát) và lãi suất thực (đã trừ đi tỷ lệ lạm phát)."
               },
               {
                 "title": "Theo quản lý vĩ mô",
-                "content": "Gồm lãi suất cơ bản, lãi suất sàn và lãi suất trần do Ngân hàng Nhà nước quy định."
+                "description": "Gồm lãi suất cơ bản, lãi suất sàn và lãi suất trần do Ngân hàng Nhà nước quy định."
               },
               {
                 "title": "Theo tính linh hoạt",
-                "content": "Gồm lãi suất cố định (không đổi suốt kỳ hạn) và lãi suất thả nổi (điều chỉnh theo thị trường)."
+                "description": "Gồm lãi suất cố định (không đổi suốt kỳ hạn) và lãi suất thả nổi (điều chỉnh theo thị trường)."
               },
               {
                 "title": "Theo loại tiền",
-                "content": "Gồm lãi suất nội tệ và lãi suất ngoại tệ."
+                "description": "Gồm lãi suất nội tệ và lãi suất ngoại tệ."
               }
             ]
           }
@@ -1853,25 +1853,25 @@
       "node_id": "chuong_7_comp_2",
       "components": [
         {
-          "type": "accordion",
+          "type": "features",
           "title": "Ngân hàng Thương mại (NHTM)",
           "data": {
             "items": [
               {
                 "title": "Phân loại NHTM",
-                "content": ""
+                "description": ""
               },
               {
                 "title": "Chức năng cơ bản",
-                "content": ""
+                "description": ""
               },
               {
                 "title": "Hoạt động kinh doanh",
-                "content": ""
+                "description": ""
               },
               {
                 "title": "Vai trò",
-                "content": ""
+                "description": ""
               }
             ]
           }
@@ -1892,25 +1892,25 @@
       "node_id": "chuong_7_comp_3",
       "components": [
         {
-          "type": "accordion",
+          "type": "features",
           "title": "Ngân hàng Trung ương (NHTW)",
           "data": {
             "items": [
               {
                 "title": "Vị trí",
-                "content": "Định chế quản lý Nhà nước về tiền tệ, tín dụng nằm trong bộ máy quyền lực quốc gia."
+                "description": "Định chế quản lý Nhà nước về tiền tệ, tín dụng nằm trong bộ máy quyền lực quốc gia."
               },
               {
                 "title": "Chức năng chính",
-                "content": ""
+                "description": ""
               },
               {
                 "title": "Mô hình tổ chức",
-                "content": ""
+                "description": ""
               },
               {
                 "title": "Vai trò",
-                "content": ""
+                "description": ""
               }
             ]
           }
@@ -2247,21 +2247,21 @@
       "node_id": "chuong_8_comp_7",
       "components": [
         {
-          "type": "accordion",
+          "type": "features",
           "title": "Biện Pháp Kiềm Chế Lạm Phát",
           "data": {
             "items": [
               {
                 "title": "Phương pháp cổ điển",
-                "content": ""
+                "description": ""
               },
               {
                 "title": "Giai đoạn hiện nay",
-                "content": ""
+                "description": ""
               },
               {
                 "title": "Các nước phát triển",
-                "content": ""
+                "description": ""
               }
             ]
           }
@@ -2282,25 +2282,25 @@
       "node_id": "chuong_9_comp_1",
       "components": [
         {
-          "type": "accordion",
+          "type": "features",
           "title": "Tỷ giá hối đoái và cơ chế hình thành",
           "data": {
             "items": [
               {
                 "title": "Khái niệm cốt lõi",
-                "content": "Sự quy đổi đồng tiền, so sánh sức mua giữa các quốc gia"
+                "description": "Sự quy đổi đồng tiền, so sánh sức mua giữa các quốc gia"
               },
               {
                 "title": "Phương pháp niêm yết",
-                "content": ""
+                "description": ""
               },
               {
                 "title": "Nhân tố tác động",
-                "content": ""
+                "description": ""
               },
               {
                 "title": "Phân loại",
-                "content": ""
+                "description": ""
               }
             ]
           }
@@ -2321,29 +2321,29 @@
       "node_id": "chuong_9_comp_2",
       "components": [
         {
-          "type": "accordion",
+          "type": "features",
           "title": "Cấu trúc cán cân thanh toán quốc tế",
           "data": {
             "items": [
               {
                 "title": "Tài khoản vãng lai",
-                "content": ""
+                "description": ""
               },
               {
                 "title": "Cán cân vốn và tài chính",
-                "content": ""
+                "description": ""
               },
               {
                 "title": "Lỗi và sai sót",
-                "content": "Chênh lệch thống kê"
+                "description": "Chênh lệch thống kê"
               },
               {
                 "title": "Cán cân tổng thể",
-                "content": "Tổng thu trừ tổng chi"
+                "description": "Tổng thu trừ tổng chi"
               },
               {
                 "title": "Tài trợ chính thức",
-                "content": "Sự biến động dự trữ ngoại hối quốc gia"
+                "description": "Sự biến động dự trữ ngoại hối quốc gia"
               }
             ]
           }
