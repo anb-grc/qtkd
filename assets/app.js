@@ -278,12 +278,11 @@ function filterQuestions() {
         if(noRes) noRes.style.display = 'block';
     } else {
         if(meta) {
-            let metaHtml = `Tìm thấy <b>${window.filteredData.length}</b> câu hỏi.`;
+            let countToShow = window.filteredData.length;
             if (window.isHighSorted) {
-                let highCount = window.filteredData.filter(q => q.weight === 'high' || (q.tags && (q.tags.includes('80/20') || q.tags.includes('Trọng tâm')))).length;
-                metaHtml += ` <span style="color:var(--accent); font-size:0.9em; margin-left: 8px;">(Gồm <b>${highCount}</b> câu High)</span>`;
+                countToShow = window.filteredData.filter(q => q.weight === 'high' || (q.tags && (q.tags.includes('80/20') || q.tags.includes('Trọng tâm')))).length;
             }
-            meta.innerHTML = metaHtml;
+            meta.innerHTML = `Tìm thấy <b>${countToShow}</b> câu hỏi.`;
         }
         if(noRes) noRes.style.display = 'none';
     }
