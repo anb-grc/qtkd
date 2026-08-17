@@ -1948,5 +1948,365 @@
       "Tài chính quốc tế",
       "Nền tảng"
     ]
+  },
+  {
+    "weight": "normal",
+    "question": "Chủ thể của <span class=\"keyword\">giám đốc tài chính</span> là các",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">chủ thể phân phối</span>.",
+    "options": [
+      "A. <span class=\"answer-keyword\">chủ thể phân phối</span>.",
+      "B. cá thể có thu nhập cao.",
+      "C. chủ doanh nghiệp.",
+      "D. ngân hàng."
+    ],
+    "tags": [
+      "Nhập môn tài chính",
+      "Cấu trúc"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Một doanh nghiệp hợp tác với một công ty chứng khoán để <span class=\"keyword\">phát hành</span> một đợt trái phiếu <span class=\"keyword\">mới</span> sẽ tham gia vào giao dịch trên thị trường",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">sơ cấp</span> thuộc thị trường <span class=\"answer-keyword\">vốn</span>.",
+    "options": [
+      "A. thứ cấp thuộc thị trường tiền tệ.",
+      "B. sơ cấp thuộc thị trường tiền tệ.",
+      "C. <span class=\"answer-keyword\">sơ cấp</span> thuộc thị trường <span class=\"answer-keyword\">vốn</span>.",
+      "D. thứ cấp thuộc thị trường vốn."
+    ],
+    "tags": [
+      "Thị trường Tài chính",
+      "Phân luồng"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Công cụ nào sau đây có <span class=\"keyword\">tính lỏng</span> và độ <span class=\"keyword\">an toàn cao nhất</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Tín phiếu kho bạc</span>.",
+    "options": [
+      "A. Thương phiếu.",
+      "B. Hợp đồng mua lại.",
+      "C. <span class=\"answer-keyword\">Tín phiếu kho bạc</span>.",
+      "D. Chứng chỉ tiền gửi."
+    ],
+    "tags": [
+      "Thị trường Tài chính",
+      "Rủi ro"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Để một hàng hóa có thể <span class=\"keyword\">trở thành tiền</span>, hàng hóa đó phải",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> được <span class=\"answer-keyword\">chấp nhận rộng rãi</span> làm phương tiện thanh toán.",
+    "options": [
+      "A. do Chính phủ sản xuất ra.",
+      "B. được đảm bảo bằng vàng hoặc bạc.",
+      "C. nhỏ, gọn, khó hư hỏng, số lượng phải nhiều trên thị trường.",
+      "D. được <span class=\"answer-keyword\">chấp nhận rộng rãi</span> làm phương tiện thanh toán."
+    ],
+    "tags": [
+      "Tiền tệ",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Phương thức thanh toán nào sau đây cho phép người sử dụng <span class=\"keyword\">“tiêu tiền trước, trả tiền sau”</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Thanh toán bằng thẻ <span class=\"answer-keyword\">tín dụng</span>",
+    "options": [
+      "A. Thanh toán bằng thẻ <span class=\"answer-keyword\">tín dụng</span>",
+      "B. Thanh toán bằng thẻ ghi nợ",
+      "C. Thanh toán bằng séc doanh nghiệp",
+      "D. Thanh toán bằng séc du lịch"
+    ],
+    "tags": [
+      "Tiền tệ",
+      "Logic"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Giả định các yếu tố khác không thay đổi, trong điều kiện nền kinh tế thị trường, khi <span class=\"keyword\">nhiều</span> người muốn <span class=\"keyword\">cho vay</span> vốn trong khi chỉ có <span class=\"keyword\">ít</span> người muốn <span class=\"keyword\">đi vay</span> thì lãi suất sẽ",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Giảm</span>.",
+    "options": [
+      "A. Không bị ảnh hưởng.",
+      "B. Tăng.",
+      "C. Thay đổi theo chính sách điều tiết của nhà nước.",
+      "D. <span class=\"answer-keyword\">Giảm</span>."
+    ],
+    "tags": [
+      "Tín dụng và Lãi suất",
+      "Logic"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Lãi suất tái chiết khấu</span>là",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> lãi suất áp dụng khi ngân hàng <span class=\"answer-keyword\">trung ương</span> cho các ngân hàng <span class=\"answer-keyword\">thương mại vay</span> dưới hình thức chiết khấu lại thương phiếu hoặc giấy tờ có giá ngắn hạn chưa đến hạn thanh toán.",
+    "options": [
+      "A. lãi suất áp dụng khi ngân hàng cho khách hàng vay dưới hình thức chiết khấu thương phiếu hoặc giấy tờ có giá khác chưa đến hạn thanh toán của khách hàng.",
+      "B. lãi suất áp dụng khi ngân hàng <span class=\"answer-keyword\">trung ương</span> cho các ngân hàng <span class=\"answer-keyword\">thương mại vay</span> dưới hình thức chiết khấu lại thương phiếu hoặc giấy tờ có giá ngắn hạn chưa đến hạn thanh toán.",
+      "C. lãi suất mà người đi vay phải trả cho ngân hàng khi đi vay từ ngân hàng.",
+      "D. lãi suất ngân hàng trả cho các khoản tiền gửi vào ngân hàng."
+    ],
+    "tags": [
+      "Tín dụng và Lãi suất",
+      "Cấu trúc"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Lạm phát</span> được định nghĩa là sự <span class=\"keyword\">tăng lên liên tục</span> của",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">mức giá chung</span>.",
+    "options": [
+      "A. giá cả của một loại hàng hóa thiết yếu.",
+      "B. GDP danh nghĩa.",
+      "C. <span class=\"answer-keyword\">mức giá chung</span>.",
+      "D. tiền lương thực tế so với tiền lương danh nghĩa."
+    ],
+    "tags": [
+      "Lạm phát",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Lạm phát <span class=\"keyword\">phi mã</span> là lạm phát ở mức",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Tỷ lệ lạm phát ở mức <span class=\"answer-keyword\">2 (hai) chữ số</span> nhưng dưới mức 3 (ba) chữ số.",
+    "options": [
+      "A. Nền kinh tế cân bằng ở mức dưới tiềm năng.",
+      "B. Nền kinh tế cân bằng trên mức tiềm năng.",
+      "C. Tỷ lệ lạm phát ở dưới mức 3 (ba) chữ số..",
+      "D. Tỷ lệ lạm phát ở mức <span class=\"answer-keyword\">2 (hai) chữ số</span> nhưng dưới mức 3 (ba) chữ số."
+    ],
+    "tags": [
+      "Lạm phát",
+      "Phân luồng"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Cán cân thanh toán</span> thặng dư hay thâm hụt, điều này <span class=\"keyword\">hàm ý</span>:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Sự thặng dư, thâm hụt của cán cân tổng thể.</span>",
+    "options": [
+      "A. Sự thặng dư, thâm hụt của cán cân vãng lai.",
+      "B. <span class=\"answer-keyword\">Sự thặng dư, thâm hụt của cán cân tổng thể.</span>",
+      "C. Sự thặng dư, thâm hụt của một hay một nhóm cán cân bộ phận nhất định trong cán cân thanh toán.",
+      "D. Sự thặng dư, thâm hụt của cán cân vốn."
+    ],
+    "tags": [
+      "Tài chính quốc tế",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Một lượng nhất định các <span class=\"keyword\">nguồn tài chính đã huy động</span> được để <span class=\"keyword\">sử dụng cho một mục đích</span> nhất định",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">các quỹ tiền tệ.</span>",
+    "options": [
+      "A. các chủ thể phân phối.",
+      "B. <span class=\"answer-keyword\">các quỹ tiền tệ.</span>",
+      "C. nguồn tài chính.",
+      "D. các khâu tài chính."
+    ],
+    "tags": [
+      "Nhập môn tài chính",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Những <span class=\"keyword\">tồn tại của lưu thông tiền tệ</span> ở Việt Nam bao gồm:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Tỷ trọng thanh toán bằng tiền mặt lớn, ngoại tệ trôi nổi nhiều</span>, sức mua của đồng tiền chưa thực sự ổn định.",
+    "options": [
+      "A. <span class=\"answer-keyword\">Tỷ trọng thanh toán bằng tiền mặt lớn, ngoại tệ trôi nổi nhiều</span>, sức mua của đồng tiền chưa thực sự ổn định.",
+      "B. Sức mua của đồng tiền không thực sự ổn định và lượng ngoại tệ quá lớn.",
+      "C. Sức mua của đồng tiền không ổn định và lượng ngoại tệ chuyển ra nước ngoài lớn.",
+      "D. Tỷ trọng tiền mặt và ngoại tệ lớn, tốc độ lưu thông chậm."
+    ],
+    "tags": [
+      "Tiền tệ",
+      "Rủi ro"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Theo nguyên tắc chung, khi <span class=\"keyword\">thời hạn cho vay càng dài</span> thì lãi suất cho vay sẽ",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">càng cao.</span>",
+    "options": [
+      "A. càng thấp.",
+      "B. cao gấp đôi.",
+      "C. không thay đổi.",
+      "D. <span class=\"answer-keyword\">càng cao.</span>"
+    ],
+    "tags": [
+      "Tín dụng và Lãi suất",
+      "Logic"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Phí tổn và lợi ích của chính sách <span class=\"keyword\">''quá lớn không để vỡ nợ''</span> là gì?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Chi phí đầu vào lớn nhưng hoạt động kinh doanh ổn định.</span>",
+    "options": [
+      "A. Chi phí quản lý lớn nhưng có khả năng chịu đựng tổn thất, thậm chí thua lỗ.",
+      "B. Chi phí quản lý lớn nhưng dễ dàng thích nghi với thị trường.",
+      "C. Bộ máy cồng kềnh kém hiệu quả nhưng tiềm lực tài chính mạnh.",
+      "D. <span class=\"answer-keyword\">Chi phí đầu vào lớn nhưng hoạt động kinh doanh ổn định.</span>"
+    ],
+    "tags": [
+      "Hệ thống ngân hàng",
+      "Góc nhìn Đa chiều"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Tài sản thế chấp</span> cho một món vay phải đáp ứng các tiêu chuẩn",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Có giá trị tiền tệ và đảm bảo các yêu cầu pháp lý</span> cần thiết.",
+    "options": [
+      "A. Thuộc quyền sở hữu hợp pháp của người vay vốn và có giá trị từ 200.000 đ.",
+      "B. <span class=\"answer-keyword\">Có giá trị tiền tệ và đảm bảo các yêu cầu pháp lý</span> cần thiết.",
+      "C. Có giá trị trên 5.000.000 đ và được rất nhiều người ưa thích.",
+      "D. Có thời gian sử dụng lâu dài và được nhiều người ưa thích."
+    ],
+    "tags": [
+      "Tín dụng và Lãi suất",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Nếu <span class=\"keyword\">tỷ lệ lạm phát ở Mỹ cao hơn</span> ở Việt Nam thì khi những điều kiện khác không thay đổi, <span class=\"keyword\">đồng tiền Việt Nam</span> sẽ:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Tăng giá so với USD.</span>",
+    "options": [
+      "A. Giảm giá so vơi USD và các loại ngoại tệ mạnh khác.",
+      "B. <span class=\"answer-keyword\">Tăng giá so với USD.</span>",
+      "C. Giảm giá so với USD.",
+      "D. Tăng giá so vơi USD và các loại ngoại tệ mạnh khác."
+    ],
+    "tags": [
+      "Lạm phát",
+      "Logic"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Mục đích duy trì <span class=\"keyword\">lạm phát</span> là",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>tăng cung tiền để đáp ứng nhu cầu <span class=\"answer-keyword\">tăng chi tiêu chính phủ</span>.",
+    "options": [
+      "A. giảm mức cung tiền trong nền kinh tế.",
+      "B. tăng cung tiền để duy trì tỷ lệ thất nghiệp tự nhiên.",
+      "C. tăng cung tiền để đáp ứng nhu cầu <span class=\"answer-keyword\">tăng chi tiêu chính phủ</span>.",
+      "D. tăng cung tiền để tăng cường sản lượng trên thị trường vượt mức sản lượng tự nhiên."
+    ],
+    "tags": [
+      "Lạm phát",
+      "Logic"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Khi <span class=\"keyword\">Việt Nam</span> bị <span class=\"keyword\">thiên tai</span>, <span class=\"keyword\">tỷ giá</span> giữa đồng Việt Nam và Đô la Mỹ sẽ thay đổi như thế nào?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Giảm</span>",
+    "options": [
+      "A. Tăng",
+      "B. Không đổi",
+      "C. Biến động tăng giá cho Đô la Mỹ",
+      "D. <span class=\"answer-keyword\">Giảm</span>"
+    ],
+    "tags": [
+      "Tài chính quốc tế",
+      "Logic"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Khi hiệp ước <span class=\"keyword\">song phương</span> giữa Việt Nam và Mỹ (BTA) được thực hiện, <span class=\"keyword\">tỷ giá</span> giữa Đồng Việt Nam và Đô la Mỹ sẽ biến động như thế nào?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Giảm</span>",
+    "options": [
+      "A. Không đổi",
+      "B. Tăng",
+      "C. Biến động tăng giá cho đồng Đô la Mỹ",
+      "D. <span class=\"answer-keyword\">Giảm</span>"
+    ],
+    "tags": [
+      "Tài chính quốc tế",
+      "Logic"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Các công ty <span class=\"keyword\">chứng khoán</span> Việt Nam <span class=\"keyword\">không được phép</span> thực hiện hoạt động nào sau đây?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Cho vay</span> để <span class=\"answer-keyword\">mua chứng khoán</span>",
+    "options": [
+      "A. Bảo lãnh phát hành chứng khoán",
+      "B. Quản lý danh mục vốn đầu tư",
+      "C. <span class=\"answer-keyword\">Cho vay</span> để <span class=\"answer-keyword\">mua chứng khoán</span>",
+      "D. Tư vấn đầu tư chứng khoán"
+    ],
+    "tags": [
+      "Thị trường Tài chính",
+      "Cấu trúc"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Giá cả</span> trong nền kinh tế <span class=\"keyword\">trao đổi bằng hiện vật</span> được tính dựa trên cơ sở nào?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Một cách ngẫu nhiên</span>",
+    "options": [
+      "A. <span class=\"answer-keyword\">Một cách ngẫu nhiên</span>",
+      "B. Theo cung cầu hàng hóa và sự điều tiết của Chính phủ",
+      "C. Theo cung cầu hàng hóa",
+      "D. Theo giá cả của thị trường quốc tế"
+    ],
+    "tags": [
+      "Tiền tệ",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Khi <span class=\"keyword\">lãi suất giảm</span>, trong điều kiện ở <span class=\"keyword\">Việt Nam</span>, bạn sẽ",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">tăng đầu tư</span> vào <span class=\"answer-keyword\">đất đai</span> hay các bất động sản khác",
+    "options": [
+      "A. bán trái phiếu chính phủ đang nắm giữ và gửi tiền ra nước ngoài với lãi suất cao hơn",
+      "B. bán trái phiếu chính phủ và đầu tư vào các doanh nghiệp",
+      "C. <span class=\"answer-keyword\">tăng đầu tư</span> vào <span class=\"answer-keyword\">đất đai</span> hay các bất động sản khác",
+      "D. mua ngoại tệ và vàng để dự trữ"
+    ],
+    "tags": [
+      "Tín dụng và Lãi suất",
+      "Logic"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Chính sách tiền tệ</span> của <span class=\"keyword\">ngân hàng nhà nước</span> Việt Nam bao gồm có các công cụ chủ yếu như sau:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>Chính sách dự trữ bắt buộc, chính sách lãi suất, chính sách <span class=\"answer-keyword\">chiết khấu và tái chiết khấu</span>, các hoạt động trên thị trường mở, chính sách hạn chế tín dụng.",
+    "options": [
+      "A. Chính sách dự trữ bắt buộc, chính sách lãi suất, chính sách tỷ giá, các hoạt động trên thị trường mở, chính sách tài chính doanh nghiệp.",
+      "B. Chính sách dự trữ bắt buộc, chính sách lãi suất, chính sách tỷ giá, các hoạt động trên thị trường mở, chính sách hạn chế tín dụng.",
+      "C. Chính sách dự trữ bắt buộc, chính sách lãi suất, chính sách <span class=\"answer-keyword\">chiết khấu và tái chiết khấu</span>, các hoạt động trên thị trường mở, chính sách hạn chế tín dụng.",
+      "D. Chính sách dự trữ bắt buộc, chính sách lãi suất, chính sách công nghiệp hóa, các hoạt động trên thị trường mở, chính sách hạn chế tín dụng."
+    ],
+    "tags": [
+      "Hệ thống ngân hàng",
+      "Cấu trúc"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Loại chi phí <span class=\"keyword\">lạm phát</span> nào sau đây <span class=\"keyword\">không xảy ra</span> khi lạm phát ổn định và <span class=\"keyword\">có thể dự kiến</span> được?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Sự tái phân phối</span> của cải một cách <span class=\"answer-keyword\">ngẫu nhiên</span>",
+    "options": [
+      "A. <span class=\"answer-keyword\">Sự tái phân phối</span> của cải một cách <span class=\"answer-keyword\">ngẫu nhiên</span>",
+      "B. Các tác hại do lạm phát gây ra sự biến dạng về thuế",
+      "C. Chi phí thực đơn",
+      "D. Chi phí mòn giày"
+    ],
+    "tags": [
+      "Lạm phát",
+      "Logic"
+    ]
   }
 ]
