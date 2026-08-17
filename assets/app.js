@@ -277,7 +277,14 @@ function filterQuestions() {
         if(meta) meta.innerHTML = '';
         if(noRes) noRes.style.display = 'block';
     } else {
-        if(meta) meta.innerHTML = `Tìm thấy <b>${window.filteredData.length}</b> câu hỏi.`;
+        if(meta) {
+            let metaHtml = `Tìm thấy <b>${window.filteredData.length}</b> câu hỏi.`;
+            if (window.isHighSorted) {
+                let highCount = window.filteredData.filter(q => q.weight === 'high' || (q.tags && (q.tags.includes('80/20') || q.tags.includes('Trọng tâm')))).length;
+                metaHtml += ` <span style="color:var(--accent); font-size:0.9em; margin-left: 8px;">(Gồm <b>${highCount}</b> câu High)</span>`;
+            }
+            meta.innerHTML = metaHtml;
+        }
         if(noRes) noRes.style.display = 'none';
     }
 }
