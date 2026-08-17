@@ -1084,5 +1084,410 @@
       "Notepad"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Mozilla Firefox</span>\\n<div class=\"note\">Mozilla Firefox là phần mềm trình duyệt web mã nguồn mở phổ biến.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "ĐẠI CƯƠNG VỀ MÁY TÍNH ĐIỆN TỬ & CNTT",
+      "Cấu trúc"
+    ],
+    "question": "Trong cấu trúc của một máy tính điện tử, <span class=\"keyword\">đơn vị xử lý trung tâm (CPU - Central Processing Unit)</span> gồm <span class=\"keyword\">bao nhiêu bộ phận chính</span>?",
+    "options": [
+      "1",
+      "4",
+      "2",
+      "<span class=\"answer-keyword\">3</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">3</span><div class=\"note\">Bộ xử lý trung tâm (CPU - Central Processing Unit) chỉ huy các hoạt động của máy tính theo lệnh và thực hiện các phép tính. CPU có 3 bộ phận chính: khối điều khiển; khối tính toán số học, logic; các thanh ghi</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "ĐẠI CƯƠNG VỀ MÁY TÍNH ĐIỆN TỬ & CNTT",
+      "Cấu trúc"
+    ],
+    "question": "Trong cấu trúc của một máy tính điện tử, bộ phận <span class=\"keyword\">Control Unit (CU)</span> trong CPU là gì?",
+    "options": [
+      "Các thanh ghi",
+      "Khối tính toán số học và logic",
+      "Bộ nhớ trung gian",
+      "<span class=\"answer-keyword\">Khối điều khiển</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Khối điều khiển</span><div class=\"note\">Khối điều khiển (CU: Control Unit): là trung tâm điều hành máy tính, có nhiệm vụ giải mã các lệnh, tạo ra các tín hiệu điều khiển công việc của các bộ phận khác của máy tính theo yêu cầu của người sử dụng hoặc theo chương trình đã cài đặt</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT WORD 2013 CƠ BẢN",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Hãy cho biết <span class=\"keyword\">bảng mã</span> nào được chọn khi người soạn thảo sử dụng <span class=\"keyword\">font VNI-Ariston</span> để nhập văn bản?",
+    "options": [
+      "Unicode",
+      "VIQR",
+      "TCVN3",
+      "<span class=\"answer-keyword\">VNI Windows</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">VNI Windows</span><div class=\"note\">Sự kết hợp giữa bảng mã và font chữ để gõ được tiếng Việt trong các trình soạn thảo: Các font chữ bắt đầu bằng \"VNI-\" sử dụng chung bảng mã VNI Windows.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "SỬ DỤNG HỆ ĐIỀU HÀNH WINDOWS 10",
+      "Cấu trúc"
+    ],
+    "question": "Trong cửa sổ File Explorer, để <span class=\"keyword\">dán</span> đối tượng vừa sao chép vào vị trí hiện hành, chúng ta vào thẻ Home và chọn lệnh Paste ở <span class=\"keyword\">nhóm lệnh nào</span>?",
+    "options": [
+      "Open",
+      "New",
+      "Organize",
+      "<span class=\"answer-keyword\">Clipboard</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Clipboard</span><div class=\"note\">Lệnh Paste, Copy và Cut đều nằm trong nhóm lệnh Clipboard của thẻ Home.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "SỬ DỤNG HỆ ĐIỀU HÀNH WINDOWS 10",
+      "Nền tảng"
+    ],
+    "question": "Hãy cho biết <span class=\"keyword\">tổ hợp phím tắt</span> nào được sử dụng để <span class=\"keyword\">mở chương trình File Explorer</span>?",
+    "options": [
+      "<span class=\"answer-keyword\">Windows+E</span>",
+      "SHIFT+E",
+      "CTRL+E",
+      "ALT+E"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Windows+E</span><div class=\"note\">Phím Windows kết hợp với phím E (viết tắt của Explorer) là phím tắt mặc định để mở File Explorer.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "ĐẠI CƯƠNG VỀ MÁY TÍNH ĐIỆN TỬ & CNTT",
+      "Nền tảng"
+    ],
+    "question": "Trong các phần mềm ứng dụng bên dưới, phần mềm nào được sử dụng để <span class=\"keyword\">soạn thảo văn bản</span>?",
+    "options": [
+      "Google Chrome",
+      "Foxit Reader",
+      "<span class=\"answer-keyword\">Microsoft Word</span>",
+      "WinRAR"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Microsoft Word</span><div class=\"note\">Microsoft Word là phần mềm chuyên dụng và phổ biến nhất được sử dụng cho mục đích soạn thảo và xử lý văn bản.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT WORD 2013 CƠ BẢN",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác <span class=\"keyword\">định dạng Tab</span> cho văn bản tùy chọn nào xác định <span class=\"keyword\">loại mốc TAB</span>?",
+    "options": [
+      "<span class=\"answer-keyword\">Alignment</span>",
+      "Tab stop position",
+      "Clear All",
+      "Leader"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Alignment</span><div class=\"note\">Khi thực hiện thao tác định dạng Tab cho văn bản tùy chọn<br>- Tab stop position: xác định khoảng cách TAB<br>- Alignment: xác định loại mốc TAB<br>- Leader: xác định kiểu khoảng cách TAB<br>- Clear All: Xóa tất cả các mốc Tab</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT WORD 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "question": "Trong chương trình Microsoft Office Word 2013, sau khi vào thẻ Home, <span class=\"keyword\">nhóm lệnh</span> nào sẽ cung cấp các lệnh để định dạng <span class=\"keyword\">đoạn văn bản</span>?",
+    "options": [
+      "Font",
+      "<span class=\"answer-keyword\">Paragraph</span>",
+      "Editing",
+      "Clipboard"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Paragraph</span><div class=\"note\">Nhóm lệnh Paragraph chứa các lệnh liên quan đến định dạng đoạn văn bản như căn lề, khoảng cách dòng, khoảng cách đoạn...</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "ĐẠI CƯƠNG VỀ MÁY TÍNH ĐIỆN TỬ & CNTT",
+      "Nền tảng"
+    ],
+    "question": "Trong các <span class=\"keyword\">phần mềm ứng dụng</span> bên dưới, phần mềm nào <span class=\"keyword\">KHÔNG</span> được sử dụng để <span class=\"keyword\">soạn thảo văn bản</span>?",
+    "options": [
+      "<span class=\"answer-keyword\">WinRAR</span>",
+      "Google Docs",
+      "Notepad",
+      "Microsoft Word"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">WinRAR</span><div class=\"note\">WinRAR là phần mềm dùng để nén và giải nén dữ liệu, không dùng để soạn thảo văn bản.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT WORD 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "question": "Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng bảng biểu, nhóm lệnh nào trong thẻ <span class=\"keyword\">Layout</span> cho phép <span class=\"keyword\">bổ sung hoặc xóa bớt</span> dòng và cột?",
+    "options": [
+      "Alignment",
+      "<span class=\"answer-keyword\">Rows & Columns</span>",
+      "Merge",
+      "Cell Size"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Rows & Columns</span><div class=\"note\">Nhóm lệnh Rows & Columns được dùng để chèn thêm hoặc xóa các dòng và cột trong bảng biểu.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT WORD 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "question": "Trong chương trình Microsoft Office Word 2013, cho biết tùy chọn nào được sử dụng để <span class=\"keyword\">chèn số trang</span> ở <span class=\"keyword\">tiêu đề</span> của mỗi trang tài liệu?",
+    "options": [
+      "Bottom of Page",
+      "Current Position",
+      "Page Margin",
+      "<span class=\"answer-keyword\">Top of Page</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Top of Page</span><div class=\"note\">Top of Page được sử dụng để chèn số trang ở tiêu đề của mỗi trang; Bottom of Page: chèn số trang ở chân trang (footer); Current Position: chèn tại vị trí con trỏ; Page Margin: chèn ở lề.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "Nền tảng"
+    ],
+    "question": "Trong chương trình Microsoft Office Excel 2013, cho biết lệnh nào được sử dụng để <span class=\"keyword\">lưu</span> nội dung trang bảng tính?",
+    "options": [
+      "New",
+      "Print",
+      "<span class=\"answer-keyword\">Save</span>",
+      "Open"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Save</span><div class=\"note\">Lệnh Save được sử dụng để lưu lại toàn bộ nội dung và thay đổi của trang bảng tính.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "question": "Trong chương trình Microsoft Office Excel 2013, cho biết lệnh nào sau đây được sử dụng để <span class=\"keyword\">chèn thêm 1 dòng</span>?",
+    "options": [
+      "<span class=\"answer-keyword\">Insert Sheet Rows</span>",
+      "Insert Cells",
+      "Insert Sheet Columns",
+      "Insert Sheet"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Insert Sheet Rows</span><div class=\"note\">Lệnh Insert Sheet Rows được dùng để chèn thêm một hoặc nhiều dòng mới vào bảng tính hiện tại.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "Hệ thống"
+    ],
+    "question": "Trong chương trình Microsoft Office Excel 2013, khi thiết lập thông số cho việc <span class=\"keyword\">in ấn</span> tùy chọn nào giúp xác định <span class=\"keyword\">khổ giấy</span>?",
+    "options": [
+      "<span class=\"answer-keyword\">Page Size</span>",
+      "Orientation",
+      "Margins",
+      "Scaling"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Page Size</span><div class=\"note\">Tùy chọn Page Size trong thiết lập in ấn giúp bạn chọn khổ giấy tương ứng (A4, A3, Letter, v.v.).</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Trong chương trình Microsoft Office Excel 2013, khi <span class=\"keyword\">sắp xếp dữ liệu</span> trong hộp thoại Sort, tùy chọn nào cho phép chọn cột cần sắp xếp có mức độ <span class=\"keyword\">ưu tiên từ 2 trở đi</span>?",
+    "options": [
+      "<span class=\"answer-keyword\">Then By</span>",
+      "Add Level",
+      "Order",
+      "Sort by"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Then By</span><div class=\"note\">Tùy chọn Then By cho phép bạn thêm các tiêu chí sắp xếp phụ có mức độ ưu tiên thứ hai, thứ ba... sau khi ưu tiên chính (Sort by) đã được áp dụng.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Trong chương trình Microsoft Office Excel 2013, khi định dạng cho dữ liệu trong hộp thoại <span class=\"keyword\">Format Cells</span> định dạng nào dùng để định dạng giá trị, khi số <span class=\"keyword\">dài hơn 12 số</span> thì định dạng này sẽ <span class=\"keyword\">tự động chuyển sang dạng Scientific</span>?",
+    "options": [
+      "Currency",
+      "Percentage",
+      "Date",
+      "<span class=\"answer-keyword\">General</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">General</span><div class=\"note\">Định dạng mặc định General sẽ tự động hiển thị số dưới dạng khoa học (Scientific) nếu số đó có nhiều hơn 12 chữ số.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "question": "Trong chương trình Microsoft Office Excel 2013, khi sắp xếp dữ liệu trong hộp thoại <span class=\"keyword\">Sort</span>, nút lệnh nào cho phép <span class=\"keyword\">sao chép</span> điều kiện sắp xếp?",
+    "options": [
+      "Delete Level",
+      "Sort by",
+      "Add Level",
+      "<span class=\"answer-keyword\">Copy Level</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Copy Level</span><div class=\"note\">Nút Copy Level giúp bạn nhân bản nhanh một tiêu chí sắp xếp (cột, kiểu, thứ tự) đã được thiết lập trước đó.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "Giới hạn & Rủi ro"
+    ],
+    "question": "Trong chương trình Microsoft Office Excel 2013, khi nhập công thức tính toán kết quả trả về <span class=\"keyword\">lỗi #VALUE!</span> cho biết nguyên nhân gì?",
+    "options": [
+      "Trong công thức có một tên mà Excel không hiểu được",
+      "Công thức tham chiếu đến vùng không chứa giá trị cần tham chiếu",
+      "Trong công thức có phép tính chia cho số không (0)",
+      "<span class=\"answer-keyword\">Trong công thức có các toán hạng và toán tử sai kiểu dữ liệu</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Trong công thức có các toán hạng và toán tử sai kiểu dữ liệu</span><div class=\"note\">Lỗi #VALUE! xuất hiện khi bạn thực hiện các phép tính số học trên những ô chứa dữ liệu văn bản (sai kiểu dữ liệu toán hạng).</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "Nền tảng"
+    ],
+    "question": "Trong chương trình Microsoft Office Excel 2013, cho biết phím nào được sử dụng <span class=\"keyword\">chỉnh sửa dữ liệu</span> trong một ô?",
+    "options": [
+      "F3",
+      "F4",
+      "<span class=\"answer-keyword\">F2</span>",
+      "F1"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">F2</span><div class=\"note\">Phím tắt F2 được dùng để kích hoạt chế độ chỉnh sửa (Edit mode) trực tiếp trên ô đang được chọn.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "question": "Trong chương trình Microsoft Office PowerPoint 2013, để <span class=\"keyword\">chọn Theme mẫu</span> cho bài trình chiếu ta sẽ thực hiện thao tác nào sau đây?",
+    "options": [
+      "<span class=\"answer-keyword\">Design, Themes, chọn mẫu</span>",
+      "View, Themes, chọn mẫu",
+      "Insert, Themes, chọn mẫu",
+      "Home, Themes, chọn mẫu"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Design, Themes, chọn mẫu</span><div class=\"note\">Để áp dụng các giao diện chủ đề (Themes) cho bài thuyết trình, bạn cần truy cập vào thẻ Design, tìm nhóm Themes và nhấp chọn mẫu phù hợp.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "question": "Trong chương trình Microsoft Office PowerPoint 2013, khi định dạng chữ WordArt <span class=\"keyword\">lệnh Text Effects thuộc nhóm lệnh nào</span> của thẻ Format?",
+    "options": [
+      "<span class=\"answer-keyword\">WordArt Styles</span>",
+      "Arrange",
+      "Size",
+      "Shape styles"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">WordArt Styles</span><div class=\"note\">Trong thẻ Format của WordArt, nhóm lệnh WordArt Styles chứa các công cụ như Text Fill, Text Outline và Text Effects để tạo hiệu ứng cho chữ.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "question": "Trong chương trình Microsoft Office PowerPoint 2013, cho biết tùy chọn nào sau đây được sử dụng để <span class=\"keyword\">thiết lập ảnh nền</span> cho slide?",
+    "options": [
+      "<span class=\"answer-keyword\">Picture or texture fill</span>",
+      "Gradient fill",
+      "Pattern fill",
+      "Solid fill"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Picture or texture fill</span><div class=\"note\">Picture or texture fill cho phép chọn một hình ảnh (từ máy tính hoặc online) hoặc các mẫu vân (texture) để làm nền cho slide.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+      "Hệ thống"
+    ],
+    "question": "Trong chương trình Microsoft Office PowerPoint 2013, để thực hiện các thao tác như <span class=\"keyword\">mở, lưu, tạo mới</span> tập tin… người sử dụng sẽ vào <span class=\"keyword\">thẻ lệnh nào</span>?",
+    "options": [
+      "Thẻ Design",
+      "Thẻ View",
+      "<span class=\"answer-keyword\">Thẻ File</span>",
+      "Thẻ Insert"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Thẻ File</span><div class=\"note\">Thẻ File (Backstage View) quản lý các thao tác hệ thống trên tập tin như New (Tạo mới), Open (Mở), Save/Save As (Lưu), Print (In).</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+      "Phân luồng"
+    ],
+    "question": "Trong chương trình Microsoft Office PowerPoint 2013, cho biết lệnh nào sau đây được sử dụng để <span class=\"keyword\">tạo ra các phiên trình chiếu mới</span>?",
+    "options": [
+      "Set Up Slide Show",
+      "From Current Slide",
+      "From Beginning",
+      "<span class=\"answer-keyword\">Custom Slide Show</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Custom Slide Show</span><div class=\"note\">Custom Slide Show (Trình chiếu tùy chỉnh) cho phép bạn chọn ra một số slide nhất định từ bài thuyết trình gốc và sắp xếp chúng thành một phiên trình chiếu mới độc lập mà không cần phải xóa hay ẩn các slide khác.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "SỬ DỤNG INTERNET",
+      "Nền tảng"
+    ],
+    "question": "Phần mềm ứng dụng nào <span class=\"keyword\">KHÔNG là trình duyệt Web</span>?",
+    "options": [
+      "Internet Explorer",
+      "<span class=\"answer-keyword\">Microsoft Word</span>",
+      "Google Chrome",
+      "Opera"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Microsoft Word</span><div class=\"note\">Microsoft Word là phần mềm soạn thảo văn bản. Các phần mềm như Google Chrome, Opera, và Internet Explorer đều là các trình duyệt web.</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "SỬ DỤNG INTERNET",
+      "Hệ thống"
+    ],
+    "question": "Trang Web nào sau đây có hỗ trợ <span class=\"keyword\">công cụ tìm kiếm thông tin (Search Engine)</span> trên Internet?",
+    "options": [
+      "<span class=\"answer-keyword\">http://www.google.com</span>",
+      "https://dichvucong.bocongan.gov.vn/",
+      "https://www.mail.google.com",
+      "https://tuoitre.vn/"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">http://www.google.com</span><div class=\"note\">Google là máy tìm kiếm (Search Engine) phổ biến nhất thế giới. Các lựa chọn còn lại là cổng dịch vụ công, dịch vụ thư điện tử (email) và trang tin tức (báo điện tử).</div>"
+  },
+  {
+    "weight": "normal",
+    "tags": [
+      "SỬ DỤNG INTERNET",
+      "Nền tảng"
+    ],
+    "question": "<span class=\"keyword\">WWW (World Wide Web)</span> là loại <span class=\"keyword\">dịch vụ gì</span>?",
+    "options": [
+      "Dịch vụ truyền tập tin",
+      "<span class=\"answer-keyword\">Dịch vụ Web</span>",
+      "Dịch vụ tin điện tử",
+      "Dịch vụ thư điện tử"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Dịch vụ Web</span><div class=\"note\">WWW (World Wide Web) là một không gian thông tin toàn cầu trên Internet, nơi chứa các tài liệu, trang web đa phương tiện được liên kết với nhau qua các siêu liên kết (hyperlinks) và có thể truy cập qua trình duyệt web. Do đó, đây là Dịch vụ Web.</div>"
   }
 ]
