@@ -1782,5 +1782,261 @@
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Forward</span><div class=\"note\"></div>",
     "weight": "high"
+  },
+  {
+    "tags": [
+      "ĐẠI CƯƠNG VỀ MÁY TÍNH ĐIỆN TỬ & CNTT",
+      "Cấu trúc"
+    ],
+    "question": "Trong cấu trúc của một máy tính điện tử, bộ phận nào làm nhiệm vụ <span class=\"keyword\">bộ nhớ trung gian</span>, làm nhiệm vụ <span class=\"keyword\">bộ nhớ trung gian</span>",
+    "options": [
+      "ALU (Arithmetic-Logic Unit)",
+      "<span class=\"answer-keyword\">Các thanh ghi</span> (Registers)",
+      "USB Flash Drive",
+      "CU (Control Unit)"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Các thanh ghi</span> (Registers)<div class=\"note\">Vì: Các thanh ghi (Registers): được gắn chặt vào CPU bằng các mạch điện tử làm nhiệm vụ bộ nhớ trung gian. Các thanh ghi mang các chức năng chuyên dụng giúp tăng tốc độ trao đổi thông tin trong máy tính.</div>"
+  },
+  {
+    "tags": [
+      "ĐẠI CƯƠNG VỀ MÁY TÍNH ĐIỆN TỬ & CNTT",
+      "Cấu trúc"
+    ],
+    "question": "Trong cấu trúc của một máy tính điện tử, bộ phận nào là <span class=\"keyword\">trung tâm điều hành</span> máy tính, có nhiệm vụ <span class=\"keyword\">giải mã các lệnh</span>, tạo ra các <span class=\"keyword\">tín hiệu điều khiển</span> công việc của các bộ phận khác của máy tính theo yêu cầu của người sử dụng hoặc theo chương trình đã cài đặt.",
+    "options": [
+      "Các thanh ghi (Registers)",
+      "<span class=\"answer-keyword\">CU (Control Unit)</span>",
+      "USB Flash Drive",
+      "ALU (Arithmetic-Logic Unit)"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">CU (Control Unit)</span><div class=\"note\">Vì: Khối điều khiển (CU: Control Unit): là trung tâm điều hành máy tính, có nhiệm vụ giải mã các lệnh, tạo ra các tín hiệu điều khiển công việc của các bộ phận khác của máy tính theo yêu cầu của người sử dụng hoặc theo chương trình đã cài đặt.</div>"
+  },
+  {
+    "tags": [
+      "SỬ DỤNG HỆ ĐIỀU HÀNH WINDOWS 10",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Để thay đổi <span class=\"keyword\">quy ước</span> về <span class=\"keyword\">ngày tháng</span>, ta vào Control Panel, chọn Region, chọn Additional settings, trong Customize Format ta chọn <span class=\"keyword\">thẻ nào</span> sau đây?",
+    "options": [
+      "Time",
+      "Numbers",
+      "Currency",
+      "<span class=\"answer-keyword\">Date</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Date</span><div class=\"note\">Vì: Thao tác Control Panel > Additional settings > Customize Format ta chọn thẻ: - Numbers để thay đổi quy ước về số - Currency để thay đổi quy ước về tiền tệ - Time để thay đổi quy ước về thời gian - Date để thay đổi quy ước về ngày tháng</div>"
+  },
+  {
+    "tags": [
+      "SỬ DỤNG HỆ ĐIỀU HÀNH WINDOWS 10",
+      "Hệ thống"
+    ],
+    "question": "Trong hệ điều hành Windows 10, <span class=\"keyword\">biểu tượng nào</span> trên màn hình Desktop cho phép <span class=\"keyword\">duyệt nhanh</span> tài nguyên trên máy tính?",
+    "options": [
+      "<span class=\"answer-keyword\">This PC</span>",
+      "Network",
+      "Shortcut",
+      "Recycle Bin"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">This PC</span><div class=\"note\">Vì: This PC: biểu tượng này cho phép duyệt nhanh tài nguyên trên máy tính, Recycle Bin: nơi lưu trữ tạm thời các tập tin và các đối tượng đã bị xoá. (R_click vào Recycle Bin rồi chọn Empty Recycle Bin hoặc Restore để xóa hoàn toàn hoặc phục hồi các đối tượng). Ngoài ra, trên Desktop còn có các biểu tượng chương trình khác là các Shortcut: giúp ta truy nhập nhanh một đối tượng nào đó bằng cách D_click vào biểu tượng đó.</div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT WORD 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "question": "Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác <span class=\"keyword\">định dạng hình ảnh</span> nhóm lệnh nào trong thẻ Format cho phép <span class=\"keyword\">sắp xếp vị trí</span> của hình ảnh so với văn bản hoặc so với đối tượng, hình ảnh khác?",
+    "options": [
+      "Size",
+      "<span class=\"answer-keyword\">Arrange</span>",
+      "Picture styles",
+      "Adjust"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Arrange</span><div class=\"note\"></div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT WORD 2013 CƠ BẢN",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Trong chương trình Microsoft Office Word 2013, <span class=\"keyword\">chức năng nào</span> cho phép <span class=\"keyword\">chuyển đổi văn bản</span> từ kiểu <span class=\"keyword\">chữ in hoa</span> sang kiểu chữ thường hoặc những kiểu thông dụng khác?",
+    "options": [
+      "Clear All Formatting",
+      "Text Highlight Color",
+      "Text effects and Typography",
+      "<span class=\"answer-keyword\">Change Case</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Change Case</span><div class=\"note\"></div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT WORD 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "weight": "high",
+    "question": "Trong chương trình Microsoft Office Word 2013, cho biết thao tác nào được sử dụng để <span class=\"keyword\">chèn bảng biểu</span>?",
+    "options": [
+      "Insert, Nhóm Pages, Table",
+      "<span class=\"answer-keyword\">Insert, Nhóm Tables, Table</span>",
+      "Insert, NhómIllustrations, Table",
+      "Insert, Nhóm text, Table"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Insert, Nhóm Tables, Table</span><div class=\"note\"></div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "Phân luồng"
+    ],
+    "weight": "high",
+    "question": "Trong chương trình Microsoft Office Excel 2013, cho biết phím nào được sử dụng để <span class=\"keyword\">di chuyển</span> qua lại <span class=\"keyword\">giữa các ô</span> trong một sheet?",
+    "options": [
+      "<span class=\"answer-keyword\">Tab</span>",
+      "Enter",
+      "CTRL",
+      "Shift"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Tab</span><div class=\"note\"></div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "question": "Trong chương trình Microsoft Office Excel 2013, khi định dạng cho dữ liệu trong hộp thoại Format Cells thẻ lệnh nào cho phép <span class=\"keyword\">định dạng đường viền</span> cho ô?",
+    "options": [
+      "Alignment",
+      "<span class=\"answer-keyword\">Border</span>",
+      "Fill",
+      "Number"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Border</span><div class=\"note\"></div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "Hệ thống"
+    ],
+    "weight": "high",
+    "question": "Trong chương trình Microsoft Office Excel 2013, cho biết <span class=\"keyword\">hàm nào</span> sau đây được sử dụng để <span class=\"keyword\">đếm số ô</span> <span class=\"keyword\">khác rỗng</span> trong danh sách các tham số?",
+    "options": [
+      "COUNTBLANK",
+      "COUNTIF",
+      "COUNT",
+      "<span class=\"answer-keyword\">COUNTA</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">COUNTA</span><div class=\"note\"></div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "question": "Trong chương trình Microsoft Office Excel 2013, khi định dạng cho dữ liệu trong hộp thoại Format Cells thẻ lệnh nào cho phép <span class=\"keyword\">định dạng hướng chữ</span> trong ô?",
+    "options": [
+      "Font",
+      "Number",
+      "<span class=\"answer-keyword\">Alignment</span>",
+      "Fill"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Alignment</span><div class=\"note\"></div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "question": "Trong cửa sổ chương trình Microsoft Office PowerPoint 2013, <span class=\"keyword\">tên chương trình</span> và tên tập tin được <span class=\"keyword\">hiển thị ở đâu</span>?",
+    "options": [
+      "Slide Area",
+      "Status bar",
+      "<span class=\"answer-keyword\">Title bar</span>",
+      "Notes Pane"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Title bar</span><div class=\"note\"></div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "question": "Trong chương trình Microsoft Office PowerPoint 2013, cho biết tùy chọn nào sau đây được sử dụng để <span class=\"keyword\">canh lề</span> cho các <span class=\"keyword\">đối tượng đang chọn</span>?",
+    "options": [
+      "Order Objects",
+      "<span class=\"answer-keyword\">Position Objects</span>",
+      "Selection Objects",
+      "Group Objects"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Position Objects</span><div class=\"note\"></div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "question": "Trong chương trình Microsoft Office PowerPoint 2013, chế độ hiển thị nào cho phép xem nội dung slide, không hiển thị toàn màn hình?",
+    "options": [
+      "Slide Sorter",
+      "Outline View",
+      "<span class=\"answer-keyword\">Reading View</span>",
+      "Normal"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Reading View</span><div class=\"note\"></div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "question": "Trong chương trình Microsoft Office PowerPoint 2013, để <span class=\"keyword\">chèn các đối tượng</span> vào bài trình chiếu như bảng biểu, hình ảnh, lưu đồ, biểu đồ, các nút lệnh liên kết đến các slide khác hoặc tập tin khác người sử dụng sẽ vào <span class=\"keyword\">thẻ lệnh nào</span>?",
+    "options": [
+      "<span class=\"answer-keyword\">Thẻ Insert</span>",
+      "Thẻ View",
+      "Thẻ Home",
+      "Thẻ Design"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Thẻ Insert</span><div class=\"note\"></div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "weight": "high",
+    "question": "Trong chương trình Microsoft Office PowerPoint 2013, khi định dạng slide trình chiếu tùy chọn nào quy định <span class=\"keyword\">giá trị bắt đầu</span> khi <span class=\"keyword\">đánh số trang</span> cho slide trình chiếu?",
+    "options": [
+      "Height",
+      "Orientation",
+      "<span class=\"answer-keyword\">Number slide from</span>",
+      "Width"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Number slide from</span><div class=\"note\"></div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "question": "Trong chương trình Microsoft Office PowerPoint 2013, <span class=\"keyword\">chế độ hiển thị</span> nào cho phép xem nội dung slide và <span class=\"keyword\">ghi chú thích</span> vào các slide (các chú thích này không hiển thị khi trình chiếu)?",
+    "options": [
+      "<span class=\"answer-keyword\">Notes Page</span>",
+      "Outline View",
+      "Reading View",
+      "Normal"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Notes Page</span><div class=\"note\"></div>"
+  },
+  {
+    "tags": [
+      "SỬ DỤNG INTERNET",
+      "Nền tảng"
+    ],
+    "question": "<span class=\"keyword\">FTP</span> (File Transfer Protocol) là <span class=\"keyword\">loại dịch vụ gì</span>?",
+    "options": [
+      "<span class=\"answer-keyword\">Dịch vụ truyền tập tin</span>",
+      "Dịch vụ Web",
+      "Dịch vụ thư điện tử",
+      "Dịch vụ tin điện tử"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Dịch vụ truyền tập tin</span><div class=\"note\">Vì: FTP là một hệ thống chính yếu để chuyển tải tập tin giữa các máy vi tính vào Internet.</div>"
   }
 ]
