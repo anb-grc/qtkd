@@ -1,0 +1,58 @@
+{
+  "subject": "TIN HỌC ỨNG DỤNG CƠ BẢN",
+  "version": "1.0",
+  "author": "The Veteran Professor (AI Agent)",
+  "core_focus_80_20": {
+    "root_concepts": [
+      "Kiến trúc phần cứng cơ bản (CPU, RAM, ROM, Thiết bị ngoại vi) và các Đơn vị đo lường thông tin (Bit, Byte, KB, MB, GB).",
+      "Các thao tác và phím tắt cốt lõi trong Windows (Quản lý file/folder, Clipboard: Ctrl+C, Ctrl+V, Ctrl+X).",
+      "Kỹ thuật xử lý văn bản Word (Định dạng Paragraph, Styles, Tabs, Bảng biểu, Mail Merge, Phím tắt).",
+      "Hàm tính toán trong Excel: Logic (IF, AND, OR), Thống kê có điều kiện (SUMIF, COUNTIF), Dò tìm (VLOOKUP, HLOOKUP) và Phân biệt địa chỉ Tương đối / Tuyệt đối ($A$1).",
+      "Kỹ thuật trình chiếu PowerPoint (Hiệu ứng Transition chuyển slide vs Animation cho đối tượng, Master Slide).",
+      "Kiến thức mạng Internet cốt lõi (Giao thức HTTP/HTTPS, IP, DNS, Trình duyệt, Phân biệt CC và BCC trong Email)."
+    ],
+    "common_traps": [
+      "Bẫy phần cứng: Lầm tưởng RAM lưu trữ dữ liệu vĩnh viễn (RAM là bộ nhớ tạm Volatile, ROM mới giữ dữ liệu khi mất điện).",
+      "Bẫy Excel: Lỗi #N/A (không tìm thấy) vs #VALUE! (sai kiểu dữ liệu) vs #REF! (mất ô tham chiếu). Nhầm lẫn cố định dòng/cột (A$1 vs $A1).",
+      "Bẫy Word: Phân biệt Save (lưu file hiện tại) vs Save As (lưu thành file mới/định dạng mới). Phân biệt ngắt trang (Ctrl+Enter) và ngắt dòng (Shift+Enter).",
+      "Bẫy Email: Nhầm lẫn chức năng của CC (ai cũng thấy) và BCC (ẩn danh người nhận).",
+      "Bẫy Phím tắt: Các phím tắt thường bị đánh tráo (VD: Ctrl+Z vs Ctrl+Y, Alt+Tab vs Ctrl+Tab)."
+    ],
+    "high_coverage": [
+      "Bài tập kết hợp hàm IF lồng nhau và VLOOKUP trong Excel để xếp loại, tính lương.",
+      "Kỹ thuật căn lề, định dạng trang in (Page Setup) và in ấn trong cả Word và Excel."
+    ]
+  },
+  "exam_matrix": [
+    {
+      "tag": "ĐẠI CƯƠNG VỀ MÁY TÍNH ĐIỆN TỬ & CNTT",
+      "percentage": 10,
+      "description": "Các khái niệm phần cứng, phần mềm, bộ nhớ và đơn vị thông tin."
+    },
+    {
+      "tag": "SỬ DỤNG HỆ ĐIỀU HÀNH WINDOWS 10",
+      "percentage": 10,
+      "description": "Quản lý tập tin, thư mục, Control Panel và phím tắt Windows."
+    },
+    {
+      "tag": "MICROSOFT WORD 2013 CƠ BẢN",
+      "percentage": 20,
+      "description": "Định dạng văn bản, phím tắt, chèn đối tượng và in ấn."
+    },
+    {
+      "tag": "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "percentage": 35,
+      "description": "Các hàm tính toán (logic, thống kê, dò tìm), địa chỉ ô và biểu đồ."
+    },
+    {
+      "tag": "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+      "percentage": 15,
+      "description": "Thiết kế slide, Master Slide, hiệu ứng Transition và Animation."
+    },
+    {
+      "tag": "SỬ DỤNG INTERNET",
+      "percentage": 10,
+      "description": "Mạng máy tính, trình duyệt web, tìm kiếm và thư điện tử."
+    }
+  ]
+}
