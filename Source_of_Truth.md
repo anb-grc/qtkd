@@ -85,7 +85,7 @@ Quy trình co-work chuẩn hóa cho toàn bộ vòng đời môn học, vận h�
   - **Khâu 1 (Cắt lát - Semantic Chunking):** Chẻ nhỏ file tài liệu dài dựa trên Tiêu đề/Chương mục (đảm bảo không cắt vỡ ngữ nghĩa).
   - **Khâu 2 (Thợ Đào - Map):** Gọi các Sub-agent (Thợ Đào) vào cày từng lát cắt. Nhiệm vụ: vắt kiệt 100% định nghĩa/ý chính và tự ráp sơ bộ vào Khung 7 Tầng (Thành bản nháp Mini).
   - **Khâu 3 (Thợ Xây - Reduce):** Agent Trưởng thu thập các bản nháp Mini từ đám lính, gộp (merge) lại thành một Bản Nháp Tổng Thể duy nhất, loại bỏ trùng lặp.
-  - **Khâu 4 (Thanh Tra - Audit):** Gọi Sub-agent Thanh Tra đọ chéo Bản Nháp Tổng Thể với đống list Fact thô ban đầu (đối chiếu list vs list) để bắt quả tang bất kỳ kiến thức nào bị rớt. Bắt buộc sửa đến khi Thanh Tra báo "Sạch 100%".
+  - **Khâu 4 (Thanh Tra - Audit):** Gọi Sub-agent Thanh Tra đọ chéo Bản Nháp Tổng Thể với đống list Fact thô ban đầu (đối chiếu list vs list) để bắt quả tang bất kỳ kiến thức nào bị rớt. Áp dụng vòng lặp **Build ➔ Test ➔ Final ➔ Audit ➔ Final**. Nếu Thanh Tra báo rớt chữ, bắt buộc sửa lại. Nếu sửa quá 2 lần mà vẫn không khớp (do tài liệu mâu thuẫn/quá dị), BẮT BUỘC ngắt lặp (Force Final): Đưa fact bị rớt đó vào danh sách "Cảnh báo mồ côi" trong Báo cáo nghiệm thu và nhả ra `kb.json` để chạy tiếp, nghiêm cấm lặp vô tận.
 - **Bước 8.5 (Checkpoint Duyệt Bản Nháp — CỬA CHẶN BẮT BUỘC):** Sau khi Dây chuyền Bước 8 hoàn tất rà soát ngầm, Agent Trưởng **PHẢI DỪNG LẠI** và xuất **Bản Nháp Trực Quan Hóa Tổng Thể** theo template chuẩn bên dưới. Trình User xem và chờ lệnh **"Duyệt"** rồi mới được tiến hành Bước 9. Nếu User yêu cầu chỉnh sửa, Agent phải sửa rồi trình lại. **NGHIÊM CẤM** nhảy thẳng vào viết `kb.json` mà chưa qua checkpoint này.
   - **TEMPLATE BẢN NHÁP (Bắt buộc tuân thủ):**
     ```
@@ -124,7 +124,11 @@ Quy trình co-work chuẩn hóa cho toàn bộ vòng đời môn học, vận h�
   - **Quy tắc Tự Giải Đề:** Với những câu hỏi *chưa có đáp án*, Agent có nghĩa vụ móc nối dữ liệu lý do từ Bước 9 để tự động suy luận bẻ khóa tìm đáp án đúng 100%. ĐỐI VỚI CÂU HỎI TỰ GIẢI (CHƯA CÓ ĐÁP ÁN), SAU KHI GIẢI XONG BẮT BUỘC TRÍCH XUẤT LẠI NỘI DUNG CÂU HỎI VÀ ĐÁP ÁN Ở NGÔN NGỮ TỰ NHIÊN ĐỂ USER ĐỌC VÀ KIỂM TRA LẠI TRONG BÁO CÁO NGHIỆM THU. Đặc biệt lưu ý ranh giới 2 loại câu hỏi sau:
     1. **Câu hỏi Thảo luận (Cày chuyên cần):** Agent BẮT BUỘC nhập vai một sinh viên xuất sắc, hành văn rõ ràng, mạch lạc, chia ý cụ thể và trình bày theo dạng quan điểm/góc nhìn cá nhân để đối đáp với giáo viên. **LƯU Ý ĐẶC BIỆT:** Vẫn giữ sự lễ phép (dạ, thưa thầy/cô, theo em) nhưng cấm tuyệt đối dùng các cụm từ xưng hô sáo rỗng, thảo mai kiểu "đã lắng nghe", "cảm ơn thầy cô",... cứ đi thẳng trực diện vào vấn đề chuyên môn một cách tự nhiên. Giải xong chỉ in text ra màn hình cho User copy. **TUYỆT ĐỐI KHÔNG lưu vào `qs.json`**.
     2. **Câu hỏi Tự luận (Thi cử):** KHÔNG nhập vai sinh viên. Bắt buộc giữ văn phong chuẩn mực khoa học theo nguyên tắc ngân hàng đề. Giải xong **LƯU vào `qs.json`** như bình thường.
-  - Thực thi luân lưu Kiến trúc 3 lớp (The Core 3-layer protection): Lọc trùng trên Staging ➔ Đánh dấu từ khóa theo Ma Trận Lục Hợp (Highlight từ khóa, tách `<div class="options-grid">` và `<div class="note">`) ➔ Safe Write vào `qs.json`.
+  - Thực thi luân lưu Kiến trúc 3 lớp (The Core 3-layer protection) kết hợp vòng lặp **BTFAF**: 
+    1. Lọc trùng trên Staging.
+    2. Đánh dấu từ khóa theo Ma Trận Lục Hợp (Build).
+    3. Chạy tool kiểm tra độ dài và cú pháp (Test & Audit). Nếu lỗi, tự sửa. Nếu sửa quá 2 lần vẫn vi phạm luật Ma Trận (câu quá rắc rối), BẮT BUỘC ngắt lặp (Force Final): Xóa toàn bộ highlight của câu đó (để nguyên bản trắng, chỉ giữ phần bôi đáp án) và đưa vào Báo cáo nghiệm thu.
+    4. Safe Write vào `qs.json`.
   - Xuất **Báo Cáo Nghiệm Thu** (Số lượng, khối lượng, trạng thái giải đề) và chạy lệnh Git theo **Quy Tắc Phạm Vi Commit** (Tầng 2, Mục 4): `git add "_sources/[Tổ chức]/[Chương trình]/[Tên Môn]/" && git commit -m "Cập nhật đề thi" && git push` để Vercel Deploy song song.
 - **Bước 12 (Vòng lặp Vĩnh Cửu & Cơ Chế Nạp Bù):** Bất cứ lúc nào (kể cả khi đã hô 'Bỏ qua' ở Bước 7), nếu User thả thêm tài liệu lý luận mới hay đề thi mới và hô *"Nạp thêm kiến thức"* hoặc *"Thêm đề"*, Agent tự động kích hoạt lại Bước 8 & Bước 9 (để build lại `kb.json`) hoặc Bước 11 (để update `qs.json`).
 - *Lưu ý về chữ "Im Lặng":* Trong suốt tiến trình cày búa data, cấm lề mề hỏi xin phép vặt vãnh. Tuy nhiên, sau khi gia công xong bất kỳ bước nào (Bước 2, 4, 9, 11), việc gửi **Báo Cáo Nghiệm Thu** là nghĩa vụ bắt buộc!
@@ -133,7 +137,7 @@ Quy trình co-work chuẩn hóa cho toàn bộ vòng đời môn học, vận h�
 Để bảo vệ UI/UX và Logic không bị vỡ:
 - Tuyệt đối KHÔNG viết code (`.html`, `.js`, `.css`) trực tiếp lên nhánh `main`.
 - BẮT BUỘC tạo nhánh riêng (`git checkout -b feature/[tên-tính-năng]`).
-- Code và Sandboxing toàn bộ trên nhánh này.
+- Thực thi vòng lặp **Build ➔ Test ➔ Final ➔ Audit ➔ Final** trong quá trình code: Viết code (Build) ➔ Chạy sandbox test render (Test) ➔ Tự review UI/UX (Audit) ➔ Chốt bản nháp (Final). Nếu test lỗi quá 2 vòng không fix được, phải dừng lại, commit bản tạm và báo cáo rõ điểm kẹt cho User, cấm tự sửa mù quáng làm nát cấu trúc.
 - Dừng lại để User "Nghiệm thu Local". Khi User chốt "Duyệt" thì tiến hành `git checkout main`, `git merge feature/[tên-tính-năng]` và Deploy Vercel.
 
 ---
