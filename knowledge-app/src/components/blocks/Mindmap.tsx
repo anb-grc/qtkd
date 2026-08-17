@@ -187,9 +187,6 @@ function Node({ node: rawNode, isExpanded, onToggleExpand, onHover, onSelect, is
         style={{ cursor: 'pointer' }}
       >
         <span className={styles.nodeText} dangerouslySetInnerHTML={{ __html: node.label }} />
-        {node.description && (
-          <span className={`${styles.expandIcon} ${isExpanded ? styles.expandedIcon : ''}`}>▼</span>
-        )}
       </div>
 
       {node.description && (
