@@ -75,7 +75,7 @@
   justify-content: center;
   position: relative;
   padding-top: 28px;  /* gap between parent and children */
-  gap: 4px;
+  gap: 12px;
 }
 
 /* Each child slot has equal width */
@@ -84,7 +84,7 @@
   flex-direction: column;
   align-items: center;
   flex: 0 0 auto;
-  min-width: 40px;
+  min-width: 100px;
   position: relative;
 }
 
@@ -124,8 +124,8 @@
   font-weight: 800;
   font-size: var(--text-lg);
   border: 1.5px solid rgba(255,255,255,0.2);
-  width: 160px;
-  max-width: 160px;
+  width: fit-content;
+  max-width: 220px;
 }
 
 .node {
@@ -139,9 +139,8 @@
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   word-break: normal;
   overflow-wrap: break-word;
-  width: 110px;
-  max-width: 110px;
-  padding: 8px 8px;
+  width: fit-content;
+  max-width: 170px;
   min-height: 48px;
   line-height: var(--leading-snug);
   display: flex;
@@ -292,11 +291,11 @@
     justify-content: flex-start;
   }
   .childSlot {
-    min-width: 30px;
+    min-width: 80px;
   }
   .childrenSvg {
     padding-top: 20px;
-    gap: 2px;
+    gap: 8px;
   }
   .rootNode, .node {
     padding: var(--space-md) var(--space-sm);
@@ -304,12 +303,12 @@
     min-height: 44px;
   }
   .rootNode {
-    width: 140px;
-    max-width: 140px;
+    width: fit-content;
+    max-width: 180px;
   }
   .node {
-    width: 90px;
-    max-width: 90px;
+    width: fit-content;
+    max-width: 140px;
     padding: var(--space-md) var(--space-xs) calc(var(--space-md) + 4px) var(--space-xs);
     word-break: break-word;
   }
