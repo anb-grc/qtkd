@@ -1,0 +1,70 @@
+{
+  "subject": "TÀI CHÍNH TIỀN TỆ",
+  "version": "1.0",
+  "author": "The Veteran Professor (AI Agent)",
+  "core_focus_80_20": {
+    "root_concepts": [
+      "Bản chất và chức năng của Tiền tệ (Thước đo giá trị, Phương tiện lưu thông, Phương tiện cất trữ).",
+      "Khái niệm và các loại Lãi suất (Thực, Danh nghĩa). Phân biệt rõ sự tác động của Lạm phát lên Lãi suất.",
+      "Cơ chế tạo tiền của Ngân hàng Thương mại (NHTM) và vai trò phát hành tiền của Ngân hàng Trung ương (NHTW).",
+      "Bản chất của Lạm phát và các công cụ chính sách tiền tệ để kiềm chế lạm phát (Tỷ lệ dự trữ bắt buộc, Lãi suất chiết khấu, OMO)."
+    ],
+    "common_traps": [
+      "Đánh tráo khái niệm giữa 'Tài chính công' và 'Tài chính doanh nghiệp' (mục tiêu tối đa hóa lợi nhuận vs lợi ích kinh tế - xã hội).",
+      "Bẫy phân biệt Thị trường Tiền tệ (ngắn hạn, thanh khoản cao) và Thị trường Vốn (dài hạn, rủi ro cao).",
+      "Bẫy Lạm phát: Lạm phát chi phí đẩy vs Lạm phát cầu kéo.",
+      "Nhầm lẫn giữa các công cụ chính sách tài khóa (Thuế, Chi tiêu chính phủ) và chính sách tiền tệ (Lãi suất, Cung tiền)."
+    ],
+    "high_coverage": [
+      "Các nhân tố ảnh hưởng đến Cung - Cầu tiền tệ và sự dịch chuyển của đường cong LM.",
+      "Tác động kép của Tỷ giá hối đoái lên Cán cân thương mại và nợ công quốc gia."
+    ]
+  },
+  "exam_matrix": [
+    {
+      "tag": "Nhập môn tài chính",
+      "percentage": 5,
+      "description": "Câu hỏi nhận biết khái niệm cơ bản."
+    },
+    {
+      "tag": "Tiền tệ",
+      "percentage": 10,
+      "description": "Chức năng, hình thái tiền tệ và cung cầu tiền."
+    },
+    {
+      "tag": "Thị trường Tài chính",
+      "percentage": 15,
+      "description": "Công cụ thị trường tiền tệ và thị trường vốn."
+    },
+    {
+      "tag": "Tín dụng và Lãi suất",
+      "percentage": 15,
+      "description": "Cơ cấu lãi suất, các rủi ro tín dụng và bài tập tính lãi."
+    },
+    {
+      "tag": "Hệ thống ngân hàng",
+      "percentage": 15,
+      "description": "Hoạt động NHTM, quy trình tạo tiền và công cụ của NHTW."
+    },
+    {
+      "tag": "Ngân sách Nhà nước",
+      "percentage": 10,
+      "description": "Cơ cấu thu chi, thâm hụt và các biện pháp bù đắp."
+    },
+    {
+      "tag": "Tài chính doanh nghiệp",
+      "percentage": 10,
+      "description": "Quản trị vốn, chi phí, doanh thu và tối đa hóa lợi nhuận."
+    },
+    {
+      "tag": "Lạm phát",
+      "percentage": 15,
+      "description": "Bản chất, nguyên nhân, hậu quả và biện pháp xử lý."
+    },
+    {
+      "tag": "Tài chính quốc tế",
+      "percentage": 5,
+      "description": "Tỷ giá hối đoái và cán cân thanh toán."
+    }
+  ]
+}
