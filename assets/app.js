@@ -415,6 +415,19 @@ window.onload = async () => {
             const res = await fetch(QS_DATA_URL);
             let qsData = await res.json();
             
+            window.subjectBlueprint = null;
+            try {
+                let dirPath = QS_DATA_URL.substring(0, QS_DATA_URL.lastIndexOf('/'));
+                let bpUrl = dirPath + '/blueprint.json';
+                const bpRes = await fetch(bpUrl);
+                if (bpRes.ok) {
+                    window.subjectBlueprint = await bpRes.json();
+                    console.log(`[Hệ thống] Đã tải Ma trận Đề thi (Blueprint):`, window.subjectBlueprint);
+                }
+            } catch(e) {
+                console.warn("[Hệ thống] Không tìm thấy file blueprint.json, lùi về thuật toán cũ.");
+            }
+            
             let kienThucCount = 0;
             let mauCount = 0;
             
@@ -561,51 +574,70 @@ function startQuiz(quizMode = 'optimized') {
     let selected = [];
     const totalQuestions = window.selectedQuizCount || ((window.subjectConfig && window.subjectConfig.quizTotal) ? window.subjectConfig.quizTotal : 40);
     
-    if (quizMode === 'optimized') {
-        let highPriority = window.quizData.filter(q => q.weight === 'high' || (q.tags && (q.tags.includes('80/20') || q.tags.includes('Trọng tâm'))));
-        highPriority.sort(() => 0.5 - Math.random());
-        
-        let numHigh = Math.min(totalQuestions, highPriority.length);
-        selected = [...highPriority.slice(0, numHigh)];
-        
-        // Nếu không đủ câu hỏi trọng tâm, bù thêm bằng câu thường
-        if (selected.length < totalQuestions) {
-            let normalPriority = window.quizData.filter(q => q.weight !== 'high' && !(q.tags && (q.tags.includes('80/20') || q.tags.includes('Trọng tâm'))));
-            normalPriority.sort(() => 0.5 - Math.random());
-            let remain = totalQuestions - selected.length;
-            selected = [...selected, ...normalPriority.slice(0, Math.min(remain, normalPriority.length))];
+    if (quizMode === 'optimized' || quizMode === 'structured') {
+        let matrix = [];
+        if (window.subjectBlueprint && window.subjectBlueprint.exam_matrix) {
+             matrix = window.subjectBlueprint.exam_matrix;
+        } else if (window.subjectConfig && window.subjectConfig.structure && window.subjectConfig.structure.length > 0) {
+             matrix = window.subjectConfig.structure.map(r => ({tag: r.tag, percentage: (r.count / window.subjectConfig.quizTotal) * 100}));
         }
-    } else if (quizMode === 'structured') {
-        if (window.subjectConfig && window.subjectConfig.structure && window.subjectConfig.structure.length > 0) {
-            let usedQuestions = new Set();
-            let totalConfigured = window.subjectConfig.structure.reduce((sum, rule) => sum + rule.count, 0);
-            window.subjectConfig.structure.forEach(rule => {
-                let pool = window.quizData.filter(q => q.tags && q.tags.includes(rule.tag) && !usedQuestions.has(q.question));
-                pool.sort(() => 0.5 - Math.random());
-                // Quy đổi tỷ lệ nếu totalQuestions khác với config gốc
-                let scaledCount = Math.round(rule.count * (totalQuestions / totalConfigured));
-                let picked = pool.slice(0, scaledCount);
-                picked.forEach(q => {
-                    selected.push(q);
-                    usedQuestions.add(q.question);
-                });
+
+        if (matrix.length > 0) {
+            let usedQuestions = new Set(); // Lưu object reference
+            let totalPercentage = matrix.reduce((sum, rule) => sum + rule.percentage, 0);
+            
+            matrix.forEach(rule => {
+                let scaledCount = Math.round((rule.percentage / totalPercentage) * totalQuestions);
+                let pool = window.quizData.filter(q => q.tags && q.tags.includes(rule.tag) && !usedQuestions.has(q));
+                
+                if (quizMode === 'optimized') {
+                     let highPool = pool.filter(q => q.weight === 'high' || (q.tags && (q.tags.includes('80/20') || q.tags.includes('Trọng tâm'))));
+                     let normalPool = pool.filter(q => q.weight !== 'high' && !(q.tags && (q.tags.includes('80/20') || q.tags.includes('Trọng tâm'))));
+                     
+                     highPool.sort(() => 0.5 - Math.random());
+                     normalPool.sort(() => 0.5 - Math.random());
+                     
+                     let picked = highPool.slice(0, scaledCount);
+                     if (picked.length < scaledCount) {
+                         let remain = scaledCount - picked.length;
+                         picked = [...picked, ...normalPool.slice(0, Math.min(remain, normalPool.length))];
+                     }
+                     
+                     picked.forEach(q => { selected.push(q); usedQuestions.add(q); });
+                } else {
+                     pool.sort(() => 0.5 - Math.random());
+                     let picked = pool.slice(0, Math.min(scaledCount, pool.length));
+                     picked.forEach(q => { selected.push(q); usedQuestions.add(q); });
+                }
             });
-            // Nếu cấu trúc không bốc đủ totalQuestions (do làm tròn), bù thêm ngẫu nhiên
+            
+            // Bù thêm nếu thiếu
             if (selected.length < totalQuestions) {
-                let pool = window.quizData.filter(q => !usedQuestions.has(q.question));
+                let pool = window.quizData.filter(q => !usedQuestions.has(q));
                 pool.sort(() => 0.5 - Math.random());
-                let remain = totalQuestions - selected.length;
-                let picked = pool.slice(0, Math.min(remain, pool.length));
-                picked.forEach(q => selected.push(q));
+                let picked = pool.slice(0, totalQuestions - selected.length);
+                picked.forEach(q => { selected.push(q); usedQuestions.add(q); });
             }
             if (selected.length > totalQuestions) {
                 selected = selected.slice(0, totalQuestions);
             }
         } else {
-            // Fallback nếu không có config cấu trúc: Bốc ngẫu nhiên toàn bộ
-            let pool = [...window.quizData];
-            pool.sort(() => 0.5 - Math.random());
-            selected = pool.slice(0, Math.min(totalQuestions, pool.length));
+             // Fallback Random
+             let pool = [...window.quizData];
+             if (quizMode === 'optimized') {
+                  let highPool = pool.filter(q => q.weight === 'high' || (q.tags && (q.tags.includes('80/20') || q.tags.includes('Trọng tâm'))));
+                  highPool.sort(() => 0.5 - Math.random());
+                  let normalPool = pool.filter(q => q.weight !== 'high' && !(q.tags && (q.tags.includes('80/20') || q.tags.includes('Trọng tâm'))));
+                  normalPool.sort(() => 0.5 - Math.random());
+                  
+                  selected = highPool.slice(0, Math.min(totalQuestions, highPool.length));
+                  if (selected.length < totalQuestions) {
+                      selected = [...selected, ...normalPool.slice(0, totalQuestions - selected.length)];
+                  }
+             } else {
+                  pool.sort(() => 0.5 - Math.random());
+                  selected = pool.slice(0, Math.min(totalQuestions, pool.length));
+             }
         }
     }
     
