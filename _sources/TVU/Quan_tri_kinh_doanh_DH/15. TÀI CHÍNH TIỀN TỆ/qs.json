@@ -162,10 +162,10 @@
   {
     "question": "<span class=\"keyword\">Ưu thế vượt trội</span> của <span class=\"keyword\"><span class=\"keyword\">tín dụng</span> thuê mua</span> so với tín dụng ngân hàng đối với các doanh nghiệp thiếu vốn là gì?",
     "options": [
-      "Lãi suất cho thuê luôn thấp hơn <span class=\"answer-keyword\">lãi suất</span> ngân hàng",
+      "Lãi suất cho thuê luôn thấp hơn lãi suất ngân hàng",
       "<span class=\"answer-keyword\">Không nhất thiết</span> phải có <span class=\"answer-keyword\">tài sản thế chấp</span>",
-      "Được miễn hoàn toàn các loại <span class=\"answer-keyword\">thuế</span> thu nhập",
-      "Được Nhà nước <span class=\"answer-keyword\">trợ cấp</span> vô điều kiện"
+      "Được miễn hoàn toàn các loại thuế thu nhập",
+      "Được Nhà nước trợ cấp vô điều kiện"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Không nhất thiết</span> phải có <span class=\"answer-keyword\">tài sản thế chấp</span><div class=\"note\">Tín dụng thuê mua bản chất là công ty <span class=\"answer-keyword\">tài chính</span> cho thuê tài sản, quyền sở hữu vẫn thuộc công ty cho thuê, do đó doanh nghiệp đi thuê không nhất thiết phải dùng tài sản khác để thế chấp.</div>",
     "tags": [
@@ -265,9 +265,9 @@
   },
   {
     "question": "Chính sách <span class=\"keyword\">thắt chặt tiền tệ</span> được áp dụng khi nền kinh tế có dấu hiệu gì?",
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Phát triển thái quá</span>, <span class=\"answer-keyword\">lạm phát gia tăng</span>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Phát triển thái quá</span>, <span class=\"answer-keyword\">lạm phát</span> gia tăng",
     "options": [
-      "<span class=\"answer-keyword\">Phát triển thái quá</span>, <span class=\"answer-keyword\">lạm phát gia tăng</span>",
+      "<span class=\"answer-keyword\">Phát triển thái quá</span>, <span class=\"answer-keyword\">lạm phát</span> gia tăng",
       "Suy thoái nặng, thất nghiệp tăng",
       "Đóng băng thị trường bất động sản",
       "Mất cân đối cán cân thanh toán"
@@ -369,10 +369,10 @@
   },
   {
     "question": "Đâu là biện pháp <span class=\"keyword\">cấp bách</span> về <span class=\"keyword\">tín dụng</span> nhằm <span class=\"keyword\">kiểm soát lượng tiền</span> cung ứng, <span class=\"keyword\">kiềm chế lạm phát</span>?",
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Tăng tỷ lệ dự trữ</span> bắt buộc và <span class=\"answer-keyword\">lãi suất</span>.<div class=\"note\">Tăng tỷ lệ dự trữ bắt buộc và tăng lãi suất là giải pháp tín dụng để siết tiền tệ. Bán vàng là giải pháp can thiệp giá, giảm bội chi là giải pháp <span class=\"answer-keyword\">tài chính</span>.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Tăng tỷ lệ dự trữ</span> bắt buộc và <span class=\"answer-keyword\">lãi suất</span>.<div class=\"note\">Tăng tỷ lệ dự trữ bắt buộc và tăng lãi suất là giải pháp tín dụng để siết tiền tệ. Bán vàng là giải pháp can thiệp giá, giảm bội chi là giải pháp tài chính.</div>",
     "options": [
       "<span class=\"answer-keyword\">Tăng tỷ lệ dự trữ</span> bắt buộc và <span class=\"answer-keyword\">lãi suất</span>.",
-      "Giảm mạnh <span class=\"answer-keyword\">lãi suất</span> tín dụng ưu đãi.",
+      "Giảm mạnh lãi suất tín dụng ưu đãi.",
       "Bán vàng và ngoại tệ ra thị trường.",
       "Giảm dần bội chi ngân sách nhà nước."
     ],
@@ -474,11 +474,11 @@
     "question": "<span class=\"keyword\">Mục đích tài chính cuối cùng</span> của các doanh nghiệp là <span class=\"keyword\">tối đa hóa</span>",
     "options": [
       "các chỉ số <span class=\"answer-keyword\">tài chính</span>.",
-      "<span class=\"answer-keyword\"><span class=\"answer-keyword\">lợi nhuận</span></span>.",
+      "<span class=\"answer-keyword\">lợi nhuận</span>.",
       "doanh thu.",
       "tài sản."
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\"><span class=\"answer-keyword\">lợi nhuận</span></span>. <div class=\"note\">Theo giáo trình, mục tiêu <span class=\"answer-keyword\">tài chính</span> cuối cùng của doanh nghiệp được định hướng là tối đa hóa lợi nhuận.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">lợi nhuận</span>. <div class=\"note\">Theo giáo trình, mục tiêu <span class=\"answer-keyword\">tài chính</span> cuối cùng của doanh nghiệp được định hướng là tối đa hóa lợi nhuận.</div>",
     "weight": "high"
   },
   {
@@ -503,11 +503,11 @@
     "question": "Ý nào sau đây <span class=\"keyword\">KHÔNG phải</span> vai trò của tài chính ở <span class=\"keyword\">tầm vi mô</span>?",
     "options": [
       "Tích tụ và tập trung vốn, cung ứng vốn cho các nhu cầu công nghiệp hóa, hiện đại hóa.",
-      "Xác lập và tăng cường các <span class=\"answer-keyword\">quan hệ kinh tế</span> - xã hội.",
+      "Xác lập và tăng cường các quan hệ kinh tế - xã hội.",
       "Điều tiết kinh tế.",
-      "<span class=\"answer-keyword\">Tăng cường tiềm lực</span> <span class=\"answer-keyword\">tài chính</span> <span class=\"answer-keyword\">của đất nước</span>."
+      "<span class=\"answer-keyword\">Tăng cường tiềm lực</span> tài chính <span class=\"answer-keyword\">của đất nước</span>."
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Tăng cường tiềm lực</span> <span class=\"answer-keyword\">tài chính</span> <span class=\"answer-keyword\">của đất nước</span>. <div class=\"note\">\"Tăng cường tiềm lực tài chính của đất nước\" là mục tiêu và vai trò mang tầm vĩ mô (của toàn nền kinh tế quốc gia), không phải vi mô.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Tăng cường tiềm lực</span> tài chính <span class=\"answer-keyword\">của đất nước</span>. <div class=\"note\">\"Tăng cường tiềm lực tài chính của đất nước\" là mục tiêu và vai trò mang tầm vĩ mô (của toàn nền kinh tế quốc gia), không phải vi mô.</div>",
     "weight": "high"
   },
   {
@@ -546,11 +546,11 @@
     "question": "Khoản thu nào dưới đây chiếm <span class=\"keyword\">tỷ trọng lớn nhất</span> trong <span class=\"keyword\">tổng <span class=\"keyword\">thu ngân sách</span></span> nhà nước ở Việt Nam?",
     "options": [
       "phí.",
-      "<span class=\"answer-keyword\"><span class=\"answer-keyword\">thuế</span></span>.",
+      "<span class=\"answer-keyword\">thuế</span>.",
       "sở hữu tài sản.",
       "lệ phí."
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\"><span class=\"answer-keyword\">thuế</span></span>. <div class=\"note\">Thuế là <span class=\"answer-keyword\">nguồn thu chủ yếu</span>, mang tính bắt buộc và chiếm tỷ trọng lớn nhất trong tổng thu Ngân sách Nhà nước.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">thuế</span>. <div class=\"note\">Thuế là <span class=\"answer-keyword\">nguồn thu chủ yếu</span>, mang tính bắt buộc và chiếm tỷ trọng lớn nhất trong tổng thu Ngân sách Nhà nước.</div>",
     "weight": "high"
   },
   {
@@ -560,12 +560,12 @@
     ],
     "question": "Đâu là <span class=\"keyword\">khâu cuối cùng</span> trong chu trình <span class=\"keyword\">quản lý ngân sách</span> nhà nước?",
     "options": [
-      "<span class=\"answer-keyword\"><span class=\"answer-keyword\">Quyết toán ngân sách</span></span>",
+      "<span class=\"answer-keyword\">Quyết toán ngân sách</span>",
       "Chấp hành dự toán chi",
       "Chấp hành dự toán thu",
       "Hình thành ngân sách"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\"><span class=\"answer-keyword\">Quyết toán ngân sách</span></span> <div class=\"note\">Chu trình quản lý NSNN gồm 3 khâu: Lập dự toán ➔ Chấp hành dự toán ➔ Quyết toán ngân sách (khâu cuối cùng).</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Quyết toán ngân sách</span> <div class=\"note\">Chu trình quản lý NSNN gồm 3 khâu: Lập dự toán ➔ Chấp hành dự toán ➔ Quyết toán ngân sách (khâu cuối cùng).</div>"
   },
   {
     "tags": [
@@ -606,7 +606,7 @@
       "Chi khoa học, công nghệ và môi trường.",
       "Chi giải quyết việc làm.",
       "Chi <span class=\"answer-keyword\">dân số kế hoạch hóa gia đình</span>.",
-      "Chi <span class=\"answer-keyword\">trợ cấp</span> ngân sách cho phường, xã."
+      "Chi trợ cấp ngân sách cho phường, xã."
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Chi <span class=\"answer-keyword\">dân số kế hoạch hóa gia đình</span>. <div class=\"note\">Chi dân số kế hoạch hóa gia đình thuộc nhóm chi sự nghiệp y tế, xã hội - một bộ phận của chi thường xuyên nhằm duy trì hoạt động xã hội.</div>",
     "weight": "high"
@@ -633,12 +633,12 @@
     ],
     "question": "Thuế được coi là có <span class=\"keyword\">vai trò quan trọng</span> đối với nền kinh tế bởi vì",
     "options": [
-      "<span class=\"answer-keyword\">thuế</span> là công cụ để kích thích nhập khẩu và <span class=\"answer-keyword\">thu hút</span> đầu tư nước ngoài...",
-      "việc quy định nghĩa vụ đóng góp về <span class=\"answer-keyword\">thuế</span> thường được phổ biến thành luật...",
-      "chính sách <span class=\"answer-keyword\">thuế</span> là một trong những nội dung cơ bản của chính sách <span class=\"answer-keyword\">tài chính</span> quốc gia.",
-      "<span class=\"answer-keyword\">thuế</span> là <span class=\"answer-keyword\">nguồn thu chủ yếu</span> của ngân sách nhà nước và là <span class=\"answer-keyword\">công cụ quản lý</span> và điều tiết vĩ mô nền kinh tế quốc dân."
+      "thuế là công cụ để kích thích nhập khẩu và thu hút đầu tư nước ngoài...",
+      "việc quy định nghĩa vụ đóng góp về thuế thường được phổ biến thành luật...",
+      "chính sách thuế là một trong những nội dung cơ bản của chính sách tài chính quốc gia.",
+      "thuế là <span class=\"answer-keyword\">nguồn thu chủ yếu</span> của ngân sách nhà nước và là <span class=\"answer-keyword\">công cụ quản lý</span> và điều tiết vĩ mô nền kinh tế quốc dân."
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">thuế</span> là <span class=\"answer-keyword\">nguồn thu chủ yếu</span> của ngân sách nhà nước và là <span class=\"answer-keyword\">công cụ quản lý</span> và điều tiết vĩ mô nền kinh tế quốc dân. <div class=\"note\">Vai trò sống còn của thuế thể hiện ở việc nó vừa đảm bảo nguồn thu chính (80-90%) cho NSNN, vừa là công cụ sắc bén để Nhà nước điều tiết kinh tế vĩ mô.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> thuế là <span class=\"answer-keyword\">nguồn thu chủ yếu</span> của ngân sách nhà nước và là <span class=\"answer-keyword\">công cụ quản lý</span> và điều tiết vĩ mô nền kinh tế quốc dân. <div class=\"note\">Vai trò sống còn của thuế thể hiện ở việc nó vừa đảm bảo nguồn thu chính (80-90%) cho NSNN, vừa là công cụ sắc bén để Nhà nước điều tiết kinh tế vĩ mô.</div>",
     "weight": "high"
   },
   {
@@ -664,11 +664,11 @@
     "question": "Vai trò nào của <span class=\"keyword\">tài chính doanh nghiệp</span> đặt ra như một vấn đề có <span class=\"keyword\">tính sống còn</span> đối với doanh nghiệp?",
     "options": [
       "Giúp doanh nghiệp sử dụng vốn tiết kiệm và hiệu quả.",
-      "<span class=\"answer-keyword\">Công cụ khai thác</span> <span class=\"answer-keyword\">thu hút</span> các <span class=\"answer-keyword\">nguồn <span class=\"answer-keyword\">tài chính</span></span> nhằm đáp ứng nhu cầu của doanh nghiệp.",
+      "<span class=\"answer-keyword\">Công cụ khai thác</span> <span class=\"answer-keyword\">thu hút</span> các <span class=\"answer-keyword\">nguồn tài chính</span> nhằm đáp ứng nhu cầu của doanh nghiệp.",
       "Khuyến khích và điều tiết hoạt động kinh doanh của doanh nghiệp.",
       "Kiểm tra, giám sát hoạt động của doanh nghiệp."
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Công cụ khai thác</span> <span class=\"answer-keyword\">thu hút</span> các <span class=\"answer-keyword\">nguồn <span class=\"answer-keyword\">tài chính</span></span> nhằm đáp ứng nhu cầu của doanh nghiệp. <div class=\"note\">Việc huy động đủ vốn là điều kiện tiên quyết (sống còn) để doanh nghiệp có thể thành lập, tồn tại và tiến hành kinh doanh.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Công cụ khai thác</span> <span class=\"answer-keyword\">thu hút</span> các <span class=\"answer-keyword\">nguồn tài chính</span> nhằm đáp ứng nhu cầu của doanh nghiệp. <div class=\"note\">Việc huy động đủ vốn là điều kiện tiên quyết (sống còn) để doanh nghiệp có thể thành lập, tồn tại và tiến hành kinh doanh.</div>",
     "weight": "high"
   },
   {
@@ -707,12 +707,12 @@
     ],
     "question": "Căn cứ để các khâu tài chính <span class=\"keyword\">hợp thành một hệ thống</span> thống nhất",
     "options": [
-      "Phải gắn liền với một chủ thể <span class=\"answer-keyword\">phân phối</span> cụ thể, xác định.",
+      "Phải gắn liền với một chủ thể phân phối cụ thể, xác định.",
       "Có cùng tính chất, đặc điểm, vai trò...",
-      "Phải là một điểm hội tụ của các <span class=\"answer-keyword\">nguồn <span class=\"answer-keyword\">tài chính</span></span>...",
-      "Có <span class=\"answer-keyword\">cùng bản chất</span>, chức năng; các khâu <span class=\"answer-keyword\">tài chính</span> có mối <span class=\"answer-keyword\">liên hệ hữu cơ</span> trong việc tạo lập, sử dụng các quỹ tiền tệ..."
+      "Phải là một điểm hội tụ của các nguồn tài chính...",
+      "Có <span class=\"answer-keyword\">cùng bản chất</span>, chức năng; các khâu tài chính có mối <span class=\"answer-keyword\">liên hệ hữu cơ</span> trong việc tạo lập, sử dụng các quỹ tiền tệ..."
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Có <span class=\"answer-keyword\">cùng bản chất</span>, chức năng; các khâu <span class=\"answer-keyword\">tài chính</span> có mối <span class=\"answer-keyword\">liên hệ hữu cơ</span> trong việc tạo lập, sử dụng các quỹ tiền tệ... <div class=\"note\">Hệ thống tài chính là một thể thống nhất vì các khâu cấu thành nó đều có chung bản chất (<span class=\"answer-keyword\">quan hệ kinh tế</span> dưới hình thái giá trị), chức năng và có mối liên hệ hữu cơ khăng khít với nhau.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Có <span class=\"answer-keyword\">cùng bản chất</span>, chức năng; các khâu tài chính có mối <span class=\"answer-keyword\">liên hệ hữu cơ</span> trong việc tạo lập, sử dụng các quỹ tiền tệ... <div class=\"note\">Hệ thống tài chính là một thể thống nhất vì các khâu cấu thành nó đều có chung bản chất (quan hệ kinh tế dưới hình thái giá trị), chức năng và có mối liên hệ hữu cơ khăng khít với nhau.</div>",
     "weight": "high"
   },
   {
@@ -784,10 +784,10 @@
     "options": [
       "<span class=\"answer-keyword\">Tư liệu lao động</span>, <span class=\"answer-keyword\">sức lao động</span>, <span class=\"answer-keyword\">đối tượng lao động</span> và vốn.",
       "<span class=\"answer-keyword\">Tư liệu lao động</span>, <span class=\"answer-keyword\">sức lao động</span> và <span class=\"answer-keyword\">đối tượng lao động</span>.",
-      "<span class=\"answer-keyword\">Tư liệu lao động</span>, <span class=\"answer-keyword\">sức lao động</span> và vốn.",
-      "Đối tượng lao động, <span class=\"answer-keyword\">sức lao động</span> và vốn."
+      "<span class=\"answer-keyword\">Tư liệu lao động</span>, sức lao động và vốn.",
+      "Đối tượng lao động, sức lao động và vốn."
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Tư liệu lao động</span>, <span class=\"answer-keyword\">sức lao động</span> và <span class=\"answer-keyword\">đối tượng lao động</span>. <div class=\"note\">Theo kinh tế học Mác-Lênin, 3 yếu tố cơ bản của mọi quá trình sản xuất kinh doanh là: Sức lao động, Đối tượng lao động và Tư liệu lao động. (Vốn chỉ là <span class=\"answer-keyword\">biểu hiện bằng tiền</span> của 3 yếu tố này).</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Tư liệu lao động</span>, <span class=\"answer-keyword\">sức lao động</span> và <span class=\"answer-keyword\">đối tượng lao động</span>. <div class=\"note\">Theo kinh tế học Mác-Lênin, 3 yếu tố cơ bản của mọi quá trình sản xuất kinh doanh là: Sức lao động, Đối tượng lao động và Tư liệu lao động. (Vốn chỉ là biểu hiện bằng tiền của 3 yếu tố này).</div>"
   },
   {
     "tags": [
@@ -812,7 +812,7 @@
     "options": [
       "điều kiện để doanh nghiệp ra đời và chiến thắng trong cạnh tranh.",
       "điều kiện để sản xuất kinh doanh diễn ra liên tục và ổn định.",
-      "điều kiện để đầu tư và <span class=\"answer-keyword\">phát triển</span>.",
+      "điều kiện để đầu tư và phát triển.",
       "<span class=\"answer-keyword\">điều kiện tiền đề</span>, đảm bảo sự <span class=\"answer-keyword\">tồn tại ổn định</span> và <span class=\"answer-keyword\">phát triển</span>."
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">điều kiện tiền đề</span>, đảm bảo sự <span class=\"answer-keyword\">tồn tại ổn định</span> và <span class=\"answer-keyword\">phát triển</span>. <div class=\"note\">Vốn là bệ phóng đầu tiên (tiền đề) để thành lập doanh nghiệp, là huyết mạch duy trì sự ổn định trong kinh doanh và là sức bật để mở rộng phát triển. Đây là vai trò tổng quát nhất.</div>",
@@ -856,10 +856,10 @@
     "options": [
       "tìm ra các biện pháp quản lý, sử dụng để thực hiện khâu hao tài sản cố định nhanh chóng nhất.",
       "tìm ra các biện pháp để tiết kiệm vốn.",
-      "tìm ra các biện pháp <span class=\"answer-keyword\">quản lý sử dụng hiệu quả nhất</span> đối với mỗi loại.",
+      "tìm ra các biện pháp <span class=\"answer-keyword\">quản lý sử dụng hiệu quả</span> nhất đối với mỗi loại.",
       "tìm ra các biện pháp để quản lý và tăng nhanh vòng quay của vốn lưu động."
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> tìm ra các biện pháp <span class=\"answer-keyword\">quản lý sử dụng hiệu quả nhất</span> đối với mỗi loại. <div class=\"note\">Vì <span class=\"answer-keyword\">đặc điểm luân chuyển</span> của VCĐ (dần dần) và VLĐ (toàn bộ 1 lần) hoàn toàn khác nhau, việc phân biệt chúng giúp nhà quản trị áp dụng biện pháp quản lý chuyên biệt và tối ưu hóa hiệu quả cho từng loại.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> tìm ra các biện pháp <span class=\"answer-keyword\">quản lý sử dụng hiệu quả</span> nhất đối với mỗi loại. <div class=\"note\">Vì đặc điểm luân chuyển của VCĐ (dần dần) và VLĐ (toàn bộ 1 lần) hoàn toàn khác nhau, việc phân biệt chúng giúp nhà quản trị áp dụng biện pháp quản lý chuyên biệt và tối ưu hóa hiệu quả cho từng loại.</div>",
     "weight": "high"
   },
   {
@@ -930,11 +930,11 @@
     "question": "Khoản thu nào dưới đây chiếm <span class=\"keyword\">tỷ trọng lớn nhất</span> trong <span class=\"keyword\">tổng <span class=\"keyword\">thu ngân sách</span></span> nhà nước ở Việt Nam?",
     "options": [
       "phí.",
-      "<span class=\"answer-keyword\"><span class=\"answer-keyword\">thuế</span></span>.",
+      "<span class=\"answer-keyword\">thuế</span>.",
       "sở hữu tài sản.",
       "lệ phí."
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\"><span class=\"answer-keyword\">thuế</span></span>. <div class=\"note\">Thuế là nguồn thu mang tính bắt buộc và đóng vai trò <span class=\"answer-keyword\">chủ đạo</span>, chiếm tỷ trọng lớn nhất trong tổng thu ngân sách nhà nước.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">thuế</span>. <div class=\"note\">Thuế là nguồn thu mang tính bắt buộc và đóng vai trò <span class=\"answer-keyword\">chủ đạo</span>, chiếm tỷ trọng lớn nhất trong tổng thu ngân sách nhà nước.</div>",
     "weight": "high"
   },
   {
@@ -944,12 +944,12 @@
     ],
     "question": "Đâu là <span class=\"keyword\">khâu cuối cùng</span> trong chu trình <span class=\"keyword\">quản lý ngân sách</span> nhà nước?",
     "options": [
-      "<span class=\"answer-keyword\"><span class=\"answer-keyword\">Quyết toán ngân sách</span></span>",
+      "<span class=\"answer-keyword\">Quyết toán ngân sách</span>",
       "Chấp hành dự toán chi",
       "Chấp hành dự toán thu",
       "Hình thành ngân sách"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\"><span class=\"answer-keyword\">Quyết toán ngân sách</span></span> <div class=\"note\">Chu trình quản lý ngân sách gồm 3 khâu: Lập dự toán -> Chấp hành dự toán -> Quyết toán ngân sách.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Quyết toán ngân sách</span> <div class=\"note\">Chu trình quản lý ngân sách gồm 3 khâu: Lập dự toán -> Chấp hành dự toán -> Quyết toán ngân sách.</div>",
     "weight": "high"
   },
   {
@@ -970,12 +970,12 @@
   {
     "question": "Cấu thành đầy đủ của <span class=\"keyword\">vốn lưu động</span> là",
     "options": [
-      "<span class=\"answer-keyword\">vốn bằng tiền</span>, <span class=\"answer-keyword\">đầu tư <span class=\"answer-keyword\">tài chính</span> ngắn hạn</span>, <span class=\"answer-keyword\">hàng tồn kho</span>, <span class=\"answer-keyword\">tài sản ngắn hạn khác</span>.",
-      "<span class=\"answer-keyword\">đầu tư <span class=\"answer-keyword\">tài chính</span> ngắn hạn</span>, <span class=\"answer-keyword\">hàng tồn kho</span>, <span class=\"answer-keyword\">tài sản ngắn hạn khác</span>.",
-      "<span class=\"answer-keyword\">vốn bằng tiền</span>, đầu tư <span class=\"answer-keyword\">tài chính</span> dài hạn, <span class=\"answer-keyword\">hàng tồn kho</span>, các khoản thu ngắn hạn.",
-      "<span class=\"answer-keyword\">vốn bằng tiền</span>, <span class=\"answer-keyword\">đầu tư <span class=\"answer-keyword\">tài chính</span> ngắn hạn</span>, các khoản thu ngắn hạn, giá trị tài sản cố định."
+      "<span class=\"answer-keyword\">vốn bằng tiền</span>, <span class=\"answer-keyword\">đầu tư tài chính</span> ngắn hạn, <span class=\"answer-keyword\">hàng tồn kho</span>, <span class=\"answer-keyword\">tài sản ngắn hạn</span> khác.",
+      "đầu tư tài chính ngắn hạn, hàng tồn kho, tài sản ngắn hạn khác.",
+      "vốn bằng tiền, đầu tư tài chính dài hạn, hàng tồn kho, các khoản thu ngắn hạn.",
+      "vốn bằng tiền, đầu tư tài chính ngắn hạn, các khoản thu ngắn hạn, giá trị tài sản cố định."
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">vốn bằng tiền</span>, <span class=\"answer-keyword\">đầu tư <span class=\"answer-keyword\">tài chính</span> ngắn hạn</span>, <span class=\"answer-keyword\">hàng tồn kho</span>, <span class=\"answer-keyword\">tài sản ngắn hạn khác</span>.<div class=\"note\">Vốn lưu động <span class=\"answer-keyword\">biểu hiện bằng tiền</span> của toàn bộ tài sản ngắn hạn, bao gồm: tiền, đầu tư ngắn hạn, các khoản phải thu, hàng tồn kho và TS ngắn hạn khác.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">vốn bằng tiền</span>, <span class=\"answer-keyword\">đầu tư tài chính</span> ngắn hạn, <span class=\"answer-keyword\">hàng tồn kho</span>, <span class=\"answer-keyword\">tài sản ngắn hạn</span> khác.<div class=\"note\">Vốn lưu động biểu hiện bằng tiền của toàn bộ tài sản ngắn hạn, bao gồm: tiền, đầu tư ngắn hạn, các khoản phải thu, hàng tồn kho và TS ngắn hạn khác.</div>",
     "tags": [
       "Tài chính doanh nghiệp",
       "Cấu trúc"
@@ -984,12 +984,12 @@
   {
     "question": "<span class=\"keyword\">Chi phí sản xuất</span> kinh doanh của doanh nghiệp là",
     "options": [
-      "<span class=\"answer-keyword\">biểu hiện bằng tiền</span> của hao phí về các yếu tố có liên quan và <span class=\"answer-keyword\">phục vụ cho hoạt động kinh doanh</span> trong 1 khoảng thời gian nhất định.",
-      "biểu hiện về <span class=\"answer-keyword\">mặt giá trị</span> của hao phí về các yếu tố có liên quan và <span class=\"answer-keyword\">phục vụ cho hoạt động kinh doanh</span> trong 1 khoảng thời gian.",
-      "biểu hiện về mặt giá trị của hao phí vế các yếu tố không liên quan và <span class=\"answer-keyword\">phục vụ cho hoạt động kinh doanh</span> trong 1 khoảng thời gian.",
-      "<span class=\"answer-keyword\">biểu hiện bằng tiền</span> của hao phí về các yếu tố có liên quan và không <span class=\"answer-keyword\">phục vụ cho hoạt động kinh doanh</span> trong 1 khoảng thời gian nhất định."
+      "<span class=\"answer-keyword\">biểu hiện bằng tiền</span> của hao phí về các yếu tố có liên quan và <span class=\"answer-keyword\">phục vụ cho hoạt động</span> kinh doanh trong 1 khoảng thời gian nhất định.",
+      "biểu hiện về mặt giá trị của hao phí về các yếu tố có liên quan và phục vụ cho hoạt động kinh doanh trong 1 khoảng thời gian.",
+      "biểu hiện về mặt giá trị của hao phí vế các yếu tố không liên quan và phục vụ cho hoạt động kinh doanh trong 1 khoảng thời gian.",
+      "biểu hiện bằng tiền của hao phí về các yếu tố có liên quan và không phục vụ cho hoạt động kinh doanh trong 1 khoảng thời gian nhất định."
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">biểu hiện bằng tiền</span> của hao phí về các yếu tố có liên quan và <span class=\"answer-keyword\">phục vụ cho hoạt động kinh doanh</span> trong 1 khoảng thời gian nhất định.<div class=\"note\">Chi phí luôn được đo lường dưới hình thái tiền tệ (biểu hiện bằng tiền) phản ánh những hao phí nguồn lực để phục vụ sản xuất kinh doanh.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">biểu hiện bằng tiền</span> của hao phí về các yếu tố có liên quan và <span class=\"answer-keyword\">phục vụ cho hoạt động</span> kinh doanh trong 1 khoảng thời gian nhất định.<div class=\"note\">Chi phí luôn được đo lường dưới hình thái tiền tệ (biểu hiện bằng tiền) phản ánh những hao phí nguồn lực để phục vụ sản xuất kinh doanh.</div>",
     "tags": [
       "Tài chính doanh nghiệp",
       "Nền tảng"
@@ -1014,11 +1014,11 @@
     "question": "Một <span class=\"keyword\">đặc điểm</span> của vốn cố định",
     "options": [
       "Vốn cố định bị tiêu dùng hoàn toàn trong việc chế tạo ra sản phẩm.",
-      "Vốn cố định chuyển <span class=\"answer-keyword\">một lần toàn bộ</span> giá trị vào giá thành sản phẩm mới được tạo ra.",
-      "Vốn cố định được <span class=\"answer-keyword\">thu hồi dần từng phần</span> tương ứng với phần <span class=\"answer-keyword\">hao mòn</span> của tài sản cố định, đến khi TSCĐ hết <span class=\"answer-keyword\">thời gian sử dụng</span>, giá trị của nó được thu hồi về đủ thì vốn cố định mới hoàn thành một vòng luân chuyển.",
-      "Vốn cố định được thu hồi <span class=\"answer-keyword\">một lần toàn bộ</span> sau khi bán hàng đi thu tiền về và lúc đó kết thúc vòng tuần hoàn của vốn."
+      "Vốn cố định chuyển một lần toàn bộ giá trị vào giá thành sản phẩm mới được tạo ra.",
+      "Vốn cố định được <span class=\"answer-keyword\">thu hồi dần</span> từng phần tương ứng với phần <span class=\"answer-keyword\">hao mòn</span> của tài sản cố định, đến khi TSCĐ hết <span class=\"answer-keyword\">thời gian sử dụng</span>, giá trị của nó được thu hồi về đủ thì vốn cố định mới hoàn thành một vòng luân chuyển.",
+      "Vốn cố định được thu hồi một lần toàn bộ sau khi bán hàng đi thu tiền về và lúc đó kết thúc vòng tuần hoàn của vốn."
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Vốn cố định được <span class=\"answer-keyword\">thu hồi dần từng phần</span> tương ứng với phần <span class=\"answer-keyword\">hao mòn</span> của tài sản cố định, đến khi TSCĐ hết <span class=\"answer-keyword\">thời gian sử dụng</span>, giá trị của nó được thu hồi về đủ thì vốn cố định mới hoàn thành một vòng luân chuyển.<div class=\"note\">Vốn cố định luân chuyển giá trị của nó dần dần từng phần vào giá trị sản phẩm tương ứng với phần khấu hao của TSCĐ.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Vốn cố định được <span class=\"answer-keyword\">thu hồi dần</span> từng phần tương ứng với phần <span class=\"answer-keyword\">hao mòn</span> của tài sản cố định, đến khi TSCĐ hết <span class=\"answer-keyword\">thời gian sử dụng</span>, giá trị của nó được thu hồi về đủ thì vốn cố định mới hoàn thành một vòng luân chuyển.<div class=\"note\">Vốn cố định luân chuyển giá trị của nó dần dần từng phần vào giá trị sản phẩm tương ứng với phần khấu hao của TSCĐ.</div>",
     "tags": [
       "Tài chính doanh nghiệp",
       "Logic & Nguyên tắc"
@@ -1101,9 +1101,9 @@
   {
     "question": "<span class=\"keyword\">Sự khác nhau căn bản</span> của <span class=\"keyword\">vốn lưu động</span> và vốn cố định là",
     "options": [
-      "quy mô và <span class=\"answer-keyword\">hình thức tồn tại</span>.",
-      "<span class=\"answer-keyword\">đặc điểm luân chuyển</span>, vai trò và <span class=\"answer-keyword\">hình thức tồn tại</span>.",
-      "quy mô và <span class=\"answer-keyword\">đặc điểm luân chuyển</span>.",
+      "quy mô và hình thức tồn tại.",
+      "đặc điểm luân chuyển, vai trò và hình thức tồn tại.",
+      "quy mô và đặc điểm luân chuyển.",
       "<span class=\"answer-keyword\">đặc điểm luân chuyển</span>, <span class=\"answer-keyword\">hình thức tồn tại</span>, <span class=\"answer-keyword\">thời gian sử dụng</span>."
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">đặc điểm luân chuyển</span>, <span class=\"answer-keyword\">hình thức tồn tại</span>, <span class=\"answer-keyword\">thời gian sử dụng</span>.<div class=\"note\">Vốn cố định và vốn lưu động khác nhau rõ rệt nhất ở phương thức luân chuyển giá trị (dần dần vs 1 lần) và thời gian sử dụng (dài hạn vs ngắn hạn).</div>",
@@ -1116,9 +1116,9 @@
   {
     "question": "Sự ra đời và phát triển của tài chính bắt nguồn từ hai <span class=\"keyword\">điều kiện tiên quyết</span> nào?",
     "options": [
-      "Nền kinh tế tự nhiên và <span class=\"answer-keyword\">sự ra đời của Nhà nước</span>",
+      "Nền kinh tế tự nhiên và sự ra đời của Nhà nước",
       "<span class=\"answer-keyword\">Nền kinh tế hàng hóa</span> - tiền tệ và <span class=\"answer-keyword\">sự ra đời của Nhà nước</span>",
-      "Sự xuất hiện của thị trường và các định chế <span class=\"answer-keyword\">tài chính</span>",
+      "Sự xuất hiện của thị trường và các định chế tài chính",
       "Nền kinh tế kế hoạch hóa và pháp luật kinh tế"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Nền kinh tế hàng hóa</span> - tiền tệ và <span class=\"answer-keyword\">sự ra đời của Nhà nước</span>.<div class=\"note\">Theo nội dung bài học, nền kinh tế hàng hóa - tiền tệ tạo cơ sở trao đổi giá trị (tiền đề), kết hợp quyền lực của Nhà nước để hình thành quỹ tiền tệ tập trung (ngân sách).</div>",
@@ -1164,9 +1164,9 @@
       "Thỏa mãn tối đa nhu cầu tiêu dùng hiện tại",
       "Cung cấp các dịch vụ công cộng cho xã hội",
       "Tập hợp các khoản vốn nhàn rỗi trong dân cư",
-      "<span class=\"answer-keyword\">Tối đa hóa khả năng sinh lợi</span> (tạo ra <span class=\"answer-keyword\">lợi nhuận</span>)"
+      "<span class=\"answer-keyword\">Tối đa hóa</span> khả năng <span class=\"answer-keyword\">sinh lợi</span> (tạo ra <span class=\"answer-keyword\">lợi nhuận</span>)"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Tối đa hóa khả năng sinh lợi</span> (tạo ra <span class=\"answer-keyword\">lợi nhuận</span>).<div class=\"note\">Mọi hoạt động <span class=\"answer-keyword\">tài chính</span> doanh nghiệp từ huy động đến sử dụng vốn đều hướng tới mục đích cuối cùng là lợi nhuận. Hộ gia đình thì nhắm vào tiêu dùng, còn Nhà nước nhắm vào vĩ mô.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Tối đa hóa</span> khả năng <span class=\"answer-keyword\">sinh lợi</span> (tạo ra <span class=\"answer-keyword\">lợi nhuận</span>).<div class=\"note\">Mọi hoạt động tài chính doanh nghiệp từ huy động đến sử dụng vốn đều hướng tới mục đích cuối cùng là lợi nhuận. Hộ gia đình thì nhắm vào tiêu dùng, còn Nhà nước nhắm vào vĩ mô.</div>",
     "tags": [
       "Tài chính doanh nghiệp",
       "Nền tảng"
@@ -1176,12 +1176,12 @@
   {
     "question": "Trong <span class=\"keyword\">kênh dẫn vốn gián tiếp</span>, sự luân chuyển vốn diễn ra với <span class=\"keyword\">đặc điểm</span> nổi bật nào?",
     "options": [
-      "Thông qua trung gian <span class=\"answer-keyword\">tài chính</span> và các bên <span class=\"answer-keyword\">không liên hệ trực tiếp</span> với nhau",
+      "Thông qua <span class=\"answer-keyword\">trung gian</span> tài chính và các bên <span class=\"answer-keyword\">không liên hệ trực tiếp</span> với nhau",
       "Được dẫn thẳng trực tiếp giữa người mua và người bán",
       "Chỉ thực hiện qua việc phát hành cổ phiếu trên thị trường",
-      "Người cho vay và người đi vay trực tiếp đàm phán <span class=\"answer-keyword\">lãi suất</span>"
+      "Người cho vay và người đi vay trực tiếp đàm phán lãi suất"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Thông qua trung gian <span class=\"answer-keyword\">tài chính</span> và các bên <span class=\"answer-keyword\">không liên hệ trực tiếp</span> với nhau.<div class=\"note\">Trái với kênh trực tiếp, kênh gián tiếp huy động vốn nhàn rỗi tập trung qua các trung gian (ngân hàng, quỹ bảo hiểm) để cho vay lại, nên người thừa vốn và thiếu vốn không trực tiếp gặp nhau.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Thông qua <span class=\"answer-keyword\">trung gian</span> tài chính và các bên <span class=\"answer-keyword\">không liên hệ trực tiếp</span> với nhau.<div class=\"note\">Trái với kênh trực tiếp, kênh gián tiếp huy động vốn nhàn rỗi tập trung qua các trung gian (ngân hàng, quỹ bảo hiểm) để cho vay lại, nên người thừa vốn và thiếu vốn không trực tiếp gặp nhau.</div>",
     "tags": [
       "Thị trường Tài chính",
       "Logic & Nguyên tắc"
@@ -1195,7 +1195,7 @@
       "Tiến tới <span class=\"answer-keyword\">cân bằng thu chi</span> và <span class=\"answer-keyword\">chấm dứt vay</span> trực tiếp từ ngân hàng trung ương",
       "Tăng cường vay nợ nước ngoài để duy trì chi tiêu"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Tiến tới <span class=\"answer-keyword\">cân bằng thu chi</span> và <span class=\"answer-keyword\">chấm dứt vay</span> trực tiếp từ ngân hàng trung ương.<div class=\"note\">Để kiểm soát lạm phát, chính sách <span class=\"answer-keyword\">tài chính</span> quốc gia bắt buộc phải chấm dứt việc nhà nước bù đắp thâm hụt bằng cách vay trực tiếp từ ngân hàng trung ương dưới mọi hình thức.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Tiến tới <span class=\"answer-keyword\">cân bằng thu chi</span> và <span class=\"answer-keyword\">chấm dứt vay</span> trực tiếp từ ngân hàng trung ương.<div class=\"note\">Để kiểm soát lạm phát, chính sách tài chính quốc gia bắt buộc phải chấm dứt việc nhà nước bù đắp thâm hụt bằng cách vay trực tiếp từ ngân hàng trung ương dưới mọi hình thức.</div>",
     "tags": [
       "Ngân sách Nhà nước",
       "Logic & Nguyên tắc"
@@ -1250,12 +1250,12 @@
   {
     "question": "<span class=\"keyword\">Về mặt xã hội</span>, Ngân sách Nhà nước thể hiện <span class=\"keyword\">vai trò điều tiết</span> vấn đề nào sau đây?",
     "options": [
-      "Điều tiết <span class=\"answer-keyword\">thu nhập giữa các tầng lớp dân cư</span>",
+      "Điều tiết <span class=\"answer-keyword\">thu nhập</span> giữa các tầng lớp <span class=\"answer-keyword\">dân cư</span>",
       "Kiềm chế lạm phát và bình ổn giá cả",
       "Kích thích sản xuất kinh doanh",
       "Định hướng cơ cấu kinh tế vĩ mô"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Điều tiết <span class=\"answer-keyword\">thu nhập giữa các tầng lớp dân cư</span><div class=\"note\">Vai trò về mặt xã hội của NSNN là điều tiết thu nhập giữa các tầng lớp dân cư, trong khi bình ổn giá cả thuộc vai trò thị trường, kích thích sản xuất thuộc vai trò kinh tế.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Điều tiết <span class=\"answer-keyword\">thu nhập</span> giữa các tầng lớp <span class=\"answer-keyword\">dân cư</span><div class=\"note\">Vai trò về mặt xã hội của NSNN là điều tiết thu nhập giữa các tầng lớp dân cư, trong khi bình ổn giá cả thuộc vai trò thị trường, kích thích sản xuất thuộc vai trò kinh tế.</div>",
     "tags": [
       "Ngân sách Nhà nước",
       "Góc nhìn Đa chiều"
@@ -1297,7 +1297,7 @@
       "<span class=\"answer-keyword\">Dần từng phần</span> (vốn cố định) và <span class=\"answer-keyword\">một lần toàn bộ</span> (vốn lưu động)",
       "Toàn bộ một lần (vốn cố định) và dần từng phần (vốn lưu động)",
       "Khấu hao nhanh (vốn cố định) và không tính khấu hao (vốn lưu động)",
-      "Chuyển qua doanh thu (vốn cố định) và chuyển qua <span class=\"answer-keyword\">lợi nhuận</span> (vốn lưu động)"
+      "Chuyển qua doanh thu (vốn cố định) và chuyển qua lợi nhuận (vốn lưu động)"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Dần từng phần</span> (vốn cố định) và <span class=\"answer-keyword\">một lần toàn bộ</span> (vốn lưu động) <div class=\"note\">Vốn cố định chuyển giá trị dần từng phần qua khấu hao sau nhiều chu kỳ, còn vốn lưu động chuyển toàn bộ 1 lần vào giá thành sản phẩm mới tạo ra.</div>",
     "tags": [
@@ -1310,7 +1310,7 @@
     "question": "Đâu là <span class=\"keyword\">hạn chế lớn nhất</span> của nguồn <span class=\"keyword\">vốn chủ sở hữu</span> khi doanh nghiệp muốn thực hiện các dự án quy mô lớn?",
     "options": [
       "Tốn kém nhiều thời gian và chi phí phát hành",
-      "Phải trả <span class=\"answer-keyword\">lãi suất</span> cao cố định cho cổ đông",
+      "Phải trả lãi suất cao cố định cho cổ đông",
       "<span class=\"answer-keyword\">Giới hạn quy mô</span>, <span class=\"answer-keyword\">khó đáp ứng</span> đủ nhu cầu vốn",
       "Bị kiểm soát gắt gao bởi ngân hàng và tổ chức tín dụng"
     ],
@@ -1324,12 +1324,12 @@
   {
     "question": "Việc <span class=\"keyword\">duy trì sức mua</span> của vốn ở thời điểm hiện tại so với lúc mới đầu tư là mục đích của biện pháp nào?",
     "options": [
-      "<span class=\"answer-keyword\">Bảo toàn vốn cố định</span> về mặt hiện vật",
-      "<span class=\"answer-keyword\">Bảo toàn vốn cố định</span> về <span class=\"answer-keyword\">mặt giá trị</span>",
+      "Bảo toàn vốn cố định về mặt hiện vật",
+      "Bảo toàn vốn cố định về <span class=\"answer-keyword\">mặt giá trị</span>",
       "Quản lý vốn lưu động trong sản xuất",
       "Hạ giá thành sản phẩm"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Bảo toàn vốn cố định</span> về <span class=\"answer-keyword\">mặt giá trị</span> <div class=\"note\">Bảo toàn giá trị là phải duy trì được sức mua của vốn. Ngược lại, bảo toàn hiện vật là duy trì năng lực sản xuất ban đầu của tài sản.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Bảo toàn vốn cố định về <span class=\"answer-keyword\">mặt giá trị</span> <div class=\"note\">Bảo toàn giá trị là phải duy trì được sức mua của vốn. Ngược lại, bảo toàn hiện vật là duy trì năng lực sản xuất ban đầu của tài sản.</div>",
     "tags": [
       "Tài chính doanh nghiệp",
       "Logic & Nguyên tắc"
@@ -1487,12 +1487,12 @@
   {
     "question": "<span class=\"keyword\">Sức mua</span> của <span class=\"keyword\">tiền</span> là",
     "options": [
-      "A. giá trị của một hàng hóa nào đó mà nó có thể trao đổi.",
+      "A. giá trị của một hàng hóa nào đó mà nó có thể trao đổi.",
       "B. khả năng đổi được nhiều hay ít hàng hóa so với đồng tiền khác.",
       "C. sức mua của các loại hàng hóa, dịch vụ trong nền kinh tế.",
-      "D. <span class=\"answer-keyword\">khả năng đổi được</span> nhiều hay ít <span class=\"answer-keyword\">hàng hóa khác</span> trong trao đổi."
+      "D. khả năng <span class=\"answer-keyword\">đổi được</span> nhiều hay ít <span class=\"answer-keyword\">hàng hóa khác</span> trong trao đổi."
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>D. <span class=\"answer-keyword\">khả năng đổi được</span> nhiều hay ít <span class=\"answer-keyword\">hàng hóa khác</span> trong trao đổi.",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>D. khả năng <span class=\"answer-keyword\">đổi được</span> nhiều hay ít <span class=\"answer-keyword\">hàng hóa khác</span> trong trao đổi.",
     "tags": [
       "Tiền tệ",
       "Nền tảng"
@@ -1548,11 +1548,11 @@
     "question": "Để <span class=\"keyword\">hạn chế nợ xấu</span>, các ngân hàng thương mại cần phải",
     "options": [
       "A. cho vay càng nhiều càng tốt.",
-      "B. <span class=\"answer-keyword\">tuân thủ các nguyên tắc</span> và quy trình tín dụng, ngoài ra phải đặc biệt chú trọng vào <span class=\"answer-keyword\">tài sản thế chấp</span>.",
+      "B. <span class=\"answer-keyword\">tuân thủ</span> các nguyên tắc và quy trình tín dụng, ngoài ra phải đặc biệt chú trọng vào <span class=\"answer-keyword\">tài sản thế chấp</span>.",
       "C. cho vay càng ít càng tốt.",
       "D. không ngừng đổi mới công nghệ và đa dạng hóa sản phẩm dịch vụ nhằm tăng cường khả năng tiếp cận, gần gũi và hỗ trợ khách hàng."
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>B. <span class=\"answer-keyword\">tuân thủ các nguyên tắc</span> và quy trình tín dụng, ngoài ra phải đặc biệt chú trọng vào <span class=\"answer-keyword\">tài sản thế chấp</span>.",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>B. <span class=\"answer-keyword\">tuân thủ</span> các nguyên tắc và quy trình tín dụng, ngoài ra phải đặc biệt chú trọng vào <span class=\"answer-keyword\">tài sản thế chấp</span>.",
     "tags": [
       "Hệ thống ngân hàng",
       "Rủi ro"
@@ -1757,9 +1757,9 @@
       "A. Bộ máy cồng kềnh kém hiệu quả nhưng tiềm lực tài chính mạnh.",
       "B. Chi phí quản lý lớn nhưng dễ dàng thích nghi với thị trường.",
       "C. Chi phí quản lý lớn nhưng có khả năng chịu đựng tổn thất, thậm chí thua lỗ.",
-      "D. <span class=\"answer-keyword\">Chi phí đầu vào lớn</span> nhưng hoạt động <span class=\"answer-keyword\">kinh doanh ổn định</span>."
+      "D. <span class=\"answer-keyword\">Chi phí đầu vào</span> lớn nhưng hoạt động <span class=\"answer-keyword\">kinh doanh ổn định</span>."
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Chi phí đầu vào lớn</span> nhưng hoạt động <span class=\"answer-keyword\">kinh doanh ổn định</span>.",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Chi phí đầu vào</span> lớn nhưng hoạt động <span class=\"answer-keyword\">kinh doanh ổn định</span>.",
     "tags": [
       "Hệ thống ngân hàng",
       "Logic"
@@ -1857,10 +1857,10 @@
     "options": [
       "A. lãi suất ngân hàng trả cho các khoản tiền gửi vào ngân hàng.",
       "B. lãi suất mà người đi vay phải trả cho ngân hàng khi đi vay từ ngân hàng.",
-      "C. lãi suất áp dụng khi <span class=\"answer-keyword\">ngân hàng cho khách hàng vay</span> dưới hình thức <span class=\"answer-keyword\">chiết khấu thương phiếu</span> hoặc giấy tờ có giá khác chưa đến hạn thanh toán của khách hàng",
+      "C. lãi suất áp dụng khi ngân hàng cho khách hàng vay dưới hình thức <span class=\"answer-keyword\">chiết khấu thương phiếu</span> hoặc giấy tờ có giá khác chưa đến hạn thanh toán của khách hàng",
       "D. lãi suất áp dụng khi ngân hàng trung ương cho các ngân hàng trung gian vay dưới hình thức chiết khấu lại thương phiếu hoặc giấy tờ có giá ngắn hạn chưa đến hạn thanh toán."
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> lãi suất áp dụng khi <span class=\"answer-keyword\">ngân hàng cho khách hàng vay</span> dưới hình thức <span class=\"answer-keyword\">chiết khấu thương phiếu</span> hoặc giấy tờ có giá khác chưa đến hạn thanh toán của khách hàng",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> lãi suất áp dụng khi ngân hàng cho khách hàng vay dưới hình thức <span class=\"answer-keyword\">chiết khấu thương phiếu</span> hoặc giấy tờ có giá khác chưa đến hạn thanh toán của khách hàng",
     "tags": [
       "Tín dụng và Lãi suất",
       "Nền tảng"
@@ -2045,10 +2045,10 @@
   },
   {
     "question": "<span class=\"keyword\">Cán cân thanh toán</span> thặng dư hay thâm hụt, điều này <span class=\"keyword\">hàm ý</span>:",
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Sự thặng dư, thâm hụt của cán cân tổng thể.</span>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Sự thặng dư, thâm hụt của <span class=\"answer-keyword\">cán cân tổng thể</span>.",
     "options": [
       "A. Sự thặng dư, thâm hụt của cán cân vãng lai.",
-      "B. <span class=\"answer-keyword\">Sự thặng dư, thâm hụt của cán cân tổng thể.</span>",
+      "B. Sự thặng dư, thâm hụt của <span class=\"answer-keyword\">cán cân tổng thể</span>.",
       "C. Sự thặng dư, thâm hụt của một hay một nhóm cán cân bộ phận nhất định trong cán cân thanh toán.",
       "D. Sự thặng dư, thâm hụt của cán cân vốn."
     ],
@@ -2073,9 +2073,9 @@
   },
   {
     "question": "Những <span class=\"keyword\">tồn tại của lưu thông tiền tệ</span> ở Việt Nam bao gồm:",
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Tỷ trọng thanh toán bằng tiền mặt lớn, ngoại tệ trôi nổi nhiều</span>, sức mua của đồng tiền chưa thực sự ổn định.",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Tỷ trọng thanh toán bằng <span class=\"answer-keyword\">tiền mặt lớn</span>, <span class=\"answer-keyword\">ngoại tệ trôi nổi</span> nhiều, sức mua của đồng tiền chưa thực sự ổn định.",
     "options": [
-      "A. <span class=\"answer-keyword\">Tỷ trọng thanh toán bằng tiền mặt lớn, ngoại tệ trôi nổi nhiều</span>, sức mua của đồng tiền chưa thực sự ổn định.",
+      "A. Tỷ trọng thanh toán bằng <span class=\"answer-keyword\">tiền mặt lớn</span>, <span class=\"answer-keyword\">ngoại tệ trôi nổi</span> nhiều, sức mua của đồng tiền chưa thực sự ổn định.",
       "B. Sức mua của đồng tiền không thực sự ổn định và lượng ngoại tệ quá lớn.",
       "C. Sức mua của đồng tiền không ổn định và lượng ngoại tệ chuyển ra nước ngoài lớn.",
       "D. Tỷ trọng tiền mặt và ngoại tệ lớn, tốc độ lưu thông chậm."
@@ -2102,12 +2102,12 @@
   },
   {
     "question": "Phí tổn và lợi ích của chính sách <span class=\"keyword\">''quá lớn không để vỡ nợ''</span> là gì?",
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Chi phí đầu vào lớn nhưng hoạt động kinh doanh ổn định.</span>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Chi phí đầu vào</span> lớn nhưng hoạt động <span class=\"answer-keyword\">kinh doanh ổn định</span>.",
     "options": [
       "A. Chi phí quản lý lớn nhưng có khả năng chịu đựng tổn thất, thậm chí thua lỗ.",
       "B. Chi phí quản lý lớn nhưng dễ dàng thích nghi với thị trường.",
       "C. Bộ máy cồng kềnh kém hiệu quả nhưng tiềm lực tài chính mạnh.",
-      "D. <span class=\"answer-keyword\">Chi phí đầu vào lớn nhưng hoạt động kinh doanh ổn định.</span>"
+      "D. <span class=\"answer-keyword\">Chi phí đầu vào</span> lớn nhưng hoạt động <span class=\"answer-keyword\">kinh doanh ổn định</span>."
     ],
     "tags": [
       "Hệ thống ngân hàng",
@@ -2116,10 +2116,10 @@
   },
   {
     "question": "<span class=\"keyword\">Tài sản thế chấp</span> cho một món vay phải đáp ứng các tiêu chuẩn",
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Có giá trị tiền tệ và đảm bảo các yêu cầu pháp lý</span> cần thiết.",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Có <span class=\"answer-keyword\">giá trị tiền tệ</span> và đảm bảo các <span class=\"answer-keyword\">yêu cầu pháp lý</span> cần thiết.",
     "options": [
       "A. Thuộc quyền sở hữu hợp pháp của người vay vốn và có giá trị từ 200.000 đ.",
-      "B. <span class=\"answer-keyword\">Có giá trị tiền tệ và đảm bảo các yêu cầu pháp lý</span> cần thiết.",
+      "B. Có <span class=\"answer-keyword\">giá trị tiền tệ</span> và đảm bảo các <span class=\"answer-keyword\">yêu cầu pháp lý</span> cần thiết.",
       "C. Có giá trị trên 5.000.000 đ và được rất nhiều người ưa thích.",
       "D. Có thời gian sử dụng lâu dài và được nhiều người ưa thích."
     ],
