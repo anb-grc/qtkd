@@ -17,3 +17,14 @@ Khi chạy xong luồng xử lý câu hỏi mới, Agent tự động thêm 1 d�
 - 2026-08-15: Hoàn thành Build kb.json (Khung MECE 7 Tầng) cho môn GIÁO DỤC THỂ CHẤT 1.
 - [2026-08-16] [TIN HỌC ỨNG DỤNG CƠ BẢN] Hoàn thành Khâu 1, 2, 3, 4 bằng cơ chế Map-Reduce. Build thành công kb.json 6 nhánh, chuẩn hoá Ma Trận 34 Component (không tiền tố).
 - [2026-08-16] [TIN HỌC ỨNG DỤNG CƠ BẢN] Nạp lô 40 câu hỏi. Đã tiệt trùng HTML, highlight Ma Trận Lục Hợp, tự xử lý 1 câu thiếu đáp án. Lọc trùng còn 34 câu, gộp 6 câu. Đã lưu vào qs.json.
+
+- Added 32 new questions to 15. TÀI CHÍNH TIỀN TỆ/qs.json.
+
+- Added 0 new questions to 15. TÀI CHÍNH TIỀN TỆ/qs.json.
+
+- Added 0 new questions to 15. TÀI CHÍNH TIỀN TỆ/qs.json.
+
+## [Kinh Tế Vĩ Mô] 2026-08-17 08:30:21
+- Đã xử lý lô 40 câu hỏi mới theo SSoT.
+- Lọc trùng: Phát hiện 27 câu trùng lặp, giữ lại 13 câu mới.
+- Tổng câu hỏi trong ngân hàng KTVM hiện tại đã được cập nhật.

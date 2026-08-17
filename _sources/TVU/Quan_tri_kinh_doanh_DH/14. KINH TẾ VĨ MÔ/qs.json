@@ -1710,5 +1710,213 @@
       "<span class=\"answer-keyword\">Thu nhập quốc dân</span> được phân phối lại từ các nước nhập khẩu dầu sang các nước xuất khẩu dầu"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Thu nhập quốc dân</span> được phân phối lại từ các nước nhập khẩu dầu sang các nước xuất khẩu dầu"
+  },
+  {
+    "weight": "normal",
+    "question": "Khoản mục nào sau đây <span class=\"keyword\">được tính</span> một cách trực tiếp trong GDP theo <span class=\"keyword\">tiếp cận chi tiêu</span>?",
+    "options": [
+      "Công việc nội trợ",
+      "Giá trị hàng hóa trung gian",
+      "<span class=\"answer-keyword\">Dịch vụ</span> tư vấn",
+      "Hoạt động mua bán ma túy bất hợp pháp"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Dịch vụ</span> tư vấn <div class=\"note\">Dịch vụ tư vấn là sản phẩm cuối cùng và hợp pháp, được giao dịch trên thị trường nên được tính vào GDP. Nội trợ, hàng trung gian và các hoạt động bất hợp pháp không được tính.</div>",
+    "tags": [
+      "Kiến thức",
+      "Tổng Quan & Đo Lường Tăng Trưởng",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Theo <span class=\"keyword\">tiếp cận chi tiêu</span> trong việc tính GDP, khoản mục <span class=\"keyword\">chi trả lương</span> cho công nhân viên chức làm việc cho bộ máy quản lý nhà nước được tính là:",
+    "options": [
+      "Đầu tư",
+      "Tiêu dùng",
+      "Không tính vào GDP",
+      "<span class=\"answer-keyword\">Mua hàng của</span> Chính phủ"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Mua hàng của</span> Chính phủ <div class=\"note\">Tiền lương trả cho công nhân viên chức nhà nước được coi là khoản chi tiêu của Chính phủ để mua dịch vụ công cộng.</div>",
+    "tags": [
+      "Kiến thức",
+      "Tổng Quan & Đo Lường Tăng Trưởng",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Theo lý thuyết của Keynes, những <span class=\"keyword\">chính sách nào</span> sau đây thích hợp nhất nhằm <span class=\"keyword\">giảm thất nghiệp</span>?",
+    "options": [
+      "Tăng thuế và giảm số mua hàng hóa của Chính phủ.",
+      "Phá giá, giảm thuế và giảm số mua hàng hóa của Chính phủ.",
+      "Tăng thuế thu nhập và tăng số mua hàng hóa của Chính phủ.",
+      "<span class=\"answer-keyword\">Giảm thuế</span> và <span class=\"answer-keyword\">gia tăng</span> số mua hàng hóa của Chính phủ."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Giảm thuế</span> và <span class=\"answer-keyword\">gia tăng</span> số mua hàng hóa của Chính phủ. <div class=\"note\">Để giảm thất nghiệp cần thực hiện chính sách tài khóa mở rộng để kích cầu, bao gồm việc giảm thuế và tăng số lượng mua hàng hóa của Chính phủ.</div>",
+    "tags": [
+      "Kiến thức",
+      "Tổng Quan & Đo Lường Tăng Trưởng",
+      "Giới hạn & Rủi ro"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Giả sử năm 2010 (năm gốc) có giá và lượng của gạo (10; 2), thịt (20; 3), xăng (40; 4). Năm 2011 có giá và lượng tương ứng là gạo (11; 3), thịt (22; 4), xăng (42; 5). <span class=\"keyword\">Tính tỷ lệ lạm phát</span> (theo CPI) của năm 2011 <span class=\"keyword\">so với 2010</span>.",
+    "options": [
+      "If = 10%",
+      "If = 10,7%",
+      "If = 7,7%",
+      "<span class=\"answer-keyword\">If = 6,7%</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">If = 6,7%</span> <div class=\"note\">Chi phí giỏ hàng năm 2010 = 10x2 + 20x3 + 40x4 = 240. Chi phí giỏ hàng năm 2011 (cố định lượng 2010) = 11x2 + 22x3 + 42x4 = 256. CPI 2011 = (256/240)x100 = 106,67. Lạm phát = 6,67%.</div>",
+    "tags": [
+      "Kiến thức",
+      "Cú Sốc Vĩ Mô: Lạm Phát & Thất Nghiệp",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Nếu <span class=\"keyword\">đầu tư tăng</span> thêm một lượng là 15 và <span class=\"keyword\">khuynh hướng tiêu dùng</span> biên là 0,8, khuynh hướng đầu tư biên là 0. Mức sản lượng sẽ là:",
+    "options": [
+      "Tăng thêm 40",
+      "Tăng thêm 19",
+      "Tăng thêm 27",
+      "<span class=\"answer-keyword\">Tăng thêm 75</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Tăng thêm 75</span> <div class=\"note\">Số nhân tổng cầu k = 1 / (1 - 0.8) = 5. Mức sản lượng tăng thêm = k x 15 = 75.</div>",
+    "tags": [
+      "Kiến thức",
+      "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Để <span class=\"keyword\">tăng lượng tiền mạnh</span> (tiền cơ sở) ngân hàng trung ương sẽ:",
+    "options": [
+      "Bán trái phiếu chính phủ trên thị trường mở",
+      "<span class=\"answer-keyword\">Mua ngoại tệ</span> để duy trì tỷ giá không đổi",
+      "Tăng lãi suất chiết khấu",
+      "Tăng tỷ lệ dự trữ bắt buộc"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Mua ngoại tệ</span> để duy trì tỷ giá không đổi <div class=\"note\">Khi NHTW mua ngoại tệ, họ sẽ bơm nội tệ ra thị trường, trực tiếp làm tăng lượng tiền cơ sở (tiền mạnh). Các phương án còn lại đều làm giảm hoặc không tăng cơ sở tiền tệ.</div>",
+    "tags": [
+      "Kiến thức",
+      "Thị Trường Tiền Tệ & Tài Chính Quốc Tế",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Nếu sự gia tăng <span class=\"keyword\">chi tiêu của Chính phủ</span> về hàng hóa và dịch vụ là 10 tỷ dẫn đến <span class=\"keyword\">đường IS dịch chuyển</span> 40 tỷ, có thể kết luận rằng <span class=\"keyword\">số nhân tồng cầu</span> là:",
+    "options": [
+      "0,2",
+      "40",
+      "10",
+      "<span class=\"answer-keyword\">4</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">4</span> <div class=\"note\">Khoảng dịch chuyển của đường IS (theo trục hoành) đúng bằng sự thay đổi của sản lượng khi lãi suất không đổi, tức là ΔY = k * ΔG. Suy ra số nhân tổng cầu k = ΔY / ΔG = 40 / 10 = 4.</div>",
+    "tags": [
+      "Kiến thức",
+      "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Câu nhận định</span> nào trong số các câu sau là <span class=\"keyword\">đúng</span>?",
+    "options": [
+      "Các nước đều có tốc độ tăng trưởng và mức sản lượng như nhau vì mỗi nước đều có được các nhân tố sản xuất giống nhau.",
+      "Mức GDP bình quân cũng như tốc độ tăng trưởng của các nước có sự <span class=\"answer-keyword\">khác nhau lớn</span>, và theo thời gian, các nước nghèo có thể trở nên giàu một cách tương đối.",
+      "Các nước có thể có mức GDP bình quân khác nhau nhưng đều tăng trưởng với tỷ lệ như nhau",
+      "Các nước có thể có tỷ lệ tăng trưởng khác nhau nhưng mức GDP bình quân của mỗi nước là như nhau"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Mức GDP bình quân cũng như tốc độ tăng trưởng của các nước có sự <span class=\"answer-keyword\">khác nhau lớn</span>, và theo thời gian, các nước nghèo có thể trở nên giàu một cách tương đối. <div class=\"note\">Thực tế chứng minh các quốc gia có sự khác biệt rất lớn về mức sống và tốc độ tăng trưởng. Các nước nghèo có thể đạt tốc độ tăng trưởng cao để thu hẹp khoảng cách.</div>",
+    "tags": [
+      "Kiến thức",
+      "Tổng Quan & Đo Lường Tăng Trưởng",
+      "Góc nhìn Đa chiều"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Xét nền kinh tế nhỏ có vốn tự do luân chuyển, để <span class=\"keyword\">cố định tỷ giá</span> hối đoái, chính sách <span class=\"keyword\">tài khóa thu hẹp</span> thì:",
+    "options": [
+      "Sẽ làm tăng lãi suất, tăng sản lượng.",
+      "Phải được phối hợp với chính sách <span class=\"answer-keyword\">tiền tệ thu hẹp</span>.",
+      "Sẽ làm giảm lãi suất, tăng sản lượng.",
+      "Phải được phối hợp với chính sách tiền tệ mở rộng."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Phải được phối hợp với chính sách <span class=\"answer-keyword\">tiền tệ thu hẹp</span>. <div class=\"note\">Trong mô hình Mundell-Fleming, khi áp dụng tỷ giá cố định, chính sách tài khóa thu hẹp làm giảm lãi suất, gây áp lực giảm giá nội tệ. Để duy trì tỷ giá, ngân hàng trung ương phải bán ngoại tệ, mua nội tệ vào, làm giảm cung tiền (chính sách tiền tệ thu hẹp).</div>",
+    "tags": [
+      "Kiến thức",
+      "Thị Trường Tiền Tệ & Tài Chính Quốc Tế",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Chính phủ chi tiêu cho hàng hóa và dịch vụ là 100 triệu USD và trợ cấp 10% thu nhập quốc dân. Tỷ lệ thuế trực thu là 30%. Trong <span class=\"keyword\">khung thu nhập</span> nào, Chính phủ có <span class=\"keyword\">thặng dư ngân sách</span>?",
+    "options": [
+      "<span class=\"answer-keyword\">&gt; 500 triệu</span> USD",
+      "&gt; 300 triệu USD",
+      "&gt; 480 triệu USD",
+      "&lt; 500 triệu USD"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">&gt; 500 triệu</span> USD <div class=\"note\">Thu ngân sách T = 0,3Y. Chi ngân sách = G + Tr = 100 + 0,1Y. Để thặng dư thì T &gt; G + Tr nên 0,3Y &gt; 100 + 0,1Y, tương đương 0,2Y &gt; 100, do đó Y &gt; 500.</div>",
+    "tags": [
+      "Kiến thức",
+      "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô",
+      "Hệ thống"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Cắt giảm</span> các khoản <span class=\"keyword\">chi ngân sách</span> của Chính phủ là một trong những biện pháp để:",
+    "options": [
+      "<span class=\"answer-keyword\">Hạn chế lạm phát</span>",
+      "Giảm thuế",
+      "Giảm tỷ lệ thất nghiệp",
+      "Tăng đầu tư cho giáo dục"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Hạn chế lạm phát</span> <div class=\"note\">Cắt giảm chi tiêu của Chính phủ (G) làm giảm tổng cầu, đây là chính sách tài khóa thu hẹp giúp kiểm soát lạm phát do cầu kéo.</div>",
+    "tags": [
+      "Kiến thức",
+      "Cú Sốc Vĩ Mô: Lạm Phát & Thất Nghiệp",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Việt Nam <span class=\"keyword\">tăng thuế</span> nhập khẩu vàng từ 0,5% lên 1% và <span class=\"keyword\">bỏ khung lãi suất</span> trần VNĐ 12%/năm khiến cho:",
+    "options": [
+      "Giá vàng trong nước giảm",
+      "Giá USD giảm",
+      "Tổng cầu sẽ tăng do mọi người kỳ vọng giá vàng sẽ tăng nên chi tiêu cho việc mua vàng tích trữ nhiều hơn.",
+      "Giá vàng trong nước <span class=\"answer-keyword\">tăng</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Giá vàng trong nước <span class=\"answer-keyword\">tăng</span> <div class=\"note\">Việc tăng thuế nhập khẩu khiến chi phí nhập vàng tăng lên, từ đó đẩy giá vàng bán ra trong nước tăng.</div>",
+    "tags": [
+      "Kiến thức",
+      "Thị Trường Tiền Tệ & Tài Chính Quốc Tế",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Nước nào sau đây có thể được sử dụng như ví dụ chứng tỏ rằng một nền kinh tế <span class=\"keyword\">không cần</span> phải có sự <span class=\"keyword\">phong phú</span> tài nguyên thiên nhiên để thành công?",
+    "options": [
+      "Nga",
+      "Úc",
+      "<span class=\"answer-keyword\">Nhật Bản</span>",
+      "Hoa Kỳ"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Nhật Bản</span> <div class=\"note\">Nhật Bản là một quốc đảo nghèo tài nguyên thiên nhiên nhưng lại đạt được mức tăng trưởng kinh tế thần kỳ nhờ vào công nghệ, giáo dục và vốn con người.</div>",
+    "tags": [
+      "Kiến thức",
+      "Tổng Quan & Đo Lường Tăng Trưởng",
+      "Góc nhìn Đa chiều"
+    ]
   }
 ]
