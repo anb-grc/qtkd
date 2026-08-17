@@ -37,7 +37,7 @@
             {
               "id": "chuong_1_comp_6",
               "label": "Chính sách tài chính quốc gia",
-              "description": "(Logic)"
+              "description": ""
             }
           ]
         },
@@ -57,7 +57,7 @@
             {
               "id": "chuong_2_comp_3",
               "label": "Vai trò của NSNN",
-              "description": "(Đa chiều)"
+              "description": ""
             },
             {
               "id": "chuong_2_comp_4",
@@ -67,12 +67,12 @@
             {
               "id": "chuong_2_comp_5",
               "label": "Các nhân tố tác động đến Thu - Chi",
-              "description": "(Logic)"
+              "description": ""
             },
             {
               "id": "chuong_2_comp_6",
               "label": "Rủi ro Bội chi & Cơ chế xử lý",
-              "description": "(Rủi ro)"
+              "description": ""
             },
             {
               "id": "chuong_2_comp_7",
@@ -107,7 +107,7 @@
             {
               "id": "chuong_3_comp_5",
               "label": "Chi phí kinh doanh và Giá thành sản phẩm",
-              "description": "(Logic)"
+              "description": ""
             },
             {
               "id": "chuong_3_comp_6",
@@ -147,7 +147,7 @@
             {
               "id": "chuong_4_comp_6",
               "label": "Phân tích Logic Cổ phiếu & Trái phiếu",
-              "description": "(Logic)"
+              "description": ""
             }
           ]
         },
@@ -172,7 +172,7 @@
             {
               "id": "chuong_5_comp_4",
               "label": "Quy luật lưu thông Tiền tệ",
-              "description": "(Logic)"
+              "description": ""
             },
             {
               "id": "chuong_5_comp_5",
@@ -182,12 +182,12 @@
             {
               "id": "chuong_5_comp_6",
               "label": "Khối tiền tệ theo độ lỏng",
-              "description": "(Rủi ro)"
+              "description": ""
             },
             {
               "id": "chuong_5_comp_7",
               "label": "Chế độ tiền tệ",
-              "description": "(Đa chiều)"
+              "description": ""
             }
           ]
         },
@@ -217,7 +217,7 @@
             {
               "id": "chuong_6_comp_5",
               "label": "Các nhân tố ảnh hưởng đến Lãi suất",
-              "description": "(Logic)"
+              "description": ""
             }
           ]
         },
@@ -247,7 +247,7 @@
             {
               "id": "chuong_7_comp_5",
               "label": "Các công cụ của Chính sách tiền tệ",
-              "description": "(Logic)"
+              "description": ""
             }
           ]
         },
@@ -277,17 +277,17 @@
             {
               "id": "chuong_8_comp_5",
               "label": "Nguyên Nhân Gây Lạm Phát",
-              "description": "(Logic)"
+              "description": ""
             },
             {
               "id": "chuong_8_comp_6",
               "label": "Hậu Quả Của Lạm Phát",
-              "description": "(Rủi ro)"
+              "description": ""
             },
             {
               "id": "chuong_8_comp_7",
               "label": "Biện Pháp Kiềm Chế Lạm Phát",
-              "description": "(Đa chiều)"
+              "description": ""
             }
           ]
         },
@@ -312,7 +312,7 @@
             {
               "id": "chuong_9_comp_4",
               "label": "Quản trị rủi ro mất cân bằng cán cân thanh toán",
-              "description": "(Rủi ro)"
+              "description": ""
             },
             {
               "id": "chuong_9_comp_5",
