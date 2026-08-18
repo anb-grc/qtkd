@@ -33,3 +33,5 @@ Khi chạy xong luồng xử lý câu hỏi mới, Agent tự động thêm 1 d�
 - Added 11 questions to 14. KINH TẾ VĨ MÔ. Total: 130
 - [2026-08-18] [GIÁO DỤC THỂ CHẤT 1] Fix lỗi mảng tags rỗng và bổ sung thiếu span keyword.
 - [2026-08-18] [GIÁO DỤC THỂ CHẤT 1] Tái cơ cấu toàn bộ mảng tag và phân bổ tỷ lệ weight: high theo sát Ma Trận 80/20 trong blueprint.json.
+
+- Đã rà soát và chuẩn hóa lại toàn bộ thẻ `weight` (High 80/20) cho các môn KTVM, GDTC1, TCTT, THUD theo SSoT mới.

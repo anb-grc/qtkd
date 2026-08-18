@@ -82,8 +82,7 @@
       "100m",
       "Ném đĩa"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">800m</span>  <div class=\"note\">Olympic 1928, phụ nữ thi 800m bị cho là kiệt sức nên nội dung này bị cấm tới tận năm 1960.</div>",
-    "weight": "high"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">800m</span>  <div class=\"note\">Olympic 1928, phụ nữ thi 800m bị cho là kiệt sức nên nội dung này bị cấm tới tận năm 1960.</div>"
   },
   {
     "tags": [
@@ -112,7 +111,8 @@
       "<span class=\"answer-keyword\">IAAF</span>",
       "IOC"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">IAAF</span>  <div class=\"note\">Liên đoàn Điền kinh Quốc tế (IAAF) đổi tên thành World Athletics vào năm 2019.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">IAAF</span>  <div class=\"note\">Liên đoàn Điền kinh Quốc tế (IAAF) đổi tên thành World Athletics vào năm 2019.</div>",
+    "weight": "high"
   },
   {
     "tags": [
@@ -182,8 +182,7 @@
       "Mỹ",
       "Pháp"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Anh</span>  <div class=\"note\">Olympic London 1908 kéo dài quãng đường marathon thành 42,195 km để chạy đến tận Lâu đài Windsor.</div>",
-    "weight": "high"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Anh</span>  <div class=\"note\">Olympic London 1908 kéo dài quãng đường marathon thành 42,195 km để chạy đến tận Lâu đài Windsor.</div>"
   },
   {
     "tags": [
@@ -269,8 +268,7 @@
       "Bóng đá",
       "<span class=\"answer-keyword\">Hầu hết các môn</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Hầu hết các môn</span>  <div class=\"note\">Tố chất nền tảng của điền kinh (chạy, nhảy) là bắt buộc trong bóng đá, võ thuật, bóng rổ, v.v...</div>",
-    "weight": "high"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Hầu hết các môn</span>  <div class=\"note\">Tố chất nền tảng của điền kinh (chạy, nhảy) là bắt buộc trong bóng đá, võ thuật, bóng rổ, v.v...</div>"
   },
   {
     "tags": [
@@ -284,8 +282,7 @@
       "Thở mạnh",
       "Vung tay"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Hai chân rời đất</span>  <div class=\"note\">Bắt buộc phải có ít nhất 1 chân tiếp xúc mặt đất, nếu cả 2 chân rời đất thì đó là CHẠY, không còn là đi bộ.</div>",
-    "weight": "high"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Hai chân rời đất</span>  <div class=\"note\">Bắt buộc phải có ít nhất 1 chân tiếp xúc mặt đất, nếu cả 2 chân rời đất thì đó là CHẠY, không còn là đi bộ.</div>"
   },
   {
     "tags": [
@@ -299,8 +296,7 @@
       "1",
       "<span class=\"answer-keyword\">3</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">3</span>  <div class=\"note\">Kỳ tích vô tiền khoáng hậu tại 3 kỳ Olympic liên tiếp (2008, 2012, 2016).</div>",
-    "weight": "high"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">3</span>  <div class=\"note\">Kỳ tích vô tiền khoáng hậu tại 3 kỳ Olympic liên tiếp (2008, 2012, 2016).</div>"
   },
   {
     "tags": [
@@ -314,8 +310,7 @@
       "2012–2016–2021",
       "2004–2008–2012"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">2008–2012–2016</span>  <div class=\"note\">Huyền thoại tia chớp Jamaica vô địch tại Bắc Kinh, London và Rio de Janeiro.</div>",
-    "weight": "high"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">2008–2012–2016</span>  <div class=\"note\">Huyền thoại tia chớp Jamaica vô địch tại Bắc Kinh, London và Rio de Janeiro.</div>"
   },
   {
     "tags": [
@@ -344,8 +339,7 @@
       "200m–tiếp sức",
       "100m–400m"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">100m–200m</span>  <div class=\"note\">Nữ hoàng tốc độ mới người Jamaica thâu tóm cả 100m và 200m.</div>",
-    "weight": "high"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">100m–200m</span>  <div class=\"note\">Nữ hoàng tốc độ mới người Jamaica thâu tóm cả 100m và 200m.</div>"
   },
   {
     "tags": [
@@ -401,8 +395,7 @@
       "Bụng",
       "<span class=\"answer-keyword\">Vươn thở</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Vươn thở</span>  <div class=\"note\">Khởi đầu bằng hô hấp để mở phổi, cung cấp oxy trước khi làm nóng cơ.</div>",
-    "weight": "high"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Vươn thở</span>  <div class=\"note\">Khởi đầu bằng hô hấp để mở phổi, cung cấp oxy trước khi làm nóng cơ.</div>"
   },
   {
     "tags": [
@@ -445,8 +438,7 @@
       "Yuki Koike",
       "Su Bingtian"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Liu Xiang</span>  <div class=\"note\">Người phá vỡ sự thống trị của Mỹ và Châu Âu ở cự ly rào ngắn (Athens 2004).</div>",
-    "weight": "high"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Liu Xiang</span>  <div class=\"note\">Người phá vỡ sự thống trị của Mỹ và Châu Âu ở cự ly rào ngắn (Athens 2004).</div>"
   },
   {
     "tags": [
@@ -460,8 +452,7 @@
       "<span class=\"answer-keyword\">Phát triển toàn thân</span>",
       "Tăng sức bền"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Phát triển toàn thân</span>  <div class=\"note\">Động tác nhảy kích thích sự dẻo dai và phối hợp toàn thân.</div>",
-    "weight": "high"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Phát triển toàn thân</span>  <div class=\"note\">Động tác nhảy kích thích sự dẻo dai và phối hợp toàn thân.</div>"
   },
   {
     "tags": [
@@ -504,8 +495,7 @@
       "<span class=\"answer-keyword\">Phát triển chân</span>",
       "Tăng trí nhớ"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Phát triển chân</span>  <div class=\"note\">Động tác gập duỗi gối và bước tập trung trực tiếp vào cơ bắp đùi, bắp chân.</div>",
-    "weight": "high"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Phát triển chân</span>  <div class=\"note\">Động tác gập duỗi gối và bước tập trung trực tiếp vào cơ bắp đùi, bắp chân.</div>"
   },
   {
     "tags": [
@@ -519,8 +509,7 @@
       "300m",
       "350m"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">400m</span>  <div class=\"note\">Đo theo mép viền làn trong cùng chuẩn quốc tế.</div>",
-    "weight": "high"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">400m</span>  <div class=\"note\">Đo theo mép viền làn trong cùng chuẩn quốc tế.</div>"
   },
   {
     "tags": [
@@ -548,8 +537,7 @@
       "Nhảy",
       "<span class=\"answer-keyword\">Chạy</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Chạy</span>  <div class=\"note\">Khắc phục sai số của bấm giờ tay, quyết định thành bại tính bằng phần nghìn giây.</div>",
-    "weight": "high"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Chạy</span>  <div class=\"note\">Khắc phục sai số của bấm giờ tay, quyết định thành bại tính bằng phần nghìn giây.</div>"
   },
   {
     "tags": [
@@ -591,8 +579,7 @@
       "Nhảy",
       "Chạy"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Chạy tiếp sức</span>  <div class=\"note\">Chạy tiếp sức là nội dung đồng đội do người hiện đại nghĩ ra.</div>",
-    "weight": "high"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Chạy tiếp sức</span>  <div class=\"note\">Chạy tiếp sức là nội dung đồng đội do người hiện đại nghĩ ra.</div>"
   },
   {
     "tags": [
@@ -606,7 +593,8 @@
       "1908",
       "1920"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">1912</span>  <div class=\"note\">Thành lập tại Stockholm.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">1912</span>  <div class=\"note\">Thành lập tại Stockholm.</div>",
+    "weight": "high"
   },
   {
     "tags": [
@@ -635,8 +623,7 @@
       "2",
       "5"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">3</span>  <div class=\"note\">Người 1 -> 2 -> 3 -> 4. Tính ra có 3 lần trao tay.</div>",
-    "weight": "high"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">3</span>  <div class=\"note\">Người 1 -> 2 -> 3 -> 4. Tính ra có 3 lần trao tay.</div>"
   },
   {
     "tags": [
@@ -664,7 +651,8 @@
       "Không nhảy",
       "<span class=\"answer-keyword\">Một chân luôn tiếp đất</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Một chân luôn tiếp đất</span>  <div class=\"note\">Chân nhấc lên phải đặt xuống trước khi chân kia dỡ khỏi mặt đất.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Một chân luôn tiếp đất</span>  <div class=\"note\">Chân nhấc lên phải đặt xuống trước khi chân kia dỡ khỏi mặt đất.</div>",
+    "weight": "high"
   },
   {
     "tags": [
@@ -692,8 +680,7 @@
       "Bụng – Tay – Chân",
       "Tay – Vươn thở – Chân"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Vươn thở – Tay – Chân</span>  <div class=\"note\">Khởi đầu với hô hấp (vươn thở) rồi mới xuống các chi.</div>",
-    "weight": "high"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Vươn thở – Tay – Chân</span>  <div class=\"note\">Khởi đầu với hô hấp (vươn thở) rồi mới xuống các chi.</div>"
   },
   {
     "tags": [
@@ -707,8 +694,7 @@
       "Lưng",
       "Tay"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Bụng</span>  <div class=\"note\">Cơ bụng tham gia gập duỗi thân người.</div>",
-    "weight": "high"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Bụng</span>  <div class=\"note\">Cơ bụng tham gia gập duỗi thân người.</div>"
   },
   {
     "question": "<span class=\"keyword\">Đặc trưng bắt buộc</span> làn chạy cự ly ngắn:",
@@ -722,8 +708,7 @@
     "tags": [
       "KỸ THUẬT CHẠY CỰ LY NGẮN",
       "Giới hạn & Rủi ro"
-    ],
-    "weight": "high"
+    ]
   },
   {
     "question": "800m, <span class=\"keyword\">phép nhập làn</span> khi nào:",
@@ -737,8 +722,7 @@
     "tags": [
       "KỸ THUẬT CHẠY CỰ LY NGẮN",
       "Phân luồng"
-    ],
-    "weight": "high"
+    ]
   },
   {
     "question": "Xuất phát thấp, khẩu lệnh <span class=\"keyword\">Sẵn sàng</span>:",
@@ -752,8 +736,7 @@
     "tags": [
       "ĐỘI HÌNH ĐỘI NGŨ VÀ BÀI THỂ DỤC PHÁT TRIỂN CHUNG",
       "Phân luồng"
-    ],
-    "weight": "high"
+    ]
   },
   {
     "question": "Xuất phát thấp, khẩu lệnh <span class=\"keyword\">Vào chỗ</span>:",
@@ -767,8 +750,7 @@
     "tags": [
       "KỸ THUẬT CHẠY CỰ LY NGẮN",
       "Phân luồng"
-    ],
-    "weight": "high"
+    ]
   },
   {
     "tags": [
@@ -796,8 +778,7 @@
       "<span class=\"answer-keyword\">1908</span>",
       "1928"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">1908</span>  <div class=\"note\">Năm 1908 tại Olympic London, cự ly Marathon được chuẩn hóa 42.195km để chạy qua lâu đài Windsor.</div>",
-    "weight": "high"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">1908</span>  <div class=\"note\">Năm 1908 tại Olympic London, cự ly Marathon được chuẩn hóa 42.195km để chạy qua lâu đài Windsor.</div>"
   },
   {
     "tags": [
@@ -811,8 +792,7 @@
       "Nhảy",
       "<span class=\"answer-keyword\">Điều hòa</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Điều hòa</span>  <div class=\"note\">Động tác thứ 9 (cuối cùng) luôn là động tác Điều hòa để đưa cơ thể về trạng thái hồi phục.</div>",
-    "weight": "high"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Điều hòa</span>  <div class=\"note\">Động tác thứ 9 (cuối cùng) luôn là động tác Điều hòa để đưa cơ thể về trạng thái hồi phục.</div>"
   },
   {
     "tags": [
@@ -826,7 +806,8 @@
       "Bài tập sức bền",
       "Động tác thể dục"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Khởi động chuyên môn</span>  <div class=\"note\">Bật cóc tác động mạnh trực tiếp vào cơ đùi/chân phục vụ riêng cho việc chạy nên là Khởi động chuyên môn.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Khởi động chuyên môn</span>  <div class=\"note\">Bật cóc tác động mạnh trực tiếp vào cơ đùi/chân phục vụ riêng cho việc chạy nên là Khởi động chuyên môn.</div>",
+    "weight": "high"
   },
   {
     "tags": [
@@ -854,8 +835,7 @@
       "Tùy chọn",
       "Xuất phát 3 điểm"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Xuất phát cao</span>  <div class=\"note\">800m thuộc cự ly Trung bình, do đó bắt buộc sử dụng kỹ thuật Xuất phát cao.</div>",
-    "weight": "high"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Xuất phát cao</span>  <div class=\"note\">800m thuộc cự ly Trung bình, do đó bắt buộc sử dụng kỹ thuật Xuất phát cao.</div>"
   },
   {
     "tags": [
@@ -883,8 +863,7 @@
       "<span class=\"answer-keyword\">Loại trực tiếp</span>",
       "Trừ điểm"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Loại trực tiếp</span>  <div class=\"note\">Phạm quy xuất phát sẽ bị loại ngay.</div>",
-    "weight": "high"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Loại trực tiếp</span>  <div class=\"note\">Phạm quy xuất phát sẽ bị loại ngay.</div>"
   },
   {
     "tags": [
@@ -1165,7 +1144,8 @@
       "Xã hội",
       "Thể thao"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Thể thao, giáo dục và xã hội</span>  <div class=\"note\">Ý nghĩa toàn diện: thể thao, xã hội, giáo dụ</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Thể thao, giáo dục và xã hội</span>  <div class=\"note\">Ý nghĩa toàn diện: thể thao, xã hội, giáo dụ</div>",
+    "weight": "high"
   },
   {
     "tags": [
@@ -1251,8 +1231,7 @@
       "Marathon",
       "800m"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">5000m</span>  <div class=\"note\">Vô địch nhiều lần ở 5000m.</div>",
-    "weight": "high"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">5000m</span>  <div class=\"note\">Vô địch nhiều lần ở 5000m.</div>"
   },
   {
     "tags": [
@@ -1281,8 +1260,7 @@
       "Nhanh, gấp",
       "<span class=\"answer-keyword\">Đều và nhịp nhàng</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Đều và nhịp nhàng</span>  <div class=\"note\">Giữ nhịp thở ổn định</div>",
-    "weight": "high"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Đều và nhịp nhàng</span>  <div class=\"note\">Giữ nhịp thở ổn định</div>"
   },
   {
     "tags": [
@@ -1394,8 +1372,7 @@
     "tags": [
       "KỸ THUẬT CHẠY CỰ LY TRUNG BÌNH",
       "Phân luồng"
-    ],
-    "weight": "high"
+    ]
   },
   {
     "question": "Nhịp hô trong bài thể dục tay không <span class=\"keyword\">thường là gì?</span>",
@@ -1423,8 +1400,7 @@
     "tags": [
       "KỸ THUẬT CHẠY CỰ LY TRUNG BÌNH",
       "Phân luồng"
-    ],
-    "weight": "high"
+    ]
   },
   {
     "question": "<span class=\"keyword\">Giải vô địch điền kinh thế giới</span> <span class=\"keyword\">đầu tiên</span> tổ chức năm:",
@@ -1452,7 +1428,8 @@
     "tags": [
       "NHẬP MÔN ĐIỀN KINH",
       "Phân luồng"
-    ]
+    ],
+    "weight": "high"
   },
   {
     "question": "<span class=\"keyword\">Thành tích</span> giải Vô địch Thế giới có giá trị <span class=\"keyword\">so Olympic</span>:",
@@ -1494,8 +1471,7 @@
     "tags": [
       "KỸ THUẬT CHẠY CỰ LY NGẮN",
       "Cấu trúc"
-    ],
-    "weight": "high"
+    ]
   },
   {
     "question": "<span class=\"keyword\">Đường tartan</span> lần đầu <span class=\"keyword\">xuất hiện</span> Olympic:",
@@ -1551,7 +1527,8 @@
     "tags": [
       "NHẬP MÔN ĐIỀN KINH",
       "Phân luồng"
-    ]
+    ],
+    "weight": "high"
   },
   {
     "question": "<span class=\"keyword\">Xu hướng phát triển</span> điền kinh ngày nay là:",
@@ -1691,8 +1668,7 @@
     "tags": [
       "KỸ THUẬT CHẠY CỰ LY NGẮN",
       "Góc nhìn Đa chiều"
-    ],
-    "weight": "high"
+    ]
   },
   {
     "question": "<span class=\"keyword\">Kỷ lục Olympic</span> có thể bị phá tại:",
@@ -1706,7 +1682,8 @@
     "tags": [
       "NHẬP MÔN ĐIỀN KINH",
       "Phân luồng"
-    ]
+    ],
+    "weight": "high"
   },
   {
     "question": "<span class=\"keyword\">Tần số bước chạy</span> phụ thuộc vào yếu tố nào?",
@@ -1748,7 +1725,8 @@
     "tags": [
       "NHẬP MÔN ĐIỀN KINH",
       "Phân luồng"
-    ]
+    ],
+    "weight": "high"
   },
   {
     "question": "<span class=\"keyword\">Điền kinh Olympic hiện đại</span> hướng tới giá trị:",
@@ -1804,8 +1782,7 @@
     "tags": [
       "KỸ THUẬT CHẠY CỰ LY TRUNG BÌNH",
       "Góc nhìn Đa chiều"
-    ],
-    "weight": "high"
+    ]
   },
   {
     "question": "<span class=\"keyword\">Nội dung</span> giúp Việt Nam đạt <span class=\"keyword\">thành tích tốt</span> tại SEA Games là:",
@@ -1833,8 +1810,7 @@
     "tags": [
       "NHẬP MÔN ĐIỀN KINH",
       "Hệ thống"
-    ],
-    "weight": "high"
+    ]
   },
   {
     "question": "<span class=\"keyword\">Mũi lao cắm đất trước</span> mới được <span class=\"keyword\">tính thành tích</span>:",
@@ -1862,8 +1838,7 @@
     "tags": [
       "NHẬP MÔN ĐIỀN KINH",
       "Logic & Nguyên tắc"
-    ],
-    "weight": "high"
+    ]
   },
   {
     "question": "<span class=\"keyword\">Làm rơi gậy</span> <span class=\"keyword\">tiếp sức</span>, vận động viên:",
@@ -1920,8 +1895,7 @@
     "tags": [
       "KỸ THUẬT CHẠY CỰ LY NGẮN",
       "Phân luồng"
-    ],
-    "weight": "high"
+    ]
   },
   {
     "question": "Sự <span class=\"keyword\">chuyên nghiệp hóa</span> vận động viên điền kinh <span class=\"keyword\">diễn ra mạnh từ</span>:",
@@ -1949,8 +1923,7 @@
     "tags": [
       "KỸ THUẬT CHẠY CỰ LY NGẮN",
       "Nền tảng"
-    ],
-    "weight": "high"
+    ]
   },
   {
     "question": "<span class=\"keyword\">Đi bộ thể thao</span> xuất hiện tại <span class=\"keyword\">Olympic</span> từ năm:",
@@ -1992,7 +1965,8 @@
     "tags": [
       "NHẬP MÔN ĐIỀN KINH",
       "Phân luồng"
-    ]
+    ],
+    "weight": "high"
   },
   {
     "question": "<span class=\"keyword\">Sân vận động Olympia</span> xây dựng chủ yếu để <span class=\"keyword\">phục vụ</span>:",
@@ -2048,7 +2022,8 @@
     "tags": [
       "ĐỘI HÌNH ĐỘI NGŨ VÀ BÀI THỂ DỤC PHÁT TRIỂN CHUNG",
       "Cấu trúc"
-    ]
+    ],
+    "weight": "high"
   },
   {
     "question": "<span class=\"keyword\">Nhảy xa 8,90m</span> của Bob Beamon được lập tại:",
@@ -2132,7 +2107,8 @@
     "tags": [
       "NHẬP MÔN ĐIỀN KINH",
       "Hệ thống"
-    ]
+    ],
+    "weight": "high"
   },
   {
     "question": "<span class=\"keyword\">Thành tích đại hội</span> là căn cứ để:",
@@ -2160,7 +2136,8 @@
     "tags": [
       "NHẬP MÔN ĐIỀN KINH",
       "Nền tảng"
-    ]
+    ],
+    "weight": "high"
   },
   {
     "question": "Điền kinh chiếm <span class=\"keyword\">huy chương lớn SEA Games</span> vì:",
@@ -2258,8 +2235,7 @@
     "tags": [
       "KỸ THUẬT CHẠY CỰ LY TRUNG BÌNH",
       "Hệ thống"
-    ],
-    "weight": "high"
+    ]
   },
   {
     "question": "Điền kinh Việt Nam <span class=\"keyword\">phát triển mạnh</span> nhóm vận động viên:",
@@ -2287,8 +2263,7 @@
     "tags": [
       "KỸ THUẬT CHẠY CỰ LY TRUNG BÌNH",
       "Phân luồng"
-    ],
-    "weight": "high"
+    ]
   },
   {
     "question": "<span class=\"keyword\">Tiếp sức 4×400m nữ</span> Việt Nam từng đạt:",
@@ -2316,8 +2291,7 @@
     "tags": [
       "KỸ THUẬT CHẠY CỰ LY TRUNG BÌNH",
       "Góc nhìn Đa chiều"
-    ],
-    "weight": "high"
+    ]
   },
   {
     "question": "<span class=\"keyword\">Nam đầu tiên</span> của Việt Nam giành Huy Chương Vàng <span class=\"keyword\">marathon</span> SEA Games:",
@@ -2387,8 +2361,7 @@
     "tags": [
       "KỸ THUẬT CHẠY CỰ LY TRUNG BÌNH",
       "Góc nhìn Đa chiều"
-    ],
-    "weight": "high"
+    ]
   },
   {
     "question": "Nguyễn Thị Oanh <span class=\"keyword\">nổi bật</span> ở các cự ly:",
@@ -2416,8 +2389,7 @@
     "tags": [
       "KỸ THUẬT CHẠY CỰ LY NGẮN",
       "Góc nhìn Đa chiều"
-    ],
-    "weight": "high"
+    ]
   },
   {
     "question": "Điền kinh Việt Nam bắt đầu <span class=\"keyword\">phát triển có hệ thống</span> mạnh mẽ từ giai đoạn:",
@@ -2515,8 +2487,7 @@
     "tags": [
       "KỸ THUẬT CHẠY CỰ LY TRUNG BÌNH",
       "Nền tảng"
-    ],
-    "weight": "high"
+    ]
   },
   {
     "question": "Nội dung đưa Việt Nam <span class=\"keyword\">lần đầu vào chung kết</span> ASIAD:",
@@ -2530,8 +2501,7 @@
     "tags": [
       "KỸ THUẬT CHẠY CỰ LY NGẮN",
       "Hệ thống"
-    ],
-    "weight": "high"
+    ]
   },
   {
     "question": "<span class=\"keyword\">Xuất phát</span> trong chạy trung bình thường là gì?",
@@ -2573,8 +2543,7 @@
     "tags": [
       "KỸ THUẬT CHẠY CỰ LY NGẮN",
       "Nền tảng"
-    ],
-    "weight": "high"
+    ]
   },
   {
     "question": "Vũ Bích Hường <span class=\"keyword\">nổi bật</span> ở nội dung nào?",
@@ -2630,8 +2599,7 @@
     "tags": [
       "NHẬP MÔN ĐIỀN KINH",
       "Hệ thống"
-    ],
-    "weight": "high"
+    ]
   },
   {
     "question": "<p><span class=\"keyword\">Sau Thế chiến II</span>, điền kinh phát triển mạnh nhờ:</p>",
@@ -2687,8 +2655,7 @@
     "tags": [
       "KỸ THUẬT CHẠY CỰ LY NGẮN",
       "Giới hạn & Rủi ro"
-    ],
-    "weight": "high"
+    ]
   },
   {
     "question": "<p><span class=\"keyword\">Xuất phát sớm</span> xác định khi vận động viên <span class=\"keyword\">phản ứng dưới</span>:</p>",
@@ -2702,8 +2669,7 @@
     "tags": [
       "KỸ THUẬT CHẠY CỰ LY NGẮN",
       "Giới hạn & Rủi ro"
-    ],
-    "weight": "high"
+    ]
   },
   {
     "question": "<p><span class=\"keyword\">Tên gọi mới</span> của <span class=\"keyword\">IAAF</span> từ năm 2019 là:</p>",
