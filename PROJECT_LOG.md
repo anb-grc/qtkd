@@ -36,3 +36,4 @@ Khi chạy xong luồng xử lý câu hỏi mới, Agent tự động thêm 1 d�
 
 - Đã rà soát và chuẩn hóa lại toàn bộ thẻ `weight` (High 80/20) cho các môn KTVM, GDTC1, TCTT, THUD theo SSoT mới.
 - [2026-08-18] [GIÁO DỤC THỂ CHẤT 1] Xóa bỏ khoảng trắng thừa (double space) giữa các tag HTML và làm sạch data options theo yêu cầu của User.
+- [2026-08-18] [GIÁO DỤC THỂ CHẤT 1] Bổ sung highlight keyword bị sót cho câu hỏi kỷ lục Bob Beamon.

@@ -1029,10 +1029,10 @@
     "options": [
       "15 năm",
       "10 năm",
-      "23 năm",
+      "<span class=\"answer-keyword\">23 năm</span>",
       "30 năm"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> 23 năm <div class=\"note\">23 năm kỷ lục không bị phá.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">23 năm</span><div class=\"note\">23 năm kỷ lục không bị phá.</div>"
   },
   {
     "tags": [
