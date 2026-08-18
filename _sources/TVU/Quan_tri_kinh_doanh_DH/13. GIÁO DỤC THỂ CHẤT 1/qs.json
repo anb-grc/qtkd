@@ -2664,7 +2664,7 @@
     ]
   },
   {
-    "question": "<p>Châu lục thống trị cự ly trung bình, dài từ TK XX?</p>",
+    "question": "<p><span class=\"keyword\">Châu lục thống trị cự ly trung bình</span>, dài từ TK XX?</p>",
     "options": [
       "Châu Âu",
       "Châu Phi",
@@ -2679,7 +2679,7 @@
   },
   {
     "weight": "high",
-    "question": "<p>Quyết định cuối trong điền kinh thuộc về:</p>",
+    "question": "<p><span class=\"keyword\">Quyết định cuối trong điền kinh thuộc về</span>:</p>",
     "options": [
       "HLV",
       "Ban huấn luyện",
@@ -2693,7 +2693,7 @@
     ]
   },
   {
-    "question": "<p>Sau Thế chiến II, điền kinh phát triển mạnh nhờ:</p>",
+    "question": "<p><span class=\"keyword\">Sau Thế chiến II</span>, điền kinh phát triển mạnh nhờ:</p>",
     "options": [
       "May mắn",
       "Truyền thông xã hội",
@@ -2707,7 +2707,7 @@
     ]
   },
   {
-    "question": "<p>Ở Việt Nam, điền kinh du nhập mạnh mẽ từ:</p>",
+    "question": "<p><span class=\"keyword\">Ở Việt Nam</span>, điền kinh du nhập mạnh mẽ từ:</p>",
     "options": [
       "1954–1975",
       "1945–1954",
@@ -2722,7 +2722,7 @@
   },
   {
     "weight": "high",
-    "question": "<p>Trong chạy 800m, vận động viên nhập làn sau đoạn quy định:</p>",
+    "question": "<p><span class=\"keyword\">Trong chạy 800m</span>, vận động viên nhập làn sau đoạn quy định:</p>",
     "options": [
       "Theo bốc thăm",
       "Chạy tự do",
@@ -2737,7 +2737,7 @@
   },
   {
     "weight": "high",
-    "question": "<p>Vận động viên xuất phát sớm sẽ bị:</p>",
+    "question": "<p><span class=\"keyword\">Vận động viên xuất phát sớm sẽ bị</span>:</p>",
     "options": [
       "Trừ điểm",
       "Chạy lại",
@@ -2752,7 +2752,7 @@
   },
   {
     "weight": "high",
-    "question": "<p>Xuất phát sớm xác định khi vận động viên phản ứng dưới:</p>",
+    "question": "<p><span class=\"keyword\">Xuất phát sớm xác định khi vận động viên phản ứng dưới</span>:</p>",
     "options": [
       "0,20 giây",
       "0,10 giây",
@@ -2767,7 +2767,7 @@
   },
   {
     "weight": "high",
-    "question": "<p>Tên gọi mới của IAAF từ năm 2019 là:</p>",
+    "question": "<p><span class=\"keyword\">Tên gọi mới của IAAF từ năm 2019 là</span>:</p>",
     "options": [
       "International Athletics",
       "Athletics World",
@@ -2782,7 +2782,7 @@
   },
   {
     "weight": "high",
-    "question": "<p>Bolt giành Huy Chương Vàng 100m Olympic các năm:</p>",
+    "question": "<p><span class=\"keyword\">Bolt giành Huy Chương Vàng 100m Olympic các năm</span>:</p>",
     "options": [
       "2012–2016–2021",
       "2008–2012–2016",
@@ -2855,7 +2855,7 @@
     ]
   },
   {
-    "question": "<p>Thành tích điền kinh đại hội có ý nghĩa:</p>",
+    "question": "<p><span class=\"keyword\">Thành tích điền kinh đại hội có ý nghĩa</span>:</p>",
     "options": [
       "Xã hội",
       "Thể thao, giáo dục và xã hội",
@@ -2870,7 +2870,7 @@
   },
   {
     "weight": "high",
-    "question": "<p>Thành tích giải Vô địch Thế giới có giá trị so Olympic là:</p>",
+    "question": "<p><span class=\"keyword\">Thành tích giải Vô địch Thế giới có giá trị so Olympic là</span>:</p>",
     "options": [
       "Thử nghiệm",
       "Thấp hơn nhiều",
