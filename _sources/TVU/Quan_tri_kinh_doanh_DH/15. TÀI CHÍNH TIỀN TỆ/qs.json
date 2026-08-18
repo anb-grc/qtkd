@@ -1759,20 +1759,6 @@
     ]
   },
   {
-    "question": "Đặc trưng nào khiến cho <span class=\"keyword\">thị trường chứng khoán</span> bị coi là có tính chất <span class=\"keyword\">may rủi</span> giống với <span class=\"keyword\">sòng bạc</span>?",
-    "options": [
-      "A. Rủi ro cao và tất cả người tham gia đều giàu lên một cách rất nhanh chóng.",
-      "B. Tất cả mọi tính toán đều mang tính <span class=\"answer-keyword\">tương đối</span>.",
-      "C. Rất nhộn nhịp và hấp dẫn, thích hợp với người ưa thích mạo hiểm và phải có rất nhiều tiền.",
-      "D. Nếu có vốn lớn và bản lĩnh thì sẽ đảm bảo thắng lợi."
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Tất cả mọi tính toán đều mang tính <span class=\"answer-keyword\">tương đối</span>.",
-    "tags": [
-      "Thị trường Tài chính",
-      "Logic"
-    ]
-  },
-  {
     "question": "<span class=\"keyword\">Chức năng</span> nào của tiền tệ được các nhà kinh tế học hiện đại quan niệm là <span class=\"keyword\">quan trọng nhất</span>?",
     "options": [
       "A. <span class=\"answer-keyword\">Phương tiện trao đổi</span>",
@@ -2303,7 +2289,7 @@
       "Rủi ro cao và tất cả người tham gia đều giàu lên một cách rất nhanh chóng.",
       "Nếu có vốn lớn và bản lĩnh thì sẽ đảm bảo thắng lợi."
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>\nTất cả mọi tính toán đều mang tính tương đối.\n<div class=\"note\">Thị trường bị ảnh hưởng bởi rất nhiều yếu tố bất ngờ nên không một mô hình tính toán nào là tuyệt đối chính xác.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>\nTất cả mọi tính toán đều mang tính <span class=\"answer-keyword\">tương đối</span>.\n<div class=\"note\">Thị trường bị ảnh hưởng bởi rất nhiều yếu tố bất ngờ nên không một mô hình tính toán nào là tuyệt đối chính xác.</div>",
     "tags": [
       "Thị trường Tài chính",
       "Góc nhìn Đa chiều"
