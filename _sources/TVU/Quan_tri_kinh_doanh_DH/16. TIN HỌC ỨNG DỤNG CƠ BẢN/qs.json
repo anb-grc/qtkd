@@ -1411,10 +1411,10 @@
     ],
     "question": "<span class=\"keyword\">Bộ nhớ nào</span> sau đây <span class=\"keyword\">không thuộc</span> <span class=\"keyword\">bộ nhớ ngoài</span>?",
     "options": [
-      "A. Memory stick",
-      "B. USB",
-      "C. HDD",
-      "D. <span class=\"answer-keyword\">ROM</span>"
+      "Memory stick",
+      "USB",
+      "HDD",
+      "<span class=\"answer-keyword\">ROM</span>"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">ROM</span><div class=\"note\">Hiện nay có các loại bộ nhớ ngoài phổ biến như: Đĩa cứng (hard disk); Đĩa quang (Compact disk); Các loại bộ nhớ ngoài khác như thẻ nhớ (Memory Stick, Compact Flash Card). Bộ nhớ trong: gồm ROM và RAM.</div>",
     "weight": "high"
@@ -1426,10 +1426,10 @@
     ],
     "question": "Trong chương trình File Explorer, khi <span class=\"keyword\">tìm kiếm tập tin</span> thì <span class=\"keyword\">ký tự nào</span> sau đây <span class=\"keyword\">đại diện cho</span> <span class=\"keyword\">1 ký tự</span> trong chuỗi từ khóa?",
     "options": [
-      "A. #",
-      "B. !",
-      "C. <span class=\"answer-keyword\">?</span>",
-      "D. *"
+      "#",
+      "!",
+      "<span class=\"answer-keyword\">?</span>",
+      "*"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">?</span><div class=\"note\">Tìm kiếm tập tin/thư mục là chức năng vô cùng quan trọng của Windows, ta dùng các ký hiệu “?” và “*” để hỗ trợ đắc lực cho việc tìm kiếm với công cụ Search Tools: - Dấu “?”: Đại diện cho 1 ký tự bất kỳ - Dấu “*”: Đại diện cho nhiều ký tự bất kỳ.</div>"
   },
@@ -1440,10 +1440,10 @@
     ],
     "question": "Hãy cho biết <span class=\"keyword\">phần mềm nào</span> sau đây <span class=\"keyword\">được sử dụng</span> <span class=\"keyword\">để nén</span> <span class=\"keyword\">tập tin/thư mục</span>?",
     "options": [
-      "A. Windows Defender",
-      "B. Unikey",
-      "C. <span class=\"answer-keyword\">Winrar</span>",
-      "D. File Explorer"
+      "Windows Defender",
+      "Unikey",
+      "<span class=\"answer-keyword\">Winrar</span>",
+      "File Explorer"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Winrar</span><div class=\"note\">Hiện nay có rất nhiều phần mềm tiện ích giúp nén dung lượng tập tin: Zip (hỗ trợ sẵn trong Windows), Winrar (cài đặt ngoài).</div>"
   },
@@ -1454,10 +1454,10 @@
     ],
     "question": "Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác <span class=\"keyword\">định dạng bảng biểu</span>, <span class=\"keyword\">nhóm lệnh nào</span> trong <span class=\"keyword\">thẻ Layout</span> cho phép sắp xếp <span class=\"keyword\">bảng dữ liệu</span>?",
     "options": [
-      "A. Alignment",
-      "B. Rows & Columns",
-      "C. Merge",
-      "D. <span class=\"answer-keyword\">Data</span>"
+      "Alignment",
+      "Rows & Columns",
+      "Merge",
+      "<span class=\"answer-keyword\">Data</span>"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Data</span><div class=\"note\"></div>"
   },
@@ -1468,10 +1468,10 @@
     ],
     "question": "Trong chương trình Microsoft Office Word 2013, cho biết khi <span class=\"keyword\">chèn bảng biểu</span> thì <span class=\"keyword\">thông số nào</span> <span class=\"keyword\">quy định độ rộng</span> của ô <span class=\"keyword\">tùy thuộc vào</span> nội dung nhập?",
     "options": [
-      "A. Number of rows",
-      "B. <span class=\"answer-keyword\">AutoFit to contents</span>",
-      "C. Number of Columns",
-      "D. AutoFit to window"
+      "Number of rows",
+      "<span class=\"answer-keyword\">AutoFit to contents</span>",
+      "Number of Columns",
+      "AutoFit to window"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">AutoFit to contents</span><div class=\"note\">Trong chương trình Microsoft Office Word 2013, khi chèn bảng biểu thì thông số AutoFit to contents quy định độ rộng của ô tùy thuộc vào nội dung nhập</div>",
     "weight": "high"
@@ -1483,10 +1483,10 @@
     ],
     "question": "Trong chương trình Microsoft Office Word 2013, khi tùy chỉnh <span class=\"keyword\">chế độ xem</span> văn bản tùy chọn nào sau đây cho phép xem tài liệu ở <span class=\"keyword\">dạng in ấn</span>?",
     "options": [
-      "A. Draft",
-      "B. Read mode",
-      "C. <span class=\"answer-keyword\">Print Layout</span>",
-      "D. Web Layout"
+      "Draft",
+      "Read mode",
+      "<span class=\"answer-keyword\">Print Layout</span>",
+      "Web Layout"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Print Layout</span><div class=\"note\"></div>"
   },
@@ -1497,10 +1497,10 @@
     ],
     "question": "Trong chương trình Microsoft Office Word 2013, cho biết <span class=\"keyword\">thao tác nào</span> được sử dụng để <span class=\"keyword\">chèn tiêu đề</span> cho mỗi trang tài liệu?",
     "options": [
-      "A. <span class=\"answer-keyword\">Insert, Nhóm Header & Footer, chọn Header</span>",
-      "B. Insert, Nhóm Header & Footer, chọn Footer",
-      "C. Home, Nhóm Header & Footer, chọn Header",
-      "D. Home, Nhóm Header & Footer, chọn Footer"
+      "<span class=\"answer-keyword\">Insert, Nhóm Header & Footer, chọn Header</span>",
+      "Insert, Nhóm Header & Footer, chọn Footer",
+      "Home, Nhóm Header & Footer, chọn Header",
+      "Home, Nhóm Header & Footer, chọn Footer"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Insert, Nhóm Header & Footer, chọn Header</span><div class=\"note\"></div>"
   },
@@ -1511,10 +1511,10 @@
     ],
     "question": "Trong chương trình Microsoft Office Word 2013, lệnh nào cho phép <span class=\"keyword\">chèn số trang</span> vào tài liệu ở <span class=\"keyword\">phạm vi footer</span> của tài liệu?",
     "options": [
-      "A. Top of Page",
-      "B. Current Position",
-      "C. Page Margins",
-      "D. <span class=\"answer-keyword\">Bottom of Page</span>"
+      "Top of Page",
+      "Current Position",
+      "Page Margins",
+      "<span class=\"answer-keyword\">Bottom of Page</span>"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Bottom of Page</span><div class=\"note\">Trong chương trình Microsoft Office Word 2013, tùy chọn: - Top of Page được sử dụng để chèn số trang ở tiêu đề của mỗi trang tài liệu - Bottom of Page: được sử dụng để chèn số trang ở phần chân trang (footer) của mỗi trang tài liệu - Current Position: được sử dụng để chèn số trang tại vị trí hiện hành của con trỏ - Page Margin: được sử dụng để chèn số trang ở phạm vi lề của mỗi trang tài liệu</div>"
   },
@@ -1525,10 +1525,10 @@
     ],
     "question": "Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng cho <span class=\"keyword\">đối tượng Shape</span> nhóm lệnh nào trong thẻ Format cho phép <span class=\"keyword\">định dạng màu nền</span> cho Shape?",
     "options": [
-      "A. Arrange",
-      "B. Size",
-      "C. Insert Shapes",
-      "D. <span class=\"answer-keyword\">Shape Styles</span>"
+      "Arrange",
+      "Size",
+      "Insert Shapes",
+      "<span class=\"answer-keyword\">Shape Styles</span>"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Shape Styles</span><div class=\"note\">Trong chương trình Microsoft Office Word 2013, để định dạng màu nền cho đối tượng Shape, người sử dụng thực hiện thao tác: Format > Nhóm Shape Styles và chọn Shape Fill</div>"
   },
@@ -1539,10 +1539,10 @@
     ],
     "question": "Trong chương trình Microsoft Office Excel 2013, cho biết <span class=\"keyword\">tham số thứ nhất</span> của <span class=\"keyword\">hàm HLOOKUP</span>(lookup_value, table_array, row_index_num, [range_lookup]) có ý nghĩa gì?",
     "options": [
-      "A. Xác định vùng tham chiếu",
-      "B. <span class=\"answer-keyword\">Xác định trị dò tìm</span>",
-      "C. Xác định cách dò tìm",
-      "D. Xác định dòng sẽ lấy giá trị"
+      "Xác định vùng tham chiếu",
+      "<span class=\"answer-keyword\">Xác định trị dò tìm</span>",
+      "Xác định cách dò tìm",
+      "Xác định dòng sẽ lấy giá trị"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Xác định trị dò tìm</span><div class=\"note\"></div>"
   },
@@ -1553,10 +1553,10 @@
     ],
     "question": "Trong chương trình Microsoft Office Excel 2013, cho biết <span class=\"keyword\">thao tác nào</span> sau đây được sử dụng để <span class=\"keyword\">kẻ đường viền</span> cho bảng dữ liệu?",
     "options": [
-      "A. Home, Cells, All Border",
-      "B. Home, Styles, All Border",
-      "C. Home, Alignment, All Border",
-      "D. <span class=\"answer-keyword\">Home, Font, All Border</span>"
+      "Home, Cells, All Border",
+      "Home, Styles, All Border",
+      "Home, Alignment, All Border",
+      "<span class=\"answer-keyword\">Home, Font, All Border</span>"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Home, Font, All Border</span><div class=\"note\"></div>"
   },
@@ -1567,10 +1567,10 @@
     ],
     "question": "Trong chương trình Microsoft Office Excel 2013, cho biết lệnh nào được sử dụng để <span class=\"keyword\">chèn thêm</span> một <span class=\"keyword\">Sheet mới</span>?",
     "options": [
-      "A. <span class=\"answer-keyword\">Insert…</span>",
-      "B. Rename",
-      "C. Protect Sheet…",
-      "D. Move or Copy…"
+      "<span class=\"answer-keyword\">Insert…</span>",
+      "Rename",
+      "Protect Sheet…",
+      "Move or Copy…"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Insert…</span><div class=\"note\"></div>"
   },
@@ -1581,10 +1581,10 @@
     ],
     "question": "Trong chương trình Microsoft Office Excel 2013, cho biết <span class=\"keyword\">thao tác nào</span> sau đây được sử dụng để <span class=\"keyword\">sắp xếp dữ liệu</span>?",
     "options": [
-      "A. Data, Outline, Subtotal",
-      "B. Data, Outline, Advanced",
-      "C. <span class=\"answer-keyword\">Data, Sort & Filter, Sort</span>",
-      "D. Data, Sort & Filter, Filter"
+      "Data, Outline, Subtotal",
+      "Data, Outline, Advanced",
+      "<span class=\"answer-keyword\">Data, Sort & Filter, Sort</span>",
+      "Data, Sort & Filter, Filter"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Data, Sort & Filter, Sort</span><div class=\"note\"></div>"
   },
@@ -1595,10 +1595,10 @@
     ],
     "question": "Trong chương trình Microsoft Office Excel 2013, <span class=\"keyword\">lệnh nào</span> sau đây được sử dụng để <span class=\"keyword\">trộn ô</span>?",
     "options": [
-      "A. Orientation",
-      "B. <span class=\"answer-keyword\">Merge & Center</span>",
-      "C. Decrease Indent",
-      "D. Wrap Text"
+      "Orientation",
+      "<span class=\"answer-keyword\">Merge & Center</span>",
+      "Decrease Indent",
+      "Wrap Text"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Merge & Center</span><div class=\"note\"></div>"
   },
@@ -1609,10 +1609,10 @@
     ],
     "question": "Trong chương trình Microsoft Office Excel 2013, cho biết <span class=\"keyword\">kết quả trả về</span> của <span class=\"keyword\">công thức =MAX</span>(1,-9,3,6)?",
     "options": [
-      "A. 3",
-      "B. 1",
-      "C. <span class=\"answer-keyword\">6</span>",
-      "D. -9"
+      "3",
+      "1",
+      "<span class=\"answer-keyword\">6</span>",
+      "-9"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">6</span><div class=\"note\">Trong chương trình Microsoft Office Excel 2013, kết quả trả về của công thức =MAX(1,-9,3,6) là 6 vì hàm Max sẽ trả về giá trị lớn nhất trong danh sách giá trị</div>"
   },
@@ -1623,10 +1623,10 @@
     ],
     "question": "Trong chương trình Microsoft Office Excel 2013, cho biết <span class=\"keyword\">tùy chọn nào</span> được sử dụng để <span class=\"keyword\">hiển thị dữ liệu</span> trên nhiều dòng <span class=\"keyword\">trong 1 ô</span>?",
     "options": [
-      "A. Orientation",
-      "B. <span class=\"answer-keyword\">Wrap Text</span>",
-      "C. Merge and Center",
-      "D. Increase Indent"
+      "Orientation",
+      "<span class=\"answer-keyword\">Wrap Text</span>",
+      "Merge and Center",
+      "Increase Indent"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Wrap Text</span><div class=\"note\"></div>"
   },
@@ -1637,10 +1637,10 @@
     ],
     "question": "Trong chương trình Microsoft Office PowerPoint 2013, khi thiết lập <span class=\"keyword\">hiệu ứng chuyển trang</span>, tại <span class=\"keyword\">nhóm Timing</span> tùy chọn nào quy định <span class=\"keyword\">thời gian thực thi</span> hiệu ứng chuyển từ slide này sang slide khác?",
     "options": [
-      "A. Sound",
-      "B. After",
-      "C. <span class=\"answer-keyword\">Duration</span>",
-      "D. On Mouse Click"
+      "Sound",
+      "After",
+      "<span class=\"answer-keyword\">Duration</span>",
+      "On Mouse Click"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Duration</span><div class=\"note\"></div>",
     "weight": "high"
@@ -1652,10 +1652,10 @@
     ],
     "question": "Trong chương trình Microsoft Office PowerPoint 2013, để thực hiện thao tác <span class=\"keyword\">chọn hiệu ứng</span> cho <span class=\"keyword\">các đối tượng</span> trên slide trình chiếu người sử dụng sẽ vào <span class=\"keyword\">thẻ lệnh nào</span>?",
     "options": [
-      "A. <span class=\"answer-keyword\">Thẻ Animations</span>",
-      "B. Thẻ Transitions",
-      "C. Thẻ Slide Show",
-      "D. Thẻ Review"
+      "<span class=\"answer-keyword\">Thẻ Animations</span>",
+      "Thẻ Transitions",
+      "Thẻ Slide Show",
+      "Thẻ Review"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Thẻ Animations</span><div class=\"note\"></div>"
   },
@@ -1666,10 +1666,10 @@
     ],
     "question": "Trong chương trình Microsoft Office PowerPoint 2013, <span class=\"keyword\">chế độ hiển thị</span> nào <span class=\"keyword\">là mặc định</span> khi người sử dụng <span class=\"keyword\">mở tập tin</span> trình chiếu?",
     "options": [
-      "A. <span class=\"answer-keyword\">Normal</span>",
-      "B. Outline View",
-      "C. Slide Sorter",
-      "D. Reading View"
+      "<span class=\"answer-keyword\">Normal</span>",
+      "Outline View",
+      "Slide Sorter",
+      "Reading View"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Normal</span><div class=\"note\"></div>"
   },
@@ -1680,10 +1680,10 @@
     ],
     "question": "Trong chương trình Microsoft Office PowerPoint 2013, để thực hiện các thao tác như <span class=\"keyword\">mở tập tin</span>, <span class=\"keyword\">lưu tập tin</span>, tạo mới tập tin…người sử dụng sẽ vào <span class=\"keyword\">thẻ lệnh nào</span>?",
     "options": [
-      "A. Thẻ Insert",
-      "B. Thẻ View",
-      "C. <span class=\"answer-keyword\">Thẻ File</span>",
-      "D. Thẻ Design"
+      "Thẻ Insert",
+      "Thẻ View",
+      "<span class=\"answer-keyword\">Thẻ File</span>",
+      "Thẻ Design"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Thẻ File</span><div class=\"note\"></div>"
   },
@@ -1694,10 +1694,10 @@
     ],
     "question": "<span class=\"keyword\">Trang Web nào</span> sau đây <span class=\"keyword\">KHÔNG phải là</span> <span class=\"keyword\">công cụ tìm kiếm</span> (Search Engine) trên Internet?",
     "options": [
-      "A. <span class=\"answer-keyword\">https://www.tvu.edu.vn</span>",
-      "B. http://www.bing.com",
-      "C. http://www.yahoo.com",
-      "D. http://www.yahoo.com"
+      "<span class=\"answer-keyword\">https://www.tvu.edu.vn</span>",
+      "http://www.bing.com",
+      "http://www.yahoo.com",
+      "http://www.yahoo.com"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">https://www.tvu.edu.vn</span><div class=\"note\">Hiện nay có nhiều nhà cung cấp dịch vụ tìm kiếm như: Google (www.google.com), Microsoft (www.bing.com), Yahoo (www.yahoo.com)... https://www.tvu.edu.vn là trang web của Trường Đại học Trà Vinh</div>",
     "weight": "high"
@@ -1709,10 +1709,10 @@
     ],
     "question": "Trong khi sử dụng dịch vụ <span class=\"keyword\">thư điện tử</span> Gmail, người dùng sẽ chọn <span class=\"keyword\">lệnh nào</span> để <span class=\"keyword\">chuyển tiếp thư</span> đến địa chỉ khác?",
     "options": [
-      "A. Spam",
-      "B. Send",
-      "C. <span class=\"answer-keyword\">Forward</span>",
-      "D. Attach"
+      "Spam",
+      "Send",
+      "<span class=\"answer-keyword\">Forward</span>",
+      "Attach"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Forward</span><div class=\"note\"></div>"
   },
