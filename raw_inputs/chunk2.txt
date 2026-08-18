@@ -1,0 +1,216 @@
+Câu 16:
+0 / 1 điểm
+Trong các phần mềm ứng dụng bên dưới, phần mềm nào KHÔNG được sử dụng để soạn thảo văn bản?
+A.
+WinRAR
+B.
+Google Docs
+C.
+Notepad
+D.
+Microsoft Word
+Phản hồi:
+Sai. Đáp án đúng là: WinRAR
+
+Câu 17:
+0 / 1 điểm
+Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng bảng biểu, nhóm lệnh nào trong thẻ Layout cho phép bổ sung hoặc xóa bớt dòng và cột?
+A.
+Alignment
+B.
+Rows & Columns
+C.
+Merge
+D.
+Cell Size
+Phản hồi:
+Sai. Đáp án đúng là: Rows & Columns
+
+Câu 18:
+0 / 1 điểm
+Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng bảng biểu, nhóm lệnh nào trong thẻ Layout cho phép thay đổi độ rộng của ô?
+A.
+Cell Size
+B.
+Alignment
+C.
+Rows & Columns
+D.
+Merge
+Phản hồi:
+Sai. Đáp án đúng là: Cell Size
+
+Câu 19:
+0 / 1 điểm
+Trong chương trình Microsoft Office Word 2013, cho biết tùy chọn nào được sử dụng để chèn số trang ở tiêu đề của mỗi trang tài liệu?
+A.
+Bottom of Page
+B.
+Current Position
+C.
+Page Margin
+D.
+Top of Page
+Phản hồi:
+Sai. Đáp án đúng là: Top of Page
+Vì: Trong chương trình Microsoft Office Word 2013, tùy chọn:
+- Top of Page được sử dụng để chèn số trang ở tiêu đề của mỗi trang tài liệu
+- Bottom of Page: được sử dụng để chèn số trang ở phần chân trang (footer) của mỗi trang tài liệu
+- Current Position: được sử dụng để chèn số trang tại vị trí hiện hành của con trỏ
+- Page Margin: được sử dụng để chèn số trang ở phạm vi lề của  mỗi trang tài liệu
+
+Câu 20:
+0 / 1 điểm
+Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng chữ Drop Cap tùy chọn nào xác định khoảng cách chữ cái và văn bản còn lại?
+A.
+Distance from text
+B.
+Font
+C.
+Lines to drop
+D.
+Position
+Phản hồi:
+Sai. Đáp án đúng là: Distance from text
+
+Câu 21:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, cho biết lệnh nào được sử dụng để lưu nội dung trang bảng tính?
+A.
+New
+B.
+Print
+C.
+Save
+D.
+Open
+Phản hồi:
+Sai. Đáp án đúng là: Save
+
+Câu 22:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, khi sao chép công thức tại ô A3 thì cú pháp địa chỉ nào sau đây sẽ tham chiếu chính xác giá trị tại ô A3?
+A.
+$A$3
+B.
+$A3
+C.
+A$3
+D.
+A3
+Phản hồi:
+Sai. Đáp án đúng là: $A$3
+Vì: Trong chương trình Microsoft Office Excel 2013, khi sao chép công thức tại ô A3 thì cú pháp địa chỉ $A$3 sẽ tham chiếu chính xác giá trị tại ô A3 vì loại địa chỉ này cho phép cố định dòng và cố định cột khi sao chép công thức
+
+Câu 23:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, cho biết lệnh nào sau đây được sử dụng để chèn thêm 1 dòng?
+A.
+Insert Sheet Rows
+B.
+Insert Cells
+C.
+Insert Sheet Columns
+D.
+Insert Sheet
+Phản hồi:
+Sai. Đáp án đúng là: Insert Sheet Rows
+
+Câu 24:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, khi thiết lập thông số cho việc in ấn tùy chọn nào giúp xác định khổ giấy?
+A.
+Page Size
+B.
+Orientation
+C.
+Margins
+D.
+Scaling
+Phản hồi:
+Sai. Đáp án đúng là: Page Size
+
+Câu 25:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, khi sắp xếp dữ liệu trong hộp thoại Sort, tùy chọn nào cho phép chọn cột cần sắp xếp có mức độ ưu tiên từ 2 trở đi?
+A.
+Then By
+B.
+Add Level
+C.
+Order
+D.
+Sort by
+Phản hồi:
+Sai. Đáp án đúng là: Then By
+
+Câu 26:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, khi định dạng cho dữ liệu trong hộp thoại Format Cells định dạng nào dùng để định dạng giá trị, khi số dài hơn 12 số thì định dạng này sẽ tự động chuyển sang dạng Scientific?
+A.
+Currency
+B.
+Percentage
+C.
+Date
+D.
+General
+Phản hồi:
+Sai. Đáp án đúng là: General
+
+Câu 27:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, khi sắp xếp dữ liệu trong hộp thoại Sort, nút lệnh nào cho phép sao chép điều kiện sắp xếp?
+A.
+Delete Level
+B.
+Sort by
+C.
+Add Level
+D.
+Copy Level
+Phản hồi:
+Sai. Đáp án đúng là: Copy Level
+
+Câu 28:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, khi nhập công thức tính toán kết quả trả về lỗi #VALUE! cho biết nguyên nhân gì?
+A.
+Trong công thức có một tên mà Excel không hiểu được
+B.
+Công thức tham chiếu đến vùng không chứa giá trị cần tham chiếu
+C.
+Trong công thức có phép tính chia cho số không (0)
+D.
+Trong công thức có các toán hạng và toán tử sai kiểu dữ liệu
+Phản hồi:
+Sai. Đáp án đúng là: Trong công thức có các toán hạng và toán tử sai kiểu dữ liệu
+
+Câu 29:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, cho biết phím nào được sử dụng chỉnh sửa dữ liệu trong một ô?
+A.
+F3
+B.
+F4
+C.
+F2
+D.
+F1
+Phản hồi:
+Sai. Đáp án đúng là: F2
+
+Câu 30:
+0 / 1 điểm
+Trong chương trình Microsoft Office PowerPoint 2013, để chọn Theme mẫu cho bài trình chiếu ta sẽ thực hiện thao tác nào sau đây?
+A.
+Design, Themes, chọn mẫu
+B.
+View, Themes, chọn mẫu
+C.
+Insert, Themes, chọn mẫu
+D.
+Home, Themes, chọn mẫu
+Phản hồi:
+Sai. Đáp án đúng là: Design, Themes, chọn mẫu
+

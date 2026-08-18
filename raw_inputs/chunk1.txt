@@ -1,0 +1,223 @@
+Câu 1:
+0 / 1 điểm
+Trong cấu trúc phần cứng của một máy tính điện tử, thiết bị nào được sử dụng để nhập dữ liệu?
+A.
+Bàn phím
+B.
+Thanh ghi
+C.
+Bo mạch chủ
+D.
+Vỏ máy tính
+Phản hồi:
+Sai. Đáp án đúng là: Bàn phím
+Vì: Các thiết bị nhập cơ bản gồm: bàn phím (keyboard), chuột (mouse), máy quét (scanner)
+
+Câu 2:
+0 / 1 điểm
+Trong cấu trúc của một máy tính điện tử, đơn vị xử lý trung tâm (CPU - Central Processing Unit) gồm bao nhiêu bộ phận chính?
+A.
+1
+B.
+4
+C.
+2
+D.
+3
+Phản hồi:
+Sai. Đáp án đúng là: 3
+Vì: Bộ xử lý trung tâm (CPU - Central Processing Unit) chỉ huy các hoạt động của máy tính theo lệnh và thực hiện các phép tính. CPU có 3 bộ phận chính: khối điều khiển; khối tính toán số học, logic; các thanh ghi
+
+Câu 3:
+0 / 1 điểm
+Phần mềm nào sau đây là phần mềm ứng dụng?
+A.
+Linux
+B.
+Unix
+C.
+Google Chrome
+D.
+Windows 10
+Phản hồi:
+Sai. Đáp án đúng là: Google Chrome
+Vì: Một số phần mềm ứng dụng được sử dụng rất phổ biến hiện nay như: MS Word (xử lý văn bản), MS Excel (xử lý bảng tính), MS Access (cơ sở dữ liệu), Photoshop (đồ họa), Google Chrome (trình duyệt web),…
+
+Câu 4:
+0 / 1 điểm
+Trong cấu trúc của một máy tính điện tử, thiết bị nào sau đây KHÔNG phải là thiết bị nhập?
+A.
+Bàn phím
+B.
+Chuột
+C.
+Máy quét
+D.
+Màn hình
+Phản hồi:
+Sai. Đáp án đúng là: Màn hình
+Vì: Các thiết bị nhập cơ bản gồm: bàn phím (keyboard), chuột (mouse), máy quét (scanner).
+
+Câu 5:
+0 / 1 điểm
+Trong cấu trúc của một máy tính điện tử, bộ phận Control Unit (CU) trong CPU là gì?
+A.
+Các thanh ghi
+B.
+Khối tính toán số học và logic
+C.
+Bộ nhớ trung gian
+D.
+Khối điều khiển
+Phản hồi:
+Sai. Đáp án đúng là: Khối điều khiển
+Vì: Khối điều khiển (CU: Control Unit): là trung tâm điều hành máy tính, có nhiệm vụ giải mã các lệnh, tạo ra các tín hiệu điều khiển công việc của các bộ phận khác của máy tính theo yêu cầu của người sử dụng hoặc theo chương trình đã cài đặt
+
+Câu 6:
+0 / 1 điểm
+Hãy cho biết bảng mã nào được chọn khi người soạn thảo sử dụng font VNI-Ariston để nhập văn bản?
+A.
+Unicode
+B.
+VIQR
+C.
+TCVN3
+D.
+VNI Windows
+Phản hồi:
+Sai. Đáp án đúng là: VNI Windows
+Vì: Sự kết hợp giữa bảng mã và font chữ để gõ được tiếng Việt trong các trình soạn thảo
+
+Câu 7:
+0 / 1 điểm
+Trong cửa sổ File Explorer, để dán đối tượng vừa sao chép vào vị trí hiện hành, chúng ta vào thẻ Home và chọn lệnh Paste ở nhóm lệnh nào?
+A.
+Open
+B.
+New
+C.
+Organize
+D.
+Clipboard
+Phản hồi:
+Sai. Đáp án đúng là: Clipboard
+
+Câu 8:
+0 / 1 điểm
+Trong chương trình File Explorer, khi tìm kiếm tập tin thì ký tự nào sau đây được sử dụng để đại diện cho 1 ký tự trong chuỗi từ khóa?
+A.
+*
+B.
+!
+C.
+?
+D.
+#
+Phản hồi:
+Sai. Đáp án đúng là: ?
+Vì: Tìm kiếm tập tin/thư mục là chức năng vô cùng quan trọng của Windows, ta dùng các ký hiệu “?” và “*” để hỗ trợ đắc lực cho việc tìm kiếm với công cụ Search Tools: - Dấu “?”: Đại diện cho 1 ký tự bất kỳ - Dấu “*”: Đại diện cho nhiều ký tự bất kỳ.
+
+Câu 9:
+0 / 1 điểm
+Hãy cho biết tổ hợp phím nào được sử dụng để đóng cửa sổ 1 chương trình ứng dụng?
+A.
+ALT+F4
+B.
+CTRL+F4
+C.
+SHIFT+F4
+D.
+ALT+TAB
+Phản hồi:
+Sai. Đáp án đúng là: ALT+F4
+
+Câu 10:
+0 / 1 điểm
+Hãy cho biết tổ hợp phím tắt nào được sử dụng để mở chương trình File Explorer?
+A.
+Windows+E
+B.
+SHIFT+E
+C.
+CTRL+E
+D.
+ALT+E
+Phản hồi:
+Sai. Đáp án đúng là: Windows+E
+
+Câu 11:
+0 / 1 điểm
+Hãy cho biết khi nhập văn bản bằng kiểu gõ Telex thì phím f đại diện cho dấu gì?
+A.
+Dấu sắc
+B.
+Dấu hỏi
+C.
+Dấu huyền
+D.
+Dấu nặng
+Phản hồi:
+Sai. Đáp án đúng là: Dấu huyền
+Vì: Quy tắc gõ các tổ hợp phím cho kiểu gõ Telex
+
+Câu 12:
+0 / 1 điểm
+Trong chương trình Microsoft Office Word 2013, khi định dạng khung viền cho trang giấy tùy chọn nào cho phép chọn kiểu đường viền?
+A.
+Width
+B.
+Color
+C.
+Styles
+D.
+Preview
+Phản hồi:
+Sai. Đáp án đúng là: Styles
+
+Câu 13:
+0 / 1 điểm
+Trong các phần mềm ứng dụng bên dưới, phần mềm nào được sử dụng để soạn thảo văn bản?
+A.
+Google Chrome
+B.
+Foxit Reader
+C.
+Microsoft Word
+D.
+WinRAR
+Phản hồi:
+Sai. Đáp án đúng là: Microsoft Word
+
+Câu 14:
+0 / 1 điểm
+Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng Tab cho văn bản tùy chọn nào xác định loại mốc TAB?
+A.
+Alignment
+B.
+Tab stop position
+C.
+Clear All
+D.
+Leader
+Phản hồi:
+Sai. Đáp án đúng là: Alignment
+Vì: Khi thực hiện thao tác định dạng Tab cho văn bản tùy chọn
+- Tab stop position: xác định khoảng cách TAB
+- Alignment: xác định loại mốc TAB
+- Leader: xác định kiểu khoảng cách TAB
+- Clear All: Xóa tất cả các mốc Tab
+
+Câu 15:
+0 / 1 điểm
+Trong chương trình Microsoft Office Word 2013, sau khi vào thẻ Home, nhóm lệnh nào sẽ cung cấp các lệnh để định dạng đoạn văn bản?
+A.
+Font
+B.
+Paragraph
+C.
+Editing
+D.
+Clipboard
+Phản hồi:
+Sai. Đáp án đúng là: Paragraph
+

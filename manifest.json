@@ -19,5 +19,21 @@
       "type": "image/png",
       "purpose": "any maskable"
     }
+  ],
+  "shortcuts": [
+    {
+      "name": "Tìm môn học",
+      "short_name": "Tìm môn",
+      "description": "Bật nhanh ô tìm kiếm môn",
+      "url": "./index.html?action=search",
+      "icons": [{"src": "./assets/icons/icon-192.png", "sizes": "192x192"}]
+    },
+    {
+      "name": "Thi ngẫu nhiên",
+      "short_name": "Random",
+      "description": "Bốc 1 môn ngẫu nhiên để thi",
+      "url": "./index.html?action=random",
+      "icons": [{"src": "./assets/icons/icon-192.png", "sizes": "192x192"}]
+    }
   ]
 }

@@ -1,0 +1,146 @@
+Câu 31:
+0 / 1 điểm
+Trong chương trình Microsoft Office PowerPoint 2013, khi định dạng chữ WordArt lệnh Text Effects thuộc nhóm lệnh nào của thẻ Format?
+A.
+WordArt Styles
+B.
+Arrange
+C.
+Size
+D.
+Shape styles
+Phản hồi:
+Sai. Đáp án đúng là: WordArt Styles
+
+Câu 32:
+0 / 1 điểm
+Trong chương trình Microsoft Office PowerPoint 2013, phím tắt nào cho phép thực hiện trình chiếu bài thuyết trình từ slide đầu tiên?
+A.
+F5
+B.
+F2
+C.
+F3
+D.
+F1
+Phản hồi:
+Sai. Đáp án đúng là: F5
+
+Câu 33:
+0 / 1 điểm
+Trong chương trình Microsoft Office PowerPoint 2013, cho biết tùy chọn nào sau đây được sử dụng để thiết lập ảnh nền cho slide?
+A.
+Picture or texture fill
+B.
+Gradient fill
+C.
+Pattern fill
+D.
+Solid fill
+Phản hồi:
+Sai. Đáp án đúng là: Picture or texture fill
+
+Câu 34:
+0 / 1 điểm
+Trong chương trình Microsoft Office PowerPoint 2013, để thực hiện các thao tác như mở tập tin, lưu tập tin, tạo mới tập tin…người sử dụng sẽ vào thẻ lệnh nào?
+A.
+Thẻ Design
+B.
+Thẻ View
+C.
+Thẻ File
+D.
+Thẻ Insert
+Phản hồi:
+Sai. Đáp án đúng là: Thẻ File
+
+Câu 35:
+0 / 1 điểm
+Trong chương trình Microsoft Office PowerPoint 2013, để thực hiện thao tác chọn hiệu ứng chuyển tiếp giữa các slide trình chiếu người sử dụng sẽ vào thẻ lệnh nào?
+A.
+Thẻ Animations
+B.
+Thẻ Transitions
+C.
+Thẻ Review
+D.
+Thẻ Slide Show
+Phản hồi:
+Sai. Đáp án đúng là: Thẻ Transitions
+
+Câu 36:
+0 / 1 điểm
+Trong chương trình Microsoft Office PowerPoint 2013, cho biết lệnh nào sau đây được sử dụng để tạo ra các phiên trình chiếu mới?
+A.
+Set Up Slide Show
+B.
+From Current Slide
+C.
+From Beginning
+D.
+Custom Slide Show
+Phản hồi:
+Sai. Đáp án đúng là: Custom Slide Show
+
+Câu 37:
+0 / 1 điểm
+Trong cửa sổ trình duyệt web, tổ hợp phím nào được sử dụng đánh dấu trang web (tạo bookmark) để dễ dàng truy cập cho lần sau?
+A.
+CTRL + P
+B.
+CTRL + S
+C.
+CTRL + Z
+D.
+CTRL + D
+Phản hồi:
+Sai. Đáp án đúng là: CTRL + D
+
+Câu 38:
+0 / 1 điểm
+Phần mềm ứng dụng nào KHÔNG là trình duyệt Web?
+A.
+Internet Explorer
+B.
+Microsoft Word
+C.
+Google Chrome
+D.
+Opera
+Phản hồi:
+Sai. Đáp án đúng là: Microsoft Word
+Vì: Google Chrome, Opera và Internet Explorer là các trình duyệt web phổ biến, Microsoft Word là phần mềm soạn thảo văn bản
+
+Câu 39:
+0 / 1 điểm
+Trang Web nào sau đây có hỗ trợ công cụ tìm kiếm thông tin (Search Engine) trên Internet?
+A.
+http://www.google.com
+B.
+https://dichvucong.bocongan.gov.vn/
+C.
+https://www.mail.google.com
+D.
+https://tuoitre.vn/
+Phản hồi:
+Sai. Đáp án đúng là: http://www.google.com
+Vì: Hiện nay có nhiều nhà cung cấp dịch vụ tìm kiếm như: Google (www.google.com), Microsoft (www.bing.com), Yahoo (www.yahoo.com)...
+https://www.mail.google.com là trang dịch vụ thư điện tử
+https://tuoitre.vn/ là trang web của báo Tuổi trẻ
+https://dichvucong.bocongan.gov.vn/ là cổng thông tin Dịch vụ Hành chính công
+
+Câu 40:
+0 / 1 điểm
+WWW (World Wide Web) là loại dịch vụ gì?
+A.
+Dịch vụ truyền tập tin
+B.
+Dịch vụ Web
+C.
+Dịch vụ tin điện tử
+D.
+Dịch vụ thư điện tử
+Phản hồi:
+Sai. Đáp án đúng là: Dịch vụ Web
+Vì: WWW (World Wide Web) là loại dịch vụ web. Đây là khái niệm mà người dùng Internet quan tâm nhiều nhất hiện nay, thường được viết tắt là WWW hay gọi ngắn gọn là web. Khác với các dịch vụ trước đây của Internet, web chứa thông tin bao gồm văn bản, hình ảnh, âm thanh và thậm chí cả video được kết hợp với nhau. Phần mềm dùng để truy cập web gọi là trình duyệt web (Web Browser).
+

@@ -1,0 +1,97 @@
+Câu 31:
+0 / 1 điểm
+Trong chương trình Microsoft Office PowerPoint 2013, trong cửa sổ Header and Footer tùy chọn nào cho phép đánh số thứ tự cho mỗi slide?
+A. Slide number
+B. Don’t show on title slide
+C. Footer
+D. Date & time
+Phản hồi: Sai. Đáp án đúng là: Slide number
+
+Câu 32:
+0 / 1 điểm
+Trong chương trình Microsoft Office PowerPoint 2013, để thực hiện thao tác chọn hiệu ứng cho các đối tượng trên slide trình chiếu người sử dụng sẽ vào thẻ lệnh nào?
+A. Thẻ Animations
+B. Thẻ Transitions
+C. Thẻ Slide Show
+D. Thẻ Review
+Phản hồi: Sai. Đáp án đúng là: Thẻ Animations
+
+Câu 33:
+0 / 1 điểm
+Trong chương trình Microsoft Office PowerPoint 2013, chế độ hiển thị nào là mặc định khi người sử dụng mở tập tin trình chiếu?
+A. Normal
+B. Outline View
+C. Slide Sorter
+D. Reading View
+Phản hồi: Sai. Đáp án đúng là: Normal
+
+Câu 34:
+0 / 1 điểm
+Trong chương trình Microsoft Office PowerPoint 2013, để thực hiện các thao tác như mở tập tin, lưu tập tin, tạo mới tập tin…người sử dụng sẽ vào thẻ lệnh nào?
+A. Thẻ Insert
+B. Thẻ View
+C. Thẻ File
+D. Thẻ Design
+Phản hồi: Sai. Đáp án đúng là: Thẻ File
+
+Câu 35:
+0 / 1 điểm
+Trong chương trình Microsoft Office PowerPoint 2013, cho biết lệnh nào sau đây được sử dụng để tạo ra các phiên trình chiếu mới?
+A. Set Up Slide Show
+B. From Current Slide
+C. From Beginning
+D. Custom Slide Show
+Phản hồi: Sai. Đáp án đúng là: Custom Slide Show
+
+Câu 36:
+0 / 1 điểm
+Trong chương trình Microsoft Office PowerPoint 2013, tập tin trình chiếu có phần mở rộng là gì?
+A. pptx
+B. txt
+C. docx
+D. xlsx
+Phản hồi: Sai. Đáp án đúng là: pptx
+
+Câu 37:
+0 / 1 điểm
+Trang Web nào sau đây KHÔNG phải là công cụ tìm kiếm (Search Engine) trên Internet?
+A. https://www.tvu.edu.vn
+B. http://www.bing.com
+C. http://www.yahoo.com
+D. http://www.yahoo.com
+Phản hồi: Sai. Đáp án đúng là: https://www.tvu.edu.vn
+Vì: Hiện nay có nhiều nhà cung cấp dịch vụ tìm kiếm như: Google (www.google.com), Microsoft (www.bing.com), Yahoo (www.yahoo.com)...
+https://www.tvu.edu.vn là trang web của Trường Đại học Trà Vinh
+
+Câu 38:
+0 / 1 điểm
+Trong khi sử dụng dịch vụ thư điện tử Gmail, người dùng sẽ chọn lệnh nào để chuyển tiếp thư đến địa chỉ khác?
+A. Spam
+B. Send
+C. Forward
+D. Attach
+Phản hồi: Sai. Đáp án đúng là: Forward
+
+Câu 39:
+0 / 1 điểm
+Phần mềm ứng dụng nào KHÔNG là trình duyệt Web?
+A. Internet Explorer
+B. Microsoft Word
+C. Opera
+D. Google Chrome
+Phản hồi: Sai. Đáp án đúng là: Microsoft Word
+Vì: Google Chrome, Opera và Internet Explorer là các trình duyệt web phổ biến, Microsoft Word là phần mềm soạn thảo văn bản
+
+Câu 40:
+0 / 1 điểm
+Trang Web nào sau đây có hỗ trợ công cụ tìm kiếm thông tin (Search Engine) trên Internet?
+A. https://dichvucong.bocongan.gov.vn/
+B. https://www.mail.google.com
+C. http://www.google.com
+D. https://tuoitre.vn/
+Phản hồi: Sai. Đáp án đúng là: http://www.google.com
+Vì: Hiện nay có nhiều nhà cung cấp dịch vụ tìm kiếm như: Google (www.google.com), Microsoft (www.bing.com), Yahoo (www.yahoo.com)...
+https://www.mail.google.com là trang dịch vụ thư điện tử
+https://tuoitre.vn/ là trang web của báo Tuổi trẻ
+https://dichvucong.bocongan.gov.vn/ là cổng thông tin Dịch vụ Hành chính công
+

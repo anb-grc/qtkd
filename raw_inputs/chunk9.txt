@@ -1,0 +1,92 @@
+Câu 31:
+0 / 1 điểm
+Trong chương trình Microsoft Office PowerPoint 2013, cho biết tùy chọn nào sau đây được sử dụng để canh lề cho các đối tượng đang chọn?
+A. Order Objects
+B. Position Objects
+C. Selection Objects
+D. Group Objects
+Phản hồi: Sai. Đáp án đúng là: Position Objects
+
+Câu 32:
+0 / 1 điểm
+Trong chương trình Microsoft Office PowerPoint 2013, phím tắt nào cho phép thực hiện trình chiếu bài thuyết trình từ slide đầu tiên?
+A. F2
+B. F5
+C. F1
+D. F3
+Phản hồi: Sai. Đáp án đúng là: F5
+
+Câu 33:
+0 / 1 điểm
+Trong chương trình Microsoft Office PowerPoint 2013, chế độ hiển thị nào cho phép xem nội dung slide, không hiển thị toàn màn hình?
+A. Slide Sorter
+B. Outline View
+C. Reading View
+D. Normal
+Phản hồi: Sai. Đáp án đúng là: Reading View
+
+Câu 34:
+0 / 1 điểm
+Trong chương trình Microsoft Office PowerPoint 2013, để chèn các đối tượng vào bài trình chiếu như bảng biểu, hình ảnh, lưu đồ, biểu đồ, các nút lệnh liên kết đến các slide khác hoặc tập tin khác người sử dụng sẽ vào thẻ lệnh nào?
+A. Thẻ Insert
+B. Thẻ View
+C. Thẻ Home
+D. Thẻ Design
+Phản hồi: Sai. Đáp án đúng là: Thẻ Insert
+
+Câu 35:
+0 / 1 điểm
+Trong chương trình Microsoft Office PowerPoint 2013, khi định dạng slide trình chiếu tùy chọn nào quy định giá trị bắt đầu khi đánh số trang cho slide trình chiếu?
+A. Height
+B. Orientation
+C. Number slide from
+D. Width
+Phản hồi: Sai. Đáp án đúng là: Number slide from
+
+Câu 36:
+0 / 1 điểm
+Trong chương trình Microsoft Office PowerPoint 2013, chế độ hiển thị nào cho phép xem nội dung slide và ghi chú thích vào các slide (các chú thích này không hiển thị khi trình chiếu)?
+A. Notes Page
+B. Outline View
+C. Reading View
+D. Normal
+Phản hồi: Sai. Đáp án đúng là: Notes Page
+
+Câu 37:
+0 / 1 điểm
+Phần mềm ứng dụng nào KHÔNG là trình duyệt Web?
+A. Google Chrome
+B. Opera
+C. Internet Explorer
+D. Microsoft Word
+Phản hồi: Sai. Đáp án đúng là: Microsoft Word
+Vì: Google Chrome, Opera và Internet Explorer là các trình duyệt web phổ biến, Microsoft Word là phần mềm soạn thảo văn bản
+
+Câu 38:
+0 / 1 điểm
+Khi sử dụng dịch vụ thư điện tử Gmail, người dùng kiểm tra thư mới ở mục nào?
+A. Inbox
+B. Chats
+C. Outbox
+D. Drafts
+Phản hồi: Sai. Đáp án đúng là: Inbox
+
+Câu 39:
+0 / 1 điểm
+FTP (File Transfer Protocol) là loại dịch vụ gì?
+A. Dịch vụ truyền tập tin
+B. Dịch vụ Web
+C. Dịch vụ thư điện tử
+D. Dịch vụ tin điện tử
+Phản hồi: Sai. Đáp án đúng là: Dịch vụ truyền tập tin
+Vì: FTP là một hệ thống chính yếu để chuyển tải tập tin giữa các máy vi tính vào Internet.
+
+Câu 40:
+0 / 1 điểm
+Trong khi sử dụng dịch vụ thư điện tử Gmail, người dùng sẽ chọn lệnh nào để chuyển tiếp thư đến địa chỉ khác?
+A. Send
+B. Attach
+C. Spam
+D. Forward
+Phản hồi: Sai. Đáp án đúng là: Forward
+

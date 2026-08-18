@@ -1,0 +1,137 @@
+Câu 16:
+0 / 1 điểm
+Trong chương trình Microsoft Office Word 2013, hãy cho biết khi thao tác trong bảng biểu, lệnh nào được sử dụng để chèn thêm 1 dòng ở phía trên dòng hiện hành?
+A. Insert Left
+B. Insert Above
+C. Insert Right
+D. Insert Below
+Phản hồi: Sai. Đáp án đúng là: Insert Above
+
+Câu 17:
+0 / 1 điểm
+Trong chương trình Microsoft Office Word 2013, cho biết khi chèn bảng biểu thì thông số nào quy định độ rộng của ô tùy thuộc vào nội dung nhập?
+A. AutoFit to window
+B. Number of Columns
+C. AutoFit to contents
+D. Number of rows
+Phản hồi: Sai. Đáp án đúng là: AutoFit to contents
+Vì: Trong chương trình Microsoft Office Word 2013, khi chèn bảng biểu thì thông số AutoFit to contents quy định độ rộng của ô tùy thuộc vào nội dung nhập
+
+Câu 18:
+0 / 1 điểm
+Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng cho đối tượng Shape nhóm lệnh nào trong thẻ Format cho phép định dạng màu nền cho Shape?
+A. Insert Shapes
+B. Size
+C. Arrange
+D. Shape Styles
+Phản hồi: Sai. Đáp án đúng là: Shape Styles
+Vì: Trong chương trình Microsoft Office Word 2013, để định dạng màu nền cho đối tượng Shape, người sử dụng thực hiện thao tác: Format > Nhóm Shape Styles và chọn Shape Fill
+
+Câu 19:
+0 / 1 điểm
+Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng bảng biểu, nhóm lệnh nào trong thẻ Layout cho phép bổ sung hoặc xóa bớt dòng và cột?
+A. Alignment
+B. Cell Size
+C. Merge
+D. Rows & Columns
+Phản hồi: Sai. Đáp án đúng là: Rows & Columns
+
+Câu 20:
+0 / 1 điểm
+Trong chương trình Microsoft Office Word 2013, cho biết thao tác nào được sử dụng để chèn bảng biểu?
+A. Insert, Nhóm Pages, Table
+B. Insert, Nhóm Tables, Table
+C. Insert, NhómIllustrations, Table
+D. Insert, Nhóm text, Table
+Phản hồi: Sai. Đáp án đúng là: Insert, Nhóm Tables, Table
+
+Câu 21:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, cho biết phím nào được sử dụng để di chuyển qua lại giữa các ô trong một sheet?
+A. Tab
+B. Enter
+C. CTRL
+D. Shift
+Phản hồi: Sai. Đáp án đúng là: Tab
+
+Câu 22:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, cho biết hàm nào sau đây sẽ trả về giá trị tuyệt đối của một số thực?
+A. ODD
+B. ROUND
+C. ABS
+D. INT
+Phản hồi: Sai. Đáp án đúng là: ABS
+
+Câu 23:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, cho biết tùy chọn nào được sử dụng để hiển thị dữ liệu trên nhiều dòng trong 1 ô?
+A. Wrap Text
+B. Orientation
+C. Increase Indent
+D. Merge and Center
+Phản hồi: Sai. Đáp án đúng là: Wrap Text
+
+Câu 24:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, khi định dạng cho dữ liệu trong hộp thoại Format Cells thẻ lệnh nào cho phép định dạng đường viền cho ô?
+A. Alignment
+B. Border
+C. Fill
+D. Number
+Phản hồi: Sai. Đáp án đúng là: Border
+
+Câu 25:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, cho biết lệnh nào sau đây được sử dụng để chèn thêm 1 dòng?
+A. Insert Sheet Rows
+B. Insert Sheet
+C. Insert Sheet Columns
+D. Insert Cells
+Phản hồi: Sai. Đáp án đúng là: Insert Sheet Rows
+
+Câu 26:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, cho biết thao tác nào sau đây được sử dụng để sắp xếp dữ liệu?
+A. Data, Sort & Filter, Filter
+B. Data, Outline, Subtotal
+C. Data, Sort & Filter, Sort
+D. Data, Outline, Advanced
+Phản hồi: Sai. Đáp án đúng là: Data, Sort & Filter, Sort
+
+Câu 27:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, lệnh nào sau đây được sử dụng để trộn ô?
+A. Merge & Center
+B. Orientation
+C. Wrap Text
+D. Decrease Indent
+Phản hồi: Sai. Đáp án đúng là: Merge & Center
+
+Câu 28:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, cho biết hàm nào sau đây được sử dụng để đếm số ô khác rỗng trong danh sách các tham số?
+A. COUNTBLANK
+B. COUNTIF
+C. COUNT
+D. COUNTA
+Phản hồi: Sai. Đáp án đúng là: COUNTA
+
+Câu 29:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, khi định dạng cho dữ liệu trong hộp thoại Format Cells thẻ lệnh nào cho phép định dạng hướng chữ trong ô?
+A. Font
+B. Number
+C. Alignment
+D. Fill
+Phản hồi: Sai. Đáp án đúng là: Alignment
+
+Câu 30:
+0 / 1 điểm
+Trong cửa sổ chương trình Microsoft Office PowerPoint 2013, tên chương trình và tên tập tin được hiển thị ở đâu?
+A. Slide Area
+B. Status bar
+C. Title bar
+D. Notes Pane
+Phản hồi: Sai. Đáp án đúng là: Title bar
+

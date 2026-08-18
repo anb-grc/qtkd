@@ -1,0 +1,149 @@
+Câu 1:
+0 / 1 điểm
+Trong cấu trúc của một máy tính điện tử, bộ phận nào làm nhiệm vụ bộ nhớ trung gian, làm nhiệm vụ bộ nhớ trung gian
+A. ALU (Arithmetic-Logic Unit)
+B. Các thanh ghi (Registers)
+C. USB Flash Drive
+D. CU (Control Unit)
+Phản hồi: Sai. Đáp án đúng là: Các thanh ghi (Registers)
+Vì: Các thanh ghi (Registers): được gắn chặt vào CPU bằng các mạch điện tử làm nhiệm vụ bộ nhớ trung gian. Các thanh ghi mang các chức năng chuyên dụng giúp tăng tốc độ trao đổi thông tin trong máy tính.
+
+Câu 2:
+0 / 1 điểm
+Trong cấu trúc của một máy tính điện tử, bộ phận nào là trung tâm điều hành máy tính, có nhiệm vụ giải mã các lệnh, tạo ra các tín hiệu điều khiển công việc của các bộ phận khác của máy tính theo yêu cầu của người sử dụng hoặc theo chương trình đã cài đặt.
+A. Các thanh ghi (Registers)
+B. CU (Control Unit)
+C. USB Flash Drive
+D. ALU (Arithmetic-Logic Unit)
+Phản hồi: Sai. Đáp án đúng là: CU (Control Unit)
+Vì: Khối điều khiển (CU: Control Unit): là trung tâm điều hành máy tính, có nhiệm vụ giải mã các lệnh, tạo ra các tín hiệu điều khiển công việc của các bộ phận khác của máy tính theo yêu cầu của người sử dụng hoặc theo chương trình đã cài đặt.
+
+Câu 3:
+0 / 1 điểm
+Trong cấu trúc của một máy tính điện tử, bộ phận ALU (Arithmetic-Logic Unit) trong CPU là gì?
+A. Khối điều khiển
+B. Các thanh ghi
+C. Bộ nhớ trung gian
+D. Khối tính toán số học và logic
+Phản hồi: Sai. Đáp án đúng là: Khối tính toán số học và logic
+Vì: Khối tính toán số học và logic (ALU: Arithmetic-Logic Unit): bao gồm các thiết bị thực hiện các phép tính số học (cộng, trừ, nhân, chia...), các phép tính logic (AND, OR, NOT, XOR) và các phép tính quan hệ (so sánh lớn hơn, nhỏ hơn, bằng nhau,...)
+
+Câu 4:
+0 / 1 điểm
+Bộ nhớ nào sau đây không thuộc bộ nhớ ngoài?
+A. ROM
+B. HDD
+C. Memory stick
+D. USB
+Phản hồi: Sai. Đáp án đúng là: ROM
+Vì: Hiện nay có các loại bộ nhớ ngoài phổ biến như: Đĩa cứng (hard disk); Đĩa quang (Compact disk); Các loại bộ nhớ ngoài khác như thẻ nhớ (Memory Stick, Compact Flash Card). Bộ nhớ trong: gồm ROM và RAM.
+
+Câu 5:
+0 / 1 điểm
+Hãy cho biết phần mềm nào sau đây là phần mềm độc hại (Malware)?
+A. Unikey
+B. Window Defender
+C. Mozilla Firefox
+D. Trojan Horse
+Phản hồi: Sai. Đáp án đúng là: Trojan Horse
+Vì: Malware là khái niệm chung cho những phần mềm nguy hiểm. Từ Malware là sự kết hợp của Malicious và Software. Những kiểu Malware bao gồm: Virus máy tính, Sâu máy tính (Worm), Trojan Horse, Bom Logic, Spyware, Adware, Spam, PopUp.
+
+Câu 6:
+0 / 1 điểm
+Trong hệ điều hành Windows 10, nhấn tổ hợp phím nào để sao chép (copy) đối tượng đang được chọn khối?
+A. Ctrl + X
+B. Ctrl + P
+C. Ctrl + A
+D. Ctrl + C
+Phản hồi: Sai. Đáp án đúng là: Ctrl + C
+
+Câu 7:
+0 / 1 điểm
+Hãy cho biết đối tượng nào sauđây sẽ có phần mở rộng?
+A. Tập tin
+B. Đường dẫn
+C. Ổ đĩa
+D. Thư mục
+Phản hồi: Sai. Đáp án đúng là: Tập tin
+Vì: Tập tin là tập hợp thông tin/dữ liệu được tổ chức theo một cấu trúc nào đó. Nội dung của tập tin có thể là chương trình, dữ liệu, văn bản... Mỗi tập tin được lưu lên đĩa với một tên riêng phân biệt. Mỗi hệ điều hành có quy ước đặt tên khác nhau, tên tập tin thường có 2 phần: phần tên (name) và phần mở rộng (extension).
+
+Câu 8:
+0 / 1 điểm
+Để thay đổi quy ước về ngày tháng, ta vào Control Panel, chọn Region, chọn Additional settings, trong Customize Format ta chọn thẻ nào sau đây?
+A. Time
+B. Numbers
+C. Currency
+D. Date
+Phản hồi: Sai. Đáp án đúng là: Date
+Vì: Thao tác Control Panel > Additional settings > Customize Format ta chọn thẻ:
+- Numbers để thay đổi quy ước về số
+- Currency để thay đổi quy ước về tiền tệ
+- Time để thay đổi quy ước về thời gian
+- Date để thay đổi quy ước về ngày tháng
+
+Câu 9:
+0 / 1 điểm
+Trong hệ điều hành Windows 10, biểu tượng nào trên màn hình Desktop là nơi lưu trữ tạm thời các tập tin và các đối tượng đã bị xoá?
+A. Network
+B. This PC
+C. Recycle Bin
+D. Shortcut
+Phản hồi: Sai. Đáp án đúng là: Recycle Bin
+Vì: This PC: biểu tượng này cho phép duyệt nhanh tài nguyên trên máy tính, Recycle Bin: nơi lưu trữ tạm thời các tập tin và các đối tượng đã bị xoá. (R_click vào Recycle Bin rồi chọn Empty Recycle Bin hoặc Restore để xóa hoàn toàn hoặc phục hồi các đối tượng). Ngoài ra, trên Desktop còn có các biểu tượng chương trình khác là các Shortcut: giúp ta truy nhập nhanh một đối tượng nào đó bằng cách D_click vào biểu tượng đó.
+
+Câu 10:
+0 / 1 điểm
+Hãy cho biết font chữ nào được chọn khi người sử dụng soạn thảo văn bản với bảng mã Unicode?
+A. .Vn-time
+B. Times New Roman
+C. VNI-Thuphap
+D. Vni-Times
+Phản hồi: Sai. Đáp án đúng là: Times New Roman
+Vì: Sự kết hợp giữa bảng mã và font chữ để gõ được tiếng Việt trong các trình soạn thảo
+
+Câu 11:
+0 / 1 điểm
+Trong hệ điều hành Windows 10, biểu tượng nào trên màn hình Desktop cho phép duyệt nhanh tài nguyên trên máy tính?
+A. This PC
+B. Network
+C. Shortcut
+D. Recycle Bin
+Phản hồi: Sai. Đáp án đúng là: This PC
+Vì: This PC: biểu tượng này cho phép duyệt nhanh tài nguyên trên máy tính, Recycle Bin: nơi lưu trữ tạm thời các tập tin và các đối tượng đã bị xoá. (R_click vào Recycle Bin rồi chọn Empty Recycle Bin hoặc Restore để xóa hoàn toàn hoặc phục hồi các đối tượng). Ngoài ra, trên Desktop còn có các biểu tượng chương trình khác là các Shortcut: giúp ta truy nhập nhanh một đối tượng nào đó bằng cách D_click vào biểu tượng đó.
+
+Câu 12:
+0 / 1 điểm
+Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng hình ảnh nhóm lệnh nào trong thẻ Format cho phép sắp xếp vị trí của hình ảnh so với văn bản hoặc so với đối tượng, hình ảnh khác?
+A. Size
+B. Arrange
+C. Picture styles
+D. Adjust
+Phản hồi: Sai. Đáp án đúng là: Arrange
+
+Câu 13:
+0 / 1 điểm
+Trong chương trình Microsoft Office Word 2013, chức năng nào cho phép chuyển đổi văn bản từ kiểu chữ in hoa sang kiểu chữ thường hoặc những kiểu thông dụng khác?
+A. Clear All Formatting
+B. Text Highlight Color
+C. Text effects and Typography
+D. Change Case
+Phản hồi: Sai. Đáp án đúng là: Change Case
+
+Câu 14:
+0 / 1 điểm
+Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng bảng biểu, lệnh nào cho phép tự động canh chỉnh độ rộng của bảng biểu?
+A. Cell Margins
+B. Auto Fit
+C. Draw Table
+D. Text Direction
+Phản hồi: Sai. Đáp án đúng là: Auto Fit
+
+Câu 15:
+0 / 1 điểm
+Trong chương trình Microsoft Office Word 2013, để tùy chỉnh các thông số cài đặt trang giấy chúng ta vào thẻ nào sau đây?
+A. View
+B. Home
+C. Insert
+D. Page Layout
+Phản hồi: Sai. Đáp án đúng là: Page Layout
+

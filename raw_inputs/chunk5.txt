@@ -1,0 +1,143 @@
+Câu 16:
+0 / 1 điểm
+Trong chương trình Microsoft Office Word 2013, khi tùy chỉnh chế độ xem văn bản tùy chọn nào sau đây cho phép xem tài liệu ở dạng in ấn?
+A. Draft
+B. Read mode
+C. Print Layout
+D. Web Layout
+Phản hồi: Sai. Đáp án đúng là: Print Layout
+
+Câu 17:
+0 / 1 điểm
+Trong chương trình Microsoft Office Word 2013, lệnh chèn chữ nghệ thuật (WordArt) thuộc nhóm lệnh nào của thẻ Insert?
+A. Illustrations
+B. Text
+C. Comments
+D. Links
+Phản hồi: Sai. Đáp án đúng là: Text
+
+Câu 18:
+0 / 1 điểm
+Trong chương trình Microsoft Office Word 2013, cho biết thao tác nào được sử dụng để chèn tiêu đề cho mỗi trang tài liệu?
+A. Insert, Nhóm Header & Footer, chọn Header
+B. Insert, Nhóm Header & Footer, chọn Footer
+C. Home, Nhóm Header & Footer, chọn Header
+D. Home, Nhóm Header & Footer, chọn Footer
+Phản hồi: Sai. Đáp án đúng là: Insert, Nhóm Header & Footer, chọn Header
+
+Câu 19:
+0 / 1 điểm
+Trong chương trình Microsoft Office Word 2013, lệnh nào cho phép chèn số trang vào tài liệu ở phạm vi footer của tài liệu?
+A. Top of Page
+B. Current Position
+C. Page Margins
+D. Bottom of Page
+Phản hồi: Sai. Đáp án đúng là: Bottom of Page
+Vì: Trong chương trình Microsoft Office Word 2013, tùy chọn:
+- Top of Page được sử dụng để chèn số trang ở tiêu đề của mỗi trang tài liệu
+- Bottom of Page: được sử dụng để chèn số trang ở phần chân trang (footer) của mỗi trang tài liệu
+- Current Position: được sử dụng để chèn số trang tại vị trí hiện hành của con trỏ
+- Page Margin: được sử dụng để chèn số trang ở phạm vi lề của mỗi trang tài liệu
+
+Câu 20:
+0 / 1 điểm
+Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng cho đối tượng Shape nhóm lệnh nào trong thẻ Format cho phép định dạng màu nền cho Shape?
+A. Arrange
+B. Size
+C. Insert Shapes
+D. Shape Styles
+Phản hồi: Sai. Đáp án đúng là: Shape Styles
+Vì: Trong chương trình Microsoft Office Word 2013, để định dạng màu nền cho đối tượng Shape, người sử dụng thực hiện thao tác: Format > Nhóm Shape Styles và chọn Shape Fill
+
+Câu 21:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, cho biết tham số thứ nhất của hàm HLOOKUP(lookup_value, table_array, row_index_num, [range_lookup]) có ý nghĩa gì?
+A. Xác định vùng tham chiếu
+B. Xác định trị dò tìm
+C. Xác định cách dò tìm
+D. Xác định dòng sẽ lấy giá trị
+Phản hồi: Sai. Đáp án đúng là: Xác định trị dò tìm
+
+Câu 22:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, cho biết thao tác nào sau đây được sử dụng để kẻ đường viền cho bảng dữ liệu?
+A. Home, Cells, All Border
+B. Home, Styles, All Border
+C. Home, Alignment, All Border
+D. Home, Font, All Border
+Phản hồi: Sai. Đáp án đúng là: Home, Font, All Border
+
+Câu 23:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, cho biết lệnh nào được sử dụng để chèn thêm một Sheet mới?
+A. Insert…
+B. Rename
+C. Protect Sheet…
+D. Move or Copy…
+Phản hồi: Sai. Đáp án đúng là: Insert…
+
+Câu 24:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, khi sao chép công thức tại ô A3 thì cú pháp địa chỉ nào sau đây sẽ tham chiếu chính xác giá trị tại ô A3?
+A. $A3
+B. $A$3
+C. A3
+D. A$3
+Phản hồi: Sai. Đáp án đúng là: $A$3
+Vì: Trong chương trình Microsoft Office Excel 2013, khi sao chép công thức tại ô A3 thì cú pháp địa chỉ $A$3 sẽ tham chiếu chính xác giá trị tại ô A3 vì loại địa chỉ này cho phép cố định dòng và cố định cột khi sao chép công thức
+
+Câu 25:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, cho biết thao tác nào sau đây được sử dụng để sắp xếp dữ liệu?
+A. Data, Outline, Subtotal
+B. Data, Outline, Advanced
+C. Data, Sort & Filter, Sort
+D. Data, Sort & Filter, Filter
+Phản hồi: Sai. Đáp án đúng là: Data, Sort & Filter, Sort
+
+Câu 26:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, lệnh nào sau đây được sử dụng để trộn ô?
+A. Orientation
+B. Merge & Center
+C. Decrease Indent
+D. Wrap Text
+Phản hồi: Sai. Đáp án đúng là: Merge & Center
+
+Câu 27:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, cho biết kết quả trả về của công thức =MAX(1,-9,3,6)?
+A. 3
+B. 1
+C. 6
+D. -9
+Phản hồi: Sai. Đáp án đúng là: 6
+Vì: Trong chương trình Microsoft Office Excel 2013, kết quả trả về của công thức =MAX(1,-9,3,6) là 6 vì hàm Max sẽ trả về giá trị lớn nhất trong danh sách giá trị
+
+Câu 28:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, cho biết lệnh nào được sử dụng để lưu nội dung trang bảng tính?
+A. Open
+B. Print
+C. New
+D. Save
+Phản hồi: Sai. Đáp án đúng là: Save
+
+Câu 29:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, cho biết tùy chọn nào được sử dụng để hiển thị dữ liệu trên nhiều dòng trong 1 ô?
+A. Orientation
+B. Wrap Text
+C. Merge and Center
+D. Increase Indent
+Phản hồi: Sai. Đáp án đúng là: Wrap Text
+
+Câu 30:
+0 / 1 điểm
+Trong chương trình Microsoft Office PowerPoint 2013, khi thiết lập hiệu ứng chuyển trang, tại nhóm Timing tùy chọn nào quy định thời gian thực thi hiệu ứng chuyển từ slide này sang slide khác?
+A. Sound
+B. After
+C. Duration
+D. On Mouse Click
+Phản hồi: Sai. Đáp án đúng là: Duration
+

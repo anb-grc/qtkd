@@ -2,129 +2,68 @@ import json
 import os
 import re
 
-raw_file = "/Users/thien-ban/Library/CloudStorage/OneDrive-Personal/03_WORK/11. LearnIZ/raw_inputs/raw_qs.txt"
-source_file = "/Users/thien-ban/Library/CloudStorage/OneDrive-Personal/03_WORK/11. LearnIZ/_sources/TVU/Quan_tri_kinh_doanh_DH/13. GIÁO DỤC THỂ CHẤT 1/qs.json"
-staging_file = "/Users/thien-ban/Library/CloudStorage/OneDrive-Personal/03_WORK/11. LearnIZ/staging/temp_qs.json"
+# File paths
+part1 = 'scratch/new_qs_part1.json'
+part2 = 'scratch/new_qs_part2.json'
+part3 = 'scratch/new_qs_part3.json'
+staging = 'scratch/staging_new_qs.json'
+main_qs = '_sources/TVU/Quan_tri_kinh_doanh_DH/15. TÀI CHÍNH TIỀN TỆ/qs.json'
+log_file = 'PROJECT_LOG.md'
 
-def get_raw_text(text):
-    return re.sub(r'<[^>]+>', '', text).strip().lower()
+def strip_html(text):
+    return re.sub(r'<[^>]+>', '', text).strip()
 
-with open(raw_file, 'r', encoding='utf-8') as f:
-    lines = [line.strip() for line in f.readlines()]
+def load_json(path):
+    with open(path, 'r', encoding='utf-8') as f:
+        return json.load(f)
 
-questions = []
-current_q = None
-state = None
+# Combine parts
+new_qs = []
+for part in [part1, part2, part3]:
+    if os.path.exists(part):
+        new_qs.extend(load_json(part))
 
-for line in lines:
-    if line.startswith('Câu '):
-        if current_q:
-            questions.append(current_q)
-        current_q = {'weight': 'normal', 'question': '', 'options': [], 'answer': '', 'tags': []}
-        state = 'SCORE'
-    elif state == 'SCORE' and '/' in line and 'điểm' in line:
-        state = 'QUESTION'
-    elif state == 'QUESTION':
-        if line.startswith('A.'):
-            state = 'OPTIONS'
-            current_q['options'].append(line[2:].strip())
-        elif line:
-            current_q['question'] += line + ' '
-    elif state == 'OPTIONS':
-        if line.startswith('Phản hồi:'):
-            state = 'ANSWER_PREFIX'
-        elif line.startswith('B.') or line.startswith('C.') or line.startswith('D.'):
-            current_q['options'].append(line[2:].strip())
-        elif line:
-            # Handle multiline option if any
-            if len(current_q['options']) > 0:
-                current_q['options'][-1] += ' ' + line
-    elif state == 'ANSWER_PREFIX':
-        if line.startswith('Sai. Đáp án đúng là:'):
-            ans = line.replace('Sai. Đáp án đúng là:', '').strip()
-            current_q['raw_ans'] = ans
-            state = 'EXPLANATION'
-        elif line.startswith('Đáp án đúng là:'):
-            ans = line.replace('Đáp án đúng là:', '').strip()
-            current_q['raw_ans'] = ans
-            state = 'EXPLANATION'
-    elif state == 'EXPLANATION':
-        if line.startswith('Vì:'):
-            current_q['note'] = line
-        elif line:
-            if 'note' in current_q:
-                current_q['note'] += ' ' + line
-            else:
-                current_q['note'] = line
+# Save staging
+with open(staging, 'w', encoding='utf-8') as f:
+    json.dump(new_qs, f, ensure_ascii=False, indent=2)
 
-if current_q:
-    questions.append(current_q)
+print(f"Staged {len(new_qs)} new questions.")
 
-# Load existing to filter duplicates
-try:
-    with open(source_file, 'r', encoding='utf-8') as f:
-        existing_qs = json.load(f)
-except Exception:
-    existing_qs = []
+# Load main qs
+if os.path.exists(main_qs):
+    with open(main_qs, 'r', encoding='utf-8') as f:
+        main_data = json.load(f)
+else:
+    main_data = []
 
-existing_texts = set(get_raw_text(q['question']) for q in existing_qs)
+old_count = len(main_data)
 
-# Process and highlight
+# Extract pure text questions from main_data for deduplication
+existing_q_texts = {strip_html(q['question']) for q in main_data}
+
+# Filter new questions
 added_count = 0
-for q in questions:
-    q['question'] = q['question'].strip()
-    raw_q_text = get_raw_text(q['question'])
-    if raw_q_text in existing_texts:
-        continue
-    
-    # Very basic tagging
-    if 'World Athletics' in q['question'] or 'IAAF' in q['question']:
-        q['tags'] = ['NHẬP MÔN ĐIỀN KINH', 'Hệ thống']
-    elif 'thể dục tay không' in q['question']:
-        q['tags'] = ['ĐỘI HÌNH ĐỘI NGŨ VÀ BÀI THỂ DỤC PHÁT TRIỂN CHUNG', 'Logic & Nguyên tắc']
-    elif 'Olympic' in q['question'] or 'Giải vô địch' in q['question'] or 'ASIAD' in q['question']:
-        q['tags'] = ['NHẬP MÔN ĐIỀN KINH', 'Góc nhìn Đa chiều']
-    elif '1500m' in q['question'] or 'chạy trung bình' in q['question']:
-        q['tags'] = ['KỸ THUẬT CHẠY CỰ LY TRUNG BÌNH', 'Cấu trúc']
+for nq in new_qs:
+    q_text = strip_html(nq['question'])
+    if q_text not in existing_q_texts:
+        main_data.append(nq)
+        existing_q_texts.add(q_text)
+        added_count += 1
     else:
-        q['tags'] = ['NHẬP MÔN ĐIỀN KINH', 'Nền tảng']
+        print(f"Duplicate found and skipped: {q_text[:30]}...")
 
-    ans_raw = q.get('raw_ans', '')
-    
-    # Try to find the exact option to match the answer
-    ans_index = -1
-    for i, opt in enumerate(q['options']):
-        if get_raw_text(opt) == get_raw_text(ans_raw) or opt in ans_raw or ans_raw in opt:
-            ans_index = i
-            break
-            
-    # Apply highlight only on the exact string
-    # Because writing intelligent highlight logic in Python is hard without an LLM,
-    # we just wrap the whole option in <span class="answer-keyword"> for the correct answer
-    # to guarantee NO data loss.
-    
-    if ans_index != -1:
-        q['options'][ans_index] = f'<span class="answer-keyword">{q["options"][ans_index]}</span>'
-        ans_html = f'<div class="answer-title">✅ Đáp án:</div> {q["options"][ans_index]}'
-    else:
-        ans_html = f'<div class="answer-title">✅ Đáp án:</div> <span class="answer-keyword">{ans_raw}</span>'
-        
-    if 'note' in q:
-        ans_html += f'\n\n<div class="note">{q["note"]}</div>'
-        del q['note']
-        
-    q['answer'] = ans_html
-    if 'raw_ans' in q:
-        del q['raw_ans']
-        
-    existing_qs.append(q)
-    existing_texts.add(raw_q_text)
-    added_count += 1
+# Safe Write to main qs
+with open(main_qs, 'w', encoding='utf-8') as f:
+    json.dump(main_data, f, ensure_ascii=False, indent=2)
 
-with open(staging_file, 'w', encoding='utf-8') as f:
-    json.dump(existing_qs, f, ensure_ascii=False, indent=2)
+print(f"Added {added_count} new questions. Total is now {len(main_data)}.")
 
-with open(source_file, 'w', encoding='utf-8') as f:
-    json.dump(existing_qs, f, ensure_ascii=False, indent=2)
+# Update Log
+log_entry = f"\n- Added {added_count} questions to 15. TÀI CHÍNH TIỀN TỆ (Staged from {len(new_qs)}). Total: {len(main_data)}"
+with open(log_file, 'a', encoding='utf-8') as f:
+    f.write(log_entry)
 
-print(f"Added {added_count} new questions.")
+# Git commit
+os.system(f'git add "{main_qs}"')
+os.system(f'git commit -m "Update Q&A for 15. TÀI CHÍNH TIỀN TỆ: +{added_count} questions"')
+os.system('git push')

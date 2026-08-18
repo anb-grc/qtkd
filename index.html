@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>TVU - Ngân Hàng Đề Thi</title>
-  <link rel="icon" type="image/png" href="./assets/icons/favicon.png">
+  <link rel="icon" type="image/png" href="./assets/icons/favicon.png?v=2">
   
   <!-- PWA Meta Tags -->
   <link rel="manifest" href="./manifest.json">
@@ -13,6 +13,14 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Studiz">
+
+  <!-- iOS Splash Screens -->
+  <link rel="apple-touch-startup-image" href="./assets/splash/splash-1290x2796.png" media="(device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="./assets/splash/splash-1179x2556.png" media="(device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="./assets/splash/splash-1284x2778.png" media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="./assets/splash/splash-1170x2532.png" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="./assets/splash/splash-1125x2436.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="./assets/splash/splash-828x1792.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
   <style>
   :root {
     /* === Dark Mode Tokens (Kỷ Nguyên 34 Component) === */
@@ -95,8 +103,8 @@
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
         Tải App
       </button>
-      <h1 style="display: flex; align-items: center; justify-content: center; gap: 10px;">
-        <img src="./assets/icons/logo.png" alt="Studiz Logo" style="height: 2.2em; width: auto; object-fit: contain;">
+      <h1 style="display: flex; align-items: center; justify-content: center; gap: 14px;">
+        <img src="./assets/icons/logo.png?v=3" alt="Studiz Logo" style="height: 3em; width: auto; object-fit: contain;">
         <span style="color:var(--text); text-transform:uppercase; letter-spacing: 3px; font-size: 1.1em; font-weight: 800;">STUD<span style="color:var(--secondary);">IZ</span></span>
       </h1>
       <p>Kiến thức trực quan, dễ dàng ôn luyện</p>
@@ -149,6 +157,15 @@
     window.addEventListener('DOMContentLoaded', () => {
         const grid = document.getElementById('subjectsGrid');
         
+        // Handle PWA Shortcuts
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.get('action') === 'search') {
+            setTimeout(() => {
+                const searchBox = document.getElementById('searchSubject');
+                if(searchBox) { searchBox.focus(); }
+            }, 100);
+        }
+
         // Sắp xếp các môn theo lần mở gần nhất (mới nhất lên trên)
         window.TVU_SUBJECTS.sort((a, b) => {
             let tA = parseInt(localStorage.getItem('tvu_last_opened_' + a.id)) || 0;
