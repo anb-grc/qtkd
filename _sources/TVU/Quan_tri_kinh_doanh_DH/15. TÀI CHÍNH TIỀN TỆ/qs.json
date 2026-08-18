@@ -2394,5 +2394,114 @@
       "Thị trường Tài chính",
       "Góc nhìn Đa chiều"
     ]
+  },
+  {
+    "question": "Nếu tỷ lệ <span class=\"keyword\">tiền mặt và tiền gửi</span> có thể phát hành séc <span class=\"keyword\">tăng lên</span> có thể hàm ý về",
+    "options": [
+      "Ngân hàng trung ương phát hành thêm tiền mặt vào lưu thông.",
+      "Nền kinh tế đang tăng trưởng và có thể dẫn đến tình trạng “nóng bỏng”.",
+      "Tốc độ lưu thông hàng hóa và tiền tệ tăng gắn với sự tăng trưởng kinh tế.",
+      "Nền kinh tế đang trong <span class=\"answer-keyword\">giai đoạn suy thoái</span>."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>\nNền kinh tế đang trong <span class=\"answer-keyword\">giai đoạn suy thoái</span>.\n<div class=\"note\">Khi tỷ lệ tiền mặt trên tiền gửi tăng, người dân ưu tiên giữ tiền mặt phòng thủ thay vì gửi ngân hàng, làm giảm dòng vốn đầu tư và vòng quay tiền, hàm ý nền kinh tế đang suy thoái.</div>",
+    "tags": [
+      "Tiền tệ",
+      "Cung - Cầu Tiền tệ",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "question": "Nguyên nhân nào dẫn đến <span class=\"keyword\">nợ quá hạn</span> dễ được <span class=\"keyword\">Nhà nước hỗ trợ</span> các ngân hàng thương mại?",
+    "options": [
+      "Có những nguyên nhân <span class=\"answer-keyword\">khách quan bất khả kháng</span> dẫn đến nợ quá hạn.",
+      "Các ngân hàng tăng trưởng tín dụng quá nhanh.",
+      "Có sự can thiệp quá nhiều của Chính phủ.",
+      "Các ngân hàng luôn chạy theo rủi ro để tối đa hóa lợi nhuận."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>\nCó những nguyên nhân <span class=\"answer-keyword\">khách quan bất khả kháng</span> dẫn đến nợ quá hạn.\n<div class=\"note\">Nhà nước thường chỉ can thiệp hỗ trợ thanh khoản khi rủi ro đến từ nguyên nhân khách quan bất khả kháng (thiên tai, dịch bệnh...) để tránh sụp đổ hệ thống, thay vì cứu trợ rủi ro do đạo đức kinh doanh.</div>",
+    "tags": [
+      "Hệ thống ngân hàng",
+      "Ngân hàng Thương mại (NHTM)",
+      "Giới hạn & Rủi ro"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Chứng khoán</span> là",
+    "options": [
+      "các <span class=\"answer-keyword\">giấy tờ có giá</span>, mang lại thu nhập, quyền tham gia sở hữu hoặc đòi nợ, và được mua bán trên <span class=\"answer-keyword\">thị trường vốn</span>.",
+      "cổ phiếu và trái phiếu các loại.",
+      "tín phiếu kho bạc và các loại thương phiếu.",
+      "các giấy tờ có giá được mua bán trên thị trường tài chính."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>\ncác <span class=\"answer-keyword\">giấy tờ có giá</span>, mang lại thu nhập, quyền tham gia sở hữu hoặc đòi nợ, và được mua bán trên <span class=\"answer-keyword\">thị trường vốn</span>.\n<div class=\"note\">Định nghĩa chuẩn xác và đầy đủ nhất bao gồm 3 yếu tố: Bản chất (giấy tờ có giá), Quyền lợi (thu nhập, sở hữu, đòi nợ) và Nơi giao dịch (thị trường vốn).</div>",
+    "tags": [
+      "Thị trường Tài chính",
+      "Phân loại Công cụ Thị trường Tài chính",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Chức năng cơ bản nhất</span> của <span class=\"keyword\">thị trường chứng khoán</span> là",
+    "options": [
+      "cung cấp thông tin và định giá các doanh nghiệp.",
+      "dự báo “sức khỏe” của nền kinh tế, kênh dẫn truyền vốn quan trọng bậc nhất của nền kinh tế thị trường.",
+      "định giá doanh nghiệp, cung cấp thông tin, tạo khả năng giám sát của nhà nước.",
+      "<span class=\"answer-keyword\">huy động vốn</span> cho nền kinh tế, chuyển <span class=\"answer-keyword\">tiết kiệm thành đầu tư</span>."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>\n<span class=\"answer-keyword\">huy động vốn</span> cho nền kinh tế, chuyển <span class=\"answer-keyword\">tiết kiệm thành đầu tư</span>.\n<div class=\"note\">Thị trường chứng khoán là kênh dẫn vốn trung và dài hạn. Chức năng cốt lõi và quan trọng nhất của nó là huy động các nguồn vốn nhàn rỗi trong xã hội chuyển thành vốn đầu tư cho doanh nghiệp.</div>",
+    "tags": [
+      "Thị trường Tài chính",
+      "Tổng quan Thị trường Tài chính",
+      "Cấu trúc"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Trong nền kinh tế thị trường, giả định các yếu tố khác không thay đổi, khi <span class=\"keyword\">lạm phát được dự đoán sẽ tăng</span> lên thì",
+    "options": [
+      "lãi suất danh nghĩa sẽ giảm",
+      "lãi suất thực có xu hướng giảm",
+      "lãi suất thực sẽ tăng",
+      "<span class=\"answer-keyword\">lãi suất danh nghĩa sẽ tăng</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>\n<span class=\"answer-keyword\">lãi suất danh nghĩa sẽ tăng</span>\n<div class=\"note\">Theo hiệu ứng Fisher: Lãi suất danh nghĩa = Lãi suất thực + Tỷ lệ lạm phát dự tính. Do đó, khi lạm phát dự tính tăng, người cho vay sẽ đòi hỏi mức lãi suất danh nghĩa cao hơn để bù đắp phần mất giá của đồng tiền.</div>",
+    "tags": [
+      "Tín dụng và Lãi suất",
+      "Phân loại Lãi suất",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Lượng tiền cung ứng</span> tương quan <span class=\"keyword\">thuận</span> với sự thay đổi",
+    "options": [
+      "Tỷ lệ dự trữ bắt buộc",
+      "Tỷ lệ dự trữ vượt quá",
+      "<span class=\"answer-keyword\">Tiền cơ sở</span>",
+      "Tỷ lệ tiền mặt trên tiền gửi"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>\n<span class=\"answer-keyword\">Tiền cơ sở</span>\n<div class=\"note\">Công thức cung tiền: MS = m × MB (Lượng tiền cung ứng = Số nhân tiền × Tiền cơ sở). Vì số nhân tiền m > 0, MS luôn tỷ lệ thuận với MB. Các tỷ lệ còn lại đều làm giảm số nhân tiền nên có tương quan nghịch.</div>",
+    "tags": [
+      "Tiền tệ",
+      "Cung - Cầu Tiền tệ",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "question": "Phần <span class=\"keyword\">góp vốn</span> của từng hội viên <span class=\"keyword\">IMF quyết định</span> vấn đề gì quan trọng nhất cho hội viên?",
+    "options": [
+      "<span class=\"answer-keyword\">Quyền quyết định</span> và <span class=\"answer-keyword\">quyền vay vốn</span> của hội viên",
+      "Quyền thanh toán quốc tế",
+      "Quyền ứng cử, bầu cử",
+      "Quyền quyết định chính sách hoạt động của IMF"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>\n<span class=\"answer-keyword\">Quyền quyết định</span> và <span class=\"answer-keyword\">quyền vay vốn</span> của hội viên\n<div class=\"note\">Hạn mức vốn góp (Quota) tại Quỹ Tiền tệ Quốc tế (IMF) trực tiếp quyết định số phiếu bầu (quyền biểu quyết) và hạn mức được phép vay của quốc gia thành viên đó.</div>",
+    "tags": [
+      "Tài chính quốc tế",
+      "Hệ thống tổ chức tài chính quốc tế",
+      "Hệ thống"
+    ]
   }
 ]
