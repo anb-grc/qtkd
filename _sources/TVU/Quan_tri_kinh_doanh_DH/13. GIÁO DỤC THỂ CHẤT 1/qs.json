@@ -1474,22 +1474,6 @@
     "weight": "high"
   },
   {
-    "question": "Làm rơi gậy tiếp sức, <span class=\"keyword\">vận động viên:</span>",
-    "options": [
-      "Trừ thời gian",
-      "Phải chạy lại",
-      "Được nhặt và <span class=\"answer-keyword\">tiếp tục</span>",
-      "Bị loại"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Được nhặt và <span class=\"answer-keyword\">tiếp tục</span> <div class=\"note\">Vì: Có thể nhặt và tiếp tục đường chạy.</div>",
-    "tags": [
-      "Mẫu",
-      "KỸ THUẬT CHẠY CỰ LY NGẮN",
-      "Giới hạn & Rủi ro"
-    ],
-    "weight": "high"
-  },
-  {
     "question": "Góc ném lao <span class=\"keyword\">hợp lệ là:</span>",
     "options": [
       "<span class=\"answer-keyword\">34,92°</span>",
@@ -1631,22 +1615,6 @@
     "weight": "high"
   },
   {
-    "question": "Vận động viên <span class=\"keyword\">đạt chuẩn Olympic</span> phải:",
-    "options": [
-      "Đạt chuẩn thành tích",
-      "Tuân thủ luật doping",
-      "Quốc tịch",
-      "<span class=\"answer-keyword\">Quốc tịch</span>, đạt <span class=\"answer-keyword\">chuẩn thành tích</span> và <span class=\"answer-keyword\">tuân thủ luật doping</span>"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Quốc tịch</span>, đạt <span class=\"answer-keyword\">chuẩn thành tích</span> và <span class=\"answer-keyword\">tuân thủ luật doping</span><div class=\"note\">Vì: Đủ quốc tịch, thành tích và chống doping.</div>",
-    "tags": [
-      "Mẫu",
-      "NHẬP MÔN ĐIỀN KINH",
-      "Logic & Nguyên tắc"
-    ],
-    "weight": "high"
-  },
-  {
     "question": "<span class=\"keyword\">Thành tích</span> giải Vô địch Thế giới có giá trị <span class=\"keyword\">so Olympic</span>:",
     "options": [
       "<span class=\"answer-keyword\">Ngang bằng</span> chuyên môn",
@@ -1659,38 +1627,6 @@
       "Mẫu",
       "NHẬP MÔN ĐIỀN KINH",
       "Góc nhìn Đa chiều"
-    ],
-    "weight": "high"
-  },
-  {
-    "question": "<span class=\"keyword\">Tay</span> trong <span class=\"keyword\">chạy cự ly ngắn</span> có <span class=\"keyword\">vai trò</span> gì?",
-    "options": [
-      "Chỉ để đẹp",
-      "Để vẫy",
-      "<span class=\"answer-keyword\">Giữ thăng bằng</span>",
-      "Không quan trọng"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Giữ thăng bằng</span><div class=\"note\">Vì: Hỗ trợ lực chạy</div>",
-    "tags": [
-      "Mẫu",
-      "KỸ THUẬT CHẠY CỰ LY NGẮN",
-      "Cấu trúc"
-    ],
-    "weight": "high"
-  },
-  {
-    "question": "<span class=\"keyword\">Thành tích đại hội</span> là <span class=\"keyword\">căn cứ</span> để:",
-    "options": [
-      "Đánh giá phong trào",
-      "<span class=\"answer-keyword\">Tuyển chọn</span> Vận động viên, <span class=\"answer-keyword\">đầu tư</span> huấn luyện và <span class=\"answer-keyword\">đánh giá</span> phong trào",
-      "Tuyển chọn vận động viên",
-      "Đầu tư huấn luyện"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Tuyển chọn</span> Vận động viên, <span class=\"answer-keyword\">đầu tư</span> huấn luyện và <span class=\"answer-keyword\">đánh giá</span> phong trào<div class=\"note\">Vì: Dùng cho tuyển chọn, đánh giá, đầu tư.</div>",
-    "tags": [
-      "Mẫu",
-      "NHẬP MÔN ĐIỀN KINH",
-      "Hệ thống"
     ],
     "weight": "high"
   },
@@ -1775,22 +1711,6 @@
     "weight": "high"
   },
   {
-    "question": "<span class=\"keyword\">Vũ Bích Hường</span> <span class=\"keyword\">nổi bật</span> ở nội dung nào?",
-    "options": [
-      "Nhảy xa",
-      "<span class=\"answer-keyword\">Nhảy sào</span>",
-      "Nhảy cao",
-      "Nhảy ba bước"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Nhảy sào</span><div class=\"note\">Vì: Hường mạnh ở nhảy sào.</div>",
-    "tags": [
-      "Mẫu",
-      "NHẬP MÔN ĐIỀN KINH",
-      "Nền tảng"
-    ],
-    "weight": "high"
-  },
-  {
     "question": "Pentathlon cổ đại <span class=\"keyword\">KHÔNG bao gồm</span> nội dung nào?",
     "options": [
       "Ném lao",
@@ -1854,22 +1774,6 @@
     ]
   },
   {
-    "question": "<span class=\"keyword\">IAAF thành lập</span> với <span class=\"keyword\">mục đích chính</span> nào?",
-    "options": [
-      "<span class=\"answer-keyword\">Thống nhất luật điền kinh</span>",
-      "Đào tạo huấn luyện viên",
-      "Tổ chức Olympic",
-      "Quản lý bóng đá"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Thống nhất luật điền kinh</span><div class=\"note\">Vì: Thống nhất luật các nội dung điền kinh.</div>",
-    "tags": [
-      "Mẫu",
-      "NHẬP MÔN ĐIỀN KINH",
-      "Hệ thống"
-    ],
-    "weight": "high"
-  },
-  {
     "question": "Quốc gia được xem là <span class=\"keyword\">cái nôi</span> của <span class=\"keyword\">điền kinh hiện đại</span>?",
     "options": [
       "Đức",
@@ -1918,22 +1822,6 @@
     "weight": "high"
   },
   {
-    "question": "<span class=\"keyword\">Môn thi điền kinh đầu tiên</span> được ghi nhận tại <span class=\"keyword\">Olympic cổ đại</span> là?",
-    "options": [
-      "Nhảy xa",
-      "<span class=\"answer-keyword\">Chạy stadion (192 m)</span>",
-      "Ném lao",
-      "Chạy cự ly ngắn"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Chạy stadion (192 m)</span><div class=\"note\">Vì: Chạy stadion là nội dung đầu tiên.</div>",
-    "tags": [
-      "Mẫu",
-      "NHẬP MÔN ĐIỀN KINH",
-      "Nền tảng"
-    ],
-    "weight": "high"
-  },
-  {
     "question": "<span class=\"keyword\">Vai trò</span> của <span class=\"keyword\">HLV điền kinh hiện đại</span> là:",
     "options": [
       "<span class=\"answer-keyword\">Huấn luyện kỹ thuật, quản lý tâm lý - khoa học và lập kế hoạch dài hạn</span>",
@@ -1965,22 +1853,6 @@
     "weight": "high"
   },
   {
-    "question": "<span class=\"keyword\">Khu vực trao – nhận</span> gậy tiếp sức <span class=\"keyword\">dài</span>:",
-    "options": [
-      "<span class=\"answer-keyword\">30m</span>",
-      "40m",
-      "10m",
-      "20m"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">30m</span><div class=\"note\">Vì: Khu vực trao – nhận dài 30 mét.</div>",
-    "tags": [
-      "Mẫu",
-      "KỸ THUẬT CHẠY CỰ LY NGẮN",
-      "Cấu trúc"
-    ],
-    "weight": "high"
-  },
-  {
     "question": "<span class=\"keyword\">Điền kinh</span> được xem là <span class=\"keyword\">nền tảng đánh giá</span>:",
     "options": [
       "Phong trào thể thao quốc gia",
@@ -1996,22 +1868,6 @@
     ]
   },
   {
-    "question": "<span class=\"keyword\">Lệnh xuất phát</span> trong <span class=\"keyword\">chạy ngắn</span>:",
-    "options": [
-      "Sẵn sàng – chạy",
-      "Chuẩn bị – chạy",
-      "<span class=\"answer-keyword\">Vào chỗ – sẵn sàng – chạy</span>",
-      "Vào chỗ – chạy"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Vào chỗ – sẵn sàng – chạy</span><div class=\"note\">Vì: Lệnh đủ 3 bước: vào chỗ – sẵn sàng – chạy.</div>",
-    "tags": [
-      "Mẫu",
-      "KỸ THUẬT CHẠY CỰ LY NGẮN",
-      "Logic & Nguyên tắc"
-    ],
-    "weight": "high"
-  },
-  {
     "question": "<span class=\"keyword\">Đi bộ thể thao</span>, <span class=\"keyword\">yêu cầu nhất</span> là:",
     "options": [
       "Không nhảy",
@@ -2024,22 +1880,6 @@
       "Mẫu",
       "NHẬP MÔN ĐIỀN KINH",
       "Logic & Nguyên tắc"
-    ],
-    "weight": "high"
-  },
-  {
-    "question": "Mike Powell <span class=\"keyword\">phá kỷ lục</span> nhảy xa Bob Beamon tại:",
-    "options": [
-      "Olympic",
-      "SEA Games",
-      "ASIAD",
-      "<span class=\"answer-keyword\">Giải vô địch thế giới</span>"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Giải vô địch thế giới</span><div class=\"note\">Vì: Powell phá kỷ lục tại giải vô địch thế giới.</div>",
-    "tags": [
-      "Mẫu",
-      "NHẬP MÔN ĐIỀN KINH",
-      "Nền tảng"
     ],
     "weight": "high"
   },
@@ -2124,38 +1964,6 @@
     "weight": "high"
   },
   {
-    "question": "<span class=\"keyword\">Điền kinh quyết định vị trí toàn đoàn</span> vì:",
-    "options": [
-      "Ít môn",
-      "<span class=\"answer-keyword\">Nhiều</span> huy chương",
-      "Ít quốc gia mạnh",
-      "Dễ thắng"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Nhiều</span> huy chương <div class=\"note\">Vì: Vì có nhiều bộ huy chương nhất.</div>",
-    "tags": [
-      "Đề Thi",
-      "NHẬP MÔN ĐIỀN KINH",
-      "Nền tảng"
-    ],
-    "weight": "high"
-  },
-  {
-    "question": "<span class=\"keyword\">ASIAD</span> giúp đánh giá trình độ điền kinh của:",
-    "options": [
-      "Thế giới",
-      "Quốc gia",
-      "<span class=\"answer-keyword\">Châu lục</span>",
-      "Khu vực"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Châu lục</span> <div class=\"note\">Vì: Đánh giá mạnh/yếu cấp châu lục.</div>",
-    "tags": [
-      "Đề Thi",
-      "NHẬP MÔN ĐIỀN KINH",
-      "Nền tảng"
-    ],
-    "weight": "high"
-  },
-  {
     "question": "<span class=\"keyword\">Tần số bước chạy</span> phụ thuộc vào yếu tố nào?",
     "options": [
       "<span class=\"answer-keyword\">Kỹ thuật và sức mạnh</span>",
@@ -2167,22 +1975,6 @@
     "tags": [
       "Đề Thi",
       "KỸ THUẬT CHẠY CỰ LY NGẮN",
-      "Nền tảng"
-    ],
-    "weight": "high"
-  },
-  {
-    "question": "<span class=\"keyword\">Điền kinh chiếm huy chương lớn</span> SEA Games vì:",
-    "options": [
-      "Ít tốn kinh phí",
-      "Dễ tổ chức",
-      "Truyền thống",
-      "<span class=\"answer-keyword\">Nhiều nội dung</span> thi đấu"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Nhiều nội dung</span> thi đấu <div class=\"note\">Vì: Có nhiều nội dung thi đấu được tổ chức.</div>",
-    "tags": [
-      "Đề Thi",
-      "NHẬP MÔN ĐIỀN KINH",
       "Nền tảng"
     ],
     "weight": "high"
@@ -2200,22 +1992,6 @@
       "Đề Thi",
       "NHẬP MÔN ĐIỀN KINH",
       "Góc nhìn Đa chiều"
-    ],
-    "weight": "high"
-  },
-  {
-    "question": "<span class=\"keyword\">Olympic</span> tổ chức chu kỳ:",
-    "options": [
-      "2 năm",
-      "3 năm",
-      "5 năm",
-      "<span class=\"answer-keyword\">4 năm</span>"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">4 năm</span> <div class=\"note\">Vì: Cứ 4 năm tổ chức một lần.</div>",
-    "tags": [
-      "Đề Thi",
-      "NHẬP MÔN ĐIỀN KINH",
-      "Nền tảng"
     ],
     "weight": "high"
   },
@@ -2331,22 +2107,6 @@
     "weight": "high"
   },
   {
-    "question": "Điền kinh Việt Nam bắt đầu <span class=\"keyword\">phát triển có hệ thống mạnh mẽ</span> từ giai đoạn:",
-    "options": [
-      "Trước năm 1945",
-      "1954–1975",
-      "1945–1954",
-      "<span class=\"answer-keyword\">Sau năm 1975</span>"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Sau năm 1975</span> <div class=\"note\">Vì: Sau 1975 điền kinh phát triển mạnh.</div>",
-    "tags": [
-      "Đề Thi",
-      "NHẬP MÔN ĐIỀN KINH",
-      "Hệ thống"
-    ],
-    "weight": "high"
-  },
-  {
     "question": "<span class=\"keyword\">Thành tích cao nhất</span> của Việt Nam tại ASIAD điền kinh là:",
     "options": [
       "Không huy chương",
@@ -2395,22 +2155,6 @@
     "weight": "high"
   },
   {
-    "question": "Trong chạy 1500m, <span class=\"keyword\">số vòng sân chuẩn</span> là bao nhiêu?",
-    "options": [
-      "2 vòng",
-      "1 vòng",
-      "5 vòng",
-      "<span class=\"answer-keyword\">3.75 vòng</span>"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">3.75 vòng</span> <div class=\"note\">Vì: 1500m ≈ 3.75 vòng sân 400m</div>",
-    "tags": [
-      "Đề Thi",
-      "KỸ THUẬT CHẠY CỰ LY TRUNG BÌNH",
-      "Cấu trúc"
-    ],
-    "weight": "high"
-  },
-  {
     "question": "<span class=\"keyword\">Nội dung giúp Việt Nam đạt thành tích tốt</span> tại SEA Games là:",
     "options": [
       "Chạy ngắn",
@@ -2425,5 +2169,645 @@
       "Phân luồng"
     ],
     "weight": "high"
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">IAAF thành lập</span> với <span class=\"keyword\">mục đích chính</span> nào?",
+    "options": [
+      "Quản lý bóng đá",
+      "Tổ chức Olympic",
+      "<span class=\"answer-keyword\">Thống nhất luật</span> điền kinh",
+      "Đào tạo huấn luyện viên"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Thống nhất luật</span> điền kinh<div class=\"note\">Vì: Thống nhất luật các nội dung điền kinh.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Mũi lao cắm đất trước</span> mới được <span class=\"keyword\">tính thành tích</span>:",
+    "options": [
+      "Sai",
+      "Tùy trọng tài",
+      "Không quy định",
+      "<span class=\"answer-keyword\">Đúng</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Đúng</span><div class=\"note\">Vì: Thành tích chỉ công nhận khi mũi lao cắm trước.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Mục đích</span> <span class=\"keyword\">luật điền kinh</span> là:",
+    "options": [
+      "Phân loại",
+      "<span class=\"answer-keyword\">Đảm bảo công bằng</span>",
+      "Tăng khó",
+      "Hạn chế vận động viên"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Đảm bảo công bằng</span><div class=\"note\">Vì: Luật chủ yếu để tạo công bằng cho thi đấu.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Làm rơi gậy</span> <span class=\"keyword\">tiếp sức</span>, vận động viên:",
+    "options": [
+      "Bị loại",
+      "Phải chạy lại",
+      "Trừ thời gian",
+      "Được <span class=\"answer-keyword\">nhặt và tiếp tục</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>Được <span class=\"answer-keyword\">nhặt và tiếp tục</span><div class=\"note\">Vì: Có thể nhặt và tiếp tục đường chạy.</div>",
+    "tags": [
+      "Mẫu",
+      "KỸ THUẬT CHẠY CỰ LY NGẮN",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Thành tích ném</span> được <span class=\"keyword\">đo từ</span>:",
+    "options": [
+      "<span class=\"answer-keyword\">Điểm rơi gần nhất</span>",
+      "Vạch ném",
+      "Mũi lao",
+      "Điểm ném"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Điểm rơi gần nhất</span><div class=\"note\">Vì: Lấy từ vạch đến điểm rơi gần nhất.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Môn <span class=\"keyword\">điền kinh cổ đại</span> chủ yếu nhằm <span class=\"keyword\">mục đích</span> gì?",
+    "options": [
+      "<span class=\"answer-keyword\">Huấn luyện quân sự</span>",
+      "Giải trí",
+      "Nghi lễ tôn giáo",
+      "Thương mại"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Huấn luyện quân sự</span><div class=\"note\">Vì: Chủ yếu nhằm huấn luyện quân sự.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Lệnh xuất phát</span> trong <span class=\"keyword\">chạy ngắn</span>:",
+    "options": [
+      "Chuẩn bị – chạy",
+      "Vào chỗ – chạy",
+      "<span class=\"answer-keyword\">Vào chỗ – sẵn sàng – chạy</span>",
+      "Sẵn sàng – chạy"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Vào chỗ – sẵn sàng – chạy</span><div class=\"note\">Vì: Lệnh đủ 3 bước: vào chỗ – sẵn sàng – chạy.</div>",
+    "tags": [
+      "Mẫu",
+      "KỸ THUẬT CHẠY CỰ LY NGẮN",
+      "Cấu trúc"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Sự <span class=\"keyword\">chuyên nghiệp hóa</span> vận động viên điền kinh <span class=\"keyword\">diễn ra mạnh từ</span>:",
+    "options": [
+      "Đầu TK XX",
+      "Giữa TK XX",
+      "<span class=\"answer-keyword\">Cuối TK XX</span>",
+      "TK XXI"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Cuối TK XX</span><div class=\"note\">Vì: Chuyên nghiệp hóa mạnh cuối TK XX.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Khu vực trao – nhận gậy</span> tiếp sức <span class=\"keyword\">dài</span>:",
+    "options": [
+      "<span class=\"answer-keyword\">30m</span>",
+      "20m",
+      "40m",
+      "10m"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">30m</span><div class=\"note\">Vì: Khu vực trao – nhận dài 30 mét.</div>",
+    "tags": [
+      "Mẫu",
+      "KỸ THUẬT CHẠY CỰ LY NGẮN",
+      "Cấu trúc"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Đi bộ thể thao</span> xuất hiện tại <span class=\"keyword\">Olympic</span> từ năm:",
+    "options": [
+      "1920",
+      "<span class=\"answer-keyword\">1908</span>",
+      "1904",
+      "1896"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">1908</span><div class=\"note\">Vì: Đi bộ thể thao có từ 1908.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Nước <span class=\"keyword\">đăng cai Olympic 1908</span> chuẩn hóa marathon là:",
+    "options": [
+      "Mỹ",
+      "Pháp",
+      "Hy Lạp",
+      "<span class=\"answer-keyword\">Anh</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Anh</span><div class=\"note\">Vì: Olympic 1908 tổ chức tại Anh.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Môn thi <span class=\"keyword\">điền kinh đầu tiên</span> được ghi nhận tại <span class=\"keyword\">Olympic cổ đại</span> là?",
+    "options": [
+      "<span class=\"answer-keyword\">Chạy stadion</span> (192 m)",
+      "Chạy cự ly ngắn",
+      "Ném lao",
+      "Nhảy xa"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Chạy stadion</span> (192 m)<div class=\"note\">Vì: Chạy stadion là nội dung đầu tiên.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Sân vận động Olympia</span> xây dựng chủ yếu để <span class=\"keyword\">phục vụ</span>:",
+    "options": [
+      "Các môn <span class=\"answer-keyword\">điền kinh</span>",
+      "Đua xe ngựa",
+      "Võ thuật",
+      "Đấu vật"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>Các môn <span class=\"answer-keyword\">điền kinh</span><div class=\"note\">Vì: Sân chủ yếu phục vụ điền kinh.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Luật áp dụng GDTC</span> <span class=\"keyword\">nhằm</span>:",
+    "options": [
+      "Giải trí",
+      "<span class=\"answer-keyword\">Giảng dạy đúng</span>",
+      "Đánh giá",
+      "Thi đấu"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Giảng dạy đúng</span><div class=\"note\">Vì: Giúp dạy kỹ thuật, động tác chuẩn xác.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Khối xã hội chủ nghĩa</span> nổi bật điền kinh nhờ:",
+    "options": [
+      "Thời tiết",
+      "Thể hình di truyền",
+      "<span class=\"answer-keyword\">Hệ thống đào tạo tập trung</span>",
+      "Công nghệ giày"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Hệ thống đào tạo tập trung</span><div class=\"note\">Vì: Nổi bật với đào tạo tập trung.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Hệ thống"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Động tác đầu tiên</span> trong bài <span class=\"keyword\">thể dục tay không</span> là gì?",
+    "options": [
+      "Tay",
+      "Bụng",
+      "Chân",
+      "<span class=\"answer-keyword\">Vươn thở</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Vươn thở</span><div class=\"note\">Vì: Bắt đầu bằng vươn thở</div>",
+    "tags": [
+      "Mẫu",
+      "ĐỘI HÌNH ĐỘI NGŨ VÀ BÀI THỂ DỤC PHÁT TRIỂN CHUNG",
+      "Cấu trúc"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Nhảy xa 8,90m</span> của Bob Beamon được lập tại:",
+    "options": [
+      "Montreal 1976",
+      "Munich 1972",
+      "Tokyo 1964",
+      "<span class=\"answer-keyword\">Mexico 1968</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Mexico 1968</span><div class=\"note\">Vì: Kỷ lục nhảy xa Olympic Mexico 1968.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Vận động viên giành <span class=\"keyword\">4 Huy Chương Vàng</span> điền kinh <span class=\"keyword\">Olympic 1936</span> là:",
+    "options": [
+      "Carl Lewis",
+      "<span class=\"answer-keyword\">Jesse Owens</span>",
+      "Emil Zátopek",
+      "Paavo Nurmi"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Jesse Owens</span><div class=\"note\">Vì: Jesse Owens giành 4 Huy Chương Vàng Berlin 1936.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Olympic 1968</span> kỷ lục nhảy xa nổi tiếng của:",
+    "options": [
+      "Ivana Vuleta",
+      "Carl Lewis",
+      "Mike Powell",
+      "<span class=\"answer-keyword\">Bob Beamon</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Bob Beamon</span><div class=\"note\">Vì: Bob Beamon lập kỷ lục nhảy xa tại đây.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Mike Powell phá kỷ lục</span> nhảy xa Bob Beamon tại:",
+    "options": [
+      "Olympic",
+      "SEA Games",
+      "ASIAD",
+      "<span class=\"answer-keyword\">Giải vô địch thế giới</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Giải vô địch thế giới</span><div class=\"note\">Vì: Powell phá kỷ lục tại giải vô địch thế giới.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Tay trong <span class=\"keyword\">chạy cự ly ngắn</span> có vai trò gì?",
+    "options": [
+      "Giữ thăng bằng",
+      "Không quan trọng",
+      "Để vẫy",
+      "Chỉ để đẹp"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Giữ thăng bằng</span><div class=\"note\">Hỗ trợ lực chạy</div>",
+    "tags": [
+      "Mẫu",
+      "KỸ THUẬT CHẠY CỰ LY NGẮN",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">ASIAD</span> giúp đánh giá trình độ điền kinh của:",
+    "options": [
+      "Châu lục",
+      "Quốc gia",
+      "Khu vực",
+      "Thế giới"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Châu lục</span><div class=\"note\">Đánh giá mạnh/yếu cấp châu lục.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Cấu trúc"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Thành tích đại hội</span> là căn cứ để:",
+    "options": [
+      "Tuyển chọn vận động viên",
+      "Đầu tư huấn luyện",
+      "Tuyển chọn Vận động viên, đầu tư huấn luyện và đánh giá phong trào",
+      "Đánh giá phong trào"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Tuyển chọn Vận động viên, đầu tư huấn luyện và đánh giá phong trào</span><div class=\"note\">Dùng cho tuyển chọn, đánh giá, đầu tư.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Hệ thống"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Xu hướng các đại hội hiện nay</span> là:",
+    "options": [
+      "Thi đấu cá nhân",
+      "Loại điền kinh",
+      "Tăng nội dung hỗn hợp",
+      "Giảm thi đấu"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Tăng nội dung hỗn hợp</span><div class=\"note\">Tăng các nội dung hỗn hợp tính mới.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Góc nhìn Đa chiều"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Điền kinh chiếm <span class=\"keyword\">huy chương lớn SEA Games</span> vì:",
+    "options": [
+      "Truyền thống",
+      "Dễ tổ chức",
+      "Nhiều nội dung thi đấu",
+      "Ít tốn kinh phí"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Nhiều nội dung thi đấu</span><div class=\"note\">Có nhiều nội dung thi đấu được tổ chức.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Hệ thống"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Điền kinh Việt Nam thường giành <span class=\"keyword\">thành tích tốt nhất</span> tại:",
+    "options": [
+      "SEA Games",
+      "Giải Vô địch Thế giới",
+      "Olympic",
+      "ASIAD"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">SEA Games</span><div class=\"note\">Thành tích tốt nhất ở SEA Games.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Cấu trúc"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Olympic</span> tổ chức chu kỳ:",
+    "options": [
+      "4 năm",
+      "2 năm",
+      "3 năm",
+      "5 năm"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">4 năm</span><div class=\"note\">Cứ 4 năm tổ chức một lần.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Vận động viên <span class=\"keyword\">đạt chuẩn Olympic</span> phải:",
+    "options": [
+      "Đạt chuẩn thành tích",
+      "Tuân thủ luật doping",
+      "Quốc tịch, đạt chuẩn thành tích và tuân thủ luật doping",
+      "Quốc tịch"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Quốc tịch, đạt chuẩn thành tích và tuân thủ luật doping</span><div class=\"note\">Đủ quốc tịch, thành tích và chống doping.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Quốc gia <span class=\"keyword\">thống trị điền kinh SEA Games</span> là:",
+    "options": [
+      "Việt Nam",
+      "Singapore",
+      "Thái Lan",
+      "Indonesia"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Thái Lan</span><div class=\"note\">Thái Lan thống trị điền kinh SEA Games.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Điền kinh <span class=\"keyword\">quyết định vị trí toàn đoàn</span> vì:",
+    "options": [
+      "Ít quốc gia mạnh",
+      "Ít môn",
+      "Dễ thắng",
+      "Nhiều huy chương"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Nhiều huy chương</span><div class=\"note\">Vì có nhiều bộ huy chương nhất.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Cấu trúc"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Khi <span class=\"keyword\">chạy trung bình</span>, nhịp thở nên như thế nào?",
+    "options": [
+      "Nín thở",
+      "Nhanh, gấp",
+      "Không cần chú ý",
+      "Đều và nhịp nhàng"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Đều và nhịp nhàng</span><div class=\"note\">Giữ nhịp thở ổn định</div>",
+    "tags": [
+      "Mẫu",
+      "KỸ THUẬT CHẠY CỰ LY TRUNG BÌNH",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Vận động viên Việt Nam nào đã <span class=\"keyword\">dự Olympic</span> điền kinh:",
+    "options": [
+      "Lê Tú Chinh",
+      "Quách Thị Lan",
+      "Trương Thanh Hằng",
+      "Trương Thanh Hằng, Lê Tú Chinh và Quách Thị Lan"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Trương Thanh Hằng, Lê Tú Chinh và Quách Thị Lan</span><div class=\"note\">Cả ba đều từng dự Olympic.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Nam đầu tiên của Việt Nam giành Huy Chương Vàng <span class=\"keyword\">marathon SEA Games</span>:",
+    "options": [
+      "Nguyễn Văn Lai",
+      "Hoàng Nguyên Thanh",
+      "Trịnh Quốc Lượng",
+      "Lê Văn Phúc"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Hoàng Nguyên Thanh</span><div class=\"note\">Hoàng Nguyên Thanh là nam đầu tiên vô địch marathon.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Điền kinh Việt Nam <span class=\"keyword\">phát triển mạnh</span> nhóm vận động viên:",
+    "options": [
+      "Nam",
+      "Cao tuổi",
+      "Nữ",
+      "Trẻ em"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Nữ</span><div class=\"note\">Đội nữ phát triển mạnh hơn nam.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Cấu trúc"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Trong <span class=\"keyword\">chạy 1500m</span>, số vòng sân chuẩn là bao nhiêu?",
+    "options": [
+      "3.75 vòng",
+      "2 vòng",
+      "1 vòng",
+      "5 vòng"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">3.75 vòng</span><div class=\"note\">1500m ≈ 3.75 vòng sân 400m</div>",
+    "tags": [
+      "Mẫu",
+      "KỸ THUẬT CHẠY CỰ LY TRUNG BÌNH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Nam vận động viên <span class=\"keyword\">nổi bật cự ly trung bình</span> của Việt Nam là:",
+    "options": [
+      "Lê Tiến Long",
+      "Trần Văn Lâm",
+      "Bùi Văn Hiếu",
+      "Nguyễn Văn Lai"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Nguyễn Văn Lai</span><div class=\"note\">Nguyễn Văn Lai nổi bật trung bình.</div>",
+    "tags": [
+      "Mẫu",
+      "KỸ THUẬT CHẠY CỰ LY TRUNG BÌNH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Lê Tú Chinh</span> nổi nhất ở nội dung nào?",
+    "options": [
+      "100m",
+      "400m",
+      "800m",
+      "200m"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">100m</span><div class=\"note\">Lê Tú Chinh nhanh nhất 100m nữ.</div>",
+    "tags": [
+      "Mẫu",
+      "KỸ THUẬT CHẠY CỰ LY NGẮN",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Điền kinh Việt Nam bắt đầu phát triển có <span class=\"keyword\">hệ thống mạnh mẽ</span> từ giai đoạn:",
+    "options": [
+      "1954–1975",
+      "Sau năm 1975",
+      "1945–1954",
+      "Trước năm 1945"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Sau năm 1975</span><div class=\"note\">Sau 1975 điền kinh phát triển mạnh.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Hệ thống"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Vũ Bích Hường</span> nổi bật ở nội dung nào?",
+    "options": [
+      "Nhảy ba bước",
+      "Nhảy cao",
+      "Nhảy sào",
+      "Nhảy xa"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Nhảy sào</span><div class=\"note\">Hường mạnh ở nhảy sào.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Tiếp sức 4×400m nữ</span> Việt Nam từng đạt:",
+    "options": [
+      "Huy Chương Vàng SEA Games",
+      "Huy Chương Bạc ASIAD",
+      "Chuẩn Olympic",
+      "Kỷ lục thế giới"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Huy Chương Bạc ASIAD</span><div class=\"note\">Đội nữ đạt Huy Chương Bạc ASIAD tiếp sức 4×400m.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Nền tảng"
+    ]
   }
 ]
