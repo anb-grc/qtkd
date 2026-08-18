@@ -1,58 +1,71 @@
 {
   "subject": "TIN HỌC ỨNG DỤNG CƠ BẢN",
-  "version": "1.0",
+  "version": "2.0",
   "author": "The Veteran Professor (AI Agent)",
-  "core_focus_80_20": {
-    "root_concepts": [
-      "Kiến trúc phần cứng cơ bản (CPU, RAM, ROM, Thiết bị ngoại vi) và các Đơn vị đo lường thông tin (Bit, Byte, KB, MB, GB).",
-      "Các thao tác và phím tắt cốt lõi trong Windows (Quản lý file/folder, Clipboard: Ctrl+C, Ctrl+V, Ctrl+X).",
-      "Kỹ thuật xử lý văn bản Word (Định dạng Paragraph, Styles, Tabs, Bảng biểu, Mail Merge, Phím tắt).",
-      "Hàm tính toán trong Excel: Logic (IF, AND, OR), Thống kê có điều kiện (SUMIF, COUNTIF), Dò tìm (VLOOKUP, HLOOKUP) và Phân biệt địa chỉ Tương đối / Tuyệt đối ($A$1).",
-      "Kỹ thuật trình chiếu PowerPoint (Hiệu ứng Transition chuyển slide vs Animation cho đối tượng, Master Slide).",
-      "Kiến thức mạng Internet cốt lõi (Giao thức HTTP/HTTPS, IP, DNS, Trình duyệt, Phân biệt CC và BCC trong Email)."
-    ],
-    "common_traps": [
-      "Bẫy phần cứng: Lầm tưởng RAM lưu trữ dữ liệu vĩnh viễn (RAM là bộ nhớ tạm Volatile, ROM mới giữ dữ liệu khi mất điện).",
-      "Bẫy Excel: Lỗi #N/A (không tìm thấy) vs #VALUE! (sai kiểu dữ liệu) vs #REF! (mất ô tham chiếu). Nhầm lẫn cố định dòng/cột (A$1 vs $A1).",
-      "Bẫy Word: Phân biệt Save (lưu file hiện tại) vs Save As (lưu thành file mới/định dạng mới). Phân biệt ngắt trang (Ctrl+Enter) và ngắt dòng (Shift+Enter).",
-      "Bẫy Email: Nhầm lẫn chức năng của CC (ai cũng thấy) và BCC (ẩn danh người nhận).",
-      "Bẫy Phím tắt: Các phím tắt thường bị đánh tráo (VD: Ctrl+Z vs Ctrl+Y, Alt+Tab vs Ctrl+Tab)."
-    ],
-    "high_coverage": [
-      "Bài tập kết hợp hàm IF lồng nhau và VLOOKUP trong Excel để xếp loại, tính lương.",
-      "Kỹ thuật căn lề, định dạng trang in (Page Setup) và in ấn trong cả Word và Excel."
-    ]
-  },
-  "exam_matrix": [
+  "macro_exam_matrix": [
     {
-      "tag": "ĐẠI CƯƠNG VỀ MÁY TÍNH ĐIỆN TỬ & CNTT",
-      "percentage": 10,
-      "description": "Các khái niệm phần cứng, phần mềm, bộ nhớ và đơn vị thông tin."
+      "pillar": "Trụ cột 1: Kiến trúc Máy tính & CNTT",
+      "percentage": 10
     },
     {
-      "tag": "SỬ DỤNG HỆ ĐIỀU HÀNH WINDOWS 10",
-      "percentage": 10,
-      "description": "Quản lý tập tin, thư mục, Control Panel và phím tắt Windows."
+      "pillar": "Trụ cột 2: Hệ điều hành Windows",
+      "percentage": 10
     },
     {
-      "tag": "MICROSOFT WORD 2013 CƠ BẢN",
-      "percentage": 20,
-      "description": "Định dạng văn bản, phím tắt, chèn đối tượng và in ấn."
+      "pillar": "Trụ cột 3: Xử lý văn bản Microsoft Word",
+      "percentage": 20
     },
     {
-      "tag": "MICROSOFT EXCEL 2013 CƠ BẢN",
-      "percentage": 35,
-      "description": "Các hàm tính toán (logic, thống kê, dò tìm), địa chỉ ô và biểu đồ."
+      "pillar": "Trụ cột 4: Bảng tính Microsoft Excel",
+      "percentage": 35
     },
     {
-      "tag": "MICROSOFT POWERPOINT 2013 CƠ BẢN",
-      "percentage": 15,
-      "description": "Thiết kế slide, Master Slide, hiệu ứng Transition và Animation."
+      "pillar": "Trụ cột 5: Trình chiếu Microsoft PowerPoint",
+      "percentage": 15
     },
     {
-      "tag": "SỬ DỤNG INTERNET",
-      "percentage": 10,
-      "description": "Mạng máy tính, trình duyệt web, tìm kiếm và thư điện tử."
+      "pillar": "Trụ cột 6: Mạng & Dịch vụ Internet",
+      "percentage": 10
     }
-  ]
+  ],
+  "mapping_index": {
+    "Trụ cột 1: Kiến trúc Máy tính & CNTT": "ĐẠI CƯƠNG VỀ MÁY TÍNH ĐIỆN TỬ & CNTT",
+    "Trụ cột 2: Hệ điều hành Windows": "SỬ DỤNG HỆ ĐIỀU HÀNH WINDOWS 10",
+    "Trụ cột 3: Xử lý văn bản Microsoft Word": "MICROSOFT WORD 2013 CƠ BẢN",
+    "Trụ cột 4: Bảng tính Microsoft Excel": "MICROSOFT EXCEL 2013 CƠ BẢN",
+    "Trụ cột 5: Trình chiếu Microsoft PowerPoint": "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+    "Trụ cột 6: Mạng & Dịch vụ Internet": "SỬ DỤNG INTERNET"
+  },
+  "micro_focus_80_20": {
+    "ĐẠI CƯƠNG VỀ MÁY TÍNH ĐIỆN TỬ & CNTT": {
+      "core_concept": "Phân biệt Bộ nhớ trong (RAM/ROM) vs Bộ nhớ ngoài (HDD/USB).",
+      "mechanism": "Luồng dữ liệu: Nhập (Phím/Chuột) -> Xử lý (CPU) -> Xuất (Màn hình/Máy in).",
+      "differentiation": "Malware (Virus, Trojan) vs Phần mềm ứng dụng/Hệ thống."
+    },
+    "SỬ DỤNG HỆ ĐIỀU HÀNH WINDOWS 10": {
+      "core_concept": "Cấu trúc thư mục, tên tập tin và phần mở rộng (extension).",
+      "mechanism": "Thao tác Clipboard qua phím tắt (Ctrl C/V/X/A).",
+      "differentiation": "Control Panel (Programs vs Region/Date Time) và Recycle Bin."
+    },
+    "MICROSOFT WORD 2013 CƠ BẢN": {
+      "core_concept": "Page Layout (Cài đặt trang) và Font (Bảng mã Unicode/VNI).",
+      "mechanism": "Quản lý Bảng biểu (Insert/Delete Rows/Columns, AutoFit, Merge).",
+      "differentiation": "Định dạng đối tượng (Wrap Text, Arrange, Shape Styles)."
+    },
+    "MICROSOFT EXCEL 2013 CƠ BẢN": {
+      "core_concept": "Địa chỉ Tương đối vs Địa chỉ Tuyệt đối ($A$1).",
+      "mechanism": "Hàm cốt lõi: Dò tìm (VLOOKUP), Thống kê (COUNT/COUNTA), Điều kiện (IF), Toán học (ABS/INT).",
+      "differentiation": "Lỗi công thức (VALUE!, N/A) và Phân biệt Sort vs Advanced Filter."
+    },
+    "MICROSOFT POWERPOINT 2013 CƠ BẢN": {
+      "core_concept": "Slide Master để đồng bộ giao diện toàn hệ thống.",
+      "mechanism": "Phím tắt trình chiếu (F5) và thiết lập trang in (Number slide from).",
+      "differentiation": "Hiệu ứng chuyển trang (Transition / Duration) vs Hiệu ứng đối tượng (Animation)."
+    },
+    "SỬ DỤNG INTERNET": {
+      "core_concept": "Định danh mạng (IP, Tên miền .com, .edu).",
+      "mechanism": "Giao thức truyền file (FTP) và Phím tắt trình duyệt (F5 tải lại).",
+      "differentiation": "Trình duyệt Web (Chrome/Firefox) vs Search Engine (Google) vs Ứng dụng văn phòng."
+    }
+  }
 }

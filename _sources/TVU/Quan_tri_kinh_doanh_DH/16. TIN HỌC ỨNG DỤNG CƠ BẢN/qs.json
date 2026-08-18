@@ -2038,5 +2038,234 @@
       "Dịch vụ tin điện tử"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Dịch vụ truyền tập tin</span><div class=\"note\">Vì: FTP là một hệ thống chính yếu để chuyển tải tập tin giữa các máy vi tính vào Internet.</div>"
+  },
+  {
+    "tags": [
+      "SỬ DỤNG HỆ ĐIỀU HÀNH WINDOWS 10",
+      "Hệ thống"
+    ],
+    "weight": "high",
+    "question": "Trong hệ điều hành Windows 10, để thực hiện thao tác <span class=\"keyword\">gỡ bỏ chương trình</span> đã cài vào máy tính người sử dụng sẽ chọn nhóm lệnh nào trong <span class=\"keyword\">cửa sổ Control Panel</span>?",
+    "options": [
+      "Hardware and Sound",
+      "System and Security",
+      "User Accounts",
+      "<span class=\"answer-keyword\">Programs</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Programs</span><div class=\"note\">Vì: Trong hệ điều hành Windows 10, để thực hiện thao tác gỡ bỏ chương trình đã cài vào máy tính người sử dụng sẽ vào cửa sổ Control Panel và chọn nhóm lệnh Programs.</div>"
+  },
+  {
+    "tags": [
+      "SỬ DỤNG HỆ ĐIỀU HÀNH WINDOWS 10",
+      "Cấu trúc"
+    ],
+    "weight": "high",
+    "question": "Hãy cho biết đối tượng nào sauđây sẽ có <span class=\"keyword\">phần mở rộng</span>?",
+    "options": [
+      "Ổ đĩa",
+      "Thư mục",
+      "<span class=\"answer-keyword\">Tập tin</span>",
+      "Đường dẫn"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Tập tin</span><div class=\"note\">Vì: Tập tin là tập hợp thông tin/dữ liệu được tổ chức theo một cấu trúc nào đó. Nội dung của tập tin có thể là chương trình, dữ liệu, văn bản... Mỗi tập tin được lưu lên đĩa với một tên riêng phân biệt. Mỗi hệ điều hành có quy ước đặt tên khác nhau, tên tập tin thường có 2 phần: phần tên (name) và phần mở rộng (extension).</div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT WORD 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "question": "Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng bảng biểu, lệnh nào cho phép <span class=\"keyword\">thay đổi cấu trúc</span> bảng?",
+    "options": [
+      "<span class=\"answer-keyword\">Draw Table</span>",
+      "Cell Margins",
+      "Auto Fit",
+      "Text Direction"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Draw Table</span><div class=\"note\"></div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "Hệ thống"
+    ],
+    "question": "Trong chương trình Microsoft Office Excel 2013, hàm nào được sử dụng để <span class=\"keyword\">xếp hạng</span> một giá trị kiểu số trong một danh sách các giá trị số cho trước?",
+    "options": [
+      "PRODUCT",
+      "UPPER",
+      "<span class=\"answer-keyword\">RANK</span>",
+      "FIND"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">RANK</span><div class=\"note\"></div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Trong chương trình Microsoft Office Excel 2013, khi sắp xếp dữ liệu trong hộp thoại Sort, nút lệnh nào cho phép <span class=\"keyword\">xóa bỏ điều kiện</span> sắp xếp?",
+    "options": [
+      "Sort by",
+      "Add Level",
+      "<span class=\"answer-keyword\">Delete Level</span>",
+      "Copy Level"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Delete Level</span><div class=\"note\"></div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "question": "Trong chương trình Microsoft Office Excel 2013, cho biết tùy chọn nào được sử dụng để <span class=\"keyword\">thiết lập lề</span> trang giấy?",
+    "options": [
+      "Orientation",
+      "Print Area",
+      "<span class=\"answer-keyword\">Margins</span>",
+      "Size"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Margins</span><div class=\"note\"></div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "question": "Trong chương trình Microsoft Office Excel 2013, lệnh nào được sử dụng để <span class=\"keyword\">tô màu nền</span> cho ô?",
+    "options": [
+      "Font Size",
+      "<span class=\"answer-keyword\">Fill Color</span>",
+      "Font Color",
+      "Format Painter"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Fill Color</span><div class=\"note\"></div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "question": "Trong chương trình Microsoft Office Excel 2013, cho biết tùy chọn nào được sử dụng để <span class=\"keyword\">thay đổi đơn vị đo</span> của thanh thước?",
+    "options": [
+      "Show sheet tabs",
+      "Show function ScreenTips",
+      "<span class=\"answer-keyword\">Ruler units</span>",
+      "Show formula bar"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Ruler units</span><div class=\"note\"></div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Trong chương trình Microsoft Office Excel 2013, các tham số trong một hàm được <span class=\"keyword\">phân cách bằng dấu</span> gì?",
+    "options": [
+      "dấu *",
+      "dấu ,",
+      "dấu ;",
+      "<span class=\"answer-keyword\">dấu , hoặc dấu ;</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">dấu , hoặc dấu ;</span><div class=\"note\"></div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+      "Logic & Nguyên tắc"
+    ],
+    "weight": "high",
+    "question": "Trong chương trình Microsoft Office PowerPoint 2013, khi thiết lập hiệu ứng chuyển trang, tại nhóm Timing tùy chọn nào quy định <span class=\"keyword\">thời gian thực thi</span> hiệu ứng <span class=\"keyword\">chuyển trang</span>?",
+    "options": [
+      "Sound",
+      "On Mouse Click",
+      "<span class=\"answer-keyword\">Duration</span>",
+      "After"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Duration</span><div class=\"note\"></div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Trong chương trình Microsoft Office PowerPoint 2013, cho biết <span class=\"keyword\">tổ hợp phím</span> nào được sử dụng để <span class=\"keyword\">mở một bài trình diễn</span> có sẵn trên ổ đĩa?",
+    "options": [
+      "CTRL+S",
+      "CTRL+A",
+      "<span class=\"answer-keyword\">CTRL+O</span>",
+      "CTRL+N"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">CTRL+O</span><div class=\"note\"></div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "question": "Trong chương trình Microsoft Office PowerPoint 2013, cho biết lệnh nào sau đây được sử dụng để <span class=\"keyword\">ẩn slide</span> đang được click phải chuột?",
+    "options": [
+      "Delete slide",
+      "<span class=\"answer-keyword\">Hide slide</span>",
+      "Duplicate slide",
+      "Reset slide"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Hide slide</span><div class=\"note\"></div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Trong chương trình Microsoft Office PowerPoint 2013, cho biết <span class=\"keyword\">tổ hợp phím</span> nào được sử dụng để <span class=\"keyword\">tạo mới một slide</span> trình chiếu?",
+    "options": [
+      "<span class=\"answer-keyword\">CTRL+M</span>",
+      "CTRL+A",
+      "CTRL+S",
+      "CTRL+N"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">CTRL+M</span><div class=\"note\"></div>"
+  },
+  {
+    "tags": [
+      "SỬ DỤNG INTERNET",
+      "Hệ thống"
+    ],
+    "question": "Trong khi sử dụng dịch vụ thư điện tử Gmail, các <span class=\"keyword\">thư đã soạn</span> nhưng <span class=\"keyword\">chưa gửi</span> sẽ được lưu trữ ở đâu?",
+    "options": [
+      "Starred",
+      "<span class=\"answer-keyword\">Drafts</span>",
+      "Send",
+      "Inbox"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Drafts</span><div class=\"note\"></div>"
+  },
+  {
+    "tags": [
+      "SỬ DỤNG INTERNET",
+      "Logic & Nguyên tắc"
+    ],
+    "weight": "high",
+    "question": "Khi đang sử dụng trình duyệt web, người dùng sử dụng phím nào để <span class=\"keyword\">tải lại nội dung</span> trang web?",
+    "options": [
+      "F3",
+      "<span class=\"answer-keyword\">F5</span>",
+      "F4",
+      "F2"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">F5</span><div class=\"note\"></div>"
+  },
+  {
+    "tags": [
+      "SỬ DỤNG INTERNET",
+      "Hệ thống"
+    ],
+    "weight": "high",
+    "question": "Loại tên miền (domain) nào sau đây mang tính <span class=\"keyword\">tổ chức thương mại</span>?",
+    "options": [
+      "edu (Education)",
+      "gov (Governmental)",
+      "<span class=\"answer-keyword\">com (Commercial)</span>",
+      "net (Networking)"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">com (Commercial)</span><div class=\"note\">Vì: Domain mang tính tổ chức: thường gồm 3 kí tự</div>"
   }
 ]
