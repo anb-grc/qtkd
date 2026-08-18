@@ -1444,22 +1444,6 @@
   {
     "tags": [
       "Kiến thức",
-      "Tổng Quan & Đo Lường Tăng Trưởng",
-      "Góc nhìn Đa chiều"
-    ],
-    "question": "Tại ViệtNamnếu <span class=\"keyword\">gdp</span> lớn hơn GNP thì:",
-    "options": [
-      "Người ViệtNam đang sản xuất ở nước ngoài nhiều hơn so với người nước ngoài đang sản xuất ở ViệtNam.",
-      "<span class=\"answer-keyword\">Người nước ngoài đang</span> sản xuất ở ViệtNamnhiều hơn so với người ViệtNam đang sản xuất ở nước ngoài",
-      "GNP thực tế lớn hơn GNP danh nghĩa.",
-      "GDP thực tế lớn hơn GDP danh nghĩa."
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Người nước ngoài đang</span> sản xuất ở ViệtNamnhiều hơn so với người ViệtNam đang sản xuất ở nước ngoài",
-    "weight": "high"
-  },
-  {
-    "tags": [
-      "Kiến thức",
       "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô",
       "Giới hạn & Rủi ro"
     ],
