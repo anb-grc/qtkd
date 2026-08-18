@@ -2259,5 +2259,140 @@
       "Logic"
     ],
     "weight": "high"
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Khái niệm</span> nào thể hiện <span class=\"keyword\">bản chất</span> của tài chính doanh nghiệp?",
+    "options": [
+      "Tài chính doanh nghiệp là hệ thống những giá trị tiền tệ tài chính phát sinh trong quá trình hình thành, phân phối và sử dụng các quỹ tiền tệ của doanh nghiệp nhằm phục vụ cho các hoạt động của doanh nghiệp và phục vụ cho mục tiêu của doanh nghiệp.",
+      "Tài chính doanh nghiệp là hệ thống những quan hệ kinh tế <span class=\"answer-keyword\">dưới hình thái giá trị</span> phát sinh trong quá trình hình thành, phân phối và sử dụng các quỹ tiền tệ của doanh nghiệp nhằm phục vụ cho các hoạt động của doanh nghiệp và <span class=\"answer-keyword\">phục vụ cho mục tiêu</span> của doanh nghiệp.",
+      "Tài chính doanh nghiệp là hệ thống những quan hệ kinh tế phát sinh trong quá trình hình thành, phân phối và sử dụng các quỹ tiền tệ của doanh nghiệp nhằm phục vụ cho các hoạt động của doanh nghiệp và phục vụ cho mục tiêu của doanh nghiệp.",
+      "Tài chính doanh nghiệp là hệ thống những quan hệ kinh tế dưới hình thái giá trị phát sinh trong quá trình hình thành, phân phối và sử dụng các quỹ tiền tệ của doanh nghiệp nhằm tạo lập vốn, huy động vốn để hội tụ đủ các yếu tố kinh doanh."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>\nTài chính doanh nghiệp là hệ thống những quan hệ kinh tế dưới hình thái giá trị phát sinh trong quá trình hình thành, phân phối và sử dụng các quỹ tiền tệ của doanh nghiệp nhằm phục vụ cho các hoạt động của doanh nghiệp và phục vụ cho mục tiêu của doanh nghiệp.\n<div class=\"note\">Bản chất của tài chính doanh nghiệp luôn nhấn mạnh tới \"quan hệ kinh tế dưới hình thái giá trị\" (khác đáp án C) và mục đích \"phục vụ cho mục tiêu\" của doanh nghiệp (khác đáp án D).</div>",
+    "tags": [
+      "Tài chính doanh nghiệp",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Ngân hàng trung ương <span class=\"keyword\">hút ngoại tệ</span> từ nền kinh tế vào với mục đích là",
+    "options": [
+      "bảo hộ nhà xuất khẩu trong nước.",
+      "<span class=\"answer-keyword\">khuyến khích xuất khẩu</span>.",
+      "khuyến khích nhập khẩu.",
+      "bảo hộ hàng nhập khẩu."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>\nkhuyến khích xuất khẩu.\n<div class=\"note\">Hút ngoại tệ làm nội tệ mất giá tương đối, từ đó làm hàng hóa trong nước rẻ hơn với quốc tế, giúp khuyến khích xuất khẩu.</div>",
+    "tags": [
+      "Hệ thống ngân hàng",
+      "Logic"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Trong các chỉ tiêu sau, chỉ tiêu nào thường được dùng nhất để phản ánh <span class=\"keyword\">mức độ lạm phát</span> của nền kinh tế?",
+    "options": [
+      "Tốc độ tăng của giá vàng",
+      "Tốc độ tăng giá ngoại hối",
+      "Tốc độ tăng của <span class=\"answer-keyword\">chỉ số CPI</span>",
+      "Tốc độ tăng của chỉ số PPI"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>\nTốc độ tăng của chỉ số CPI\n<div class=\"note\">CPI (Chỉ số giá tiêu dùng) là thước đo phổ biến nhất để đo lường lạm phát do phản ánh sát sườn chi phí sinh hoạt của người dân.</div>",
+    "tags": [
+      "Lạm phát",
+      "Cấu trúc"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Tỷ giá niêm yết gián tiếp</span> cho biết gì?",
+    "options": [
+      "Một đơn vị ngoại tệ trị giá bao nhiêu USD.",
+      "<span class=\"answer-keyword\">Bao nhiêu đơn vị ngoại tệ</span> cần có để lấy 1 đơn vị nội tệ.",
+      "Bao nhiêu đơn vị nội tệ bạn cần để đổi lấy 1 đơn vị ngoại tệ.",
+      "Bao nhiêu đơn vị tiền tệ bạn phải có để đổi lấy 1 USD."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>\nBao nhiêu đơn vị ngoại tệ cần có để lấy 1 đơn vị nội tệ.\n<div class=\"note\">Niêm yết gián tiếp là lấy nội tệ làm đồng tiền cơ sở (1 đơn vị nội tệ = X đơn vị ngoại tệ).</div>",
+    "tags": [
+      "Tài chính quốc tế",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Vốn tín dụng ngân hàng</span> giúp doanh nghiệp",
+    "options": [
+      "bổ sung thêm vốn lưu động cho các doanh nghiệp theo thời vụ và củng cố hạch toán kinh tế.",
+      "tăng cường hiệu quả kinh tế và khả năng cạnh tranh cho các doanh nghiệp.",
+      "tăng cường hiệu quả kinh tế và <span class=\"answer-keyword\">bổ sung nhu cầu về vốn</span> trong quá trình sản xuất kinh doanh của các doanh nghiệp.",
+      "bổ sung thêm vốn cố định cho các doanh nghiệp, nhất là các Việt Nam trong giai đoạn hiện nay."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>\ntăng cường hiệu quả kinh tế và bổ sung nhu cầu về vốn trong quá trình sản xuất kinh doanh của các doanh nghiệp.\n<div class=\"note\">Đây là vai trò toàn diện nhất của vốn tín dụng đối với hoạt động sản xuất kinh doanh.</div>",
+    "tags": [
+      "Tín dụng và Lãi suất",
+      "Hệ thống"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Lượng tiền cung ứng</span> sẽ thay đổi như thế nào nếu ngân hàng trung ương thực hiện các nghiệp vụ <span class=\"keyword\">bán trên thị trường mở</span> vào lúc mà lãi suất thị trường đang tăng lên?",
+    "options": [
+      "Có thể sẽ giảm",
+      "Có thể sẽ tăng",
+      "Có thể không tăng",
+      "<span class=\"answer-keyword\">Chắc chắn sẽ giảm</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>\nChắc chắn sẽ giảm\n<div class=\"note\">NHTW bán giấy tờ có giá (trái phiếu) sẽ hút tiền mặt về, làm giảm lượng tiền mặt trong lưu thông, bất kể lãi suất đang như thế nào.</div>",
+    "tags": [
+      "Hệ thống ngân hàng",
+      "Logic"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Nghiên cứu mối quan hệ giữa <span class=\"keyword\">cầu tiền tệ sẽ giảm</span> và <span class=\"keyword\">lãi suất tăng</span> để",
+    "options": [
+      "tác động vào cầu tiền tệ để tăng lãi suất nhằm đạt được các mục tiêu như mong đợi.",
+      "thông qua sự tác động vào lãi suất để thu hút vốn đầu tư nước ngoài.",
+      "thông qua sự tác động vào lãi suất để điều tiết cầu tiền tệ để góp phần chống lạm phát.",
+      "<span class=\"answer-keyword\">tác động vào lãi suất</span> nhằm <span class=\"answer-keyword\">điều tiết cầu tiền tệ</span> và ngược lại."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>\ntác động vào lãi suất nhằm điều tiết cầu tiền tệ và ngược lại.\n<div class=\"note\">Lãi suất và cầu tiền tệ có mối quan hệ nghịch biến. Điều chỉnh một yếu tố sẽ là công cụ để điều tiết yếu tố kia trong nền kinh tế.</div>",
+    "tags": [
+      "Tiền tệ",
+      "Logic"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Tỷ giá hối đoái USD/VND</span> có xu hướng <span class=\"keyword\">tăng lên</span>, ai là người <span class=\"keyword\">có lợi</span>?",
+    "options": [
+      "Người đầu tư nước ngoài vào Việt Nam",
+      "<span class=\"answer-keyword\">Người xuất khẩu</span> hàng hóa",
+      "Người nhập khẩu hàng hóa",
+      "Khách du lịch ngoài quốc vào Việt Nam"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>\nNgười xuất khẩu hàng hóa\n<div class=\"note\">USD tăng giá so với VND đồng nghĩa với việc thu được nhiều VND hơn khi xuất khẩu và bán USD, làm tăng lợi nhuận cho người xuất khẩu.</div>",
+    "tags": [
+      "Tài chính quốc tế",
+      "Logic"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Đặc trưng nào khiến cho <span class=\"keyword\">thị trường chứng khoán</span> bị coi là có tính chất <span class=\"keyword\">“may rủi”</span> giống với “sòng bạc”?",
+    "options": [
+      "Rất nhộn nhịp và hấp dẫn, thích hợp với người ưa thích mạo hiểm và phải có rất nhiều tiền.",
+      "Tất cả mọi tính toán đều mang tính <span class=\"answer-keyword\">tương đối</span>.",
+      "Rủi ro cao và tất cả người tham gia đều giàu lên một cách rất nhanh chóng.",
+      "Nếu có vốn lớn và bản lĩnh thì sẽ đảm bảo thắng lợi."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>\nTất cả mọi tính toán đều mang tính tương đối.\n<div class=\"note\">Thị trường bị ảnh hưởng bởi rất nhiều yếu tố bất ngờ nên không một mô hình tính toán nào là tuyệt đối chính xác.</div>",
+    "tags": [
+      "Thị trường Tài chính",
+      "Góc nhìn Đa chiều"
+    ]
   }
 ]
