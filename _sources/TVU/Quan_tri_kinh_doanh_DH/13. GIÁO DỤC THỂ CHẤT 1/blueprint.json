@@ -1,23 +1,24 @@
 {
   "subject": "GIÁO DỤC THỂ CHẤT 1",
-  "version": "1.0",
+  "version": "1.1",
   "author": "The Veteran Professor (AI Agent)",
   "core_focus_80_20": {
     "root_concepts": [
-      "Khẩu lệnh trong Đội hình đội ngũ (phân biệt Dự lệnh và Động lệnh).",
-      "Kỹ thuật 4 giai đoạn của Chạy cự ly ngắn: Xuất phát (thấp), Chạy lao, Chạy giữa quãng và Về đích.",
-      "Kỹ thuật xuất phát cao và nhịp thở trong Chạy cự ly trung bình (2 bước hít vào, 2 bước thở ra).",
-      "Quy định thi đấu cơ bản của Điền kinh (các lỗi phạm quy khi xuất phát, chạy lấn làn)."
+      "Kiến thức cốt lõi về Nhập môn Điền kinh: Lịch sử hình thành (Olympic cổ đại/hiện đại, tổ chức IAAF, nguồn gốc), mục đích của luật thi đấu và đánh giá thành tích.",
+      "Cơ sở của Đội hình đội ngũ: Khẩu lệnh (phân biệt Dự lệnh và Động lệnh), các tư thế cơ bản và thứ tự bài thể dục phát triển chung.",
+      "Kỹ thuật 4 giai đoạn của Chạy cự ly ngắn: Xuất phát (dùng bàn đạp, xuất phát thấp), Chạy lao, Chạy giữa quãng và Về đích. Bao gồm cả kỹ thuật trao - nhận gậy tiếp sức.",
+      "Cơ sở Kỹ thuật Chạy cự ly trung bình: Xuất phát cao, kỹ thuật chạy vòng cua, và nhịp điệu hô hấp (thở đều)."
     ],
     "common_traps": [
-      "Bẫy mô tả động tác (VD: Nhịp 1 làm gì, nhịp 2 làm gì) trong Bài thể dục phát triển chung.",
-      "Nhầm lẫn mục đích cốt lõi của các giai đoạn: Chạy lao (tăng tốc độ) vs Chạy giữa quãng (duy trì tốc độ).",
-      "Bẫy cự ly: Cự ly nào dùng xuất phát thấp (Ngắn: 100m, 200m, 400m), cự ly nào dùng xuất phát cao (Trung bình/Dài: 800m trở lên).",
-      "Đánh tráo kỹ thuật đánh tay, góc độ ngả người trong các giai đoạn chạy."
+      "Nhầm lẫn các mốc sự kiện lịch sử, kỷ lục, và các vận động viên tiêu biểu (VD: Bob Beamon, Usain Bolt, các VĐV Việt Nam nổi bật ở SEA Games/ASIAD).",
+      "Bẫy mô tả thứ tự động tác (VD: động tác đầu tiên là vươn thở, nhịp 1 làm gì) trong Bài thể dục tay không.",
+      "Bẫy cự ly và xuất phát: Ngắn (100m, 200m, 400m) bắt buộc xuất phát thấp, Trung bình/Dài (800m, 1500m) dùng xuất phát cao.",
+      "Đánh tráo mục đích kỹ thuật: Chạy lao (để đạt tốc độ tối đa) vs Chạy giữa quãng (để duy trì tốc độ), vai trò của đánh tay."
     ],
     "high_coverage": [
-      "Sự phân phối thể lực và chiến thuật trong Chạy cự ly trung bình.",
-      "Hiệu quả tác động của các tư thế xuất phát (chân thuận đặt trước hay sau, khoảng cách các bàn đạp) tới thành tích chạy cự ly ngắn."
+      "Các quy định thi đấu, luật phạm quy cơ bản (lỗi xuất phát, lấn làn, rớt gậy tiếp sức, vi phạm luật gió vượt mức).",
+      "Sự phân phối thể lực, chiến thuật và thông số sân bãi (VD: khu vực trao gậy 30m, 1500m tương đương 3.75 vòng sân).",
+      "Vai trò của điền kinh trong thể thao thành tích cao, định hướng chiến lược quốc gia và phong trào cộng đồng."
     ]
   },
   "exam_matrix": [
