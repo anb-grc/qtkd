@@ -1391,21 +1391,6 @@
     "tags": [
       "Mẫu",
       "NHẬP MÔN ĐIỀN KINH",
-      "Nền tảng"
-    ],
-    "question": "Điều kiện <span class=\"keyword\">giúp nữ Việt Nam đạt thành tích</span>:",
-    "options": [
-      "Tâm lý",
-      "Thể hình",
-      "Thể hình, tâm lý và phù hợp sinh lý",
-      "Phù hợp sinh lý"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Thể hình, tâm lý và phù hợp sinh lý</span>  <div class=\"note\">Đầy đủ cả thể hình, tâm lý, sinh lý.</div>"
-  },
-  {
-    "tags": [
-      "Mẫu",
-      "NHẬP MÔN ĐIỀN KINH",
       "Hệ thống"
     ],
     "question": "Nội dung <span class=\"keyword\">Việt Nam đạt thành tích tốt</span> tại SEA Games:",
@@ -1616,69 +1601,6 @@
       "Mẫu",
       "NHẬP MÔN ĐIỀN KINH",
       "Hệ thống"
-    ],
-    "weight": "high"
-  },
-  {
-    "question": "Nội dung <span class=\"keyword\">đưa Việt Nam lần đầu</span> vào <span class=\"keyword\">chung kết ASIAD</span>:",
-    "options": [
-      "200m",
-      "100m",
-      "Nhảy cao",
-      "<span class=\"answer-keyword\">400m rào</span>"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">400m rào</span><div class=\"note\">Vì: 400m rào là lần đầu vào chung kết.</div>",
-    "tags": [
-      "Mẫu",
-      "NHẬP MÔN ĐIỀN KINH",
-      "Nền tảng"
-    ],
-    "weight": "high"
-  },
-  {
-    "question": "<span class=\"keyword\">Nguyễn Văn Lai</span> nhiều lần <span class=\"keyword\">vô địch SEA Games</span> nội dung:",
-    "options": [
-      "<span class=\"answer-keyword\">5000m</span>",
-      "1500m",
-      "Marathon",
-      "800m"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">5000m</span><div class=\"note\">Vì: Vô địch nhiều lần ở 5000m.</div>",
-    "tags": [
-      "Mẫu",
-      "NHẬP MÔN ĐIỀN KINH",
-      "Nền tảng"
-    ],
-    "weight": "high"
-  },
-  {
-    "question": "<span class=\"keyword\">Yếu tố nào ảnh hưởng lớn</span> đến <span class=\"keyword\">thành tích chạy trung bình</span>?",
-    "options": [
-      "Khán giả",
-      "Thời tiết nhẹ",
-      "<span class=\"answer-keyword\">Sức bền</span> và <span class=\"answer-keyword\">VO2max</span>",
-      "Màu giày"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Sức bền</span> và <span class=\"answer-keyword\">VO2max</span><div class=\"note\">Vì: Sức bền quyết định</div>",
-    "tags": [
-      "Mẫu",
-      "KỸ THUẬT CHẠY CỰ LY TRUNG BÌNH",
-      "Phân luồng"
-    ]
-  },
-  {
-    "question": "<span class=\"keyword\">Nguyễn Thị Oanh</span> giành <span class=\"keyword\">4 Huy Chương Vàng SEA Games 32</span> ở các nội dung:",
-    "options": [
-      "400–800–1500–5000m",
-      "<span class=\"answer-keyword\">800–1500–3000–5000m</span>",
-      "400–800–1500–3000m",
-      "1500–3000–5000–marathon"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">800–1500–3000–5000m</span><div class=\"note\">Vì: 800m, 1500m, 3000m, 5000m là thế mạnh của Oanh.</div>",
-    "tags": [
-      "Mẫu",
-      "NHẬP MÔN ĐIỀN KINH",
-      "Nền tảng"
     ],
     "weight": "high"
   },
@@ -2011,53 +1933,6 @@
     "weight": "high"
   },
   {
-    "question": "<span class=\"keyword\">Nam vận động viên marathon nổi bật</span> của Việt Nam là:",
-    "options": [
-      "<span class=\"answer-keyword\">Hoàng Nguyên Thanh</span>",
-      "Lê Văn Phúc",
-      "Bùi Văn Hiếu",
-      "Nguyễn Văn Long"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Hoàng Nguyên Thanh</span> <div class=\"note\">Vì: Hoàng Nguyên Thanh nổi bật marathon.</div>",
-    "tags": [
-      "Đề Thi",
-      "NHẬP MÔN ĐIỀN KINH",
-      "Nền tảng"
-    ],
-    "weight": "high"
-  },
-  {
-    "question": "<span class=\"keyword\">Thế mạnh truyền thống điền kinh Việt Nam</span>:",
-    "options": [
-      "Sức mạnh",
-      "<span class=\"answer-keyword\">Sức bền</span>",
-      "Tốc độ",
-      "Linh hoạt"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Sức bền</span> <div class=\"note\">Vì: Sức bền là thế mạnh.</div>",
-    "tags": [
-      "Đề Thi",
-      "NHẬP MÔN ĐIỀN KINH",
-      "Nền tảng"
-    ]
-  },
-  {
-    "question": "<span class=\"keyword\">Xuất phát trong chạy trung bình</span> thường là gì?",
-    "options": [
-      "Xuất phát thấp",
-      "Xuất phát ngồi",
-      "<span class=\"answer-keyword\">Xuất phát cao</span>",
-      "Không xuất phát"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Xuất phát cao</span> <div class=\"note\">Vì: Dùng xuất phát cao</div>",
-    "tags": [
-      "Đề Thi",
-      "KỸ THUẬT CHẠY CỰ LY TRUNG BÌNH",
-      "Cấu trúc"
-    ],
-    "weight": "high"
-  },
-  {
     "question": "<span class=\"keyword\">Lê Tú Chinh</span> là vận động viên Việt Nam hiếm hoi đạt chuẩn:",
     "options": [
       "<span class=\"answer-keyword\">Olympic</span>",
@@ -2066,38 +1941,6 @@
       "ASIAD"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Olympic</span> <div class=\"note\">Vì: Đạt chuẩn Olympic ở nội dung 100m nữ.</div>",
-    "tags": [
-      "Đề Thi",
-      "NHẬP MÔN ĐIỀN KINH",
-      "Nền tảng"
-    ],
-    "weight": "high"
-  },
-  {
-    "question": "<span class=\"keyword\">Thành tích cao nhất</span> của Việt Nam tại ASIAD điền kinh là:",
-    "options": [
-      "Không huy chương",
-      "Huy Chương Vàng",
-      "<span class=\"answer-keyword\">Huy Chương Bạc</span>",
-      "Huy Chương Đồng"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Huy Chương Bạc</span> <div class=\"note\">Vì: Cao nhất tại ASIAD là Huy Chương Bạc</div>",
-    "tags": [
-      "Đề Thi",
-      "NHẬP MÔN ĐIỀN KINH",
-      "Nền tảng"
-    ],
-    "weight": "high"
-  },
-  {
-    "question": "<span class=\"keyword\">Nguyễn Thị Oanh</span> nổi bật ở các cự ly:",
-    "options": [
-      "Marathon",
-      "<span class=\"answer-keyword\">800m–1500m–3000m</span>",
-      "100m–200m",
-      "400m–800m"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">800m–1500m–3000m</span> <div class=\"note\">Vì: 800m, 1500m, 3000m là sở trường của Oanh.</div>",
     "tags": [
       "Đề Thi",
       "NHẬP MÔN ĐIỀN KINH",
@@ -2625,38 +2468,6 @@
     "weight": "high"
   },
   {
-    "weight": "high",
-    "question": "Vận động viên Việt Nam nào đã <span class=\"keyword\">dự Olympic</span> điền kinh:",
-    "options": [
-      "Lê Tú Chinh",
-      "Quách Thị Lan",
-      "Trương Thanh Hằng",
-      "Trương Thanh Hằng, Lê Tú Chinh và Quách Thị Lan"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Trương Thanh Hằng, Lê Tú Chinh và Quách Thị Lan</span><div class=\"note\">Cả ba đều từng dự Olympic.</div>",
-    "tags": [
-      "Mẫu",
-      "NHẬP MÔN ĐIỀN KINH",
-      "Nền tảng"
-    ]
-  },
-  {
-    "question": "Nam đầu tiên của Việt Nam giành Huy Chương Vàng <span class=\"keyword\">marathon SEA Games</span>:",
-    "options": [
-      "Nguyễn Văn Lai",
-      "Hoàng Nguyên Thanh",
-      "Trịnh Quốc Lượng",
-      "Lê Văn Phúc"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Hoàng Nguyên Thanh</span><div class=\"note\">Hoàng Nguyên Thanh là nam đầu tiên vô địch marathon.</div>",
-    "tags": [
-      "Mẫu",
-      "NHẬP MÔN ĐIỀN KINH",
-      "Nền tảng"
-    ],
-    "weight": "high"
-  },
-  {
     "question": "Điền kinh Việt Nam <span class=\"keyword\">phát triển mạnh</span> nhóm vận động viên:",
     "options": [
       "Nam",
@@ -2689,68 +2500,6 @@
     "weight": "high"
   },
   {
-    "question": "Nam vận động viên <span class=\"keyword\">nổi bật cự ly trung bình</span> của Việt Nam là:",
-    "options": [
-      "Lê Tiến Long",
-      "Trần Văn Lâm",
-      "Bùi Văn Hiếu",
-      "Nguyễn Văn Lai"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Nguyễn Văn Lai</span><div class=\"note\">Nguyễn Văn Lai nổi bật trung bình.</div>",
-    "tags": [
-      "Mẫu",
-      "KỸ THUẬT CHẠY CỰ LY TRUNG BÌNH",
-      "Nền tảng"
-    ],
-    "weight": "high"
-  },
-  {
-    "question": "<span class=\"keyword\">Lê Tú Chinh</span> nổi nhất ở nội dung nào?",
-    "options": [
-      "100m",
-      "400m",
-      "800m",
-      "200m"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">100m</span><div class=\"note\">Lê Tú Chinh nhanh nhất 100m nữ.</div>",
-    "tags": [
-      "Mẫu",
-      "KỸ THUẬT CHẠY CỰ LY NGẮN",
-      "Nền tảng"
-    ],
-    "weight": "high"
-  },
-  {
-    "question": "Điền kinh Việt Nam bắt đầu phát triển có <span class=\"keyword\">hệ thống mạnh mẽ</span> từ giai đoạn:",
-    "options": [
-      "1954–1975",
-      "Sau năm 1975",
-      "1945–1954",
-      "Trước năm 1945"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Sau năm 1975</span><div class=\"note\">Sau 1975 điền kinh phát triển mạnh.</div>",
-    "tags": [
-      "Mẫu",
-      "NHẬP MÔN ĐIỀN KINH",
-      "Hệ thống"
-    ]
-  },
-  {
-    "question": "<span class=\"keyword\">Vũ Bích Hường</span> nổi bật ở nội dung nào?",
-    "options": [
-      "Nhảy ba bước",
-      "Nhảy cao",
-      "Nhảy sào",
-      "Nhảy xa"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Nhảy sào</span><div class=\"note\">Hường mạnh ở nhảy sào.</div>",
-    "tags": [
-      "Mẫu",
-      "NHẬP MÔN ĐIỀN KINH",
-      "Nền tảng"
-    ]
-  },
-  {
     "weight": "high",
     "question": "<span class=\"keyword\">Tiếp sức 4×400m nữ</span> Việt Nam từng đạt:",
     "options": [
@@ -2760,6 +2509,320 @@
       "Kỷ lục thế giới"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Huy Chương Bạc ASIAD</span><div class=\"note\">Đội nữ đạt Huy Chương Bạc ASIAD tiếp sức 4×400m.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Nguyễn Văn Lai nhiều lần vô địch <span class=\"keyword\">SEA Games</span> nội dung:",
+    "options": [
+      "Marathon",
+      "5000m",
+      "1500m",
+      "800m"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">5000m</span><div class=\"note\">Vì: Vô địch nhiều lần ở 5000m.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Nam đầu tiên</span> của Việt Nam giành Huy Chương Vàng <span class=\"keyword\">marathon</span> SEA Games:",
+    "options": [
+      "Nguyễn Văn Lai",
+      "Hoàng Nguyên Thanh",
+      "Lê Văn Phúc",
+      "Trịnh Quốc Lượng"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Hoàng Nguyên Thanh</span><div class=\"note\">Vì: Hoàng Nguyên Thanh là nam đầu tiên vô địch marathon.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "question": "<span class=\"keyword\">Điều kiện</span> giúp nữ Việt Nam <span class=\"keyword\">đạt thành tích</span>:",
+    "options": [
+      "Tâm lý",
+      "Thể hình",
+      "Phù hợp sinh lý",
+      "Thể hình, tâm lý và phù hợp sinh lý"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Thể hình, tâm lý và phù hợp sinh lý</span><div class=\"note\">Vì: Đầy đủ cả thể hình, tâm lý, sinh lý.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Thành tích cao nhất</span> của Việt Nam tại <span class=\"keyword\">ASIAD điền kinh</span> là:",
+    "options": [
+      "Huy Chương Bạc",
+      "Huy Chương Đồng",
+      "Không huy chương",
+      "Huy Chương Vàng"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Huy Chương Bạc</span><div class=\"note\">Vì: Cao nhất tại ASIAD là Huy Chương Bạc</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Điền kinh là môn mang về <span class=\"keyword\">nhiều Huy Chương Vàng nhất</span> cho Việt Nam tại SEA Games vì:",
+    "options": [
+      "Nhiều nội dung",
+      "Thi đấu dễ",
+      "Luật đơn giản",
+      "Ít đối thủ"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Nhiều nội dung</span><div class=\"note\">Vì: Có nhiều nội dung thi đấu, tăng cơ hội Huy Chương Vàng.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Nguyễn Thị Oanh giành <span class=\"keyword\">4 Huy Chương Vàng</span> SEA Games 32 ở các nội dung:",
+    "options": [
+      "800–1500–3000–5000m",
+      "400–800–1500–3000m",
+      "1500–3000–5000–marathon",
+      "400–800–1500–5000m"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">800–1500–3000–5000m</span><div class=\"note\">Vì: 800m, 1500m, 3000m, 5000m là thế mạnh của Oanh.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Nguyễn Thị Oanh <span class=\"keyword\">nổi bật</span> ở các cự ly:",
+    "options": [
+      "Marathon",
+      "100m–200m",
+      "400m–800m",
+      "800m–1500m–3000m"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">800m–1500m–3000m</span><div class=\"note\">Vì: 800m, 1500m, 3000m là sở trường của Oanh.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Lê Tú Chinh <span class=\"keyword\">nổi nhất</span> ở nội dung nào?",
+    "options": [
+      "100m",
+      "200m",
+      "400m",
+      "800m"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">100m</span><div class=\"note\">Vì: Lê Tú Chinh nhanh nhất 100m nữ.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "question": "Điền kinh Việt Nam bắt đầu <span class=\"keyword\">phát triển có hệ thống</span> mạnh mẽ từ giai đoạn:",
+    "options": [
+      "1945–1954",
+      "Sau năm 1975",
+      "Trước năm 1945",
+      "1954–1975"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Sau năm 1975</span><div class=\"note\">Vì: Sau 1975 điền kinh phát triển mạnh.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Vận động viên điền kinh Việt Nam <span class=\"keyword\">đầu tiên</span> giành Huy Chương Vàng SEA Games là:",
+    "options": [
+      "Nguyễn Thị Oanh",
+      "Vũ Bích Hường",
+      "Trương Thanh Hằng",
+      "Nguyễn Tiến Cường"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Nguyễn Tiến Cường</span><div class=\"note\">Vì: Nguyễn Tiến Cường giành Huy Chương Vàng đầu tiên.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "question": "<span class=\"keyword\">Thế mạnh truyền thống</span> điền kinh Việt Nam:",
+    "options": [
+      "Sức mạnh",
+      "Sức bền",
+      "Tốc độ",
+      "Linh hoạt"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Sức bền</span><div class=\"note\">Vì: Sức bền là thế mạnh.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Thành tích điền kinh Việt Nam <span class=\"keyword\">phản ánh rõ nhất</span>:",
+    "options": [
+      "Phong trào cơ sở",
+      "Trình độ huấn luyện",
+      "Trình độ huấn luyện, đầu tư thể thao và phong trào cơ sở",
+      "Đầu tư thể thao"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Trình độ huấn luyện, đầu tư thể thao và phong trào cơ sở</span><div class=\"note\">Vì: Đánh giá toàn diện phong trào, huấn luyện, đầu tư.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Nam vận động viên <span class=\"keyword\">nổi bật cự ly trung bình</span> của Việt Nam là:",
+    "options": [
+      "Lê Tiến Long",
+      "Trần Văn Lâm",
+      "Bùi Văn Hiếu",
+      "Nguyễn Văn Lai"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Nguyễn Văn Lai</span><div class=\"note\">Vì: Nguyễn Văn Lai nổi bật trung bình.</div>",
+    "tags": [
+      "Mẫu",
+      "KỸ THUẬT CHẠY CỰ LY TRUNG BÌNH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Nam vận động viên <span class=\"keyword\">marathon nổi bật</span> của Việt Nam là:",
+    "options": [
+      "Hoàng Nguyên Thanh",
+      "Lê Văn Phúc",
+      "Nguyễn Văn Long",
+      "Bùi Văn Hiếu"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Hoàng Nguyên Thanh</span><div class=\"note\">Vì: Hoàng Nguyên Thanh nổi bật marathon.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "question": "<span class=\"keyword\">Yếu tố</span> nào ảnh hưởng lớn đến thành tích chạy trung bình?",
+    "options": [
+      "Khán giả",
+      "Sức bền và VO2max",
+      "Màu giày",
+      "Thời tiết nhẹ"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Sức bền và VO2max</span><div class=\"note\">Vì: Sức bền quyết định</div>",
+    "tags": [
+      "Mẫu",
+      "KỸ THUẬT CHẠY CỰ LY TRUNG BÌNH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Nội dung đưa Việt Nam <span class=\"keyword\">lần đầu vào chung kết</span> ASIAD:",
+    "options": [
+      "400m rào",
+      "Nhảy cao",
+      "200m",
+      "100m"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">400m rào</span><div class=\"note\">Vì: 400m rào là lần đầu vào chung kết.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Xuất phát</span> trong chạy trung bình thường là gì?",
+    "options": [
+      "Xuất phát ngồi",
+      "Xuất phát cao",
+      "Không xuất phát",
+      "Xuất phát thấp"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Xuất phát cao</span><div class=\"note\">Vì: Dùng xuất phát cao</div>",
+    "tags": [
+      "Mẫu",
+      "KỸ THUẬT CHẠY CỰ LY TRUNG BÌNH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Vận động viên Việt Nam nào <span class=\"keyword\">đã dự Olympic</span> điền kinh:",
+    "options": [
+      "Trương Thanh Hằng",
+      "Lê Tú Chinh",
+      "Quách Thị Lan",
+      "Trương Thanh Hằng, Lê Tú Chinh và Quách Thị Lan"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Trương Thanh Hằng, Lê Tú Chinh và Quách Thị Lan</span><div class=\"note\">Vì: Cả ba đều từng dự Olympic.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "question": "Nội dung điền kinh Việt Nam <span class=\"keyword\">gặp khó nhất</span>:",
+    "options": [
+      "Đi bộ",
+      "Chạy ngắn",
+      "Chạy dài",
+      "Nhảy"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Chạy ngắn</span><div class=\"note\">Vì: Yếu ở các nội dung chạy tốc độ.</div>",
+    "tags": [
+      "Mẫu",
+      "NHẬP MÔN ĐIỀN KINH",
+      "Nền tảng"
+    ]
+  },
+  {
+    "question": "Vũ Bích Hường <span class=\"keyword\">nổi bật</span> ở nội dung nào?",
+    "options": [
+      "Nhảy sào",
+      "Nhảy cao",
+      "Nhảy ba bước",
+      "Nhảy xa"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Nhảy sào</span><div class=\"note\">Vì: Hường mạnh ở nhảy sào.</div>",
     "tags": [
       "Mẫu",
       "NHẬP MÔN ĐIỀN KINH",
