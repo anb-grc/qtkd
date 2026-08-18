@@ -35,3 +35,4 @@ Khi chạy xong luồng xử lý câu hỏi mới, Agent tự động thêm 1 d�
 - [2026-08-18] [GIÁO DỤC THỂ CHẤT 1] Tái cơ cấu toàn bộ mảng tag và phân bổ tỷ lệ weight: high theo sát Ma Trận 80/20 trong blueprint.json.
 
 - Đã rà soát và chuẩn hóa lại toàn bộ thẻ `weight` (High 80/20) cho các môn KTVM, GDTC1, TCTT, THUD theo SSoT mới.
+- [2026-08-18] [GIÁO DỤC THỂ CHẤT 1] Xóa bỏ khoảng trắng thừa (double space) giữa các tag HTML và làm sạch data options theo yêu cầu của User.
