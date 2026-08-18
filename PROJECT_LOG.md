@@ -28,3 +28,6 @@ Khi chạy xong luồng xử lý câu hỏi mới, Agent tự động thêm 1 d�
 - Đã xử lý lô 40 câu hỏi mới theo SSoT.
 - Lọc trùng: Phát hiện 27 câu trùng lặp, giữ lại 13 câu mới.
 - Tổng câu hỏi trong ngân hàng KTVM hiện tại đã được cập nhật.
+
+- Added 24 questions to 15. TÀI CHÍNH TIỀN TỆ (Staged from 40). Total: 154
+- Added 11 questions to 14. KINH TẾ VĨ MÔ. Total: 130

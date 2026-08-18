@@ -1877,5 +1877,181 @@
       "Tổng Quan & Đo Lường Tăng Trưởng",
       "Góc nhìn Đa chiều"
     ]
+  },
+  {
+    "weight": "high",
+    "question": "Nếu <span class=\"keyword\">GDP bình quân</span> thực tế năm 2000 là 18,073$ và năm 2001 là 18,635$ thì <span class=\"keyword\">tỷ lệ tăng trưởng</span> là bao nhiêu?",
+    "options": [
+      "18.6%",
+      "5.63%",
+      "3.0%",
+      "<span class=\"answer-keyword\">3.1%</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">3.1%</span> <div class=\"note\">Tỷ lệ tăng trưởng = (18,635 - 18,073) / 18,073 * 100% ≈ 3.1%.</div>",
+    "tags": [
+      "Kiến thức",
+      "Tổng Quan & Đo Lường Tăng Trưởng",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Khoản mục nào</span> sau đây được tính trực tiếp trong GDP theo <span class=\"keyword\">cách tiếp cận chi tiêu</span>?",
+    "options": [
+      "Giá trị hàng hóa trung gian",
+      "Công việc nội trợ",
+      "Hoạt động mua bán ma túy bất hợp pháp",
+      "<span class=\"answer-keyword\">Dịch vụ tư vấn</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Dịch vụ tư vấn</span> <div class=\"note\">Theo cách tiếp cận chi tiêu, GDP đo lường tổng chi tiêu cho hàng hóa và dịch vụ cuối cùng. Dịch vụ tư vấn là dịch vụ cuối cùng hợp pháp. Hàng hóa trung gian, công việc nội trợ, và hoạt động phi pháp không được tính vào GDP.</div>",
+    "tags": [
+      "Kiến thức",
+      "Tổng Quan & Đo Lường Tăng Trưởng",
+      "Cấu trúc"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Theo lý thuyết của <span class=\"keyword\">Keynes</span>, những chính sách nào sau đây thích hợp nhất nhằm <span class=\"keyword\">giảm tỷ lệ thất nghiệp</span>?",
+    "options": [
+      "Tăng thuế thu nhập và tăng số mua hàng hóa của Chính phủ.",
+      "Tăng thuế và giảm số mua hàng hóa của Chính phủ.",
+      "Phá giá, giảm thuế và giảm số mua hàng hóa của Chính phủ.",
+      "<span class=\"answer-keyword\">Giảm thuế</span> và <span class=\"answer-keyword\">gia tăng số mua</span> hàng hóa của Chính phủ."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Giảm thuế</span> và <span class=\"answer-keyword\">gia tăng số mua</span> hàng hóa của Chính phủ. <div class=\"note\">Để giảm thất nghiệp, cần kích thích tổng cầu (mở rộng tài khóa) bằng cách giảm thuế để tăng tiêu dùng và đầu tư, đồng thời tăng chi tiêu (số mua hàng hóa) của Chính phủ.</div>",
+    "tags": [
+      "Kiến thức",
+      "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Trên đồ thị cung cầu tiền tệ (trục tung là lãi suất, trục hoành là lượng tiền), sự <span class=\"keyword\">cắt giảm thu nhập</span> làm:",
+    "options": [
+      "<span class=\"answer-keyword\">Dịch chuyển đường cầu tiền</span> sang trái và làm <span class=\"answer-keyword\">giảm lãi suất</span> cân bằng",
+      "Dịch chuyển đường cầu tiền sang phải và làm giảm lãi suất cân bằng",
+      "Dịch chuyển đường cầu tiền sang trái và làm tăng lãi suất cân bằng",
+      "Dịch chuyển đường cầu tiền sang phải và làm tăng lãi suất cân bằng"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Dịch chuyển đường cầu tiền</span> sang trái và làm <span class=\"answer-keyword\">giảm lãi suất</span> cân bằng <div class=\"note\">Khi thu nhập giảm, nhu cầu giữ tiền để giao dịch giảm xuống, làm đường cầu tiền dịch chuyển sang trái. Cung tiền không đổi, dẫn đến lãi suất cân bằng giảm.</div>",
+    "tags": [
+      "Kiến thức",
+      "Thị Trường Tiền Tệ & Tài Chính Quốc Tế",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Giả sử phương trình đường <span class=\"keyword\">IS là: Y = 2400 – 200r</span> và <span class=\"keyword\">LM: r = -6 + 0,005Y</span>. Sản lượng và lãi suất cân bằng sẽ là:",
+    "options": [
+      "r = 3%, Y = 3600",
+      "<span class=\"answer-keyword\">r = 3%</span>, <span class=\"answer-keyword\">Y = 1800</span>",
+      "r = 5%, Y = 1800",
+      "r = 4%, Y = 1800"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">r = 3%</span>, <span class=\"answer-keyword\">Y = 1800</span> <div class=\"note\">Thế r từ LM vào IS: Y = 2400 - 200(-6 + 0.005Y) = 2400 + 1200 - 1Y. Giải ra 2Y = 3600 ➔ Y = 1800. Suy ra r = -6 + 0.005*1800 = 3%.</div>",
+    "tags": [
+      "Kiến thức",
+      "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô",
+      "Hệ thống"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Với các hàm số: C = 100 + 0,8Yd; I = 240 + 0,16Y – 80r; X = 210; M = 50 + 0,2Y; G = 500; T = 50 + 0,2Y. <span class=\"keyword\">Phương trình đường IS</span> có dạng?",
+    "options": [
+      "Y = 2400 + 320r",
+      "Y = 2400 - 320r",
+      "Y = 2400 + 200r",
+      "<span class=\"answer-keyword\">Y = 2400 – 200r</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Y = 2400 – 200r</span> <div class=\"note\">Yd = Y - T = Y - 50 - 0.2Y = 0.8Y - 50. Tổng cầu AD = C + I + G + X - M = 100 + 0.8(0.8Y - 50) + 240 + 0.16Y - 80r + 500 + 210 - (50 + 0.2Y). AD = 960 + 0.6Y - 80r. Đường IS khi Y = AD ➔ Y = 960 + 0.6Y - 80r ➔ 0.4Y = 960 - 80r ➔ Y = 2400 - 200r.</div>",
+    "tags": [
+      "Kiến thức",
+      "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô",
+      "Hệ thống"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Câu nhận định nào về <span class=\"keyword\">tốc độ tăng trưởng</span> và <span class=\"keyword\">GDP bình quân</span> là đúng?",
+    "options": [
+      "Các nước có thể có mức GDP bình quân khác nhau nhưng đều tăng trưởng với tỷ lệ như nhau.",
+      "Các nước đều có tốc độ tăng trưởng và mức sản lượng như nhau vì mỗi nước đều có được các nhân tố sản xuất giống nhau.",
+      "<span class=\"answer-keyword\">Mức GDP bình quân</span> cũng như tốc độ tăng trưởng có sự khác nhau lớn, và theo thời gian, <span class=\"answer-keyword\">các nước nghèo</span> có thể trở nên giàu một cách tương đối.",
+      "Các nước có thể có tỷ lệ tăng trưởng khác nhau nhưng mức GDP bình quân của mỗi nước là như nhau."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Mức GDP bình quân</span> cũng như tốc độ tăng trưởng có sự khác nhau lớn, và theo thời gian, <span class=\"answer-keyword\">các nước nghèo</span> có thể trở nên giàu một cách tương đối. <div class=\"note\">Thực tế cho thấy GDP bình quân và tốc độ tăng trưởng của các quốc gia rất khác biệt. Nhờ hiệu ứng bắt kịp (catch-up effect), các nước nghèo có khả năng tăng trưởng nhanh hơn để dần thu hẹp khoảng cách.</div>",
+    "tags": [
+      "Kiến thức",
+      "Tổng Quan & Đo Lường Tăng Trưởng",
+      "Góc nhìn Đa chiều"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Một nền kinh tế trong trạng thái <span class=\"keyword\">toàn dụng nhân công</span> có nghĩa là:",
+    "options": [
+      "Không còn thất nghiệp và không còn lạm phát",
+      "Không còn thất nghiệp nhưng có thể còn lạm phát",
+      "Không còn lạm phát nhưng có thể còn thất nghiệp",
+      "<span class=\"answer-keyword\">Vẫn còn</span> một tỷ lệ lạm phát và <span class=\"answer-keyword\">tỷ lệ thất nghiệp nhất định</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Vẫn còn</span> một tỷ lệ lạm phát và <span class=\"answer-keyword\">tỷ lệ thất nghiệp nhất định</span> <div class=\"note\">Trạng thái toàn dụng nhân công (hay sản lượng tiềm năng) là khi nền kinh tế chỉ còn thất nghiệp tự nhiên (không bằng 0) và vẫn tồn tại một mức lạm phát ổn định.</div>",
+    "tags": [
+      "Kiến thức",
+      "Cú Sốc Vĩ Mô: Lạm Phát & Thất Nghiệp",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Điểm nào dưới đây <span class=\"keyword\">KHÔNG đẩy cán cân thanh toán</span> của Việt Nam đến thặng dư trong tài khoản giao dịch?",
+    "options": [
+      "Thuê ít phim Mỹ hơn để chiếu ở Việt Nam, chi phí cho mỗi cuốn phim giữ nguyên",
+      "<span class=\"answer-keyword\">Bán những khoản đầu tư</span> của Việt Nam ở ngành <span class=\"answer-keyword\">công nghiệp Campuchia</span>",
+      "Tăng cổ tức đầu tư của Việt Nam vào Lào",
+      "Tăng thu nhập từ xuất khẩu nhờ bán đồ cổ sang Mỹ"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Bán những khoản đầu tư</span> của Việt Nam ở ngành <span class=\"answer-keyword\">công nghiệp Campuchia</span> <div class=\"note\">Bán khoản đầu tư (tài sản) ở nước ngoài thuộc về Tài khoản Vốn (Capital Account), không thuộc Tài khoản Giao dịch vãng lai (Current Account), do đó không làm tăng thặng dư của tài khoản giao dịch.</div>",
+    "tags": [
+      "Kiến thức",
+      "Thị Trường Tiền Tệ & Tài Chính Quốc Tế",
+      "Giới hạn & Rủi ro"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Theo số liệu của Tổng cục Thống kê <span class=\"keyword\">tốc độ tăng GDP</span> thực tế của Việt Nam năm 2006 là <span class=\"keyword\">8,2%</span>. Điều đó có nghĩa là:",
+    "options": [
+      "GDP tính theo giá cố định của năm 2006 bằng 108,2% so với năm gốc.",
+      "GDP danh nghĩa của năm 2006 bằng 108,2% so với năm 2005.",
+      "<span class=\"answer-keyword\">GDP tính theo giá cố định</span> của năm 2006 bằng <span class=\"answer-keyword\">108,2%</span> so với <span class=\"answer-keyword\">năm 2005</span>.",
+      "GDP danh nghĩa của năm 2006 bằng 108,2% so với năm gốc."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">GDP tính theo giá cố định</span> của năm 2006 bằng <span class=\"answer-keyword\">108,2%</span> so với <span class=\"answer-keyword\">năm 2005</span>. <div class=\"note\">Tốc độ tăng trưởng GDP thực tế đo lường dựa trên GDP thực tế (tính theo giá cố định). Tăng 8,2% nghĩa là GDP thực tế năm 2006 bằng 108,2% (100% + 8,2%) so với năm liền kề trước đó (2005).</div>",
+    "tags": [
+      "Kiến thức",
+      "Tổng Quan & Đo Lường Tăng Trưởng",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Nếu khuynh hướng tiêu dùng biên theo thu nhập khả dụng là 0,8, đầu tư biên theo sản lượng là 0,2, thuế biên là 0,2, nhập khẩu biên là 0,14. <span class=\"keyword\">Số nhân của thuế</span> là:",
+    "options": [
+      "<span class=\"answer-keyword\">-2,67</span>",
+      "3,33",
+      "2,67",
+      "-3,33"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">-2,67</span> <div class=\"note\">Số nhân tổng cầu k = 1 / [1 - Cm(1 - Tm) - Im + Mm] = 1 / [1 - 0.8*(1 - 0.2) - 0.2 + 0.14] = 1 / [1 - 0.64 - 0.2 + 0.14] = 1 / 0.3 = 3.33. Số nhân của thuế (mt) = -Cm * k = -0.8 * 3.33 = -2.664 ≈ -2.67.</div>",
+    "tags": [
+      "Kiến thức",
+      "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô",
+      "Logic & Nguyên tắc"
+    ]
   }
 ]
