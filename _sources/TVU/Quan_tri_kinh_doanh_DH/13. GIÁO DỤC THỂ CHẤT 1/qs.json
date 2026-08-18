@@ -1444,7 +1444,7 @@
     "weight": "high"
   },
   {
-    "question": "<span class=\"keyword\">Giải vô địch điền kinh thế giới đầu tiên</span> tổ chức năm:",
+    "question": "<span class=\"keyword\">Giải vô địch điền kinh thế giới</span> đầu tiên tổ chức năm:",
     "options": [
       "<span class=\"answer-keyword\">1983</span>",
       "1991",
@@ -1764,7 +1764,7 @@
     "weight": "high"
   },
   {
-    "question": "Điền kinh xuất hiện ngay từ <span class=\"keyword\">kỳ Olympic hiện đại đầu tiên năm 1896</span> tại:",
+    "question": "Điền kinh xuất hiện ngay từ <span class=\"keyword\">Olympic hiện đại</span> đầu tiên năm 1896 tại:",
     "options": [
       "Rome",
       "Paris",
@@ -1839,7 +1839,7 @@
     "weight": "high"
   },
   {
-    "question": "<span class=\"keyword\">Nội dung giúp Việt Nam đạt thành tích tốt</span> tại SEA Games là:",
+    "question": "<span class=\"keyword\">Nội dung</span> giúp Việt Nam đạt thành tích tốt tại SEA Games là:",
     "options": [
       "Chạy ngắn",
       "Ném lao",
@@ -2664,7 +2664,7 @@
     ]
   },
   {
-    "question": "<p><span class=\"keyword\">Châu lục thống trị cự ly trung bình</span>, dài từ TK XX?</p>",
+    "question": "<p><span class=\"keyword\">Châu lục</span> thống trị cự ly trung bình, dài từ TK XX?</p>",
     "options": [
       "Châu Âu",
       "<span class=\"answer-keyword\">Châu Phi</span>",
@@ -2679,7 +2679,7 @@
   },
   {
     "weight": "high",
-    "question": "<p><span class=\"keyword\">Quyết định cuối trong điền kinh thuộc về</span>:</p>",
+    "question": "<p><span class=\"keyword\">Quyết định cuối</span> trong điền kinh thuộc về:</p>",
     "options": [
       "HLV",
       "Ban huấn luyện",
@@ -2737,7 +2737,7 @@
   },
   {
     "weight": "high",
-    "question": "<p><span class=\"keyword\">Vận động viên xuất phát sớm sẽ bị</span>:</p>",
+    "question": "<p>Vận động viên <span class=\"keyword\">xuất phát sớm</span> sẽ bị:</p>",
     "options": [
       "Trừ điểm",
       "Chạy lại",
@@ -2752,7 +2752,7 @@
   },
   {
     "weight": "high",
-    "question": "<p><span class=\"keyword\">Xuất phát sớm xác định khi vận động viên phản ứng dưới</span>:</p>",
+    "question": "<p><span class=\"keyword\">Xuất phát sớm</span> xác định khi vận động viên phản ứng dưới:</p>",
     "options": [
       "0,20 giây",
       "<span class=\"answer-keyword\">0,10 giây</span>",
@@ -2767,7 +2767,7 @@
   },
   {
     "weight": "high",
-    "question": "<p><span class=\"keyword\">Tên gọi mới của IAAF từ năm 2019 là</span>:</p>",
+    "question": "<p><span class=\"keyword\">Tên gọi mới</span> của IAAF từ năm 2019 là:</p>",
     "options": [
       "International Athletics",
       "Athletics World",
@@ -2782,7 +2782,7 @@
   },
   {
     "weight": "high",
-    "question": "<p><span class=\"keyword\">Bolt giành Huy Chương Vàng 100m Olympic các năm</span>:</p>",
+    "question": "<p>Bolt giành Huy Chương Vàng <span class=\"keyword\">100m Olympic</span> các năm:</p>",
     "options": [
       "2012–2016–2021",
       "<span class=\"answer-keyword\">2008–2012–2016</span>",
@@ -2855,7 +2855,7 @@
     ]
   },
   {
-    "question": "<p><span class=\"keyword\">Thành tích điền kinh đại hội có ý nghĩa</span>:</p>",
+    "question": "<p>Thành tích điền kinh đại hội có <span class=\"keyword\">ý nghĩa</span>:</p>",
     "options": [
       "Xã hội",
       "<span class=\"answer-keyword\">Thể thao, giáo dục và xã hội</span>",
@@ -2870,7 +2870,7 @@
   },
   {
     "weight": "high",
-    "question": "<p><span class=\"keyword\">Thành tích giải Vô địch Thế giới có giá trị so Olympic là</span>:</p>",
+    "question": "<p>Thành tích giải Vô địch Thế giới có <span class=\"keyword\">giá trị</span> so Olympic là:</p>",
     "options": [
       "Thử nghiệm",
       "Thấp hơn nhiều",
