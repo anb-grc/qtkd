@@ -1974,5 +1974,61 @@
       "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô",
       "Logic & Nguyên tắc"
     ]
+  },
+  {
+    "question": "<span class=\"keyword\">Đường BP</span> được định nghĩa là một đường tập hợp những phối hợp giữa lãi suất và sản lượng mà ở đó:",
+    "options": [
+      "Thị trường hàng hóa cân bằng",
+      "<span class=\"answer-keyword\">Cán cân thanh toán</span> cân bằng",
+      "Thị trường tiền tệ cân bằng",
+      "Cán cân thương mại cân bằng"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Cán cân thanh toán</span> cân bằng<div class=\"note\">Đường BP (Balance of Payments) là tập hợp các điểm phối hợp giữa lãi suất và sản lượng mà tại đó cán cân thanh toán quốc tế của một quốc gia đạt trạng thái cân bằng.</div>",
+    "tags": [
+      "Kiến thức",
+      "Thị Trường Tiền Tệ & Tài Chính Quốc Tế"
+    ]
+  },
+  {
+    "question": "Khi chính phủ <span class=\"keyword\">tăng thuế</span> đánh vào hàng tiêu dùng <span class=\"keyword\">nhập khẩu</span>:",
+    "options": [
+      "<span class=\"answer-keyword\">Đường tổng cầu</span> dịch chuyển <span class=\"answer-keyword\">sang phải</span>",
+      "Đường tổng cầu dịch chuyển sang trái",
+      "Đường tổng cung dịch chuyển sang phải",
+      "Đường tổng cung dịch chuyển sang trái"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Đường tổng cầu</span> dịch chuyển <span class=\"answer-keyword\">sang phải</span><div class=\"note\">Tăng thuế hàng nhập khẩu làm giảm nhập khẩu, khuyến khích tiêu dùng hàng nội địa. Khối lượng xuất khẩu ròng (NX = X - M) tăng lên, làm tổng cầu AD tăng và đường AD dịch chuyển sang phải.</div>",
+    "tags": [
+      "Kiến thức",
+      "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô"
+    ]
+  },
+  {
+    "question": "Xét nền kinh tế nhỏ có vốn chu chuyển hoàn hảo, để <span class=\"keyword\">cố định tỷ giá</span> hối đoái, chính sách <span class=\"keyword\">tài khóa thu hẹp</span> thì:",
+    "options": [
+      "Phải được phối hợp với chính sách tiền tệ mở rộng.",
+      "Sẽ làm giảm lãi suất, tăng sản lượng.",
+      "Phải được phối hợp với chính sách <span class=\"answer-keyword\">tiền tệ thu hẹp</span>.",
+      "Sẽ làm tăng lãi suất, tăng sản lượng."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>Phải được phối hợp với chính sách <span class=\"answer-keyword\">tiền tệ thu hẹp</span>.<div class=\"note\">Trong mô hình Mundell-Fleming (vốn luân chuyển hoàn hảo, tỷ giá cố định), tài khóa thu hẹp làm giảm lãi suất trong nước, gây áp lực dòng vốn chảy ra và làm giảm giá đồng nội tệ. Để giữ tỷ giá cố định, NHTW phải bán ngoại tệ, mua nội tệ vào, tức là thực hiện chính sách tiền tệ thu hẹp.</div>",
+    "tags": [
+      "Kiến thức",
+      "Thị Trường Tiền Tệ & Tài Chính Quốc Tế"
+    ]
+  },
+  {
+    "question": "Thành phần nào của tổng chi tiêu <span class=\"keyword\">thay đổi nhiều hơn</span> trong một <span class=\"keyword\">chu kỳ kinh doanh</span> (xét trên góc độ tỷ lệ)?",
+    "options": [
+      "Chi tiêu của doanh nghiệp về tiền công và các loại tiền thưởng",
+      "Chi tiêu của <span class=\"answer-keyword\">doanh nghiệp</span> về <span class=\"answer-keyword\">hàng hóa tư bản</span>",
+      "Chi tiêu ngân sách nhà nước trung ương và địa phương",
+      "Chi tiêu cho tiêu dùng hàng hóa và dịch vụ"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>Chi tiêu của <span class=\"answer-keyword\">doanh nghiệp</span> về <span class=\"answer-keyword\">hàng hóa tư bản</span><div class=\"note\">Đầu tư (chi tiêu của doanh nghiệp về hàng hóa tư bản, máy móc, thiết bị) là thành phần nhạy cảm và biến động mạnh nhất (theo tỷ lệ phần trăm) trong suốt một chu kỳ kinh doanh so với tiêu dùng hay chi tiêu chính phủ.</div>",
+    "tags": [
+      "Kiến thức",
+      "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô"
+    ]
   }
 ]
