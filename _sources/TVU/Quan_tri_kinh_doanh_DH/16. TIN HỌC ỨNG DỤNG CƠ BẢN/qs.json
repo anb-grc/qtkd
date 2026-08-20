@@ -551,7 +551,7 @@
       "Máy in",
       "Loa"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Máy quét</span>\\n<div class=\"note\">Các thiết bị nhập cơ bản gồm: bàn phím (keyboard), chuột (mouse), máy quét (scanner).</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Máy quét</span> <div class=\"note\">Các thiết bị nhập cơ bản gồm: bàn phím (keyboard), chuột (mouse), máy quét (scanner).</div>"
   },
   {
     "tags": [
@@ -565,7 +565,7 @@
       "Bộ nhớ chỉ đọc",
       "Bộ nhớ truy xuất ngẫu nhiên"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Bộ nhớ ngoài</span>\\n<div class=\"note\">Bộ nhớ ngoài là thiết bị lưu trữ thông tin với dung lượng lớn, thông tin không bị mất khi không có điện. Hiện nay có các loại bộ nhớ ngoài phổ biến như: Đĩa cứng (hard disk); Đĩa quang (Compact disk); thẻ nhớ...</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Bộ nhớ ngoài</span> <div class=\"note\">Bộ nhớ ngoài là thiết bị lưu trữ thông tin với dung lượng lớn, thông tin không bị mất khi không có điện. Hiện nay có các loại bộ nhớ ngoài phổ biến như: Đĩa cứng (hard disk); Đĩa quang (Compact disk); thẻ nhớ...</div>"
   },
   {
     "tags": [
@@ -579,7 +579,7 @@
       "Loa",
       "Màn hình"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Chuột</span>\\n<div class=\"note\">Các thiết bị nhập cơ bản gồm: bàn phím (keyboard), chuột (mouse), máy quét (scanner).</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Chuột</span> <div class=\"note\">Các thiết bị nhập cơ bản gồm: bàn phím (keyboard), chuột (mouse), máy quét (scanner).</div>"
   },
   {
     "tags": [
@@ -593,7 +593,7 @@
       "<span class=\"answer-keyword\">Ctrl + C</span>",
       "Ctrl + P"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Ctrl + C</span>\\n<div class=\"note\">Ctrl + C dùng để sao chép đối tượng.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Ctrl + C</span> <div class=\"note\">Ctrl + C dùng để sao chép đối tượng.</div>"
   },
   {
     "tags": [
@@ -607,7 +607,7 @@
       "This PC",
       "<span class=\"answer-keyword\">Recycle Bin</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Recycle Bin</span>\\n<div class=\"note\">This PC: biểu tượng duyệt nhanh tài nguyên, Recycle Bin: nơi lưu trữ tạm thời các tập tin và đối tượng đã bị xoá.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Recycle Bin</span> <div class=\"note\">This PC: biểu tượng duyệt nhanh tài nguyên, Recycle Bin: nơi lưu trữ tạm thời các tập tin và đối tượng đã bị xoá.</div>",
     "weight": "high"
   },
   {
@@ -622,7 +622,7 @@
       "Cell Margins",
       "Text Direction"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Auto Fit</span>\\n<div class=\"note\">Auto Fit (Tự động canh chỉnh) dùng để tự động vừa vặn cột bảng biểu.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Auto Fit</span> <div class=\"note\">Auto Fit (Tự động canh chỉnh) dùng để tự động vừa vặn cột bảng biểu.</div>"
   },
   {
     "tags": [
@@ -636,7 +636,7 @@
       "Shape Styles",
       "<span class=\"answer-keyword\">Text</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Text</span>\\n<div class=\"note\">Nhóm Text chứa các định dạng hướng chữ (Text Direction) cho Shape.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Text</span> <div class=\"note\">Nhóm Text chứa các định dạng hướng chữ (Text Direction) cho Shape.</div>"
   },
   {
     "tags": [
@@ -650,7 +650,7 @@
       "Links",
       "<span class=\"answer-keyword\">Text</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Text</span>\\n<div class=\"note\">WordArt nằm trong nhóm Text của thẻ Insert.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Text</span> <div class=\"note\">WordArt nằm trong nhóm Text của thẻ Insert.</div>"
   },
   {
     "tags": [
@@ -664,7 +664,7 @@
       "Insert Below",
       "Insert Right"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Insert Above</span>\\n<div class=\"note\">Insert Above để chèn một dòng mới phía trên dòng hiện tại trong bảng biểu.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Insert Above</span> <div class=\"note\">Insert Above để chèn một dòng mới phía trên dòng hiện tại trong bảng biểu.</div>"
   },
   {
     "tags": [
@@ -678,7 +678,7 @@
       "<span class=\"answer-keyword\">Number of columns</span>",
       "Equal column width"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Number of columns</span>\\n<div class=\"note\">Tùy chọn Number of columns xác định số cột cần chia đoạn văn bản.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Number of columns</span> <div class=\"note\">Tùy chọn Number of columns xác định số cột cần chia đoạn văn bản.</div>"
   },
   {
     "tags": [
@@ -692,7 +692,7 @@
       "Margin",
       "Size"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Orientation</span>\\n<div class=\"note\">Thông số Orientation giúp xác định hướng giấy (dọc hoặc ngang).</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Orientation</span> <div class=\"note\">Thông số Orientation giúp xác định hướng giấy (dọc hoặc ngang).</div>"
   },
   {
     "tags": [
@@ -706,7 +706,7 @@
       "View",
       "Home"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Page Layout</span>\\n<div class=\"note\">Thẻ Page Layout (hay Layout) chứa các công cụ thiết lập lề, khổ giấy, hướng giấy.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Page Layout</span> <div class=\"note\">Thẻ Page Layout (hay Layout) chứa các công cụ thiết lập lề, khổ giấy, hướng giấy.</div>",
     "weight": "high"
   },
   {
@@ -721,7 +721,7 @@
       "<span class=\"answer-keyword\">Transform</span>",
       "Shadow"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Transform</span>\\n<div class=\"note\">Hiệu ứng Transform sử dụng để thay đổi hình dáng cho đối tượng WordArt.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Transform</span> <div class=\"note\">Hiệu ứng Transform sử dụng để thay đổi hình dáng cho đối tượng WordArt.</div>"
   },
   {
     "tags": [
@@ -735,7 +735,7 @@
       "Align Text",
       "Shape Effects"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Shape Fill</span>\\n<div class=\"note\">Shape Fill dùng để đổ màu nền cho đối tượng Shape.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Shape Fill</span> <div class=\"note\">Shape Fill dùng để đổ màu nền cho đối tượng Shape.</div>"
   },
   {
     "tags": [
@@ -749,7 +749,7 @@
       "MID",
       "<span class=\"answer-keyword\">UPPER</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">UPPER</span>\\n<div class=\"note\">UPPER dùng để viết hoa toàn bộ chuỗi ký tự.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">UPPER</span> <div class=\"note\">UPPER dùng để viết hoa toàn bộ chuỗi ký tự.</div>"
   },
   {
     "tags": [
@@ -763,7 +763,7 @@
       "Delete Sheet Rows",
       "Delete Cells"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Delete Sheet</span>\\n<div class=\"note\">Lệnh Delete Sheet dùng để xóa toàn bộ một trang tính (worksheet).</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Delete Sheet</span> <div class=\"note\">Lệnh Delete Sheet dùng để xóa toàn bộ một trang tính (worksheet).</div>"
   },
   {
     "tags": [
@@ -777,7 +777,7 @@
       "Trả về giá trị dạng Date theo qui định của hệ thống",
       "<span class=\"answer-keyword\">Trả về ngày và giờ hiện hành của hệ thống</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Trả về ngày và giờ hiện hành của hệ thống</span>\\n<div class=\"note\">Hàm NOW() trả về cả ngày và giờ hiện hành của hệ thống máy tính.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Trả về ngày và giờ hiện hành của hệ thống</span> <div class=\"note\">Hàm NOW() trả về cả ngày và giờ hiện hành của hệ thống máy tính.</div>"
   },
   {
     "tags": [
@@ -791,7 +791,7 @@
       "Percentage",
       "Number"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Date</span>\\n<div class=\"note\">Format Cells > Date cho phép định dạng ngày tháng hiển thị theo vùng (Locale).</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Date</span> <div class=\"note\">Format Cells > Date cho phép định dạng ngày tháng hiển thị theo vùng (Locale).</div>"
   },
   {
     "tags": [
@@ -805,7 +805,7 @@
       "Insert…",
       "<span class=\"answer-keyword\">Unhide</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Unhide</span>\\n<div class=\"note\">Lệnh Unhide dùng để hiển thị lại những sheet, cột, hoặc dòng đã bị ẩn.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Unhide</span> <div class=\"note\">Lệnh Unhide dùng để hiển thị lại những sheet, cột, hoặc dòng đã bị ẩn.</div>"
   },
   {
     "tags": [
@@ -819,7 +819,7 @@
       "TODAY",
       "DATE"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">WEEKDAY</span>\\n<div class=\"note\">Hàm WEEKDAY trả về một số thứ tự tương ứng với ngày trong tuần.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">WEEKDAY</span> <div class=\"note\">Hàm WEEKDAY trả về một số thứ tự tương ứng với ngày trong tuần.</div>"
   },
   {
     "tags": [
@@ -833,7 +833,7 @@
       "<span class=\"answer-keyword\">$A$3</span>",
       "$A3"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">$A$3</span>\\n<div class=\"note\">Cú pháp địa chỉ $A$3 là địa chỉ tuyệt đối, cho phép cố định dòng và cố định cột khi sao chép công thức.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">$A$3</span> <div class=\"note\">Cú pháp địa chỉ $A$3 là địa chỉ tuyệt đối, cho phép cố định dòng và cố định cột khi sao chép công thức.</div>",
     "weight": "high"
   },
   {
@@ -848,7 +848,7 @@
       "ODD",
       "ROUND"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">ABS</span>\\n<div class=\"note\">Hàm ABS (Absolute) trả về giá trị tuyệt đối của một số.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">ABS</span> <div class=\"note\">Hàm ABS (Absolute) trả về giá trị tuyệt đối của một số.</div>",
     "weight": "high"
   },
   {
@@ -863,7 +863,7 @@
       "View Code",
       "<span class=\"answer-keyword\">Rename</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Rename</span>\\n<div class=\"note\">Lệnh Rename cho phép đổi tên một Sheet.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Rename</span> <div class=\"note\">Lệnh Rename cho phép đổi tên một Sheet.</div>"
   },
   {
     "tags": [
@@ -877,7 +877,7 @@
       "Thẻ Review",
       "Thẻ Slide Show"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Thẻ Transitions</span>\\n<div class=\"note\">Thẻ Transitions chứa các hiệu ứng chuyển tiếp giữa các slide.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Thẻ Transitions</span> <div class=\"note\">Thẻ Transitions chứa các hiệu ứng chuyển tiếp giữa các slide.</div>",
     "weight": "high"
   },
   {
@@ -892,7 +892,7 @@
       "Don’t show on title slide",
       "<span class=\"answer-keyword\">Slide number</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Slide number</span>\\n<div class=\"note\">Tùy chọn Slide number trong Header and Footer dùng để đánh số trang cho từng slide.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Slide number</span> <div class=\"note\">Tùy chọn Slide number trong Header and Footer dùng để đánh số trang cho từng slide.</div>"
   },
   {
     "tags": [
@@ -906,7 +906,7 @@
       "<span class=\"answer-keyword\">From Current Slide</span>",
       "Set Up Slide Show"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">From Current Slide</span>\\n<div class=\"note\">From Current Slide (Shift + F5) dùng để trình chiếu từ slide đang chọn.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">From Current Slide</span> <div class=\"note\">From Current Slide (Shift + F5) dùng để trình chiếu từ slide đang chọn.</div>",
     "weight": "high"
   },
   {
@@ -921,7 +921,7 @@
       "<span class=\"answer-keyword\">pptx</span>",
       "docx"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">pptx</span>\\n<div class=\"note\">Định dạng file trình chiếu của PowerPoint từ 2007 trở đi là .pptx.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">pptx</span> <div class=\"note\">Định dạng file trình chiếu của PowerPoint từ 2007 trở đi là .pptx.</div>"
   },
   {
     "tags": [
@@ -935,7 +935,7 @@
       "Slide number",
       "<span class=\"answer-keyword\">Don’t show on title slide</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Don’t show on title slide</span>\\n<div class=\"note\">Tùy chọn Don’t show on title slide giúp ẩn footer ở slide đầu tiên (slide tiêu đề).</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Don’t show on title slide</span> <div class=\"note\">Tùy chọn Don’t show on title slide giúp ẩn footer ở slide đầu tiên (slide tiêu đề).</div>"
   },
   {
     "tags": [
@@ -949,7 +949,7 @@
       "CTRL+A",
       "<span class=\"answer-keyword\">CTRL+N</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">CTRL+N</span>\\n<div class=\"note\">Tổ hợp phím Ctrl + N (New) dùng để tạo mới một file trình chiếu trắng.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">CTRL+N</span> <div class=\"note\">Tổ hợp phím Ctrl + N (New) dùng để tạo mới một file trình chiếu trắng.</div>"
   },
   {
     "tags": [
@@ -963,7 +963,7 @@
       "<span class=\"answer-keyword\">F5</span>",
       "F1"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">F5</span>\\n<div class=\"note\">Phím F5 dùng để bắt đầu phiên trình chiếu từ slide đầu tiên.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">F5</span> <div class=\"note\">Phím F5 dùng để bắt đầu phiên trình chiếu từ slide đầu tiên.</div>",
     "weight": "high"
   },
   {
@@ -978,7 +978,7 @@
       "jp",
       "<span class=\"answer-keyword\">vn</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">vn</span>\\n<div class=\"note\">Domain mang tính địa lý: gồm 2 ký tự đại diện cho một quốc gia (vn là Việt Nam).</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">vn</span> <div class=\"note\">Domain mang tính địa lý: gồm 2 ký tự đại diện cho một quốc gia (vn là Việt Nam).</div>",
     "weight": "high"
   },
   {
@@ -993,7 +993,7 @@
       "<span class=\"answer-keyword\">CTRL + D</span>",
       "CTRL + Z"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">CTRL + D</span>\\n<div class=\"note\">Ctrl + D (Bookmark) dùng để đánh dấu và lưu trữ trang web trên trình duyệt.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">CTRL + D</span> <div class=\"note\">Ctrl + D (Bookmark) dùng để đánh dấu và lưu trữ trang web trên trình duyệt.</div>"
   },
   {
     "tags": [
@@ -1007,7 +1007,7 @@
       "Chats",
       "Drafts"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Inbox</span>\\n<div class=\"note\">Inbox (Hộp thư đến) là nơi chứa các email mới gửi tới tài khoản.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Inbox</span> <div class=\"note\">Inbox (Hộp thư đến) là nơi chứa các email mới gửi tới tài khoản.</div>"
   },
   {
     "tags": [
@@ -1021,7 +1021,7 @@
       "Paint",
       "Notepad"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Mozilla Firefox</span>\\n<div class=\"note\">Mozilla Firefox là phần mềm trình duyệt web mã nguồn mở phổ biến.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Mozilla Firefox</span> <div class=\"note\">Mozilla Firefox là phần mềm trình duyệt web mã nguồn mở phổ biến.</div>"
   },
   {
     "tags": [
