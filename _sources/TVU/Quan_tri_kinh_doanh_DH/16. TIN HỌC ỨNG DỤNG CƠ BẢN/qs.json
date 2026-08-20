@@ -2301,5 +2301,105 @@
       "CTRL+F"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">CTRL+H</span> <div class=\"note\">Tổ hợp phím CTRL+H sẽ mở nhanh hộp thoại Find and Replace, chuyển sẵn tới tab Replace (Tìm kiếm và thay thế).</div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "Phân luồng"
+    ],
+    "question": "Trong chương trình Microsoft Office Excel 2013, cho biết thao tác nào sau đây được sử dụng để <span class=\"keyword\">vẽ đồ thị</span>?",
+    "options": [
+      "Home, Nhóm Charts, Chọn loại đồ thị",
+      "Home, Nhóm Illustrations, Chọn loại đồ thị",
+      "Insert, Nhóm Illustrations, Chọn loại đồ thị",
+      "<span class=\"answer-keyword\">Insert, Nhóm Charts, Chọn loại đồ thị</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Insert, Nhóm Charts, Chọn loại đồ thị</span> <div class=\"note\">Để vẽ đồ thị, ta vào thẻ Insert, tìm đến nhóm Charts và chọn loại đồ thị tương ứng.</div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Trong chương trình Microsoft Office Excel 2013, khi định dạng cho dữ liệu trong hộp thoại Format Cells định dạng nào dùng để định dạng <span class=\"keyword\">các đơn vị tiền tệ</span>?",
+    "options": [
+      "Number",
+      "<span class=\"answer-keyword\">Currency</span>",
+      "Percentage",
+      "Date"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Currency</span> <div class=\"note\">Định dạng Currency (hoặc Accounting) được sử dụng để hiển thị các con số dưới dạng đơn vị tiền tệ.</div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "Giới hạn & Rủi ro"
+    ],
+    "question": "Trong chương trình Microsoft Office Excel 2013, khi nhập công thức tính toán kết quả trả về <span class=\"keyword\">lỗi #DIV/0!</span> cho biết nguyên nhân gì?",
+    "options": [
+      "Trong công thức có các toán hạng và toán tử sai kiểu",
+      "Công thức tham chiếu đến vùng không chứa giá trị cần tham chiếu",
+      "<span class=\"answer-keyword\">Trong công thức có phép tính chia cho số không (0)</span>",
+      "Trong công thức có một tên mà Excel không hiểu được"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Trong công thức có phép tính chia cho số không (0)</span> <div class=\"note\">Lỗi #DIV/0! xuất hiện khi một số bị chia cho số 0 hoặc chia cho một ô rỗng.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Trong chương trình Microsoft Office PowerPoint 2013, khi định dạng Slide Master lệnh <span class=\"keyword\">thay đổi font chữ</span> cho bài trình chiếu thuộc nhóm lệnh nào của <span class=\"keyword\">thẻ Slide Master</span>?",
+    "options": [
+      "Size",
+      "Background",
+      "Master Layout",
+      "<span class=\"answer-keyword\">Edit Theme</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Edit Theme</span> <div class=\"note\">Trong chế độ Slide Master, nhóm Edit Theme chứa các tùy chọn Fonts, Colors và Effects để thay đổi thiết kế tổng thể.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "question": "Trong chương trình Microsoft Office PowerPoint 2013, khi định dạng hiệu ứng cho các đối tượng (TextBox, Picture, Wordart, Shape) tùy chọn nào cho phép <span class=\"keyword\">tinh chỉnh cạnh biên</span> của cho đối tượng?",
+    "options": [
+      "Glow",
+      "<span class=\"answer-keyword\">Soft Edges</span>",
+      "Reflection",
+      "Shadow"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Soft Edges</span> <div class=\"note\">Hiệu ứng Soft Edges giúp làm mờ dần đường viền của đối tượng để tạo sự hòa trộn mềm mại với nền.</div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+      "Hệ thống"
+    ],
+    "question": "Trong chương trình Microsoft Office PowerPoint 2013, để thực hiện thao tác chuyển đổi qua lại giữa các kiểu hiển thị, sắp xếp các cửa sổ, chuyển đổi màu hiển thị … người sử dụng sẽ vào thẻ lệnh nào?",
+    "options": [
+      "Thẻ Design",
+      "Thẻ Insert",
+      "Thẻ File",
+      "<span class=\"answer-keyword\">Thẻ View</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Thẻ View</span> <div class=\"note\">Thẻ View kiểm soát tất cả các chế độ xem tổng quan, sắp xếp cửa sổ và các thước đo hiển thị trên màn hình.</div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "question": "Trong chương trình Microsoft Office PowerPoint 2013, khi tùy chỉnh cấu trúc của bảng biểu tùy chọn nào cho phép <span class=\"keyword\">tách ô</span> đang chọn thành nhiều ô?",
+    "options": [
+      "Insert Above",
+      "Insert Left",
+      "Merge Cells",
+      "<span class=\"answer-keyword\">Split Cells</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Split Cells</span> <div class=\"note\">Lệnh Split Cells (chia tách ô) được dùng để tách 1 ô thành nhiều cột/dòng nhỏ lẻ theo mong muốn.</div>"
   }
 ]
