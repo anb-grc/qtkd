@@ -2401,5 +2401,177 @@
       "Hình thái tiền tệ",
       "Nền tảng"
     ]
+  },
+  {
+    "question": "Nếu bạn cho rằng nền kinh tế Việt Nam sẽ <span class=\"keyword\">suy thoái</span> vào năm tới, bạn sẽ nắm giữ <span class=\"keyword\">tài sản nào an toàn nhất</span>?",
+    "options": [
+      "<span class=\"answer-keyword\">Ngoại tệ mạnh</span>",
+      "Cổ phiếu thông thường",
+      "Trái phiếu chính phủ",
+      "Bất động sản"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>\n<span class=\"answer-keyword\">Ngoại tệ mạnh</span>\n<div class=\"note\">Khi nền kinh tế suy thoái, nội tệ có xu hướng mất giá. Nắm giữ ngoại tệ mạnh (USD, EUR) vừa bảo toàn giá trị vừa có tính thanh khoản cao, an toàn hơn cổ phiếu (rớt giá), BĐS (đóng băng) và trái phiếu CP (lãi cố định nhưng mất giá theo lạm phát).</div>",
+    "tags": [
+      "Thị trường Tài chính",
+      "Tổng quan Thị trường Tài chính",
+      "Góc nhìn Đa chiều"
+    ]
+  },
+  {
+    "question": "<span class=\"keyword\">Tài sản</span> nào sau đây có <span class=\"keyword\">tính lỏng cao nhất</span>?",
+    "options": [
+      "<span class=\"answer-keyword\">Ngoại tệ gửi ngân hàng</span>",
+      "Nguyên liệu, vật liệu trong kho",
+      "Chứng khoán",
+      "Khoản phải thu khách hàng"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>\n<span class=\"answer-keyword\">Ngoại tệ gửi ngân hàng</span>\n<div class=\"note\">Ngoại tệ gửi ngân hàng có thể rút hoặc chuyển đổi nhanh chóng thành tiền mặt, tính thanh khoản cao hơn chứng khoán (cần thời gian giao dịch T+2), khoản phải thu (phụ thuộc con nợ) và nguyên vật liệu (phải bán mới có tiền).</div>",
+    "tags": [
+      "Thị trường Tài chính",
+      "Phân loại Công cụ Thị trường Tài chính",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Một loại <span class=\"keyword\">hàng hóa đặc biệt</span>, được tách ra từ trong thế giới hàng hóa làm <span class=\"keyword\">vật ngang giá chung</span> trao đổi và mua bán là",
+    "options": [
+      "<span class=\"answer-keyword\">Tiền tệ</span>",
+      "Hóa tệ",
+      "Tài chính",
+      "Tín tệ"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>\n<span class=\"answer-keyword\">Tiền tệ</span>\n<div class=\"note\">Đây là định nghĩa kinh điển của tiền tệ theo kinh tế chính trị học: hàng hóa đặc biệt được tách ra làm vật ngang giá chung. Hóa tệ và Tín tệ chỉ là các hình thái cụ thể của tiền tệ.</div>",
+    "tags": [
+      "Tiền tệ",
+      "Bản chất Tiền tệ",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Theo <span class=\"keyword\">lý thuyết dự tính</span> về <span class=\"keyword\">cấu trúc kỳ hạn</span> của lãi suất thì",
+    "options": [
+      "<span class=\"answer-keyword\">Lãi suất dài hạn</span> phụ thuộc vào dự tính của nhà đầu tư về các <span class=\"answer-keyword\">lãi suất ngắn hạn trong tương lai</span>.",
+      "Môi trường ưu tiên và thị trường phân cách làm cho cấu trúc kỳ hạn trở thành không có ý nghĩa.",
+      "Các nhà đầu tư không có sự khác biệt giữa việc nắm giữ các trái phiếu dài hạn và ngắn hạn.",
+      "Sự ưa thích của các nhà đầu tư có tổ chức quyết định lãi suất dài hạn."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>\n<span class=\"answer-keyword\">Lãi suất dài hạn</span> phụ thuộc vào dự tính của nhà đầu tư về các <span class=\"answer-keyword\">lãi suất ngắn hạn trong tương lai</span>.\n<div class=\"note\">Expectations Theory cho rằng lãi suất dài hạn chính là trung bình của các lãi suất ngắn hạn dự tính trong tương lai.</div>",
+    "tags": [
+      "Tín dụng và Lãi suất",
+      "Phân loại Lãi suất",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Khi áp dụng chính sách <span class=\"keyword\">thắt chặt tiền tệ</span> thì ngân hàng trung ương sẽ",
+    "options": [
+      "giảm lãi suất chiết khấu.",
+      "<span class=\"answer-keyword\">tăng lãi suất chiết khấu</span>.",
+      "giảm thuế.",
+      "mua cổ phiếu của các ngân hàng thương mại cổ phần."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>\n<span class=\"answer-keyword\">tăng lãi suất chiết khấu</span>.\n<div class=\"note\">Thắt chặt tiền tệ = hút tiền về = tăng lãi suất chiết khấu để NHTM vay ít hơn. Giảm thuế thuộc chính sách tài khóa, không phải tiền tệ.</div>",
+    "tags": [
+      "Hệ thống ngân hàng",
+      "Ngân hàng Trung ương (NHTW)",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "question": "Các <span class=\"keyword\">công cụ chủ yếu</span> trên <span class=\"keyword\">thị trường tài chính</span> bao gồm:",
+    "options": [
+      "Thương phiếu và những bảo lãnh của ngân hàng.",
+      "Cổ phiếu ưu đãi và phiếu nợ chuyển đổi.",
+      "Các phương tiện thanh toán không dùng tiền mặt.",
+      "Các loại <span class=\"answer-keyword\">giấy tờ có giá</span> được mua bán trên <span class=\"answer-keyword\">thị trường tài chính</span>."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>\nCác loại <span class=\"answer-keyword\">giấy tờ có giá</span> được mua bán trên <span class=\"answer-keyword\">thị trường tài chính</span>.\n<div class=\"note\">Đây là định nghĩa bao quát nhất, bao gồm tất cả: cổ phiếu, trái phiếu, thương phiếu, tín phiếu... Các đáp án còn lại chỉ liệt kê một phần.</div>",
+    "tags": [
+      "Thị trường Tài chính",
+      "Phân loại Công cụ Thị trường Tài chính",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Khi ngân hàng trung ương <span class=\"keyword\">mua vào</span> một lượng <span class=\"keyword\">tín phiếu kho bạc</span> trên thị trường mở, lượng tiền cung ứng (MS) sẽ thay đổi như thế nào?",
+    "options": [
+      "<span class=\"answer-keyword\">Chắc chắn sẽ tăng</span>",
+      "Có thể tăng",
+      "Có thể không tăng",
+      "Có thể không giảm"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>\n<span class=\"answer-keyword\">Chắc chắn sẽ tăng</span>\n<div class=\"note\">NHTW mua tín phiếu = bơm tiền mặt ra lưu thông = tăng tiền cơ sở (MB) = MS chắc chắn tăng. Đây là nghiệp vụ OMO (Open Market Operations) kinh điển.</div>",
+    "tags": [
+      "Hệ thống ngân hàng",
+      "Ngân hàng Trung ương (NHTW)",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Giả định các yếu tố khác không thay đổi, khi ngân hàng trung ương <span class=\"keyword\">giảm tỷ lệ dự trữ bắt buộc</span>, lượng tiền cung ứng (MS) sẽ thay đổi như thế nào?",
+    "options": [
+      "<span class=\"answer-keyword\">Chắc chắn sẽ tăng</span>",
+      "Có thể tăng",
+      "Có thể không tăng",
+      "Có thể không giảm"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>\n<span class=\"answer-keyword\">Chắc chắn sẽ tăng</span>\n<div class=\"note\">Giảm DTBB → NHTM có thêm vốn khả dụng để cho vay → số nhân tiền tăng → MS chắc chắn tăng (vì các yếu tố khác không đổi).</div>",
+    "tags": [
+      "Hệ thống ngân hàng",
+      "Ngân hàng Trung ương (NHTW)",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Lãi suất thực</span> có nghĩa là",
+    "options": [
+      "lãi suất ghi trên các hợp đồng kinh tế.",
+      "lãi suất LIBOR, SIBOR hay PIBOR,...",
+      "lãi suất chiết khấu hay tái chiết khấu.",
+      "<span class=\"answer-keyword\">lãi suất danh nghĩa</span> sau khi đã <span class=\"answer-keyword\">loại bỏ tỷ lệ lạm phát</span>."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>\n<span class=\"answer-keyword\">lãi suất danh nghĩa</span> sau khi đã <span class=\"answer-keyword\">loại bỏ tỷ lệ lạm phát</span>.\n<div class=\"note\">Công thức Fisher: r (thực) = i (danh nghĩa) - π (lạm phát). Lãi suất thực phản ánh sức mua thực tế của đồng tiền sau khi đã trừ đi lạm phát.</div>",
+    "tags": [
+      "Tín dụng và Lãi suất",
+      "Phân loại Lãi suất",
+      "Nền tảng"
+    ]
+  },
+  {
+    "question": "Sự <span class=\"keyword\">an toàn và hiệu quả</span> trong kinh doanh của một <span class=\"keyword\">ngân hàng thương mại</span> có thể được hiểu là",
+    "options": [
+      "có tỷ suất lợi nhuận trên 10% năm và nợ quá hạn dưới 8%.",
+      "hoạt động theo <span class=\"answer-keyword\">đúng quy định của pháp luật</span>, có lợi nhuận và <span class=\"answer-keyword\">tỷ lệ nợ quá hạn ở mức cho phép</span>.",
+      "không có nợ xấu và nợ quá hạn.",
+      "tuân thủ một cách nghiêm túc tất cả các quy định của Ngân hàng Trung ương."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>\nhoạt động theo <span class=\"answer-keyword\">đúng quy định của pháp luật</span>, có lợi nhuận và <span class=\"answer-keyword\">tỷ lệ nợ quá hạn ở mức cho phép</span>.\n<div class=\"note\">Đáp án toàn diện nhất: vừa đảm bảo an toàn (nợ xấu ở mức cho phép, chứ không phải bằng 0) vừa hiệu quả (có lợi nhuận) và hợp pháp.</div>",
+    "tags": [
+      "Hệ thống ngân hàng",
+      "Ngân hàng Thương mại (NHTM)",
+      "Cấu trúc"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Mức <span class=\"keyword\">cung tiền tệ</span> thực hiện chức năng làm <span class=\"keyword\">phương tiện trao đổi</span> tốt nhất là",
+    "options": [
+      "Vàng và ngoại tệ mạnh",
+      "M3",
+      "M2",
+      "<span class=\"answer-keyword\">M1</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>\n<span class=\"answer-keyword\">M1</span>\n<div class=\"note\">M1 = tiền mặt + tiền gửi không kỳ hạn. Đây là khối tiền có tính thanh khoản cao nhất, có thể dùng trực tiếp làm phương tiện trao đổi mua bán ngay lập tức.</div>",
+    "tags": [
+      "Tiền tệ",
+      "Cung - Cầu Tiền tệ",
+      "Nền tảng"
+    ]
   }
 ]
