@@ -2203,5 +2203,103 @@
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">com (Commercial)</span><div class=\"note\">Vì: Domain mang tính tổ chức: thường gồm 3 kí tự</div>",
     "weight": "high"
+  },
+  {
+    "tags": [
+      "MICROSOFT WORD 2013 CƠ BẢN",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng Tab cho văn bản tùy chọn nào xác định <span class=\"keyword\">kiểu khoảng cách TAB</span>?",
+    "options": [
+      "<span class=\"answer-keyword\">Leader</span>",
+      "Alignment",
+      "Tab stop position",
+      "Clear All"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Leader</span> <div class=\"note\">Khi thực hiện thao tác định dạng Tab cho văn bản tùy chọn<br>- Tab stop position: xác định khoảng cách TAB<br>- Alignment: xác định loại mốc TAB<br>- Leader: xác định kiểu khoảng cách TAB<br>- Clear All: Xóa tất cả các mốc Tab</div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT WORD 2013 CƠ BẢN",
+      "Phân luồng"
+    ],
+    "question": "Trong chương trình Microsoft Office Word 2013, thẻ lệnh nào cho phép <span class=\"keyword\">chèn số trang</span> vào tài liệu?",
+    "options": [
+      "Home",
+      "Page Layout",
+      "<span class=\"answer-keyword\">Insert</span>",
+      "Design"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Insert</span> <div class=\"note\">Thẻ Insert chứa các lệnh để chèn đối tượng, bao gồm chèn số trang (Page Number) vào tài liệu.</div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT WORD 2013 CƠ BẢN",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng Tab cho văn bản tùy chọn nào xác định <span class=\"keyword\">khoảng cách TAB</span>?",
+    "options": [
+      "Alignment",
+      "<span class=\"answer-keyword\">Tab stop position</span>",
+      "Leader",
+      "Clear All"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Tab stop position</span> <div class=\"note\">Khi thực hiện thao tác định dạng Tab cho văn bản tùy chọn<br>- Tab stop position: xác định khoảng cách TAB<br>- Alignment: xác định loại mốc TAB<br>- Leader: xác định kiểu khoảng cách TAB<br>- Clear All: Xóa tất cả các mốc Tab</div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT WORD 2013 CƠ BẢN",
+      "Hệ thống"
+    ],
+    "question": "Trong chương trình Microsoft Office Word 2013, để tùy chỉnh <span class=\"keyword\">chế độ xem tài liệu</span> chúng ta vào thẻ nào sau đây?",
+    "options": [
+      "<span class=\"answer-keyword\">View</span>",
+      "Page Layout",
+      "Insert",
+      "Home"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">View</span> <div class=\"note\">Thẻ View chứa các nhóm lệnh cho phép người dùng thay đổi chế độ hiển thị và xem tài liệu.</div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT WORD 2013 CƠ BẢN",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác chia cột cho đoạn văn bản tùy chọn nào cho phép thiết lập độ rộng giữa các cột bằng nhau?",
+    "options": [
+      "Number of columns",
+      "Line between",
+      "Width and spacing",
+      "<span class=\"answer-keyword\">Equal column width</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Equal column width</span> <div class=\"note\">Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác chia cột cho đoạn văn bản tùy chọn:<br>- Width and spacing: xác định độ rộng cột và khoảng cách giữa các cột<br>- Line between: thiết lập đường phân cách giữa các cột<br>- Equal column width: thiết lập độ rộng giữa các cột bằng nhau<br>- Number of columns: xác định số cột cần chia đoạn văn bản</div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT WORD 2013 CƠ BẢN",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Trong chương trình Microsoft Office Word 2013, khi định dạng khung viền cho trang giấy tùy chọn nào cho phép thay đổi <span class=\"keyword\">độ dày của đường viền</span>?",
+    "options": [
+      "Preview",
+      "Color",
+      "Styles",
+      "<span class=\"answer-keyword\">Width</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Width</span> <div class=\"note\">Tùy chọn Width trong hộp thoại Borders and Shading cho phép điều chỉnh độ dày của khung viền trang giấy.</div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT WORD 2013 CƠ BẢN",
+      "Phân luồng"
+    ],
+    "question": "Trong chương trình Microsoft Office Word 2013, cho biết tổ hợp phím tắt nào được sử dụng để mở hộp thoại Find and Replace với chức năng <span class=\"keyword\">Replace</span>?",
+    "options": [
+      "<span class=\"answer-keyword\">CTRL+H</span>",
+      "CTRL+G",
+      "CTRL+L",
+      "CTRL+F"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">CTRL+H</span> <div class=\"note\">Tổ hợp phím CTRL+H sẽ mở nhanh hộp thoại Find and Replace, chuyển sẵn tới tab Replace (Tìm kiếm và thay thế).</div>"
   }
 ]
