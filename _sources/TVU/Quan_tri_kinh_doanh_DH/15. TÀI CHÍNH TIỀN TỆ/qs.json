@@ -2385,5 +2385,21 @@
       "Hệ thống tổ chức tài chính quốc tế",
       "Hệ thống"
     ]
+  },
+  {
+    "weight": "high",
+    "question": "Một loại tiền tệ mà <span class=\"keyword\">bản thân không có giá trị</span> song nhờ có sự <span class=\"keyword\">tín nhiệm</span> của mọi người mà nó có giá trị trao đổi và được sử dụng trong lưu thông là",
+    "options": [
+      "Bút tệ",
+      "Tiền tệ",
+      "Hóa tệ",
+      "<span class=\"answer-keyword\">Tín tệ</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>\n<span class=\"answer-keyword\">Tín tệ</span>\n<div class=\"note\">Tín tệ (tiền tín nhiệm / tiền giấy) bản thân nó không có giá trị nội tại như hóa tệ (vàng, bạc), giá trị lưu thông của nó hoàn toàn dựa vào niềm tin và sự tín nhiệm của pháp luật xã hội.</div>",
+    "tags": [
+      "Tiền tệ",
+      "Hình thái tiền tệ",
+      "Nền tảng"
+    ]
   }
 ]
