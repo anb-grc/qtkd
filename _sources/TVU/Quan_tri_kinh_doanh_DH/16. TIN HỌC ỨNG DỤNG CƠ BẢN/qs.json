@@ -2401,5 +2401,135 @@
       "<span class=\"answer-keyword\">Split Cells</span>"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Split Cells</span> <div class=\"note\">Lệnh Split Cells (chia tách ô) được dùng để tách 1 ô thành nhiều cột/dòng nhỏ lẻ theo mong muốn.</div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "Phân luồng"
+    ],
+    "question": "Trong chương trình Microsoft Office Excel 2013, cho biết lệnh nào được sử dụng để <span class=\"keyword\">sao chép dữ liệu</span> của 1 hoặc nhiều sheet <span class=\"keyword\">sang sheet mới</span>?",
+    "options": [
+      "Rename",
+      "Protect Sheet…",
+      "<span class=\"answer-keyword\">Move or Copy…</span>",
+      "View Code"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Move or Copy…</span> <div class=\"note\">Lệnh Move or Copy… cho phép người dùng di chuyển hoặc tạo một bản sao của các Sheet đang chọn sang một vị trí mới hoặc một tập tin khác.</div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "Giới hạn & Rủi ro"
+    ],
+    "question": "Trong chương trình Microsoft Office Excel 2013, khi nhập công thức <span class=\"keyword\">sai tên hàm</span> thì kết quả trả về là gì?",
+    "options": [
+      "<span class=\"answer-keyword\">#NAME?</span>",
+      "#REF!",
+      "#DIV/0!",
+      "#VALUE!"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">#NAME?</span> <div class=\"note\">Lỗi #NAME? xuất hiện khi Excel không thể nhận diện được tên hàm (do gõ sai chính tả) hoặc tham chiếu tên vùng dữ liệu không tồn tại.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Trong chương trình Microsoft Office Excel 2013, cho biết <span class=\"keyword\">hàm YEAR(Date)</span> có ý nghĩa gì?",
+    "options": [
+      "Trả về giá trị kiểu Date",
+      "<span class=\"answer-keyword\">Trả về giá trị năm của biểu thức kiểu Date</span>",
+      "Trả về giá trị ngày trong tháng của biểu thức kiểu Date",
+      "Trả về giá trị tháng trong năm của biểu thức kiểu Date"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Trả về giá trị năm của biểu thức kiểu Date</span> <div class=\"note\">Hàm YEAR trích xuất và trả về con số tương ứng với phần năm (ví dụ: 2023) từ một giá trị ngày tháng kiểu Date.</div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT EXCEL 2013 CƠ BẢN",
+      "Giới hạn & Rủi ro"
+    ],
+    "question": "Trong chương trình Microsoft Office Excel 2013, khi nhập công thức tính toán kết quả trả về <span class=\"keyword\">lỗi #N/A</span> cho biết nguyên nhân gì?",
+    "options": [
+      "<span class=\"answer-keyword\">Công thức tham chiếu đến vùng không chứa giá trị cần tìm</span>",
+      "Trong công thức có phép tính chia cho số không (0)",
+      "Trong công thức có các toán hạng và toán tử sai kiểu",
+      "Trong công thức có một tên mà Excel không hiểu được"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Công thức tham chiếu đến vùng không chứa giá trị cần tìm</span> <div class=\"note\">Lỗi #N/A (Not Available) thường xuất hiện phổ biến trong các hàm dò tìm (VLOOKUP, HLOOKUP) khi giá trị cần tìm không tồn tại trong vùng tham chiếu.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+      "Phân luồng"
+    ],
+    "question": "Trong chương trình Microsoft Office PowerPoint 2013, cho biết tùy chọn nào sau đây được sử dụng để thêm slide mới có nội dung được lấy từ tập tin Word?",
+    "options": [
+      "Reuse slides",
+      "New Slide",
+      "<span class=\"answer-keyword\">Slides from Outline</span>",
+      "Duplicate selected Slides"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Slides from Outline</span> <div class=\"note\">Tính năng Slides from Outline tự động tạo các slide mới dựa trên các tiêu đề (Heading) được định dạng sẵn trong tài liệu Word (.docx).</div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "question": "Trong chương trình Microsoft Office PowerPoint 2013, khi thiết lập nội dung cho footer của mỗi slide trình chiếu tùy chọn nào cho phép <span class=\"keyword\">chèn số trang</span>?",
+    "options": [
+      "Don’t show on title slide",
+      "Footer",
+      "<span class=\"answer-keyword\">Slide number</span>",
+      "Date & time"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Slide number</span> <div class=\"note\">Tùy chọn Slide number trong hộp thoại Header and Footer kích hoạt tính năng tự động đánh số thứ tự cho các trang trình chiếu.</div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "question": "Trong chương trình Microsoft Office PowerPoint 2013, khi thiết lập hiệu ứng chuyển trang, tại nhóm Timing tùy chọn nào cho phép kèm theo <span class=\"keyword\">hiệu ứng âm thanh</span>?",
+    "options": [
+      "After",
+      "On Mouse Click",
+      "<span class=\"answer-keyword\">Sound</span>",
+      "Duration"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Sound</span> <div class=\"note\">Trong thẻ Transitions, nhóm Timing cung cấp tùy chọn Sound để chọn và phát một đoạn âm thanh ngắn mỗi khi chuyển sang slide mới.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+      "Cấu trúc"
+    ],
+    "question": "Trong chương trình Microsoft Office PowerPoint 2013, khi tùy chỉnh cấu trúc của bảng biểu tùy chọn nào cho phép chèn thêm một dòng <span class=\"keyword\">phía trên dòng đang chọn</span>?",
+    "options": [
+      "Merge Cells",
+      "Insert Left",
+      "<span class=\"answer-keyword\">Insert Above</span>",
+      "Split Cells"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Insert Above</span> <div class=\"note\">Lệnh Insert Above trong nhóm Rows & Columns dùng để chèn ngay một dòng (row) mới ở phía trên dòng hiện tại.</div>"
+  },
+  {
+    "tags": [
+      "MICROSOFT POWERPOINT 2013 CƠ BẢN",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Trong chương trình Microsoft Office PowerPoint 2013, khi thiết lập hiệu ứng chuyển trang, tại nhóm Timing tùy chọn nào quy định khoảng thời gian tự động chuyển tiếp slide?",
+    "options": [
+      "Sound",
+      "On Mouse Click",
+      "<span class=\"answer-keyword\">After</span>",
+      "Duration"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">After</span> <div class=\"note\">Trong phần Advance Slide (thẻ Transitions), đánh dấu vào 'After' và thiết lập số giây sẽ giúp trình chiếu tự động chuyển sang slide tiếp theo sau khi hết thời gian mà không cần click chuột.</div>",
+    "weight": "high"
   }
 ]
