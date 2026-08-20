@@ -1008,14 +1008,14 @@
     ]
   },
   {
-    "question": "Trong các chủ thể sau thì chủ thế nào là chủ thể có <span class=\"keyword\">quyền <span class=\"keyword\">sử dụng</span></span> các nguồn lực tài chính?",
+    "question": "Trong các chủ thể sau thì chủ thế nào là chủ thể có <span class=\"keyword\">quyền sử dụng</span> các nguồn lực tài chính?",
     "options": [
       "Ngân hàng cho vay vốn",
       "Bố cho con tiền đóng học phí",
       "<span class=\"answer-keyword\">Sinh viên thuê nhà trọ</span>",
       "Cá nhân đầu tư vào doanh nghiệp"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Sinh viên thuê nhà trọ</span><div class=\"note\">Sinh viên dùng tiền để chi trả tiền thuê trọ là hành vi trực tiếp tiêu dùng/sử dụng quỹ tiền tệ để đáp ứng nhu cầu đời sống.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Bố cho con tiền</span> đóng học phí<div class=\"note\">Theo đáp án chuẩn của trường, hành vi chi tiền đóng học phí cho con cái được coi là việc trực tiếp thực hiện quyền sử dụng nguồn lực tài chính cá nhân.</div>",
     "tags": [
       "Nhập môn tài chính",
       "Phân luồng"
@@ -1043,7 +1043,7 @@
       "Ngân sách nhà nước hỗ trợ.",
       "Chủ doanh nghiệp bỏ thêm vốn vào sản xuất kinh doanh."
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Tín dụng trung và dài hạn</span> từ các ngân hàng thương mại, đặc biệt là ngân hàng thương mại Nhà nước.<div class=\"note\">Trong bối cảnh kinh tế Việt Nam, hệ thống ngân hàng (đặc biệt là tín dụng trung/dài hạn) vẫn là kênh cung ứng vốn quan trọng và <span class=\"answer-keyword\">chủ đạo</span> nhất cho doanh nghiệp.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Nguồn vốn sẵn có</span> trong các tầng lớp dân cư.<div class=\"note\">Theo giáo trình, nguồn vốn nhàn rỗi trong dân cư mới là nền tảng cốt lõi, ổn định và dồi dào nhất để đáp ứng nhu cầu đầu tư phát triển và hiện đại hóa doanh nghiệp tại Việt Nam.</div>",
     "tags": [
       "Tài chính doanh nghiệp",
       "Hệ thống"
@@ -1057,7 +1057,7 @@
       "quy mô và đặc điểm luân chuyển.",
       "<span class=\"answer-keyword\">đặc điểm luân chuyển</span>, <span class=\"answer-keyword\">hình thức tồn tại</span>, <span class=\"answer-keyword\">thời gian sử dụng</span>."
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">đặc điểm luân chuyển</span>, <span class=\"answer-keyword\">hình thức tồn tại</span>, <span class=\"answer-keyword\">thời gian sử dụng</span>.<div class=\"note\">Vốn cố định và vốn lưu động khác nhau rõ rệt nhất ở phương thức luân chuyển giá trị (dần dần vs 1 lần) và thời gian sử dụng (dài hạn vs ngắn hạn).</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">đặc điểm luân chuyển</span>, <span class=\"answer-keyword\">vai trò</span> và <span class=\"answer-keyword\">hình thức tồn tại</span>.<div class=\"note\">Ngoài đặc điểm luân chuyển và hình thức tồn tại, vai trò của vốn lưu động (tham gia 1 chu kỳ) và vốn cố định (tham gia nhiều chu kỳ) là điểm khác biệt căn bản nhất.</div>",
     "tags": [
       "Tài chính doanh nghiệp",
       "Logic & Nguyên tắc"
