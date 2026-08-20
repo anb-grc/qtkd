@@ -39,3 +39,5 @@ Khi chạy xong luồng xử lý câu hỏi mới, Agent tự động thêm 1 d�
 - [2026-08-18] [GIÁO DỤC THỂ CHẤT 1] Bổ sung highlight keyword bị sót cho câu hỏi kỷ lục Bob Beamon.
 
 - Đã rà soát và dọn dẹp các ký tự A,B,C,D thừa ở đáp án và chuẩn hóa double space cho toàn bộ kho LUYỆN ĐỀ.
+
+- KTVM: Đã bao toàn bộ phương trình BP vào thẻ span answer-keyword cho câu hỏi hàm số tài khoản vốn.

@@ -1295,11 +1295,11 @@
     "question": "Cho các hàm số sau: <span class=\"keyword\">tài khoản vốn</span> K= -1.000 +200r; xuất khẩu X =200; nhập khẩu Z= 100+0,2 Y. <span class=\"keyword\">Đường BP</span> có dạng:",
     "options": [
       "Y= -450 +100r",
-      "<span class=\"answer-keyword\">Y = -4.500</span> + 1.000r",
+      "<span class=\"answer-keyword\">Y = -4.500 + 1.000r</span>",
       "Y = -4.500 +100r",
       "Y= -450 + 1.000r"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Y = -4.500</span> + 1.000r <div class=\"note\">Phương trình đường cán cân thanh toán (BP = 0): NX + K = 0 ➔ (X - Z) + K = 0 ➔ 200 - (100 + 0.2Y) - 1000 + 200r = 0 ➔ -900 - 0.2Y + 200r = 0 ➔ 0.2Y = 200r - 900 ➔ Y = 1000r - 4500.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Y = -4.500 + 1.000r</span> <div class=\"note\">Phương trình đường cán cân thanh toán (BP = 0): NX + K = 0 ➔ (X - Z) + K = 0 ➔ 200 - (100 + 0.2Y) - 1000 + 200r = 0 ➔ -900 - 0.2Y + 200r = 0 ➔ 0.2Y = 200r - 900 ➔ Y = 1000r - 4500.</div>",
     "tags": [
       "Kiến thức",
       "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô",
