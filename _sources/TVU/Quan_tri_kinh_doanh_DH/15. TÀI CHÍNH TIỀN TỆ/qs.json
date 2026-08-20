@@ -655,20 +655,6 @@
   {
     "tags": [
       "Tài chính doanh nghiệp",
-      "Phân luồng"
-    ],
-    "question": "Để lập <span class=\"keyword\">quỹ dự phòng <span class=\"keyword\">bắt buộc</span></span>, doanh nghiệp phải lấy từ nguồn nào sau đây?",
-    "options": [
-      "Vốn pháp định",
-      "Vốn chủ sở hữu",
-      "<span class=\"answer-keyword\">Lợi nhuận ròng</span>",
-      "Doanh thu"
-    ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Lợi nhuận ròng</span> <div class=\"note\">Mọi quỹ của doanh nghiệp, bao gồm cả quỹ dự phòng, đều được trích lập từ <span class=\"answer-keyword\">lợi nhuận</span> ròng (sau <span class=\"answer-keyword\">thuế</span>) trước khi đem chia cổ tức.</div>"
-  },
-  {
-    "tags": [
-      "Tài chính doanh nghiệp",
       "Nền tảng"
     ],
     "question": "<span class=\"keyword\">Thời gian <span class=\"keyword\">sử dụng</span></span> tài sản trong doanh nghiệp bao lâu được coi là <span class=\"keyword\">tài sản cố định</span>?",
@@ -965,7 +951,7 @@
     ]
   },
   {
-    "question": "Để lập <span class=\"keyword\">quỹ dự phòng <span class=\"keyword\">bắt buộc</span></span>, doanh nghiệp phải lấy từ nguồn nào sau đây?",
+    "question": "Để lập <span class=\"keyword\">quỹ dự phòng bắt buộc</span>, doanh nghiệp phải lấy từ nguồn nào sau đây?",
     "options": [
       "<span class=\"answer-keyword\">Lợi nhuận ròng</span>",
       "Doanh thu",
