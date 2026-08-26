@@ -1257,7 +1257,7 @@ function showQuizModal() {
                         <span class="modal-btn-sub">Các câu hỏi theo cấu trúc đề thi chuẩn</span>
                     </button>
                 </div>
-                <button onclick="document.getElementById('quiz-modal-step-1').style.display='none'; document.getElementById('quiz-modal-step-0').style.display='block';" class="modal-btn-cancel">Quay lại</button>
+                <button onclick="if(window.autoSkippedStep0) { document.getElementById('quiz-mode-modal').style.display='none'; } else { document.getElementById('quiz-modal-step-1').style.display='none'; document.getElementById('quiz-modal-step-0').style.display='block'; }" class="modal-btn-cancel">Quay lại</button>
             </div>
 
             <!-- BƯỚC 2: CHỌN SỐ CÂU HỎI -->
@@ -1278,7 +1278,7 @@ function showQuizModal() {
                         <span class="modal-btn-sub">(40 Câu)</span>
                     </button>
                 </div>
-                <button onclick="document.getElementById('quiz-modal-step-2').style.display='none'; if(window.tempQuizFormat === 'mcq') { document.getElementById('quiz-modal-step-1').style.display='block'; } else { document.getElementById('quiz-modal-step-0').style.display='block'; }" class="modal-btn-cancel">Quay lại</button>
+                <button onclick="document.getElementById('quiz-modal-step-2').style.display='none'; if(window.tempQuizFormat === 'mcq') { document.getElementById('quiz-modal-step-1').style.display='block'; } else { if(window.autoSkippedStep0) { document.getElementById('quiz-mode-modal').style.display='none'; } else { document.getElementById('quiz-modal-step-0').style.display='block'; } }" class="modal-btn-cancel">Quay lại</button>
             </div>
 
         </div>
@@ -1292,9 +1292,12 @@ function showQuizModal() {
     document.getElementById('quiz-modal-step-0').style.display = 'block';
     
     // Auto skip if only one format is available
+    window.autoSkippedStep0 = false;
     if (hasEssay && !hasMcq) {
+        window.autoSkippedStep0 = true;
         selectQuizFormat('essay');
     } else if (hasMcq && !hasEssay) {
+        window.autoSkippedStep0 = true;
         selectQuizFormat('mcq');
     }
     
