@@ -81,6 +81,19 @@ function buildFilterUI(data) {
     if (!wrap) return;
     
     if (document.getElementById('tagsDropdownContainer')) return; // Đã build rồi thì không build lại
+
+    // Auto-switch practice mode if there are NO mcqs or NO essays
+    if (!window._hasAutoSwitchedMode) {
+        window._hasAutoSwitchedMode = true;
+        let hasMcq = data.some(q => !isEssayQuestion(q));
+        let hasEssay = data.some(q => isEssayQuestion(q));
+        if (hasEssay && !hasMcq) {
+            window.practiceMode = 'essay';
+        } else if (hasMcq && !hasEssay) {
+            window.practiceMode = 'mcq';
+        }
+    }
+
     
     // Thu thập tất cả tags từ data
     let allTags = new Set();
@@ -174,10 +187,10 @@ function buildFilterUI(data) {
                         <line x1="1" y1="1" x2="23" y2="23"></line>
                     </svg>
                 </button>
-                <button id="btnModeMcq" class="bottom-icon-btn" onclick="setPracticeMode('mcq')" title="Trắc nghiệm" style="padding:8px; border:none; background:transparent; color: ${window.practiceMode === 'mcq' ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
+                <button id="btnModeMcq" class="bottom-icon-btn" onclick="setPracticeMode('mcq')" title="Trắc nghiệm" style="padding:8px; border:none; background:transparent; color: ${window.practiceMode === 'mcq' ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display:${window.quizData.some(q => !isEssayQuestion(q)) ? 'flex' : 'none'}; align-items:center; justify-content:center; transition: color 0.2s;">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
                 </button>
-                <button id="btnModeEssay" class="bottom-icon-btn" onclick="setPracticeMode('essay')" title="Tự luận" style="padding:8px; border:none; background:transparent; color: ${window.practiceMode === 'essay' ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
+                <button id="btnModeEssay" class="bottom-icon-btn" onclick="setPracticeMode('essay')" title="Tự luận" style="padding:8px; border:none; background:transparent; color: ${window.practiceMode === 'essay' ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display:${window.quizData.some(q => isEssayQuestion(q)) ? 'flex' : 'none'}; align-items:center; justify-content:center; transition: color 0.2s;">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
                 </button>
 
