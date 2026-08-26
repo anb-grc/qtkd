@@ -6,6 +6,28 @@ window.currentRendered = 0;
 window.currentLimit = 15;
 window.practiceMode = 'mcq';
 
+
+function isEssayQuestion(q) {
+    let isEssay = false;
+    let displayQ = q.question || '';
+    let qTextLower = displayQ.toLowerCase();
+    
+    if (q.tags && (q.tags.includes('Tự luận') || q.tags.includes('Essay'))) {
+        isEssay = true;
+    } else if (qTextLower.includes('tự luận:') || qTextLower.includes('câu hỏi tự luận') || qTextLower.includes('thảo luận:')) {
+        isEssay = true;
+    } else if (!q.options || q.options.length === 0) {
+        let hasEmbedded = [...displayQ.matchAll(/A[\.\)](?:\s|&nbsp;|<br|<\/?p>|<span)/g)].length > 0;
+        if (!hasEmbedded) {
+            if (qTextLower.includes('hãy trình bày') || qTextLower.includes('hãy phân tích') || 
+                qTextLower.includes('hãy so sánh') || qTextLower.includes('phân biệt ')) {
+                isEssay = true;
+            }
+        }
+    }
+    return isEssay;
+}
+
 function normalizeTextForSearch(text) {
     if (!text) return "";
     let s = text.replace(/<br\s*\/?>/gi, ' ');
@@ -717,7 +739,7 @@ function extractRawAnswerData(qObj) {
     return ans;
 }
 
-function startQuiz(quizMode = 'optimized') {
+function startQuiz(quizMode = 'optimized', quizFormat = 'mcq') {
     let modal = document.getElementById('quiz-mode-modal');
     if (modal) modal.style.display = 'none';
 
@@ -725,7 +747,7 @@ function startQuiz(quizMode = 'optimized') {
     quizSubmitted = false;
 
     // Lọc bỏ Tự Luận (options rỗng & không chứa format A.) khỏi Thi Thử
-    const mcqData = window.quizData.filter(q => {
+    const poolData = window.quizData.filter(q => {
         let isEssay = false;
         let displayQ = q.question || '';
         let qTextLower = displayQ.toLowerCase();
@@ -743,7 +765,7 @@ function startQuiz(quizMode = 'optimized') {
                 }
             }
         }
-        return !isEssay;
+        return quizFormat === 'essay' ? isEssay : !isEssay;
     });
 
     // Đổi giao diện sang chế độ Thi thử
@@ -779,7 +801,7 @@ function startQuiz(quizMode = 'optimized') {
             
             matrix.forEach(rule => {
                 let scaledCount = Math.round((rule.percentage / totalPercentage) * totalQuestions);
-                let pool = mcqData.filter(q => q.tags && q.tags.includes(rule.tag) && !usedQuestions.has(q));
+                let pool = poolData.filter(q => q.tags && q.tags.includes(rule.tag) && !usedQuestions.has(q));
                 
                 if (quizMode === 'optimized') {
                      let highPool = pool.filter(q => q.weight === 'high' || (q.tags && (q.tags.includes('80/20') || q.tags.includes('Trọng tâm'))));
@@ -804,7 +826,7 @@ function startQuiz(quizMode = 'optimized') {
             
             // Bù thêm nếu thiếu
             if (selected.length < totalQuestions) {
-                let pool = mcqData.filter(q => !usedQuestions.has(q));
+                let pool = poolData.filter(q => !usedQuestions.has(q));
                 pool.sort(() => 0.5 - Math.random());
                 let picked = pool.slice(0, totalQuestions - selected.length);
                 picked.forEach(q => { selected.push(q); usedQuestions.add(q); });
@@ -814,7 +836,7 @@ function startQuiz(quizMode = 'optimized') {
             }
         } else {
              // Fallback Random
-             let pool = [...mcqData];
+             let pool = [...poolData];
              if (quizMode === 'optimized') {
                   let highPool = pool.filter(q => q.weight === 'high' || (q.tags && (q.tags.includes('80/20') || q.tags.includes('Trọng tâm'))));
                   highPool.sort(() => 0.5 - Math.random());
@@ -835,7 +857,7 @@ function startQuiz(quizMode = 'optimized') {
     selected.sort(() => 0.5 - Math.random());
     quizQuestions = selected;
     
-    const allAnswers = mcqData.map(q => extractRawAnswerData(q)).filter(a => a.length > 0);
+    const allAnswers = poolData.map(q => extractRawAnswerData(q)).filter(a => a.length > 0);
     
 
     
@@ -1194,62 +1216,110 @@ function showQuizModal() {
     const fabSubmit = document.getElementById('fabSubmit');
     if (fabSubmit) fabSubmit.classList.remove('visible');
 
+    let hasMcq = window.quizData.some(q => !isEssayQuestion(q));
+    let hasEssay = window.quizData.some(q => isEssayQuestion(q));
+
     let modal = document.getElementById('quiz-mode-modal');
-    if (!modal) {
-        let html = `
-        <div id="quiz-mode-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); z-index:9999; justify-content:center; align-items:center; backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px);">
-            <div style="background:var(--surface); border:1px solid var(--border); width:90%; max-width:400px; border-radius:16px; padding:26px; text-align:center; box-shadow:var(--shadow-md); animation: fadeUp 0.3s ease; position:relative; overflow:hidden;">
-                
-                <!-- BƯỚC 1: CHỌN CHẾ ĐỘ -->
-                <div id="quiz-modal-step-1">
-                    <h2 style="margin-top:0; color:var(--text); font-size:1.35em;">CHỌN CHẾ ĐỘ THI THỬ</h2>
-                    <p style="color:var(--muted); font-size:0.92em; margin-bottom:22px;">Bạn muốn thi thử theo hình thức nào?</p>
-                    <div style="display:flex; flex-direction:column; gap:14px;">
-                        <button onclick="selectQuizMode('optimized')" class="modal-btn modal-btn-opt">
-                            <span>Tối Ưu</span>
-                            <span class="modal-btn-sub">Tập trung 20% câu hỏi chiếm 80% tỉ lệ ra thi</span>
-                        </button>
-                        <button onclick="selectQuizMode('structured')" class="modal-btn modal-btn-str">
-                            <span>Cấu Trúc Đề</span>
-                            <span class="modal-btn-sub">Các câu hỏi theo cấu trúc đề thi chuẩn</span>
-                        </button>
-                    </div>
-                    <button onclick="document.getElementById('quiz-mode-modal').style.display='none'" class="modal-btn-cancel">Quay lại</button>
+    if (modal) modal.remove(); // Rebuild modal to ensure dynamic buttons
+    
+    let html = `
+    <div id="quiz-mode-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); z-index:9999; justify-content:center; align-items:center; backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px);">
+        <div style="background:var(--surface); border:1px solid var(--border); width:90%; max-width:400px; border-radius:16px; padding:26px; text-align:center; box-shadow:var(--shadow-md); animation: fadeUp 0.3s ease; position:relative; overflow:hidden;">
+            
+            <!-- BƯỚC 0: CHỌN HÌNH THỨC -->
+            <div id="quiz-modal-step-0">
+                <h2 style="margin-top:0; color:var(--text); font-size:1.35em;">HÌNH THỨC THI THỬ</h2>
+                <p style="color:var(--muted); font-size:0.92em; margin-bottom:22px;">Chọn hình thức bạn muốn làm bài</p>
+                <div style="display:flex; flex-direction:column; gap:14px;">
+                    ${hasMcq ? `<button onclick="selectQuizFormat('mcq')" class="modal-btn modal-btn-opt">
+                        <span>Trắc Nghiệm</span>
+                        <span class="modal-btn-sub">Thi trắc nghiệm chấm điểm tự động</span>
+                    </button>` : ''}
+                    ${hasEssay ? `<button onclick="selectQuizFormat('essay')" class="modal-btn modal-btn-str">
+                        <span>Tự Luận</span>
+                        <span class="modal-btn-sub">Thi tự luận có gợi ý chấm điểm</span>
+                    </button>` : ''}
                 </div>
-
-                <!-- BƯỚC 2: CHỌN SỐ CÂU HỎI -->
-                <div id="quiz-modal-step-2" style="display:none;">
-                    <h2 style="margin-top:0; color:var(--text); font-size:1.35em;">Số lượng câu hỏi</h2>
-                    <p style="color:var(--muted); font-size:0.92em; margin-bottom:22px;">Bạn muốn thi bao nhiêu câu?</p>
-                    <div style="display:flex; flex-direction:column; gap:14px;">
-                        <button onclick="startQuizWithCount(15)" class="modal-btn modal-btn-str">
-                            <span>Kiểm tra nhanh</span>
-                            <span class="modal-btn-sub">(15 Câu)</span>
-                        </button>
-                        <button onclick="startQuizWithCount(20)" class="modal-btn modal-btn-str">
-                            <span>Tiêu chuẩn</span>
-                            <span class="modal-btn-sub">(20 Câu)</span>
-                        </button>
-                        <button onclick="startQuizWithCount(40)" class="modal-btn modal-btn-opt">
-                            <span>Thi thật</span>
-                            <span class="modal-btn-sub">(40 Câu)</span>
-                        </button>
-                    </div>
-                    <button onclick="document.getElementById('quiz-modal-step-2').style.display='none'; document.getElementById('quiz-modal-step-1').style.display='block';" class="modal-btn-cancel">Quay lại</button>
-                </div>
-
+                <button onclick="document.getElementById('quiz-mode-modal').style.display='none'" class="modal-btn-cancel">Đóng</button>
             </div>
+
+            <!-- BƯỚC 1: CHỌN CHIẾN THUẬT (CHỈ TRẮC NGHIỆM) -->
+            <div id="quiz-modal-step-1" style="display:none;">
+                <h2 style="margin-top:0; color:var(--text); font-size:1.35em;">CHIẾN THUẬT BỐC ĐỀ</h2>
+                <p style="color:var(--muted); font-size:0.92em; margin-bottom:22px;">Bạn muốn lấy câu hỏi từ đâu?</p>
+                <div style="display:flex; flex-direction:column; gap:14px;">
+                    <button onclick="selectQuizMode('optimized')" class="modal-btn modal-btn-opt">
+                        <span>Tối Ưu</span>
+                        <span class="modal-btn-sub">Tập trung 20% câu hỏi chiếm 80% tỉ lệ ra thi</span>
+                    </button>
+                    <button onclick="selectQuizMode('structured')" class="modal-btn modal-btn-str">
+                        <span>Cấu Trúc Đề</span>
+                        <span class="modal-btn-sub">Các câu hỏi theo cấu trúc đề thi chuẩn</span>
+                    </button>
+                </div>
+                <button onclick="document.getElementById('quiz-modal-step-1').style.display='none'; document.getElementById('quiz-modal-step-0').style.display='block';" class="modal-btn-cancel">Quay lại</button>
+            </div>
+
+            <!-- BƯỚC 2: CHỌN SỐ CÂU HỎI -->
+            <div id="quiz-modal-step-2" style="display:none;">
+                <h2 style="margin-top:0; color:var(--text); font-size:1.35em;">SỐ LƯỢNG CÂU HỎI</h2>
+                <p style="color:var(--muted); font-size:0.92em; margin-bottom:22px;">Bạn muốn thi bao nhiêu câu?</p>
+                <div style="display:flex; flex-direction:column; gap:14px;">
+                    <button onclick="startQuizWithCount(15)" class="modal-btn modal-btn-str">
+                        <span>Kiểm tra nhanh</span>
+                        <span class="modal-btn-sub">(15 Câu)</span>
+                    </button>
+                    <button onclick="startQuizWithCount(20)" class="modal-btn modal-btn-str">
+                        <span>Tiêu chuẩn</span>
+                        <span class="modal-btn-sub">(20 Câu)</span>
+                    </button>
+                    <button onclick="startQuizWithCount(40)" class="modal-btn modal-btn-opt">
+                        <span>Thi thật</span>
+                        <span class="modal-btn-sub">(40 Câu)</span>
+                    </button>
+                </div>
+                <button onclick="document.getElementById('quiz-modal-step-2').style.display='none'; if(window.tempQuizFormat === 'mcq') { document.getElementById('quiz-modal-step-1').style.display='block'; } else { document.getElementById('quiz-modal-step-0').style.display='block'; }" class="modal-btn-cancel">Quay lại</button>
+            </div>
+
         </div>
-        `;
-        document.body.insertAdjacentHTML('beforeend', html);
-        modal = document.getElementById('quiz-mode-modal');
+    </div>
+    `;
+    document.body.insertAdjacentHTML('beforeend', html);
+    modal = document.getElementById('quiz-mode-modal');
+    
+    document.getElementById('quiz-modal-step-1').style.display = 'none';
+    document.getElementById('quiz-modal-step-2').style.display = 'none';
+    document.getElementById('quiz-modal-step-0').style.display = 'block';
+    
+    // Auto skip if only one format is available
+    if (hasEssay && !hasMcq) {
+        selectQuizFormat('essay');
+    } else if (hasMcq && !hasEssay) {
+        selectQuizFormat('mcq');
     }
     
-    // Đảm bảo luôn bắt đầu ở bước 1 mỗi khi mở modal
-    document.getElementById('quiz-modal-step-2').style.display = 'none';
-    document.getElementById('quiz-modal-step-1').style.display = 'block';
     modal.style.display = 'flex';
 }
+
+window.tempQuizFormat = 'mcq';
+window.tempQuizMode = 'optimized';
+
+window.selectQuizFormat = function(format) {
+    window.tempQuizFormat = format;
+    document.getElementById('quiz-modal-step-0').style.display = 'none';
+    if (format === 'mcq') {
+        document.getElementById('quiz-modal-step-1').style.display = 'block';
+    } else {
+        document.getElementById('quiz-modal-step-2').style.display = 'block';
+    }
+}
+
+window.selectQuizMode = function(mode) {
+    window.tempQuizMode = mode;
+    document.getElementById('quiz-modal-step-1').style.display = 'none';
+    document.getElementById('quiz-modal-step-2').style.display = 'block';
+}
+
 
 window.tempQuizMode = 'optimized';
 window.selectQuizMode = function(mode) {
@@ -1260,7 +1330,7 @@ window.selectQuizMode = function(mode) {
 
 window.startQuizWithCount = function(count) {
     window.selectedQuizCount = count;
-    startQuiz(window.tempQuizMode);
+    startQuiz(window.tempQuizMode, window.tempQuizFormat);
 }
 
 // ---------------------------------
@@ -1615,3 +1685,148 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+
+function submitEssayPhase1() {
+    stopTimer();
+    const fabSubmit = document.getElementById('fabSubmit');
+    
+    // Evaluate keywords
+    quizQuestions.forEach((qObj, index) => {
+        let textarea = document.getElementById(`essay-ans-${index}`);
+        if(textarea) textarea.disabled = true; // freeze
+        
+        let userText = normalizeTextForSearch(textarea ? textarea.value : "");
+        
+        // Extract raw answer html
+        let tmp = document.createElement('div');
+        tmp.innerHTML = qObj.answer || "";
+        
+        // Get highlighted keywords (green ones)
+        let kTags = tmp.querySelectorAll('.answer-keyword, .keyword');
+        let totalKeys = kTags.length;
+        let matchedKeys = 0;
+        
+        kTags.forEach(tag => {
+            let kText = normalizeTextForSearch(tag.textContent);
+            if (userText.includes(kText) && kText.length > 0) {
+                matchedKeys++;
+                tag.style.color = '#2ecc71'; // Green
+                tag.style.textDecoration = 'none';
+            } else {
+                tag.style.color = '#e74c3c'; // Red
+                tag.style.textDecoration = 'line-through';
+            }
+        });
+        
+        let feedbackHtml = `
+            <div style="font-weight:600; margin-bottom:10px; color:${matchedKeys === totalKeys && totalKeys > 0 ? 'var(--success)' : 'var(--warn)'};">
+                🎯 Khớp ${matchedKeys}/${totalKeys} ý cốt lõi
+            </div>
+            <div style="background: rgba(0,0,0,0.2); padding: 12px; border-radius: 8px; font-size: 0.95em; color: var(--text); max-height:200px; overflow-y:auto; margin-bottom:15px;">
+                ${tmp.innerHTML}
+            </div>
+            <div style="display:flex; flex-direction:column; gap:8px;">
+                <div style="font-weight:600; font-size:0.9em; color:var(--muted);">TỰ CHẤM ĐIỂM:</div>
+                <div style="display:flex; gap:10px;" class="essay-score-group" data-index="${index}">
+                    <button class="essay-score-btn" onclick="selectEssayScore(${index}, 0)" style="flex:1; padding:10px; border-radius:6px; border:1px solid #e74c3c; background:transparent; color:#e74c3c; cursor:pointer;">🔴 Quên sạch (0đ)</button>
+                    <button class="essay-score-btn" onclick="selectEssayScore(${index}, 0.5)" style="flex:1; padding:10px; border-radius:6px; border:1px solid #f1c40f; background:transparent; color:#f1c40f; cursor:pointer;">🟡 Nhớ mấp mé (0.5đ)</button>
+                    <button class="essay-score-btn" onclick="selectEssayScore(${index}, 1)" style="flex:1; padding:10px; border-radius:6px; border:1px solid #2ecc71; background:transparent; color:#2ecc71; cursor:pointer;">🟢 Chuẩn xác (1đ)</button>
+                </div>
+            </div>
+        `;
+        
+        let fbBox = document.getElementById(`essay-feedback-${index}`);
+        if(fbBox) {
+            fbBox.innerHTML = feedbackHtml;
+            fbBox.style.display = 'block';
+        }
+    });
+    
+    // Change fabSubmit to Phase 2
+    window.essayScores = {};
+    updateEssayFab();
+    fabSubmit.onclick = submitEssayPhase2;
+}
+
+window.essayScores = {};
+function selectEssayScore(index, score) {
+    window.essayScores[index] = score;
+    
+    // Update button UI
+    let group = document.querySelector(`.essay-score-group[data-index="${index}"]`);
+    if(group) {
+        let btns = group.querySelectorAll('.essay-score-btn');
+        btns.forEach((b, i) => {
+            b.style.background = 'transparent';
+            if(i === 0 && score === 0) b.style.background = 'rgba(231, 76, 60, 0.2)';
+            if(i === 1 && score === 0.5) b.style.background = 'rgba(241, 196, 15, 0.2)';
+            if(i === 2 && score === 1) b.style.background = 'rgba(46, 204, 113, 0.2)';
+        });
+    }
+    updateEssayFab();
+}
+
+function updateEssayFab() {
+    let fab = document.getElementById('fabSubmit');
+    if(!fab) return;
+    let scoredCount = Object.keys(window.essayScores).length;
+    let total = quizQuestions.length;
+    
+    fab.innerHTML = `Chốt điểm (${scoredCount}/${total})`;
+    
+    if (scoredCount === total) {
+        fab.style.background = 'var(--success)'; // Green when ready
+        fab.style.pointerEvents = 'auto';
+        fab.style.opacity = '1';
+    } else {
+        fab.style.background = 'var(--primary)';
+        // Still allow click, but we can warn them if not finished
+    }
+}
+
+function submitEssayPhase2() {
+    let total = quizQuestions.length;
+    let scoredCount = Object.keys(window.essayScores).length;
+    if(scoredCount < total) {
+        alert(`Bạn còn ${total - scoredCount} câu chưa tự chấm điểm!`);
+        return;
+    }
+    
+    quizSubmitted = true;
+    let correctCount = 0;
+    
+    Object.values(window.essayScores).forEach(s => {
+        correctCount += s;
+    });
+    
+    // Save history
+    let subjectKey = getSubjectKey();
+    let history = JSON.parse(localStorage.getItem(subjectKey) || '[]');
+    let percent = Math.round((correctCount / total) * 100);
+    
+    history.push({
+        date: new Date().toISOString(),
+        score: percent,
+        correct: correctCount,
+        total: total,
+        mode: window.currentQuizMode,
+        format: 'essay'
+    });
+    
+    localStorage.setItem(subjectKey, JSON.stringify(history));
+    
+    // Hide fab
+    const fabSubmit = document.getElementById('fabSubmit');
+    if (fabSubmit) fabSubmit.classList.remove('visible');
+    
+    // Show summary
+    document.getElementById('quiz-result-score').textContent = `${correctCount} / ${total}`;
+    document.getElementById('quiz-result-percent').textContent = `Đạt ${percent}%`;
+    document.getElementById('quiz-result-summary').style.display = 'block';
+    
+    // Hide all self-assess buttons to finalize view
+    document.querySelectorAll('.essay-score-group').forEach(el => el.style.pointerEvents = 'none');
+    
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
