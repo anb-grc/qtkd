@@ -1,0 +1,92 @@
+Câu 31:
+0 / 1 điểm
+Trong chương trình Microsoft Office PowerPoint 2013, để chèn các đối tượng vào bài trình chiếu như bảng biểu, hình ảnh, lưu đồ, biểu đồ, các nút lệnh liên kết đến các slide khác hoặc tập tin khác người sử dụng sẽ vào thẻ lệnh nào?
+A. Thẻ Home
+B. Thẻ Design
+C. Thẻ View
+D. Thẻ Insert
+Phản hồi: Sai. Đáp án đúng là: Thẻ Insert
+
+Câu 32:
+0 / 1 điểm
+Trong chương trình Microsoft Office PowerPoint 2013, để chọn Theme mẫu cho bài trình chiếu ta sẽ thực hiện thao tác nào sau đây?
+A. View, Themes, chọn mẫu
+B. Home, Themes, chọn mẫu
+C. Insert, Themes, chọn mẫu
+D. Design, Themes, chọn mẫu
+Phản hồi: Sai. Đáp án đúng là: Design, Themes, chọn mẫu
+
+Câu 33:
+0 / 1 điểm
+Trong chương trình Microsoft Office PowerPoint 2013, khi thiết lập hiệu ứng chuyển trang, tại nhóm Timing tùy chọn nào quy định thời gian thực thi hiệu ứng chuyển từ slide này sang slide khác?
+A. Sound
+B. On Mouse Click
+C. Duration
+D. After
+Phản hồi: Sai. Đáp án đúng là: Duration
+
+Câu 34:
+0 / 1 điểm
+Trong chương trình Microsoft Office PowerPoint 2013, cho biết tổ hợp phím nào được sử dụng để mở một bài trình diễn có sẵn trên ổ đĩa?
+A. CTRL+S
+B. CTRL+A
+C. CTRL+O
+D. CTRL+N
+Phản hồi: Sai. Đáp án đúng là: CTRL+O
+
+Câu 35:
+0 / 1 điểm
+Trong chương trình Microsoft Office PowerPoint 2013, cho biết lệnh nào sau đây được sử dụng để ẩn slide đang được click phải chuột?
+A. Delete slide
+B. Hide slide
+C. Duplicate slide
+D. Reset slide
+Phản hồi: Sai. Đáp án đúng là: Hide slide
+
+Câu 36:
+0 / 1 điểm
+Trong chương trình Microsoft Office PowerPoint 2013, cho biết tổ hợp phím nào được sử dụng để tạo mới một slide trình chiếu?
+A. CTRL+M
+B. CTRL+A
+C. CTRL+S
+D. CTRL+N
+Phản hồi: Sai. Đáp án đúng là: CTRL+M
+
+Câu 37:
+0 / 1 điểm
+Trong khi sử dụng dịch vụ thư điện tử Gmail, các thư đã soạn nhưng chưa gửi sẽ được lưu trữ ở đâu?
+A. Starred
+B. Drafts
+C. Send
+D. Inbox
+Phản hồi: Sai. Đáp án đúng là: Drafts
+
+Câu 38:
+0 / 1 điểm
+Khi đang sử dụng trình duyệt web, người dùng sử dụng phím nào để tải lại nội dung trang web?
+A. F3
+B. F5
+C. F4
+D. F2
+Phản hồi: Sai. Đáp án đúng là: F5
+
+Câu 39:
+0 / 1 điểm
+Loại tên miền (domain) nào sau đây mang tính tổ chức thương mại?
+A. edu (Education)
+B. gov (Governmental)
+C. com (Commercial)
+D. net (Networking)
+Phản hồi: Sai. Đáp án đúng là: com (Commercial)
+Vì: Domain mang tính tổ chức: thường gồm 3 kí tự
+
+Câu 40:
+0 / 1 điểm
+Phần mềm ứng dụng nào KHÔNG là trình duyệt Web?
+A. Google Chrome
+B. Microsoft Word
+C. Internet Explorer
+D. Opera
+Phản hồi: Sai. Đáp án đúng là: Microsoft Word
+Vì: Google Chrome, Opera và Internet Explorer là các trình duyệt web phổ biến, Microsoft Word là phần mềm soạn thảo văn bản
+

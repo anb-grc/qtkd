@@ -1,0 +1,141 @@
+Câu 16:
+0 / 1 điểm
+Trong các phần mềm ứng dụng bên dưới, phần mềm nào được sử dụng để soạn thảo văn bản?
+A. WinRAR
+B. Google Chrome
+C. Foxit Reader
+D. Microsoft Word
+Phản hồi: Sai. Đáp án đúng là: Microsoft Word
+
+Câu 17:
+0 / 1 điểm
+Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng cho đối tượng Shape nhóm lệnh nào trong thẻ Format cho phép định dạng màu nền cho Shape?
+A. Insert Shapes
+B. Arrange
+C. Shape Styles
+D. Size
+Phản hồi: Sai. Đáp án đúng là: Shape Styles
+Vì: Trong chương trình Microsoft Office Word 2013, để định dạng màu nền cho đối tượng Shape, người sử dụng thực hiện thao tác: Format > Nhóm Shape Styles và chọn Shape Fill
+
+Câu 18:
+0 / 1 điểm
+Trong chương trình Microsoft Office Word 2013, cho biết tùy chọn nào sau đây được sử dụng để thay đổi hình dáng cho đối tượng WordArt?
+A. Glow
+B. Shadow
+C. Reflection
+D. Transform
+Phản hồi: Sai. Đáp án đúng là: Transform
+Vì: Trong chương trình Microsoft Office Word 2013, hiệu ứng:
+- Shadow: sử dụng để tạo hiệu ứng đổ bóng cho đối tượng WordArt
+- Refection: sử dụng để tạo hiệu ứng độ tương phản cho đối tượng cho đối tượng WordArt
+- Glow: sử dụng để tạo hiệu ứng độ sáng cho đối tượng
+- Transform: sử dụng để thay đổi hình dáng cho đối tượng WordArt
+
+Câu 19:
+0 / 1 điểm
+Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng hình ảnh nhóm lệnh nào trong thẻ Format cho phép sắp xếp vị trí của hình ảnh so với văn bản hoặc so với đối tượng, hình ảnh khác?
+A. Adjust
+B. Picture styles
+C. Size
+D. Arrange
+Phản hồi: Sai. Đáp án đúng là: Arrange
+
+Câu 20:
+0 / 1 điểm
+Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng bảng biểu, nhóm lệnh nào trong thẻ Layout cho phép sắp xếp bảng dữ liệu?
+A. Alignment
+B. Data
+C. Rows & Columns
+D. Merge
+Phản hồi: Sai. Đáp án đúng là: Data
+
+Câu 21:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, hàm nào được sử dụng để xếp hạng một giá trị kiểu số trong một danh sách các giá trị số cho trước?
+A. PRODUCT
+B. UPPER
+C. RANK
+D. FIND
+Phản hồi: Sai. Đáp án đúng là: RANK
+
+Câu 22:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, khi sắp xếp dữ liệu trong hộp thoại Sort, nút lệnh nào cho phép xóa bỏ điều kiện sắp xếp?
+A. Sort by
+B. Add Level
+C. Delete Level
+D. Copy Level
+Phản hồi: Sai. Đáp án đúng là: Delete Level
+
+Câu 23:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, cho biết tùy chọn nào được sử dụng để thiết lập lề trang giấy?
+A. Orientation
+B. Print Area
+C. Margins
+D. Size
+Phản hồi: Sai. Đáp án đúng là: Margins
+
+Câu 24:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, khi nhập công thức tính toán kết quả trả về lỗi #VALUE! cho biết nguyên nhân gì?
+A. Trong công thức có phép tính chia cho số không (0)
+B. Trong công thức có một tên mà Excel không hiểu được
+C. Trong công thức có các toán hạng và toán tử sai kiểu dữ liệu
+D. Công thức tham chiếu đến vùng không chứa giá trị cần tham chiếu
+Phản hồi: Sai. Đáp án đúng là: Trong công thức có các toán hạng và toán tử sai kiểu dữ liệu
+
+Câu 25:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, lệnh nào được sử dụng để tô màu nền cho ô?
+A. Font Size
+B. Fill Color
+C. Font Color
+D. Format Painter
+Phản hồi: Sai. Đáp án đúng là: Fill Color
+
+Câu 26:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, cho biết tùy chọn nào được sử dụng để thay đổi đơn vị đo của thanh thước?
+A. Show sheet tabs
+B. Show function ScreenTips
+C. Ruler units
+D. Show formula bar
+Phản hồi: Sai. Đáp án đúng là: Ruler units
+
+Câu 27:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, để chuyển đổi dữ liệu chuỗi sang chữ in hoa người sử dụng dùng hàm gì?
+A. LEFT
+B. LEN
+C. MID
+D. UPPER
+Phản hồi: Sai. Đáp án đúng là: UPPER
+
+Câu 28:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, các tham số trong một hàm được phân cách bằng dấu gì?
+A. dấu *
+B. dấu ,
+C. dấu ;
+D. dấu , hoặc dấu ;
+Phản hồi: Sai. Đáp án đúng là: dấu , hoặc dấu ;
+
+Câu 29:
+0 / 1 điểm
+Trong chương trình Microsoft Office Excel 2013, cho biết lệnh nào được sử dụng để chèn thêm một Sheet mới?
+A. Move or Copy…
+B. Rename
+C. Protect Sheet…
+D. Insert…
+Phản hồi: Sai. Đáp án đúng là: Insert…
+
+Câu 30:
+0 / 1 điểm
+Trong chương trình Microsoft Office PowerPoint 2013, tập tin trình chiếu có phần mở rộng là gì?
+A. xlsx
+B. pptx
+C. docx
+D. txt
+Phản hồi: Sai. Đáp án đúng là: pptx
+

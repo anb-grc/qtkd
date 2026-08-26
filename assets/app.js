@@ -4,6 +4,7 @@ window.filteredData = [];
 window.activeTagFilters = new Set();
 window.currentRendered = 0;
 window.currentLimit = 15;
+window.practiceMode = 'mcq';
 
 function normalizeTextForSearch(text) {
     if (!text) return "";
@@ -138,15 +139,37 @@ function buildFilterUI(data) {
             <select id="limitFilter" onchange="changeLimit()" style="padding:8px 12px; border-radius:var(--r); border:1px solid var(--border); width:fit-content; flex-shrink: 0; background: var(--surface); color: var(--text); font-family: inherit; font-size: 0.9em; cursor: pointer;">
                 ${limitOptions}
             </select>
-            <div style="flex: 1; min-width: 20px;"></div>
-            <div style="display:flex; gap:0px; align-items:center; flex-shrink: 0; margin-left: auto;">
-                <button id="sortBtn" onclick="sortQuestions()" style="padding:8px; border:none; background:transparent; color: var(--text); cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
+            <div style="flex: 1; min-width: 10px;"></div>
+            <div style="display:flex; gap:4px; align-items:center; flex-shrink: 0; margin-left: auto; flex-wrap: wrap; justify-content: flex-end;">
+                <!-- Nhóm 3 nút Filter/Mode -->
+                <button id="toggleOptionsBtn" class="bottom-icon-btn" onclick="toggleMcqOptions()" title="Ẩn/Hiện 4 đáp án" style="padding:8px; border:none; background:transparent; color: ${window.showMcqOptions ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
+                    <svg id="icon-eye-open" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: ${window.showMcqOptions ? 'block' : 'none'};">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                        <circle cx="12" cy="12" r="3"></circle>
+                    </svg>
+                    <svg id="icon-eye-closed" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: ${window.showMcqOptions ? 'none' : 'block'};">
+                        <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path>
+                        <line x1="1" y1="1" x2="23" y2="23"></line>
+                    </svg>
+                </button>
+                <button id="btnModeMcq" class="bottom-icon-btn" onclick="setPracticeMode('mcq')" title="Trắc nghiệm" style="padding:8px; border:none; background:transparent; color: ${window.practiceMode === 'mcq' ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+                </button>
+                <button id="btnModeEssay" class="bottom-icon-btn" onclick="setPracticeMode('essay')" title="Tự luận" style="padding:8px; border:none; background:transparent; color: ${window.practiceMode === 'essay' ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+                </button>
+
+                <!-- Dấu gạch chia cách nhẹ -->
+                <div style="width: 1px; height: 16px; background: var(--border); margin: 0 4px;"></div>
+
+                <!-- Nhóm 3 nút Chức năng -->
+                <button id="sortBtn" class="bottom-icon-btn" onclick="sortQuestions()" title="Trọng tâm" style="padding:8px; border:none; background:transparent; color: ${window.isHighSorted ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
                 </button>
-                <button id="modeBtn" onclick="toggleKeywordMode()" style="padding:8px; border:none; background:transparent; color: var(--text); cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
+                <button id="modeBtn" class="bottom-icon-btn" onclick="toggleKeywordMode()" title="Keyword" style="padding:8px; border:none; background:transparent; color: ${window.isKeywordMode ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"></path></svg>
                 </button>
-                <button id="printBtn" onclick="window.print()" style="padding:8px; border:none; background:transparent; color: var(--text); cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
+                <button id="printBtn" class="bottom-icon-btn" onclick="window.print()" title="In" style="padding:8px; border:none; background:transparent; color: var(--text); cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
                 </button>
             </div>
@@ -165,12 +188,22 @@ function toggleKeywordMode() {
     window.isKeywordMode = !window.isKeywordMode;
     const btn = document.getElementById('modeBtn');
     if (window.isKeywordMode) {
-        btn.style.color = 'var(--secondary)';
+        btn.style.color = 'var(--warn)';
         document.body.classList.add('keyword-mode-active');
     } else {
         btn.style.color = 'var(--text)';
         document.body.classList.remove('keyword-mode-active');
     }
+}
+function stripHighlight(htmlStr) {
+    let tmp = document.createElement('div');
+    tmp.innerHTML = htmlStr;
+    let tags = tmp.querySelectorAll('.answer-keyword, .keyword, b, strong');
+    tags.forEach(t => {
+        let textNode = document.createTextNode(t.textContent);
+        t.parentNode.replaceChild(textNode, t);
+    });
+    return tmp.innerHTML;
 }
 
 function extractKeywords(htmlStr, isAnswer) {
@@ -216,11 +249,47 @@ function sortQuestions() {
     window.isHighSorted = !window.isHighSorted;
     const btn = document.getElementById('sortBtn');
     if (window.isHighSorted) {
-        btn.style.color = 'var(--accent)';
+        btn.style.color = 'var(--warn)';
         document.body.classList.add('sort-high-active');
     } else {
         btn.style.color = 'var(--text)';
         document.body.classList.remove('sort-high-active');
+    }
+    filterQuestions();
+}
+
+window.showMcqOptions = true;
+function toggleMcqOptions() {
+    window.showMcqOptions = !window.showMcqOptions;
+    const btn = document.getElementById('toggleOptionsBtn');
+    const iconOpen = document.getElementById('icon-eye-open');
+    const iconClosed = document.getElementById('icon-eye-closed');
+    
+    if (window.showMcqOptions) {
+        document.body.classList.remove('hide-mcq-options');
+        if(btn) btn.style.color = 'var(--warn)';
+        if(iconOpen) iconOpen.style.display = 'block';
+        if(iconClosed) iconClosed.style.display = 'none';
+    } else {
+        document.body.classList.add('hide-mcq-options');
+        if(btn) btn.style.color = 'var(--text)';
+        if(iconOpen) iconOpen.style.display = 'none';
+        if(iconClosed) iconClosed.style.display = 'block';
+    }
+}
+
+function setPracticeMode(mode) {
+    window.practiceMode = mode;
+    const btnMcq = document.getElementById('btnModeMcq');
+    const btnEssay = document.getElementById('btnModeEssay');
+    if (btnMcq && btnEssay) {
+        if (mode === 'mcq') {
+            btnMcq.style.color = 'var(--warn)';
+            btnEssay.style.color = 'var(--text)';
+        } else {
+            btnEssay.style.color = 'var(--warn)';
+            btnMcq.style.color = 'var(--text)';
+        }
     }
     filterQuestions();
 }
@@ -233,14 +302,31 @@ function filterQuestions() {
     window.filteredData = window.quizData.filter(q => {
         let matchSearch = true;
         let matchTag = true;
+        q._searchScore = 0;
         
         if (query.length > 0) {
-            let fullText = (q.question || '') + " " + (q.options ? q.options.join(" ") : "") + " " + (q.explanation || '');
-            let normFull = normalizeTextForSearch(fullText);
+            let normQ = normalizeTextForSearch(q.question || '');
+            let normOpt = normalizeTextForSearch(q.options ? q.options.join(" ") : "");
+            let normAns = normalizeTextForSearch(q.answer || '');
+            let normFull = normQ + " " + normOpt + " " + normAns;
             
             // Logic tìm kiếm đa từ khoá (AND)
             let terms = query.split(/\s+/).filter(t => t.length > 0);
             matchSearch = terms.every(term => normFull.includes(term));
+            
+            if (matchSearch) {
+                // Điểm Exact Match
+                if (normFull.includes(query)) {
+                    q._searchScore += 1000;
+                    if (normQ.includes(query)) q._searchScore += 500; // Ưu tiên xuất hiện ở câu hỏi
+                }
+                // Điểm Scattered Match (Trọng số theo vùng)
+                terms.forEach(term => {
+                    if (normQ.includes(term)) q._searchScore += 20;
+                    else if (normOpt.includes(term)) q._searchScore += 5;
+                    else if (normAns.includes(term)) q._searchScore += 5;
+                });
+            }
         }
         
         if (window.activeTagFilters && window.activeTagFilters.size > 0) {
@@ -255,17 +341,51 @@ function filterQuestions() {
             }
         }
         
-        return matchSearch && matchTag;
+        let matchMode = true;
+        let isEssay = false;
+        let displayQ = q.question || '';
+        let qTextLower = displayQ.toLowerCase();
+        
+        if (q.tags && (q.tags.includes('Tự luận') || q.tags.includes('Essay'))) {
+            isEssay = true;
+        } else if (qTextLower.includes('tự luận:') || qTextLower.includes('câu hỏi tự luận') || qTextLower.includes('thảo luận:')) {
+            isEssay = true;
+        } else if (!q.options || q.options.length === 0) {
+            let hasEmbedded = [...displayQ.matchAll(/A[\.\)](?:\s|&nbsp;|<br|<\/?p>|<span)/g)].length > 0;
+            if (!hasEmbedded) {
+                if (qTextLower.includes('hãy trình bày') || qTextLower.includes('hãy phân tích') || 
+                    qTextLower.includes('hãy so sánh') || qTextLower.includes('phân biệt ')) {
+                    isEssay = true;
+                }
+            }
+        }
+        
+        let isActuallyMcq = !isEssay;
+        
+        if (window.practiceMode === 'essay') {
+            matchMode = isEssay;
+        } else {
+            matchMode = isActuallyMcq;
+        }
+        
+        return matchSearch && matchTag && matchMode;
     });
     
-    if (window.isHighSorted) {
-        const weightOrder = { high: 0, normal: 1 };
-        window.filteredData.sort((a, b) => {
+    // Sort logic
+    const weightOrder = { high: 0, normal: 1 };
+    window.filteredData.sort((a, b) => {
+        // 1. Ưu tiên điểm Search (nếu có)
+        if (query.length > 0 && b._searchScore !== a._searchScore) {
+            return b._searchScore - a._searchScore;
+        }
+        // 2. Phá hòa (Tie-breaker) bằng Trọng tâm (High) HOẶC nếu user đang bật nút High
+        if (query.length > 0 || window.isHighSorted) {
             const wA = weightOrder[a.weight] ?? 1;
             const wB = weightOrder[b.weight] ?? 1;
-            return wA - wB;
-        });
-    }
+            if (wA !== wB) return wA - wB;
+        }
+        return 0;
+    });
     
     window.currentRendered = 0;
     document.getElementById('questions-list').innerHTML = '';
@@ -310,20 +430,43 @@ function renderBatch() {
         let actualIndex = window.currentRendered + idx;
         let weightAttr = (q.weight && q.weight !== 'normal') ? `data-weight="${q.weight}"` : '';
         
-        let displayQ = q.question.replace(/<br\s*\/?>\s*<br\s*\/?>/gi, '<br>');
-        let matches = [...displayQ.matchAll(/A[\.\)](?:\s|&nbsp;|<br|<\/?p>|<span)/g)];
-        if (matches.length > 0 && !displayQ.includes('options-grid')) {
+        let displayQ = q.question || '';
+        let cleanQ = displayQ.replace(/<br\s*\/?>\s*<br\s*\/?>/gi, '<br>');
+        let matches = [...cleanQ.matchAll(/A[\.\)](?:\s|&nbsp;|<br|<\/?p>|<span)/g)];
+        
+        if (matches.length > 0 && !cleanQ.includes('options-grid')) {
             let cutIndex = matches[matches.length - 1].index;
-            let questionPart = displayQ.substring(0, cutIndex).trim();
+            let questionPart = cleanQ.substring(0, cutIndex).trim();
             questionPart = questionPart.replace(/(<br\s*\/?>\s*)+$/, "");
-            let optionsPart = displayQ.substring(cutIndex).replace(/^(?:<br\s*\/?>\s*)+/i, '');
+            let optionsPart = cleanQ.substring(cutIndex).replace(/^(?:<br\s*\/?>\s*)+/i, '');
+            
+            // Xóa highlight để không lộ đáp án
+            optionsPart = stripHighlight(optionsPart);
             
             optionsPart = optionsPart.replace(/([A-D][\.\)])(?:\s|<br\s*\/?>)*/gi, '</div></div><div style="display: flex; align-items: flex-start; margin-bottom: 12px; line-height: 1.5;"><div style="font-weight: 600; color: var(--primary); min-width: 24px; flex-shrink: 0;">$1</div><div>');
             optionsPart = optionsPart.replace(/^(?:<\/div>){1,2}/i, '') + '</div></div>';
             
-            displayQ = `<div style="font-weight: 600;">${questionPart}</div><div style="font-weight: normal; margin-top: 12px;">${optionsPart}</div>`;
+            displayQ = `<div style="font-weight: 600;">${questionPart}</div><div class="mcq-options-container" style="font-weight: normal; margin-top: 12px;">${optionsPart}</div>`;
+        } else if (q.options && q.options.length > 0) {
+            let optionsPart = '<div class="options-grid mcq-options-container" style="margin-top: 12px; font-weight: normal;">';
+            const labels = ['A.', 'B.', 'C.', 'D.', 'E.', 'F.'];
+            q.options.forEach((opt, idx) => {
+                let lbl = labels[idx] || '-';
+                // Remove A. B. C. D. from start of option if it exists
+                let cleanOpt = opt.replace(/^((?:<[^>]+>\s*)*)[A-D][\.\)]\s*(?:<br\s*\/?>\s*)?/i, '$1').trim();
+                // Xóa highlight để không lộ đáp án
+                cleanOpt = stripHighlight(cleanOpt);
+                
+                optionsPart += `<div style="display: flex; align-items: flex-start; margin-bottom: 12px; line-height: 1.5;">
+                                  <div style="font-weight: 600; color: var(--primary); min-width: 24px; flex-shrink: 0;">${lbl}</div>
+                                  <div>${cleanOpt}</div>
+                                </div>`;
+            });
+            optionsPart += '</div>';
+            displayQ = `<div style="font-weight: 600;">${cleanQ}</div>${optionsPart}`;
         }
-        
+
+
         // Render tags visually with color-coding & Glassmorphism
         let tagsHtml = '';
         if(q.tags && Array.isArray(q.tags)) {
@@ -371,8 +514,28 @@ function renderBatch() {
         let keywordQ = extractKeywords(displayQ, false);
         let keywordA = extractKeywords(ansHtml, true);
 
+        let isEssay = false;
+        let qTextLower = displayQ.toLowerCase();
+        
+        if (q.tags && (q.tags.includes('Tự luận') || q.tags.includes('Essay'))) {
+            isEssay = true;
+        } else if (qTextLower.includes('tự luận:') || qTextLower.includes('câu hỏi tự luận') || qTextLower.includes('thảo luận:')) {
+            isEssay = true;
+        } else if (!q.options || q.options.length === 0) {
+            let hasEmbedded = [...displayQ.matchAll(/A[\.\)](?:\s|&nbsp;|<br|<\/?p>|<span)/g)].length > 0;
+            if (!hasEmbedded) {
+                if (qTextLower.includes('hãy trình bày') || qTextLower.includes('hãy phân tích') || 
+                    qTextLower.includes('hãy so sánh') || qTextLower.includes('phân biệt ')) {
+                    isEssay = true;
+                }
+            }
+        }
+        
+        let containerStyle = isEssay ? "touch-action: manipulation; user-select: none;" : "";
+        let eventHandler = isEssay ? `ondblclick="toggleAnswer(this)"` : `onclick="toggleAnswer(this)"`;
+
         html += `
-        <div class="question-container" ${weightAttr} onclick="toggleAnswer(this)">
+        <div class="question-container" ${weightAttr} style="${containerStyle}" ${eventHandler}>
             ${tagsHtml}
             <div class="question" style="font-weight: normal;">
                 <div class="q-full-text">${displayQ}</div>
@@ -561,6 +724,28 @@ function startQuiz(quizMode = 'optimized') {
     stopTimer(); // Ensure previous timer is stopped
     quizSubmitted = false;
 
+    // Lọc bỏ Tự Luận (options rỗng & không chứa format A.) khỏi Thi Thử
+    const mcqData = window.quizData.filter(q => {
+        let isEssay = false;
+        let displayQ = q.question || '';
+        let qTextLower = displayQ.toLowerCase();
+        
+        if (q.tags && (q.tags.includes('Tự luận') || q.tags.includes('Essay'))) {
+            isEssay = true;
+        } else if (qTextLower.includes('tự luận:') || qTextLower.includes('câu hỏi tự luận') || qTextLower.includes('thảo luận:')) {
+            isEssay = true;
+        } else if (!q.options || q.options.length === 0) {
+            let hasEmbedded = [...displayQ.matchAll(/A[\.\)](?:\s|&nbsp;|<br|<\/?p>|<span)/g)].length > 0;
+            if (!hasEmbedded) {
+                if (qTextLower.includes('hãy trình bày') || qTextLower.includes('hãy phân tích') || 
+                    qTextLower.includes('hãy so sánh') || qTextLower.includes('phân biệt ')) {
+                    isEssay = true;
+                }
+            }
+        }
+        return !isEssay;
+    });
+
     // Đổi giao diện sang chế độ Thi thử
     document.body.classList.remove('knowledge-mode');
     document.body.classList.add('quiz-mode');
@@ -594,7 +779,7 @@ function startQuiz(quizMode = 'optimized') {
             
             matrix.forEach(rule => {
                 let scaledCount = Math.round((rule.percentage / totalPercentage) * totalQuestions);
-                let pool = window.quizData.filter(q => q.tags && q.tags.includes(rule.tag) && !usedQuestions.has(q));
+                let pool = mcqData.filter(q => q.tags && q.tags.includes(rule.tag) && !usedQuestions.has(q));
                 
                 if (quizMode === 'optimized') {
                      let highPool = pool.filter(q => q.weight === 'high' || (q.tags && (q.tags.includes('80/20') || q.tags.includes('Trọng tâm'))));
@@ -619,7 +804,7 @@ function startQuiz(quizMode = 'optimized') {
             
             // Bù thêm nếu thiếu
             if (selected.length < totalQuestions) {
-                let pool = window.quizData.filter(q => !usedQuestions.has(q));
+                let pool = mcqData.filter(q => !usedQuestions.has(q));
                 pool.sort(() => 0.5 - Math.random());
                 let picked = pool.slice(0, totalQuestions - selected.length);
                 picked.forEach(q => { selected.push(q); usedQuestions.add(q); });
@@ -629,7 +814,7 @@ function startQuiz(quizMode = 'optimized') {
             }
         } else {
              // Fallback Random
-             let pool = [...window.quizData];
+             let pool = [...mcqData];
              if (quizMode === 'optimized') {
                   let highPool = pool.filter(q => q.weight === 'high' || (q.tags && (q.tags.includes('80/20') || q.tags.includes('Trọng tâm'))));
                   highPool.sort(() => 0.5 - Math.random());
@@ -650,18 +835,9 @@ function startQuiz(quizMode = 'optimized') {
     selected.sort(() => 0.5 - Math.random());
     quizQuestions = selected;
     
-    const allAnswers = window.quizData.map(q => extractRawAnswerData(q)).filter(a => a.length > 0);
+    const allAnswers = mcqData.map(q => extractRawAnswerData(q)).filter(a => a.length > 0);
     
-    let stripHighlight = (htmlStr) => {
-        let tmp = document.createElement('div');
-        tmp.innerHTML = htmlStr;
-        let tags = tmp.querySelectorAll('.answer-keyword, .keyword, b, strong');
-        tags.forEach(t => {
-            let textNode = document.createTextNode(t.textContent);
-            t.parentNode.replaceChild(textNode, t);
-        });
-        return tmp.innerHTML;
-    };
+
     
     let html = '';
     quizQuestions.forEach((qObj, index) => {
@@ -707,11 +883,8 @@ function startQuiz(quizMode = 'optimized') {
       
       if (options.length > 0) {
           let mappedOptions = options.map((opt, idx) => {
-              let text = opt;
-              if (idx !== correctIdx) {
-                  text = stripHighlight(text);
-              }
-              return { text: text, isCorrect: idx === correctIdx };
+              let text = stripHighlight(opt);
+              return { text: text, isCorrect: idx === correctIdx, rawCorrect: opt };
           });
           mappedOptions.sort(() => 0.5 - Math.random());
           options = mappedOptions.map(o => o.text);

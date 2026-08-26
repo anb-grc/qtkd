@@ -1,0 +1,409 @@
+Câu 1:
+
+0 / 1 điểm
+
+Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng Tab cho văn bản tùy chọn nào xác định kiểu khoảng cách TAB?
+
+A.
+Leader
+B.
+Alignment
+C.
+Tab stop position
+✗
+D.
+Clear All
+Phản hồi:
+Sai. Đáp án đúng là: Leader
+
+Vì: Khi thực hiện thao tác định dạng Tab cho văn bản tùy chọn
+
+- Tab stop position: xác định khoảng cách TAB
+
+- Alignment: xác định loại mốc TAB
+
+- Leader: xác định kiểu khoảng cách TAB
+
+- Clear All: Xóa tất cả các mốc Tab
+
+Câu 2:
+
+1 / 1 điểm
+
+Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng bảng biểu, nhóm lệnh nào trong thẻ Layout cho phép sắp xếp bảng dữ liệu?
+
+A.
+Merge
+B.
+Rows & Columns
+C.
+Alignment
+D.
+Data
+✓
+Phản hồi:
+Đúng. Đáp án đúng là: Data
+
+Câu 3:
+
+1 / 1 điểm
+
+Trong chương trình Microsoft Office Word 2013, cho biết tùy chọn nào sau đây được sử dụng để thay đổi hình dáng cho đối tượng WordArt?
+
+A.
+Glow
+B.
+Reflection
+C.
+Transform
+✓
+D.
+Shadow
+Phản hồi:
+Đúng. Đáp án đúng là: Transform
+
+Vì: Trong chương trình Microsoft Office Word 2013, hiệu ứng:
+
+- Shadow: sử dụng để tạo hiệu ứng đổ bóng cho đối tượng WordArt
+
+- Refection: sử dụng để tạo hiệu ứng độ tương phản cho đối tượng cho đối tượng WordArt
+
+- Glow: sử dụng để tạo hiệu ứng độ sáng cho đối tượng
+
+- Transform: sử dụng để thay đổi hình dáng cho đối tượng WordArt
+
+Câu 4:
+
+1 / 1 điểm
+
+Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng cho đối tượng Shape lệnh nào cho phép xác định màu nền của Shape?
+
+A.
+Align Text
+B.
+Shape Outline
+C.
+Shape Effects
+D.
+Shape Fill
+✓
+Phản hồi:
+Đúng. Đáp án đúng là: Shape Fill
+
+Câu 5:
+
+0 / 1 điểm
+
+Trong chương trình Microsoft Office Word 2013, thẻ lệnh nào cho phép chèn số trang vào tài liệu?
+
+A.
+Home
+B.
+Page Layout
+C.
+Insert
+D.
+Design
+✗
+Phản hồi:
+Sai. Đáp án đúng là: Insert
+
+Câu 6:
+
+1 / 1 điểm
+
+Trong chương trình Microsoft Office Word 2013, lệnh chèn chữ nghệ thuật (WordArt) thuộc nhóm lệnh nào của thẻ Insert?
+
+A.
+Links
+B.
+Illustrations
+C.
+Text
+✓
+D.
+Comments
+Phản hồi:
+Đúng. Đáp án đúng là: Text
+
+Câu 7:
+
+1 / 1 điểm
+
+Trong chương trình Microsoft Office Word 2013, để tùy chỉnh các thông số cài đặt trang giấy chúng ta vào thẻ nào sau đây?
+
+A.
+Home
+B.
+Page Layout
+✓
+C.
+Insert
+D.
+View
+Phản hồi:
+Đúng. Đáp án đúng là: Page Layout
+
+Câu 8:
+
+0 / 1 điểm
+
+Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng Tab cho văn bản tùy chọn nào xác định khoảng cách TAB?
+
+A.
+Alignment
+B.
+Tab stop position
+C.
+Leader
+✗
+D.
+Clear All
+Phản hồi:
+Sai. Đáp án đúng là: Tab stop position
+
+Vì: Khi thực hiện thao tác định dạng Tab cho văn bản tùy chọn
+
+- Tab stop position: xác định khoảng cách TAB
+
+- Alignment: xác định loại mốc TAB
+
+- Leader: xác định kiểu khoảng cách TAB
+
+- Clear All: Xóa tất cả các mốc Tab
+
+Câu 9:
+
+1 / 1 điểm
+
+Trong chương trình Microsoft Office Word 2013, để tùy chỉnh chế độ xem tài liệu chúng ta vào thẻ nào sau đây?
+
+A.
+View
+✓
+B.
+Page Layout
+C.
+Insert
+D.
+Home
+Phản hồi:
+Đúng. Đáp án đúng là: View
+
+Câu 10:
+
+1 / 1 điểm
+
+Trong chương trình Microsoft Office Word 2013, hãy cho biết thao tác nào sau đây được sử dụng để chia cột cho đoạn văn bản đang được chọn?
+
+A.
+Home, Nhóm Editing, Columns
+B.
+Page Layout, Nhóm Page Setup, Columns
+✓
+C.
+Design, Nhóm Page Background, Columns
+D.
+Insert, Nhóm Text, Columns
+Phản hồi:
+Đúng. Đáp án đúng là: Page Layout, Nhóm Page Setup, Columns
+
+Câu 11:
+
+1 / 1 điểm
+
+Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng Tab cho văn bản tùy chọn nào xác định loại mốc TAB?
+
+A.
+Tab stop position
+B.
+Leader
+C.
+Clear All
+D.
+Alignment
+✓
+Phản hồi:
+Đúng. Đáp án đúng là: Alignment
+
+Vì: Khi thực hiện thao tác định dạng Tab cho văn bản tùy chọn
+
+- Tab stop position: xác định khoảng cách TAB
+
+- Alignment: xác định loại mốc TAB
+
+- Leader: xác định kiểu khoảng cách TAB
+
+- Clear All: Xóa tất cả các mốc Tab
+
+Câu 12:
+
+1 / 1 điểm
+
+Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác chia cột cho đoạn văn bản tùy chọn nào cho phép thiết lập độ rộng giữa các cột bằng nhau?
+
+A.
+Number of columns
+B.
+Line between
+C.
+Width and spacing
+D.
+Equal column width
+✓
+Phản hồi:
+Đúng. Đáp án đúng là: Equal column width
+
+Vì: Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác chia cột cho đoạn văn bản tùy chọn:
+
+- Width and spacing: xác định độ rộng cột và khoảng cách giữa các cột
+
+- Line between: thiết lập đường phân cách giữa các cột
+
+- Equal column width: thiết lập độ rộng giữa các cột bằng nhau
+
+- Number of columns: xác định số cột cần chia đoạn văn bản
+
+Câu 13:
+
+1 / 1 điểm
+
+Trong chương trình Microsoft Office Word 2013, khi định dạng khung viền cho trang giấy tùy chọn nào cho phép thay đổi độ dày của đường viền?
+
+A.
+Preview
+B.
+Color
+C.
+Styles
+D.
+Width
+✓
+Phản hồi:
+Đúng. Đáp án đúng là: Width
+
+Câu 14:
+
+1 / 1 điểm
+
+Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng bảng biểu, lệnh nào cho phép thay đổi cấu trúc bảng?
+
+A.
+Auto Fit
+B.
+Draw Table
+✓
+C.
+Text Direction
+D.
+Cell Margins
+Phản hồi:
+Đúng. Đáp án đúng là: Draw Table
+
+Câu 15:
+
+1 / 1 điểm
+
+Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng chữ Drop Cap tùy chọn nào xác định khoảng cách chữ cái và văn bản còn lại?
+
+A.
+Font
+B.
+Distance from text
+✓
+C.
+Position
+D.
+Lines to drop
+Phản hồi:
+Đúng. Đáp án đúng là: Distance from text
+
+Câu 16:
+
+1 / 1 điểm
+
+Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng bảng biểu, lệnh nào cho phép tự động canh chỉnh độ rộng của bảng biểu?
+
+A.
+Text Direction
+B.
+Cell Margins
+C.
+Auto Fit
+✓
+D.
+Draw Table
+Phản hồi:
+Đúng. Đáp án đúng là: Auto Fit
+
+Câu 17:
+
+1 / 1 điểm
+
+Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng cho đối tượng Shape lệnh nào cho phép xác định màu đường viền của Shape?
+
+A.
+Align Text
+B.
+Shape Effects
+C.
+Shape Fill
+D.
+Shape Outline
+✓
+Phản hồi:
+Đúng. Đáp án đúng là: Shape Outline
+
+Câu 18:
+
+1 / 1 điểm
+
+Trong chương trình Microsoft Office Word 2013, khi định dạng khung viền cho trang giấy tùy chọn nào cho phép chọn kiểu đường viền?
+
+A.
+Styles
+✓
+B.
+Width
+C.
+Preview
+D.
+Color
+Phản hồi:
+Đúng. Đáp án đúng là: Styles
+
+Câu 19:
+
+0 / 1 điểm
+
+Trong chương trình Microsoft Office Word 2013, cho biết tổ hợp phím tắt nào được sử dụng để mở hộp thoại Find and Replace với chức năng Replace?
+
+A.
+CTRL+H
+B.
+CTRL+G
+C.
+CTRL+L
+D.
+CTRL+F
+✗
+Phản hồi:
+Sai. Đáp án đúng là: CTRL+H
+
+Câu 20:
+
+1 / 1 điểm
+
+Trong chương trình Microsoft Office Word 2013, khi tùy chỉnh chế độ xem văn bản tùy chọn nào sau đây cho phép xem tài liệu ở dạng in ấn?
+
+A.
+Read mode
+B.
+Print Layout
+✓
+C.
+Draft
+D.
+Web Layout
+Phản hồi:
+Đúng. Đáp án đúng là: Print Layout

@@ -124,8 +124,13 @@ Quy trình co-work chuẩn hóa cho toàn bộ vòng đời môn học, vận h�
   - Agent đóng vai "Giảng viên thâm niên 30 năm", tổng hợp toàn bộ kiến thức môn học đã cày (từ `kb.json` hoặc giáo trình) để tạo ra file `blueprint.json` (lưu vào thư mục môn học).
   - File `blueprint.json` phải là bộ não điều phối tối thượng, quy định rạch ròi 3 khối dữ liệu: (1) **Ma Trận Đề Thi (Vĩ Mô)**: Dựa 100% vào Kế hoạch học tập/Đề cương của Trường để xác định danh sách các Trụ cột và Trọng số % số lượng câu hỏi của từng Trụ cột; (2) **Từ Điển Đối Chiếu (Mapping Index)**: Map tên các Trụ cột hàn lâm của Trường (ở mục 1) với tên các Tag tinh gọn, tối ưu trên UI của `kb.json` để đồng bộ luồng dữ liệu; (3) **Định Chuẩn 80/20 (Vi Mô & Tỷ lệ thuận)**: Dùng Khung 7 Tầng của `kb.json` làm lưỡi dao mổ để trích xuất 20% tinh hoa của TỪNG trụ cột. Tuân thủ tuyệt đối quy tắc Phủ sóng toàn diện: Trụ cột nào cũng phải có mác High, và mật độ mác High phải tỷ lệ thuận với Trọng số của trụ cột đó.
   - Trình User duyệt bản Report này. Chỉ khi User hô "Duyệt", file `blueprint.json` mới được chốt hạ làm mỏ neo tuyệt đối cho Bước 11. (Lưu ý: Chế độ Thi Thử Tối Ưu trên Web sẽ bốc đúng số lượng câu từ các Tag kiến thức tương ứng & đi kèm tag High dựa theo Ma trận này, nếu thiếu câu High mới bốc câu không có tag; trong khi chế độ Thi Thử Theo Cấu Trúc chỉ bốc theo Tag Kiến thức).
-- **Bước 11:** **Agent Trưởng** kích hoạt Dây chuyền Xử lý Đề 1 Chạm:
-  - **Quy tắc Quét File:** BẮT BUỘC dùng `list_dir` vào thư mục `raw_inputs/` để tìm file đề thi User vừa thả vào trước khi xử lý, cấm đoán mò.
+- **Bước 11:** **Agent Trưởng** kích hoạt Dây chuyền Xử lý Đề 1 Chạm (Nhận diện Tàng hình):
+  - **Quy tắc Quét File:** BẮT BUỘC dùng `list_dir` vào thư mục `raw_inputs/` để tìm file đề thi User vừa thả vào trước khi xử lý, cấm đoán mò. (File thô có thể chứa lẫn lộn Trắc nghiệm và Tự luận).
+  - **Cơ chế Phân Luồng & Ép Khuôn (Invisible Routing):**
+    - Nếu câu hỏi có 4 đáp án (A,B,C,D) ➔ Trắc nghiệm: Xử lý theo quy trình bình thường.
+    - Nếu câu hỏi **Không có** (A,B,C,D) ➔ Tự luận:
+      - *Nếu CÓ đính kèm đáp án văn xuôi:* Kích hoạt "Máy Ép Mỡ". Bóp chặt đáp án lê thê thành Dàn ý Barem 3-4 gạch đầu dòng cốt túy, đắp highlight từ khóa, gán `options: []` rồi lưu. TUYỆT ĐỐI không tự chế thêm ý ngoài đáp án của trường.
+      - *Nếu RỖNG đáp án:* Kích hoạt "Học Bá". Lôi `kb.json` ra tự suy luận giải đề, đúc thành Dàn ý Barem gạch đầu dòng, gán `options: []` rồi lưu.
   - **Cơ chế Băm Nhỏ Đề Thi (Quiz Chunking - Chống Rớt Câu Hỏi):** 
     - Nếu file thô có **dưới 15 câu**, Agent Trưởng tự xử lý toàn bộ. 
     - Nếu file thô có **từ 15 câu trở lên**, BẮT BUỘC chẻ nhỏ file ra (Băm: tối đa 15 câu/khúc). Gọi các Sub-agent vào xử lý trọn gói song song từng khúc (Nhào: Lọc trùng, Gắn highlight, Tự giải). Sau đó Agent Trưởng thu thập JSON từ các lính gộp lại (Gom: Reduce). Cuối cùng, **Thanh Tra Đếm Số** sẽ đối chiếu tổng câu hỏi đầu vào (trừ trùng lặp) với đầu ra, nếu khớp 100% mới cho phép chạy lệnh Safe Write.
@@ -135,13 +140,17 @@ Quy trình co-work chuẩn hóa cho toàn bộ vòng đời môn học, vận h�
   - **Quy tắc Định dạng JSON (Cấm Markdown):** Toàn bộ nội dung câu hỏi, đáp án, giải thích BẮT BUỘC dùng 100% thẻ HTML (`<b>`, `<br>`, `<span class="keyword">`, `<span class="answer-keyword">`). TUYỆT ĐỐI CẤM dùng Markdown (`**`, `*`, `\n`) lọt vào chuỗi giá trị của JSON gây rác giao diện.
   - **Quy tắc Tự Giải Đề:** Với những câu hỏi *chưa có đáp án*, Agent có nghĩa vụ móc nối dữ liệu lý do từ Bước 9 để tự động suy luận bẻ khóa tìm đáp án đúng 100%. ĐỐI VỚI CÂU HỎI TỰ GIẢI (CHƯA CÓ ĐÁP ÁN), SAU KHI GIẢI XONG BẮT BUỘC TRÍCH XUẤT LẠI NỘI DUNG CÂU HỎI VÀ ĐÁP ÁN Ở NGÔN NGỮ TỰ NHIÊN ĐỂ USER ĐỌC VÀ KIỂM TRA LẠI TRONG BÁO CÁO NGHIỆM THU. Đặc biệt lưu ý ranh giới 2 loại câu hỏi sau:
     1. **Câu hỏi Thảo luận (Cày chuyên cần):** Agent BẮT BUỘC nhập vai một sinh viên xuất sắc, hành văn rõ ràng, mạch lạc, chia ý cụ thể và trình bày theo dạng quan điểm/góc nhìn cá nhân để đối đáp với giáo viên. **LƯU Ý ĐẶC BIỆT:** Vẫn giữ sự lễ phép (dạ, thưa thầy/cô, theo em) nhưng cấm tuyệt đối dùng các cụm từ xưng hô sáo rỗng, thảo mai kiểu "đã lắng nghe", "cảm ơn thầy cô",... cứ đi thẳng trực diện vào vấn đề chuyên môn một cách tự nhiên. Giải xong chỉ in text ra màn hình cho User copy. **TUYỆT ĐỐI KHÔNG lưu vào `qs.json`**.
-    2. **Câu hỏi Tự luận (Thi cử):** KHÔNG nhập vai sinh viên. Bắt buộc giữ văn phong chuẩn mực khoa học theo nguyên tắc ngân hàng đề. Giải xong **LƯU vào `qs.json`** như bình thường.
+    2. **Câu hỏi Tự luận (Thi cử):** KHÔNG nhập vai sinh viên. Bắt buộc giữ văn phong chuẩn mực khoa học theo nguyên tắc ngân hàng đề. Giải xong ép thành khuôn Barem 3-4 gạch đầu dòng, gắn highlight rồi **LƯU vào `qs.json`** với `options: []`.
   - Thực thi luân lưu Kiến trúc 3 lớp (The Core 3-layer protection) kết hợp vòng lặp **BTFAF**: 
     1. Lọc trùng trên Staging.
     2. Đánh dấu từ khóa theo Ma Trận Lục Hợp (Build).
     3. Chạy tool kiểm tra độ dài và cú pháp (Test & Audit). Nếu lỗi, tự sửa. Nếu sửa quá 2 lần vẫn vi phạm luật Ma Trận (câu quá rắc rối), BẮT BUỘC ngắt lặp (Force Final): Xóa toàn bộ highlight của câu đó (để nguyên bản trắng, chỉ giữ phần bôi đáp án) và đưa vào Báo cáo nghiệm thu.
     4. Safe Write vào `qs.json`.
-  - Xuất **Báo Cáo Nghiệm Thu** (Số lượng, khối lượng, trạng thái giải đề) và chạy lệnh Git theo **Quy Tắc Phạm Vi Commit** (Tầng 2, Mục 4): `git add "_sources/[Tổ chức]/[Chương trình]/[Tên Môn]/" && git commit -m "Cập nhật đề thi" && git push` để Vercel Deploy song song.
+- **Bước 11.5 (Động cơ Bù đắp - Essay Forge):** Ngay sau khi Bước 11 hoàn tất, Lò đúc Ẩn tự động kích hoạt.
+  - Agent đối chiếu các mỏ neo Vi Mô (80/20) trong `blueprint.json` với rổ tự luận User vừa nạp.
+  - Mỏ neo nào **ĐÃ CÓ** câu tự luận bao sân ➔ Bỏ qua.
+  - Mỏ neo nào **TRẮNG** ➔ Agent tự động đẻ 1 câu Flashcard Tự luận (dạng Dàn ý Barem) để trám vào khoảng trống. Đảm bảo file `qs.json` bao phủ 100% xương sống môn học trước khi Push code.
+  - Xuất **Báo Cáo Nghiệm Thu** (Số lượng trắc nghiệm xử lý, Số lượng tự luận mớm, Số lượng tự luận tự đẻ bù) và chạy lệnh Git theo **Quy Tắc Phạm Vi Commit** (Tầng 2, Mục 4): `git add "_sources/[Tổ chức]/[Chương trình]/[Tên Môn]/" && git commit -m "Cập nhật đề thi" && git push` để Vercel Deploy song song.
 - **Bước 12 (Vòng lặp Vĩnh Cửu & Cơ Chế Nạp Bù):** Bất cứ lúc nào (kể cả khi đã hô 'Bỏ qua' ở Bước 7), nếu User thả thêm tài liệu lý luận mới hay đề thi mới và hô *"Nạp thêm kiến thức"* hoặc *"Thêm đề"*, Agent tự động kích hoạt lại Bước 8 & Bước 9 (để build lại `kb.json`) hoặc Bước 11 (để update `qs.json`).
 - *Lưu ý về chữ "Im Lặng":* Trong suốt tiến trình cày búa data, cấm lề mề hỏi xin phép vặt vãnh. Tuy nhiên, sau khi gia công xong bất kỳ bước nào (Bước 2, 4, 9, 11), việc gửi **Báo Cáo Nghiệm Thu** là nghĩa vụ bắt buộc!
 

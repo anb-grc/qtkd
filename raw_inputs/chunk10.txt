@@ -1,0 +1,145 @@
+Câu 1:
+0 / 1 điểm
+Trong cấu trúc của một máy tính điện tử, ổ đĩa cứng thuộc loại bộ nhớ nào?
+A. Bộ nhớ truy xuất ngẫu nhiên
+B. Bộ nhớ ngoài
+C. Bộ nhớ trong
+D. Bộ nhớ chỉ đọc
+Phản hồi: Sai. Đáp án đúng là: Bộ nhớ ngoài
+Vì: Bộ nhớ ngoài là thiết bị lưu trữ thông tin với dung lượng lớn, thông tin không bị mất khi không có điện. Có thể cất giữ và di chuyển bộ nhớ ngoài độc lập với máy tính. Hiện nay có các loại bộ nhớ ngoài phổ biến như: Đĩa cứng (hard disk); Đĩa quang (Compact disk); Các loại bộ nhớ ngoài khác như thẻ nhớ (Memory Stick, Compact Flash Card)
+
+Câu 2:
+0 / 1 điểm
+Phần mềm nào sau đây là phần mềm ứng dụng?
+A. Windows 10
+B. Linux
+C. Unix
+D. Google Chrome
+Phản hồi: Sai. Đáp án đúng là: Google Chrome
+Vì: Một số phần mềm ứng dụng được sử dụng rất phổ biến hiện nay như: MS Word (xử lý văn bản), MS Excel (xử lý bảng tính), MS Access (cơ sở dữ liệu), Photoshop (đồ họa), Google Chrome (trình duyệt web),…
+
+Câu 3:
+0 / 1 điểm
+Trong cấu trúc phần cứng của một máy tính điện tử, thiết bị nào được sử dụng để nhập dữ liệu?
+A. Bo mạch chủ
+B. Vỏ máy tính
+C. Thanh ghi
+D. Bàn phím
+Phản hồi: Sai. Đáp án đúng là: Bàn phím
+Vì: Các thiết bị nhập cơ bản gồm: bàn phím (keyboard), chuột (mouse), máy quét (scanner)
+
+Câu 4:
+0 / 1 điểm
+Dịch vụ nào sau đây được hiểu là tin nhắn tức thời?
+A. TCP/IP (Transmission Control Protocol/Internet Protocol)
+B. IM (Instant Messaging)
+C. SMS (Short Messaging Service)
+D. VoIP (Voice over Internet Protocol)
+Phản hồi: Sai. Đáp án đúng là: IM (Instant Messaging)
+Vì: Tin nhắn tức thời hay IM (Instant Messaging), có tính chất nhanh chóng. Nó là một công cụ đặc biệt tốt cho giao tiếp trong một tổ chức, nhưng có thể không phải sự lựa chọn tốt nhất cho việc giao tiếp ba bên.
+
+Câu 5:
+0 / 1 điểm
+Trong cấu trúc của một máy tính điện tử, thiết bị nào sau đây KHÔNG phải là thiết bị nhập?
+A. Màn hình
+B. Máy quét
+C. Chuột
+D. Bàn phím
+Phản hồi: Sai. Đáp án đúng là: Màn hình
+Vì: Các thiết bị nhập cơ bản gồm: bàn phím (keyboard), chuột (mouse), máy quét (scanner).
+
+Câu 6:
+0 / 1 điểm
+Trong hệ điều hành Windows 10, để thực hiện thao tác gỡ bỏ chương trình đã cài vào máy tính người sử dụng sẽ chọn nhóm lệnh nào trong cửa sổ Control Panel?
+A. Hardware and Sound
+B. System and Security
+C. User Accounts
+D. Programs
+Phản hồi: Sai. Đáp án đúng là: Programs
+Vì: Trong hệ điều hành Windows 10, để thực hiện thao tác gỡ bỏ chương trình đã cài vào máy tính người sử dụng sẽ vào cửa sổ Control Panel và chọn nhóm lệnh Programs.
+
+Câu 7:
+0 / 1 điểm
+Phần mềm Unikey được cài đặt vào Windows, mục đích dùng để làm gì?
+A. Vẽ cơ bản
+B. Gõ dấu tiếng việt
+C. Duyệt web
+D. Giải nén dữ liệu
+Phản hồi: Sai. Đáp án đúng là: Gõ dấu tiếng việt
+Vì: Unikey là một phần mềm tiện ích được cài đặt vào Windows để hỗ trợ gõ văn bản tiếng Việt
+
+Câu 8:
+0 / 1 điểm
+Hãy cho biết đối tượng nào sauđây sẽ có phần mở rộng?
+A. Ổ đĩa
+B. Thư mục
+C. Tập tin
+D. Đường dẫn
+Phản hồi: Sai. Đáp án đúng là: Tập tin
+Vì: Tập tin là tập hợp thông tin/dữ liệu được tổ chức theo một cấu trúc nào đó. Nội dung của tập tin có thể là chương trình, dữ liệu, văn bản... Mỗi tập tin được lưu lên đĩa với một tên riêng phân biệt. Mỗi hệ điều hành có quy ước đặt tên khác nhau, tên tập tin thường có 2 phần: phần tên (name) và phần mở rộng (extension).
+
+Câu 9:
+0 / 1 điểm
+Trong hệ điều hành Windows 10, biểu tượng nào trên màn hình Desktop là nơi lưu trữ tạm thời các tập tin và các đối tượng đã bị xoá?
+A. This PC
+B. Recycle Bin
+C. Network
+D. Shortcut
+Phản hồi: Sai. Đáp án đúng là: Recycle Bin
+Vì: This PC: biểu tượng này cho phép duyệt nhanh tài nguyên trên máy tính, Recycle Bin: nơi lưu trữ tạm thời các tập tin và các đối tượng đã bị xoá. (R_click vào Recycle Bin rồi chọn Empty Recycle Bin hoặc Restore để xóa hoàn toàn hoặc phục hồi các đối tượng). Ngoài ra, trên Desktop còn có các biểu tượng chương trình khác là các Shortcut: giúp ta truy nhập nhanh một đối tượng nào đó bằng cách D_click vào biểu tượng đó.
+
+Câu 10:
+0 / 1 điểm
+Hãy cho biết font chữ nào được chọn khi người sử dụng soạn thảo văn bản với bảng mã Unicode?
+A. .Vn-time
+B. Times New Roman
+C. VNI-Thuphap
+D. Vni-Times
+Phản hồi: Sai. Đáp án đúng là: Times New Roman
+Vì: Sự kết hợp giữa bảng mã và font chữ để gõ được tiếng Việt trong các trình soạn thảo
+
+Câu 11:
+0 / 1 điểm
+Hãy cho biết tổ hợp phím tắt nào được sử dụng để mở chương trình File Explorer?
+A. SHIFT+E
+B. ALT+E
+C. Windows+E
+D. CTRL+E
+Phản hồi: Sai. Đáp án đúng là: Windows+E
+
+Câu 12:
+0 / 1 điểm
+Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng bảng biểu, nhóm lệnh nào trong thẻ Layout cho phép bổ sung hoặc xóa bớt dòng và cột?
+A. Rows & Columns
+B. Cell Size
+C. Merge
+D. Alignment
+Phản hồi: Sai. Đáp án đúng là: Rows & Columns
+
+Câu 13:
+0 / 1 điểm
+Trong chương trình Microsoft Office Word 2013, để tùy chỉnh các thông số cài đặt trang giấy chúng ta vào thẻ nào sau đây?
+A. Page Layout
+B. Insert
+C. View
+D. Home
+Phản hồi: Sai. Đáp án đúng là: Page Layout
+
+Câu 14:
+0 / 1 điểm
+Trong chương trình Microsoft Office Word 2013, hãy cho biết khi thao tác trong bảng biểu, lệnh nào được sử dụng để chèn thêm 1 dòng ở phía trên dòng hiện hành?
+A. Insert Above
+B. Insert Right
+C. Insert Left
+D. Insert Below
+Phản hồi: Sai. Đáp án đúng là: Insert Above
+
+Câu 15:
+0 / 1 điểm
+Trong chương trình Microsoft Office Word 2013, trong khi thực hiện thao tác định dạng bảng biểu, lệnh nào cho phép thay đổi cấu trúc bảng?
+A. Draw Table
+B. Cell Margins
+C. Auto Fit
+D. Text Direction
+Phản hồi: Sai. Đáp án đúng là: Draw Table
+

@@ -90,7 +90,7 @@ function showIOSInstallGuide() {
   modal.innerHTML = `
     <h3 style="margin-bottom: 16px; color: var(--primary, #6c5ce7); font-weight: 700;">Cài đặt ứng dụng</h3>
     <p style="margin-bottom: 12px; font-size: 0.95em; line-height: 1.5; color: var(--muted, rgba(255,255,255,0.7));">
-      Để cài đặt Studiz trên iOS, vui lòng:
+      Để cài đặt LearnIZ trên iOS, vui lòng:
     </p>
     <div style="text-align: left; background: rgba(0,0,0,0.2); padding: 16px; border-radius: 12px; margin-bottom: 20px;">
       <p style="margin-bottom: 12px; font-size: 0.95em;">1. Nhấn nút <strong>Share</strong> (Chia sẻ) <svg style="display:inline-block; vertical-align:middle; color:var(--secondary, #a29bfe);" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path><polyline points="16 6 12 2 8 6"></polyline><line x1="12" y1="2" x2="12" y2="15"></line></svg> ở thanh công cụ dưới đáy Safari.</p>

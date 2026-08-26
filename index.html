@@ -12,7 +12,7 @@
   <link rel="apple-touch-icon" href="./assets/icons/apple-touch-icon.png">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="apple-mobile-web-app-title" content="Studiz">
+  <meta name="apple-mobile-web-app-title" content="LearnIZ">
 
   <!-- iOS Splash Screens -->
   <link rel="apple-touch-startup-image" href="./assets/splash/splash-1290x2796.png" media="(device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
@@ -104,7 +104,7 @@
         Tải App
       </button>
       <h1 style="display: flex; align-items: center; justify-content: center; gap: 8px; transform: translateX(-3px);">
-        <img src="./assets/icons/logo.png?v=9" alt="Studiz Logo" style="height: 1.8em; width: auto; object-fit: contain;">
+        <img src="./assets/icons/logo.png?v=9" alt="LearnIZ Logo" style="height: 1.8em; width: auto; object-fit: contain;">
         <span style="color:var(--text); text-transform:uppercase; letter-spacing: 3px; font-size: 1.1em; font-weight: 800; margin-right: -3px;">STUD<span style="color:var(--secondary);">IZ</span></span>
       </h1>
       <p>Kiến thức trực quan, dễ dàng ôn luyện</p>
@@ -136,8 +136,8 @@
       const cards = grid.querySelectorAll('.card');
       
       cards.forEach(card => {
-        const title = normalizeTextForSearch(card.querySelector('h2').textContent);
-        if (title.includes(input)) {
+        const searchText = card.dataset.search || normalizeTextForSearch(card.querySelector('h2').textContent);
+        if (searchText.includes(input)) {
           card.style.display = 'flex';
         } else {
           card.style.display = 'none';
@@ -179,6 +179,9 @@
             const card = document.createElement('a');
             card.href = `./quiz.html?id=${subject.id}`;
             card.className = 'card';
+            
+            const searchData = `${subject.name || ''} ${subject.program || ''} ${subject.desc || ''} ${subject.organization || ''}`;
+            card.dataset.search = normalizeTextForSearch(searchData);
             
             // Lưu thời gian truy cập khi click vào môn
             card.onclick = () => {

@@ -12,9 +12,9 @@
 <link rel="apple-touch-icon" href="./assets/icons/apple-touch-icon.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="Studiz">
+<meta name="apple-mobile-web-app-title" content="LearnIZ">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<link rel="stylesheet" href="./assets/style.css?v=40">
+<link rel="stylesheet" href="./assets/style.css?v=46">
 <link rel="stylesheet" href="./assets/knowledge-app/kb-app.css?v=44">
 </head>
 <body>
@@ -54,8 +54,15 @@
   </div>
 
   <div class="search-wrap">
-    <input type="text" id="searchBox" placeholder="Nhập từ khóa để tìm nhanh..." oninput="filterQuestions()" />
-    <button id="clearBtn" onclick="clearSearch()">✕ Xóa</button>
+    <div style="display: flex; flex-wrap: nowrap; align-items: center; gap: 8px; width: 100%;">
+        <input type="text" id="searchBox" placeholder="Nhập từ khóa để tìm nhanh..." oninput="filterQuestions()" style="flex: 1 1 100%; min-width: 0;" />
+        
+        <div style="display: flex; align-items: center; gap: 8px; flex-shrink: 0;">
+            <button id="clearBtn" onclick="clearSearch()" style="padding: 8px; display: flex; align-items: center; justify-content: center; border-radius: var(--r); background: var(--surface); border: 1px solid var(--border);" title="Xóa tìm kiếm">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
+    </div>
   </div>
   <div id="searchMeta"></div>
   <div id="noResult">Không tìm thấy câu hỏi nào phù hợp.</div>
@@ -67,7 +74,7 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <!-- Thư viện MathJax để hiển thị công thức toán học -->
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-  <script src="./assets/config.js"></script>
+  <script src="./assets/config.js?v=2"></script>
   <script>
     // SPA ROUTING LOGIC
     const urlParams = new URLSearchParams(window.location.search);
@@ -94,7 +101,7 @@
       structure: []
     };
   </script>
-    <script src="./assets/app.js?v=33"></script>
+    <script src="./assets/app.js?v=47"></script>
     <script type="module" src="./assets/knowledge-app/kb-app.js?v=42"></script>
     <script src="./assets/pwa.js?v=4"></script>
 
