@@ -1,4 +1,4 @@
-const CACHE_NAME = 'learniz-cache-v4';
+const CACHE_NAME = 'learniz-cache-v5';
 
 const PRECACHE_URLS = [
   './',
