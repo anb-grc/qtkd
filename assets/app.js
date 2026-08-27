@@ -118,7 +118,7 @@ function buildFilterUI(data) {
     
     let tagsHtml = `
         <div id="tagsDropdownContainer" style="position: relative; flex-shrink: 0;">
-            <button id="tagsDropdownBtn" onclick="toggleTagsDropdown()" style="padding: 8px 12px; border-radius: var(--r); border: 1px solid var(--border); background: var(--surface); color: var(--text); font-family: inherit; font-size: 0.9em; display: flex; align-items: center; gap: 6px; box-shadow: var(--shadow); cursor: pointer; transition: all 0.2s; white-space: nowrap;">
+            <button id="tagsDropdownBtn" onclick="toggleTagsDropdown()" style="padding: 6px 8px; border-radius: var(--r); border: 1px solid var(--border); background: var(--surface); color: var(--text); font-family: inherit; font-size: 0.85em; display: flex; align-items: center; gap: 6px; box-shadow: var(--shadow); cursor: pointer; transition: all 0.2s; white-space: nowrap;">
                 <span id="tagsDropdownLabel">Tất cả</span>
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
             </button>
@@ -169,15 +169,15 @@ function buildFilterUI(data) {
     `;
     
     let controlsHtml = `
-        <div style="display:flex; gap:8px; margin-top:12px; flex-wrap:wrap; width:100%; align-items:center;">
+        <div style="display:flex; gap:6px; margin-top:12px; flex-wrap:nowrap; width:100%; align-items:center; overflow-x: auto; padding-bottom: 2px;">
             ${tagsHtml}
-            <select id="limitFilter" onchange="changeLimit()" style="padding:8px 12px; border-radius:var(--r); border:1px solid var(--border); width:fit-content; flex-shrink: 0; background: var(--surface); color: var(--text); font-family: inherit; font-size: 0.9em; cursor: pointer;">
+            <select id="limitFilter" onchange="changeLimit()" style="padding:6px 4px; border-radius:var(--r); border:1px solid var(--border); width:fit-content; flex-shrink: 0; background: var(--surface); color: var(--text); font-family: inherit; font-size: 0.85em; cursor: pointer;">
                 ${limitOptions}
             </select>
             <div style="flex: 1; min-width: 10px;"></div>
-            <div style="display:flex; gap:4px; align-items:center; flex-shrink: 0; margin-left: auto; flex-wrap: wrap; justify-content: flex-end;">
+            <div style="display:flex; gap:0px; align-items:center; flex-shrink: 0; margin-left: auto; flex-wrap: nowrap; justify-content: flex-end;">
                 <!-- Nhóm 3 nút Filter/Mode -->
-                <button id="toggleOptionsBtn" class="bottom-icon-btn" onclick="toggleMcqOptions()" title="Ẩn/Hiện 4 đáp án" style="padding:8px; border:none; background:transparent; color: ${window.showMcqOptions ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
+                <button id="toggleOptionsBtn" class="bottom-icon-btn" onclick="toggleMcqOptions()" title="Ẩn/Hiện 4 đáp án" style="padding:6px; border:none; background:transparent; color: ${window.showMcqOptions ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
                     <svg id="icon-eye-open" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: ${window.showMcqOptions ? 'block' : 'none'};">
                         <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
                         <circle cx="12" cy="12" r="3"></circle>
@@ -187,24 +187,23 @@ function buildFilterUI(data) {
                         <line x1="1" y1="1" x2="23" y2="23"></line>
                     </svg>
                 </button>
-                <button id="btnModeMcq" class="bottom-icon-btn" onclick="setPracticeMode('mcq')" title="Trắc nghiệm" style="padding:8px; border:none; background:transparent; color: ${window.practiceMode === 'mcq' ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display:${window.quizData.some(q => !isEssayQuestion(q)) ? 'flex' : 'none'}; align-items:center; justify-content:center; transition: color 0.2s;">
+                <button id="btnModeMcq" class="bottom-icon-btn" onclick="setPracticeMode('mcq')" title="Trắc nghiệm" style="padding:6px; border:none; background:transparent; color: ${window.practiceMode === 'mcq' ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display:${window.quizData.some(q => !isEssayQuestion(q)) ? 'flex' : 'none'}; align-items:center; justify-content:center; transition: color 0.2s;">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
                 </button>
-                <button id="btnModeEssay" class="bottom-icon-btn" onclick="setPracticeMode('essay')" title="Tự luận" style="padding:8px; border:none; background:transparent; color: ${window.practiceMode === 'essay' ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display:${window.quizData.some(q => isEssayQuestion(q)) ? 'flex' : 'none'}; align-items:center; justify-content:center; transition: color 0.2s;">
+                <button id="btnModeEssay" class="bottom-icon-btn" onclick="setPracticeMode('essay')" title="Tự luận" style="padding:6px; border:none; background:transparent; color: ${window.practiceMode === 'essay' ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display:${window.quizData.some(q => isEssayQuestion(q)) ? 'flex' : 'none'}; align-items:center; justify-content:center; transition: color 0.2s;">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
                 </button>
 
-                <!-- Dấu gạch chia cách nhẹ -->
-                <div style="width: 1px; height: 16px; background: var(--border); margin: 0 4px;"></div>
+                
 
                 <!-- Nhóm 3 nút Chức năng -->
-                <button id="sortBtn" class="bottom-icon-btn" onclick="sortQuestions()" title="Trọng tâm" style="padding:8px; border:none; background:transparent; color: ${window.isHighSorted ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
+                <button id="sortBtn" class="bottom-icon-btn" onclick="sortQuestions()" title="Trọng tâm" style="padding:6px; border:none; background:transparent; color: ${window.isHighSorted ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
                 </button>
-                <button id="modeBtn" class="bottom-icon-btn" onclick="toggleKeywordMode()" title="Keyword" style="padding:8px; border:none; background:transparent; color: ${window.isKeywordMode ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
+                <button id="modeBtn" class="bottom-icon-btn" onclick="toggleKeywordMode()" title="Keyword" style="padding:6px; border:none; background:transparent; color: ${window.isKeywordMode ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"></path></svg>
                 </button>
-                <button id="printBtn" class="bottom-icon-btn" onclick="window.print()" title="In" style="padding:8px; border:none; background:transparent; color: var(--text); cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
+                <button id="printBtn" class="bottom-icon-btn" onclick="window.print()" title="In" style="padding:6px; border:none; background:transparent; color: var(--text); cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
                 </button>
             </div>
