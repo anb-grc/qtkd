@@ -38,7 +38,33 @@
   transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.rightPane.hidden {
+
+  .rightPane.dragging {
+    transition: none !important;
+  }
+
+  .dragHandle {
+    display: block;
+    width: 40px;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: grab;
+  }
+  .dragHandle:active {
+    background: rgba(255, 255, 255, 0.6);
+  }
+  
+  .sidePanelHeader {
+    padding-top: 24px;
+    touch-action: none;
+  }
+
+  .rightPane.hidden {
   transform: translateX(100%);
   position: absolute;
   right: 0;
@@ -83,40 +109,7 @@
   color: var(--color-danger);
 }
 
-
-  .dragHandle {
-    display: block;
-    width: 40px;
-    height: 5px;
-    background: rgba(255, 255, 255, 0.3);
-    border-radius: 4px;
-    position: absolute;
-    top: 8px;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: grab;
-  }
-
-  .dragHandle:active {
-    cursor: grabbing;
-    background: rgba(255, 255, 255, 0.6);
-  }
-
-  .rightPane {
-    height: var(--sheet-height, 60vh);
-    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), height 0.3s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease;
-  }
-  
-  .rightPane.dragging {
-    transition: none !important;
-  }
-
-  .sidePanelHeader {
-    padding-top: 24px; /* Make room for drag handle */
-    touch-action: none; /* Prevent browser pull-to-refresh when dragging header */
-  }
-
-  .sidePanelContent {
+.sidePanelContent {
   flex: 1;
   overflow-y: auto;
   padding: var(--space-xl);
@@ -165,25 +158,23 @@
     bottom: 0;
     width: 100%;
     max-width: 100%;
-    
+    height: var(--sheet-height, 60vh);
     z-index: 1000;
     border-left: none;
     border-top: 1px solid var(--color-border);
     border-radius: 24px 24px 0 0;
     transform: translateY(0);
-    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease;
+    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), height 0.3s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease;
     opacity: 1;
     overflow: hidden;
     box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.5);
   }
 
-  .rightPane.hidden {
-    transform: translateY(100%);
-    opacity: 0;
-    pointer-events: none;
+  
+  .rightPane.dragging {
+    transition: none !important;
   }
 
-  
   .dragHandle {
     display: block;
     width: 40px;
@@ -196,24 +187,19 @@
     transform: translateX(-50%);
     cursor: grab;
   }
-
   .dragHandle:active {
-    cursor: grabbing;
     background: rgba(255, 255, 255, 0.6);
   }
-
-  .rightPane {
-    height: var(--sheet-height, 60vh);
-    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), height 0.3s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease;
-  }
   
-  .rightPane.dragging {
-    transition: none !important;
+  .sidePanelHeader {
+    padding-top: 24px;
+    touch-action: none;
   }
 
-  .sidePanelHeader {
-    padding-top: 24px; /* Make room for drag handle */
-    touch-action: none; /* Prevent browser pull-to-refresh when dragging header */
+  .rightPane.hidden {
+    transform: translateY(100%);
+    opacity: 0;
+    pointer-events: none;
   }
 
   .sidePanelContent {

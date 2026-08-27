@@ -28,49 +28,49 @@ export function AppShell({ dataPath }: AppShellProps) {
     setStartHeight(sheetHeight);
   };
 
-  const handleTouchMove = (e: React.TouchEvent | React.MouseEvent) => {
-    if (!isDragging) return;
-    const currentY = 'touches' in e ? e.touches[0].clientY : (e as React.MouseEvent).clientY;
-    const deltaY = currentY - startY;
-    const vh = (deltaY / window.innerHeight) * 100;
-    let newHeight = startHeight - vh;
-    if (newHeight > 95) newHeight = 95;
-    if (newHeight < 20) newHeight = 20;
-    setSheetHeight(newHeight);
-  };
-
-  const handleTouchEnd = () => {
-    if (!isDragging) return;
-    setIsDragging(false);
-    if (sheetHeight < 35) {
-      setSelectedNodeId(null);
-      setTimeout(() => setSheetHeight(60), 300);
-    } else if (sheetHeight > 75) {
-      setSheetHeight(90);
-    } else {
-      setSheetHeight(60);
-    }
-  };
-
-  // Add mouse events to window for smooth drag outside
+  
+  
+  // Add mouse & touch events to window for smooth drag outside
   useEffect(() => {
-    const handleMouseMove = (e: MouseEvent) => {
-      if (isDragging) handleTouchMove(e as any);
+    const handleGlobalMove = (e: MouseEvent | TouchEvent) => {
+      if (isDragging) {
+         const currentY = 'touches' in e ? e.touches[0].clientY : (e as MouseEvent).clientY;
+         const deltaY = currentY - startY;
+         const vh = (deltaY / window.innerHeight) * 100;
+         let newHeight = startHeight - vh;
+         if (newHeight > 95) newHeight = 95;
+         if (newHeight < 20) newHeight = 20;
+         setSheetHeight(newHeight);
+      }
     };
-    const handleMouseUp = () => {
-      if (isDragging) handleTouchEnd();
+    const handleGlobalEnd = () => {
+      if (isDragging) {
+        setIsDragging(false);
+        if (sheetHeight < 35) {
+          setSelectedNodeId(null);
+          setTimeout(() => setSheetHeight(60), 300);
+        } else if (sheetHeight > 75) {
+          setSheetHeight(90);
+        } else {
+          setSheetHeight(60);
+        }
+      }
     };
+    
     if (isDragging) {
-      window.addEventListener('mousemove', handleMouseMove);
-      window.addEventListener('mouseup', handleMouseUp);
-      // Prevent scrolling while dragging
+      window.addEventListener('mousemove', handleGlobalMove);
+      window.addEventListener('mouseup', handleGlobalEnd);
+      window.addEventListener('touchmove', handleGlobalMove, { passive: false });
+      window.addEventListener('touchend', handleGlobalEnd);
       document.body.style.overflow = 'hidden';
     } else {
       document.body.style.overflow = '';
     }
     return () => {
-      window.removeEventListener('mousemove', handleMouseMove);
-      window.removeEventListener('mouseup', handleMouseUp);
+      window.removeEventListener('mousemove', handleGlobalMove);
+      window.removeEventListener('mouseup', handleGlobalEnd);
+      window.removeEventListener('touchmove', handleGlobalMove);
+      window.removeEventListener('touchend', handleGlobalEnd);
       document.body.style.overflow = '';
     };
   }, [isDragging, startY, startHeight, sheetHeight]);
@@ -150,8 +150,8 @@ export function AppShell({ dataPath }: AppShellProps) {
           <div 
             className={styles.sidePanelHeader}
             onTouchStart={handleTouchStart}
-            onTouchMove={handleTouchMove}
-            onTouchEnd={handleTouchEnd}
+            
+            
             onMouseDown={handleTouchStart}
           >
             <div className={styles.dragHandle}></div>
