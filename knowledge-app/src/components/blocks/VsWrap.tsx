@@ -38,6 +38,26 @@ export function VsWrap({ data }: { data: VsWrapBlock['data'] }) {
     return <div className={styles.content} dangerouslySetInnerHTML={{ __html: content }} />;
   };
 
+  
+  const renderHeader = (sideData: any, isOpen: boolean) => {
+    const pts = Array.isArray(sideData.points) ? sideData.points : [];
+    const kws = Array.isArray(sideData.keywords) ? sideData.keywords : [];
+    const count = pts.length + kws.length;
+    
+    return (
+      <div className={styles.header}>
+        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+          <h4 className={styles.title}>{sideData.title}</h4>
+          {!isOpen && count > 0 && (
+            <span style={{fontSize: '12px', opacity: 0.5, marginTop: '4px', fontWeight: 'normal'}}>
+              ({count} ý chính)
+            </span>
+          )}
+        </div>
+      </div>
+    );
+  };
+
   const left = data.left || { title: (data as any).col1_title, content: (data as any).col1_desc };
   const right = data.right || { title: (data as any).col2_title, content: (data as any).col2_desc };
 
@@ -47,9 +67,7 @@ export function VsWrap({ data }: { data: VsWrapBlock['data'] }) {
         className={`${styles.side} ${styles.leftSide} ${leftOpen ? styles.open : ''}`}
         onClick={() => setLeftOpen(!leftOpen)}
       >
-        <div className={styles.header}>
-          <h4 className={styles.title}>{left.title}</h4>
-        </div>
+        {renderHeader(left, leftOpen)}
         <div className={styles.contentWrapper}>
           {renderSideContent(left)}
         </div>
@@ -65,9 +83,7 @@ export function VsWrap({ data }: { data: VsWrapBlock['data'] }) {
         className={`${styles.side} ${styles.rightSide} ${rightOpen ? styles.open : ''}`}
         onClick={() => setRightOpen(!rightOpen)}
       >
-        <div className={styles.header}>
-          <h4 className={styles.title}>{right.title}</h4>
-        </div>
+        {renderHeader(right, rightOpen)}
         <div className={styles.contentWrapper}>
           {renderSideContent(right)}
         </div>
