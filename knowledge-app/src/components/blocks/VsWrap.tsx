@@ -53,7 +53,7 @@ export function VsWrap({ data }: { data: VsWrapBlock['data'] }) {
         <div className={styles.contentWrapper}>
           {renderSideContent(left)}
         </div>
-        <div className={styles.chevron}>{leftOpen ? '▲' : '▼'}</div>
+        
       </div>
       
       <div className={styles.dividerWrapper}>
@@ -71,7 +71,7 @@ export function VsWrap({ data }: { data: VsWrapBlock['data'] }) {
         <div className={styles.contentWrapper}>
           {renderSideContent(right)}
         </div>
-        <div className={styles.chevron}>{rightOpen ? '▲' : '▼'}</div>
+        
       </div>
     </div>
   );

@@ -27,7 +27,7 @@ export function Features({ data }: { data: FeaturesBlock['data'] }) {
                 <span className={styles.number}>{idx + 1}</span>
               </div>
               <h4 className={styles.title}>{item.title}</h4>
-              <div className={styles.chevron}>{isOpen ? '▲' : '▼'}</div>
+              
             </div>
             <div className={styles.descWrapper}>
               <p className={styles.desc} dangerouslySetInnerHTML={{ __html: item.description }} />
