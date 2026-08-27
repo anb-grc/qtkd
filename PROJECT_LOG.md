@@ -43,3 +43,4 @@ Khi chạy xong luồng xử lý câu hỏi mới, Agent tự động thêm 1 d�
 - KTVM: Đã bao toàn bộ phương trình BP vào thẻ span answer-keyword cho câu hỏi hàm số tài khoản vốn.
 
 - KTVM: Lọc trùng và bổ sung thành công 4 câu hỏi mới từ Batch 5. Đã highlight Ma trận Lục hợp và thêm giải thích.
+- [2026-08-27] [GIÁO DỤC THỂ CHẤT 1] Xóa bỏ metadata 'Mã số học phần' bị dính nhầm vào file kb.json.
