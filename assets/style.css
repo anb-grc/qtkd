@@ -884,7 +884,7 @@ body.hide-mcq-options .mcq-options-container {
 .kb-points-list {
     list-style-type: disc;
     padding-left: 20px;
-    margin: 12px 0;
+    margin: 4px 0 12px 0;
 }
 .kb-points-list li {
     margin-bottom: 8px;
