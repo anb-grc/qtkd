@@ -6,36 +6,40 @@ export function VsWrap({ data }: { data: VsWrapBlock['data'] }) {
   const [leftOpen, setLeftOpen] = useState(false);
   const [rightOpen, setRightOpen] = useState(false);
 
-  const parseSide = (sideData: any) => {
-    if(!sideData) return { title: '', desc: '', pts: [], kws: [], content: '' };
-    return {
-      title: sideData.title || '',
-      desc: sideData.description || '',
-      pts: Array.isArray(sideData.points) ? sideData.points : [],
-      kws: Array.isArray(sideData.keywords) ? sideData.keywords : [],
-      content: sideData.content || ''
-    };
+  
+  const renderSideContent = (sideData: any) => {
+    if(!sideData) return null;
+    const desc = sideData.description || sideData.desc;
+    const content = sideData.content || (Array.isArray(sideData.points) ? sideData.points.join('<br/>') : '');
+    const pts = Array.isArray(sideData.points) ? sideData.points : [];
+    const kws = Array.isArray(sideData.keywords) ? sideData.keywords : [];
+    
+    // If it has new structure:
+    if(desc || pts.length > 0 || kws.length > 0) {
+      return (
+        <>
+          {desc && <div className={styles.content} style={{opacity: 0.8, fontStyle: 'italic', marginBottom: '8px'}}>{desc}</div>}
+          {pts.length > 0 && (
+            <ul className="kb-points-list">
+              {pts.map((p: string, i: number) => <li key={i}>{p}</li>)}
+            </ul>
+          )}
+          {kws.length > 0 && (
+            <div style={{display:'flex', flexWrap:'wrap', gap:'6px', marginTop:'12px'}}>
+              {kws.map((k: string, i: number) => <span key={i} className="kb-keyword-badge">{k}</span>)}
+            </div>
+          )}
+          {sideData.content && <div className={styles.content} dangerouslySetInnerHTML={{ __html: sideData.content }} />}
+        </>
+      );
+    }
+    
+    // Legacy fallback
+    return <div className={styles.content} dangerouslySetInnerHTML={{ __html: content }} />;
   };
 
-  const left = data.left ? parseSide(data.left) : parseSide({ title: (data as any).col1_title, content: (data as any).col1_desc });
-  const right = data.right ? parseSide(data.right) : parseSide({ title: (data as any).col2_title, content: (data as any).col2_desc });
-
-  const renderSideContent = (side: any) => (
-    <>
-      {side.desc && <div className={styles.desc}>{side.desc}</div>}
-      {side.pts.length > 0 && (
-        <ul className="kb-points-list">
-          {side.pts.map((p: string, i: number) => <li key={i}>{p}</li>)}
-        </ul>
-      )}
-      {side.content && <div className={styles.content} dangerouslySetInnerHTML={{ __html: side.content }} />}
-      {side.kws.length > 0 && (
-        <div className={styles.keywords}>
-          {side.kws.map((k: string, i: number) => <span key={i} className="kb-keyword-badge">{k}</span>)}
-        </div>
-      )}
-    </>
-  );
+  const left = data.left || { title: (data as any).col1_title, content: (data as any).col1_desc };
+  const right = data.right || { title: (data as any).col2_title, content: (data as any).col2_desc };
 
   return (
     <div className={styles.container}>
