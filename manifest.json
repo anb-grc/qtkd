@@ -1,7 +1,7 @@
 {
   "name": "LearnIZ - Học ít. Hiểu nhanh. Nhớ lâu",
   "short_name": "LearnIZ",
-  "description": "Nền tảng ôn thi trắc nghiệm và kiến thức tối ưu.",
+  "description": "Kiến thức trực quan, dễ dàng ôn luyện.",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#0f0f1a",
