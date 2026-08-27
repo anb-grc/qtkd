@@ -3,44 +3,46 @@ import type { CarouselBlock } from '../../types/schema';
 import styles from './Carousel.module.css';
 
 export function Carousel({ data }: { data: CarouselBlock['data'] }) {
-  const [current, setCurrent] = useState(0);
-  const [open, setOpen] = useState(false);
-  const itemsRaw = data.items || (data as any).slides || [];
-  const items = itemsRaw.map((item: any) => ({
-    title: item.title || item.name || item.label || '',
-    description: item.description || item.desc || item.content || ''
-  }));
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const next = () => {
+    setCurrentIndex((prev) => (prev + 1) % data.items.length);
+  };
+
+  const prev = () => {
+    setCurrentIndex((prev) => (prev - 1 + data.items.length) % data.items.length);
+  };
 
   return (
     <div className={styles.container}>
-      <div className={styles.track} style={{ transform: `translateX(-${current * 100}%)` }}>
-        {items.map((item, i) => (
+      <div className={styles.track} style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
+        {data.items.map((item, i) => (
           <div key={i} className={styles.slide}>
-            <div 
-              className={`${styles.card} ${open ? styles.open : ''}`}
-              onClick={() => {
-                if (i === current) setOpen(!open);
-              }}
-            >
-              <h3>{item.title}</h3>
-              {item.description && <div className={styles.chevron}>{open ? '▲' : '▼'}</div>}
-              {item.description && (
-                <div className={styles.descWrapper}>
-                  <p>{item.description}</p>
-                </div>
+            <div className={styles.content}>
+              <h3 className={styles.title}>{item.title}</h3>
+              {item.description && <p className={styles.description}>{item.description}</p>}
+              {(item as any).content && <div className={styles.description} dangerouslySetInnerHTML={{ __html: (item as any).content }} />}
+              {(item as any).points && Array.isArray((item as any).points) && (
+                <ul className="kb-points-list">
+                  {(item as any).points.map((p: string, idx: number) => <li key={idx}>{p}</li>)}
+                </ul>
               )}
             </div>
           </div>
         ))}
       </div>
-      <div className={styles.controls}>
-        <button onClick={() => {setCurrent(p => Math.max(0, p-1)); setOpen(false);}} disabled={current === 0}>&larr;</button>
-        <div className={styles.dots}>
-          {items.map((_, i) => (
-            <div key={i} className={`${styles.dot} ${i === current ? styles.activeDot : ''}`} onClick={() => {setCurrent(i); setOpen(false);}} />
-          ))}
-        </div>
-        <button onClick={() => {setCurrent(p => Math.min(items.length - 1, p+1)); setOpen(false);}} disabled={current === items.length - 1}>&rarr;</button>
+      
+      <button className={`${styles.navBtn} ${styles.prev}`} onClick={prev}>❮</button>
+      <button className={`${styles.navBtn} ${styles.next}`} onClick={next}>❯</button>
+      
+      <div className={styles.dots}>
+        {data.items.map((_, i) => (
+          <button 
+            key={i} 
+            className={`${styles.dot} ${i === currentIndex ? styles.active : ''}`}
+            onClick={() => setCurrentIndex(i)}
+          />
+        ))}
       </div>
     </div>
   );

@@ -1606,12 +1606,20 @@ function renderKbBlock(block) {
             
         case 'carousel':
             let carItems = data.items || [];
-            let carHtml = carItems.map(item => `
+            let carHtml = carItems.map(item => {
+                let pts = '';
+                if(item.points && Array.isArray(item.points)) {
+                    pts = `<ul class="kb-points-list" style="text-align:left;">` + item.points.map(p => `<li>${p}</li>`).join('') + `</ul>`;
+                }
+                let desc = item.description || item.content || '';
+                return `
                 <div class="kb-carousel-item">
                     <h4>${item.title || item.name || ''}</h4>
-                    <p>${item.description || item.desc || item.content || ''}</p>
+                    <p>${desc}</p>
+                    ${pts}
                 </div>
-            `).join('');
+                `;
+            }).join('');
             return wrapBlock('🎠', 'Vuốt ngang', `
                 <div class="kb-carousel-hint"><span>← Vuốt →</span></div>
                 <div class="kb-carousel">${carHtml}</div>

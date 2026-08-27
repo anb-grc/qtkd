@@ -6,21 +6,36 @@ export function VsWrap({ data }: { data: VsWrapBlock['data'] }) {
   const [leftOpen, setLeftOpen] = useState(false);
   const [rightOpen, setRightOpen] = useState(false);
 
-  const left = data.left ? {
-    title: data.left.title || '',
-    content: data.left.content || (data.left as any).description || (Array.isArray((data.left as any).points) ? (data.left as any).points.join('<br/>') : '')
-  } : {
-    title: (data as any).col1_title || (data as any).left_title || '',
-    content: (data as any).col1_desc || (data as any).col1_content || ''
+  const parseSide = (sideData: any) => {
+    if(!sideData) return { title: '', desc: '', pts: [], kws: [], content: '' };
+    return {
+      title: sideData.title || '',
+      desc: sideData.description || '',
+      pts: Array.isArray(sideData.points) ? sideData.points : [],
+      kws: Array.isArray(sideData.keywords) ? sideData.keywords : [],
+      content: sideData.content || ''
+    };
   };
 
-  const right = data.right ? {
-    title: data.right.title || '',
-    content: data.right.content || (data.right as any).description || (Array.isArray((data.right as any).points) ? (data.right as any).points.join('<br/>') : '')
-  } : {
-    title: (data as any).col2_title || (data as any).right_title || '',
-    content: (data as any).col2_desc || (data as any).right_content || ''
-  };
+  const left = data.left ? parseSide(data.left) : parseSide({ title: (data as any).col1_title, content: (data as any).col1_desc });
+  const right = data.right ? parseSide(data.right) : parseSide({ title: (data as any).col2_title, content: (data as any).col2_desc });
+
+  const renderSideContent = (side: any) => (
+    <>
+      {side.desc && <div className={styles.desc}>{side.desc}</div>}
+      {side.pts.length > 0 && (
+        <ul className="kb-points-list">
+          {side.pts.map((p: string, i: number) => <li key={i}>{p}</li>)}
+        </ul>
+      )}
+      {side.content && <div className={styles.content} dangerouslySetInnerHTML={{ __html: side.content }} />}
+      {side.kws.length > 0 && (
+        <div className={styles.keywords}>
+          {side.kws.map((k: string, i: number) => <span key={i} className="kb-keyword-badge">{k}</span>)}
+        </div>
+      )}
+    </>
+  );
 
   return (
     <div className={styles.container}>
@@ -32,7 +47,7 @@ export function VsWrap({ data }: { data: VsWrapBlock['data'] }) {
           <h4 className={styles.title}>{left.title}</h4>
         </div>
         <div className={styles.contentWrapper}>
-          <div className={styles.content} dangerouslySetInnerHTML={{ __html: left.content }} />
+          {renderSideContent(left)}
         </div>
         <div className={styles.chevron}>{leftOpen ? '▲' : '▼'}</div>
       </div>
@@ -50,7 +65,7 @@ export function VsWrap({ data }: { data: VsWrapBlock['data'] }) {
           <h4 className={styles.title}>{right.title}</h4>
         </div>
         <div className={styles.contentWrapper}>
-          <div className={styles.content} dangerouslySetInnerHTML={{ __html: right.content }} />
+          {renderSideContent(right)}
         </div>
         <div className={styles.chevron}>{rightOpen ? '▲' : '▼'}</div>
       </div>

@@ -111,7 +111,9 @@ export interface FeaturesBlock extends BaseBlock {
   data: {
     items: {
       title: string;
-      description: string;
+      description?: string;
+      content?: string;
+      points?: string[];
     }[];
   };
 }
@@ -136,7 +138,10 @@ export interface TimelineBlock extends BaseBlock {
   data: {
     items: {
       time: string;
-      content: string;
+      title?: string;
+      content?: string;
+      description?: string;
+      points?: string[];
     }[];
   };
 }
@@ -180,11 +185,17 @@ export interface VsWrapBlock extends BaseBlock {
   data: {
     left: {
       title: string;
-      content: string;
+      description?: string;
+      content?: string;
+      points?: string[];
+      keywords?: string[];
     };
     right: {
       title: string;
-      content: string;
+      description?: string;
+      content?: string;
+      points?: string[];
+      keywords?: string[];
     };
   };
 }
@@ -194,7 +205,8 @@ export interface VennBlock extends BaseBlock {
   data: {
     left: { title: string; items?: string[] };
     right: { title: string; items?: string[] };
-    intersection: string;
+    intersection?: string;
+    intersection_items?: string[];
   };
 }
 
@@ -203,7 +215,8 @@ export interface VennDiagramBlock extends BaseBlock {
   data: {
     left: { title: string; items?: string[] };
     right: { title: string; items?: string[] };
-    intersection: string;
+    intersection?: string;
+    intersection_items?: string[];
   };
 }
 
@@ -213,10 +226,10 @@ export interface QuadrantBlock extends BaseBlock {
     x_axis?: string;
     y_axis?: string;
     quadrants: [
-      { title: string; content: string },
-      { title: string; content: string },
-      { title: string; content: string },
-      { title: string; content: string }
+      { title: string; description?: string; content?: string; points?: string[] },
+      { title: string; description?: string; content?: string; points?: string[] },
+      { title: string; description?: string; content?: string; points?: string[] },
+      { title: string; description?: string; content?: string; points?: string[] }
     ];
   };
 }
@@ -331,7 +344,9 @@ export interface CarouselBlock extends BaseBlock {
   data: {
     items: {
       title: string;
-      description: string;
+      description?: string;
+      content?: string;
+      points?: string[];
     }[];
   };
 }

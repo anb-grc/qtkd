@@ -1,60 +1,40 @@
-import { useState } from 'react';
 import type { QuadrantBlock } from '../../types/schema';
 import styles from './Quadrant.module.css';
 
 export function Quadrant({ data }: { data: QuadrantBlock['data'] }) {
-  const [openStates, setOpenStates] = useState<Record<number, boolean>>({});
+  const { x_axis, y_axis, quadrants } = data;
 
-  let quads: { title: string; content: string }[] = [];
-  const rawQuads = data.quadrants || (data as any).items || (data as any).elements;
-  if (rawQuads && Array.isArray(rawQuads)) {
-    quads = rawQuads.map((q: any) => ({
-      title: q.title || q.name || q.label || '',
-      content: q.content || q.description || q.desc || (Array.isArray(q.items) ? q.items.join('<br/>') : '')
-    }));
-  } else if ((data as any).q1_title !== undefined) {
-    quads = [1, 2, 3, 4].map(i => ({
-      title: (data as any)[`q${i}_title`] || '',
-      content: (data as any)[`q${i}_content`] || ''
-    }));
-  } else if ((data as any).topLeft !== undefined) {
-    const keys = ['topLeft', 'topRight', 'bottomLeft', 'bottomRight'];
-    quads = keys.map(k => ({
-      title: (data as any)[k]?.title || (data as any)[k]?.name || '',
-      content: (data as any)[k]?.description || (data as any)[k]?.content || ''
-    }));
-  }
-  while (quads.length < 4) quads.push({ title: 'Góc', content: '' });
-
-  const xAxis = data.x_axis || (data as any).xAxis || '';
-  const yAxis = data.y_axis || (data as any).yAxis || '';
+  const renderQuadContent = (q: any) => {
+    if (!q) return null;
+    const pts = Array.isArray(q.points) ? q.points : [];
+    return (
+      <div className={styles.quadContentWrap}>
+        {q.description && <div className={styles.desc}>{q.description}</div>}
+        {pts.length > 0 && (
+          <ul className="kb-points-list">
+            {pts.map((p: string, i: number) => <li key={i}>{p}</li>)}
+          </ul>
+        )}
+        {q.content && <div className={styles.content} dangerouslySetInnerHTML={{ __html: q.content }} />}
+      </div>
+    );
+  };
 
   return (
-    <div className={styles.container}>
-      {yAxis && <div className={styles.yAxis}>{yAxis}</div>}
-      
-      <div className={styles.grid}>
-        {quads.map((quad, i) => {
-          const isActive = !!openStates[i];
-          return (
-            <div 
-              key={i} 
-              className={`${styles.quadrant} ${isActive ? styles.expanded : ''}`}
-              onClick={() => setOpenStates(prev => ({ ...prev, [i]: !prev[i] }))}
-            >
-              <div className={styles.qHeader}>
-                <h4 className={styles.title}>{quad.title}</h4>
-                
-              </div>
-              <div className={styles.contentWrapper}>
-                <p className={styles.content} dangerouslySetInnerHTML={{ __html: quad.content }} />
-              </div>
+    <div className={styles.wrapper}>
+      <div className={styles.container}>
+        {y_axis && <div className={styles.yAxis}>{y_axis}</div>}
+        
+        <div className={styles.grid}>
+          {quadrants.map((q, i) => (
+            <div key={i} className={`${styles.quadrant} ${styles[`q${i + 1}`]}`}>
+              <h4 className={styles.title}>{q.title}</h4>
+              {renderQuadContent(q)}
             </div>
-          );
-        })}
+          ))}
+        </div>
       </div>
-      
-      {xAxis && <div className={styles.xAxis}>{xAxis}</div>}
+      {x_axis && <div className={styles.xAxis}>{x_axis}</div>}
     </div>
   );
 }
