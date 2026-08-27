@@ -26,7 +26,7 @@ export function Spectrum({ data }: { data: SpectrumBlock['data'] }) {
               <div className={styles.content}>
                 <div className={styles.header}>
                   <h4>{item.title}</h4>
-                  {item.description && <div className={styles.chevron}>{isOpen ? '▲' : '▼'}</div>}
+                  
                 </div>
                 {item.description && (
                   <div className={styles.descWrapper}>

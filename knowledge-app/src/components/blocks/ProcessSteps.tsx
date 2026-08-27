@@ -29,7 +29,7 @@ export function ProcessSteps({ data }: { data: ProcessStepsBlock['data'] | Flowc
               <div className={styles.content}>
                 <div className={styles.header}>
                   <h4>{step.name}</h4>
-                  {step.description && <div className={styles.chevron}>{isOpen ? '▲' : '▼'}</div>}
+                  
                 </div>
                 {step.description && (
                   <div className={styles.descWrapper}>

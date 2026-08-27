@@ -23,7 +23,7 @@ export function Carousel({ data }: { data: CarouselBlock['data'] }) {
               }}
             >
               <h3>{item.title}</h3>
-              {item.description && <div className={styles.chevron}>{open ? '▲' : '▼'}</div>}
+              
               {item.description && (
                 <div className={styles.descWrapper}>
                   <p>{item.description}</p>

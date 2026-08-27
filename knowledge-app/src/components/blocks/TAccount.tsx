@@ -36,7 +36,7 @@ export function TAccount({ data }: { data: TAccountBlock['data'] }) {
         {isLong && (
           <div className={styles.toggleWrapper} onClick={() => setExpanded(!expanded)}>
             <span className={styles.toggleBtn}>
-              {expanded ? '▲ Thu gọn' : `▼ Xem thêm (${maxEntries - 3} ý)`}
+              {expanded ? 'Thu gọn' : `Xem thêm (${maxEntries - 3} ý)`}
             </span>
           </div>
         )}

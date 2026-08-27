@@ -27,7 +27,7 @@ export function Timeline({ data }: { data: TimelineBlock['data'] }) {
             <div className={styles.content}>
               <div className={styles.header}>
                 <div className={styles.time}>{item.time}</div>
-                <div className={styles.chevron}>{isOpen ? '▲' : '▼'}</div>
+                
               </div>
               <div className={styles.descWrapper}>
                 <div className={styles.desc} dangerouslySetInnerHTML={{ __html: item.content }} />
