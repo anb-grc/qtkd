@@ -131,11 +131,11 @@
           "data": {
             "left": {
               "title": "Nhóm 1: Con người ra quyết định",
-              "content": "1. Đánh đổi (Muốn cái này phải bỏ cái kia).\n2. Chi phí cơ hội (Cái phải từ bỏ).\n3. Thay đổi cận biên (Điều chỉnh nhỏ quanh mức hiện tại).\n4. Phản ứng với kích thích (Thay đổi hành vi theo chi phí/lợi ích)."
+              "description": "1. Đánh đổi (Muốn cái này phải bỏ cái kia).\n2. Chi phí cơ hội (Cái phải từ bỏ).\n3. Thay đổi cận biên (Điều chỉnh nhỏ quanh mức hiện tại).\n4. Phản ứng với kích thích (Thay đổi hành vi theo chi phí/lợi ích)."
             },
             "right": {
               "title": "Nhóm 2: Tương tác và Toàn cục kinh tế",
-              "content": "5. Thương mại giúp mọi người cùng có lợi.\n6. Thị trường là nơi tốt nhất để tổ chức hoạt động kinh tế.\n7. Chính phủ có thể cải thiện kết cục thị trường.\n8. Mức sống phụ thuộc vào năng lực sản xuất.\n9. Lạm phát xảy ra khi chính phủ in quá nhiều tiền.\n10. Sự đánh đổi ngắn hạn giữa Lạm phát và Thất nghiệp."
+              "description": "5. Thương mại giúp mọi người cùng có lợi.\n6. Thị trường là nơi tốt nhất để tổ chức hoạt động kinh tế.\n7. Chính phủ có thể cải thiện kết cục thị trường.\n8. Mức sống phụ thuộc vào năng lực sản xuất.\n9. Lạm phát xảy ra khi chính phủ in quá nhiều tiền.\n10. Sự đánh đổi ngắn hạn giữa Lạm phát và Thất nghiệp."
             }
           }
         },
@@ -160,11 +160,11 @@
           "data": {
             "left": {
               "title": "GDP (Quốc Nội)",
-              "content": "Tính theo Lãnh thổ địa lý. Ví dụ: Công ty Honda (Nhật) sản xuất xe tại Việt Nam thì tính vào GDP của Việt Nam."
+              "description": "Tính theo Lãnh thổ địa lý. Ví dụ: Công ty Honda (Nhật) sản xuất xe tại Việt Nam thì tính vào GDP của Việt Nam."
             },
             "right": {
               "title": "GNP (Quốc Gia)",
-              "content": "Tính theo Sở hữu/Quốc tịch. Ví dụ: Viettel (Việt Nam) kinh doanh tại Campuchia thì doanh thu tính vào GNP của Việt Nam."
+              "description": "Tính theo Sở hữu/Quốc tịch. Ví dụ: Viettel (Việt Nam) kinh doanh tại Campuchia thì doanh thu tính vào GNP của Việt Nam."
             }
           }
         },
@@ -376,11 +376,11 @@
           "data": {
             "left": {
               "title": "Ngắn hạn (SRAS)",
-              "content": "Đường dốc lên. Lý do: Tiền lương và Giá cả bị cứng nhắc (khó điều chỉnh ngay) hoặc do nhận thức sai lầm của người sản xuất."
+              "description": "Đường dốc lên. Lý do: Tiền lương và Giá cả bị cứng nhắc (khó điều chỉnh ngay) hoặc do nhận thức sai lầm của người sản xuất."
             },
             "right": {
               "title": "Dài hạn (LRAS)",
-              "content": "Đường thẳng đứng tại mức sản lượng tự nhiên. Chỉ phụ thuộc vào Công nghệ, Vốn, Lao động; hoàn toàn không đổi theo mức giá."
+              "description": "Đường thẳng đứng tại mức sản lượng tự nhiên. Chỉ phụ thuộc vào Công nghệ, Vốn, Lao động; hoàn toàn không đổi theo mức giá."
             }
           }
         },
@@ -723,11 +723,11 @@
           "data": {
             "left": {
               "title": "Xuất Siêu (Thặng Dư: X > M)",
-              "content": "Tăng dự trữ ngoại hối, tạo việc làm. Lưu ý: Đề thi hay bẫy 'Thặng dư ảo' do khối FDI nước ngoài thao túng xuất khẩu."
+              "description": "Tăng dự trữ ngoại hối, tạo việc làm. Lưu ý: Đề thi hay bẫy 'Thặng dư ảo' do khối FDI nước ngoài thao túng xuất khẩu."
             },
             "right": {
               "title": "Nhập Siêu (Thâm Hụt: X < M)",
-              "content": "Gây áp lực tỷ giá, mất dự trữ. Lưu ý: 'Nhập siêu tích cực' là khi ta nhập khẩu ròng máy móc thiết bị để mở rộng sản xuất tương lai."
+              "description": "Gây áp lực tỷ giá, mất dự trữ. Lưu ý: 'Nhập siêu tích cực' là khi ta nhập khẩu ròng máy móc thiết bị để mở rộng sản xuất tương lai."
             }
           }
         },

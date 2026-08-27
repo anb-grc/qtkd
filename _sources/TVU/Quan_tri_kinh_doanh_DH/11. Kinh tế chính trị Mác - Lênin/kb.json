@@ -9,27 +9,27 @@
           "items": [
             {
               "time": "Từ thế kỷ XV về trước",
-              "content": "Tư tưởng kinh tế trong triết học, luận lý. Trình độ sản xuất xã hội tạo tiền đề lý luận."
+              "description": "Tư tưởng kinh tế trong triết học, luận lý. Trình độ sản xuất xã hội tạo tiền đề lý luận."
             },
             {
               "time": "Giữa TK XV - giữa TK XVII",
-              "content": "Chủ nghĩa trọng thương (William Stafford, Thomas Mun)."
+              "description": "Chủ nghĩa trọng thương (William Stafford, Thomas Mun)."
             },
             {
               "time": "Cuối TK XVII - nửa đầu TK XVIII",
-              "content": "Chủ nghĩa trọng nông (Pierr Boisguillebert, Fancois Quesney)."
+              "description": "Chủ nghĩa trọng nông (Pierr Boisguillebert, Fancois Quesney)."
             },
             {
               "time": "Cuối TK XVIII - nửa đầu TK XIX",
-              "content": "Kinh tế chính trị cổ điển Anh (William Petty, A.Smith, David Ricard). Giá trị do hao phí lao động tạo ra."
+              "description": "Kinh tế chính trị cổ điển Anh (William Petty, A.Smith, David Ricard). Giá trị do hao phí lao động tạo ra."
             },
             {
               "time": "Nửa cuối TK XIX",
-              "content": "Kinh tế chính trị C.Mác & Ph.Ăngghen. Phương thức sản xuất TBCN, quy luật thặng dư."
+              "description": "Kinh tế chính trị C.Mác & Ph.Ăngghen. Phương thức sản xuất TBCN, quy luật thặng dư."
             },
             {
               "time": "Cuối TK XIX - đầu TK XX",
-              "content": "V.I.Lênin phát triển lý luận về độc quyền, độc quyền nhà nước."
+              "description": "V.I.Lênin phát triển lý luận về độc quyền, độc quyền nhà nước."
             }
           ]
         }
@@ -164,11 +164,11 @@
         "data": {
           "left": {
             "title": "Tuyệt Đối",
-            "content": "Kéo dài ngày lao động vượt quá thời gian lao động tất yếu, năng suất và giá trị sức lao động không đổi."
+            "description": "Kéo dài ngày lao động vượt quá thời gian lao động tất yếu, năng suất và giá trị sức lao động không đổi."
           },
           "right": {
             "title": "Tương Đối",
-            "content": "Rút ngắn thời gian lao động tất yếu bằng cách tăng năng suất lao động xã hội, độ dài ngày lao động không đổi."
+            "description": "Rút ngắn thời gian lao động tất yếu bằng cách tăng năng suất lao động xã hội, độ dài ngày lao động không đổi."
           }
         }
       },
@@ -278,11 +278,11 @@
         "data": {
           "left": {
             "title": "Tích tụ tư bản",
-            "content": "Tăng quy mô bằng cách tư bản hóa giá trị thặng dư. Làm tăng quy mô tư bản xã hội."
+            "description": "Tăng quy mô bằng cách tư bản hóa giá trị thặng dư. Làm tăng quy mô tư bản xã hội."
           },
           "right": {
             "title": "Tập trung tư bản",
-            "content": "Hợp nhất các tư bản cá biệt thành chỉnh thể lớn hơn. Không làm tăng quy mô tư bản xã hội."
+            "description": "Hợp nhất các tư bản cá biệt thành chỉnh thể lớn hơn. Không làm tăng quy mô tư bản xã hội."
           }
         }
       }

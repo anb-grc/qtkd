@@ -150,11 +150,11 @@
           "data": {
             "left": {
               "title": "Mạng LAN",
-              "content": "Phạm vi vài mét đến 1km. Thường dùng 1 dây cáp. Tốc độ cao nhưng dưới 100 Gbps."
+              "description": "Phạm vi vài mét đến 1km. Thường dùng 1 dây cáp. Tốc độ cao nhưng dưới 100 Gbps."
             },
             "right": {
               "title": "Mạng WAN",
-              "content": "Phạm vi quốc gia, châu lục. Truyền qua vệ tinh, cáp quang. Tốc độ vài Gbps."
+              "description": "Phạm vi quốc gia, châu lục. Truyền qua vệ tinh, cáp quang. Tốc độ vài Gbps."
             }
           }
         },
@@ -485,11 +485,11 @@
           "data": {
             "left": {
               "title": "Sắp Xếp (Sort)",
-              "content": "Sắp xếp tăng/giảm dần. Có thể cài đặt đa tiêu chí ưu tiên (Sort by / Then by)."
+              "description": "Sắp xếp tăng/giảm dần. Có thể cài đặt đa tiêu chí ưu tiên (Sort by / Then by)."
             },
             "right": {
               "title": "Lọc Trích (Advanced Filter)",
-              "content": "Bắt buộc tạo Vùng Điều Kiện trước. Các điều kiện VÀ nằm cùng dòng, HOẶC nằm khác dòng."
+              "description": "Bắt buộc tạo Vùng Điều Kiện trước. Các điều kiện VÀ nằm cùng dòng, HOẶC nằm khác dòng."
             }
           }
         },
@@ -629,11 +629,11 @@
           "data": {
             "left": {
               "title": "IAP (Access Provider)",
-              "content": "Nhà cung cấp đường truyền và cổng kết nối quốc tế. Phân phối sỉ, nằm ở tầng cao nhất."
+              "description": "Nhà cung cấp đường truyền và cổng kết nối quốc tế. Phân phối sỉ, nằm ở tầng cao nhất."
             },
             "right": {
               "title": "ISP (Service Provider)",
-              "content": "Thuê đường truyền của IAP để cung cấp/bán lẻ dịch vụ Internet cho người dùng cuối (End-user)."
+              "description": "Thuê đường truyền của IAP để cung cấp/bán lẻ dịch vụ Internet cho người dùng cuối (End-user)."
             }
           }
         },

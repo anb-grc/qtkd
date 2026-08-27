@@ -229,23 +229,23 @@
             "items": [
               {
                 "time": "776 TCN",
-                "content": "Kỳ Olympic đầu tiên tại Hy Lạp, thi đấu khỏa thân phục vụ quân sự & tôn vinh con người."
+                "description": "Kỳ Olympic đầu tiên tại Hy Lạp, thi đấu khỏa thân phục vụ quân sự & tôn vinh con người."
               },
               {
                 "time": "Trung cổ",
-                "content": "Đế chế La Mã sụp đổ, điền kinh mai một, lui về các trò chơi dân gian."
+                "description": "Đế chế La Mã sụp đổ, điền kinh mai một, lui về các trò chơi dân gian."
               },
               {
                 "time": "1864",
-                "content": "Sống lại mãnh liệt ở đại học Oxford-Cambridge (Anh). Cuộc thi hiện đại đầu tiên diễn ra."
+                "description": "Sống lại mãnh liệt ở đại học Oxford-Cambridge (Anh). Cuộc thi hiện đại đầu tiên diễn ra."
               },
               {
                 "time": "1896 - 1928",
-                "content": "Olympic Athens 1896. Marathon chuẩn hóa 42,195km (1908). Phụ nữ chính thức thi đấu (1928)."
+                "description": "Olympic Athens 1896. Marathon chuẩn hóa 42,195km (1908). Phụ nữ chính thức thi đấu (1928)."
               },
               {
                 "time": "Sau 1975",
-                "content": "Việt Nam phát triển có hệ thống, làm nền tảng GDTC và tỏa sáng trên đấu trường SEA Games."
+                "description": "Việt Nam phát triển có hệ thống, làm nền tảng GDTC và tỏa sáng trên đấu trường SEA Games."
               }
             ]
           }
@@ -415,11 +415,21 @@
           "data": {
             "left": {
               "title": "Hàng ngang",
-              "content": "- Lệnh: 'Thành ..x.. hàng ngang - TẬP HỢP'\n- Dóng hàng: Tay PHẢI chống hông\n- Khẩu lệnh: 'Nhìn phải - THẲNG'\n- Điểm số: Từ một đến hết (người cuối hô 'Hết!')"
+              "points": [
+                "Lệnh: 'Thành ..x.. hàng ngang - TẬP HỢP'",
+                "Dóng hàng: Tay PHẢI chống hông",
+                "Khẩu lệnh: 'Nhìn phải - THẲNG'",
+                "Điểm số: Từ một đến hết (người cuối hô 'Hết!')"
+              ]
             },
             "right": {
               "title": "Hàng dọc",
-              "content": "- Lệnh: 'Thành ..x.. hàng dọc - TẬP HỢP'\n- Dóng hàng: Tay PHẢI đưa thẳng ra trước chạm vai\n- Khẩu lệnh: 'Nhìn trước - THẲNG'\n- Điểm số: Từ một đến hết (người cuối hô 'Hết!')"
+              "points": [
+                "Lệnh: 'Thành ..x.. hàng dọc - TẬP HỢP'",
+                "Dóng hàng: Tay PHẢI đưa thẳng ra trước chạm vai",
+                "Khẩu lệnh: 'Nhìn trước - THẲNG'",
+                "Điểm số: Từ một đến hết (người cuối hô 'Hết!')"
+              ]
             }
           }
         },
@@ -522,11 +532,21 @@
           "data": {
             "left": {
               "title": "Thể lực Chung",
-              "content": "- Mục đích: Tần số, Tốc độ\n- Bài tập: Chạy bước nhỏ, Nâng cao đùi, Đạp sau (20m)\n- Bổ trợ: Chạy tăng tốc, biến tốc (40m)\n- Tốc độ: Xuất phát theo hiệu lệnh còi"
+              "points": [
+                "Mục đích: Tần số, Tốc độ",
+                "Bài tập: Chạy bước nhỏ, Nâng cao đùi, Đạp sau (20m)",
+                "Bổ trợ: Chạy tăng tốc, biến tốc (40m)",
+                "Tốc độ: Xuất phát theo hiệu lệnh còi"
+              ]
             },
             "right": {
               "title": "Thể lực Chuyên môn",
-              "content": "- Mục đích: Sức mạnh cơ bắp\n- Bài tập: Squat (10-15 lần), Nhún gối (15-20 lần)\n- Bổ trợ: Bật cóc, bật xa liên tục (20-30m)\n- Thân trên: Chống đẩy (8-15), Plank (20-40s)"
+              "points": [
+                "Mục đích: Sức mạnh cơ bắp",
+                "Bài tập: Squat (10-15 lần), Nhún gối (15-20 lần)",
+                "Bổ trợ: Bật cóc, bật xa liên tục (20-30m)",
+                "Thân trên: Chống đẩy (8-15), Plank (20-40s)"
+              ]
             }
           }
         },
@@ -699,11 +719,21 @@
           "data": {
             "left": {
               "title": "Kỹ thuật Chạy",
-              "content": "- Giai đoạn 1: Xuất phát cao (1 chân trước, 1 chân sau)\n- Giai đoạn 2: Sau xuất phát (Vào guồng, nhịp ổn định)\n- Giai đoạn 3: Giữa quãng (Đạp sau đều, tiết kiệm năng lượng)\n- Giai đoạn 4: Về đích (Tăng tần số bước, rướn tốc độ)"
+              "points": [
+                "Giai đoạn 1: Xuất phát cao (1 chân trước, 1 chân sau)",
+                "Giai đoạn 2: Sau xuất phát (Vào guồng, nhịp ổn định)",
+                "Giai đoạn 3: Giữa quãng (Đạp sau đều, tiết kiệm năng lượng)",
+                "Giai đoạn 4: Về đích (Tăng tần số bước, rướn tốc độ)"
+              ]
             },
             "right": {
               "title": "Bài tập Sức bền",
-              "content": "- Căn bản: Chạy chậm liên tục (800-1500m)\n- Tốc độ: Chạy biến tốc / Chạy lặp lại (Interval)\n- Thể lực: Bài tập vòng tròn (Circuit training)\n- Phản xạ: Trò chơi vận động (tiếp sức, đuổi bắt)"
+              "points": [
+                "Căn bản: Chạy chậm liên tục (800-1500m)",
+                "Tốc độ: Chạy biến tốc / Chạy lặp lại (Interval)",
+                "Thể lực: Bài tập vòng tròn (Circuit training)",
+                "Phản xạ: Trò chơi vận động (tiếp sức, đuổi bắt)"
+              ]
             }
           }
         },

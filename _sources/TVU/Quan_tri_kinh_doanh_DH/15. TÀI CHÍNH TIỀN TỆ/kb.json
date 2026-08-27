@@ -646,19 +646,19 @@
             "quadrants": [
               {
                 "title": "Về mặt kinh tế",
-                "content": "Kích thích sự tăng trưởng, định hướng hình thành cơ cấu kinh tế mới, chống độc quyền và thu hút đầu tư doanh nghiệp."
+                "description": "Kích thích sự tăng trưởng, định hướng hình thành cơ cấu kinh tế mới, chống độc quyền và thu hút đầu tư doanh nghiệp."
               },
               {
                 "title": "Về mặt xã hội",
-                "content": "Công cụ điều tiết thu nhập giữa các tầng lớp dân cư, đảm bảo an sinh xã hội và phân phối công bằng."
+                "description": "Công cụ điều tiết thu nhập giữa các tầng lớp dân cư, đảm bảo an sinh xã hội và phân phối công bằng."
               },
               {
                 "title": "Về mặt thị trường",
-                "content": "Góp phần bình ổn giá cả thị trường thông qua các công cụ thuế và chi tiêu chính phủ."
+                "description": "Góp phần bình ổn giá cả thị trường thông qua các công cụ thuế và chi tiêu chính phủ."
               },
               {
                 "title": "Kiềm chế lạm phát",
-                "content": "Phối hợp cùng chính sách tiền tệ của ngân hàng trung ương để điều tiết lượng tiền, kiềm chế lạm phát."
+                "description": "Phối hợp cùng chính sách tiền tệ của ngân hàng trung ương để điều tiết lượng tiền, kiềm chế lạm phát."
               }
             ]
           }
@@ -963,11 +963,17 @@
           "data": {
             "left": {
               "title": "Nguồn vốn chủ sở hữu",
-              "content": "+ Vai trò: Tạo điều kiện cho chủ doanh nghiệp chủ động hoàn toàn trong sản xuất và ra quyết định.\n+ Hạn chế: Hạn chế về quy mô, không đáp ứng được mọi nhu cầu vốn mở rộng, hiệu quả sử dụng có thể không cao do thiếu áp lực."
+              "points": [
+                "Vai trò: Tạo điều kiện cho chủ doanh nghiệp chủ động hoàn toàn trong sản xuất và ra quyết định.",
+                "Hạn chế: Hạn chế về quy mô, không đáp ứng được mọi nhu cầu vốn mở rộng, hiệu quả sử dụng có thể không cao do thiếu áp lực."
+              ]
             },
             "right": {
               "title": "Các khoản nợ phải trả (Vốn vay)",
-              "content": "+ Vai trò: Đảm bảo cung ứng đủ và kịp thời vốn, thúc đẩy sử dụng vốn tiết kiệm và nâng cao hiệu quả kinh doanh.\n+ Hạn chế: Phụ thuộc rủi ro bên ngoài, tốn kém chi phí thời gian, chịu áp lực và ảnh hưởng lợi nhuận bởi lãi suất tiền vay."
+              "points": [
+                "Vai trò: Đảm bảo cung ứng đủ và kịp thời vốn, thúc đẩy sử dụng vốn tiết kiệm và nâng cao hiệu quả kinh doanh.",
+                "Hạn chế: Phụ thuộc rủi ro bên ngoài, tốn kém chi phí thời gian, chịu áp lực và ảnh hưởng lợi nhuận bởi lãi suất tiền vay."
+              ]
             }
           }
         },
@@ -992,11 +998,19 @@
           "data": {
             "left": {
               "title": "Vốn cố định",
-              "content": "+ Khái niệm: Biểu hiện bằng tiền của tài sản cố định (hữu hình, vô hình, thuê tài chính).\n+ Đặc điểm luân chuyển: Tham gia nhiều chu kỳ sản xuất, chuyển giá trị dần từng phần vào giá thành sản phẩm, thu hồi dần qua khấu hao.\n+ Phương pháp quản lý: Quản lý song song cả về mặt giá trị và hiện vật, chống hư hỏng và duy trì sức mua ban đầu."
+              "points": [
+                "Khái niệm: Biểu hiện bằng tiền của tài sản cố định (hữu hình, vô hình, thuê tài chính).",
+                "Đặc điểm luân chuyển: Tham gia nhiều chu kỳ sản xuất, chuyển giá trị dần từng phần vào giá thành sản phẩm, thu hồi dần qua khấu hao.",
+                "Phương pháp quản lý: Quản lý song song cả về mặt giá trị và hiện vật, chống hư hỏng và duy trì sức mua ban đầu."
+              ]
             },
             "right": {
               "title": "Vốn lưu động",
-              "content": "+ Khái niệm: Biểu hiện bằng tiền của tài sản lưu động phục vụ sản xuất và lưu thông.\n+ Đặc điểm luân chuyển: Tham gia một chu kỳ sản xuất, chuyển toàn bộ giá trị một lần vào sản phẩm, thu hồi một lần sau khi bán hàng.\n+ Phương pháp quản lý: Quản lý trên tất cả các hình thái biểu hiện (tiền, vật tư, hàng hóa) và phân loại theo vai trò, sở hữu."
+              "points": [
+                "Khái niệm: Biểu hiện bằng tiền của tài sản lưu động phục vụ sản xuất và lưu thông.",
+                "Đặc điểm luân chuyển: Tham gia một chu kỳ sản xuất, chuyển toàn bộ giá trị một lần vào sản phẩm, thu hồi một lần sau khi bán hàng.",
+                "Phương pháp quản lý: Quản lý trên tất cả các hình thái biểu hiện (tiền, vật tư, hàng hóa) và phân loại theo vai trò, sở hữu."
+              ]
             }
           }
         },
@@ -1021,11 +1035,11 @@
           "data": {
             "left": {
               "title": "Chi phí kinh doanh",
-              "content": "Là biểu hiện bằng tiền của các hao phí vật chất và lao động trong một thời kỳ. Logic quản lý chi phí là tiền đề để tiết kiệm, chống lãng phí và tăng lợi nhuận."
+              "description": "Là biểu hiện bằng tiền của các hao phí vật chất và lao động trong một thời kỳ. Logic quản lý chi phí là tiền đề để tiết kiệm, chống lãng phí và tăng lợi nhuận."
             },
             "right": {
               "title": "Giá thành sản phẩm",
-              "content": "Là biểu hiện bằng tiền của toàn bộ chi phí hoàn thành một khối lượng sản phẩm. Đây là thước đo hiệu quả, là cơ sở định giá. Các biện pháp hạ giá thành bao gồm áp dụng tiến bộ kỹ thuật, tổ chức lao động và tối ưu hóa khâu sản xuất."
+              "description": "Là biểu hiện bằng tiền của toàn bộ chi phí hoàn thành một khối lượng sản phẩm. Đây là thước đo hiệu quả, là cơ sở định giá. Các biện pháp hạ giá thành bao gồm áp dụng tiến bộ kỹ thuật, tổ chức lao động và tối ưu hóa khâu sản xuất."
             }
           }
         },
@@ -1346,7 +1360,11 @@
               },
               {
                 "title": "Bản chất",
-                "description": "- Góc độ kinh tế: Là sản phẩm tất yếu của nền kinh tế hàng hóa, làm phương tiện lưu thông, cất trữ, thanh toán.\n- Góc độ xã hội: Chứa đựng và biểu hiện các quan hệ xã hội giữa người với người trong nền sản xuất và trao đổi hàng hóa."
+                "description": "",
+                "points": [
+                  "Góc độ kinh tế: Là sản phẩm tất yếu của nền kinh tế hàng hóa, làm phương tiện lưu thông, cất trữ, thanh toán.",
+                  "Góc độ xã hội: Chứa đựng và biểu hiện các quan hệ xã hội giữa người với người trong nền sản xuất và trao đổi hàng hóa."
+                ]
               }
             ]
           }
@@ -1373,19 +1391,19 @@
             "items": [
               {
                 "time": "Giai đoạn 1",
-                "content": "Hóa tệ (Commodity money) - Tiền tệ bằng hàng hóa có giá trị thực (Hóa tệ phi kim loại và Hóa tệ kim loại như Vàng, Bạc)."
+                "description": "Hóa tệ (Commodity money) - Tiền tệ bằng hàng hóa có giá trị thực (Hóa tệ phi kim loại và Hóa tệ kim loại như Vàng, Bạc)."
               },
               {
                 "time": "Giai đoạn 2",
-                "content": "Tiền giấy (Paper money) - Bắt nguồn từ giấy chứng nhận gửi vàng/bạc; tiện lợi, in ấn rẻ nhưng không bền và dễ lạm phát, làm giả."
+                "description": "Tiền giấy (Paper money) - Bắt nguồn từ giấy chứng nhận gửi vàng/bạc; tiện lợi, in ấn rẻ nhưng không bền và dễ lạm phát, làm giả."
               },
               {
                 "time": "Giai đoạn 3",
-                "content": "Tiền tín dụng (Credit money) - Tiền ghi sổ tại ngân hàng, lưu thông qua séc, giúp thanh toán khối lượng lớn nhanh chóng và an toàn."
+                "description": "Tiền tín dụng (Credit money) - Tiền ghi sổ tại ngân hàng, lưu thông qua séc, giúp thanh toán khối lượng lớn nhanh chóng và an toàn."
               },
               {
                 "time": "Giai đoạn 4",
-                "content": "Tiền điện tử (Electronic money) - Thanh toán qua viễn thông, mạng máy tính (ATM, Credit card, Debit card, E-cash, E-check); tốc độ cao, tiết kiệm chi phí nhưng tốn kém cơ sở hạ tầng."
+                "description": "Tiền điện tử (Electronic money) - Thanh toán qua viễn thông, mạng máy tính (ATM, Credit card, Debit card, E-cash, E-check); tốc độ cao, tiết kiệm chi phí nhưng tốn kém cơ sở hạ tầng."
               }
             ]
           }
@@ -1716,11 +1734,11 @@
           "data": {
             "left": {
               "title": "Lợi tức và Lãi suất",
-              "content": "Lợi tức tín dụng là phần thu nhập người cho vay nhận được ngoài vốn gốc. Lãi suất tín dụng là tỷ lệ phần trăm giữa lợi tức và tổng số tiền vay trong một thời gian nhất định, được xem là giá cả của quyền sử dụng vốn."
+              "description": "Lợi tức tín dụng là phần thu nhập người cho vay nhận được ngoài vốn gốc. Lãi suất tín dụng là tỷ lệ phần trăm giữa lợi tức và tổng số tiền vay trong một thời gian nhất định, được xem là giá cả của quyền sử dụng vốn."
             },
             "right": {
               "title": "Ý nghĩa của Lãi suất",
-              "content": "Về vĩ mô, lãi suất là công cụ của Chính phủ để điều tiết cơ cấu kinh tế, lạm phát và luồng vốn quốc tế. Về vi mô, đây là cơ sở để cá nhân và doanh nghiệp ra quyết định tiết kiệm, tiêu dùng hay đầu tư."
+              "description": "Về vĩ mô, lãi suất là công cụ của Chính phủ để điều tiết cơ cấu kinh tế, lạm phát và luồng vốn quốc tế. Về vi mô, đây là cơ sở để cá nhân và doanh nghiệp ra quyết định tiết kiệm, tiêu dùng hay đầu tư."
             }
           }
         },
@@ -1828,11 +1846,11 @@
             "items": [
               {
                 "time": "Lịch sử Thế giới",
-                "content": "Tiền thân: Đổi tiền đúc từ trước CNTB, bị đình đốn thời Trung cổ, phục hồi thời Phục hưng.\nThế kỷ XVII: Ngân hàng hiện đại ra đời (Hà Lan 1609, Đức 1619, Anh).\nThế kỷ XV - XVII: Thực hiện các nghiệp vụ gửi, chiết khấu, cho vay.\nThế kỷ XVIII: Hệ thống ngân hàng 2 cấp hình thành ở Âu Mỹ.\nĐầu thế kỷ XX: Khủng hoảng khiến Nhà nước can thiệp mạnh vào ngân hàng.\nSau Thế chiến II: Xuất hiện các tổ chức ngân hàng quốc tế (IMF, WB)."
+                "description": "Tiền thân: Đổi tiền đúc từ trước CNTB, bị đình đốn thời Trung cổ, phục hồi thời Phục hưng.\nThế kỷ XVII: Ngân hàng hiện đại ra đời (Hà Lan 1609, Đức 1619, Anh).\nThế kỷ XV - XVII: Thực hiện các nghiệp vụ gửi, chiết khấu, cho vay.\nThế kỷ XVIII: Hệ thống ngân hàng 2 cấp hình thành ở Âu Mỹ.\nĐầu thế kỷ XX: Khủng hoảng khiến Nhà nước can thiệp mạnh vào ngân hàng.\nSau Thế chiến II: Xuất hiện các tổ chức ngân hàng quốc tế (IMF, WB)."
               },
               {
                 "time": "Lịch sử Việt Nam",
-                "content": "Trước thế kỷ XIX: Kém phát triển, chủ yếu cho vay nặng lãi.\nGiữa thế kỷ XIX: Pháp xâm chiếm, Ngân hàng Đông Dương ra đời.\nSau 1945: Xây dựng từng bước hệ thống ngân hàng nhà nước Việt Nam Dân chủ Cộng hòa.\n1951-1987: Hệ thống ngân hàng 1 cấp, cơ chế bao cấp triệt để.\nTừ 1987-1988: Chính thức chuyển sang hệ thống ngân hàng 2 cấp."
+                "description": "Trước thế kỷ XIX: Kém phát triển, chủ yếu cho vay nặng lãi.\nGiữa thế kỷ XIX: Pháp xâm chiếm, Ngân hàng Đông Dương ra đời.\nSau 1945: Xây dựng từng bước hệ thống ngân hàng nhà nước Việt Nam Dân chủ Cộng hòa.\n1951-1987: Hệ thống ngân hàng 1 cấp, cơ chế bao cấp triệt để.\nTừ 1987-1988: Chính thức chuyển sang hệ thống ngân hàng 2 cấp."
               }
             ]
           }
