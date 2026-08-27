@@ -1,3 +1,7 @@
+
+.dragHandle {
+  display: none;
+}
 .hubContainer {
   display: flex;
   flex-direction: column;
@@ -38,33 +42,7 @@
   transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-
-  .rightPane.dragging {
-    transition: none !important;
-  }
-
-  .dragHandle {
-    display: block;
-    width: 40px;
-    height: 5px;
-    background: rgba(255, 255, 255, 0.3);
-    border-radius: 4px;
-    position: absolute;
-    top: 8px;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: grab;
-  }
-  .dragHandle:active {
-    background: rgba(255, 255, 255, 0.6);
-  }
-  
-  .sidePanelHeader {
-    padding-top: 24px;
-    touch-action: none;
-  }
-
-  .rightPane.hidden {
+.rightPane.hidden {
   transform: translateX(100%);
   position: absolute;
   right: 0;
@@ -79,11 +57,6 @@
   justify-content: center;
   align-items: center;
   position: relative;
-}
-
-
-.dragHandle {
-  display: none;
 }
 
 .sidePanelHeader h2 {
@@ -151,6 +124,7 @@
     transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   }
 
+
   .rightPane {
     position: fixed;
     left: 0;
@@ -170,7 +144,6 @@
     box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.5);
   }
 
-  
   .rightPane.dragging {
     transition: none !important;
   }
@@ -187,14 +160,16 @@
     transform: translateX(-50%);
     cursor: grab;
   }
+  
   .dragHandle:active {
     background: rgba(255, 255, 255, 0.6);
   }
-  
+
   .sidePanelHeader {
     padding-top: 24px;
     touch-action: none;
   }
+
 
   .rightPane.hidden {
     transform: translateY(100%);
