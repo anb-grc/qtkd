@@ -35,8 +35,12 @@
           "label": "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô",
           "children": [
             {
-              "id": "c2_tong_cau",
-              "label": "Cấu trúc Tổng cầu và Số nhân chi tiêu"
+              "id": "c2_cau_truc_ad",
+              "label": "Cấu trúc Tổng cầu (AD)"
+            },
+            {
+              "id": "c2_so_nhan",
+              "label": "Số nhân chi tiêu (k)"
             },
             {
               "id": "c2_tong_cung",
@@ -47,8 +51,12 @@
               "label": "Đường IS và Đường LM"
             },
             {
-              "id": "c2_chu_ky",
-              "label": "Chu kỳ kinh doanh và 3 Chỉ tiêu"
+              "id": "c2_chu_ky_kd",
+              "label": "4 Giai đoạn Chu kỳ Kinh doanh"
+            },
+            {
+              "id": "c2_chi_tieu_du_bao",
+              "label": "3 Loại Chỉ tiêu Dự báo"
             }
           ]
         },
@@ -56,16 +64,28 @@
           "label": "Thị Trường Tiền Tệ & Tài Chính Quốc Tế",
           "children": [
             {
-              "id": "c3_tien_te",
-              "label": "Chức năng và Khối lượng tiền"
+              "id": "c3_chuc_nang_tien",
+              "label": "3 Chức năng của Tiền tệ"
             },
             {
-              "id": "c3_nhtw",
-              "label": "Vai trò và 3 Công cụ của NHTW"
+              "id": "c3_khoi_luong_tien",
+              "label": "Khối lượng tiền tệ (M0, M1, M2)"
             },
             {
-              "id": "c3_ngoai_hoi",
-              "label": "Ngoại hối và Tỷ giá hối đoái"
+              "id": "c3_vai_tro_nhtw",
+              "label": "Vai trò của Ngân hàng Trung ương"
+            },
+            {
+              "id": "c3_cong_cu_cstt",
+              "label": "3 Công cụ Chính sách Tiền tệ"
+            },
+            {
+              "id": "c3_khai_niem_ngoai_hoi",
+              "label": "Khái niệm Ngoại hối"
+            },
+            {
+              "id": "c3_yet_gia",
+              "label": "Tỷ giá và Yết giá"
             },
             {
               "id": "c3_can_can",
@@ -85,8 +105,12 @@
               "label": "Công thức Tỷ lệ Thất nghiệp U(%)"
             },
             {
-              "id": "c4_lam_phat",
-              "label": "Khái niệm, CPI và 3 cấp độ Lạm phát"
+              "id": "c4_khai_niem_cpi",
+              "label": "Chỉ số CPI và Tác động Lạm phát"
+            },
+            {
+              "id": "c4_cap_do_lam_phat",
+              "label": "3 Cấp độ Lạm phát"
             },
             {
               "id": "c4_danh_doi",
@@ -270,7 +294,7 @@
       ]
     },
     {
-      "node_id": "c2_tong_cau",
+      "node_id": "c2_cau_truc_ad",
       "components": [
         {
           "type": "features",
@@ -297,6 +321,21 @@
           }
         },
         {
+          "type": "quiz",
+          "title": "Câu Hỏi Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô",
+              "Cấu trúc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "c2_so_nhan",
+      "components": [
+        {
           "type": "interactive-calc",
           "title": "Mô phỏng Số nhân chi tiêu (k)",
           "data": {
@@ -322,7 +361,7 @@
           "data": {
             "quiz_tags": [
               "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô",
-              "Cấu trúc"
+              "Logic & Nguyên tắc"
             ]
           }
         }
@@ -397,7 +436,7 @@
       ]
     },
     {
-      "node_id": "c2_chu_ky",
+      "node_id": "c2_chu_ky_kd",
       "components": [
         {
           "type": "process-steps",
@@ -423,6 +462,21 @@
             ]
           }
         },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô",
+              "Hệ thống"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "c2_chi_tieu_du_bao",
+      "components": [
         {
           "type": "features",
           "title": "3 Loại Chỉ Tiêu Dự Báo",
@@ -456,7 +510,42 @@
       ]
     },
     {
-      "node_id": "c3_tien_te",
+      "node_id": "c3_chuc_nang_tien",
+      "components": [
+        {
+          "type": "features",
+          "title": "3 Chức năng của Tiền tệ",
+          "data": {
+            "items": [
+              {
+                "title": "Phương tiện trao đổi",
+                "description": "Sử dụng tiền để mua bán hàng hóa, loại bỏ sự bất tiện của hàng đổi hàng."
+              },
+              {
+                "title": "Thước đo giá trị",
+                "description": "Dùng để niêm yết giá cả, ghi chép nợ và đo lường giá trị kinh tế."
+              },
+              {
+                "title": "Phương tiện cất trữ",
+                "description": "Dùng để chuyển sức mua từ hiện tại sang tương lai (mặc dù có thể bị lạm phát làm giảm giá trị)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Thị Trường Tiền Tệ & Tài Chính Quốc Tế",
+              "Cấu trúc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "c3_khoi_luong_tien",
       "components": [
         {
           "type": "pyramid",
@@ -491,7 +580,42 @@
       ]
     },
     {
-      "node_id": "c3_nhtw",
+      "node_id": "c3_vai_tro_nhtw",
+      "components": [
+        {
+          "type": "features",
+          "title": "Vai trò của Ngân hàng Trung ương",
+          "data": {
+            "items": [
+              {
+                "title": "Ngân hàng của các ngân hàng",
+                "description": "Nhận tiền gửi, cho vay và quản lý hoạt động của các Ngân hàng Thương mại."
+              },
+              {
+                "title": "Ngân hàng của Chính phủ",
+                "description": "Quản lý tài khoản, phát hành tiền và thực hiện các chính sách kinh tế vĩ mô cho Nhà nước."
+              },
+              {
+                "title": "Quản lý cung tiền & Tỷ giá",
+                "description": "Điều tiết khối lượng tiền trong nền kinh tế, ổn định giá trị đồng nội tệ và quản lý dự trữ ngoại hối."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Thị Trường Tiền Tệ & Tài Chính Quốc Tế",
+              "Logic & Nguyên tắc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "c3_cong_cu_cstt",
       "components": [
         {
           "type": "features",
@@ -526,11 +650,11 @@
       ]
     },
     {
-      "node_id": "c3_ngoai_hoi",
+      "node_id": "c3_khai_niem_ngoai_hoi",
       "components": [
         {
           "type": "delta-cheat-sheet",
-          "title": "Ngoại hối và Yết giá",
+          "title": "Khái niệm Ngoại hối",
           "data": {
             "items": [
               {
@@ -541,7 +665,30 @@
                   "Chỉ có ngoại tệ mặt"
                 ],
                 "explanation": "Ngoại hối bao trùm cả tài sản và công cụ thanh toán quốc tế."
-              },
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Thị Trường Tiền Tệ & Tài Chính Quốc Tế",
+              "Nền tảng"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "c3_yet_gia",
+      "components": [
+        {
+          "type": "delta-cheat-sheet",
+          "title": "Tỷ giá và Yết giá",
+          "data": {
+            "items": [
               {
                 "questionSnippet": "Trong yết giá USD/VND, tỷ giá mua và bán khác nhau thế nào?",
                 "keyword": "Mua thấp - Bán cao",
@@ -684,7 +831,38 @@
       ]
     },
     {
-      "node_id": "c4_lam_phat",
+      "node_id": "c4_khai_niem_cpi",
+      "components": [
+        {
+          "type": "features",
+          "title": "Chỉ Số Giá Tiêu Dùng (CPI) & Tác Động",
+          "data": {
+            "items": [
+              {
+                "title": "Khái niệm CPI",
+                "description": "Đo lường mức giá trung bình của một giỏ hàng hóa và dịch vụ tiêu biểu."
+              },
+              {
+                "title": "Tác động của Lạm phát",
+                "description": "Giảm thu nhập thực tế, hao mòn tài sản, gây phân hóa giàu nghèo, nhưng có thể giúp chính phủ giảm gánh nặng nợ công thực tế."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Cú Sốc Vĩ Mô: Lạm Phát & Thất Nghiệp",
+              "Nền tảng"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "c4_cap_do_lam_phat",
       "components": [
         {
           "type": "spectrum",
@@ -702,22 +880,6 @@
               {
                 "title": "Siêu lạm phát (>200%/năm)",
                 "description": "Sự tàn phá khốc liệt, hệ thống tài chính sụp đổ hoàn toàn."
-              }
-            ]
-          }
-        },
-        {
-          "type": "features",
-          "title": "Chỉ Số Giá Tiêu Dùng (CPI) & Tác Động",
-          "data": {
-            "items": [
-              {
-                "title": "Khái niệm CPI",
-                "description": "Đo lường mức giá trung bình của một giỏ hàng hóa và dịch vụ tiêu biểu."
-              },
-              {
-                "title": "Tác động của Lạm phát",
-                "description": "Giảm thu nhập thực tế, hao mòn tài sản, gây phân hóa giàu nghèo, nhưng có thể giúp chính phủ giảm gánh nặng nợ công thực tế."
               }
             ]
           }

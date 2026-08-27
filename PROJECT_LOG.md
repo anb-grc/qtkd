@@ -44,3 +44,5 @@ Khi chạy xong luồng xử lý câu hỏi mới, Agent tự động thêm 1 d�
 
 - KTVM: Lọc trùng và bổ sung thành công 4 câu hỏi mới từ Batch 5. Đã highlight Ma trận Lục hợp và thêm giải thích.
 - [2026-08-27] [GIÁO DỤC THỂ CHẤT 1] Xóa bỏ metadata 'Mã số học phần' bị dính nhầm vào file kb.json.
+
+- KTVM: Tái cấu trúc và băm nhỏ các node bị lồng ghép trong kb.json (c2_tong_cau, c2_chu_ky, c3_tien_te, c3_nhtw, c3_ngoai_hoi, c4_lam_phat) thành các node đơn lẻ theo nguyên tắc Tinh gọn ý.
