@@ -177,34 +177,34 @@ function buildFilterUI(data) {
             <div style="flex: 1; min-width: 10px;"></div>
             <div style="display:flex; gap:0px; align-items:center; flex-shrink: 0; margin-left: auto; flex-wrap: nowrap; justify-content: flex-end;">
                 <!-- Nhóm 3 nút Filter/Mode -->
-                <button id="toggleOptionsBtn" class="bottom-icon-btn" onclick="toggleMcqOptions()" title="Ẩn/Hiện 4 đáp án" style="padding:6px; border:none; background:transparent; color: ${window.showMcqOptions ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
-                    <svg id="icon-eye-open" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: ${window.showMcqOptions ? 'block' : 'none'};">
+                <button id="toggleOptionsBtn" class="bottom-icon-btn" onclick="toggleMcqOptions()" title="Ẩn/Hiện 4 đáp án" style="padding:4px; border:none; background:transparent; color: ${window.showMcqOptions ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
+                    <svg id="icon-eye-open" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: ${window.showMcqOptions ? 'block' : 'none'};">
                         <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
                         <circle cx="12" cy="12" r="3"></circle>
                     </svg>
-                    <svg id="icon-eye-closed" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: ${window.showMcqOptions ? 'none' : 'block'};">
+                    <svg id="icon-eye-closed" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: ${window.showMcqOptions ? 'none' : 'block'};">
                         <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path>
                         <line x1="1" y1="1" x2="23" y2="23"></line>
                     </svg>
                 </button>
-                <button id="btnModeMcq" class="bottom-icon-btn" onclick="setPracticeMode('mcq')" title="Trắc nghiệm" style="padding:6px; border:none; background:transparent; color: ${window.practiceMode === 'mcq' ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display:${window.quizData.some(q => !isEssayQuestion(q)) ? 'flex' : 'none'}; align-items:center; justify-content:center; transition: color 0.2s;">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+                <button id="btnModeMcq" class="bottom-icon-btn" onclick="setPracticeMode('mcq')" title="Trắc nghiệm" style="padding:4px; border:none; background:transparent; color: ${window.practiceMode === 'mcq' ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display:${window.quizData.some(q => !isEssayQuestion(q)) ? 'flex' : 'none'}; align-items:center; justify-content:center; transition: color 0.2s;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
                 </button>
-                <button id="btnModeEssay" class="bottom-icon-btn" onclick="setPracticeMode('essay')" title="Tự luận" style="padding:6px; border:none; background:transparent; color: ${window.practiceMode === 'essay' ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display:${window.quizData.some(q => isEssayQuestion(q)) ? 'flex' : 'none'}; align-items:center; justify-content:center; transition: color 0.2s;">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+                <button id="btnModeEssay" class="bottom-icon-btn" onclick="setPracticeMode('essay')" title="Tự luận" style="padding:4px; border:none; background:transparent; color: ${window.practiceMode === 'essay' ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display:${window.quizData.some(q => isEssayQuestion(q)) ? 'flex' : 'none'}; align-items:center; justify-content:center; transition: color 0.2s;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
                 </button>
 
                 
 
                 <!-- Nhóm 3 nút Chức năng -->
-                <button id="sortBtn" class="bottom-icon-btn" onclick="sortQuestions()" title="Trọng tâm" style="padding:6px; border:none; background:transparent; color: ${window.isHighSorted ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+                <button id="sortBtn" class="bottom-icon-btn" onclick="sortQuestions()" title="Trọng tâm" style="padding:4px; border:none; background:transparent; color: ${window.isHighSorted ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
                 </button>
-                <button id="modeBtn" class="bottom-icon-btn" onclick="toggleKeywordMode()" title="Keyword" style="padding:6px; border:none; background:transparent; color: ${window.isKeywordMode ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"></path></svg>
+                <button id="modeBtn" class="bottom-icon-btn" onclick="toggleKeywordMode()" title="Keyword" style="padding:4px; border:none; background:transparent; color: ${window.isKeywordMode ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"></path></svg>
                 </button>
-                <button id="printBtn" class="bottom-icon-btn" onclick="window.print()" title="In" style="padding:6px; border:none; background:transparent; color: var(--text); cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+                <button id="printBtn" class="bottom-icon-btn" onclick="window.print()" title="In" style="padding:4px; border:none; background:transparent; color: var(--text); cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
                 </button>
             </div>
         </div>
