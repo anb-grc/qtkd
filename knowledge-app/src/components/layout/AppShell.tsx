@@ -87,6 +87,12 @@ export function AppShell({ dataPath }: AppShellProps) {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, []);
 
+  // Reset height when a new node is selected
+  useEffect(() => {
+    if (selectedNodeId) setSheetHeight(60);
+  }, [selectedNodeId]);
+
+
   if (loading) {
     return (
       <div className={styles.hubContainer}>
@@ -104,10 +110,6 @@ export function AppShell({ dataPath }: AppShellProps) {
   }
 
   if (!data) return null;
-
-  useEffect(() => {
-    if (selectedNodeId) setSheetHeight(60);
-  }, [selectedNodeId]);
 
 
   // Find the selected node's details
