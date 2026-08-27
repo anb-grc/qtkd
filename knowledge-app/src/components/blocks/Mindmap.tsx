@@ -378,7 +378,7 @@ export function Mindmap({ data, completedNodes = [], onNodeSelect, selectedNodeI
         minScale={0.3}
         maxScale={2}
         wheel={{ 
-          step: 0.1, 
+          step: 0.04, 
           activationKeys: [] // Mặc định luôn là Zoom. Pan sẽ được xử lý bằng event capture phía trên.
         }}
         limitToBounds={false}

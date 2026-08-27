@@ -1,4 +1,4 @@
-const CACHE_NAME = 'studiz-cache-v9';
+const CACHE_NAME = 'studiz-cache-v10';
 
 const PRECACHE_URLS = [
   './',
