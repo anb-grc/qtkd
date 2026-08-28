@@ -27,7 +27,7 @@
   min-width: 0;
   min-height: 0;
   position: relative;
-  background: var(--color-bg-secondary);
+  background: var(--color-bg-subtle);
 }
 
 .rightPane {
