@@ -1,4 +1,5 @@
-const CACHE_NAME = 'studiz-cache-v25';
+const CACHE_NAME = 'learniz-cache-v62';
+const DYNAMIC_CACHE = 'learniz-dynamic-v26';
 
 const PRECACHE_URLS = [
   './',
