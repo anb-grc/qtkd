@@ -1837,26 +1837,26 @@
             "points": [
               {
                 "name": "Cung cầu quỹ cho vay",
-                "x": 9,
-                "y": 9,
+                "x": 90,
+                "y": 90,
                 "strategy": "Sự chênh lệch giữa lượng cung và cầu tiền tệ là yếu tố cốt lõi quyết định biến động mặt bằng lãi suất."
               },
               {
                 "name": "Lạm phát",
-                "x": 8,
-                "y": 7,
+                "x": 80,
+                "y": 70,
                 "strategy": "Khi có lạm phát hoặc kỳ vọng lạm phát tăng, yêu cầu mức lãi suất danh nghĩa cao hơn để bảo toàn giá trị thực."
               },
               {
                 "name": "Rủi ro và kỳ hạn",
-                "x": 7,
-                "y": 6,
+                "x": 70,
+                "y": 60,
                 "strategy": "Mức độ rủi ro cao hoặc kỳ hạn càng dài thì phần bù rủi ro càng lớn, lãi suất yêu cầu cao hơn."
               },
               {
                 "name": "Chính sách vĩ mô",
-                "x": 9,
-                "y": 5,
+                "x": 90,
+                "y": 50,
                 "strategy": "Chính sách tài khóa, tiền tệ tác động trực tiếp/gián tiếp đến lượng tiền lưu thông, làm thay đổi lãi suất."
               }
             ]
