@@ -104,6 +104,8 @@
   text-shadow: 0 2px 4px rgba(0,0,0,0.2);
   font-size: var(--text-base);
   line-height: var(--leading-normal);
+  text-align: left;
+  width: 100%;
 }
 
 .hint {
