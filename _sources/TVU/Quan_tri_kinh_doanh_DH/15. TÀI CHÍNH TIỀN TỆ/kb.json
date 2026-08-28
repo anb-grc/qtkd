@@ -1364,7 +1364,8 @@
                 "actionLabel": "Bản chất tiền tệ",
                 "emotionLabel": "Tâm lý học viên",
                 "painPointLabel": "Nhầm lẫn thường gặp",
-                "solutionLabel": "Mẹo ghi nhớ"
+                "solutionLabel": "Mẹo ghi nhớ",
+                "emotionText": "Khá trừu tượng"
               },
               {
                 "stage": "Nguồn gốc",
@@ -1373,7 +1374,8 @@
                 "actionLabel": "Bản chất tiền tệ",
                 "emotionLabel": "Tâm lý học viên",
                 "painPointLabel": "Nhầm lẫn thường gặp",
-                "solutionLabel": "Mẹo ghi nhớ"
+                "solutionLabel": "Mẹo ghi nhớ",
+                "emotionText": "Dễ thuộc"
               },
               {
                 "stage": "Bản chất",
@@ -1382,7 +1384,8 @@
                 "actionLabel": "Bản chất tiền tệ",
                 "emotionLabel": "Tâm lý học viên",
                 "painPointLabel": "Nhầm lẫn thường gặp",
-                "solutionLabel": "Mẹo ghi nhớ"
+                "solutionLabel": "Mẹo ghi nhớ",
+                "emotionText": "Dễ liên hệ thực tế"
               }
             ]
           }
@@ -2009,7 +2012,8 @@
                 "actionLabel": "Chính sách thực thi",
                 "emotionLabel": "Mức độ phức tạp",
                 "painPointLabel": "Bẫy trắc nghiệm",
-                "solutionLabel": "Chiến lược làm bài"
+                "solutionLabel": "Chiến lược làm bài",
+                "emotionText": "Trung bình"
               },
               {
                 "stage": "Định vị Mục tiêu",
@@ -2020,7 +2024,8 @@
                 "actionLabel": "Chính sách thực thi",
                 "emotionLabel": "Mức độ phức tạp",
                 "painPointLabel": "Bẫy trắc nghiệm",
-                "solutionLabel": "Chiến lược làm bài"
+                "solutionLabel": "Chiến lược làm bài",
+                "emotionText": "Dễ hình dung"
               },
               {
                 "stage": "Triển khai Nội dung",
@@ -2030,7 +2035,8 @@
                 "actionLabel": "Chính sách thực thi",
                 "emotionLabel": "Mức độ phức tạp",
                 "painPointLabel": "Bẫy trắc nghiệm",
-                "solutionLabel": "Chiến lược làm bài"
+                "solutionLabel": "Chiến lược làm bài",
+                "emotionText": "Phức tạp, cần xâu chuỗi"
               }
             ]
           }

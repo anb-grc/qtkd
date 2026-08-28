@@ -576,6 +576,7 @@ export interface JourneyMapBlock extends BaseBlock {
       stage: string;
       actionLabel?: string;
       action: string;
+      emotionText?: string;
       emotion: 'positive' | 'neutral' | 'negative' | 'frustration';
       painPointLabel?: string;
       painPoint?: string;

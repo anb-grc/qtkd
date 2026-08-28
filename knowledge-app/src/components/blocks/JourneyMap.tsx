@@ -15,12 +15,12 @@ export function JourneyMap({ data }: { data: JourneyMapBlock['data'] }) {
   const displayIdx = hoveredIdx !== null ? hoveredIdx : activeIdx;
   const currentStage = stages[displayIdx] || stages[0];
 
-  const getEmotionBadge = (emotion?: 'positive' | 'neutral' | 'negative' | 'frustration') => {
+  const getEmotionBadge = (emotion?: 'positive' | 'neutral' | 'negative' | 'frustration', customText?: string) => {
     switch (emotion) {
-      case 'positive': return <span style={{ color: 'var(--color-success, #2ed573)' }}>Trạng thái tự tin / Dễ ăn điểm</span>;
-      case 'negative': return <span style={{ color: '#ffa502' }}>Dễ bối rối / Cần lưu ý</span>;
-      case 'frustration': return <span style={{ color: 'var(--color-danger, #ff4757)' }}>Bẫy cực gắt / Dễ sập bẫy</span>;
-      default: return <span style={{ color: 'var(--color-accent-secondary)' }}>Trạng thái trung lập / Bình tĩnh</span>;
+      case 'positive': return <span style={{ color: 'var(--color-success, #2ed573)' }}>{customText || 'Trạng thái tự tin / Dễ ăn điểm'}</span>;
+      case 'negative': return <span style={{ color: '#ffa502' }}>{customText || 'Dễ bối rối / Cần lưu ý'}</span>;
+      case 'frustration': return <span style={{ color: 'var(--color-danger, #ff4757)' }}>{customText || 'Bẫy cực gắt / Dễ sập bẫy'}</span>;
+      default: return <span style={{ color: 'var(--color-accent-secondary)' }}>{customText || 'Trạng thái trung lập / Bình tĩnh'}</span>;
     }
   };
 
@@ -65,7 +65,7 @@ export function JourneyMap({ data }: { data: JourneyMapBlock['data'] }) {
           <div className={styles.sectionGroup}>
             <div className={styles.secTitle}>{currentStage.emotionLabel || 'Trạng thái ôn thi'}</div>
             <div className={styles.secText} style={{ fontWeight: 700 }}>
-              {getEmotionBadge(currentStage.emotion)}
+              {getEmotionBadge(currentStage.emotion, currentStage.emotionText)}
             </div>
           </div>
         )}
