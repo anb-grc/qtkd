@@ -366,7 +366,7 @@
           "type": "flip-card",
           "data": {
             "front": "Khái niệm và bản chất của tài chính",
-            "back": "- **Khái niệm cốt lõi**: Sự vận động của vốn tiền tệ diễn ra ở mọi chủ thể, phản ánh quan hệ kinh tế trong phân phối và tạo lập quỹ tiền tệ.\n- **Hình thức biểu hiện bên ngoài**: Các hiện tượng thu/chi bằng tiền, sự vận động vốn nhằm tạo lập và sử dụng quỹ.\n- **Nội dung bên trong**: Các quan hệ kinh tế nảy sinh khi phân phối của cải dưới hình thức giá trị."
+            "back": "• <strong>Khái niệm cốt lõi</strong>: Sự vận động của vốn tiền tệ diễn ra ở mọi chủ thể, phản ánh quan hệ kinh tế trong phân phối và tạo lập quỹ tiền tệ.<br/>• <strong>Hình thức biểu hiện bên ngoài</strong>: Các hiện tượng thu/chi bằng tiền, sự vận động vốn nhằm tạo lập và sử dụng quỹ.<br/>• <strong>Nội dung bên trong</strong>: Các quan hệ kinh tế nảy sinh khi phân phối của cải dưới hình thức giá trị."
           }
         },
         {
@@ -598,7 +598,7 @@
           "type": "flip-card",
           "data": {
             "front": "Đặc điểm nhận diện NSNN",
-            "back": "- **Gắn với quyền lực Nhà nước**: Hoạt động thu chi luôn dựa trên quyền lực kinh tế - chính trị và được tiến hành trên cơ sở luật định.\n- **Phân phối lại tài chính**: Thể hiện rõ nét qua hai lĩnh vực huy động (thu) và sử dụng (chi) các nguồn lực trong xã hội.\n- **Gắn với lợi ích chung**: Thuộc sở hữu Nhà nước, luôn hướng tới phục vụ lợi ích chung và các mục tiêu công cộng.\n- **Quỹ tiền tệ chia nhỏ**: Là quỹ tập trung nhưng được chia thành nhiều quỹ nhỏ có tác dụng riêng trước khi chi dùng.\n- **Không hoàn trả trực tiếp**: Hoạt động thu nộp và chi cấp phát phần lớn tuân theo nguyên tắc không hoàn trả trực tiếp."
+            "back": "• <strong>Gắn với quyền lực Nhà nước</strong>: Hoạt động thu chi luôn dựa trên quyền lực kinh tế - chính trị và được tiến hành trên cơ sở luật định.<br/>• <strong>Phân phối lại tài chính</strong>: Thể hiện rõ nét qua hai lĩnh vực huy động (thu) và sử dụng (chi) các nguồn lực trong xã hội.<br/>• <strong>Gắn với lợi ích chung</strong>: Thuộc sở hữu Nhà nước, luôn hướng tới phục vụ lợi ích chung và các mục tiêu công cộng.<br/>• <strong>Quỹ tiền tệ chia nhỏ</strong>: Là quỹ tập trung nhưng được chia thành nhiều quỹ nhỏ có tác dụng riêng trước khi chi dùng.<br/>• <strong>Không hoàn trả trực tiếp</strong>: Hoạt động thu nộp và chi cấp phát phần lớn tuân theo nguyên tắc không hoàn trả trực tiếp."
           }
         },
         {
@@ -735,7 +735,7 @@
                   80,
                   80
                 ],
-                "description": "- Kinh tế vĩ mô & Nguồn lực: GDP bình quân, tỷ suất doanh lợi, tiềm năng tài nguyên quyết định mức động viên thu\n- Tổ chức bộ máy Nhà nước: Bộ máy thu nộp gọn nhẹ, hiệu quả giúp chống thất thu, trốn lậu thuế\n- Biến động thị trường & Chính sách: Mức độ trang trải các khoản chi phí của Nhà nước làm tăng/giảm tỷ suất thu"
+                "description": "• Kinh tế vĩ mô & Nguồn lực: GDP bình quân, tỷ suất doanh lợi, tiềm năng tài nguyên quyết định mức động viên thu<br/>• Tổ chức bộ máy Nhà nước: Bộ máy thu nộp gọn nhẹ, hiệu quả giúp chống thất thu, trốn lậu thuế<br/>• Biến động thị trường & Chính sách: Mức độ trang trải các khoản chi phí của Nhà nước làm tăng/giảm tỷ suất thu"
               },
               {
                 "label": "Tác động đến Chi NSNN",
@@ -744,7 +744,7 @@
                   80,
                   80
                 ],
-                "description": "- Kinh tế vĩ mô & Nguồn lực: Sự phát triển lực lượng sản xuất, khả năng tích lũy kinh tế quyết định quy mô chi\n- Tổ chức bộ máy Nhà nước: Mô hình bộ máy và các nhiệm vụ kinh tế - xã hội Nhà nước đảm nhận quyết định mức chi\n- Biến động thị trường & Chính sách: Chịu tác động mạnh từ biến động giá cả, lãi suất, tỷ giá hối đoái và chính trị"
+                "description": "• Kinh tế vĩ mô & Nguồn lực: Sự phát triển lực lượng sản xuất, khả năng tích lũy kinh tế quyết định quy mô chi<br/>• Tổ chức bộ máy Nhà nước: Mô hình bộ máy và các nhiệm vụ kinh tế - xã hội Nhà nước đảm nhận quyết định mức chi<br/>• Biến động thị trường & Chính sách: Chịu tác động mạnh từ biến động giá cả, lãi suất, tỷ giá hối đoái và chính trị"
               }
             ]
           }
@@ -884,7 +884,7 @@
           "type": "flip-card",
           "data": {
             "front": "Tổng quan Tài chính doanh nghiệp",
-            "back": "- **Khái niệm TCDN**: Là hệ thống các quan hệ kinh tế trong phân phối nguồn tài chính, gắn liền với quá trình tạo lập và sử dụng các quỹ tiền tệ nhằm đạt mục tiêu kinh doanh.\n- **Đặc điểm**: Là khâu cơ sở của hệ thống tài chính, gắn liền trực tiếp với các hoạt động sản xuất kinh doanh và mọi vận động đều hướng tới mục tiêu sinh lời.\n- **Vai trò quản lý**: Đảm bảo huy động đầy đủ, kịp thời vốn cho sản xuất; tổ chức sử dụng vốn tiết kiệm, hiệu quả; là đòn bẩy kích thích và công cụ giám sát kiểm tra hoạt động."
+            "back": "• <strong>Khái niệm TCDN</strong>: Là hệ thống các quan hệ kinh tế trong phân phối nguồn tài chính, gắn liền với quá trình tạo lập và sử dụng các quỹ tiền tệ nhằm đạt mục tiêu kinh doanh.<br/>• <strong>Đặc điểm</strong>: Là khâu cơ sở của hệ thống tài chính, gắn liền trực tiếp với các hoạt động sản xuất kinh doanh và mọi vận động đều hướng tới mục tiêu sinh lời.<br/>• <strong>Vai trò quản lý</strong>: Đảm bảo huy động đầy đủ, kịp thời vốn cho sản xuất; tổ chức sử dụng vốn tiết kiệm, hiệu quả; là đòn bẩy kích thích và công cụ giám sát kiểm tra hoạt động."
           }
         },
         {
@@ -1086,7 +1086,7 @@
                 "label": "Doanh thu",
                 "value": 100,
                 "type": "start",
-                "explanation": "Phân loại: Doanh thu kinh doanh chính, hoạt động tài chính, và thu nhập bất thường.\nVai trò: Là nguồn trang trải các khoản chi phí, cơ sở thực hiện nghĩa vụ với Nhà nước và đánh giá hiệu quả sản xuất."
+                "explanation": "Phân loại: Doanh thu kinh doanh chính, hoạt động tài chính, và thu nhập bất thường.<br/>Vai trò: Là nguồn trang trải các khoản chi phí, cơ sở thực hiện nghĩa vụ với Nhà nước và đánh giá hiệu quả sản xuất."
               },
               {
                 "label": "Chi phí",
@@ -1098,7 +1098,7 @@
                 "label": "Lợi nhuận",
                 "value": 40,
                 "type": "total",
-                "explanation": "Định nghĩa: Là chênh lệch giữa doanh thu và chi phí đã bỏ ra.\nVai trò: Là đòn bẩy kinh tế quan trọng, chỉ tiêu cơ bản đánh giá hiệu quả kinh doanh và là nguồn tích lũy mở rộng tái sản xuất."
+                "explanation": "Định nghĩa: Là chênh lệch giữa doanh thu và chi phí đã bỏ ra.<br/>Vai trò: Là đòn bẩy kinh tế quan trọng, chỉ tiêu cơ bản đánh giá hiệu quả kinh doanh và là nguồn tích lũy mở rộng tái sản xuất."
               }
             ]
           }
@@ -1123,7 +1123,7 @@
           "title": "Tổng quan Thị trường Tài chính",
           "data": {
             "front": "Thị trường Tài chính là gì? Các yếu tố cấu thành?",
-            "back": "- Khái niệm: Nơi trao đổi quyền sử dụng nguồn tài chính qua các phương thức và công cụ.\n- Chức năng: \n- Vai trò: \n- Điều kiện hình thành:"
+            "back": "• Khái niệm: Nơi trao đổi quyền sử dụng nguồn tài chính qua các phương thức và công cụ.<br/>• Chức năng: <br/>• Vai trò: <br/>• Điều kiện hình thành:"
           }
         },
         {
@@ -1660,7 +1660,7 @@
           "title": "Tổng quan về Tín dụng",
           "data": {
             "front": "Khái niệm, Đặc điểm và Vai trò cốt lõi của Tín dụng trong nền kinh tế là gì?",
-            "back": "1. Khái niệm: Là quan hệ kinh tế tạo lập/sử dụng quỹ tín dụng, thỏa mãn nhu cầu vốn tạm thời theo nguyên tắc hoàn trả.\n2. Đặc điểm: Phân phối mang tính hoàn trả (chỉ chuyển quyền sử dụng, không chuyển sở hữu) và có sự vận động đặc biệt của giá cả (lãi suất).\n3. Vai trò: Đảm bảo sản xuất liên tục, tập trung vốn thúc đẩy kinh doanh, điều chỉnh ổn định kinh tế, nâng cao đời sống và mở rộng hợp tác quốc tế."
+            "back": "1. Khái niệm: Là quan hệ kinh tế tạo lập/sử dụng quỹ tín dụng, thỏa mãn nhu cầu vốn tạm thời theo nguyên tắc hoàn trả.<br/>2. Đặc điểm: Phân phối mang tính hoàn trả (chỉ chuyển quyền sử dụng, không chuyển sở hữu) và có sự vận động đặc biệt của giá cả (lãi suất).<br/>3. Vai trò: Đảm bảo sản xuất liên tục, tập trung vốn thúc đẩy kinh doanh, điều chỉnh ổn định kinh tế, nâng cao đời sống và mở rộng hợp tác quốc tế."
           }
         },
         {
@@ -1884,11 +1884,11 @@
             "items": [
               {
                 "time": "Lịch sử Thế giới",
-                "description": "Tiền thân: Đổi tiền đúc từ trước CNTB, bị đình đốn thời Trung cổ, phục hồi thời Phục hưng.\nThế kỷ XVII: Ngân hàng hiện đại ra đời (Hà Lan 1609, Đức 1619, Anh).\nThế kỷ XV - XVII: Thực hiện các nghiệp vụ gửi, chiết khấu, cho vay.\nThế kỷ XVIII: Hệ thống ngân hàng 2 cấp hình thành ở Âu Mỹ.\nĐầu thế kỷ XX: Khủng hoảng khiến Nhà nước can thiệp mạnh vào ngân hàng.\nSau Thế chiến II: Xuất hiện các tổ chức ngân hàng quốc tế (IMF, WB)."
+                "description": "Tiền thân: Đổi tiền đúc từ trước CNTB, bị đình đốn thời Trung cổ, phục hồi thời Phục hưng.<br/>Thế kỷ XVII: Ngân hàng hiện đại ra đời (Hà Lan 1609, Đức 1619, Anh).<br/>Thế kỷ XV - XVII: Thực hiện các nghiệp vụ gửi, chiết khấu, cho vay.<br/>Thế kỷ XVIII: Hệ thống ngân hàng 2 cấp hình thành ở Âu Mỹ.<br/>Đầu thế kỷ XX: Khủng hoảng khiến Nhà nước can thiệp mạnh vào ngân hàng.<br/>Sau Thế chiến II: Xuất hiện các tổ chức ngân hàng quốc tế (IMF, WB)."
               },
               {
                 "time": "Lịch sử Việt Nam",
-                "description": "Trước thế kỷ XIX: Kém phát triển, chủ yếu cho vay nặng lãi.\nGiữa thế kỷ XIX: Pháp xâm chiếm, Ngân hàng Đông Dương ra đời.\nSau 1945: Xây dựng từng bước hệ thống ngân hàng nhà nước Việt Nam Dân chủ Cộng hòa.\n1951-1987: Hệ thống ngân hàng 1 cấp, cơ chế bao cấp triệt để.\nTừ 1987-1988: Chính thức chuyển sang hệ thống ngân hàng 2 cấp."
+                "description": "Trước thế kỷ XIX: Kém phát triển, chủ yếu cho vay nặng lãi.<br/>Giữa thế kỷ XIX: Pháp xâm chiếm, Ngân hàng Đông Dương ra đời.<br/>Sau 1945: Xây dựng từng bước hệ thống ngân hàng nhà nước Việt Nam Dân chủ Cộng hòa.<br/>1951-1987: Hệ thống ngân hàng 1 cấp, cơ chế bao cấp triệt để.<br/>Từ 1987-1988: Chính thức chuyển sang hệ thống ngân hàng 2 cấp."
               }
             ]
           }
@@ -2091,7 +2091,7 @@
           "title": "Khái Niệm Lạm Phát",
           "data": {
             "front": "Các quan điểm định nghĩa về Lạm phát (C.Mác, Samuelson, Milton Friedman, Kinh tế học hiện đại)",
-            "back": "- **Định nghĩa của C.Mác**: Việc phát hành tiền giấy phải được giới hạn ở số lượng vàng hoặc bạc thực sự lưu thông nhờ các đại diện tiền giấy. \n- **Định nghĩa của Samuelson**: Lạm phát xảy ra khi mức chung của giá cả và chi phí tăng (giá bánh mì, xăng dầu, tiền lương...). \n- **Định nghĩa của Milton Friedman**: Lạm phát là việc giá cả tăng nhanh và kéo dài. \n- **Kinh tế học hiện đại**: Lạm phát là sự tăng lên theo thời gian của mức giá chung của nền kinh tế."
+            "back": "• <strong>Định nghĩa của C.Mác</strong>: Việc phát hành tiền giấy phải được giới hạn ở số lượng vàng hoặc bạc thực sự lưu thông nhờ các đại diện tiền giấy. <br/>• <strong>Định nghĩa của Samuelson</strong>: Lạm phát xảy ra khi mức chung của giá cả và chi phí tăng (giá bánh mì, xăng dầu, tiền lương...). <br/>• <strong>Định nghĩa của Milton Friedman</strong>: Lạm phát là việc giá cả tăng nhanh và kéo dài. <br/>• <strong>Kinh tế học hiện đại</strong>: Lạm phát là sự tăng lên theo thời gian của mức giá chung của nền kinh tế."
           }
         },
         {
