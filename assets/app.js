@@ -1235,7 +1235,7 @@ function showQuizModal() {
     if (modal) modal.remove(); // Rebuild modal to ensure dynamic buttons
     
     let html = `
-    <div id="quiz-mode-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:var(--bg); z-index:9999; justify-content:center; align-items:center;">
+    <div id="quiz-mode-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); z-index:9999; justify-content:center; align-items:center; backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px);">
         <div style="background:var(--surface); border:1px solid var(--border); width:90%; max-width:400px; border-radius:16px; padding:26px; text-align:center; box-shadow:var(--shadow-md); animation: fadeUp 0.3s ease; position:relative; overflow:hidden;">
             
             <!-- BƯỚC 0: CHỌN HÌNH THỨC -->
