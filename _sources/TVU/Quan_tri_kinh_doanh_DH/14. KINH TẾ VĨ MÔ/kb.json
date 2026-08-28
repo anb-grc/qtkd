@@ -656,6 +656,12 @@
                 "role": "Nhà Đầu Tư",
                 "text": "À, vậy lãi suất chiết khấu là công cụ linh hoạt nhất và được sử dụng nhiều nhất đúng không?",
                 "isTrap": true
+              },
+              {
+                "sender": "NHTW",
+                "role": "Ngân hàng Trung ương",
+                "text": "Sai rồi nhé! Nghiệp vụ thị trường mở (mua bán trái phiếu) mới là công cụ linh hoạt nhất và được sử dụng thường xuyên nhất vì dễ điều chỉnh từng chút một. Lãi suất chiết khấu thường mang tính 'chốt chặn' hơn.",
+                "isTrap": false
               }
             ]
           }
