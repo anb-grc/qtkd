@@ -56,14 +56,14 @@ export function JourneyMap({ data }: { data: JourneyMapBlock['data'] }) {
       <div className={styles.cardContent}>
         {currentStage.action && (
           <div className={styles.sectionGroup}>
-            <div className={styles.secTitle}>Hành động & Nội dung cốt lõi</div>
+            <div className={styles.secTitle}>{currentStage.actionLabel || 'Nội dung cốt lõi'}</div>
             <div className={styles.secText} dangerouslySetInnerHTML={{ __html: currentStage.action }} />
           </div>
         )}
 
         {currentStage.emotion && (
           <div className={styles.sectionGroup}>
-            <div className={styles.secTitle}>Tâm lý / Phản xạ</div>
+            <div className={styles.secTitle}>{currentStage.emotionLabel || 'Trạng thái ôn thi'}</div>
             <div className={styles.secText} style={{ fontWeight: 700 }}>
               {getEmotionBadge(currentStage.emotion)}
             </div>
@@ -72,14 +72,14 @@ export function JourneyMap({ data }: { data: JourneyMapBlock['data'] }) {
 
         {currentStage.painPoint && (
           <div className={styles.sectionGroup}>
-            <div className={styles.secTitle}>Khó khăn & Vướng mắc (Pain Point)</div>
+            <div className={styles.secTitle}>{currentStage.painPointLabel || 'Điểm mù / Dễ sai'}</div>
             <div className={styles.secText} dangerouslySetInnerHTML={{ __html: currentStage.painPoint }} />
           </div>
         )}
 
         {currentStage.solution && (
           <div className={styles.sectionGroup}>
-            <div className={styles.secTitle}>Giải pháp & Pháo đài tư duy</div>
+            <div className={styles.secTitle}>{currentStage.solutionLabel || 'Tư duy gỡ rối'}</div>
             <div className={styles.secText} dangerouslySetInnerHTML={{ __html: currentStage.solution }} />
           </div>
         )}
