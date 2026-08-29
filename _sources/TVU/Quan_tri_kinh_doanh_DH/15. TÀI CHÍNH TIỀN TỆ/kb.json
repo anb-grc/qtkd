@@ -1361,30 +1361,18 @@
                 "stage": "Khái niệm",
                 "action": "Tiền tệ là một hàng hóa đặc biệt đóng vai trò vật ngang giá chung, dùng để đo lường và biểu hiện giá trị của tất cả các hàng hóa khác.",
                 "emotion": "neutral",
-                "actionLabel": "Bản chất tiền tệ",
-                "emotionLabel": "Tâm lý học viên",
-                "painPointLabel": "Nhầm lẫn thường gặp",
-                "solutionLabel": "Mẹo ghi nhớ",
                 "emotionText": "Khá trừu tượng"
               },
               {
                 "stage": "Nguồn gốc",
                 "action": "Là kết quả của quá trình phát triển lâu dài các hình thái giá trị (Hình thái giản đơn -> Hình thái mở rộng -> Hình thái chung -> Hình thái tiền tệ).",
                 "emotion": "neutral",
-                "actionLabel": "Bản chất tiền tệ",
-                "emotionLabel": "Tâm lý học viên",
-                "painPointLabel": "Nhầm lẫn thường gặp",
-                "solutionLabel": "Mẹo ghi nhớ",
                 "emotionText": "Dễ thuộc"
               },
               {
                 "stage": "Bản chất",
                 "action": "Góc độ kinh tế: Là sản phẩm tất yếu của nền kinh tế hàng hóa, làm phương tiện lưu thông, cất trữ, thanh toán. Góc độ xã hội: Chứa đựng và biểu hiện các quan hệ xã hội giữa người với người trong nền sản xuất và trao đổi hàng hóa.",
                 "emotion": "neutral",
-                "actionLabel": "Bản chất tiền tệ",
-                "emotionLabel": "Tâm lý học viên",
-                "painPointLabel": "Nhầm lẫn thường gặp",
-                "solutionLabel": "Mẹo ghi nhớ",
                 "emotionText": "Dễ liên hệ thực tế"
               }
             ]
@@ -2009,10 +1997,6 @@
                 "painPoint": "Biến động thất thường của lạm phát và tăng trưởng kinh tế.",
                 "solution": "Áp dụng biện pháp điều chỉnh tiền tệ/tín dụng phù hợp.",
                 "trapWarning": "Khái niệm mở rộng/thắt chặt có thể bị nhầm lẫn trong các pha chu kỳ kinh tế.",
-                "actionLabel": "Chính sách thực thi",
-                "emotionLabel": "Mức độ phức tạp",
-                "painPointLabel": "Bẫy trắc nghiệm",
-                "solutionLabel": "Chiến lược làm bài",
                 "emotionText": "Trung bình"
               },
               {
@@ -2021,10 +2005,6 @@
                 "emotion": "positive",
                 "painPoint": "Xung đột giữa ổn định giá cả và giảm thất nghiệp.",
                 "solution": "Cân đối khối tiền giao dịch (M1) và mục tiêu vĩ mô dài hạn.",
-                "actionLabel": "Chính sách thực thi",
-                "emotionLabel": "Mức độ phức tạp",
-                "painPointLabel": "Bẫy trắc nghiệm",
-                "solutionLabel": "Chiến lược làm bài",
                 "emotionText": "Dễ hình dung"
               },
               {
@@ -2032,10 +2012,6 @@
                 "action": "Cung ứng tiền, điều hành tín dụng/lãi suất và quản lý tỷ giá, ngoại hối.",
                 "emotion": "positive",
                 "solution": "Đáp ứng tổng cầu tiền tệ, kiểm soát tín dụng, bảo vệ độc lập chủ quyền đồng tiền.",
-                "actionLabel": "Chính sách thực thi",
-                "emotionLabel": "Mức độ phức tạp",
-                "painPointLabel": "Bẫy trắc nghiệm",
-                "solutionLabel": "Chiến lược làm bài",
                 "emotionText": "Phức tạp, cần xâu chuỗi"
               }
             ]

@@ -17,10 +17,10 @@ export function JourneyMap({ data }: { data: JourneyMapBlock['data'] }) {
 
   const getEmotionBadge = (emotion?: 'positive' | 'neutral' | 'negative' | 'frustration', customText?: string) => {
     switch (emotion) {
-      case 'positive': return <span style={{ color: 'var(--color-success, #2ed573)' }}>{customText || 'Trạng thái tự tin / Dễ ăn điểm'}</span>;
-      case 'negative': return <span style={{ color: '#ffa502' }}>{customText || 'Dễ bối rối / Cần lưu ý'}</span>;
-      case 'frustration': return <span style={{ color: 'var(--color-danger, #ff4757)' }}>{customText || 'Bẫy cực gắt / Dễ sập bẫy'}</span>;
-      default: return <span style={{ color: 'var(--color-accent-secondary)' }}>{customText || 'Trạng thái trung lập / Bình tĩnh'}</span>;
+      case 'positive': return <span style={{ color: 'var(--color-success, #2ed573)' }}>{customText || 'Dễ'}</span>;
+      case 'negative': return <span style={{ color: '#ffa502' }}>{customText || 'Cần lưu ý'}</span>;
+      case 'frustration': return <span style={{ color: 'var(--color-danger, #ff4757)' }}>{customText || 'Rất khó / Dễ sập bẫy'}</span>;
+      default: return <span style={{ color: 'var(--color-accent-secondary)' }}>{customText || 'Trung bình'}</span>;
     }
   };
 
@@ -54,32 +54,34 @@ export function JourneyMap({ data }: { data: JourneyMapBlock['data'] }) {
       </div>
 
       <div className={styles.cardContent}>
-        {currentStage.action && (
-          <div className={styles.sectionGroup}>
-            <div className={styles.secTitle}>{currentStage.actionLabel || 'Nội dung cốt lõi'}</div>
-            <div className={styles.secText} dangerouslySetInnerHTML={{ __html: currentStage.action }} />
-          </div>
-        )}
-
+        {/* Đưa Độ khó (emotion) lên đầu tiên */}
         {currentStage.emotion && (
           <div className={styles.sectionGroup}>
-            <div className={styles.secTitle}>{currentStage.emotionLabel || 'Trạng thái ôn thi'}</div>
+            <div className={styles.secTitle}>{currentStage.emotionLabel || 'Độ khó'}</div>
             <div className={styles.secText} style={{ fontWeight: 700 }}>
               {getEmotionBadge(currentStage.emotion, currentStage.emotionText)}
             </div>
           </div>
         )}
 
+        {/* Trọng tâm (action) */}
+        {currentStage.action && (
+          <div className={styles.sectionGroup}>
+            <div className={styles.secTitle}>{currentStage.actionLabel || 'Trọng tâm'}</div>
+            <div className={styles.secText} dangerouslySetInnerHTML={{ __html: currentStage.action }} />
+          </div>
+        )}
+
         {currentStage.painPoint && (
           <div className={styles.sectionGroup}>
-            <div className={styles.secTitle}>{currentStage.painPointLabel || 'Điểm mù / Dễ sai'}</div>
+            <div className={styles.secTitle}>{currentStage.painPointLabel || 'Sai lầm nhận thức'}</div>
             <div className={styles.secText} dangerouslySetInnerHTML={{ __html: currentStage.painPoint }} />
           </div>
         )}
 
         {currentStage.solution && (
           <div className={styles.sectionGroup}>
-            <div className={styles.secTitle}>{currentStage.solutionLabel || 'Tư duy gỡ rối'}</div>
+            <div className={styles.secTitle}>{currentStage.solutionLabel || 'Cách tiếp cận đúng'}</div>
             <div className={styles.secText} dangerouslySetInnerHTML={{ __html: currentStage.solution }} />
           </div>
         )}

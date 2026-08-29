@@ -174,15 +174,56 @@ Quy trình co-work chuẩn hóa cho toàn bộ vòng đời môn học, vận h�
   4. **Kiểm Chứng Phản Xạ (Checklist/Formula):** `InteractiveCalc`, `PriorityMatrix`, `ScenarioGrid`...
 - **Quy tắc Tương tác Mindmap:** Đối với Component `Mindmap` (hoặc các component dùng Zoom-Pan-Pinch), BẮT BUỘC tắt cơ chế neo giữa màn hình (`limitToBounds={false}`). User phải được tự do kéo (pan) bản đồ đi bất cứ đâu mà không bị giật (snap) tuột về trung tâm khi buông chuột.
 
-**2. Thuật toán Ánh Xạ Nhận Thức & Chống Thiên Lệch Component (Anti-Bias Logic):**
-- **Quy tắc Mỏ Neo (The Anchor Rule):** Tầng `overview` của `kb.json` BẮT BUỘC luôn là `mindmap` để làm gốc rễ định hướng.
-- **Quy tắc Chống Lười (Anti-Safe Choice Bias):** Khi chọn Component cho tầng `details`, Agent BẮT BUỘC phải rà soát qua các Component dị biệt (như `radar-chart`, `venn-diagram`, `funnel`, `kanban`, `ecosystem-map`, v.v.) trước tiên. CẤM lạm dụng `features`, `vs-wrap` hay `matrix-table` một cách vô tội vạ. Chỉ được dùng các Component cơ bản này khi dữ liệu thật sự quá ngắn hoặc không có các đặc tính giao thoa, chiều sâu, hay tiến trình.
-- **Cơ chế Đổ Xúc Xắc Component (Roulette Weighting):** Thay vì tự do chọn bừa, Agent phải quét các "Từ khóa hình thái" trong Text thô để kích hoạt Component đặc thù:
-  - Text chứa *"giai đoạn, bước, quy trình, tiếp theo"* ➔ BẮT BUỘC ưu tiên `funnel`, `process-steps`, `roadmap` hoặc `gantt-chart`.
-  - Text chứa *"ưu điểm, nhược điểm, sai lầm, rủi ro, ngoại lệ"* ➔ BẮT BUỘC ưu tiên `pain-point`, `delta-cheat-sheet` hoặc `true-false-grid`.
-  - Text mổ xẻ nhiều góc độ, đa chiều tiêu chí ➔ BẮT BUỘC ưu tiên `radar-chart`, `heatmap`, `matrix-table`.
-  - Text thể hiện sự bao hàm, lớp lang ➔ BẮT BUỘC ưu tiên `layered-model`, `hierarchical-tree`.
-- **Quy tắc Đo Lường Trọng Lượng (Data Gravity):** Text ngắn (< 50 từ) mang tính liệt kê ➔ Áp dụng Component nhẹ: `pair-grid`, `features`. Text dài, nhiều điều kiện phức tạp ➔ Ép dùng Component nặng và có tính tương tác: `decision-tree`, `interactive-calc`, `scenario-grid`.
+**2. Thuật toán Ánh Xạ Nhận Thức & Phễu Lọc Ngược 3 Tầng (Anti-Laziness Component Matching):**
+Để chống lại thói quen "bốc đại cho lẹ" của AI, quá trình tạo `kb.json` CẤM tư duy bốc component phổ thông trước. BẮT BUỘC rây lọc dữ liệu qua **Phễu Lọc Ngược 3 Tầng** với 35 Component được định nghĩa chi tiết dưới đây:
+
+* **TẦNG NGOẠI LỆ (Quy hoạch kiến trúc & Hệ thống tự động - 2 Components)**
+  - `Mindmap`: Khóa cứng cho khối `overview`, CẤM bốc xuống mảng `details`.
+  - `Quiz`: CẤM chèn thủ công vào mảng `details`. Hệ thống tự động bốc từ `qs.json` đính kèm vào cuối mỗi bài.
+
+**TẦNG 1: LỌC ĐẶC THÙ (Nhóm B - Miễn trừ Quota - 18 Components)**
+Ưu tiên tối cao. Quét dữ liệu xem có vi chất "DNA đặc thù" không. Khớp Micro-Criteria nào, CHỐT NGAY component đó:
+* **Cụm Đồ thị (Data Charts):**
+  - `SankeyDiagram`: Phân nhánh, chia luồng tiền/khách hàng.
+  - `WaterfallChart`: Cộng/trừ tích lũy tuần tự dọc đường ra kết quả tổng.
+  - `Treemap`: Số liệu tỷ trọng (%) phân bổ cộng lại bằng 100%.
+  - `GaugeChart`: Đánh giá ĐÚNG 1 con số KPI so với mục tiêu.
+  - `LineChart`: Có từ 2 chuỗi xu hướng trở lên theo thời gian (so đọ cắt nhau).
+  - `AreaChart`: 1 chuỗi xu hướng có tích lũy thể tích hoặc ngưỡng âm/dương.
+  - `ScatterPlot`: Tìm tương quan, BẮT BUỘC có 2 trục tiêu chí (X, Y).
+  - `BarChart`: So sánh 1 chiều tiêu chí giữa các thực thể độc lập.
+  - `RadarChart`: 3-6 trục tiêu chí điểm số vẽ đa giác đánh giá năng lực.
+* **Cụm Kế toán & Định lượng:**
+  - `TAccount`: Có yếu tố Kế toán kép (Nợ/Có, Thu/Chi, Tài sản/Nguồn vốn).
+  - `InteractiveCalc`: Công thức cần người dùng nhập số thử nghiệm.
+  - `Formula`: Công thức toán tĩnh siêu ngắn.
+  - `FormulaBreakdown`: Công thức toán tĩnh có bung rã giải thích từng biến số.
+* **Cụm Tương tác / Tình huống (Gamification):**
+  - `ChatSimulation`: Hội thoại 2 chiều, tranh luận, tư vấn.
+  - `JourneyMap` (Bản đồ Nhận thức): COMPONENT BẮT BUỘC CHO MỌI NODE TẦNG CUỐI. Đóng vai trò phân tích nhận thức (Meta-cognition). Tùy loại kiến thức, các Tabs (1,2,3) có thể là: Các bước quy trình (nếu là chuỗi thời gian) HOẶC Các trụ cột khía cạnh (nếu là lý thuyết trừu tượng).
+  - `DecisionTree`: Cẩm nang xử lý rẽ nhánh điều kiện (Nếu/Thì).
+  - `FlipCard`: Kích thích trí nhớ 1-1 (Thuật ngữ - Định nghĩa). Không có đáp án nhiễu.
+  - `Hotspot`: Điểm neo tương tác mô tả chi tiết trên một hình ảnh tĩnh.
+> **Luật Sàn (Incentive):** BẮT BUỘC có ít nhất **20%** số Node TẦNG CUỐI dùng Cụm Tương Tác này để đảm bảo Gamification.
+
+**TẦNG 2: LỌC CẤU TRÚC PHỨC TẠP (6 Components)**
+Rớt Tầng 1, tiếp tục xét cấu trúc hình học:
+- `Quadrant`: Bắt buộc có 2 trục tiêu chí cắt nhau tạo 4 ô.
+- `Venn`: Giao thoa 2 tập hợp (có lõi chung).
+- `VennDiagram`: Giao thoa 3 tập hợp trở lên.
+- `Pyramid`: Phân tầng từ đáy (nền tảng) lên đỉnh.
+- `Onion`: Tính bao hàm, lớp bọc bảo vệ lõi từ ngoài vào trong.
+- `Funnel`: Sự rơi rụng/thu hẹp qua từng giai đoạn (Phễu).
+
+**TẦNG 3: LỌC PHỔ THÔNG & QUOTA 25% (Nhóm A - 11 Components)**
+Khi dữ liệu rớt xuống đáy phễu mới được dùng Nhóm A. BẮT BUỘC tuân thủ **Kỷ luật Hạn điền (Quota)**:
+- **Hạn điền 25% Node:** Một component Nhóm A chỉ xuất hiện TỐI ĐA 25% tổng số Node TẦNG CUỐI của môn học.
+- Khi chạm trần, BẮT BUỘC Fallback (luân chuyển) sang anh em cùng cụm (Cấm mượn khác cụm).
+- **Micro-Criteria nội bộ Nhóm A (Điều kiện Fallback):**
+  - *Cụm Liệt kê:* `Features` (3-6 ý ngắn), `Carousel` (>= 4 ý dài/có list con), `Spectrum` (Ý nghĩa tịnh tiến liền mạch), `MatrixTable` (Mạng nhện nhiều thuộc tính, nhiều đối tượng), `DeltaCheatSheet` (Bảng mẹo, bẫy trắc nghiệm).
+  - *Cụm Dòng chảy:* `Timeline` (Mốc thời gian thực tế), `ProcessSteps` (Tuyến tính 1 chiều), `Cycle` (Khép kín vòng lặp), `Flowchart` (Sơ đồ luồng tuyến tính không hội thoại).
+  - *Cụm Đối chiếu:* `VsWrap` (2 vế phân tích sâu), `PairGrid` (3-5 cặp ý cực ngắn 1-1).
+- **Van Xả Áp (Sư phạm > Đa dạng):** Nếu một component chạm Quota 25%, nhưng dữ liệu ĐÁNH RỚT mọi component fallback vì không thỏa mãn Micro-Criteria, AI ĐƯỢC PHÉP PHÁ TRẦN QUOTA để xài component gốc nhằm bảo vệ tính đúng đắn của sư phạm.
 
 **3. Lớp UI/UX Standards ("Less is More"):**
 - **Quy Chuẩn Viết In Hoa (Uppercase Consistency):** Không bắt buộc cứng nhắc một màu. Các chuỗi VIẾT IN HOA (`text-transform: uppercase`) được phép phối màu linh hoạt (`--primary`, `--secondary`, `--muted`, v.v...) tùy theo bối cảnh khối UI (VD: Component Kiến thức nền). Tuy nhiên, vẫn **CẤM** lạm dụng các màu rực rỡ chói mắt (đỏ tươi, xanh lá chuối, cam nguyên bản) rải thảm lên tiêu đề gây xao nhãng. (Ngoại lệ: Các thẻ cảnh báo Bẫy Nguy Hiểm/Bẫy Lật Kèo vẫn ưu tiên dùng mờ Đỏ `--color-danger`).
