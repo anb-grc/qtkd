@@ -23,6 +23,10 @@ export function JourneyMap({ data }: { data: JourneyMapBlock['data'] }) {
         </div>
       )}
 
+      <div className={styles.mapHeader}>
+        <span className={styles.mapTitle}>GIẢI MÃ BẢN CHẤT</span>
+      </div>
+
       <div className={styles.stageTabs} onMouseLeave={() => setHoveredIdx(null)}>
         {stages.map((st, idx) => {
           const isLocked = idx === activeIdx;
@@ -57,7 +61,7 @@ export function JourneyMap({ data }: { data: JourneyMapBlock['data'] }) {
 
         {currentStage.painPoint && (
           <div className={styles.sectionGroup}>
-            <div className={styles.secTitle}>{currentStage.painPointLabel || 'Sai lầm nhận thức'}</div>
+            <div className={styles.secTitle}>{currentStage.painPointLabel || 'Nhận thức sai'}</div>
             <div className={styles.secText} dangerouslySetInnerHTML={{ __html: currentStage.painPoint }} />
           </div>
         )}
