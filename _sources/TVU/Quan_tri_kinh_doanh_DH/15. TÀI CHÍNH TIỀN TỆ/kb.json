@@ -347,16 +347,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Nhập môn tài chính",
-              "Nền tảng"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -376,6 +366,16 @@
               }
             ]
           }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Nhập môn tài chính",
+              "Nền tảng"
+            ]
+          }
         }
       ]
     },
@@ -388,16 +388,6 @@
           "data": {
             "front": "Khái niệm và bản chất của tài chính",
             "back": "• <strong>Khái niệm cốt lõi</strong>: Sự vận động của vốn tiền tệ diễn ra ở mọi chủ thể, phản ánh quan hệ kinh tế trong phân phối và tạo lập quỹ tiền tệ.<br/>• <strong>Hình thức biểu hiện bên ngoài</strong>: Các hiện tượng thu/chi bằng tiền, sự vận động vốn nhằm tạo lập và sử dụng quỹ.<br/>• <strong>Nội dung bên trong</strong>: Các quan hệ kinh tế nảy sinh khi phân phối của cải dưới hình thức giá trị."
-          }
-        },
-        {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Nhập môn tài chính",
-              "Nền tảng"
-            ]
           }
         },
         {
@@ -418,6 +408,16 @@
                 "painPoint": "Bỏ qua yếu tố 'quan hệ kinh tế', dẫn đến việc không hiểu tại sao cùng một dòng tiền lại có ý nghĩa khác nhau ở các chủ thể.",
                 "solution": "Luôn đặt câu hỏi: Dòng tiền này phục vụ lợi ích của ai và làm thay đổi cấu trúc tài sản như thế nào?"
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Nhập môn tài chính",
+              "Nền tảng"
             ]
           }
         }
@@ -453,16 +453,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Nhập môn tài chính",
-              "Cấu trúc"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -480,6 +470,16 @@
                 "painPoint": "Nhầm lẫn 'giám đốc' với chức danh quản lý (Giám đốc công ty).",
                 "solution": "Giám đốc ở đây là <strong>giám sát và điều chỉnh</strong> bằng đồng tiền. Dòng tiền chảy đến đâu, sự kiểm tra đi theo đến đó."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Nhập môn tài chính",
+              "Cấu trúc"
             ]
           }
         }
@@ -513,16 +513,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Nhập môn tài chính",
-              "Hệ thống"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -540,6 +530,16 @@
                 "painPoint": "Cho rằng Hộ gia đình không phải là một mắt xích quan trọng của hệ thống tài chính.",
                 "solution": "Tài chính Hộ gia đình chính là <strong>nguồn cung vốn lớn nhất</strong> cho hệ thống thông qua tiết kiệm và đầu tư."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Nhập môn tài chính",
+              "Hệ thống"
             ]
           }
         }
@@ -581,16 +581,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Nhập môn tài chính",
-              "Phân luồng"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -608,6 +598,16 @@
                 "painPoint": "Tin rằng tiêu dùng càng nhiều thì nền kinh tế càng mạnh mà quên đi tích lũy.",
                 "solution": "Phải có <strong>tích tụ vốn</strong> mới có nguồn lực cho công nghiệp hóa; tiêu dùng và tích lũy phải cân bằng như hai cánh chim."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Nhập môn tài chính",
+              "Phân luồng"
             ]
           }
         }
@@ -655,16 +655,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Nhập môn tài chính",
-              "Logic"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -682,6 +672,16 @@
                 "painPoint": "Kỳ vọng Nhà nước can thiệp cứu trợ mọi doanh nghiệp thua lỗ (bao cấp).",
                 "solution": "Hiểu rõ sự <strong>phân định rạch ròi</strong>: Nhà nước tạo sân chơi pháp lý, doanh nghiệp tự chủ lời ăn lỗ chịu."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Nhập môn tài chính",
+              "Logic"
             ]
           }
         }
@@ -705,16 +705,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Ngân sách Nhà nước",
-              "Nền tảng"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -734,6 +724,16 @@
               }
             ]
           }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Ngân sách Nhà nước",
+              "Nền tảng"
+            ]
+          }
         }
       ]
     },
@@ -746,16 +746,6 @@
           "data": {
             "front": "Đặc điểm nhận diện NSNN",
             "back": "• <strong>Gắn với quyền lực Nhà nước</strong>: Hoạt động thu chi luôn dựa trên quyền lực kinh tế - chính trị và được tiến hành trên cơ sở luật định.<br/>• <strong>Phân phối lại tài chính</strong>: Thể hiện rõ nét qua hai lĩnh vực huy động (thu) và sử dụng (chi) các nguồn lực trong xã hội.<br/>• <strong>Gắn với lợi ích chung</strong>: Thuộc sở hữu Nhà nước, luôn hướng tới phục vụ lợi ích chung và các mục tiêu công cộng.<br/>• <strong>Quỹ tiền tệ chia nhỏ</strong>: Là quỹ tập trung nhưng được chia thành nhiều quỹ nhỏ có tác dụng riêng trước khi chi dùng.<br/>• <strong>Không hoàn trả trực tiếp</strong>: Hoạt động thu nộp và chi cấp phát phần lớn tuân theo nguyên tắc không hoàn trả trực tiếp."
-          }
-        },
-        {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Ngân sách Nhà nước",
-              "Cấu trúc"
-            ]
           }
         },
         {
@@ -776,6 +766,16 @@
                 "painPoint": "Đòi hỏi: 'Tôi đóng thuế nhiều, Nhà nước phải chi lại trực tiếp cho tôi tỷ lệ thuận'.",
                 "solution": "NSNN vận hành theo nguyên tắc <strong>không hoàn trả trực tiếp</strong>. Người hưởng lợi từ hạ tầng có thể không phải người đóng thuế nhiều nhất."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Ngân sách Nhà nước",
+              "Cấu trúc"
             ]
           }
         }
@@ -809,16 +809,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Ngân sách Nhà nước",
-              "Đa chiều"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -836,6 +826,16 @@
                 "painPoint": "Cho rằng phân phối công bằng là cào bằng tài sản của tất cả mọi người.",
                 "solution": "Công bằng ở đây là <strong>điều tiết chênh lệch</strong> (lấy của người thu nhập cao trợ cấp cho người yếu thế), giữ ổn định xã hội."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Ngân sách Nhà nước",
+              "Đa chiều"
             ]
           }
         }
@@ -893,16 +893,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Ngân sách Nhà nước",
-              "Phân luồng"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -920,6 +910,16 @@
                 "painPoint": "Chi thường xuyên (trả lương bộ máy) phình to làm teo tóp nguồn lực cho đầu tư phát triển.",
                 "solution": "Phải liên tục <strong>tinh giản biên chế</strong> và cải cách hành chính để kéo giảm tỷ trọng chi thường xuyên, dồn lực xây hạ tầng."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Ngân sách Nhà nước",
+              "Phân luồng"
             ]
           }
         }
@@ -960,16 +960,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Ngân sách Nhà nước",
-              "Logic"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -987,6 +977,16 @@
                 "painPoint": "Chỉ lo bắt bớ người trốn thuế mà quên mất quy trình nộp thuế quá rườm rà, quan liêu.",
                 "solution": "Cải cách bộ máy và <strong>số hóa thủ tục (E-tax)</strong> mới là cách chống thất thu và tối ưu hóa chi tiêu chủ động nhất."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Ngân sách Nhà nước",
+              "Logic"
             ]
           }
         }
@@ -1061,16 +1061,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Ngân sách Nhà nước",
-              "Rủi ro"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -1088,6 +1078,16 @@
                 "painPoint": "Thắt lưng buộc bụng cực đoan, cắt giảm luôn cả chi đầu tư y tế, giáo dục.",
                 "solution": "Giảm chi phải là <strong>giảm chi lãng phí</strong>. Song song đó, 'nuôi dưỡng nguồn thu' (khoan thư sức dân) mới là gốc rễ bền vững."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Ngân sách Nhà nước",
+              "Rủi ro"
             ]
           }
         }
@@ -1117,16 +1117,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Ngân sách Nhà nước",
-              "Hệ thống"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -1146,6 +1136,16 @@
               }
             ]
           }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Ngân sách Nhà nước",
+              "Hệ thống"
+            ]
+          }
         }
       ]
     },
@@ -1158,16 +1158,6 @@
           "data": {
             "front": "Tổng quan Tài chính doanh nghiệp",
             "back": "• <strong>Khái niệm TCDN</strong>: Là hệ thống các quan hệ kinh tế trong phân phối nguồn tài chính, gắn liền với quá trình tạo lập và sử dụng các quỹ tiền tệ nhằm đạt mục tiêu kinh doanh.<br/>• <strong>Đặc điểm</strong>: Là khâu cơ sở của hệ thống tài chính, gắn liền trực tiếp với các hoạt động sản xuất kinh doanh và mọi vận động đều hướng tới mục tiêu sinh lời.<br/>• <strong>Vai trò quản lý</strong>: Đảm bảo huy động đầy đủ, kịp thời vốn cho sản xuất; tổ chức sử dụng vốn tiết kiệm, hiệu quả; là đòn bẩy kích thích và công cụ giám sát kiểm tra hoạt động."
-          }
-        },
-        {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Tài chính doanh nghiệp",
-              "Nền tảng"
-            ]
           }
         },
         {
@@ -1188,6 +1178,16 @@
                 "painPoint": "Chỉ huy động vốn khi thiếu hụt mà không có kế hoạch tối ưu hóa chi phí vốn từ trước.",
                 "solution": "Luôn dự phóng dòng tiền. Tổ chức vốn đủ, kịp thời và giám sát liên tục để đồng tiền tự đẻ ra tiền."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Tài chính doanh nghiệp",
+              "Nền tảng"
             ]
           }
         }
@@ -1229,16 +1229,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Tài chính doanh nghiệp",
-              "Cấu trúc"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -1256,6 +1246,16 @@
                 "painPoint": "Đầu tư dàn trải, để vốn 'nằm im' trong kho (hàng tồn) hoặc trên giấy (nợ phải thu) làm chết vốn.",
                 "solution": "Tối ưu hóa vòng quay. Vốn bắt buộc phải vận động không ngừng và điểm rơi cuối cùng phải là lợi nhuận dương."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Tài chính doanh nghiệp",
+              "Cấu trúc"
             ]
           }
         }
@@ -1283,16 +1283,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Tài chính doanh nghiệp",
-              "Cấu trúc"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -1310,6 +1300,16 @@
                 "painPoint": "Ảo tưởng sức mạnh, vay mượn bừa bãi vượt quá khả năng tạo tiền, dẫn đến còng lưng trả nợ.",
                 "solution": "Cân đối tỷ trọng hợp lý. Chỉ vay khi <strong>tỷ suất sinh lời của dự án cao hơn chi phí lãi vay</strong>."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Tài chính doanh nghiệp",
+              "Cấu trúc"
             ]
           }
         }
@@ -1363,16 +1363,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Tài chính doanh nghiệp",
-              "Phân luồng"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -1390,6 +1380,16 @@
                 "painPoint": "Để tiền kẹt ở khâu trung gian (tồn kho, nợ đọng), khiến máu không bơm kịp lên não.",
                 "solution": "Cắt giảm thời gian lưu kho và rút ngắn chu kỳ thu tiền. Vốn lưu động quay càng nhanh, lợi nhuận càng dày."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Tài chính doanh nghiệp",
+              "Phân luồng"
             ]
           }
         }
@@ -1420,16 +1420,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Tài chính doanh nghiệp",
-              "Logic"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -1447,6 +1437,16 @@
                 "painPoint": "Tính toán sai giá thành, định giá thấp hơn điểm hòa vốn dẫn đến cảnh 'bán càng nhiều, lỗ càng sâu'.",
                 "solution": "Tách bạch chi tiết các loại chi phí tạo nên sản phẩm. Ứng dụng tiến bộ kỹ thuật để hạ giá thành tận gốc rễ."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Tài chính doanh nghiệp",
+              "Logic"
             ]
           }
         }
@@ -1482,16 +1482,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Tài chính doanh nghiệp",
-              "Hệ thống"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -1511,6 +1501,16 @@
               }
             ]
           }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Tài chính doanh nghiệp",
+              "Hệ thống"
+            ]
+          }
         }
       ]
     },
@@ -1523,16 +1523,6 @@
           "data": {
             "front": "Thị trường Tài chính là gì? Các yếu tố cấu thành?",
             "back": "• <strong>Khái niệm</strong>: Nơi trao đổi quyền sử dụng nguồn tài chính qua các phương thức và công cụ.<br/>• <strong>Chức năng</strong>: Dẫn truyền vốn từ chủ thể thặng dư (thừa vốn) sang chủ thể thâm hụt (thiếu vốn).<br/>• <strong>Vai trò</strong>: Thúc đẩy huy động vốn, nâng cao hiệu quả sử dụng vốn và tạo tính thanh khoản cho các công cụ tài chính.<br/>• <strong>Điều kiện hình thành</strong>: Nền kinh tế hàng hóa phát triển, lạm phát được kiểm soát, công cụ tài chính đa dạng, hành lang pháp lý đồng bộ."
-          }
-        },
-        {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Thị trường Tài chính",
-              "Nền tảng"
-            ]
           }
         },
         {
@@ -1553,6 +1543,16 @@
                 "painPoint": "Tham gia thị trường khi chưa có hành lang pháp lý đồng bộ, dễ vướng vào bẫy lừa đảo và mất trắng.",
                 "solution": "Chỉ đầu tư/huy động trên một nền tảng pháp lý vững chắc, môi trường lạm phát được kiểm soát để đảm bảo an toàn vốn."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Thị trường Tài chính",
+              "Nền tảng"
             ]
           }
         }
@@ -1600,16 +1600,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Thị trường Tài chính",
-              "Cấu trúc"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -1627,6 +1617,16 @@
                 "painPoint": "Mù quáng chạy theo lợi tức khủng mà quên check uy tín và tính pháp lý của chủ thể phát hành.",
                 "solution": "Luôn soi chiếu 2 mặt: Mức sinh lời và Năng lực thanh toán của người chơi. Không bỏ trứng vào một rổ."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Thị trường Tài chính",
+              "Cấu trúc"
             ]
           }
         }
@@ -1658,16 +1658,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Thị trường Tài chính",
-              "Hệ thống"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -1685,6 +1675,16 @@
                 "painPoint": "Sợ các công cụ này khó thanh khoản nên cứ ôm khư khư tiền mặt để rồi bị lạm phát ăn mòn.",
                 "solution": "Tận dụng các giấy tờ có giá ngắn hạn. Chúng vừa sinh lãi nhẹ, vừa đảm bảo bạn có tiền ngay trong vòng vài nốt nhạc khi cần."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Thị trường Tài chính",
+              "Hệ thống"
             ]
           }
         }
@@ -1726,16 +1726,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Thị trường Tài chính",
-              "Hệ thống"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -1753,6 +1743,16 @@
                 "painPoint": "Chủ doanh nghiệp sợ mất quyền kiểm soát nên chỉ đi vay, dẫn đến gánh nặng lãi suất đè bẹp lợi nhuận.",
                 "solution": "Linh hoạt phối hợp. Khi đang hái ra tiền, dùng trái phiếu để giữ nguyên miếng bánh. Khi cần chia sẻ rủi ro lớn, huy động cổ phiếu."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Thị trường Tài chính",
+              "Hệ thống"
             ]
           }
         }
@@ -1782,16 +1782,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Thị trường Tài chính",
-              "Phân luồng"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -1809,6 +1799,16 @@
                 "painPoint": "Xem nhẹ thị trường thứ cấp vì nghĩ nó chả ném thêm đồng nào cho tổ chức phát hành.",
                 "solution": "Phải nuôi dưỡng thị trường thứ cấp thật sôi động. Nếu chứng khoán không ai thèm mua đi bán lại, lần sau doanh nghiệp sẽ ế ẩm khi phát hành mới."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Thị trường Tài chính",
+              "Phân luồng"
             ]
           }
         }
@@ -1842,16 +1842,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Thị trường Tài chính",
-              "Logic"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -1869,6 +1859,16 @@
                 "painPoint": "Nghĩ ôm trái phiếu là được xen vào cách công ty tiêu tiền hay đòi quyền bỏ phiếu trong đại hội.",
                 "solution": "Hiểu rõ ranh giới: Chủ nợ thì cứ ngồi yên ăn lãi, an toàn khi phá sản vì được ưu tiên thanh toán nợ trước cổ đông."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Thị trường Tài chính",
+              "Logic"
             ]
           }
         }
@@ -1943,16 +1943,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Tiền tệ",
-              "Cấu trúc"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -1970,6 +1960,16 @@
                 "painPoint": "Sợ lộ thông tin, e ngại những dãy số ảo trên màn hình nên cứ rút tiền mặt cất tủ cho chắc cú.",
                 "solution": "Thích nghi với dòng chảy số hóa. Tận dụng hạ tầng mạng để luân chuyển vốn siêu tốc, giảm thiểu mọi chi phí giao dịch."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Tiền tệ",
+              "Cấu trúc"
             ]
           }
         }
@@ -2011,16 +2011,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Tiền tệ",
-              "Hệ thống"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -2038,6 +2028,16 @@
                 "painPoint": "Cho rằng tiền giấy cũng là phương tiện cất trữ an toàn tuyệt đối như vàng.",
                 "solution": "Nhận thức đúng phương tiện cất trữ đòi hỏi giá trị thực tại. Tiền giấy dễ bị lạm phát bào mòn, cần linh hoạt chuyển đổi."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Tiền tệ",
+              "Hệ thống"
             ]
           }
         }
@@ -2085,16 +2085,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Tiền tệ",
-              "Logic"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -2112,6 +2102,16 @@
                 "painPoint": "Phát hành tiền vô tội vạ khi ngân sách thiếu hụt.",
                 "solution": "Tuân thủ nghiêm ngặt quy luật: M thực tế phải khớp M cần thiết để tránh bùng nổ lạm phát."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Tiền tệ",
+              "Logic"
             ]
           }
         }
@@ -2143,16 +2143,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Tiền tệ",
-              "Phân luồng"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -2170,6 +2160,16 @@
                 "painPoint": "Cho rằng Cung tiền cũng vận động tự do theo lãi suất thị trường như Cầu tiền.",
                 "solution": "Nhận thức rõ Cung tiền là một đường thẳng đứng, do cơ quan vĩ mô độc quyền kiểm soát."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Tiền tệ",
+              "Phân luồng"
             ]
           }
         }
@@ -2212,16 +2212,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Tiền tệ",
-              "Rủi ro"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -2239,6 +2229,16 @@
                 "painPoint": "Ôm giữ toàn bộ tài sản ở M4 (thanh khoản thấp) khi cần dòng tiền gấp.",
                 "solution": "Cân đối danh mục: Giữ một phần M1/M2 cho chi tiêu ngắn hạn, M3/M4 để tối ưu lợi nhuận."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Tiền tệ",
+              "Rủi ro"
             ]
           }
         }
@@ -2274,16 +2274,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Tiền tệ",
-              "Đa chiều"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -2303,6 +2293,16 @@
               }
             ]
           }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Tiền tệ",
+              "Đa chiều"
+            ]
+          }
         }
       ]
     },
@@ -2315,16 +2315,6 @@
           "data": {
             "front": "Khái niệm, Đặc điểm và Vai trò cốt lõi của Tín dụng trong nền kinh tế là gì?",
             "back": "1. Khái niệm: Là quan hệ kinh tế tạo lập/sử dụng quỹ tín dụng, thỏa mãn nhu cầu vốn tạm thời theo nguyên tắc hoàn trả.<br/>2. Đặc điểm: Phân phối mang tính hoàn trả (chỉ chuyển quyền sử dụng, không chuyển sở hữu) và có sự vận động đặc biệt của giá cả (lãi suất).<br/>3. Vai trò: Đảm bảo sản xuất liên tục, tập trung vốn thúc đẩy kinh doanh, điều chỉnh ổn định kinh tế, nâng cao đời sống và mở rộng hợp tác quốc tế."
-          }
-        },
-        {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Tín dụng và Lãi suất",
-              "Nền tảng"
-            ]
           }
         },
         {
@@ -2345,6 +2335,16 @@
                 "painPoint": "Sử dụng vốn vay sai mục đích, không tạo ra giá trị thặng dư.",
                 "solution": "Đảm bảo vốn vay được đưa vào kinh doanh sinh lời để trả cả gốc lẫn lãi đúng hạn."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Tín dụng và Lãi suất",
+              "Nền tảng"
             ]
           }
         }
@@ -2394,16 +2394,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Tín dụng và Lãi suất",
-              "Cấu trúc"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -2421,6 +2411,16 @@
                 "painPoint": "Sợ rủi ro lãi suất nên từ chối dùng đòn bẩy ngân hàng.",
                 "solution": "Kết hợp linh hoạt để mở rộng kinh doanh nhờ ưu điểm quy mô vốn lớn, thời hạn đa dạng."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Tín dụng và Lãi suất",
+              "Cấu trúc"
             ]
           }
         }
@@ -2462,16 +2462,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Tín dụng và Lãi suất",
-              "Nền tảng"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -2489,6 +2479,16 @@
                 "painPoint": "Bỏ qua sự biến động lãi suất khi vay mượn dài hạn.",
                 "solution": "Theo dõi chính sách vĩ mô, tận dụng lãi suất thấp để đầu tư và lãi suất cao để tích lũy."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Tín dụng và Lãi suất",
+              "Nền tảng"
             ]
           }
         }
@@ -2531,16 +2531,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Tín dụng và Lãi suất",
-              "Phân luồng"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -2558,6 +2548,16 @@
                 "painPoint": "Chốt lãi suất thả nổi trong bối cảnh thị trường đang có xu hướng tăng sốc.",
                 "solution": "Dự báo vĩ mô: Chọn cố định khi kỳ vọng lãi suất tăng, chọn thả nổi khi kỳ vọng giảm."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Tín dụng và Lãi suất",
+              "Phân luồng"
             ]
           }
         }
@@ -2601,16 +2601,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Tín dụng và Lãi suất",
-              "Logic"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -2628,6 +2618,16 @@
                 "painPoint": "Kỳ vọng mức lãi suất thấp cho một dự án đầy rủi ro và dài hạn.",
                 "solution": "Chấp nhận quy luật phần bù rủi ro: Kéo dài thời gian hoặc rủi ro cao buộc phải trả giá vốn đắt hơn."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Tín dụng và Lãi suất",
+              "Logic"
             ]
           }
         }
@@ -2653,16 +2653,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Hệ thống ngân hàng",
-              "Nền tảng"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -2680,6 +2670,16 @@
                 "painPoint": "Lẫn lộn vai trò của ngân hàng trong thời kỳ bao cấp và nền kinh tế thị trường.",
                 "solution": "Nhận thức mốc lịch sử 1987-1988 đã giải phóng sức mạnh kinh doanh của hệ thống NHTM."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Hệ thống ngân hàng",
+              "Nền tảng"
             ]
           }
         }
@@ -2711,16 +2711,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Hệ thống ngân hàng",
-              "Cấu trúc"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -2738,6 +2728,16 @@
                 "painPoint": "Quên mất chức năng tạo tiền của NHTM qua hệ thống tài khoản tiền gửi.",
                 "solution": "Nhận thức rõ sức mạnh tạo tiền ghi sổ giúp NHTM mở rộng tín dụng gấp nhiều lần vốn gốc."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Hệ thống ngân hàng",
+              "Cấu trúc"
             ]
           }
         }
@@ -2769,16 +2769,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Hệ thống ngân hàng",
-              "Hệ thống"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -2796,6 +2786,16 @@
                 "painPoint": "Áp lực đòi NHTW in thêm tiền vô tội vạ để cứu vớt nền kinh tế.",
                 "solution": "Tôn trọng tính độc lập của NHTW để kiềm chế lạm phát, bảo vệ giá trị đồng tiền."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Hệ thống ngân hàng",
+              "Hệ thống"
             ]
           }
         }
@@ -2897,16 +2897,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Hệ thống ngân hàng",
-              "Logic"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -2926,6 +2916,16 @@
               }
             ]
           }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Hệ thống ngân hàng",
+              "Logic"
+            ]
+          }
         }
       ]
     },
@@ -2938,16 +2938,6 @@
           "data": {
             "front": "Các quan điểm định nghĩa về Lạm phát (C.Mác, Samuelson, Milton Friedman, Kinh tế học hiện đại)",
             "back": "• <strong>Định nghĩa của C.Mác</strong>: Việc phát hành tiền giấy phải được giới hạn ở số lượng vàng hoặc bạc thực sự lưu thông nhờ các đại diện tiền giấy. <br/>• <strong>Định nghĩa của Samuelson</strong>: Lạm phát xảy ra khi mức chung của giá cả và chi phí tăng (giá bánh mì, xăng dầu, tiền lương...). <br/>• <strong>Định nghĩa của Milton Friedman</strong>: Lạm phát là việc giá cả tăng nhanh và kéo dài. <br/>• <strong>Kinh tế học hiện đại</strong>: Lạm phát là sự tăng lên theo thời gian của mức giá chung của nền kinh tế."
-          }
-        },
-        {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Lạm phát",
-              "Nền tảng"
-            ]
           }
         },
         {
@@ -2968,6 +2958,16 @@
                 "painPoint": "Nhầm tưởng giá một vài mặt hàng (như xăng, thịt lợn) tăng vọt là lạm phát.",
                 "solution": "Lạm phát phải là sự tăng lên của <strong>mức giá chung</strong> (hầu hết hàng hóa) và phải <strong>kéo dài</strong>. Nếu giá tăng vài ngày rồi giảm thì chỉ là biến động cục bộ."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Lạm phát",
+              "Nền tảng"
             ]
           }
         }
@@ -2999,16 +2999,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Lạm phát",
-              "Cấu trúc"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -3026,6 +3016,16 @@
                 "painPoint": "Nghĩ rằng món nào tăng giá gấp đôi thì CPI cũng tăng gấp đôi.",
                 "solution": "Phải nhân với <strong>tỷ trọng (d)</strong>. Nếu giá siêu xe tăng gấp 3 nhưng tỷ trọng chi tiêu bằng 0.001% thì CPI hầu như không nhúc nhích. Ngược lại, giá gạo tăng nhẹ cũng kéo CPI lên đáng kể."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Lạm phát",
+              "Cấu trúc"
             ]
           }
         }
@@ -3058,16 +3058,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Lạm phát",
-              "Hệ thống"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -3085,6 +3075,16 @@
                 "painPoint": "Nghĩ rằng lạm phát càng cao thì người nghèo và người giàu đều thiệt hại như nhau.",
                 "solution": "Lạm phát phi mã là 'thuế tàn nhẫn' đánh vào <strong>người nghèo và người hưởng lương cố định</strong>. Người giàu nắm giữ tài sản thực (đất đai, vàng) ít bị ảnh hưởng hơn."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Lạm phát",
+              "Hệ thống"
             ]
           }
         }
@@ -3118,16 +3118,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Lạm phát",
-              "Phân luồng"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -3145,6 +3135,16 @@
                 "painPoint": "Nghĩ giá hàng hóa tăng 20% là chắc chắn đời sống khốn khó.",
                 "solution": "Nếu giá tăng 20% nhưng <strong>thu nhập cũng tăng 20% (Lạm phát cân bằng)</strong> thì sức mua thực tế không đổi. Mọi thứ chỉ là con số danh nghĩa phình to ra."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Lạm phát",
+              "Phân luồng"
             ]
           }
         }
@@ -3170,16 +3170,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Lạm phát",
-              "Logic"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -3197,6 +3187,16 @@
                 "painPoint": "Nghĩ nhà nước cứ thiếu tiền thì in thêm để phát cho dân là quốc gia sẽ giàu lên.",
                 "solution": "<strong>In thêm tiền không tạo ra thêm của cải</strong>. Hàng hóa giữ nguyên mà lượng tiền x2 thì giá cả sẽ x2. Tiền chỉ là vật ngang giá, không ăn được!"
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Lạm phát",
+              "Logic"
             ]
           }
         }
@@ -3230,16 +3230,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Lạm phát",
-              "Rủi ro"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -3257,6 +3247,16 @@
                 "painPoint": "Không biết trong lạm phát, ai là người hưởng lợi, ai là người chịu trận.",
                 "solution": "<strong>Người cho vay cầm chắc phần lỗ</strong> vì nhận lại cục tiền đã mất giá. <strong>Người đi vay có lợi</strong> vì trả nợ bằng đồng tiền rẻ mạt."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Lạm phát",
+              "Rủi ro"
             ]
           }
         }
@@ -3304,16 +3304,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Lạm phát",
-              "Đa chiều"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -3331,6 +3321,16 @@
                 "painPoint": "Cho rằng chống lạm phát chỉ là việc của chính sách tiền tệ (Ngân hàng Trung ương).",
                 "solution": "Rút tiền về chỉ là thuốc hạ sốt. Thuốc đặc trị dài hạn là phải <strong>sản xuất ra nhiều hàng hóa hơn</strong> (tăng tổng cung). Hàng nhiều ắt giá sẽ rẻ!"
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Lạm phát",
+              "Đa chiều"
             ]
           }
         }
@@ -3365,16 +3365,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Tài chính quốc tế",
-              "Nền tảng"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -3392,6 +3382,16 @@
                 "painPoint": "Nghĩ rằng đồng tiền có mệnh giá lớn hơn (ví dụ 1 Bảng Anh > 1 USD) thì nền kinh tế đó mạnh hơn.",
                 "solution": "Mệnh giá quy đổi không phản ánh quy mô kinh tế. Sức mạnh thực sự nằm ở <strong>tính ổn định sức mua</strong> và lượng hàng hóa bảo chứng phía sau đồng tiền đó."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Tài chính quốc tế",
+              "Nền tảng"
             ]
           }
         }
@@ -3422,16 +3422,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Tài chính quốc tế",
-              "Cấu trúc"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -3449,6 +3439,16 @@
                 "painPoint": "Nhìn thấy 'Tài khoản vãng lai thâm hụt' liền vội kết luận quốc gia đang vỡ nợ, kinh tế suy sụp.",
                 "solution": "Thâm hụt vãng lai không hẳn là xấu nếu <strong>Tài khoản vốn thặng dư bù đắp được</strong> (do nước ngoài đổ xô vào đầu tư FDI, ODA). Phải nhìn vào Cán cân tổng thể!"
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Tài chính quốc tế",
+              "Cấu trúc"
             ]
           }
         }
@@ -3478,16 +3478,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Tài chính quốc tế",
-              "Phân luồng"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -3505,6 +3495,16 @@
                 "painPoint": "Tưởng ODA là tiền 'từ trên trời rơi xuống', cho không biếu không.",
                 "solution": "Rất hiếm khi ODA cho không 100%. Phần lớn là <strong>vay với lãi suất thấp</strong> và có <strong>ràng buộc</strong> (ví dụ: phải thuê nhà thầu, mua máy móc của nước cho vay). Không có bữa trưa miễn phí!"
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Tài chính quốc tế",
+              "Phân luồng"
             ]
           }
         }
@@ -3544,16 +3544,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Tài chính quốc tế",
-              "Rủi ro"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -3571,6 +3561,16 @@
                 "painPoint": "Phụ thuộc vào xuất khẩu tài nguyên thô (than, dầu mỏ) để thu ngoại tệ.",
                 "solution": "Bán tài nguyên rồi cũng cạn. Muốn cán cân thặng dư bền vững, phải <strong>tăng hàm lượng công nghệ</strong>, xuất khẩu chất xám và dịch vụ du lịch, thu hút kiều hối đều đặn."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Tài chính quốc tế",
+              "Rủi ro"
             ]
           }
         }
@@ -3604,16 +3604,6 @@
           }
         },
         {
-          "type": "quiz",
-          "title": "Câu Hỏi Ôn Tập",
-          "data": {
-            "quiz_tags": [
-              "Tài chính quốc tế",
-              "Hệ thống"
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -3631,6 +3621,16 @@
                 "painPoint": "Nhầm UNDP với các ngân hàng thương mại quốc tế.",
                 "solution": "UNDP không phải ngân hàng. Họ cấp <strong>viện trợ không hoàn lại</strong> và hỗ trợ kỹ thuật (chất xám, chuyên gia) chứ không cho vay lấy lãi."
               }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Câu Hỏi Ôn Tập",
+          "data": {
+            "quiz_tags": [
+              "Tài chính quốc tế",
+              "Hệ thống"
             ]
           }
         }

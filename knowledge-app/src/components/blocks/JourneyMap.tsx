@@ -15,15 +15,6 @@ export function JourneyMap({ data }: { data: JourneyMapBlock['data'] }) {
   const displayIdx = hoveredIdx !== null ? hoveredIdx : activeIdx;
   const currentStage = stages[displayIdx] || stages[0];
 
-  const getEmotionBadge = (emotion?: 'positive' | 'neutral' | 'negative' | 'frustration', customText?: string) => {
-    switch (emotion) {
-      case 'positive': return <span style={{ color: 'var(--color-success, #2ed573)' }}>{customText || 'Dễ'}</span>;
-      case 'negative': return <span style={{ color: '#ffa502' }}>{customText || 'Cần lưu ý'}</span>;
-      case 'frustration': return <span style={{ color: 'var(--color-danger, #ff4757)' }}>{customText || 'Rất khó / Dễ sập bẫy'}</span>;
-      default: return <span style={{ color: 'var(--color-accent-secondary)' }}>{customText || 'Trung bình'}</span>;
-    }
-  };
-
   return (
     <div className={styles.container}>
       {data.persona && (
@@ -54,15 +45,7 @@ export function JourneyMap({ data }: { data: JourneyMapBlock['data'] }) {
       </div>
 
       <div className={styles.cardContent}>
-        {/* Đưa Độ khó (emotion) lên đầu tiên */}
-        {currentStage.emotion && (
-          <div className={styles.sectionGroup}>
-            <div className={styles.secTitle}>{currentStage.emotionLabel || 'Độ khó'}</div>
-            <div className={styles.secText} style={{ fontWeight: 700 }}>
-              {getEmotionBadge(currentStage.emotion, currentStage.emotionText)}
-            </div>
-          </div>
-        )}
+
 
         {/* Trọng tâm (action) */}
         {currentStage.action && (
