@@ -18,7 +18,8 @@
               "id": "th1_2",
               "label": "Mạng Máy Tính & Truyền Thông"
             }
-          ]
+          ],
+          "description": "Chương này cung cấp nền tảng kiến thức toàn diện về cấu trúc phần cứng và nguyên lý hoạt động của máy tính điện tử. Đồng thời, khái quát hóa các khái niệm cơ bản về kiến trúc mạng máy tính và hệ thống truyền thông dữ liệu."
         },
         {
           "id": "th2",
@@ -32,7 +33,8 @@
               "id": "th2_2",
               "label": "Phần Mềm Tiện Ích: Unikey & WinRAR"
             }
-          ]
+          ],
+          "description": "Nội dung tập trung vào các kỹ năng cốt lõi để thao tác và làm chủ không gian làm việc trên hệ điều hành Windows 10. Người học sẽ nắm vững quy trình quản lý hệ thống tập tin, tổ chức thư mục khoa học cùng phương pháp tối ưu hóa các tiện ích thiết yếu."
         },
         {
           "id": "th3",
@@ -46,7 +48,8 @@
               "id": "th3_2",
               "label": "Chèn Các Đối Tượng"
             }
-          ]
+          ],
+          "description": "Chương học hướng dẫn chi tiết các tiêu chuẩn biên soạn và trình bày văn bản chuyên nghiệp trên nền tảng Microsoft Word 2013. Trọng tâm xoay quanh quy chuẩn thiết lập không gian trang, định dạng văn bản nâng cao và kỹ thuật xử lý các đối tượng đồ họa trực quan."
         },
         {
           "id": "th4",
@@ -60,7 +63,8 @@
               "id": "th4_2",
               "label": "Sắp Xếp & Lọc Trích Dữ Liệu"
             }
-          ]
+          ],
+          "description": "Trọng tâm của chương là năng lực tổ chức, xử lý và phân tích số liệu khoa học thông qua bảng tính Microsoft Excel 2013. Người học được trang bị tư duy ứng dụng hệ thống hàm tính toán logic, kết hợp cùng các công cụ sắp xếp và trích lọc dữ liệu chuyên sâu."
         },
         {
           "id": "th5",
@@ -74,7 +78,8 @@
               "id": "th5_2",
               "label": "Slide Master & Thiết Lập Trình Chiếu"
             }
-          ]
+          ],
+          "description": "Nội dung trang bị phương pháp thiết kế và tổ chức các bài thuyết trình đa phương tiện trực quan bằng Microsoft PowerPoint 2013. Kỹ năng cốt lõi bao gồm việc chuẩn hóa bố cục thống nhất thông qua Slide Master và thiết lập các kịch bản điều khiển trình chiếu chuyên nghiệp."
         },
         {
           "id": "th6",
@@ -88,7 +93,8 @@
               "id": "th6_2",
               "label": "Dịch Vụ & Trình Duyệt Web"
             }
-          ]
+          ],
+          "description": "Chương này phân tích tổng quan về kiến trúc hạ tầng và các giao thức cốt lõi vận hành mạng Internet toàn cầu. Qua đó, hướng dẫn người học cách thức khai thác hiệu quả tài nguyên thông tin, dịch vụ đám mây và sử dụng an toàn các trình duyệt web hiện đại."
         }
       ]
     }

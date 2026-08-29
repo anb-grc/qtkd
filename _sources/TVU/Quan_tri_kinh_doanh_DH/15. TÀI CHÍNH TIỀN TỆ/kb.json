@@ -39,7 +39,8 @@
               "label": "Chính sách tài chính quốc gia",
               "description": ""
             }
-          ]
+          ],
+          "description": "Chương này cung cấp kiến thức nền tảng về lịch sử hình thành, khái niệm và bản chất cốt lõi của tài chính. Người học sẽ nắm bắt được cấu trúc hệ thống, các chức năng cơ bản và tầm quan trọng của chính sách tài chính đối với sự phát triển kinh tế vĩ mô."
         },
         {
           "label": "Ngân sách Nhà nước",
@@ -79,7 +80,8 @@
               "label": "Hệ thống tổ chức & Nguyên tắc phân cấp",
               "description": ""
             }
-          ]
+          ],
+          "description": "Chương này phân tích bản chất, đặc điểm nhận diện và vai trò định hướng kinh tế của Ngân sách Nhà nước. Nội dung đi sâu vào cơ cấu thu - chi, các nhân tố tác động, nguyên tắc phân cấp tổ chức quản lý cũng như cơ chế xử lý rủi ro thâm hụt ngân sách."
         },
         {
           "label": "Tài chính doanh nghiệp",
@@ -114,7 +116,8 @@
               "label": "Doanh thu và Lợi nhuận",
               "description": ""
             }
-          ]
+          ],
+          "description": "Chương này giới thiệu tổng quan về nguyên lý quản trị tài chính vi mô bên trong một tổ chức kinh tế. Nội dung tập trung phân tích bản chất, cơ cấu phân luồng dòng vốn đầu tư và nguyên tắc quản lý chi phí nhằm tối ưu hóa lợi nhuận và giá thành sản phẩm."
         },
         {
           "label": "Thị trường Tài chính",
@@ -149,7 +152,8 @@
               "label": "Phân tích Logic Cổ phiếu & Trái phiếu",
               "description": ""
             }
-          ]
+          ],
+          "description": "Chương này phác họa toàn cảnh hệ sinh thái thị trường tài chính, phân định rõ cơ chế hoạt động của thị trường tiền tệ và thị trường vốn. Trọng tâm bài học giải mã sự luân chuyển của các công cụ chứng khoán sơ cấp, thứ cấp và logic phân tích cổ phiếu, trái phiếu."
         },
         {
           "label": "Tiền tệ",
@@ -189,7 +193,8 @@
               "label": "Chế độ tiền tệ",
               "description": ""
             }
-          ]
+          ],
+          "description": "Chương này khám phá nguồn gốc, bản chất và sự tiến hóa của các hình thái tiền tệ qua các thời kỳ lịch sử. Kiến thức bao quát các chức năng cốt lõi, quy luật lưu thông, cơ chế cung - cầu và phương pháp phân loại khối tiền tệ dựa trên mức độ thanh khoản."
         },
         {
           "label": "Tín dụng và Lãi suất",
@@ -219,7 +224,8 @@
               "label": "Các nhân tố ảnh hưởng đến Lãi suất",
               "description": ""
             }
-          ]
+          ],
+          "description": "Chương này hệ thống hóa các hình thức tín dụng đa dạng và cơ chế hoạt động cho vay trong nền kinh tế. Đồng thời, nội dung làm rõ bản chất của lãi suất, các phương pháp phân loại và những nhân tố trọng yếu ảnh hưởng đến sự biến động của giá cả vốn."
         },
         {
           "label": "Hệ thống ngân hàng",
@@ -249,7 +255,8 @@
               "label": "Các công cụ của Chính sách tiền tệ",
               "description": ""
             }
-          ]
+          ],
+          "description": "Chương này làm rõ cấu trúc tổ chức và lịch sử phát triển của hệ thống ngân hàng, phân định vai trò giữa Ngân hàng Thương mại và Ngân hàng Trung ương. Trọng tâm kiến thức xoay quanh việc thiết lập chính sách tiền tệ quốc gia và sử dụng các công cụ điều hành kinh tế."
         },
         {
           "label": "Lạm phát",
@@ -289,7 +296,8 @@
               "label": "Biện Pháp Kiềm Chế Lạm Phát",
               "description": ""
             }
-          ]
+          ],
+          "description": "Chương này cung cấp góc nhìn toàn diện về hiện tượng lạm phát, từ phương pháp đo lường chỉ số giá tiêu dùng (CPI) đến các tiêu chí phân loại định tính và định lượng. Bài học cũng chỉ ra nguyên nhân gốc rễ, hệ lụy kinh tế xã hội và những giải pháp chiến lược nhằm kiểm soát lạm phát."
         },
         {
           "label": "Tài chính quốc tế",
@@ -319,7 +327,8 @@
               "label": "Hệ thống tổ chức tài chính quốc tế",
               "description": ""
             }
-          ]
+          ],
+          "description": "Chương này nghiên cứu cơ chế hình thành tỷ giá hối đoái và sự dịch chuyển của các luồng vốn đầu tư trên quy mô toàn cầu. Trọng tâm được đặt vào việc phân tích cấu trúc cán cân thanh toán, cách thức quản trị rủi ro mất cân bằng và vai trò của các định chế tài chính quốc tế."
         }
       ]
     }

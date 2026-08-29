@@ -29,7 +29,8 @@
               "id": "c1_khoidong",
               "label": "Quy trình Khởi động"
             }
-          ]
+          ],
+          "description": "Chương này cung cấp cái nhìn tổng quan về môn điền kinh, bao gồm vai trò, phân loại nhóm môn và các mốc tiến hóa lịch sử. Người học sẽ được trang bị kiến thức nền tảng về hệ thống tổ chức giải đấu và quy trình khởi động chuẩn mực trong tập luyện và thi đấu."
         },
         {
           "label": "ĐỘI HÌNH ĐỘI NGŨ VÀ BÀI THỂ DỤC PHÁT TRIỂN CHUNG",
@@ -54,7 +55,8 @@
               "id": "c2_loi",
               "label": "Lỗi sai & Chấn thương"
             }
-          ]
+          ],
+          "description": "Nội dung tập trung vào hệ thống bài tập thể dục phát triển chung và các kỹ năng tập hợp đội hình đội ngũ cơ bản. Sinh viên sẽ nắm vững kỹ thuật thực hiện 9 động tác kết hợp cơ chế hô hấp nhịp nhàng, đồng thời nhận diện và phòng ngừa các chấn thương thường gặp."
         },
         {
           "label": "KỸ THUẬT CHẠY CỰ LY NGẮN",
@@ -83,7 +85,8 @@
               "id": "c3_huyenthoai",
               "label": "Huyền thoại Điền kinh Thế giới"
             }
-          ]
+          ],
+          "description": "Chương học phân tích chuyên sâu 4 giai đoạn kỹ thuật chạy cự ly ngắn, đặc biệt nhấn mạnh vào kỹ thuật xuất phát thấp và các yếu tố cơ sinh học. Bên cạnh đó, những quy định về luật thi đấu, lỗi phạm quy và hệ thống bài tập thể lực chuyên môn cũng được trình bày chi tiết."
         },
         {
           "label": "KỸ THUẬT CHẠY CỰ LY TRUNG BÌNH",
@@ -108,7 +111,8 @@
               "id": "c4_vietnam",
               "label": "Tượng đài Điền kinh Việt Nam"
             }
-          ]
+          ],
+          "description": "Nội dung xoay quanh chiến lược phân phối thể lực qua 4 giai đoạn chạy cự ly trung bình và cơ chế điều hòa nhịp thở nhằm tối ưu hóa sức bền. Người học sẽ được hướng dẫn kỹ năng nhập làn, quy tắc chạm đích hợp lệ, cũng như tìm hiểu về các vận động viên tiêu biểu của Việt Nam."
         }
       ]
     }

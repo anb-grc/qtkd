@@ -29,7 +29,8 @@
               "id": "c1_tang_truong",
               "label": "Phân tích Tăng trưởng"
             }
-          ]
+          ],
+          "description": "Chương này cung cấp nền tảng về các nguyên lý kinh tế học cốt lõi và hệ thống đo lường sản lượng quốc gia. Trọng tâm xoay quanh việc phân tích các chỉ tiêu vĩ mô thiết yếu như GDP và GNP, bao gồm phương pháp tính toán và sự khác biệt giữa giá trị danh nghĩa và thực tế. Qua đó, người học sẽ nắm vững công cụ để đánh giá bức tranh tổng thể và động lực tăng trưởng của một nền kinh tế."
         },
         {
           "label": "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô",
@@ -58,7 +59,8 @@
               "id": "c2_chi_tieu_du_bao",
               "label": "3 Loại Chỉ tiêu Dự báo"
             }
-          ]
+          ],
+          "description": "Nội dung tập trung phân tích sự cân bằng vĩ mô thông qua mô hình Tổng cung - Tổng cầu (AS-AD) và cơ chế tác động của số nhân chi tiêu. Sinh viên sẽ được tiếp cận mô hình IS-LM nhằm hiểu rõ sự tương tác giữa thị trường hàng hóa và thị trường tiền tệ. Đồng thời, chương học cũng làm sáng tỏ các giai đoạn của chu kỳ kinh doanh và hệ thống chỉ tiêu dự báo xu hướng kinh tế."
         },
         {
           "label": "Thị Trường Tiền Tệ & Tài Chính Quốc Tế",
@@ -91,7 +93,8 @@
               "id": "c3_can_can",
               "label": "Cán cân thương mại"
             }
-          ]
+          ],
+          "description": "Chương học đi sâu vào bản chất, chức năng của tiền tệ và các thước đo khối lượng tiền trong lưu thông. Người học sẽ phân tích vai trò điều tiết của Ngân hàng Trung ương thông qua các công cụ chính sách tiền tệ cơ bản. Ngoài ra, các khía cạnh về tài chính quốc tế như tỷ giá hối đoái, thị trường ngoại hối và cán cân thương mại trong nền kinh tế mở cũng được làm rõ."
         },
         {
           "label": "Cú Sốc Vĩ Mô: Lạm Phát & Thất Nghiệp",
@@ -116,7 +119,8 @@
               "id": "c4_danh_doi",
               "label": "Sự đánh đổi ngắn hạn Lạm phát vs Thất nghiệp"
             }
-          ]
+          ],
+          "description": "Phần này mổ xẻ hai căn bệnh vĩ mô đặc trưng: lạm phát và thất nghiệp, bao gồm cách đo lường, phân loại và tác động sâu rộng đến nền kinh tế. Đặc biệt, sinh viên sẽ nghiên cứu mối quan hệ đánh đổi ngắn hạn giữa hai hiện tượng này trong quá trình điều hành chính sách. Kiến thức này là chìa khóa để nhận diện và ứng phó với các cú sốc bất lợi mang tính hệ thống."
         }
       ]
     }
