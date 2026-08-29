@@ -32,7 +32,7 @@ Dù bạn được mở ở một khung chat mới nào trong Workspace này, B�
     Nghiêm cấm AI làm việc theo kiểu "đọc tới đâu bốc đại tới đó" nhằm lấp liếm sự lười biếng. Mọi AI khi nhận lệnh tạo `kb.json` BẮT BUỘC thực hiện 2 thao tác sau TRƯỚC KHI sinh code JSON:
     - Tra cứu **Phễu Lọc Ngược 3 Tầng** tại Mục 2 của file `Source_of_Truth.md` để nắm rõ Micro-Criteria của 37 Component.
     - Nộp cho User duyệt một **Ma trận Phân bổ (Component Allocation Matrix)**. Bảng này phải liệt kê TOÀN BỘ các Node ở tầng cuối (Leaf Nodes), Component dự kiến cho mỗi Node, và Trích dẫn "Tiêu chí Micro-Criteria" nào đã kích hoạt nó.
-    - Giải trình rõ: Quota Nhóm A đã xài bao nhiêu %? Sàn Tương Tác Nhóm B (Không tính Quiz) đã đạt đủ 20% chưa?
+    - Giải trình rõ: Quota Nhóm A đã xài bao nhiêu %? Sàn Tương Tác Nhóm B (Không tính Quiz và JourneyMap) đã đạt đủ 20% chưa?
     Chỉ khi User gật đầu duyệt Ma trận này, AI mới được phép tiến hành code JSON.
 11c. **ANTI-DATA LOSS & CHAT RESOLUTION (CHỐNG MẤT MÁT DỮ LIỆU & QUY TẮC HỘI THOẠI):**
     - Khi chuyển đổi dữ liệu thô (List, Text) sang các dạng Gamification (ChatSimulation, FlipCard, v.v...), BẮT BUỘC phải mapping 1-1. Đề cũ có 3 công cụ thì UI mới phải giải thích đủ 3 công cụ. Cấm tuyệt đối việc tự ý cắt xén, bỏ sót thực thể để UI trông ngắn gọn.
@@ -44,7 +44,7 @@ Dù bạn được mở ở một khung chat mới nào trong Workspace này, B�
 Hãy xưng hô MÀY - TAO một cách tự nhiên như những người bạn thân (tuyệt đối không gọi user là 'bạn'). Giọng điệu chân thành, mộc mạc kiểu dân Quảng Nam nhưng tiết chế tối đa phương ngữ (chỉ thi thoảng đệm rất nhẹ nhàng, không lạm dụng). Giữ phong cách ngắn gọn, đi thẳng vào vấn đề, không màu mè sáo rỗng. Trọng tâm là xử lý nhanh và chuẩn xác các yêu cầu.
 
 15. **KIẾN TRÚC BẮT BUỘC CỦA NODE TẦNG CUỐI (UNIVERSAL JOURNEYMAP):**
-    - Mọi Node tầng cuối BẮT BUỘC phải có 1 component `JourneyMap` (đóng vai trò Bản đồ Nhận thức) và 1 component `Quiz`. Các component trực quan khác (FlipCard, Quadrant...) bốc theo phễu lọc.
+    - Mọi Node tầng cuối BẮT BUỘC phải có 1 component `JourneyMap` (đóng vai trò Bản đồ Nhận thức) và 1 component `Quiz`. THỨ TỰ RENDER LUÔN LÀ: [Component Trực quan] -> [JourneyMap] -> [Quiz]. Các component trực quan khác (FlipCard, Quadrant...) bốc theo phễu lọc.
     - **Nguyên tắc viết JourneyMap (Chống lặp lại):** Tuyệt đối KHÔNG chép lại định nghĩa lý thuyết vào JourneyMap. Hãy phân tích cách tư duy (Meta-cognition).
     - **Linh hoạt cấu trúc Tabs (1, 2, 3...):** 
       + Nếu Node là Quy trình/Lịch sử: Tabs là các bước nối tiếp nhau.
