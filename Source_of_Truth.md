@@ -177,11 +177,12 @@ Quy trình co-work chuẩn hóa cho toàn bộ vòng đời môn học, vận h�
 **2. Thuật toán Ánh Xạ Nhận Thức & Phễu Lọc Ngược 3 Tầng (Anti-Laziness Component Matching):**
 Để chống lại thói quen "bốc đại cho lẹ" của AI, quá trình tạo `kb.json` CẤM tư duy bốc component phổ thông trước. BẮT BUỘC rây lọc dữ liệu qua **Phễu Lọc Ngược 3 Tầng** với 35 Component được định nghĩa chi tiết dưới đây:
 
-* **TẦNG NGOẠI LỆ (Quy hoạch kiến trúc & Hệ thống tự động - 2 Components)**
+* **TẦNG NGOẠI LỆ (Quy hoạch kiến trúc TẦNG NGOẠI LỆ (Quy hoạch kiến trúc & Hệ thống tự động - 2 Components) Hệ thống tự động - 3 Components)**
   - `Mindmap`: Khóa cứng cho khối `overview`, CẤM bốc xuống mảng `details`.
+  - `JourneyMap` (Bản đồ Nhận thức): COMPONENT BẮT BUỘC chèn vào cuối MỌI NODE ở mảng `details` (Ngay trên Quiz). Đóng vai trò phân tích nhận thức (Meta-cognition). Tùy loại kiến thức, các Tabs (1,2,3) có thể là: Các bước quy trình (nếu là chuỗi thời gian) HOẶC Các trụ cột khía cạnh (nếu là lý thuyết trừu tượng).
   - `Quiz`: CẤM chèn thủ công vào mảng `details`. Hệ thống tự động bốc từ `qs.json` đính kèm vào cuối mỗi bài.
 
-**TẦNG 1: LỌC ĐẶC THÙ (Nhóm B - Miễn trừ Quota - 18 Components)**
+**TẦNG 1: LỌC ĐẶC THÙ (Nhóm B - Miễn trừ Quota - 17 Components)**
 Ưu tiên tối cao. Quét dữ liệu xem có vi chất "DNA đặc thù" không. Khớp Micro-Criteria nào, CHỐT NGAY component đó:
 * **Cụm Đồ thị (Data Charts):**
   - `SankeyDiagram`: Phân nhánh, chia luồng tiền/khách hàng.
@@ -200,7 +201,6 @@ Quy trình co-work chuẩn hóa cho toàn bộ vòng đời môn học, vận h�
   - `FormulaBreakdown`: Công thức toán tĩnh có bung rã giải thích từng biến số.
 * **Cụm Tương tác / Tình huống (Gamification):**
   - `ChatSimulation`: Hội thoại 2 chiều, tranh luận, tư vấn.
-  - `JourneyMap` (Bản đồ Nhận thức): COMPONENT BẮT BUỘC CHO MỌI NODE TẦNG CUỐI. Đóng vai trò phân tích nhận thức (Meta-cognition). Tùy loại kiến thức, các Tabs (1,2,3) có thể là: Các bước quy trình (nếu là chuỗi thời gian) HOẶC Các trụ cột khía cạnh (nếu là lý thuyết trừu tượng).
   - `DecisionTree`: Cẩm nang xử lý rẽ nhánh điều kiện (Nếu/Thì).
   - `FlipCard`: Kích thích trí nhớ 1-1 (Thuật ngữ - Định nghĩa). Không có đáp án nhiễu.
   - `Hotspot`: Điểm neo tương tác mô tả chi tiết trên một hình ảnh tĩnh.
