@@ -138,6 +138,27 @@
           }
         },
         {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Khái niệm",
+                "emotion": "neutral",
+                "action": "Hệ thống hóa điền kinh là môn thể thao cơ bản, bao gồm các hoạt động vận động tự nhiên có quy chuẩn như đi, chạy, nhảy, ném, đẩy.",
+                "painPoint": "Đánh đồng điền kinh chỉ đơn thuần là chạy bộ giải trí, hoàn toàn bỏ qua tính quy chuẩn kỹ thuật và hệ thống sinh lý học.",
+                "solution": "Tiếp cận điền kinh như một hệ thống huấn luyện khoa học nhằm phát triển toàn diện tố chất thể lực cơ bản."
+              },
+              {
+                "stage": "Vai trò",
+                "emotion": "positive",
+                "action": "Tạo dựng nền tảng thể lực, tăng cường sức khỏe tuần hoàn, hô hấp và định hình sự phát triển hệ cơ xương khớp.",
+                "painPoint": "Quan niệm sai lầm rằng điền kinh không có tác dụng hỗ trợ kỹ năng chuyên biệt cho các môn thể thao phức tạp khác.",
+                "solution": "Nhận thức điền kinh là bộ môn cung cấp nền tảng vận động cốt lõi để cơ thể thích ứng với mọi dạng vận động chuyên sâu."
+              }
+            ]
+          }
+        },
+        {
           "type": "quiz",
           "title": "Trắc nghiệm",
           "data": {
@@ -173,6 +194,27 @@
           }
         },
         {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Phân loại",
+                "emotion": "neutral",
+                "action": "Hệ thống hóa 4 nhóm môn chính: Chạy, Nhảy, Ném/Đẩy và Đi bộ thể thao dựa trên đặc thù sinh cơ học và quỹ đạo chuyển động.",
+                "painPoint": "Nhầm lẫn các nhóm môn với nhau hoặc không phân định rõ ranh giới kỹ thuật nghiêm ngặt giữa đi bộ thể thao và chạy.",
+                "solution": "Phân loại chính xác dựa trên đặc điểm chu kỳ vận động và động lực học đặc trưng của từng nhóm môn chuyên biệt."
+              },
+              {
+                "stage": "Năm môn",
+                "emotion": "frustration",
+                "action": "Tổ hợp các nội dung thi đấu đan xen (chạy, nhảy, ném) đòi hỏi vận động viên phải phát triển đồng đều đa tố chất thần kinh - cơ.",
+                "painPoint": "Tư duy tập trung quá mức vào một nội dung sở trường, dẫn đến mất cân bằng thể lực toàn diện trong thi đấu đa môn.",
+                "solution": "Áp dụng phương pháp huấn luyện toàn diện, phân phối nền tảng thể lực hợp lý qua từng giai đoạn và nội dung thi đấu."
+              }
+            ]
+          }
+        },
+        {
           "type": "quiz",
           "title": "Trắc nghiệm",
           "data": {
@@ -203,6 +245,27 @@
               {
                 "name": "SEA Games (Khu vực)",
                 "description": "Từ năm 1959. Phát hiện tài năng trẻ. Thái Lan là quốc gia thống trị chung."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Cấu trúc",
+                "emotion": "neutral",
+                "action": "Phân cấp hệ thống giải đấu điền kinh từ cấp độ phong trào, quốc gia, châu lục đến toàn cầu (Olympic, Giải vô địch thế giới).",
+                "painPoint": "Thiếu hiểu biết về tiêu chuẩn chuyên môn và quy chế phân hạng vận động viên ở từng cấp độ giải đấu chuyên nghiệp.",
+                "solution": "Nắm vững điều lệ và hệ thống phân cấp để xây dựng lộ trình thi đấu và điểm rơi phong độ phù hợp với năng lực thực tế."
+              },
+              {
+                "stage": "Tổ chức",
+                "emotion": "negative",
+                "action": "Quy trình vận hành kỹ thuật, công tác trọng tài và giám sát thành tích với độ chính xác cao thông qua hệ thống thiết bị điện tử.",
+                "painPoint": "Coi nhẹ vai trò của luật lệ thi đấu và công tác trọng tài, dẫn đến vi phạm quy chế kỹ thuật xuất phát hoặc trên đường chạy.",
+                "solution": "Tuân thủ tuyệt đối luật điền kinh quốc tế (IAAF) và chuẩn hóa mọi thao tác kỹ thuật từ chuẩn bị, xuất phát đến khi về đích."
               }
             ]
           }
@@ -251,6 +314,27 @@
           }
         },
         {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Cổ đại",
+                "emotion": "neutral",
+                "action": "Khởi nguồn từ nhu cầu sinh tồn, săn bắt và các kỳ Olympic cổ đại tại Hy Lạp với tư cách là thước đo sức mạnh thể chất con người.",
+                "painPoint": "Xem lịch sử điền kinh chỉ là những tư liệu thần thoại cổ xưa không mang tính ứng dụng vào thực tiễn huấn luyện hiện tại.",
+                "solution": "Phân tích sự tiến hóa của vận động tự nhiên thành các quy chuẩn thi đấu sơ khai mang tính rèn luyện quân sự và nghi lễ."
+              },
+              {
+                "stage": "Hiện đại",
+                "emotion": "positive",
+                "action": "Sự phục hưng của Olympic và quá trình khoa học hóa các phương pháp huấn luyện, thiết bị điền kinh từ thế kỷ 19 đến nay.",
+                "painPoint": "Mặc định kỷ lục thể thao chỉ dựa vào tố chất tự nhiên cá nhân thay vì sự tiến bộ của khoa học thể thao và vật liệu tiên tiến.",
+                "solution": "Đánh giá toàn diện vai trò của sinh cơ học, dinh dưỡng học và công nghệ thiết bị trong việc liên tục phá vỡ giới hạn con người."
+              }
+            ]
+          }
+        },
+        {
           "type": "quiz",
           "title": "Trắc nghiệm",
           "data": {
@@ -286,6 +370,27 @@
           }
         },
         {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Khởi động chung",
+                "emotion": "neutral",
+                "action": "Tăng cường tuần hoàn máu, làm nóng toàn bộ cơ thể và bôi trơn các khớp thông qua hệ thống bài tập kéo giãn và vận động nhẹ nhàng.",
+                "painPoint": "Rút ngắn hoặc bỏ qua hoàn toàn giai đoạn này do chủ quan, dẫn đến hệ thần kinh và cơ bắp chưa sẵn sàng tiếp nhận lượng vận động lớn.",
+                "solution": "Tuân thủ quy trình từ trên xuống dưới, từ trung tâm ra ngoại vi nhằm kích hoạt toàn diện hệ thống thần kinh và cơ xương khớp."
+              },
+              {
+                "stage": "Chuyên môn",
+                "emotion": "frustration",
+                "action": "Thực hiện các bài tập bổ trợ mô phỏng kỹ thuật thi đấu nhằm củng cố cung phản xạ có điều kiện và làm nóng nhóm cơ chủ đạo.",
+                "painPoint": "Đồng nhất khởi động chung và khởi động chuyên môn, thực hiện các động tác sai lệch không liên quan đến đặc thù nội dung tập luyện.",
+                "solution": "Lựa chọn bài tập có cấu trúc động lực học tương đồng với kỹ thuật chính yếu để tối ưu hóa hiệu suất và phòng ngừa chấn thương."
+              }
+            ]
+          }
+        },
+        {
           "type": "quiz",
           "title": "Trắc nghiệm",
           "data": {
@@ -316,6 +421,27 @@
               {
                 "title": "Tư thế chuẩn",
                 "description": "Định hình tư thế vận động chính xác và thói quen thể thao hằng ngày."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Thể dục",
+                "emotion": "positive",
+                "action": "Rèn luyện tư thế chuẩn xác, phát triển sự phối hợp vận động nhịp nhàng và năng lực thẩm mỹ trong thể thao.",
+                "painPoint": "Tập luyện qua loa đại khái, chỉ chú trọng đến số lượng thay vì biên độ và tính chính xác sinh cơ học của từng chuyển động.",
+                "solution": "Đặt yêu cầu cao về tính kỷ luật cơ thể, sự đồng bộ và mức độ hoàn thiện kỹ thuật trong từng nhịp điệu vận động."
+              },
+              {
+                "stage": "Đội hình",
+                "emotion": "neutral",
+                "action": "Rèn luyện ý thức tổ chức kỷ luật, tác phong khẩn trương và khả năng phối hợp nhịp nhàng chuẩn xác trong môi trường tập thể.",
+                "painPoint": "Xem nhẹ các khẩu lệnh chỉ huy và động tác đội ngũ, dẫn đến sự thiếu đồng bộ và mất trật tự không gian trong quá trình tập hợp.",
+                "solution": "Tập trung tuyệt đối vào mệnh lệnh, hình thành phản xạ thần kinh nhanh và ý thức vị trí không gian trong một khối tập thể thống nhất."
               }
             ]
           }
@@ -360,6 +486,27 @@
           }
         },
         {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Cấu trúc bài",
+                "emotion": "neutral",
+                "action": "Trình tự sắp xếp khoa học 9 động tác nhằm tác động toàn diện lên các nhóm cơ cơ bản của cơ thể theo đúng quy luật sinh lý học.",
+                "painPoint": "Ghi nhớ máy móc hoặc đảo lộn thứ tự các động tác làm phá vỡ và mất đi hiệu quả tác động sinh lý liên hoàn của bài tập.",
+                "solution": "Hiểu rõ cơ sở giải phẫu học của từng động tác để nắm bắt nguyên lý logic nội tại trong cấu trúc toàn bộ bài thể dục."
+              },
+              {
+                "stage": "Kỹ thuật",
+                "emotion": "frustration",
+                "action": "Bảo đảm biên độ, phương hướng và nhịp độ vận động chuẩn xác tại từng pha chuyển động của tất cả 9 động tác cấu thành.",
+                "painPoint": "Lỏng lẻo trong việc kiểm soát các ổ khớp, thực hiện động tác thiếu tính vươn ép tối đa và không đủ sức căng cơ bắp cần thiết.",
+                "solution": "Duy trì độ căng tĩnh và tính nhịp điệu ổn định, kết hợp hài hòa giữa sức mạnh bột phát và độ dẻo dai của cơ xương khớp."
+              }
+            ]
+          }
+        },
+        {
           "type": "quiz",
           "title": "Trắc nghiệm",
           "data": {
@@ -390,6 +537,27 @@
               {
                 "title": "Quy tắc Thở ra",
                 "description": "Thực hiện khi gập thân, cúi đầu, tay bắt chéo ép bụng (ép cơ hoành)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Nguyên lý thở",
+                "emotion": "neutral",
+                "action": "Tuân thủ quy luật hít vào khi lồng ngực mở rộng và thở ra khi cơ thể thu hẹp hoặc nén lại trong từng chu kỳ động tác.",
+                "painPoint": "Nín thở trong quá trình dùng sức hoặc thở ngược nhịp sinh lý tự nhiên, gây ra tình trạng thiếu hụt oxy cục bộ và nhanh mệt mỏi.",
+                "solution": "Tự động hóa quá trình hô hấp theo nguyên lý cơ học lồng ngực để duy trì sự trao đổi khí tối ưu trong suốt quá trình vận động."
+              },
+              {
+                "stage": "Phối hợp",
+                "emotion": "negative",
+                "action": "Đồng bộ hóa nhịp độ thở sâu với chu kỳ 8 nhịp của bài thể dục nhằm tối đa hóa hiệu suất chuyển hóa năng lượng hiếu khí.",
+                "painPoint": "Mất kiểm soát nhịp thở khi tốc độ thực hiện động tác tăng nhanh, dẫn đến rối loạn nhịp tim và phá vỡ cấu trúc nhịp điệu bài tập.",
+                "solution": "Chủ động điều tiết nhịp thở sâu và đều đặn, lấy chu kỳ hô hấp làm thước đo chuẩn mực cho nhịp điệu thực hiện động tác."
               }
             ]
           }
@@ -434,6 +602,27 @@
           }
         },
         {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Tập hợp",
+                "emotion": "neutral",
+                "action": "Kỹ năng định hình hàng ngũ nhanh chóng (hàng dọc, hàng ngang) dựa trên điểm chuẩn xác định và khẩu lệnh của người chỉ huy.",
+                "painPoint": "Thiếu quan sát điểm chuẩn, xô đẩy nhau và không duy trì đúng cự ly, giãn cách tiêu chuẩn theo quy định của đội hình.",
+                "solution": "Phản xạ tức thời với khẩu lệnh, sử dụng phương pháp căn chỉnh bằng mắt và khuỷu tay để hình thành cự ly không gian chuẩn xác."
+              },
+              {
+                "stage": "Di chuyển",
+                "emotion": "negative",
+                "action": "Thực hiện các động tác quay tĩnh, đi đều và chạy đều nhằm bảo đảm tính thống nhất và nhịp nhàng của toàn bộ tập thể.",
+                "painPoint": "Lệch nhịp bước chân hoặc mất thăng bằng cơ thể khi chuyển hướng trọng tâm đột ngột trong quá trình hành tiến tập thể.",
+                "solution": "Nắm vững kỹ thuật chuyển dịch trọng tâm và cảm nhận nhịp điệu tập thể để duy trì cấu trúc đội hình ổn định trong khi di chuyển."
+              }
+            ]
+          }
+        },
+        {
           "type": "quiz",
           "title": "Trắc nghiệm",
           "data": {
@@ -468,6 +657,27 @@
               {
                 "title": "Thiếu hồi tĩnh",
                 "description": "Nếu không thả lỏng tay chân ở động tác Điều hòa, acid lactic sẽ ứ đọng gây nhức mỏi."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Chẩn đoán",
+                "emotion": "negative",
+                "action": "Phân tích cơ chế phát sinh các sai lệch kỹ thuật phổ biến dựa trên nền tảng khoa học sinh cơ học và tâm lý học vận động.",
+                "painPoint": "Chủ quan đổ lỗi cho ngoại cảnh thay vì nghiêm túc phân tích nguyên nhân cốt lõi từ sự thiếu đồng bộ thần kinh - cơ.",
+                "solution": "Chủ động thu thập thông tin phản hồi thị giác và cảm giác bản thể để tinh chỉnh, sửa chữa và định hình lại kỹ thuật chuẩn xác."
+              },
+              {
+                "stage": "Phòng ngừa",
+                "emotion": "frustration",
+                "action": "Áp dụng nghiêm ngặt các nguyên tắc khởi động, hồi tĩnh và tuần tự nâng cao khối lượng để loại trừ triệt để nguy cơ vi chấn thương.",
+                "painPoint": "Đốt cháy giai đoạn huấn luyện, lạm dụng sức mạnh bộc phát khi cấu trúc cơ thể chưa đạt đến trạng thái thích nghi sinh lý.",
+                "solution": "Thiết lập kỷ luật huấn luyện chặt chẽ, tuân thủ nghiêm ngặt nguyên tắc cá biệt hóa và bảo đảm quá trình hồi phục sinh lý đầy đủ."
               }
             ]
           }
@@ -512,6 +722,34 @@
           }
         },
         {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Xuất phát",
+                "emotion": "negative",
+                "action": "Quá trình phá vỡ trạng thái tĩnh để chuyển sang trạng thái động cơ với gia tốc cực đại trong khoảng thời gian ngắn nhất.",
+                "painPoint": "Nâng trọng tâm cơ thể lên quá sớm hoặc góc đạp ngả về sau, triệt tiêu lực đẩy quán tính tuyến tính và giảm gia tốc ban đầu.",
+                "solution": "Duy trì góc nghiêng tối ưu của thân người, tập trung toàn bộ lực tĩnh tại điểm tựa bàn đạp để tối đa hóa sức mạnh bùng nổ."
+              },
+              {
+                "stage": "Giữa quãng",
+                "emotion": "neutral",
+                "action": "Giai đoạn duy trì vận tốc cực đại thông qua việc tối ưu hóa tần số bước và độ dài sải chân kết hợp kỹ thuật đánh tay đồng bộ.",
+                "painPoint": "Căng cứng hệ cơ toàn thân, tiếp đất bằng cả bàn chân gây hiện tượng hãm lực và tiêu hao lượng lớn năng lượng vô ích.",
+                "solution": "Đạt trạng thái thả lỏng cơ bắp có chủ đích, tiếp đất linh hoạt bằng nửa trước bàn chân và duy trì chuyển động tịnh tiến nhịp nhàng."
+              },
+              {
+                "stage": "Về đích",
+                "emotion": "frustration",
+                "action": "Kỹ thuật rướn ngực hoặc vai chạm dải băng đích kết hợp chặt chẽ với việc duy trì tốc độ tối đa cho đến khi hoàn thành cự ly.",
+                "painPoint": "Chủ quan giảm tốc độ đột ngột ngay trước vạch đích do tâm lý thỏa mãn sớm hoặc phán đoán sai lệch khoảng cách còn lại.",
+                "solution": "Tập trung ý chí vượt qua vạch đích ở trạng thái gia tốc lớn nhất, chỉ thực hiện động tác giảm tốc sau khi thân trên đã hoàn toàn qua vạch."
+              }
+            ]
+          }
+        },
+        {
           "type": "quiz",
           "title": "Trắc nghiệm",
           "data": {
@@ -551,6 +789,27 @@
           }
         },
         {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Sức mạnh",
+                "emotion": "neutral",
+                "action": "Tập trung vào khả năng phát lực tối đa của cơ bắp, đặc biệt là nhóm cơ thân dưới.",
+                "painPoint": "Chú trọng khối lượng tạ thay vì kỹ thuật chuyển động, dẫn đến nguy cơ chấn thương cao.",
+                "solution": "Ưu tiên kỹ thuật chính xác tuyệt đối, tăng tiến dần khối lượng và biên độ chuyển động."
+              },
+              {
+                "stage": "Tốc độ",
+                "emotion": "frustration",
+                "action": "Cải thiện tần số và biên độ bước chạy thông qua các bài tập lặp lại cường độ cao.",
+                "painPoint": "Thiếu thời gian nghỉ ngơi đầy đủ giữa các tổ hợp, khiến hệ thần kinh trung ương quá tải.",
+                "solution": "Đảm bảo thời gian phục hồi tiêu chuẩn, duy trì cường độ cực đại trong thời gian ngắn."
+              }
+            ]
+          }
+        },
+        {
           "type": "quiz",
           "title": "Trắc nghiệm",
           "data": {
@@ -581,6 +840,27 @@
               {
                 "name": "Chạy!",
                 "description": "Đạp mạnh chân sau ra trước, lập tức đạp bứt tốc chân trước. Tuyệt đối không đứng dựng lên ngay."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Vào chỗ",
+                "emotion": "neutral",
+                "action": "Cố định vị trí và phân bố trọng tâm cơ thể một cách ổn định lên các điểm tựa trên bàn đạp.",
+                "painPoint": "Đặt khoảng cách tay quá rộng hoặc hông nâng quá cao, làm mất trạng thái cân bằng tĩnh.",
+                "solution": "Duy trì góc độ hông và đầu gối theo chuẩn sinh cơ học, vai đổ nhẹ về phía trước vạch xuất phát."
+              },
+              {
+                "stage": "Chạy lao",
+                "emotion": "positive",
+                "action": "Đạp mạnh rời khỏi bàn đạp, duy trì góc nghiêng cơ thể thấp để đạt gia tốc lớn nhất.",
+                "painPoint": "Ngẩng đầu và nâng thân người lên quá sớm, tạo ra lực cản khí động học lớn.",
+                "solution": "Duy trì góc nghiêng thân người, nâng dần trọng tâm lên sau các bước tiếp theo."
               }
             ]
           }
@@ -621,6 +901,27 @@
           }
         },
         {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Góc đạp sau",
+                "emotion": "neutral",
+                "action": "Đạt góc độ tối ưu để truyền toàn bộ lực đẩy từ chi dưới xuống bề mặt đường chạy.",
+                "painPoint": "Đạp sau quá ngắn hoặc góc quá lớn, làm suy giảm véc-tơ lực đẩy ngang.",
+                "solution": "Duỗi thẳng hoàn toàn các khớp hông, khớp gối và cổ chân ở pha cuối của nhịp đạp sau."
+              },
+              {
+                "stage": "Tần số bước",
+                "emotion": "negative",
+                "action": "Tối ưu hoá thời gian tiếp xúc mặt đất và chu kỳ bay trên không của vận động viên.",
+                "painPoint": "Đánh tay sai nhịp điệu hoặc tiếp đất bằng gót chân trước, tạo ra lực hãm cơ học.",
+                "solution": "Tiếp xúc đất bằng nửa trước bàn chân, kết hợp đánh tay đồng bộ với nhịp chân."
+              }
+            ]
+          }
+        },
+        {
           "type": "quiz",
           "title": "Trắc nghiệm",
           "data": {
@@ -651,6 +952,27 @@
               {
                 "title": "Cản trở",
                 "description": "Tác động vật lý xô đẩy, kéo áo, cản bước chạy của đối thủ."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Lỗi xuất phát",
+                "emotion": "frustration",
+                "action": "Nhận thức rõ quy định về ngưỡng thời gian phản ứng hợp lệ trước tiếng súng hiệu lệnh.",
+                "painPoint": "Xuất hiện chuyển động sớm (dưới 0.1 giây) do áp lực tâm lý thi đấu căng thẳng.",
+                "solution": "Duy trì trạng thái tĩnh tại tuyệt đối, chỉ thực hiện phản xạ khi có âm thanh hiệu lệnh phát ra."
+              },
+              {
+                "stage": "Xâm phạm làn",
+                "emotion": "negative",
+                "action": "Tuân thủ nghiêm ngặt quy định chạy trong giới hạn làn đường được phân công.",
+                "painPoint": "Dẫm lên vạch kẻ hoặc lấn sang làn lân cận khi thực hiện phần chạy ở đoạn vòng.",
+                "solution": "Chạy sát mép vạch trong nhưng không dẫm lên vạch, kiểm soát tốt tốc độ ly tâm."
               }
             ]
           }
@@ -699,6 +1021,27 @@
           }
         },
         {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Thành tựu",
+                "emotion": "positive",
+                "action": "Nắm bắt các kỷ lục thế giới và sự tiến bộ về thành tích của nền điền kinh nhân loại.",
+                "painPoint": "Ghi nhớ sai lệch các mốc thời gian hoặc nhầm lẫn giữa các nội dung cự ly thi đấu.",
+                "solution": "Hệ thống hoá các kỷ lục một cách khoa học theo từng giai đoạn lịch sử và cự ly cụ thể."
+              },
+              {
+                "stage": "Kỹ thuật",
+                "emotion": "neutral",
+                "action": "Phân tích sự vượt trội về hình thái và kỹ thuật sinh cơ học của các vận động viên ưu tú.",
+                "painPoint": "Sao chép mù quáng kỹ thuật của vận động viên đỉnh cao mà không xét đến thể trạng.",
+                "solution": "Nghiên cứu nguyên lý kỹ thuật cốt lõi để áp dụng linh hoạt, phù hợp với thể trạng cá nhân."
+              }
+            ]
+          }
+        },
+        {
           "type": "quiz",
           "title": "Trắc nghiệm",
           "data": {
@@ -738,6 +1081,27 @@
           }
         },
         {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Phân phối",
+                "emotion": "frustration",
+                "action": "Quản lý năng lượng tiêu hao một cách hợp lý theo từng giai đoạn của cự ly chạy.",
+                "painPoint": "Khởi đầu với tốc độ quá cao dẫn đến tình trạng suy kiệt năng lượng yếm khí sớm.",
+                "solution": "Tuân thủ chiến thuật phân phối tốc độ đồng đều hoặc áp dụng chiến thuật âm (negative split)."
+              },
+              {
+                "stage": "Sức bền",
+                "emotion": "negative",
+                "action": "Nâng cao ngưỡng chịu đựng yếm khí và cải thiện công suất hấp thụ oxy tối đa (VO2 max).",
+                "painPoint": "Chỉ tập trung vào các cự ly ngắn, bỏ qua hệ thống bài tập chạy dài và chạy tempo.",
+                "solution": "Kết hợp hài hoà giữa chạy biến tốc (interval) và chạy dài để ổn định hệ tâm phế."
+              }
+            ]
+          }
+        },
+        {
           "type": "quiz",
           "title": "Trắc nghiệm",
           "data": {
@@ -768,6 +1132,27 @@
               {
                 "title": "Cự ly 1500m trở lên",
                 "description": "Xuất phát chung trên đường vạch cong, không phân chia làn đường riêng biệt."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Luật nhập làn",
+                "emotion": "neutral",
+                "action": "Nắm vững quy định về vị trí và thời điểm được phép di chuyển cắt vào làn chạy phía trong.",
+                "painPoint": "Cắt làn quá sớm hoặc cản trở lộ trình di chuyển hợp lệ của vận động viên khác.",
+                "solution": "Quan sát kỹ lưỡng và chỉ thực hiện chuyển làn sau khi đã vượt qua vạch quy định."
+              },
+              {
+                "stage": "Chiến thuật",
+                "emotion": "positive",
+                "action": "Lựa chọn vị trí di chuyển thuận lợi nhất khi tham gia chạy chung trên một làn đường.",
+                "painPoint": "Chạy quá sát lề ngoài gây tăng tổng cự ly hoặc bị bao vây bởi nhóm vận động viên khác.",
+                "solution": "Duy trì khoảng cách bám đuổi an toàn hợp lý, luôn chuẩn bị không gian trống để bứt tốc."
               }
             ]
           }
@@ -804,6 +1189,27 @@
           }
         },
         {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Cơ chế 2-2",
+                "emotion": "neutral",
+                "action": "Thực hiện chu kỳ hít vào hai bước và thở ra hai bước, áp dụng cho cường độ trung bình cao.",
+                "painPoint": "Thực hiện thao tác thở nông và không đều đặn, gây ra tình trạng thiếu hụt oxy cục bộ.",
+                "solution": "Thở bằng cơ hoành một cách sâu sắc, đồng bộ nhịp nhàng với tần số bước chạy."
+              },
+              {
+                "stage": "Cơ chế 3-3",
+                "emotion": "positive",
+                "action": "Thực hiện chu kỳ hít vào ba bước và thở ra ba bước, dành cho giai đoạn khởi động hoặc chạy chậm.",
+                "painPoint": "Cố gắng duy trì nhịp 3-3 khi tốc độ đã tăng cao, dẫn đến tình trạng nợ oxy nghiêm trọng.",
+                "solution": "Chủ động và linh hoạt chuyển đổi sang nhịp 2-2 hoặc 2-1 khi tần số nhịp tim tăng."
+              }
+            ]
+          }
+        },
+        {
           "type": "quiz",
           "title": "Trắc nghiệm",
           "data": {
@@ -830,6 +1236,27 @@
               {
                 "title": "Quy tắc chạm đích",
                 "description": "Thành tích CHỈ ĐƯỢC TÍNH khi phần Thân (Ngực) đi qua mặt phẳng thẳng đứng của vạch đích. Tay, chân, đầu chạm dây không có hiệu lực."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Động tác",
+                "emotion": "neutral",
+                "action": "Thực hiện kỹ thuật gập sâu ngực hoặc đánh vai khi lao qua vạch đích.",
+                "painPoint": "Giảm tốc độ ngay trước khi qua vạch đích hoặc thực hiện động tác nhảy lên không trung.",
+                "solution": "Duy trì tốc độ tối đa liên tục cho đến khi vượt qua vạch đích từ 5 đến 10 mét."
+              },
+              {
+                "stage": "Thứ hạng",
+                "emotion": "negative",
+                "action": "Nhận biết nguyên lý hoạt động của hệ thống quang điện tử khi đo thời gian qua mặt phẳng đích.",
+                "painPoint": "Nhầm tưởng rằng chân, tay hoặc đầu chạm vạch đích trước sẽ được tính thành tích.",
+                "solution": "Hiểu rõ phần thân mình (không bao gồm đầu, tay, chân) mới là điểm xác định hợp lệ."
               }
             ]
           }
@@ -865,6 +1292,27 @@
               {
                 "title": "Biểu tượng Vàng Nam",
                 "description": "Hoàng Nguyên Thanh (HCV Marathon SEA Games đầu tiên của VN). Nguyễn Văn Lai (Thống trị 5000m). Nguyễn Tiến Cường (VĐV đầu tiên giành HCV)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Đóng góp",
+                "emotion": "positive",
+                "action": "Đánh giá đúng tầm quan trọng của các thành tích quốc tế đối với nền thể thao quốc gia.",
+                "painPoint": "Đánh giá thấp các thành tựu ở đấu trường khu vực khi so sánh với tiêu chuẩn Olympic.",
+                "solution": "Phân tích thành tích gắn liền với bối cảnh và điều kiện phát triển thể thao thực tế trong nước."
+              },
+              {
+                "stage": "Sự nghiệp",
+                "emotion": "neutral",
+                "action": "Phân tích khách quan lộ trình phát triển và yếu tố chuyên môn của các vận động viên tiêu biểu.",
+                "painPoint": "Chỉ chú trọng vào huy chương mà bỏ qua quá trình tập luyện gian khổ và hy sinh thầm lặng.",
+                "solution": "Rút ra bài học sâu sắc về ý chí, tinh thần thép và sự bền bỉ trong quá trình rèn luyện."
               }
             ]
           }
