@@ -130,6 +130,27 @@
           }
         },
         {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Phần Cứng",
+                "emotion": "neutral",
+                "action": "Các thành phần vật lý hữu hình cấu thành hệ thống máy tính, bao gồm bộ vi xử lý trung tâm (CPU), bộ nhớ (RAM, ROM) và các thiết bị ngoại vi.",
+                "painPoint": "Đồng nhất khái niệm bộ nhớ trong (RAM) với thiết bị lưu trữ ngoài (Ổ đĩa), dẫn đến sự nhầm lẫn về chức năng và giới hạn truy xuất dữ liệu.",
+                "solution": "Phân định chức năng dựa trên nguyên lý vật lý: bộ nhớ trong xử lý dữ liệu tức thời và khả biến, trong khi thiết bị ngoài phục vụ lưu trữ dữ liệu vĩnh viễn."
+              },
+              {
+                "stage": "Phần Mềm",
+                "emotion": "frustration",
+                "action": "Hệ thống các chương trình và tập lệnh điều khiển tài nguyên tính toán, phân loại thành phần mềm hệ thống (Hệ điều hành) và phần mềm ứng dụng.",
+                "painPoint": "Không phân tách được vai trò nền tảng bắt buộc của hệ điều hành so với tính chất chuyên biệt của phần mềm ứng dụng.",
+                "solution": "Tiếp cận hệ thống theo mô hình phân tầng: phần cứng là cơ sở vật lý, hệ điều hành là lớp giao tiếp trung gian và ứng dụng nằm ở lớp tiếp xúc người dùng."
+              }
+            ]
+          }
+        },
+        {
           "type": "quiz",
           "title": "Luyện Đề - Cấu Trúc Máy Tính Điện Tử",
           "data": {
@@ -174,6 +195,27 @@
               {
                 "title": "Dịch vụ truyền thông",
                 "description": "Hội nghị trực tuyến (Video Conference), Email, VoIP, SMS."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Kiến Trúc",
+                "emotion": "neutral",
+                "action": "Hệ thống kết nối thiết bị tính toán nhằm mục đích chia sẻ tài nguyên, được phân loại theo phạm vi địa lý (LAN, WAN, MAN) và cấu trúc liên kết.",
+                "painPoint": "Cho rằng sự khác biệt giữa mạng LAN và WAN chỉ phụ thuộc vào số lượng thiết bị đầu cuối thay vì cơ sở hạ tầng truyền dẫn.",
+                "solution": "Đánh giá các mô hình mạng dựa trên tiêu chuẩn kiến trúc hạ tầng, giao thức truyền tải và giới hạn không gian địa lý của kết nối."
+              },
+              {
+                "stage": "Giao Thức",
+                "emotion": "negative",
+                "action": "Bộ quy tắc tiêu chuẩn hóa quy định phương thức dữ liệu được đóng gói, định tuyến và truyền tải giữa các nút mạng.",
+                "painPoint": "Nhầm lẫn giữa định danh vật lý (Địa chỉ MAC) và định danh logic (Địa chỉ IP) trong quá trình thiết lập liên kết truyền thông.",
+                "solution": "Phân tích mô hình tham chiếu (OSI hoặc TCP/IP) để làm rõ chức năng định tuyến của tầng mạng và chức năng truy cập môi trường của tầng liên kết dữ liệu."
               }
             ]
           }
@@ -237,6 +279,27 @@
           }
         },
         {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Cấu Trúc",
+                "emotion": "neutral",
+                "action": "Phương pháp tổ chức dữ liệu theo mô hình phân cấp dạng cây thư mục, đảm bảo tính logic và thuận tiện cho quá trình quản trị hệ thống.",
+                "painPoint": "Lưu trữ dữ liệu thiếu tính phân tầng không gian, dẫn đến tình trạng phân mảnh logic và khó khăn trong việc truy xuất dữ liệu quy margin lớn.",
+                "solution": "Xây dựng quy tắc phân loại thư mục đa cấp dựa trên đặc tính dữ liệu hoặc quy trình nghiệp vụ, kết hợp hệ thống định danh đồng nhất."
+              },
+              {
+                "stage": "Thuộc Tính",
+                "emotion": "frustration",
+                "action": "Các siêu dữ liệu (metadata) mô tả đặc tính tập tin, bao gồm phần mở rộng (format), quyền hạn truy xuất và thuộc tính hệ thống.",
+                "painPoint": "Thay đổi hoặc xóa bỏ phần mở rộng của tập tin, khiến hệ điều hành mất khả năng tham chiếu đến ứng dụng xử lý thích hợp.",
+                "solution": "Quản trị tập tin thông qua việc nắm vững các định dạng tiêu chuẩn và cấu hình hiển thị phần mở rộng trong hệ điều hành để kiểm soát tập tin chặt chẽ."
+              }
+            ]
+          }
+        },
+        {
           "type": "quiz",
           "title": "Luyện Đề - Quản Lý Tập Tin",
           "data": {
@@ -290,6 +353,27 @@
           }
         },
         {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Bảng Mã Ký Tự",
+                "emotion": "negative",
+                "action": "Nguyên lý hoạt động của bộ gõ và sự phối hợp giữa kiểu gõ (Telex, VNI) cùng các bảng mã chuẩn (Unicode, VNI, TCVN3) trong văn bản.",
+                "painPoint": "Sử dụng bảng mã không tương thích với bộ phông chữ, gây ra hiện tượng lỗi hiển thị ký tự (mojibake) trên tài liệu số.",
+                "solution": "Thiết lập nguyên tắc ánh xạ chuẩn xác: bảng mã Unicode đi kèm phông chữ tiêu chuẩn quốc tế (Arial, Times New Roman), bảng mã VNI đi kèm phông chữ VNI-."
+              },
+              {
+                "stage": "Nén Dữ Liệu",
+                "emotion": "positive",
+                "action": "Kỹ thuật tối ưu hóa dung lượng lưu trữ thông qua thuật toán mã hóa tập tin, phục vụ cho quá trình truyền tải và bảo quản dữ liệu.",
+                "painPoint": "Thực thi thuật toán nén lặp lại trên các tập tin vốn đã được tối ưu hóa (như định dạng JPEG, MP4), gây tiêu tốn tài nguyên hệ thống vô ích.",
+                "solution": "Phân biệt bản chất của phương pháp nén bảo toàn (Lossless) và nén hao hụt (Lossy) để áp dụng phù hợp với từng định dạng tài nguyên."
+              }
+            ]
+          }
+        },
+        {
           "type": "quiz",
           "title": "Luyện Đề - Phần Mềm Tiện Ích",
           "data": {
@@ -337,6 +421,27 @@
           }
         },
         {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Thiết Lập Trang",
+                "emotion": "neutral",
+                "action": "Cấu hình các tham số vật lý của trang tài liệu, bao gồm chuẩn kích thước giấy, định hướng không gian và giới hạn lề biên.",
+                "painPoint": "Bỏ qua bước chuẩn hóa kích thước giấy (giữ mặc định Letter), dẫn đến sai lệch cấu trúc dàn trang khi xuất bản tài liệu ra định dạng in ấn.",
+                "solution": "Khởi tạo tham số trang chuẩn mực (thường là A4) ngay trước khi tiến hành quy trình soạn thảo để đồng bộ hóa không gian thiết kế và thành phẩm vật lý."
+              },
+              {
+                "stage": "Định Dạng",
+                "emotion": "frustration",
+                "action": "Hệ thống hóa cấu trúc trình bày văn bản thông qua việc thiết lập thuộc tính ký tự, quy chuẩn đoạn văn và khoảng cách kỹ thuật.",
+                "painPoint": "Sử dụng phím khoảng trắng (Space) để căn lề hoặc phím ngắt dòng (Enter) để tạo khoảng cách đoạn, phá vỡ tính nguyên vẹn của bố cục tự động.",
+                "solution": "Áp dụng các công cụ căn chỉnh chuẩn xác (Ruler, Tab Stop) và thuộc tính Paragraph Spacing để duy trì cấu trúc động linh hoạt của tài liệu."
+              }
+            ]
+          }
+        },
+        {
           "type": "quiz",
           "title": "Luyện Đề - Cài Đặt Trang",
           "data": {
@@ -375,6 +480,27 @@
               {
                 "title": "Chú thích",
                 "description": "Footnote (cuối trang hiện tại) và Endnote (cuối toàn bộ tài liệu)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Đối Tượng",
+                "emotion": "negative",
+                "action": "Quá trình nhúng và điều hướng các thành phần trực quan (hình ảnh, hình khối) tích hợp vào luồng văn bản chính.",
+                "painPoint": "Mất khả năng kiểm soát tọa độ không gian của đối tượng đồ họa khi luồng văn bản thay đổi, do sử dụng sai thuộc tính ngắt dòng.",
+                "solution": "Xác định rõ bản chất tương tác giữa đối tượng và văn bản, sau đó thiết lập tham số Text Wrapping tương ứng (In Line, Square, Tight) để neo giữ đối tượng."
+              },
+              {
+                "stage": "Cấu Trúc Bảng",
+                "emotion": "neutral",
+                "action": "Thiết kế hệ thống ma trận dữ liệu phân cấp theo hàng/cột nhằm mục đích trình bày thông tin có cấu trúc tương quan rõ ràng.",
+                "painPoint": "Áp dụng kỹ thuật hợp nhất (Merge) hoặc chia tách (Split) ô một cách tùy tiện, làm phá vỡ tính tuyến tính của ma trận bảng biểu.",
+                "solution": "Phân tích trước sơ đồ cấu trúc ma trận dữ liệu tổng quát, thực hiện thao tác tạo bảng cơ sở trước khi tùy biến các ô phức hợp cục bộ."
               }
             ]
           }
@@ -465,6 +591,27 @@
           }
         },
         {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Phân Loại Hàm",
+                "emotion": "neutral",
+                "action": "Nắm vững cú pháp, tham số cấu trúc của các nhóm hàm logic, chuỗi, ngày tháng và tìm kiếm.",
+                "painPoint": "Lầm tưởng tham số giữa các hàm tương đồng, không phân biệt được giá trị trả về của hàm logic và hàm văn bản.",
+                "solution": "Phân tích cú pháp độc lập cho từng hàm, xác định rõ kiểu dữ liệu đầu vào và kết quả đầu ra mong muốn trước khi áp dụng."
+              },
+              {
+                "stage": "Tham Chiếu Dữ Liệu",
+                "emotion": "frustration",
+                "action": "Phân biệt tham chiếu tương đối, tuyệt đối và hỗn hợp, ứng dụng chính xác khi sao chép công thức.",
+                "painPoint": "Cố định sai thành phần dòng hoặc cột, dẫn đến kết quả sai lệch hàng loạt khi tiến hành kéo công thức.",
+                "solution": "Áp dụng phím F4 để quan sát sự thay đổi ký hiệu đô-la ($), kiểm tra ngẫu nhiên kết quả sau khi sao chép công thức để đối chiếu."
+              }
+            ]
+          }
+        },
+        {
           "type": "quiz",
           "title": "Luyện Đề - Hàm Excel",
           "data": {
@@ -491,6 +638,27 @@
               "title": "Lọc Trích (Advanced Filter)",
               "description": "Bắt buộc tạo Vùng Điều Kiện trước. Các điều kiện VÀ nằm cùng dòng, HOẶC nằm khác dòng."
             }
+          }
+        },
+        {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Sắp Xếp Đa Cấp",
+                "emotion": "positive",
+                "action": "Áp dụng tiêu chí sắp xếp nhiều mức độ (Level) đối với cơ sở dữ liệu để phân nhóm thông tin hiệu quả.",
+                "painPoint": "Bỏ sót các trường dữ liệu quan trọng khi chọn vùng, hoặc sắp xếp sai trình tự ưu tiên giữa tiêu chí chính và tiêu chí phụ.",
+                "solution": "Chọn toàn bộ vùng dữ liệu (bao gồm cả dòng tiêu đề) trước khi thao tác, xác định rõ trình tự ưu tiên của các trường dữ liệu."
+              },
+              {
+                "stage": "Lọc Nâng Cao",
+                "emotion": "negative",
+                "action": "Xây dựng vùng điều kiện (Criteria Range) phức hợp sử dụng các toán tử logic AND, OR một cách chuẩn xác.",
+                "painPoint": "Đặt điều kiện AND và OR sai vị trí dòng/cột trong vùng điều kiện dẫn đến trích xuất thiếu hoặc sai lệch dữ liệu mục tiêu.",
+                "solution": "Tuân thủ nghiêm ngặt nguyên tắc lập vùng điều kiện: Điều kiện AND đặt trên cùng một dòng, điều kiện OR đặt ở các dòng khác nhau."
+              }
+            ]
           }
         },
         {
@@ -528,6 +696,27 @@
               {
                 "title": "Tính Tích Hợp",
                 "description": "Hỗ trợ chèn trực tiếp Excel Spreadsheet, lấy ảnh từ Online Pictures và lưu trữ đám mây OneDrive."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Khởi Tạo Môi Trường",
+                "emotion": "neutral",
+                "action": "Hiểu cấu trúc thanh Ribbon, các chế độ xem (View) và các thao tác định dạng cơ bản của hệ thống PowerPoint.",
+                "painPoint": "Sử dụng sai chế độ xem gây ra khó khăn trong việc chỉnh sửa tổng thể cấu trúc hoặc thực hiện in ấn.",
+                "solution": "Nắm vững mục đích của từng chế độ xem (Normal, Slide Sorter, Notes Page) để chuyển đổi linh hoạt theo từng giai đoạn thiết kế."
+              },
+              {
+                "stage": "Quản Lý Slide",
+                "emotion": "positive",
+                "action": "Thao tác thêm mới, xóa, nhân bản và tái bố cục (Layout) các đối tượng trên trang chiếu một cách chuẩn hóa.",
+                "painPoint": "Thêm văn bản và đối tượng thủ công không thông qua các placeholder định sẵn, phá vỡ tính nhất quán của bài thuyết trình.",
+                "solution": "Sử dụng triệt để các Layout được định nghĩa sẵn, hạn chế tạo các hộp văn bản tự do trừ những trường hợp đặc biệt."
               }
             ]
           }
@@ -609,6 +798,27 @@
           }
         },
         {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Thiết Kế Khuôn Mẫu",
+                "emotion": "frustration",
+                "action": "Sử dụng Slide Master để kiểm soát định dạng, phông chữ và đồ họa đồng nhất cho toàn bộ tập tin trình chiếu.",
+                "painPoint": "Chỉnh sửa trực tiếp trên từng trang chiếu riêng lẻ thay vì can thiệp vào trang Master, dẫn đến mất thời gian và thiếu đồng bộ.",
+                "solution": "Xác định bộ định dạng chung và áp dụng trực tiếp vào trang gốc (Theme Slide Master) trước khi tiến hành thêm nội dung chi tiết."
+              },
+              {
+                "stage": "Điều Hướng",
+                "emotion": "neutral",
+                "action": "Cài đặt các hiệu ứng chuyển trang (Transition), hoạt hình (Animation) và liên kết (Hyperlink) một cách chuyên nghiệp.",
+                "painPoint": "Lạm dụng hiệu ứng gây rối mắt, thiết lập thời gian hoặc thứ tự xuất hiện của đối tượng không hợp lý với kịch bản trình bày.",
+                "solution": "Tiết chế các hiệu ứng động, sử dụng Trigger và Hyperlink để tạo ra cấu trúc điều hướng phi tuyến tính khi thật sự cần thiết."
+              }
+            ]
+          }
+        },
+        {
           "type": "quiz",
           "title": "Luyện Đề - Trình Chiếu",
           "data": {
@@ -671,6 +881,27 @@
           }
         },
         {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Giao Thức Mạng",
+                "emotion": "frustration",
+                "action": "Hiểu vai trò của mô hình kiến trúc mạng và các giao thức truyền tải dữ liệu cơ bản (HTTP, FTP, IP).",
+                "painPoint": "Nhầm lẫn chức năng của các tầng trong mô hình, không phân biệt được bản chất giữa địa chỉ IP và địa chỉ MAC.",
+                "solution": "Nắm vững nguyên lý đóng gói dữ liệu qua từng tầng cũng như các chức năng định tuyến, phân giải tên miền của hệ thống."
+              },
+              {
+                "stage": "Cấu Hình Kết Nối",
+                "emotion": "negative",
+                "action": "Thiết lập các thông số cơ bản (IP tĩnh/động, Subnet Mask, Default Gateway) để gia nhập môi trường mạng cục bộ.",
+                "painPoint": "Nhập sai cấu trúc dải mạng hoặc gây xung đột địa chỉ IP dẫn đến gián đoạn kết nối của các thiết bị trạm.",
+                "solution": "Sử dụng cấp phát IP động (DHCP) trong môi trường thông thường, chỉ chỉ định IP tĩnh đối với các thiết bị mạng cốt lõi."
+              }
+            ]
+          }
+        },
+        {
           "type": "quiz",
           "title": "Luyện Đề - Kiến Trúc Mạng",
           "data": {
@@ -705,6 +936,27 @@
               {
                 "title": "Thao tác cơ bản",
                 "description": "Lưu trang (Ctrl+S), In trang (Ctrl+P), Bookmark đánh dấu (Ctrl+D)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Tìm Kiếm",
+                "emotion": "positive",
+                "action": "Khai thác các toán tử nâng cao để truy vấn và chọn lọc thông tin chính xác trên máy tìm kiếm.",
+                "painPoint": "Sử dụng từ khóa chung chung dẫn đến hàng triệu kết quả không liên quan, tiêu tốn thời gian rà soát thông tin.",
+                "solution": "Áp dụng cú pháp tìm kiếm (ngoặc kép, loại trừ, site:, filetype:) để khoanh vùng và tối ưu hóa kết quả trả về."
+              },
+              {
+                "stage": "An Toàn Mạng",
+                "emotion": "negative",
+                "action": "Đánh giá độ tin cậy của dịch vụ trực tuyến, thiết lập quyền riêng tư và nhận diện các rủi ro bảo mật.",
+                "painPoint": "Truy cập các liên kết độc hại, không phân biệt được chứng chỉ HTTPS hợp lệ và các thủ đoạn lừa đảo trực tuyến (Phishing).",
+                "solution": "Kiểm tra kỹ cấu trúc URL, từ chối tải tập tin từ các nguồn không xác định và duy trì thói quen xóa dữ liệu duyệt web định kỳ."
               }
             ]
           }
