@@ -153,15 +153,15 @@
                 "stage": "Đánh đổi",
                 "emotion": "neutral",
                 "action": "Đánh đổi và chi phí cơ hội.",
-                "painPoint": "Hay quên béng chi phí cơ hội, chỉ cắm đầu nhìn vô chi phí bằng tiền mặt.",
-                "solution": "Trước khi chốt kèo, mày phải tính xem tao bỏ lỡ thứ ngon lành nhất nào để chọn cái này."
+                "painPoint": "Hay bỏ quên chi phí cơ hội, chỉ chỉ tập trung vào chi phí bằng tiền mặt.",
+                "solution": "Trước khi ra quyết định, cần phải tính xem chúng ta bỏ lỡ thứ tốt nhất nào để chọn cái này."
               },
               {
                 "stage": "Thị trường",
                 "emotion": "neutral",
-                "action": "Thị trường tự do và Bàn tay vô hình.",
+                "action": "Thị trường tự do và Bàn tay vào hình.",
                 "painPoint": "Nghĩ thị trường luôn tự điều tiết hoàn hảo hoặc luôn luôn sai lệch.",
-                "solution": "Thị trường phân bổ nguồn lực rất đỉnh, nhưng chính phủ thỉnh thoảng phải nhảy vào chỉnh đốn khi có ngoại ứng hay độc quyền."
+                "solution": "Thị trường phân bổ nguồn lực rất đỉnh, nhưng chính phủ thỉnh thoảng phải can thiệp để điều chỉnh khi có ngoại ứng hay độc quyền."
               }
             ]
           }
@@ -203,14 +203,14 @@
                 "stage": "Phạm vi",
                 "emotion": "neutral",
                 "action": "Lãnh thổ (GDP) đối đầu Quốc tịch (GNP).",
-                "painPoint": "Lẫn lộn giữa công ty ngoại làm ở mình và công ty mình làm ở xứ người.",
-                "solution": "Cứ làm ra trên đất Việt Nam là tọng vô GDP. Còn dân Việt Nam làm ra ở bất cứ đâu thì tính vô GNP."
+                "painPoint": "Lẫn lộn giữa công ty ngoại hoạt động trong nước và công ty mình hoạt động ở nước ngoài.",
+                "solution": "Sản phẩm tạo ra trên đất Việt Nam là tính vào GDP. Còn dân Việt Nam làm ra ở bất cứ đâu thì tính vào GNP."
               },
               {
                 "stage": "Tính toán",
                 "emotion": "negative",
                 "action": "Tính giá trị gia tăng, loại bỏ trung gian.",
-                "painPoint": "Cộng gộp luôn giá trị sản phẩm trung gian gây lỗi tính trùng lặp từa lưa.",
+                "painPoint": "Cộng gộp luôn giá trị sản phẩm trung gian gây lỗi tính trùng lặp nghiêm trọng.",
                 "solution": "Chỉ cộng giá trị hàng hoá cuối cùng hoặc tính tổng giá trị gia tăng (VA) ở từng khâu thôi."
               }
             ]
@@ -270,13 +270,13 @@
                 "emotion": "negative",
                 "action": "Phương pháp chi tiêu (C + I + G + NX).",
                 "painPoint": "Tính nhầm hàng nhập khẩu vào tiêu dùng (C) mà quên trừ ra ở phần xuất khẩu ròng (NX).",
-                "solution": "Phân loại rạch ròi người mua. Hàng nhập khẩu mày đem tiêu thụ thì bắt buộc phải trừ đi ở NX để huề vốn."
+                "solution": "Phân loại rõ ràng người mua. Hàng nhập khẩu chúng ta đem tiêu thụ thì bắt buộc phải trừ đi ở NX để cân bằng."
               },
               {
                 "stage": "Thu nhập",
                 "emotion": "frustration",
                 "action": "Phương pháp thu nhập (w + r + i + p + Ti + De).",
-                "painPoint": "Hay vứt xó 2 khoản không phải thu nhập trực tiếp: Thuế gián thu (Ti) và Khấu hao (De).",
+                "painPoint": "Hay bỏ qua 2 khoản không phải thu nhập trực tiếp: Thuế gián thu (Ti) và Khấu hao (De).",
                 "solution": "Bắt buộc cộng thêm Ti và De thì mới ra đúng tổng chi phí các yếu tố sản xuất thực sự của nền kinh tế."
               }
             ]
@@ -319,8 +319,8 @@
                 "stage": "Bản chất",
                 "emotion": "frustration",
                 "action": "Danh nghĩa (Giá hiện hành) vs Thực tế (Giá gốc).",
-                "painPoint": "Thấy GDP danh nghĩa tăng vù vù tưởng kinh tế đang lên hương, ai dè toàn do lạm phát.",
-                "solution": "Muốn biết thực sự làm ra nhiều hàng hơn không, ép mọi thứ về giá năm gốc (chỉ xài GDP thực)."
+                "painPoint": "Thấy GDP danh nghĩa tăng vù vù tưởng kinh tế đang tăng trưởng mạnh, nhưng thực tế toàn do lạm phát.",
+                "solution": "Muốn biết thực sự làm ra nhiều hàng hơn không, ép mọi thứ về giá năm gốc (chỉ sử dụng GDP thực)."
               },
               {
                 "stage": "Điều chỉnh",
@@ -371,8 +371,8 @@
                 "stage": "Đo lường",
                 "emotion": "negative",
                 "action": "Đo lường tốc độ gia tăng sản lượng.",
-                "painPoint": "Bê nguyên xi GDP danh nghĩa vô công thức tính tốc độ tăng trưởng kinh tế.",
-                "solution": "Chết dở, mày phải xài GDP thực tế để triệt tiêu yếu tố giá mới chuẩn xác."
+                "painPoint": "Bê nguyên xi GDP danh nghĩa vào công thức tính tốc độ tăng trưởng kinh tế.",
+                "solution": "Đây là một sai lầm, cần phải sử dụng GDP thực tế để triệt tiêu yếu tố giá mới chuẩn xác."
               }
             ]
           }
@@ -432,14 +432,14 @@
                 "stage": "Cấu trúc",
                 "emotion": "neutral",
                 "action": "Phân rã Tổng cầu AD = C + I + G + NX.",
-                "painPoint": "Cứ đinh ninh mọi chi tiêu đều phụ thuộc sạch sành sanh vô thu nhập quốc dân (Y).",
-                "solution": "Tách làm 2 cục rạch ròi: Cục tự định (mặc kệ thu nhập) và cục hàm số (phụ thuộc Y)."
+                "painPoint": "Cứ đinh ninh mọi chi tiêu đều phụ thuộc hoàn toàn vào thu nhập quốc dân (Y).",
+                "solution": "Tách làm 2 cục rõ ràng: Phần tự định (mặc kệ thu nhập) và phần phụ thuộc (phụ thuộc Y)."
               },
               {
                 "stage": "Biến động",
                 "emotion": "negative",
                 "action": "Trượt dọc vs Dịch chuyển đường AD.",
-                "painPoint": "Lúc nào đường AD chạy lên xuống, lúc nào nó dịch sang ngang luôn bị rối.",
+                "painPoint": "Lúc nào đường AD di chuyển dọc, lúc nào nó dịch chuyển luôn bị rối.",
                 "solution": "Giá (P) thay đổi -> Trượt dọc. Bất cứ cú sốc nào khác (chi tiêu, đầu tư, xuất khẩu) thay đổi -> Dịch ngang."
               }
             ]
@@ -488,15 +488,15 @@
                 "stage": "Bản chất",
                 "emotion": "frustration",
                 "action": "Bản chất số nhân chi tiêu.",
-                "painPoint": "Không hiểu sao bơm 1 đồng vô lại đẻ ra hơn 1 đồng sản lượng, lại còn hay quên thuế và nhập khẩu dưới mẫu số.",
-                "solution": "Mẫu số là các khoản tiền rò rỉ đi (tiết kiệm, thuế, nhập khẩu). Rò rỉ càng ít, số nhân càng to bự."
+                "painPoint": "Không hiểu sao bơm 1 đồng vào lại đẻ ra hơn 1 đồng sản lượng, lại còn hay quên thuế và nhập khẩu dưới mẫu số.",
+                "solution": "Mẫu số là các khoản tiền rò rỉ đi (tiết kiệm, thuế, nhập khẩu). Rò rỉ càng ít, số nhân càng to lớn."
               },
               {
                 "stage": "Thuế",
                 "emotion": "negative",
                 "action": "Số nhân thuế.",
                 "painPoint": "Tưởng số nhân thuế mang dấu dương giống hệt chi tiêu chính phủ.",
-                "solution": "Thuế hút máu tiền ra khỏi nền kinh tế, nên số nhân phải mang dấu âm. Nhớ gài dấu trừ vô để không làm sai bét."
+                "solution": "Thuế rút tiền ra khỏi nền kinh tế, nên số nhân phải mang dấu âm. Nhớ gài dấu trừ vào để không làm sai lầm."
               }
             ]
           }
@@ -538,8 +538,8 @@
                 "stage": "Ngắn hạn",
                 "emotion": "negative",
                 "action": "Tổng cung ngắn hạn (SRAS).",
-                "painPoint": "Thấy SRAS dốc lên lại tưởng giá tăng thì doanh nghiệp sẽ làm ra hàng vô hạn.",
-                "solution": "Dốc lên chỉ vì lương nhân công chưa kịp tăng theo giá. Hãng có lời chênh lệch nên cắm đầu sản xuất thêm thôi."
+                "painPoint": "Thấy SRAS dốc lên lại tưởng giá tăng thì doanh nghiệp sẽ làm ra hàng vào hạn.",
+                "solution": "Dốc lên chỉ vì lương nhân công chưa kịp tăng theo giá. Hãng có lời chênh lệch nên đẩy mạnh sản xuất thêm thôi."
               },
               {
                 "stage": "Dài hạn",
@@ -588,22 +588,22 @@
                 "stage": "Đường IS",
                 "emotion": "frustration",
                 "action": "Đường IS - Cân bằng hàng hoá.",
-                "painPoint": "Không ráp được mối nối nào khiến Lãi suất (r) đập vô Sản lượng (Y) trên đường IS.",
-                "solution": "r tăng -> Doanh nghiệp dẹp bỏ đầu tư -> Tổng cầu tụt -> Y giảm. Nghịch biến nên IS dốc xuống."
+                "painPoint": "Không ráp được mối nối nào khiến Lãi suất (r) tác động đến Sản lượng (Y) trên đường IS.",
+                "solution": "r tăng -> Doanh nghiệp cắt giảm đầu tư -> Tổng cầu giảm -> Y giảm. Nghịch biến nên IS dốc xuống."
               },
               {
                 "stage": "Đường LM",
                 "emotion": "frustration",
                 "action": "Đường LM - Cân bằng tiền tệ.",
-                "painPoint": "Nhầm lẫn nhân quả, tưởng lãi suất quyết định sản lượng ở thị trường này.",
-                "solution": "Ngược lại! Sản lượng Y tăng -> Dân cần thêm tiền xài -> Cầu tiền ép lãi suất r phải tăng lên. Nên LM dốc lên."
+                "painPoint": "Đảo ngược nhân quả, tưởng lãi suất quyết định sản lượng ở thị trường này.",
+                "solution": "Ngược lại! Sản lượng Y tăng -> Công chúng cần thêm tiền sử dụng -> Cầu tiền làm lãi suất r phải tăng lên. Nên LM dốc lên."
               },
               {
                 "stage": "Phối hợp",
                 "emotion": "negative",
                 "action": "Giao điểm IS-LM: Phối hợp chính sách.",
-                "painPoint": "Khi nhà nước ra đòn, rối trí không biết đường nào chạy, đường nào đứng im.",
-                "solution": "Nhớ kỹ tao dặn: Tài khoá (G, T) pushes đường IS. Tiền tệ (Cung tiền) đẩy đường LM. Cứ thế mà tịnh tiến."
+                "painPoint": "Khi nhà nước ban hành chính sách, lúng túng không biết đường nào chạy, đường nào đứng im.",
+                "solution": "Nhớ kỹ chúng ta dặn: Tài khoá (G, T) dịch chuyển đường IS. Tiền tệ (Cung tiền) đẩy đường LM. Áp dụng để xác định điểm cân bằng mới."
               }
             ]
           }
@@ -655,8 +655,8 @@
                 "stage": "Chu kỳ",
                 "emotion": "neutral",
                 "action": "Các pha dao động quanh xu hướng dài hạn.",
-                "painPoint": "Thấy kinh tế tăng trưởng chậm lại tí (từ 7% rớt xuống 5%) đã vội la bài hãi là suy thoái.",
-                "solution": "Tăng chậm lại vẫn là đang tăng. Suy thoái là khi GDP thực sụt giảm cắm đầu âm liên tục ít nhất 2 quý kìa."
+                "painPoint": "Thấy kinh tế tăng trưởng chậm lại tí (từ 7% giảm xuống 5%) đã vội hoảng loạn cho là suy thoái.",
+                "solution": "Tăng chậm lại vẫn là đang tăng. Suy thoái là khi GDP thực sụt giảm âm liên tục ít nhất 2 quý ."
               }
             ]
           }
@@ -707,8 +707,8 @@
                 "stage": "Chỉ báo",
                 "emotion": "negative",
                 "action": "3 loại chỉ báo (Dẫn dắt, Trùng khớp, Độ trễ).",
-                "painPoint": "Nhìn vô Tỷ lệ thất nghiệp (chỉ báo trễ) để hì hục phán đoán nền kinh tế ngày mai.",
-                "solution": "Thất nghiệp giảm thường là lúc kinh tế đã đi qua cơn bĩ cực rồi. Muốn dự báo phải nhìn chỉ báo dẫn dắt (đơn hàng mới, giá cổ phiếu)."
+                "painPoint": "Nhìn vào Tỷ lệ thất nghiệp (chỉ báo trễ) để cố gắng phán đoán nền kinh tế ngày mai.",
+                "solution": "Thất nghiệp giảm thường là lúc kinh tế đã vượt qua đáy suy thoái. Muốn dự báo phải nhìn chỉ báo dẫn dắt (đơn hàng mới, giá cổ phiếu)."
               }
             ]
           }
@@ -756,7 +756,7 @@
                 "stage": "Chức năng",
                 "emotion": "neutral",
                 "action": "3 chức năng cốt lõi của tiền tệ.",
-                "painPoint": "Đem găm tiền mặt vô két sắt bám bụi tưởng vậy là cất trữ giá trị xịn và an toàn nhất.",
+                "painPoint": "Giữ tiền mặt vào két sắt tưởng vậy là cất trữ giá trị an toàn nhất.",
                 "solution": "Tiền trao đổi thì nhanh số 1 do thanh khoản cao, nhưng cất trữ thì kém cỏi vì lạm phát ăn mòn, thua xa mua tài sản sinh lời."
               }
             ]
@@ -862,13 +862,13 @@
                 "emotion": "neutral",
                 "action": "NHTW là ngân hàng của các ngân hàng và Chính phủ, quản lý chính sách tiền tệ.",
                 "painPoint": "Nhầm lẫn NHTW với NHTM, nghĩ NHTW cũng cho doanh nghiệp và dân chúng vay lấy lãi.",
-                "solution": "Phân định rạch ròi: NHTW không kinh doanh trực tiếp. Nhiệm vụ tối thượng là ổn định vĩ mô."
+                "solution": "Phân định rõ ràng: NHTW không kinh doanh trực tiếp. Nhiệm vụ tối thượng là ổn định vĩ mô."
               },
               {
                 "stage": "Phát hành",
                 "emotion": "negative",
                 "action": "Phát hành tiền và làm người cho vay cuối cùng.",
-                "painPoint": "Đồng nhất việc 'phát hành tiền' với 'in tiền vô tội vạ' để bù đắp thâm hụt ngân sách.",
+                "painPoint": "Đồng nhất việc 'phát hành tiền' với 'in tiền vào tội vạ' để bù đắp thâm hụt ngân sách.",
                 "solution": "Hiểu rằng phát hành tiền phải dựa trên cơ sở tài sản đối ứng (ngoại tệ, trái phiếu) để tránh siêu lạm phát."
               }
             ]
@@ -947,7 +947,7 @@
                 "stage": "Công cụ",
                 "emotion": "frustration",
                 "action": "3 công cụ chính: Dự trữ bắt buộc, Lãi suất chiết khấu, Nghiệp vụ thị trường mở.",
-                "painPoint": "Rối nùi không nhớ công cụ nào tăng hay giảm sẽ làm ảnh hưởng đến cung tiền thế nào.",
+                "painPoint": "Lúng túng không nhớ công cụ nào tăng hay giảm sẽ làm ảnh hưởng đến cung tiền thế nào.",
                 "solution": "Gán logic ngược chiều: Tăng công cụ (tỉ lệ dự trữ, lãi suất) -> Giảm cung tiền, và ngược lại."
               },
               {
