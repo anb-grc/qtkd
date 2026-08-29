@@ -1,7 +1,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 16px;
   width: 100%;
   background: transparent;
   border: none;
@@ -78,16 +78,12 @@
   align-items: stretch;
   text-align: left;
   gap: var(--space-md);
-  padding: var(--space-lg) var(--space-xl);
+  padding: 4px 8px;
   width: 100%;
   max-width: 900px;
   margin: 0 auto;
   animation: fadeIn 0.3s ease;
 }
-
-  .cardContent {
-    padding: var(--space-md) var(--space-sm);
-  }
 
 .sectionGroup {
   display: flex;
@@ -132,7 +128,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: -16px;
   padding: 0 var(--space-xs);
   width: 100%;
 }
