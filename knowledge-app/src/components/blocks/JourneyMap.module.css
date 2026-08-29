@@ -79,14 +79,10 @@
   text-align: left;
   gap: var(--space-md);
   padding: var(--space-lg) var(--space-xl);
-  background: var(--glass-bg, rgba(255, 255, 255, 0.02));
-  border: 1.5px solid var(--color-border, rgba(255, 255, 255, 0.08));
-  border-radius: var(--radius-md);
   width: 100%;
   max-width: 900px;
   margin: 0 auto;
   animation: fadeIn 0.3s ease;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 
   .cardContent {
