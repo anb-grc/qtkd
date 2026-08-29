@@ -146,6 +146,27 @@
           }
         },
         {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Đánh đổi",
+                "emotion": "neutral",
+                "action": "Đánh đổi và chi phí cơ hội.",
+                "painPoint": "Hay quên béng chi phí cơ hội, chỉ cắm đầu nhìn vô chi phí bằng tiền mặt.",
+                "solution": "Trước khi chốt kèo, mày phải tính xem tao bỏ lỡ thứ ngon lành nhất nào để chọn cái này."
+              },
+              {
+                "stage": "Thị trường",
+                "emotion": "neutral",
+                "action": "Thị trường tự do và Bàn tay vô hình.",
+                "painPoint": "Nghĩ thị trường luôn tự điều tiết hoàn hảo hoặc luôn luôn sai lệch.",
+                "solution": "Thị trường phân bổ nguồn lực rất đỉnh, nhưng chính phủ thỉnh thoảng phải nhảy vào chỉnh đốn khi có ngoại ứng hay độc quyền."
+              }
+            ]
+          }
+        },
+        {
           "type": "quiz",
           "title": "Câu Hỏi Nhanh",
           "data": {
@@ -172,6 +193,27 @@
               "title": "GNP (Quốc Gia)",
               "description": "Tính theo Sở hữu/Quốc tịch. Ví dụ: Viettel (Việt Nam) kinh doanh tại Campuchia thì doanh thu tính vào GNP của Việt Nam."
             }
+          }
+        },
+        {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Phạm vi",
+                "emotion": "neutral",
+                "action": "Lãnh thổ (GDP) đối đầu Quốc tịch (GNP).",
+                "painPoint": "Lẫn lộn giữa công ty ngoại làm ở mình và công ty mình làm ở xứ người.",
+                "solution": "Cứ làm ra trên đất Việt Nam là tọng vô GDP. Còn dân Việt Nam làm ra ở bất cứ đâu thì tính vô GNP."
+              },
+              {
+                "stage": "Tính toán",
+                "emotion": "negative",
+                "action": "Tính giá trị gia tăng, loại bỏ trung gian.",
+                "painPoint": "Cộng gộp luôn giá trị sản phẩm trung gian gây lỗi tính trùng lặp từa lưa.",
+                "solution": "Chỉ cộng giá trị hàng hoá cuối cùng hoặc tính tổng giá trị gia tăng (VA) ở từng khâu thôi."
+              }
+            ]
           }
         },
         {
@@ -220,6 +262,27 @@
           }
         },
         {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Chi tiêu",
+                "emotion": "negative",
+                "action": "Phương pháp chi tiêu (C + I + G + NX).",
+                "painPoint": "Tính nhầm hàng nhập khẩu vào tiêu dùng (C) mà quên trừ ra ở phần xuất khẩu ròng (NX).",
+                "solution": "Phân loại rạch ròi người mua. Hàng nhập khẩu mày đem tiêu thụ thì bắt buộc phải trừ đi ở NX để huề vốn."
+              },
+              {
+                "stage": "Thu nhập",
+                "emotion": "frustration",
+                "action": "Phương pháp thu nhập (w + r + i + p + Ti + De).",
+                "painPoint": "Hay vứt xó 2 khoản không phải thu nhập trực tiếp: Thuế gián thu (Ti) và Khấu hao (De).",
+                "solution": "Bắt buộc cộng thêm Ti và De thì mới ra đúng tổng chi phí các yếu tố sản xuất thực sự của nền kinh tế."
+              }
+            ]
+          }
+        },
+        {
           "type": "quiz",
           "title": "Câu Hỏi Nhanh",
           "data": {
@@ -249,6 +312,27 @@
           }
         },
         {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Bản chất",
+                "emotion": "frustration",
+                "action": "Danh nghĩa (Giá hiện hành) vs Thực tế (Giá gốc).",
+                "painPoint": "Thấy GDP danh nghĩa tăng vù vù tưởng kinh tế đang lên hương, ai dè toàn do lạm phát.",
+                "solution": "Muốn biết thực sự làm ra nhiều hàng hơn không, ép mọi thứ về giá năm gốc (chỉ xài GDP thực)."
+              },
+              {
+                "stage": "Điều chỉnh",
+                "emotion": "negative",
+                "action": "Chỉ số điều chỉnh GDP (Deflator).",
+                "painPoint": "Lẫn lộn Deflator với CPI khi đo lường mức giá chung.",
+                "solution": "Nhớ kỹ: Deflator = (Danh nghĩa / Thực) * 100. Nó đo lạm phát của TẤT CẢ hàng hoá sản xuất ra, không chỉ riêng rổ hàng tiêu dùng."
+              }
+            ]
+          }
+        },
+        {
           "type": "quiz",
           "title": "Câu Hỏi Nhanh",
           "data": {
@@ -275,6 +359,20 @@
               {
                 "title": "Lượng vs Chất",
                 "description": "Tăng trưởng (GDP tăng) phải đi đôi với cải thiện mức sống, giảm nghèo và bền vững môi trường."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Đo lường",
+                "emotion": "negative",
+                "action": "Đo lường tốc độ gia tăng sản lượng.",
+                "painPoint": "Bê nguyên xi GDP danh nghĩa vô công thức tính tốc độ tăng trưởng kinh tế.",
+                "solution": "Chết dở, mày phải xài GDP thực tế để triệt tiêu yếu tố giá mới chuẩn xác."
               }
             ]
           }
@@ -327,6 +425,27 @@
           }
         },
         {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Cấu trúc",
+                "emotion": "neutral",
+                "action": "Phân rã Tổng cầu AD = C + I + G + NX.",
+                "painPoint": "Cứ đinh ninh mọi chi tiêu đều phụ thuộc sạch sành sanh vô thu nhập quốc dân (Y).",
+                "solution": "Tách làm 2 cục rạch ròi: Cục tự định (mặc kệ thu nhập) và cục hàm số (phụ thuộc Y)."
+              },
+              {
+                "stage": "Biến động",
+                "emotion": "negative",
+                "action": "Trượt dọc vs Dịch chuyển đường AD.",
+                "painPoint": "Lúc nào đường AD chạy lên xuống, lúc nào nó dịch sang ngang luôn bị rối.",
+                "solution": "Giá (P) thay đổi -> Trượt dọc. Bất cứ cú sốc nào khác (chi tiêu, đầu tư, xuất khẩu) thay đổi -> Dịch ngang."
+              }
+            ]
+          }
+        },
+        {
           "type": "quiz",
           "title": "Câu Hỏi Nhanh",
           "data": {
@@ -362,6 +481,27 @@
           }
         },
         {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Bản chất",
+                "emotion": "frustration",
+                "action": "Bản chất số nhân chi tiêu.",
+                "painPoint": "Không hiểu sao bơm 1 đồng vô lại đẻ ra hơn 1 đồng sản lượng, lại còn hay quên thuế và nhập khẩu dưới mẫu số.",
+                "solution": "Mẫu số là các khoản tiền rò rỉ đi (tiết kiệm, thuế, nhập khẩu). Rò rỉ càng ít, số nhân càng to bự."
+              },
+              {
+                "stage": "Thuế",
+                "emotion": "negative",
+                "action": "Số nhân thuế.",
+                "painPoint": "Tưởng số nhân thuế mang dấu dương giống hệt chi tiêu chính phủ.",
+                "solution": "Thuế hút máu tiền ra khỏi nền kinh tế, nên số nhân phải mang dấu âm. Nhớ gài dấu trừ vô để không làm sai bét."
+              }
+            ]
+          }
+        },
+        {
           "type": "quiz",
           "title": "Câu Hỏi Nhanh",
           "data": {
@@ -391,6 +531,27 @@
           }
         },
         {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Ngắn hạn",
+                "emotion": "negative",
+                "action": "Tổng cung ngắn hạn (SRAS).",
+                "painPoint": "Thấy SRAS dốc lên lại tưởng giá tăng thì doanh nghiệp sẽ làm ra hàng vô hạn.",
+                "solution": "Dốc lên chỉ vì lương nhân công chưa kịp tăng theo giá. Hãng có lời chênh lệch nên cắm đầu sản xuất thêm thôi."
+              },
+              {
+                "stage": "Dài hạn",
+                "emotion": "neutral",
+                "action": "Tổng cung dài hạn (LRAS).",
+                "painPoint": "Sợ hãi tưởng sản lượng tiềm năng là mức giới hạn tuyệt đối không thể nào vượt qua.",
+                "solution": "Đường thẳng đứng này chỉ là mức tự nhiên. Vượt qua thì lạm phát bùng lên chứ không phải cấm vượt."
+              }
+            ]
+          }
+        },
+        {
           "type": "quiz",
           "title": "Câu Hỏi Nhanh",
           "data": {
@@ -417,6 +578,34 @@
               "title": "Đường LM (Thị trường Tiền tệ)",
               "description": "Cân bằng: Cầu tiền (L) = Cung tiền (M).\nQuan hệ đồng biến giữa Lãi suất (R) và Sản lượng (Y).\nĐồ thị dốc lên.\nGiao điểm E của IS và LM xác định trạng thái cân bằng chung."
             }
+          }
+        },
+        {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Đường IS",
+                "emotion": "frustration",
+                "action": "Đường IS - Cân bằng hàng hoá.",
+                "painPoint": "Không ráp được mối nối nào khiến Lãi suất (r) đập vô Sản lượng (Y) trên đường IS.",
+                "solution": "r tăng -> Doanh nghiệp dẹp bỏ đầu tư -> Tổng cầu tụt -> Y giảm. Nghịch biến nên IS dốc xuống."
+              },
+              {
+                "stage": "Đường LM",
+                "emotion": "frustration",
+                "action": "Đường LM - Cân bằng tiền tệ.",
+                "painPoint": "Nhầm lẫn nhân quả, tưởng lãi suất quyết định sản lượng ở thị trường này.",
+                "solution": "Ngược lại! Sản lượng Y tăng -> Dân cần thêm tiền xài -> Cầu tiền ép lãi suất r phải tăng lên. Nên LM dốc lên."
+              },
+              {
+                "stage": "Phối hợp",
+                "emotion": "negative",
+                "action": "Giao điểm IS-LM: Phối hợp chính sách.",
+                "painPoint": "Khi nhà nước ra đòn, rối trí không biết đường nào chạy, đường nào đứng im.",
+                "solution": "Nhớ kỹ tao dặn: Tài khoá (G, T) pushes đường IS. Tiền tệ (Cung tiền) đẩy đường LM. Cứ thế mà tịnh tiến."
+              }
+            ]
           }
         },
         {
@@ -454,6 +643,20 @@
               {
                 "label": "Đáy",
                 "value": 0
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Chu kỳ",
+                "emotion": "neutral",
+                "action": "Các pha dao động quanh xu hướng dài hạn.",
+                "painPoint": "Thấy kinh tế tăng trưởng chậm lại tí (từ 7% rớt xuống 5%) đã vội la bài hãi là suy thoái.",
+                "solution": "Tăng chậm lại vẫn là đang tăng. Suy thoái là khi GDP thực sụt giảm cắm đầu âm liên tục ít nhất 2 quý kìa."
               }
             ]
           }
@@ -497,6 +700,20 @@
           }
         },
         {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Chỉ báo",
+                "emotion": "negative",
+                "action": "3 loại chỉ báo (Dẫn dắt, Trùng khớp, Độ trễ).",
+                "painPoint": "Nhìn vô Tỷ lệ thất nghiệp (chỉ báo trễ) để hì hục phán đoán nền kinh tế ngày mai.",
+                "solution": "Thất nghiệp giảm thường là lúc kinh tế đã đi qua cơn bĩ cực rồi. Muốn dự báo phải nhìn chỉ báo dẫn dắt (đơn hàng mới, giá cổ phiếu)."
+              }
+            ]
+          }
+        },
+        {
           "type": "quiz",
           "title": "Câu Hỏi Nhanh",
           "data": {
@@ -527,6 +744,20 @@
               {
                 "title": "Phương tiện cất trữ",
                 "description": "Dùng để chuyển sức mua từ hiện tại sang tương lai (mặc dù có thể bị lạm phát làm giảm giá trị)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Chức năng",
+                "emotion": "neutral",
+                "action": "3 chức năng cốt lõi của tiền tệ.",
+                "painPoint": "Đem găm tiền mặt vô két sắt bám bụi tưởng vậy là cất trữ giá trị xịn và an toàn nhất.",
+                "solution": "Tiền trao đổi thì nhanh số 1 do thanh khoản cao, nhưng cất trữ thì kém cỏi vì lạm phát ăn mòn, thua xa mua tài sản sinh lời."
               }
             ]
           }
@@ -567,6 +798,27 @@
           }
         },
         {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Cung tiền",
+                "emotion": "neutral",
+                "action": "Khối lượng tiền (Cung tiền) bao gồm tiền mặt và tiền gửi có thể thanh toán ngay.",
+                "painPoint": "Thường nhầm lẫn chỉ có tiền giấy mới là tiền, bỏ qua các khoản tiền gửi thanh toán.",
+                "solution": "Nhìn nhận tiền qua chức năng thanh toán (M1, M2). Mọi thứ thanh toán được đều là tiền."
+              },
+              {
+                "stage": "Tạo tiền",
+                "emotion": "frustration",
+                "action": "Sự tạo tiền của hệ thống ngân hàng thương mại qua số nhân tiền.",
+                "painPoint": "Nghĩ rằng chỉ NHTW mới tạo ra tiền, không hiểu cách NHTM 'nhân bản' tiền qua cho vay.",
+                "solution": "Nắm vững công thức số nhân tiền. NHTW in tiền cơ sở, NHTM tạo tiền mở rộng qua tín dụng."
+              }
+            ]
+          }
+        },
+        {
           "type": "quiz",
           "title": "Câu Hỏi Nhanh",
           "data": {
@@ -597,6 +849,27 @@
               {
                 "title": "Quản lý cung tiền & Tỷ giá",
                 "description": "Điều tiết khối lượng tiền trong nền kinh tế, ổn định giá trị đồng nội tệ và quản lý dự trữ ngoại hối."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Bản chất",
+                "emotion": "neutral",
+                "action": "NHTW là ngân hàng của các ngân hàng và Chính phủ, quản lý chính sách tiền tệ.",
+                "painPoint": "Nhầm lẫn NHTW với NHTM, nghĩ NHTW cũng cho doanh nghiệp và dân chúng vay lấy lãi.",
+                "solution": "Phân định rạch ròi: NHTW không kinh doanh trực tiếp. Nhiệm vụ tối thượng là ổn định vĩ mô."
+              },
+              {
+                "stage": "Phát hành",
+                "emotion": "negative",
+                "action": "Phát hành tiền và làm người cho vay cuối cùng.",
+                "painPoint": "Đồng nhất việc 'phát hành tiền' với 'in tiền vô tội vạ' để bù đắp thâm hụt ngân sách.",
+                "solution": "Hiểu rằng phát hành tiền phải dựa trên cơ sở tài sản đối ứng (ngoại tệ, trái phiếu) để tránh siêu lạm phát."
               }
             ]
           }
@@ -667,6 +940,27 @@
           }
         },
         {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Công cụ",
+                "emotion": "frustration",
+                "action": "3 công cụ chính: Dự trữ bắt buộc, Lãi suất chiết khấu, Nghiệp vụ thị trường mở.",
+                "painPoint": "Rối nùi không nhớ công cụ nào tăng hay giảm sẽ làm ảnh hưởng đến cung tiền thế nào.",
+                "solution": "Gán logic ngược chiều: Tăng công cụ (tỉ lệ dự trữ, lãi suất) -> Giảm cung tiền, và ngược lại."
+              },
+              {
+                "stage": "Chính sách",
+                "emotion": "neutral",
+                "action": "Chính sách tiền tệ mở rộng (nới lỏng) và thắt chặt.",
+                "painPoint": "Không phân biệt được mục tiêu của mở rộng (chống suy thoái) và thắt chặt (chống lạm phát).",
+                "solution": "Mở rộng là bơm tiền để kích thích kinh tế (khi ốm); Thắt chặt là rút tiền để giảm nhiệt (khi sốt lạm phát)."
+              }
+            ]
+          }
+        },
+        {
           "type": "quiz",
           "title": "Câu Hỏi Nhanh",
           "data": {
@@ -690,6 +984,20 @@
           }
         },
         {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Khái niệm",
+                "emotion": "neutral",
+                "action": "Ngoại hối bao gồm ngoại tệ, giấy tờ có giá bằng ngoại tệ và vàng tiêu chuẩn.",
+                "painPoint": "Nghĩ ngoại hối chỉ đơn thuần là tiền giấy ngoại tệ (như USD, EUR).",
+                "solution": "Mở rộng khái niệm: Ngoại hối là tất cả phương tiện thanh toán quốc tế, kể cả cổ phiếu, trái phiếu ngoại tệ."
+              }
+            ]
+          }
+        },
+        {
           "type": "quiz",
           "title": "Câu Hỏi Nhanh",
           "data": {
@@ -710,6 +1018,27 @@
           "data": {
             "front": "Trong yết giá USD/VND, tỷ giá mua và bán khác nhau thế nào?",
             "back": "Tỷ giá mua luôn thấp hơn tỷ giá bán. Ngân hàng kinh doanh ngoại hối thu lợi nhuận từ chênh lệch Mua thấp - Bán cao."
+          }
+        },
+        {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Đọc tỷ giá",
+                "emotion": "negative",
+                "action": "Tỷ giá hối đoái là giá cả của một đồng tiền tính bằng đồng tiền khác.",
+                "painPoint": "Dễ bị ngược khi đọc tỷ giá (VD: 1 USD = 25.000 VND thì nghĩ VND có giá hơn vì số lớn).",
+                "solution": "Luôn nhớ: Đồng tiền đứng trước là đồng yết giá (trị giá 1 đơn vị), đồng đứng sau là đồng định giá."
+              },
+              {
+                "stage": "Tác động",
+                "emotion": "frustration",
+                "action": "Đồng tiền tăng giá (lên giá) và giảm giá (mất giá).",
+                "painPoint": "Không suy luận được tác động của tỷ giá lên Xuất - Nhập khẩu.",
+                "solution": "Quy tắc cốt lõi: Nội tệ mất giá -> Xuất khẩu có lợi (hàng rẻ đi), Nhập khẩu bất lợi (hàng đắt lên)."
+              }
+            ]
           }
         },
         {
@@ -739,6 +1068,27 @@
               "title": "Nhập Siêu (Thâm Hụt: X < M)",
               "description": "Gây áp lực tỷ giá, mất dự trữ. Lưu ý: 'Nhập siêu tích cực' là khi ta nhập khẩu ròng máy móc thiết bị để mở rộng sản xuất tương lai."
             }
+          }
+        },
+        {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Cấu trúc",
+                "emotion": "frustration",
+                "action": "Cán cân thanh toán (BOP) ghi chép mọi giao dịch kinh tế với phần còn lại của thế giới.",
+                "painPoint": "Lẫn lộn giữa Tài khoản vãng lai (Current Account) và Tài khoản vốn (Capital Account).",
+                "solution": "Vãng lai = Xuất nhập khẩu thực + thu nhập; Vốn/Tài chính = Dòng tiền đầu tư (FDI, FII)."
+              },
+              {
+                "stage": "Thâm hụt",
+                "emotion": "neutral",
+                "action": "Thặng dư và Thâm hụt cán cân thanh toán.",
+                "painPoint": "Mặc định cho rằng thâm hụt tài khoản vãng lai luôn luôn là xấu đối với nền kinh tế.",
+                "solution": "Thâm hụt có thể do nhập máy móc để phát triển dài hạn. Trọng tâm là lấy gì tài trợ thâm hụt đó."
+              }
+            ]
           }
         },
         {
@@ -783,6 +1133,27 @@
           }
         },
         {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Điều kiện",
+                "emotion": "neutral",
+                "action": "Thất nghiệp là người trong độ tuổi lao động, có khả năng, chưa có việc và đang tìm việc.",
+                "painPoint": "Gộp chung sinh viên, người nội trợ, hoặc người bỏ cuộc (không thèm tìm việc) vào số thất nghiệp.",
+                "solution": "Thất nghiệp phải thỏa 3 điều kiện: Đủ khả năng, Không có việc, VÀ đang TÍCH CỰC tìm việc."
+              },
+              {
+                "stage": "Phân loại",
+                "emotion": "negative",
+                "action": "Phân loại thất nghiệp: Cơ cấu, Ma sát, Chu kỳ.",
+                "painPoint": "Không phân biệt được thất nghiệp Ma sát (chuyển việc) và Cơ cấu (mất kỹ năng).",
+                "solution": "Ma sát = Tự nguyện tìm việc mới. Cơ cấu = Bị ép do công nghệ đổi. Chu kỳ = Do kinh tế suy thoái."
+              }
+            ]
+          }
+        },
+        {
           "type": "quiz",
           "title": "Câu Hỏi Nhanh",
           "data": {
@@ -816,6 +1187,20 @@
           }
         },
         {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Công thức",
+                "emotion": "frustration",
+                "action": "Tỷ lệ thất nghiệp U = (Số người thất nghiệp / Lực lượng lao động) * 100.",
+                "painPoint": "Chia nhầm cho Dân số trưởng thành hoặc Dân số cả nước thay vì Lực lượng lao động.",
+                "solution": "Mẫu số luôn là Lực lượng LĐ (Đang làm + Thất nghiệp). Không tính người ngoài Lực lượng LĐ!"
+              }
+            ]
+          }
+        },
+        {
           "type": "quiz",
           "title": "Câu Hỏi Nhanh",
           "data": {
@@ -842,6 +1227,27 @@
               {
                 "title": "Tác động của Lạm phát",
                 "description": "Giảm thu nhập thực tế, hao mòn tài sản, gây phân hóa giàu nghèo, nhưng có thể giúp chính phủ giảm gánh nặng nợ công thực tế."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Bản chất",
+                "emotion": "neutral",
+                "action": "CPI (Chỉ số giá tiêu dùng) đo lường mức giá trung bình của rổ hàng hóa tiêu biểu.",
+                "painPoint": "Lẫn lộn tính chất rổ hàng hóa của CPI với Chỉ số giảm phát GDP (GDP Deflator).",
+                "solution": "CPI dùng rổ hàng CỐ ĐỊNH, tính cả hàng Nhập khẩu. GDP Deflator dùng rổ hàng BIẾN ĐỔI, chỉ tính hàng Nội địa."
+              },
+              {
+                "stage": "Tính toán",
+                "emotion": "negative",
+                "action": "Cách tính CPI và Lạm phát.",
+                "painPoint": "Lấy trực tiếp giá năm nay trừ giá năm gốc mà không nhân chia theo chi phí rổ hàng cố định.",
+                "solution": "Hai bước chuẩn: 1. Tính chi phí rổ hàng theo giá hiện hành. 2. Lấy Chi phí hiện hành / Chi phí gốc."
               }
             ]
           }
@@ -877,6 +1283,20 @@
               {
                 "title": "Siêu lạm phát (>200%/năm)",
                 "description": "Sự tàn phá khốc liệt, hệ thống tài chính sụp đổ hoàn toàn."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Phân loại",
+                "emotion": "neutral",
+                "action": "Phân loại lạm phát: Vừa phải (<10%), Phi mã (10% - 1000%), Siêu lạm phát (>1000%).",
+                "painPoint": "Mặc định lạm phát luôn là kẻ thù, lạm phát càng thấp càng tốt, giảm phát là tốt.",
+                "solution": "Lạm phát vừa phải là 'chất bôi trơn' kinh tế. Giảm phát (giá giảm) làm đình trệ sản xuất, còn nguy hiểm hơn."
               }
             ]
           }
@@ -936,6 +1356,27 @@
                 "options": []
               }
             }
+          }
+        },
+        {
+          "type": "journey-map",
+          "data": {
+            "stages": [
+              {
+                "stage": "Ngắn hạn",
+                "emotion": "frustration",
+                "action": "Đường Phillips thể hiện sự đánh đổi ngắn hạn giữa Lạm phát và Thất nghiệp.",
+                "painPoint": "Tưởng rằng nhà nước có thể cùng lúc vừa giảm lạm phát vừa giảm thất nghiệp trong ngắn hạn.",
+                "solution": "Muốn hạ lạm phát (rút tiền) thì kinh tế co cụm -> thất nghiệp tăng. Và ngược lại."
+              },
+              {
+                "stage": "Dài hạn",
+                "emotion": "neutral",
+                "action": "Đường Phillips trong dài hạn là một đường thẳng đứng tại mức thất nghiệp tự nhiên.",
+                "painPoint": "Cho rằng sự đánh đổi (trade-off) giữa lạm phát và thất nghiệp sẽ kéo dài mãi mãi.",
+                "solution": "Dài hạn, tiền tệ trung tính. Lạm phát tăng nhưng thất nghiệp tự nhiên không đổi. Đánh đổi chỉ có ở ngắn hạn."
+              }
+            ]
           }
         },
         {
