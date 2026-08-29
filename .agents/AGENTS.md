@@ -55,3 +55,8 @@ Hãy xưng hô MÀY - TAO một cách tự nhiên như những người bạn th
       + `painPoint`: Viết về **Sai lầm nhận thức** (Bẫy tư duy, những ngộ nhận sinh viên hay mắc phải).
       + `solution`: Viết về **Cách tiếp cận đúng** (Tư duy chuẩn để gỡ rối).
     - **Tiêu đề mặc định (Cấm tự bịa Label):** Để Frontend tự render tiêu đề chuẩn học thuật (Độ khó, Trọng tâm, Sai lầm nhận thức, Cách tiếp cận đúng). Tuyệt đối KHÔNG tự ý chèn các biến `actionLabel`, `painPointLabel`, `solutionLabel`, `emotionLabel` vào JSON.
+15b. **TRIẾT LÝ ĐỘ SÂU LINH HOẠT (ORGANIC MINDMAP DEPTH):**
+    - Tuyệt đối không gò ép Mindmap thành 3 tầng một cách máy móc.
+    - Độ sâu của trục dọc (số lượng tầng) được quyết định hoàn toàn bởi "sức nặng nội dung" của Node cuối.
+    - Nếu một mảng kiến thức mỏng, có thể chốt sớm làm Leaf Node (Mindmap 2 tầng). Nếu đồ sộ, cứ việc chẻ rễ sâu xuống (4-5 tầng). 
+    - Điểm dừng (Leaf node) phải đảm bảo đủ "thịt" để gánh combo 3 thành phần: [Trực quan] -> [JourneyMap] -> [Quiz] mà không bị vụn vặt hay ngộp kiến thức. Điểm rơi nằm ở đâu hoàn toàn do tự nhiên quyết định.
