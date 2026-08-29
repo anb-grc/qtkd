@@ -21,7 +21,7 @@ export function BarChart({ data }: { data: BarChartBlock['data'] }) {
             const pct = Math.min(100, Math.max(2, (item.value / (maxVal || 1)) * 100));
             const isLocked = selectedIdx === idx;
             const isHovered = hoveredIdx === idx;
-            const borderColor = isLocked ? '#ffffff' : (isHovered ? 'var(--color-accent-primary)' : 'rgba(255,255,255,0.08)');
+            const borderColor = isLocked ? 'var(--color-warning)' : (isHovered ? 'var(--color-accent-primary)' : 'rgba(255,255,255,0.08)');
 
             return (
               <div

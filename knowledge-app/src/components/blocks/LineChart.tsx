@@ -106,7 +106,7 @@ export function LineChart({ data }: { data: LineChartBlock['data'] }) {
                   cy={y}
                   r={isActive ? 2.25 : 1.75}
                   fill={isActive ? 'var(--color-accent-primary)' : 'var(--color-accent-secondary)'}
-                  stroke={isActive ? '#ffffff' : 'var(--color-accent-secondary)'}
+                  stroke={isActive ? 'var(--color-warning)' : 'var(--color-accent-secondary)'}
                   strokeWidth={isActive ? 1.5 : 1}
                   style={{ pointerEvents: 'none', transition: 'all 0.2s ease' }}
                 />

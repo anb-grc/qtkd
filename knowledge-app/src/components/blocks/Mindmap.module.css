@@ -165,7 +165,7 @@
 
 .nodeExpanded, .nodeExpanded:hover {
   transform: scale(1.02);
-  border-color: #ffffff;
+  border-color: var(--color-warning);
 }
 
 .nodeText {

@@ -83,7 +83,7 @@
 
 .activeSpot .dot { 
   transform: scale(1.2);
-  border-color: #ffffff;
+  border-color: var(--color-warning);
 }
 
 .pulse {

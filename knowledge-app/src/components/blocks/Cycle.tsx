@@ -20,7 +20,7 @@ export function Cycle({ data }: { data: CycleBlock['data'] }) {
           const angle = (i / Math.max(1, count)) * 360;
           const isLocked = selectedIndex === i;
           const isHovered = hoveredIndex === i;
-          const borderColor = isLocked ? '#ffffff' : (isHovered ? 'var(--color-accent-primary)' : 'var(--color-accent-secondary)');
+          const borderColor = isLocked ? 'var(--color-warning)' : (isHovered ? 'var(--color-accent-primary)' : 'var(--color-accent-secondary)');
           return (
             <div 
               key={i} 

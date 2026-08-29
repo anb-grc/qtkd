@@ -60,7 +60,7 @@ export function Treemap({ data }: { data: TreemapBlock['data'] }) {
             const isHi = r.highlight;
 
             const fillCol = isHi ? 'rgba(0, 206, 201, 0.35)' : 'rgba(108, 92, 231, 0.25)';
-            const borderCol = (isSel || isHov) ? '#ffffff' : 'rgba(255, 255, 255, 0.14)';
+            const borderCol = (isSel || isHov) ? 'var(--color-warning)' : 'rgba(255, 255, 255, 0.14)';
 
             return (
               <g

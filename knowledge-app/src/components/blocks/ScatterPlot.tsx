@@ -109,7 +109,7 @@ export function ScatterPlot({ data }: { data: ScatterPlotBlock['data'] }) {
                   cy={cy}
                   r={isActive ? Math.max(9, baseRadius + 2) : baseRadius}
                   fill={isActive ? 'var(--color-accent-secondary)' : 'var(--color-accent-primary)'}
-                  stroke={isActive ? '#ffffff' : 'var(--color-accent-primary)'}
+                  stroke={isActive ? 'var(--color-warning)' : 'var(--color-accent-primary)'}
                   strokeWidth={isActive ? 1.5 : 1}
                   style={{ transition: 'all 0.2s ease' }}
                 />

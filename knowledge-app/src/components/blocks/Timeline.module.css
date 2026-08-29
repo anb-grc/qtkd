@@ -64,7 +64,7 @@
 }
 
 .item.open .marker {
-  box-shadow: 0 0 0 2px var(--color-bg-primary), 0 0 0 2.5px #ffffff !important;
+  box-shadow: 0 0 0 2px var(--color-bg-primary), 0 0 0 2.5px var(--color-warning) !important;
 }
 
 .content {

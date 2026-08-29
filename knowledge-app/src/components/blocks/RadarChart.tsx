@@ -145,7 +145,7 @@ export function RadarChart({ data }: { data: RadarChartBlock['data'] }) {
                         cy={y}
                         r={isPointActive ? 3 : (isActive ? 2.25 : 1.75)}
                         fill={ds.color || 'var(--color-accent-primary)'}
-                        stroke={isPointActive ? '#ffffff' : (ds.color || 'var(--color-accent-primary)')}
+                        stroke={isPointActive ? 'var(--color-warning)' : (ds.color || 'var(--color-accent-primary)')}
                         strokeWidth={isPointActive ? 1.5 : 1}
                         style={{ pointerEvents: 'none', transition: 'all 0.2s ease' }}
                       />

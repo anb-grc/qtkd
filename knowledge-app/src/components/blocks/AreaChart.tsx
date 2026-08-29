@@ -104,7 +104,7 @@ export function AreaChart({ data }: { data: AreaChartBlock['data'] }) {
                   cy={getY(p.value)}
                   r={isActive ? 2.25 : 1.75}
                   fill={isActive ? 'var(--color-accent-secondary)' : 'var(--color-accent-primary)'}
-                  stroke={isActive ? '#ffffff' : 'var(--color-accent-primary)'}
+                  stroke={isActive ? 'var(--color-warning)' : 'var(--color-accent-primary)'}
                   strokeWidth={isActive ? 1.5 : 1}
                   style={{ pointerEvents: 'none', transition: 'all 0.2s ease' }}
                 />

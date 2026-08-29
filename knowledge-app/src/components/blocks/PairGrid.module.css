@@ -78,7 +78,7 @@
 }
 
 .selected {
-  border: 1.5px solid #ffffff !important;
+  border: 1.5px solid var(--color-warning) !important;
   background: rgba(0, 206, 201, 0.15) !important;
   color: #fff !important;
 }

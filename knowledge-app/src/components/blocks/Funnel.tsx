@@ -17,7 +17,7 @@ export function Funnel({ data }: { data: FunnelBlock['data'] }) {
         {stages.map((stage, idx) => {
           const isLocked = selectedIndex === idx;
           const isHovered = hoveredIndex === idx;
-          const borderColor = isLocked ? '#ffffff' : (isHovered ? 'var(--color-accent-primary)' : 'transparent');
+          const borderColor = isLocked ? 'var(--color-warning)' : (isHovered ? 'var(--color-accent-primary)' : 'transparent');
           
           return (
             <div 

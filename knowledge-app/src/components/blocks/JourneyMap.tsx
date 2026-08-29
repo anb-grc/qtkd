@@ -31,7 +31,7 @@ export function JourneyMap({ data }: { data: JourneyMapBlock['data'] }) {
         {stages.map((st, idx) => {
           const isLocked = idx === activeIdx;
           const isHovered = idx === hoveredIdx;
-          const borderColor = isLocked ? '#ffffff' : (isHovered ? 'var(--color-accent-primary)' : 'rgba(255, 255, 255, 0.08)');
+          const borderColor = isLocked ? 'var(--color-warning)' : (isHovered ? 'var(--color-accent-primary)' : 'rgba(255, 255, 255, 0.08)');
 
           return (
             <button

@@ -22,7 +22,7 @@ export function SankeyDiagram({ data }: { data: SankeyDiagramBlock['data'] }) {
             const pct = Math.round((f.value / totalValue) * 100);
             const isLocked = selectedIdx === idx;
             const isHovered = hoveredIdx === idx;
-            const borderColor = isLocked ? '#ffffff' : (isHovered ? 'var(--color-accent-primary)' : 'rgba(255, 255, 255, 0.08)');
+            const borderColor = isLocked ? 'var(--color-warning)' : (isHovered ? 'var(--color-accent-primary)' : 'rgba(255, 255, 255, 0.08)');
 
             return (
               <div
