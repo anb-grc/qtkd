@@ -180,26 +180,6 @@
           }
         },
         {
-          "type": "features",
-          "title": "Ứng Dụng CNTT Cốt Lõi",
-          "data": {
-            "items": [
-              {
-                "title": "Chính phủ điện tử (e-Gov)",
-                "description": "Xây dựng mối quan hệ công khai, minh bạch, có thể kiểm soát lẫn nhau."
-              },
-              {
-                "title": "Kinh doanh trực tuyến (e-Commerce)",
-                "description": "Giao dịch B2B, B2C, C2C nhanh chóng, giảm chi phí."
-              },
-              {
-                "title": "Dịch vụ truyền thông",
-                "description": "Hội nghị trực tuyến (Video Conference), Email, VoIP, SMS."
-              }
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -545,52 +525,6 @@
           }
         },
         {
-          "type": "delta-cheat-sheet",
-          "title": "Bẫy Lý Thuyết Hàm Excel",
-          "data": {
-            "items": [
-              {
-                "questionSnippet": "Phân biệt INT và MOD",
-                "keyword": "INT vs MOD",
-                "correctDelta": "INT lấy phần nguyên, MOD lấy phần dư.",
-                "wrongTraps": [
-                  "INT làm tròn số",
-                  "MOD là giá trị tuyệt đối"
-                ],
-                "explanation": "INT(5.6) = 5. MOD(15, 8) = 7."
-              },
-              {
-                "questionSnippet": "Phân biệt COUNT và COUNTA",
-                "keyword": "COUNT vs COUNTA",
-                "correctDelta": "COUNT đếm ô kiểu số, COUNTA đếm ô có dữ liệu bất kỳ.",
-                "wrongTraps": [
-                  "COUNTA đếm ô rỗng",
-                  "COUNT đếm chữ"
-                ],
-                "explanation": "COUNTA không bỏ sót ô nào trừ khi nó hoàn toàn rỗng."
-              },
-              {
-                "questionSnippet": "Quy tắc cột trị dò VLOOKUP",
-                "keyword": "Cột số mấy",
-                "correctDelta": "Cột 1 là cột chứa trị dò, lấy giá trị từ cột 2 trở đi.",
-                "wrongTraps": [
-                  "Lấy giá trị ở cột 1"
-                ],
-                "explanation": "VLOOKUP luôn so khớp ở cột ngoài cùng bên trái (cột 1) của bảng tham chiếu."
-              },
-              {
-                "questionSnippet": "Sao chép hàm RANK",
-                "keyword": "Khóa danh sách",
-                "correctDelta": "Tham số thứ 2 (danh sách) phải khóa tuyệt đối $.",
-                "wrongTraps": [
-                  "Để địa chỉ tương đối"
-                ],
-                "explanation": "Nếu không khóa $, khi kéo công thức xuống, danh sách tham chiếu sẽ bị trượt."
-              }
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -765,39 +699,6 @@
           }
         },
         {
-          "type": "matrix-table",
-          "title": "Ma Trận Trình Chiếu (Slide Show)",
-          "data": {
-            "headers": [
-              "Lệnh Trình Chiếu",
-              "Phím Tắt",
-              "Ý Nghĩa"
-            ],
-            "rows": [
-              [
-                "From Beginning",
-                "F5",
-                "Trình chiếu từ Slide đầu tiên"
-              ],
-              [
-                "From Current Slide",
-                "Shift + F5",
-                "Trình chiếu từ Slide hiện tại"
-              ],
-              [
-                "Present Online",
-                "—",
-                "Trình chiếu trực tuyến qua mạng"
-              ],
-              [
-                "Custom Slide Show",
-                "—",
-                "Tạo phiên trình chiếu tùy chỉnh riêng rẽ"
-              ]
-            ]
-          }
-        },
-        {
           "type": "journey-map",
           "data": {
             "stages": [
@@ -845,39 +746,6 @@
               "title": "ISP (Service Provider)",
               "description": "Thuê đường truyền của IAP để cung cấp/bán lẻ dịch vụ Internet cho người dùng cuối (End-user)."
             }
-          }
-        },
-        {
-          "type": "pair-grid",
-          "title": "Đồng Bộ Thuật Ngữ Web & Domain",
-          "data": {
-            "pairs": [
-              {
-                "id": "d1",
-                "leftText": "DNS (Domain Name System)",
-                "rightText": "Hệ thống đổi IP thành Tên miền dễ nhớ"
-              },
-              {
-                "id": "d2",
-                "leftText": "Web tĩnh",
-                "rightText": "Tạo sẵn, không thể tùy biến mã nguồn trực tiếp"
-              },
-              {
-                "id": "d3",
-                "leftText": "Web động",
-                "rightText": "Nội dung sinh ra theo yêu cầu, có thể tùy biến"
-              },
-              {
-                "id": "d4",
-                "leftText": "Tên miền .com",
-                "rightText": "Tổ chức thương mại (Commercial)"
-              },
-              {
-                "id": "d5",
-                "leftText": "Tên miền .edu",
-                "rightText": "Tổ chức giáo dục (Education)"
-              }
-            ]
           }
         },
         {
