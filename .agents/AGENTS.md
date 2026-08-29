@@ -31,7 +31,7 @@ Dù bạn được mở ở một khung chat mới nào trong Workspace này, B�
 11b. **THIẾT QUÂN LUẬT KHI LỰA CHỌN COMPONENT (PROOF OF WORK):**
     Nghiêm cấm AI làm việc theo kiểu "đọc tới đâu bốc đại tới đó" nhằm lấp liếm sự lười biếng. Mọi AI khi nhận lệnh tạo `kb.json` BẮT BUỘC thực hiện 2 thao tác sau TRƯỚC KHI sinh code JSON:
     - Tra cứu **Phễu Lọc Ngược 3 Tầng** tại Mục 2 của file `Source_of_Truth.md` để nắm rõ Micro-Criteria của 37 Component.
-    - Nộp cho User duyệt một **Ma trận Phân bổ (Component Allocation Matrix)**. Bảng này phải liệt kê TOÀN BỘ các Node ở tầng cuối (Leaf Nodes), Component dự kiến cho mỗi Node, và Trích dẫn "Tiêu chí Micro-Criteria" nào đã kích hoạt nó.
+    - Nộp cho User duyệt một **Ma trận Phân bổ (Component Allocation Matrix)**. Bảng này CHỈ liệt kê TOÀN BỘ các Node ở tầng cuối (Leaf Nodes), "Component Trực Quan" dự kiến cho mỗi Node, và Trích dẫn "Tiêu chí Micro-Criteria". *(Lưu ý: Các Component thuộc Tầng Ngoại Lệ như Mindmap, JourneyMap, Quiz là khung kiến trúc mặc định, TUYỆT ĐỐI KHÔNG mang vào Ma trận chọn lựa).*
     - Giải trình rõ: Quota Nhóm A đã xài bao nhiêu %? Sàn Tương Tác Nhóm B (Không tính Quiz và JourneyMap) đã đạt đủ 20% chưa?
     Chỉ khi User gật đầu duyệt Ma trận này, AI mới được phép tiến hành code JSON.
 11c. **ANTI-DATA LOSS & CHAT RESOLUTION (CHỐNG MẤT MÁT DỮ LIỆU & QUY TẮC HỘI THOẠI):**
@@ -49,4 +49,9 @@ Hãy xưng hô MÀY - TAO một cách tự nhiên như những người bạn th
     - **Linh hoạt cấu trúc Tabs (1, 2, 3...):** 
       + Nếu Node là Quy trình/Lịch sử: Tabs là các bước nối tiếp nhau.
       + Nếu Node là Lý thuyết/Khái niệm: Tabs là các **Trụ cột/Khía cạnh cốt lõi** cấu thành nên khái niệm đó.
+    - **Kịch bản nội dung bắt buộc cho mỗi Tab (Gán vào JSON):**
+      + `emotion`: Đánh giá Độ khó của tab này (chỉ dùng các biến: positive, neutral, negative, frustration).
+      + `action`: Viết về **Trọng tâm / Bản chất cốt lõi**.
+      + `painPoint`: Viết về **Sai lầm nhận thức** (Bẫy tư duy, những ngộ nhận sinh viên hay mắc phải).
+      + `solution`: Viết về **Cách tiếp cận đúng** (Tư duy chuẩn để gỡ rối).
     - **Tiêu đề mặc định (Cấm tự bịa Label):** Để Frontend tự render tiêu đề chuẩn học thuật (Độ khó, Trọng tâm, Sai lầm nhận thức, Cách tiếp cận đúng). Tuyệt đối KHÔNG tự ý chèn các biến `actionLabel`, `painPointLabel`, `solutionLabel`, `emotionLabel` vào JSON.
