@@ -135,14 +135,19 @@
 .mapHeader {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-bottom: -16px;
   padding: 0 var(--space-xs);
+  width: 100%;
 }
 
 .mapTitle {
-  font-size: var(--text-sm);
-  font-weight: 800;
-  color: var(--color-accent-secondary, #00cec9);
-  letter-spacing: 1px;
+  font-size: 0.9em;
+  font-weight: 900 !important;
+  color: var(--color-success, #2ed573);
+  letter-spacing: 0.5px;
   text-transform: uppercase;
+  text-align: center;
+  -webkit-text-stroke: 0.5px currentColor;
+  text-shadow: 0 0 8px rgba(46, 213, 115, 0.4);
 }
