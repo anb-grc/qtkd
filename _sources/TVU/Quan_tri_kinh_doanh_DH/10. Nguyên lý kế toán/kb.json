@@ -1,0 +1,986 @@
+{
+  "subject": "Nguyên lý kế toán",
+  "overview": {
+    "type": "mindmap",
+    "title": "Bản đồ Kiến thức Nguyên lý Kế toán",
+    "data": {
+      "root": "NGUYÊN LÝ KẾ TOÁN",
+      "children": [
+        {
+          "label": "Tổng quan Kế toán",
+          "children": [
+            {
+              "id": "node_1",
+              "label": "Bản chất Kế toán"
+            },
+            {
+              "id": "node_2",
+              "label": "Kế toán Tài chính & Quản trị"
+            },
+            {
+              "id": "node_3",
+              "label": "Đạo đức nghề nghiệp"
+            }
+          ]
+        },
+        {
+          "label": "Bảng Cân đối Kế toán",
+          "children": [
+            {
+              "id": "node_4",
+              "label": "Cấu trúc Bảng Cân đối"
+            },
+            {
+              "id": "node_5",
+              "label": "Phương trình Kế toán"
+            }
+          ]
+        },
+        {
+          "label": "Chứng từ & Kiểm kê",
+          "children": [
+            {
+              "id": "node_6",
+              "label": "Hệ thống Chứng từ"
+            },
+            {
+              "id": "node_7",
+              "label": "Quy trình Kiểm kê"
+            }
+          ]
+        },
+        {
+          "label": "Tài khoản & Ghi sổ kép",
+          "children": [
+            {
+              "id": "node_8",
+              "label": "Mô hình Chữ T"
+            },
+            {
+              "id": "node_9",
+              "label": "Nguyên tắc Ghi sổ kép"
+            }
+          ]
+        },
+        {
+          "label": "Tính giá Đối tượng",
+          "children": [
+            {
+              "id": "node_10",
+              "label": "Các loại Giá trị"
+            },
+            {
+              "id": "node_11",
+              "label": "Tính giá Xuất kho"
+            }
+          ]
+        },
+        {
+          "label": "Báo cáo & Sổ sách",
+          "children": [
+            {
+              "id": "node_12",
+              "label": "Báo cáo KQ Hoạt động Kinh doanh"
+            },
+            {
+              "id": "node_15",
+              "label": "Báo cáo Lưu chuyển Tiền tệ"
+            },
+            {
+              "id": "node_13",
+              "label": "Phân loại Sổ Kế toán"
+            },
+            {
+              "id": "node_14",
+              "label": "Trình tự Ghi sổ"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "details": [
+    {
+      "node_id": "node_1",
+      "components": [
+        {
+          "type": "flip-card",
+          "title": "Bản chất Kế toán",
+          "data": {
+            "front": "Kế toán là gì?",
+            "back": "Là quá trình thu thập, xử lý, kiểm tra, phân tích và cung cấp thông tin kinh tế, tài chính dưới hình thức giá trị, hiện vật và thời gian lao động."
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Tư duy tiếp cận Bản chất Kế toán",
+          "data": {
+            "persona": "Người mới học",
+            "stages": [
+              {
+                "stage": "Thu thập",
+                "action": "Nhận diện nghiệp vụ kinh tế phát sinh",
+                "emotion": "neutral",
+                "painPoint": "Nhầm lẫn giữa giao dịch kinh tế và giao dịch dân sự thông thường",
+                "solution": "Chỉ ghi nhận khi có chứng từ chứng minh sự thay đổi về tài sản/nguồn vốn"
+              },
+              {
+                "stage": "Cung cấp",
+                "action": "Lập báo cáo tài chính cho các đối tượng sử dụng",
+                "emotion": "positive",
+                "painPoint": "Không biết ai cần đọc số liệu này",
+                "solution": "Luôn phân định rõ người dùng nội bộ (nhà quản lý) và bên ngoài (nhà nước, cổ đông)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Bản chất Kế toán",
+          "data": {
+            "quiz_tags": [
+              "Bản chất Kế toán",
+              "Nền tảng"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_2",
+      "components": [
+        {
+          "type": "vs-wrap",
+          "title": "Phân biệt Kế toán Tài chính và Kế toán Quản trị",
+          "data": {
+            "left": {
+              "title": "Kế toán Tài chính",
+              "points": [
+                "Phục vụ đối tượng bên ngoài (Cổ đông, Thuế, Ngân hàng).",
+                "Tuân thủ nghiêm ngặt chuẩn mực kế toán (VAS).",
+                "Cung cấp thông tin trong quá khứ.",
+                "Tính pháp lý cao."
+              ]
+            },
+            "right": {
+              "title": "Kế toán Quản trị",
+              "points": [
+                "Phục vụ đối tượng bên trong (Ban giám đốc).",
+                "Linh hoạt, không bắt buộc theo chuẩn mực.",
+                "Hướng tới tương lai (Dự toán, Kế hoạch).",
+                "Tính bảo mật cao, không công bố ra ngoài."
+              ]
+            }
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Tư duy Phân loại Kế toán",
+          "data": {
+            "persona": "Kế toán viên",
+            "stages": [
+              {
+                "stage": "Xác định mục đích",
+                "action": "Lựa chọn phương pháp lập báo cáo",
+                "emotion": "frustration",
+                "painPoint": "Đem chuẩn mực kế toán tài chính cứng nhắc áp dụng cho phân tích quản trị",
+                "solution": "Tách bạch rõ rệt: Báo cáo tài chính để nộp thuế, Báo cáo quản trị để sếp ra quyết định"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Kế toán TC & Quản trị",
+          "data": {
+            "quiz_tags": [
+              "Kế toán Tài chính & Quản trị",
+              "Cấu trúc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_3",
+      "components": [
+        {
+          "type": "chat-simulation",
+          "title": "Tình huống Đạo đức Kế toán",
+          "data": {
+            "messages": [
+              {
+                "sender": "Giám đốc",
+                "text": "Báo cáo quý này lỗ, em xào nấu lại chi phí để có lãi đi, gửi ngân hàng vay vốn.",
+                "isTrap": true
+              },
+              {
+                "sender": "Kế toán viên",
+                "text": "Dạ không được sếp ơi. Nguyên tắc trung thực và khách quan bắt buộc em phải phản ánh đúng thực trạng. Làm vậy vi phạm đạo đức nghề nghiệp và pháp luật ạ.",
+                "highlight": true
+              },
+              {
+                "sender": "Giám đốc",
+                "text": "Vậy thôi, em phân tích lại cơ cấu chi phí để quý sau mình cắt giảm hợp lý nhé.",
+                "note": "Giới hạn pháp lý và đạo đức là tấm khiên bảo vệ kế toán viên."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Nhận thức Đạo đức Nghề nghiệp",
+          "data": {
+            "persona": "Kế toán viên",
+            "stages": [
+              {
+                "stage": "Áp lực",
+                "action": "Đối mặt với yêu cầu bóp méo số liệu",
+                "emotion": "negative",
+                "painPoint": "Sợ mất việc nên làm theo lời sếp",
+                "solution": "Tuân thủ luật pháp và tính độc lập của nghề. Nhận thức rõ trách nhiệm hình sự liên đới."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Đạo đức nghề nghiệp",
+          "data": {
+            "quiz_tags": [
+              "Đạo đức nghề nghiệp",
+              "Góc nhìn Đa chiều"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_4",
+      "components": [
+        {
+          "type": "treemap",
+          "title": "Cấu trúc Bảng Cân đối Kế toán",
+          "data": {
+            "items": [
+              {
+                "name": "Tài sản Ngắn hạn",
+                "value": 40,
+                "category": "TÀI SẢN"
+              },
+              {
+                "name": "Tài sản Dài hạn",
+                "value": 60,
+                "category": "TÀI SẢN"
+              },
+              {
+                "name": "Nợ Phải Trả",
+                "value": 50,
+                "category": "NGUỒN VỐN"
+              },
+              {
+                "name": "Vốn Chủ Sở Hữu",
+                "value": 50,
+                "category": "NGUỒN VỐN"
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Tư duy Bảng Cân đối",
+          "data": {
+            "stages": [
+              {
+                "stage": "Phân tích cấu trúc",
+                "action": "Phân bổ TÀI SẢN và NGUỒN VỐN",
+                "emotion": "neutral",
+                "painPoint": "Nhầm lẫn giữa tiền mặt và vốn, tưởng vốn CSH là tiền",
+                "solution": "Tài sản là cái Doanh nghiệp đang CÓ (tiền, hàng, máy móc). Nguồn vốn là NGUỒN GỐC hình thành nên cái tài sản đó (đi vay hay tự có)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Cấu trúc Bảng Cân đối",
+          "data": {
+            "quiz_tags": [
+              "Cấu trúc Bảng Cân đối",
+              "Cấu trúc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_5",
+      "components": [
+        {
+          "type": "interactive-calc",
+          "title": "Phương trình Kế toán Cơ bản",
+          "data": {
+            "inputs": [
+              {
+                "id": "no",
+                "name": "Nợ phải trả",
+                "defaultValue": 1000
+              },
+              {
+                "id": "von",
+                "name": "Vốn chủ sở hữu",
+                "defaultValue": 3000
+              }
+            ],
+            "operation": "add",
+            "resultLabel": "TỔNG TÀI SẢN"
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Tư duy Cân bằng Kế toán",
+          "data": {
+            "stages": [
+              {
+                "stage": "Cân bằng tuyệt đối",
+                "action": "Ghi nhận nghiệp vụ làm thay đổi phương trình",
+                "emotion": "positive",
+                "painPoint": "Tính toán bị lệch một bên Tài sản hoặc Nguồn vốn",
+                "solution": "Mọi nghiệp vụ kinh tế phát sinh luôn tác động vào ít nhất 2 đối tượng, đảm bảo phương trình Tài sản = Nợ + Vốn CSH luôn cân bằng."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Phương trình Kế toán",
+          "data": {
+            "quiz_tags": [
+              "Phương trình Kế toán",
+              "Logic & Nguyên tắc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_6",
+      "components": [
+        {
+          "type": "decision-tree",
+          "title": "Lựa chọn Chứng từ Kế toán",
+          "data": {
+            "startNodeId": "q1",
+            "nodes": {
+              "q1": {
+                "label": "Giao dịch liên quan đến cái gì?",
+                "options": [
+                  {
+                    "text": "Tiền mặt",
+                    "nextNodeId": "n1"
+                  },
+                  {
+                    "text": "Hàng hóa/Vật tư",
+                    "nextNodeId": "n2"
+                  }
+                ]
+              },
+              "n1": {
+                "label": "Tiền chạy vào hay chạy ra?",
+                "options": [
+                  {
+                    "text": "Thu tiền vào",
+                    "nextNodeId": "r1"
+                  },
+                  {
+                    "text": "Chi tiền ra",
+                    "nextNodeId": "r2"
+                  }
+                ]
+              },
+              "n2": {
+                "label": "Hàng hóa nhập vào hay xuất ra?",
+                "options": [
+                  {
+                    "text": "Nhập kho",
+                    "nextNodeId": "r3"
+                  },
+                  {
+                    "text": "Xuất kho",
+                    "nextNodeId": "r4"
+                  }
+                ]
+              },
+              "r1": {
+                "label": "Lập PHIẾU THU"
+              },
+              "r2": {
+                "label": "Lập PHIẾU CHI"
+              },
+              "r3": {
+                "label": "Lập PHIẾU NHẬP KHO"
+              },
+              "r4": {
+                "label": "Lập PHIẾU XUẤT KHO"
+              }
+            }
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Tư duy Pháp lý Chứng từ",
+          "data": {
+            "stages": [
+              {
+                "stage": "Chứng minh",
+                "action": "Lập và luân chuyển chứng từ",
+                "emotion": "neutral",
+                "painPoint": "Làm mất chứng từ gốc hoặc lập sai quy định",
+                "solution": "Chứng từ là bằng chứng pháp lý duy nhất. Không chứng từ = Không ghi sổ."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Chứng từ",
+          "data": {
+            "quiz_tags": [
+              "Hệ thống Chứng từ",
+              "Hệ thống"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_7",
+      "components": [
+        {
+          "type": "process-steps",
+          "title": "Quy trình Kiểm kê",
+          "data": {
+            "steps": [
+              {
+                "name": "Chuẩn bị",
+                "description": "Thành lập ban kiểm kê, chuẩn bị sổ sách."
+              },
+              {
+                "name": "Thực hành Kiểm kê",
+                "description": "Đếm, cân, đo, đong, đếm thực tế tài sản tại kho."
+              },
+              {
+                "name": "Đối chiếu",
+                "description": "So sánh số liệu thực tế kiểm kê với số liệu trên sổ sách."
+              },
+              {
+                "name": "Xử lý chênh lệch",
+                "description": "Lập biên bản xử lý tài sản thừa hoặc thiếu."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Tư duy Kiểm kê",
+          "data": {
+            "stages": [
+              {
+                "stage": "Xử lý Chênh lệch",
+                "action": "Ghi nhận tài sản thiếu/thừa",
+                "emotion": "negative",
+                "painPoint": "Tự ý bù trừ tài sản thừa thiếu cho nhau",
+                "solution": "Tài sản thừa và thiếu phải xử lý tách bạch, tìm rõ nguyên nhân (do thủ kho, hao hụt định mức, hay nhầm sổ)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Quy trình Kiểm kê",
+          "data": {
+            "quiz_tags": [
+              "Quy trình Kiểm kê",
+              "Phân luồng"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_8",
+      "components": [
+        {
+          "type": "t-account",
+          "title": "Mô hình Chữ T (T-Account)",
+          "data": {
+            "left": {
+              "header": "Bên NỢ",
+              "entries": [
+                "Ghi nhận Tài sản tăng",
+                "Ghi nhận Chi phí tăng",
+                "Ghi nhận Nguồn vốn giảm",
+                "Ghi nhận Doanh thu giảm"
+              ]
+            },
+            "right": {
+              "header": "Bên CÓ",
+              "entries": [
+                "Ghi nhận Nguồn vốn tăng",
+                "Ghi nhận Doanh thu tăng",
+                "Ghi nhận Tài sản giảm",
+                "Ghi nhận Chi phí giảm"
+              ]
+            }
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Nhận diện Chữ T",
+          "data": {
+            "stages": [
+              {
+                "stage": "Định vị",
+                "action": "Ghi nhận vế trái/phải",
+                "emotion": "frustration",
+                "painPoint": "Theo thói quen ngân hàng: Nợ là nợ nần, Có là có tiền",
+                "solution": "Xóa ngay tư duy đời sống! Trong kế toán, Nợ/Có chỉ là quy ước Trái/Phải của chữ T. Tài sản tăng ghi Nợ, Nguồn vốn tăng ghi Có."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Mô hình Chữ T",
+          "data": {
+            "quiz_tags": [
+              "Mô hình Chữ T",
+              "Cấu trúc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_9",
+      "components": [
+        {
+          "type": "decision-tree",
+          "title": "Nguyên tắc Ghi sổ kép",
+          "data": {
+            "startNodeId": "q1",
+            "nodes": {
+              "q1": {
+                "label": "Tài khoản biến động thuộc nhóm nào?",
+                "options": [
+                  {
+                    "text": "Tài sản / Chi phí",
+                    "nextNodeId": "n1"
+                  },
+                  {
+                    "text": "Nguồn vốn / Doanh thu",
+                    "nextNodeId": "n2"
+                  }
+                ]
+              },
+              "n1": {
+                "label": "Phát sinh tăng hay giảm?",
+                "options": [
+                  {
+                    "text": "Tăng",
+                    "nextNodeId": "r1"
+                  },
+                  {
+                    "text": "Giảm",
+                    "nextNodeId": "r2"
+                  }
+                ]
+              },
+              "n2": {
+                "label": "Phát sinh tăng hay giảm?",
+                "options": [
+                  {
+                    "text": "Tăng",
+                    "nextNodeId": "r3"
+                  },
+                  {
+                    "text": "Giảm",
+                    "nextNodeId": "r4"
+                  }
+                ]
+              },
+              "r1": {
+                "label": "Ghi NỢ (Tài sản tăng)"
+              },
+              "r2": {
+                "label": "Ghi CÓ (Tài sản giảm)"
+              },
+              "r3": {
+                "label": "Ghi CÓ (Nguồn vốn tăng)"
+              },
+              "r4": {
+                "label": "Ghi NỢ (Nguồn vốn giảm)"
+              }
+            }
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Tư duy Ghi sổ kép",
+          "data": {
+            "stages": [
+              {
+                "stage": "Định khoản",
+                "action": "Cân bằng tổng Nợ và tổng Có",
+                "emotion": "neutral",
+                "painPoint": "Ghi Nợ mà quên ghi Có, hoặc ghi sai số tiền giữa 2 bên",
+                "solution": "Đã ghi Nợ TK này thì BẮT BUỘC phải ghi Có TK đối ứng. Tổng số tiền bên Nợ luôn phải BẰNG tổng số tiền bên Có."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Nguyên tắc Ghi sổ",
+          "data": {
+            "quiz_tags": [
+              "Nguyên tắc Ghi sổ kép",
+              "Logic & Nguyên tắc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_10",
+      "components": [
+        {
+          "type": "flip-card",
+          "title": "Các loại Giá trị Kế toán",
+          "data": {
+            "front": "Nguyên tắc Giá Gốc (Historical Cost)",
+            "back": "Tài sản được ghi nhận theo giá trị tại thời điểm hình thành (thời điểm mua), KHÔNG thay đổi theo thị trường."
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Tư duy Tính giá",
+          "data": {
+            "stages": [
+              {
+                "stage": "Ghi nhận Ban đầu",
+                "action": "Xác định giá gốc của tài sản mua vào",
+                "emotion": "negative",
+                "painPoint": "Định giá lại tài sản theo giá trị thị trường hiện tại để làm đẹp báo cáo",
+                "solution": "Việt Nam áp dụng nguyên tắc Giá Gốc cực kỳ nghiêm ngặt. Mua mảnh đất 1 tỷ chục năm trước thì sổ sách nay vẫn ghi 1 tỷ."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Các loại giá trị",
+          "data": {
+            "quiz_tags": [
+              "Các loại Giá trị",
+              "Cấu trúc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_11",
+      "components": [
+        {
+          "type": "formula-breakdown",
+          "title": "Tính giá Xuất kho (Bình quân Gia quyền)",
+          "data": {
+            "formula": "Giá đơn vị BQ = (Giá trị Tồn đầu kỳ + Giá trị Nhập trong kỳ) / (Số lượng Tồn đầu kỳ + Số lượng Nhập trong kỳ)",
+            "variables": [
+              {
+                "symbol": "Giá trị",
+                "definition": "Số lượng x Đơn giá của từng lô hàng"
+              },
+              {
+                "symbol": "Số lượng",
+                "definition": "Tổng khối lượng vật tư/hàng hóa"
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Nhận diện Kỹ thuật Tính giá",
+          "data": {
+            "stages": [
+              {
+                "stage": "Xuất kho",
+                "action": "Chọn phương pháp tính đơn giá (FIFO, Bình quân)",
+                "emotion": "frustration",
+                "painPoint": "Dùng lẫn lộn các phương pháp xuất kho trong cùng một kỳ",
+                "solution": "Nguyên tắc nhất quán: Đã chọn phương pháp nào thì phải áp dụng xuyên suốt ít nhất trong 1 năm tài chính."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Tính giá Xuất kho",
+          "data": {
+            "quiz_tags": [
+              "Tính giá Xuất kho",
+              "Logic & Nguyên tắc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_12",
+      "components": [
+        {
+          "type": "waterfall-chart",
+          "title": "Cấu trúc Báo cáo Kết quả Kinh doanh",
+          "data": {
+            "unit": "VNĐ",
+            "steps": [
+              {
+                "label": "Doanh thu thuần",
+                "value": 1000,
+                "type": "start"
+              },
+              {
+                "label": "Giá vốn hàng bán",
+                "value": 600,
+                "type": "sub"
+              },
+              {
+                "label": "Lợi nhuận Gộp",
+                "value": 400,
+                "type": "total"
+              },
+              {
+                "label": "Chi phí hoạt động",
+                "value": 150,
+                "type": "sub"
+              },
+              {
+                "label": "Lợi nhuận Thuần",
+                "value": 250,
+                "type": "total"
+              },
+              {
+                "label": "Thuế TNDN",
+                "value": 50,
+                "type": "sub"
+              },
+              {
+                "label": "Lợi nhuận sau thuế",
+                "value": 200,
+                "type": "total"
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Đọc hiểu Dòng Lợi nhuận",
+          "data": {
+            "stages": [
+              {
+                "stage": "Đánh giá hiệu quả",
+                "action": "Phân tích lợi nhuận gộp và ròng",
+                "emotion": "positive",
+                "painPoint": "Đồng nhất Doanh thu là Lợi nhuận, hoặc không bóc tách giá vốn",
+                "solution": "Lợi nhuận được hình thành từng bước, sự bào mòn lớn nhất thường nằm ở Giá vốn và Chi phí bán hàng."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Báo cáo KQKD",
+          "data": {
+            "quiz_tags": [
+              "Báo cáo KQ Hoạt động Kinh doanh",
+              "Cấu trúc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_15",
+      "components": [
+        {
+          "type": "sankey-diagram",
+          "title": "Báo cáo Lưu chuyển Tiền tệ",
+          "data": {
+            "flows": [
+              {
+                "from": "Hoạt động Kinh doanh",
+                "to": "Dòng Tiền Thuần",
+                "value": 300
+              },
+              {
+                "from": "Hoạt động Đầu tư",
+                "to": "Dòng Tiền Thuần",
+                "value": -100
+              },
+              {
+                "from": "Hoạt động Tài chính",
+                "to": "Dòng Tiền Thuần",
+                "value": 50
+              },
+              {
+                "from": "Dòng Tiền Thuần",
+                "to": "Tiền Tồn Cuối Kỳ",
+                "value": 250
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Đọc hiểu Dòng tiền",
+          "data": {
+            "stages": [
+              {
+                "stage": "Phân tích dòng tiền",
+                "action": "Xác định khả năng sinh lời thực tế",
+                "emotion": "frustration",
+                "painPoint": "Có lợi nhuận cao nhưng công ty vẫn phá sản vì không có tiền mặt",
+                "solution": "Lợi nhuận trên giấy khác với Tiền thực tế (do mua bán chịu). LCTT là dòng máu nuôi sống doanh nghiệp."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Lưu chuyển tiền tệ",
+          "data": {
+            "quiz_tags": [
+              "Báo cáo Lưu chuyển Tiền tệ",
+              "Cấu trúc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_13",
+      "components": [
+        {
+          "type": "quadrant",
+          "title": "Phân loại Sổ Kế toán",
+          "data": {
+            "x_axis": "Mức độ chi tiết (Tổng hợp / Chi tiết)",
+            "y_axis": "Cơ sở ghi chép (Thời gian / Đối tượng)",
+            "quadrants": [
+              {
+                "title": "Sổ Nhật ký chung",
+                "description": "Ghi chép tổng hợp theo thời gian (Chronological)"
+              },
+              {
+                "title": "Sổ Cái",
+                "description": "Ghi chép tổng hợp theo hệ thống tài khoản (Systematic)"
+              },
+              {
+                "title": "Sổ Đăng ký Chứng từ",
+                "description": "Chi tiết theo thời gian"
+              },
+              {
+                "title": "Sổ/Thẻ Chi tiết",
+                "description": "Ghi chép chi tiết theo từng đối tượng (Vật tư, Khách hàng)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Lựa chọn loại Sổ sách",
+          "data": {
+            "stages": [
+              {
+                "stage": "Ghi sổ",
+                "action": "Quyết định ghi vào sổ Nhật ký hay sổ Cái",
+                "emotion": "neutral",
+                "painPoint": "Bỏ qua sổ chi tiết, chỉ ghi sổ tổng hợp",
+                "solution": "Kế toán phải ghi đồng thời: sổ tổng hợp (để nắm bức tranh lớn) và sổ chi tiết (để theo dõi số liệu từng mặt hàng, từng con nợ)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Sổ Kế toán",
+          "data": {
+            "quiz_tags": [
+              "Phân loại Sổ Kế toán",
+              "Hệ thống"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_14",
+      "components": [
+        {
+          "type": "flowchart",
+          "title": "Trình tự Ghi sổ Nhật ký chung",
+          "data": {
+            "steps": [
+              {
+                "name": "Chứng từ gốc",
+                "description": "Phiếu thu, chi, hóa đơn"
+              },
+              {
+                "name": "Sổ Nhật ký chung",
+                "description": "Ghi nhận nghiệp vụ phát sinh theo trình tự thời gian"
+              },
+              {
+                "name": "Sổ Cái",
+                "description": "Lấy số liệu từ Nhật ký phân bổ về từng Tài khoản chữ T"
+              },
+              {
+                "name": "Bảng Cân đối Số phát sinh",
+                "description": "Kiểm tra độ chính xác của việc ghi sổ kép trước khi lập BCTC"
+              },
+              {
+                "name": "Báo cáo Tài chính",
+                "description": "Lên Bảng cân đối, KQKD, LCTT"
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Luân chuyển dữ liệu Kế toán",
+          "data": {
+            "stages": [
+              {
+                "stage": "Kiểm tra & Khóa sổ",
+                "action": "Lập Bảng cân đối số phát sinh",
+                "emotion": "positive",
+                "painPoint": "Đốt cháy giai đoạn, nhảy từ chứng từ lên thẳng báo cáo",
+                "solution": "Luân chuyển phải theo luồng: Thời gian -> Đối tượng -> Cân đối -> Báo cáo. Bất kỳ sự nhảy cóc nào cũng gây sai lệch không thể dò tìm."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Trình tự Ghi sổ",
+          "data": {
+            "quiz_tags": [
+              "Trình tự Ghi sổ",
+              "Phân luồng"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
