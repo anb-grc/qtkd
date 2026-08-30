@@ -286,22 +286,21 @@
       "node_id": "phuong-phap",
       "components": [
         {
-          "type": "formula-breakdown",
-          "title": "Phương pháp cốt lõi",
+          "type": "features",
+          "title": "Phương pháp cốt lõi: Trừu tượng hóa khoa học",
           "data": {
-            "formula": "Trừu tượng hóa khoa học",
-            "variables": [
+            "items": [
               {
-                "symbol": "Gạt bỏ",
-                "definition": "Những yếu tố ngẫu nhiên, cá biệt, bề ngoài."
+                "title": "Gạt bỏ",
+                "description": "Những yếu tố ngẫu nhiên, cá biệt, bề ngoài."
               },
               {
-                "symbol": "Giữ lại",
-                "definition": "Những hiện tượng tiêu biểu, ổn định, phổ biến."
+                "title": "Giữ lại",
+                "description": "Những hiện tượng tiêu biểu, ổn định, phổ biến."
               },
               {
-                "symbol": "Đích đến",
-                "definition": "Bản chất bên trong và quy luật vận động."
+                "title": "Đích đến",
+                "description": "Bản chất bên trong và quy luật vận động."
               }
             ]
           }
