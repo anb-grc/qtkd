@@ -1,402 +1,1667 @@
-[
-  {
-    "title": "Nền tảng, Lịch sử & Phương pháp luận",
-    "blocks": [
+{
+  "subject": "Kinh tế chính trị Mác - Lênin",
+  "overview": {
+    "type": "mindmap",
+    "label": "Kinh tế chính trị Mác - Lênin",
+    "children": [
       {
-        "type": "timeline",
-        "title": "Lịch Sử Phát Triển",
-        "data": {
-          "items": [
-            {
-              "time": "Từ thế kỷ XV về trước",
-              "description": "Tư tưởng kinh tế trong triết học, luận lý. Trình độ sản xuất xã hội tạo tiền đề lý luận."
-            },
-            {
-              "time": "Giữa TK XV - giữa TK XVII",
-              "description": "Chủ nghĩa trọng thương (William Stafford, Thomas Mun)."
-            },
-            {
-              "time": "Cuối TK XVII - nửa đầu TK XVIII",
-              "description": "Chủ nghĩa trọng nông (Pierr Boisguillebert, Fancois Quesney)."
-            },
-            {
-              "time": "Cuối TK XVIII - nửa đầu TK XIX",
-              "description": "Kinh tế chính trị cổ điển Anh (William Petty, A.Smith, David Ricard). Giá trị do hao phí lao động tạo ra."
-            },
-            {
-              "time": "Nửa cuối TK XIX",
-              "description": "Kinh tế chính trị C.Mác & Ph.Ăngghen. Phương thức sản xuất TBCN, quy luật thặng dư."
-            },
-            {
-              "time": "Cuối TK XIX - đầu TK XX",
-              "description": "V.I.Lênin phát triển lý luận về độc quyền, độc quyền nhà nước."
-            }
-          ]
-        }
+        "label": "Nền móng Lý luận",
+        "children": [
+          {
+            "id": "lich-su",
+            "label": "Lịch sử hình thành"
+          },
+          {
+            "id": "doi-tuong",
+            "label": "Đối tượng nghiên cứu"
+          },
+          {
+            "id": "phuong-phap",
+            "label": "Phương pháp luận"
+          },
+          {
+            "id": "chuc-nang",
+            "label": "Hệ thống chức năng"
+          }
+        ]
       },
       {
-        "type": "features",
-        "title": "Đối Tượng, Mục Đích & Phương Pháp",
-        "data": {
-          "items": [
-            {
-              "title": "Đối tượng nghiên cứu",
-              "description": "Các quan hệ xã hội của sản xuất và trao đổi gắn với sự phát triển của LLSX và KTTT."
-            },
-            {
-              "title": "Mục đích nghiên cứu",
-              "description": "Tìm ra các quy luật kinh tế chi phối sự vận động xã hội, thúc đẩy văn minh."
-            },
-            {
-              "title": "Phương pháp nghiên cứu",
-              "description": "Trừu tượng hóa khoa học, phép biện chứng duy vật, và các phương pháp liên ngành."
-            }
-          ]
-        }
+        "label": "Cơ chế Thị trường Tự do",
+        "children": [
+          {
+            "id": "ban-chat-hh",
+            "label": "Bản chất Hàng hóa"
+          },
+          {
+            "id": "tinh-2-mat",
+            "label": "Tính 2 mặt của Lao động"
+          },
+          {
+            "id": "tien-te",
+            "label": "Sự ra đời của Tiền tệ"
+          },
+          {
+            "id": "thi-truong",
+            "label": "Thị trường & KTTT"
+          },
+          {
+            "id": "quy-luat-tien-te",
+            "label": "Quy luật Lưu thông tiền tệ"
+          },
+          {
+            "id": "canh-tranh",
+            "label": "Quy luật Cạnh tranh"
+          },
+          {
+            "id": "chu-the",
+            "label": "Hệ sinh thái Chủ thể"
+          }
+        ]
       },
       {
-        "type": "mindmap",
-        "title": "Chức Năng Của Kinh Tế Chính Trị",
-        "data": {
-          "root": "Chức Năng",
-          "children": [
-            {
-              "name": "Nhận thức",
-              "children": [
-                {
-                  "name": "Quy luật kinh tế"
-                },
-                {
-                  "name": "Sự vận động xã hội"
-                }
-              ]
-            },
-            {
-              "name": "Thực tiễn",
-              "children": [
-                {
-                  "name": "Vận dụng vào quản trị"
-                },
-                {
-                  "name": "Hoạch định chính sách"
-                }
-              ]
-            },
-            {
-              "name": "Tư tưởng",
-              "children": [
-                {
-                  "name": "Nền tảng tư tưởng tiến bộ"
-                },
-                {
-                  "name": "Xây dựng xã hội tốt đẹp"
-                }
-              ]
-            },
-            {
-              "name": "Phương pháp luận",
-              "children": [
-                {
-                  "name": "Nền tảng cho các môn khoa học kinh tế"
-                }
-              ]
-            }
-          ]
-        }
+        "label": "Phương thức sản xuất TBCN",
+        "children": [
+          {
+            "id": "dk-suc-lao-dong",
+            "label": "Điều kiện SLĐ thành Hàng hóa"
+          },
+          {
+            "id": "sld-tien-cong",
+            "label": "Sức lao động vs Tiền công"
+          },
+          {
+            "id": "tu-ban-cv",
+            "label": "Phân loại Tư bản (c vs v)"
+          },
+          {
+            "id": "pp-gttd",
+            "label": "Phương pháp SX GTTD"
+          },
+          {
+            "id": "quy-trinh-m",
+            "label": "Quá trình tạo ra GTTD"
+          },
+          {
+            "id": "ty-suat-m",
+            "label": "Tỷ suất & Khối lượng m"
+          },
+          {
+            "id": "tich-luy",
+            "label": "Tích lũy & Tái sản xuất"
+          },
+          {
+            "id": "gia-ca-sx",
+            "label": "Lợi nhuận & Giá cả SX"
+          },
+          {
+            "id": "tu-ban-cho-vay",
+            "label": "Lợi tức & Tư bản cho vay"
+          },
+          {
+            "id": "dia-to",
+            "label": "Địa tô TBCN"
+          },
+          {
+            "id": "nguon-goc-dq",
+            "label": "Nguồn gốc Độc quyền"
+          },
+          {
+            "id": "to-chuc-dq",
+            "label": "Các tổ chức Độc quyền"
+          },
+          {
+            "id": "tai-phiet",
+            "label": "Chế độ tham dự & Tài phiệt"
+          },
+          {
+            "id": "xuat-khau-tb",
+            "label": "Xuất khẩu tư bản"
+          },
+          {
+            "id": "vai-tro-cntb",
+            "label": "Vai trò lịch sử của CNTB"
+          }
+        ]
+      },
+      {
+        "label": "Mô hình Kinh tế Việt Nam",
+        "children": [
+          {
+            "id": "ban-chat-kttt",
+            "label": "Bản chất & Đặc trưng"
+          },
+          {
+            "id": "the-che-kttt",
+            "label": "Hệ thống Thể chế"
+          },
+          {
+            "id": "quan-he-loi-ich",
+            "label": "Quan hệ Lợi ích kinh tế"
+          },
+          {
+            "id": "vai-tro-nha-nuoc",
+            "label": "Vai trò của Nhà nước"
+          }
+        ]
+      },
+      {
+        "label": "Kỷ nguyên số & Hội nhập",
+        "children": [
+          {
+            "id": "cmcn",
+            "label": "Các cuộc CMCN"
+          },
+          {
+            "id": "cnh-hdh",
+            "label": "Đặc điểm CNH-HĐH VN"
+          },
+          {
+            "id": "tien-trinh-hn",
+            "label": "Hội nhập Kinh tế Quốc tế"
+          },
+          {
+            "id": "tac-dong-hn",
+            "label": "Tác động của Hội nhập"
+          }
+        ]
       }
     ]
   },
-  {
-    "title": "Các Quy Luật Kinh Tế Xuyên Suốt",
-    "blocks": [
-      {
-        "type": "pyramid",
-        "title": "Hệ Thống Quy Luật Kinh Tế",
-        "data": {
-          "levels": [
+  "details": [
+    {
+      "node_id": "lich-su",
+      "components": [
+        {
+          "type": "timeline",
+          "events": [
             {
-              "name": "Quy luật Giá trị",
-              "description": "Sản xuất và trao đổi dựa trên hao phí lao động xã hội cần thiết."
+              "date": "Trước TK XV",
+              "title": "Tư tưởng kinh tế cổ đại",
+              "description": "Lẻ tẻ, chưa thành hệ thống."
             },
             {
-              "name": "Quy luật Cung - Cầu",
-              "description": "Điều tiết sản xuất, thay đổi cơ cấu thị trường và ảnh hưởng giá cả."
+              "date": "TK XV - XVII",
+              "title": "Chủ nghĩa Trọng thương",
+              "description": "Đề cao thương mại, buôn bán để làm giàu."
             },
             {
-              "name": "Quy luật Cạnh tranh",
-              "description": "Thúc đẩy cải tiến, phân bổ nguồn lực nhưng cũng tạo phân hóa."
+              "date": "TK XVII - XVIII",
+              "title": "Chủ nghĩa Trọng nông",
+              "description": "Nguồn gốc của cải là từ sản xuất nông nghiệp."
             },
             {
-              "name": "Quy luật Lưu thông tiền tệ",
-              "description": "Lưu thông tiền tệ phải căn cứ trên yêu cầu của lưu thông hàng hóa."
+              "date": "TK XVIII - XIX",
+              "title": "KTCT Cổ điển Anh",
+              "description": "A.Smith & D.Ricardo: Đề cao giá trị do lao động tạo ra."
+            },
+            {
+              "date": "Giữa TK XIX",
+              "title": "C.Mác & Ph.Ăngghen",
+              "description": "Hoàn thiện lý luận, phát hiện ra Giá trị thặng dư."
+            },
+            {
+              "date": "Đầu TK XX",
+              "title": "V.I.Lênin",
+              "description": "Phát triển lý luận trong giai đoạn Độc quyền."
             }
           ]
-        }
-      },
-      {
-        "type": "formula",
-        "title": "Công Thức Sản Xuất Giá Trị Thặng Dư",
-        "data": {
-          "formula": "G = c + (v + m)",
-          "variables": [
+        },
+        {
+          "type": "journey-map",
+          "tabs": [
             {
-              "symbol": "G",
-              "definition": "Giá trị hàng hóa"
-            },
-            {
-              "symbol": "c",
-              "definition": "Tư bản bất biến (Tư liệu sản xuất)"
-            },
-            {
-              "symbol": "v",
-              "definition": "Tư bản khả biến (Sức lao động)"
-            },
-            {
-              "symbol": "m",
-              "definition": "Giá trị thặng dư (Lao động thặng dư)"
+              "emotion": "neutral",
+              "action": "Nắm bắt tiến trình lịch sử để hiểu cội nguồn lý luận kinh tế.",
+              "painPoint": "Nghĩ rằng Mác là người đầu tiên sáng tạo ra mọi quy luật kinh tế.",
+              "solution": "Mác kế thừa và phát triển từ KTCT Cổ điển Anh, hoàn thiện học thuyết GTTD."
             }
           ]
+        },
+        {
+          "type": "quiz",
+          "quiz_tags": [
+            "Nền móng Lý luận",
+            "Nền tảng"
+          ]
         }
-      },
-      {
-        "type": "vs-wrap",
-        "title": "Phương Pháp Sản Xuất Giá Trị Thặng Dư",
-        "data": {
+      ]
+    },
+    {
+      "node_id": "doi-tuong",
+      "components": [
+        {
+          "type": "flip-card",
+          "cards": [
+            {
+              "front": "Nghĩa hẹp",
+              "back": "Nghiên cứu QHSX trong một phương thức sản xuất nhất định (thường là TBCN)."
+            },
+            {
+              "front": "Nghĩa rộng",
+              "back": "Nghiên cứu QHSX trong sự phát triển lịch sử của nhiều PTSX khác nhau."
+            }
+          ]
+        },
+        {
+          "type": "journey-map",
+          "tabs": [
+            {
+              "emotion": "neutral",
+              "action": "Phân biệt đối tượng nghiên cứu ở các phạm vi khác nhau.",
+              "painPoint": "Nhầm lẫn Đối tượng nghiên cứu với Chức năng của môn học.",
+              "solution": "Đối tượng là 'Cái gì' (QHSX), còn Chức năng là 'Để làm gì' (Nhận thức, Thực tiễn)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "quiz_tags": [
+            "Nền móng Lý luận",
+            "Cấu trúc"
+          ]
+        }
+      ]
+    },
+    {
+      "node_id": "phuong-phap",
+      "components": [
+        {
+          "type": "formula-breakdown",
+          "formula": "Phương pháp cốt lõi: Trừu tượng hóa khoa học",
+          "breakdown": [
+            {
+              "variable": "Bỏ qua",
+              "explanation": "Các yếu tố ngẫu nhiên, bề ngoài, cá biệt."
+            },
+            {
+              "variable": "Giữ lại",
+              "explanation": "Những hiện tượng tiêu biểu, ổn định, phổ biến."
+            },
+            {
+              "variable": "Mục đích",
+              "explanation": "Tìm ra bản chất và quy luật vận động bên trong."
+            }
+          ]
+        },
+        {
+          "type": "journey-map",
+          "tabs": [
+            {
+              "emotion": "neutral",
+              "action": "Sử dụng tư duy trừu tượng để tìm bản chất sự vật.",
+              "painPoint": "Học vẹt định nghĩa mà không hiểu 'trừu tượng hóa' là gì.",
+              "solution": "Nó giống như việc gọt bỏ vỏ trái cây để lấy phần lõi hạt cốt lõi bên trong."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "quiz_tags": [
+            "Nền móng Lý luận",
+            "Logic & Nguyên tắc"
+          ]
+        }
+      ]
+    },
+    {
+      "node_id": "chuc-nang",
+      "components": [
+        {
+          "type": "carousel",
+          "slides": [
+            {
+              "title": "1. Chức năng Nhận thức",
+              "content": "Cung cấp tri thức về quy luật kinh tế, bản chất xã hội."
+            },
+            {
+              "title": "2. Chức năng Thực tiễn",
+              "content": "Vận dụng quy luật vào thực tiễn để giải quyết vấn đề kinh tế."
+            },
+            {
+              "title": "3. Chức năng Tư tưởng",
+              "content": "Xây dựng thế giới quan khoa học, niềm tin vào con đường XHCN."
+            },
+            {
+              "title": "4. Chức năng Phương pháp luận",
+              "content": "Nền tảng lý luận cho các khoa học kinh tế ngành."
+            }
+          ]
+        },
+        {
+          "type": "journey-map",
+          "tabs": [
+            {
+              "emotion": "neutral",
+              "action": "Nắm 4 chức năng để hiểu giá trị ứng dụng của môn học.",
+              "painPoint": "Thường nhầm lẫn giữa chức năng Thực tiễn và Phương pháp luận.",
+              "solution": "Thực tiễn là hành động (làm ra tiền, chính sách), Phương pháp luận là nền tảng cho môn học khác (marketing, quản trị)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "quiz_tags": [
+            "Nền móng Lý luận",
+            "Cấu trúc"
+          ]
+        }
+      ]
+    },
+    {
+      "node_id": "ban-chat-hh",
+      "components": [
+        {
+          "type": "vs-wrap",
           "left": {
-            "title": "Tuyệt Đối",
-            "description": "Kéo dài ngày lao động vượt quá thời gian lao động tất yếu, năng suất và giá trị sức lao động không đổi."
+            "title": "Giá trị sử dụng",
+            "content": [
+              "Là công dụng của vật, thỏa mãn nhu cầu con người.",
+              "Là thuộc tính tự nhiên.",
+              "Thể hiện khi tiêu dùng."
+            ]
           },
           "right": {
-            "title": "Tương Đối",
-            "description": "Rút ngắn thời gian lao động tất yếu bằng cách tăng năng suất lao động xã hội, độ dài ngày lao động không đổi."
+            "title": "Giá trị",
+            "content": [
+              "Là lao động xã hội của người sản xuất kết tinh trong hàng hóa.",
+              "Là thuộc tính xã hội.",
+              "Thể hiện trong lưu thông (trao đổi)."
+            ]
           }
-        }
-      },
-      {
-        "type": "quadrant",
-        "title": "Tác Động Của Cạnh Tranh",
-        "data": {
-          "q1": {
-            "title": "Tích cực (Kinh tế)",
-            "content": "Thúc đẩy LLSX, điều chỉnh linh hoạt phân bổ nguồn lực."
-          },
-          "q2": {
-            "title": "Tích cực (Xã hội)",
-            "content": "Thúc đẩy thỏa mãn nhu cầu xã hội, năng lực cạnh tranh."
-          },
-          "q3": {
-            "title": "Tiêu cực (Kinh tế)",
-            "content": "Lãng phí nguồn lực, gây tổn hại môi trường kinh doanh."
-          },
-          "q4": {
-            "title": "Tiêu cực (Xã hội)",
-            "content": "Phân hóa xã hội, tổn hại phúc lợi, rủi ro khủng hoảng."
-          }
-        }
-      }
-    ]
-  },
-  {
-    "title": "Sự Tiến Hóa Của Nền Sản Xuất & Hàng Hóa",
-    "blocks": [
-      {
-        "type": "cycle",
-        "title": "Tuần Hoàn Của Tư Bản",
-        "data": {
-          "steps": [
-            "T (Tiền) - Mua Tư liệu sản xuất & Sức lao động",
-            "Sản xuất (Quá trình tạo ra giá trị mới H')",
-            "H' (Hàng hóa mới) - Mang giá trị thặng dư",
-            "T' (Tiền thu về) - T' = T + m"
-          ]
-        }
-      },
-      {
-        "type": "onion",
-        "title": "Bản Chất Hàng Hóa",
-        "data": {
-          "layers": [
+        },
+        {
+          "type": "journey-map",
+          "tabs": [
             {
-              "name": "Giá trị sử dụng",
-              "description": "Công dụng thỏa mãn nhu cầu con người."
-            },
-            {
-              "name": "Giá trị",
-              "description": "Hao phí lao động xã hội kết tinh trong hàng hóa."
-            },
-            {
-              "name": "Lao động cụ thể",
-              "description": "Tạo ra giá trị sử dụng, tính chất tư nhân."
-            },
-            {
-              "name": "Lao động trừu tượng",
-              "description": "Tạo ra giá trị, tính chất xã hội của lao động."
+              "emotion": "neutral",
+              "action": "Hiểu rõ 2 thuộc tính cấu thành nên mọi hàng hóa.",
+              "painPoint": "Nghĩ rằng không khí tự nhiên cũng là hàng hóa vì có giá trị sử dụng.",
+              "solution": "Để là hàng hóa, bắt buộc phải có đủ 2 yếu tố: Có công dụng VÀ Phải do lao động tạo ra để trao đổi."
             }
           ]
-        }
-      },
-      {
-        "type": "flowchart",
-        "title": "Nguồn Gốc & Sự Phát Triển Của Tiền Tệ",
-        "data": {
-          "steps": [
-            "Hình thái giá trị giản đơn (Ngẫu nhiên)",
-            "Hình thái giá trị đầy đủ (Mở rộng)",
-            "Hình thái chung của giá trị (Vật trung gian chung)",
-            "Hình thái tiền (Vàng, Bạc)",
-            "Tiền tệ thực hiện các chức năng: Thước đo, Lưu thông, Cất trữ, Thanh toán, Tiền thế giới"
+        },
+        {
+          "type": "quiz",
+          "quiz_tags": [
+            "Cơ chế Thị trường Tự do",
+            "Nền tảng"
           ]
         }
-      },
-      {
-        "type": "features",
-        "title": "Cách Mạng Công Nghiệp & Công Nghiệp Hóa",
-        "data": {
-          "items": [
-            {
-              "title": "CMCN Lần 1 (TK 18-19)",
-              "description": "Cơ giới hóa bằng năng lượng nước và hơi nước."
-            },
-            {
-              "title": "CMCN Lần 2 (Cuối TK 19 - Đầu TK 20)",
-              "description": "Điện, động cơ đốt trong, sản xuất dây chuyền."
-            },
-            {
-              "title": "CMCN Lần 3 (Thập niên 1960 - 2000)",
-              "description": "Công nghệ thông tin, tự động hóa, thiết bị điện tử."
-            },
-            {
-              "title": "CMCN Lần 4 (Từ 2011)",
-              "description": "Kỹ thuật số, vật lý, sinh học, AI, IoT, Dữ liệu lớn."
-            }
-          ]
-        }
-      },
-      {
-        "type": "vs-wrap",
-        "title": "Tích Tụ vs Tập Trung Tư Bản",
-        "data": {
+      ]
+    },
+    {
+      "node_id": "tinh-2-mat",
+      "components": [
+        {
+          "type": "vs-wrap",
           "left": {
-            "title": "Tích tụ tư bản",
-            "description": "Tăng quy mô bằng cách tư bản hóa giá trị thặng dư. Làm tăng quy mô tư bản xã hội."
+            "title": "Lao động Cụ thể",
+            "content": [
+              "Là lao động có ích dưới một hình thức nghề nghiệp nhất định.",
+              "Tạo ra Giá trị sử dụng."
+            ]
           },
           "right": {
-            "title": "Tập trung tư bản",
-            "description": "Hợp nhất các tư bản cá biệt thành chỉnh thể lớn hơn. Không làm tăng quy mô tư bản xã hội."
+            "title": "Lao động Trừu tượng",
+            "content": [
+              "Là sự hao phí sức lực (cơ bắp, thần kinh) của con người nói chung.",
+              "Tạo ra Giá trị hàng hóa."
+            ]
           }
-        }
-      }
-    ]
-  },
-  {
-    "title": "Hệ Sinh Thái Các Chủ Thể & Vai Trò Của Nhà Nước",
-    "blocks": [
-      {
-        "type": "venn",
-        "title": "Mối Quan Hệ Giữa Các Chủ Thể Thị Trường",
-        "data": {
-          "left": "Người Sản Xuất",
-          "right": "Người Tiêu Dùng",
-          "intersection": "Chủ thể trung gian"
-        }
-      },
-      {
-        "type": "hotspot",
-        "title": "Vai Trò Của Nhà Nước Trong Kinh Tế Thị Trường Định Hướng XHCN",
-        "data": {
-          "image": "N/A",
-          "points": [
+        },
+        {
+          "type": "journey-map",
+          "tabs": [
             {
-              "title": "Quản lý kinh tế",
-              "description": "Kiến tạo môi trường pháp lý, ổn định vĩ mô."
-            },
-            {
-              "title": "Khắc phục khuyết tật",
-              "description": "Sử dụng công cụ kinh tế điều tiết rủi ro thị trường."
-            },
-            {
-              "title": "Phân phối công bằng",
-              "description": "Phân phối theo lao động, an sinh xã hội, phúc lợi."
-            },
-            {
-              "title": "Hài hòa lợi ích",
-              "description": "Bảo vệ lợi ích hợp pháp, giải quyết mâu thuẫn cá nhân - xã hội."
+              "emotion": "neutral",
+              "action": "Kết nối tính 2 mặt của lao động với 2 thuộc tính của hàng hóa.",
+              "painPoint": "Nhầm lẫn rằng có 2 loại lao động khác nhau cùng diễn ra.",
+              "solution": "Đó chỉ là 2 mặt của CÙNG MỘT quá trình lao động. Cụ thể tạo ra hình hài (cái áo), Trừu tượng tạo ra giá cả (hao phí sức)."
             }
           ]
+        },
+        {
+          "type": "quiz",
+          "quiz_tags": [
+            "Cơ chế Thị trường Tự do",
+            "Nền tảng"
+          ]
         }
-      },
-      {
-        "type": "mindmap",
-        "title": "Đặc Trưng Thể Chế Kinh Tế Định Hướng XHCN",
-        "data": {
-          "root": "KTTT Định Hướng XHCN",
-          "children": [
+      ]
+    },
+    {
+      "node_id": "tien-te",
+      "components": [
+        {
+          "type": "timeline",
+          "events": [
             {
-              "name": "Mục tiêu",
-              "children": [
-                {
-                  "name": "Dân giàu, nước mạnh, dân chủ, công bằng, văn minh"
-                }
+              "date": "Hình thái 1",
+              "title": "Giản đơn (ngẫu nhiên)",
+              "description": "Đổi 1 mớ rau lấy 1 con gà (trao đổi trực tiếp, ngẫu nhiên)."
+            },
+            {
+              "date": "Hình thái 2",
+              "title": "Mở rộng",
+              "description": "1 con gà có thể đổi lấy rau, rìu, hoặc vải."
+            },
+            {
+              "date": "Hình thái 3",
+              "title": "Chung",
+              "description": "Nhiều hàng hóa cùng đổi lấy 1 hàng hóa làm vật ngang giá chung (vỏ sò, muối)."
+            },
+            {
+              "date": "Hình thái 4",
+              "title": "Tiền tệ",
+              "description": "Vật ngang giá chung cố định vào Vàng/Bạc. Tiền tệ ra đời."
+            }
+          ]
+        },
+        {
+          "type": "journey-map",
+          "tabs": [
+            {
+              "emotion": "neutral",
+              "action": "Nắm bắt sự phát triển từ hàng đổi hàng sang tiền tệ.",
+              "painPoint": "Nghĩ rằng tiền giấy ra đời cùng lúc với tiền tệ.",
+              "solution": "Tiền giấy chỉ là ký hiệu giá trị, ra đời rất lâu sau khi Vàng đóng vai trò tiền tệ chuẩn."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "quiz_tags": [
+            "Cơ chế Thị trường Tự do",
+            "Hệ thống"
+          ]
+        }
+      ]
+    },
+    {
+      "node_id": "thi-truong",
+      "components": [
+        {
+          "type": "flip-card",
+          "cards": [
+            {
+              "front": "Thị trường",
+              "back": "Là tổng hòa các quan hệ kinh tế trong đó nhu cầu các chủ thể được đáp ứng qua trao đổi."
+            },
+            {
+              "front": "Kinh tế thị trường",
+              "back": "Là nền kinh tế hàng hóa phát triển cao, mọi quan hệ SX và trao đổi đều thông qua thị trường."
+            }
+          ]
+        },
+        {
+          "type": "journey-map",
+          "tabs": [
+            {
+              "emotion": "neutral",
+              "action": "Phân biệt Thị trường (không gian) và KTTT (mô hình).",
+              "painPoint": "Đồng nhất Kinh tế hàng hóa với Kinh tế thị trường.",
+              "solution": "Kinh tế hàng hóa có từ thời phong kiến. Chỉ khi nó phát triển bao trùm toàn xã hội mới gọi là Kinh tế thị trường."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "quiz_tags": [
+            "Cơ chế Thị trường Tự do",
+            "Cấu trúc"
+          ]
+        }
+      ]
+    },
+    {
+      "node_id": "quy-luat-tien-te",
+      "components": [
+        {
+          "type": "formula-breakdown",
+          "formula": "M = (P * Q) / V",
+          "breakdown": [
+            {
+              "variable": "M",
+              "explanation": "Khối lượng tiền tệ cần thiết cho lưu thông."
+            },
+            {
+              "variable": "P",
+              "explanation": "Mức giá cả của 1 đơn vị hàng hóa."
+            },
+            {
+              "variable": "Q",
+              "explanation": "Khối lượng hàng hóa đưa vào lưu thông."
+            },
+            {
+              "variable": "V",
+              "explanation": "Số vòng quay trung bình của đồng tiền."
+            }
+          ]
+        },
+        {
+          "type": "journey-map",
+          "tabs": [
+            {
+              "emotion": "neutral",
+              "action": "Hiểu nguyên lý phát hành tiền để tránh lạm phát.",
+              "painPoint": "Nghĩ rằng nhà nước cứ in nhiều tiền là dân giàu.",
+              "solution": "In tiền M vượt quá nhu cầu thực tế (P*Q) sẽ dẫn đến tiền mất giá (Lạm phát)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "quiz_tags": [
+            "Cơ chế Thị trường Tự do",
+            "Logic & Nguyên tắc"
+          ]
+        }
+      ]
+    },
+    {
+      "node_id": "canh-tranh",
+      "components": [
+        {
+          "type": "quadrant",
+          "xAxisLabel": "Lành mạnh - Tiêu cực",
+          "yAxisLabel": "Nội bộ - Liên ngành",
+          "quadrants": [
+            {
+              "title": "Cạnh tranh Cùng ngành",
+              "items": [
+                "Cùng sản xuất 1 loại HH",
+                "Hình thành Giá trị xã hội"
               ]
             },
             {
-              "name": "Sở hữu & Thành phần",
-              "children": [
-                {
-                  "name": "Đa dạng hóa sở hữu"
-                },
-                {
-                  "name": "Kinh tế nhà nước chủ đạo"
-                }
+              "title": "Cạnh tranh Liên ngành",
+              "items": [
+                "Khác ngành",
+                "Hình thành Lợi nhuận bình quân"
               ]
             },
             {
-              "name": "Quản lý",
-              "children": [
-                {
-                  "name": "Nhà nước pháp quyền XHCN"
-                },
-                {
-                  "name": "Đảng lãnh đạo"
-                }
+              "title": "Cạnh tranh Lành mạnh",
+              "items": [
+                "Cải tiến kỹ thuật",
+                "Tăng năng suất"
               ]
             },
             {
-              "name": "Phân phối",
-              "children": [
-                {
-                  "name": "Theo kết quả lao động & vốn"
-                },
-                {
-                  "name": "An sinh xã hội"
-                }
+              "title": "Cạnh tranh Không lành mạnh",
+              "items": [
+                "Phá giá",
+                "Dùng thủ đoạn triệt hạ"
               ]
             }
           ]
+        },
+        {
+          "type": "journey-map",
+          "tabs": [
+            {
+              "emotion": "neutral",
+              "action": "Nhận diện các hình thái cạnh tranh cốt lõi.",
+              "painPoint": "Nhầm lẫn kết quả của cạnh tranh nội bộ và liên ngành.",
+              "solution": "Nội bộ -> Giá trị thị trường (cùng ngành đua nhau). Liên ngành -> Lợi nhuận bình quân (ngành này nhảy sang ngành khác kiếm ăn)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "quiz_tags": [
+            "Cơ chế Thị trường Tự do",
+            "Góc nhìn Đa chiều"
+          ]
         }
-      },
-      {
-        "type": "quadrant",
-        "title": "Hội Nhập Kinh Tế Quốc Tế",
-        "data": {
-          "q1": {
-            "title": "Mở rộng thị trường",
-            "content": "Thu hút FDI, tiếp thu công nghệ, vốn, chuyển dịch cơ cấu."
+      ]
+    },
+    {
+      "node_id": "chu-the",
+      "components": [
+        {
+          "type": "chat-simulation",
+          "scenario": "Ai là người nắm quyền lực thực sự trong thị trường?",
+          "messages": [
+            {
+              "role": "Người Sản xuất",
+              "content": "Tôi tạo ra hàng hóa, tôi quyết định thị trường có gì!"
+            },
+            {
+              "role": "Người Tiêu dùng",
+              "content": "Nếu tôi không mua, anh phá sản. Tôi mới là người 'Bỏ phiếu bằng tiền'."
+            },
+            {
+              "role": "Chủ thể Trung gian",
+              "content": "Không có tôi phân phối, kết nối, hàng của các anh chỉ nằm trong kho."
+            },
+            {
+              "role": "Nhà nước",
+              "content": "Tất cả các anh đều quan trọng, nhưng nếu không có tôi điều tiết vĩ mô, thị trường sẽ sụp đổ vì khủng hoảng và khuyết tật."
+            }
+          ],
+          "resolution": "Cả 4 chủ thể đều có vai trò hữu cơ, không ai độc tôn. Người tiêu dùng định hướng cung, nhưng Nhà nước phải giữ cán cân ổn định."
+        },
+        {
+          "type": "journey-map",
+          "tabs": [
+            {
+              "emotion": "neutral",
+              "action": "Phân tích sự tương tác đa chiều giữa các tác nhân kinh tế.",
+              "painPoint": "Đề cao quá mức một chủ thể (thường là Nhà nước hoặc Người SX).",
+              "solution": "Thị trường là một hệ sinh thái. Các chủ thể chế ước lẫn nhau để tạo thế cân bằng."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "quiz_tags": [
+            "Cơ chế Thị trường Tự do",
+            "Góc nhìn Đa chiều"
+          ]
+        }
+      ]
+    },
+    {
+      "node_id": "dk-suc-lao-dong",
+      "components": [
+        {
+          "type": "features",
+          "features": [
+            {
+              "title": "Điều kiện 1: Tự do thân thể",
+              "description": "Người lao động phải được tự do, có quyền bán sức lao động của mình."
+            },
+            {
+              "title": "Điều kiện 2: Vô sản",
+              "description": "Người lao động không có tư liệu sản xuất, buộc phải bán sức lao động để sống."
+            }
+          ]
+        },
+        {
+          "type": "journey-map",
+          "tabs": [
+            {
+              "emotion": "neutral",
+              "action": "Nắm bắt nguyên nhân cốt lõi sinh ra giai cấp công nhân làm thuê.",
+              "painPoint": "Cho rằng nô lệ thời xưa cũng là người bán sức lao động.",
+              "solution": "Nô lệ không có tự do thân thể, nên không thể bán SLĐ. Chỉ có trong CNTB, SLĐ mới thành hàng hóa phổ biến."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "quiz_tags": [
+            "Phương thức sản xuất TBCN",
+            "Nền tảng"
+          ]
+        }
+      ]
+    },
+    {
+      "node_id": "sld-tien-cong",
+      "components": [
+        {
+          "type": "flip-card",
+          "cards": [
+            {
+              "front": "Sức lao động",
+              "back": "Là toàn bộ thể lực và trí lực của con người. Là cái công nhân BÁN."
+            },
+            {
+              "front": "Lao động",
+              "back": "Là quá trình SỬ DỤNG sức lao động. Là cái nhà tư bản TIÊU DÙNG."
+            },
+            {
+              "front": "Tiền công",
+              "back": "Là giá cả của Sức lao động, KHÔNG PHẢI là giá cả của Lao động."
+            }
+          ]
+        },
+        {
+          "type": "journey-map",
+          "tabs": [
+            {
+              "emotion": "neutral",
+              "action": "Phá vỡ ảo giác bóc lột của CNTB.",
+              "painPoint": "Tin rằng nhà tư bản đã trả tiền sòng phẳng cho 'toàn bộ lao động' của công nhân.",
+              "solution": "Bản chất: Tư bản mua 'Sức lao động' (giá rẻ), nhưng lại xài 'Quá trình lao động' (tạo ra giá trị rất lớn). Sự chênh lệch đó là GTTD (m)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "quiz_tags": [
+            "Phương thức sản xuất TBCN",
+            "Cấu trúc"
+          ]
+        }
+      ]
+    },
+    {
+      "node_id": "tu-ban-cv",
+      "components": [
+        {
+          "type": "vs-wrap",
+          "left": {
+            "title": "Tư bản Bất biến (c)",
+            "content": [
+              "Máy móc, thiết bị, nguyên vật liệu.",
+              "Giá trị ĐƯỢC BẢO TỒN và chuyển nguyên vẹn vào sản phẩm.",
+              "KHÔNG tạo ra giá trị thặng dư."
+            ]
           },
-          "q2": {
-            "title": "Nâng cao năng lực",
-            "content": "Nâng cao chất lượng nguồn nhân lực, cải cách thể chế."
-          },
-          "q3": {
-            "title": "Thách thức cạnh tranh",
-            "content": "Doanh nghiệp trong nước gặp khó khăn, nền kinh tế dễ tổn thương."
-          },
-          "q4": {
-            "title": "Rủi ro xã hội",
-            "content": "Gia tăng bất bình đẳng, nguy cơ mất bản sắc văn hóa, an ninh."
+          "right": {
+            "title": "Tư bản Khả biến (v)",
+            "content": [
+              "Tiền lương mua sức lao động.",
+              "Giá trị BIẾN ĐỔI (tăng lên) trong quá trình sản xuất.",
+              "LÀ NGUỒN GỐC TẠO RA giá trị thặng dư (m)."
+            ]
           }
+        },
+        {
+          "type": "journey-map",
+          "tabs": [
+            {
+              "emotion": "neutral",
+              "action": "Xác định chính xác nguồn gốc sinh ra lợi nhuận (m).",
+              "painPoint": "Nhầm tưởng máy móc (c) cũng tạo ra giá trị thặng dư.",
+              "solution": "Máy móc (c) chỉ chuyển giá trị cũ sang sản phẩm mới. Chỉ có sức người (v) mới đẻ ra giá trị lớn hơn chính nó."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "quiz_tags": [
+            "Phương thức sản xuất TBCN",
+            "Phân luồng"
+          ]
         }
-      }
-    ]
-  }
-]
+      ]
+    },
+    {
+      "node_id": "pp-gttd",
+      "components": [
+        {
+          "type": "vs-wrap",
+          "left": {
+            "title": "GTTD Tuyệt đối",
+            "content": [
+              "Kéo dài thời gian lao động (hoặc tăng cường độ lao động).",
+              "Năng suất không đổi.",
+              "Gặp giới hạn sinh lý con người."
+            ]
+          },
+          "right": {
+            "title": "GTTD Tương đối",
+            "content": [
+              "Tăng năng suất lao động xã hội.",
+              "Rút ngắn thời gian lao động tất yếu.",
+              "Thời gian lao động thặng dư tự động dài ra."
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "tabs": [
+            {
+              "emotion": "neutral",
+              "action": "Phân biệt 2 cách bóc lột cơ bản của CNTB.",
+              "painPoint": "Nhầm lẫn giữa tăng Cường độ lao động (tuyệt đối) và Tăng năng suất (tương đối).",
+              "solution": "Cường độ = làm mệt hơn (Tuyệt đối). Năng suất = áp dụng công nghệ máy móc (Tương đối)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "quiz_tags": [
+            "Phương thức sản xuất TBCN",
+            "Logic & Nguyên tắc"
+          ]
+        }
+      ]
+    },
+    {
+      "node_id": "quy-trinh-m",
+      "components": [
+        {
+          "type": "process-steps",
+          "steps": [
+            {
+              "name": "Bước 1: Ứng vốn",
+              "description": "Tư bản bỏ tiền mua TLSX (c) và Sức lao động (v)."
+            },
+            {
+              "name": "Bước 2: Sản xuất",
+              "description": "Thời gian LĐ tất yếu: Công nhân làm bù đắp lại tiền lương (v)."
+            },
+            {
+              "name": "Bước 3: Bóc lột",
+              "description": "Thời gian LĐ thặng dư: Công nhân làm không công, đẻ ra (m)."
+            },
+            {
+              "name": "Bước 4: Bán hàng",
+              "description": "Thu về Giá trị hàng hóa G = c + v + m."
+            }
+          ]
+        },
+        {
+          "type": "journey-map",
+          "tabs": [
+            {
+              "emotion": "neutral",
+              "action": "Nắm vững tuyến tính hình thành GTTD.",
+              "painPoint": "Lầm tưởng lợi nhuận sinh ra từ khâu mua rẻ bán đắt.",
+              "solution": "Giá trị thặng dư sinh ra trong lĩnh vực SẢN XUẤT, không phải lưu thông. Mua bán chỉ là hiện thực hóa nó."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "quiz_tags": [
+            "Phương thức sản xuất TBCN",
+            "Phân luồng"
+          ]
+        }
+      ]
+    },
+    {
+      "node_id": "ty-suat-m",
+      "components": [
+        {
+          "type": "formula-breakdown",
+          "formula": "m' = (m / v) * 100% | M = m' * V",
+          "breakdown": [
+            {
+              "variable": "m'",
+              "explanation": "Tỷ suất GTTD: Thể hiện TRÌNH ĐỘ BÓC LỘT của tư bản."
+            },
+            {
+              "variable": "M",
+              "explanation": "Khối lượng GTTD: Thể hiện QUY MÔ BÓC LỘT."
+            },
+            {
+              "variable": "m",
+              "explanation": "Giá trị thặng dư thu được."
+            },
+            {
+              "variable": "v (nhỏ)",
+              "explanation": "Tư bản khả biến (tiền lương 1 công nhân)."
+            },
+            {
+              "variable": "V (lớn)",
+              "explanation": "Tổng tư bản khả biến (tổng quỹ lương)."
+            }
+          ]
+        },
+        {
+          "type": "journey-map",
+          "tabs": [
+            {
+              "emotion": "neutral",
+              "action": "Đo lường mức độ bóc lột bằng công thức toán học.",
+              "painPoint": "Nhầm lẫn giữa Tỷ suất (m') và Khối lượng (M).",
+              "solution": "m' chỉ cho biết bóc lột tàn nhẫn cỡ nào (%), còn M cho biết tổng tiền vơ vét được lớn cỡ nào (số tuyệt đối)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "quiz_tags": [
+            "Phương thức sản xuất TBCN",
+            "Logic & Nguyên tắc"
+          ]
+        }
+      ]
+    },
+    {
+      "node_id": "tich-luy",
+      "components": [
+        {
+          "type": "cycle",
+          "steps": [
+            {
+              "name": "Tạo ra m",
+              "description": "Nhà tư bản thu được Giá trị thặng dư sau 1 chu kỳ."
+            },
+            {
+              "name": "Tư bản hóa m",
+              "description": "Trích một phần m biến thành Tư bản phụ thêm (Δc + Δv)."
+            },
+            {
+              "name": "Mở rộng SX",
+              "description": "Mua thêm máy móc, thuê thêm nhân công."
+            },
+            {
+              "name": "Quy mô lớn hơn",
+              "description": "Tạo ra Khối lượng GTTD (M) lớn hơn chu kỳ trước."
+            }
+          ]
+        },
+        {
+          "type": "journey-map",
+          "tabs": [
+            {
+              "emotion": "neutral",
+              "action": "Hiểu bản chất lòng tham không đáy của sự tích lũy.",
+              "painPoint": "Cho rằng Tích lũy là gửi tiền tiết kiệm.",
+              "solution": "Tích lũy tư bản bản chất là biến một phần giá trị thặng dư thành Tư bản để tiếp tục bóc lột với quy mô lớn hơn."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "quiz_tags": [
+            "Phương thức sản xuất TBCN",
+            "Hệ thống"
+          ]
+        }
+      ]
+    },
+    {
+      "node_id": "gia-ca-sx",
+      "components": [
+        {
+          "type": "flowchart",
+          "steps": [
+            {
+              "name": "Cạnh tranh liên ngành",
+              "description": "Vốn chảy từ ngành lãi thấp sang ngành lãi cao."
+            },
+            {
+              "name": "Hình thành Lợi nhuận bình quân",
+              "description": "San bằng các tỷ suất lợi nhuận khác nhau thành 1 Tỷ suất bình quân chung."
+            },
+            {
+              "name": "Giá cả Sản xuất",
+              "description": "Giá trị hàng hóa chuyển hóa thành Giá cả SX = Chi phí SX (k) + Lợi nhuận bình quân."
+            }
+          ]
+        },
+        {
+          "type": "journey-map",
+          "tabs": [
+            {
+              "emotion": "neutral",
+              "action": "Giải mã sự phân chia lợi ích giữa các nhà tư bản.",
+              "painPoint": "Nghĩ rằng ngành nào nhiều m thì ngành đó hưởng hết.",
+              "solution": "Trong KTTT, cạnh tranh khiến GTTD bị phân phối lại. Kẻ nhiều vốn sẽ ăn phần hơn, bất kể ngành đó tạo ra m ít hay nhiều."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "quiz_tags": [
+            "Phương thức sản xuất TBCN",
+            "Phân luồng"
+          ]
+        }
+      ]
+    },
+    {
+      "node_id": "tu-ban-cho-vay",
+      "components": [
+        {
+          "type": "decision-tree",
+          "tree": {
+            "question": "Bạn có vốn nhàn rỗi (Tiền), bạn làm gì?",
+            "yes": {
+              "result": "Cho Nhà tư bản Công nghiệp vay",
+              "next": "Bạn thu Lợi tức (z). Nhà tư bản Công nghiệp dùng tiền tạo ra (m), trích một phần (m) trả cho bạn dưới dạng (z)."
+            },
+            "no": {
+              "result": "Cất két sắt",
+              "next": "Tiền chết, không đẻ ra tiền. Bị lạm phát ăn mòn."
+            }
+          }
+        },
+        {
+          "type": "journey-map",
+          "tabs": [
+            {
+              "emotion": "neutral",
+              "action": "Hiểu bản chất của Tư bản tài chính và Lợi tức.",
+              "painPoint": "Nghĩ rằng Tiền đẻ ra Tiền (T - T') là phép thuật.",
+              "solution": "Lợi tức (z) bản chất chỉ là một phần của Giá trị thặng dư (m) mà Tư bản đi vay nhường lại cho Tư bản cho vay."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "quiz_tags": [
+            "Phương thức sản xuất TBCN",
+            "Logic & Nguyên tắc"
+          ]
+        }
+      ]
+    },
+    {
+      "node_id": "dia-to",
+      "components": [
+        {
+          "type": "features",
+          "features": [
+            {
+              "title": "Địa tô Chênh lệch",
+              "description": "Thu được do đất màu mỡ hơn, vị trí gần hơn (CL 1) hoặc do thâm canh tốt (CL 2)."
+            },
+            {
+              "title": "Địa tô Tuyệt đối",
+              "description": "Thu được trên MỌI loại đất, do độc quyền tư hữu ruộng đất sinh ra."
+            }
+          ]
+        },
+        {
+          "type": "journey-map",
+          "tabs": [
+            {
+              "emotion": "neutral",
+              "action": "Giải mã thu nhập của địa chủ trong CNTB.",
+              "painPoint": "Nghĩ rằng đất xấu thì không phải nộp tô.",
+              "solution": "Đã thuê đất là phải nộp Địa tô Tuyệt đối, bất kể đất xấu cỡ nào. Đất tốt thì nộp thêm Địa tô Chênh lệch."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "quiz_tags": [
+            "Phương thức sản xuất TBCN",
+            "Hệ thống"
+          ]
+        }
+      ]
+    },
+    {
+      "node_id": "nguon-goc-dq",
+      "components": [
+        {
+          "type": "features",
+          "features": [
+            {
+              "title": "Cạnh tranh khốc liệt",
+              "description": "Cá lớn nuốt cá bé, buộc các đối thủ phải liên kết lại."
+            },
+            {
+              "title": "Khủng hoảng kinh tế",
+              "description": "Doanh nghiệp nhỏ phá sản, thị phần rơi vào tay kẻ sống sót."
+            },
+            {
+              "title": "Cách mạng kỹ thuật",
+              "description": "Đòi hỏi số vốn khổng lồ mà một DN nhỏ không kham nổi."
+            }
+          ]
+        },
+        {
+          "type": "journey-map",
+          "tabs": [
+            {
+              "emotion": "neutral",
+              "action": "Sự chuyển mình tất yếu từ Cạnh tranh Tự do sang Độc quyền.",
+              "painPoint": "Nghĩ rằng Độc quyền là do lỗi chính sách của Nhà nước.",
+              "solution": "Độc quyền sinh ra từ CHÍNH sự phát triển tột bậc của Cạnh tranh tự do (tích tụ và tập trung tư bản cao độ)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "quiz_tags": [
+            "Phương thức sản xuất TBCN",
+            "Nền tảng"
+          ]
+        }
+      ]
+    },
+    {
+      "node_id": "to-chuc-dq",
+      "components": [
+        {
+          "type": "spectrum",
+          "leftLabel": "Liên kết lỏng lẻo",
+          "rightLabel": "Thao túng toàn diện",
+          "items": [
+            {
+              "title": "Cartel",
+              "description": "Thỏa thuận về giá, sản lượng. Độc lập về SX và Thương mại."
+            },
+            {
+              "title": "Syndicate",
+              "description": "Mất độc lập Thương mại (bán chung), còn độc lập Sản xuất."
+            },
+            {
+              "title": "Trust",
+              "description": "Sáp nhập hoàn toàn (Mất độc lập cả SX lẫn TM)."
+            },
+            {
+              "title": "Consortium",
+              "description": "Liên kết đa ngành, nắm quyền lực tài chính tột đỉnh."
+            }
+          ]
+        },
+        {
+          "type": "journey-map",
+          "tabs": [
+            {
+              "emotion": "neutral",
+              "action": "Nhận diện các mức độ thao túng thị trường.",
+              "painPoint": "Nhầm lẫn giữa Syndicate và Trust.",
+              "solution": "Syndicate giống như Hợp tác xã đầu ra. Trust là sáp nhập mẹ nó luôn thành 1 Công ty khổng lồ."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "quiz_tags": [
+            "Phương thức sản xuất TBCN",
+            "Cấu trúc"
+          ]
+        }
+      ]
+    },
+    {
+      "node_id": "tai-phiet",
+      "components": [
+        {
+          "type": "decision-tree",
+          "tree": {
+            "question": "Làm sao dùng vốn nhỏ điều khiển đế chế lớn?",
+            "yes": {
+              "result": "Chế độ tham dự",
+              "next": "Mua cổ phần khống chế Công ty Mẹ -> Cty Mẹ khống chế Cty Con -> Cty Con khống chế Cty Cháu."
+            },
+            "no": {
+              "result": "Mua đứt 100%",
+              "next": "Cần nguồn vốn khổng lồ, rủi ro cao, không khả thi."
+            }
+          }
+        },
+        {
+          "type": "journey-map",
+          "tabs": [
+            {
+              "emotion": "neutral",
+              "action": "Cơ chế đòn bẩy tài chính của bọn Tài phiệt.",
+              "painPoint": "Nghĩ rằng phải sở hữu 100% tài sản mới có quyền kiểm soát.",
+              "solution": "Chỉ cần nắm cổ phần chi phối (vd: 30-51%) ở Công ty chóp bu là có thể điều khiển toàn bộ tháp công ty con cháu."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "quiz_tags": [
+            "Phương thức sản xuất TBCN",
+            "Logic & Nguyên tắc"
+          ]
+        }
+      ]
+    },
+    {
+      "node_id": "xuat-khau-tb",
+      "components": [
+        {
+          "type": "vs-wrap",
+          "left": {
+            "title": "Đầu tư Trực tiếp (FDI)",
+            "content": [
+              "Đưa vốn ra nước ngoài, trực tiếp xây nhà máy.",
+              "Tự quản lý, nắm quyền điều hành."
+            ]
+          },
+          "right": {
+            "title": "Đầu tư Gián tiếp (FII)",
+            "content": [
+              "Mua cổ phiếu, trái phiếu nước ngoài.",
+              "Chỉ hưởng cổ tức/lãi suất, không trực tiếp điều hành."
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "tabs": [
+            {
+              "emotion": "neutral",
+              "action": "Biết cách các nước giàu bóc lột giá trị toàn cầu.",
+              "painPoint": "Nhầm lẫn Xuất khẩu hàng hóa và Xuất khẩu tư bản.",
+              "solution": "Xuất khẩu HH = bán cái áo lấy tiền. Xuất khẩu TB = mang tiền sang nước khác mở xưởng may áo bóc lột nhân công rẻ."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "quiz_tags": [
+            "Phương thức sản xuất TBCN",
+            "Phân luồng"
+          ]
+        }
+      ]
+    },
+    {
+      "node_id": "vai-tro-cntb",
+      "components": [
+        {
+          "type": "quadrant",
+          "xAxisLabel": "Lực lượng SX - Xã hội hóa",
+          "yAxisLabel": "Tích cực - Giới hạn",
+          "quadrants": [
+            {
+              "title": "Thành tựu (Tích cực)",
+              "items": [
+                "Phát triển LLSX đỉnh cao",
+                "Thương mại hóa toàn cầu"
+              ]
+            },
+            {
+              "title": "Thành tựu Xã hội",
+              "items": [
+                "Xã hội hóa sản xuất",
+                "Tác phong công nghiệp"
+              ]
+            },
+            {
+              "title": "Giới hạn LLSX",
+              "items": [
+                "Khủng hoảng chu kỳ",
+                "Kìm hãm công nghệ vì lợi nhuận"
+              ]
+            },
+            {
+              "title": "Giới hạn Xã hội (Tiêu cực)",
+              "items": [
+                "Phân hóa giàu nghèo",
+                "Chiến tranh xâm lược"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "journey-map",
+          "tabs": [
+            {
+              "emotion": "neutral",
+              "action": "Nhìn nhận đa chiều, khách quan về chủ nghĩa tư bản.",
+              "painPoint": "Phủ nhận hoàn toàn mọi đóng góp của CNTB.",
+              "solution": "Mác đánh giá rất cao vai trò phá vỡ đêm trường trung cổ của CNTB, nhưng đồng thời vạch rõ cái ung nhọt bóc lột không thể tự chữa của nó."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "quiz_tags": [
+            "Phương thức sản xuất TBCN",
+            "Góc nhìn Đa chiều"
+          ]
+        }
+      ]
+    },
+    {
+      "node_id": "ban-chat-kttt",
+      "components": [
+        {
+          "type": "flip-card",
+          "cards": [
+            {
+              "front": "Mục tiêu",
+              "back": "Dân giàu, nước mạnh, công bằng, dân chủ, văn minh."
+            },
+            {
+              "front": "Sở hữu",
+              "back": "Nhiều hình thức, trong đó Kinh tế Nhà nước giữ vai trò chủ đạo."
+            },
+            {
+              "front": "Phân phối",
+              "back": "Theo lao động, hiệu quả kinh tế và mức đóng góp vốn."
+            }
+          ]
+        },
+        {
+          "type": "journey-map",
+          "tabs": [
+            {
+              "emotion": "neutral",
+              "action": "Hiểu sự kết hợp giữa hiệu quả kinh tế và công bằng xã hội.",
+              "painPoint": "Nghĩ rằng KTTT ở VN giống 100% phương Tây.",
+              "solution": "Bề mặt (cơ chế vận hành) là KTTT, nhưng Lõi (định hướng, phân phối, vai trò nhà nước) là vì con người XHCN."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "quiz_tags": [
+            "Mô hình Kinh tế Việt Nam",
+            "Nền tảng"
+          ]
+        }
+      ]
+    },
+    {
+      "node_id": "the-che-kttt",
+      "components": [
+        {
+          "type": "carousel",
+          "slides": [
+            {
+              "title": "1. Thể chế Sở hữu & DN",
+              "content": "Bảo vệ quyền tài sản, tạo bình đẳng cho mọi thành phần kinh tế."
+            },
+            {
+              "title": "2. Thể chế Thị trường",
+              "content": "Phát triển đồng bộ thị trường vốn, lao động, KHCN, bất động sản."
+            },
+            {
+              "title": "3. Thể chế Hội nhập",
+              "content": "Gắn kết tăng trưởng với bảo vệ môi trường và chuẩn mực quốc tế."
+            }
+          ]
+        },
+        {
+          "type": "journey-map",
+          "tabs": [
+            {
+              "emotion": "neutral",
+              "action": "Hệ thống hóa các bộ quy tắc điều hành kinh tế.",
+              "painPoint": "Nhầm thể chế kinh tế với cơ sở hạ tầng (đường sá).",
+              "solution": "Thể chế là 'Luật chơi' (Luật pháp, cơ chế, bộ máy quản lý), không phải là đường cao tốc hay nhà máy."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "quiz_tags": [
+            "Mô hình Kinh tế Việt Nam",
+            "Cấu trúc"
+          ]
+        }
+      ]
+    },
+    {
+      "node_id": "quan-he-loi-ich",
+      "components": [
+        {
+          "type": "quadrant",
+          "xAxisLabel": "Thống nhất - Mâu thuẫn",
+          "yAxisLabel": "Cá nhân - Xã hội",
+          "quadrants": [
+            {
+              "title": "Thống nhất Cá nhân",
+              "items": [
+                "Tăng gia sản xuất",
+                "Thu nhập cao"
+              ]
+            },
+            {
+              "title": "Thống nhất Xã hội",
+              "items": [
+                "Đóng thuế nhiều",
+                "Phúc lợi xã hội tăng"
+              ]
+            },
+            {
+              "title": "Mâu thuẫn Cá nhân",
+              "items": [
+                "Chủ ép lương",
+                "Thợ đình công"
+              ]
+            },
+            {
+              "title": "Mâu thuẫn Xã hội",
+              "items": [
+                "Xả thải độc hại",
+                "Trốn thuế"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "journey-map",
+          "tabs": [
+            {
+              "emotion": "neutral",
+              "action": "Giải quyết hài hòa lợi ích để tạo động lực phát triển.",
+              "painPoint": "Chỉ quan tâm lợi ích cá nhân mà bỏ qua xã hội.",
+              "solution": "Lợi ích cá nhân là động lực trực tiếp, nhưng lợi ích xã hội là bệ phóng. Mâu thuẫn 2 cái này sẽ sinh ra khủng hoảng."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "quiz_tags": [
+            "Mô hình Kinh tế Việt Nam",
+            "Góc nhìn Đa chiều"
+          ]
+        }
+      ]
+    },
+    {
+      "node_id": "vai-tro-nha-nuoc",
+      "components": [
+        {
+          "type": "chat-simulation",
+          "scenario": "Thị trường tự do tốt thế, cần Nhà nước làm gì?",
+          "messages": [
+            {
+              "role": "Thị trường",
+              "content": "Để tôi tự điều tiết. Cung cầu sẽ giải quyết mọi thứ!"
+            },
+            {
+              "role": "Nhà nước",
+              "content": "Anh tự điều tiết thì sẽ sinh ra Độc quyền, và Khủng hoảng chu kỳ. Chống độc quyền là việc của tôi."
+            },
+            {
+              "role": "Người dân nghèo",
+              "content": "Thị trường chỉ quan tâm kẻ có tiền. Ai lo y tế, giáo dục cho chúng tôi?"
+            },
+            {
+              "role": "Nhà nước",
+              "content": "Đó là vai trò Cung cấp hàng hóa công cộng và Phân phối lại thu nhập của tôi để giữ Công bằng XH."
+            }
+          ],
+          "resolution": "Nhà nước không làm thay thị trường, Nhà nước chỉ chữa những 'Khuyết tật' mà thị trường không thể tự chữa."
+        },
+        {
+          "type": "journey-map",
+          "tabs": [
+            {
+              "emotion": "neutral",
+              "action": "Phân định rõ ranh giới Bàn tay vô hình và Bàn tay hữu hình.",
+              "painPoint": "Đòi Nhà nước bao cấp lại toàn bộ.",
+              "solution": "Quay lại bao cấp là tự sát. Nhà nước chỉ can thiệp Vĩ mô (Luật pháp, An sinh, Chống độc quyền)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "quiz_tags": [
+            "Mô hình Kinh tế Việt Nam",
+            "Giới hạn & Rủi ro"
+          ]
+        }
+      ]
+    },
+    {
+      "node_id": "cmcn",
+      "components": [
+        {
+          "type": "timeline",
+          "events": [
+            {
+              "date": "CMCN 1.0 (TK 18)",
+              "title": "Cơ khí hóa",
+              "description": "Động cơ hơi nước (Anh)."
+            },
+            {
+              "date": "CMCN 2.0 (Cuối TK 19)",
+              "title": "Điện khí hóa",
+              "description": "Động cơ điện, dây chuyền sản xuất hàng loạt."
+            },
+            {
+              "date": "CMCN 3.0 (1960s)",
+              "title": "Tự động hóa",
+              "description": "Máy tính, internet bán dẫn."
+            },
+            {
+              "date": "CMCN 4.0 (2011)",
+              "title": "Liên kết vật lý - không gian mạng",
+              "description": "AI, Big Data, IoT, Robot thông minh."
+            }
+          ]
+        },
+        {
+          "type": "journey-map",
+          "tabs": [
+            {
+              "emotion": "neutral",
+              "action": "Nắm vững nền tảng tiến hóa của công nghệ.",
+              "painPoint": "Nhầm lẫn đặc trưng của CMCN 3.0 và 4.0.",
+              "solution": "3.0 là máy tính hóa (Digital), 4.0 là sự hòa trộn giữa thế giới thực và ảo (AI tự suy nghĩ, vạn vật kết nối)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "quiz_tags": [
+            "Kỷ nguyên số & Hội nhập",
+            "Hệ thống"
+          ]
+        }
+      ]
+    },
+    {
+      "node_id": "cnh-hdh",
+      "components": [
+        {
+          "type": "features",
+          "features": [
+            {
+              "title": "Gắn với kinh tế tri thức",
+              "description": "Đi tắt đón đầu, không đi tuần tự như phương Tây ngày xưa."
+            },
+            {
+              "title": "Định hướng XHCN",
+              "description": "Không để phân hóa giàu nghèo quá mức, vì con người."
+            },
+            {
+              "title": "Trong điều kiện KTTT & Toàn cầu hóa",
+              "description": "Hội nhập sâu rộng, sử dụng hiệu quả nguồn lực quốc tế."
+            }
+          ]
+        },
+        {
+          "type": "journey-map",
+          "tabs": [
+            {
+              "emotion": "neutral",
+              "action": "Hiểu con đường công nghiệp hóa đặc thù của Việt Nam.",
+              "painPoint": "Bê nguyên mô hình CNH của Anh thế kỷ 18 vào VN.",
+              "solution": "VN phải làm CNH kiểu RÚT NGẮN, kết hợp công nghệ 4.0 chứ không chờ đi từ nông nghiệp lên cơ khí rồi mới lên công nghệ số."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "quiz_tags": [
+            "Kỷ nguyên số & Hội nhập",
+            "Cấu trúc"
+          ]
+        }
+      ]
+    },
+    {
+      "node_id": "tien-trinh-hn",
+      "components": [
+        {
+          "type": "process-steps",
+          "steps": [
+            {
+              "name": "Giai đoạn 1: Sẵn sàng",
+              "description": "Chuẩn bị nguồn lực, rà soát luật pháp trong nước."
+            },
+            {
+              "name": "Giai đoạn 2: Tham gia",
+              "description": "Ký kết các hiệp định (WTO, CPTPP, EVFTA)."
+            },
+            {
+              "name": "Giai đoạn 3: Hội nhập sâu",
+              "description": "Thực thi cam kết, gỡ bỏ thuế quan, cạnh tranh sòng phẳng toàn cầu."
+            }
+          ]
+        },
+        {
+          "type": "journey-map",
+          "tabs": [
+            {
+              "emotion": "neutral",
+              "action": "Nắm bắt lộ trình mở cửa của đất nước.",
+              "painPoint": "Hội nhập chỉ là chơi về kinh tế.",
+              "solution": "Hội nhập KTQT kéo theo hội nhập văn hóa, an ninh quốc phòng. Nhưng Kinh tế là trọng tâm cốt lõi."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "quiz_tags": [
+            "Kỷ nguyên số & Hội nhập",
+            "Phân luồng"
+          ]
+        }
+      ]
+    },
+    {
+      "node_id": "tac-dong-hn",
+      "components": [
+        {
+          "type": "quadrant",
+          "xAxisLabel": "Tích cực (Cơ hội) - Tiêu cực (Thách thức)",
+          "yAxisLabel": "Kinh tế - Xã hội/An ninh",
+          "quadrants": [
+            {
+              "title": "Cơ hội Kinh tế",
+              "items": [
+                "Mở rộng thị trường",
+                "Thu hút vốn FDI, Công nghệ"
+              ]
+            },
+            {
+              "title": "Cơ hội Xã hội",
+              "items": [
+                "Nâng cao trình độ nhân lực",
+                "Giao thoa văn hóa"
+              ]
+            },
+            {
+              "title": "Thách thức Kinh tế",
+              "items": [
+                "Cạnh tranh khốc liệt",
+                "Nguy cơ thành bãi rác công nghệ"
+              ]
+            },
+            {
+              "title": "Thách thức Xã hội",
+              "items": [
+                "Xói mòn bản sắc",
+                "Gia tăng bất bình đẳng"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "journey-map",
+          "tabs": [
+            {
+              "emotion": "neutral",
+              "action": "Đánh giá toàn diện bức tranh toàn cầu hóa.",
+              "painPoint": "Nhìn hội nhập toàn màu hồng.",
+              "solution": "Hội nhập là sân chơi tàn khốc. Yếu kém sẽ bị nuốt chửng, nền kinh tế dễ bị phụ thuộc vào nước ngoài."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "quiz_tags": [
+            "Kỷ nguyên số & Hội nhập",
+            "Góc nhìn Đa chiều"
+          ]
+        }
+      ]
+    }
+  ]
+}

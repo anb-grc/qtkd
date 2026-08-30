@@ -1,0 +1,84 @@
+{
+  "subject_id": "180051",
+  "subject_name": "Kinh tế chính trị Mác - Lênin",
+  "exam_matrix": [
+    {
+      "academic_pillar": "Chương 1: Đối tượng, phương pháp và chức năng",
+      "weight_percentage": 10,
+      "mapped_ui_tags": [
+        "Nền móng Lý luận"
+      ]
+    },
+    {
+      "academic_pillar": "Chương 2: Hàng hóa, thị trường và các chủ thể",
+      "weight_percentage": 20,
+      "mapped_ui_tags": [
+        "Cơ chế Thị trường Tự do"
+      ]
+    },
+    {
+      "academic_pillar": "Chương 3 & 4: Giá trị thặng dư & Độc quyền",
+      "weight_percentage": 40,
+      "mapped_ui_tags": [
+        "Phương thức sản xuất TBCN"
+      ]
+    },
+    {
+      "academic_pillar": "Chương 5: KTTT Định hướng XHCN",
+      "weight_percentage": 15,
+      "mapped_ui_tags": [
+        "Mô hình Kinh tế Việt Nam"
+      ]
+    },
+    {
+      "academic_pillar": "Chương 6: CNH-HĐH & Hội nhập KTQT",
+      "weight_percentage": 15,
+      "mapped_ui_tags": [
+        "Kỷ nguyên số & Hội nhập"
+      ]
+    }
+  ],
+  "micro_anchors_80_20": [
+    {
+      "ui_tag": "Nền móng Lý luận",
+      "high_yield_concepts": [
+        "Đối tượng nghiên cứu (nghĩa hẹp/nghĩa rộng)",
+        "Phương pháp trừu tượng hóa khoa học"
+      ]
+    },
+    {
+      "ui_tag": "Cơ chế Thị trường Tự do",
+      "high_yield_concepts": [
+        "Hai thuộc tính của hàng hóa (Giá trị & Giá trị sử dụng)",
+        "Tính hai mặt của lao động sản xuất hàng hóa",
+        "Bản chất và các chức năng của tiền tệ",
+        "Nội dung và tác động của Quy luật giá trị"
+      ]
+    },
+    {
+      "ui_tag": "Phương thức sản xuất TBCN",
+      "high_yield_concepts": [
+        "Hàng hóa sức lao động và Bản chất tiền công",
+        "Tư bản bất biến (c) và Tư bản khả biến (v)",
+        "Hai phương pháp sản xuất GTTD (Tuyệt đối & Tương đối)",
+        "Bản chất của Tích lũy tư bản",
+        "Tổ chức độc quyền và Tư bản tài chính"
+      ]
+    },
+    {
+      "ui_tag": "Mô hình Kinh tế Việt Nam",
+      "high_yield_concepts": [
+        "Đặc trưng cốt lõi của KTTT định hướng XHCN",
+        "Hệ thống thể chế kinh tế",
+        "Quan hệ lợi ích kinh tế (Cá nhân - Xã hội)"
+      ]
+    },
+    {
+      "ui_tag": "Kỷ nguyên số & Hội nhập",
+      "high_yield_concepts": [
+        "Đặc điểm cốt lõi của CNH-HĐH Việt Nam",
+        "Tác động (Tích cực & Tiêu cực) của Hội nhập KTQT"
+      ]
+    }
+  ]
+}
