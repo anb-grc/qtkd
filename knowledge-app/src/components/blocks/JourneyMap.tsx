@@ -23,7 +23,10 @@ export function JourneyMap({ data }: { data: JourneyMapBlock['data'] }) {
         </div>
       )}
 
-      {/* Đã gỡ bỏ tiêu đề hardcode GIẢI MÃ BẢN CHẤT vì BlockWrapper đã tự động render title từ schema */}
+      {/* Khôi phục tiêu đề hiệu ứng riêng biệt cho JourneyMap */}
+      <div className={styles.mapHeader}>
+        <span className={styles.mapTitle}>GIẢI MÃ BẢN CHẤT</span>
+      </div>
 
       <div className={styles.stageTabs} onMouseLeave={() => setHoveredIdx(null)}>
         {stages.map((st, idx) => {

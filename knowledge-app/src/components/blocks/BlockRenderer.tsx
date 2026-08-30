@@ -176,7 +176,7 @@ export function BlockRenderer({ block, index, qsData, onQuizPass }: BlockRendere
 
   const isQuiz = block.type === 'quiz';
   let blockTitle = block.title;
-  if (isQuiz) {
+  if (isQuiz || block.type === 'journey-map') {
     blockTitle = '';
   }
 
