@@ -169,7 +169,7 @@ function buildFilterUI(data) {
     `;
     
     let controlsHtml = `
-        <div style="display:flex; gap:6px; margin-top:12px; flex-wrap:nowrap; width:100%; align-items:center; overflow-x: auto; padding-bottom: 2px;">
+        <div style="display:flex; gap:6px; margin-top:12px; flex-wrap:wrap; width:100%; align-items:center; overflow: visible; padding-bottom: 2px;">
             ${tagsHtml}
             <select id="limitFilter" onchange="changeLimit()" style="padding:6px 4px; border-radius:var(--r); border:1px solid var(--border); width:fit-content; flex-shrink: 0; background: var(--surface); color: var(--text); font-family: inherit; font-size: 0.85em; cursor: pointer;">
                 ${limitOptions}
