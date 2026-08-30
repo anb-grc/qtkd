@@ -1,0 +1,1550 @@
+{
+  "subject": "Thống kê ứng dụng trong kinh doanh",
+  "overview": {
+    "type": "mindmap",
+    "title": "Bản đồ Tư duy Thống kê Ứng dụng",
+    "data": {
+      "root": "Thống kê Ứng dụng",
+      "children": [
+        {
+          "label": "Nền tảng Dữ liệu & Lấy mẫu",
+          "children": [
+            {
+              "id": "node_1",
+              "label": "Nguồn gốc và khái niệm"
+            },
+            {
+              "id": "node_2",
+              "label": "Hệ thống thang đo"
+            },
+            {
+              "id": "node_3",
+              "label": "Quy trình nghiên cứu"
+            },
+            {
+              "id": "node_4",
+              "label": "Chọn mẫu xác suất"
+            },
+            {
+              "id": "node_5",
+              "label": "Chọn mẫu phi xác suất"
+            },
+            {
+              "id": "node_6",
+              "label": "Xác định cỡ mẫu"
+            }
+          ]
+        },
+        {
+          "label": "Thống kê Mô tả",
+          "children": [
+            {
+              "id": "node_7",
+              "label": "Trực quan hóa dữ liệu"
+            },
+            {
+              "id": "node_8",
+              "label": "Khuynh hướng tập trung"
+            },
+            {
+              "id": "node_9",
+              "label": "Mức độ phân tán"
+            },
+            {
+              "id": "node_10",
+              "label": "Hình dáng phân phối"
+            }
+          ]
+        },
+        {
+          "label": "Thống kê Suy diễn",
+          "children": [
+            {
+              "id": "node_11",
+              "label": "Nguyên lý kiểm định"
+            },
+            {
+              "id": "node_12",
+              "label": "Ước lượng khoảng"
+            },
+            {
+              "id": "node_13",
+              "label": "Kiểm định t"
+            },
+            {
+              "id": "node_14",
+              "label": "Phân tích ANOVA"
+            },
+            {
+              "id": "node_15",
+              "label": "Chi bình phương"
+            },
+            {
+              "id": "node_16",
+              "label": "Dấu & Wilcoxon"
+            },
+            {
+              "id": "node_17",
+              "label": "Mann-Whitney"
+            },
+            {
+              "id": "node_18",
+              "label": "Kruskal-Wallis"
+            }
+          ]
+        },
+        {
+          "label": "Mô hình hóa & Dự báo",
+          "children": [
+            {
+              "id": "node_19",
+              "label": "Tương quan Pearson"
+            },
+            {
+              "id": "node_20",
+              "label": "Mô hình hồi quy"
+            },
+            {
+              "id": "node_21",
+              "label": "Rủi ro mô hình"
+            },
+            {
+              "id": "node_22",
+              "label": "Chuỗi thời gian"
+            },
+            {
+              "id": "node_23",
+              "label": "Dự báo Winters"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "details": [
+    {
+      "node_id": "node_1",
+      "components": [
+        {
+          "type": "timeline",
+          "title": "Nguồn gốc và Khái niệm",
+          "data": {
+            "items": [
+              {
+                "time": "Thế kỷ 17",
+                "title": "John Graunt",
+                "content": "Sử dụng dữ liệu để đưa ra kết luận tác động của dịch bệnh qua biểu đồ và so sánh tỷ lệ (khởi đầu số liệu thống kê)."
+              },
+              {
+                "time": "Thế kỷ 18",
+                "title": "Achenwall G.",
+                "content": "Nhà kinh tế học phân tích dữ liệu về nhà nước nhưng chưa dùng kỹ thuật thu thập và phân tích."
+              },
+              {
+                "time": "Thế kỷ 19",
+                "title": "Quetelet & Galton",
+                "content": "Hệ thống hóa thu thập và phân tích số liệu thống kê qua trung bình, phân phối chuẩn. Galton phát triển lý thuyết hàm phân phối tích lũy, hồi quy."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức",
+          "data": {
+            "stages": [
+              {
+                "stage": "Tiếp cận",
+                "action": "Nhận diện đúng bản chất cốt lõi của khái niệm/quy trình.",
+                "emotion": "positive",
+                "painPoint": "Dễ nhầm lẫn với các khái niệm tương đồng hoặc sai lệch về bản chất.",
+                "solution": "Bám sát định nghĩa hàn lâm và các đặc trưng nhận diện độc nhất."
+              },
+              {
+                "stage": "Thực hành",
+                "action": "Áp dụng công thức và điều kiện thực thi.",
+                "emotion": "frustration",
+                "painPoint": "Áp dụng sai điều kiện (ví dụ: dùng sai loại kiểm định cho loại dữ liệu).",
+                "solution": "Luôn kiểm tra các điều kiện tiên quyết (Cỡ mẫu, Phân phối, Loại biến)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Phản xạ",
+          "data": {
+            "quiz_tags": [
+              "Nguồn gốc và khái niệm",
+              "Nền tảng"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_2",
+      "components": [
+        {
+          "type": "pyramid",
+          "title": "Hệ thống thang đo lường",
+          "data": {
+            "levels": [
+              {
+                "name": "Danh nghĩa (Nominal)",
+                "description": "Gán biểu hiện bằng con số, không có trật tự, không tính toán (VD: Giới tính: 1=Nam, 0=Nữ)."
+              },
+              {
+                "name": "Thứ bậc (Ordinal)",
+                "description": "Có trật tự lớn bé nhưng khoảng cách không có ý nghĩa (VD: Mức độ hài lòng 1->5)."
+              },
+              {
+                "name": "Khoảng (Interval)",
+                "description": "Khoảng cách có ý nghĩa đều nhau nhưng KHÔNG có điểm gốc 0 tuyệt đối (VD: Nhiệt độ C, thang đo Likert)."
+              },
+              {
+                "name": "Tỷ lệ (Ratio)",
+                "description": "Có điểm gốc 0 tuyệt đối, bội số có ý nghĩa (VD: Chiều cao, cân nặng, doanh thu, lợi nhuận)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức",
+          "data": {
+            "stages": [
+              {
+                "stage": "Tiếp cận",
+                "action": "Nhận diện đúng bản chất cốt lõi của khái niệm/quy trình.",
+                "emotion": "positive",
+                "painPoint": "Dễ nhầm lẫn với các khái niệm tương đồng hoặc sai lệch về bản chất.",
+                "solution": "Bám sát định nghĩa hàn lâm và các đặc trưng nhận diện độc nhất."
+              },
+              {
+                "stage": "Thực hành",
+                "action": "Áp dụng công thức và điều kiện thực thi.",
+                "emotion": "frustration",
+                "painPoint": "Áp dụng sai điều kiện (ví dụ: dùng sai loại kiểm định cho loại dữ liệu).",
+                "solution": "Luôn kiểm tra các điều kiện tiên quyết (Cỡ mẫu, Phân phối, Loại biến)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Phản xạ",
+          "data": {
+            "quiz_tags": [
+              "Hệ thống thang đo",
+              "Cấu trúc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_3",
+      "components": [
+        {
+          "type": "process-steps",
+          "title": "Quy trình nghiên cứu thống kê",
+          "data": {
+            "steps": [
+              {
+                "name": "B1. Xác định vấn đề nghiên cứu",
+                "description": "Xác định mục tiêu, câu hỏi, đối tượng và phạm vi. Lỗi lớn nhất là định nghĩa vấn đề không rõ ràng."
+              },
+              {
+                "name": "B2. Xây dựng mô hình",
+                "description": "Xác định các biến kiểm soát và không kiểm soát, thiết lập phương trình quan hệ."
+              },
+              {
+                "name": "B3. Thu thập dữ liệu",
+                "description": "Dữ liệu thứ cấp (có sẵn) hoặc sơ cấp (khảo sát). Cần phương pháp chọn mẫu chặt chẽ."
+              },
+              {
+                "name": "B4. Xử lý số liệu thô",
+                "description": "Nhập liệu, làm sạch, mã hóa dữ liệu. Xử lý các câu hỏi thiếu (missing values)."
+              },
+              {
+                "name": "B5. Phân tích kết quả",
+                "description": "Sử dụng SPSS/Stata để chạy thống kê mô tả, suy luận, hồi quy..."
+              },
+              {
+                "name": "B6. Trình bày kết quả",
+                "description": "Lập biểu đồ, bảng biểu, đề xuất giải pháp và hàm ý quản trị."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức",
+          "data": {
+            "stages": [
+              {
+                "stage": "Tiếp cận",
+                "action": "Nhận diện đúng bản chất cốt lõi của khái niệm/quy trình.",
+                "emotion": "positive",
+                "painPoint": "Dễ nhầm lẫn với các khái niệm tương đồng hoặc sai lệch về bản chất.",
+                "solution": "Bám sát định nghĩa hàn lâm và các đặc trưng nhận diện độc nhất."
+              },
+              {
+                "stage": "Thực hành",
+                "action": "Áp dụng công thức và điều kiện thực thi.",
+                "emotion": "frustration",
+                "painPoint": "Áp dụng sai điều kiện (ví dụ: dùng sai loại kiểm định cho loại dữ liệu).",
+                "solution": "Luôn kiểm tra các điều kiện tiên quyết (Cỡ mẫu, Phân phối, Loại biến)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Phản xạ",
+          "data": {
+            "quiz_tags": [
+              "Quy trình nghiên cứu",
+              "Phân luồng"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_4",
+      "components": [
+        {
+          "type": "carousel",
+          "title": "Phương pháp chọn mẫu xác suất",
+          "data": {
+            "items": [
+              {
+                "title": "Ngẫu nhiên đơn giản (Simple Random)",
+                "description": "Rút thăm ngẫu nhiên từ danh sách tổng thể để lấy ra đủ n phần tử. Đảm bảo xác suất bằng nhau."
+              },
+              {
+                "title": "Ngẫu nhiên hệ thống (Systematic)",
+                "description": "Chọn 1 phần tử đầu tiên ngẫu nhiên, sau đó chọn các phần tử tiếp theo theo bước nhảy k (VD: k=10)."
+              },
+              {
+                "title": "Phân tầng (Stratified)",
+                "description": "Chia tổng thể thành các tầng (strata) theo tiêu thức (VD: vùng, quy mô), sau đó chọn ngẫu nhiên trong từng tầng."
+              },
+              {
+                "title": "Nhiều giai đoạn (Multi-stage)",
+                "description": "Dùng cho địa bàn rộng. Chia cấp I (tỉnh), cấp II (huyện)... chọn ngẫu nhiên ở mỗi cấp."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức",
+          "data": {
+            "stages": [
+              {
+                "stage": "Tiếp cận",
+                "action": "Nhận diện đúng bản chất cốt lõi của khái niệm/quy trình.",
+                "emotion": "positive",
+                "painPoint": "Dễ nhầm lẫn với các khái niệm tương đồng hoặc sai lệch về bản chất.",
+                "solution": "Bám sát định nghĩa hàn lâm và các đặc trưng nhận diện độc nhất."
+              },
+              {
+                "stage": "Thực hành",
+                "action": "Áp dụng công thức và điều kiện thực thi.",
+                "emotion": "frustration",
+                "painPoint": "Áp dụng sai điều kiện (ví dụ: dùng sai loại kiểm định cho loại dữ liệu).",
+                "solution": "Luôn kiểm tra các điều kiện tiên quyết (Cỡ mẫu, Phân phối, Loại biến)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Phản xạ",
+          "data": {
+            "quiz_tags": [
+              "Chọn mẫu xác suất",
+              "Hệ thống"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_5",
+      "components": [
+        {
+          "type": "carousel",
+          "title": "Phương pháp chọn mẫu phi xác suất",
+          "data": {
+            "items": [
+              {
+                "title": "Thuận tiện (Convenience)",
+                "description": "Lấy mẫu dựa trên sự dễ dàng tiếp cận đối tượng. Tốn ít chi phí nhất nhưng tính đại diện thấp."
+              },
+              {
+                "title": "Định mức (Quota)",
+                "description": "Phân chia mẫu theo tỷ lệ (VD: 50% nam, 50% nữ) rồi dùng phương pháp thuận tiện để lấp đầy quota."
+              },
+              {
+                "title": "Phát triển mầm (Snowball)",
+                "description": "Chọn phần tử theo địa chỉ đã biết, sau đó nhờ phần tử này giới thiệu các phần tử khác."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức",
+          "data": {
+            "stages": [
+              {
+                "stage": "Tiếp cận",
+                "action": "Nhận diện đúng bản chất cốt lõi của khái niệm/quy trình.",
+                "emotion": "positive",
+                "painPoint": "Dễ nhầm lẫn với các khái niệm tương đồng hoặc sai lệch về bản chất.",
+                "solution": "Bám sát định nghĩa hàn lâm và các đặc trưng nhận diện độc nhất."
+              },
+              {
+                "stage": "Thực hành",
+                "action": "Áp dụng công thức và điều kiện thực thi.",
+                "emotion": "frustration",
+                "painPoint": "Áp dụng sai điều kiện (ví dụ: dùng sai loại kiểm định cho loại dữ liệu).",
+                "solution": "Luôn kiểm tra các điều kiện tiên quyết (Cỡ mẫu, Phân phối, Loại biến)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Phản xạ",
+          "data": {
+            "quiz_tags": [
+              "Chọn mẫu phi xác suất",
+              "Giới hạn & Rủi ro"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_6",
+      "components": [
+        {
+          "type": "interactive-calc",
+          "title": "Công cụ xác định cỡ mẫu (Tỷ lệ vô hạn)",
+          "data": {
+            "formulaLabel": "Cỡ mẫu n = (Z² × p(1-p)) / ε²",
+            "description": "Dùng khi không biết quy mô tổng thể N. Để an toàn, chọn p = 0.5 (tối đa hóa phương sai).",
+            "operation": "divide",
+            "inputs": [
+              {
+                "id": "z_score",
+                "name": "Giá trị Z (ví dụ 1.96 cho 95%)",
+                "defaultValue": 1.96,
+                "step": 0.01
+              },
+              {
+                "id": "p_value",
+                "name": "Tỷ lệ p (0.5 cho an toàn nhất)",
+                "defaultValue": 0.5,
+                "step": 0.1
+              },
+              {
+                "id": "error",
+                "name": "Sai số cho phép ε (ví dụ 0.05)",
+                "defaultValue": 0.05,
+                "step": 0.01
+              }
+            ],
+            "resultLabel": "Cỡ mẫu n tối thiểu"
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức",
+          "data": {
+            "stages": [
+              {
+                "stage": "Tiếp cận",
+                "action": "Nhận diện đúng bản chất cốt lõi của khái niệm/quy trình.",
+                "emotion": "positive",
+                "painPoint": "Dễ nhầm lẫn với các khái niệm tương đồng hoặc sai lệch về bản chất.",
+                "solution": "Bám sát định nghĩa hàn lâm và các đặc trưng nhận diện độc nhất."
+              },
+              {
+                "stage": "Thực hành",
+                "action": "Áp dụng công thức và điều kiện thực thi.",
+                "emotion": "frustration",
+                "painPoint": "Áp dụng sai điều kiện (ví dụ: dùng sai loại kiểm định cho loại dữ liệu).",
+                "solution": "Luôn kiểm tra các điều kiện tiên quyết (Cỡ mẫu, Phân phối, Loại biến)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Phản xạ",
+          "data": {
+            "quiz_tags": [
+              "Xác định cỡ mẫu",
+              "Logic & Nguyên tắc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_7",
+      "components": [
+        {
+          "type": "bar-chart",
+          "title": "Lựa chọn biểu đồ phù hợp",
+          "data": {
+            "orientation": "horizontal",
+            "items": [
+              {
+                "label": "Biến Định tính",
+                "value": 100,
+                "explanation": "Dùng Biểu đồ Thanh (Bar Chart) hoặc Biểu đồ Tròn (Pie Chart) để thể hiện tỷ trọng, tần số."
+              },
+              {
+                "label": "Biến Định lượng",
+                "value": 100,
+                "explanation": "Dùng Biểu đồ Phân phối (Histogram), Đồ thị điểm (Scatter/Dot) hoặc Đồ thị tích lũy (Ogive)."
+              },
+              {
+                "label": "Dữ liệu thời gian",
+                "value": 100,
+                "explanation": "Dùng Biểu đồ Đường (Line Chart) để thấy xu hướng."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức",
+          "data": {
+            "stages": [
+              {
+                "stage": "Tiếp cận",
+                "action": "Nhận diện đúng bản chất cốt lõi của khái niệm/quy trình.",
+                "emotion": "positive",
+                "painPoint": "Dễ nhầm lẫn với các khái niệm tương đồng hoặc sai lệch về bản chất.",
+                "solution": "Bám sát định nghĩa hàn lâm và các đặc trưng nhận diện độc nhất."
+              },
+              {
+                "stage": "Thực hành",
+                "action": "Áp dụng công thức và điều kiện thực thi.",
+                "emotion": "frustration",
+                "painPoint": "Áp dụng sai điều kiện (ví dụ: dùng sai loại kiểm định cho loại dữ liệu).",
+                "solution": "Luôn kiểm tra các điều kiện tiên quyết (Cỡ mẫu, Phân phối, Loại biến)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Phản xạ",
+          "data": {
+            "quiz_tags": [
+              "Trực quan hóa dữ liệu",
+              "Góc nhìn Đa chiều"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_8",
+      "components": [
+        {
+          "type": "delta-cheat-sheet",
+          "title": "Bẫy nhận diện: Mean, Median, Mode",
+          "data": {
+            "items": [
+              {
+                "questionSnippet": "Giá trị nào bị ảnh hưởng mạnh nhất bởi các giá trị ngoại lai (outliers)?",
+                "keyword": "Ngoại lai (Outlier)",
+                "correctDelta": "Trung bình (Mean)",
+                "wrongTraps": [
+                  "Trung vị (Median)",
+                  "Yếu vị (Mode)"
+                ],
+                "explanation": "Mean cộng dồn tất cả các giá trị nên nếu có một tỷ phú trong phòng, trung bình thu nhập của phòng sẽ bị kéo lệch đột biến."
+              },
+              {
+                "questionSnippet": "Giá trị nào phù hợp nhất để đại diện cho dữ liệu có phân phối lệch (skewed)?",
+                "keyword": "Phân phối lệch",
+                "correctDelta": "Trung vị (Median)",
+                "wrongTraps": [
+                  "Trung bình (Mean)",
+                  "Yếu vị (Mode)"
+                ],
+                "explanation": "Median là giá trị đứng giữa (50%), hoàn toàn miễn nhiễm với các đuôi dài của dữ liệu lệch."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức",
+          "data": {
+            "stages": [
+              {
+                "stage": "Tiếp cận",
+                "action": "Nhận diện đúng bản chất cốt lõi của khái niệm/quy trình.",
+                "emotion": "positive",
+                "painPoint": "Dễ nhầm lẫn với các khái niệm tương đồng hoặc sai lệch về bản chất.",
+                "solution": "Bám sát định nghĩa hàn lâm và các đặc trưng nhận diện độc nhất."
+              },
+              {
+                "stage": "Thực hành",
+                "action": "Áp dụng công thức và điều kiện thực thi.",
+                "emotion": "frustration",
+                "painPoint": "Áp dụng sai điều kiện (ví dụ: dùng sai loại kiểm định cho loại dữ liệu).",
+                "solution": "Luôn kiểm tra các điều kiện tiên quyết (Cỡ mẫu, Phân phối, Loại biến)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Phản xạ",
+          "data": {
+            "quiz_tags": [
+              "Khuynh hướng tập trung",
+              "Cấu trúc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_9",
+      "components": [
+        {
+          "type": "formula-breakdown",
+          "title": "Phương sai và Độ lệch chuẩn (Mẫu)",
+          "data": {
+            "formula": "S² = Σ(X_i - X̄)² / (n - 1)",
+            "variables": [
+              {
+                "symbol": "X_i",
+                "definition": "Giá trị quan sát thứ i."
+              },
+              {
+                "symbol": "X̄",
+                "definition": "Trung bình của mẫu."
+              },
+              {
+                "symbol": "n - 1",
+                "definition": "Bậc tự do của mẫu (Điểm phân biệt trọng yếu so với tổng thể chia cho N)."
+              }
+            ],
+            "example": "Độ lệch chuẩn S là căn bậc hai của S², và có cùng đơn vị với biến số gốc."
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức",
+          "data": {
+            "stages": [
+              {
+                "stage": "Tiếp cận",
+                "action": "Nhận diện đúng bản chất cốt lõi của khái niệm/quy trình.",
+                "emotion": "positive",
+                "painPoint": "Dễ nhầm lẫn với các khái niệm tương đồng hoặc sai lệch về bản chất.",
+                "solution": "Bám sát định nghĩa hàn lâm và các đặc trưng nhận diện độc nhất."
+              },
+              {
+                "stage": "Thực hành",
+                "action": "Áp dụng công thức và điều kiện thực thi.",
+                "emotion": "frustration",
+                "painPoint": "Áp dụng sai điều kiện (ví dụ: dùng sai loại kiểm định cho loại dữ liệu).",
+                "solution": "Luôn kiểm tra các điều kiện tiên quyết (Cỡ mẫu, Phân phối, Loại biến)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Phản xạ",
+          "data": {
+            "quiz_tags": [
+              "Mức độ phân tán",
+              "Hệ thống"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_10",
+      "components": [
+        {
+          "type": "spectrum",
+          "title": "Hình dáng Phân phối (Skewness & Kurtosis)",
+          "data": {
+            "items": [
+              {
+                "title": "Lệch trái (Âm)",
+                "description": "Skewness < 0. Mean < Median < Mode. Đuôi dài kéo về bên trái."
+              },
+              {
+                "title": "Đối xứng (Chuẩn)",
+                "description": "Skewness = 0. Mean = Median = Mode. Hình quả chuông."
+              },
+              {
+                "title": "Lệch phải (Dương)",
+                "description": "Skewness > 0. Mode < Median < Mean. Đuôi dài kéo về bên phải."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức",
+          "data": {
+            "stages": [
+              {
+                "stage": "Tiếp cận",
+                "action": "Nhận diện đúng bản chất cốt lõi của khái niệm/quy trình.",
+                "emotion": "positive",
+                "painPoint": "Dễ nhầm lẫn với các khái niệm tương đồng hoặc sai lệch về bản chất.",
+                "solution": "Bám sát định nghĩa hàn lâm và các đặc trưng nhận diện độc nhất."
+              },
+              {
+                "stage": "Thực hành",
+                "action": "Áp dụng công thức và điều kiện thực thi.",
+                "emotion": "frustration",
+                "painPoint": "Áp dụng sai điều kiện (ví dụ: dùng sai loại kiểm định cho loại dữ liệu).",
+                "solution": "Luôn kiểm tra các điều kiện tiên quyết (Cỡ mẫu, Phân phối, Loại biến)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Phản xạ",
+          "data": {
+            "quiz_tags": [
+              "Hình dáng phân phối",
+              "Nền tảng"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_11",
+      "components": [
+        {
+          "type": "chat-simulation",
+          "title": "Bản chất của H0 và H1",
+          "data": {
+            "messages": [
+              {
+                "sender": "Sinh viên",
+                "text": "Thưa thầy, làm sao phân biệt Giả thuyết Không (H0) và Đối thuyết (H1)?",
+                "isTrap": true
+              },
+              {
+                "sender": "Giáo viên",
+                "text": "H0 luôn luôn chứa dấu BẰNG (=, ≤, ≥), đại diện cho tình trạng 'không có sự khác biệt' hoặc 'không có tác động'. H1 là điều nhà nghiên cứu muốn chứng minh (khác biệt, lớn hơn, nhỏ hơn).",
+                "highlight": true
+              },
+              {
+                "sender": "Sinh viên",
+                "text": "Vậy nếu P-value (Sig) < 0.05 thì sao ạ?"
+              },
+              {
+                "sender": "Giáo viên",
+                "text": "Nếu Sig < mức ý nghĩa α (vd 0.05), ta BÁC BỎ H0, nghĩa là chấp nhận H1 (có sự khác biệt ý nghĩa thống kê)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức",
+          "data": {
+            "stages": [
+              {
+                "stage": "Tiếp cận",
+                "action": "Nhận diện đúng bản chất cốt lõi của khái niệm/quy trình.",
+                "emotion": "positive",
+                "painPoint": "Dễ nhầm lẫn với các khái niệm tương đồng hoặc sai lệch về bản chất.",
+                "solution": "Bám sát định nghĩa hàn lâm và các đặc trưng nhận diện độc nhất."
+              },
+              {
+                "stage": "Thực hành",
+                "action": "Áp dụng công thức và điều kiện thực thi.",
+                "emotion": "frustration",
+                "painPoint": "Áp dụng sai điều kiện (ví dụ: dùng sai loại kiểm định cho loại dữ liệu).",
+                "solution": "Luôn kiểm tra các điều kiện tiên quyết (Cỡ mẫu, Phân phối, Loại biến)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Phản xạ",
+          "data": {
+            "quiz_tags": [
+              "Nguyên lý kiểm định",
+              "Nền tảng"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_12",
+      "components": [
+        {
+          "type": "formula",
+          "title": "Ước lượng khoảng cho Trung bình Tổng thể",
+          "data": {
+            "formula": "μ ∈ [ X̄ - Z_{α/2} * (σ / √n) ; X̄ + Z_{α/2} * (σ / √n) ]",
+            "variables": [
+              {
+                "symbol": "X̄",
+                "definition": "Trung bình mẫu."
+              },
+              {
+                "symbol": "Z_{α/2}",
+                "definition": "Giá trị tới hạn Z (1.96 cho 95%, 2.576 cho 99%). Dùng khi n ≥ 30 hoặc biết phương sai tổng thể σ²."
+              },
+              {
+                "symbol": "σ / √n",
+                "definition": "Sai số chuẩn của trung bình (Standard Error)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức",
+          "data": {
+            "stages": [
+              {
+                "stage": "Tiếp cận",
+                "action": "Nhận diện đúng bản chất cốt lõi của khái niệm/quy trình.",
+                "emotion": "positive",
+                "painPoint": "Dễ nhầm lẫn với các khái niệm tương đồng hoặc sai lệch về bản chất.",
+                "solution": "Bám sát định nghĩa hàn lâm và các đặc trưng nhận diện độc nhất."
+              },
+              {
+                "stage": "Thực hành",
+                "action": "Áp dụng công thức và điều kiện thực thi.",
+                "emotion": "frustration",
+                "painPoint": "Áp dụng sai điều kiện (ví dụ: dùng sai loại kiểm định cho loại dữ liệu).",
+                "solution": "Luôn kiểm tra các điều kiện tiên quyết (Cỡ mẫu, Phân phối, Loại biến)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Phản xạ",
+          "data": {
+            "quiz_tags": [
+              "Ước lượng khoảng",
+              "Logic & Nguyên tắc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_13",
+      "components": [
+        {
+          "type": "decision-tree",
+          "title": "Lựa chọn Kiểm định T (T-Test)",
+          "data": {
+            "startNodeId": "1",
+            "nodes": {
+              "1": {
+                "label": "2 Nhóm đang xét có độc lập với nhau không?",
+                "options": [
+                  {
+                    "text": "Có (VD: Nam vs Nữ)",
+                    "nextNodeId": "2"
+                  },
+                  {
+                    "text": "Không (Đo 2 lần trên cùng 1 đối tượng: Trước vs Sau)",
+                    "nextNodeId": "3"
+                  }
+                ]
+              },
+              "2": {
+                "label": "Independent-Samples T-Test",
+                "explanation": "Kiểm định trung bình 2 mẫu độc lập. Chú ý phải xem xét kiểm định Levene Test cho Phương sai (Nếu Sig. Levene < 0.05 thì Phương sai không đồng nhất)."
+              },
+              "3": {
+                "label": "Paired-Samples T-Test",
+                "explanation": "Kiểm định t cho mẫu từng cặp (mẫu phối hợp)."
+              }
+            }
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức",
+          "data": {
+            "stages": [
+              {
+                "stage": "Tiếp cận",
+                "action": "Nhận diện đúng bản chất cốt lõi của khái niệm/quy trình.",
+                "emotion": "positive",
+                "painPoint": "Dễ nhầm lẫn với các khái niệm tương đồng hoặc sai lệch về bản chất.",
+                "solution": "Bám sát định nghĩa hàn lâm và các đặc trưng nhận diện độc nhất."
+              },
+              {
+                "stage": "Thực hành",
+                "action": "Áp dụng công thức và điều kiện thực thi.",
+                "emotion": "frustration",
+                "painPoint": "Áp dụng sai điều kiện (ví dụ: dùng sai loại kiểm định cho loại dữ liệu).",
+                "solution": "Luôn kiểm tra các điều kiện tiên quyết (Cỡ mẫu, Phân phối, Loại biến)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Phản xạ",
+          "data": {
+            "quiz_tags": [
+              "Kiểm định t",
+              "Hệ thống"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_14",
+      "components": [
+        {
+          "type": "vs-wrap",
+          "title": "Kiểm định Phân tích Phương sai (One-way ANOVA)",
+          "data": {
+            "left": {
+              "title": "Khi nào sử dụng ANOVA?",
+              "content": "Dùng để kiểm định sự khác biệt trung bình của TỪ 3 NHÓM TRỞ LÊN (VD: So sánh thu nhập của nhân viên theo 3 vùng miền: Bắc, Trung, Nam)."
+            },
+            "right": {
+              "title": "Kiểm định sâu (Post Hoc)",
+              "content": "Nếu ANOVA cho ra Sig < 0.05 (Khẳng định CÓ sự khác biệt chung), phải dùng kiểm định sâu như Dunnett hoặc Tukey để tìm ra CHÍNH XÁC cặp nhóm nào khác biệt nhau."
+            }
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức",
+          "data": {
+            "stages": [
+              {
+                "stage": "Tiếp cận",
+                "action": "Nhận diện đúng bản chất cốt lõi của khái niệm/quy trình.",
+                "emotion": "positive",
+                "painPoint": "Dễ nhầm lẫn với các khái niệm tương đồng hoặc sai lệch về bản chất.",
+                "solution": "Bám sát định nghĩa hàn lâm và các đặc trưng nhận diện độc nhất."
+              },
+              {
+                "stage": "Thực hành",
+                "action": "Áp dụng công thức và điều kiện thực thi.",
+                "emotion": "frustration",
+                "painPoint": "Áp dụng sai điều kiện (ví dụ: dùng sai loại kiểm định cho loại dữ liệu).",
+                "solution": "Luôn kiểm tra các điều kiện tiên quyết (Cỡ mẫu, Phân phối, Loại biến)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Phản xạ",
+          "data": {
+            "quiz_tags": [
+              "Phân tích ANOVA",
+              "Phân luồng"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_15",
+      "components": [
+        {
+          "type": "formula-breakdown",
+          "title": "Kiểm định Chi bình phương (Chi-Square)",
+          "data": {
+            "formula": "χ² = Σ [ (O_i - E_i)² / E_i ]",
+            "variables": [
+              {
+                "symbol": "O_i (Observed)",
+                "definition": "Giá trị tần số quan sát thực tế từ dữ liệu."
+              },
+              {
+                "symbol": "E_i (Expected)",
+                "definition": "Giá trị tần số kỳ vọng (nếu H0 đúng và hai biến hoàn toàn độc lập)."
+              },
+              {
+                "symbol": "Bậc tự do (df)",
+                "definition": "df = (Số dòng - 1) * (Số cột - 1)."
+              }
+            ],
+            "example": "Dùng để kiểm định mối quan hệ độc lập giữa HAI BIẾN ĐỊNH TÍNH (VD: Mối liên hệ giữa Giới tính và Trình độ học vấn)."
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức",
+          "data": {
+            "stages": [
+              {
+                "stage": "Tiếp cận",
+                "action": "Nhận diện đúng bản chất cốt lõi của khái niệm/quy trình.",
+                "emotion": "positive",
+                "painPoint": "Dễ nhầm lẫn với các khái niệm tương đồng hoặc sai lệch về bản chất.",
+                "solution": "Bám sát định nghĩa hàn lâm và các đặc trưng nhận diện độc nhất."
+              },
+              {
+                "stage": "Thực hành",
+                "action": "Áp dụng công thức và điều kiện thực thi.",
+                "emotion": "frustration",
+                "painPoint": "Áp dụng sai điều kiện (ví dụ: dùng sai loại kiểm định cho loại dữ liệu).",
+                "solution": "Luôn kiểm tra các điều kiện tiên quyết (Cỡ mẫu, Phân phối, Loại biến)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Phản xạ",
+          "data": {
+            "quiz_tags": [
+              "Chi bình phương",
+              "Cấu trúc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_16",
+      "components": [
+        {
+          "type": "process-steps",
+          "title": "Kiểm định Dấu và Wilcoxon (Phi tham số - 2 Mẫu Cặp)",
+          "data": {
+            "steps": [
+              {
+                "name": "Kiểm định Dấu (Sign Test)",
+                "description": "Chỉ đếm số lần Chênh lệch mang dấu (+) và số lần mang dấu (-), bỏ qua các trường hợp hòa (=0)."
+              },
+              {
+                "name": "Hạn chế của Sign Test",
+                "description": "Mất đi thông tin về 'ĐỘ LỚN' của sự chênh lệch."
+              },
+              {
+                "name": "Wilcoxon Signed-Rank",
+                "description": "Bổ sung độ lớn: Lấy trị tuyệt đối của độ lệch -> Xếp hạng từ thấp đến cao -> Gắn lại dấu cho hạng -> Tính tổng hạng + và hạng -."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức",
+          "data": {
+            "stages": [
+              {
+                "stage": "Tiếp cận",
+                "action": "Nhận diện đúng bản chất cốt lõi của khái niệm/quy trình.",
+                "emotion": "positive",
+                "painPoint": "Dễ nhầm lẫn với các khái niệm tương đồng hoặc sai lệch về bản chất.",
+                "solution": "Bám sát định nghĩa hàn lâm và các đặc trưng nhận diện độc nhất."
+              },
+              {
+                "stage": "Thực hành",
+                "action": "Áp dụng công thức và điều kiện thực thi.",
+                "emotion": "frustration",
+                "painPoint": "Áp dụng sai điều kiện (ví dụ: dùng sai loại kiểm định cho loại dữ liệu).",
+                "solution": "Luôn kiểm tra các điều kiện tiên quyết (Cỡ mẫu, Phân phối, Loại biến)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Phản xạ",
+          "data": {
+            "quiz_tags": [
+              "Dấu & Wilcoxon",
+              "Giới hạn & Rủi ro"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_17",
+      "components": [
+        {
+          "type": "process-steps",
+          "title": "Kiểm định Mann-Whitney (Phi tham số - 2 Mẫu Độc Lập)",
+          "data": {
+            "steps": [
+              {
+                "name": "Thay thế cho Independent T-Test",
+                "description": "Sử dụng khi dữ liệu vi phạm giả định phân phối chuẩn hoặc biến là thang đo thứ bậc (ordinal)."
+              },
+              {
+                "name": "B1. Gộp và Xếp hạng",
+                "description": "Trộn 2 mẫu lại với nhau, xếp hạng toàn bộ dữ liệu từ 1 đến n."
+              },
+              {
+                "name": "B2. Tách và So sánh",
+                "description": "Tính Tổng hạng và Trung bình hạng cho từng nhóm riêng biệt. Kiểm định xem có sự chênh lệch có ý nghĩa không."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức",
+          "data": {
+            "stages": [
+              {
+                "stage": "Tiếp cận",
+                "action": "Nhận diện đúng bản chất cốt lõi của khái niệm/quy trình.",
+                "emotion": "positive",
+                "painPoint": "Dễ nhầm lẫn với các khái niệm tương đồng hoặc sai lệch về bản chất.",
+                "solution": "Bám sát định nghĩa hàn lâm và các đặc trưng nhận diện độc nhất."
+              },
+              {
+                "stage": "Thực hành",
+                "action": "Áp dụng công thức và điều kiện thực thi.",
+                "emotion": "frustration",
+                "painPoint": "Áp dụng sai điều kiện (ví dụ: dùng sai loại kiểm định cho loại dữ liệu).",
+                "solution": "Luôn kiểm tra các điều kiện tiên quyết (Cỡ mẫu, Phân phối, Loại biến)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Phản xạ",
+          "data": {
+            "quiz_tags": [
+              "Mann-Whitney",
+              "Giới hạn & Rủi ro"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_18",
+      "components": [
+        {
+          "type": "process-steps",
+          "title": "Kiểm định Kruskal-Wallis (Phi tham số - 3 Mẫu Độc Lập Trở Lên)",
+          "data": {
+            "steps": [
+              {
+                "name": "Thay thế cho One-way ANOVA",
+                "description": "Dùng cho >= 3 nhóm khi dữ liệu định lượng không phân phối chuẩn, hoặc dùng cho biến thứ bậc."
+              },
+              {
+                "name": "Quy trình hạng",
+                "description": "Xếp hạng tổng thể -> Tính tổng hạng cho từng nhóm -> Tính giá trị Chi bình phương (χ²)."
+              },
+              {
+                "name": "Kết luận",
+                "description": "So sánh với χ² tới hạn để xem có sự khác biệt giữa các nhóm hay không."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức",
+          "data": {
+            "stages": [
+              {
+                "stage": "Tiếp cận",
+                "action": "Nhận diện đúng bản chất cốt lõi của khái niệm/quy trình.",
+                "emotion": "positive",
+                "painPoint": "Dễ nhầm lẫn với các khái niệm tương đồng hoặc sai lệch về bản chất.",
+                "solution": "Bám sát định nghĩa hàn lâm và các đặc trưng nhận diện độc nhất."
+              },
+              {
+                "stage": "Thực hành",
+                "action": "Áp dụng công thức và điều kiện thực thi.",
+                "emotion": "frustration",
+                "painPoint": "Áp dụng sai điều kiện (ví dụ: dùng sai loại kiểm định cho loại dữ liệu).",
+                "solution": "Luôn kiểm tra các điều kiện tiên quyết (Cỡ mẫu, Phân phối, Loại biến)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Phản xạ",
+          "data": {
+            "quiz_tags": [
+              "Kruskal-Wallis",
+              "Giới hạn & Rủi ro"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_19",
+      "components": [
+        {
+          "type": "scatter-plot",
+          "title": "Tương quan Tuyến tính (Pearson R)",
+          "data": {
+            "xAxisLabel": "Biến Độc lập (X)",
+            "yAxisLabel": "Biến Phụ thuộc (Y)",
+            "points": [
+              {
+                "name": "R = 1",
+                "x": 10,
+                "y": 10,
+                "strategy": "Đồng biến hoàn hảo: Các điểm nằm trên 1 đường thẳng hướng lên."
+              },
+              {
+                "name": "R = -1",
+                "x": 10,
+                "y": -10,
+                "strategy": "Nghịch biến hoàn hảo: Các điểm nằm trên 1 đường thẳng hướng xuống."
+              },
+              {
+                "name": "R = 0",
+                "x": 0,
+                "y": 0,
+                "strategy": "Không có tương quan tuyến tính: Các điểm phân tán ngẫu nhiên như đám mây."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức",
+          "data": {
+            "stages": [
+              {
+                "stage": "Tiếp cận",
+                "action": "Nhận diện đúng bản chất cốt lõi của khái niệm/quy trình.",
+                "emotion": "positive",
+                "painPoint": "Dễ nhầm lẫn với các khái niệm tương đồng hoặc sai lệch về bản chất.",
+                "solution": "Bám sát định nghĩa hàn lâm và các đặc trưng nhận diện độc nhất."
+              },
+              {
+                "stage": "Thực hành",
+                "action": "Áp dụng công thức và điều kiện thực thi.",
+                "emotion": "frustration",
+                "painPoint": "Áp dụng sai điều kiện (ví dụ: dùng sai loại kiểm định cho loại dữ liệu).",
+                "solution": "Luôn kiểm tra các điều kiện tiên quyết (Cỡ mẫu, Phân phối, Loại biến)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Phản xạ",
+          "data": {
+            "quiz_tags": [
+              "Tương quan Pearson",
+              "Cấu trúc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_20",
+      "components": [
+        {
+          "type": "interactive-calc",
+          "title": "Mô phỏng Hồi quy Tuyến tính Đa biến",
+          "data": {
+            "formulaLabel": "Y = β0 + β1*X1 + β2*X2",
+            "description": "Nhập giá trị của các biến độc lập X để dự báo biến phụ thuộc Y.",
+            "operation": "weighted-sum",
+            "inputs": [
+              {
+                "id": "beta0",
+                "name": "Hằng số (Hệ số chặn β0)",
+                "defaultValue": 100,
+                "weight": 1
+              },
+              {
+                "id": "x1",
+                "name": "X1 (Hệ số góc β1 = 5.2)",
+                "defaultValue": 10,
+                "weight": 5.2
+              },
+              {
+                "id": "x2",
+                "name": "X2 (Hệ số góc β2 = -3.1)",
+                "defaultValue": 5,
+                "weight": -3.1
+              }
+            ],
+            "resultLabel": "Giá trị Dự báo (Y)"
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức",
+          "data": {
+            "stages": [
+              {
+                "stage": "Tiếp cận",
+                "action": "Nhận diện đúng bản chất cốt lõi của khái niệm/quy trình.",
+                "emotion": "positive",
+                "painPoint": "Dễ nhầm lẫn với các khái niệm tương đồng hoặc sai lệch về bản chất.",
+                "solution": "Bám sát định nghĩa hàn lâm và các đặc trưng nhận diện độc nhất."
+              },
+              {
+                "stage": "Thực hành",
+                "action": "Áp dụng công thức và điều kiện thực thi.",
+                "emotion": "frustration",
+                "painPoint": "Áp dụng sai điều kiện (ví dụ: dùng sai loại kiểm định cho loại dữ liệu).",
+                "solution": "Luôn kiểm tra các điều kiện tiên quyết (Cỡ mẫu, Phân phối, Loại biến)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Phản xạ",
+          "data": {
+            "quiz_tags": [
+              "Mô hình hồi quy",
+              "Hệ thống"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_21",
+      "components": [
+        {
+          "type": "decision-tree",
+          "title": "Bẫy & Rủi ro trong Mô hình Hồi quy (Kiểm định SPSS)",
+          "data": {
+            "startNodeId": "1",
+            "nodes": {
+              "1": {
+                "label": "Chẩn đoán Vi phạm Giả định OLS",
+                "options": [
+                  {
+                    "text": "Đa cộng tuyến (Multicollinearity)",
+                    "nextNodeId": "2"
+                  },
+                  {
+                    "text": "Tự tương quan (Autocorrelation)",
+                    "nextNodeId": "3"
+                  },
+                  {
+                    "text": "Phương sai sai số thay đổi",
+                    "nextNodeId": "4"
+                  }
+                ]
+              },
+              "2": {
+                "label": "Hệ số Phóng đại Phương sai (VIF)",
+                "explanation": "Các biến độc lập có mối quan hệ tuyến tính với nhau quá mạnh. Kiểm tra: VIF < 10 (chấp nhận được), VIF > 10 (bị đa cộng tuyến nặng)."
+              },
+              "3": {
+                "label": "Durbin-Watson (D-W)",
+                "explanation": "Các phần dư có tương quan với nhau. Kiểm tra D-W: 1 < d < 3 (Không có tự tương quan); 0 < d < 1 (Tương quan dương); 3 < d < 4 (Tương quan âm)."
+              },
+              "4": {
+                "label": "Kiểm định White",
+                "explanation": "Phần dư không có phương sai đồng nhất. Sử dụng kiểm định White hoặc rã đồ thị Scatterplot của Residuals."
+              }
+            }
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức",
+          "data": {
+            "stages": [
+              {
+                "stage": "Tiếp cận",
+                "action": "Nhận diện đúng bản chất cốt lõi của khái niệm/quy trình.",
+                "emotion": "positive",
+                "painPoint": "Dễ nhầm lẫn với các khái niệm tương đồng hoặc sai lệch về bản chất.",
+                "solution": "Bám sát định nghĩa hàn lâm và các đặc trưng nhận diện độc nhất."
+              },
+              {
+                "stage": "Thực hành",
+                "action": "Áp dụng công thức và điều kiện thực thi.",
+                "emotion": "frustration",
+                "painPoint": "Áp dụng sai điều kiện (ví dụ: dùng sai loại kiểm định cho loại dữ liệu).",
+                "solution": "Luôn kiểm tra các điều kiện tiên quyết (Cỡ mẫu, Phân phối, Loại biến)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Phản xạ",
+          "data": {
+            "quiz_tags": [
+              "Rủi ro mô hình",
+              "Giới hạn & Rủi ro"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_22",
+      "components": [
+        {
+          "type": "features",
+          "title": "4 Thành phần của Chuỗi thời gian",
+          "data": {
+            "items": [
+              {
+                "title": "Xu hướng (Trend - T)",
+                "description": "Biến động tăng (giảm) trong thời gian dài (vd: xu hướng tăng trưởng, tăng dân số)."
+              },
+              {
+                "title": "Thời vụ (Seasonal - S)",
+                "description": "Biến động có tính chu kỳ ngắn hạn trong 1 năm (mùa, quý, tháng) bị lặp lại do thời tiết, lễ hội."
+              },
+              {
+                "title": "Chu kỳ (Cyclical - C)",
+                "description": "Lặp lại trong khoảng thời gian dài hơn (2-10 năm), vd: chu kỳ suy thoái kinh tế."
+              },
+              {
+                "title": "Ngẫu nhiên (Irregular - I)",
+                "description": "Biến động bất thường không theo quy luật, khó dự đoán (thiên tai, dịch bệnh)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức",
+          "data": {
+            "stages": [
+              {
+                "stage": "Tiếp cận",
+                "action": "Nhận diện đúng bản chất cốt lõi của khái niệm/quy trình.",
+                "emotion": "positive",
+                "painPoint": "Dễ nhầm lẫn với các khái niệm tương đồng hoặc sai lệch về bản chất.",
+                "solution": "Bám sát định nghĩa hàn lâm và các đặc trưng nhận diện độc nhất."
+              },
+              {
+                "stage": "Thực hành",
+                "action": "Áp dụng công thức và điều kiện thực thi.",
+                "emotion": "frustration",
+                "painPoint": "Áp dụng sai điều kiện (ví dụ: dùng sai loại kiểm định cho loại dữ liệu).",
+                "solution": "Luôn kiểm tra các điều kiện tiên quyết (Cỡ mẫu, Phân phối, Loại biến)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Phản xạ",
+          "data": {
+            "quiz_tags": [
+              "Chuỗi thời gian",
+              "Nền tảng"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "node_23",
+      "components": [
+        {
+          "type": "line-chart",
+          "title": "Dự báo chuỗi thời gian (Phương pháp Winters)",
+          "data": {
+            "xAxisLabel": "Thời gian (t)",
+            "yAxisLabel": "Doanh thu",
+            "points": [
+              {
+                "label": "Q1/2016",
+                "value": 100
+              },
+              {
+                "label": "Q2/2016",
+                "value": 80,
+                "annotation": "Mùa thấp điểm"
+              },
+              {
+                "label": "Q3/2016",
+                "value": 120
+              },
+              {
+                "label": "Q4/2016",
+                "value": 150,
+                "annotation": "Mùa cao điểm"
+              },
+              {
+                "label": "Q1/2017",
+                "value": 110,
+                "explanation": "Xu hướng Trend đang nhích dần lên so với cùng kỳ năm trước."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức",
+          "data": {
+            "stages": [
+              {
+                "stage": "Tiếp cận",
+                "action": "Nhận diện đúng bản chất cốt lõi của khái niệm/quy trình.",
+                "emotion": "positive",
+                "painPoint": "Dễ nhầm lẫn với các khái niệm tương đồng hoặc sai lệch về bản chất.",
+                "solution": "Bám sát định nghĩa hàn lâm và các đặc trưng nhận diện độc nhất."
+              },
+              {
+                "stage": "Thực hành",
+                "action": "Áp dụng công thức và điều kiện thực thi.",
+                "emotion": "frustration",
+                "painPoint": "Áp dụng sai điều kiện (ví dụ: dùng sai loại kiểm định cho loại dữ liệu).",
+                "solution": "Luôn kiểm tra các điều kiện tiên quyết (Cỡ mẫu, Phân phối, Loại biến)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm tra Phản xạ",
+          "data": {
+            "quiz_tags": [
+              "Dự báo Winters",
+              "Phân luồng"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
