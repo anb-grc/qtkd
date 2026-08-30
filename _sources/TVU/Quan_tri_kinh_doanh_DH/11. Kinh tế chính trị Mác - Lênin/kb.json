@@ -636,12 +636,10 @@
       "node_id": "canh-tranh",
       "components": [
         {
-          "type": "quadrant",
+          "type": "features",
           "title": "Quy luật Cạnh tranh",
           "data": {
-            "x_axis": "Lành mạnh - Tiêu cực",
-            "y_axis": "Nội bộ ngành - Liên ngành",
-            "quadrants": [
+            "items": [
               {
                 "title": "Nội bộ ngành",
                 "points": [
@@ -1450,12 +1448,10 @@
       "node_id": "vai-tro-cntb",
       "components": [
         {
-          "type": "quadrant",
+          "type": "features",
           "title": "Vai trò lịch sử của CNTB",
           "data": {
-            "x_axis": "Lực lượng SX - Xã hội hóa",
-            "y_axis": "Tích cực - Tiêu cực",
-            "quadrants": [
+            "items": [
               {
                 "title": "Thành tựu (Tích cực)",
                 "points": [
@@ -1606,12 +1602,10 @@
       "node_id": "quan-he-loi-ich",
       "components": [
         {
-          "type": "quadrant",
+          "type": "features",
           "title": "Các mặt của lợi ích",
           "data": {
-            "x_axis": "Thống nhất - Mâu thuẫn",
-            "y_axis": "Cá nhân - Xã hội",
-            "quadrants": [
+            "items": [
               {
                 "title": "Thống nhất (Cá nhân)",
                 "points": [
@@ -1886,31 +1880,19 @@
             "quadrants": [
               {
                 "title": "Cơ hội Kinh tế",
-                "points": [
-                  "Vốn FDI",
-                  "Thị trường lớn"
-                ]
+                "content": "<ul style='margin-left: 15px; margin-top: 8px;'><li>Vốn FDI</li><li>Thị trường lớn</li></ul>"
               },
               {
                 "title": "Cơ hội Xã hội",
-                "points": [
-                  "Nhân lực trình độ cao",
-                  "Văn minh"
-                ]
+                "content": "<ul style='margin-left: 15px; margin-top: 8px;'><li>Nhân lực trình độ cao</li><li>Văn minh</li></ul>"
               },
               {
                 "title": "Thách thức Kinh tế",
-                "points": [
-                  "Cạnh tranh tàn khốc",
-                  "Bãi rác công nghệ"
-                ]
+                "content": "<ul style='margin-left: 15px; margin-top: 8px;'><li>Cạnh tranh tàn khốc</li><li>Bãi rác công nghệ</li></ul>"
               },
               {
                 "title": "Thách thức Xã hội",
-                "points": [
-                  "Xói mòn bản sắc",
-                  "Phân hóa giàu nghèo"
-                ]
+                "content": "<ul style='margin-left: 15px; margin-top: 8px;'><li>Xói mòn bản sắc</li><li>Phân hóa giàu nghèo</li></ul>"
               }
             ]
           }
