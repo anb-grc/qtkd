@@ -11,8 +11,11 @@ export function useQuestionBank(kbPath: string) {
     let cancelled = false;
 
     async function fetchQuestions() {
-      // Ví dụ: kbPath = "/data/gdtc-1/kb.json" -> qsPath = "/data/gdtc-1/qs.json"
-      const qsPath = kbPath.replace('kb.json', 'qs.json');
+      // Ưu tiên dùng QS_DATA_URL do quiz.html truyền vào (để khớp tên file ngân hàng đề như Ngan_hang_de_xxx.json)
+      let qsPath = (window as any).QS_DATA_URL;
+      if (!qsPath) {
+        qsPath = kbPath.replace('kb.json', 'qs.json');
+      }
       
       try {
         setLoading(true);
