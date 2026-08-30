@@ -206,3 +206,9 @@
   from { opacity: 0; transform: translateY(-10px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+.expFlashcard {
+  background: rgba(108, 92, 231, 0.1);
+  border: 1px solid rgba(108, 92, 231, 0.3);
+}
+.expFlashcard h4 { color: var(--color-accent-primary); margin: 0 0 var(--space-xs) 0; }

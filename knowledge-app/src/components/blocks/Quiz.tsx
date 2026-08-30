@@ -36,7 +36,9 @@ export function Quiz({ data, onPass }: QuizProps) {
   const options = rawOptions.map((opt: any) => typeof opt === 'string' ? opt : (opt.text || opt.label || opt.content || ''));
   const correctIdx = typeof currentQ.correctAnswer === 'number' ? currentQ.correctAnswer : ((currentQ as any).answer || 0);
 
-  const isCorrect = selected === correctIdx;
+  const isFlashcard = options.length === 0;
+  // Với flashcard, không cần chọn gì cả, mặc định isCorrect là true khi show
+  const isCorrect = isFlashcard ? true : (selected === correctIdx);
 
   const handleSelect = (idx: number) => {
     if (hasSubmitted) return;
@@ -44,9 +46,9 @@ export function Quiz({ data, onPass }: QuizProps) {
   };
 
   const handleSubmit = () => {
-    if (selected === null) return;
+    if (!isFlashcard && selected === null) return;
     setHasSubmitted(true);
-    if (selected === correctIdx && onPass) {
+    if ((isFlashcard || selected === correctIdx) && onPass) {
       onPass();
     }
   };
@@ -67,9 +69,9 @@ export function Quiz({ data, onPass }: QuizProps) {
   };
 
   return (
-    <div className={`${styles.container} ${hasSubmitted ? (isCorrect ? styles.success : styles.error) : ''}`}>
+    <div className={`${styles.container} ${hasSubmitted ? (isCorrect && !isFlashcard ? styles.success : (isFlashcard ? styles.flashcardDone : styles.error)) : ''}`}>
       <div className={styles.quizHeader}>
-        <span className={styles.quizTitle}>Câu hỏi nhanh!</span>
+        <span className={styles.quizTitle}>{isFlashcard ? 'Câu hỏi nhanh! (Lật thẻ)' : 'Câu hỏi nhanh!'}</span>
         {pool.length > 1 && (
           <button className={styles.randomBtnTop} onClick={handleRandomize} title="Đổi câu hỏi ngẫu nhiên">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -81,41 +83,43 @@ export function Quiz({ data, onPass }: QuizProps) {
 
       <div className={styles.questionText} dangerouslySetInnerHTML={{ __html: currentQ.question }} />
 
-      <div className={styles.options}>
-        {options.map((opt: string, idx: number) => {
-          let optClass = styles.option;
-          if (hasSubmitted) {
-            if (idx === correctIdx) optClass += ` ${styles.correct}`;
-            else if (idx === selected) optClass += ` ${styles.incorrect}`;
-            else optClass += ` ${styles.disabled}`;
-          } else if (selected === idx) {
-            optClass += ` ${styles.selected}`;
-          }
+      {options.length > 0 && (
+        <div className={styles.options}>
+          {options.map((opt: string, idx: number) => {
+            let optClass = styles.option;
+            if (hasSubmitted) {
+              if (idx === correctIdx) optClass += ` ${styles.correct}`;
+              else if (idx === selected) optClass += ` ${styles.incorrect}`;
+              else optClass += ` ${styles.disabled}`;
+            } else if (selected === idx) {
+              optClass += ` ${styles.selected}`;
+            }
 
-          return (
-            <button 
-              key={`${currentIdx}-${idx}`}
-              className={optClass}
-              onClick={() => handleSelect(idx)}
-              disabled={hasSubmitted}
-            >
-              <span className={styles.optLetter}>{String.fromCharCode(65 + idx)}</span>
-              <span className={styles.optText} dangerouslySetInnerHTML={{ __html: opt }} />
-              {hasSubmitted && idx === correctIdx && <span className={styles.icon}>✓</span>}
-              {hasSubmitted && idx === selected && idx !== correctIdx && <span className={styles.icon}>✗</span>}
-            </button>
-          );
-        })}
-      </div>
+            return (
+              <button 
+                key={`${currentIdx}-${idx}`}
+                className={optClass}
+                onClick={() => handleSelect(idx)}
+                disabled={hasSubmitted}
+              >
+                <span className={styles.optLetter}>{String.fromCharCode(65 + idx)}</span>
+                <span className={styles.optText} dangerouslySetInnerHTML={{ __html: opt }} />
+                {hasSubmitted && idx === correctIdx && <span className={styles.icon}>✓</span>}
+                {hasSubmitted && idx === selected && idx !== correctIdx && <span className={styles.icon}>✗</span>}
+              </button>
+            );
+          })}
+        </div>
+      )}
 
       <div className={styles.actions}>
         {!hasSubmitted ? (
           <button 
             className={styles.submitBtn} 
-            disabled={selected === null}
+            disabled={!isFlashcard && selected === null}
             onClick={handleSubmit}
           >
-            Kiểm tra
+            {isFlashcard ? 'Xem đáp án' : 'Kiểm tra'}
           </button>
         ) : (
           <button className={styles.resetBtn} onClick={handleReset}>
@@ -125,8 +129,8 @@ export function Quiz({ data, onPass }: QuizProps) {
       </div>
 
       {hasSubmitted && currentQ.explanation && (
-        <div className={`${styles.explanation} ${isCorrect ? styles.expSuccess : styles.expError}`}>
-          <h4>{isCorrect ? 'Tuyệt vời!' : 'Chưa chính xác!'}</h4>
+        <div className={`${styles.explanation} ${isFlashcard ? styles.expFlashcard : (isCorrect ? styles.expSuccess : styles.expError)}`}>
+          <h4>{isFlashcard ? '💡 Giải thích / Đáp án:' : (isCorrect ? 'Tuyệt vời!' : 'Chưa chính xác!')}</h4>
           <p dangerouslySetInnerHTML={{ __html: currentQ.explanation }} />
         </div>
       )}
