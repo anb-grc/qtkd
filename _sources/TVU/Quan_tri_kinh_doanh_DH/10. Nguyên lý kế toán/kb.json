@@ -11,90 +11,111 @@
           "children": [
             {
               "id": "node_1",
-              "label": "Bản chất Kế toán"
+              "label": "Bản chất Kế toán",
+              "description": "Khái niệm và vai trò cung cấp thông tin kinh tế."
             },
             {
               "id": "node_2",
-              "label": "Kế toán Tài chính & Quản trị"
+              "label": "Kế toán Tài chính & Quản trị",
+              "description": "Phân định đối tượng sử dụng và tính pháp lý."
             },
             {
               "id": "node_3",
-              "label": "Đạo đức nghề nghiệp"
+              "label": "Đạo đức nghề nghiệp",
+              "description": "Tính trung thực, khách quan và độc lập."
             }
-          ]
+          ],
+          "description": "Nắm vững bản chất cốt lõi, môi trường hoạt động và chuẩn mực đạo đức của nghề kế toán."
         },
         {
           "label": "Bảng Cân đối Kế toán",
           "children": [
             {
               "id": "node_4",
-              "label": "Cấu trúc Bảng Cân đối"
+              "label": "Cấu trúc Bảng Cân đối",
+              "description": "Phân bổ Tài sản và Nguồn vốn của doanh nghiệp."
             },
             {
               "id": "node_5",
-              "label": "Phương trình Kế toán"
+              "label": "Phương trình Kế toán",
+              "description": "Sự cân bằng tuyệt đối: Tài sản = Nợ + Vốn CSH."
             }
-          ]
+          ],
+          "description": "Phân tích bức tranh tài chính tổng thể thông qua phương trình kế toán cơ bản."
         },
         {
           "label": "Chứng từ & Kiểm kê",
           "children": [
             {
               "id": "node_6",
-              "label": "Hệ thống Chứng từ"
+              "label": "Hệ thống Chứng từ",
+              "description": "Phân loại và luân chuyển chứng từ gốc."
             },
             {
               "id": "node_7",
-              "label": "Quy trình Kiểm kê"
+              "label": "Quy trình Kiểm kê",
+              "description": "Đối chiếu sổ sách với thực tế hiện vật."
             }
-          ]
+          ],
+          "description": "Nền tảng pháp lý và cơ chế xác minh thực tế tài sản của doanh nghiệp."
         },
         {
           "label": "Tài khoản & Ghi sổ kép",
           "children": [
             {
               "id": "node_8",
-              "label": "Mô hình Chữ T"
+              "label": "Mô hình Chữ T",
+              "description": "Kết cấu bên Nợ và bên Có của một tài khoản."
             },
             {
               "id": "node_9",
-              "label": "Nguyên tắc Ghi sổ kép"
+              "label": "Nguyên tắc Ghi sổ kép",
+              "description": "Mọi nghiệp vụ đều tác động lên ít nhất 2 tài khoản."
             }
-          ]
+          ],
+          "description": "Công cụ theo dõi biến động và nguyên tắc định khoản cốt lõi."
         },
         {
           "label": "Tính giá Đối tượng",
           "children": [
             {
               "id": "node_10",
-              "label": "Các loại Giá trị"
+              "label": "Các loại Giá trị",
+              "description": "Giá gốc, giá trị thuần có thể thực hiện."
             },
             {
               "id": "node_11",
-              "label": "Tính giá Xuất kho"
+              "label": "Tính giá Xuất kho",
+              "description": "Kỹ thuật FIFO và Bình quân gia quyền."
             }
-          ]
+          ],
+          "description": "Cách thức đo lường và xác định giá trị tài sản theo chuẩn mực."
         },
         {
           "label": "Báo cáo & Sổ sách",
           "children": [
             {
               "id": "node_12",
-              "label": "Báo cáo KQ Hoạt động Kinh doanh"
+              "label": "Báo cáo KQ Hoạt động Kinh doanh",
+              "description": "Dòng chảy từ Doanh thu đến Lợi nhuận ròng."
             },
             {
               "id": "node_15",
-              "label": "Báo cáo Lưu chuyển Tiền tệ"
+              "label": "Báo cáo Lưu chuyển Tiền tệ",
+              "description": "Dòng tiền vào/ra từ Kinh doanh, Đầu tư, Tài chính."
             },
             {
               "id": "node_13",
-              "label": "Phân loại Sổ Kế toán"
+              "label": "Phân loại Sổ Kế toán",
+              "description": "Sổ Nhật ký chung, Sổ Cái và Sổ chi tiết."
             },
             {
               "id": "node_14",
-              "label": "Trình tự Ghi sổ"
+              "label": "Trình tự Ghi sổ",
+              "description": "Quy trình luân chuyển số liệu kế toán."
             }
-          ]
+          ],
+          "description": "Hệ thống tổng hợp thông tin, từ sổ chi tiết đến các báo cáo tài chính cuối kỳ."
         }
       ]
     }
