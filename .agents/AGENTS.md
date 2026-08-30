@@ -55,8 +55,27 @@ Hãy xưng hô MÀY - TAO một cách tự nhiên như những người bạn th
       + `painPoint`: Viết về **Sai lầm nhận thức** (Bẫy tư duy, những ngộ nhận sinh viên hay mắc phải).
       + `solution`: Viết về **Cách tiếp cận đúng** (Tư duy chuẩn để gỡ rối).
     - **Tiêu đề mặc định (Cấm tự bịa Label):** Để Frontend tự render tiêu đề chuẩn học thuật (Độ khó, Trọng tâm, Sai lầm nhận thức, Cách tiếp cận đúng). Tuyệt đối KHÔNG tự ý chèn các biến `actionLabel`, `painPointLabel`, `solutionLabel`, `emotionLabel` vào JSON.
-15b. **TRIẾT LÝ ĐỘ SÂU LINH HOẠT (ORGANIC MINDMAP DEPTH):**
+15b. **TRIẾT LÝ ĐỘ SÂU LINH HOẠT (ORGANIC MINDMAP DEPTH) & GIỚI HẠN CỨNG COMPONENT:**
     - Tuyệt đối không gò ép Mindmap thành 3 tầng một cách máy móc.
-    - Độ sâu của trục dọc (số lượng tầng) được quyết định hoàn toàn bởi "sức nặng nội dung" của Node cuối.
-    - Nếu một mảng kiến thức mỏng, có thể chốt sớm làm Leaf Node (Mindmap 2 tầng). Nếu đồ sộ, cứ việc chẻ rễ sâu xuống (4-5 tầng). 
-    - Điểm dừng (Leaf node) phải đảm bảo đủ "thịt" để gánh combo 3 thành phần: [Trực quan] -> [JourneyMap] -> [Quiz] mà không bị vụn vặt hay ngộp kiến thức. Điểm rơi nằm ở đâu hoàn toàn do tự nhiên quyết định.
+    - Độ sâu của trục dọc (số lượng tầng) được quyết định hoàn toàn bởi "sức nặng nội dung". Nếu đồ sộ, cứ việc chẻ rễ sâu xuống (4-5 tầng). BẮT BUỘC chẻ đến khi nào ra được Micro-nodes.
+    - **HARD CAP (Giới hạn cứng):** 1 Leaf Node CHỈ ĐƯỢC PHÉP chứa TỐI ĐA 1 Component trực quan (không tính JourneyMap và Quiz mặc định). Nếu nội dung quá lớn cần đến Component thứ 2, BẮT BUỘC phải đẻ thêm Leaf Node con để chia tách.
+    - **DECOUPLED WORKFLOW (Quy trình đảo ngược):** BẮT BUỘC vẽ cấu trúc Cây (Mindmap) chẻ sâu hữu cơ TRƯỚC -> Sau đó mới Gán đúng 1 Component/Node -> Cuối cùng mới đếm Quota (A <=25%, B >=20%). Nếu thiếu Quota tương tác, chỉ được ĐỔI loại component, TUYỆT ĐỐI KHÔNG được gộp Node, chặt nhánh Cây hay nhồi nhét Component vào mảng `components` chỉ để thỏa mãn bề nổi tính toán.
+
+15c. **KIẾN TRÚC MÓNG SỐ 0 (ZERO-BASED ARCHITECTURE) & ĐỊNH DANH HÀN LÂM:**
+    - **TOC Blindness:** Khi dựng Tầng Overview (Mindmap), BẮT BUỘC xóa bỏ tư duy rập khuôn theo Mục lục gốc. Xây dựng cây kiến thức dựa trên Dòng chảy Logic (Thematic/Semantic Clustering).
+    - **Ontological Naming (Tước Vỏ - Giữ Lõi):** CẤM copy y nguyên "Chương X, Bài Y". Chỉ lấy thuật ngữ hàn lâm làm tên Nhánh. CẤM AI tự sáng tác từ lóng/hoa mỹ. Khi gộp nhánh, BẮT BUỘC dùng Thuật ngữ Thượng tầng (Hypernym) đã có sẵn trong sách/ngành học.
+    - **Bảo toàn Thuật ngữ Tầng Lá:** Tái cấu trúc chỉ áp dụng ở Tầng Khung. Xuống Tầng Lá (Micro-node) và nội dung Data bên trong, BẮT BUỘC giữ nguyên 100% Keyword, Thuật ngữ hàn lâm y xì giáo trình.
+    - **Chống Tương tác giả cầy (Fake Gamification):** Các component Tương tác phải thiết kế để Active Recall thật sự. Lệnh cứng: `FlipCard` mặt trước KHÔNG QUÁ 5-7 chữ (chỉ chứa Thuật ngữ/Keyword cốt lõi). `ChatSimulation` giới hạn đối đáp 2-3 câu/tin nhắn. Mọi cố gắng nhồi nhét cả đoạn văn vào FlipCard sẽ bị coi là lỗi ngầm định.
+
+### Điều 15d: KHẮC PHỤC ẢO GIÁC COMPONENT (ANTI-COMPONENT HALLUCINATION)
+Để triệt tiêu bệnh "Ép khuôn hình học" (Geometric Forcing) khi AI tự động chọn khối UI (Component) sai bản chất ngữ nghĩa:
+- **Luật Tương thích Không gian (Spatial Compatibility):** 
+  - KHÔNG CHỌN Component dựa trên số lượng đếm được (vd: không phải cứ 4 mục là nhét vào Quadrant).
+  - Chọn Component dựa trên bản chất mối quan hệ logic:
+    + `Quadrant`: CHỈ DÙNG khi thật sự tồn tại 2 trục tọa độ (X/Y) cắt nhau tạo thành 4 góc độc lập (vd: Kinh tế/XH x Tích cực/Tiêu cực). 
+    + `Features` / `Carousel`: Dùng cho danh sách N phần tử song song, liệt kê.
+    + `VsWrap`: Dùng khi đối chiếu, so sánh trực diện 1-1.
+    + `Formula`: CHỈ DÙNG cho công thức toán học/logic định lượng. KHÔNG DÙNG cho lý thuyết định tính.
+- **Kỷ luật Schema (Strict Type-Casting):**
+  - CẤM tự chế, tự suy diễn các trường dữ liệu (fields) khi sinh JSON (vd: tự chế mảng `points` cho Quadrant).
+  - Trước khi xuất JSON cho 1 Component cụ thể, Agent BẮT BUỘC dùng lệnh `cat` đọc chính xác Interface của Component đó trong `knowledge-app/src/types/schema.ts` để xem nó yêu cầu trường `content` (string) hay `items` (mảng array) và cung cấp chính xác tuyệt đối.
