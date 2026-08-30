@@ -12,21 +12,26 @@
           "children": [
             {
               "id": "lich-su",
-              "label": "Lịch sử hình thành"
+              "label": "Lịch sử hình thành",
+              "description": "Quá trình hình thành và phát triển của các học thuyết kinh tế."
             },
             {
               "id": "doi-tuong",
-              "label": "Đối tượng nghiên cứu"
+              "label": "Đối tượng nghiên cứu",
+              "description": "Xác định ranh giới và mục tiêu nghiên cứu của hệ tư tưởng."
             },
             {
               "id": "phuong-phap",
-              "label": "Phương pháp luận"
+              "label": "Phương pháp luận",
+              "description": "Công cụ tư duy để bóc tách hiện tượng, nhìn thấu bản chất."
             },
             {
               "id": "chuc-nang",
-              "label": "Hệ thống chức năng"
+              "label": "Hệ thống chức năng",
+              "description": "Giá trị nhận thức, thực tiễn và tư tưởng của môn học."
             }
-          ]
+          ],
+          "description": "Nền tảng triết học và phương pháp luận gốc của bộ môn."
         },
         {
           "id": "root-2",
@@ -34,33 +39,41 @@
           "children": [
             {
               "id": "ban-chat-hh",
-              "label": "Bản chất Hàng hóa"
+              "label": "Bản chất Hàng hóa",
+              "description": "Hai thuộc tính cốt lõi tạo nên mọi hàng hóa trên thị trường."
             },
             {
               "id": "tinh-2-mat",
-              "label": "Tính 2 mặt của Lao động"
+              "label": "Tính 2 mặt của Lao động",
+              "description": "Lao động cụ thể và trừu tượng đằng sau giá trị sản phẩm."
             },
             {
               "id": "tien-te",
-              "label": "Sự ra đời của Tiền tệ"
+              "label": "Sự ra đời của Tiền tệ",
+              "description": "Nguồn gốc, bản chất và chức năng của vật ngang giá chung."
             },
             {
               "id": "thi-truong",
-              "label": "Thị trường & KTTT"
+              "label": "Thị trường & KTTT",
+              "description": "Môi trường giao dịch và các hình thái cấu trúc thị trường."
             },
             {
               "id": "quy-luat-tien-te",
-              "label": "Quy luật Lưu thông tiền tệ"
+              "label": "Quy luật Lưu thông tiền tệ",
+              "description": "Cơ chế lưu thông tiền tệ và công thức kiểm soát lạm phát."
             },
             {
               "id": "canh-tranh",
-              "label": "Quy luật Cạnh tranh"
+              "label": "Quy luật Cạnh tranh",
+              "description": "Động lực sinh tồn và các hình thức đào thải của thị trường."
             },
             {
               "id": "chu-the",
-              "label": "Hệ sinh thái Chủ thể"
+              "label": "Hệ sinh thái Chủ thể",
+              "description": "Hệ sinh thái người mua, người bán và vai trò trọng tài của Nhà nước."
             }
-          ]
+          ],
+          "description": "Quy luật vận hành của hàng hóa, tiền tệ và cung cầu."
         },
         {
           "id": "root-3",
@@ -68,65 +81,81 @@
           "children": [
             {
               "id": "dk-suc-lao-dong",
-              "label": "Điều kiện SLĐ thành Hàng hóa"
+              "label": "Điều kiện SLĐ thành Hàng hóa",
+              "description": "Quá trình biến con người thành một loại hàng hóa đặc biệt."
             },
             {
               "id": "sld-tien-cong",
-              "label": "Sức lao động vs Tiền công"
+              "label": "Sức lao động vs Tiền công",
+              "description": "Bản chất thực sự của đồng lương và sự che đậy bóc lột."
             },
             {
               "id": "tu-ban-cv",
-              "label": "Phân loại Tư bản (c vs v)"
+              "label": "Phân loại Tư bản (c vs v)",
+              "description": "Phân chia tư bản bất biến (c) và tư bản khả biến (v)."
             },
             {
               "id": "pp-gttd",
-              "label": "Phương pháp SX GTTD"
+              "label": "Phương pháp SX GTTD",
+              "description": "Cách thức nhà tư bản gia tăng biên độ bóc lột sức lao động."
             },
             {
               "id": "quy-trinh-m",
-              "label": "Quá trình tạo ra GTTD"
+              "label": "Quá trình tạo ra GTTD",
+              "description": "Vòng đời tuần hoàn sản sinh ra lợi nhuận đẫm máu."
             },
             {
               "id": "ty-suat-m",
-              "label": "Tỷ suất & Khối lượng m"
+              "label": "Tỷ suất & Khối lượng m",
+              "description": "Đo lường mức độ tàn nhẫn và quy mô vơ vét của tư bản."
             },
             {
               "id": "tich-luy",
-              "label": "Tích lũy & Tái sản xuất"
+              "label": "Tích lũy & Tái sản xuất",
+              "description": "Quá trình biến lợi nhuận thành vốn để tiếp tục bành trướng."
             },
             {
               "id": "gia-ca-sx",
-              "label": "Lợi nhuận & Giá cả SX"
+              "label": "Lợi nhuận & Giá cả SX",
+              "description": "Sự san bằng lợi nhuận giữa các ngành và sự hình thành giá cả."
             },
             {
               "id": "tu-ban-cho-vay",
-              "label": "Lợi tức & Tư bản cho vay"
+              "label": "Lợi tức & Tư bản cho vay",
+              "description": "Quyền lực của đồng tiền sinh lãi và hệ thống tín dụng."
             },
             {
               "id": "dia-to",
-              "label": "Địa tô TBCN"
+              "label": "Địa tô TBCN",
+              "description": "Độc quyền ruộng đất và cách chủ đất hút máu tư bản đi thuê."
             },
             {
               "id": "nguon-goc-dq",
-              "label": "Nguồn gốc Độc quyền"
+              "label": "Nguồn gốc Độc quyền",
+              "description": "Quy luật cá lớn nuốt cá bé tất yếu sinh ra độc quyền."
             },
             {
               "id": "to-chuc-dq",
-              "label": "Các tổ chức Độc quyền"
+              "label": "Các tổ chức Độc quyền",
+              "description": "Các nấc thang thâu tóm từ Cartel, Syndicate đến Trust."
             },
             {
               "id": "tai-phiet",
-              "label": "Chế độ tham dự & Tài phiệt"
+              "label": "Chế độ tham dự & Tài phiệt",
+              "description": "Sự kết hợp giữa tư bản ngân hàng và tư bản công nghiệp."
             },
             {
               "id": "xuat-khau-tb",
-              "label": "Xuất khẩu tư bản"
+              "label": "Xuất khẩu tư bản",
+              "description": "Bành trướng quyền lực và vơ vét tài nguyên trên toàn cầu."
             },
             {
               "id": "vai-tro-cntb",
-              "label": "Vai trò lịch sử của CNTB"
+              "label": "Vai trò lịch sử của CNTB",
+              "description": "Thành tựu phát triển lực lượng sản xuất và giới hạn lịch sử."
             }
-          ]
+          ],
+          "description": "Giải mã bản chất bóc lột và sự hình thành giá trị thặng dư."
         },
         {
           "id": "root-4",
@@ -134,21 +163,26 @@
           "children": [
             {
               "id": "ban-chat-kttt",
-              "label": "Bản chất & Đặc trưng"
+              "label": "Bản chất & Đặc trưng",
+              "description": "Đặc trưng của kinh tế thị trường đặt dưới lăng kính Việt Nam."
             },
             {
               "id": "the-che-kttt",
-              "label": "Hệ thống Thể chế"
+              "label": "Hệ thống Thể chế",
+              "description": "Hệ thống luật chơi và khung pháp lý điều tiết nền kinh tế."
             },
             {
               "id": "quan-he-loi-ich",
-              "label": "Quan hệ Lợi ích kinh tế"
+              "label": "Quan hệ Lợi ích kinh tế",
+              "description": "Xử lý hài hòa bài toán lợi ích cá nhân, tập thể và xã hội."
             },
             {
               "id": "vai-tro-nha-nuoc",
-              "label": "Vai trò của Nhà nước"
+              "label": "Vai trò của Nhà nước",
+              "description": "Bàn tay vô hình của thị trường và bàn tay hữu hình của Nhà nước."
             }
-          ]
+          ],
+          "description": "Vận dụng quy luật thị trường vào định hướng xã hội chủ nghĩa."
         },
         {
           "id": "root-5",
@@ -156,21 +190,26 @@
           "children": [
             {
               "id": "cmcn",
-              "label": "Các cuộc CMCN"
+              "label": "Các cuộc CMCN",
+              "description": "Các làn sóng công nghệ định hình lại phương thức sản xuất."
             },
             {
               "id": "cnh-hdh",
-              "label": "Đặc điểm CNH-HĐH VN"
+              "label": "Đặc điểm CNH-HĐH VN",
+              "description": "Chiến lược đi tắt đón đầu của Việt Nam trong kỷ nguyên số."
             },
             {
               "id": "tien-trinh-hn",
-              "label": "Hội nhập Kinh tế Quốc tế"
+              "label": "Hội nhập Kinh tế Quốc tế",
+              "description": "Các cam kết quốc tế và lộ trình mở cửa nền kinh tế."
             },
             {
               "id": "tac-dong-hn",
-              "label": "Tác động của Hội nhập"
+              "label": "Tác động của Hội nhập",
+              "description": "Đánh giá đa chiều về cơ hội bứt phá và rủi ro tụt hậu."
             }
-          ]
+          ],
+          "description": "Thách thức và cơ hội trong bối cảnh cách mạng công nghiệp 4.0."
         }
       ]
     }
