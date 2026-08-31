@@ -175,8 +175,7 @@
           "title": "Kiểm tra Phản xạ",
           "data": {
             "quiz_tags": [
-              "Nguồn gốc và khái niệm",
-              "Nền tảng"
+              "Tổng quan & Thang đo"
             ]
           }
         }
@@ -236,8 +235,7 @@
           "title": "Kiểm tra Phản xạ",
           "data": {
             "quiz_tags": [
-              "Hệ thống thang đo",
-              "Cấu trúc"
+              "Tổng quan & Thang đo"
             ]
           }
         }
@@ -305,8 +303,7 @@
           "title": "Kiểm tra Phản xạ",
           "data": {
             "quiz_tags": [
-              "Quy trình nghiên cứu",
-              "Phân luồng"
+              "Tổng quan & Thang đo"
             ]
           }
         }
@@ -366,8 +363,7 @@
           "title": "Kiểm tra Phản xạ",
           "data": {
             "quiz_tags": [
-              "Chọn mẫu xác suất",
-              "Hệ thống"
+              "Chọn mẫu & Thu thập"
             ]
           }
         }
@@ -423,8 +419,7 @@
           "title": "Kiểm tra Phản xạ",
           "data": {
             "quiz_tags": [
-              "Chọn mẫu phi xác suất",
-              "Giới hạn & Rủi ro"
+              "Chọn mẫu & Thu thập"
             ]
           }
         }
@@ -490,8 +485,7 @@
           "title": "Kiểm tra Phản xạ",
           "data": {
             "quiz_tags": [
-              "Xác định cỡ mẫu",
-              "Logic & Nguyên tắc"
+              "Chọn mẫu & Thu thập"
             ]
           }
         }
@@ -551,8 +545,7 @@
           "title": "Kiểm tra Phản xạ",
           "data": {
             "quiz_tags": [
-              "Trực quan hóa dữ liệu",
-              "Góc nhìn Đa chiều"
+              "Mô tả & Trực quan"
             ]
           }
         }
@@ -616,8 +609,7 @@
           "title": "Kiểm tra Phản xạ",
           "data": {
             "quiz_tags": [
-              "Khuynh hướng tập trung",
-              "Cấu trúc"
+              "Mô tả & Trực quan"
             ]
           }
         }
@@ -675,8 +667,7 @@
           "title": "Kiểm tra Phản xạ",
           "data": {
             "quiz_tags": [
-              "Mức độ phân tán",
-              "Hệ thống"
+              "Mô tả & Trực quan"
             ]
           }
         }
@@ -732,8 +723,7 @@
           "title": "Kiểm tra Phản xạ",
           "data": {
             "quiz_tags": [
-              "Hình dáng phân phối",
-              "Nền tảng"
+              "Mô tả & Trực quan"
             ]
           }
         }
@@ -795,8 +785,7 @@
           "title": "Kiểm tra Phản xạ",
           "data": {
             "quiz_tags": [
-              "Nguyên lý kiểm định",
-              "Nền tảng"
+              "Ước lượng & Kiểm định"
             ]
           }
         }
@@ -853,8 +842,7 @@
           "title": "Kiểm tra Phản xạ",
           "data": {
             "quiz_tags": [
-              "Ước lượng khoảng",
-              "Logic & Nguyên tắc"
+              "Ước lượng & Kiểm định"
             ]
           }
         }
@@ -920,8 +908,7 @@
           "title": "Kiểm tra Phản xạ",
           "data": {
             "quiz_tags": [
-              "Kiểm định t",
-              "Hệ thống"
+              "Ước lượng & Kiểm định"
             ]
           }
         }
@@ -971,8 +958,7 @@
           "title": "Kiểm tra Phản xạ",
           "data": {
             "quiz_tags": [
-              "Phân tích ANOVA",
-              "Phân luồng"
+              "Ước lượng & Kiểm định"
             ]
           }
         }
@@ -1030,8 +1016,7 @@
           "title": "Kiểm tra Phản xạ",
           "data": {
             "quiz_tags": [
-              "Chi bình phương",
-              "Cấu trúc"
+              "Ước lượng & Kiểm định"
             ]
           }
         }
@@ -1087,8 +1072,7 @@
           "title": "Kiểm tra Phản xạ",
           "data": {
             "quiz_tags": [
-              "Dấu & Wilcoxon",
-              "Giới hạn & Rủi ro"
+              "Ước lượng & Kiểm định"
             ]
           }
         }
@@ -1144,8 +1128,7 @@
           "title": "Kiểm tra Phản xạ",
           "data": {
             "quiz_tags": [
-              "Mann-Whitney",
-              "Giới hạn & Rủi ro"
+              "Ước lượng & Kiểm định"
             ]
           }
         }
@@ -1201,8 +1184,7 @@
           "title": "Kiểm tra Phản xạ",
           "data": {
             "quiz_tags": [
-              "Kruskal-Wallis",
-              "Giới hạn & Rủi ro"
+              "Ước lượng & Kiểm định"
             ]
           }
         }
@@ -1266,8 +1248,7 @@
           "title": "Kiểm tra Phản xạ",
           "data": {
             "quiz_tags": [
-              "Tương quan Pearson",
-              "Cấu trúc"
+              "Hồi quy & Tương quan"
             ]
           }
         }
@@ -1333,8 +1314,7 @@
           "title": "Kiểm tra Phản xạ",
           "data": {
             "quiz_tags": [
-              "Mô hình hồi quy",
-              "Hệ thống"
+              "Hồi quy & Tương quan"
             ]
           }
         }
@@ -1408,8 +1388,7 @@
           "title": "Kiểm tra Phản xạ",
           "data": {
             "quiz_tags": [
-              "Rủi ro mô hình",
-              "Giới hạn & Rủi ro"
+              "Hồi quy & Tương quan"
             ]
           }
         }
@@ -1469,8 +1448,7 @@
           "title": "Kiểm tra Phản xạ",
           "data": {
             "quiz_tags": [
-              "Chuỗi thời gian",
-              "Nền tảng"
+              "Hồi quy & Tương quan"
             ]
           }
         }
@@ -1539,8 +1517,7 @@
           "title": "Kiểm tra Phản xạ",
           "data": {
             "quiz_tags": [
-              "Dự báo Winters",
-              "Phân luồng"
+              "Hồi quy & Tương quan"
             ]
           }
         }

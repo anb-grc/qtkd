@@ -820,24 +820,36 @@
     ]
   },
   {
-    "question": "Để ước lượng khoảng cho sự khác biệt giữa hai trung bình tổng thể trường hợp mẫu theo cặp, lệnh nào sau đây phù hợp nhất?\n<div class=\"options-grid\">\n<div>A. Analyze/Compare Means/Paired – Sample T Test vào hộp thoại Option điều chỉnh khoảng ước lượng theo yêu cầu</div>\n<div>B. Analyze/Descriptive Statistics/Frequencies vào hộp thoại Bootstrap điều chỉnh khoảng ước lượng theo yếu cầu</div>\n<div>C. Analyze/Compare Means/Independent – Sample T Test vào hộp thoại Option điều chỉnh khoảng ước lượng theo yêu cầu</div>\n<div>D. Analyze/Descriptive Statisitics/Explore vào hộp thoại Statistics điều chỉnh khoảng ước lượng theo yêu cầu</div>\n</div>",
+    "question": "Để ước lượng khoảng cho sự khác biệt giữa hai trung bình tổng thể trường hợp mẫu theo cặp, lệnh nào sau đây phù hợp nhất?",
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Analyze/Compare Means/<span class=\"answer-keyword\">Paired</span> – Sample T Test vào hộp thoại Option điều chỉnh khoảng ước lượng theo yêu cầu <div class=\"note\">💡 Giải thích: Kiểm định T cho mẫu theo cặp (Paired-Sample T Test) được sử dụng để phân tích sự khác biệt trung bình. Nút Options cho phép điều chỉnh độ tin cậy.</div>",
     "weight": "normal",
-    "options": [],
+    "options": [
+      "A. Analyze/Compare Means/Paired – Sample T Test vào hộp thoại Option điều chỉnh khoảng ước lượng theo yêu cầu",
+      "B. Analyze/Descriptive Statistics/Frequencies vào hộp thoại Bootstrap điều chỉnh khoảng ước lượng theo yếu cầu",
+      "C. Analyze/Compare Means/Independent – Sample T Test vào hộp thoại Option điều chỉnh khoảng ước lượng theo yêu cầu",
+      "D. Analyze/Descriptive Statisitics/Explore vào hộp thoại Statistics điều chỉnh khoảng ước lượng theo yêu cầu"
+    ],
     "tags": [
       "Low",
       "Chọn mẫu & Thu thập"
-    ]
+    ],
+    "correctAnswer": 0
   },
   {
-    "question": "Dựa vào kết quả thu được từ SPSS: Cho biết ước lượng khoảng (độ tin cậy 95%) của tỷ lệ chủ hộ có trình độ tốt nghiệp THPT.\n<div class=\"options-grid\">\n<div>A. (25,9 %; 64,5%)</div>\n<div>B. (43,8 %; 56,3%)</div>\n<div>C. (35,5 %; 74,1%)</div>\n<div>D. (25,9 %; 35,5%)</div>\n</div>",
+    "question": "Dựa vào kết quả thu được từ SPSS: Cho biết ước lượng khoảng (độ tin cậy 95%) của tỷ lệ chủ hộ có trình độ tốt nghiệp THPT.",
     "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">(25,9 %; 35,5%)</span></div>\n        <div class=\"note\">💡 Giải thích: Dựa vào các bài tập thực hành thống kê phổ biến, khoảng (25,9 %; 35,5%) là kết quả chuẩn.</div>",
     "weight": "normal",
-    "options": [],
+    "options": [
+      "A. (25,9 %; 64,5%)",
+      "B. (43,8 %; 56,3%)",
+      "C. (35,5 %; 74,1%)",
+      "D. (25,9 %; 35,5%)"
+    ],
     "tags": [
       "Low",
       "Tổng quan & Thang đo"
-    ]
+    ],
+    "correctAnswer": 3
   },
   {
     "question": "Phân tích phương sai một yếu tố được sử dụng khi",
@@ -850,24 +862,36 @@
     ]
   },
   {
-    "question": "Nhận định nào sau đây đúng về giả thuyết và dối thuyết tham số?\n<div class=\"options-grid\">\n<div>A. Giả thuyết và dối thuyết nói về tham số có mặt trong quy luật phân phối của tổng thể, biến chính là biến định lượng</div>\n<div>B. Giả thuyết và dối thuyết không nói về tham số có mặt trong quy luật phân phối của tổng thể</div>\n<div>C. Giả thuyết và đối thuyết nói về tham số có mặt trong quy luật phân phối của tổng thể; hoặc giả thuyết và dối thuyết không nói về tham số có mặt trong quy luật phân phối của tổng thể</div>\n<div>D. Giả thuyết và đối thuyết nói về tham số có mặt trong quy luật phân phối của tổng thể</div>\n</div>",
+    "question": "Nhận định nào sau đây đúng về giả thuyết và dối thuyết tham số?",
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Giả thuyết và đối thuyết nói về <span class=\"answer-keyword\">tham số</span> có mặt trong quy luật phân phối của tổng thể <div class=\"note\">💡 Giải thích: Các kiểm định tham số dựa trên việc đặt giả thuyết về các tham số (như trung bình, tỷ lệ, phương sai) của phân phối tổng thể.</div>",
     "weight": "normal",
-    "options": [],
+    "options": [
+      "A. Giả thuyết và dối thuyết nói về tham số có mặt trong quy luật phân phối của tổng thể, biến chính là biến định lượng",
+      "B. Giả thuyết và dối thuyết không nói về tham số có mặt trong quy luật phân phối của tổng thể",
+      "C. Giả thuyết và đối thuyết nói về tham số có mặt trong quy luật phân phối của tổng thể; hoặc giả thuyết và dối thuyết không nói về tham số có mặt trong quy luật phân phối của tổng thể",
+      "D. Giả thuyết và đối thuyết nói về tham số có mặt trong quy luật phân phối của tổng thể"
+    ],
     "tags": [
       "Low",
       "Mô tả & Trực quan"
-    ]
+    ],
+    "correctAnswer": 0
   },
   {
-    "question": "Nhận định nào sao đây đúng nhất về biến số?\n<div class=\"options-grid\">\n<div>A. Đại lượng quan tâm đến việc lý giải nguyên nhân và bị ảnh hưởng bởi các yếu tố khác</div>\n<div>B. Thể hiện một đại lượng đi kèm với một đơn vị hoặc thể hiện một đặc tính</div>\n<div>C. Những đại lượng thay đổi từ người này sang người khác hay từ thời điểm này sang thời điểm khác; thể hiện một đại lượng đi kèm với một đơn vị hoặc thể hiện một đặc tính và đại lượng quan tâm đến việc lý giải nguyên nhân và bị ảnh hưởng bởi các yếu tố khác</div>\n<div>D. Những đại lượng thay đổi từ người này sang người khác hay từ thời điểm này sang thời điểm khác</div>\n</div>",
+    "question": "Nhận định nào sao đây đúng nhất về biến số?",
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Những đại lượng <span class=\"answer-keyword\">thay đổi</span> từ người này sang người khác hay từ thời điểm này sang thời điểm khác; thể hiện một đại lượng đi kèm với một <span class=\"answer-keyword\">đơn vị</span> hoặc thể hiện một <span class=\"answer-keyword\">đặc tính</span> và đại lượng quan tâm đến việc <span class=\"answer-keyword\">lý giải nguyên nhân</span> và bị ảnh hưởng bởi các yếu tố khác <div class=\"note\">💡 Giải thích: Biến số là một khái niệm bao hàm sự thay đổi giá trị giữa các đơn vị quan sát, có thể định lượng hoặc định tính, có thể là biến độc lập hoặc biến phụ thuộc.</div>",
     "weight": "normal",
-    "options": [],
+    "options": [
+      "A. Đại lượng quan tâm đến việc lý giải nguyên nhân và bị ảnh hưởng bởi các yếu tố khác",
+      "B. Thể hiện một đại lượng đi kèm với một đơn vị hoặc thể hiện một đặc tính",
+      "C. Những đại lượng thay đổi từ người này sang người khác hay từ thời điểm này sang thời điểm khác; thể hiện một đại lượng đi kèm với một đơn vị hoặc thể hiện một đặc tính và đại lượng quan tâm đến việc lý giải nguyên nhân và bị ảnh hưởng bởi các yếu tố khác",
+      "D. Những đại lượng thay đổi từ người này sang người khác hay từ thời điểm này sang thời điểm khác"
+    ],
     "tags": [
       "Low",
       "Hồi quy & Tương quan"
-    ]
+    ],
+    "correctAnswer": 2
   },
   {
     "question": "Lệnh nào đúng nhất cho kiểm định sự khác biệt trung bình hai tổng thể trường hợp mẫu độc lập?",
@@ -891,13 +915,19 @@
   },
   {
     "weight": "normal",
-    "question": "Nhận định nào sao đây đúng khi sử dụng lệnh trong SPSS cho kiểm định Kruskal – Wallis?\n<div class=\"options-grid\">\n<div>A. Analyze/Nonparametric Test/Legacy Dialogs/2 Independent Sample</div>\n<div>B. Analyze/Nonparametric Test/Legacy Dialogs/K Independent Sample</div>\n<div>C. Analyze/Nonparametric Test/Legacy Dialogs/2 Related Samples trong mục Test Type chọn Wilcoxon</div>\n<div>D. Analyze/Nonparametric Test/Legacy Dialogs/2 Related Samples trong mục Test Type chọn Sign</div>\n</div>",
+    "question": "Nhận định nào sao đây đúng khi sử dụng lệnh trong SPSS cho kiểm định Kruskal – Wallis?",
     "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Analyze/Nonparametric Test/Legacy Dialogs/K Independent Sample</span></div>\n        <div class=\"note\">💡 Giải thích: Kiểm định Kruskal-Wallis là kiểm định phi tham số dành cho k mẫu độc lập (K Independent Samples).</div>",
-    "options": [],
+    "options": [
+      "A. Analyze/Nonparametric Test/Legacy Dialogs/2 Independent Sample",
+      "B. Analyze/Nonparametric Test/Legacy Dialogs/K Independent Sample",
+      "C. Analyze/Nonparametric Test/Legacy Dialogs/2 Related Samples trong mục Test Type chọn Wilcoxon",
+      "D. Analyze/Nonparametric Test/Legacy Dialogs/2 Related Samples trong mục Test Type chọn Sign"
+    ],
     "tags": [
       "Low",
       "Tổng quan & Thang đo"
-    ]
+    ],
+    "correctAnswer": 0
   },
   {
     "weight": "normal",
@@ -990,14 +1020,20 @@
     ]
   },
   {
-    "question": "Nhận định nào sau đây đúng nhất về sai số ngẫu nhiên trong mô hình hồi quy?\n<div class=\"options-grid\">\n<div>A. Giá trị phần dư mô tả sự không đầy đủ của mô hình hồi quy</div>\n<div>B. Giá trị tác động làm thay đổi biến phụ thuộc</div>\n<div>C. Giá trị mặc định được tính toán trong mô hình hồi quy không có ý nghĩa</div>\n<div>D. Giá trị thay đổi do phụ thuộc vào biến độc lập</div>\n</div>",
+    "question": "Nhận định nào sau đây đúng nhất về sai số ngẫu nhiên trong mô hình hồi quy?",
     "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Giá trị phần dư mô tả sự không đầy đủ của mô hình hồi quy</span></div>",
     "weight": "normal",
-    "options": [],
+    "options": [
+      "A. Giá trị phần dư mô tả sự không đầy đủ của mô hình hồi quy",
+      "B. Giá trị tác động làm thay đổi biến phụ thuộc",
+      "C. Giá trị mặc định được tính toán trong mô hình hồi quy không có ý nghĩa",
+      "D. Giá trị thay đổi do phụ thuộc vào biến độc lập"
+    ],
     "tags": [
       "Low",
       "Hồi quy & Tương quan"
-    ]
+    ],
+    "correctAnswer": 0
   },
   {
     "question": "Cho giả thuyết và đối thuyết như sau:<br>H0: không có sự khác biệt về thu nhập (triệu đồng) của người dân sống ở nông thôn và thành thị ở Việt Nam<br>H1: có sự khác biệt về thu nhập (triệu đồng) của người dân sống ở nông thôn và thành thị ở Việt Nam<br>Nhận định sau đây là đúng.",
@@ -1020,14 +1056,20 @@
     ]
   },
   {
-    "question": "Nhận định nào sao đây đúng khi sử dụng lệnh trong SPSS cho kiểm định Kruskal – Wallis?\n<div class=\"options-grid\">\n<div>A. Analyze/Nonparametric Test/Legacy Dialogs/2 Independent Sample</div>\n<div>B. Analyze/Nonparametric Test/Legacy Dialogs/K Independent Sample</div>\n<div>C. Analyze/Nonparametric Test/Legacy Dialogs/2 Related Samples trong mục Test Type chọn Wilcoxon</div>\n<div>D. Analyze/Nonparametric Test/Legacy Dialogs/2 Related Samples trong mục Test Type chọn Sign</div>\n</div>",
+    "question": "Nhận định nào sao đây đúng khi sử dụng lệnh trong SPSS cho kiểm định Kruskal – Wallis?",
     "answer": "",
     "weight": "normal",
-    "options": [],
+    "options": [
+      "A. Analyze/Nonparametric Test/Legacy Dialogs/2 Independent Sample",
+      "B. Analyze/Nonparametric Test/Legacy Dialogs/K Independent Sample",
+      "C. Analyze/Nonparametric Test/Legacy Dialogs/2 Related Samples trong mục Test Type chọn Wilcoxon",
+      "D. Analyze/Nonparametric Test/Legacy Dialogs/2 Related Samples trong mục Test Type chọn Sign"
+    ],
     "tags": [
       "Low",
       "Tổng quan & Thang đo"
-    ]
+    ],
+    "correctAnswer": 0
   },
   {
     "question": "Test/Legacy Dialogs/2 Independent Sample  Cho giả thuyết và đối thuyết như sau: H0: không có sự khác biệt về thu nhập (triệu đồng) của người dân sống ở nông thôn và thành thị ở Việt Nam H1: có sự khác biệt về thu nhập (triệu đồng) của người dân sống ở nông thôn và thành thị ở Việt Nam Nhận định sau đây là đúng.",
@@ -1040,44 +1082,68 @@
     ]
   },
   {
-    "question": "Cho giả thuyết và đối thuyết như sau: H0: Không có sự khác biệt về nghề nghiệp và khu vực sinh sống của người lao động ở Việt Nam H1: Có sự khác biệt về nghề nghiệp và khu vực sinh sống của người lao động ở Việt Nam Nhận định sau đây là đúng.\n<div class=\"options-grid\">\n<div>A. Đây không phải là kiểm định phi tham số</div>\n<div>B. Đây là kiểm định tham số</div>\n<div>C. Đây là kiểm định vừa tham số và phi tham số</div>\n<div>D. Đây là kiểm định phi tham số</div>\n</div>",
+    "question": "Cho giả thuyết và đối thuyết như sau: H0: Không có sự khác biệt về nghề nghiệp và khu vực sinh sống của người lao động ở Việt Nam H1: Có sự khác biệt về nghề nghiệp và khu vực sinh sống của người lao động ở Việt Nam Nhận định sau đây là đúng.",
     "answer": "",
     "weight": "normal",
-    "options": [],
+    "options": [
+      "A. Đây không phải là kiểm định phi tham số",
+      "B. Đây là kiểm định tham số",
+      "C. Đây là kiểm định vừa tham số và phi tham số",
+      "D. Đây là kiểm định phi tham số"
+    ],
     "tags": [
       "Low",
       "Ước lượng & Kiểm định"
-    ]
+    ],
+    "correctAnswer": 0
   },
   {
-    "question": "Kiểm định sự phù hợp của mô hình hồi quy cho kết luận\n<div class=\"options-grid\">\n<div>A. Đối với hồi quy tuyến tính đơn, kiểm định này tương đồng với kiểm định tham số của biến độc lập</div>\n<div>B. Mô hình hồi quy phù hợp với mức ý nghĩa đã chọn</div>\n<div>C. Có ít nhất một biến độc lập có thể giải thích được sự thay đổi của biến phụ thuộc</div>\n<div>D. Mô hình hồi quy phù hợp với mức ý nghĩa đã chọn; hoặc có ít nhất một biến độc lập có thể giải thích được sự thay đổi của biến phụ thuộc; hoặc đối với hồi quy tuyến tính đơn, kiểm định này tương đồng với kiểm định tham số của biến độc lập</div>\n</div>",
+    "question": "Kiểm định sự phù hợp của mô hình hồi quy cho kết luận",
     "answer": "",
     "weight": "normal",
-    "options": [],
+    "options": [
+      "A. Đối với hồi quy tuyến tính đơn, kiểm định này tương đồng với kiểm định tham số của biến độc lập",
+      "B. Mô hình hồi quy phù hợp với mức ý nghĩa đã chọn",
+      "C. Có ít nhất một biến độc lập có thể giải thích được sự thay đổi của biến phụ thuộc",
+      "D. Mô hình hồi quy phù hợp với mức ý nghĩa đã chọn; hoặc có ít nhất một biến độc lập có thể giải thích được sự thay đổi của biến phụ thuộc; hoặc đối với hồi quy tuyến tính đơn, kiểm định này tương đồng với kiểm định tham số của biến độc lập"
+    ],
     "tags": [
       "Low",
       "Hồi quy & Tương quan"
-    ]
+    ],
+    "correctAnswer": 0
   },
   {
-    "question": "hình hồi quy phù hợp với mức ý nghĩa đã chọn; hoặc có ít nhất một biến độc lập có thể giải thích được sự thay đổi của biến phụ thuộc; hoặc đối với hồi quy tuyến tính đơn, kiểm định này tương đồng với kiểm định tham số của biến độc lập Và câu này đáp án sai với trường nè Các dạng dự báo bằng hồi quy tuyến tính đơn có thể sử dụng trên thực tế gồm\n<div class=\"options-grid\">\n<div>A. Dự báo bằng hồi quy theo thời gian</div>\n<div>B. Không phải dự báo bằng hồi quy theo thời gian và hồi quy theo nhân quả</div>\n<div>C. Dự báo bằng hồi quy theo nhân quả</div>\n<div>D. Dự báo bằng hồi quy theo thời gian và hồi quy theo nhân quả</div>\n</div>",
+    "question": "hình hồi quy phù hợp với mức ý nghĩa đã chọn; hoặc có ít nhất một biến độc lập có thể giải thích được sự thay đổi của biến phụ thuộc; hoặc đối với hồi quy tuyến tính đơn, kiểm định này tương đồng với kiểm định tham số của biến độc lập Và câu này đáp án sai với trường nè Các dạng dự báo bằng hồi quy tuyến tính đơn có thể sử dụng trên thực tế gồm",
     "answer": "",
     "weight": "normal",
-    "options": [],
+    "options": [
+      "A. Dự báo bằng hồi quy theo thời gian",
+      "B. Không phải dự báo bằng hồi quy theo thời gian và hồi quy theo nhân quả",
+      "C. Dự báo bằng hồi quy theo nhân quả",
+      "D. Dự báo bằng hồi quy theo thời gian và hồi quy theo nhân quả"
+    ],
     "tags": [
       "Low",
       "Hồi quy & Tương quan"
-    ]
+    ],
+    "correctAnswer": 0
   },
   {
-    "question": "hình hồi quy phù hợp với mức ý nghĩa đã chọn; hoặc có ít nhất một biến độc lập có thể giải thích được sự thay đổi của biến phụ thuộc; hoặc đối với hồi quy tuyến tính đơn, kiểm định này tương đồng với kiểm định tham số của biến độc lập Kiểm định tự tương quan dựa vào giá trị Durbin-Watson, các nhận định nào sau đây không đúng?\n<div class=\"options-grid\">\n<div>A. Khoảng 4 – dL cho đến 4 xác định có tự tương quan âm</div>\n<div>B. Khoảng 0 đến dL xác định có tự tương quan dương</div>\n<div>C. Khoảng dU cho đến 4 – dU xác định có tự tương quan</div>\n<div>D. Khoảng dU cho đến 4 – dU xác định không có tự tương quan</div>\n</div>",
+    "question": "hình hồi quy phù hợp với mức ý nghĩa đã chọn; hoặc có ít nhất một biến độc lập có thể giải thích được sự thay đổi của biến phụ thuộc; hoặc đối với hồi quy tuyến tính đơn, kiểm định này tương đồng với kiểm định tham số của biến độc lập Kiểm định tự tương quan dựa vào giá trị Durbin-Watson, các nhận định nào sau đây không đúng?",
     "answer": "",
     "weight": "normal",
-    "options": [],
+    "options": [
+      "A. Khoảng 4 – dL cho đến 4 xác định có tự tương quan âm",
+      "B. Khoảng 0 đến dL xác định có tự tương quan dương",
+      "C. Khoảng dU cho đến 4 – dU xác định có tự tương quan",
+      "D. Khoảng dU cho đến 4 – dU xác định không có tự tương quan"
+    ],
     "tags": [
       "Low",
       "Hồi quy & Tương quan"
-    ]
+    ],
+    "correctAnswer": 0
   },
   {
     "question": "Để ước lượng khoảng cho sự khác biệt giữa hai trung bình tổng thể trường hợp mẫu độc lập, lệnh nào sau đây phù hợp nhất?",
