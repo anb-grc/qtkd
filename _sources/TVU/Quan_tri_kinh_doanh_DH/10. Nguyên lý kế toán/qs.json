@@ -11,9 +11,14 @@
     },
     {
         "weight": "high",
-        "question": "Chi <span class=\"keyword\">sửa chữa nhỏ TSCĐ</span> dùng ở <span class=\"keyword\">bộ phận quản lý doanh nghiệp</span> bằng tiền mặt 2.000.000 đồng, kế toán ghi",
+        "question": "Chi <span class=\"keyword\">sửa chữa nhỏ TSCĐ</span> dùng ở <span class=\"keyword\">bộ phận quản lý doanh nghiệp</span> bằng tiền mặt 2.000.000 đồng, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 642  2.000.000\nCó 111    2.000.000</div><div>B.\nNợ 641  2.000.000\nCó 111    2.000.000</div><div>C.\nNợ 621  2.000.000\nCó 111    2.000.000</div><div>D.\nNợ 627  2.000.000\nCó 111    2.000.000</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">642</span> 2.000.000 / Có <span class=\"answer-keyword\">111</span> 2.000.000 - <b>TK 642</b> (Chi phí quản lý doanh nghiệp): TSCĐ thuộc bộ phận quản lý → ghi <b>Nợ</b><br>\n        - <b>TK 111</b> (Tiền mặt): tiền ra → ghi <b>Có</b>\n        <div class=\"note\">💡 Giải thích: 💡 So sánh: TSCĐ tại phân xưởng SX → TK 627 (Câu 6). TSCĐ tại bộ phận quản lý → TK 642. TSCĐ tại bộ phận bán hàng → TK 641. Đây là điểm phân biệt hay ra thi!</div>",
-        "options": [],
+        "options": [
+            "A.\nNợ 642  2.000.000\nCó 111    2.000.000",
+            "B.\nNợ 641  2.000.000\nCó 111    2.000.000",
+            "C.\nNợ 621  2.000.000\nCó 111    2.000.000",
+            "D.\nNợ 627  2.000.000\nCó 111    2.000.000"
+        ],
         "tags": [
             "Báo cáo KQ Hoạt động Kinh doanh",
             "Cấu trúc"
@@ -21,9 +26,14 @@
     },
     {
         "weight": "high",
-        "question": "Dùng <span class=\"keyword\">lợi nhuận sau thuế chưa phân phối</span> bổ sung <span class=\"keyword\">quỹ đầu tư phát triển</span> 10.000.000 đồng, kế toán ghi",
+        "question": "Dùng <span class=\"keyword\">lợi nhuận sau thuế chưa phân phối</span> bổ sung <span class=\"keyword\">quỹ đầu tư phát triển</span> 10.000.000 đồng, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 421    10.000.000\nCó 414     10.000.000</div><div>B.\nNợ 441    10.000.000\nCó 414     10.000.000</div><div>C.\nNợ 141    10.000.000\nCó 421     10.000.000</div><div>D.\nNợ 414    10.000.000\nCó 421     10.000.000</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">421</span> 10.000.000 / Có <span class=\"answer-keyword\">414</span> 10.000.000 - <b>TK 421</b> (Lợi nhuận sau thuế chưa phân phối): dùng để trích quỹ → giảm → ghi <b>Nợ</b><br>\n        - <b>TK 414</b> (Quỹ đầu tư phát triển): được bổ sung → tăng → ghi <b>Có</b>\n        <div class=\"note\">💡 Giải thích: 💡 Mẹo: TK 421 là \"túi tiền lãi chờ chia\". Khi trích ra bổ sung quỹ nào thì: Nợ 421 / Có TK quỹ đó. TK 141 = Tạm ứng, TK 441 = Nguồn vốn XDCB (không liên quan).</div>",
-        "options": [],
+        "options": [
+            "A.\nNợ 421    10.000.000\nCó 414     10.000.000",
+            "B.\nNợ 441    10.000.000\nCó 414     10.000.000",
+            "C.\nNợ 141    10.000.000\nCó 421     10.000.000",
+            "D.\nNợ 414    10.000.000\nCó 421     10.000.000"
+        ],
         "tags": [
             "Cấu trúc Bảng Cân đối",
             "Cấu trúc"
@@ -31,9 +41,14 @@
     },
     {
         "weight": "high",
-        "question": "<span class=\"keyword\">Nguyên vật liệu xuất dùng không hết nhập lại kho</span> được ghi chép vào sổ sách kế toán <span class=\"keyword\">trước khi tập hợp và kết chuyển</span> chi phí phát sinh trong kỳ sang tài khoản 154",
+        "question": "<span class=\"keyword\">Nguyên vật liệu xuất dùng không hết nhập lại kho</span> được ghi chép vào sổ sách kế toán <span class=\"keyword\">trước khi tập hợp và kết chuyển</span> chi phí phát sinh trong kỳ sang tài khoản 154<div class=\"options-grid\"><div>A.\nKhông đủ cơ sở để kết luận</div><div>B.\nĐúng</div><div>C.\nCó thể hạch toán trước hay sau đều được</div><div>D.\nSai</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Đúng</span></div>\n        <div class=\"note\">💡 Giải thích: NVL nhập lại kho phải được ghi nhận trước khi kết chuyển sang TK 154, để phản ánh đúng chi phí thực tế phát sinh trong kỳ (chỉ tính phần NVL thực sự đã dùng).</div>",
-        "options": [],
+        "options": [
+            "A.\nKhông đủ cơ sở để kết luận",
+            "B.\nĐúng",
+            "C.\nCó thể hạch toán trước hay sau đều được",
+            "D.\nSai"
+        ],
         "tags": [
             "Báo cáo KQ Hoạt động Kinh doanh",
             "Cấu trúc"
@@ -51,9 +66,14 @@
     },
     {
         "weight": "high",
-        "question": "<span class=\"keyword\">Tài khoản 421</span>",
+        "question": "<span class=\"keyword\">Tài khoản 421</span><div class=\"options-grid\"><div>A.\ncuối kỳ luôn có số dư bên Có</div><div>B.\ncuối kỳ có thể có số dư bên Nợ hoặc bên Có</div><div>C.\ncuối kỳ luôn luôn không có số dư</div><div>D.\ncuối kỳ luôn có số dư bên Nợ</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> cuối kỳ có thể có số dư bên <span class=\"answer-keyword\">Nợ hoặc bên Có</span> - Dư <b>Có</b>: doanh nghiệp đang lãi, còn lợi nhuận chưa chia.<br>\n        - Dư <b>Nợ</b>: doanh nghiệp đang bị lỗ lũy kế.\n        <div class=\"note\">💡 Giải thích: 💡 TK 421 là tài khoản \"lưỡng tính\" — duy nhất trong nhóm vốn chủ có thể dư cả hai chiều.</div>",
-        "options": [],
+        "options": [
+            "A.\ncuối kỳ luôn có số dư bên Có",
+            "B.\ncuối kỳ có thể có số dư bên Nợ hoặc bên Có",
+            "C.\ncuối kỳ luôn luôn không có số dư",
+            "D.\ncuối kỳ luôn có số dư bên Nợ"
+        ],
         "tags": [
             "Mô hình Chữ T",
             "Cấu trúc"
@@ -71,9 +91,14 @@
     },
     {
         "weight": "high",
-        "question": "Nguyên vật liệu mua chất lượng kém nên được người bán <span class=\"keyword\">giảm giá 10%</span> trên giá mua chưa thuế. Biết giá mua của lô nguyên vật liệu trước đây chưa thuế là 10.000.000 đồng, thuế GTGT 10%, chưa thanh toán. Kế toán ghi <span class=\"keyword\">đối với phần giảm giá</span>",
+        "question": "Nguyên vật liệu mua chất lượng kém nên được người bán <span class=\"keyword\">giảm giá 10%</span> trên giá mua chưa thuế. Biết giá mua của lô nguyên vật liệu trước đây chưa thuế là 10.000.000 đồng, thuế GTGT 10%, chưa thanh toán. Kế toán ghi <span class=\"keyword\">đối với phần giảm giá</span><div class=\"options-grid\"><div>A.\nNợ 331   1.000.000\nNợ 133    100.000\n\nCó 152  1.100.000</div><div>B.\nNợ 331  1.100.000\nCó 152   1.100.000</div><div>C.\nNợ 331   1.100.000\nCó 152  1.000.000\n\nCó 133    100.000</div><div>D.\nNợ 331   1.100.000\nCó 532   1.100.000</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">331</span> 1.100.000 / Có <span class=\"answer-keyword\">152</span> 1.000.000, Có <span class=\"answer-keyword\">133</span> 100.000 - Phần giảm giá = 10% × 10.000.000 = <b>1.000.000</b><br>\n        - Thuế GTGT trên phần giảm = 10% × 1.000.000 = <b>100.000</b><br>\n        - <b>TK 331</b> (Phải trả người bán): giảm số nợ → ghi <b>Nợ 1.100.000</b><br>\n        - <b>TK 152</b> (NVL): giảm giá trị NVL → ghi <b>Có 1.000.000</b><br>\n        - <b>TK 133</b> (Thuế GTGT được khấu trừ): giảm → ghi <b>Có 100.000</b>",
-        "options": [],
+        "options": [
+            "A.\nNợ 331   1.000.000\nNợ 133    100.000\n\nCó 152  1.100.000",
+            "B.\nNợ 331  1.100.000\nCó 152   1.100.000",
+            "C.\nNợ 331   1.100.000\nCó 152  1.000.000\n\nCó 133    100.000",
+            "D.\nNợ 331   1.100.000\nCó 532   1.100.000"
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -81,9 +106,14 @@
     },
     {
         "weight": "high",
-        "question": "<span class=\"keyword\">Tài khoản 131</span>",
+        "question": "<span class=\"keyword\">Tài khoản 131</span><div class=\"options-grid\"><div>A.\ncuối kỳ luôn có số dư bên Nợ</div><div>B.\ncuối kỳ luôn có số dư bên Có</div><div>C.\ncuối kỳ không bao giờ có số dư</div><div>D.\ncuối kỳ có thể có số dư bên Nợ hoặc bên Có</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> cuối kỳ có thể có số dư bên <span class=\"answer-keyword\">Nợ hoặc bên Có</span> - Dư <b>Nợ</b>: khách hàng còn đang nợ doanh nghiệp (phổ biến hơn).<br>\n        - Dư <b>Có</b>: khách hàng đã ứng tiền trước cho doanh nghiệp.\n        <div class=\"note\">💡 Giải thích: 💡 TK 131 và TK 331 đều là tài khoản \"lưỡng tính\" — có thể dư cả Nợ lẫn Có tùy trạng thái thanh toán.</div>",
-        "options": [],
+        "options": [
+            "A.\ncuối kỳ luôn có số dư bên Nợ",
+            "B.\ncuối kỳ luôn có số dư bên Có",
+            "C.\ncuối kỳ không bao giờ có số dư",
+            "D.\ncuối kỳ có thể có số dư bên Nợ hoặc bên Có"
+        ],
         "tags": [
             "Mô hình Chữ T",
             "Cấu trúc"
@@ -131,9 +161,14 @@
     },
     {
         "weight": "high",
-        "question": "<span class=\"keyword\">Tài khoản 334</span>",
+        "question": "<span class=\"keyword\">Tài khoản 334</span><div class=\"options-grid\"><div>A.\ncuối kỳ không bao giờ có số dư</div><div>B.\ncuối kỳ có thể có số dư bên Có khác 0 hoặc bằng 0</div><div>C.\ncuối kỳ luôn có số dư bên Nợ</div><div>D.\ncuối kỳ không xác định được số dư</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> cuối kỳ có thể có số dư bên Có <span class=\"answer-keyword\">khác 0 hoặc bằng 0</span> TK 334 (Phải trả người lao động) là tài khoản nợ phải trả → thường <b>dư Có</b> (khi còn lương chưa trả). Nếu đã trả hết thì số dư = 0. Không bao giờ dư Nợ.",
-        "options": [],
+        "options": [
+            "A.\ncuối kỳ không bao giờ có số dư",
+            "B.\ncuối kỳ có thể có số dư bên Có khác 0 hoặc bằng 0",
+            "C.\ncuối kỳ luôn có số dư bên Nợ",
+            "D.\ncuối kỳ không xác định được số dư"
+        ],
         "tags": [
             "Mô hình Chữ T",
             "Cấu trúc"
@@ -161,9 +196,14 @@
     },
     {
         "weight": "high",
-        "question": "Nhân viên phân xưởng <span class=\"keyword\">thanh toán tiền tạm ứng</span> kỳ trước 50.000.000 đồng gồm <span class=\"keyword\">chi phí mua TSCĐ 40.000.000</span> đồng, thuế GTGT 10%, <span class=\"keyword\">tiền thừa nộp lại</span> cho doanh nghiệp bằng tiền mặt, kế toán ghi",
+        "question": "Nhân viên phân xưởng <span class=\"keyword\">thanh toán tiền tạm ứng</span> kỳ trước 50.000.000 đồng gồm <span class=\"keyword\">chi phí mua TSCĐ 40.000.000</span> đồng, thuế GTGT 10%, <span class=\"keyword\">tiền thừa nộp lại</span> cho doanh nghiệp bằng tiền mặt, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 642   40.000.000\nNợ 133   4.000.000\n\nNợ 111    6.000.000\n\nCó 141   50.000.000</div><div>B.\nNợ 811   40.000.000\nNợ 133   4.000.000\n\nNợ 111    6.000.000\n\nCó 141   50.000.000</div><div>C.\nNợ 211   40.000.000\nNợ 133   4.000.000\n\nNợ 111    6.000.000\n\nCó 141   50.000.000</div><div>D.\nNợ 627   50.000.000\nNợ 133   4.000.000\n\nNợ 111    6.000.000\n\nCó 141   50.000.000</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">211</span> 40.000.000, Nợ <span class=\"answer-keyword\">133</span> 4.000.000, Nợ <span class=\"answer-keyword\">111</span> 6.000.000 / Có <span class=\"answer-keyword\">141</span> 50.000.000 - <b>TK 211</b> (TSCĐ hữu hình): mua TSCĐ → Nợ <b>40.000.000</b><br>\n        - <b>TK 133</b> (Thuế GTGT khấu trừ): 10% × 40tr → Nợ <b>4.000.000</b><br>\n        - Tổng đã chi: 40tr + 4tr = 44tr. Tạm ứng 50tr → Thừa: 6tr<br>\n        - <b>TK 111</b> (Tiền mặt nộp lại): Nợ <b>6.000.000</b><br>\n        - <b>TK 141</b> (Tạm ứng): tất toán → Có <b>50.000.000</b>",
-        "options": [],
+        "options": [
+            "A.\nNợ 642   40.000.000\nNợ 133   4.000.000\n\nNợ 111    6.000.000\n\nCó 141   50.000.000",
+            "B.\nNợ 811   40.000.000\nNợ 133   4.000.000\n\nNợ 111    6.000.000\n\nCó 141   50.000.000",
+            "C.\nNợ 211   40.000.000\nNợ 133   4.000.000\n\nNợ 111    6.000.000\n\nCó 141   50.000.000",
+            "D.\nNợ 627   50.000.000\nNợ 133   4.000.000\n\nNợ 111    6.000.000\n\nCó 141   50.000.000"
+        ],
         "tags": [
             "Quy trình Kiểm kê",
             "Phân luồng"
@@ -191,9 +231,14 @@
     },
     {
         "weight": "high",
-        "question": "<span class=\"keyword\">Tài khoản 331</span>",
+        "question": "<span class=\"keyword\">Tài khoản 331</span><div class=\"options-grid\"><div>A.\nCuối kỳ luôn có số dư bên Có</div><div>B.\nCuối kỳ không bao giờ có số dư</div><div>C.\nCuối kỳ có thể có số dư bên Nợ hoặc bên Có</div><div>D.\nCuối kỳ luôn có số dư bên Nợ</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Cuối kỳ có thể có số dư bên <span class=\"answer-keyword\">Nợ hoặc bên Có</span> - Dư <b>Có</b>: còn nợ tiền người bán (phổ biến hơn).<br>\n        - Dư <b>Nợ</b>: đã trả thừa hoặc ứng tiền trước cho người bán.\n        <div class=\"note\">💡 Giải thích: 💡 TK 331 và TK 131 đều là tài khoản \"lưỡng tính\" — có thể dư cả Nợ lẫn Có.</div>",
-        "options": [],
+        "options": [
+            "A.\nCuối kỳ luôn có số dư bên Có",
+            "B.\nCuối kỳ không bao giờ có số dư",
+            "C.\nCuối kỳ có thể có số dư bên Nợ hoặc bên Có",
+            "D.\nCuối kỳ luôn có số dư bên Nợ"
+        ],
         "tags": [
             "Quy trình Kiểm kê",
             "Phân luồng"
@@ -211,9 +256,14 @@
     },
     {
         "weight": "high",
-        "question": "<span class=\"keyword\">Trừ lương</span> công nhân viên do trước đây người này <span class=\"keyword\">tạm ứng tiền đi công tác còn thừa</span> nhưng chưa nộp lại, kế toán ghi",
+        "question": "<span class=\"keyword\">Trừ lương</span> công nhân viên do trước đây người này <span class=\"keyword\">tạm ứng tiền đi công tác còn thừa</span> nhưng chưa nộp lại, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 334 / Có 1381</div><div>B.\nNợ 141 / Có 334</div><div>C.\nNợ 622 / Có 1381</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">334</span> / Có <span class=\"answer-keyword\">141</span> Trừ lương làm giảm quỹ lương phải trả cho người lao động (Nợ 334). Thu hồi khoản tạm ứng thừa bằng cách cấn trừ lương làm giảm khoản đã tạm ứng trước đó (Có 141).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 334 / Có 1381",
+            "B.\nNợ 141 / Có 334",
+            "C.\nNợ 622 / Có 1381",
+            "D."
+        ],
         "tags": [
             "Quy trình Kiểm kê",
             "Phân luồng"
@@ -221,9 +271,14 @@
     },
     {
         "weight": "high",
-        "question": "Khi tính giá xuất kho nguyên vật liệu dùng cho sản xuất sản phẩm chịu thuế GTGT theo phương pháp <span class=\"keyword\">khấu trừ</span> thì",
+        "question": "Khi tính giá xuất kho nguyên vật liệu dùng cho sản xuất sản phẩm chịu thuế GTGT theo phương pháp <span class=\"keyword\">khấu trừ</span> thì<div class=\"options-grid\"><div>A.\ngiá trị xuất kho bao gồm giá mua chưa thuế và chi phí vận chuyển chưa thuế</div><div>B.\ngiá trị xuất kho bao gồm giá mua có thuế và chi phí vận chuyển có thuế</div><div>C.\ngiá trị xuất kho có kể cả chi phí vận chuyển chi hộ cho bên bán</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> giá trị xuất kho bao gồm giá mua chưa thuế và chi phí vận chuyển chưa thuế Đã áp dụng tính thuế GTGT theo phương pháp khấu trừ thì tiền thuế được bóc tách riêng (TK 133), không cộng vào giá trị hàng hoá nhập kho. Do đó giá trị xuất kho hoàn toàn là giá chưa có thuế.<br>",
-        "options": [],
+        "options": [
+            "A.\ngiá trị xuất kho bao gồm giá mua chưa thuế và chi phí vận chuyển chưa thuế",
+            "B.\ngiá trị xuất kho bao gồm giá mua có thuế và chi phí vận chuyển có thuế",
+            "C.\ngiá trị xuất kho có kể cả chi phí vận chuyển chi hộ cho bên bán",
+            "D."
+        ],
         "tags": [
             "Tính giá Xuất kho",
             "Logic & Nguyên tắc"
@@ -231,9 +286,14 @@
     },
     {
         "weight": "high",
-        "question": "Thuế <span class=\"keyword\">thu nhập doanh nghiệp</span> là loại thuế",
+        "question": "Thuế <span class=\"keyword\">thu nhập doanh nghiệp</span> là loại thuế<div class=\"options-grid\"><div>A.\nlàm cho doanh thu của doanh nghiệp giảm</div><div>B.\ntính vào giá bán sản phẩm của doanh nghiệp</div><div>C.\ntính vào giá thành sản phẩm của doanh nghiệp</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">doanh nghiệp</span> chịu</div>\n        <div class=\"note\">💡 Giải thích: Thuế TNDN đánh trên phần lợi nhuận (lãi) của doanh nghiệp, do đó chính <b>doanh nghiệp</b> là người chịu thuế, không tính vào giá bán sản phẩm hay làm giảm doanh thu gốc.<br></div>",
-        "options": [],
+        "options": [
+            "A.\nlàm cho doanh thu của doanh nghiệp giảm",
+            "B.\ntính vào giá bán sản phẩm của doanh nghiệp",
+            "C.\ntính vào giá thành sản phẩm của doanh nghiệp",
+            "D."
+        ],
         "tags": [
             "Báo cáo KQ Hoạt động Kinh doanh",
             "Cấu trúc"
@@ -241,9 +301,14 @@
     },
     {
         "weight": "high",
-        "question": "Tài khoản 152 có số dư đầu kỳ: 1.000kg, đơn giá 20.000 đồng/kg. Trong kỳ, ngày 01/01/20xx mua 1.000kg nguyên vật liệu về nhập kho, đơn giá mua chưa thuế 30.000 đồng/kg, thuế GTGT 10%. Hãy định khoản khi ngày 02/01/20xx xuất 1.500kg nguyên vật liệu dùng sản xuất sản phẩm, biết doanh nghiệp xuất kho theo phương pháp <span class=\"keyword\">bình quân liên hoàn</span>",
+        "question": "Tài khoản 152 có số dư đầu kỳ: 1.000kg, đơn giá 20.000 đồng/kg. Trong kỳ, ngày 01/01/20xx mua 1.000kg nguyên vật liệu về nhập kho, đơn giá mua chưa thuế 30.000 đồng/kg, thuế GTGT 10%. Hãy định khoản khi ngày 02/01/20xx xuất 1.500kg nguyên vật liệu dùng sản xuất sản phẩm, biết doanh nghiệp xuất kho theo phương pháp <span class=\"keyword\">bình quân liên hoàn</span><div class=\"options-grid\"><div>A.\nNợ 621    37.500.000\nCó 152    37.500.000</div><div>B.\nNợ 621   30.000.000\nCó 152    30.000.000</div><div>C.\nNợ 621    45.000.000\nNợ 133     4.500.000\n\nCó 152    49.500.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">621</span> <span class=\"answer-keyword\">37.500.000</span> / Có <span class=\"answer-keyword\">152</span> <span class=\"answer-keyword\">37.500.000</span> - Đơn giá bình quân = Tổng tiền / Tổng lượng = (1.000*20tr + 1.000*30tr) / 2.000kg = <b>25.000 đ/kg</b>.<br>\n        - Giá trị xuất = 1.500 * 25.000 = <b>37.500.000 đ</b>.<br>\n        - Xuất dùng trực tiếp cho sản xuất thì hạch toán vào TK 621.<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 621    37.500.000\nCó 152    37.500.000",
+            "B.\nNợ 621   30.000.000\nCó 152    30.000.000",
+            "C.\nNợ 621    45.000.000\nNợ 133     4.500.000\n\nCó 152    49.500.000",
+            "D."
+        ],
         "tags": [
             "Mô hình Chữ T",
             "Cấu trúc"
@@ -251,9 +316,14 @@
     },
     {
         "weight": "high",
-        "question": "<span class=\"keyword\">Vay ngân hàng</span> 40.000.000 đồng nộp thuế và các khoản phải nộp nhà nước, kế toán ghi",
+        "question": "<span class=\"keyword\">Vay ngân hàng</span> 40.000.000 đồng nộp thuế và các khoản phải nộp nhà nước, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 341    40.000.000\nCó 333    40.000.000</div><div>B.\nNợ 333    40.000.000\nCó 341    40.000.000</div><div>C.\nNợ 341    40.000.000\nCó 331    40.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">333</span> 40.000.000 / Có <span class=\"answer-keyword\">341</span> 40.000.000 Nộp thuế làm giảm khoản nợ nhà nước (Nợ 333). Vay tiền ngân hàng làm tăng khoản nợ vay (Có 341).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 341    40.000.000\nCó 333    40.000.000",
+            "B.\nNợ 333    40.000.000\nCó 341    40.000.000",
+            "C.\nNợ 341    40.000.000\nCó 331    40.000.000",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -261,9 +331,14 @@
     },
     {
         "weight": "high",
-        "question": "<span class=\"keyword\">Mua hàng hóa</span> nhập kho trị giá 100.000.000 đồng, thuế GTGT 10%, doanh nghiệp đã thanh toán phân nửa bằng tiền gửi ngân hàng, phần còn lại nợ người bán, kế toán ghi",
+        "question": "<span class=\"keyword\">Mua hàng hóa</span> nhập kho trị giá 100.000.000 đồng, thuế GTGT 10%, doanh nghiệp đã thanh toán phân nửa bằng tiền gửi ngân hàng, phần còn lại nợ người bán, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 155      100.000.000\nNợ 133       10.000.000\n\nCó 112    55.000.000\n\nCó 331    55.000.000</div><div>B.\nNợ 156      100.000.000\nNợ 133       10.000.000\n\nCó 112    55.000.000\n\nCó 331    55.000.000</div><div>C.\nNợ 156      100.000.000\nNợ 3331       10.000.000\n\nCó 112    55.000.000\n\nCó 331    55.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">156</span> 100.000.000, Nợ <span class=\"answer-keyword\">133</span> 10.000.000 / Có 112 55.000.000, Có 331 55.000.000 - Mua hàng hoá nhập kho: tăng tài sản (Nợ 156) 100tr.<br>\n        - Thuế GTGT đầu vào được khấu trừ (Nợ 133) 10% = 10tr.<br>\n        - Tổng tiền phải trả là 110tr. Đã thanh toán phân nửa bằng TGNH (Có 112 = 55tr), còn lại nợ (Có 331 = 55tr).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 155      100.000.000\nNợ 133       10.000.000\n\nCó 112    55.000.000\n\nCó 331    55.000.000",
+            "B.\nNợ 156      100.000.000\nNợ 133       10.000.000\n\nCó 112    55.000.000\n\nCó 331    55.000.000",
+            "C.\nNợ 156      100.000.000\nNợ 3331       10.000.000\n\nCó 112    55.000.000\n\nCó 331    55.000.000",
+            "D."
+        ],
         "tags": [
             "Cấu trúc Bảng Cân đối",
             "Cấu trúc"
@@ -271,9 +346,14 @@
     },
     {
         "weight": "high",
-        "question": "Xuất <span class=\"keyword\">hàng hóa</span> trong kho <span class=\"keyword\">gửi đại lý bán</span>, trị giá xuất kho là 20.000.000 đồng, kế toán ghi",
+        "question": "Xuất <span class=\"keyword\">hàng hóa</span> trong kho <span class=\"keyword\">gửi đại lý bán</span>, trị giá xuất kho là 20.000.000 đồng, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 157    20.000.000\nCó 156     20.000.000</div><div>B.\nNợ 632    20.000.000\nCó 157     20.000.000</div><div>C.\nNợ 157    20.000.000\nCó 155    20.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">157</span> 20.000.000 / Có <span class=\"answer-keyword\">156</span> 20.000.000 Hàng hóa xuất ra khỏi kho (Có 156) nhưng chưa được bán đứt mà chỉ gửi đi (Nợ 157 - Hàng gửi đi bán). Tuyệt đối chưa ghi nhận giá vốn (632) vì chưa chắc chắn bán được.<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 157    20.000.000\nCó 156     20.000.000",
+            "B.\nNợ 632    20.000.000\nCó 157     20.000.000",
+            "C.\nNợ 157    20.000.000\nCó 155    20.000.000",
+            "D."
+        ],
         "tags": [
             "Tính giá Xuất kho",
             "Logic & Nguyên tắc"
@@ -281,9 +361,14 @@
     },
     {
         "weight": "high",
-        "question": "Các tài khoản chi phí dùng để tập hợp và kết chuyển sang tài khoản 911 để xác định kết quả kinh doanh <span class=\"keyword\">trước thuế</span> gồm",
+        "question": "Các tài khoản chi phí dùng để tập hợp và kết chuyển sang tài khoản 911 để xác định kết quả kinh doanh <span class=\"keyword\">trước thuế</span> gồm<div class=\"options-grid\"><div>A.\n632, 635, 641, 642, 811, 821</div><div>B.\n632, 641,642</div><div>C.\n632, 635, 641, 642, 811</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">632, 635, 641, 642, 811</span></div>\n        <div class=\"note\">💡 Giải thích: Xác định kết quả kinh doanh <b>trước thuế</b> nghĩa là loại bỏ TK chi phí thuế TNDN (821). Chỉ kết chuyển Giá vốn (632), Tài chính (635), Bán hàng (641), Quản lý (642) và Khác (811).<br></div>",
-        "options": [],
+        "options": [
+            "A.\n632, 635, 641, 642, 811, 821",
+            "B.\n632, 641,642",
+            "C.\n632, 635, 641, 642, 811",
+            "D."
+        ],
         "tags": [
             "Kế toán Tài chính & Quản trị",
             "Cấu trúc"
@@ -291,9 +376,14 @@
     },
     {
         "weight": "high",
-        "question": "Xuất tiền mặt 5.000.000 đồng từ <span class=\"keyword\">quỹ khen thưởng phúc lợi</span> thưởng cho nhân viên sản xuất giỏi, kế toán ghi",
+        "question": "Xuất tiền mặt 5.000.000 đồng từ <span class=\"keyword\">quỹ khen thưởng phúc lợi</span> thưởng cho nhân viên sản xuất giỏi, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 335    5.000.000\nCó 111    5.000.000</div><div>B.\nNợ 353   5.000.000\nCó 111    5.000.000</div><div>C.\nNợ 642   5.000.000\nCó 111    5.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">353</span> 5.000.000 / Có 111 5.000.000 Quỹ khen thưởng phúc lợi là <b>TK 353</b>. Xuất quỹ ra thưởng làm giảm quỹ (Nợ 353) và giảm tiền (Có 111).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 335    5.000.000\nCó 111    5.000.000",
+            "B.\nNợ 353   5.000.000\nCó 111    5.000.000",
+            "C.\nNợ 642   5.000.000\nCó 111    5.000.000",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -301,9 +391,14 @@
     },
     {
         "weight": "high",
-        "question": "Thu tiền mặt do người vận chuyển <span class=\"keyword\">bồi thường</span> bởi trước đây người này làm mất một lượng nguyên vật liệu trị giá 10.000.000 đồng, kế toán ghi",
+        "question": "Thu tiền mặt do người vận chuyển <span class=\"keyword\">bồi thường</span> bởi trước đây người này làm mất một lượng nguyên vật liệu trị giá 10.000.000 đồng, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 111    10.000.000\nCó 338    10.000.000</div><div>B.\nNợ 111    10.000.000\nCó 138    10.000.000</div><div>C.\nNợ 111    10.000.000\nCó 131    10.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ 111 10.000.000 / Có <span class=\"answer-keyword\">138</span> 10.000.000 Khi phát hiện mất mát chờ xử lý và bắt bồi thường, kế toán đã treo vào khoản Phải thu khác (Nợ 138). Khi thực thu được tiền thì ghi giảm khoản phải thu này đi (Có 138).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 111    10.000.000\nCó 338    10.000.000",
+            "B.\nNợ 111    10.000.000\nCó 138    10.000.000",
+            "C.\nNợ 111    10.000.000\nCó 131    10.000.000",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -311,9 +406,14 @@
     },
     {
         "weight": "high",
-        "question": "Khi vẽ sơ đồ tính giá thành sản phẩm thì các tài khoản <span class=\"keyword\">621, 622, 627</span> nằm bên trái hay bên phải của tài khoản 154?",
+        "question": "Khi vẽ sơ đồ tính giá thành sản phẩm thì các tài khoản <span class=\"keyword\">621, 622, 627</span> nằm bên trái hay bên phải của tài khoản 154?<div class=\"options-grid\"><div>A.\nBên phải</div><div>B.\nBên trái</div><div>C.\nkhông đủ cơ sở để xác định</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Bên trái</span></div>\n        <div class=\"note\">💡 Giải thích: Các chi phí sản xuất 621, 622, 627 sau khi tập hợp sẽ được kết chuyển (từ bên Có 62x) đẩy sang bên Nợ 154. Trong sơ đồ chữ T, các TK này nằm bên trái 154 để đổ chi phí vào 154.<br></div>",
-        "options": [],
+        "options": [
+            "A.\nBên phải",
+            "B.\nBên trái",
+            "C.\nkhông đủ cơ sở để xác định",
+            "D."
+        ],
         "tags": [
             "Mô hình Chữ T",
             "Cấu trúc"
@@ -321,9 +421,14 @@
     },
     {
         "weight": "high",
-        "question": "Xuất một lô hàng hóa bán trực tiếp cho khách hàng, giá vốn 1.000.000 đồng, giá bán đã bao gồm thuế GTGT 10% là 2.200.000 đồng, chưa thu tiền. Kế toán ghi nhận <span class=\"keyword\">giá vốn</span>",
+        "question": "Xuất một lô hàng hóa bán trực tiếp cho khách hàng, giá vốn 1.000.000 đồng, giá bán đã bao gồm thuế GTGT 10% là 2.200.000 đồng, chưa thu tiền. Kế toán ghi nhận <span class=\"keyword\">giá vốn</span><div class=\"options-grid\"><div>A.\nNợ 632   1.000.000\nCó 156   1.000.000</div><div>B.\nNợ 632   1.000.000\nCó 154   1.000.000</div><div>C.\nNợ 632   1.000.000\nCó 155   1.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">632</span> 1.000.000 / Có <span class=\"answer-keyword\">156</span> 1.000.000 Ghi nhận giá vốn khi xuất kho \"Hàng hóa\" là giảm tài khoản hàng hóa (Có 156).\n        <div class=\"note\">💡 Giải thích: 💡 Bẫy: Cẩn thận đọc lướt nhầm sang 155 (Thành phẩm). Đề nói \"hàng hóa\" thì phải là 156.</div>",
-        "options": [],
+        "options": [
+            "A.\nNợ 632   1.000.000\nCó 156   1.000.000",
+            "B.\nNợ 632   1.000.000\nCó 154   1.000.000",
+            "C.\nNợ 632   1.000.000\nCó 155   1.000.000",
+            "D."
+        ],
         "tags": [
             "Tính giá Xuất kho",
             "Logic & Nguyên tắc"
@@ -331,9 +436,14 @@
     },
     {
         "weight": "high",
-        "question": "Trong nội dung <span class=\"keyword\">bảng cân đối kế toán</span> của doanh nghiệp có trình bày",
+        "question": "Trong nội dung <span class=\"keyword\">bảng cân đối kế toán</span> của doanh nghiệp có trình bày<div class=\"options-grid\"><div>A.\nnợ phải trả của chủ doanh nghiệp</div><div>B.\nnợ phải trả của doanh nghiệp</div><div>C.\ntoàn bộ tài sản của doanh nghiệp và người chủ doanh nghiệp</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> nợ phải trả <span class=\"answer-keyword\">của doanh nghiệp</span> Bảng cân đối kế toán chỉ phản ánh tình hình tài chính của thực thể là <b>Doanh nghiệp</b> (gồm Tài sản, Nợ phải trả và VCSH của doanh nghiệp). Tuyệt đối không bao gồm tài sản riêng hay nợ cá nhân của chủ doanh nghiệp.<br>",
-        "options": [],
+        "options": [
+            "A.\nnợ phải trả của chủ doanh nghiệp",
+            "B.\nnợ phải trả của doanh nghiệp",
+            "C.\ntoàn bộ tài sản của doanh nghiệp và người chủ doanh nghiệp",
+            "D."
+        ],
         "tags": [
             "Kế toán Tài chính & Quản trị",
             "Cấu trúc"
@@ -341,9 +451,14 @@
     },
     {
         "weight": "high",
-        "question": "<span class=\"keyword\">Rút tiền gửi ngân hàng</span> 10.000.000 đồng về <span class=\"keyword\">nhập quỹ tiền mặt</span>, kế toán ghi",
+        "question": "<span class=\"keyword\">Rút tiền gửi ngân hàng</span> 10.000.000 đồng về <span class=\"keyword\">nhập quỹ tiền mặt</span>, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 113   10.000.000\nCó 112    10.000.000</div><div>B.\nNợ 111   10.000.000\nCó 112    10.000.000</div><div>C.\nNợ 112   10.000.000\nCó 111    10.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">111</span> <span class=\"answer-keyword\">10.000.000</span> / Có <span class=\"answer-keyword\">112</span> <span class=\"answer-keyword\">10.000.000</span> Tiền mặt tăng (Nợ 111) và tiền gửi ngân hàng giảm (Có 112). Ghi theo số tiền thực tế là 10.000.000.<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 113   10.000.000\nCó 112    10.000.000",
+            "B.\nNợ 111   10.000.000\nCó 112    10.000.000",
+            "C.\nNợ 112   10.000.000\nCó 111    10.000.000",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -351,9 +466,14 @@
     },
     {
         "weight": "high",
-        "question": "<span class=\"keyword\">Vay ngân hàng</span> 20.000.000 đồng về <span class=\"keyword\">nhập quỹ tiền mặt</span>, kế toán ghi",
+        "question": "<span class=\"keyword\">Vay ngân hàng</span> 20.000.000 đồng về <span class=\"keyword\">nhập quỹ tiền mặt</span>, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 111   20.000.000\nCó 112    20.000.000</div><div>B.\nNợ 112   20.000.000\nCó 111    20.000.000</div><div>C.\nNợ 111   20.000.000\nCó 341    20.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ 111 <span class=\"answer-keyword\">20.000.000</span> / Có <span class=\"answer-keyword\">341</span> <span class=\"answer-keyword\">20.000.000</span> Nhập quỹ làm tăng tiền mặt (Nợ 111). Vay ngân hàng làm tăng khoản nợ vay (Có 341).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 111   20.000.000\nCó 112    20.000.000",
+            "B.\nNợ 112   20.000.000\nCó 111    20.000.000",
+            "C.\nNợ 111   20.000.000\nCó 341    20.000.000",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -361,9 +481,14 @@
     },
     {
         "weight": "high",
-        "question": "Khi doanh nghiệp xuất <span class=\"keyword\">hàng hóa</span> ký <span class=\"keyword\">gửi đại lý bán</span>, kế toán ghi",
+        "question": "Khi doanh nghiệp xuất <span class=\"keyword\">hàng hóa</span> ký <span class=\"keyword\">gửi đại lý bán</span>, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 157 / Có 156</div><div>B.\nNợ 632 / Có 156</div><div>C.\nNợ 632 / Có 155</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">157</span> / Có <span class=\"answer-keyword\">156</span> Xuất hàng gửi đại lý thì chưa được tính là bán, nên chỉ chuyển từ kho hàng hóa (156) sang hàng gửi đi bán (157). Tuyệt đối chưa ghi nhận giá vốn (632).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 157 / Có 156",
+            "B.\nNợ 632 / Có 156",
+            "C.\nNợ 632 / Có 155",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -371,9 +496,14 @@
     },
     {
         "weight": "high",
-        "question": "Chi sửa chữa nhỏ TSCĐ dùng trực tiếp <span class=\"keyword\">sản xuất sản phẩm</span> bằng tiền mặt 2.000.000 đồng, kế toán ghi",
+        "question": "Chi sửa chữa nhỏ TSCĐ dùng trực tiếp <span class=\"keyword\">sản xuất sản phẩm</span> bằng tiền mặt 2.000.000 đồng, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 641  2.000.000\nCó 111    2.000.000</div><div>B.\nNợ 622  2.000.000\nCó 111    2.000.000</div><div>C.\nNợ 627  2.000.000\nCó 111    2.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">627</span> <span class=\"answer-keyword\">2.000.000</span> / Có 111 2.000.000 TSCĐ dùng trực tiếp tại xưởng sản xuất thì mọi chi phí liên quan (khấu hao, sửa chữa nhỏ) đều đưa vào <b>Chi phí sản xuất chung (TK 627)</b>.\n        <div class=\"note\">💡 Giải thích: 💡 Bẫy: Rất dễ chọn Nợ 621 (Chi phí NVL trực tiếp) vì thấy chữ \"trực tiếp sản xuất\".</div>",
-        "options": [],
+        "options": [
+            "A.\nNợ 641  2.000.000\nCó 111    2.000.000",
+            "B.\nNợ 622  2.000.000\nCó 111    2.000.000",
+            "C.\nNợ 627  2.000.000\nCó 111    2.000.000",
+            "D."
+        ],
         "tags": [
             "Báo cáo KQ Hoạt động Kinh doanh",
             "Cấu trúc"
@@ -381,9 +511,14 @@
     },
     {
         "weight": "high",
-        "question": "Thu tiền mặt 10.000.000 đồng do khách hàng <span class=\"keyword\">vi phạm hợp đồng</span> kinh tế, kế toán ghi",
+        "question": "Thu tiền mặt 10.000.000 đồng do khách hàng <span class=\"keyword\">vi phạm hợp đồng</span> kinh tế, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 111   10.000.000\nCó 811  10.000.000</div><div>B.\nNợ 111   10.000.000\nCó 635  10.000.000</div><div>C.\nNợ 111   10.000.000\nCó 515  10.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ 111 10.000.000 / Có <span class=\"answer-keyword\">711</span> 10.000.000 Các khoản thu từ tiền phạt vi phạm hợp đồng được đưa vào <b>Thu nhập khác (TK 711)</b>.<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 111   10.000.000\nCó 811  10.000.000",
+            "B.\nNợ 111   10.000.000\nCó 635  10.000.000",
+            "C.\nNợ 111   10.000.000\nCó 515  10.000.000",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -391,9 +526,14 @@
     },
     {
         "weight": "high",
-        "question": "Doanh nghiệp <span class=\"keyword\">mua</span> 200 kg nguyên vật liệu về nhập kho, đơn giá mua <span class=\"keyword\">gồm 10% thuế</span> GTGT là 11.000 đồng/kg, <span class=\"keyword\">chưa trả tiền</span> cho người bán, kế toán ghi",
+        "question": "Doanh nghiệp <span class=\"keyword\">mua</span> 200 kg nguyên vật liệu về nhập kho, đơn giá mua <span class=\"keyword\">gồm 10% thuế</span> GTGT là 11.000 đồng/kg, <span class=\"keyword\">chưa trả tiền</span> cho người bán, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 152  2.000.000\nNợ 3331  200.000\n\nCó 331     2.200.000</div><div>B.\nNợ 152  2.000.000\nNợ 133    200.000\n\nCó 331     2.200.000</div><div>C.\nNợ 152  2.000.000\nNợ 133    200.000\n\nCó 131     2.200.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ 152 2.000.000, Nợ <span class=\"answer-keyword\">133</span> 200.000 / Có <span class=\"answer-keyword\">331</span> 2.200.000 - Giá mua chưa thuế = 11.000 / 1.1 = 10.000 đ/kg. Tổng giá trị NVL = 10.000 x 200 = 2.000.000 (Nợ 152).<br>\n        - Thuế GTGT đầu vào = 10% = 200.000 (Nợ 133).<br>\n        - Chưa thanh toán = Tổng nợ người bán là 2.200.000 (Có 331).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 152  2.000.000\nNợ 3331  200.000\n\nCó 331     2.200.000",
+            "B.\nNợ 152  2.000.000\nNợ 133    200.000\n\nCó 331     2.200.000",
+            "C.\nNợ 152  2.000.000\nNợ 133    200.000\n\nCó 131     2.200.000",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -401,9 +541,14 @@
     },
     {
         "weight": "high",
-        "question": "Tổng doanh thu trong kỳ 200.000.000 đồng, tổng chi phí trong kỳ là 100.000.000 đồng, thuế suất thuế TNDN 20%, hãy hạch toán số tiền thuế TNDN thực tế <span class=\"keyword\">phải nộp thêm</span>, biết lợi nhuận trước thuế cũng chính là lợi nhuận chịu thuế và trước đây doanh nghiệp đã tạm nộp thuế 15.000.000 đồng?",
+        "question": "Tổng doanh thu trong kỳ 200.000.000 đồng, tổng chi phí trong kỳ là 100.000.000 đồng, thuế suất thuế TNDN 20%, hãy hạch toán số tiền thuế TNDN thực tế <span class=\"keyword\">phải nộp thêm</span>, biết lợi nhuận trước thuế cũng chính là lợi nhuận chịu thuế và trước đây doanh nghiệp đã tạm nộp thuế 15.000.000 đồng?<div class=\"options-grid\"><div>A.\nNợ 821   5.000.000\nCó 112  5.000.000</div><div>B.\nNợ 821   5.000.000\nCó 3334  5.000.000</div><div>C.\nNợ 3334   5.000.000\nCó 111  5.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">821</span> 5.000.000 / Có <span class=\"answer-keyword\">3334</span> 5.000.000 - LNTT = 200tr - 100tr = 100tr.<br>\n        - Tổng thuế phải nộp = 100tr x 20% = 20tr.<br>\n        - Đã tạm nộp 15tr nên số nộp thêm = 20tr - 15tr = <b>5.000.000</b>.<br>\n        Hạch toán xác định chi phí thuế phải nộp: Nợ 821 / Có 3334.<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 821   5.000.000\nCó 112  5.000.000",
+            "B.\nNợ 821   5.000.000\nCó 3334  5.000.000",
+            "C.\nNợ 3334   5.000.000\nCó 111  5.000.000",
+            "D."
+        ],
         "tags": [
             "Báo cáo KQ Hoạt động Kinh doanh",
             "Cấu trúc"
@@ -411,9 +556,14 @@
     },
     {
         "weight": "high",
-        "question": "<span class=\"keyword\">Bộ phận bán hàng</span> báo hỏng một công cụ dụng cụ trị giá mua ban đầu 9.000.000 đồng, thuế GTGT 10%, chi phí vận chuyển 1.000.000 đồng, tất cả trả bằng tiền mặt. Biết công cụ loại phân bổ 4 lần, đây là <span class=\"keyword\">đầu kỳ thứ 3</span>, nguyên nhân hỏng là do chập điện, kế toán ghi",
+        "question": "<span class=\"keyword\">Bộ phận bán hàng</span> báo hỏng một công cụ dụng cụ trị giá mua ban đầu 9.000.000 đồng, thuế GTGT 10%, chi phí vận chuyển 1.000.000 đồng, tất cả trả bằng tiền mặt. Biết công cụ loại phân bổ 4 lần, đây là <span class=\"keyword\">đầu kỳ thứ 3</span>, nguyên nhân hỏng là do chập điện, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 641  5.000.000\nCó 153    5.000.000</div><div>B.\nNợ 641  2.500.000\nCó 242    2.500.000</div><div>C.\nNợ 627  5.000.000\nCó 153    5.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">641</span> <span class=\"answer-keyword\">5.000.000</span> / Có <span class=\"answer-keyword\">242</span> <span class=\"answer-keyword\">5.000.000</span> - Nguyên giá CCDC = 9tr + 1tr (VC) = 10tr.<br>\n        - Đã phân bổ 2/4 lần (5tr). <b>Giá trị còn lại là 5.000.000</b>.<br>\n        - Khi hỏng, đẩy giá trị còn lại vào chi phí của bộ phận bán hàng (TK 641), đồng thời giảm chi phí trả trước (TK 242).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 641  5.000.000\nCó 153    5.000.000",
+            "B.\nNợ 641  2.500.000\nCó 242    2.500.000",
+            "C.\nNợ 627  5.000.000\nCó 153    5.000.000",
+            "D."
+        ],
         "tags": [
             "Báo cáo KQ Hoạt động Kinh doanh",
             "Cấu trúc"
@@ -421,9 +571,14 @@
     },
     {
         "weight": "high",
-        "question": "Doanh nghiệp <span class=\"keyword\">mua</span> 100 kg nguyên vật liệu về nhập kho, đơn giá mua chưa thuế 10.000 đồng/kg, thuế GTGT 10%, <span class=\"keyword\">chưa thanh toán</span>, kế toán ghi",
+        "question": "Doanh nghiệp <span class=\"keyword\">mua</span> 100 kg nguyên vật liệu về nhập kho, đơn giá mua chưa thuế 10.000 đồng/kg, thuế GTGT 10%, <span class=\"keyword\">chưa thanh toán</span>, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 152  1.100.000\nCó 331       1.100.000</div><div>B.\nNợ 152  1.000.000\nNợ 133    100.000\n\nCó 131     1.100.000</div><div>C.\nNợ 152  1.000.000\nNợ 3331  100.000\n\nCó 331    1.100.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ 152 1.000.000, Nợ <span class=\"answer-keyword\">133</span> 100.000 / Có <span class=\"answer-keyword\">331</span> 1.100.000 Nghiệp vụ mua vật tư phát sinh thuế đầu vào (Nợ 133) và ghi tăng khoản nợ người bán (Có 331).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 152  1.100.000\nCó 331       1.100.000",
+            "B.\nNợ 152  1.000.000\nNợ 133    100.000\n\nCó 131     1.100.000",
+            "C.\nNợ 152  1.000.000\nNợ 3331  100.000\n\nCó 331    1.100.000",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -431,9 +586,14 @@
     },
     {
         "weight": "high",
-        "question": "Khi đơn vị mua vật liệu, dụng cụ, hàng hóa, TSCĐ hữu hình thì <span class=\"keyword\">giá ghi trên hóa đơn</span> là",
+        "question": "Khi đơn vị mua vật liệu, dụng cụ, hàng hóa, TSCĐ hữu hình thì <span class=\"keyword\">giá ghi trên hóa đơn</span> là<div class=\"options-grid\"><div>A.\ngiá vốn của người bán</div><div>B.\ngiá thị trường</div><div>C.\nkhông có trường hợp nào</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> giá <span class=\"answer-keyword\">thỏa thuận</span> giữa đơn vị với người bán Hóa đơn phản ánh giá thực tế giao dịch, tức là giá được hai bên mua bán thống nhất thỏa thuận với nhau.<br>",
-        "options": [],
+        "options": [
+            "A.\ngiá vốn của người bán",
+            "B.\ngiá thị trường",
+            "C.\nkhông có trường hợp nào",
+            "D."
+        ],
         "tags": [
             "Hệ thống Chứng từ",
             "Hệ thống"
@@ -441,9 +601,14 @@
     },
     {
         "weight": "high",
-        "question": "Khi doanh nghiệp <span class=\"keyword\">trả nợ vay</span> bằng tiền gửi ngân hàng 50.000.000 đồng, kế toán ghi",
+        "question": "Khi doanh nghiệp <span class=\"keyword\">trả nợ vay</span> bằng tiền gửi ngân hàng 50.000.000 đồng, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 331    50.000.000\nCó 112     50.000.000</div><div>B.\nNợ 341    50.000.000\nCó 112     50.000.000</div><div>C.\nNợ 112    50.000.000\nCó 341     50.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">341</span> 50.000.000 / Có <span class=\"answer-keyword\">112</span> 50.000.000 Giảm nợ vay (Nợ 341) và giảm tiền gửi ngân hàng (Có 112).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 331    50.000.000\nCó 112     50.000.000",
+            "B.\nNợ 341    50.000.000\nCó 112     50.000.000",
+            "C.\nNợ 112    50.000.000\nCó 341     50.000.000",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -451,9 +616,14 @@
     },
     {
         "weight": "high",
-        "question": "Tài khoản <span class=\"keyword\">155</span> cuối kỳ có thể",
+        "question": "Tài khoản <span class=\"keyword\">155</span> cuối kỳ có thể<div class=\"options-grid\"><div>A.\ncó số dư bên Có khác 0 hoặc bằng 0</div><div>B.\ncó số dư bên Nợ khác 0 hoặc bằng 0</div><div>C.\ncó thể có số dư bên Nợ hoặc bên Có</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> có số dư bên <span class=\"answer-keyword\">Nợ</span> <span class=\"answer-keyword\">khác 0 hoặc bằng 0</span> 155 là tài khoản tài sản (thành phẩm). Nên nếu có số dư thì chắc chắn nó nằm bên Nợ.<br>",
-        "options": [],
+        "options": [
+            "A.\ncó số dư bên Có khác 0 hoặc bằng 0",
+            "B.\ncó số dư bên Nợ khác 0 hoặc bằng 0",
+            "C.\ncó thể có số dư bên Nợ hoặc bên Có",
+            "D."
+        ],
         "tags": [
             "Cấu trúc Bảng Cân đối",
             "Cấu trúc"
@@ -461,9 +631,14 @@
     },
     {
         "weight": "high",
-        "question": "Nguyên vật liệu <span class=\"keyword\">phụ</span> xuất dùng không hết <span class=\"keyword\">nhập lại kho</span> trị giá 2.000.000 đồng được ghi nhận vào tài khoản",
+        "question": "Nguyên vật liệu <span class=\"keyword\">phụ</span> xuất dùng không hết <span class=\"keyword\">nhập lại kho</span> trị giá 2.000.000 đồng được ghi nhận vào tài khoản<div class=\"options-grid\"><div>A.\nNợ 1521 / Có 154</div><div>B.\nNợ 1522 / Có 621</div><div>C.\nNợ 1522 / Có 154</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">1522</span> / Có <span class=\"answer-keyword\">621</span> Vật liệu chính là 1521, vật liệu phụ là <b>1522</b>. Khi nhập lại kho thì làm tăng lại vật liệu phụ (Nợ 1522) và giảm trừ chi phí NVL trực tiếp đi (Có 621).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 1521 / Có 154",
+            "B.\nNợ 1522 / Có 621",
+            "C.\nNợ 1522 / Có 154",
+            "D."
+        ],
         "tags": [
             "Báo cáo KQ Hoạt động Kinh doanh",
             "Cấu trúc"
@@ -471,9 +646,14 @@
     },
     {
         "weight": "high",
-        "question": "<span class=\"keyword\">Mua một TSCĐ</span> trị giá mua ban đầu 100.000.000 đồng, thuế GTGT 10%, chi phí <span class=\"keyword\">vận chuyển</span> 10.000.000 đồng, tất cả trả qua chuyển khoản, kế toán ghi",
+        "question": "<span class=\"keyword\">Mua một TSCĐ</span> trị giá mua ban đầu 100.000.000 đồng, thuế GTGT 10%, chi phí <span class=\"keyword\">vận chuyển</span> 10.000.000 đồng, tất cả trả qua chuyển khoản, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 211   100.000.000\nNợ 133    10.000.000\n\nCó 112    110.000.000</div><div>B.\nNợ 211   110.000.000\nNợ 3331    10.000.000\n\nCó 112    120.000.000</div><div>C.\nNợ 211   100.000.000\nNợ 133    10.000.000\n\nCó 331    110.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">211</span> <span class=\"answer-keyword\">110.000.000</span>, Nợ <span class=\"answer-keyword\">133</span> 10.000.000 / Có <span class=\"answer-keyword\">112</span> 120.000.000 Nguyên giá TSCĐ (Nợ 211) = Giá mua (100tr) + Phí vận chuyển (10tr) = <b>110.000.000</b>.<br>\n        Thuế 10% tính trên 100tr (vì không nhắc đến thuế của vận chuyển) = <b>10.000.000</b>.<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 211   100.000.000\nNợ 133    10.000.000\n\nCó 112    110.000.000",
+            "B.\nNợ 211   110.000.000\nNợ 3331    10.000.000\n\nCó 112    120.000.000",
+            "C.\nNợ 211   100.000.000\nNợ 133    10.000.000\n\nCó 331    110.000.000",
+            "D."
+        ],
         "tags": [
             "Báo cáo KQ Hoạt động Kinh doanh",
             "Cấu trúc"
@@ -481,9 +661,14 @@
     },
     {
         "weight": "high",
-        "question": "Tổng số thuế GTGT đầu ra 90.000.000 đồng, tổng số thuế GTGT đầu vào 10.000.000 đồng thì khi <span class=\"keyword\">khấu trừ thuế</span> GTGT đầu vào sẽ hạch toán",
+        "question": "Tổng số thuế GTGT đầu ra 90.000.000 đồng, tổng số thuế GTGT đầu vào 10.000.000 đồng thì khi <span class=\"keyword\">khấu trừ thuế</span> GTGT đầu vào sẽ hạch toán<div class=\"options-grid\"><div>A.\nNợ 133    10.000.000\nCó 3331   10.000.000</div><div>B.\nNợ 3331    100.000.000\nCó 133   100.000.000</div><div>C.\nNợ 3331    90.000.000\nCó 133   90.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">3331</span> <span class=\"answer-keyword\">10.000.000</span> / Có <span class=\"answer-keyword\">133</span> <span class=\"answer-keyword\">10.000.000</span> Nguyên tắc khấu trừ thuế là lấy số <b>nhỏ hơn</b> giữa tổng đầu ra (90tr) và tổng đầu vào (10tr). Do đó khấu trừ bằng 10.000.000.<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 133    10.000.000\nCó 3331   10.000.000",
+            "B.\nNợ 3331    100.000.000\nCó 133   100.000.000",
+            "C.\nNợ 3331    90.000.000\nCó 133   90.000.000",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -491,9 +676,14 @@
     },
     {
         "weight": "high",
-        "question": "Thanh toán tiền <span class=\"keyword\">công tác phí</span> cho nhân viên A theo hóa đơn chứng từ 4.000.000 đồng, trước đây nhân viên A đã tạm ứng 5.000.000 đồng, số còn lại nhân viên A nộp trả <span class=\"keyword\">bằng tiền mặt</span>, kế toán ghi",
+        "question": "Thanh toán tiền <span class=\"keyword\">công tác phí</span> cho nhân viên A theo hóa đơn chứng từ 4.000.000 đồng, trước đây nhân viên A đã tạm ứng 5.000.000 đồng, số còn lại nhân viên A nộp trả <span class=\"keyword\">bằng tiền mặt</span>, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 642   4.000.000\nNợ 111   1.000.000\n\nCó 141    5.000.000</div><div>B.\nNợ 811   4.000.000\nNợ 111   1.000.000\n\nCó 141    5.000.000</div><div>C.\nNợ 622   4.000.000\nNợ 111   1.000.000\n\nCó 141    5.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">642</span> 4.000.000, Nợ 111 1.000.000 / Có <span class=\"answer-keyword\">141</span> 5.000.000 Tiền công tác phí là Chi phí quản lý DN (Nợ 642). Phần nộp lại làm tăng quỹ tiền mặt (Nợ 111). Tất toán khoản tạm ứng ban đầu (Có 141).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 642   4.000.000\nNợ 111   1.000.000\n\nCó 141    5.000.000",
+            "B.\nNợ 811   4.000.000\nNợ 111   1.000.000\n\nCó 141    5.000.000",
+            "C.\nNợ 622   4.000.000\nNợ 111   1.000.000\n\nCó 141    5.000.000",
+            "D."
+        ],
         "tags": [
             "Hệ thống Chứng từ",
             "Hệ thống"
@@ -501,9 +691,14 @@
     },
     {
         "weight": "high",
-        "question": "Thuế <span class=\"keyword\">thu nhập cá nhân</span> là loại thuế",
+        "question": "Thuế <span class=\"keyword\">thu nhập cá nhân</span> là loại thuế<div class=\"options-grid\"><div>A.\ntính vào giá thành sản phẩm của doanh nghiệp</div><div>B.\ndoanh nghiệp chịu</div><div>C.\ntính vào giá bán sản phẩm của doanh nghiệp</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">người lao động</span> phải chịu</div>\n        <div class=\"note\">💡 Giải thích: Doanh nghiệp chỉ thu hộ và nộp hộ cho nhà nước bằng cách trừ vào tiền lương của nhân viên.<br></div>",
-        "options": [],
+        "options": [
+            "A.\ntính vào giá thành sản phẩm của doanh nghiệp",
+            "B.\ndoanh nghiệp chịu",
+            "C.\ntính vào giá bán sản phẩm của doanh nghiệp",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -511,9 +706,14 @@
     },
     {
         "weight": "high",
-        "question": "Câu phát biểu nào sau đây <span class=\"keyword\">SAI</span>? Lợi nhuận ròng là",
+        "question": "Câu phát biểu nào sau đây <span class=\"keyword\">SAI</span>? Lợi nhuận ròng là<div class=\"options-grid\"><div>A.\nlợi nhuận trước thuế</div><div>B.\nlợi nhuận thuần</div><div>C.\nlợi nhuận sau thuế</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> lợi nhuận <span class=\"answer-keyword\">trước thuế</span> Lợi nhuận ròng (Net Profit) chính là lợi nhuận <b>sau thuế</b>. Do đó, nói nó là \"trước thuế\" là phát biểu <b>SAI</b>.<br>",
-        "options": [],
+        "options": [
+            "A.\nlợi nhuận trước thuế",
+            "B.\nlợi nhuận thuần",
+            "C.\nlợi nhuận sau thuế",
+            "D."
+        ],
         "tags": [
             "Báo cáo KQ Hoạt động Kinh doanh",
             "Cấu trúc"
@@ -521,9 +721,14 @@
     },
     {
         "weight": "high",
-        "question": "<span class=\"keyword\">Xuất tiền mặt trả lương</span> cho công nhân viên, biết tổng quỹ lương phải trả 100.000.000 đồng, trừ các khoản trích theo lương của công nhân viên 10.500.000 đồng, kế toán ghi",
+        "question": "<span class=\"keyword\">Xuất tiền mặt trả lương</span> cho công nhân viên, biết tổng quỹ lương phải trả 100.000.000 đồng, trừ các khoản trích theo lương của công nhân viên 10.500.000 đồng, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 111   110.500.000\nCó 334    110.500.000</div><div>B.\nNợ 334    89.500.000\nCó 111    89.500.000</div><div>C.\nNợ 622    89.500.000\nCó 111    89.500.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">334</span> <span class=\"answer-keyword\">89.500.000</span> / Có <span class=\"answer-keyword\">111</span> <span class=\"answer-keyword\">89.500.000</span> Số tiền thực chi = 100.000.000 - 10.500.000 = <b>89.500.000</b>.<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 111   110.500.000\nCó 334    110.500.000",
+            "B.\nNợ 334    89.500.000\nCó 111    89.500.000",
+            "C.\nNợ 622    89.500.000\nCó 111    89.500.000",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -531,9 +736,14 @@
     },
     {
         "weight": "high",
-        "question": "<span class=\"keyword\">Công ty thương mại</span> PTL <span class=\"keyword\">mua 10 chiếc xe tải</span> (tổng giá mua chưa thuế 1 tỷ đồng) về để bán nhưng <span class=\"keyword\">chưa thanh toán</span> cho người bán, những chiếc xe này sẽ được ghi nhận trên báo cáo tài chính của công ty là",
+        "question": "<span class=\"keyword\">Công ty thương mại</span> PTL <span class=\"keyword\">mua 10 chiếc xe tải</span> (tổng giá mua chưa thuế 1 tỷ đồng) về để bán nhưng <span class=\"keyword\">chưa thanh toán</span> cho người bán, những chiếc xe này sẽ được ghi nhận trên báo cáo tài chính của công ty là<div class=\"options-grid\"><div>A.\nvốn đầu tư của chủ sở hữu</div><div>B.\ntài sản cố định vô hình</div><div>C.\ntài sản cố định hữu hình</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">nợ phải trả</span> người bán</div>\n        <div class=\"note\">💡 Giải thích: Vì mua \"về để bán\" nên xe tải là Hàng hóa, không phải TSCĐ. Trong các đáp án, tính chất \"chưa thanh toán\" tương ứng với việc phát sinh <b>Nợ phải trả người bán</b>.<br></div>",
-        "options": [],
+        "options": [
+            "A.\nvốn đầu tư của chủ sở hữu",
+            "B.\ntài sản cố định vô hình",
+            "C.\ntài sản cố định hữu hình",
+            "D."
+        ],
         "tags": [
             "Kế toán Tài chính & Quản trị",
             "Cấu trúc"
@@ -551,9 +761,14 @@
     },
     {
         "weight": "high",
-        "question": "<span class=\"keyword\">Nhận giấy báo Có</span> từ ngân hàng do <span class=\"keyword\">người mua trả nợ</span> cho doanh nghiệp, kế toán ghi",
+        "question": "<span class=\"keyword\">Nhận giấy báo Có</span> từ ngân hàng do <span class=\"keyword\">người mua trả nợ</span> cho doanh nghiệp, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 112 / Có 138</div><div>B.\nNợ 112 / Có 131</div><div>C.\nNợ 131 / Có 112</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">112</span> / Có <span class=\"answer-keyword\">131</span> Báo Có là ngân hàng báo tăng tiền (Nợ 112). Thu nợ người mua thì giảm khoản phải thu (Có 131).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 112 / Có 138",
+            "B.\nNợ 112 / Có 131",
+            "C.\nNợ 131 / Có 112",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -561,9 +776,14 @@
     },
     {
         "weight": "high",
-        "question": "Hai tài sản giống nhau được mua ở hai thời điểm khác nhau nên có giá khác nhau, khi ghi giá của hai tài sản này kế toán phải <span class=\"keyword\">căn cứ vào</span>",
+        "question": "Hai tài sản giống nhau được mua ở hai thời điểm khác nhau nên có giá khác nhau, khi ghi giá của hai tài sản này kế toán phải <span class=\"keyword\">căn cứ vào</span><div class=\"options-grid\"><div>A.\nquyết định của chủ doanh nghiệp</div><div>B.\nchi phí thực tế mà doanh nghiệp đã bỏ ra để có được tài sản</div><div>C.\nsự thay đổi của giá thị trường</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">chi phí thực tế</span> mà doanh nghiệp đã bỏ ra để có được tài sản</div>\n        <div class=\"note\">💡 Giải thích: Đây là sự thể hiện của nguyên tắc Kế toán \"Giá gốc\". Tài sản mua thời điểm nào thì ghi nhận theo đúng số tiền thực tế bỏ ra ở thời điểm đó.<br></div>",
-        "options": [],
+        "options": [
+            "A.\nquyết định của chủ doanh nghiệp",
+            "B.\nchi phí thực tế mà doanh nghiệp đã bỏ ra để có được tài sản",
+            "C.\nsự thay đổi của giá thị trường",
+            "D."
+        ],
         "tags": [
             "Cấu trúc Bảng Cân đối",
             "Cấu trúc"
@@ -571,9 +791,14 @@
     },
     {
         "weight": "high",
-        "question": "<span class=\"keyword\">Phân xưởng</span> báo hỏng một công cụ dụng cụ loại phân bổ 5 lần, giá trị ban đầu 5.000.000 đồng, <span class=\"keyword\">giá trị còn lại</span> chưa phân bổ vào chi phí là 2.000.000 đồng, kế toán ghi",
+        "question": "<span class=\"keyword\">Phân xưởng</span> báo hỏng một công cụ dụng cụ loại phân bổ 5 lần, giá trị ban đầu 5.000.000 đồng, <span class=\"keyword\">giá trị còn lại</span> chưa phân bổ vào chi phí là 2.000.000 đồng, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 242  2.000.000\nCó 153   2.000.000</div><div>B.\nNợ 621  5.000.000\nCó 242   5.000.000</div><div>C.\nNợ 627  5.000.000\nCó 242   5.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">627</span> <span class=\"answer-keyword\">2.000.000</span> / Có <span class=\"answer-keyword\">242</span> <span class=\"answer-keyword\">2.000.000</span> Dùng ở phân xưởng nên phần chi phí còn lại (2.000.000) được đưa vào Chi phí sản xuất chung (TK 627).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 242  2.000.000\nCó 153   2.000.000",
+            "B.\nNợ 621  5.000.000\nCó 242   5.000.000",
+            "C.\nNợ 627  5.000.000\nCó 242   5.000.000",
+            "D."
+        ],
         "tags": [
             "Báo cáo KQ Hoạt động Kinh doanh",
             "Cấu trúc"
@@ -581,9 +806,14 @@
     },
     {
         "weight": "high",
-        "question": "Xuất một lô hàng hóa bán trực tiếp cho khách hàng, giá vốn 1.000.000 đồng, giá bán đã bao gồm thuế GTGT 10% là 2.200.000 đồng, <span class=\"keyword\">chưa thu tiền</span>. Kế toán ghi nhận <span class=\"keyword\">doanh thu</span>",
+        "question": "Xuất một lô hàng hóa bán trực tiếp cho khách hàng, giá vốn 1.000.000 đồng, giá bán đã bao gồm thuế GTGT 10% là 2.200.000 đồng, <span class=\"keyword\">chưa thu tiền</span>. Kế toán ghi nhận <span class=\"keyword\">doanh thu</span><div class=\"options-grid\"><div>A.\nNợ 112   2.200.000\nCó 511    2.000.000\n\nCó 3331     200.000</div><div>B.\nNợ 131   2.000.000\nNợ 133    200.000\n\nCó 511    2.200.000</div><div>C.\nNợ 131   2.200.000\nCó 511    2.000.000\n\nCó 3331     200.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">131</span> <span class=\"answer-keyword\">2.200.000</span> / Có 511 2.000.000 / Có 3331 200.000 Nợ phải thu khách hàng (131) phản ánh toàn bộ số tiền 2.200.000. Doanh thu (511) chỉ ghi theo giá chưa thuế là 2.000.000.<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 112   2.200.000\nCó 511    2.000.000\n\nCó 3331     200.000",
+            "B.\nNợ 131   2.000.000\nNợ 133    200.000\n\nCó 511    2.200.000",
+            "C.\nNợ 131   2.200.000\nCó 511    2.000.000\n\nCó 3331     200.000",
+            "D."
+        ],
         "tags": [
             "Báo cáo KQ Hoạt động Kinh doanh",
             "Cấu trúc"
@@ -591,9 +821,14 @@
     },
     {
         "weight": "high",
-        "question": "<span class=\"keyword\">Lợi nhuận trước thuế</span> bằng",
+        "question": "<span class=\"keyword\">Lợi nhuận trước thuế</span> bằng<div class=\"options-grid\"><div>A.\nTổng chi phí – Tổng doanh thu</div><div>B.\nTổng doanh thu thuần – tổng chi phí</div><div>C.\nTổng doanh thu – tổng chi phí</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Tổng <span class=\"answer-keyword\">doanh thu thuần</span> – tổng chi phí Lợi nhuận = Doanh thu thuần (đã trừ các khoản giảm trừ) - Toàn bộ các loại Chi phí phát sinh.<br>",
-        "options": [],
+        "options": [
+            "A.\nTổng chi phí – Tổng doanh thu",
+            "B.\nTổng doanh thu thuần – tổng chi phí",
+            "C.\nTổng doanh thu – tổng chi phí",
+            "D."
+        ],
         "tags": [
             "Báo cáo KQ Hoạt động Kinh doanh",
             "Cấu trúc"
@@ -601,9 +836,14 @@
     },
     {
         "weight": "high",
-        "question": "Đối tượng kế toán nào sau đây là <span class=\"keyword\">tài sản</span>?",
+        "question": "Đối tượng kế toán nào sau đây là <span class=\"keyword\">tài sản</span>?<div class=\"options-grid\"><div>A.\nPhải thu khách hàng</div><div>B.\nPhải trả người bán</div><div>C.\nLợi nhuận sau thuế chưa phân phối</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Phải thu khách hàng</span></div>\n        <div class=\"note\">💡 Giải thích: Tài sản bao gồm tiền, hàng hóa, TSCĐ và các khoản phải thu. Các đáp án còn lại thuộc Nợ phải trả và Vốn chủ sở hữu.<br></div>",
-        "options": [],
+        "options": [
+            "A.\nPhải thu khách hàng",
+            "B.\nPhải trả người bán",
+            "C.\nLợi nhuận sau thuế chưa phân phối",
+            "D."
+        ],
         "tags": [
             "Cấu trúc Bảng Cân đối",
             "Cấu trúc"
@@ -611,9 +851,14 @@
     },
     {
         "weight": "high",
-        "question": "Rút <span class=\"keyword\">tiền gửi ngân hàng</span> trả các <span class=\"keyword\">khoản phải trả khác</span> 10.000.000 đồng, kế toán ghi",
+        "question": "Rút <span class=\"keyword\">tiền gửi ngân hàng</span> trả các <span class=\"keyword\">khoản phải trả khác</span> 10.000.000 đồng, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 331    10.000.000\nCó 112     10.000.000</div><div>B.\nNợ 112    10.000.000\nCó 338     10.000.000</div><div>C.\nNợ 311    10.000.000\nCó 112     10.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">338</span> 10.000.000 / Có <span class=\"answer-keyword\">112</span> 10.000.000 Rút tiền gửi ngân hàng làm giảm tiền (Có 112), trả nợ khác làm giảm khoản phải trả khác (Nợ 338).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 331    10.000.000\nCó 112     10.000.000",
+            "B.\nNợ 112    10.000.000\nCó 338     10.000.000",
+            "C.\nNợ 311    10.000.000\nCó 112     10.000.000",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -621,9 +866,14 @@
     },
     {
         "weight": "high",
-        "question": "Xuất tiền mặt 10.000.000 đồng từ <span class=\"keyword\">quỹ khen thưởng phúc lợi</span> hỗ trợ cho công nhân viên bị tai nạn lao động, kế toán ghi",
+        "question": "Xuất tiền mặt 10.000.000 đồng từ <span class=\"keyword\">quỹ khen thưởng phúc lợi</span> hỗ trợ cho công nhân viên bị tai nạn lao động, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 642   10.000.000\nCó 111    10.000.000</div><div>B.\nNợ 811   10.000.000\nCó 111    10.000.000</div><div>C.\nNợ 353    10.000.000\nCó 111    10.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">353</span> 10.000.000 / Có <span class=\"answer-keyword\">111</span> 10.000.000 Giảm quỹ khen thưởng phúc lợi (Nợ 353), xuất tiền mặt (Có 111).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 642   10.000.000\nCó 111    10.000.000",
+            "B.\nNợ 811   10.000.000\nCó 111    10.000.000",
+            "C.\nNợ 353    10.000.000\nCó 111    10.000.000",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -631,9 +881,14 @@
     },
     {
         "weight": "high",
-        "question": "<span class=\"keyword\">Chi phí khác</span> chi bằng <span class=\"keyword\">tiền mặt</span> 4.000.000 đồng, kế toán ghi",
+        "question": "<span class=\"keyword\">Chi phí khác</span> chi bằng <span class=\"keyword\">tiền mặt</span> 4.000.000 đồng, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 621   4.000.000\nCó 111    4.000.000</div><div>B.\nNợ 811  4.000.000\nCó 112    4.000.000</div><div>C.\nNợ 811   4.000.000\nCó 111    4.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">811</span> 4.000.000 / Có <span class=\"answer-keyword\">111</span> 4.000.000 Tăng chi phí khác (Nợ 811), giảm tiền mặt (Có 111).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 621   4.000.000\nCó 111    4.000.000",
+            "B.\nNợ 811  4.000.000\nCó 112    4.000.000",
+            "C.\nNợ 811   4.000.000\nCó 111    4.000.000",
+            "D."
+        ],
         "tags": [
             "Báo cáo KQ Hoạt động Kinh doanh",
             "Cấu trúc"
@@ -641,9 +896,14 @@
     },
     {
         "weight": "high",
-        "question": "<span class=\"keyword\">Vay ngân hàng</span> 30.000.000 đồng chuyển <span class=\"keyword\">trả nợ người bán</span>, kế toán ghi",
+        "question": "<span class=\"keyword\">Vay ngân hàng</span> 30.000.000 đồng chuyển <span class=\"keyword\">trả nợ người bán</span>, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 111   30.000.000\nCó 112    30.000.000</div><div>B.\nNợ 341  3.000.000\nCó 331    3.000.000</div><div>C.\nNợ 331   30.000.000\nCó 341    30.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">331</span> 30.000.000 / Có <span class=\"answer-keyword\">341</span> 30.000.000 Giảm nợ người bán (Nợ 331), tăng nợ vay ngân hàng (Có 341).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 111   30.000.000\nCó 112    30.000.000",
+            "B.\nNợ 341  3.000.000\nCó 331    3.000.000",
+            "C.\nNợ 331   30.000.000\nCó 341    30.000.000",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -651,9 +911,14 @@
     },
     {
         "weight": "high",
-        "question": "Tài khoản <span class=\"keyword\">441</span>",
+        "question": "Tài khoản <span class=\"keyword\">441</span><div class=\"options-grid\"><div>A.\ncuối kỳ luôn luôn không có số dư</div><div>B.\ncuối kỳ nếu có số dư thì có số dư bên Có</div><div>C.\ncuối kỳ nếu có số dư thì có số dư bên Nợ</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> cuối kỳ nếu có số dư thì có số dư bên <span class=\"answer-keyword\">Có</span> TK 441 (Nguồn vốn đầu tư xây dựng cơ bản) thuộc loại 4 (Vốn chủ sở hữu), tăng bên Có, giảm bên Nợ, dư cuối kỳ bên Có.<br>",
-        "options": [],
+        "options": [
+            "A.\ncuối kỳ luôn luôn không có số dư",
+            "B.\ncuối kỳ nếu có số dư thì có số dư bên Có",
+            "C.\ncuối kỳ nếu có số dư thì có số dư bên Nợ",
+            "D."
+        ],
         "tags": [
             "Cấu trúc Bảng Cân đối",
             "Cấu trúc"
@@ -661,9 +926,14 @@
     },
     {
         "weight": "high",
-        "question": "Tài khoản <span class=\"keyword\">414</span>",
+        "question": "Tài khoản <span class=\"keyword\">414</span><div class=\"options-grid\"><div>A.\ncuối kỳ nếu có số dư thì có số dư bên Nợ</div><div>B.\ncuối kỳ không xác định được số dư</div><div>C.\ncuối kỳ nếu có số dư thì có số dư bên Có</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> cuối kỳ nếu có số dư thì có số dư bên <span class=\"answer-keyword\">Có</span> TK 414 (Quỹ đầu tư phát triển) thuộc loại 4 (Vốn chủ sở hữu), số dư bên Có.<br>",
-        "options": [],
+        "options": [
+            "A.\ncuối kỳ nếu có số dư thì có số dư bên Nợ",
+            "B.\ncuối kỳ không xác định được số dư",
+            "C.\ncuối kỳ nếu có số dư thì có số dư bên Có",
+            "D."
+        ],
         "tags": [
             "Mô hình Chữ T",
             "Cấu trúc"
@@ -671,9 +941,14 @@
     },
     {
         "weight": "high",
-        "question": "Do thanh toán tiền mua hàng hóa trước hạn nên được người bán cho hưởng <span class=\"keyword\">chiết khấu thanh toán</span> 1.000.000 đồng <span class=\"keyword\">trừ vào các khoản nợ</span> mà doanh nghiệp còn thiếu người bán, kế toán ghi",
+        "question": "Do thanh toán tiền mua hàng hóa trước hạn nên được người bán cho hưởng <span class=\"keyword\">chiết khấu thanh toán</span> 1.000.000 đồng <span class=\"keyword\">trừ vào các khoản nợ</span> mà doanh nghiệp còn thiếu người bán, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 331   1.000.000\nCó 711  1.000.000</div><div>B.\nNợ 131   1.000.000\nCó 515  1.000.000</div><div>C.\nNợ 331   1.000.000\nCó 515  1.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">331</span> 1.000.000 / Có <span class=\"answer-keyword\">515</span> 1.000.000 Hưởng chiết khấu thanh toán ghi nhận vào Doanh thu hoạt động tài chính (Có 515), đồng thời giảm trừ nợ phải trả (Nợ 331).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 331   1.000.000\nCó 711  1.000.000",
+            "B.\nNợ 131   1.000.000\nCó 515  1.000.000",
+            "C.\nNợ 331   1.000.000\nCó 515  1.000.000",
+            "D."
+        ],
         "tags": [
             "Kế toán Tài chính & Quản trị",
             "Cấu trúc"
@@ -681,9 +956,14 @@
     },
     {
         "weight": "high",
-        "question": "Nhận giấy báo Có của ngân hàng do <span class=\"keyword\">lãi</span> nhập gốc <span class=\"keyword\">tiền gửi</span> của doanh nghiệp 5.000.000 đồng, kế toán ghi",
+        "question": "Nhận giấy báo Có của ngân hàng do <span class=\"keyword\">lãi</span> nhập gốc <span class=\"keyword\">tiền gửi</span> của doanh nghiệp 5.000.000 đồng, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 635   5.000.000\nCó 112  5.000.000</div><div>B.\nNợ 515   5.000.000\nCó 112  5.000.000</div><div>C.\nNợ 112   5.000.000\nCó 515  5.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">112</span> 5.000.000 / Có <span class=\"answer-keyword\">515</span> 5.000.000 Tăng tiền gửi ngân hàng (Nợ 112), ghi nhận doanh thu tài chính từ tiền lãi (Có 515).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 635   5.000.000\nCó 112  5.000.000",
+            "B.\nNợ 515   5.000.000\nCó 112  5.000.000",
+            "C.\nNợ 112   5.000.000\nCó 515  5.000.000",
+            "D."
+        ],
         "tags": [
             "Kế toán Tài chính & Quản trị",
             "Cấu trúc"
@@ -691,9 +971,14 @@
     },
     {
         "weight": "high",
-        "question": "Khi xác định <span class=\"keyword\">chi phí thuế TNDN</span> tạm nộp kỳ này 20.000.000 đồng, kế toán ghi",
+        "question": "Khi xác định <span class=\"keyword\">chi phí thuế TNDN</span> tạm nộp kỳ này 20.000.000 đồng, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 821   20.000.000\nCó 111   20.000.000</div><div>B.\nNợ 3334   20.000.000\nCó 111  20.000.000</div><div>C.\nNợ 821   20.000.000\nCó 334   20.000.000.</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">821</span> 20.000.000 / Có <span class=\"answer-keyword\">3334</span> 20.000.000 Ghi nhận chi phí thuế (Nợ 821) và số thuế phải nộp nhà nước (Có 3334).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 821   20.000.000\nCó 111   20.000.000",
+            "B.\nNợ 3334   20.000.000\nCó 111  20.000.000",
+            "C.\nNợ 821   20.000.000\nCó 334   20.000.000.",
+            "D."
+        ],
         "tags": [
             "Báo cáo KQ Hoạt động Kinh doanh",
             "Cấu trúc"
@@ -701,9 +986,14 @@
     },
     {
         "weight": "high",
-        "question": "<span class=\"keyword\">Chi phí thuế thu nhập doanh nghiệp</span> thì",
+        "question": "<span class=\"keyword\">Chi phí thuế thu nhập doanh nghiệp</span> thì<div class=\"options-grid\"><div>A.\nđược tập hợp hay không tập hợp vào chi phí khi xác định kết quả kinh doanh là do cơ quan thuế quyết định</div><div>B.\nđược tập hợp vào chi phí khi xác định kết quả kinh doanh</div><div>C.\nkhông được tập hợp vào chi phí khi xác định kết quả kinh doanh</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">không được tập hợp</span> vào chi phí khi xác định kết quả kinh doanh</div>\n        <div class=\"note\">💡 Giải thích: Chi phí thuế TNDN (TK 821) được tính dựa trên Lợi nhuận kế toán trước thuế. Do đó, nó KHÔNG được xem là chi phí để \"xác định kết quả kinh doanh\" (Lợi nhuận trước thuế), mà chỉ là khoản khấu trừ sau cùng để tính Lợi nhuận sau thuế.<br></div>",
-        "options": [],
+        "options": [
+            "A.\nđược tập hợp hay không tập hợp vào chi phí khi xác định kết quả kinh doanh là do cơ quan thuế quyết định",
+            "B.\nđược tập hợp vào chi phí khi xác định kết quả kinh doanh",
+            "C.\nkhông được tập hợp vào chi phí khi xác định kết quả kinh doanh",
+            "D."
+        ],
         "tags": [
             "Báo cáo KQ Hoạt động Kinh doanh",
             "Cấu trúc"
@@ -711,9 +1001,14 @@
     },
     {
         "weight": "high",
-        "question": "Bộ phận <span class=\"keyword\">bán hàng</span> báo hỏng một công cụ dụng cụ <span class=\"keyword\">loại phân bổ 3 lần</span>, giá trị ban đầu 3.000.000 đồng, giá trị <span class=\"keyword\">còn lại</span> chưa phân bổ vào chi phí là 1.000.000 đồng, kế toán ghi",
+        "question": "Bộ phận <span class=\"keyword\">bán hàng</span> báo hỏng một công cụ dụng cụ <span class=\"keyword\">loại phân bổ 3 lần</span>, giá trị ban đầu 3.000.000 đồng, giá trị <span class=\"keyword\">còn lại</span> chưa phân bổ vào chi phí là 1.000.000 đồng, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 641  1.000.000\nCó 153   1.000.000</div><div>B.\nNợ 627  1.000.000\nCó 242   1.000.000</div><div>C.\nNợ 641  1.000.000\nCó 242  1.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">641</span> 1.000.000 / Có <span class=\"answer-keyword\">242</span> 1.000.000 Chỉ ghi nhận phần giá trị CÒN LẠI chưa phân bổ (1.000.000) vào chi phí bán hàng (Nợ 641), và giảm chi phí trả trước (Có 242).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 641  1.000.000\nCó 153   1.000.000",
+            "B.\nNợ 627  1.000.000\nCó 242   1.000.000",
+            "C.\nNợ 641  1.000.000\nCó 242  1.000.000",
+            "D."
+        ],
         "tags": [
             "Báo cáo KQ Hoạt động Kinh doanh",
             "Cấu trúc"
@@ -721,9 +1016,14 @@
     },
     {
         "weight": "high",
-        "question": "Doanh nghiệp hạch toán thuế GTGT theo phương pháp <span class=\"keyword\">trực tiếp</span>, khi mua hàng nhận được hóa đơn thuế GTGT thì phải ghi nhận vào tài khoản hàng hóa với giá mua",
+        "question": "Doanh nghiệp hạch toán thuế GTGT theo phương pháp <span class=\"keyword\">trực tiếp</span>, khi mua hàng nhận được hóa đơn thuế GTGT thì phải ghi nhận vào tài khoản hàng hóa với giá mua<div class=\"options-grid\"><div>A.\nchưa bao gồm thuế GTGT</div><div>B.\nbằng giá vốn của người bán</div><div>C.\nđã bao gồm thuế GTGT</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">đã bao gồm</span> thuế GTGT</div>\n        <div class=\"note\">💡 Giải thích: Theo phương pháp trực tiếp, thuế GTGT đầu vào không được khấu trừ nên tính thẳng vào giá gốc của hàng hóa.<br></div>",
-        "options": [],
+        "options": [
+            "A.\nchưa bao gồm thuế GTGT",
+            "B.\nbằng giá vốn của người bán",
+            "C.\nđã bao gồm thuế GTGT",
+            "D."
+        ],
         "tags": [
             "Hệ thống Chứng từ",
             "Hệ thống"
@@ -731,9 +1031,14 @@
     },
     {
         "weight": "high",
-        "question": "<span class=\"keyword\">Tạm ứng lương</span> cho công nhân viên 5.000.000 đồng bằng <span class=\"keyword\">tiền mặt</span>, kế toán ghi",
+        "question": "<span class=\"keyword\">Tạm ứng lương</span> cho công nhân viên 5.000.000 đồng bằng <span class=\"keyword\">tiền mặt</span>, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 111    5.000.000\nCó 141     5.000.000</div><div>B.\nNợ 334    5.000.000\nCó 111     5.000.000</div><div>C.\nNợ 311    5.000.000\nCó 112     5.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">334</span> 5.000.000 / Có <span class=\"answer-keyword\">111</span> 5.000.000 Ứng trước lương cho nhân viên làm giảm khoản phải trả người lao động (Nợ 334), giảm tiền mặt (Có 111).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 111    5.000.000\nCó 141     5.000.000",
+            "B.\nNợ 334    5.000.000\nCó 111     5.000.000",
+            "C.\nNợ 311    5.000.000\nCó 112     5.000.000",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -741,9 +1046,14 @@
     },
     {
         "weight": "high",
-        "question": "Chi phí sản xuất dở dang <span class=\"keyword\">đầu kỳ 5.000.000</span> đồng, chi phí sản xuất <span class=\"keyword\">phát sinh trong kỳ 200.000.000</span> đồng, chi phí sản xuất dở dang <span class=\"keyword\">cuối kỳ 10.000.000</span> đồng, <span class=\"keyword\">phế liệu thu hồi</span> trị giá 5.000.000 đồng. Tổng giá thành sản phẩm hoàn thành nhập kho là",
+        "question": "Chi phí sản xuất dở dang <span class=\"keyword\">đầu kỳ 5.000.000</span> đồng, chi phí sản xuất <span class=\"keyword\">phát sinh trong kỳ 200.000.000</span> đồng, chi phí sản xuất dở dang <span class=\"keyword\">cuối kỳ 10.000.000</span> đồng, <span class=\"keyword\">phế liệu thu hồi</span> trị giá 5.000.000 đồng. Tổng giá thành sản phẩm hoàn thành nhập kho là<div class=\"options-grid\"><div>A.\n190.000.000</div><div>B.\n200.000.000</div><div>C.\n210.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">190.000.000</span></div>\n        <div class=\"note\">💡 Giải thích: Z = Dđk + Cps - Dck - Phế liệu = 5 + 200 - 10 - 5 = 190 (triệu đồng).<br></div>",
-        "options": [],
+        "options": [
+            "A.\n190.000.000",
+            "B.\n200.000.000",
+            "C.\n210.000.000",
+            "D."
+        ],
         "tags": [
             "Báo cáo KQ Hoạt động Kinh doanh",
             "Cấu trúc"
@@ -751,9 +1061,14 @@
     },
     {
         "weight": "high",
-        "question": "<span class=\"keyword\">Tạm ứng</span> cho nhân viên đi công tác bằng <span class=\"keyword\">tiền mặt</span> 5.000.000 đồng, kế toán ghi",
+        "question": "<span class=\"keyword\">Tạm ứng</span> cho nhân viên đi công tác bằng <span class=\"keyword\">tiền mặt</span> 5.000.000 đồng, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 111    5.000.000\nCó 141     5.000.000</div><div>B.\nNợ 141    5.000.000\nCó 111     5.000.000</div><div>C.\nNợ 334    5.000.000\nCó 111     5.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">141</span> 5.000.000 / Có <span class=\"answer-keyword\">111</span> 5.000.000 Ghi nhận khoản tạm ứng cho nhân viên (Nợ 141) bằng tiền mặt (Có 111).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 111    5.000.000\nCó 141     5.000.000",
+            "B.\nNợ 141    5.000.000\nCó 111     5.000.000",
+            "C.\nNợ 334    5.000.000\nCó 111     5.000.000",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -761,9 +1076,14 @@
     },
     {
         "weight": "high",
-        "question": "<span class=\"keyword\">Trích khấu hao</span> TSCĐ dùng ở bộ phận <span class=\"keyword\">bán hàng</span> 50.000.000 đồng, kế toán ghi",
+        "question": "<span class=\"keyword\">Trích khấu hao</span> TSCĐ dùng ở bộ phận <span class=\"keyword\">bán hàng</span> 50.000.000 đồng, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 641  50.000.000\nCó 214   50.000.000</div><div>B.\nNợ 642  50.000.000\nCó 211    50.000.000</div><div>C.\nNợ 641  50.000.000\nCó 211    50.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">641</span> 50.000.000 / Có <span class=\"answer-keyword\">214</span> 50.000.000 Tính vào chi phí bán hàng (Nợ 641) và ghi nhận hao mòn tài sản (Có 214).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 641  50.000.000\nCó 214   50.000.000",
+            "B.\nNợ 642  50.000.000\nCó 211    50.000.000",
+            "C.\nNợ 641  50.000.000\nCó 211    50.000.000",
+            "D."
+        ],
         "tags": [
             "Cấu trúc Bảng Cân đối",
             "Cấu trúc"
@@ -771,9 +1091,14 @@
     },
     {
         "weight": "high",
-        "question": "Đem một <span class=\"keyword\">TSCĐ hữu hình</span> có nguyên giá 50.000.000 đồng đi <span class=\"keyword\">góp vốn liên doanh</span>, giá liên doanh chấp nhận đúng bằng giá trị sổ sách, kế toán ghi",
+        "question": "Đem một <span class=\"keyword\">TSCĐ hữu hình</span> có nguyên giá 50.000.000 đồng đi <span class=\"keyword\">góp vốn liên doanh</span>, giá liên doanh chấp nhận đúng bằng giá trị sổ sách, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 411    50.000.000\nCó 222     50.000.000</div><div>B.\nNợ 222    50.000.000\nCó 411    50.000.000</div><div>C.\nNợ 222    50.000.000\nCó 211     50.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">222</span> 50.000.000 / Có <span class=\"answer-keyword\">211</span> 50.000.000 Góp vốn liên doanh làm tăng đầu tư dài hạn (Nợ 222) và giảm TSCĐ hữu hình (Có 211).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 411    50.000.000\nCó 222     50.000.000",
+            "B.\nNợ 222    50.000.000\nCó 411    50.000.000",
+            "C.\nNợ 222    50.000.000\nCó 211     50.000.000",
+            "D."
+        ],
         "tags": [
             "Cấu trúc Bảng Cân đối",
             "Cấu trúc"
@@ -781,9 +1106,14 @@
     },
     {
         "weight": "high",
-        "question": "Phải trả cho người <span class=\"keyword\">sửa chữa nhỏ</span> TSCĐ dùng ở <span class=\"keyword\">phân xưởng sản xuất</span> số tiền 3.000.000 đồng, kế toán ghi",
+        "question": "Phải trả cho người <span class=\"keyword\">sửa chữa nhỏ</span> TSCĐ dùng ở <span class=\"keyword\">phân xưởng sản xuất</span> số tiền 3.000.000 đồng, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 811 3.000.000\nCó 331    3.000.000</div><div>B.\nNợ 627  3.000.000\nCó 333    3.000.000</div><div>C.\nNợ 627  3.000.000\nCó 331   3.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">627</span> 3.000.000 / Có <span class=\"answer-keyword\">331</span> 3.000.000 Sửa chữa nhỏ thường xuyên TSCĐ ở phân xưởng tính vào chi phí sản xuất chung (Nợ 627), chưa trả tiền (Có 331).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 811 3.000.000\nCó 331    3.000.000",
+            "B.\nNợ 627  3.000.000\nCó 333    3.000.000",
+            "C.\nNợ 627  3.000.000\nCó 331   3.000.000",
+            "D."
+        ],
         "tags": [
             "Báo cáo KQ Hoạt động Kinh doanh",
             "Cấu trúc"
@@ -791,9 +1121,14 @@
     },
     {
         "weight": "high",
-        "question": "Chi phí <span class=\"keyword\">sửa chữa thường xuyên</span> TSCĐ của bộ phận <span class=\"keyword\">sản xuất</span> được tính vào",
+        "question": "Chi phí <span class=\"keyword\">sửa chữa thường xuyên</span> TSCĐ của bộ phận <span class=\"keyword\">sản xuất</span> được tính vào<div class=\"options-grid\"><div>A.\nchi phí khác</div><div>B.\nchi phí sản xuất chung</div><div>C.\nchi phí quản lý doanh nghiệp</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> chi phí <span class=\"answer-keyword\">sản xuất chung</span> Sửa chữa nhỏ, bảo dưỡng TSCĐ đang dùng cho sản xuất thì hạch toán thẳng vào TK 627 (Chi phí sản xuất chung).<br>",
-        "options": [],
+        "options": [
+            "A.\nchi phí khác",
+            "B.\nchi phí sản xuất chung",
+            "C.\nchi phí quản lý doanh nghiệp",
+            "D."
+        ],
         "tags": [
             "Báo cáo KQ Hoạt động Kinh doanh",
             "Cấu trúc"
@@ -801,9 +1136,14 @@
     },
     {
         "weight": "high",
-        "question": "<span class=\"keyword\">Trích khấu hao</span> TSCĐ dùng ở bộ phận <span class=\"keyword\">quản lý doanh nghiệp</span> 20.000.000 đồng, kế toán ghi",
+        "question": "<span class=\"keyword\">Trích khấu hao</span> TSCĐ dùng ở bộ phận <span class=\"keyword\">quản lý doanh nghiệp</span> 20.000.000 đồng, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 642  20.000.000\nCó 211     20.000.000</div><div>B.\nNợ 642  20.000.000\nCó 214     20.000.000</div><div>C.\nNợ 627  20.000.000\nCó 214     20.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">642</span> 20.000.000 / Có <span class=\"answer-keyword\">214</span> 20.000.000 Khấu hao TSCĐ cho bộ phận quản lý được tính vào chi phí quản lý doanh nghiệp (Nợ 642).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 642  20.000.000\nCó 211     20.000.000",
+            "B.\nNợ 642  20.000.000\nCó 214     20.000.000",
+            "C.\nNợ 627  20.000.000\nCó 214     20.000.000",
+            "D."
+        ],
         "tags": [
             "Báo cáo KQ Hoạt động Kinh doanh",
             "Cấu trúc"
@@ -811,9 +1151,14 @@
     },
     {
         "weight": "high",
-        "question": "<span class=\"keyword\">Thu nhập khác</span> bằng <span class=\"keyword\">tiền mặt</span> 5.000.000 đồng, kế toán ghi",
+        "question": "<span class=\"keyword\">Thu nhập khác</span> bằng <span class=\"keyword\">tiền mặt</span> 5.000.000 đồng, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 811   5.000.000\nCó 111    5.000.000</div><div>B.\nNợ 711   5.000.000\nCó 111    5.000.000</div><div>C.\nNợ 111   5.000.000\nCó 811    5.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">111</span> 5.000.000 / Có <span class=\"answer-keyword\">711</span> 5.000.000 Thu tiền mặt (Nợ 111) từ các khoản thu nhập bất thường, thanh lý tài sản... (Có 711).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 811   5.000.000\nCó 111    5.000.000",
+            "B.\nNợ 711   5.000.000\nCó 111    5.000.000",
+            "C.\nNợ 111   5.000.000\nCó 811    5.000.000",
+            "D."
+        ],
         "tags": [
             "Cấu trúc Bảng Cân đối",
             "Cấu trúc"
@@ -821,9 +1166,14 @@
     },
     {
         "weight": "high",
-        "question": "Xuất quỹ <span class=\"keyword\">tiền mặt</span> 20.000.000 đồng gửi ngân hàng nhưng <span class=\"keyword\">chưa nhận được giấy báo Có</span>, kế toán ghi",
+        "question": "Xuất quỹ <span class=\"keyword\">tiền mặt</span> 20.000.000 đồng gửi ngân hàng nhưng <span class=\"keyword\">chưa nhận được giấy báo Có</span>, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 121    20.000.000\nCó 111    20.000.000</div><div>B.\nNợ 113    20.000.000\nCó 111    20.000.000</div><div>C.\nNợ 111    20.000.000\nCó 112    20.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">113</span> 20.000.000 / Có <span class=\"answer-keyword\">111</span> 20.000.000 Chưa có báo Có thì ghi nhận vào tiền đang chuyển (Nợ 113) và giảm quỹ tiền mặt (Có 111).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 121    20.000.000\nCó 111    20.000.000",
+            "B.\nNợ 113    20.000.000\nCó 111    20.000.000",
+            "C.\nNợ 111    20.000.000\nCó 112    20.000.000",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -831,9 +1181,14 @@
     },
     {
         "weight": "high",
-        "question": "Chi <span class=\"keyword\">tiền mặt 10.000.000</span> đồng hỗ trợ trẻ em nghèo, trong đó trích từ <span class=\"keyword\">quỹ phúc lợi 50%</span>, còn lại đưa vào <span class=\"keyword\">chi phí khác</span> của doanh nghiệp, kế toán ghi",
+        "question": "Chi <span class=\"keyword\">tiền mặt 10.000.000</span> đồng hỗ trợ trẻ em nghèo, trong đó trích từ <span class=\"keyword\">quỹ phúc lợi 50%</span>, còn lại đưa vào <span class=\"keyword\">chi phí khác</span> của doanh nghiệp, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 811   10.000.000\nCó 111   10.000.000</div><div>B.\nNợ 353   5.000.000\nNợ 811   5.000.000\n\nCó 111   10.000.000</div><div>C.\nNợ 111   10.000.000\nCó 353   5.000.000\n\nCó 811   5.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">353</span> 5.000.000, Nợ <span class=\"answer-keyword\">811</span> 5.000.000 / Có <span class=\"answer-keyword\">111</span> 10.000.000 Tổng chi 10tr. Dùng quỹ phúc lợi 5tr (Nợ 353), tính vào chi phí khác 5tr (Nợ 811).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 811   10.000.000\nCó 111   10.000.000",
+            "B.\nNợ 353   5.000.000\nNợ 811   5.000.000\n\nCó 111   10.000.000",
+            "C.\nNợ 111   10.000.000\nCó 353   5.000.000\n\nCó 811   5.000.000",
+            "D."
+        ],
         "tags": [
             "Báo cáo KQ Hoạt động Kinh doanh",
             "Cấu trúc"
@@ -841,9 +1196,14 @@
     },
     {
         "weight": "high",
-        "question": "<span class=\"keyword\">Nhận lại hàng hóa</span> trước đây đã <span class=\"keyword\">ký gửi đại lý</span> bán, kế toán ghi",
+        "question": "<span class=\"keyword\">Nhận lại hàng hóa</span> trước đây đã <span class=\"keyword\">ký gửi đại lý</span> bán, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 157 / Có 155</div><div>B.\nNợ 157 / Có 156</div><div>C.\nNợ 156 / Có 632</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">156</span> / Có <span class=\"answer-keyword\">157</span> Đại lý trả lại hàng, nhập kho hàng hóa (Nợ 156), giảm lượng hàng gửi đi bán (Có 157).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 157 / Có 155",
+            "B.\nNợ 157 / Có 156",
+            "C.\nNợ 156 / Có 632",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -861,9 +1221,14 @@
     },
     {
         "weight": "high",
-        "question": "Xuất <span class=\"keyword\">tiền mặt</span> 20.000.000 đồng từ <span class=\"keyword\">quỹ khen thưởng phúc lợi</span> chi cho cán bộ công nhân viên đi nghỉ mát ở Vũng Tàu, kế toán ghi",
+        "question": "Xuất <span class=\"keyword\">tiền mặt</span> 20.000.000 đồng từ <span class=\"keyword\">quỹ khen thưởng phúc lợi</span> chi cho cán bộ công nhân viên đi nghỉ mát ở Vũng Tàu, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 811   20.000.000\nCó 111    20.000.000</div><div>B.\nNợ 335    20.000.000\nCó 111    20.000.000</div><div>C.\nNợ 642   20.000.000\nCó 111    20.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">353</span> 20.000.000 / Có <span class=\"answer-keyword\">111</span> 20.000.000 Lấy tiền từ quỹ phúc lợi (Nợ 353) xuất bằng tiền mặt (Có 111).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 811   20.000.000\nCó 111    20.000.000",
+            "B.\nNợ 335    20.000.000\nCó 111    20.000.000",
+            "C.\nNợ 642   20.000.000\nCó 111    20.000.000",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -881,9 +1246,14 @@
     },
     {
         "weight": "high",
-        "question": "Đưa một lượng <span class=\"keyword\">nguyên vật liệu</span> trị giá 40.000.000 đồng đi <span class=\"keyword\">gia công</span>, kế toán ghi",
+        "question": "Đưa một lượng <span class=\"keyword\">nguyên vật liệu</span> trị giá 40.000.000 đồng đi <span class=\"keyword\">gia công</span>, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 138   40.000.000\nCó 152    40.000.000</div><div>B.\nNợ 152    40.000.000\nCó 154    40.000.000</div><div>C.\nNợ 154    40.000.000\nCó 152    40.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">154</span> 40.000.000 / Có <span class=\"answer-keyword\">152</span> 40.000.000 Đưa đi gia công hạch toán vào chi phí SXKD dở dang (Nợ 154) và xuất giảm NVL (Có 152).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 138   40.000.000\nCó 152    40.000.000",
+            "B.\nNợ 152    40.000.000\nCó 154    40.000.000",
+            "C.\nNợ 154    40.000.000\nCó 152    40.000.000",
+            "D."
+        ],
         "tags": [
             "Báo cáo KQ Hoạt động Kinh doanh",
             "Cấu trúc"
@@ -891,9 +1261,14 @@
     },
     {
         "weight": "high",
-        "question": "Giá thành sản xuất của sản phẩm <span class=\"keyword\">không bao gồm</span>",
+        "question": "Giá thành sản xuất của sản phẩm <span class=\"keyword\">không bao gồm</span><div class=\"options-grid\"><div>A.\nchi phí sản xuất chung</div><div>B.\nchi phí bán hàng</div><div>C.\nchi phí tiền lương của công nhân sản xuất</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> chi phí <span class=\"answer-keyword\">bán hàng</span> Giá thành sản xuất chỉ bao gồm CP nguyên vật liệu (621), CP nhân công (622), và CP sản xuất chung (627). Chi phí bán hàng (641) tính vào kỳ.<br>",
-        "options": [],
+        "options": [
+            "A.\nchi phí sản xuất chung",
+            "B.\nchi phí bán hàng",
+            "C.\nchi phí tiền lương của công nhân sản xuất",
+            "D."
+        ],
         "tags": [
             "Báo cáo KQ Hoạt động Kinh doanh",
             "Cấu trúc"
@@ -901,9 +1276,14 @@
     },
     {
         "weight": "high",
-        "question": "Xuất quỹ <span class=\"keyword\">tiền mặt</span> 5.000.000 đồng <span class=\"keyword\">trả lương</span> cho công nhân viên, kế toán ghi",
+        "question": "Xuất quỹ <span class=\"keyword\">tiền mặt</span> 5.000.000 đồng <span class=\"keyword\">trả lương</span> cho công nhân viên, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 622    5.000.000\nCó 111    5.000.000</div><div>B.\nNợ 111    5.000.000\nCó 334    5.000.000</div><div>C.\nNợ 334    5.000.000\nCó 338    5.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">334</span> 5.000.000 / Có <span class=\"answer-keyword\">111</span> 5.000.000 Giảm khoản phải trả người lao động (Nợ 334) và giảm tiền mặt (Có 111).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 622    5.000.000\nCó 111    5.000.000",
+            "B.\nNợ 111    5.000.000\nCó 334    5.000.000",
+            "C.\nNợ 334    5.000.000\nCó 338    5.000.000",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -911,9 +1291,14 @@
     },
     {
         "weight": "high",
-        "question": "Khi vẽ sơ đồ tính giá thành sản phẩm thì <span class=\"keyword\">tài khoản 155</span> nằm bên trái hay bên phải của <span class=\"keyword\">tài khoản 154</span>?",
+        "question": "Khi vẽ sơ đồ tính giá thành sản phẩm thì <span class=\"keyword\">tài khoản 155</span> nằm bên trái hay bên phải của <span class=\"keyword\">tài khoản 154</span>?<div class=\"options-grid\"><div>A.\nkhông đủ cơ sở để xác định</div><div>B.\nBên trái</div><div>C.\nBên phải hay bên trái đều được</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Bên <span class=\"answer-keyword\">phải</span> Nhập kho thành phẩm ghi Nợ 155 / Có 154. Tài khoản ghi Có (154) luôn đối ứng với tài khoản ghi Nợ (155) ở phía mũi tên chỉ ra bên phải của sơ đồ chữ T TK 154.<br>",
-        "options": [],
+        "options": [
+            "A.\nkhông đủ cơ sở để xác định",
+            "B.\nBên trái",
+            "C.\nBên phải hay bên trái đều được",
+            "D."
+        ],
         "tags": [
             "Mô hình Chữ T",
             "Cấu trúc"
@@ -921,9 +1306,14 @@
     },
     {
         "weight": "high",
-        "question": "Bán <span class=\"keyword\">phế liệu</span> thu được 1.000.000 đồng, <span class=\"keyword\">thuế GTGT 10%</span>, tất cả thu bằng <span class=\"keyword\">tiền mặt</span>, kế toán ghi",
+        "question": "Bán <span class=\"keyword\">phế liệu</span> thu được 1.000.000 đồng, <span class=\"keyword\">thuế GTGT 10%</span>, tất cả thu bằng <span class=\"keyword\">tiền mặt</span>, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 111   1.100.000\nCó 1528    1.000.000\n\nCó 3331    100.000</div><div>B.\nNợ 111    1.100.000\nCó 511    1.100.000</div><div>C.\nNợ 811    1.100.000\nCó 111    1.100.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">111</span> 1.100.000 / Có <span class=\"answer-keyword\">1528</span> 1.000.000 / Có <span class=\"answer-keyword\">3331</span> 100.000 Thu tiền mặt tổng cộng bao gồm VAT là 1.1tr (Nợ 111). Ghi giảm vật liệu phụ/phế liệu (Có 1528: 1tr) và thuế phải nộp (Có 3331: 100k).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 111   1.100.000\nCó 1528    1.000.000\n\nCó 3331    100.000",
+            "B.\nNợ 111    1.100.000\nCó 511    1.100.000",
+            "C.\nNợ 811    1.100.000\nCó 111    1.100.000",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -931,9 +1321,14 @@
     },
     {
         "weight": "high",
-        "question": "<span class=\"keyword\">Sau khi được kết chuyển</span> vào tài khoản 154 để tính giá thành thì các tài khoản <span class=\"keyword\">621, 622, 627</span> sẽ",
+        "question": "<span class=\"keyword\">Sau khi được kết chuyển</span> vào tài khoản 154 để tính giá thành thì các tài khoản <span class=\"keyword\">621, 622, 627</span> sẽ<div class=\"options-grid\"><div>A.\ncó thể có số dư bên Nợ hoặc bên Có</div><div>B.\nkhông có số dư</div><div>C.\ncó số dư bên Có</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">không có số dư</span></div>\n        <div class=\"note\">💡 Giải thích: Tất cả các tài khoản loại 6 (Chi phí) đều không có số dư cuối kỳ do phải kết chuyển toàn bộ.<br></div>",
-        "options": [],
+        "options": [
+            "A.\ncó thể có số dư bên Nợ hoặc bên Có",
+            "B.\nkhông có số dư",
+            "C.\ncó số dư bên Có",
+            "D."
+        ],
         "tags": [
             "Mô hình Chữ T",
             "Cấu trúc"
@@ -941,9 +1336,14 @@
     },
     {
         "weight": "high",
-        "question": "Các tài khoản <span class=\"keyword\">621, 622, 627</span>",
+        "question": "Các tài khoản <span class=\"keyword\">621, 622, 627</span><div class=\"options-grid\"><div>A.\nBên phải</div><div>B.\nBên trái</div><div>C.\nkhông đủ cơ sở để xác định</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> cuối kỳ <span class=\"answer-keyword\">luôn luôn không có</span> số dư Đặc trưng của tài khoản phản ánh chi phí sản xuất kinh doanh là không bao giờ có số dư cuối kỳ.<br>",
-        "options": [],
+        "options": [
+            "A.\nBên phải",
+            "B.\nBên trái",
+            "C.\nkhông đủ cơ sở để xác định",
+            "D."
+        ],
         "tags": [
             "Mô hình Chữ T",
             "Cấu trúc"
@@ -951,9 +1351,14 @@
     },
     {
         "weight": "high",
-        "question": "Nguyên vật liệu mua với số lượng lớn nên được người bán cho hưởng <span class=\"keyword\">chiết khấu thương mại</span> 10% trên giá mua <span class=\"keyword\">chưa thuế</span>. Biết giá mua của lô nguyên vật liệu trước đây chưa thuế là 10.000.000 đồng, thuế GTGT 10%, chưa thanh toán. Kế toán ghi",
+        "question": "Nguyên vật liệu mua với số lượng lớn nên được người bán cho hưởng <span class=\"keyword\">chiết khấu thương mại</span> 10% trên giá mua <span class=\"keyword\">chưa thuế</span>. Biết giá mua của lô nguyên vật liệu trước đây chưa thuế là 10.000.000 đồng, thuế GTGT 10%, chưa thanh toán. Kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 331   1.000.000\nNợ 133    100.000\n\nCó 152  1.100.000</div><div>B.\nNợ 331  1.100.000\nCó 152   1.100.000</div><div>C.\nNợ 331   1.100.000\nCó 152  1.000.000\n\nCó 133    100.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ 331 1.100.000 / Có <span class=\"answer-keyword\">152</span> 1.000.000 / Có <span class=\"answer-keyword\">133</span> 100.000 Chiết khấu thương mại làm giảm giá trị gốc của NVL (Có 152), giảm thuế VAT tương ứng (Có 133), và trừ vào công nợ (Nợ 331).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 331   1.000.000\nNợ 133    100.000\n\nCó 152  1.100.000",
+            "B.\nNợ 331  1.100.000\nCó 152   1.100.000",
+            "C.\nNợ 331   1.100.000\nCó 152  1.000.000\n\nCó 133    100.000",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -961,9 +1366,14 @@
     },
     {
         "weight": "high",
-        "question": "Mua nguyên vật liệu về nhập kho phát hiện <span class=\"keyword\">thừa</span> một lượng nguyên vật liệu trị giá mua chưa thuế 5.000.000 đồng, thuế GTGT 10%. Phần thừa này sẽ được ghi nhận vào",
+        "question": "Mua nguyên vật liệu về nhập kho phát hiện <span class=\"keyword\">thừa</span> một lượng nguyên vật liệu trị giá mua chưa thuế 5.000.000 đồng, thuế GTGT 10%. Phần thừa này sẽ được ghi nhận vào<div class=\"options-grid\"><div>A.\nNợ 152   5.000.000\nNợ 133    500.000\n\nCó 338    5.500.000</div><div>B.\nNợ 152    5.000.000\nCó 138    5.000.000</div><div>C.\nNợ 138    5.000.000\nCó 152    5.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">152</span> 5.000.000 / Nợ 133 500.000 / Có <span class=\"answer-keyword\">338</span> 5.500.000 Hàng thừa chờ xử lý nhập kho ghi nhận theo giá trị (chưa tính thuế phần thừa) vào Tài sản thiếu chờ xử lý (TK 3381).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 152   5.000.000\nNợ 133    500.000\n\nCó 338    5.500.000",
+            "B.\nNợ 152    5.000.000\nCó 138    5.000.000",
+            "C.\nNợ 138    5.000.000\nCó 152    5.000.000",
+            "D."
+        ],
         "tags": [
             "Cấu trúc Bảng Cân đối",
             "Cấu trúc"
@@ -981,9 +1391,14 @@
     },
     {
         "weight": "high",
-        "question": "Tổng doanh thu trong kỳ 200.000.000 đồng, tổng chi phí trong kỳ là 100.000.000 đồng, <span class=\"keyword\">thuế suất thuế TNDN 20%</span>, tính số tiền thuế TNDN thực tế phải nộp, biết lợi nhuận trước thuế cũng chính là lợi nhuận chịu thuế?",
+        "question": "Tổng doanh thu trong kỳ 200.000.000 đồng, tổng chi phí trong kỳ là 100.000.000 đồng, <span class=\"keyword\">thuế suất thuế TNDN 20%</span>, tính số tiền thuế TNDN thực tế phải nộp, biết lợi nhuận trước thuế cũng chính là lợi nhuận chịu thuế?<div class=\"options-grid\"><div>A.\n30.000.000</div><div>B.\n20.000.000</div><div>C.\n35.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">20.000.000</span></div>\n        <div class=\"note\">💡 Giải thích: Lợi nhuận = 200tr - 100tr = 100tr. Thuế TNDN = 100tr * 20% = 20.000.000 đồng.<br></div>",
-        "options": [],
+        "options": [
+            "A.\n30.000.000",
+            "B.\n20.000.000",
+            "C.\n35.000.000",
+            "D."
+        ],
         "tags": [
             "Báo cáo KQ Hoạt động Kinh doanh",
             "Cấu trúc"
@@ -991,9 +1406,14 @@
     },
     {
         "weight": "high",
-        "question": "Công ty xuất bán một lô sản phẩm cho khách hàng vào ngày 25/9/N với giá 100 triệu đồng, hàng đã giao, khách hàng chấp nhận nợ và sẽ trả 50% tiền hàng vào ngày 30/09/N, số còn lại trả vào ngày 31/10/N. Theo nguyên tắc <span class=\"keyword\">doanh thu thực hiện</span>, công ty sẽ ghi nhận doanh thu của lô hàng trên vào ngày",
+        "question": "Công ty xuất bán một lô sản phẩm cho khách hàng vào ngày 25/9/N với giá 100 triệu đồng, hàng đã giao, khách hàng chấp nhận nợ và sẽ trả 50% tiền hàng vào ngày 30/09/N, số còn lại trả vào ngày 31/10/N. Theo nguyên tắc <span class=\"keyword\">doanh thu thực hiện</span>, công ty sẽ ghi nhận doanh thu của lô hàng trên vào ngày<div class=\"options-grid\"><div>A.\n31/12/N</div><div>B.\n30/9/N</div><div>C.\n31/10/N</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">25</span>/9/N</div>\n        <div class=\"note\">💡 Giải thích: Doanh thu được ghi nhận ngay thời điểm giao hàng thành công và chuyển giao phần lớn rủi ro/lợi ích (tức là ngày 25/9), không chờ đến ngày thu tiền.<br></div>",
-        "options": [],
+        "options": [
+            "A.\n31/12/N",
+            "B.\n30/9/N",
+            "C.\n31/10/N",
+            "D."
+        ],
         "tags": [
             "Báo cáo KQ Hoạt động Kinh doanh",
             "Cấu trúc"
@@ -1001,9 +1421,14 @@
     },
     {
         "weight": "high",
-        "question": "Nếu doanh nghiệp hạch toán thuế GTGT theo <span class=\"keyword\">phương pháp khấu trừ</span> thì số tiền ghi nhận vào bên <span class=\"keyword\">Có của tài khoản 511</span> là giá nào sau đây?",
+        "question": "Nếu doanh nghiệp hạch toán thuế GTGT theo <span class=\"keyword\">phương pháp khấu trừ</span> thì số tiền ghi nhận vào bên <span class=\"keyword\">Có của tài khoản 511</span> là giá nào sau đây?<div class=\"options-grid\"><div>A.\ngiá bán bao gồm thuế giá trị gia tăng</div><div>B.\ngiá vốn</div><div>C.\ngiá thành sản xuất</div><div>D.\ngiá bán chưa có thuế giá trị gia tăng</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> giá bán <span class=\"answer-keyword\">chưa có thuế</span> giá trị gia tăng Theo phương pháp khấu trừ, doanh thu (TK 511) được ghi nhận theo giá chưa bao gồm thuế GTGT. Thuế GTGT đầu ra được ghi riêng vào TK 3331.<br>",
-        "options": [],
+        "options": [
+            "A.\ngiá bán bao gồm thuế giá trị gia tăng",
+            "B.\ngiá vốn",
+            "C.\ngiá thành sản xuất",
+            "D.\ngiá bán chưa có thuế giá trị gia tăng"
+        ],
         "tags": [
             "Báo cáo KQ Hoạt động Kinh doanh",
             "Cấu trúc"
@@ -1091,9 +1516,14 @@
     },
     {
         "weight": "high",
-        "question": "Công ty PTL mua một ôtô vận tải vào ngày 02/9/N với giá 300 triệu đồng, đang sử dụng cho kinh doanh. Ngày 31/9/N, giá chiếc xe này trên thị trường là 305 triệu đồng. Theo <span class=\"keyword\">nguyên tắc giá phí</span> thì",
+        "question": "Công ty PTL mua một ôtô vận tải vào ngày 02/9/N với giá 300 triệu đồng, đang sử dụng cho kinh doanh. Ngày 31/9/N, giá chiếc xe này trên thị trường là 305 triệu đồng. Theo <span class=\"keyword\">nguyên tắc giá phí</span> thì<div class=\"options-grid\"><div>A.\nGiá trị ghi sổ của chiếc xe được giữ nguyên là 300 triệu đồng</div><div>B.\nGiá trị ghi sổ của chiếc xe sẽ được điều chỉnh theo giá thị trường</div><div>C.\nGiá trị ghi sổ của chiếc xe sẽ được điều chỉnh tăng thêm 5 triệu đồng cho phù hợp với giá trị thị trường</div><div>D.\nKhấu hao tăng thêm 5 triệu đồng</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Giá trị ghi sổ của chiếc xe được <span class=\"answer-keyword\">giữ nguyên</span> là 300 triệu đồng Theo nguyên tắc giá gốc (giá phí), tài sản được ghi nhận theo giá gốc lúc mua và không được tự ý điều chỉnh tăng/giảm theo giá thị trường.<br>",
-        "options": [],
+        "options": [
+            "A.\nGiá trị ghi sổ của chiếc xe được giữ nguyên là 300 triệu đồng",
+            "B.\nGiá trị ghi sổ của chiếc xe sẽ được điều chỉnh theo giá thị trường",
+            "C.\nGiá trị ghi sổ của chiếc xe sẽ được điều chỉnh tăng thêm 5 triệu đồng cho phù hợp với giá trị thị trường",
+            "D.\nKhấu hao tăng thêm 5 triệu đồng"
+        ],
         "tags": [
             "Cấu trúc Bảng Cân đối",
             "Cấu trúc"
@@ -1141,9 +1571,14 @@
     },
     {
         "weight": "normal",
-        "question": "<span class=\"keyword\">Mua một công cụ</span> dụng cụ trị giá mua ban đầu 5.000.000 đồng, thuế GTGT 10%, chi phí vận chuyển 1.000.000 đồng, tất cả <span class=\"keyword\">trả bằng tiền mặt</span>, kế toán ghi",
+        "question": "<span class=\"keyword\">Mua một công cụ</span> dụng cụ trị giá mua ban đầu 5.000.000 đồng, thuế GTGT 10%, chi phí vận chuyển 1.000.000 đồng, tất cả <span class=\"keyword\">trả bằng tiền mặt</span>, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 153   6.000.000\nNợ 133     600.000\n\nCó 331     6.600.000</div><div>B.\nNợ 153   6.000.000\nNợ 133    600.000\n\nCó 331     6.600.000</div><div>C.\nNợ 153   6.500.000\nCó 111     6.500.000</div><div>D.\nNợ 153   6.000.000\nNợ 133     500.000\n\nCó 111     6.500.000</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ 153 6.000.000 / <span class=\"answer-keyword\">Nợ 133</span> 500.000 / <span class=\"answer-keyword\">Có 111</span> 6.500.000 Mua công cụ giá 5tr + vận chuyển 1tr = 6tr (Nợ 153). VAT 10% của 5tr = 500k (Nợ 133). Trả bằng tiền mặt (Có 111).<br>",
-        "options": [],
+        "options": [
+            "A.\nNợ 153   6.000.000\nNợ 133     600.000\n\nCó 331     6.600.000",
+            "B.\nNợ 153   6.000.000\nNợ 133    600.000\n\nCó 331     6.600.000",
+            "C.\nNợ 153   6.500.000\nCó 111     6.500.000",
+            "D.\nNợ 153   6.000.000\nNợ 133     500.000\n\nCó 111     6.500.000"
+        ],
         "tags": [
             "Báo cáo KQ Hoạt động Kinh doanh",
             "Cấu trúc"
@@ -1151,9 +1586,14 @@
     },
     {
         "weight": "normal",
-        "question": "<span class=\"keyword\">Tài khoản 3334</span>",
+        "question": "<span class=\"keyword\">Tài khoản 3334</span><div class=\"options-grid\"><div>A.\ncuối kỳ luôn có số dư bên Có</div><div>B.\ncuối kỳ luôn luôn không có số dư</div><div>C.\ncuối kỳ có thể có số dư bên Nợ hoặc bên Có</div><div>D.\ncuối kỳ luôn có số dư bên Nợ</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> cuối kỳ có thể có số dư bên <span class=\"answer-keyword\">Nợ hoặc bên Có</span> TK 3334 (Thuế thu nhập doanh nghiệp) là tài khoản lưỡng tính. Số dư Có: Thuế còn phải nộp. Số dư Nợ: Số thuế đã nộp thừa.<br>",
-        "options": [],
+        "options": [
+            "A.\ncuối kỳ luôn có số dư bên Có",
+            "B.\ncuối kỳ luôn luôn không có số dư",
+            "C.\ncuối kỳ có thể có số dư bên Nợ hoặc bên Có",
+            "D.\ncuối kỳ luôn có số dư bên Nợ"
+        ],
         "tags": [
             "Quy trình Kiểm kê",
             "Phân luồng"
@@ -1171,9 +1611,14 @@
     },
     {
         "weight": "normal",
-        "question": "Chi phí thuế thu nhập doanh nghiệp thì",
+        "question": "Chi phí thuế thu nhập doanh nghiệp thì<div class=\"options-grid\"><div>A.\nđược tập hợp hay không tập hợp vào chi phí khi xác định kết quả kinh doanh là do cơ quan thuế quyết định</div><div>B.\nđược tập hợp vào chi phí khi xác định kết quả kinh doanh</div><div>C.\nkhông được tập hợp vào chi phí khi xác định kết quả kinh doanh</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">được tập hợp vào chi phí khi xác định kết quả kinh doanh</span></div>\n        <div class=\"note\">💡 Giải thích: Chi phí thuế TNDN (TK 821) được tập hợp vào chi phí khi xác định KQKD.</div>",
-        "options": [],
+        "options": [
+            "A.\nđược tập hợp hay không tập hợp vào chi phí khi xác định kết quả kinh doanh là do cơ quan thuế quyết định",
+            "B.\nđược tập hợp vào chi phí khi xác định kết quả kinh doanh",
+            "C.\nkhông được tập hợp vào chi phí khi xác định kết quả kinh doanh",
+            "D."
+        ],
         "tags": [
             "Báo cáo KQ Hoạt động Kinh doanh",
             "Cấu trúc"
@@ -1181,9 +1626,14 @@
     },
     {
         "weight": "normal",
-        "question": "Thuế thu nhập doanh nghiệp là loại thuế",
+        "question": "Thuế thu nhập doanh nghiệp là loại thuế<div class=\"options-grid\"><div>A.\nlàm cho doanh thu của doanh nghiệp giảm</div><div>B.\ntính vào giá bán sản phẩm của doanh nghiệp</div><div>C.\ntính vào giá thành sản phẩm của doanh nghiệp</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">doanh nghiệp chịu</span></div>\n        <div class=\"note\">💡 Giải thích: Thuế TNDN là loại thuế doanh nghiệp phải chịu.</div>",
-        "options": [],
+        "options": [
+            "A.\nlàm cho doanh thu của doanh nghiệp giảm",
+            "B.\ntính vào giá bán sản phẩm của doanh nghiệp",
+            "C.\ntính vào giá thành sản phẩm của doanh nghiệp",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -1191,9 +1641,14 @@
     },
     {
         "weight": "normal",
-        "question": "Tài khoản <span class=\"keyword\">155</span> cuối kỳ có thể",
+        "question": "Tài khoản <span class=\"keyword\">155</span> cuối kỳ có thể<div class=\"options-grid\"><div>A.\ncó số dư bên Có khác 0 hoặc bằng 0</div><div>B.\ncó số dư bên Nợ khác 0 hoặc bằng 0</div><div>C.\ncó thể có số dư bên Nợ hoặc bên Có</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">có số dư bên Nợ khác 0 hoặc bằng 0</span></div>\n        <div class=\"note\">💡 Giải thích: TK 155 (thành phẩm) là TK tài sản, cuối kỳ có thể có SD bên Nợ hoặc = 0.</div>",
-        "options": [],
+        "options": [
+            "A.\ncó số dư bên Có khác 0 hoặc bằng 0",
+            "B.\ncó số dư bên Nợ khác 0 hoặc bằng 0",
+            "C.\ncó thể có số dư bên Nợ hoặc bên Có",
+            "D."
+        ],
         "tags": [
             "Cấu trúc Bảng Cân đối",
             "Cấu trúc"
@@ -1201,9 +1656,14 @@
     },
     {
         "weight": "normal",
-        "question": "<span class=\"keyword\">Tạm ứng lương</span> cho công nhân viên 5.000.000 đồng bằng tiền mặt, kế toán ghi",
+        "question": "<span class=\"keyword\">Tạm ứng lương</span> cho công nhân viên 5.000.000 đồng bằng tiền mặt, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 111    5.000.000\nCó 141     5.000.000</div><div>B.\nNợ 334    5.000.000\nCó 111     5.000.000</div><div>C.\nNợ 311    5.000.000\nCó 112     5.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">334</span> 5.000.000 / Có <span class=\"answer-keyword\">111</span> 5.000.000 Tạm ứng lương: Nợ 334 / Có 111.",
-        "options": [],
+        "options": [
+            "A.\nNợ 111    5.000.000\nCó 141     5.000.000",
+            "B.\nNợ 334    5.000.000\nCó 111     5.000.000",
+            "C.\nNợ 311    5.000.000\nCó 112     5.000.000",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -1211,9 +1671,14 @@
     },
     {
         "weight": "normal",
-        "question": "Trong nội dung <span class=\"keyword\">bảng cân đối kế toán</span> của doanh nghiệp có trình bày",
+        "question": "Trong nội dung <span class=\"keyword\">bảng cân đối kế toán</span> của doanh nghiệp có trình bày<div class=\"options-grid\"><div>A.\nnợ phải trả của chủ doanh nghiệp</div><div>B.\nnợ phải trả của doanh nghiệp</div><div>C.\ntoàn bộ tài sản của doanh nghiệp và người chủ doanh nghiệp</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">nợ phải trả của doanh nghiệp</span></div>\n        <div class=\"note\">💡 Giải thích: BCĐKT trình bày tài sản và nợ phải trả của doanh nghiệp.</div>",
-        "options": [],
+        "options": [
+            "A.\nnợ phải trả của chủ doanh nghiệp",
+            "B.\nnợ phải trả của doanh nghiệp",
+            "C.\ntoàn bộ tài sản của doanh nghiệp và người chủ doanh nghiệp",
+            "D."
+        ],
         "tags": [
             "Cấu trúc Bảng Cân đối",
             "Cấu trúc"
@@ -1221,9 +1686,14 @@
     },
     {
         "weight": "normal",
-        "question": "Rút tiền gửi ngân hàng 10.000.000 đồng về nhập quỹ tiền mặt, kế toán ghi",
+        "question": "Rút tiền gửi ngân hàng 10.000.000 đồng về nhập quỹ tiền mặt, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 113   10.000.000\nCó 112    10.000.000</div><div>B.\nNợ 111   10.000.000\nCó 112    10.000.000</div><div>C.\nNợ 112   10.000.000\nCó 111    10.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">111</span> 10.000.000 / Có <span class=\"answer-keyword\">112</span> 10.000.000 Rút TGNH nhập quỹ TM: Nợ 111 / Có 112.",
-        "options": [],
+        "options": [
+            "A.\nNợ 113   10.000.000\nCó 112    10.000.000",
+            "B.\nNợ 111   10.000.000\nCó 112    10.000.000",
+            "C.\nNợ 112   10.000.000\nCó 111    10.000.000",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -1231,9 +1701,14 @@
     },
     {
         "weight": "normal",
-        "question": "Vay ngân hàng 20.000.000 đồng về nhập quỹ tiền mặt, kế toán ghi",
+        "question": "Vay ngân hàng 20.000.000 đồng về nhập quỹ tiền mặt, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 111   20.000.000\nCó 112    20.000.000</div><div>B.\nNợ 112   20.000.000\nCó 111    20.000.000</div><div>C.\nNợ 111   20.000.000\nCó 341    20.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">111</span> 20.000.000 / Có <span class=\"answer-keyword\">341</span> 20.000.000 Vay NH nhập quỹ TM: Nợ 111 / Có 341.",
-        "options": [],
+        "options": [
+            "A.\nNợ 111   20.000.000\nCó 112    20.000.000",
+            "B.\nNợ 112   20.000.000\nCó 111    20.000.000",
+            "C.\nNợ 111   20.000.000\nCó 341    20.000.000",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -1241,9 +1716,14 @@
     },
     {
         "weight": "normal",
-        "question": "Khi doanh nghiệp xuất hàng hóa <span class=\"keyword\">ký <span class=\"keyword\">gửi đại lý</span></span> bán, kế toán ghi",
+        "question": "Khi doanh nghiệp xuất hàng hóa <span class=\"keyword\">ký <span class=\"keyword\">gửi đại lý</span></span> bán, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 157 / Có 156</div><div>B.\nNợ 632 / Có 156</div><div>C.\nNợ 632 / Có 155</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">157</span> / Có <span class=\"answer-keyword\">156</span> Xuất HH gửi đại lý: Nợ 157 / Có 156.",
-        "options": [],
+        "options": [
+            "A.\nNợ 157 / Có 156",
+            "B.\nNợ 632 / Có 156",
+            "C.\nNợ 632 / Có 155",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -1251,9 +1731,14 @@
     },
     {
         "weight": "normal",
-        "question": "Vay ngân hàng 30.000.000 đồng chuyển trả nợ người bán, kế toán ghi",
+        "question": "Vay ngân hàng 30.000.000 đồng chuyển trả nợ người bán, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 111   30.000.000\nCó 112    30.000.000</div><div>B.\nNợ 341  3.000.000\nCó 331    3.000.000</div><div>C.\nNợ 331   30.000.000\nCó 341    30.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">331</span> 30.000.000 / Có <span class=\"answer-keyword\">341</span> 30.000.000 Vay NH trả nợ NB: Nợ 331 / Có 341.",
-        "options": [],
+        "options": [
+            "A.\nNợ 111   30.000.000\nCó 112    30.000.000",
+            "B.\nNợ 341  3.000.000\nCó 331    3.000.000",
+            "C.\nNợ 331   30.000.000\nCó 341    30.000.000",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -1261,9 +1746,14 @@
     },
     {
         "weight": "normal",
-        "question": "Rút tiền gửi ngân hàng trả các khoản <span class=\"keyword\">phải trả khác</span> 10.000.000 đồng, kế toán ghi",
+        "question": "Rút tiền gửi ngân hàng trả các khoản <span class=\"keyword\">phải trả khác</span> 10.000.000 đồng, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 331    10.000.000\nCó 112     10.000.000</div><div>B.\nNợ 112    10.000.000\nCó 338     10.000.000</div><div>C.\nNợ 311    10.000.000\nCó 112     10.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">338</span> 10.000.000 / Có <span class=\"answer-keyword\">112</span> 10.000.000 Rút TGNH trả khoản phải trả khác: Nợ 338 / Có 112.",
-        "options": [],
+        "options": [
+            "A.\nNợ 331    10.000.000\nCó 112     10.000.000",
+            "B.\nNợ 112    10.000.000\nCó 338     10.000.000",
+            "C.\nNợ 311    10.000.000\nCó 112     10.000.000",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -1271,9 +1761,14 @@
     },
     {
         "weight": "normal",
-        "question": "Thu nhập khác bằng tiền mặt 5.000.000 đồng, kế toán ghi",
+        "question": "Thu nhập khác bằng tiền mặt 5.000.000 đồng, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 811   5.000.000\nCó 111    5.000.000</div><div>B.\nNợ 711   5.000.000\nCó 111    5.000.000</div><div>C.\nNợ 111   5.000.000\nCó 811    5.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">111</span> 5.000.000 / Có <span class=\"answer-keyword\">711</span> 5.000.000 Thu nhập khác bằng TM: Nợ 111 / Có 711.",
-        "options": [],
+        "options": [
+            "A.\nNợ 811   5.000.000\nCó 111    5.000.000",
+            "B.\nNợ 711   5.000.000\nCó 111    5.000.000",
+            "C.\nNợ 111   5.000.000\nCó 811    5.000.000",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -1281,9 +1776,14 @@
     },
     {
         "weight": "normal",
-        "question": "Chi phí <span class=\"keyword\">sửa chữa thường xuyên</span> TSCĐ của bộ phận <span class=\"keyword\">sản xuất</span> được tính vào",
+        "question": "Chi phí <span class=\"keyword\">sửa chữa thường xuyên</span> TSCĐ của bộ phận <span class=\"keyword\">sản xuất</span> được tính vào<div class=\"options-grid\"><div>A.\nchi phí khác</div><div>B.\nchi phí sản xuất chung</div><div>C.\nchi phí quản lý doanh nghiệp</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">chi phí sản xuất chung</span></div>\n        <div class=\"note\">💡 Giải thích: Sửa chữa thường xuyên TSCĐ SX: Chi phí sản xuất chung (TK 627).</div>",
-        "options": [],
+        "options": [
+            "A.\nchi phí khác",
+            "B.\nchi phí sản xuất chung",
+            "C.\nchi phí quản lý doanh nghiệp",
+            "D."
+        ],
         "tags": [
             "Báo cáo KQ Hoạt động Kinh doanh",
             "Cấu trúc"
@@ -1291,9 +1791,14 @@
     },
     {
         "weight": "normal",
-        "question": "Câu phát biểu nào sau đây <span class=\"keyword\">SAI</span>? <span class=\"keyword\">Lợi nhuận ròng</span> là",
+        "question": "Câu phát biểu nào sau đây <span class=\"keyword\">SAI</span>? <span class=\"keyword\">Lợi nhuận ròng</span> là<div class=\"options-grid\"><div>A.\nlợi nhuận trước thuế</div><div>B.\nlợi nhuận thuần</div><div>C.\nlợi nhuận sau thuế</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">lợi nhuận trước thuế</span></div>\n        <div class=\"note\">💡 Giải thích: LN ròng = LN sau thuế, KHÔNG phải LN trước thuế.</div>",
-        "options": [],
+        "options": [
+            "A.\nlợi nhuận trước thuế",
+            "B.\nlợi nhuận thuần",
+            "C.\nlợi nhuận sau thuế",
+            "D."
+        ],
         "tags": [
             "Báo cáo KQ Hoạt động Kinh doanh",
             "Cấu trúc"
@@ -1301,9 +1806,14 @@
     },
     {
         "weight": "normal",
-        "question": "<span class=\"keyword\">Giá thành</span> <span class=\"keyword\">sản xuất</span> của sản phẩm <span class=\"keyword\">không</span> bao gồm",
+        "question": "<span class=\"keyword\">Giá thành</span> <span class=\"keyword\">sản xuất</span> của sản phẩm <span class=\"keyword\">không</span> bao gồm<div class=\"options-grid\"><div>A.\nchi phí sản xuất chung</div><div>B.\nchi phí bán hàng</div><div>C.\nchi phí tiền lương của công nhân sản xuất</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">chi phí bán hàng</span></div>\n        <div class=\"note\">💡 Giải thích: Giá thành sản xuất không bao gồm chi phí bán hàng (TK 641).</div>",
-        "options": [],
+        "options": [
+            "A.\nchi phí sản xuất chung",
+            "B.\nchi phí bán hàng",
+            "C.\nchi phí tiền lương của công nhân sản xuất",
+            "D."
+        ],
         "tags": [
             "Báo cáo KQ Hoạt động Kinh doanh",
             "Cấu trúc"
@@ -1311,9 +1821,14 @@
     },
     {
         "weight": "normal",
-        "question": "Nhận <span class=\"keyword\">giấy báo Có</span> từ ngân hàng do người mua trả nợ cho doanh nghiệp, kế toán ghi",
+        "question": "Nhận <span class=\"keyword\">giấy báo Có</span> từ ngân hàng do người mua trả nợ cho doanh nghiệp, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 112 / Có 138</div><div>B.\nNợ 112 / Có 131</div><div>C.\nNợ 131 / Có 112</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">112</span> / Có <span class=\"answer-keyword\">131</span> Nhận GBC người mua trả nợ: Nợ 112 / Có 131.",
-        "options": [],
+        "options": [
+            "A.\nNợ 112 / Có 138",
+            "B.\nNợ 112 / Có 131",
+            "C.\nNợ 131 / Có 112",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -1321,9 +1836,14 @@
     },
     {
         "weight": "normal",
-        "question": "Các tài khoản <span class=\"keyword\">621</span>, <span class=\"keyword\">622</span>, <span class=\"keyword\">627</span>",
+        "question": "Các tài khoản <span class=\"keyword\">621</span>, <span class=\"keyword\">622</span>, <span class=\"keyword\">627</span><div class=\"options-grid\"><div>A.\nBên phải</div><div>B.\nBên trái</div><div>C.\nkhông đủ cơ sở để xác định</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> cuối kỳ <span class=\"answer-keyword\">luôn luôn <span class=\"answer-keyword\">không có số dư</span></span> TK 621, 622, 627 cuối kỳ KC hết sang TK 154 -> không có SD.",
-        "options": [],
+        "options": [
+            "A.\nBên phải",
+            "B.\nBên trái",
+            "C.\nkhông đủ cơ sở để xác định",
+            "D."
+        ],
         "tags": [
             "Mô hình Chữ T",
             "Cấu trúc"
@@ -1331,9 +1851,14 @@
     },
     {
         "weight": "normal",
-        "question": "Chi phí khác chi bằng tiền mặt 4.000.000 đồng, kế toán ghi",
+        "question": "Chi phí khác chi bằng tiền mặt 4.000.000 đồng, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 621   4.000.000\nCó 111    4.000.000</div><div>B.\nNợ 811  4.000.000\nCó 112    4.000.000</div><div>C.\nNợ 811   4.000.000\nCó 111    4.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">811</span> 4.000.000 / Có <span class=\"answer-keyword\">111</span> 4.000.000 Chi CP khác bằng TM: Nợ 811 / Có 111.",
-        "options": [],
+        "options": [
+            "A.\nNợ 621   4.000.000\nCó 111    4.000.000",
+            "B.\nNợ 811  4.000.000\nCó 112    4.000.000",
+            "C.\nNợ 811   4.000.000\nCó 111    4.000.000",
+            "D."
+        ],
         "tags": [
             "Báo cáo KQ Hoạt động Kinh doanh",
             "Cấu trúc"
@@ -1341,9 +1866,14 @@
     },
     {
         "weight": "normal",
-        "question": "Tài khoản <span class=\"keyword\">441</span>",
+        "question": "Tài khoản <span class=\"keyword\">441</span><div class=\"options-grid\"><div>A.\ncuối kỳ luôn luôn không có số dư</div><div>B.\ncuối kỳ nếu có số dư thì có số dư bên Có</div><div>C.\ncuối kỳ nếu có số dư thì có số dư bên Nợ</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> cuối kỳ nếu có số dư thì có số dư bên Có TK 441 thuộc Nguồn vốn, nếu có SD thì SD bên Có.",
-        "options": [],
+        "options": [
+            "A.\ncuối kỳ luôn luôn không có số dư",
+            "B.\ncuối kỳ nếu có số dư thì có số dư bên Có",
+            "C.\ncuối kỳ nếu có số dư thì có số dư bên Nợ",
+            "D."
+        ],
         "tags": [
             "Cấu trúc Bảng Cân đối",
             "Cấu trúc"
@@ -1351,9 +1881,14 @@
     },
     {
         "weight": "normal",
-        "question": "Tài khoản <span class=\"keyword\">414</span>",
+        "question": "Tài khoản <span class=\"keyword\">414</span><div class=\"options-grid\"><div>A.\ncuối kỳ nếu có số dư thì có số dư bên Nợ</div><div>B.\ncuối kỳ không xác định được số dư</div><div>C.\ncuối kỳ nếu có số dư thì có số dư bên Có</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> cuối kỳ nếu có số dư thì có số dư bên Có TK 414 thuộc Nguồn vốn, nếu có SD thì SD bên Có.",
-        "options": [],
+        "options": [
+            "A.\ncuối kỳ nếu có số dư thì có số dư bên Nợ",
+            "B.\ncuối kỳ không xác định được số dư",
+            "C.\ncuối kỳ nếu có số dư thì có số dư bên Có",
+            "D."
+        ],
         "tags": [
             "Cấu trúc Bảng Cân đối",
             "Cấu trúc"
@@ -1361,9 +1896,14 @@
     },
     {
         "weight": "normal",
-        "question": "Khi xác định chi phí thuế TNDN tạm nộp kỳ này 20.000.000 đồng, kế toán ghi",
+        "question": "Khi xác định chi phí thuế TNDN tạm nộp kỳ này 20.000.000 đồng, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 821   20.000.000\nCó 111   20.000.000</div><div>B.\nNợ 3334   20.000.000\nCó 111  20.000.000</div><div>C.\nNợ 821   20.000.000\nCó 334   20.000.000.</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">821</span> 20.000.000 / Có <span class=\"answer-keyword\">3334</span> 20.000.000 Xác định thuế TNDN tạm nộp: Nợ 821 / Có 3334.",
-        "options": [],
+        "options": [
+            "A.\nNợ 821   20.000.000\nCó 111   20.000.000",
+            "B.\nNợ 3334   20.000.000\nCó 111  20.000.000",
+            "C.\nNợ 821   20.000.000\nCó 334   20.000.000.",
+            "D."
+        ],
         "tags": [
             "Báo cáo KQ Hoạt động Kinh doanh",
             "Cấu trúc"
@@ -1371,9 +1911,14 @@
     },
     {
         "weight": "normal",
-        "question": "<span class=\"keyword\">Tạm ứng</span> cho nhân viên đi công tác bằng tiền mặt 5.000.000 đồng, kế toán ghi",
+        "question": "<span class=\"keyword\">Tạm ứng</span> cho nhân viên đi công tác bằng tiền mặt 5.000.000 đồng, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 111    5.000.000\nCó 141     5.000.000</div><div>B.\nNợ 141    5.000.000\nCó 111     5.000.000</div><div>C.\nNợ 334    5.000.000\nCó 111     5.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">141</span> 5.000.000 / Có <span class=\"answer-keyword\">111</span> 5.000.000 Tạm ứng đi công tác: Nợ 141 / Có 111.",
-        "options": [],
+        "options": [
+            "A.\nNợ 111    5.000.000\nCó 141     5.000.000",
+            "B.\nNợ 141    5.000.000\nCó 111     5.000.000",
+            "C.\nNợ 334    5.000.000\nCó 111     5.000.000",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -1381,9 +1926,14 @@
     },
     {
         "weight": "normal",
-        "question": "<span class=\"keyword\">Nhận lại</span> hàng hóa trước đây đã <span class=\"keyword\">ký <span class=\"keyword\">gửi đại lý</span></span> bán, kế toán ghi",
+        "question": "<span class=\"keyword\">Nhận lại</span> hàng hóa trước đây đã <span class=\"keyword\">ký <span class=\"keyword\">gửi đại lý</span></span> bán, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 157 / Có 155</div><div>B.\nNợ 157 / Có 156</div><div>C.\nNợ 156 / Có 632</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">156</span> / Có <span class=\"answer-keyword\">157</span> Nhận lại hàng ký gửi: Nợ 156 / Có 157.",
-        "options": [],
+        "options": [
+            "A.\nNợ 157 / Có 155",
+            "B.\nNợ 157 / Có 156",
+            "C.\nNợ 156 / Có 632",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -1391,9 +1941,14 @@
     },
     {
         "weight": "normal",
-        "question": "Đưa một lượng nguyên vật liệu trị giá 40.000.000 đồng đi <span class=\"keyword\">gia công</span>, kế toán ghi",
+        "question": "Đưa một lượng nguyên vật liệu trị giá 40.000.000 đồng đi <span class=\"keyword\">gia công</span>, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 138   40.000.000\nCó 152    40.000.000</div><div>B.\nNợ 152    40.000.000\nCó 154    40.000.000</div><div>C.\nNợ 154    40.000.000\nCó 152    40.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">154</span> <span class=\"answer-keyword\">40</span>.000.000 / Có <span class=\"answer-keyword\">152</span> <span class=\"answer-keyword\">40</span>.000.000 Đưa NVL đi gia công: Nợ 154 / Có 152.",
-        "options": [],
+        "options": [
+            "A.\nNợ 138   40.000.000\nCó 152    40.000.000",
+            "B.\nNợ 152    40.000.000\nCó 154    40.000.000",
+            "C.\nNợ 154    40.000.000\nCó 152    40.000.000",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -1401,9 +1956,14 @@
     },
     {
         "weight": "normal",
-        "question": "Xuất quỹ tiền mặt 5.000.000 đồng trả lương cho công nhân viên, kế toán ghi",
+        "question": "Xuất quỹ tiền mặt 5.000.000 đồng trả lương cho công nhân viên, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 622    5.000.000\nCó 111    5.000.000</div><div>B.\nNợ 111    5.000.000\nCó 334    5.000.000</div><div>C.\nNợ 334    5.000.000\nCó 338    5.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">334</span> 5.000.000 / Có <span class=\"answer-keyword\">111</span> 5.000.000 Trả lương bằng TM: Nợ 334 / Có 111.",
-        "options": [],
+        "options": [
+            "A.\nNợ 622    5.000.000\nCó 111    5.000.000",
+            "B.\nNợ 111    5.000.000\nCó 334    5.000.000",
+            "C.\nNợ 334    5.000.000\nCó 338    5.000.000",
+            "D."
+        ],
         "tags": [
             "Nguyên tắc Ghi sổ kép",
             "Logic & Nguyên tắc"
@@ -1421,9 +1981,14 @@
     },
     {
         "weight": "normal",
-        "question": "Chi phí khác chi bằng tiền mặt 4.000.000 đồng, kế toán ghi",
+        "question": "Chi phí khác chi bằng tiền mặt 4.000.000 đồng, kế toán ghi<div class=\"options-grid\"><div>A.\nNợ 621   4.000.000\nCó 111    4.000.000</div><div>B.\nNợ 811  4.000.000\nCó 112    4.000.000</div><div>C.\nNợ 811   4.000.000\nCó 111    4.000.000</div><div>D.</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Nợ <span class=\"answer-keyword\">811</span> 4.000.000 / Có <span class=\"answer-keyword\">111</span> 4.000.000 Chi CP khác bằng TM: Nợ 811 / Có 111.",
-        "options": [],
+        "options": [
+            "A.\nNợ 621   4.000.000\nCó 111    4.000.000",
+            "B.\nNợ 811  4.000.000\nCó 112    4.000.000",
+            "C.\nNợ 811   4.000.000\nCó 111    4.000.000",
+            "D."
+        ],
         "tags": [
             "Báo cáo KQ Hoạt động Kinh doanh",
             "Cấu trúc"
@@ -1431,9 +1996,14 @@
     },
     {
         "weight": "normal",
-        "question": "Tài khoản <span class=\"keyword\">334</span>",
+        "question": "Tài khoản <span class=\"keyword\">334</span><div class=\"options-grid\"><div>A.\ncuối kỳ không bao giờ có số dư</div><div>B.\ncuối kỳ có thể có số dư bên Có khác 0 hoặc bằng 0</div><div>C.\ncuối kỳ luôn có số dư bên Nợ</div><div>D.\ncuối kỳ không xác định được số dư</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> cuối kỳ có thể <span class=\"answer-keyword\">có số dư bên Có khác 0 hoặc bằng 0</span> TK 334 (Phải trả NLĐ) là tài khoản nguồn vốn, cuối kỳ có số dư bên Có hoặc = 0.",
-        "options": [],
+        "options": [
+            "A.\ncuối kỳ không bao giờ có số dư",
+            "B.\ncuối kỳ có thể có số dư bên Có khác 0 hoặc bằng 0",
+            "C.\ncuối kỳ luôn có số dư bên Nợ",
+            "D.\ncuối kỳ không xác định được số dư"
+        ],
         "tags": [
             "Cấu trúc Bảng Cân đối",
             "Cấu trúc"
@@ -1451,9 +2021,14 @@
     },
     {
         "weight": "normal",
-        "question": "Tài khoản <span class=\"keyword\">331</span>",
+        "question": "Tài khoản <span class=\"keyword\">331</span><div class=\"options-grid\"><div>A.\nCuối kỳ luôn có số dư bên Có</div><div>B.\nCuối kỳ không bao giờ có số dư</div><div>C.\nCuối kỳ có thể có số dư bên Nợ hoặc bên Có</div><div>D.\nCuối kỳ luôn có số dư bên Nợ</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Cuối kỳ có thể <span class=\"answer-keyword\">có số dư bên Nợ hoặc bên Có</span> TK 331 là tài khoản lưỡng tính, cuối kỳ có thể có dư Nợ (ứng trước) hoặc dư Có (phải trả).",
-        "options": [],
+        "options": [
+            "A.\nCuối kỳ luôn có số dư bên Có",
+            "B.\nCuối kỳ không bao giờ có số dư",
+            "C.\nCuối kỳ có thể có số dư bên Nợ hoặc bên Có",
+            "D.\nCuối kỳ luôn có số dư bên Nợ"
+        ],
         "tags": [
             "Mô hình Chữ T",
             "Cấu trúc"
