@@ -403,11 +403,17 @@
     "weight": "high",
     "question": "Cho các ví dụ sau đây, chọn ví dụ liên quan đến <span class=\"keyword\">thống kê suy luận</span>",
     "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">25% CEO</span> hoặc thành viên hội đồng quản trị tại Việt Nam là nữ</div>",
-    "options": [],
+    "options": [
+      "A. Dân số Việt Nam năm 2020 là 97.3 triệu người",
+      "B. Khảo sát 1000 sinh viên cho thấy điểm trung bình là 7.5",
+      "C. 25% CEO hoặc thành viên hội đồng quản trị tại Việt Nam là nữ",
+      "D. Biểu đồ tròn thể hiện tỷ lệ giới tính của nhân viên công ty A"
+    ],
     "tags": [
       "High",
       "Tổng quan & Thang đo"
-    ]
+    ],
+    "correctAnswer": 2
   },
   {
     "weight": "high",
@@ -493,11 +499,17 @@
     "weight": "high",
     "question": "Kỹ thuật <span class=\"keyword\">chọn mẫu xác suất</span> gồm các kỹ thuật",
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Chọn mẫu <span class=\"answer-keyword\">ngẫu nhiên</span> đơn giản và <span class=\"answer-keyword\">hệ thống</span>, chọn mẫu <span class=\"answer-keyword\">phân tầng</span> và <span class=\"answer-keyword\">nhiều giai đoạn</span> ",
-    "options": [],
+    "options": [
+      "A. Chọn mẫu ngẫu nhiên đơn giản và hệ thống, chọn mẫu phân tầng và nhiều giai đoạn",
+      "B. Chọn mẫu thuận tiện, chọn mẫu định mức, chọn mẫu phát triển mầm, chọn mẫu ngẫu nhiên đơn giản",
+      "C. Chọn mẫu định mức, chọn mẫu chủ đích, chọn mẫu quả cầu tuyết, chọn mẫu ngẫu nhiên hệ thống",
+      "D. Chọn mẫu theo chuyên gia, chọn mẫu ngẫu nhiên đơn giản, chọn mẫu thuận tiện, chọn mẫu phân tầng"
+    ],
     "tags": [
       "High",
       "Chọn mẫu & Thu thập"
-    ]
+    ],
+    "correctAnswer": 0
   },
   {
     "weight": "high",
@@ -599,11 +611,17 @@
     "weight": "high",
     "question": "Đánh dấu sự khởi đầu của <span class=\"keyword\">số liệu thống kê xuất phát</span> từ",
     "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">thế kỷ XVII</span>, công trình nghiên cứu” Những quan sát <span class=\"answer-keyword\">tỷ lệ tử vong</span>” của <span class=\"answer-keyword\">Graunt</span></div>",
-    "options": [],
+    "options": [
+      "A. thế kỷ XVIII, công trình nghiên cứu \"Lý thuyết xác suất\" của Laplace",
+      "B. thế kỷ XX, công trình nghiên cứu \"Kiểm định giả thuyết\" của R.A. Fisher",
+      "C. thế kỷ XVII, công trình nghiên cứu \"Những quan sát tỷ lệ tử vong\" của Graunt",
+      "D. thế kỷ XIX, công trình nghiên cứu \"Phân phối chuẩn\" của Gauss"
+    ],
     "tags": [
       "High",
       "Tổng quan & Thang đo"
-    ]
+    ],
+    "correctAnswer": 2
   },
   {
     "weight": "high",
@@ -721,11 +739,17 @@
     "weight": "high",
     "question": "Kỹ thuật <span class=\"keyword\">chọn mẫu phi xác suất</span> gồm các kỹ thuật",
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Chọn mẫu <span class=\"answer-keyword\">thuận tiện</span>, Chọn mẫu <span class=\"answer-keyword\">định mức</span>, Chọn mẫu <span class=\"answer-keyword\">phát triển mầm</span> ",
-    "options": [],
+    "options": [
+      "A. Chọn mẫu ngẫu nhiên đơn giản, Chọn mẫu hệ thống, Chọn mẫu phân tầng",
+      "B. Chọn mẫu thuận tiện, Chọn mẫu định mức, Chọn mẫu phát triển mầm",
+      "C. Chọn mẫu thuận tiện, Chọn mẫu định mức, Chọn mẫu ngẫu nhiên đơn giản",
+      "D. Chọn mẫu phân tầng, Chọn mẫu phát triển mầm, Chọn mẫu nhiều giai đoạn"
+    ],
     "tags": [
       "High",
       "Chọn mẫu & Thu thập"
-    ]
+    ],
+    "correctAnswer": 1
   },
   {
     "weight": "high",
@@ -875,11 +899,17 @@
     "weight": "high",
     "question": "Cột kết quả <span class=\"keyword\">Standardized Coefficients/Beta</span>, dùng cho mục đích",
     "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">So sánh mức độ tác động</span> của biến độc lập đối với biến phụ thuộc</div>",
-    "options": [],
+    "options": [
+      "A. Đánh giá sự phù hợp của toàn bộ mô hình hồi quy tuyến tính",
+      "B. So sánh mức độ tác động của biến độc lập đối với biến phụ thuộc",
+      "C. Kiểm tra hiện tượng đa cộng tuyến giữa các biến độc lập trong mô hình",
+      "D. Đo lường mức độ tương quan tuyến tính giữa hai biến ngẫu nhiên bất kỳ"
+    ],
     "tags": [
       "High",
       "Hồi quy & Tương quan"
-    ]
+    ],
+    "correctAnswer": 1
   },
   {
     "weight": "high",
@@ -1061,11 +1091,17 @@
     "weight": "high",
     "question": "Cho giá trị hệ số tương quan tuyến tính <span class=\"keyword\">|r| = 1</span>, giá trị này có ý nghĩa",
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Các điểm phân tán trên đồ thị xếp thành <span class=\"answer-keyword\">một đường thẳng</span> ",
-    "options": [],
+    "options": [
+      "A. Các điểm phân tán tạo thành một đường cong parabol hoàn hảo",
+      "B. Mức độ tác động của biến độc lập lên biến phụ thuộc là tuyệt đối",
+      "C. Không có bất kỳ mối liên hệ tuyến tính nào giữa hai biến số đang xét",
+      "D. Các điểm phân tán trên đồ thị xếp thành một đường thẳng"
+    ],
     "tags": [
       "High",
       "Hồi quy & Tương quan"
-    ]
+    ],
+    "correctAnswer": 3
   },
   {
     "question": "Trong các tính chất của các ước lượng điểm, thống kê mẫu được gọi là một ước lượng không chệch của tham số tổng thể khi",
@@ -1167,31 +1203,49 @@
     "question": "<img src=\"./_sources/12. Thống kê ứng dụng trong kinh doanh/btgk_q39.png\" style=\"max-width:100%; border-radius:8px; margin: 10px 0;\"><br> Vốn đầu tư trung bình của doanh nghiệp khác là bao nhiêu tỷ USD?",
     "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">31,7857 tỷ USD</span></div>\n        <div class=\"note\">💡 Giải thích: Dựa vào bảng số liệu được cung cấp để xác định trung bình.</div>",
     "weight": "normal",
-    "options": [],
+    "options": [
+      "A. 31,7857 tỷ USD",
+      "B. 30,5000 tỷ USD",
+      "C. 32,1542 tỷ USD",
+      "D. 29,8857 tỷ USD"
+    ],
     "tags": [
       "Low",
       "Mô tả & Trực quan"
-    ]
+    ],
+    "correctAnswer": 0
   },
   {
     "question": "<img src=\"./_sources/12. Thống kê ứng dụng trong kinh doanh/btgk_q40.png\" style=\"max-width:100%; border-radius:8px; margin: 10px 0;\"><br> Dữ liệu về vốn đầu tư có độ lệch chuẩn là bao nhiêu tỷ USD?",
     "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">80,56999 tỷ USD</span></div>\n        <div class=\"note\">💡 Giải thích: Dựa vào bảng số liệu để xác định độ lệch chuẩn.</div>",
     "weight": "normal",
-    "options": [],
+    "options": [
+      "A. 78,45000 tỷ USD",
+      "B. 85,12345 tỷ USD",
+      "C. 80,56999 tỷ USD",
+      "D. 82,34512 tỷ USD"
+    ],
     "tags": [
       "Low",
       "Mô tả & Trực quan"
-    ]
+    ],
+    "correctAnswer": 2
   },
   {
     "question": "<img src=\"./_sources/12. Thống kê ứng dụng trong kinh doanh/btgk_q41.png\" style=\"max-width:100%; border-radius:8px; margin: 10px 0;\"><br> Vốn đầu tư nhiều nhất của doanh nghiệp trong khảo sát là bao nhiêu tỷ USD?",
     "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">250</span></div>\n        <div class=\"note\">💡 Giải thích: Dựa vào các con số, giá trị lớn nhất (max) trong các lựa chọn có thể là 250 tỷ USD. (Dữ liệu gốc bị thiếu)</div>",
     "weight": "normal",
-    "options": [],
+    "options": [
+      "A. 200",
+      "B. 150",
+      "C. 300",
+      "D. 250"
+    ],
     "tags": [
       "Low",
       "Tổng quan & Thang đo"
-    ]
+    ],
+    "correctAnswer": 3
   },
   {
     "question": "Để ước lượng khoảng cho sự khác biệt giữa hai trung bình tổng thể trường hợp mẫu độc lập, lệnh nào sau đây phù hợp nhất?",
@@ -1485,11 +1539,17 @@
     "weight": "normal",
     "question": "... Chọn kết quả đúng cho dự báo quý 4 năm 2018.",
     "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Doanh thu trung bình dự báo được là 474,37 triệu đồng; khoảng tin cậy 95% cho giá trị dự báo doanh thu trung bình là (430,53; 518,22) triệu đồng</span></div>\n        <div class=\"note\">💡 Giải thích: Phương án A được chọn là đáp án phù hợp nhất cho kết quả dự báo trong ngữ cảnh bài toán.</div>",
-    "options": [],
+    "options": [
+      "A. Doanh thu trung bình dự báo được là 474,37 triệu đồng; khoảng tin cậy 95% cho giá trị dự báo doanh thu trung bình là (450,12; 498,62) triệu đồng",
+      "B. Doanh thu trung bình dự báo được là 430,53 triệu đồng; khoảng tin cậy 95% cho giá trị dự báo doanh thu trung bình là (400,00; 474,37) triệu đồng",
+      "C. Doanh thu trung bình dự báo được là 474,37 triệu đồng; khoảng tin cậy 95% cho giá trị dự báo doanh thu trung bình là (430,53; 518,22) triệu đồng",
+      "D. Doanh thu trung bình dự báo được là 518,22 triệu đồng; khoảng tin cậy 95% cho giá trị dự báo doanh thu trung bình là (474,37; 550,00) triệu đồng"
+    ],
     "tags": [
       "Low",
       "Tổng quan & Thang đo"
-    ]
+    ],
+    "correctAnswer": 2
   },
   {
     "weight": "normal",
@@ -1591,11 +1651,17 @@
     "question": "Test/Legacy Dialogs/2 Independent Sample  Cho giả thuyết và đối thuyết như sau: H0: không có sự khác biệt về thu nhập (triệu đồng) của người dân sống ở nông thôn và thành thị ở Việt Nam H1: có sự khác biệt về thu nhập (triệu đồng) của người dân sống ở nông thôn và thành thị ở Việt Nam Nhận định sau đây là đúng.",
     "answer": "",
     "weight": "normal",
-    "options": [],
+    "options": [
+      "A. Nếu giá trị Sig. (p-value) < 0.05 thì chấp nhận H0, kết luận không có sự khác biệt về thu nhập giữa hai khu vực",
+      "B. Nếu giá trị Sig. (p-value) > 0.05 thì bác bỏ H0, kết luận có sự khác biệt ý nghĩa về thu nhập giữa hai khu vực",
+      "C. Kiểm định này bắt buộc yêu cầu hai mẫu thu thập phải có kích thước bằng nhau tuyệt đối",
+      "D. Nếu giá trị Sig. (p-value) < 0.05 thì bác bỏ H0, kết luận có sự khác biệt ý nghĩa về thu nhập giữa hai khu vực"
+    ],
     "tags": [
       "Low",
       "Ước lượng & Kiểm định"
-    ]
+    ],
+    "correctAnswer": 3
   },
   {
     "question": "Cho giả thuyết và đối thuyết như sau: H0: Không có sự khác biệt về nghề nghiệp và khu vực sinh sống của người lao động ở Việt Nam H1: Có sự khác biệt về nghề nghiệp và khu vực sinh sống của người lao động ở Việt Nam Nhận định sau đây là đúng.",
