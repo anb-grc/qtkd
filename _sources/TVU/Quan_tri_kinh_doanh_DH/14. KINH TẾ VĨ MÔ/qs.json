@@ -2114,5 +2114,131 @@
       "Kiến thức",
       "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô"
     ]
+  },
+  {
+    "question": "Giả định <span class=\"keyword\">lãi suất là 8%</span>. Nếu phải lựa chọn giữa <span class=\"keyword\">100$ ngày hôm nay</span>, bạn sẽ chọn phương án nào?",
+    "options": [
+      "116$ ngày này 2 năm sau",
+      "<span class=\"answer-keyword\">100$ ngày hôm nay</span>",
+      "116,46 $ ngày này 2 năm sau",
+      "116,56$ ngày này 2 năm sau"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">100$ ngày hôm nay</span> <div class=\"note\">Giá trị tương lai của 100$ sau 2 năm với lãi suất 8% là FV = 100 * (1 + 0.08)^2 = 116.64$. Do đó, việc nhận 100$ ngay hôm nay có giá trị cao hơn bất kỳ phương án nào đưa ra ở tương lai (cao nhất trong các đáp án chỉ là 116.56$).</div>",
+    "tags": [
+      "Bài tập",
+      "Thị Trường Tiền Tệ & Tài Chính Quốc Tế"
+    ]
+  },
+  {
+    "question": "Yếu tố nào sau đây <span class=\"keyword\">KHÔNG</span> phải là <span class=\"keyword\">công cụ</span> của chính sách tiền tệ?",
+    "options": [
+      "Trái phiếu chính phủ",
+      "<span class=\"answer-keyword\">Cổ phiếu của công ty</span>",
+      "Tỷ lệ dự trữ bắt buộc",
+      "Lãi suất chiết khấu"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Cổ phiếu của công ty</span> <div class=\"note\">Chính sách tiền tệ do Ngân hàng Trung ương thực hiện bằng 3 công cụ vĩ mô chính: (1) Tỷ lệ dự trữ bắt buộc, (2) Lãi suất chiết khấu, (3) Nghiệp vụ thị trường mở (mua bán trái phiếu chính phủ). Cổ phiếu công ty thuộc thị trường vốn doanh nghiệp tư nhân, không liên quan đến điều tiết cung tiền.</div>",
+    "tags": [
+      "Kiến thức",
+      "Thị Trường Tiền Tệ & Tài Chính Quốc Tế"
+    ]
+  },
+  {
+    "question": "Giả sử tỷ lệ <span class=\"keyword\">tiền mặt</span> ngoài ngân hàng so với tiền ký gửi là <span class=\"keyword\">80%</span>, tỷ lệ <span class=\"keyword\">dự trữ chung</span> là <span class=\"keyword\">10%</span>. <span class=\"keyword\">Số nhân tiền</span> là:",
+    "options": [
+      "<span class=\"answer-keyword\">2</span>",
+      "4",
+      "3",
+      "1,5"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">2</span> <div class=\"note\">Công thức Số nhân tiền tệ (mM) = (cr + 1) / (cr + rr). Trong đó tỷ lệ tiền mặt so với tiền gửi cr = 80% = 0.8; tỷ lệ dự trữ chung rr = 10% = 0.1. Suy ra mM = (0.8 + 1) / (0.8 + 0.1) = 1.8 / 0.9 = 2.</div>",
+    "tags": [
+      "Bài tập",
+      "Thị Trường Tiền Tệ & Tài Chính Quốc Tế"
+    ]
+  },
+  {
+    "question": "Một sự gia tăng trong <span class=\"keyword\">nhập khẩu tự định</span> sẽ:",
+    "options": [
+      "Dịch chuyển đường IS sang phải",
+      "Dịch chuyển đường LM sang phải",
+      "Không ảnh hưởng đến đường IS",
+      "<span class=\"answer-keyword\">Dịch chuyển đường IS sang trái</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Dịch chuyển đường IS sang trái</span> <div class=\"note\">Nhập khẩu tự định (Mo) tăng làm cho Xuất khẩu ròng (NX = X - M) giảm, kéo theo Tổng cầu (AD) sụt giảm. Khi AD giảm, đường IS sẽ lập tức dịch chuyển sang trái (thu nhập cân bằng Y giảm tại mọi mức lãi suất).</div>",
+    "tags": [
+      "Kiến thức",
+      "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô"
+    ]
+  },
+  {
+    "question": "Mối quan hệ <span class=\"keyword\">nghịch biến</span> giữa <span class=\"keyword\">đầu tư và lãi suất</span> khiến cho:",
+    "options": [
+      "Đường LM dốc lên",
+      "Đường LM dốc xuống",
+      "<span class=\"answer-keyword\">Đường IS dốc xuống</span>",
+      "Đường IS dốc lên"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Đường IS dốc xuống</span> <div class=\"note\">Khi lãi suất (r) tăng, chi phí đi vay trở nên đắt đỏ hơn dẫn đến đầu tư (I) giảm. Đầu tư giảm kéo theo Tổng cầu (AD) và Thu nhập (Y) giảm. Mối liên hệ \"r tăng ➔ Y giảm\" chính là nguyên nhân tạo ra độ dốc âm (dốc xuống) của đường IS.</div>",
+    "tags": [
+      "Kiến thức",
+      "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô"
+    ]
+  },
+  {
+    "question": "Khi <span class=\"keyword\">thu nhập tăng</span>, <span class=\"keyword\">đường IS</span> cho biết:",
+    "options": [
+      "lãi suất phải tăng để đảm bảo sự cân bằng trên thị trường hàng hóa.",
+      "lãi suất phải tăng để đảm bảo sự cân bằng trên thị trường tài sản.",
+      "<span class=\"answer-keyword\">lãi suất phải giảm</span> để đảm bảo sự <span class=\"answer-keyword\">cân bằng</span> trên thị trường <span class=\"answer-keyword\">hàng hóa</span>.",
+      "lãi suất phải giảm để đảm bảo sự cân bằng trên thị trường tài sản."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">lãi suất phải giảm</span> để đảm bảo sự <span class=\"answer-keyword\">cân bằng</span> trên thị trường <span class=\"answer-keyword\">hàng hóa</span>. <div class=\"note\">Đường IS (Investment = Saving) tập hợp các phối hợp (r, Y) để đảm bảo thị trường HÀNG HÓA cân bằng (Y = AD). Do đường IS có độ dốc âm, khi thu nhập Y tăng (dịch sang phải) thì mức lãi suất tương ứng r bắt buộc phải giảm xuống để duy trì trạng thái cân bằng.</div>",
+    "tags": [
+      "Kiến thức",
+      "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô"
+    ]
+  },
+  {
+    "question": "Khi đầu tư làm <span class=\"keyword\">tăng khối lượng tư bản</span> trong nền kinh tế, đầu tư sẽ:",
+    "options": [
+      "<span class=\"answer-keyword\">Không gây ra tác động gì tới mức tổng cung ngắn hạn</span>, nhưng làm thay đổi mức <span class=\"answer-keyword\">sản lượng tiềm năng</span>, qua đó làm dịch chuyển đường <span class=\"answer-keyword\">tổng cung dài hạn sang phải</span>.",
+      "Làm cho đường tổng cung ngắn hạn dịch chuyển sang phải và đường tổng cung dài hạn dịch chuyển sang trái.",
+      "Làm cho đường tổng cung ngắn hạn dịch chuyển sang trái và đường tổng cung dài hạn dịch chuyển sang phải.",
+      "Gây ra tác động như một cú sốc cung thuận lợi và làm dịch chuyển đường tổng cung sang phải, qua đó làm tăng cả mức tổng cung và tổng cầu."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Không gây ra tác động gì tới mức tổng cung ngắn hạn</span>, nhưng làm thay đổi mức <span class=\"answer-keyword\">sản lượng tiềm năng</span>, qua đó làm dịch chuyển đường <span class=\"answer-keyword\">tổng cung dài hạn sang phải</span>. <div class=\"note\">Gia tăng khối lượng tư bản (K) làm bành trướng năng lực sản xuất cốt lõi của quốc gia, qua đó làm tăng trực tiếp sản lượng tiềm năng (Yp). Việc Yp tăng sẽ trực tiếp đẩy đường Tổng cung dài hạn (LRAS) dịch chuyển sang phải. Mức độ tác động lên SRAS tùy thuộc quan điểm học phái nhưng nền tảng là sự dịch chuyển của LRAS.</div>",
+    "tags": [
+      "Kiến thức",
+      "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô"
+    ]
+  },
+  {
+    "question": "Sự gia tăng nhân tố nào sau đây <span class=\"keyword\">không làm tăng năng suất</span> của một quốc gia?",
+    "options": [
+      "Tài nguyên thiên nhiên/ công nhân",
+      "Tư bản vật chất/ công nhân",
+      "<span class=\"answer-keyword\">Lao động</span>",
+      "Vốn nhân lực/ công nhân"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Lao động</span> <div class=\"note\">Năng suất (Productivity) được định nghĩa là lượng hàng hóa sản xuất ra TÍNH TRÊN MỖI ĐƠN VỊ LAO ĐỘNG (Y/L). Việc đơn thuần tăng số lượng lao động (L) chỉ làm tăng tổng sản lượng (Y) chứ không hề cải thiện năng suất bình quân của từng cá nhân. Năng suất chỉ tăng khi nâng cấp vốn nhân lực, tư bản vật chất hoặc công nghệ.</div>",
+    "tags": [
+      "Kiến thức",
+      "Khái Niệm Kinh Tế Vĩ Mô Cơ Bản"
+    ]
+  },
+  {
+    "question": "<span class=\"keyword\">Đường tổng cung</span> thể hiện mối quan hệ giữa:",
+    "options": [
+      "<span class=\"answer-keyword\">mức giá chung</span> và <span class=\"answer-keyword\">lượng tổng cung</span>.",
+      "chi tiêu và thu nhập của hộ gia đình.",
+      "mức giá chung và lượng tổng cầu.",
+      "mức giá chung và GDP danh nghĩa."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">mức giá chung</span> và <span class=\"answer-keyword\">lượng tổng cung</span>. <div class=\"note\">Đường Tổng cung (AS - Aggregate Supply) là đường biểu diễn lượng hàng hóa và dịch vụ mà các doanh nghiệp sẵn sàng sản xuất (Lượng tổng cung - nằm ở trục hoành) tương ứng tại mỗi mức giá chung (Trục tung) trong nền kinh tế.</div>",
+    "tags": [
+      "Kiến thức",
+      "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô"
+    ]
   }
 ]

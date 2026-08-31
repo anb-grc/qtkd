@@ -49,3 +49,5 @@ Khi chạy xong luồng xử lý câu hỏi mới, Agent tự động thêm 1 d�
 
 - 2026-08-30 23:54:45: Khởi tạo thành công bộ Khung Kiến thức Nền (kb.json) cho môn Thống kê ứng dụng trong kinh doanh, với 23 Micro-nodes. Đã map chính xác Component và đẩy lên Git.
 - KTVM: Lọc trùng 20 câu hỏi Batch 6, phát hiện 14 câu trùng lặp. Đã định dạng 6 câu mới tinh (gắn highlight Ma trận Lục hợp, bổ sung giải thích chi tiết) và nối vào qs.json.
+
+- KTVM: Xử lý lô 20 câu hỏi Batch 7. Đã lọc ra 11 câu trùng lặp, bóc tách và định dạng Ma trận Lục hợp thành công 9 câu mới (bao gồm cả các lý thuyết về đường IS, LM, LRAS và năng suất). Đã nối vào qs.json.
