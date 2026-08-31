@@ -79,3 +79,10 @@ Hãy xưng hô MÀY - TAO một cách tự nhiên như những người bạn th
 - **Kỷ luật Schema (Strict Type-Casting):**
   - CẤM tự chế, tự suy diễn các trường dữ liệu (fields) khi sinh JSON (vd: tự chế mảng `points` cho Quadrant).
   - Trước khi xuất JSON cho 1 Component cụ thể, Agent BẮT BUỘC dùng lệnh `cat` đọc chính xác Interface của Component đó trong `knowledge-app/src/types/schema.ts` để xem nó yêu cầu trường `content` (string) hay `items` (mảng array) và cung cấp chính xác tuyệt đối.
+
+6b. **THUẬT TOÁN ĐÚC ĐÁP ÁN NHIỄU (ONTOLOGICAL DISTRACTOR):**
+   Khi Agent được giao nhiệm vụ xử lý các câu trắc nghiệm thiếu đáp án (không đủ 4 options), hoặc chuyển đổi câu hỏi Tự luận thành Trắc nghiệm, hoặc tự sinh Quiz từ Knowledge Base, BẮT BUỘC áp dụng kỹ thuật 4 bước sau để tạo ra 3 đáp án bẫy:
+   - **(1) Ngữ nghĩa & Hành vi sai (Common Misconceptions):** Phân tích `question` và phần `💡 Giải thích` (Note) để tìm ra những lỗ hổng tư duy, những ngộ nhận sinh viên dễ mắc phải nhất. Bẫy phải đánh thẳng vào những lỗ hổng đó.
+   - **(2) Sự đồng dạng khái niệm (Ontological Proximity):** 3 đáp án nhiễu bắt buộc phải cùng một trường từ vựng và cấp độ học thuật với đáp án đúng (Ví dụ: Đúng là "Lao động trừu tượng" thì nhiễu phải là "Lao động cụ thể", cấm dùng từ lóng hay từ sai bối cảnh).
+   - **(3) Bám sát Blueprint (Chống Ảo Giác):** Tuyệt đối chỉ bốc các thuật ngữ, định nghĩa có thật trong `blueprint.json` (Khung giáo trình) hoặc ngữ cảnh hiện tại để làm mồi nhử.
+   - **(4) Thuật toán Trộn & Khớp Rule 10:** Gộp đáp án đúng và 3 đáp án nhiễu vào mảng `options`, tráo ngẫu nhiên (Shuffling) trước khi ghi file. Lưu ý: Vì 4 đáp án nay đã cực kỳ đồng dạng, Agent BẮT BUỘC phải áp dụng Luật 10 (Ma Trận Lục Hợp) để bôi đậm `answer-keyword` đúng vào điểm **Delta (sự khác biệt cốt lõi)** giúp sinh viên loại trừ bẫy. Tuyệt đối không lưu biến `correctAnswer` để giữ chuẩn cấu trúc 5 key của Luật 7.
