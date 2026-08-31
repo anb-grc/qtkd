@@ -1,9 +1,12 @@
 [
     {
         "weight": "high",
-        "question": "<span class=\"keyword\">Nguyên tắc nhất quán</span> là việc áp dụng chính sách kế toán phải được ổn định ít nhất trong <span class=\"keyword\">1 kỳ kế toán năm</span>",
+        "question": "<span class=\"keyword\">Nguyên tắc nhất quán</span> là việc áp dụng chính sách kế toán phải được ổn định ít nhất trong <span class=\"keyword\">1 kỳ kế toán năm</span><div class=\"options-grid\"><div>A. Đúng</div><div>B. Sai</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Đúng</span></div>\n        <div class=\"note\">💡 Giải thích: Theo VAS 01, chính sách kế toán phải áp dụng nhất quán ít nhất trong <b>1 kỳ kế toán năm</b>. Nếu muốn thay đổi phải giải trình rõ lý do trong phần thuyết minh báo cáo tài chính.</div>",
-        "options": [],
+        "options": [
+            "A. Đúng",
+            "B. Sai"
+        ],
         "tags": [
             "Kế toán Tài chính & Quản trị",
             "Cấu trúc"
@@ -246,9 +249,12 @@
     },
     {
         "weight": "high",
-        "question": "Các tài khoản <span class=\"keyword\">511, 515, 711</span> cuối kỳ <span class=\"keyword\">không có số dư</span>",
+        "question": "Các tài khoản <span class=\"keyword\">511, 515, 711</span> cuối kỳ <span class=\"keyword\">không có số dư</span><div class=\"options-grid\"><div>A. Đúng</div><div>B. Sai</div></div>",
         "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Đúng</span></div>\n        <div class=\"note\">💡 Giải thích: TK 511 (Doanh thu bán hàng), TK 515 (Doanh thu hoạt động tài chính), TK 711 (Thu nhập khác) đều là <b>tài khoản doanh thu</b> → cuối kỳ kết chuyển toàn bộ sang <b>TK 911</b> để xác định kết quả kinh doanh → số dư về 0.<br><br>💡 Quy tắc: Tài khoản doanh thu (5xx, 7xx) và chi phí (6xx, 8xx) đều không có số dư cuối kỳ. Chỉ có tài khoản tài sản, nợ PT và VCSH mới có số dư.</div>",
-        "options": [],
+        "options": [
+            "A. Đúng",
+            "B. Sai"
+        ],
         "tags": [
             "Kế toán Tài chính & Quản trị",
             "Cấu trúc"
