@@ -107,8 +107,17 @@ export function BlockRenderer({ block, index, qsData, onQuizPass }: BlockRendere
           }
 
           const formattedQs = matchedQs.map(q => {
-             let ansIdx = typeof q.correctAnswer === 'number' ? q.correctAnswer : 0;
-             if (typeof q.correctAnswer !== 'number' && q.answer) {
+             let ansIdx = 0;
+             if (typeof q.correctAnswer === 'number') {
+               ansIdx = q.correctAnswer;
+             } else if (Array.isArray(q.options) && q.options.length > 0) {
+               // Legacy support: tìm option chứa class 'answer-keyword'
+               const foundIdx = q.options.findIndex((opt: any) => String(opt).includes('answer-keyword'));
+               if (foundIdx !== -1) {
+                 ansIdx = foundIdx;
+               }
+             } else if (q.answer) {
+               // Fallback cũ: tìm chữ A, B, C, D trong answer
                const match = String(q.answer).match(/✅ Đáp án:<\/div>\s*([A-D])/i);
                if (match) {
                  const letter = match[1].toUpperCase();
