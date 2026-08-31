@@ -2030,5 +2030,89 @@
       "Kiến thức",
       "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô"
     ]
+  },
+  {
+    "question": "Khi cung tiền và cầu tiền được biểu diễn bằng một đồ thị với trục tung là lãi suất và trục hoành là lượng tiền, sự <span class=\"keyword\">cắt giảm thu nhập</span> làm:",
+    "options": [
+      "Dịch chuyển đường cầu tiền sang phải và làm tăng lãi suất cân bằng",
+      "<span class=\"answer-keyword\">Dịch chuyển đường cầu tiền sang trái</span> và làm <span class=\"answer-keyword\">giảm lãi suất</span> cân bằng",
+      "Dịch chuyển đường cầu tiền sang trái và làm tăng lãi suất cân bằng",
+      "Dịch chuyển đường cầu tiền sang phải và làm giảm lãi suất cân bằng"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Dịch chuyển đường cầu tiền sang trái</span> và làm <span class=\"answer-keyword\">giảm lãi suất</span> cân bằng <div class=\"note\">Cầu tiền phụ thuộc tỷ lệ thuận với thu nhập (Y). Khi thu nhập giảm, người dân cần ít tiền hơn để giao dịch, làm đường cầu tiền dịch sang trái, dẫn đến lãi suất cân bằng giảm xuống.</div>",
+    "tags": [
+      "Kiến thức",
+      "Thị Trường Tiền Tệ & Tài Chính Quốc Tế"
+    ]
+  },
+  {
+    "question": "Giả sử <span class=\"keyword\">lãi suất danh nghĩa</span> là 7% trong khi đó <span class=\"keyword\">cung tiền tăng</span> với tốc độ 5%/năm. Nếu chính phủ <span class=\"keyword\">tăng tốc độ tăng tiền</span> từ 5% lên đến 9%, <span class=\"keyword\">hiệu ứng Fisher</span> cho thấy rằng trong dài hạn, lãi suất danh nghĩa sẽ là:",
+    "options": [
+      "9%",
+      "12%",
+      "<span class=\"answer-keyword\">11%</span>",
+      "4%"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">11%</span> <div class=\"note\">Theo phương trình số lượng tiền, cung tiền tăng thêm 4% (từ 5% lên 9%) sẽ làm lạm phát tăng thêm 4%. Theo hiệu ứng Fisher (Lãi suất danh nghĩa = Lãi suất thực + Lạm phát kỳ vọng), khi lạm phát tăng thêm 4% thì lãi suất danh nghĩa cũng phải tăng thêm một mức tương ứng 4% (từ 7% lên 11%).</div>",
+    "tags": [
+      "Bài tập",
+      "Cú Sốc Vĩ Mô: Lạm Phát & Thất Nghiệp"
+    ]
+  },
+  {
+    "question": "Tác động ngắn hạn của chính sách <span class=\"keyword\">nới lỏng tiền tệ</span> trong nền kinh tế mở với cơ chế <span class=\"keyword\">tỷ giá hối đoái thả nổi</span> là:",
+    "options": [
+      "Đồng nội tệ tăng giá",
+      "Thặng dư hoặc tăng thâm hụt cán cân thương mại",
+      "<span class=\"answer-keyword\">Đồng nội tệ giảm giá</span>",
+      "Sản lượng giảm"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Đồng nội tệ giảm giá</span> <div class=\"note\">Nới lỏng tiền tệ làm giảm lãi suất trong nước. Dòng vốn có xu hướng chảy ra nước ngoài để tìm kiếm mức sinh lời cao hơn, làm tăng nguồn cung nội tệ trên thị trường ngoại hối, qua đó dẫn đến việc đồng nội tệ bị mất giá (giảm giá).</div>",
+    "tags": [
+      "Kiến thức",
+      "Thị Trường Tiền Tệ & Tài Chính Quốc Tế"
+    ]
+  },
+  {
+    "question": "Giả sử có các hàm số như sau: C = 100 + 0,8Yd ; I = 240 + 0,16Y – 80r; X = 210; M = 50 + 0,2Y; G = 500; T = 50 + 0,2Y. <span class=\"keyword\">Phương trình đường IS</span> có dạng?",
+    "options": [
+      "Y = 2400 - 320r",
+      "Y = 2400 + 320r",
+      "Y = 2400 + 200r",
+      "<span class=\"answer-keyword\">Y = 2400 – 200r</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Y = 2400 – 200r</span> <div class=\"note\">Đường IS được xác định từ trạng thái cân bằng: Y = C + I + G + X - M. Thu nhập khả dụng Yd = Y - T = Y - (50 + 0.2Y). Cứ thế biến đổi gộp các hệ số của Y lại về 1 vế và giải ra, ta sẽ rút ra được phương trình Y theo r là Y = 2400 - 200r.</div>",
+    "tags": [
+      "Bài tập",
+      "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô"
+    ]
+  },
+  {
+    "question": "Giả sử ta có phương trình đường IS là: <span class=\"keyword\">Y = 2400 – 200r</span> và LM: <span class=\"keyword\">r = -6 + 0,005Y</span>. <span class=\"keyword\">Sản lượng và lãi suất</span> cân bằng sẽ là:",
+    "options": [
+      "r = 3%, Y = 3600",
+      "r = 5%, Y = 1800",
+      "r = 4%, Y = 1800",
+      "<span class=\"answer-keyword\">r = 3%, Y = 1800</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">r = 3%, Y = 1800</span> <div class=\"note\">Thay trực tiếp r từ phương trình LM vào IS: Y = 2400 - 200(-6 + 0.005Y) ➔ Y = 2400 + 1200 - 1Y ➔ 2Y = 3600 ➔ Y = 1800. Sau đó thế Y = 1800 ngược lại vào phương trình LM: r = -6 + 0.005(1800) = -6 + 9 = 3%.</div>",
+    "tags": [
+      "Bài tập",
+      "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô"
+    ]
+  },
+  {
+    "question": "Trên đồ thị, trục hoành ghi sản lượng quốc gia, trục tung ghi mức giá chung, <span class=\"keyword\">đường tổng cung AS dịch chuyển</span> khi:",
+    "options": [
+      "Mức giá chung thay đổi",
+      "<span class=\"answer-keyword\">Công nghệ sản xuất</span> có những <span class=\"answer-keyword\">thay đổi đáng kể</span>",
+      "Thu nhập quốc gia không đổi",
+      "Chính phủ thay đổi các khoản chi ngân sách"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Công nghệ sản xuất</span> có những <span class=\"answer-keyword\">thay đổi đáng kể</span> <div class=\"note\">Mức giá chung (trục tung) thay đổi thì chỉ gây ra sự TRƯỢT DỌC trên đường AS. Để đường AS thực sự DỊCH CHUYỂN, bắt buộc phải có các cú sốc từ phía cung như: thay đổi đột phá về công nghệ, lượng vốn, lao động hoặc chi phí nguyên vật liệu đầu vào.</div>",
+    "tags": [
+      "Kiến thức",
+      "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô"
+    ]
   }
 ]

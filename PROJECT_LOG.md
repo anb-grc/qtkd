@@ -46,3 +46,6 @@ Khi chạy xong luồng xử lý câu hỏi mới, Agent tự động thêm 1 d�
 - [2026-08-27] [GIÁO DỤC THỂ CHẤT 1] Xóa bỏ metadata 'Mã số học phần' bị dính nhầm vào file kb.json.
 
 - KTVM: Tái cấu trúc và băm nhỏ các node bị lồng ghép trong kb.json (c2_tong_cau, c2_chu_ky, c3_tien_te, c3_nhtw, c3_ngoai_hoi, c4_lam_phat) thành các node đơn lẻ theo nguyên tắc Tinh gọn ý.
+
+- 2026-08-30 23:54:45: Khởi tạo thành công bộ Khung Kiến thức Nền (kb.json) cho môn Thống kê ứng dụng trong kinh doanh, với 23 Micro-nodes. Đã map chính xác Component và đẩy lên Git.
+- KTVM: Lọc trùng 20 câu hỏi Batch 6, phát hiện 14 câu trùng lặp. Đã định dạng 6 câu mới tinh (gắn highlight Ma trận Lục hợp, bổ sung giải thích chi tiết) và nối vào qs.json.
