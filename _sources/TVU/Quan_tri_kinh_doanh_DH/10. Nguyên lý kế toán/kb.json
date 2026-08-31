@@ -126,7 +126,7 @@
       "components": [
         {
           "type": "flip-card",
-          "title": "Bản chất Kế toán",
+          "title": "",
           "data": {
             "front": "Kế toán là gì?",
             "back": "Là quá trình thu thập, xử lý, kiểm tra, phân tích và cung cấp thông tin kinh tế, tài chính dưới hình thức giá trị, hiện vật và thời gian lao động."
@@ -134,7 +134,7 @@
         },
         {
           "type": "journey-map",
-          "title": "Tư duy tiếp cận Bản chất Kế toán",
+          "title": "",
           "data": {
             "persona": "Người mới học",
             "stages": [
@@ -157,7 +157,7 @@
         },
         {
           "type": "quiz",
-          "title": "Kiểm tra Bản chất Kế toán",
+          "title": "",
           "data": {
             "quiz_tags": [
               "Bản chất Kế toán",
@@ -172,7 +172,7 @@
       "components": [
         {
           "type": "vs-wrap",
-          "title": "Phân biệt Kế toán Tài chính và Kế toán Quản trị",
+          "title": "",
           "data": {
             "left": {
               "title": "Kế toán Tài chính",
@@ -196,7 +196,7 @@
         },
         {
           "type": "journey-map",
-          "title": "Tư duy Phân loại Kế toán",
+          "title": "",
           "data": {
             "persona": "Kế toán viên",
             "stages": [
@@ -212,7 +212,7 @@
         },
         {
           "type": "quiz",
-          "title": "Kiểm tra Kế toán TC & Quản trị",
+          "title": "",
           "data": {
             "quiz_tags": [
               "Kế toán Tài chính & Quản trị",
@@ -227,7 +227,7 @@
       "components": [
         {
           "type": "chat-simulation",
-          "title": "Tình huống Đạo đức Kế toán",
+          "title": "",
           "data": {
             "messages": [
               {
@@ -250,7 +250,7 @@
         },
         {
           "type": "journey-map",
-          "title": "Nhận thức Đạo đức Nghề nghiệp",
+          "title": "",
           "data": {
             "persona": "Kế toán viên",
             "stages": [
@@ -266,7 +266,7 @@
         },
         {
           "type": "quiz",
-          "title": "Kiểm tra Đạo đức nghề nghiệp",
+          "title": "",
           "data": {
             "quiz_tags": [
               "Đạo đức nghề nghiệp",
@@ -281,7 +281,7 @@
       "components": [
         {
           "type": "treemap",
-          "title": "Cấu trúc Bảng Cân đối Kế toán",
+          "title": "",
           "data": {
             "items": [
               {
@@ -309,7 +309,7 @@
         },
         {
           "type": "journey-map",
-          "title": "Tư duy Bảng Cân đối",
+          "title": "",
           "data": {
             "stages": [
               {
@@ -324,7 +324,7 @@
         },
         {
           "type": "quiz",
-          "title": "Kiểm tra Cấu trúc Bảng Cân đối",
+          "title": "",
           "data": {
             "quiz_tags": [
               "Cấu trúc Bảng Cân đối",
@@ -339,7 +339,7 @@
       "components": [
         {
           "type": "interactive-calc",
-          "title": "Phương trình Kế toán Cơ bản",
+          "title": "",
           "data": {
             "inputs": [
               {
@@ -359,7 +359,7 @@
         },
         {
           "type": "journey-map",
-          "title": "Tư duy Cân bằng Kế toán",
+          "title": "",
           "data": {
             "stages": [
               {
@@ -374,7 +374,7 @@
         },
         {
           "type": "quiz",
-          "title": "Kiểm tra Phương trình Kế toán",
+          "title": "",
           "data": {
             "quiz_tags": [
               "Phương trình Kế toán",
@@ -389,7 +389,7 @@
       "components": [
         {
           "type": "decision-tree",
-          "title": "Lựa chọn Chứng từ Kế toán",
+          "title": "",
           "data": {
             "startNodeId": "q1",
             "nodes": {
@@ -449,7 +449,7 @@
         },
         {
           "type": "journey-map",
-          "title": "Tư duy Pháp lý Chứng từ",
+          "title": "",
           "data": {
             "stages": [
               {
@@ -464,7 +464,7 @@
         },
         {
           "type": "quiz",
-          "title": "Kiểm tra Chứng từ",
+          "title": "",
           "data": {
             "quiz_tags": [
               "Hệ thống Chứng từ",
@@ -479,7 +479,7 @@
       "components": [
         {
           "type": "process-steps",
-          "title": "Quy trình Kiểm kê",
+          "title": "",
           "data": {
             "steps": [
               {
@@ -503,7 +503,7 @@
         },
         {
           "type": "journey-map",
-          "title": "Tư duy Kiểm kê",
+          "title": "",
           "data": {
             "stages": [
               {
@@ -518,7 +518,7 @@
         },
         {
           "type": "quiz",
-          "title": "Kiểm tra Quy trình Kiểm kê",
+          "title": "",
           "data": {
             "quiz_tags": [
               "Quy trình Kiểm kê",
@@ -533,7 +533,7 @@
       "components": [
         {
           "type": "t-account",
-          "title": "Mô hình Chữ T (T-Account)",
+          "title": "",
           "data": {
             "left": {
               "header": "Bên NỢ",
@@ -557,7 +557,7 @@
         },
         {
           "type": "journey-map",
-          "title": "Nhận diện Chữ T",
+          "title": "",
           "data": {
             "stages": [
               {
@@ -572,7 +572,7 @@
         },
         {
           "type": "quiz",
-          "title": "Kiểm tra Mô hình Chữ T",
+          "title": "",
           "data": {
             "quiz_tags": [
               "Mô hình Chữ T",
@@ -587,7 +587,7 @@
       "components": [
         {
           "type": "decision-tree",
-          "title": "Nguyên tắc Ghi sổ kép",
+          "title": "",
           "data": {
             "startNodeId": "q1",
             "nodes": {
@@ -647,7 +647,7 @@
         },
         {
           "type": "journey-map",
-          "title": "Tư duy Ghi sổ kép",
+          "title": "",
           "data": {
             "stages": [
               {
@@ -662,7 +662,7 @@
         },
         {
           "type": "quiz",
-          "title": "Kiểm tra Nguyên tắc Ghi sổ",
+          "title": "",
           "data": {
             "quiz_tags": [
               "Nguyên tắc Ghi sổ kép",
@@ -677,7 +677,7 @@
       "components": [
         {
           "type": "flip-card",
-          "title": "Các loại Giá trị Kế toán",
+          "title": "",
           "data": {
             "front": "Nguyên tắc Giá Gốc (Historical Cost)",
             "back": "Tài sản được ghi nhận theo giá trị tại thời điểm hình thành (thời điểm mua), KHÔNG thay đổi theo thị trường."
@@ -685,7 +685,7 @@
         },
         {
           "type": "journey-map",
-          "title": "Tư duy Tính giá",
+          "title": "",
           "data": {
             "stages": [
               {
@@ -700,7 +700,7 @@
         },
         {
           "type": "quiz",
-          "title": "Kiểm tra Các loại giá trị",
+          "title": "",
           "data": {
             "quiz_tags": [
               "Các loại Giá trị",
@@ -715,7 +715,7 @@
       "components": [
         {
           "type": "formula-breakdown",
-          "title": "Tính giá Xuất kho (Bình quân Gia quyền)",
+          "title": "",
           "data": {
             "formula": "Giá đơn vị BQ = (Giá trị Tồn đầu kỳ + Giá trị Nhập trong kỳ) / (Số lượng Tồn đầu kỳ + Số lượng Nhập trong kỳ)",
             "variables": [
@@ -732,7 +732,7 @@
         },
         {
           "type": "journey-map",
-          "title": "Nhận diện Kỹ thuật Tính giá",
+          "title": "",
           "data": {
             "stages": [
               {
@@ -747,7 +747,7 @@
         },
         {
           "type": "quiz",
-          "title": "Kiểm tra Tính giá Xuất kho",
+          "title": "",
           "data": {
             "quiz_tags": [
               "Tính giá Xuất kho",
@@ -762,7 +762,7 @@
       "components": [
         {
           "type": "waterfall-chart",
-          "title": "Cấu trúc Báo cáo Kết quả Kinh doanh",
+          "title": "",
           "data": {
             "unit": "VNĐ",
             "steps": [
@@ -806,7 +806,7 @@
         },
         {
           "type": "journey-map",
-          "title": "Đọc hiểu Dòng Lợi nhuận",
+          "title": "",
           "data": {
             "stages": [
               {
@@ -821,7 +821,7 @@
         },
         {
           "type": "quiz",
-          "title": "Kiểm tra Báo cáo KQKD",
+          "title": "",
           "data": {
             "quiz_tags": [
               "Báo cáo KQ Hoạt động Kinh doanh",
@@ -836,7 +836,7 @@
       "components": [
         {
           "type": "sankey-diagram",
-          "title": "Báo cáo Lưu chuyển Tiền tệ",
+          "title": "",
           "data": {
             "flows": [
               {
@@ -864,7 +864,7 @@
         },
         {
           "type": "journey-map",
-          "title": "Đọc hiểu Dòng tiền",
+          "title": "",
           "data": {
             "stages": [
               {
@@ -879,7 +879,7 @@
         },
         {
           "type": "quiz",
-          "title": "Kiểm tra Lưu chuyển tiền tệ",
+          "title": "",
           "data": {
             "quiz_tags": [
               "Báo cáo Lưu chuyển Tiền tệ",
@@ -894,7 +894,7 @@
       "components": [
         {
           "type": "quadrant",
-          "title": "Phân loại Sổ Kế toán",
+          "title": "",
           "data": {
             "x_axis": "Mức độ chi tiết (Tổng hợp / Chi tiết)",
             "y_axis": "Cơ sở ghi chép (Thời gian / Đối tượng)",
@@ -920,7 +920,7 @@
         },
         {
           "type": "journey-map",
-          "title": "Lựa chọn loại Sổ sách",
+          "title": "",
           "data": {
             "stages": [
               {
@@ -935,7 +935,7 @@
         },
         {
           "type": "quiz",
-          "title": "Kiểm tra Sổ Kế toán",
+          "title": "",
           "data": {
             "quiz_tags": [
               "Phân loại Sổ Kế toán",
@@ -950,7 +950,7 @@
       "components": [
         {
           "type": "flowchart",
-          "title": "Trình tự Ghi sổ Nhật ký chung",
+          "title": "",
           "data": {
             "steps": [
               {
@@ -978,7 +978,7 @@
         },
         {
           "type": "journey-map",
-          "title": "Luân chuyển dữ liệu Kế toán",
+          "title": "",
           "data": {
             "stages": [
               {
@@ -993,7 +993,7 @@
         },
         {
           "type": "quiz",
-          "title": "Kiểm tra Trình tự Ghi sổ",
+          "title": "",
           "data": {
             "quiz_tags": [
               "Trình tự Ghi sổ",
