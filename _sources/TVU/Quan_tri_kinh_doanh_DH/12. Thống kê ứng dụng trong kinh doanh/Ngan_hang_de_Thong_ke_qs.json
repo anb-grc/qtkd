@@ -115,11 +115,17 @@
     "weight": "high",
     "question": "Nghiên cứu mức độ hài lòng khách hàng của doanh nghiệp A, nhóm nghiên cứu sử dụng mô hình phân tích nhân tố khám phá, trong mô hình có <span class=\"keyword\">10 thang đo</span>, mỗi thang đo có <span class=\"keyword\">5 biến quan sát</span>, giả sử tỷ lệ số quan sát cho 1 biến phân tích là <span class=\"keyword\">5</span>, thì <span class=\"keyword\">cỡ mẫu</span> là bao nhiêu quan sát?",
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Tối thiểu <span class=\"answer-keyword\">250</span> <div class=\"note\">💡 Giải thích: Tổng số biến quan sát = 10 * 5 = 50 biến. Áp dụng quy tắc tỷ lệ 5:1 của Hair & cộng sự (2014) trong EFA: Cỡ mẫu tối thiểu = 50 * 5 = 250.</div>",
-    "options": [],
+    "options": [
+      "A. tập hợp tất cả các doanh nghiệp ở TP. Trà Vinh",
+      "B. mỗi phường của TP. Trà Vinh",
+      "C. mỗi doanh nghiệp ở TP. Trà Vinh",
+      "D. Danh sách liệt kê dữ liệu tất cả các doanh nghiệp tại các Phường của TP. Trà Vinh\n\nGắn cờ"
+    ],
     "tags": [
       "High",
       "Tổng quan & Thang đo"
-    ]
+    ],
+    "correctAnswer": 0
   },
   {
     "weight": "high",
@@ -349,11 +355,17 @@
     "weight": "high",
     "question": "Giá trị <span class=\"keyword\">Mode</span> được biết là",
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> giá trị trung tâm của dữ liệu, có tần số <span class=\"answer-keyword\">xuất hiện lớn nhất</span> của dữ liệu. <div class=\"note\">💡 Giải thích: Mode (Yếu vị) là giá trị có tần số xuất hiện nhiều nhất trong một tập dữ liệu.</div>",
-    "options": [],
+    "options": [
+      "A. giá trị trung tâm của dữ liệu, có tần số xuất hiện lớn nhất của dữ liệu.",
+      "B. giá trị trung tâm của dữ liệu, được tính bằng cách lấy tổng các giá trị quan sát chia cho số quan sát có được.",
+      "C. giá trị trung tâm dữ liệu, một số lớn hơn và nhỏ hơn số này của dữ liệu mẫu.",
+      "D. giá trị trung tâm dữ liệu, một số tách nửa lớn hơn và nửa nhỏ hơn số này của dữ liệu mẫu.\n\nGắn cờ"
+    ],
     "tags": [
       "High",
       "Mô tả & Trực quan"
-    ]
+    ],
+    "correctAnswer": 0
   },
   {
     "weight": "high",
@@ -465,11 +477,17 @@
     "weight": "high",
     "question": "<span class=\"keyword\">Điều tra chọn mẫu</span> là",
     "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">điều tra không toàn bộ</span>, chọn một số đủ lớn đơn vị <span class=\"answer-keyword\">đại diện</span> trong toàn bộ các đơn vị của tổng thể rồi dùng kết quả tính toán <span class=\"answer-keyword\">suy rộng</span> cho tổng thể</div>",
-    "options": [],
+    "options": [
+      "A. danh sách liệt kê dữ liệu cần thiết của tất cả các đơn vị và phần tử",
+      "B. trong nghiên cứu chi nhỏ tổng thể thành nhiều nhóm có đặc tính riêng",
+      "C. đối tượng nghiên cứu cần thu thập dữ liệu, đơn vị nhỏ nhất của tổng thể",
+      "D. tập hợp tất cả các đối tượng nghiên cứu (cần thu thập dữ liệu) mà nhà nghiên cứu cần nghiên cứu\n\nGắn cờ"
+    ],
     "tags": [
       "High",
       "Chọn mẫu & Thu thập"
-    ]
+    ],
+    "correctAnswer": 0
   },
   {
     "weight": "high",
@@ -607,11 +625,17 @@
     "weight": "high",
     "question": "Trong trường hợp nghiên cứu doanh nghiệp vừa và nhỏ ở TP. Trà Vinh, biết rằng <span class=\"keyword\">không biết được tỷ lệ</span> tổng thể các doanh nghiệp vừa và nhỏ ở TP. Trà Vinh, với <span class=\"keyword\">độ tin cậy 95%</span>, <span class=\"keyword\">sai số 7%</span>, việc chọn mẫu lớn an toàn và do nhiều kinh phí, thời gian cho chọn mẫu nên nhóm nghiên cứu ưu tiên chọn mẫu với số lượng <span class=\"keyword\">lớn nhất có thể</span>. Như cậy <span class=\"keyword\">cỡ mẫu</span> sẽ là bao nhiêu doanh nghiệp?",
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Tối thiểu <span class=\"answer-keyword\">196</span> ",
-    "options": [],
+    "options": [
+      "A. tập hợp tất cả các doanh nghiệp ở TP. Trà Vinh",
+      "B. mỗi phường của TP. Trà Vinh",
+      "C. mỗi doanh nghiệp ở TP. Trà Vinh",
+      "D. Danh sách liệt kê dữ liệu tất cả các doanh nghiệp tại các Phường của TP. Trà Vinh\n\nGắn cờ"
+    ],
     "tags": [
       "High",
       "Chọn mẫu & Thu thập"
-    ]
+    ],
+    "correctAnswer": 0
   },
   {
     "weight": "high",
@@ -707,11 +731,17 @@
     "weight": "high",
     "question": "<span class=\"keyword\">Phần tử nghiên cứu</span> là",
     "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">đối tượng nghiên cứu</span> cần thu thập dữ liệu, <span class=\"answer-keyword\">đơn vị nhỏ nhất</span> của tổng thể</div>",
-    "options": [],
+    "options": [
+      "A. tập hợp tất cả các đối tượng nghiên cứu (cần thu thập dữ liệu) mà nhà nghiên cứu cần nghiên cứu",
+      "B. đối tượng nghiên cứu cần thu thập dữ liệu, đơn vị nhỏ nhất của tổng thể",
+      "C. danh sách liệt kê dữ liệu cần thiết của tất cả các đơn vị và phần tử",
+      "D. trong nghiên cứu chi nhỏ tổng thể thành nhiều nhóm có đặc tính riêng\n\nGắn cờ"
+    ],
     "tags": [
       "High",
       "Chọn mẫu & Thu thập"
-    ]
+    ],
+    "correctAnswer": 1
   },
   {
     "weight": "high",
@@ -1327,11 +1357,17 @@
     "question": "... Nhận định sau đây là đúng.",
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div> Đây là giả thuyết và đối thuyết kiểm định sự khác biệt trung bình hai tổng thể, <span class=\"answer-keyword\">mẫu theo cặp</span> <div class=\"note\">💡 Giải thích: Dựa vào bối cảnh câu hỏi kế tiếp đánh giá cùng một đối tượng cho 2 sản phẩm, đây là kiểm định mẫu theo cặp.</div>",
     "weight": "normal",
-    "options": [],
+    "options": [
+      "A. Những đại lượng thay đổi từ người này sang người khác hay từ thời điểm này sang thời điểm khác; thể hiện một đại lượng đi kèm với một đơn vị hoặc thể hiện một đặc tính và đại lượng quan tâm đến việc lý giải nguyên nhân và bị ảnh hưởng bởi các yếu tố khác",
+      "B. Những đại lượng thay đổi từ người này sang người khác hay từ thời điểm này sang thời điểm khác",
+      "C. Đại lượng quan tâm đến việc lý giải nguyên nhân và bị ảnh hưởng bởi các yếu tố khác",
+      "D. Thể hiện một đại lượng đi kèm với một đơn vị hoặc thể hiện một đặc tính\n\nPhân tích phương sai một yếu tố được sử dụng khi\n\nA.\nYếu tố nghiên cứu là định lượng và định tính, biến định tính phân loại có từ hai nhóm trở xuống\nB.\nYếu tố nghiên cứu là định lượng và định tính, biến định tính phân loại không cần xác định số nhóm\nC.\nYếu tố nghiên cứu là định tính và định tính, biến định tính phân loại có hơn hai nhóm\nD.\nYếu tố nghiên cứu là định lượng và định tính, biến định tính phân loại có hơn hai nhóm\n\nGắn cờ"
+    ],
     "tags": [
       "Low",
       "Chọn mẫu & Thu thập"
-    ]
+    ],
+    "correctAnswer": 0
   },
   {
     "weight": "normal",
@@ -1353,41 +1389,65 @@
     "weight": "normal",
     "question": "... Nhận định nào sau đây đúng?",
     "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Hệ số tương quan giữa tỷ lệ lợi nhuận/doanh thu và tỷ lệ nợ/tổng vốn huy động r = 0,606; Sig. = 0,000</span></div>\n        <div class=\"note\">💡 Giải thích: Hệ số tương quan (r) phải nằm trong khoảng [-1, 1]. Do đó r=60 là sai. Với mức ý nghĩa Sig=0,000 cho thấy có sự tương quan tuyến tính có ý nghĩa, r=0,606 là giá trị hợp lý nhất.</div>",
-    "options": [],
+    "options": [
+      "A. Những đại lượng thay đổi từ người này sang người khác hay từ thời điểm này sang thời điểm khác; thể hiện một đại lượng đi kèm với một đơn vị hoặc thể hiện một đặc tính và đại lượng quan tâm đến việc lý giải nguyên nhân và bị ảnh hưởng bởi các yếu tố khác",
+      "B. Những đại lượng thay đổi từ người này sang người khác hay từ thời điểm này sang thời điểm khác",
+      "C. Đại lượng quan tâm đến việc lý giải nguyên nhân và bị ảnh hưởng bởi các yếu tố khác",
+      "D. Thể hiện một đại lượng đi kèm với một đơn vị hoặc thể hiện một đặc tính\n\nPhân tích phương sai một yếu tố được sử dụng khi\n\nA.\nYếu tố nghiên cứu là định lượng và định tính, biến định tính phân loại có từ hai nhóm trở xuống\nB.\nYếu tố nghiên cứu là định lượng và định tính, biến định tính phân loại không cần xác định số nhóm\nC.\nYếu tố nghiên cứu là định tính và định tính, biến định tính phân loại có hơn hai nhóm\nD.\nYếu tố nghiên cứu là định lượng và định tính, biến định tính phân loại có hơn hai nhóm\n\nGắn cờ"
+    ],
     "tags": [
       "Low",
       "Tổng quan & Thang đo"
-    ]
+    ],
+    "correctAnswer": 0
   },
   {
     "weight": "normal",
     "question": "... Nhận định nào sau đây đúng nhất?",
     "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Adjusted R Square = 0,931, các biến có mặt trong mô hình hồi quy đã giải thích được 93,1% sự thay đổi lượng tiền vay từ định chế chính thức</span></div>\n        <div class=\"note\">💡 Giải thích: Hệ số R bình phương hoặc R bình phương hiệu chỉnh (Adjusted R Square) thể hiện tỷ lệ phần trăm phương sai của biến phụ thuộc được giải thích bởi các biến độc lập. 0,931 tương ứng với 93,1%. Các đáp án khác sai về tỷ lệ phần trăm hoặc sai tên hệ số.</div>",
-    "options": [],
+    "options": [
+      "A. Những đại lượng thay đổi từ người này sang người khác hay từ thời điểm này sang thời điểm khác; thể hiện một đại lượng đi kèm với một đơn vị hoặc thể hiện một đặc tính và đại lượng quan tâm đến việc lý giải nguyên nhân và bị ảnh hưởng bởi các yếu tố khác",
+      "B. Những đại lượng thay đổi từ người này sang người khác hay từ thời điểm này sang thời điểm khác",
+      "C. Đại lượng quan tâm đến việc lý giải nguyên nhân và bị ảnh hưởng bởi các yếu tố khác",
+      "D. Thể hiện một đại lượng đi kèm với một đơn vị hoặc thể hiện một đặc tính\n\nPhân tích phương sai một yếu tố được sử dụng khi\n\nA.\nYếu tố nghiên cứu là định lượng và định tính, biến định tính phân loại có từ hai nhóm trở xuống\nB.\nYếu tố nghiên cứu là định lượng và định tính, biến định tính phân loại không cần xác định số nhóm\nC.\nYếu tố nghiên cứu là định tính và định tính, biến định tính phân loại có hơn hai nhóm\nD.\nYếu tố nghiên cứu là định lượng và định tính, biến định tính phân loại có hơn hai nhóm\n\nGắn cờ"
+    ],
     "tags": [
       "Low",
       "Hồi quy & Tương quan"
-    ]
+    ],
+    "correctAnswer": 0
   },
   {
     "weight": "normal",
     "question": "... Nhận định nào sau đây đúng cho giải thích ý nghĩa kinh tế của hệ số β2 của biến niêm yết chứng khoán (1- có niêm yết; 0 – không có niêm yết)?",
     "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">= 298,823, khi các yếu tố khác không đổi thì doanh nghiệp có niêm yết chứng khoán có lượng tiền vay từ định chế chính thức trung bình cao hơn doanh nghiệp không có niêm yết chứng khoán là 298,823 triệu đồng</span></div>\n        <div class=\"note\">💡 Giải thích: Ý nghĩa của hệ số hồi quy (β2 = 298,823) cho biến giả là sự chênh lệch trung bình giữa nhóm có đặc tính (niêm yết) và nhóm không có đặc tính, giữ các biến khác không đổi. Mức chênh lệch phải khớp với hệ số β2.</div>",
-    "options": [],
+    "options": [
+      "A. Giả thuyết và dối thuyết không nói về tham số có mặt trong quy luật phân phối của tổng thể",
+      "B. Giả thuyết và đối thuyết nói về tham số có mặt trong quy luật phân phối của tổng thể; hoặc giả thuyết và dối thuyết không nói về tham số có mặt trong quy luật phân phối của tổng thể",
+      "C. Giả thuyết và dối thuyết nói về tham số có mặt trong quy luật phân phối của tổng thể, biến chính là biến định lượng",
+      "D. Giả thuyết và đối thuyết nói về tham số có mặt trong quy luật phân phối của tổng thể\n\nGắn cờ"
+    ],
     "tags": [
       "Low",
       "Hồi quy & Tương quan"
-    ]
+    ],
+    "correctAnswer": 0
   },
   {
     "weight": "normal",
     "question": "... Nhận định nào sau đây đúng nhất với mức ý nghĩa 10%?",
     "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Biến Niêm yết chứng khoán, tổng tài sản, kinh nghiệm quản lý, tỷ số nợ, tốc độ tăng trưởng doanh thu có tác động đến lượng tiền vay từ định chế tài chính chính thức</span></div>\n        <div class=\"note\">💡 Giải thích: Dựa trên dữ liệu ngữ cảnh (bị ẩn), đây là phương án được chọn làm đáp án đúng dựa vào các biến có ý nghĩa thống kê (Sig. < 0.10).</div>",
-    "options": [],
+    "options": [
+      "A. Ước lượng được kỳ vọng cung cấp chính xác giá trị tham số tổng thể",
+      "B. Giá trị cung cấp bởi mẫu, cung cấp thông tin mức ước lượng gần như thế nào với giá trị tham số tổng thể",
+      "C. Ước lượng không được kỳ vọng cung cấp chính xác giá trị tham số tổng thể",
+      "D. Ước lượng được tính bằng cách cộng và trừ một giá trị được gọi là sai số biên vào giá trị ước lượng\n\nGắn cờ"
+    ],
     "tags": [
       "Low",
       "Ước lượng & Kiểm định"
-    ]
+    ],
+    "correctAnswer": 0
   },
   {
     "weight": "normal",
