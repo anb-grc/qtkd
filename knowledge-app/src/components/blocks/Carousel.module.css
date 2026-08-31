@@ -12,8 +12,8 @@
   padding: var(--space-sm) 0 4px 0; border-radius: 0;
   text-align: center; box-shadow: none;
 }
-.card h3 { color: var(--color-accent-secondary); margin-bottom: 4px; font-size: var(--text-xl); }
-.card p { color: var(--color-text-primary); font-size: var(--text-base); line-height: 1.6; }
+.card h3 { color: var(--color-accent-secondary); margin-bottom: 4px; font-size: var(--text-base); }
+.card p { color: var(--color-text-primary); font-size: var(--text-sm); line-height: 1.6; }
 .controls {
   display: flex; justify-content: center; align-items: center; gap: var(--space-md);
   margin-top: 4px;
