@@ -53,3 +53,4 @@ Khi chạy xong luồng xử lý câu hỏi mới, Agent tự động thêm 1 d�
 - KTVM: Xử lý lô 20 câu hỏi Batch 7. Đã lọc ra 11 câu trùng lặp, bóc tách và định dạng Ma trận Lục hợp thành công 9 câu mới (bao gồm cả các lý thuyết về đường IS, LM, LRAS và năng suất). Đã nối vào qs.json.
 
 - KTVM: Lọc lô 10 câu hỏi Batch 8. Loại bỏ 7 câu trùng, cập nhật 3 câu mới (Đường BP, mô hình Mundell-Fleming tỷ giá cố định, thành phần biến động chu kỳ) với Highlight chuẩn chỉ và giải thích chuyên sâu. Đã nối vào qs.json.
+- [2026-09-01] [GIÁO DỤC THỂ CHẤT 1] Xử lý Lô Đề Batch 9 (LUYỆN ĐỀ). Đã lọc trùng và bổ sung 9 câu hỏi mới vào ngân hàng. Gắn tag, highlight và weight theo chuẩn SSoT.
