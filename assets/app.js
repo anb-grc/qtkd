@@ -1251,10 +1251,10 @@ function renderHistory() {
     }
     
     let contentHtml = '<h2 style="margin-top:0; color:var(--text); font-size:1.4em; text-align:center;">LỊCH SỬ THI THỬ</h2>';
-    contentHtml += '<p style="color:var(--muted); font-size:0.9em; margin-bottom:20px;">Theo dõi sự tiến bộ của bạn qua các lần thi thử.</p>';
+    contentHtml += '<p style="color:var(--muted); font-size:0.9em; margin-bottom:20px; text-align:center;">Theo dõi sự tiến bộ của bạn qua các lần thi thử.</p>';
     
     if (history.length === 0) {
-      contentHtml += '<p style="color:var(--muted);">Bạn chưa có lịch sử làm bài nào cho môn này.</p>';
+      contentHtml += '<p style="color:var(--muted); text-align:center;">Bạn chưa có lịch sử làm bài nào cho môn này.</p>';
     } else {
       contentHtml += `
         <div style="max-height: 250px; overflow-y: auto; margin-bottom: 20px; border-radius: 8px; border: 1px solid var(--border);">
