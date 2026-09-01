@@ -2240,5 +2240,47 @@
       "Kiến thức",
       "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô"
     ]
+  },
+  {
+    "question": "<span class=\"keyword\">Đường BP</span> được định nghĩa là một đường tập hợp những phối hợp giữa <span class=\"keyword\">lãi suất và sản lượng</span> mà ở đó:",
+    "options": [
+      "Thị trường hàng hóa cân bằng",
+      "<span class=\"answer-keyword\">Cán cân thanh toán cân bằng</span>",
+      "Thị trường tiền tệ cân bằng",
+      "Cán cân thương mại cân bằng"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Cán cân thanh toán cân bằng</span> <div class=\"note\">Đường BP (Balance of Payments) tập hợp các phối hợp (r, Y) để Cán cân thanh toán quốc gia đạt trạng thái cân bằng (BP = 0). Nếu nằm trên đường BP thì thặng dư/thâm hụt tài khoản vãng lai (NX) sẽ được bù đắp vừa khít bởi thâm hụt/thặng dư của tài khoản vốn (F).</div>",
+    "tags": [
+      "Kiến thức",
+      "Thị Trường Tiền Tệ & Tài Chính Quốc Tế"
+    ]
+  },
+  {
+    "question": "Xét nền <span class=\"keyword\">kinh tế nhỏ</span> có <span class=\"keyword\">vốn luân chuyển</span> tự do, để <span class=\"keyword\">cố định tỷ giá</span> hối đoái, <span class=\"keyword\">chính sách tài khóa thu hẹp</span> thì:",
+    "options": [
+      "Phải được phối hợp với chính sách tiền tệ mở rộng.",
+      "Sẽ làm giảm lãi suất, tăng sản lượng.",
+      "<span class=\"answer-keyword\">Phải được phối hợp</span> với <span class=\"answer-keyword\">chính sách tiền tệ thu hẹp</span>.",
+      "Sẽ làm tăng lãi suất, tăng sản lượng."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Phải được phối hợp</span> với <span class=\"answer-keyword\">chính sách tiền tệ thu hẹp</span>. <div class=\"note\">Trong mô hình Mundell-Fleming (vốn luân chuyển hoàn hảo), chính sách tài khóa thu hẹp làm giảm lãi suất trong nước. Dòng vốn lập tức chảy ra ngoài làm đồng nội tệ có áp lực mất giá. Để CỐ ĐỊNH tỷ giá, NHTW bắt buộc phải can thiệp bằng cách bán ngoại tệ/rút nội tệ về, tức là bị động thực hiện chính sách tiền tệ THU HẸP.</div>",
+    "tags": [
+      "Kiến thức",
+      "Thị Trường Tiền Tệ & Tài Chính Quốc Tế"
+    ]
+  },
+  {
+    "question": "<span class=\"keyword\">Thành phần nào</span> của tổng chi tiêu <span class=\"keyword\">thay đổi nhiều hơn</span> trong một <span class=\"keyword\">chu kỳ kinh doanh</span> (xét trên góc độ tỷ lệ)?",
+    "options": [
+      "Chi tiêu của doanh nghiệp về tiền công và các loại tiền thưởng",
+      "<span class=\"answer-keyword\">Chi tiêu của doanh nghiệp</span> về <span class=\"answer-keyword\">hàng hóa tư bản</span>",
+      "Chi tiêu ngân sách nhà nước trung ương và địa phương",
+      "Chi tiêu cho tiêu dùng hàng hóa và dịch vụ"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Chi tiêu của doanh nghiệp</span> về <span class=\"answer-keyword\">hàng hóa tư bản</span> <div class=\"note\">Chi tiêu cho hàng hóa tư bản (đầu tư của doanh nghiệp) là thành phần biến động mạnh nhất và nhạy cảm nhất theo chu kỳ kinh doanh. Trong khi đó, tiêu dùng của hộ gia đình (C) hoặc chi tiêu chính phủ (G) thường ổn định hơn nhiều nhờ xu hướng duy trì mức sống và các cam kết ngân sách dài hạn.</div>",
+    "tags": [
+      "Kiến thức",
+      "Tổng Cung, Tổng Cầu & Mô Hình Vĩ Mô"
+    ]
   }
 ]
