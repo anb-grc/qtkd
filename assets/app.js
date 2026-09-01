@@ -780,6 +780,7 @@ function extractRawAnswerData(qObj) {
 }
 
 function startQuiz(quizMode = 'optimized', quizFormat = 'mcq') {
+    window.currentQuizFormat = quizFormat;
     let modal = document.getElementById('quiz-mode-modal');
     if (modal) modal.style.display = 'none';
 
@@ -975,7 +976,9 @@ function startQuiz(quizMode = 'optimized', quizFormat = 'mcq') {
       } else {
           html += `
               <div class="quiz-essay-placeholder" style="padding: 10px; background: rgba(255,255,255,0.05); border-radius: 8px; margin-bottom: 12px;">
-                 <p style="color: rgba(255,255,255,0.7); font-style: italic; font-size: 0.9em; margin: 0;">(Chế độ tự luận: Bạn hãy tự suy nghĩ câu trả lời và bấm Nộp bài để xem đáp án đúng)</p>
+                 <p style="color: rgba(255,255,255,0.7); font-style: italic; font-size: 0.9em; margin: 0; margin-bottom: 10px;">(Chế độ tự luận: Trình bày các ý cốt lõi mà bạn nhớ)</p>
+                 <textarea id="essay-ans-${index}" style="width: 100%; min-height: 80px; background: var(--surface-hover); color: var(--text); border: 1px solid var(--border); border-radius: 6px; padding: 10px; font-family: inherit; font-size: 0.95em; resize: vertical;" placeholder="Nhập câu trả lời của bạn vào đây..." oninput="checkEssayTyping()"></textarea>
+                 <div id="essay-feedback-${index}" style="display:none; margin-top:12px;"></div>
               </div>
           `;
       }
@@ -1069,6 +1072,10 @@ function updateTimerDisplay() {
 }
 
 function submitQuiz() {
+    if (window.currentQuizFormat === 'essay') {
+        submitEssayPhase1();
+        return;
+    }
     quizSubmitted = true;
     stopTimer();
     
@@ -1735,6 +1742,24 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
     });
+
+window.checkEssayTyping = function() {
+    if (!document.body.classList.contains('quiz-mode')) return;
+    if (window.currentQuizFormat !== 'essay') return;
+    
+    let total = quizQuestions.length;
+    let filled = 0;
+    for(let i=0; i<total; i++) {
+        let t = document.getElementById(`essay-ans-${i}`);
+        if(t && t.value.trim().length > 10) filled++;
+    }
+    const fabSubmit = document.getElementById('fabSubmit');
+    if (total > 0 && (filled / total) >= 0.5) {
+        fabSubmit.classList.add('visible');
+    } else {
+        fabSubmit.classList.remove('visible');
+    }
+};
 });
 
 
