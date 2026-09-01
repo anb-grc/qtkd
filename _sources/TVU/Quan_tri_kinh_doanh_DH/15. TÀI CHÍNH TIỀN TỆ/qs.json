@@ -2604,5 +2604,20 @@
       "Ngân hàng Thương mại (NHTM)",
       "Cấu trúc"
     ]
+  },
+  {
+    "question": "<span class=\"keyword\">Phí tổn và lợi ích</span> của chính sách <span class=\"keyword\">\"quá lớn không để vỡ nợ\"</span> là gì?",
+    "options": [
+      "Bộ máy cồng kềnh kém hiệu quả nhưng tiềm lực tài chính mạnh.",
+      "<span class=\"answer-keyword\">Chi phí đầu vào lớn</span> nhưng hoạt động kinh doanh <span class=\"answer-keyword\">ổn định</span>.",
+      "Chi phí quản lý lớn nhưng có khả năng chịu đựng tổn thất, thậm chí thua lỗ.",
+      "Chi phí quản lý lớn nhưng dễ dàng thích nghi với thị trường."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>\n<span class=\"answer-keyword\">Chi phí đầu vào lớn</span> nhưng hoạt động kinh doanh <span class=\"answer-keyword\">ổn định</span>.\n<div class=\"note\">Chính sách \"Too big to fail\" (quá lớn không thể vỡ nợ) thường áp dụng cho các định chế tài chính khổng lồ. Lợi ích là tạo ra sự ổn định hệ thống, nhưng phí tổn là chi phí đầu vào/vận hành cực kỳ lớn và nguy cơ rủi ro đạo đức.</div>",
+    "tags": [
+      "Hệ thống ngân hàng",
+      "Ngân hàng Thương mại (NHTM)",
+      "Rủi ro"
+    ]
   }
 ]
