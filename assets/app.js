@@ -1324,10 +1324,10 @@ function showQuizModal() {
                         <span>Trắc Nghiệm</span>
                         <span class="modal-btn-sub">Thi trắc nghiệm chấm điểm tự động</span>
                     </button>` : ''}
-                    ${hasEssay ? `<button onclick="selectQuizFormat('essay')" class="modal-btn modal-btn-str">
+                    `<button onclick="selectQuizFormat('essay')" class="modal-btn modal-btn-str">
                         <span>Tự Luận</span>
                         <span class="modal-btn-sub">Thi tự luận có gợi ý chấm điểm</span>
-                    </button>` : ''}
+                    </button>`
                 </div>
                 <button onclick="document.getElementById('quiz-mode-modal').style.display='none'" class="modal-btn-cancel">Đóng</button>
             </div>
