@@ -1021,6 +1021,7 @@ function startQuiz(quizMode = 'optimized', quizFormat = 'mcq') {
                  <p style="color: rgba(255,255,255,0.7); font-style: italic; font-size: 0.9em; margin: 0; margin-bottom: 10px;">(Chế độ tự luận: Trình bày các ý cốt lõi mà bạn nhớ)</p>
                  <textarea id="essay-ans-${index}" style="width: 100%; min-height: 80px; background: var(--surface-hover); color: var(--text); border: 1px solid var(--border); border-radius: 6px; padding: 10px; font-family: inherit; font-size: 0.95em; resize: vertical;" placeholder="Nhập câu trả lời của bạn vào đây..." oninput="checkEssayTyping()"></textarea>
                  <div id="essay-feedback-${index}" style="display:none; margin-top:12px;"></div>
+                 ${!document.body.classList.contains('quiz-mode') ? `<button onclick="document.getElementById('quiz-ans-${index}').classList.toggle('hidden-ans')" style="margin-top:12px; background:var(--primary); color:#fff; border:none; padding:8px 16px; border-radius:6px; cursor:pointer;">Lật Đáp Án</button>` : ''}
               </div>
           `;
       }
