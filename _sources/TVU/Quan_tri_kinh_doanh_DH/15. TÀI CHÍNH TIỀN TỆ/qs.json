@@ -2573,5 +2573,36 @@
       "Cung - Cầu Tiền tệ",
       "Nền tảng"
     ]
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Lãi suất cơ bản</span> là",
+    "options": [
+      "lãi suất mà người đi vay phải trả cho ngân hàng khi đi vay từ ngân hàng.",
+      "lãi suất ngân hàng trả cho các khoản tiền gửi vào ngân hàng.",
+      "lãi suất được các ngân hàng <span class=\"answer-keyword\">tham khảo làm cơ sở</span> để ấn định mức <span class=\"answer-keyword\">lãi suất kinh doanh</span> của mình.",
+      "lãi suất mà các ngân hàng áp dụng khi cho nhau vay trên thị trường liên ngân hàng."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>\nlãi suất được các ngân hàng <span class=\"answer-keyword\">tham khảo làm cơ sở</span> để ấn định mức <span class=\"answer-keyword\">lãi suất kinh doanh</span> của mình.\n<div class=\"note\">Lãi suất cơ bản là mức lãi suất tham chiếu (benchmark) do NHTW công bố, các NHTM dùng làm nền tảng để xây dựng biểu lãi suất huy động và cho vay của mình.</div>",
+    "tags": [
+      "Tín dụng và Lãi suất",
+      "Phân loại Lãi suất",
+      "Nền tảng"
+    ]
+  },
+  {
+    "question": "<span class=\"keyword\">Tài khoản tiền gửi thanh toán</span> của khách hàng mở tại ngân hàng thương mại thuộc",
+    "options": [
+      "tài sản của ngân hàng thương mại.",
+      "<span class=\"answer-keyword\">nguồn vốn</span> của ngân hàng thương mại.",
+      "tài khoản ngoại bảng của ngân hàng thương mại.",
+      "không thuộc đối tượng theo dõi của ngân hàng thương mại."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>\n<span class=\"answer-keyword\">nguồn vốn</span> của ngân hàng thương mại.\n<div class=\"note\">Tiền gửi của khách hàng là khoản nợ phải trả (nghĩa vụ trả lại) của ngân hàng, nên được hạch toán vào bên Nguồn vốn (Nợ phải trả) trên Bảng cân đối kế toán, không phải Tài sản.</div>",
+    "tags": [
+      "Hệ thống ngân hàng",
+      "Ngân hàng Thương mại (NHTM)",
+      "Cấu trúc"
+    ]
   }
 ]
