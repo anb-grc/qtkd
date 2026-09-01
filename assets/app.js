@@ -1251,7 +1251,7 @@ function renderHistory() {
     }
     
     let contentHtml = '<h2 style="margin-top:0; color:var(--text); font-size:1.4em; text-align:center;">LỊCH SỬ THI THỬ</h2>';
-    contentHtml += '<p style="color:var(--muted); font-size:0.9em; margin-bottom:20px;">Theo dõi sự tiến bộ của bạn qua các lần thi thử. Hãy cố gắng duy trì mức điểm Tốt (màu xanh lá).</p>';
+    contentHtml += '<p style="color:var(--muted); font-size:0.9em; margin-bottom:20px;">Theo dõi sự tiến bộ của bạn qua các lần thi thử.</p>';
     
     if (history.length === 0) {
       contentHtml += '<p style="color:var(--muted);">Bạn chưa có lịch sử làm bài nào cho môn này.</p>';
