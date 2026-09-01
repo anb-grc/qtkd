@@ -911,3 +911,13 @@ body.hide-mcq-options .mcq-options-container {
     font-weight: 600;
     border: 1px solid var(--border);
 }
+
+/* ====== DROPDOWN HOVER EFFECTS ====== */
+.tag-option, .limit-option {
+    border: 1px solid transparent !important;
+    transition: all 0.2s ease;
+}
+.tag-option:hover, .limit-option:hover {
+    border: 1px solid var(--primary) !important;
+    background: var(--primary-lt) !important;
+}
