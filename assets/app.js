@@ -89,7 +89,7 @@ function buildFilterUI(data) {
         let hasEssay = data.some(q => isEssayQuestion(q));
         if (hasEssay && !hasMcq) {
             window.practiceMode = 'essay';
-        } else if (hasMcq && !hasEssay) {
+        } else {
             window.practiceMode = 'mcq';
         }
     }
@@ -197,10 +197,10 @@ function buildFilterUI(data) {
                         <line x1="1" y1="1" x2="23" y2="23"></line>
                     </svg>
                 </button>
-                <button id="btnModeMcq" class="bottom-icon-btn" onclick="setPracticeMode('mcq')" title="Trắc nghiệm" style="padding:4px; border:none; background:transparent; color: ${window.practiceMode === 'mcq' ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display:${window.quizData.some(q => !isEssayQuestion(q)) ? 'flex' : 'none'}; align-items:center; justify-content:center; transition: color 0.2s;">
+                <button id="btnModeMcq" class="bottom-icon-btn" onclick="setPracticeMode('mcq')" title="Trắc nghiệm" style="padding:4px; border:none; background:transparent; color: ${window.practiceMode === 'mcq' ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display: flex; align-items:center; justify-content:center; transition: color 0.2s;">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
                 </button>
-                <button id="btnModeEssay" class="bottom-icon-btn" onclick="setPracticeMode('essay')" title="Tự luận" style="padding:4px; border:none; background:transparent; color: ${window.practiceMode === 'essay' ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display:${window.quizData.some(q => isEssayQuestion(q)) ? 'flex' : 'none'}; align-items:center; justify-content:center; transition: color 0.2s;">
+                <button id="btnModeEssay" class="bottom-icon-btn" onclick="setPracticeMode('essay')" title="Tự luận" style="padding:4px; border:none; background:transparent; color: ${window.practiceMode === 'essay' ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display: flex; align-items:center; justify-content:center; transition: color 0.2s;">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
                 </button>
 
@@ -361,7 +361,7 @@ function filterQuestions() {
     const query = normalizeTextForSearch(rawQuery);
     const tagFilter = document.getElementById('tagFilter') ? document.getElementById('tagFilter').value : 'all';
     
-    window.filteredData = window.quizData.filter(q => {
+    let baseFiltered = window.quizData.filter(q => {
         let matchSearch = true;
         let matchTag = true;
         q._searchScore = 0;
@@ -422,15 +422,57 @@ function filterQuestions() {
             }
         }
         
-        let isActuallyMcq = !isEssay;
+        return matchSearch && matchTag;
+    });
+
+    // 2. Map and Convert if PracticeMode == 'essay'
+    window.filteredData = [];
+    baseFiltered.forEach(q => {
+        let isNativeEssay = isEssayQuestion(q);
         
-        if (window.practiceMode === 'essay') {
-            matchMode = isEssay;
-        } else {
-            matchMode = isActuallyMcq;
+        if (window.practiceMode === 'mcq') {
+            if (!isNativeEssay) window.filteredData.push(q);
+        } else if (window.practiceMode === 'essay') {
+            if (isNativeEssay) {
+                window.filteredData.push(JSON.parse(JSON.stringify(q)));
+            } else {
+                let displayQ = q.question || '';
+                let qTextLower = displayQ.toLowerCase();
+                let isExclude = qTextLower.includes('sau đây') || 
+                                qTextLower.includes('dưới đây') || 
+                                qTextLower.includes('ngoại trừ') || 
+                                qTextLower.includes('câu sai') ||
+                                qTextLower.includes('không phải là') ||
+                                qTextLower.includes('đúng nhất');
+                
+                if (!isExclude) {
+                    let clonedQ = JSON.parse(JSON.stringify(q));
+                    if (!clonedQ.answer.includes('answer-keyword') && !clonedQ.answer.includes('keyword')) {
+                        let correctAnsRaw = extractRawAnswerData(clonedQ);
+                        let options = clonedQ.options || [];
+                        options = options.map(opt => opt.replace(/^((?:<[^>]+>\s*)*)[A-D][\.\)]\s*(?:<br\s*\/?>\s*)?/i, '$1').trim());
+                        let tmpCorrectDiv = document.createElement('div');
+                        tmpCorrectDiv.innerHTML = correctAnsRaw;
+                        let normCorrect = normalizeTextForSearch(tmpCorrectDiv.textContent || tmpCorrectDiv.innerText);
+                        let correctIdx = options.findIndex(opt => {
+                             let tmpOptDiv = document.createElement('div');
+                             tmpOptDiv.innerHTML = opt;
+                             let normOpt = normalizeTextForSearch(tmpOptDiv.textContent || tmpOptDiv.innerText);
+                             return normOpt.includes(normCorrect) || normCorrect.includes(normOpt);
+                        });
+                        if(correctIdx === -1) correctIdx = 0;
+                        let correctText = options[correctIdx] || "";
+                        let tmpText = document.createElement('div');
+                        tmpText.innerHTML = correctText;
+                        let cleanText = tmpText.textContent || tmpText.innerText;
+                        
+                        clonedQ.answer = `<div style="margin-bottom:10px; padding:8px; background:rgba(46, 204, 113, 0.1); border-left:3px solid #2ecc71; border-radius:4px;"><strong>ĐÁP ÁN CỐT LÕI (Auto-extracted):</strong> <span class="answer-keyword">${cleanText}</span></div>` + clonedQ.answer;
+                    }
+                    clonedQ.options = [];
+                    window.filteredData.push(clonedQ);
+                }
+            }
         }
-        
-        return matchSearch && matchTag && matchMode;
     });
     
     // Sort logic
@@ -1343,9 +1385,6 @@ function showQuizModal() {
     if (hasEssay && !hasMcq) {
         window.autoSkippedStep0 = true;
         selectQuizFormat('essay');
-    } else if (hasMcq && !hasEssay) {
-        window.autoSkippedStep0 = true;
-        selectQuizFormat('mcq');
     }
     
     modal.style.display = 'flex';
