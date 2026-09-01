@@ -159,21 +159,31 @@ function buildFilterUI(data) {
         </div>
     `;
     
-    let limitOptions = `
-        <option value="5">5 câu</option>
-        <option value="10">10 câu</option>
-        <option value="15" selected>15 câu</option>
-        <option value="20">20 câu</option>
-        <option value="40">40 câu</option>
-        <option value="all">Tất cả</option>
+    let currentLabel = "15 câu";
+    if (window.currentLimitValue === "all") currentLabel = "Tất cả";
+    else if (window.currentLimitValue) currentLabel = window.currentLimitValue + " câu";
+    
+    let limitHtml = `
+        <div id="limitDropdownContainer" style="position: relative; display: inline-block; flex-shrink: 0;">
+            <button id="limitDropdownBtn" onclick="toggleLimitDropdown()" style="display: flex; align-items: center; justify-content: space-between; padding: 6px 12px; background: var(--surface); color: var(--text); border: 1px solid var(--border); border-radius: var(--r); cursor: pointer; font-size: 0.85em; font-weight: 500; gap: 8px;">
+                <span id="limitDropdownLabel" style="white-space: nowrap;">${currentLabel}</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div id="limitDropdownList" style="display: none; position: absolute; top: 100%; left: 0; min-width: 100px; margin-top: 6px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--r); box-shadow: 0 8px 24px rgba(0,0,0,0.12); z-index: 100; padding: 6px;">
+                <div class="limit-option" onclick="selectLimit('5', '5 câu')" style="padding: 8px 10px; cursor: pointer; border-radius: 6px; transition: background 0.2s; font-size: 0.9em; font-weight: 500;">5 câu</div>
+                <div class="limit-option" onclick="selectLimit('10', '10 câu')" style="padding: 8px 10px; cursor: pointer; border-radius: 6px; transition: background 0.2s; font-size: 0.9em; font-weight: 500;">10 câu</div>
+                <div class="limit-option" onclick="selectLimit('15', '15 câu')" style="padding: 8px 10px; cursor: pointer; border-radius: 6px; transition: background 0.2s; font-size: 0.9em; font-weight: 500;">15 câu</div>
+                <div class="limit-option" onclick="selectLimit('20', '20 câu')" style="padding: 8px 10px; cursor: pointer; border-radius: 6px; transition: background 0.2s; font-size: 0.9em; font-weight: 500;">20 câu</div>
+                <div class="limit-option" onclick="selectLimit('40', '40 câu')" style="padding: 8px 10px; cursor: pointer; border-radius: 6px; transition: background 0.2s; font-size: 0.9em; font-weight: 500;">40 câu</div>
+                <div class="limit-option" onclick="selectLimit('all', 'Tất cả')" style="padding: 8px 10px; cursor: pointer; border-radius: 6px; transition: background 0.2s; font-size: 0.9em; font-weight: 500;">Tất cả</div>
+            </div>
+        </div>
     `;
     
     let controlsHtml = `
         <div style="display:flex; gap:6px; margin-top:12px; flex-wrap:wrap; width:100%; align-items:center; overflow: visible; padding-bottom: 2px;">
             ${tagsHtml}
-            <select id="limitFilter" onchange="changeLimit()" style="padding:6px 4px; border-radius:var(--r); border:1px solid var(--border); width:fit-content; flex-shrink: 0; background: var(--surface); color: var(--text); font-family: inherit; font-size: 0.85em; cursor: pointer;">
-                ${limitOptions}
-            </select>
+            ${limitHtml}
             <div style="flex: 1; min-width: 10px;"></div>
             <div style="display:flex; gap:0px; align-items:center; flex-shrink: 0; margin-left: auto; flex-wrap: nowrap; justify-content: flex-end;">
                 <!-- Nhóm 3 nút Filter/Mode -->
@@ -264,16 +274,34 @@ function extractKeywords(htmlStr, isAnswer) {
     return prefix + keywords.join(' ... ');
 }
 
-function changeLimit() {
-    let val = document.getElementById('limitFilter').value;
+function toggleLimitDropdown() {
+    let list = document.getElementById('limitDropdownList');
+    if (list) {
+        list.style.display = list.style.display === 'none' ? 'block' : 'none';
+    }
+}
+
+function selectLimit(val, label) {
+    window.currentLimitValue = val;
+    let lblElement = document.getElementById('limitDropdownLabel');
+    if (lblElement) lblElement.innerText = label;
+    
     if (val === 'all') {
         window.currentLimit = window.filteredData.length;
     } else {
         window.currentLimit = parseInt(val);
     }
+    
+    let list = document.getElementById('limitDropdownList');
+    if (list) list.style.display = 'none';
+    
     window.currentRendered = 0;
     document.getElementById('questions-list').innerHTML = '';
     renderBatch();
+}
+
+function changeLimit() {
+    // Deprecated native select change
 }
 
 // Sắp xếp: toggle High↑ (high trước) ↔ Low↑ (low trước)
