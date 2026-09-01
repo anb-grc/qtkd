@@ -976,7 +976,7 @@ function startQuiz(quizMode = 'optimized', quizFormat = 'mcq') {
     quizQuestions.forEach((qObj, index) => {
       let qHtml = qObj.question.replace(/<br\s*\/?>\s*<br\s*\/?>/gi, '<br>');
       let correctAns = extractRawAnswerData(qObj);
-      let options = qObj.options && qObj.options.length >= 4 ? [...qObj.options] : [];
+      let options = qObj.options && qObj.options.length > 0 ? [...qObj.options] : [];
       let finalQHtml = qHtml;
 
       // Cleanup A., B., C., D. prefixes if they exist at the start of options
