@@ -830,25 +830,53 @@ function startQuiz(quizMode = 'optimized', quizFormat = 'mcq') {
     quizSubmitted = false;
 
     // Lọc bỏ Tự Luận (options rỗng & không chứa format A.) khỏi Thi Thử
-    const poolData = window.quizData.filter(q => {
-        let isEssay = false;
-        let displayQ = q.question || '';
-        let qTextLower = displayQ.toLowerCase();
+    let poolData = [];
+    window.quizData.forEach(q => {
+        let isNativeEssay = isEssayQuestion(q);
         
-        if (q.tags && (q.tags.includes('Tự luận') || q.tags.includes('Essay'))) {
-            isEssay = true;
-        } else if (qTextLower.includes('tự luận:') || qTextLower.includes('câu hỏi tự luận') || qTextLower.includes('thảo luận:')) {
-            isEssay = true;
-        } else if (!q.options || q.options.length === 0) {
-            let hasEmbedded = [...displayQ.matchAll(/A[\.\)](?:\s|&nbsp;|<br|<\/?p>|<span)/g)].length > 0;
-            if (!hasEmbedded) {
-                if (qTextLower.includes('hãy trình bày') || qTextLower.includes('hãy phân tích') || 
-                    qTextLower.includes('hãy so sánh') || qTextLower.includes('phân biệt ')) {
-                    isEssay = true;
+        if (quizFormat === 'mcq') {
+            if (!isNativeEssay) poolData.push(q);
+        } else if (quizFormat === 'essay') {
+            if (isNativeEssay) {
+                poolData.push(JSON.parse(JSON.stringify(q)));
+            } else {
+                let displayQ = q.question || '';
+                let qTextLower = displayQ.toLowerCase();
+                let isExclude = qTextLower.includes('sau đây') || 
+                                qTextLower.includes('dưới đây') || 
+                                qTextLower.includes('ngoại trừ') || 
+                                qTextLower.includes('câu sai') ||
+                                qTextLower.includes('không phải là') ||
+                                qTextLower.includes('đúng nhất');
+                
+                if (!isExclude) {
+                    let clonedQ = JSON.parse(JSON.stringify(q));
+                    if (!clonedQ.answer.includes('answer-keyword') && !clonedQ.answer.includes('keyword')) {
+                        let correctAnsRaw = extractRawAnswerData(clonedQ);
+                        let options = clonedQ.options || [];
+                        options = options.map(opt => opt.replace(/^((?:<[^>]+>\s*)*)[A-D][\.\)]\s*(?:<br\s*\/?>\s*)?/i, '$1').trim());
+                        let tmpCorrectDiv = document.createElement('div');
+                        tmpCorrectDiv.innerHTML = correctAnsRaw;
+                        let normCorrect = normalizeTextForSearch(tmpCorrectDiv.textContent || tmpCorrectDiv.innerText);
+                        let correctIdx = options.findIndex(opt => {
+                             let tmpOptDiv = document.createElement('div');
+                             tmpOptDiv.innerHTML = opt;
+                             let normOpt = normalizeTextForSearch(tmpOptDiv.textContent || tmpOptDiv.innerText);
+                             return normOpt.includes(normCorrect) || normCorrect.includes(normOpt);
+                        });
+                        if(correctIdx === -1) correctIdx = 0;
+                        let correctText = options[correctIdx] || "";
+                        let tmpText = document.createElement('div');
+                        tmpText.innerHTML = correctText;
+                        let cleanText = tmpText.textContent || tmpText.innerText;
+                        
+                        clonedQ.answer = `<div style="margin-bottom:10px; padding:8px; background:rgba(46, 204, 113, 0.1); border-left:3px solid #2ecc71; border-radius:4px;"><strong>ĐÁP ÁN CỐT LÕI (Auto-extracted):</strong> <span class="answer-keyword">${cleanText}</span></div>` + clonedQ.answer;
+                    }
+                    clonedQ.options = [];
+                    poolData.push(clonedQ);
                 }
             }
         }
-        return quizFormat === 'essay' ? isEssay : !isEssay;
     });
 
     // Đổi giao diện sang chế độ Thi thử
