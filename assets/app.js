@@ -1072,8 +1072,12 @@ function startQuiz(quizMode = 'optimized', quizFormat = 'mcq') {
       </div>`;
     });
     
-    html += `<div class="quiz-actions"><button class="btn-submit-quiz" id="btnSubmitQuiz" onclick="submitQuiz()">NỘP</button></div>`;
+    html += `<div class="quiz-actions"><button class="btn-submit-quiz" id="btnSubmitQuiz" onclick="submitQuiz()">${window.currentQuizFormat === 'essay' ? 'CHẤM ĐIỂM' : 'NỘP'}</button></div>`;
     document.getElementById('quiz-content').innerHTML = html;
+    let fabSubmit = document.getElementById('fabSubmit');
+    if (fabSubmit) {
+        fabSubmit.innerHTML = window.currentQuizFormat === 'essay' ? 'Chấm điểm' : 'Nộp';
+    }
     if (window.MathJax && typeof window.MathJax.typesetPromise === 'function') { MathJax.typesetPromise(); }
     window.scrollTo({top: 0, behavior: 'smooth'});
 
@@ -1835,6 +1839,8 @@ window.checkEssayTyping = function() {
 function submitEssayPhase1() {
     stopTimer();
     const fabSubmit = document.getElementById('fabSubmit');
+    const bottomBtn = document.getElementById('btnSubmitQuiz');
+    if (bottomBtn) bottomBtn.style.display = 'none';
     
     // Evaluate keywords
     quizQuestions.forEach((qObj, index) => {
@@ -1892,6 +1898,20 @@ function submitEssayPhase1() {
     window.essayScores = {};
     updateEssayFab();
     fabSubmit.onclick = submitEssayPhase2;
+    
+    // Show summary box with instruction and scroll to top
+    let summary = document.getElementById('quiz-result-summary');
+    if (summary) {
+        summary.style.display = 'block';
+        summary.innerHTML = `
+          <div>Tiến trình: <span style="color:var(--primary);font-size:1.4em;" id="essay-progress-text">0 / ${quizQuestions.length} câu</span></div>
+          <div style="font-size: 0.85em; color: #666; margin-top: 2px;">(Hệ thống đã Auto-Highlight từ khóa. Bạn hãy đối chiếu và Tự Chấm Điểm)</div>
+          <div style="margin-top: 12px; display: flex; flex-direction: column; gap: 8px; align-items: center;">
+            <div style="color:var(--success); display:flex; align-items:center;">Kéo xuống để bắt đầu chấm điểm!</div>
+          </div>
+        `;
+    }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 window.essayScores = {};
