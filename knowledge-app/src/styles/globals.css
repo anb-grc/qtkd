@@ -81,10 +81,13 @@ body {
 
 /* === Scrollbar === */
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 4px;
+  height: 4px;
 }
 ::-webkit-scrollbar-track {
-  background: var(--color-bg-primary);
+  background: transparent;
+  border-radius: var(--radius-full);
+  margin: 8px; /* Ngăn scrollbar đâm vào góc bo của container */
 }
 ::-webkit-scrollbar-thumb {
   background: var(--color-bg-card-hover);

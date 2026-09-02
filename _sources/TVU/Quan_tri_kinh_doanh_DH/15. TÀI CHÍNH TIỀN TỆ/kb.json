@@ -12,32 +12,32 @@
             {
               "id": "chuong_1_comp_1",
               "label": "Sự ra đời và phát triển của tài chính",
-              "description": ""
+              "description": "Nhận diện tiền tệ là công cụ trung gian giúp quá trình phân phối và cất trữ giá trị diễn ra dễ dàng."
             },
             {
               "id": "chuong_1_comp_2",
               "label": "Khái niệm và bản chất của tài chính",
-              "description": ""
+              "description": "Quan sát các hoạt động thu/chi tiền mặt hoặc chuyển khoản hàng ngày của cá nhân, doanh nghiệp."
             },
             {
               "id": "chuong_1_comp_3",
               "label": "Chức năng của tài chính",
-              "description": ""
+              "description": "Phân bổ nguồn tài lực của xã hội vào các quỹ tiền tệ khác nhau."
             },
             {
               "id": "chuong_1_comp_4",
               "label": "Hệ thống tài chính",
-              "description": ""
+              "description": "Nhà nước điều tiết kinh tế và Trung gian tài chính đóng vai trò 'trạm trung chuyển' dòng vốn."
             },
             {
               "id": "chuong_1_comp_5",
               "label": "Vai trò của tài chính",
-              "description": ""
+              "description": "Sử dụng công cụ tài chính để hướng dòng vốn vào các ngành nghề trọng điểm."
             },
             {
               "id": "chuong_1_comp_6",
               "label": "Chính sách tài chính quốc gia",
-              "description": ""
+              "description": "Định hướng chính sách để kiểm soát lạm phát và ổn định giá cả."
             }
           ],
           "description": "Chương này cung cấp kiến thức nền tảng về lịch sử hình thành, khái niệm và bản chất cốt lõi của tài chính. Người học sẽ nắm bắt được cấu trúc hệ thống, các chức năng cơ bản và tầm quan trọng của chính sách tài chính đối với sự phát triển kinh tế vĩ mô."
@@ -48,37 +48,37 @@
             {
               "id": "chuong_2_comp_1",
               "label": "Bản chất & Mối quan hệ của NSNN",
-              "description": ""
+              "description": "Ghi nhận các con số thu (thuế, phí) và chi (đầu tư, lương) theo dự toán hàng năm."
             },
             {
               "id": "chuong_2_comp_2",
               "label": "Đặc điểm nhận diện NSNN",
-              "description": ""
+              "description": "Thu thuế dựa trên luật định và cưỡng chế, quỹ tiền tệ thuộc sở hữu toàn dân do Nhà nước đại diện."
             },
             {
               "id": "chuong_2_comp_3",
               "label": "Vai trò của NSNN",
-              "description": ""
+              "description": "Dùng chi tiêu công làm vốn mồi để kích thích đầu tư tư nhân, định hướng cơ cấu kinh tế."
             },
             {
               "id": "chuong_2_comp_4",
               "label": "Cấu trúc Thu - Chi NSNN",
-              "description": ""
+              "description": "Phân loại nguồn thu: Thuế (bắt buộc) là chủ lực, các khoản thu từ tài sản/viện trợ là bổ sung."
             },
             {
               "id": "chuong_2_comp_5",
               "label": "Các nhân tố tác động đến Thu - Chi",
-              "description": ""
+              "description": "Đánh giá mức độ tăng trưởng GDP, tỷ suất lợi nhuận và các cú sốc thị trường."
             },
             {
               "id": "chuong_2_comp_6",
               "label": "Rủi ro Bội chi & Cơ chế xử lý",
-              "description": ""
+              "description": "Chữa cháy thâm hụt bằng cách vay nợ hoặc yêu cầu ngân hàng trung ương in tiền."
             },
             {
               "id": "chuong_2_comp_7",
               "label": "Hệ thống tổ chức & Nguyên tắc phân cấp",
-              "description": ""
+              "description": "Giao quyền tự chủ thu/chi cho từng cấp (Trung ương, Tỉnh, Huyện, Xã) dựa trên khả năng quản lý."
             }
           ],
           "description": "Chương này phân tích bản chất, đặc điểm nhận diện và vai trò định hướng kinh tế của Ngân sách Nhà nước. Nội dung đi sâu vào cơ cấu thu - chi, các nhân tố tác động, nguyên tắc phân cấp tổ chức quản lý cũng như cơ chế xử lý rủi ro thâm hụt ngân sách."
@@ -89,32 +89,32 @@
             {
               "id": "chuong_3_comp_1",
               "label": "Tổng quan Tài chính doanh nghiệp",
-              "description": ""
+              "description": "Nhìn nhận TCDN như một mạch máu luân chuyển vốn, không chỉ là cái két sắt giữ tiền. Mọi quyết định thu/chi đều xoay quan..."
             },
             {
               "id": "chuong_3_comp_2",
               "label": "Bản chất Vốn kinh doanh",
-              "description": ""
+              "description": "Nhận diện vốn kinh doanh là 'phát súng lệnh' cho mọi chu kỳ hoạt động. Nó phải có trước, tồn tại song song và thay đổi h..."
             },
             {
               "id": "chuong_3_comp_3",
               "label": "Cơ cấu Nguồn vốn kinh doanh",
-              "description": ""
+              "description": "Sử dụng vốn chủ làm tấm đệm an toàn, tạo sự chủ động tối đa trong các quyết định chiến lược dài hạn."
             },
             {
               "id": "chuong_3_comp_4",
               "label": "Phân luồng Vốn cố định và Vốn lưu động",
-              "description": ""
+              "description": "Quản trị sự hao mòn. Vốn cố định là 'đại gia đình' tham gia nhiều chu kỳ, cần được thu hồi chậm rãi qua khấu hao."
             },
             {
               "id": "chuong_3_comp_5",
               "label": "Chi phí kinh doanh và Giá thành sản phẩm",
-              "description": ""
+              "description": "Kiểm soát dòng tiền ra. Chi phí là hao phí vật chất và lao động thực tế bỏ ra trong một thời kỳ nhất định."
             },
             {
               "id": "chuong_3_comp_6",
               "label": "Doanh thu và Lợi nhuận",
-              "description": ""
+              "description": "Tối đa hóa nguồn thu từ mọi mặt trận: kinh doanh cốt lõi, hoạt động tài chính và các khoản bất thường."
             }
           ],
           "description": "Chương này giới thiệu tổng quan về nguyên lý quản trị tài chính vi mô bên trong một tổ chức kinh tế. Nội dung tập trung phân tích bản chất, cơ cấu phân luồng dòng vốn đầu tư và nguyên tắc quản lý chi phí nhằm tối ưu hóa lợi nhuận và giá thành sản phẩm."
@@ -125,32 +125,32 @@
             {
               "id": "chuong_4_comp_1",
               "label": "Tổng quan Thị trường Tài chính",
-              "description": ""
+              "description": "Nhìn nhận thị trường tài chính là một 'trạm bơm' khổng lồ, nơi vốn chảy từ vùng trũng (thặng dư) sang vùng hạn hán (thâm..."
             },
             {
               "id": "chuong_4_comp_2",
               "label": "Phân loại Công cụ Thị trường Tài chính",
-              "description": ""
+              "description": "Phân loại rõ các công cụ để chọn đúng vũ khí cho từng mục tiêu: ngắn hạn vs dài hạn, nợ vs vốn, rủi ro vs an toàn."
             },
             {
               "id": "chuong_4_comp_3",
               "label": "Hệ sinh thái Thị trường Tiền tệ",
-              "description": ""
+              "description": "Nắm bắt vòng xoay cực nhanh của thị trường tiền tệ. Đây là sân chơi của những công cụ nợ ngắn hạn (dưới 1 năm)."
             },
             {
               "id": "chuong_4_comp_4",
               "label": "Cấu trúc Thị trường Vốn",
-              "description": ""
+              "description": "Bước vào thị trường vốn là bước vào cuộc đua đường dài (> 1 năm), nơi định hình cơ sở hạ tầng và chiến lược sinh tử của ..."
             },
             {
               "id": "chuong_4_comp_5",
               "label": "Luân chuyển Chứng khoán Sơ cấp & Thứ cấp",
-              "description": ""
+              "description": "Thị trường sơ cấp là 'nhà máy in tiền mới'. Hành động phát hành cổ phiếu/trái phiếu ở đây trực tiếp mang dòng vốn tươi v..."
             },
             {
               "id": "chuong_4_comp_6",
               "label": "Phân tích Logic Cổ phiếu & Trái phiếu",
-              "description": ""
+              "description": "Định vị bản thân là 'Ông chủ'. Góp vốn điều lệ, lời ăn lỗ chịu, được quyền tham gia quyết định quản trị."
             }
           ],
           "description": "Chương này phác họa toàn cảnh hệ sinh thái thị trường tài chính, phân định rõ cơ chế hoạt động của thị trường tiền tệ và thị trường vốn. Trọng tâm bài học giải mã sự luân chuyển của các công cụ chứng khoán sơ cấp, thứ cấp và logic phân tích cổ phiếu, trái phiếu."
@@ -161,37 +161,37 @@
             {
               "id": "chuong_5_comp_1",
               "label": "Nguồn gốc và Bản chất của Tiền tệ",
-              "description": ""
+              "description": "Tiền tệ là một hàng hóa đặc biệt đóng vai trò vật ngang giá chung, dùng để đo lường và biểu hiện giá trị của tất cả các ..."
             },
             {
               "id": "chuong_5_comp_2",
               "label": "Sự phát triển các hình thái của Tiền tệ",
-              "description": ""
+              "description": "Từ Hóa tệ đến Tiền giấy. Sự tiến hóa hướng tới sự gọn nhẹ, dễ mang vác và chia nhỏ để giao thương."
             },
             {
               "id": "chuong_5_comp_3",
               "label": "Chức năng và Vai trò của Tiền tệ",
-              "description": ""
+              "description": "Nắm bắt các chức năng cơ bản của tiền tệ như thước đo giá trị và phương tiện lưu thông."
             },
             {
               "id": "chuong_5_comp_4",
               "label": "Quy luật lưu thông Tiền tệ",
-              "description": ""
+              "description": "Xác định khối lượng tiền cần thiết (M) dựa trên mức giá cả (P), khối lượng hàng (Q) và vòng quay (V)."
             },
             {
               "id": "chuong_5_comp_5",
               "label": "Cung - Cầu Tiền tệ",
-              "description": ""
+              "description": "Quan sát luồng Cầu tiền tệ phụ thuộc tỷ lệ nghịch vào mặt bằng lãi suất."
             },
             {
               "id": "chuong_5_comp_6",
               "label": "Khối tiền tệ theo độ lỏng",
-              "description": ""
+              "description": "Phân loại tiền tệ thành các khối M1, M2, M3, M4 theo độ thanh khoản."
             },
             {
               "id": "chuong_5_comp_7",
               "label": "Chế độ tiền tệ",
-              "description": ""
+              "description": "Nghiên cứu các chế độ tiền tệ dựa trên bản vị vàng, bạc."
             }
           ],
           "description": "Chương này khám phá nguồn gốc, bản chất và sự tiến hóa của các hình thái tiền tệ qua các thời kỳ lịch sử. Kiến thức bao quát các chức năng cốt lõi, quy luật lưu thông, cơ chế cung - cầu và phương pháp phân loại khối tiền tệ dựa trên mức độ thanh khoản."
@@ -202,27 +202,27 @@
             {
               "id": "chuong_6_comp_1",
               "label": "Tổng quan về Tín dụng",
-              "description": ""
+              "description": "Xác định tín dụng là quan hệ vay mượn dựa trên nguyên tắc hoàn trả."
             },
             {
               "id": "chuong_6_comp_2",
               "label": "Các hình thức tín dụng",
-              "description": ""
+              "description": "Giao dịch mua bán chịu hàng hóa giữa các doanh nghiệp."
             },
             {
               "id": "chuong_6_comp_3",
               "label": "Bản chất và Ý nghĩa Lãi suất",
-              "description": ""
+              "description": "Phân biệt rạch ròi khái niệm Lợi tức (số tuyệt đối) và Lãi suất (tỷ lệ %)."
             },
             {
               "id": "chuong_6_comp_4",
               "label": "Phân loại Lãi suất",
-              "description": ""
+              "description": "Tách bạch Lãi suất danh nghĩa và Lãi suất thực (đã trừ lạm phát)."
             },
             {
               "id": "chuong_6_comp_5",
               "label": "Các nhân tố ảnh hưởng đến Lãi suất",
-              "description": ""
+              "description": "Phân tích biến động lãi suất thông qua cán cân cung - cầu vốn."
             }
           ],
           "description": "Chương này hệ thống hóa các hình thức tín dụng đa dạng và cơ chế hoạt động cho vay trong nền kinh tế. Đồng thời, nội dung làm rõ bản chất của lãi suất, các phương pháp phân loại và những nhân tố trọng yếu ảnh hưởng đến sự biến động của giá cả vốn."
@@ -233,27 +233,27 @@
             {
               "id": "chuong_7_comp_1",
               "label": "Lịch sử ra đời và phát triển Hệ thống ngân hàng",
-              "description": ""
+              "description": "Theo dõi sự lột xác từ nghề đổi tiền đúc sang hệ thống ngân hàng hiện đại."
             },
             {
               "id": "chuong_7_comp_2",
               "label": "Ngân hàng Thương mại (NHTM)",
-              "description": ""
+              "description": "NHTM tập trung thu hút nguồn vốn nhàn rỗi trong xã hội."
             },
             {
               "id": "chuong_7_comp_3",
               "label": "Ngân hàng Trung ương (NHTW)",
-              "description": ""
+              "description": "NHTW đóng vai trò định chế quyền lực, ban hành chính sách tiền tệ."
             },
             {
               "id": "chuong_7_comp_4",
               "label": "Chính sách Tiền tệ Quốc gia",
-              "description": ""
+              "description": "Lựa chọn mở rộng khi kinh tế suy thoái, hoặc thắt chặt khi phát triển nóng (lạm phát cao)."
             },
             {
               "id": "chuong_7_comp_5",
               "label": "Các công cụ của Chính sách tiền tệ",
-              "description": ""
+              "description": "NHTW sử dụng dự trữ bắt buộc và tái cấp vốn để can thiệp trực tiếp vào lượng tiền mặt của các NHTM."
             }
           ],
           "description": "Chương này làm rõ cấu trúc tổ chức và lịch sử phát triển của hệ thống ngân hàng, phân định vai trò giữa Ngân hàng Thương mại và Ngân hàng Trung ương. Trọng tâm kiến thức xoay quanh việc thiết lập chính sách tiền tệ quốc gia và sử dụng các công cụ điều hành kinh tế."
@@ -264,37 +264,37 @@
             {
               "id": "chuong_8_comp_1",
               "label": "Khái Niệm Lạm Phát",
-              "description": ""
+              "description": "Lạm phát là hiện tượng lượng tiền lưu thông vượt quá nhu cầu thực tế, làm đồng tiền mất giá."
             },
             {
               "id": "chuong_8_comp_2",
               "label": "Đo Lường Lạm Phát Bằng CPI",
-              "description": ""
+              "description": "Đo lường lạm phát thông qua chỉ số giá tiêu dùng của một 'giỏ' hàng hóa đại diện."
             },
             {
               "id": "chuong_8_comp_3",
               "label": "Phân Loại Lạm Phát Theo Định Lượng",
-              "description": ""
+              "description": "Lạm phát dưới 10% (vừa phải) đóng vai trò như chất bôi trơn kích thích sản xuất."
             },
             {
               "id": "chuong_8_comp_4",
               "label": "Phân Loại Lạm Phát Theo Định Tính",
-              "description": ""
+              "description": "Phân biệt lạm phát dự đoán trước và bất thường để có phương án dự phòng rủi ro."
             },
             {
               "id": "chuong_8_comp_5",
               "label": "Nguyên Nhân Gây Lạm Phát",
-              "description": ""
+              "description": "Lạm phát do lực kéo từ nhu cầu tiêu dùng (Cầu kéo) hoặc sức ép từ chi phí sản xuất (Chi phí đẩy)."
             },
             {
               "id": "chuong_8_comp_6",
               "label": "Hậu Quả Của Lạm Phát",
-              "description": ""
+              "description": "Lạm phát làm sai lệch thước đo giá trị, gây nhiễu loạn thông tin trong sản xuất và lưu thông."
             },
             {
               "id": "chuong_8_comp_7",
               "label": "Biện Pháp Kiềm Chế Lạm Phát",
-              "description": ""
+              "description": "Giảm cung tiền và cắt giảm chi tiêu công là biện pháp cổ điển trị lạm phát trực tiếp."
             }
           ],
           "description": "Chương này cung cấp góc nhìn toàn diện về hiện tượng lạm phát, từ phương pháp đo lường chỉ số giá tiêu dùng (CPI) đến các tiêu chí phân loại định tính và định lượng. Bài học cũng chỉ ra nguyên nhân gốc rễ, hệ lụy kinh tế xã hội và những giải pháp chiến lược nhằm kiểm soát lạm phát."
@@ -305,27 +305,27 @@
             {
               "id": "chuong_9_comp_1",
               "label": "Tỷ giá hối đoái và cơ chế hình thành",
-              "description": ""
+              "description": "Tỷ giá là giá cả của một đồng tiền được biểu hiện bằng một đồng tiền khác."
             },
             {
               "id": "chuong_9_comp_2",
               "label": "Cấu trúc cán cân thanh toán quốc tế",
-              "description": ""
+              "description": "BOP ghi chép lại mọi luồng tiền ra/vào quốc gia, gồm Tài khoản vãng lai và Tài khoản vốn."
             },
             {
               "id": "chuong_9_comp_3",
               "label": "Luồng vốn tín dụng và đầu tư quốc tế",
-              "description": ""
+              "description": "Các luồng vốn vay mượn với mục đích sinh lời hoặc tài trợ thương mại."
             },
             {
               "id": "chuong_9_comp_4",
               "label": "Quản trị rủi ro mất cân bằng cán cân thanh toán",
-              "description": ""
+              "description": "Sử dụng chính sách tiền tệ, tỷ giá hoặc hàng rào thuế quan để chặn đứng đà chảy máu ngoại tệ."
             },
             {
               "id": "chuong_9_comp_5",
               "label": "Hệ thống tổ chức tài chính quốc tế",
-              "description": ""
+              "description": "IMF tập trung chữa cháy tỷ giá, cán cân; WB tập trung cấp vốn phát triển dự án."
             }
           ],
           "description": "Chương này nghiên cứu cơ chế hình thành tỷ giá hối đoái và sự dịch chuyển của các luồng vốn đầu tư trên quy mô toàn cầu. Trọng tâm được đặt vào việc phân tích cấu trúc cán cân thanh toán, cách thức quản trị rủi ro mất cân bằng và vai trò của các định chế tài chính quốc tế."
