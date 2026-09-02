@@ -578,16 +578,17 @@
   
   /* Thanh cuộn chuẩn cho toàn bộ dự án (body, bảng, code block) */
   ::-webkit-scrollbar {
-      width: 6px;
-      height: 6px; 
+      width: 4px;
+      height: 4px; 
   }
   ::-webkit-scrollbar-track {
       background: transparent; 
-      border-radius: 4px;
+      border-radius: 10px;
+      margin: 8px; /* Ngăn scrollbar đâm vào góc bo của container */
   }
   ::-webkit-scrollbar-thumb {
       background: var(--border-md); 
-      border-radius: 4px;
+      border-radius: 10px;
   }
   ::-webkit-scrollbar-thumb:hover {
       background: var(--primary-lt); 
