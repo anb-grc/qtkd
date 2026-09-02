@@ -871,7 +871,7 @@
       "A. Các giá trị tính toán từ mẫu khảo sát, kết quả giá trị khảo sát đưa ra kết luận",
       "B. Một mệnh đề hay một phát biểu khẳng định về một vấn đề chưa giải quyết nào đó; hay một kết quả hay kết luận cụ thể nhằm khẳng định về một vấn đề chưa giải quyết nào đó hoặc các giá trị tính toán từ mẫu khảo sát, kết quả giá trị khảo sát đưa ra kết luận",
       "C. Một mệnh đề hay một phát biểu khẳng định về một vấn đề chưa giải quyết nào đó",
-      "D. Một kết quả hay kết luận cụ thể nhằm khẳng định về một vấn đề chưa giải quyết nào đó\n\nCho giả thuyết và đối thuyết như sau:\n\nH0: Không có sự khác biệt về nghề nghiệp và khu vực sinh sống của người lao động ở Việt Nam\n\nH1: Có sự khác biệt về nghề nghiệp và khu vực sinh sống của người lao động ở Việt Nam\n\nNhận định sau đây là đúng.\n\nA.\nĐây không phải là kiểm định phi tham số\nB.\nĐây là kiểm định vừa tham số và phi tham số\nC.\nĐây là kiểm định tham số\nD.\nĐây là kiểm định phi tham số\n\nGắn cờ"
+      "D. Một kết quả hay kết luận cụ thể nhằm khẳng định về một vấn đề chưa giải quyết nào đó"
     ],
     "tags": [
       "High",
@@ -1665,7 +1665,7 @@
   },
   {
     "question": "Cho giả thuyết và đối thuyết như sau: H0: Không có sự khác biệt về nghề nghiệp và khu vực sinh sống của người lao động ở Việt Nam H1: Có sự khác biệt về nghề nghiệp và khu vực sinh sống của người lao động ở Việt Nam Nhận định sau đây là đúng.",
-    "answer": "",
+    "answer": "<div class=\"answer-title\">✅ Đáp án: <span class=\"answer-keyword\">Đây là kiểm định phi tham số</span></div>\\n<div class=\"note\">💡 Giải thích: Kiểm định tính độc lập giữa 2 biến định tính (Nghề nghiệp và Khu vực sinh sống) là kiểm định Chi-bình phương, thuộc nhóm kiểm định phi tham số.</div>",
     "weight": "normal",
     "options": [
       "A. Đây không phải là kiểm định phi tham số",
@@ -1677,7 +1677,7 @@
       "Low",
       "Ước lượng & Kiểm định"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "question": "Kiểm định sự phù hợp của mô hình hồi quy cho kết luận",
