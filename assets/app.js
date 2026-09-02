@@ -1072,11 +1072,11 @@ function startQuiz(quizMode = 'optimized', quizFormat = 'mcq') {
       </div>`;
     });
     
-    html += `<div class="quiz-actions"><button class="btn-submit-quiz" id="btnSubmitQuiz" onclick="submitQuiz()">${window.currentQuizFormat === 'essay' ? 'CHẤM ĐIỂM' : 'NỘP'}</button></div>`;
+    html += `<div class="quiz-actions"><button class="btn-submit-quiz" id="btnSubmitQuiz" onclick="submitQuiz()">NỘP</button></div>`;
     document.getElementById('quiz-content').innerHTML = html;
     let fabSubmit = document.getElementById('fabSubmit');
     if (fabSubmit) {
-        fabSubmit.innerHTML = window.currentQuizFormat === 'essay' ? 'Chấm điểm' : 'Nộp';
+        fabSubmit.innerHTML = 'Nộp';
     }
     if (window.MathJax && typeof window.MathJax.typesetPromise === 'function') { MathJax.typesetPromise(); }
     window.scrollTo({top: 0, behavior: 'smooth'});
@@ -1938,7 +1938,7 @@ function updateEssayFab() {
     let scoredCount = Object.keys(window.essayScores).length;
     let total = quizQuestions.length;
     
-    fab.innerHTML = `Chốt điểm (${scoredCount}/${total})`;
+    fab.innerHTML = `Chấm điểm (${scoredCount}/${total})`;
     
     if (scoredCount === total) {
         fab.style.background = 'var(--success)'; // Green when ready
@@ -1990,17 +1990,21 @@ function submitEssayPhase2() {
     let summary = document.getElementById('quiz-result-summary');
     summary.style.display = 'block';
     
-    // Đếm số câu có điểm < 1 (được tính là sai/chưa hoàn thiện)
+    // Đếm số câu có điểm < 1 (được tính là sai) và add class is-wrong
     let wrongCount = 0;
-    Object.values(window.essayScores).forEach(s => {
-        if (s < 1) wrongCount++;
+    Object.entries(window.essayScores).forEach(([index, s]) => {
+        if (s < 1) {
+            wrongCount++;
+            let qBox = document.getElementById(`quiz-q-${index}`);
+            if (qBox) qBox.classList.add('is-wrong');
+        }
     });
 
     summary.innerHTML = `
       <div>Điểm của bạn: <span style="color:var(--primary);font-size:1.4em;">${score10} / 10</span></div>
-      <div style="font-size: 0.85em; color: #666; margin-top: 2px;">(Hoàn thành ${correctCount} / ${total} khối lượng kiến thức)</div>
+      <div style="font-size: 0.85em; color: #666; margin-top: 2px;">(Trả lời đúng ${correctCount} / ${total} câu)</div>
       <div style="margin-top: 12px; display: flex; flex-direction: column; gap: 8px; align-items: center;">
-        ${wrongCount > 0 ? `<div style="color:var(--warn); margin-bottom:5px;">Có ${wrongCount} câu bạn chưa thuộc kỹ. Hãy ôn lại!</div>` : `<div style="color:var(--success); display:flex; align-items:center;">Tuyệt vời! Bạn đã thuộc hết bài!</div>`}
+        ${wrongCount > 0 ? `<button class="btn-filter-wrong" onclick="filterWrongQuestions()" style="margin-top:0;">Chỉ xem ${wrongCount} câu sai</button>` : `<div style="color:var(--success); display:flex; align-items:center;">Tuyệt vời! Bạn làm đúng hết!</div>`}
         <button class="btn-continue-quiz" onclick="showQuizModal()">Luyện tiếp</button>
       </div>
     `;
