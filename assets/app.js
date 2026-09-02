@@ -197,14 +197,21 @@ function buildFilterUI(data) {
                         <line x1="1" y1="1" x2="23" y2="23"></line>
                     </svg>
                 </button>
-                <button id="btnModeMcq" class="bottom-icon-btn" onclick="setPracticeMode('mcq')" title="Trắc nghiệm" style="padding:4px; border:none; background:transparent; color: ${window.practiceMode === 'mcq' ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display: flex; align-items:center; justify-content:center; transition: color 0.2s;">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+                <button id="btnToggleMode" class="bottom-icon-btn" onclick="togglePracticeMode()" title="${window.practiceMode === 'essay' ? 'Tự luận' : 'Trắc nghiệm'}" style="padding:4px; border:none; background:transparent; color: ${window.practiceMode === 'essay' ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display: flex; align-items:center; justify-content:center; transition: color 0.2s;">
+                    <svg id="icon-mode-radio" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: ${window.practiceMode === 'essay' ? 'none' : 'block'};">
+                        <circle cx="4.5" cy="6" r="1.8" fill="currentColor"></circle>
+                        <line x1="10" y1="6" x2="21" y2="6"></line>
+                        <circle cx="4.5" cy="12" r="1.8"></circle>
+                        <line x1="10" y1="12" x2="21" y2="12"></line>
+                        <circle cx="4.5" cy="18" r="1.8"></circle>
+                        <line x1="10" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                    <svg id="icon-mode-feather" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: ${window.practiceMode === 'essay' ? 'block' : 'none'};">
+                        <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path>
+                        <line x1="16" y1="8" x2="2" y2="22"></line>
+                        <line x1="17.5" y1="15" x2="9" y2="15"></line>
+                    </svg>
                 </button>
-                <button id="btnModeEssay" class="bottom-icon-btn" onclick="setPracticeMode('essay')" title="Tự luận" style="padding:4px; border:none; background:transparent; color: ${window.practiceMode === 'essay' ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display: flex; align-items:center; justify-content:center; transition: color 0.2s;">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
-                </button>
-
-                
 
                 <!-- Nhóm 3 nút Chức năng -->
                 <button id="sortBtn" class="bottom-icon-btn" onclick="sortQuestions()" title="Trọng tâm" style="padding:4px; border:none; background:transparent; color: ${window.isHighSorted ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
@@ -213,7 +220,7 @@ function buildFilterUI(data) {
                 <button id="modeBtn" class="bottom-icon-btn" onclick="toggleKeywordMode()" title="Keyword" style="padding:4px; border:none; background:transparent; color: ${window.isKeywordMode ? 'var(--warn)' : 'var(--text)'}; cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"></path></svg>
                 </button>
-                <button id="printBtn" class="bottom-icon-btn" onclick="window.print()" title="In" style="padding:4px; border:none; background:transparent; color: var(--text); cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
+                <button id="printBtn" class="bottom-icon-btn" onclick="handlePrint()" title="In" style="padding:4px; border:none; background:transparent; color: var(--text); cursor:pointer; display:flex; align-items:center; justify-content:center; transition: color 0.2s;">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
                 </button>
             </div>
@@ -231,11 +238,16 @@ window.isKeywordMode = false;
 function toggleKeywordMode() {
     window.isKeywordMode = !window.isKeywordMode;
     const btn = document.getElementById('modeBtn');
+    if (btn) {
+        btn.classList.remove('anim-key-turn');
+        void btn.offsetWidth;
+        btn.classList.add('anim-key-turn');
+    }
     if (window.isKeywordMode) {
-        btn.style.color = 'var(--warn)';
+        if (btn) btn.style.color = 'var(--warn)';
         document.body.classList.add('keyword-mode-active');
     } else {
-        btn.style.color = 'var(--text)';
+        if (btn) btn.style.color = 'var(--text)';
         document.body.classList.remove('keyword-mode-active');
     }
 }
@@ -310,11 +322,16 @@ window.isHighSorted = false;
 function sortQuestions() {
     window.isHighSorted = !window.isHighSorted;
     const btn = document.getElementById('sortBtn');
+    if (btn) {
+        btn.classList.remove('anim-bounce-up');
+        void btn.offsetWidth;
+        btn.classList.add('anim-bounce-up');
+    }
     if (window.isHighSorted) {
-        btn.style.color = 'var(--warn)';
+        if (btn) btn.style.color = 'var(--warn)';
         document.body.classList.add('sort-high-active');
     } else {
-        btn.style.color = 'var(--text)';
+        if (btn) btn.style.color = 'var(--text)';
         document.body.classList.remove('sort-high-active');
     }
     filterQuestions();
@@ -327,33 +344,69 @@ function toggleMcqOptions() {
     const iconOpen = document.getElementById('icon-eye-open');
     const iconClosed = document.getElementById('icon-eye-closed');
     
+    if (btn) {
+        btn.classList.remove('anim-blink');
+        void btn.offsetWidth;
+        btn.classList.add('anim-blink');
+    }
+    
     if (window.showMcqOptions) {
         document.body.classList.remove('hide-mcq-options');
-        if(btn) btn.style.color = 'var(--warn)';
-        if(iconOpen) iconOpen.style.display = 'block';
-        if(iconClosed) iconClosed.style.display = 'none';
+        if (btn) btn.style.color = 'var(--warn)';
+        if (iconOpen) iconOpen.style.display = 'block';
+        if (iconClosed) iconClosed.style.display = 'none';
     } else {
         document.body.classList.add('hide-mcq-options');
-        if(btn) btn.style.color = 'var(--text)';
-        if(iconOpen) iconOpen.style.display = 'none';
-        if(iconClosed) iconClosed.style.display = 'block';
+        if (btn) btn.style.color = 'var(--text)';
+        if (iconOpen) iconOpen.style.display = 'none';
+        if (iconClosed) iconClosed.style.display = 'block';
+    }
+}
+
+function togglePracticeMode() {
+    const newMode = (window.practiceMode === 'mcq') ? 'essay' : 'mcq';
+    setPracticeMode(newMode);
+    const btn = document.getElementById('btnToggleMode');
+    if (btn) {
+        btn.classList.remove('anim-spin-pop');
+        void btn.offsetWidth;
+        btn.classList.add('anim-spin-pop');
+    }
+    if (typeof showToast === 'function') {
+        showToast(newMode === 'essay' ? 'Chế độ: Tự luận' : 'Chế độ: Trắc nghiệm');
     }
 }
 
 function setPracticeMode(mode) {
     window.practiceMode = mode;
-    const btnMcq = document.getElementById('btnModeMcq');
-    const btnEssay = document.getElementById('btnModeEssay');
-    if (btnMcq && btnEssay) {
-        if (mode === 'mcq') {
-            btnMcq.style.color = 'var(--warn)';
-            btnEssay.style.color = 'var(--text)';
+    const btnToggle = document.getElementById('btnToggleMode');
+    const iconRadio = document.getElementById('icon-mode-radio');
+    const iconFeather = document.getElementById('icon-mode-feather');
+    
+    if (btnToggle) {
+        if (mode === 'essay') {
+            btnToggle.style.color = 'var(--warn)';
+            btnToggle.title = 'Tự luận';
+            if (iconRadio) iconRadio.style.display = 'none';
+            if (iconFeather) iconFeather.style.display = 'block';
         } else {
-            btnEssay.style.color = 'var(--warn)';
-            btnMcq.style.color = 'var(--text)';
+            btnToggle.style.color = 'var(--text)';
+            btnToggle.title = 'Trắc nghiệm';
+            if (iconRadio) iconRadio.style.display = 'block';
+            if (iconFeather) iconFeather.style.display = 'none';
         }
     }
     filterQuestions();
+}
+
+function handlePrint() {
+    const btn = document.getElementById('printBtn');
+    if (btn) {
+        btn.classList.remove('anim-pulse-pop');
+        void btn.offsetWidth;
+        btn.classList.add('anim-pulse-pop');
+    }
+    setTimeout(() => window.print(), 200);
 }
 
 function filterQuestions() {

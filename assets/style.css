@@ -875,9 +875,70 @@ body.hide-mcq-options .mcq-options-container {
 }
 
 
-/* Bottom Icon Button Hover */
+/* Bottom Icon Button & Micro-animations */
+.bottom-icon-btn {
+    transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s ease !important;
+}
 .bottom-icon-btn:hover {
+    transform: translateY(-1px) scale(1.15) !important;
     color: var(--secondary) !important;
+}
+.bottom-icon-btn:active {
+    transform: scale(0.9) !important;
+}
+
+/* 1. Mode Switch: Spin & Pop */
+@keyframes iconSpinPop {
+    0% { transform: rotate(0deg) scale(0.7); opacity: 0.4; }
+    50% { transform: rotate(180deg) scale(1.25); opacity: 0.8; }
+    100% { transform: rotate(0deg) scale(1); opacity: 1; }
+}
+.anim-spin-pop {
+    animation: iconSpinPop 0.35s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+/* 2. Eye Toggle: Blink */
+@keyframes iconBlink {
+    0% { transform: scaleY(1); }
+    40% { transform: scaleY(0.1) scaleX(1.1); }
+    70% { transform: scaleY(1.2); }
+    100% { transform: scaleY(1) scaleX(1); }
+}
+.anim-blink {
+    animation: iconBlink 0.3s ease forwards;
+}
+
+/* 3. Sort: Arrow Bounce Up */
+@keyframes arrowBounceUp {
+    0% { transform: translateY(0); }
+    30% { transform: translateY(-4px) scale(1.1); }
+    60% { transform: translateY(1px); }
+    100% { transform: translateY(0) scale(1); }
+}
+.anim-bounce-up {
+    animation: arrowBounceUp 0.35s ease forwards;
+}
+
+/* 4. Keyword: Key Turn 45deg */
+@keyframes keyTurn {
+    0% { transform: rotate(0deg); }
+    40% { transform: rotate(-45deg) scale(1.2); }
+    75% { transform: rotate(10deg); }
+    100% { transform: rotate(0deg) scale(1); }
+}
+.anim-key-turn {
+    animation: keyTurn 0.35s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+/* 5. Print: Feed Pulse */
+@keyframes printPulse {
+    0% { transform: scale(1); }
+    35% { transform: translateY(2px) scale(0.92); }
+    70% { transform: translateY(-2px) scale(1.1); }
+    100% { transform: translateY(0) scale(1); }
+}
+.anim-pulse-pop {
+    animation: printPulse 0.35s ease forwards;
 }
 
 
