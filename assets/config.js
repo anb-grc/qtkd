@@ -5,7 +5,7 @@ window.TVU_SUBJECTS = [
     organization: "TVU",
     program: "Quản trị kinh doanh (Đại học)",
     desc: "Nắm vững quy trình ghi chép và lập báo cáo tài chính.",
-    jsonPath: "./_sources/TVU/Quan_tri_kinh_doanh_DH/10. Nguyên lý kế toán/Ngan_hang_de_Nguyen_ly_ke_toan_qs.json"
+    jsonPath: "./_sources/TVU/Quan_tri_kinh_doanh_DH/10. Nguyên lý kế toán/qs.json"
   },
   {
     id: "11",
