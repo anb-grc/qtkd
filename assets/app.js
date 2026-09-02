@@ -976,6 +976,7 @@ function startQuiz(quizMode = 'optimized', quizFormat = 'mcq') {
     quizQuestions.forEach((qObj, index) => {
       let qHtml = qObj.question.replace(/<br\s*\/?>\s*<br\s*\/?>/gi, '<br>');
       let correctAns = extractRawAnswerData(qObj);
+      console.log("QOBJ:", qObj.question, "OPTIONS:", qObj.options);
       let options = qObj.options && qObj.options.length > 0 ? [...qObj.options] : [];
       let finalQHtml = qHtml;
 
@@ -1965,9 +1966,24 @@ function submitEssayPhase2() {
     if (fabSubmit) fabSubmit.classList.remove('visible');
     
     // Show summary
-    document.getElementById('quiz-result-score').textContent = `${correctCount} / ${total}`;
-    document.getElementById('quiz-result-percent').textContent = `Đạt ${percent}%`;
-    document.getElementById('quiz-result-summary').style.display = 'block';
+    let score10 = ((correctCount / total) * 10).toFixed(1);
+    let summary = document.getElementById('quiz-result-summary');
+    summary.style.display = 'block';
+    
+    // Đếm số câu có điểm < 1 (được tính là sai/chưa hoàn thiện)
+    let wrongCount = 0;
+    Object.values(window.essayScores).forEach(s => {
+        if (s < 1) wrongCount++;
+    });
+
+    summary.innerHTML = `
+      <div>Điểm của bạn: <span style="color:var(--primary);font-size:1.4em;">${score10} / 10</span></div>
+      <div style="font-size: 0.85em; color: #666; margin-top: 2px;">(Hoàn thành ${correctCount} / ${total} khối lượng kiến thức)</div>
+      <div style="margin-top: 12px; display: flex; flex-direction: column; gap: 8px; align-items: center;">
+        ${wrongCount > 0 ? `<div style="color:var(--warn); margin-bottom:5px;">Có ${wrongCount} câu bạn chưa thuộc kỹ. Hãy ôn lại!</div>` : `<div style="color:var(--success); display:flex; align-items:center;">Tuyệt vời! Bạn đã thuộc hết bài!</div>`}
+        <button class="btn-continue-quiz" onclick="showQuizModal()">Luyện tiếp</button>
+      </div>
+    `;
     
     // Hide all self-assess buttons to finalize view
     document.querySelectorAll('.essay-score-group').forEach(el => el.style.pointerEvents = 'none');
