@@ -1907,11 +1907,9 @@ function submitEssayPhase1() {
     if (summary) {
         summary.style.display = 'block';
         summary.innerHTML = `
-          <div>Tiến trình: <span style="color:var(--primary);font-size:1.4em;" id="essay-progress-text">0 / ${quizQuestions.length} câu</span></div>
-          <div style="font-size: 0.85em; color: #666; margin-top: 2px;">(Hệ thống đã Auto-Highlight từ khóa. Bạn hãy đối chiếu và Tự Chấm Điểm)</div>
-          <div style="margin-top: 12px; display: flex; flex-direction: column; gap: 8px; align-items: center;">
-            <div style="color:var(--success); display:flex; align-items:center;">Kéo xuống để bắt đầu chấm điểm!</div>
-          </div>
+          <div style="font-weight: 500; font-size: 1.1em;">Tiến trình: <span style="color:var(--primary); font-weight: 700;" id="essay-progress-text">0 / ${quizQuestions.length} câu</span></div>
+          <div style="font-size: 0.9em; color: var(--muted); margin-top: 4px;">(Dựa vào các từ khóa đã in đậm, bạn hãy đối chiếu và chấm điểm)</div>
+          <div style="margin-top: 12px; font-weight: 600; color:var(--success);">Kéo xuống để bắt đầu chấm điểm!</div>
         `;
     }
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -1960,7 +1958,7 @@ function submitEssayPhase2() {
     let total = quizQuestions.length;
     let scoredCount = Object.keys(window.essayScores).length;
     if(scoredCount < total) {
-        alert(`Bạn còn ${total - scoredCount} câu chưa tự chấm điểm!`);
+        showToast(`Bạn còn ${total - scoredCount} câu chưa chấm điểm!`);
         return;
     }
     
