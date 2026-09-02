@@ -29,24 +29,10 @@ td {
   font-size: var(--text-sm);
   transition: all 0.3s;
 }
-td:not(:first-child) {
-  filter: blur(4px);
-  opacity: 0.6;
-  cursor: pointer;
-  user-select: none;
-  transition: filter 0.25s ease, opacity 0.25s ease, background 0.25s ease;
-}
 tr:last-child td { border-bottom: none; }
 tr:hover td, tr.active td { 
   background: rgba(108, 92, 231, 0.08); 
   color: var(--color-text-primary); 
-}
-tr:hover td:not(:first-child),
-tr.active td:not(:first-child),
-td.active:not(:first-child) {
-  filter: blur(0);
-  opacity: 1;
-  user-select: text;
 }
 
   .container { margin: 0; padding: var(--space-sm) 0; }
