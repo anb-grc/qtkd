@@ -1840,7 +1840,11 @@ function submitEssayPhase1() {
     stopTimer();
     const fabSubmit = document.getElementById('fabSubmit');
     const bottomBtn = document.getElementById('btnSubmitQuiz');
-    if (bottomBtn) bottomBtn.style.display = 'none';
+    if (fabSubmit) fabSubmit.style.display = 'none'; // hide FAB completely
+    if (bottomBtn) {
+        bottomBtn.style.display = 'inline-block';
+        bottomBtn.onclick = submitEssayPhase2;
+    }
     
     // Evaluate keywords
     quizQuestions.forEach((qObj, index) => {
@@ -1894,10 +1898,9 @@ function submitEssayPhase1() {
         }
     });
     
-    // Change fabSubmit to Phase 2
+    // Phase 2 setup
     window.essayScores = {};
     updateEssayFab();
-    fabSubmit.onclick = submitEssayPhase2;
     
     // Show summary box with instruction and scroll to top
     let summary = document.getElementById('quiz-result-summary');
@@ -1933,20 +1936,23 @@ function selectEssayScore(index, score) {
 }
 
 function updateEssayFab() {
+    let btn = document.getElementById('btnSubmitQuiz');
     let fab = document.getElementById('fabSubmit');
-    if(!fab) return;
+    if(fab) {
+        fab.classList.remove('visible');
+        fab.style.display = 'none'; // force hide
+    }
+    if(!btn) return;
+    
     let scoredCount = Object.keys(window.essayScores).length;
     let total = quizQuestions.length;
     
-    fab.innerHTML = `Chấm điểm (${scoredCount}/${total})`;
+    btn.innerHTML = `CHẤM ĐIỂM (${scoredCount}/${total})`;
     
     if (scoredCount === total) {
-        fab.style.background = 'var(--success)'; // Green when ready
-        fab.style.pointerEvents = 'auto';
-        fab.style.opacity = '1';
+        btn.style.background = 'var(--success)'; // Green when ready
     } else {
-        fab.style.background = 'var(--primary)';
-        // Still allow click, but we can warn them if not finished
+        btn.style.background = 'var(--primary)';
     }
 }
 
@@ -1981,9 +1987,11 @@ function submitEssayPhase2() {
     
     localStorage.setItem(subjectKey, JSON.stringify(history));
     
-    // Hide fab
+    // Hide fab & bottom btn
     const fabSubmit = document.getElementById('fabSubmit');
     if (fabSubmit) fabSubmit.classList.remove('visible');
+    const bottomBtn = document.getElementById('btnSubmitQuiz');
+    if (bottomBtn) bottomBtn.style.display = 'none';
     
     // Show summary
     let score10 = ((correctCount / total) * 10).toFixed(1);
