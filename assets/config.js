@@ -54,5 +54,37 @@ window.TVU_SUBJECTS = [
     program: "Quản trị kinh doanh (Đại học)",
     desc: "Môn học tin học ứng dụng cơ bản.",
     jsonPath: "./_sources/TVU/Quan_tri_kinh_doanh_DH/16. TIN HỌC ỨNG DỤNG CƠ BẢN/qs.json"
+  },
+  {
+    id: "17",
+    name: "Marketing căn bản",
+    organization: "TVU",
+    program: "Quản trị kinh doanh (Đại học)",
+    desc: "Kiến thức tổng quan về marketing, môi trường marketing, hành vi tiêu dùng và chiến lược 4P.",
+    jsonPath: "./_sources/TVU/Quan_tri_kinh_doanh_DH/17. Marketing căn bản/qs.json"
+  },
+  {
+    id: "18",
+    name: "Chủ nghĩa xã hội khoa học",
+    organization: "TVU",
+    program: "Quản trị kinh doanh (Đại học)",
+    desc: "Nghiên cứu sứ mệnh lịch sử giai cấp công nhân, thời kỳ quá độ và liên minh giai cấp.",
+    jsonPath: "./_sources/TVU/Quan_tri_kinh_doanh_DH/18. Chủ nghĩa xã hội khoa học/qs.json"
+  },
+  {
+      "id": "20",
+      "name": "Logic học đại cương",
+      "organization": "TVU",
+      "program": "Quản trị kinh doanh (Đại học)",
+      "desc": "Nắm vững quy luật tư duy, hình thức suy luận và phương pháp chứng minh logic.",
+      "jsonPath": "./_sources/TVU/Quan_tri_kinh_doanh_DH/20. Logic học đại cương/qs.json"
+  },
+  {
+    id: "19",
+    name: "Giáo dục thể chất 2",
+    organization: "TVU",
+    program: "Quản trị kinh doanh (Đại học)",
+    desc: "Trang bị kiến thức lý thuyết, kỹ chiến thuật và luật thi đấu môn Cờ vua.",
+    jsonPath: "./_sources/TVU/Quan_tri_kinh_doanh_DH/19. Giáo dục thể chất 2/qs.json"
   }
 ];
