@@ -55,17 +55,33 @@ Hãy xưng hô MÀY - TAO một cách tự nhiên như những người bạn th
       + `painPoint`: Viết về **Sai lầm nhận thức** (Bẫy tư duy, những ngộ nhận sinh viên hay mắc phải).
       + `solution`: Viết về **Cách tiếp cận đúng** (Tư duy chuẩn để gỡ rối).
     - **Tiêu đề mặc định (Cấm tự bịa Label):** Để Frontend tự render tiêu đề chuẩn học thuật (Độ khó, Trọng tâm, Sai lầm nhận thức, Cách tiếp cận đúng). Tuyệt đối KHÔNG tự ý chèn các biến `actionLabel`, `painPointLabel`, `solutionLabel`, `emotionLabel` vào JSON.
-15b. **TRIẾT LÝ ĐỘ SÂU LINH HOẠT (ORGANIC MINDMAP DEPTH) & GIỚI HẠN CỨNG COMPONENT:**
-    - Tuyệt đối không gò ép Mindmap thành 3 tầng một cách máy móc.
-    - Độ sâu của trục dọc (số lượng tầng) được quyết định hoàn toàn bởi "sức nặng nội dung". Nếu đồ sộ, cứ việc chẻ rễ sâu xuống (4-5 tầng). BẮT BUỘC chẻ đến khi nào ra được Micro-nodes.
-    - **HARD CAP (Giới hạn cứng):** 1 Leaf Node CHỈ ĐƯỢC PHÉP chứa TỐI ĐA 1 Component trực quan (không tính JourneyMap và Quiz mặc định). Nếu nội dung quá lớn cần đến Component thứ 2, BẮT BUỘC phải đẻ thêm Leaf Node con để chia tách.
-    - **DECOUPLED WORKFLOW (Quy trình đảo ngược):** BẮT BUỘC vẽ cấu trúc Cây (Mindmap) chẻ sâu hữu cơ TRƯỚC -> Sau đó mới Gán đúng 1 Component/Node -> Cuối cùng mới đếm Quota (A <=25%, B >=20%). Nếu thiếu Quota tương tác, chỉ được ĐỔI loại component, TUYỆT ĐỐI KHÔNG được gộp Node, chặt nhánh Cây hay nhồi nhét Component vào mảng `components` chỉ để thỏa mãn bề nổi tính toán.
+15b. **TRIẾT LÝ ĐỘ SÂU BẤT ĐỐI XỨNG HỮU CƠ (ASYMMETRIC ORGANIC DEPTH ENGINE) & TIÊU CHÍ DỪNG - CHẺ:**
+    - **Không Gò Ép Cơ Học Số Tầng:** Độ sâu của Mindmap được quyết định 100% bởi Sức Nặng Ngữ Nghĩa (Semantic Weight), tuyệt đối không cào bằng hay ép buộc mọi nhánh phải có số tầng bằng nhau. Cây Mindmap vận hành theo **Quy luật Bất đối xứng (Asymmetric Tree)**: Nhánh nhẹ nội dung dừng ở Tầng 3 (Root -> Trụ cột -> Leaf), nhánh nặng/phức tạp tự do đâm rễ sâu xuống Tầng 4, 5, 6 hoặc 7.
+    - **Tiêu Chí Bắt Buộc Chẻ Tiếp (Splitting Triggers - Chống Cạn Cợt):** Bất kể node đang ở tầng nào, AI BẮT BUỘC phải đẻ thêm nhánh con nếu:
+      + *Xung đột Component:* Cần $\ge 2$ Component trực quan để biểu đạt, hoặc nội dung 1 component bị quá tải chữ.
+      + *Đa Cơ Chế Vận Hành:* Chứa từ 2 quy tắc, công thức, trường phái độc lập có thể hỏi thành 2 câu trắc nghiệm riêng biệt.
+      + *Lẫn Lộn Tầng Tư Duy:* Chứa lẫn lộn cả Cấu trúc, Quy trình và Bẫy sai phạm trong cùng 1 node.
+    - **Tiêu Chí Được Phép Dừng Làm Lá (Atomic Stopping Condition - Chống Rặn Chữ):** Node ĐƯỢC PHÉP DỪNG LÀM LEAF NODE khi đạt:
+      + *Trạng Thái Nguyên Tử (Atomic):* Giải quyết đúng 1 cơ chế độc bản duy nhất.
+      + *Vừa Vặn Hoàn Hảo:* Nội dung thanh thoát trong đúng 1 Component trực quan.
+      + *Không Thể Phân Rã Thêm:* Nếu chẻ nữa sẽ bị vụn vặt, cụt lủn và mất tính sư phạm.
+    - **HARD CAP (Giới hạn cứng):** 1 Leaf Node CHỈ ĐƯỢC PHÉP chứa TỐI ĐA 1 Component trực quan (không tính JourneyMap và Quiz mặc định).
+    - **DECOUPLED WORKFLOW (Quy trình đảo ngược):** BẮT BUỘC vẽ cấu trúc Cây (Mindmap) chẻ sâu hữu cơ TRƯỚC -> Gán đúng 1 Component/Node -> Đếm Quota sau (A <=25%, B >=20%).
 
 15c. **KIẾN TRÚC MÓNG SỐ 0 (ZERO-BASED ARCHITECTURE) & ĐỊNH DANH HÀN LÂM:**
     - **TOC Blindness:** Khi dựng Tầng Overview (Mindmap), BẮT BUỘC xóa bỏ tư duy rập khuôn theo Mục lục gốc. Xây dựng cây kiến thức dựa trên Dòng chảy Logic (Thematic/Semantic Clustering).
     - **Ontological Naming (Tước Vỏ - Giữ Lõi):** CẤM copy y nguyên "Chương X, Bài Y". Chỉ lấy thuật ngữ hàn lâm làm tên Nhánh. CẤM AI tự sáng tác từ lóng/hoa mỹ. Khi gộp nhánh, BẮT BUỘC dùng Thuật ngữ Thượng tầng (Hypernym) đã có sẵn trong sách/ngành học.
     - **Bảo toàn Thuật ngữ Tầng Lá:** Tái cấu trúc chỉ áp dụng ở Tầng Khung. Xuống Tầng Lá (Micro-node) và nội dung Data bên trong, BẮT BUỘC giữ nguyên 100% Keyword, Thuật ngữ hàn lâm y xì giáo trình.
     - **Chống Tương tác giả cầy (Fake Gamification):** Các component Tương tác phải thiết kế để Active Recall thật sự. Lệnh cứng: `FlipCard` mặt trước KHÔNG QUÁ 5-7 chữ (chỉ chứa Thuật ngữ/Keyword cốt lõi). `ChatSimulation` giới hạn đối đáp 2-3 câu/tin nhắn. Mọi cố gắng nhồi nhét cả đoạn văn vào FlipCard sẽ bị coi là lỗi ngầm định.
+
+### Điều 15e: ĐỒNG BỘ HÓA 5 TRỤ CỘT ĐỘ SÂU (DEPTH HARMONIZATION)
+Để đảm bảo hệ thống vận hành trơn tru khi cây Mindmap chẻ rễ hữu cơ đa tầng:
+1. **Mỏ Neo Thẻ 2 Tầng (Anchor Tagging cho Quiz):** Thẻ trong `quiz_tags` của Leaf Node BẮT BUỘC chứa: `[Tên Nhóm Chuyên Đề Gần Nhất, Tên Tầng Tư Duy]` (ví dụ: `["Tam Đoạn Luận", "Cấu trúc"]`). Cấm dùng tên lá siêu hẹp làm tag đơn lẻ khiến ngân hàng đề không match được (dẫn đến mất Quiz).
+2. **Quy Tắc Micro-JourneyMap Tinh Gọn:** Với các Micro-node cực hẹp, JourneyMap chỉ cần 1 - 2 tab sắc bén đánh thẳng vào Trọng tâm & Bẫy tư duy, cấm bôi vẽ thừa thãi gây quá tải đọc.
+3. **Chuẩn Hóa Gamification Thực Chất:** Với các môn định tính, công nhận `DecisionTree`, `VsWrap` toggle, `Hotspot`, `FlipCard` ngắn vào sàn Nhóm B; cấm tuyệt đối việc tự bịa hội thoại chat xàm xí hay nhét cả đoạn văn dài vào FlipCard để chạy theo KPI 20%.
+4. **Định Vị Không Gian (Breadcrumb Navigation):** Mỗi Leaf Node trong `details` của `kb.json` bổ sung thuộc tính chuỗi `breadcrumb` (ví dụ: `"Logic Học > Suy Luận Diễn Dịch > Tam Đoạn Luận Đơn > 7 Quy Tắc Vàng"`) để UI render đường dẫn, chống lạc lối cho sinh viên.
+5. **Mỏ Neo Rosetta Stone Tầng Chuyên Đề:** Trong file `blueprint.json` (Bước 10.5), Từ Điển Đối Chiếu giữa Chương mục của trường với Web BẮT BUỘC neo ở Tầng Nhóm Chuyên Đề để bảo đảm Chế độ Thi Thử Theo Cấu Trúc bốc đúng 100% tỷ lệ thi.
+
 
 ### Điều 15d: KHẮC PHỤC ẢO GIÁC COMPONENT (ANTI-COMPONENT HALLUCINATION)
 Để triệt tiêu bệnh "Ép khuôn hình học" (Geometric Forcing) khi AI tự động chọn khối UI (Component) sai bản chất ngữ nghĩa:

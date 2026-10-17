@@ -1,0 +1,457 @@
+Tải lại trang
+
+KẾ HOẠCH HỌC TẬP
+
+&nbsp;
+
+TH&Ocirc;NG TIN HỌC PHẦN
+
+T&ecirc;n học phần: 
+Logic học đại cương
+
+M&atilde; học phần: 
+640033
+
+Số t&iacute;n chỉ:
+ 02
+
+Điều kiện ti&ecirc;n quyết: 
+Kh&ocirc;ng
+
+M&Ocirc; TẢ HỌC PHẦN
+
+Học phần cung cấp cho sinh vi&ecirc;n c&aacute;c kiến thức cơ bản về logic, logic học, c&aacute;c quy luật cơ bản của tư duy; chứng minh, b&aacute;c bỏ, ngụy biện. Từ đ&oacute; tạo cơ sở tiếp tục học c&aacute;c học phần kh&aacute;c c&oacute; li&ecirc;n quan.
+
+MỤC TI&Ecirc;U HỌC PHẦN
+
+Về kiến thức:
+
+X&aacute;c định c&aacute;c kh&aacute;i niệm, nội dung cơ bản của logic học.
+
+X&aacute;c định c&aacute;c quy luật v&agrave; h&igrave;nh thức của tư duy ch&acirc;n thực.
+
+Về kỹ năng: 
+
+X&aacute;c định gi&aacute; trị ch&acirc;n l&iacute; của c&aacute;c ph&aacute;n đo&aacute;n, lập luận.
+
+X&acirc;y dựng, ph&acirc;n t&iacute;ch c&aacute;c ph&aacute;n đo&aacute;n, lập luận ch&acirc;n thực.
+
+B&aacute;c bỏ c&aacute;c kh&aacute;i niệm, ph&aacute;n đo&aacute;n, suy luận sai lầm, ngụy biện.
+
+Về năng lực tự chủ v&agrave; tr&aacute;ch nhiệm: 
+
+X&aacute;c định được gi&aacute; trị ch&acirc;n l&iacute; của c&aacute;c ph&aacute;n đo&aacute;n, lập luận.
+
+Chứng minh c&aacute;c mệnh đề, b&aacute;c bỏ c&aacute;c ngụy biện.
+
+T&ocirc;n trọng c&aacute;c quy luật kh&aacute;ch quan của tư duy ch&acirc;n thực.
+
+T&ocirc;n trọng gi&aacute; trị ch&acirc;n thực trong lập luận, tranh luận.
+
+TH&Ocirc;NG TIN GIẢNG VI&Ecirc;N
+
+TT
+
+Giảng vi&ecirc;n chuy&ecirc;n m&ocirc;n
+
+Email
+
+Đơn vị c&ocirc;ng t&aacute;c
+
+&nbsp;
+
+TS. Nguyễn Đăng Hai
+
+ndhai@tvu.edu.vn
+
+Đại học Tr&agrave; Vinh
+
+&nbsp;
+
+LỊCH TR&Igrave;NH HỌC TẬP
+
+Thời gian
+
+Nhiệm vụ
+
+B&agrave;i giảng
+
+(L)
+
+Trao đổi,
+
+   giải đ&aacute;p
+
+   (I)
+
+Luyện tập 
+
+(P)
+
+Đ&aacute;nh gi&aacute;
+
+   (E)
+
+Ng&agrave;y
+
+   khởi động
+
+27/09/2026
+
+Kế hoạch học tập
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+Tuần 01
+
+(28/09/2026 - 04/10/2026)
+
+Chương 1: Đại cương về logic học
+
+Trao đổi &ndash; Thảo luận
+
+&nbsp;
+
+&nbsp;
+
+Tuần 02
+
+(05/10/2026 - 11/10/2026)
+
+Chương 2: C&aacute;c quy luật cơ bản của tư duy
+
+Chương 3: Kh&aacute;i niệm
+
+Trao đổi &ndash; Thảo luận
+
+LTTN 1
+
+(Chương 2, 3; 10 c&acirc;u)
+
+Mở BTGK số 1
+
+Thời gian mở: 
+00:00 ngày 10/10/2026
+
+Tuần 03
+
+(12/10/2026 - 18/10/2026)
+
+Chương 4: Ph&aacute;n đo&aacute;n
+
+Trao đổi &ndash; Thảo luận
+
+LTTN 2
+
+(Chương 4,
+
+   20 c&acirc;u)
+
+Nộp BTGK số 1
+
+(Chương 2, 3; 20 c&acirc;u/30 ph&uacute;t)
+
+Hạn nộp:
+23:55 ngày 17/10/2026
+
+Tuần 04
+
+(19/10/2026 - 25/10/2026)
+
+Chương 5: Suy luận
+
+Trao đổi &ndash; Thảo luận
+
+LTTN 3
+
+(Chương 5,
+
+   20 c&acirc;u)
+
+Mở BTGK số 2
+
+Thời gian mở: 
+00:00 ngày 23/10/2026
+
+Tuần 05
+
+(26/10/2026 - 01/11/2026)
+
+Chương 6: Chứng minh
+
+Trao đổi &ndash; Thảo luận
+
+&nbsp;
+
+Nộp BTGK số 2
+
+(Chương 4, 5; 20 c&acirc;u/30 ph&uacute;t)
+
+Hạn nộp:
+23:55 ngày 30/10/2026
+
+Tuần 06
+
+(02/11/2026 - 08/11/2026)
+
+Chương 7: B&aacute;c bỏ
+
+Chương 8: Ngụy biện
+
+Trao đổi &ndash; Thảo luận
+
+LTTN 4
+
+(Chương 6, 7, 8;
+
+   5 c&acirc;u)
+
+&nbsp;
+
+Tuần 07
+
+(09/11/2026 - 15/11/2026)
+
+&Ocirc;n tập
+
+&nbsp;
+
+LTTT
+
+(40 c&acirc;u
+
+   /60 ph&uacute;t)
+
+&nbsp;
+
+THI KẾT TH&Uacute;C HỌC PHẦN
+
+Thời gian dự kiến: 
+
+DX25QKD6, DX25QKD7 thi ngày 29/11/2026; DX25QKD35, DX25QKD25 thi ngày 06/12/2026
+
+&nbsp;
+
+&nbsp;
+
+PHƯƠNG PH&Aacute;P, H&Igrave;NH THỨC KIỂM TRA V&Agrave; Đ&Aacute;NH GI&Aacute;
+
+6.1. Đ&aacute;nh gi&aacute; qu&aacute; tr&igrave;nh
+
+H&igrave;nh thức
+
+Tỷ lệ
+
+1. Điểm qu&aacute; tr&igrave;nh
+
+50%
+
+1.1. Điểm chuy&ecirc;n cần
+
+10%
+
+1.2. Điểm kiểm tra giữa kỳ
+
+40%
+
+B&agrave;i tập giữa kỳ số 1
+
+20%
+
+B&agrave;i tập giữa kỳ số 2
+
+20%
+
+2. Điểm đ&aacute;nh gi&aacute; kết th&uacute;c học phần
+
+50%
+
+&nbsp;
+
+6.2. Phương ph&aacute;p, h&igrave;nh thức đ&aacute;nh gi&aacute; qu&aacute; tr&igrave;nh
+
+a. Điểm qu&aacute; tr&igrave;nh (Chiếm 50% điểm tổng kết học phần):
+
+Điểm qu&aacute; tr&igrave;nh = Điểm chuy&ecirc;n cần + Điểm kiểm tra giữa kỳ
+
+Điểm chuy&ecirc;n cần 
+(Chiếm 
+10%
+ điểm tổng kết học phần):
+
+T&iacute;nh bằng số b&agrave;i l&agrave;m luyện tập trắc nghiệm v&agrave; số lượt thảo luận tr&ecirc;n hệ thống diễn đ&agrave;n của lớp học.
+
+Điểm chuy&ecirc;n cần = min (B1 &times; 1; 2) + min (C &times; 2; 8)
+
+Trong đ&oacute;:
+
+B1 = Số lượt tương t&aacute;c thảo luận tr&ecirc;n hệ thống diễn đ&agrave;n;
+
+C = Số b&agrave;i luyện tập trắc nghiệm đạt điểm &ge; 5.
+
+V&iacute; dụ:
+
+Sinh vi&ecirc;n làm 4 bài t&acirc;̣p trắc nghi&ecirc;̣m c&oacute; điểm &ge; 5, thảo luận 5 lượt tr&ecirc;n Diễn đ&agrave;n.
+
+Ta c&oacute;: min (5 &times; 1; 2) + min(4 &times; 2; 8) = 2 + 8 = 10 &rarr; Đi&ecirc;̉m chuy&ecirc;n c&acirc;̀n là 
+10 đi&ecirc;̉m
+.
+
+Sinh vi&ecirc;n làm 4 bài t&acirc;̣p trắc nghi&ecirc;̣m c&oacute; điểm &ge; 5, thảo luận 2 lượt tr&ecirc;n Diễn đ&agrave;n.
+
+Ta c&oacute;: min (2 &times; 1; 2) + min (4 &times; 2; 8) = 2 + 8 = 10 &rarr; Đi&ecirc;̉m chuy&ecirc;n c&acirc;̀n là 
+10 đi&ecirc;̉m
+.
+
+Sinh vi&ecirc;n làm 3 bài t&acirc;̣p trắc nghi&ecirc;̣m c&oacute; điểm &ge; 5, thảo luận 0 lượt &nbsp;tr&ecirc;n Diễn đ&agrave;n.
+
+Ta c&oacute;: min (0 &times; 1; 2) + min (3 &times; 2; 8) = 0 + 6 = 6&rarr; Đi&ecirc;̉m chuy&ecirc;n c&acirc;̀n là 
+8 đi&ecirc;̉m
+.&nbsp;
+
+Sinh vi&ecirc;n l&agrave;m 0 bài t&acirc;̣p trắc nghi&ecirc;̣m c&oacute; điểm &ge; 5, thảo luận 2 lượt &nbsp;tr&ecirc;n Diễn đ&agrave;n.
+
+Ta c&oacute;: min (2 &times; 1; 2) + min (0 &times; 2; 8) = 2 &rarr; Đi&ecirc;̉m chuy&ecirc;n c&acirc;̀n là 
+2 điểm
+.
+
+Sinh vi&ecirc;n l&agrave;m 0 bài luyện t&acirc;̣p trắc nghi&ecirc;̣m, &nbsp;thảo luận 0 lượt &nbsp;tr&ecirc;n Diễn đ&agrave;n.
+
+Ta c&oacute;: min (0 &times; 1; 2) + min (0 &times; 2; 8) =&nbsp; 0 + 0 = 0&rarr; Đi&ecirc;̉m chuy&ecirc;n c&acirc;̀n là 
+0 điểm
+.
+
+Điểm kiểm tra giữa kỳ 
+(Chiếm 
+40%
+ điểm tổng kết học phần):
+
+B&agrave;i tập giữa kỳ số 1: 20% (Nộp tr&ecirc;n hệ thống LMS);
+
+B&agrave;i tập giữa kỳ số 2: 20% (Nộp tr&ecirc;n hệ thống LMS).
+
+Thời hạn chốt điểm qu&aacute; tr&igrave;nh v&agrave;o: 
+23:55 ngày 15/11/2026
+
+b. Điểm đ&aacute;nh gi&aacute; kết th&uacute;c học phần (Chiếm 50% điểm tổng kết học phần):
+
+Sinh vi&ecirc;n bắt buộc phải tham gia thi.
+
+H&igrave;nh thức thi: Trắc nghiệm.
+
+6.3. Các y&ecirc;u c&acirc;̀u đ&ocirc;́i với sinh vi&ecirc;n
+
+Sinh vi&ecirc;n cần nắm vững kế hoạch học tập.
+
+Để đạt được kết quả tốt nhất đối với học phần n&agrave;y, sinh vi&ecirc;n n&ecirc;n d&agrave;nh thời gian để học tập: đọc, xem v&agrave; nghe phần l&yacute; thuyết; l&agrave;m c&aacute;c b&agrave;i luyện tập trắc nghiệm; tham gia thảo luận tr&ecirc;n diễn đ&agrave;n.
+
+Sinh vi&ecirc;n phải tham gia thảo luận &iacute;t nhất 1 lượt tr&ecirc;n diễn đ&agrave;n v&agrave; l&agrave;m b&agrave;i Luyện tập trắc nghiệm 1 th&igrave; sẽ được l&agrave;m B&agrave;i tập giữa kỳ. Nếu kh&ocirc;ng ho&agrave;n th&agrave;nh th&igrave; B&agrave;i tập giữa kỳ sẽ kh&ocirc;ng được mở.
+
+Điều kiện để được tham gia đ&aacute;nh gi&aacute; kết th&uacute;c học phần: 
+Điểm qu&aacute; tr&igrave;nh 
+&ge;
+
+ 2 điểm.
+
+Điều kiện để ho&agrave;n th&agrave;nh học phần: 
+Điểm tổng kết 
+&ge;
+
+4 điểm, 
+bắt buộc phải tham gia dự thi đ&aacute;nh gi&aacute; kết th&uacute;c học phần.
+
+V&iacute; dụ:
+
+Điểm 
+
+Kết luận
+
+Qu&aacute; tr&igrave;nh
+
+Thi hết học phần
+
+7
+
+7
+
+Ho&agrave;n th&agrave;nh học phần
+
+4
+
+3
+
+Thi lại
+
+1.5
+
+(Kh&ocirc;ng được thi)
+
+Học lại
+
+&nbsp;
+
+Sinh vi&ecirc;n nếu c&oacute; thắc mắc về nội dung, quy chế, quy định của học phần, hệ thống học tập LMS th&igrave; đặt c&acirc;u hỏi tr&ecirc;n hệ thống Hỏi đ&aacute;p (HD72) để được trợ gi&uacute;p. Trong trường hợp sinh vi&ecirc;n c&oacute; thắc mắc về điểm của học phần, đề nghị li&ecirc;n hệ trực tiếp Quản l&yacute; học tập của lớp m&igrave;nh để nhận được sự trợ gi&uacute;p.
+
+HỖ TRỢ HỌC TẬP
+
+Lớp
+
+Cán bộ quản lý học tập
+
+Điện thoại
+
+Email
+
+DX25QKD6, DX25QKD35, DX25QKD25
+
+QLHT.Trần Thị Thu Ngân
+
+nganttt@onschool.edu.vn
+
+DX25QKD7
+
+QLHT. Nguyễn Thị Hồng Vân
+
+vannth@onschool.edu.vn
+
+&nbsp;
+
+T&Agrave;I LIỆU THAM KHẢO
+
+Ho&agrave;ng Ch&uacute;ng (1994), 
+Logic học phổ th&ocirc;ng
+, Gi&aacute;o dục.
+
+Nguyễn Đức D&acirc;n (1987), 
+Logic, ngữ nghĩa, c&uacute; ph&aacute;p
+, Đại học v&agrave; Trung học Chuy&ecirc;n nghiệp.
+
+Nguyễn Đức D&acirc;n (1998), 
+Logic v&agrave; tiếng Việt
+, Gi&aacute;o dục.
+
+Vương Tất Đạt, Nguyễn Thị V&acirc;n H&agrave; (2011), 
+Phương ph&aacute;p giải b&agrave;i tập logic học
+, Nxb Gi&aacute;o dục Việt Nam.
+
+Trần Ho&agrave;ng (2002), 
+Logic học nhập m&ocirc;n
+, Đại học Sư phạm TP. HCM
+
+Phạm Đ&igrave;nh Nghiệm (2011), 
+Nhập m&ocirc;n logic học
+, Đại học Quốc gia TP. HCM.
+
+Ho&agrave;ng Ph&ecirc; chủ bi&ecirc;n (2012), 
+Từ điển tiếng Việt
+, Từ điển B&aacute;ch khoa.
+
+L&ecirc; Tử Th&agrave;nh (2005), 
+Nhập m&ocirc;n Logic học
+, Trẻ.
+
+640033_v3.1

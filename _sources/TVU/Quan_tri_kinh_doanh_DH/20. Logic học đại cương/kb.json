@@ -1,0 +1,2741 @@
+{
+  "subject": "Logic học đại cương",
+  "overview": {
+    "type": "mindmap",
+    "title": "Bản Đồ Tri Thức Logic Học Đại Cương",
+    "data": {
+      "root": "Logic Học Đại Cương",
+      "children": [
+        {
+          "label": "Bản Thể & Lịch Sử Tư Duy Logic",
+          "description": "Nền tảng nhận thức luận và dòng chảy hình thành các trường phái logic học",
+          "children": [
+            {
+              "id": "logic-nhan-thuc-cam-tinh-ly-tinh",
+              "label": "Nhận Thức Cảm Tính vs Lý Tính"
+            },
+            {
+              "id": "logic-doi-tuong-chan-ly",
+              "label": "Đối Tượng & Chân Lý Hình Thức"
+            },
+            {
+              "id": "logic-lich-su-phuong-dong",
+              "label": "Logic Phương Đông: Nhân Minh & Danh Gia"
+            },
+            {
+              "id": "logic-lich-su-phuong-tay",
+              "label": "Logic Phương Tây: Từ Aristotle Đến Hiện Đại"
+            }
+          ]
+        },
+        {
+          "label": "Hệ Thống Quy Luật Tư Duy Tiền Đề",
+          "description": "4 quy luật cơ bản chi phối tính xác định, nhất quán và có căn cứ của tư duy",
+          "children": [
+            {
+              "label": "Quy Luật Đồng Nhất",
+              "children": [
+                {
+                  "id": "logic-ql-dong-nhat-ban-chat",
+                  "label": "Bản Chất Công Thức A ≡ A"
+                },
+                {
+                  "id": "logic-ql-dong-nhat-loi",
+                  "label": "Bẫy Đánh Tráo Khái Niệm & Luận Đề"
+                }
+              ]
+            },
+            {
+              "id": "logic-ql-cam-mau-thuan",
+              "label": "Quy Luật Cấm Mâu Thuẫn"
+            },
+            {
+              "id": "logic-ql-triet-tam",
+              "label": "Quy Luật Triệt Tam (Bài Trung)"
+            },
+            {
+              "id": "logic-ql-ly-do-day-du",
+              "label": "Quy Luật Lý Do Đầy Đủ"
+            }
+          ]
+        },
+        {
+          "label": "Cấu Trúc Khái Niệm & Thao Tác Logic",
+          "description": "Cơ chế hình thành, cấu trúc nội hàm - ngoại diên và các thao tác kỹ thuật với khái niệm",
+          "children": [
+            {
+              "label": "Thuộc Tính & Phân Loại Khái Niệm",
+              "children": [
+                {
+                  "id": "logic-kn-ban-chat-co-cau",
+                  "label": "Bản Chất & Vỏ Bọc Ngôn Ngữ"
+                },
+                {
+                  "id": "logic-kn-noi-ham-ngoai-dien",
+                  "label": "Tỷ Lệ Nghịch Nội Hàm - Ngoại Diên"
+                },
+                {
+                  "id": "logic-kn-phan-loai",
+                  "label": "Hệ Thống Phân Loại Khái Niệm"
+                }
+              ]
+            },
+            {
+              "label": "Mối Quan Hệ Giữa Các Khái Niệm",
+              "children": [
+                {
+                  "id": "logic-kn-quan-he-hop-le",
+                  "label": "Quan Hệ Hợp Lẽ: Đồng Nhất, Bao Hàm, Giao Thoa"
+                },
+                {
+                  "id": "logic-kn-quan-he-khong-hop-le",
+                  "label": "Quan Hệ Không Hợp Lẽ: Tách Rời, Đối Lập, Mâu Thuẫn"
+                }
+              ]
+            },
+            {
+              "label": "Các Thao Tác Kỹ Thuật Với Khái Niệm",
+              "children": [
+                {
+                  "id": "logic-kn-thu-hep-mo-rong",
+                  "label": "Thao Tác Thu Hẹp & Mở Rộng"
+                },
+                {
+                  "label": "Kỹ Thuật Định Nghĩa Khái Niệm",
+                  "children": [
+                    {
+                      "id": "logic-kn-dinh-nghia-cac-kieu",
+                      "label": "9 Kiểu Định Nghĩa & Công Thức Loại - Hạng"
+                    },
+                    {
+                      "id": "logic-kn-dinh-nghia-quy-tac",
+                      "label": "4 Quy Tắc Vàng Trong Định Nghĩa"
+                    }
+                  ]
+                },
+                {
+                  "label": "Kỹ Thuật Phân Chia Khái Niệm",
+                  "children": [
+                    {
+                      "id": "logic-kn-phan-chia-hinh-thuc",
+                      "label": "Hình Thức Phân Chia: Lưỡng Phân & Phân Loại"
+                    },
+                    {
+                      "id": "logic-kn-phan-chia-quy-tac",
+                      "label": "4 Quy Tắc Logic Trong Phân Chia"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Hình Thức Phán Đoán & Hệ Giá Trị Chân Lý",
+          "description": "Cấu trúc khẳng định/phủ định, quan hệ hình vuông logic và bảng chân trị liên từ",
+          "children": [
+            {
+              "label": "Phán Đoán Đơn Thuộc Tính",
+              "children": [
+                {
+                  "label": "Cấu Trúc & Chu Diên",
+                  "children": [
+                    {
+                      "id": "logic-pd-cau-truc-don",
+                      "label": "Cấu Trúc S-P & 4 Dạng Chuẩn A - E - I - O"
+                    },
+                    {
+                      "id": "logic-pd-tinh-chu-dien",
+                      "label": "Ma Trận Tính Chu Diên S và P"
+                    }
+                  ]
+                },
+                {
+                  "label": "Quan Hệ Hình Vuông Logic",
+                  "children": [
+                    {
+                      "id": "logic-pd-hinh-vuong-doi-lap",
+                      "label": "Quan Hệ Mâu Thuẫn & Cặp Đối Chọi"
+                    },
+                    {
+                      "id": "logic-pd-hinh-vuong-thu-bac",
+                      "label": "Quan Hệ Thứ Bậc & Bảng Chân Trị"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Phán Đoán Phức Hợp",
+              "children": [
+                {
+                  "id": "logic-pd-phuc-hoi-tuyen",
+                  "label": "Phán Đoán Hội & Phán Đoán Tuyển"
+                },
+                {
+                  "id": "logic-pd-phuc-keo-theo",
+                  "label": "Phán Đoán Kéo Theo & 3 Dạng Điều Kiện"
+                },
+                {
+                  "id": "logic-pd-phuc-tuong-duong",
+                  "label": "Phán Đoán Tương Đương & Bảng Chân Trị"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Nghệ Thuật Suy Luận & Quy Tắc Diễn Dịch",
+          "description": "Quy tắc rút ra tri thức mới từ tiền đề chân thực qua suy diễn, quy nạp và loại tỉ",
+          "children": [
+            {
+              "id": "logic-sl-ban-chat-dieu-kien",
+              "label": "Cấu Trúc Suy Luận & Điều Kiện Chân Thực"
+            },
+            {
+              "label": "Suy Luận Diễn Dịch Trực Tiếp",
+              "children": [
+                {
+                  "id": "logic-sl-dao-nguoc-doi-chat",
+                  "label": "Thao Tác Đảo Ngược & Đổi Chất"
+                },
+                {
+                  "id": "logic-sl-doi-lap-vi-tu",
+                  "label": "Thao Tác Đối Lập Vị Từ"
+                }
+              ]
+            },
+            {
+              "label": "Tam Đoạn Luận Đơn",
+              "children": [
+                {
+                  "id": "logic-sl-tam-doan-cau-truc",
+                  "label": "Cấu Trúc Thuật Ngữ S-P-M & Tiền Đề"
+                },
+                {
+                  "id": "logic-sl-tam-doan-quy-tac",
+                  "label": "7 Quy Tắc Vàng Tam Đoạn Luận Đơn"
+                },
+                {
+                  "id": "logic-sl-tam-doan-hinh-kieu",
+                  "label": "4 Hình Tam Đoạn Luận & Quy Tắc Riêng"
+                },
+                {
+                  "id": "logic-sl-tam-doan-bien-the",
+                  "label": "Tam Đoạn Luận Tỉnh Lược & Phức Hợp"
+                }
+              ]
+            },
+            {
+              "label": "Suy Luận Quy Nạp & Ngoại Suy",
+              "children": [
+                {
+                  "id": "logic-sl-quy-nap-hoan-toan",
+                  "label": "Quy Nạp Hoàn Toàn vs Không Hoàn Toàn"
+                },
+                {
+                  "id": "logic-sl-nhan-qua-bacon-mill",
+                  "label": "5 Phương Pháp Xác Định Nhân Quả Bacon - Mill"
+                },
+                {
+                  "id": "logic-sl-loai-ti",
+                  "label": "Bản Chất & Độ Tin Cậy Suy Luận Loại Tỉ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Lập Luận, Chứng Minh & Bác Bỏ",
+          "description": "Kỹ thuật xây dựng hệ thống luận cứ bảo vệ luận đề và phát hiện bẫy ngụy biện",
+          "children": [
+            {
+              "label": "Lý Thuyết Chứng Minh Logic",
+              "children": [
+                {
+                  "id": "logic-cm-cau-truc-ba-thanh-phan",
+                  "label": "Cấu Trúc: Luận Đề - Luận Cứ - Luận Chứng"
+                },
+                {
+                  "id": "logic-cm-quy-tac-logic",
+                  "label": "Các Quy Tắc Logic Trong Chứng Minh"
+                },
+                {
+                  "id": "logic-cm-truc-tiep-gian-tiep",
+                  "label": "Chứng Minh Trực Tiếp & Phản Chứng"
+                }
+              ]
+            },
+            {
+              "id": "logic-bb-ba-phuong-phap",
+              "label": "3 Phương Pháp Bác Bỏ Lập Luận"
+            },
+            {
+              "label": "Nhận Diện & Hóa Giải Ngụy Biện",
+              "children": [
+                {
+                  "id": "logic-nb-cau-truc-chung-minh",
+                  "label": "Ngụy Biện Theo Cấu Trúc Chứng Minh"
+                },
+                {
+                  "id": "logic-nb-thu-phap-tam-ly",
+                  "label": "Ngụy Biện Thủ Pháp Tâm Lý - Xã Hội"
+                },
+                {
+                  "id": "logic-nb-phuong-phap-hoa-giai",
+                  "label": "Phương Pháp Hóa Giải Ngụy Biện"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "details": [
+    {
+      "node_id": "logic-nhan-thuc-cam-tinh-ly-tinh",
+      "breadcrumb": "Logic Học Đại Cương > Bản Thể & Lịch Sử Tư Duy Logic > Nhận Thức Cảm Tính vs Lý Tính",
+      "components": [
+        {
+          "type": "vs-wrap",
+          "title": "Đối Chiếu 2 Cấp Độ Nhận Thức",
+          "data": {
+            "left": {
+              "title": "Nhận Thức Cảm Tính (Trực quan sinh động)",
+              "description": "Cấp độ phản ánh trực tiếp bề ngoài của sự vật qua các giác quan",
+              "points": [
+                "Cảm giác: Phản ánh từng thuộc tính riêng lẻ của sự vật khi trực tiếp tác động vào giác quan",
+                "Tri giác: Tổng hợp các cảm giác tạo nên hình ảnh trọn vẹn bề ngoài của đối tượng",
+                "Biểu tượng: Hình ảnh tái hiện đối tượng trong trí nhớ khi không còn tiếp xúc trực tiếp",
+                "Hạn chế: Chưa đi sâu vào bản chất, quy luật vận động nội tại và tính tất yếu khách quan"
+              ]
+            },
+            "right": {
+              "title": "Nhận Thức Lý Tính (Tư duy trừu tượng)",
+              "description": "Cấp độ phản ánh gián tiếp, khái quát bản chất quy luật nội tại của thế giới",
+              "points": [
+                "Khái niệm: Phản ánh các dấu hiệu bản chất, khác biệt của một lớp đối tượng",
+                "Phán đoán: Khẳng định hoặc phủ định một thuộc tính, mối quan hệ của đối tượng",
+                "Suy luận: Rút ra tri thức mới từ một hoặc nhiều phán đoán tiền đề đã biết",
+                "Ưu thế: Nắm bắt bản chất vô hình, dự báo tương lai và là đối tượng nghiên cứu của Logic học"
+              ]
+            }
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Cảm Tính vs Lý Tính",
+          "data": {
+            "stages": [
+              {
+                "stage": "Phân định cấp độ",
+                "action": "Tách bạch giữa cảm nhận giác quan bề ngoài và bản chất tư duy trừu tượng",
+                "emotion": "positive",
+                "painPoint": "Đồng nhất cảm giác chủ quan bề ngoài với chân lý bản chất khách quan",
+                "solution": "Sử dụng các hình thức tư duy trừu tượng (khái niệm, suy luận) để kiểm chứng hiện tượng"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Nhận Thức Luận",
+              "Nền tảng"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-doi-tuong-chan-ly",
+      "breadcrumb": "Logic Học Đại Cương > Bản Thể & Lịch Sử Tư Duy Logic > Đối Tượng & Chân Lý Hình Thức",
+      "components": [
+        {
+          "type": "pair-grid",
+          "title": "Phân Biệt Chân Lý Khách Quan vs Chân Lý Hình Thức",
+          "data": {
+            "pairs": [
+              {
+                "id": "pair-1",
+                "leftText": "Chân lý khách quan (Tính chân thực nội dung)",
+                "rightText": "Sự phù hợp chính xác giữa tư tưởng với thực tế khách quan ngoài đời thực (Đúng/Sai về mặt thực tiễn)",
+                "explanation": "Ví dụ: 'Mặt trời mọc ở hướng Đông' là chân thực vì phù hợp thực tế khách quan."
+              },
+              {
+                "id": "pair-2",
+                "leftText": "Chân lý hình thức (Tính hợp logic)",
+                "rightText": "Sự liên kết chặt chẽ, đúng quy tắc giữa các phán đoán theo các quy luật tư duy (Hợp lý/Không hợp lý)",
+                "explanation": "Ví dụ: Tam đoạn luận tuân thủ 7 quy tắc thì đạt chân lý hình thức, dù tiền đề có thể giả định."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Chân Lý Hình Thức",
+          "data": {
+            "stages": [
+              {
+                "stage": "Thẩm định suy luận",
+                "action": "Đánh giá đồng thời tính chân thực của tiền đề và tính hợp logic của cấu trúc",
+                "emotion": "neutral",
+                "painPoint": "Tin rằng một lập luận có cấu trúc logic đúng thì kết luận chắc chắn đúng ngoài thực tế dù tiền đề sai",
+                "solution": "Kết luận chỉ tất yếu chân thực khi hội đủ 2 điều kiện: Tiền đề chân thực VÀ Lập luận hợp quy tắc logic"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Nhận Thức Luận",
+              "Nền tảng"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-lich-su-phuong-dong",
+      "breadcrumb": "Logic Học Đại Cương > Bản Thể & Lịch Sử Tư Duy Logic > Logic Phương Đông: Nhân Minh & Danh Gia",
+      "components": [
+        {
+          "type": "features",
+          "title": "Các Trường Phái Logic Phương Đông Cổ Đại",
+          "data": {
+            "items": [
+              {
+                "title": "Nhân Minh Học (Hetuvidya - Ấn Độ)",
+                "description": "Khởi nguồn từ Aksapada Gautama (phái Nyaya) với Tam đoạn luận 5 chi (Tông, Nhân, Dụ, Hợp, Kết). Về sau được Tổ sư Dignaga cải cách tinh gọn thành Tam đoạn luận 3 chi (Tông, Nhân, Dụ) đặt nền móng cho logic học Phật giáo."
+              },
+              {
+                "title": "Phái Danh Gia (Trung Hoa)",
+                "description": "Trường phái chuyên biện luận về mối quan hệ giữa 'Danh' (tên gọi, khái niệm chủ quan) và 'Thực' (thực thể khách quan). Đại biểu nổi tiếng: Đặng Tích, Doãn Văn, và Công Tôn Long với luận đề bất hủ 'Bạch mã phi mã' (Ngựa trắng không phải là ngựa)."
+              },
+              {
+                "title": "Đặc Trưng Tư Duy Phương Đông",
+                "description": "Logic phương Đông không bị tách rời thành khoa học hình thức thuần túy mà luôn gắn chặt với Nhận thức luận, Đạo đức học, Nhân sinh quan và Nghệ thuật tranh luận cứu nhân độ thế."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Logic Phương Đông",
+          "data": {
+            "stages": [
+              {
+                "stage": "Tiếp cận cổ học",
+                "action": "Nhận diện đóng góp của phương Đông trong lịch sử tư duy nhân loại",
+                "emotion": "positive",
+                "painPoint": "Ngộ nhận rằng triết học phương Đông chỉ có trực giác, không có hệ thống suy luận logic",
+                "solution": "Nắm vững cấu trúc luận giải tam chi của Nhân minh học và phép biện danh của Danh gia"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Lịch Sử Logic",
+              "Phân luồng"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-lich-su-phuong-tay",
+      "breadcrumb": "Logic Học Đại Cương > Bản Thể & Lịch Sử Tư Duy Logic > Logic Phương Tây: Từ Aristotle Đến Hiện Đại",
+      "components": [
+        {
+          "type": "timeline",
+          "title": "Tiến Trình Lịch Sử Logic Học Phương Tây",
+          "data": {
+            "items": [
+              {
+                "time": "Thế kỷ IV TCN",
+                "title": "Aristotle - Vị Tổ Sư Logic Hình Thức",
+                "description": "Tập hợp các tác phẩm trong bộ Organon (Công cụ), phát minh Tam đoạn luận diễn dịch và thiết lập 3 quy luật tư duy cốt lõi (Đồng nhất, Cấm mâu thuẫn, Triệt tam)."
+              },
+              {
+                "time": "Thế kỷ XVII",
+                "title": "Francis Bacon & Phương Pháp Quy Nạp",
+                "description": "Viết tác phẩm Novum Organum (Công cụ mới), phản đối sự giáo điều của diễn dịch kinh viện, đề xuất phương pháp quy nạp thực nghiệm khoa học."
+              },
+              {
+                "time": "Thế kỷ XVII - XVIII",
+                "title": "G.W. Leibniz & Logic Ký Hiệu",
+                "description": "Bổ sung Quy luật lý do đầy đủ và ấp ủ ý tưởng toán học hóa logic, biến lập luận thành các phép tính đại số chính xác tuyệt đối."
+              },
+              {
+                "time": "Thế kỷ XIX - Hiện Đại",
+                "title": "Logic Biện Chứng & Logic Toán Hiện Đại",
+                "description": "Hegel và Marx xây dựng Logic biện chứng duy vật nghiên cứu sự vận động; George Boole, Gottlob Frege và Bertrand Russell phát triển Logic toán và Logic vị từ hiện đại."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Tiến Trình Logic Phương Tây",
+          "data": {
+            "stages": [
+              {
+                "stage": "Nắm bắt các cột mốc",
+                "action": "Hệ thống hóa sự kế thừa từ logic hình thức cổ điển đến logic hiện đại",
+                "emotion": "positive",
+                "painPoint": "Cho rằng logic hình thức truyền thống của Aristotle đã lỗi thời và bị thay thế hoàn toàn",
+                "solution": "Hiểu rõ logic hình thức là kỷ luật tư duy cơ bản tối thiểu, còn logic hiện đại mở rộng công cụ phân tích"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Lịch Sử Logic",
+              "Phân luồng"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-ql-dong-nhat-ban-chat",
+      "breadcrumb": "Logic Học Đại Cương > Hệ Thống Quy Luật Tư Duy Tiền Đề > Quy Luật Đồng Nhất > Bản Chất Công Thức A ≡ A",
+      "components": [
+        {
+          "type": "flip-card",
+          "title": "Quy Luật Đồng Nhất",
+          "data": {
+            "front": "Quy luật Đồng nhất (A ≡ A)",
+            "back": "Mọi tư tưởng, khái niệm, phán đoán khi đã định hình phải luôn giữ nguyên giá trị nội hàm và ngoại diên xác định trong suốt quá trình suy nghĩ và lập luận. Công thức: A là A."
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Quy Luật Đồng Nhất",
+          "data": {
+            "stages": [
+              {
+                "stage": "Bảo toàn tính xác định",
+                "action": "Giữ vững đối tượng tư duy và ngữ nghĩa của thuật ngữ trong suốt mạch lập luận",
+                "emotion": "positive",
+                "painPoint": "Dùng từ ngữ mơ hồ, đa nghĩa khiến đối tượng tư duy bị biến dạng ngầm",
+                "solution": "Luôn định nghĩa rõ ràng nội hàm của các thuật ngữ chủ chốt trước khi bước vào tranh luận"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Quy Luật Tư Duy",
+              "Logic & Nguyên tắc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-ql-dong-nhat-loi",
+      "breadcrumb": "Logic Học Đại Cương > Hệ Thống Quy Luật Tư Duy Tiền Đề > Quy Luật Đồng Nhất > Bẫy Đánh Tráo Khái Niệm & Luận Đề",
+      "components": [
+        {
+          "type": "chat-simulation",
+          "title": "Mô Phỏng Phản Biện: Bẫy Đánh Tráo Khái Niệm",
+          "data": {
+            "scenario": "Tranh luận về chính sách học bổng khuyến khích học tập tại trường",
+            "messages": [
+              {
+                "sender": "Sinh viên A",
+                "role": "Người đề xuất",
+                "text": "Nhà trường nên nâng mức học bổng cho sinh viên đạt thành tích xuất sắc để khuyến khích nghiên cứu khoa học."
+              },
+              {
+                "sender": "Sinh viên B",
+                "role": "Người phản đối",
+                "text": "Bạn đề xuất thế là bất công! Tại sao lại dồn hết tiền ngân sách cho một nhóm nhỏ mà bỏ rơi đại đa số sinh viên khó khăn khác?",
+                "isTrap": true
+              },
+              {
+                "sender": "Giảng viên",
+                "role": "Trọng tài logic",
+                "text": "Sinh viên B đã vi phạm quy luật đồng nhất bằng chiêu thức đánh tráo luận đề (Ngụy biện người rơm): A đề xuất nâng mức học bổng xuất sắc, nhưng B đã đánh tráo thành dồn hết ngân sách và bỏ rơi sinh viên nghèo!"
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Bẫy Đánh Tráo Khái Niệm",
+          "data": {
+            "stages": [
+              {
+                "stage": "Phát hiện bẫy ngụy biện",
+                "action": "Giám sát liên tục tính đồng nhất của chủ đề đang tranh cãi",
+                "emotion": "frustration",
+                "painPoint": "Bị đối phương dẫn dụ tranh luận vào chủ đề bị bóp méo mà quên mất luận đề ban đầu",
+                "solution": "Dừng cuộc tranh luận lại và yêu cầu đối phương lặp lại chính xác luận đề gốc"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Quy Luật Tư Duy",
+              "Giới hạn & Rủi ro"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-ql-cam-mau-thuan",
+      "breadcrumb": "Logic Học Đại Cương > Hệ Thống Quy Luật Tư Duy Tiền Đề > Quy Luật Cấm Mâu Thuẫn",
+      "components": [
+        {
+          "type": "decision-tree",
+          "title": "Cây Phán Quyết: Kiểm Tra Mâu Thuẫn Logic",
+          "data": {
+            "startNodeId": "q_relation",
+            "nodes": {
+              "q_relation": {
+                "label": "Xét 2 phán đoán trái ngược",
+                "question": "Hai phán đoán đối lập nhau có cùng nói về một đối tượng, trong cùng một thời gian và cùng một mối quan hệ không?",
+                "options": [
+                  {
+                    "text": "Có, hoàn toàn cùng thời gian và quan hệ",
+                    "nextNodeId": "node_violation"
+                  },
+                  {
+                    "text": "Không, khác thời gian hoặc góc độ tiếp cận",
+                    "nextNodeId": "node_valid"
+                  }
+                ]
+              },
+              "node_violation": {
+                "label": "Vi Phạm Quy Luật Cấm Mâu Thuẫn",
+                "outcome": "Hai phán đoán KHÔNG THỂ CÙNG CHÂN THỰC! Bắt buộc ít nhất một phán đoán phải sai. Công thức: -(A ^ -A)",
+                "isTrap": true,
+                "explanation": "Quy luật cấm mâu thuẫn đòi hỏi tư duy không được tiền hậu bất nhất: không thể vừa khẳng định P vừa phủ định P cho cùng một đối tượng tại một thời điểm."
+              },
+              "node_valid": {
+                "label": "Không Vi Phạm (Biện chứng khách quan)",
+                "outcome": "Hiện tượng hợp lý do đối tượng vận động hoặc được nhìn nhận dưới 2 góc độ quan hệ khác nhau.",
+                "isTrap": false,
+                "explanation": "Ví dụ: 'Nước này nóng' (lúc 7h) và 'Nước này nguội' (lúc 9h) không mâu thuẫn vì khác mốc thời gian."
+              }
+            }
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Cấm Mâu Thuẫn",
+          "data": {
+            "stages": [
+              {
+                "stage": "Lọc sạch mâu thuẫn",
+                "action": "Bảo đảm tính nhất quán triệt để của hệ thống lập luận",
+                "emotion": "neutral",
+                "painPoint": "Đánh đồng mâu thuẫn logic chủ quan (sai lầm tư duy) với mâu thuẫn biện chứng khách quan (động lực phát triển)",
+                "solution": "Khẳng định: Mâu thuẫn biện chứng tồn tại khách quan trong sự vật; mâu thuẫn logic là sự lú lẫn tiền hậu bất nhất của người nói"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Quy Luật Tư Duy",
+              "Logic & Nguyên tắc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-ql-triet-tam",
+      "breadcrumb": "Logic Học Đại Cương > Hệ Thống Quy Luật Tư Duy Tiền Đề > Quy Luật Triệt Tam (Bài Trung)",
+      "components": [
+        {
+          "type": "vs-wrap",
+          "title": "Đối Chiếu: Cặp Mâu Thuẫn vs Cặp Đối Chọi Trên",
+          "data": {
+            "left": {
+              "title": "Cặp Mâu Thuẫn (A và O, E và I)",
+              "description": "Hai phán đoán phủ định triệt để lẫn nhau về cả chất và lượng",
+              "points": [
+                "Không thể cùng đúng, và KHÔNG THỂ CÙNG SAI",
+                "Áp dụng Quy luật Triệt tam (Bài trung): Hoặc A hoặc không-A, không có khả năng thứ ba (A v -A)",
+                "Nếu biết một phán đoán là giả dối thì phán đoán kia TẤT YẾU CHÂN THỰC và ngược lại",
+                "Ví dụ: 'Mọi kim loại đều dẫn điện' (A) mâu thuẫn với 'Một số kim loại không dẫn điện' (O)"
+              ]
+            },
+            "right": {
+              "title": "Cặp Đối Chọi Trên (A và E)",
+              "description": "Hai phán đoán cùng chung lượng toàn thể nhưng trái ngược về chất",
+              "points": [
+                "Không thể cùng đúng, NHƯNG CÓ THỂ CÙNG SAI",
+                "TUYỆT ĐỐI KHÔNG ÁP DỤNG Quy luật Triệt tam cho cặp A - E",
+                "Có thể xuất hiện khả năng thứ ba: Cả hai phán đoán A và E đều giả dối",
+                "Ví dụ: 'Mọi thiên nga đều trắng' (A) và 'Không con thiên nga nào trắng' (E) đều sai vì có thiên nga đen"
+              ]
+            }
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Quy Luật Triệt Tam",
+          "data": {
+            "stages": [
+              {
+                "stage": "Phân định bài trung",
+                "action": "Chỉ áp dụng quy luật loại trừ khả năng thứ ba cho cặp phán đoán mâu thuẫn trực tiếp",
+                "emotion": "frustration",
+                "painPoint": "Áp dụng quy luật triệt tam cho cặp đối chọi trên (A và E), dẫn đến kết luận ngụy biện khi cả 2 cùng sai",
+                "solution": "Ghi nhớ thần chú: Cặp mâu thuẫn mới có triệt tam (1 đúng 1 sai); cặp đối chọi trên có thể cùng sai"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Quy Luật Tư Duy",
+              "Logic & Nguyên tắc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-ql-ly-do-day-du",
+      "breadcrumb": "Logic Học Đại Cương > Hệ Thống Quy Luật Tư Duy Tiền Đề > Quy Luật Lý Do Đầy Đủ",
+      "components": [
+        {
+          "type": "delta-cheat-sheet",
+          "title": "Bí Kíp Nhận Diện Bẫy Quy Luật Lý Do Đầy Đủ",
+          "data": {
+            "items": [
+              {
+                "questionSnippet": "Căn cứ của một phán đoán được coi là 'đầy đủ' khi nào?",
+                "keyword": "Điều kiện đủ",
+                "correctDelta": "Luận cứ phải chân thực và có mối liên hệ logic tất yếu dẫn tới việc khẳng định tính chân thực của luận đề (A -> B)",
+                "wrongTraps": [
+                  "Chỉ cần số đông mọi người công nhận",
+                  "Dựa vào uy tín hay chức vụ của người phát ngôn",
+                  "Dựa vào niềm tin cá nhân chưa kiểm chứng"
+                ],
+                "explanation": "Quy luật lý do đầy đủ đòi hỏi mọi tư tưởng chân thực đều phải có căn cứ xác thực được chứng minh độc lập, không chấp nhận sự võ đoán."
+              },
+              {
+                "questionSnippet": "Hành vi vi phạm quy luật lý do đầy đủ phổ biến nhất trong đời sống là gì?",
+                "keyword": "Lỗi ngộ biện / Võ đoán",
+                "correctDelta": "Rút ra kết luận khi tiền đề chưa được chứng minh là chân thực hoặc tiền đề không đủ sức suy ra kết luận",
+                "wrongTraps": [
+                  "Lập luận quá dài dòng",
+                  "Dùng từ ngữ không hoa mỹ",
+                  "Sử dụng nhiều ví dụ minh họa"
+                ],
+                "explanation": "Lỗi võ đoán (Non sequitur) xảy ra khi đưa ra khẳng định mà không có bằng chứng hoặc bằng chứng không liên quan tất yếu."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Lý Do Đầy Đủ",
+          "data": {
+            "stages": [
+              {
+                "stage": "Xây dựng tính căn cứ",
+                "action": "Đòi hỏi bằng chứng độc lập và suy diễn tất yếu trước khi chấp nhận bất kỳ chân lý nào",
+                "emotion": "positive",
+                "painPoint": "Dễ dàng tin vào những phát biểu có vẻ hợp lý bề ngoài nhưng thiếu luận cứ xác thực",
+                "solution": "Luôn đặt câu hỏi phản biện: 'Căn cứ này đã được chứng minh chưa?' và 'Có tất yếu suy ra điều đó không?'"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Quy Luật Tư Duy",
+              "Giới hạn & Rủi ro"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-kn-ban-chat-co-cau",
+      "breadcrumb": "Logic Học Đại Cương > Cấu Trúc Khái Niệm & Thao Tác Logic > Thuộc Tính & Phân Loại Khái Niệm > Bản Chất & Vỏ Bọc Ngôn Ngữ",
+      "components": [
+        {
+          "type": "onion",
+          "title": "Cấu Trúc Tầng Lớp Của Khái Niệm",
+          "data": {
+            "layers": [
+              {
+                "name": "Lớp vỏ ngôn ngữ (Từ / Ngữ)",
+                "description": "Phương tiện vật chất tồn tại dưới dạng âm thanh hoặc chữ viết để biểu thị và truyền đạt khái niệm ra bên ngoài"
+              },
+              {
+                "name": "Nội hàm (Tập hợp các thuộc tính)",
+                "description": "Toàn bộ các dấu hiệu bản chất, khác biệt được phản ánh trong khái niệm để nhận biết đối tượng"
+              },
+              {
+                "name": "Hạt nhân ngoại diên (Lớp đối tượng)",
+                "description": "Tập hợp toàn bộ các đối tượng trong thực tế thỏa mãn các dấu hiệu bản chất của nội hàm"
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Bản Chất Khái Niệm",
+          "data": {
+            "stages": [
+              {
+                "stage": "Phân biệt khái niệm và từ",
+                "action": "Tách bạch nội dung tư tưởng của khái niệm khỏi lớp vỏ từ ngữ biểu đạt",
+                "emotion": "positive",
+                "painPoint": "Đồng nhất khái niệm với từ ngữ, bối rối trước hiện tượng từ đồng nghĩa hoặc từ đa nghĩa",
+                "solution": "Nhớ rằng một khái niệm có thể biểu đạt qua nhiều từ (đồng nghĩa), và một từ có thể biểu đạt nhiều khái niệm (đa nghĩa)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Khái Niệm",
+              "Nền tảng"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-kn-noi-ham-ngoai-dien",
+      "breadcrumb": "Logic Học Đại Cương > Cấu Trúc Khái Niệm & Thao Tác Logic > Thuộc Tính & Phân Loại Khái Niệm > Tỷ Lệ Nghịch Nội Hàm - Ngoại Diên",
+      "components": [
+        {
+          "type": "spectrum",
+          "title": "Quy Luật Tỷ Lệ Nghịch Giữa Nội Hàm & Ngoại Diên",
+          "data": {
+            "items": [
+              {
+                "title": "Đỉnh Phạm Trù (Ngoại diên cực đại - Nội hàm tối thiểu)",
+                "description": "Ví dụ khái niệm 'Sinh vật': Nội hàm chỉ gồm dấu hiệu có sự sống, nhưng ngoại diên bao quát toàn bộ động vật, thực vật, vi sinh vật trên trái đất."
+              },
+              {
+                "title": "Cấp Độ Loài / Hạng Trung Gian",
+                "description": "Thêm dấu hiệu 'bậc cao có tư duy' -> Khái niệm 'Con người': Nội hàm tăng lên một thuộc tính, ngoại diên thu hẹp lại chỉ còn loài người."
+              },
+              {
+                "title": "Khái Niệm Đơn Nhất (Nội hàm cực đại - Ngoại diên bằng 1)",
+                "description": "Thêm các đặc điểm định danh độc bản -> Khái niệm 'Chủ tịch Hồ Chí Minh': Nội hàm cực kỳ phong phú chi tiết, nhưng ngoại diên duy nhất 1 cá nhân."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Tỷ Lệ Nghịch",
+          "data": {
+            "stages": [
+              {
+                "stage": "Quy luật biến thiên",
+                "action": "Nắm vững nguyên lý: Càng thêm thuộc tính thì phạm vi đối tượng càng co lại và ngược lại",
+                "emotion": "neutral",
+                "painPoint": "Nghĩ rằng khái niệm càng rộng thì càng chứa nhiều dấu hiệu đặc trưng",
+                "solution": "Khái niệm càng rộng (ngoại diên lớn) thì nội hàm càng nghèo nàn vì chỉ giữ lại dấu hiệu chung nhất"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Khái Niệm",
+              "Cấu trúc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-kn-phan-loai",
+      "breadcrumb": "Logic Học Đại Cương > Cấu Trúc Khái Niệm & Thao Tác Logic > Thuộc Tính & Phân Loại Khái Niệm > Hệ Thống Phân Loại Khái Niệm",
+      "components": [
+        {
+          "type": "quadrant",
+          "title": "Ma Trận Phân Loại Khái Niệm",
+          "data": {
+            "x_axis": "Theo Nội Hàm (Tính chất dấu hiệu)",
+            "y_axis": "Theo Ngoại Diên (Số lượng phần tử)",
+            "quadrants": [
+              {
+                "title": "Cụ thể - Đơn nhất",
+                "description": "Khái niệm phản ánh một đối tượng xác định trong thế giới thực tại",
+                "points": [
+                  "Ví dụ: 'Thủ đô Hà Nội', 'Sông Mê Kông'",
+                  "Ngoại diên có đúng 1 phần tử duy nhất",
+                  "Nội hàm phong phú, phản ánh thực thể cụ thể"
+                ]
+              },
+              {
+                "title": "Cụ thể - Chung / Phổ biến",
+                "description": "Khái niệm phản ánh một lớp gồm nhiều đối tượng cụ thể cùng loại",
+                "points": [
+                  "Ví dụ: 'Sinh viên', 'Ngôi nhà', 'Máy tính'",
+                  "Ngoại diên chứa từ 2 phần tử trở lên",
+                  "Có thể là khái niệm tập hợp hoặc không tập hợp"
+                ]
+              },
+              {
+                "title": "Trừu tượng - Phổ biến",
+                "description": "Khái niệm phản ánh thuộc tính hoặc mối quan hệ được tách rời khỏi đối tượng",
+                "points": [
+                  "Ví dụ: 'Lòng dũng cảm', 'Tình bạn', 'Bình đẳng'",
+                  "Đối tượng không thể sờ nắm bằng giác quan trực tiếp",
+                  "Phản ánh bản chất quan hệ xã hội / tinh thần"
+                ]
+              },
+              {
+                "title": "Khái niệm Rỗng (Ngoại diên bằng 0)",
+                "description": "Khái niệm không chứa bất kỳ phần tử thực tế nào trong thế giới hiện thực",
+                "points": [
+                  "Ví dụ: 'Người cá', 'Động cơ vĩnh cửu', 'Số nguyên tố chẵn lớn hơn 2'",
+                  "Có nội hàm logic nhưng ngoại diên là tập hợp rỗng",
+                  "Đóng vai trò quan trọng trong giả thuyết khoa học"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Phân Loại Khái Niệm",
+          "data": {
+            "stages": [
+              {
+                "stage": "Phân loại chuẩn xác",
+                "action": "Định vị một khái niệm bất kỳ dựa trên cả 2 tiêu chí nội hàm và ngoại diên",
+                "emotion": "positive",
+                "painPoint": "Lẫn lộn giữa khái niệm tập hợp (không áp dụng được cho từng phần tử) và khái niệm chung",
+                "solution": "Quy tắc kiểm tra: 'Rừng' là khái niệm tập hợp, ta không thể gọi '1 cái cây' là '1 khu rừng'"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Khái Niệm",
+              "Cấu trúc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-kn-quan-he-hop-le",
+      "breadcrumb": "Logic Học Đại Cương > Cấu Trúc Khái Niệm & Thao Tác Logic > Mối Quan Hệ Giữa Các Khái Niệm > Quan Hệ Hợp Lẽ: Đồng Nhất, Bao Hàm, Giao Thoa",
+      "components": [
+        {
+          "type": "venn",
+          "title": "Sơ Đồ Euler: Các Mối Quan Hệ Hợp Lẽ (Tương Thích)",
+          "data": {
+            "left": {
+              "title": "Khái niệm A",
+              "items": [
+                "Có ngoại diên trùng khít hoàn toàn (Đồng nhất: A ≡ B)",
+                "Hoặc là loài được bao hàm trong giống (A ⊂ B)"
+              ]
+            },
+            "right": {
+              "title": "Khái niệm B",
+              "items": [
+                "Cùng chia sẻ một phần ngoại diên chung (Giao nhau: A ∩ B ≠ ∅)",
+                "Hoặc là giống bao hàm loài A"
+              ]
+            },
+            "intersection": "Vùng ngoại diên giao thoa hoặc trùng khít hoàn toàn",
+            "intersection_items": [
+              "Đồng nhất: 'Hà Nội' và 'Thủ đô nước CHXHCN Việt Nam'",
+              "Bao hàm: 'Sinh viên' (A) nằm trọn trong 'Người đang đi học' (B)",
+              "Giao nhau: 'Sinh viên' (A) và 'Cầu thủ bóng đá' (B) có phần chung"
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Quan Hệ Hợp Lẽ",
+          "data": {
+            "stages": [
+              {
+                "stage": "Nhận diện tập hợp",
+                "action": "Vẽ vòng tròn Euler để mô hình hóa quan hệ ngoại diên giữa các khái niệm",
+                "emotion": "positive",
+                "painPoint": "Nhầm lẫn giữa quan hệ bộ phận - toàn thể với quan hệ bao hàm loài - giống",
+                "solution": "Test thử: 'Ngón tay' là bộ phận của 'Bàn tay' (không phải quan hệ bao hàm vì ngón tay không phải là bàn tay)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Quan Hệ Khái Niệm",
+              "Hệ thống"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-kn-quan-he-khong-hop-le",
+      "breadcrumb": "Logic Học Đại Cương > Cấu Trúc Khái Niệm & Thao Tác Logic > Mối Quan Hệ Giữa Các Khái Niệm > Quan Hệ Không Hợp Lẽ: Tách Rời, Đối Lập, Mâu Thuẫn",
+      "components": [
+        {
+          "type": "pair-grid",
+          "title": "3 Mối Quan Hệ Không Hợp Lẽ (Không Tương Thích)",
+          "data": {
+            "pairs": [
+              {
+                "id": "rel-1",
+                "leftText": "Quan hệ Tách Rời (Ngang hàng / Cùng phụ thuộc)",
+                "rightText": "Hai khái niệm loài khác nhau cùng thuộc một khái niệm giống nhưng ngoại diên hoàn toàn không giao nhau",
+                "explanation": "Ví dụ: 'Bàn' và 'Ghế' cùng thuộc giống 'Đồ gỗ nội thất', ngoại diên hoàn toàn tách biệt."
+              },
+              {
+                "id": "rel-2",
+                "leftText": "Quan hệ Đối Lập (Tương phản)",
+                "rightText": "Hai khái niệm có nội hàm trái ngược nhau hoàn toàn nhưng tổng ngoại diên của chúng chưa vét hết khái niệm giống",
+                "explanation": "Ví dụ: 'Người giàu' và 'Người nghèo' (còn có tầng lớp trung lưu ở giữa)."
+              },
+              {
+                "id": "rel-3",
+                "leftText": "Quan hệ Mâu Thuẫn",
+                "rightText": "Hai khái niệm phủ định triệt để lẫn nhau (A và phi-A), tổng ngoại diên của chúng vét sạch 100% khái niệm giống",
+                "explanation": "Ví dụ: 'Số chẵn' và 'Số không chẵn' (số lẻ) trong tập hợp số tự nhiên."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Quan Hệ Không Hợp Lẽ",
+          "data": {
+            "stages": [
+              {
+                "stage": "Phân biệt đối lập và mâu thuẫn",
+                "action": "Kiểm tra xem tổng ngoại diên có vét cạn khái niệm giống hay còn khoảng trống ở giữa",
+                "emotion": "frustration",
+                "painPoint": "Coi 'Đen' và 'Trắng' là quan hệ mâu thuẫn trong khi chúng chỉ là đối lập",
+                "solution": "'Đen' và 'Không đen' mới là mâu thuẫn; 'Đen' và 'Trắng' là đối lập vì còn màu đỏ, vàng, xanh..."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Quan Hệ Khái Niệm",
+              "Hệ thống"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-kn-thu-hep-mo-rong",
+      "breadcrumb": "Logic Học Đại Cương > Cấu Trúc Khái Niệm & Thao Tác Logic > Các Thao Tác Kỹ Thuật Với Khái Niệm > Thao Tác Thu Hẹp & Mở Rộng",
+      "components": [
+        {
+          "type": "process-steps",
+          "title": "Quy Trình Thao Tác Thu Hẹp & Mở Rộng Khái Niệm",
+          "data": {
+            "steps": [
+              {
+                "name": "Bước 1: Cơ Chế Thu Hẹp Khái Niệm",
+                "description": "Thêm vào nội hàm những dấu hiệu mới để chuyển từ khái niệm giống (rộng) sang khái niệm loài (hẹp hơn). Ví dụ: 'Sinh viên' -> 'Sinh viên Đại học Trà Vinh' -> 'Sinh viên Nguyễn Văn A'."
+              },
+              {
+                "name": "Bước 2: Giới Hạn Của Thao Tác Thu Hẹp",
+                "description": "Thao tác thu hẹp chạm đáy giới hạn khi đi đến Khái Niệm Đơn Nhất (chỉ chứa 1 đối tượng duy nhất). Không thể thu hẹp thêm nữa mà vẫn giữ được tính khái niệm."
+              },
+              {
+                "name": "Bước 3: Cơ Chế Mở Rộng Khái Niệm",
+                "description": "Bớt đi những dấu hiệu riêng biệt trong nội hàm để chuyển từ khái niệm loài (hẹp) sang khái niệm giống (rộng hơn). Ví dụ: 'Hình vuông' -> 'Hình chữ nhật' -> 'Hình bình hành' -> 'Tứ giác'."
+              },
+              {
+                "name": "Bước 4: Giới Hạn Của Thao Tác Mở Rộng",
+                "description": "Thao tác mở rộng chạm trần giới hạn khi đi đến Phạm Trù (khái niệm có ngoại diên rộng lớn nhất trong một lĩnh vực khoa học, vd: Vật chất, Ý thức)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Thu Hẹp & Mở Rộng",
+          "data": {
+            "stages": [
+              {
+                "stage": "Làm chủ giới hạn",
+                "action": "Nhận biết điểm dừng đáy (khái niệm đơn nhất) và điểm chạm trần (phạm trù)",
+                "emotion": "neutral",
+                "painPoint": "Nhầm tưởng có thể mở rộng khái niệm vô hạn vượt ra khỏi các phạm trù triết học",
+                "solution": "Phạm trù là khái niệm rộng nhất, không có khái niệm giống nào bao hàm được phạm trù triết học"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Thao Tác Khái Niệm",
+              "Phân luồng"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-kn-dinh-nghia-cac-kieu",
+      "breadcrumb": "Logic Học Đại Cương > Cấu Trúc Khái Niệm & Thao Tác Logic > Các Thao Tác Kỹ Thuật Với Khái Niệm > Kỹ Thuật Định Nghĩa Khái Niệm > 9 Kiểu Định Nghĩa & Công Thức Loại - Hạng",
+      "components": [
+        {
+          "type": "matrix-table",
+          "title": "Ma Trận 9 Kiểu Định Nghĩa Khái Niệm",
+          "data": {
+            "headers": [
+              "Kiểu Định Nghĩa",
+              "Bản Chất Thao Tác",
+              "Ví Dụ Điển Hình"
+            ],
+            "rows": [
+              [
+                "1. Thông qua Loại & Hạng",
+                "Chỉ rõ giống gần nhất + Đặc điểm khác biệt của loài (Hạng = Loại + Đặc điểm)",
+                "Pháp luật là hệ thống quy phạm hành vi (Loại) do nhà nước ban hành và bảo đảm (Đặc điểm)."
+              ],
+              [
+                "2. Kiến thiết (Nguồn gốc)",
+                "Chỉ rõ nguồn gốc sinh thành hoặc cách thức tạo dựng đối tượng",
+                "Hình trụ là hình khối tạo nên khi quay một hình chữ nhật quanh một cạnh cố định."
+              ],
+              [
+                "3. Quan hệ đối lập",
+                "Định nghĩa cùng lúc 2 khái niệm đối lập qua mối liên hệ qua lại",
+                "Vợ là người phụ nữ đã kết hôn trong mối quan hệ hôn nhân với chồng."
+              ],
+              [
+                "4. Miêu tả",
+                "Liệt kê các dấu hiệu bề ngoài đặc trưng để nhận dạng đối tượng",
+                "Cam sành là giống cam quả có vỏ dày sần sùi, mọng nước, vị chua ngọt."
+              ],
+              [
+                "5. So sánh",
+                "So sánh đối tượng cần định nghĩa với đối tượng đã biết rõ",
+                "Màu đen là màu sắc tối như màu của than củi hoặc mực tàu."
+              ],
+              [
+                "6. Ngoại diên",
+                "Liệt kê toàn bộ các phân lớp đối tượng cấu thành nên khái niệm",
+                "Nghệ thuật gồm 7 loại hình: kiến trúc, điêu khắc, hội họa, văn chương, âm nhạc, múa, điện ảnh."
+              ],
+              [
+                "7. Định danh (Chiết tự)",
+                "Giải thích nguồn gốc ngữ nghĩa của từ ngữ hoặc thuật ngữ vay mượn",
+                "Nhân ái: Nhân (người) + Ái (yêu thương) -> Tình yêu thương con người."
+              ],
+              [
+                "8. Trực quan",
+                "Chỉ trực tiếp vào sự vật hiện thực để định nghĩa (thường dùng dạy trẻ)",
+                "Đưa quả táo màu đỏ ra và nói: 'Đây là màu đỏ'."
+              ],
+              [
+                "9. Chức năng sử dụng",
+                "Nêu rõ công dụng, mục đích hoặc nhiệm vụ vận hành của đối tượng",
+                "Nhiệt kế là dụng cụ dùng để đo nhiệt độ cơ thể hoặc môi trường."
+              ]
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Các Kiểu Định Nghĩa",
+          "data": {
+            "stages": [
+              {
+                "stage": "Lựa chọn phương thức",
+                "action": "Chọn kiểu định nghĩa phù hợp nhất với bản chất của đối tượng nghiên cứu",
+                "emotion": "positive",
+                "painPoint": "Chỉ biết duy nhất kiểu định nghĩa loại - hạng mà lúng túng khi gặp các khái niệm trừu tượng hoặc đơn nhất",
+                "solution": "Linh hoạt: Với hình học dùng kiến thiết, với từ mượn dùng chiết tự, với vật dụng dùng chức năng"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Định Nghĩa Khái Niệm",
+              "Cấu trúc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-kn-dinh-nghia-quy-tac",
+      "breadcrumb": "Logic Học Đại Cương > Cấu Trúc Khái Niệm & Thao Tác Logic > Các Thao Tác Kỹ Thuật Với Khái Niệm > Kỹ Thuật Định Nghĩa Khái Niệm > 4 Quy Tắc Vàng Trong Định Nghĩa",
+      "components": [
+        {
+          "type": "flip-card",
+          "title": "4 Quy Tắc Vàng Định Nghĩa Khái Niệm",
+          "data": {
+            "front": "4 Quy tắc Vàng định nghĩa",
+            "back": "1. Phải cân đối đầy đủ (A ≡ B, không quá rộng, không quá hẹp); 2. Không được vòng quanh luẩn quẩn; 3. Phải rõ ràng, chính xác, ngắn gọn; 4. Không nên dùng câu phủ định."
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Quy Tắc Định Nghĩa",
+          "data": {
+            "stages": [
+              {
+                "stage": "Thẩm định tính cân đối",
+                "action": "Kiểm tra xem ngoại diên khái niệm định nghĩa có trùng khít với ngoại diên được định nghĩa không",
+                "emotion": "frustration",
+                "painPoint": "Định nghĩa quá rộng (Bao hàm cả đối tượng khác) hoặc quá hẹp (Bỏ sót đối tượng chính danh)",
+                "solution": "Thử đảo ngược: Nếu 'B là A' cũng đúng 100% thì định nghĩa mới đạt tính cân đối A ≡ B"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Định Nghĩa Khái Niệm",
+              "Logic & Nguyên tắc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-kn-phan-chia-hinh-thuc",
+      "breadcrumb": "Logic Học Đại Cương > Cấu Trúc Khái Niệm & Thao Tác Logic > Các Thao Tác Kỹ Thuật Với Khái Niệm > Kỹ Thuật Phân Chia Khái Niệm > Hình Thức Phân Chia: Lưỡng Phân & Phân Loại",
+      "components": [
+        {
+          "type": "pyramid",
+          "title": "Mô Hình Phân Tầng Phân Chia Khái Niệm",
+          "data": {
+            "levels": [
+              {
+                "name": "Khái Niệm Bị Phân Chia (Giống)",
+                "description": "Khái niệm gốc ban đầu có ngoại diên rộng lớn cần được vạch rõ các phân lớp"
+              },
+              {
+                "name": "Cơ Sở Phân Chia (Tiêu chí duy nhất)",
+                "description": "Dấu hiệu bản chất được lựa chọn làm thước đo xuyên suốt quá trình phân chia"
+              },
+              {
+                "name": "Các Thành Phần Phân Chia (Loài)",
+                "description": "Các khái niệm thành phần thu được sau phân chia (Lưỡng phân: A và phi-A; hoặc Phân loại khoa học)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Hình Thức Phân Chia",
+          "data": {
+            "stages": [
+              {
+                "stage": "Phân biệt phân chia và phân tách",
+                "action": "Xác định rõ phân chia khái niệm là vạch ra các loài thuộc giống, không phải bẻ gãy bộ phận",
+                "emotion": "neutral",
+                "painPoint": "Nhầm tưởng phân chia cơ thể thành 'đầu, mình, tứ chi' là phân chia khái niệm",
+                "solution": "'Đầu' không phải là 'con người' (đó là phân chia chỉnh thể thành bộ phận). Phân chia khái niệm phải là: 'Con người' gồm 'nam' và 'nữ'"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Phân Chia Khái Niệm",
+              "Phân luồng"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-kn-phan-chia-quy-tac",
+      "breadcrumb": "Logic Học Đại Cương > Cấu Trúc Khái Niệm & Thao Tác Logic > Các Thao Tác Kỹ Thuật Với Khái Niệm > Kỹ Thuật Phân Chia Khái Niệm > 4 Quy Tắc Logic Trong Phân Chia",
+      "components": [
+        {
+          "type": "delta-cheat-sheet",
+          "title": "Bí Kíp Tránh 4 Lỗi Sai Kinh Điển Khi Phân Chia Khái Niệm",
+          "data": {
+            "items": [
+              {
+                "questionSnippet": "Phân chia sinh viên thành: 'Sinh viên giỏi, sinh viên khá, sinh viên trung bình' mắc lỗi gì?",
+                "keyword": "Phân chia thiếu thành phần",
+                "correctDelta": "Tổng ngoại diên các thành phần phân chia nhỏ hơn ngoại diên khái niệm bị phân chia (thiếu sinh viên yếu/kém)",
+                "wrongTraps": [
+                  "Phân chia thừa thành phần",
+                  "Phân chia đổi cơ sở",
+                  "Phân chia nhảy bậc"
+                ],
+                "explanation": "Quy tắc 1: Phân chia phải cân đối, tổng ngoại diên các loài phải bằng đúng 100% ngoại diên của giống (A = A1 + A2 + ... + An)."
+              },
+              {
+                "questionSnippet": "Phân chia sinh viên thành: 'Sinh viên năm nhất, sinh viên nữ, sinh viên khá' vi phạm quy tắc nào?",
+                "keyword": "Không nhất quán cơ sở phân chia",
+                "correctDelta": "Đã đổi cơ sở phân chia giữa chừng: vừa dùng năm học, vừa dùng giới tính, vừa dùng học lực",
+                "wrongTraps": [
+                  "Phân chia thiếu",
+                  "Phân chia thừa",
+                  "Phân chia vòng quanh"
+                ],
+                "explanation": "Quy tắc 2: Phân chia phải theo một cơ sở duy nhất và quy tắc 3: Các thành phần phân chia phải loại trừ lẫn nhau."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Quy Tắc Phân Chia",
+          "data": {
+            "stages": [
+              {
+                "stage": "Kiểm tra tính MECE",
+                "action": "Đảm bảo các nhánh phân chia bao quát toàn diện không trùng lặp và không nhảy bậc",
+                "emotion": "positive",
+                "painPoint": "Đang phân chia giống xuống loài trực tiếp lại nhảy tót xuống phân loài (nhảy bậc)",
+                "solution": "Tuân thủ phân chia liên tiếp: Động vật -> Có xương sống -> Động vật có vú (không nhảy từ động vật sang thú)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Phân Chia Khái Niệm",
+              "Logic & Nguyên tắc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-pd-cau-truc-don",
+      "breadcrumb": "Logic Học Đại Cương > Hình Thức Phán Đoán & Hệ Giá Trị Chân Lý > Phán Đoán Đơn Thuộc Tính > Cấu Trúc & Chu Diên > Cấu Trúc S-P & 4 Dạng Chuẩn A - E - I - O",
+      "components": [
+        {
+          "type": "features",
+          "title": "4 Thành Phần Cấu Trúc Phán Đoán Đơn & 4 Dạng Chuẩn",
+          "data": {
+            "items": [
+              {
+                "title": "Cấu trúc 4 thành phần: S - P - Hệ từ - Lượng từ",
+                "description": "Lượng từ (Mọi / Một số) xác định phạm vi đối tượng; Chủ từ (S) phản ánh đối tượng được phán đoán; Hệ từ (là / không là) thể hiện chất liên kết; Vị từ (P) phản ánh thuộc tính được gán cho S."
+              },
+              {
+                "title": "Phán đoán A: Khẳng định chung (Mọi S là P)",
+                "description": "Ký hiệu từ chữ Affirmo (Khẳng định). Phản ánh toàn bộ lớp S đều mang thuộc tính P. Ví dụ: 'Mọi kim loại đều dẫn điện'."
+              },
+              {
+                "title": "Phán đoán E: Phủ định chung (Mọi S không là P)",
+                "description": "Ký hiệu từ chữ Nego (Phủ định). Phủ định toàn bộ: không có bất kỳ phần tử nào của S mang thuộc tính P. Ví dụ: 'Không loài cá nào sống trên cạn'."
+              },
+              {
+                "title": "Phán đoán I (Khẳng định riêng) & O (Phủ định riêng)",
+                "description": "I: 'Một số S là P' (Ví dụ: Một số sinh viên là đoàn viên); O: 'Một số S không là P' (Ví dụ: Một số loài chim không biết bay)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Cấu Trúc Phán Đoán Đơn",
+          "data": {
+            "stages": [
+              {
+                "stage": "Quy chuẩn hóa câu văn",
+                "action": "Chuyển đổi câu văn xuôi thông thường về đúng cấu trúc chuẩn 4 thành phần Lượng từ - S - Hệ từ - P",
+                "emotion": "positive",
+                "painPoint": "Bối rối trước các câu văn xuôi khuyết lượng từ hoặc đảo ngữ vị từ lên trước",
+                "solution": "Khôi phục lượng từ ngầm: 'Sinh viên phải học bài' hiểu là 'Mọi sinh viên (S) là người phải học bài (P)' -> Phán đoán A"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Phán Đoán Đơn",
+              "Cấu trúc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-pd-tinh-chu-dien",
+      "breadcrumb": "Logic Học Đại Cương > Hình Thức Phán Đoán & Hệ Giá Trị Chân Lý > Phán Đoán Đơn Thuộc Tính > Cấu Trúc & Chu Diên > Ma Trận Tính Chu Diên S và P",
+      "components": [
+        {
+          "type": "quadrant",
+          "title": "Ma Trận Tính Chu Diên Của Thuật Ngữ (A - E - I - O)",
+          "data": {
+            "x_axis": "Chất (Khẳng định / Phủ định)",
+            "y_axis": "Lượng (Chung / Riêng)",
+            "quadrants": [
+              {
+                "title": "Phán đoán A (Khẳng định chung): S+ P-",
+                "description": "Chủ từ S chu diên (S+), Vị từ P không chu diên (P-)",
+                "points": [
+                  "Xét toàn bộ lớp đối tượng S",
+                  "P chỉ lấy một phần chứa S",
+                  "Ngoại lệ: Nếu S ≡ P thì P chu diên (A: S+ P+)"
+                ]
+              },
+              {
+                "title": "Phán đoán E (Phủ định chung): S+ P+",
+                "description": "Cả Chủ từ S và Vị từ P đều chu diên tuyệt đối (S+ P+)",
+                "points": [
+                  "Toàn bộ lớp đối tượng S tách biệt hoàn toàn khỏi P",
+                  "Toàn bộ lớp đối tượng P cũng tách rời khỏi S",
+                  "Hai tập hợp rời nhau 100%"
+                ]
+              },
+              {
+                "title": "Phán đoán I (Khẳng định riêng): S- P-",
+                "description": "Cả Chủ từ S và Vị từ P đều không chu diên (S- P-)",
+                "points": [
+                  "Chỉ lấy một phần của lớp đối tượng S",
+                  "Chỉ lấy một phần của lớp đối tượng P",
+                  "Ngoại lệ: Nếu P ⊂ S thì P chu diên (I: S- P+)"
+                ]
+              },
+              {
+                "title": "Phán đoán O (Phủ định riêng): S- P+",
+                "description": "Chủ từ S không chu diên (S-), Vị từ P chu diên (P+)",
+                "points": [
+                  "Chỉ lấy một phần đối tượng S",
+                  "Phần S này bị loại trừ hoàn toàn khỏi toàn bộ lớp P",
+                  "Quy tắc: Phán đoán phủ định thì P luôn luôn chu diên (+)"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Tính Chu Diên",
+          "data": {
+            "stages": [
+              {
+                "stage": "Làm chủ quy tắc vàng",
+                "action": "Khắc cốt ghi tâm công thức chu diên để giải quyết mọi bài toán tam đoạn luận",
+                "emotion": "positive",
+                "painPoint": "Hay quên dấu chu diên (+/-) của Vị từ P trong các phán đoán phủ định và khẳng định",
+                "solution": "Khẩu quyết 2 câu: 'Chung thì S+, Riêng thì S-'; 'Phủ định P+, Khẳng định P-' (ngoại trừ A, I đồng nhất)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Phán Đoán Đơn",
+              "Cấu trúc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-pd-hinh-vuong-doi-lap",
+      "breadcrumb": "Logic Học Đại Cương > Hình Thức Phán Đoán & Hệ Giá Trị Chân Lý > Phán Đoán Đơn Thuộc Tính > Quan Hệ Hình Vuông Logic > Quan Hệ Mâu Thuẫn & Cặp Đối Chọi",
+      "components": [
+        {
+          "type": "vs-wrap",
+          "title": "Đối Chiếu: Quan Hệ Đối Chọi Trên (A-E) vs Đối Chọi Dưới (I-O)",
+          "data": {
+            "left": {
+              "title": "Quan Hệ Đối Chọi Trên (A - E)",
+              "description": "Cặp phán đoán toàn thể khác nhau về chất",
+              "points": [
+                "Không thể cùng đúng: Nếu A đúng (1) -> E sai (0); Nếu E đúng (1) -> A sai (0)",
+                "CÓ THỂ CÙNG SAI: Nếu A sai (0) -> E không xác định (k); Nếu E sai (0) -> A không xác định (k)",
+                "Quy luật: Không bao giờ có trường hợp 2 phán đoán chung cùng chân thực ngoài đời thực"
+              ]
+            },
+            "right": {
+              "title": "Quan Hệ Đối Chọi Dưới (I - O)",
+              "description": "Cặp phán đoán bộ phận khác nhau về chất",
+              "points": [
+                "KHÔNG THỂ CÙNG SAI: Nếu I sai (0) -> O đúng (1); Nếu O sai (0) -> I đúng (1)",
+                "CÓ THỂ CÙNG ĐÚNG: Nếu I đúng (1) -> O không xác định (k); Nếu O đúng (1) -> I không xác định (k)",
+                "Ví dụ: 'Một số sinh viên thích đá bóng' (1) và 'Một số sinh viên không thích đá bóng' (1) cùng đúng"
+              ]
+            }
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Đối Chọi Trên - Dưới",
+          "data": {
+            "stages": [
+              {
+                "stage": "Ghi nhớ đặc tính đối xứng",
+                "action": "So sánh bảng chân trị của cực trên (A-E) và cực dưới (I-O) trên hình vuông logic",
+                "emotion": "neutral",
+                "painPoint": "Nhầm tưởng đối chọi trên và đối chọi dưới có cùng quy luật chân trị giống nhau",
+                "solution": "Nhớ cặp đối nghịch: Đối chọi trên KHÔNG THỂ CÙNG ĐÚNG; Đối chọi dưới KHÔNG THỂ CÙNG SAI"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Hình Vuông Logic",
+              "Hệ thống"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-pd-hinh-vuong-thu-bac",
+      "breadcrumb": "Logic Học Đại Cương > Hình Thức Phán Đoán & Hệ Giá Trị Chân Lý > Phán Đoán Đơn Thuộc Tính > Quan Hệ Hình Vuông Logic > Quan Hệ Thứ Bậc & Bảng Chân Trị",
+      "components": [
+        {
+          "type": "delta-cheat-sheet",
+          "title": "Bảng Chân Trị Suy Luận Quan Hệ Thứ Bậc (A-I & E-O)",
+          "data": {
+            "items": [
+              {
+                "questionSnippet": "Nếu phán đoán toàn thể (A hoặc E) là Chân thực (1), phán đoán bộ phận (I hoặc O) sẽ thế nào?",
+                "keyword": "Toàn thể đúng -> Bộ phận đúng",
+                "correctDelta": "Phán đoán bộ phận TẤT YẾU CHÂN THỰC (A1 -> I1; E1 -> O1)",
+                "wrongTraps": [
+                  "Không xác định",
+                  "Bắt buộc giả dối",
+                  "Phụ thuộc vào thuộc từ"
+                ],
+                "explanation": "Quy tắc thứ bậc: Nếu chân lý đã đúng cho toàn bộ lớp đối tượng thì hiển nhiên đúng cho từng bộ phận của lớp đó."
+              },
+              {
+                "questionSnippet": "Nếu phán đoán bộ phận (I hoặc O) là Giả dối (0), phán đoán toàn thể (A hoặc E) sẽ thế nào?",
+                "keyword": "Bộ phận sai -> Toàn thể sai",
+                "correctDelta": "Phán đoán toàn thể TẤT YẾU GIẢ DỐI (I0 -> A0; O0 -> E0)",
+                "wrongTraps": [
+                  "Toàn thể vẫn có thể đúng",
+                  "Toàn thể không xác định",
+                  "Toàn thể chân thực"
+                ],
+                "explanation": "Chỉ cần tìm ra một trường hợp bộ phận sai là toàn bộ phán đoán phổ quát lập tức bị đánh đổ."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Quan Hệ Thứ Bậc",
+          "data": {
+            "stages": [
+              {
+                "stage": "Làm chủ chiều suy diễn",
+                "action": "Nhớ chính xác 2 chiều suy luận một chiều: Trên đúng -> Dưới đúng; Dưới sai -> Trên sai",
+                "emotion": "positive",
+                "painPoint": "Suy luận ngược chiều sai lầm: Thấy I đúng vội kết luận A đúng, hoặc thấy A sai vội kết luận I sai",
+                "solution": "Chiều ngược lại luôn KHÔNG XÁC ĐỊNH (k): Một số SV giỏi (1) không có nghĩa mọi SV đều giỏi (k)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Hình Vuông Logic",
+              "Giới hạn & Rủi ro"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-pd-phuc-hoi-tuyen",
+      "breadcrumb": "Logic Học Đại Cương > Hình Thức Phán Đoán & Hệ Giá Trị Chân Lý > Phán Đoán Phức Hợp > Phán Đoán Hội & Phán Đoán Tuyển",
+      "components": [
+        {
+          "type": "interactive-calc",
+          "title": "Kiểm Tra Giá Trị Chân Trị Phép Hội & Phép Tuyển",
+          "data": {
+            "formulaLabel": "Hội (a ^ b) vs Tuyển liên kết (a v b) vs Tuyển gạt bỏ (a v_ gạt b)",
+            "description": "Nhập giá trị chân lý của 2 mệnh đề thành phần a và b (1 = Đúng, 0 = Sai)",
+            "inputs": [
+              {
+                "id": "val_a",
+                "name": "Giá trị chân lý mệnh đề a (1 hoặc 0)",
+                "defaultValue": 1,
+                "min": 0,
+                "max": 1,
+                "step": 1
+              },
+              {
+                "id": "val_b",
+                "name": "Giá trị chân lý mệnh đề b (1 hoặc 0)",
+                "defaultValue": 0,
+                "min": 0,
+                "max": 1,
+                "step": 1
+              }
+            ],
+            "operation": "multiply",
+            "resultLabel": "Chân trị Phép Hội (a ^ b)",
+            "diagnoses": [
+              {
+                "minThreshold": 1,
+                "maxThreshold": 1,
+                "message": "Phép Hội (VÀ) ĐÚNG vì cả a và b cùng đúng 100%!",
+                "color": "#00b894"
+              },
+              {
+                "minThreshold": 0,
+                "maxThreshold": 0,
+                "message": "Phép Hội SAI vì có ít nhất một thành phần mang giá trị 0. Trong khi đó Tuyển liên kết (a v b) vẫn ĐÚNG!",
+                "color": "#d63031"
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Hội & Tuyển",
+          "data": {
+            "stages": [
+              {
+                "stage": "Phân biệt 2 loại tuyển",
+                "action": "Tách bạch tuyển liên kết (hoặc cái này, hoặc cái kia, hoặc cả hai) và tuyển gạt bỏ (chỉ được chọn 1 trong 2)",
+                "emotion": "positive",
+                "painPoint": "Đồng nhất từ 'hoặc' trong tiếng Việt hàng ngày với phép tuyển gạt bỏ của logic học",
+                "solution": "Nhìn ngữ cảnh: 'Sinh viên được miễn hoặc giảm học phí' là tuyển gạt bỏ vì không ai vừa được miễn vừa được giảm"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Phán Đoán Phức",
+              "Logic & Nguyên tắc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-pd-phuc-keo-theo",
+      "breadcrumb": "Logic Học Đại Cương > Hình Thức Phán Đoán & Hệ Giá Trị Chân Lý > Phán Đoán Phức Hợp > Phán Đoán Kéo Theo & 3 Dạng Điều Kiện",
+      "components": [
+        {
+          "type": "decision-tree",
+          "title": "Cây Quyết Định: 3 Dạng Điều Kiện Trong Phán Đoán Kéo Theo",
+          "data": {
+            "startNodeId": "q_condition",
+            "nodes": {
+              "q_condition": {
+                "label": "Mối quan hệ nhân quả",
+                "question": "Hệ quả B xảy ra khi nào so với sự xuất hiện của tiền đề A?",
+                "options": [
+                  {
+                    "text": "Chỉ có A thì mới có B (Không có A thì chắc chắn không có B)",
+                    "nextNodeId": "node_necessary"
+                  },
+                  {
+                    "text": "Cứ có A là chắc chắn có B (Có A là đủ sinh ra B)",
+                    "nextNodeId": "node_sufficient"
+                  },
+                  {
+                    "text": "Có A thì có B và ngược lại có B thì có A",
+                    "nextNodeId": "node_both"
+                  }
+                ]
+              },
+              "node_necessary": {
+                "label": "Điều Kiện Cần (-a -> -b)",
+                "outcome": "A là điều kiện cần của B. Đọc là: 'Chỉ khi có A mới có B'. Thiếu A thì B không thể xảy ra.",
+                "isTrap": false,
+                "explanation": "Ví dụ: 'Đủ 18 tuổi' là điều kiện cần để được bầu cử (không đủ 18 tuổi thì không được bầu cử)."
+              },
+              "node_sufficient": {
+                "label": "Điều Kiện Đủ (a -> b)",
+                "outcome": "A là điều kiện đủ của B. Đọc là: 'Nếu có A thì có B'. Có A là bảo đảm 100% có B.",
+                "isTrap": false,
+                "explanation": "Ví dụ: 'Trời mưa' là điều kiện đủ để 'đường ướt' (mưa là chắc chắn đường ướt, dù đường ướt có thể do xe tưới nước)."
+              },
+              "node_both": {
+                "label": "Điều Kiện Cần & Đủ (a <-> b)",
+                "outcome": "A là điều kiện cần và đủ của B. Đọc là: 'Có B khi và chỉ khi có A'. Mối quan hệ tương đương logic hoàn hảo.",
+                "isTrap": false,
+                "explanation": "Ví dụ: 'Một tam giác có 3 góc bằng nhau' là điều kiện cần và đủ để 'tam giác đó là tam giác đều'."
+              }
+            }
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Điều Kiện Cần & Đủ",
+          "data": {
+            "stages": [
+              {
+                "stage": "Phân loại điều kiện",
+                "action": "Nhận dạng chính xác 3 cụm từ chỉ điều kiện trong văn bản luật và đời sống",
+                "emotion": "frustration",
+                "painPoint": "Đánh tráo điều kiện cần thành điều kiện đủ dẫn đến những kết luận ngây thơ",
+                "solution": "'Chăm học' là điều kiện cần để thi đỗ (không chăm học khó đỗ), nhưng chưa phải điều kiện đủ (cần phương pháp, tâm lý...)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Phán Đoán Phức",
+              "Logic & Nguyên tắc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-pd-phuc-tuong-duong",
+      "breadcrumb": "Logic Học Đại Cương > Hình Thức Phán Đoán & Hệ Giá Trị Chân Lý > Phán Đoán Phức Hợp > Phán Đoán Tương Đương & Bảng Chân Trị",
+      "components": [
+        {
+          "type": "formula-breakdown",
+          "title": "Bung Rã Công Thức Phán Đoán Tương Đương (a ↔ b)",
+          "data": {
+            "formula": "(a <-> b) = (a -> b) ^ (b -> a)",
+            "variables": [
+              {
+                "symbol": "a <-> b",
+                "definition": "Phán đoán tương đương, có giá trị chân thực khi a và b có cùng giá trị chân lý (cùng đúng 1 hoặc cùng sai 0)"
+              },
+              {
+                "symbol": "a -> b",
+                "definition": "Phép kéo theo thuận: a là điều kiện đủ của b"
+              },
+              {
+                "symbol": "b -> a",
+                "definition": "Phép kéo theo nghịch: b là điều kiện đủ của a (nghĩa là a là điều kiện cần của b)"
+              },
+              {
+                "symbol": "^",
+                "definition": "Liên từ Hội kết hợp chặt chẽ cả 2 chiều suy luận thuận và nghịch"
+              }
+            ],
+            "example": "Sinh viên được bảo vệ luận văn tốt nghiệp (a) khi và chỉ khi tích lũy đủ số tín chỉ và điểm trung bình >= 8.0 (b)."
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Phán Đoán Tương Đương",
+          "data": {
+            "stages": [
+              {
+                "stage": "Làm chủ đẳng thức logic",
+                "action": "Kiểm chứng tính đúng sai của phán đoán tương đương thông qua bảng chân trị 2 chiều",
+                "emotion": "positive",
+                "painPoint": "Quên rằng khi cả a và b cùng sai (0 và 0) thì phán đoán tương đương a <-> b vẫn mang giá trị ĐÚNG (1)",
+                "solution": "Ghi nhớ: Tương đương nghĩa là đồng pha; cùng đúng thì đúng, mà cùng sai thì cũng là đúng"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Phán Đoán Phức",
+              "Cấu trúc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-sl-ban-chat-dieu-kien",
+      "breadcrumb": "Logic Học Đại Cương > Nghệ Thuật Suy Luận & Quy Tắc Diễn Dịch > Cấu Trúc Suy Luận & Điều Kiện Chân Thực",
+      "components": [
+        {
+          "type": "flowchart",
+          "title": "Sơ Đồ Luồng: Điều Kiện Đảm Bảo Kết Luận Chân Thực",
+          "data": {
+            "steps": [
+              {
+                "name": "Bước 1: Tiền Đề Chân Thực",
+                "description": "Các phán đoán xuất phát điểm (tiền đề) phải phù hợp chính xác 100% với hiện thực khách quan đã được chứng minh."
+              },
+              {
+                "name": "Bước 2: Tuân Thủ Nghiêm Ngặt Quy Tắc Logic",
+                "description": "Quá trình rút ra kết luận từ tiền đề phải tuân thủ đúng các quy luật tư duy và quy tắc suy luận tương ứng."
+              },
+              {
+                "name": "Bước 3: Kết Luận Tất Yếu Chân Thực",
+                "description": "Khi hội đủ cả 2 điều kiện trên, kết luận rút ra tất yếu mang giá trị chân lý khách quan mà không cần kiểm chứng lại bằng thực nghiệm trực tiếp."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Bản Chất Suy Luận",
+          "data": {
+            "stages": [
+              {
+                "stage": "Thẩm định suy luận",
+                "action": "Luôn kiểm tra cả 2 chốt chặn: Tính chân thực của tiền đề VÀ Tính hợp quy tắc của lập luận",
+                "emotion": "positive",
+                "painPoint": "Tiền đề đúng nhưng lập luận sai quy tắc, hoặc lập luận đúng quy tắc nhưng tiền đề sai ngầm",
+                "solution": "Chỉ chấp nhận kết luận khi vượt qua cả 2 bài test: Thực tế (tiền đề) và Logic (quy tắc)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Suy Luận",
+              "Nền tảng"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-sl-dao-nguoc-doi-chat",
+      "breadcrumb": "Logic Học Đại Cương > Nghệ Thuật Suy Luận & Quy Tắc Diễn Dịch > Suy Luận Diễn Dịch Trực Tiếp > Thao Tác Đảo Ngược & Đổi Chất",
+      "components": [
+        {
+          "type": "pair-grid",
+          "title": "Thao Tác Đảo Ngược (Hoán Vị) & Đổi Chất (Biến Đổi)",
+          "data": {
+            "pairs": [
+              {
+                "id": "trans-1",
+                "leftText": "Đảo ngược phán đoán A: SaP -> PiS",
+                "rightText": "Mọi S là P đảo ngược thành Một số P là S (Đảo ngược có hạn chế do S+ P- chuyển thành P- S+)",
+                "explanation": "Ví dụ: 'Mọi sinh viên đều là người' đảo ngược thành 'Một số người là sinh viên'."
+              },
+              {
+                "id": "trans-2",
+                "leftText": "Đảo ngược phán đoán E: SeP -> PeS",
+                "rightText": "Mọi S không là P đảo ngược thành Mọi P không là S (Đảo ngược thuần túy vì cả S và P đều chu diên +)",
+                "explanation": "Ví dụ: 'Mọi cá không là thú' đảo ngược thành 'Mọi thú không là cá'."
+              },
+              {
+                "id": "trans-3",
+                "leftText": "Đổi chất phán đoán (A -> E; E -> A; I -> O; O -> I)",
+                "rightText": "Giữ nguyên chủ từ S, đổi chất của hệ từ (khẳng định thành phủ định và ngược lại), thay vị từ P bằng không-P (-P)",
+                "explanation": "Ví dụ: 'Mọi người đều phải chết' (A) đổi chất thành 'Không ai là bất tử' (E)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Đảo Ngược & Đổi Chất",
+          "data": {
+            "stages": [
+              {
+                "stage": "Làm chủ phép biến đổi",
+                "action": "Áp dụng chính xác quy tắc bảo toàn tính chu diên của thuật ngữ khi đảo ngược",
+                "emotion": "frustration",
+                "painPoint": "Đảo ngược phán đoán O: Cố tình hoán vị phán đoán O dẫn đến vi phạm quy tắc chu diên",
+                "solution": "Ghi nhớ quy tắc cấm: PHÁN ĐOÁN O KHÔNG THỂ ĐẢO NGƯỢC ĐƯỢC (vì S- ở tiền đề sẽ biến thành S+ ở kết luận phủ định)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Diễn Dịch Trực Tiếp",
+              "Phân luồng"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-sl-doi-lap-vi-tu",
+      "breadcrumb": "Logic Học Đại Cương > Nghệ Thuật Suy Luận & Quy Tắc Diễn Dịch > Suy Luận Diễn Dịch Trực Tiếp > Thao Tác Đối Lập Vị Từ",
+      "components": [
+        {
+          "type": "process-steps",
+          "title": "Quy Trình 2 Bước Thao Tác Đối Lập Vị Từ (Contraposition)",
+          "data": {
+            "steps": [
+              {
+                "name": "Bước 1: Thực Hiện Đổi Chất Phán Đoán Tiền Đề",
+                "description": "Giữ nguyên S, đổi chất hệ từ và phủ định vị từ P: A chuyển thành E; E chuyển thành A; O chuyển thành I. (Lưu ý: Phán đoán I đổi chất thành O nhưng O không thể đảo ngược, do đó PHÁN ĐOÁN I KHÔNG THỰC HIỆN ĐƯỢC ĐỐI LẬP VỊ TỪ)."
+              },
+              {
+                "name": "Bước 2: Đảo Ngược Phán Đoán Vừa Thu Được",
+                "description": "Hoán vị vị trí của S và không-P (-P) để đưa phủ định vị từ lên làm chủ từ mới trong phán đoán kết luận."
+              },
+              {
+                "name": "Công thức kết quả chuẩn hóa",
+                "description": "Phán đoán A (SaP) -> (-P)eS; Phán đoán E (SeP) -> (-P)iS; Phán đoán O (SoP) -> (-P)iS."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Đối Lập Vị Từ",
+          "data": {
+            "stages": [
+              {
+                "stage": "Quy trình liên hoàn",
+                "action": "Kết hợp nhuần nhuyễn 2 thao tác: Đổi chất trước rồi mới Đảo ngược sau",
+                "emotion": "neutral",
+                "painPoint": "Đảo lộn thứ tự: Đem đảo ngược trước rồi mới đổi chất (đây là thao tác đối lập chủ từ, không phải đối lập vị từ)",
+                "solution": "Công thức khẩu quyết: 'Đổi chất trước - Đảo ngược sau; Phán đoán I - Bỏ qua ngay'"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Diễn Dịch Trực Tiếp",
+              "Phân luồng"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-sl-tam-doan-cau-truc",
+      "breadcrumb": "Logic Học Đại Cương > Nghệ Thuật Suy Luận & Quy Tắc Diễn Dịch > Tam Đoạn Luận Đơn > Cấu Trúc Thuật Ngữ S-P-M & Tiền Đề",
+      "components": [
+        {
+          "type": "formula-breakdown",
+          "title": "Bung Rã Cấu Trúc Tam Đoạn Luận Đơn",
+          "data": {
+            "formula": "Đại tiền đề (M - P) + Tiểu tiền đề (S - M) => Kết luận (S - P)",
+            "variables": [
+              {
+                "symbol": "S (Tiểu từ)",
+                "definition": "Thuật ngữ đóng vai trò Chủ từ trong phán đoán Kết luận; xuất hiện trong Tiểu tiền đề"
+              },
+              {
+                "symbol": "P (Đại từ)",
+                "definition": "Thuật ngữ đóng vai trò Vị từ trong phán đoán Kết luận; xuất hiện trong Đại tiền đề"
+              },
+              {
+                "symbol": "M (Trung từ)",
+                "definition": "Thuật ngữ trung gian làm cầu nối logic, xuất hiện ở cả hai tiền đề nhưng TUYỆT ĐỐI KHÔNG xuất hiện ở Kết luận"
+              }
+            ],
+            "example": "Đại tiền đề: Mọi kim loại (M) đều dẫn điện (P); Tiểu tiền đề: Đồng (S) là kim loại (M); Kết luận: Vậy Đồng (S) dẫn điện (P)."
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Cấu Trúc Tam Đoạn Luận",
+          "data": {
+            "stages": [
+              {
+                "stage": "Bóc tách thuật ngữ",
+                "action": "Xác định chính xác vai trò của S, P và trung từ M trong 3 phán đoán",
+                "emotion": "positive",
+                "painPoint": "Để trung từ M lọt vào phán đoán kết luận, làm phá vỡ toàn bộ cấu trúc suy luận",
+                "solution": "Luôn nhớ: Trung từ M chỉ là chất xúc tác kết nối; ở kết luận chỉ có S nối với P"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Tam Đoạn Luận",
+              "Cấu trúc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-sl-tam-doan-quy-tac",
+      "breadcrumb": "Logic Học Đại Cương > Nghệ Thuật Suy Luận & Quy Tắc Diễn Dịch > Tam Đoạn Luận Đơn > 7 Quy Tắc Vàng Tam Đoạn Luận Đơn",
+      "components": [
+        {
+          "type": "carousel",
+          "title": "7 Quy Tắc Vàng Của Tam Đoạn Luận Đơn",
+          "data": {
+            "items": [
+              {
+                "title": "3 Quy Tắc Chung Về Thuật Ngữ (QT 1, 2, 3)",
+                "description": "QT 1: Trong một tam đoạn luận chỉ có đúng 3 thuật ngữ (S, P, M), tránh lỗi bốn thuật ngữ do dùng từ đa nghĩa. QT 2: Trung từ M phải chu diên (+) ít nhất một lần ở tiền đề. QT 3: Thuật ngữ không chu diên (-) ở tiền đề thì tuyệt đối không được chu diên (+) ở kết luận."
+              },
+              {
+                "title": "4 Quy Tắc Chung Về Tiền Đề (QT 4, 5, 6, 7)",
+                "description": "QT 4: Từ hai tiền đề phủ định không rút ra được kết luận. QT 5: Từ hai tiền đề riêng không rút ra được kết luận. QT 6: Nếu có một tiền đề phủ định thì kết luận bắt buộc phải phủ định. QT 7: Nếu có một tiền đề riêng thì kết luận bắt buộc phải là phán đoán riêng."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: 7 Quy Tắc Tam Đoạn Luận",
+          "data": {
+            "stages": [
+              {
+                "stage": "Audit tính hợp logic",
+                "action": "Đối chiếu lần lượt 7 quy tắc để bắt lỗi bất kỳ tam đoạn luận nào",
+                "emotion": "positive",
+                "painPoint": "Hay bỏ qua quy tắc M phải chu diên (+) ít nhất 1 lần, dẫn đến kết luận ngụy biện",
+                "solution": "Bất cứ khi nào phân tích tam đoạn luận, bước đầu tiên là kiểm tra tính chu diên của M ở cả 2 tiền đề"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Tam Đoạn Luận",
+              "Logic & Nguyên tắc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-sl-tam-doan-hinh-kieu",
+      "breadcrumb": "Logic Học Đại Cương > Nghệ Thuật Suy Luận & Quy Tắc Diễn Dịch > Tam Đoạn Luận Đơn > 4 Hình Tam Đoạn Luận & Quy Tắc Riêng",
+      "components": [
+        {
+          "type": "matrix-table",
+          "title": "Ma Trận 4 Hình Tam Đoạn Luận & Vị Trí Trung Từ M",
+          "data": {
+            "headers": [
+              "Hình Tam Đoạn Luận",
+              "Sơ Đồ Vị Trí Trung Từ M",
+              "Quy Tắc Riêng Bắt Buộc",
+              "Các Kiểu Đúng Chuẩn (Moods)"
+            ],
+            "rows": [
+              [
+                "Hình 1 (Phổ biến nhất)",
+                "Đại: M - P | Tiểu: S - M",
+                "Đại tiền đề phải là phán đoán chung; Tiểu tiền đề phải là phán đoán khẳng định.",
+                "AAA, EAE, AII, EIO (Barbara, Celarent, Darii, Ferio)"
+              ],
+              [
+                "Hình 2",
+                "Đại: P - M | Tiểu: S - M",
+                "Một trong hai tiền đề phải là phủ định; Đại tiền đề phải là phán đoán chung.",
+                "EAE, AEE, EIO, AOO (Cesare, Camestres, Festino, Baroco)"
+              ],
+              [
+                "Hình 3",
+                "Đại: M - P | Tiểu: M - S",
+                "Tiểu tiền đề phải là khẳng định; Kết luận bắt buộc phải là phán đoán riêng.",
+                "AAI, IAI, AII, EAO, OAO, EIO (Darapti, Disamis, Datisi...)"
+              ],
+              [
+                "Hình 4",
+                "Đại: P - M | Tiểu: M - S",
+                "Nếu Đại khẳng định thì Tiểu phải chung; Nếu Tiểu khẳng định thì Kết luận phải riêng; Nếu có tiền đề phủ định thì Đại phải chung.",
+                "AAI, AEE, IAI, EAO, EIO (Bramantip, Camenes, Dimaris...)"
+              ]
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: 4 Hình Tam Đoạn Luận",
+          "data": {
+            "stages": [
+              {
+                "stage": "Nhận diện mô hình",
+                "action": "Vẽ đường nối vị trí của trung từ M để nhận diện hình 1, 2, 3 hay 4",
+                "emotion": "neutral",
+                "painPoint": "Nhầm lẫn giữa các hình dẫn đến việc áp dụng sai quy tắc riêng",
+                "solution": "Khẩu quyết vị trí M: Hình 1 (chữ Z ngược: trái-phải); Hình 2 (phải-phải); Hình 3 (trái-trái); Hình 4 (phải-trái)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Tam Đoạn Luận",
+              "Cấu trúc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-sl-tam-doan-bien-the",
+      "breadcrumb": "Logic Học Đại Cương > Nghệ Thuật Suy Luận & Quy Tắc Diễn Dịch > Tam Đoạn Luận Đơn > Tam Đoạn Luận Tỉnh Lược & Phức Hợp",
+      "components": [
+        {
+          "type": "flip-card",
+          "title": "Các Biến Thể Của Tam Đoạn Luận",
+          "data": {
+            "front": "Tam đoạn luận tỉnh lược (Enthymeme)",
+            "back": "Tam đoạn luận bị lược bỏ bớt một phán đoán (bỏ Đại tiền đề, Tiểu tiền đề hoặc Kết luận) do ngầm hiểu. Để kiểm tra tính hợp logic, bắt buộc phải khôi phục lại đầy đủ 3 phán đoán chuẩn."
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Biến Thể Tam Đoạn Luận",
+          "data": {
+            "stages": [
+              {
+                "stage": "Khôi phục tiền đề ẩn",
+                "action": "Tìm phán đoán bị giấu kín trong các phát biểu đời thường để kiểm tra tính chân thực",
+                "emotion": "positive",
+                "painPoint": "Bị đánh lừa bởi các câu nói vắn tắt có vẻ thuyết phục mà không nhận ra tiền đề ẩn là giả dối",
+                "solution": "Khôi phục cấu trúc 3 phán đoán: 'Anh ta là người xấu vì anh ta hay chỉ trích' -> Tiền đề ẩn: 'Mọi người hay chỉ trích đều là người xấu' (Sai lầm!)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Tam Đoạn Luận",
+              "Hệ thống"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-sl-quy-nap-hoan-toan",
+      "breadcrumb": "Logic Học Đại Cương > Nghệ Thuật Suy Luận & Quy Tắc Diễn Dịch > Suy Luận Quy Nạp & Ngoại Suy > Quy Nạp Hoàn Toàn vs Không Hoàn Toàn",
+      "components": [
+        {
+          "type": "pyramid",
+          "title": "Mô Hình Khái Quát Hóa Của Suy Luận Quy Nạp",
+          "data": {
+            "levels": [
+              {
+                "name": "Khảo Sát Các Đối Tượng Riêng Lẻ (Đáy)",
+                "description": "Quan sát, thu thập dữ liệu từ các phần tử cụ thể S1, S2, ..., Sn đều mang thuộc tính P"
+              },
+              {
+                "name": "Quy Nạp Không Hoàn Toàn (Khảo sát một số đối tượng)",
+                "description": "Kết luận có tính xác suất (độ tin cậy phụ thuộc vào phương pháp quan sát: phổ thông hay khoa học)"
+              },
+              {
+                "name": "Quy Nạp Hoàn Toàn (Khảo sát 100% đối tượng - Đỉnh)",
+                "description": "Khảo sát hết mọi phần tử của lớp đối tượng hữu hạn -> Kết luận mang tính xác thực tuyệt đối 100%"
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Suy Luận Quy Nạp",
+          "data": {
+            "stages": [
+              {
+                "stage": "Đánh giá độ tin cậy",
+                "action": "Phân biệt rạch ròi giữa kết luận chắc chắn 100% của quy nạp hoàn toàn và xác suất của quy nạp không hoàn toàn",
+                "emotion": "neutral",
+                "painPoint": "Vội vã khái quát hóa thành chân lý tuyệt đối chỉ sau một vài trường hợp quan sát ngẫu nhiên (Lỗi quy nạp vội vã)",
+                "solution": "Nhớ rằng quy nạp không hoàn toàn chỉ mang tính giả thuyết khoa học cho đến khi được kiểm chứng bằng liên hệ nhân quả"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Quy Nạp",
+              "Góc nhìn Đa chiều"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-sl-nhan-qua-bacon-mill",
+      "breadcrumb": "Logic Học Đại Cương > Nghệ Thuật Suy Luận & Quy Tắc Diễn Dịch > Suy Luận Quy Nạp & Ngoại Suy > 5 Phương Pháp Xác Định Nhân Quả Bacon - Mill",
+      "components": [
+        {
+          "type": "carousel",
+          "title": "5 Phương Pháp Xác Định Mối Quan Hệ Nhân Quả (Bacon - Mill)",
+          "data": {
+            "items": [
+              {
+                "title": "1. Phương Pháp Phù Hợp (Tương Đồng) & 2. Phương Pháp Khác Biệt",
+                "description": "Phù hợp: Nhiều trường hợp xảy ra hiện tượng có nhiều hoàn cảnh khác nhau nhưng chỉ có DUY NHẤT một hoàn cảnh A giống nhau -> A là nguyên nhân. Khác biệt: Hai trường hợp chỉ khác nhau duy nhất ở sự có mặt hay vắng mặt của hoàn cảnh A -> A là nguyên nhân."
+              },
+              {
+                "title": "3. Kết Hợp Phù Hợp - Khác Biệt & 4. Phương Pháp Biến Đổi Kèm Theo",
+                "description": "Kết hợp: Vừa đối chiếu các trường hợp có hiện tượng vừa đối chiếu các trường hợp không có hiện tượng. Biến đổi kèm theo: Khi hoàn cảnh A thay đổi về lượng kéo theo hiện tượng a thay đổi tương ứng -> A là nguyên nhân của a."
+              },
+              {
+                "title": "5. Phương Pháp Thặng Dư (Phần Dư)",
+                "description": "Khi đã biết một số hoàn cảnh là nguyên nhân của một số phần của hiện tượng phức hợp, phần hoàn cảnh còn lại chính là nguyên nhân của phần hiện tượng còn lại."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: 5 Phương Pháp Nhân Quả",
+          "data": {
+            "stages": [
+              {
+                "stage": "Truy tìm nguyên nhân",
+                "action": "Ứng dụng các phương pháp loại trừ thực nghiệm để tìm ra nguyên nhân tất yếu của hiện tượng",
+                "emotion": "positive",
+                "painPoint": "Đánh đồng 'kế tiếp về mặt thời gian' với 'quan hệ nhân quả' (Ngụy biện sau cái đó suy ra vì cái đó)",
+                "solution": "Hiện tượng xảy ra trước chưa chắc là nguyên nhân; phải kiểm chứng qua các phương pháp phù hợp, khác biệt hoặc biến đổi kèm theo"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Quy Nạp",
+              "Phân luồng"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-sl-loai-ti",
+      "breadcrumb": "Logic Học Đại Cương > Nghệ Thuật Suy Luận & Quy Tắc Diễn Dịch > Suy Luận Quy Nạp & Ngoại Suy > Bản Chất & Độ Tin Cậy Suy Luận Loại Tỉ",
+      "components": [
+        {
+          "type": "vs-wrap",
+          "title": "Bản Chất & Điều Kiện Tin Cậy Của Suy Luận Loại Tỉ (Tương Tự)",
+          "data": {
+            "left": {
+              "title": "Bản Chất Suy Luận Loại Tỉ",
+              "description": "Phương pháp suy luận từ cái riêng này sang cái riêng khác dựa trên thuộc tính tương đồng",
+              "points": [
+                "Mô hình: Đối tượng A có các thuộc tính a, b, c, d; Đối tượng B có các thuộc tính a, b, c",
+                "Kết luận: Rút ra dự đoán đối tượng B cũng có thuộc tính d",
+                "Tính chất: Kết luận luôn mang tính xác suất (không chắc chắn tuyệt đối)",
+                "Vai trò: Gợi mở các phát minh khoa học và công nghệ phỏng sinh học (bionic)"
+              ]
+            },
+            "right": {
+              "title": "Các Điều Kiện Nâng Cao Độ Tin Cậy",
+              "description": "Quy tắc gia tăng xác suất đúng đắn cho suy luận loại tỉ",
+              "points": [
+                "1. Số lượng thuộc tính giống nhau giữa 2 đối tượng càng nhiều càng tốt",
+                "2. Các thuộc tính giống nhau phải là thuộc tính bản chất, không phải ngẫu nhiên",
+                "3. Mối liên hệ giữa các thuộc tính đã biết với thuộc tính suy ra phải chặt chẽ",
+                "4. Càng ít thuộc tính dị biệt trái ngược thì độ tin cậy càng cao"
+              ]
+            }
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Suy Luận Loại Tỉ",
+          "data": {
+            "stages": [
+              {
+                "stage": "Đánh giá tương đồng",
+                "action": "So sánh bản chất thuộc tính giữa hai đối tượng để tránh suy diễn máy móc ngô nghê",
+                "emotion": "neutral",
+                "painPoint": "So sánh khập khiễng dựa trên những dấu hiệu bề ngoài hời hợt (Ví dụ: So sánh sao Hỏa với Trái Đất chỉ dựa vào màu sắc)",
+                "solution": "Tập trung vào các điều kiện bản chất quy định sự tồn tại của thuộc tính cần dự đoán"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Loại Tỉ",
+              "Góc nhìn Đa chiều"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-cm-cau-truc-ba-thanh-phan",
+      "breadcrumb": "Logic Học Đại Cương > Lập Luận, Chứng Minh & Bác Bỏ > Lý Thuyết Chứng Minh Logic > Cấu Trúc: Luận Đề - Luận Cứ - Luận Chứng",
+      "components": [
+        {
+          "type": "pyramid",
+          "title": "Cấu Trúc 3 Tầng Của Một Phép Chứng Minh",
+          "data": {
+            "levels": [
+              {
+                "name": "Luận Cứ (Dựa vào cái gì để chứng minh? - Chân đế)",
+                "description": "Hệ thống các phán đoán chân thực đã được kiểm chứng (tiên đề, định lý, sự kiện thực tế) dùng làm tiền đề"
+              },
+              {
+                "name": "Luận Chứng (Chứng minh bằng cách nào? - Thân cầu nối)",
+                "description": "Phương thức liên kết logic (các quy tắc suy diễn) nối luận cứ với luận đề"
+              },
+              {
+                "name": "Luận Đề (Chứng minh cái gì? - Đỉnh đích đến)",
+                "description": "Mệnh đề phán đoán cần được khẳng định tính chân thực tuyệt đối"
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Cấu Trúc Chứng Minh",
+          "data": {
+            "stages": [
+              {
+                "stage": "Xây dựng khung chứng minh",
+                "action": "Xác định rõ ràng 3 yếu tố: Mục tiêu (Luận đề), Bằng chứng (Luận cứ), Phương pháp (Luận chứng)",
+                "emotion": "positive",
+                "painPoint": "Nêu ra một đống dẫn chứng hỗn loạn mà không có lập luận logic gắn kết chúng với mục tiêu cần chứng minh",
+                "solution": "Tổ chức luận cứ theo trật tự logic, chỉ rõ cách thức suy diễn từ luận cứ ra luận đề"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Chứng Minh",
+              "Cấu trúc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-cm-quy-tac-logic",
+      "breadcrumb": "Logic Học Đại Cương > Lập Luận, Chứng Minh & Bác Bỏ > Lý Thuyết Chứng Minh Logic > Các Quy Tắc Logic Trong Chứng Minh",
+      "components": [
+        {
+          "type": "delta-cheat-sheet",
+          "title": "Hệ Thống Quy Tắc Bắt Buộc Trong Chứng Minh Logic",
+          "data": {
+            "items": [
+              {
+                "questionSnippet": "Quy tắc đối với Luận đề trong chứng minh đòi hỏi điều gì?",
+                "keyword": "Tính xác định & Nhất quán",
+                "correctDelta": "Luận đề phải rõ ràng, chính xác và phải được giữ nguyên không thay đổi trong suốt quá trình chứng minh",
+                "wrongTraps": [
+                  "Luận đề phải thay đổi linh hoạt theo cảm xúc người nghe",
+                  "Luận đề càng mơ hồ càng tốt",
+                  "Luận đề không cần xác định phạm vi"
+                ],
+                "explanation": "Vi phạm quy tắc này sẽ rơi vào lỗi đánh tráo luận đề (Ignoratio elenchi)."
+              },
+              {
+                "questionSnippet": "Quy tắc độc lập của Luận cứ đòi hỏi điều gì?",
+                "keyword": "Chứng minh không luẩn quẩn",
+                "correctDelta": "Tính chân thực của luận cứ phải được chứng minh độc lập với luận đề, không được dùng luận đề để chứng minh cho luận cứ",
+                "wrongTraps": [
+                  "Luận cứ phải trùng khớp với luận đề",
+                  "Luận cứ không cần kiểm chứng",
+                  "Dùng kết luận làm bằng chứng cho tiền đề"
+                ],
+                "explanation": "Vi phạm quy tắc này sẽ mắc lỗi Chứng minh vòng quanh / Vòng luẩn quẩn (Circulus in demonstrando)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Quy Tắc Chứng Minh",
+          "data": {
+            "stages": [
+              {
+                "stage": "Kiểm soát tính hợp lệ",
+                "action": "Soát lỗi toàn diện 3 bộ phận của chứng minh trước khi xuất bản lập luận",
+                "emotion": "positive",
+                "painPoint": "Sử dụng những luận cứ chưa được xác minh hoặc luận cứ tự mâu thuẫn lẫn nhau",
+                "solution": "Kiểm tra kỹ lưỡng: Luận cứ phải chân thực 100%, đủ sức suy ra kết luận, và không dùng ngụy biện luẩn quẩn"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Chứng Minh",
+              "Logic & Nguyên tắc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-cm-truc-tiep-gian-tiep",
+      "breadcrumb": "Logic Học Đại Cương > Lập Luận, Chứng Minh & Bác Bỏ > Lý Thuyết Chứng Minh Logic > Chứng Minh Trực Tiếp & Phản Chứng",
+      "components": [
+        {
+          "type": "decision-tree",
+          "title": "Cây Quyết Định: Chọn Phương Pháp Chứng Minh Trực Tiếp hay Phản Chứng",
+          "data": {
+            "startNodeId": "q_approach",
+            "nodes": {
+              "q_approach": {
+                "label": "Lựa chọn phương thức tiếp cận",
+                "question": "Bạn có sẵn các luận cứ chân thực suy thẳng ra luận đề một cách dễ dàng không?",
+                "options": [
+                  {
+                    "text": "Có sẵn luận cứ suy trực tiếp",
+                    "nextNodeId": "node_direct"
+                  },
+                  {
+                    "text": "Khó dẫn chứng trực tiếp, nhưng dễ dàng bộc lộ sự phi lý của phản đề",
+                    "nextNodeId": "node_indirect"
+                  }
+                ]
+              },
+              "node_direct": {
+                "label": "Chứng Minh Trực Tiếp",
+                "outcome": "Dẫn dắt các luận cứ chân thực qua các quy tắc suy luận logic để rút thẳng ra luận đề. Rõ ràng, dễ tiếp cận.",
+                "isTrap": false,
+                "explanation": "Ví dụ: Áp dụng định lý Pitago để tính độ dài cạnh huyền của tam giác vuông khi biết 2 cạnh góc vuông."
+              },
+              "node_indirect": {
+                "label": "Chứng Minh Gián Tiếp (Phản Chứng / Loại Trừ)",
+                "outcome": "Giả định phản luận đề (-T) là đúng -> Dẫn dắt ra một hệ quả phi lý hoặc mâu thuẫn -> Bác bỏ (-T) -> Khẳng định luận đề T chân thực theo quy luật triệt tam.",
+                "isTrap": false,
+                "explanation": "Ví dụ kinh điển: Chứng minh căn bậc hai của 2 là số vô tỉ bằng phương pháp phản chứng."
+              }
+            }
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Trực Tiếp vs Phản Chứng",
+          "data": {
+            "stages": [
+              {
+                "stage": "Linh hoạt chiến thuật",
+                "action": "Kích hoạt phương pháp phản chứng khi các con đường chứng minh trực diện bị bế tắc",
+                "emotion": "positive",
+                "painPoint": "Bối rối không biết bắt đầu từ đâu khi đối mặt với các bài toán phủ định hoặc tồn tại",
+                "solution": "Hãy giả định điều ngược lại: 'Giả sử điều đó sai...', sau đó tìm ra điểm mâu thuẫn để lật ngược thế cờ"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Chứng Minh",
+              "Phân luồng"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-bb-ba-phuong-phap",
+      "breadcrumb": "Logic Học Đại Cương > Lập Luận, Chứng Minh & Bác Bỏ > 3 Phương Pháp Bác Bỏ Lập Luận",
+      "components": [
+        {
+          "type": "process-steps",
+          "title": "3 Mũi Khoan Chiến Lược Bác Bỏ Lập Luận Của Đối Phương",
+          "data": {
+            "steps": [
+              {
+                "name": "Mũi 1: Bác Bỏ Luận Đề (Đòn quyết định)",
+                "description": "Cách 1: Chỉ ra hệ quả rút ra từ luận đề là hoàn toàn giả dối/vô lý (Quy giản về sự phi lý). Cách 2: Chứng minh phản luận đề (-T) là chân thực -> Theo quy luật cấm mâu thuẫn và triệt tam, luận đề T tự sụp đổ."
+              },
+              {
+                "name": "Mũi 2: Bác Bỏ Luận Cứ (Bẻ gãy nền móng)",
+                "description": "Vạch trần các số liệu, bằng chứng đối phương đưa ra là giả dối, mâu thuẫn nhau hoặc chưa được kiểm chứng. (Lưu ý: Luận cứ sai chứng tỏ phép chứng minh không thành công, chưa đồng nghĩa luận đề sai tuyệt đối)."
+              },
+              {
+                "name": "Mũi 3: Bác Bỏ Luận Chứng (Vạch trần liên kết lỏng lẻo)",
+                "description": "Chỉ ra quá trình lập luận của đối phương vi phạm các quy tắc suy luận (ví dụ: vi phạm quy tắc tam đoạn luận, trung từ không chu diên, kết luận không tất suy từ tiền đề)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: 3 Phương Pháp Bác Bỏ",
+          "data": {
+            "stages": [
+              {
+                "stage": "Lựa chọn điểm đột phá",
+                "action": "Tấn công vào mắt xích yếu nhất trong lập luận của đối phương: Luận cứ giả dối hay Luận chứng vi phạm quy tắc",
+                "emotion": "positive",
+                "painPoint": "Nhầm tưởng bẻ gãy được luận cứ của đối phương là đã chứng minh được luận đề của họ sai 100%",
+                "solution": "Tỉnh táo: Luận cứ sai chỉ làm vô hiệu hóa lập luận hiện tại; để chứng minh luận đề sai dứt điểm, bắt buộc phải bác bỏ luận đề"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Bác Bỏ",
+              "Giới hạn & Rủi ro"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-nb-cau-truc-chung-minh",
+      "breadcrumb": "Logic Học Đại Cương > Lập Luận, Chứng Minh & Bác Bỏ > Nhận Diện & Hóa Giải Ngụy Biện > Ngụy Biện Theo Cấu Trúc Chứng Minh",
+      "components": [
+        {
+          "type": "flip-card",
+          "title": "Ngụy Biện Theo Cấu Trúc Chứng Minh",
+          "data": {
+            "front": "Ngụy biện Người Rơm (Strawman)",
+            "back": "Cố ý bóp méo, đơn giản hóa hoặc cường điệu hóa luận đề của đối phương thành một luận điểm cực đoan vô lý, sau đó tấn công tiêu diệt 'hình nhân rơm' đó rồi tuyên bố đã đánh bại đối phương."
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Bẫy Cấu Trúc Lập Luận",
+          "data": {
+            "stages": [
+              {
+                "stage": "Bóc tách cấu trúc",
+                "action": "Nhận diện các thủ thuật ngụy biện vi phạm luận đề, luận cứ và quy tắc suy diễn",
+                "emotion": "frustration",
+                "painPoint": "Bị đối phương dẫn dắt tranh luận vào các điểm yếu tự tạo của hình nhân rơm",
+                "solution": "Khẳng định dứt khoát: 'Đó không phải là quan điểm của tôi. Quan điểm chính xác của tôi là...'"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Ngụy Biện",
+              "Giới hạn & Rủi ro"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-nb-thu-phap-tam-ly",
+      "breadcrumb": "Logic Học Đại Cương > Lập Luận, Chứng Minh & Bác Bỏ > Nhận Diện & Hóa Giải Ngụy Biện > Ngụy Biện Thủ Pháp Tâm Lý - Xã Hội",
+      "components": [
+        {
+          "type": "chat-simulation",
+          "title": "Mô Phỏng: Vạch Trần Ngụy Biện Công Kích Cá Nhân (Ad Hominem)",
+          "data": {
+            "scenario": "Tranh luận về phương án tối ưu hóa quy trình làm việc nhóm",
+            "messages": [
+              {
+                "sender": "Sinh viên A",
+                "role": "Người đề xuất giải pháp",
+                "text": "Mình đề xuất nhóm áp dụng bảng Kanban và họp nhanh 10 phút đầu ngày để theo dõi tiến độ công việc chính xác hơn."
+              },
+              {
+                "sender": "Sinh viên B",
+                "role": "Người phản đối công kích",
+                "text": "Cậu thì biết gì về quản lý mà đề xuất! Kỳ trước cậu còn thi rớt môn Nguyên lý quản trị kia kìa, lo học lại đi đã!",
+                "isTrap": true
+              },
+              {
+                "sender": "Chuyên gia Logic",
+                "role": "Phản biện trọng tài",
+                "text": "Sinh viên B đang sử dụng ngụy biện công kích cá nhân (Ad Hominem): Thay vì phản biện tính đúng sai hay hiệu quả của công cụ Kanban, B lại quay sang tấn công vào học lực và đời tư của A để phủ nhận ý kiến!"
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Bẫy Tâm Lý - Xã Hội",
+          "data": {
+            "stages": [
+              {
+                "stage": "Hóa giải công kích",
+                "action": "Bóc trần chiêu bài đánh vào tâm lý, uy quyền hay định kiến thay vì dựa vào chứng cứ",
+                "emotion": "frustration",
+                "painPoint": "Nổi nóng và sa đà vào việc cãi nhau về nhân phẩm cá nhân khi bị đối phương xúc phạm",
+                "solution": "Giữ bình tĩnh và chỉ thẳng: 'Năng lực cá nhân tôi không liên quan đến tính đúng đắn của giải pháp. Hãy tập trung vào giải pháp!'"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Ngụy Biện",
+              "Giới hạn & Rủi ro"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "logic-nb-phuong-phap-hoa-giai",
+      "breadcrumb": "Logic Học Đại Cương > Lập Luận, Chứng Minh & Bác Bỏ > Nhận Diện & Hóa Giải Ngụy Biện > Phương Pháp Hóa Giải Ngụy Biện",
+      "components": [
+        {
+          "type": "features",
+          "title": "4 Nguyên Tắc Vàng Hóa Giải & Làm Chủ Tranh Biện Văn Minh",
+          "data": {
+            "items": [
+              {
+                "title": "1. Giữ Vững 'Mỏ Neo' Luận Đề Ban Đầu",
+                "description": "Không để đối phương kéo dạt sang các chủ đề phụ, câu chuyện cảm xúc hoặc các suy diễn cá nhân. Luôn đưa cuộc thảo luận về câu hỏi cốt lõi."
+              },
+              {
+                "title": "2. Đòi Hỏi Minh Bạch Hóa Luận Cứ & Nguồn Dữ Liệu",
+                "description": "Khi đối phương viện dẫn số đông ('ai cũng biết'), uy tín cá nhân ('chuyên gia bảo thế'), hãy truy vấn nguồn gốc, phương pháp nghiên cứu và tính khách quan của dữ liệu."
+              },
+              {
+                "title": "3. Đặt Tên Chiêu Thức Ngụy Biện Ngay Lập Tức",
+                "description": "Gọi tên chính xác bẫy ngụy biện của đối phương (ví dụ: 'Bạn đang dùng ngụy biện Người rơm', 'Đây là ngụy biện Nhân quả sai') để tước bỏ sức mạnh tâm lý của chiêu trò."
+              },
+              {
+                "title": "4. Nguyên Tắc Nhân Ái Trong Tranh Biện (Principle of Charity)",
+                "description": "Luôn diễn giải ý kiến của đối phương ở dạng hợp lý, mạnh mẽ và thiện chí nhất có thể trước khi phản biện, tránh biến mình thành kẻ ngụy biện ngược lại."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Hóa Giải Ngụy Biện",
+          "data": {
+            "stages": [
+              {
+                "stage": "Làm chủ nghệ thuật tranh biện",
+                "action": "Chuyển hóa từ tư duy tranh thắng thua sang tư duy hợp tác truy tìm chân lý khoa học",
+                "emotion": "positive",
+                "painPoint": "Sử dụng lại chính các thủ thuật ngụy biện tinh vi để 'bẫy' đối phương trả đũa",
+                "solution": "Dùng sự sắc bén của logic hình thức kết hợp với tinh thần tôn trọng chân lý để xây dựng văn hóa đối thoại văn minh"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Ngụy Biện",
+              "Góc nhìn Đa chiều"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
