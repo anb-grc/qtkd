@@ -480,5 +480,130 @@
       "Lựa chọn chiến lược phù hợp nhất"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Đề ra các chiến lược có thể lựa chọn</span> <div class=\"note\"><b>💡 Giải thích:</b> Ma trận SWOT kết hợp các yếu tố bên trong (S-W) với bên ngoài (O-T) để xây dựng 4 nhóm chiến lược phối hợp (S-O, W-O, S-T, W-T). Mục đích cốt lõi của SWOT là đề xuất các chiến lược khả thi có thể lựa chọn, làm cơ sở cho nhà quản trị cân nhắc trước khi ra quyết định chiến lược tối ưu.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Bản chất Marketing",
+      "Mô hình 4P"
+    ],
+    "question": "<span class=\"keyword\">Marketing-mix</span> là gì?",
+    "options": [
+      "Là hoạt động marketing của các tổ chức phi lợi nhuận",
+      "Là hình thức marketing không phân biệt",
+      "Là hoạt động marketing của các hộ gia đình",
+      "<span class=\"answer-keyword\">Là hỗn hợp các công cụ của marketing mà danh nghiệp sử dụng để tác động đến thị trường mục tiêu</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Là hỗn hợp các công cụ của marketing mà danh nghiệp sử dụng để tác động đến thị trường mục tiêu</span> <div class=\"note\"><b>💡 Giải thích:</b> Marketing-mix (Marketing hỗn hợp) là tập hợp các công cụ marketing chiến thuật có thể kiểm soát được (Product, Price, Place, Promotion) mà doanh nghiệp phối hợp chặt chẽ nhằm tác động và tạo ra phản ứng mong muốn từ thị trường mục tiêu.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Phân khúc Thị trường",
+      "Thị trường mục tiêu"
+    ],
+    "question": "<span class=\"keyword\">Lựa chọn thị trường mục tiêu</span> là",
+    "options": [
+      "các yếu tố như giao hàng tận nơi, lắp đặt, hướng dẫn khách hàng sử dụng, sửa chữa, bảo hành,…",
+      "<span class=\"answer-keyword\">sự lựa chọn một hoặc nhiều vùng thị trường thích hợp nhất, có độ hấp dẫn cao nhất đối với doanh nghiệp</span>",
+      "chia thị trường thành nhiều phân đoạn khác nhau theo những tiêu thức nhất định",
+      "xác định vị trí sản phẩm và phát triển vị trí sản phẩm trong tâm trí khách hàng"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">sự lựa chọn một hoặc nhiều vùng thị trường thích hợp nhất, có độ hấp dẫn cao nhất đối với doanh nghiệp</span> <div class=\"note\"><b>💡 Giải thích:</b> Trong tiến trình STP: Lựa chọn thị trường mục tiêu (Targeting) là bước đánh giá mức độ hấp dẫn của các phân đoạn thị trường và quyết định lựa chọn một hoặc nhiều đoạn thị trường thích hợp nhất với nguồn lực của doanh nghiệp để tập trung phục vụ.</div>"
+  },
+  {
+    "tags": [
+      "Kiến thức",
+      "Môi trường Vi mô",
+      "Môi trường toàn cầu"
+    ],
+    "question": "Các biến động về <span class=\"keyword\">kinh tế, chính trị của các nước, các khu vực trên thế giới</span> là thuộc <span class=\"keyword\">môi trường nào</span>?",
+    "options": [
+      "Vĩ mô",
+      "Nội bộ",
+      "<span class=\"answer-keyword\">Toàn cầu</span>",
+      "Vi mô"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Toàn cầu</span> <div class=\"note\"><b>💡 Giải thích:</b> Môi trường marketing toàn cầu bao trùm các yếu tố vượt ra ngoài biên giới quốc gia, bao gồm các biến động về kinh tế, chính trị, thương mại của các quốc gia và khu vực trên thế giới tác động đến doanh nghiệp.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Bản chất Marketing",
+      "Quy trình Marketing"
+    ],
+    "question": "<span class=\"keyword\">Quy trình marketing</span> bắt đầu bằng việc:",
+    "options": [
+      "Định giá, quảng bá, phân phối và dịch vụ hậu mãi",
+      "Phân khúc thị trường và chọn thị trường mục tiêu",
+      "Định vị và xây dựng thương hiệu cho thị trường mục tiêu",
+      "<span class=\"answer-keyword\">Nghiên cứu và phân tích cơ hội thị trường</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Nghiên cứu và phân tích cơ hội thị trường</span> <div class=\"note\"><b>💡 Giải thích:</b> Quy trình quản trị marketing chiến lược (mô hình R-STP-MM-I-C) bắt đầu bằng chữ R (Research) - tức là Nghiên cứu thị trường và phân tích cơ hội kinh doanh để phát hiện nhu cầu chưa được đáp ứng trước khi tiến hành phân khúc (STP) hay triển khai marketing-mix (MM).</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Môi trường Vi mô",
+      "Phân tích SWOT"
+    ],
+    "question": "Xây dựng phương án chiến lược để <span class=\"keyword\">tận dụng các cơ hội</span> nhằm <span class=\"keyword\">khắc phục điểm yếu</span> là sự phối hợp của <span class=\"keyword\">cặp các nhóm yếu tố nào</span>?",
+    "options": [
+      "Phối hợp S-T",
+      "<span class=\"answer-keyword\">Phối hợp W-O</span>",
+      "Phối hợp W-T",
+      "Phối hợp S-O"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Phối hợp W-O</span> <div class=\"note\"><b>💡 Giải thích:</b> Trong ma trận SWOT: Chiến lược W-O (Weaknesses - Opportunities) được hình thành bằng cách tận dụng các cơ hội thuận lợi từ môi trường bên ngoài để cải thiện và vượt qua những điểm yếu nội tại của doanh nghiệp.</div>"
+  },
+  {
+    "tags": [
+      "Thực tiễn",
+      "Phân khúc Thị trường",
+      "Tiêu thức phân khúc"
+    ],
+    "question": "Công ty A thực hiện phân khúc thị trường thành 3 nhóm: <span class=\"keyword\">khách hàng mua để sử dụng, mua để làm quà biếu và mua để bán lại</span>. Đây là cách phân khúc dựa vào",
+    "options": [
+      "<span class=\"answer-keyword\">Hành vi</span>",
+      "Nhân khẩu học",
+      "Địa lý",
+      "Tâm lý học"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Hành vi</span> <div class=\"note\"><b>💡 Giải thích:</b> Phân khúc theo Hành vi (Behavioral) phân chia người tiêu dùng dựa trên dịp mua sắm, mục đích sử dụng (dùng cá nhân, làm quà biếu, kinh doanh lại) hoặc lợi ích tìm kiếm của sản phẩm.</div>"
+  },
+  {
+    "tags": [
+      "Thực tiễn",
+      "Hành vi Khách hàng B2C",
+      "Đặc điểm hành vi"
+    ],
+    "question": "Mặt hàng nào sau đây khách hàng thường <span class=\"keyword\">mua theo gợi ý</span> của <span class=\"keyword\">người khác</span>?",
+    "options": [
+      "Thức ăn nhanh",
+      "<span class=\"answer-keyword\">Thuốc chữa bệnh</span>",
+      "Quần áo thời trang",
+      "Máy vi tính"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Thuốc chữa bệnh</span> <div class=\"note\"><b>💡 Giải thích:</b> Thuốc chữa bệnh là sản phẩm y tế đặc thù liên quan đến sức khỏe mà người tiêu dùng thông thường không có kiến thức chuyên môn, do đó hành vi mua sắm phụ thuộc gần như tuyệt đối vào đơn kê, lời khuyên và gợi ý của bác sĩ hoặc dược sĩ.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Hành vi Khách hàng B2C",
+      "Bản chất hành vi"
+    ],
+    "question": "<span class=\"keyword\">Hành vi khách hàng</span> là cơ sở để doanh nghiệp đề ra",
+    "options": [
+      "Chương trình quảng cáo",
+      "Kế hoạch sản xuất",
+      "Kế hoạch tài chính",
+      "<span class=\"answer-keyword\">Chiến lược marketing</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Chiến lược marketing</span> <div class=\"note\"><b>💡 Giải thích:</b> Thấu hiểu hành vi khách hàng là kim chỉ nam và nền tảng cốt lõi nhất để doanh nghiệp xây dựng toàn bộ Chiến lược Marketing (từ phân khúc, định vị đến phối thức 4P) nhằm tạo ra sự thỏa mãn tối đa cho khách hàng mục tiêu.</div>"
   }
 ]
