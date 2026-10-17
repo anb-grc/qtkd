@@ -433,5 +433,52 @@
       "Bao bì; kênh phân phối; yếu tố hữu hình; quảng cáo"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Sản phẩm; giá cả; phân phối; xúc tiến</span> <div class=\"note\"><b>💡 Giải thích:</b> Mô hình Marketing-mix (4P) truyền thống gồm 4 công cụ nền tảng phối hợp chặt chẽ với nhau: Product (Sản phẩm), Price (Giá cả), Place (Phân phối) và Promotion (Xúc tiến / Chiêu thị).</div>"
+  },
+  {
+    "tags": [
+      "Kiến thức",
+      "Môi trường Vi mô",
+      "Môi trường nội bộ"
+    ],
+    "question": "Các vấn đề liên quan đến <span class=\"keyword\">công tác sản xuất</span> và <span class=\"keyword\">nghiên cứu phát triển sản phẩm mới</span> của công ty thuộc <span class=\"keyword\">môi trường nào</span>?",
+    "options": [
+      "Vi mô",
+      "<span class=\"answer-keyword\">Nội bộ</span>",
+      "Vĩ mô",
+      "Toàn cầu"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Nội bộ</span> <div class=\"note\"><b>💡 Giải thích:</b> Công tác sản xuất và hoạt động nghiên cứu phát triển sản phẩm mới (R&D) là các hoạt động chuyên môn do chính doanh nghiệp kiểm soát và điều hành, thuộc môi trường nội bộ (bên trong doanh nghiệp).</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Hành vi Khách hàng B2C",
+      "Mô hình hành vi"
+    ],
+    "question": "Người tiêu dùng <span class=\"keyword\">quyết định mua hàng</span> là do bị <span class=\"keyword\">tác động</span> bởi các nhân tố nào sau đây?",
+    "options": [
+      "Các đặc điểm tâm lý cá nhân của chính khách hàng",
+      "Kích thích marketing từ phía doanh nghiệp",
+      "<span class=\"answer-keyword\">Bị tác động bởi nhà sản xuất, điều kiện sống và đặc điểm tâm lý cá nhân</span>",
+      "Tác động từ một số yếu tố của môi trường vĩ mô"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Bị tác động bởi nhà sản xuất, điều kiện sống và đặc điểm tâm lý cá nhân</span> <div class=\"note\"><b>💡 Giải thích:</b> Theo mô hình hộp đen ý thức người tiêu dùng, quyết định mua hàng là kết quả tổng hợp của 3 nhóm tác nhân: Kích thích marketing từ phía nhà sản xuất (4P), Kích thích từ môi trường/điều kiện sống (kinh tế, văn hóa, xã hội) và các đặc điểm nội tại thuộc về tâm lý cá nhân của chính người mua.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Môi trường Vi mô",
+      "Phân tích SWOT"
+    ],
+    "question": "<span class=\"keyword\">Mục đích</span> của việc <span class=\"keyword\">lập ma trận SWOT</span> là gì?",
+    "options": [
+      "Quy định chiến lược nào là tốt nhất",
+      "<span class=\"answer-keyword\">Đề ra các chiến lược có thể lựa chọn</span>",
+      "Xác định các cơ hội thị trường",
+      "Lựa chọn chiến lược phù hợp nhất"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Đề ra các chiến lược có thể lựa chọn</span> <div class=\"note\"><b>💡 Giải thích:</b> Ma trận SWOT kết hợp các yếu tố bên trong (S-W) với bên ngoài (O-T) để xây dựng 4 nhóm chiến lược phối hợp (S-O, W-O, S-T, W-T). Mục đích cốt lõi của SWOT là đề xuất các chiến lược khả thi có thể lựa chọn, làm cơ sở cho nhà quản trị cân nhắc trước khi ra quyết định chiến lược tối ưu.</div>"
   }
 ]

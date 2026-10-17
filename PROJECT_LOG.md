@@ -64,6 +64,8 @@ Khi chạy xong luồng xử lý câu hỏi mới, Agent tự động thêm 1 d�
 - [2026-10-17] [Marketing căn bản] Cập nhật đáp án chuẩn TVU cho LTTN 3: Câu 3 (Môi trường toàn cầu, vĩ mô và vi mô) & Câu 8 (Khúc thị trường phải đủ lớn và tăng trưởng tốt, phù hợp mục tiêu và nguồn lực).
 - [2026-10-17] [Hiến pháp & Luật] Luật hóa Tháp 3 Tầng Ưu Tiên Giải Đề (Three-Tier Resolution Cascade) vào Source_of_Truth.md và .agents/AGENTS.md: (1) Kho qs.json đã hiệu chỉnh theo LMS; (2) Slide bài giảng & giáo trình trường (SLIDE/); (3) Kiến thức chuyên ngành quy chuẩn (Philip Kotler).
 - [2026-10-17] [Marketing căn bản] Xử lý lô LTTN 4 (10 câu hỏi). Lọc trùng: 9 câu trùng lặp (đối chiếu chuẩn kho TVU), thêm mới 1 câu (Mô hình Marketing-mix 4P). Tổng ngân hàng: 28 câu. Lưu thành công vào qs.json.
+- [2026-10-17] [Marketing căn bản] Xử lý lô LTTN 5 (10 câu hỏi). Lọc trùng: 7 câu trùng lặp (đối chiếu chuẩn kho TVU), thêm mới 3 câu (Môi trường nội bộ R&D, Nhân tố quyết định mua, Mục đích ma trận SWOT). Tổng ngân hàng: 31 câu. Lưu thành công vào qs.json.
+
 
 
 
