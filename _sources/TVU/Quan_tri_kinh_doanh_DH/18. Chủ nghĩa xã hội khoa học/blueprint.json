@@ -1,0 +1,131 @@
+{
+  "subject_id": "180052",
+  "subject_name": "Chủ nghĩa xã hội khoa học",
+  "version": "1.0",
+  "author": "The Veteran Professor (AI Agent)",
+  "exam_matrix": [
+    {
+      "academic_pillar": "Chương 1: Nhập môn Chủ nghĩa xã hội khoa học",
+      "weight_percentage": 10,
+      "mapped_ui_tag": "Hình Thành CNXHKH",
+      "description": "Điều kiện kinh tế - xã hội, tiền đề KHTN và tư tưởng, 3 phát kiến của Mác - Ăngghen, các giai đoạn phát triển của Lênin, đối tượng và phương pháp nghiên cứu."
+    },
+    {
+      "academic_pillar": "Chương 2: Sứ mệnh lịch sử của giai cấp công nhân",
+      "weight_percentage": 15,
+      "mapped_ui_tag": "Sứ Mệnh Giai Cấp Công Nhân",
+      "description": "Khái niệm và đặc điểm GCCN, nội dung sứ mệnh (kinh tế, chính trị, văn hóa), điều kiện quy định SMLS, vai trò của Đảng Cộng sản và GCCN Việt Nam."
+    },
+    {
+      "academic_pillar": "Chương 3: Chủ nghĩa xã hội và thời kỳ quá độ lên CNXH",
+      "weight_percentage": 20,
+      "mapped_ui_tag": "Chủ Nghĩa Xã Hội & Quá Độ",
+      "description": "Hai giai đoạn của hình thái CSCN, điều kiện ra đời, 6 đặc trưng bản chất của CNXH, 2 loại hình quá độ, đặc điểm 4 lĩnh vực và bản chất bỏ qua CNTB ở VN."
+    },
+    {
+      "academic_pillar": "Chương 4: Dân chủ xã hội chủ nghĩa và nhà nước XHCN",
+      "weight_percentage": 15,
+      "mapped_ui_tag": "Dân Chủ & Nhà Nước XHCN",
+      "description": "Sự tiến hóa của dân chủ trong lịch sử, bản chất dân chủ XHCN, bản chất và 2 chức năng của nhà nước XHCN, 6 đặc trưng Nhà nước pháp quyền XHCN VN."
+    },
+    {
+      "academic_pillar": "Chương 5: Cơ cấu xã hội - giai cấp và liên minh giai cấp, tầng lớp",
+      "weight_percentage": 15,
+      "mapped_ui_tag": "Cơ Cấu Xã Hội & Liên Minh",
+      "description": "Vị trí trung tâm của cơ cấu XH-GC, quy luật biến đổi đan xen, tính tất yếu và 3 nội dung liên minh (kinh tế quyết định nhất), các giai tầng tại Việt Nam."
+    },
+    {
+      "academic_pillar": "Chương 6: Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên CNXH",
+      "weight_percentage": 15,
+      "mapped_ui_tag": "Dân Tộc & Tôn Giáo",
+      "description": "Khái niệm dân tộc (rộng và hẹp), Cương lĩnh dân tộc của Lênin (3 nguyên tắc), 6 đặc điểm dân tộc VN, bản chất và nguồn gốc tôn giáo, 5 nguyên tắc giải quyết."
+    },
+    {
+      "academic_pillar": "Chương 7: Vấn đề gia đình trong thời kỳ quá độ lên CNXH",
+      "weight_percentage": 10,
+      "mapped_ui_tag": "Gia Đình & Hôn Nhân",
+      "description": "Vị trí và 4 chức năng cơ bản của gia đình (tái sản xuất con người là đặc thù), 3 cơ sở xây dựng gia đình, 3 nguyên tắc hôn nhân tiến bộ và biến đổi hiện đại."
+    }
+  ],
+  "rosetta_stone_mapping": {
+    "Chương 1": "Hình Thành CNXHKH",
+    "Chương 2": "Sứ Mệnh Giai Cấp Công Nhân",
+    "Chương 3": "Chủ Nghĩa Xã Hội & Quá Độ",
+    "Chương 4": "Dân Chủ & Nhà Nước XHCN",
+    "Chương 5": "Cơ Cấu Xã Hội & Liên Minh",
+    "Chương 6": "Dân Tộc & Tôn Giáo",
+    "Chương 7": "Gia Đình & Hôn Nhân"
+  },
+  "micro_anchors_80_20": [
+    {
+      "ui_tag": "Hình Thành CNXHKH",
+      "high_yield_concepts": [
+        "Hoàn cảnh kinh tế - xã hội: 3 phong trào công nhân lớn thế kỷ XIX (Lyon 1831/1834, Hiến chương Anh 1836-1848, Silesia 1844) chứng minh GCCN trở thành lực lượng chính trị độc lập.",
+        "Ba phát kiến vĩ đại của C.Mác và Ph.Ăngghen: CNDV lịch sử, Học thuyết Giá trị thặng dư, Học thuyết Sứ mệnh lịch sử của giai cấp công nhân.",
+        "Tác phẩm Tuyên ngôn của Đảng Cộng sản (tháng 2/1848) đánh dấu sự ra đời của CNXHKH.",
+        "Đối tượng nghiên cứu: Các quy luật và tính quy luật CHÍNH TRỊ - XÃ HỘI của hình thái kinh tế - xã hội cộng sản chủ nghĩa."
+      ]
+    },
+    {
+      "ui_tag": "Sứ Mệnh Giai Cấp Công Nhân",
+      "high_yield_concepts": [
+        "Hai thuộc tính bản chất định nghĩa GCCN: Phương thức lao động công nghiệp hiện đại và Địa vị không có tư liệu sản xuất trong QHSX TBCN.",
+        "Nội dung cốt lõi của SMLS: Kinh tế (giải phóng LLSX, công hữu TLSX), Chính trị (giành chính quyền, lập nhà nước vô sản), Văn hóa (xác lập hệ tư tưởng Mác - Lênin).",
+        "Điều kiện khách quan và chủ quan: Địa vị kinh tế - xã hội quy định sứ mệnh; Đảng Cộng sản là nhân tố chủ quan quyết định nhất.",
+        "GCCN Việt Nam: Ra đời TRƯỚC giai cấp tư sản dân tộc, gắn liền với khai thác thuộc địa của Pháp và tiên phong trong Đổi mới."
+      ]
+    },
+    {
+      "ui_tag": "Chủ Nghĩa Xã Hội & Quá Độ",
+      "high_yield_concepts": [
+        "Hai giai đoạn hình thái CSCN: Giai đoạn thấp (CNXH - phân phối theo lao động) và Giai đoạn cao (CNCS - phân phối theo nhu cầu).",
+        "Sáu đặc trưng bản chất của CNXH, đặc biệt mục tiêu tối cao là 'giải phóng con người'.",
+        "Tính tất yếu của thời kỳ quá độ và 2 loại hình: Quá độ trực tiếp (từ CNTB phát triển) và Quá độ gián tiếp (từ tiền tư bản bỏ qua chế độ TBCN).",
+        "Bản chất 'Bỏ qua chế độ TBCN' ở Việt Nam: Bỏ qua việc xác lập vị trí thống trị của QHSX và KTTT tư bản; Kế thừa thành tựu khoa học kỹ thuật của văn minh nhân loại."
+      ]
+    },
+    {
+      "ui_tag": "Dân Chủ & Nhà Nước XHCN",
+      "high_yield_concepts": [
+        "Sự tiến hóa dân chủ: 3 nền dân chủ trong lịch sử (Chủ nô, Tư sản, XHCN). Thời kỳ phong kiến KHÔNG CÓ nền dân chủ.",
+        "Bản chất toàn diện của nền Dân chủ XHCN trên 3 trụ cột Chính trị, Kinh tế và Văn hóa - Xã hội.",
+        "Hai chức năng của Nhà nước XHCN: Chức năng trấn áp bạo lực và Chức năng tổ chức xây dựng (tổ chức xây dựng là căn bản, quyết định nhất).",
+        "Nhà nước pháp quyền XHCN Việt Nam: Quyền lực nhà nước là THỐNG NHẤT, có sự phân công, phối hợp và KIỂM SOÁT dưới sự lãnh đạo của Đảng."
+      ]
+    },
+    {
+      "ui_tag": "Cơ Cấu Xã Hội & Liên Minh",
+      "high_yield_concepts": [
+        "Vị trí trung tâm hàng đầu của Cơ cấu xã hội - giai cấp trong hệ thống các cơ cấu xã hội.",
+        "Ba nội dung của liên minh giai cấp: Nội dung KINH TẾ giữ vai trò quyết định nhất; Chính trị giữ vai trò định hướng; Văn hóa xã hội là nền tảng.",
+        "Vị thế các giai tầng ở Việt Nam: GCCN là lãnh đạo; Nông dân là lực lượng chiến lược; Trí thức là lao động sáng tạo đặc biệt; Doanh nhân là xung kích."
+      ]
+    },
+    {
+      "ui_tag": "Dân Tộc & Tôn Giáo",
+      "high_yield_concepts": [
+        "Phân biệt khái niệm Dân tộc theo nghĩa rộng (Quốc gia dân tộc - Nation, 5 đặc trưng) và nghĩa hẹp (Tộc người - Ethnie, 3 tiêu chí).",
+        "Ba nguyên tắc trong Cương lĩnh dân tộc của V.I.Lênin: Bình đẳng dân tộc, Quyền tự quyết, Liên hiệp công nhân tất cả các dân tộc (Liên hiệp công nhân giữ vai trò quyết định nhất).",
+        "Sáu đặc điểm dân tộc Việt Nam: Cư trú xen kẽ, địa bàn chiến lược biên giới, truyền thống đoàn kết chống ngoại xâm.",
+        "Năm nguyên tắc giải quyết tôn giáo: Phân biệt rõ mặt CHÍNH TRỊ (lợi dụng chống phá) và mặt TƯ TƯỞNG (nhu cầu tín ngưỡng)."
+      ]
+    },
+    {
+      "ui_tag": "Gia Đình & Hôn Nhân",
+      "high_yield_concepts": [
+        "Bốn chức năng của gia đình, trong đó chức năng TÁI SẢN XUẤT RA CON NGƯỜI là chức năng đặc thù duy nhất chỉ riêng gia đình mới có.",
+        "Ba cơ sở xây dựng gia đình mới: Cơ sở Kinh tế - Xã hội (công hữu TLSX), Cơ sở Chính trị - Xã hội (nhà nước pháp quyền), Cơ sở Văn hóa mới.",
+        "Ba nguyên tắc hôn nhân tiến bộ: Tự nguyện; Một vợ một chồng bình đẳng; Được pháp luật bảo đảm.",
+        "Biến đổi gia đình Việt Nam hiện nay: Chuyển dịch sang mô hình gia đình hạt nhân, bình đẳng hơn nhưng đối mặt với thách thức rạn nứt ly hôn."
+      ]
+    }
+  ],
+  "common_traps": [
+    "Đánh đồng lịch sử loài người có 4 nền dân chủ: Bẫy trắc nghiệm kinh điển, thời kỳ phong kiến độc tài chuyên chế KHÔNG có nền dân chủ.",
+    "Bẫy xuất phát điểm GCCN Việt Nam: GCCN Việt Nam ra đời TRƯỚC giai cấp tư sản dân tộc Việt Nam trong cuộc khai thác thuộc địa của Pháp.",
+    "Bẫy bản chất bỏ qua CNTB: Nhầm tưởng bỏ qua là xóa bỏ sạch sành sanh mọi thứ của CNTB, trong khi bản chất là kế thừa thành tựu khoa học công nghệ của nhân loại.",
+    "Nhầm lẫn nguyên tắc quan trọng nhất trong Cương lĩnh dân tộc của Lênin: Nguyên tắc LIÊN HIỆP CÔNG NHÂN TẤT CẢ CÁC DÂN TỘC giữ vai trò quyết định nhất, không phải quyền tự quyết.",
+    "Bẫy chức năng của gia đình: Chức năng TÁI SẢN XUẤT RA CON NGƯỜI là chức năng đặc thù duy nhất của gia đình, các chức năng khác (kinh tế, giáo dục) xã hội đều có thể chia sẻ.",
+    "Bẫy nội dung liên minh giai cấp: Nội dung KINH TẾ giữ vai trò quyết định nhất, không phải nội dung chính trị."
+  ]
+}
