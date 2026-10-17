@@ -571,5 +571,236 @@
       "Biên Bản Thi Đấu",
       "Cấu trúc"
     ]
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">FIDE</span> được thành lập tại <span class=\"keyword\">đâu</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Paris</span><div class=\"note\">💡 Giải thích: Năm 1924, Liên đoàn Cờ Vua thế giới (FIDE) được thành lập chính thức tại thủ đô Paris, nước Pháp.</div>",
+    "options": [
+      "London",
+      "Rome",
+      "Paris",
+      "Moscow"
+    ],
+    "tags": [
+      "Lịch Sử Cờ Vua",
+      "Nền tảng"
+    ]
+  },
+  {
+    "question": "Cờ Vua phát triển mạnh ở <span class=\"keyword\">đối tượng nào</span> tại Việt Nam?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Sinh viên đại học</span><div class=\"note\">💡 Giải thích: Theo giáo trình trường, phong trào Cờ Vua phát triển mạnh nhất ở các trường đại học và các trung tâm thành phố lớn.</div>",
+    "options": [
+      "Nông dân",
+      "Công nhân",
+      "Sinh viên đại học",
+      "Người cao tuổi"
+    ],
+    "tags": [
+      "Lịch Sử Cờ Vua",
+      "Hệ thống"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Cờ Vua hiện nay là một trong <span class=\"keyword\">bao nhiêu môn thể thao mũi nhọn</span> ở Việt Nam?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">10</span><div class=\"note\">💡 Giải thích: Đến nay, Cờ Vua là một trong 10 môn thể thao mũi nhọn của nước ta với các kỳ thủ tiêu biểu như Lê Quang Liêm, Nguyễn Ngọc Trường Sơn.</div>",
+    "options": [
+      "10",
+      "12",
+      "8",
+      "5"
+    ],
+    "tags": [
+      "Lịch Sử Cờ Vua",
+      "Hệ thống"
+    ]
+  },
+  {
+    "question": "Giải đấu cờ vua quốc tế <span class=\"keyword\">đầu tiên trong lịch sử hiện đại</span> được tổ chức tại đâu?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">London (1851)</span><div class=\"note\">💡 Giải thích: Giải đấu cờ vua quốc tế đầu tiên trong lịch sử hiện đại được tổ chức tại London (Anh) vào năm 1851 do Howard Staunton khởi xướng.</div>",
+    "options": [
+      "New York (1857)",
+      "Moscow (1900)",
+      "London (1851)",
+      "Paris (1850)"
+    ],
+    "tags": [
+      "Lịch Sử Cờ Vua",
+      "Nền tảng"
+    ]
+  },
+  {
+    "question": "<span class=\"keyword\">Ván cờ kết thúc</span> khi nào?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Tất cả đáp án đều đúng</span><div class=\"note\">💡 Giải thích: Một ván cờ vua kết thúc khi có kết quả thắng thua (bị chiếu hết, xin thua, hết giờ) hoặc khi hòa cờ (hết nước đi Pat, thỏa thuận, thiếu lực lượng).</div>",
+    "options": [
+      "Tất cả đáp án đều đúng",
+      "Khi hòa",
+      "Khi một bên chịu thua",
+      "Khi hết quân"
+    ],
+    "tags": [
+      "Kết Quả Ván Cờ",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "question": "Mã chiếu vua ở đâu <span class=\"keyword\">không cần đi tạo đôi</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Vị trí chữ L</span><div class=\"note\">💡 Giải thích: Quân Mã luôn di chuyển theo đường chéo của hình chữ nhật 2x3 (hình chữ L) và có thể nhảy qua đầu các quân khác để chiếu trực diện Vua đối phương.</div>",
+    "options": [
+      "Trước mặt",
+      "Bên cạnh",
+      "Vị trí chữ L",
+      "Gần quân tốt"
+    ],
+    "tags": [
+      "Nước Đi Quân Cờ",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Nếu chỉ còn <span class=\"keyword\">vua và hai Tượng khác màu</span>, có thể...?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Chiếu bí</span><div class=\"note\">💡 Giải thích: Tàn cuộc Vua + 2 Tượng (khác màu ô) chống Vua đơn độc là thế cờ kỹ thuật luôn có thể chiếu hết (chiếu bí) bằng cách dùng 2 Tượng tạo hàng rào đường chéo dồn Vua địch vào góc.</div>",
+    "options": [
+      "Không kết thúc được",
+      "Đổi bên đi trước",
+      "Chiếu bí",
+      "Hòa"
+    ],
+    "tags": [
+      "Giai Đoạn Tàn Cuộc",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "question": "<span class=\"keyword\">Người thua ván cờ</span> sẽ được <span class=\"keyword\">ghi là gì</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">0</span><div class=\"note\">💡 Giải thích: Theo quy chế tính điểm cờ vua tiêu chuẩn: Thắng được 1 điểm, Hòa được ½ điểm, và Thua được 0 điểm.</div>",
+    "options": [
+      "½",
+      "2",
+      "1",
+      "0"
+    ],
+    "tags": [
+      "Biên Bản Thi Đấu",
+      "Cấu trúc"
+    ]
+  },
+  {
+    "question": "Quân nào có thể <span class=\"keyword\">tạo song chiếu</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Mã</span><div class=\"note\">💡 Giải thích: Quân Mã khi nhảy có thể tự mình chiếu Vua đối phương, đồng thời mở đường cho quân Xe, Tượng hoặc Hậu phía sau cùng chiếu Vua, tạo thành thế song chiếu (chiếu đôi).</div>",
+    "options": [
+      "Mã",
+      "Tốt",
+      "Xe",
+      "Hậu"
+    ],
+    "tags": [
+      "Giai Đoạn Trung Cuộc",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "question": "Quân nào di chuyển <span class=\"keyword\">linh hoạt nhất</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Hậu</span><div class=\"note\">💡 Giải thích: Quân Hậu là quân cơ động và linh hoạt nhất trên bàn cờ vì có thể di chuyển ngang, dọc và chéo không giới hạn số ô (H = X + T).</div>",
+    "options": [
+      "Xe",
+      "Hậu",
+      "Mã",
+      "Tượng"
+    ],
+    "tags": [
+      "Nước Đi Quân Cờ",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Mỗi bên</span> trong cờ vua có <span class=\"keyword\">bao nhiêu quân lúc bắt đầu</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">16</span><div class=\"note\">💡 Giải thích: Khi bắt đầu ván cờ, mỗi đấu thủ đều có 16 quân cờ (gồm 1 Vua, 1 Hậu, 2 Xe, 2 Tượng, 2 Mã và 8 Tốt).</div>",
+    "options": [
+      "12",
+      "16",
+      "8",
+      "20"
+    ],
+    "tags": [
+      "Bàn Cờ Và Quân Cờ",
+      "Cấu trúc"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Quân nào <span class=\"keyword\">mạnh nhất trên bàn cờ</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Hậu</span><div class=\"note\">💡 Giải thích: Hậu là quân mạnh nhất trên bàn cờ có thể cơ động như Xe và Tượng, sức mạnh khống chế trung tâm lên tới 27 ô cờ.</div>",
+    "options": [
+      "Mã",
+      "Tượng",
+      "Xe",
+      "Hậu"
+    ],
+    "tags": [
+      "Nước Đi Quân Cờ",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Tốt được <span class=\"keyword\">phong cấp</span> khi <span class=\"keyword\">đi đến đâu</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Hàng cuối cùng bên đối phương</span><div class=\"note\">💡 Giải thích: Khi một quân Tốt tới hàng ngang cuối cùng của đối phương (hàng 8 đối với Trắng, hàng 1 đối với Đen) thì lập tức được phong cấp.</div>",
+    "options": [
+      "Trung tâm bàn cờ",
+      "Hàng thứ 5",
+      "Hàng thứ 6",
+      "Hàng cuối cùng bên đối phương"
+    ],
+    "tags": [
+      "Nước Đi Đặc Biệt",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "question": "Quân nào <span class=\"keyword\">không bao giờ được phong cấp</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Vua</span><div class=\"note\">💡 Giải thích: Tốt khi phong cấp chỉ được đổi thành một trong 4 quân: Hậu, Xe, Tượng hoặc Mã; luật cấm tuyệt đối không được phong thành Vua hoặc giữ nguyên là Tốt.</div>",
+    "options": [
+      "Vua",
+      "Hậu",
+      "Tượng",
+      "Mã"
+    ],
+    "tags": [
+      "Nước Đi Đặc Biệt",
+      "Giới hạn & Rủi ro"
+    ]
+  },
+  {
+    "question": "<span class=\"keyword\">Tên gọi của ô a1</span> (Màu sắc)?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Đen</span><div class=\"note\">💡 Giải thích: Quy ước bàn cờ đặt đúng là ô góc dưới bên tay phải (h1) là ô màu sáng (ô trắng); do đó ô góc dưới bên tay trái (a1) luôn luôn là ô màu sẫm (ô đen).</div>",
+    "options": [
+      "Đen",
+      "Màu ngẫu nhiên",
+      "Trắng",
+      "Không quy định"
+    ],
+    "tags": [
+      "Bàn Cờ Và Quân Cờ",
+      "Cấu trúc"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Theo luật, một ván cờ hòa nếu trong <span class=\"keyword\">bao nhiêu nước liên tiếp</span> không có <span class=\"keyword\">bắt quân và không đi Tốt</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">50 nước</span><div class=\"note\">💡 Giải thích: Quy tắc 50 nước đi quy định ván cờ hòa nếu trong 50 nước đi cuối cùng liên tiếp nhau của cả hai bên không có sự di chuyển Tốt và không có nước bắt quân nào.</div>",
+    "options": [
+      "40 nước",
+      "50 nước",
+      "30 nước",
+      "20 nước"
+    ],
+    "tags": [
+      "Kết Quả Ván Cờ",
+      "Giới hạn & Rủi ro"
+    ]
   }
 ]
