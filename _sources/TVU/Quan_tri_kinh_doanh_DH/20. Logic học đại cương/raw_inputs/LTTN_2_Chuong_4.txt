@@ -1,0 +1,142 @@
+Câu 1:
+Quan hệ giữa “Phán đoán khẳng định chung” và “phán đoán phủ định riêng” có cùng chủ từ, vị từ là
+A. Quan hệ đối lập chung
+B. Quan hệ phụ thuộc
+C. Quan hệ đối lập riêng
+D. Quan hệ mâu thuẫn
+
+Câu 2:
+Phán đoán có chủ từ không chu diên và vị từ luôn chu diên là:
+A. Phán đoán khẳng định riêng
+B. Phán đoán phủ định riêng
+C. Phán đoán khẳng định chung
+D. Phán đoán phủ định chung
+
+Câu 3:
+Cho p và q là hai mệnh đề
+p: Cử nhân phải là người có tri thức chuyên môn
+q: Cử nhân phải là người có đạo đức tốt
+Phán đoán: “Cử nhân phải là người vừa có tri thức chuyên môn vừa có đạo đức tốt” có công thức:
+A. p ∧ q
+B. p ∨ q
+C. p → q
+D. p ↔ q
+
+Câu 4:
+Nếu phán đoán phủ định riêng có giá trị sai thì giá trị phán đoán nào sau đây đúng?
+A. Phán đoán khẳng định chung có giá trị đúng
+B. Phán đoán khẳng chung có giá trị sai
+C. Phán đoán phủ định chung có giá trị đúng
+D. Chưa xác định được giá trị của phán đoán khẳng định chung.
+
+Câu 5:
+Hai phán đoán “Có những kỹ sư là người lao động trí óc” và “Một số kỹ sư không là người lao động trí óc” có quan hệ:
+A. đối lập chung
+B. phụ thuộc
+C. mâu thuẫn
+D. đối lập riêng
+
+Câu 6:
+Chọn câu trả lời đúng nhất về tính chu diên của chủ từ và vị từ trong phán đoán khẳng định riêng.
+A. Chủ từ không chu diên, vị từ chu diên
+B. Chủ từ không chu diên, vị từ chu diên hoặc không chu diên
+C. Chủ từ và vị từ luôn chu diên
+D. Chủ từ và vị từ luôn không chu diên
+
+Câu 7:
+Phán đoán có công thức “Không S nào là P” là:
+A. Phán đoán khẳng định chung
+B. Phán đoán phủ định riêng
+C. Phán đoán khẳng định riêng
+D. Phán đoán phủ định chung
+
+Câu 8:
+Quan hệ giữa “Phán đoán phủ định riêng” và “phán đoán khẳng định riêng”, có cùng chủ từ, vị từ là
+A. Quan hệ đối lập chung
+B. Quan hệ mâu thuẫn
+C. Quan hệ đối lập riêng
+D. Quan hệ phụ thuộc
+
+Câu 9:
+Phán đoán có chủ từ và vị từ luôn chu diên là:
+A. Phán đoán khẳng định riêng
+B. Phán đoán khẳng định chung
+C. Phán đoán phủ định chung
+D. Phán đoán phủ định riêng
+
+Câu 10:
+Phán đoán có giá trị sai khi và chỉ khỉ:
+A. p đúng và q sai
+B. p và q không cùng giá trị
+C. p và q cùng đúng
+D. p và q cùng sai
+
+Câu 11:
+Xác định tính chu diên của chủ từ và vị từ trong phán đoán “Mọi tam giác có ba cạnh bằng nhau là tam giác có ba góc bằng nhau”.
+A. Chủ từ chu diên, vị từ chu diên
+B. Chủ từ không chu diên, vị từ chu diên
+C. Chủ từ và vị từ không chu diên
+D. Chủ từ và vị từ không cùng chu diên
+
+Câu 12:
+Nếu phán đoán khẳng định riêng có giá trị sai thì giá trị phán đoán nào sau đây đúng?
+A. Phán đoán phủ định chung có giá trị đúng
+B. Phán đoán khẳng định chung có giá trị đúng
+C. Phán đoán phủ định riêng có giá trị sai
+D. Phán đoán phủ định chung có giá trị sai
+
+Câu 13:
+Nếu phán đoán khẳng định chung có giá trị đúng thì giá trị phán đoán nào sau đây đúng?
+A. Phán đoán phủ định riêng có giá trị đúng
+B. Phán đoán phủ định chung có giá trị đúng
+C. Phán đoán khẳng định riêng có giá trị sai
+D. Phán đoán khẳng định riêng có giá trị đúng.
+
+Câu 14:
+Xác định tính chu diên của chủ từ và vị từ trong phán đoán “Mọi tam giác đều là tam giác cân”
+A. Chủ từ và vị từ không chu diên
+B. Chủ từ và vị từ cùng chu diên
+C. Chủ từ chu diên và vị từ không chu diên
+D. Chủ từ không chu diên, vị từ chu diên
+
+Câu 15:
+Xác định tính chu diên của chủ từ và vị từ trong phán đoán “Có người là luật sư”.
+A. Chủ từ và vị từ không chu diên
+B. Chủ từ và vị từ cùng chu diên
+C. Chủ từ không chu diên, vị từ chu diên
+D. Chủ từ chu diên, vị từ không chu diên
+
+Câu 16:
+Quan hệ đúng sai giữa hai phán đoán “Xã hội này tiên tiến” và “Xã hội này không tiên tiến” là
+A. Quan hệ phụ thuộc
+B. Quan hệ mâu thuẫn
+C. Quan hệ đối lập chung
+D. Quan hệ đối lập riêng
+
+Câu 17:
+Phán đoán nào có cùng giá trị với phán đoán có cùng giá trị với phán đoán “Mọi loại gỗ đều không dẫn điện” là
+A. Mọi loại gỗ đều dẫn điện
+B. Có một loại gỗ dẫn điện
+C. Số ít loại gỗ dẫn điện
+D. Không loại gỗ nào dẫn điện
+
+Câu 18:
+Quan hệ giữa “Phán đoán phủ định chung” và “phán đoán khẳng định chung” có cùng chủ từ, vị từ là
+A. Quan hệ phụ thuộc
+B. Quan hệ mâu thuẫn
+C. Quan hệ đối lập riêng
+D. Quan hệ đối lập chung
+
+Câu 19:
+Vị từ trong phán đoán nào luôn chu diên?
+A. khẳng định riêng và phủ định chung
+B. phủ định riêng và phủ định chung
+C. khẳng định chung và khẳng định riêng
+D. khẳng định chung và phủ định chung
+
+Câu 20:
+Chủ từ trong phán đoán nào luôn chu diên?
+A. phủ định chung và khẳng định chung
+B. phủ định chung và phủ định riêng
+C. khẳng định riêng và phủ định chung
+D. khẳng định chung và phủ định riêng

@@ -148,5 +148,305 @@
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">thu hẹp nội hàm</span> của khái niệm <div class=\"note\"><b>💡 Giải thích:</b> Theo quy luật tỷ lệ nghịch giữa nội hàm và ngoại diên: ngoại diên càng rộng thì nội hàm càng ít (thu hẹp lại); ngược lại ngoại diên càng hẹp thì nội hàm càng phong phú. Do đó, mở rộng ngoại diên của khái niệm đồng nghĩa với quá trình thu hẹp (bớt đi các thuộc tính trong) nội hàm.</div>",
     "weight": "high"
+  },
+  {
+    "tags": [
+      "Hình Vuông Logic",
+      "Hệ thống"
+    ],
+    "question": "Quan hệ giữa <span class=\"keyword\">“Phán đoán khẳng định chung”</span> và <span class=\"keyword\">“phán đoán phủ định riêng”</span> có cùng chủ từ, vị từ là",
+    "options": [
+      "Quan hệ đối lập chung",
+      "Quan hệ phụ thuộc",
+      "Quan hệ đối lập riêng",
+      "<span class=\"answer-keyword\">Quan hệ mâu thuẫn</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Quan hệ mâu thuẫn</span> <div class=\"note\"><b>💡 Giải thích:</b> Phán đoán khẳng định chung (A: SAP) và phán đoán phủ định riêng (O: SOP) nằm trên đường chéo của hình vuông logic, khác nhau cả về chất và lượng. Đây là quan hệ mâu thuẫn: chúng không thể cùng đúng và không thể cùng sai (A = 1 ⇔ O = 0).</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Phán Đoán Đơn",
+      "Cấu trúc"
+    ],
+    "question": "Phán đoán có <span class=\"keyword\">chủ từ không chu diên</span> và <span class=\"keyword\">vị từ luôn chu diên</span> là:",
+    "options": [
+      "Phán đoán khẳng định riêng",
+      "<span class=\"answer-keyword\">Phán đoán phủ định riêng</span>",
+      "Phán đoán khẳng định chung",
+      "Phán đoán phủ định chung"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Phán đoán phủ định riêng</span> <div class=\"note\"><b>💡 Giải thích:</b> Phán đoán phủ định riêng (O: Một số S không là P) có chủ từ S mang lượng từ bộ phận nên không chu diên (S⁻), còn vị từ P bị phủ định nên luôn luôn chu diên (P⁺). Do đó, chỉ có phán đoán O thỏa mãn điều kiện S⁻ và P⁺.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Phán Đoán Phức",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Cho p và q là hai mệnh đề: p: \"Cử nhân phải là người có tri thức chuyên môn\", q: \"Cử nhân phải là người có đạo đức tốt\". Phán đoán: <span class=\"keyword\">“Cử nhân phải là người vừa có tri thức chuyên môn vừa có đạo đức tốt”</span> có công thức:",
+    "options": [
+      "<span class=\"answer-keyword\">p ∧ q</span>",
+      "p ∨ q",
+      "p → q",
+      "p ↔ q"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">p ∧ q</span> <div class=\"note\"><b>💡 Giải thích:</b> Cụm liên từ \"vừa... vừa...\" trong tư duy logic biểu thị sự liên kết đồng thời cả hai thuộc tính, tương đương với liên từ logic \"VÀ\" (phép hội). Do đó, công thức chuẩn của phán đoán phức này là p ∧ q (hoặc p . q).</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Hình Vuông Logic",
+      "Giới hạn & Rủi ro"
+    ],
+    "question": "Nếu <span class=\"keyword\">phán đoán phủ định riêng</span> có <span class=\"keyword\">giá trị sai</span> thì giá trị phán đoán nào sau đây đúng?",
+    "options": [
+      "<span class=\"answer-keyword\">Phán đoán khẳng định chung có giá trị đúng</span>",
+      "Phán đoán khẳng chung có giá trị sai",
+      "Phán đoán phủ định chung có giá trị đúng",
+      "Chưa xác định được giá trị của phán đoán khẳng định chung."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Phán đoán khẳng định chung có giá trị đúng</span> <div class=\"note\"><b>💡 Giải thích:</b> Phán đoán phủ định riêng là O. Khi O sai (O = 0), theo quan hệ mâu thuẫn (A và O không thể cùng sai), phán đoán khẳng định chung A bắt buộc phải đúng (A = 1).</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Hình Vuông Logic",
+      "Hệ thống"
+    ],
+    "question": "Hai phán đoán <span class=\"keyword\">“Có những kỹ sư là người lao động trí óc”</span> và <span class=\"keyword\">“Một số kỹ sư không là người lao động trí óc”</span> có quan hệ:",
+    "options": [
+      "đối lập chung",
+      "phụ thuộc",
+      "mâu thuẫn",
+      "<span class=\"answer-keyword\">đối lập riêng</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">đối lập riêng</span> <div class=\"note\"><b>💡 Giải thích:</b> \"Có những kỹ sư là...\" là phán đoán khẳng định riêng (I: SIP), \"Một số kỹ sư không là...\" là phán đoán phủ định riêng (O: SOP). Quan hệ giữa I và O cùng chung chủ từ và vị từ là quan hệ đối lập riêng (đối chọi dưới): chúng không thể cùng sai, nhưng có thể cùng đúng.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Phán Đoán Đơn",
+      "Cấu trúc"
+    ],
+    "question": "Chọn câu trả lời đúng nhất về <span class=\"keyword\">tính chu diên</span> của chủ từ và vị từ trong <span class=\"keyword\">phán đoán khẳng định riêng</span>.",
+    "options": [
+      "Chủ từ không chu diên, vị từ chu diên",
+      "<span class=\"answer-keyword\">Chủ từ không chu diên, vị từ chu diên hoặc không chu diên</span>",
+      "Chủ từ và vị từ luôn chu diên",
+      "Chủ từ và vị từ luôn không chu diên"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Chủ từ không chu diên, vị từ chu diên hoặc không chu diên</span> <div class=\"note\"><b>💡 Giải thích:</b> Trong phán đoán khẳng định riêng (I: Một số S là P), chủ từ S luôn không chu diên (S⁻). Vị từ P không chu diên (P⁻) khi S và P giao nhau (ví dụ: Một số SV là VĐV); nhưng P chu diên (P⁺) khi P bị bao hàm hoàn toàn trong S (P ⊂ S, ví dụ: Một số động vật là chim).</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Phán Đoán Đơn",
+      "Cấu trúc"
+    ],
+    "question": "Phán đoán có công thức <span class=\"keyword\">“Không S nào là P”</span> là:",
+    "options": [
+      "Phán đoán khẳng định chung",
+      "Phán đoán phủ định riêng",
+      "Phán đoán khẳng định riêng",
+      "<span class=\"answer-keyword\">Phán đoán phủ định chung</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Phán đoán phủ định chung</span> <div class=\"note\"><b>💡 Giải thích:</b> Công thức \"Không S nào là P\" tương đương với \"Mọi S không là P\" (SEP), phản ánh sự tách rời hoàn toàn giữa ngoại diên của S và P. Đây là phán đoán phủ định chung (ký hiệu là E).</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Hình Vuông Logic",
+      "Hệ thống"
+    ],
+    "question": "Quan hệ giữa <span class=\"keyword\">“Phán đoán phủ định riêng”</span> và <span class=\"keyword\">“phán đoán khẳng định riêng”</span>, có cùng chủ từ, vị từ là",
+    "options": [
+      "Quan hệ đối lập chung",
+      "Quan hệ mâu thuẫn",
+      "<span class=\"answer-keyword\">Quan hệ đối lập riêng</span>",
+      "Quan hệ phụ thuộc"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Quan hệ đối lập riêng</span> <div class=\"note\"><b>💡 Giải thích:</b> Phán đoán phủ định riêng (O) và khẳng định riêng (I) có cùng lượng riêng nhưng khác về chất. Trong hình vuông logic, quan hệ giữa chúng là quan hệ đối lập riêng (đối chọi dưới / subcontrary).</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Phán Đoán Đơn",
+      "Cấu trúc"
+    ],
+    "question": "Phán đoán có <span class=\"keyword\">chủ từ và vị từ luôn chu diên</span> là:",
+    "options": [
+      "Phán đoán khẳng định riêng",
+      "Phán đoán khẳng định chung",
+      "<span class=\"answer-keyword\">Phán đoán phủ định chung</span>",
+      "Phán đoán phủ định riêng"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Phán đoán phủ định chung</span> <div class=\"note\"><b>💡 Giải thích:</b> Trong phán đoán phủ định chung (E: SEP: Mọi S không là P), toàn bộ ngoại diên của S tách rời hoàn toàn khỏi toàn bộ ngoại diên của P. Do đó, cả chủ từ S và vị từ P đều được xét hết toàn bộ ngoại diên nên luôn chu diên (S⁺, P⁺).</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Phán Đoán Phức",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "<span class=\"keyword\">Phán đoán kéo theo</span> (p → q) có <span class=\"keyword\">giá trị sai khi và chỉ khi</span>:",
+    "options": [
+      "<span class=\"answer-keyword\">p đúng và q sai</span>",
+      "p và q không cùng giá trị",
+      "p và q cùng đúng",
+      "p và q cùng sai"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">p đúng và q sai</span> <div class=\"note\"><b>💡 Giải thích:</b> Phán đoán kéo theo p → q (\"Nếu p thì q\") chỉ sai trong trường hợp duy nhất là tiền đề p đúng mà kết luận q sai (1 → 0 = 0). Trong mọi trường hợp còn lại (1 → 1 = 1, 0 → 1 = 1, 0 → 0 = 1), phán đoán kéo theo đều mang giá trị đúng. <i>(Lưu ý: Nếu trên LMS là phép tuyển p ∨ q thì sai khi p và q cùng sai).</i></div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Phán Đoán Đơn",
+      "Cấu trúc"
+    ],
+    "question": "Xác định <span class=\"keyword\">tính chu diên</span> của chủ từ và vị từ trong phán đoán <span class=\"keyword\">“Mọi tam giác có ba cạnh bằng nhau là tam giác có ba góc bằng nhau”</span>.",
+    "options": [
+      "<span class=\"answer-keyword\">Chủ từ chu diên, vị từ chu diên</span>",
+      "Chủ từ không chu diên, vị từ chu diên",
+      "Chủ từ và vị từ không chu diên",
+      "Chủ từ và vị từ không cùng chu diên"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Chủ từ chu diên, vị từ chu diên</span> <div class=\"note\"><b>💡 Giải thích:</b> \"Tam giác có ba cạnh bằng nhau\" (S) và \"tam giác có ba góc bằng nhau\" (P) đều là tam giác đều. Hai khái niệm này đồng nhất hoàn toàn về ngoại diên (S ≡ P). Trong phán đoán khẳng định chung (A) dạng đồng nhất, cả chủ từ và vị từ đều chu diên (S⁺, P⁺).</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Hình Vuông Logic",
+      "Giới hạn & Rủi ro"
+    ],
+    "question": "Nếu <span class=\"keyword\">phán đoán khẳng định riêng</span> có <span class=\"keyword\">giá trị sai</span> thì giá trị phán đoán nào sau đây đúng?",
+    "options": [
+      "<span class=\"answer-keyword\">Phán đoán phủ định chung có giá trị đúng</span>",
+      "Phán đoán khẳng định chung có giá trị đúng",
+      "Phán đoán phủ định riêng có giá trị sai",
+      "Phán đoán phủ định chung có giá trị sai"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Phán đoán phủ định chung có giá trị đúng</span> <div class=\"note\"><b>💡 Giải thích:</b> Phán đoán khẳng định riêng là I. Quan hệ giữa I và E (phủ định chung) là quan hệ mâu thuẫn. Do đó, khi I sai (I = 0) thì phán đoán phủ định chung E bắt buộc phải có giá trị đúng (E = 1).</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Hình Vuông Logic",
+      "Giới hạn & Rủi ro"
+    ],
+    "question": "Nếu <span class=\"keyword\">phán đoán khẳng định chung</span> có <span class=\"keyword\">giá trị đúng</span> thì giá trị phán đoán nào sau đây đúng?",
+    "options": [
+      "Phán đoán phủ định riêng có giá trị đúng",
+      "Phán đoán phủ định chung có giá trị đúng",
+      "Phán đoán khẳng định riêng có giá trị sai",
+      "<span class=\"answer-keyword\">Phán đoán khẳng định riêng có giá trị đúng.</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Phán đoán khẳng định riêng có giá trị đúng.</span> <div class=\"note\"><b>💡 Giải thích:</b> Theo quan hệ thứ bậc (phụ thuộc) giữa phán đoán chung và phán đoán riêng cùng chất (A và I): phán đoán toàn thể đúng thì phán đoán bộ phận tất yếu phải đúng (A = 1 ⇒ I = 1). Do đó, phán đoán khẳng định riêng mang giá trị đúng.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Phán Đoán Đơn",
+      "Cấu trúc"
+    ],
+    "question": "Xác định <span class=\"keyword\">tính chu diên</span> của chủ từ và vị từ trong phán đoán <span class=\"keyword\">“Mọi tam giác đều là tam giác cân”</span>",
+    "options": [
+      "Chủ từ và vị từ không chu diên",
+      "Chủ từ và vị từ cùng chu diên",
+      "<span class=\"answer-keyword\">Chủ từ chu diên và vị từ không chu diên</span>",
+      "Chủ từ không chu diên, vị từ chu diên"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Chủ từ chu diên và vị từ không chu diên</span> <div class=\"note\"><b>💡 Giải thích:</b> Đây là phán đoán khẳng định chung (A: SAP). Ngoại diên của \"tam giác đều\" (S) nằm trọn trong ngoại diên của \"tam giác cân\" (P), tức S ⊂ P. Trong trường hợp S ⊂ P của phán đoán A, chủ từ S chu diên (S⁺), còn vị từ P không chu diên (P⁻).</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Phán Đoán Đơn",
+      "Cấu trúc"
+    ],
+    "question": "Xác định <span class=\"keyword\">tính chu diên</span> của chủ từ và vị từ trong phán đoán <span class=\"keyword\">“Có người là luật sư”</span>.",
+    "options": [
+      "Chủ từ và vị từ không chu diên",
+      "Chủ từ và vị từ cùng chu diên",
+      "<span class=\"answer-keyword\">Chủ từ không chu diên, vị từ chu diên</span>",
+      "Chủ từ chu diên, vị từ không chu diên"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Chủ từ không chu diên, vị từ chu diên</span> <div class=\"note\"><b>💡 Giải thích:</b> \"Có người là luật sư\" là phán đoán khẳng định riêng (I: SIP). Khái niệm \"luật sư\" (P) bị bao hàm hoàn toàn trong khái niệm \"người\" (S), tức P ⊂ S. Trong phán đoán I mà P ⊂ S, chủ từ S chỉ lấy một bộ phận nên không chu diên (S⁻), còn vị từ P được bao quát toàn bộ nên chu diên (P⁺).</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Hình Vuông Logic",
+      "Hệ thống"
+    ],
+    "question": "Quan hệ đúng sai giữa hai phán đoán <span class=\"keyword\">“Xã hội này tiên tiến”</span> và <span class=\"keyword\">“Xã hội này không tiên tiến”</span> là",
+    "options": [
+      "Quan hệ phụ thuộc",
+      "<span class=\"answer-keyword\">Quan hệ mâu thuẫn</span>",
+      "Quan hệ đối lập chung",
+      "Quan hệ đối lập riêng"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Quan hệ mâu thuẫn</span> <div class=\"note\"><b>💡 Giải thích:</b> Đây là hai phán đoán đơn nhất về cùng một đối tượng xác định (\"xã hội này\"), một bên khẳng định và một bên phủ định. Chúng không thể cùng đúng và không thể cùng sai, tuân theo quy luật bài trung và quy luật cấm mâu thuẫn, do đó có quan hệ mâu thuẫn.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Phán Đoán Đơn",
+      "Cấu trúc"
+    ],
+    "question": "Phán đoán nào có cùng giá trị với phán đoán có cùng giá trị với phán đoán <span class=\"keyword\">“Mọi loại gỗ đều không dẫn điện”</span> là",
+    "options": [
+      "Mọi loại gỗ đều dẫn điện",
+      "Có một loại gỗ dẫn điện",
+      "Số ít loại gỗ dẫn điện",
+      "<span class=\"answer-keyword\">Không loại gỗ nào dẫn điện</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Không loại gỗ nào dẫn điện</span> <div class=\"note\"><b>💡 Giải thích:</b> \"Mọi loại gỗ đều không dẫn điện\" là phán đoán phủ định chung (E: SEP: Mọi S không là P). Trong tiếng Việt, diễn đạt tương đương hoàn toàn về cấu trúc và giá trị chân lý của phán đoán này là \"Không loại gỗ nào dẫn điện\" (Không S nào là P).</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Hình Vuông Logic",
+      "Hệ thống"
+    ],
+    "question": "Quan hệ giữa <span class=\"keyword\">“Phán đoán phủ định chung”</span> và <span class=\"keyword\">“phán đoán khẳng định chung”</span> có cùng chủ từ, vị từ là",
+    "options": [
+      "Quan hệ phụ thuộc",
+      "Quan hệ mâu thuẫn",
+      "Quan hệ đối lập riêng",
+      "<span class=\"answer-keyword\">Quan hệ đối lập chung</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Quan hệ đối lập chung</span> <div class=\"note\"><b>💡 Giải thích:</b> Phán đoán phủ định chung (E) và khẳng định chung (A) có cùng lượng chung nhưng khác về chất. Trong hình vuông logic, quan hệ ở cạnh trên giữa A và E là quan hệ đối lập chung (đối chọi trên / contrary): chúng không thể cùng đúng, nhưng có thể cùng sai.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Phán Đoán Đơn",
+      "Cấu trúc"
+    ],
+    "question": "<span class=\"keyword\">Vị từ</span> trong phán đoán nào <span class=\"keyword\">luôn chu diên</span>?",
+    "options": [
+      "khẳng định riêng và phủ định chung",
+      "<span class=\"answer-keyword\">phủ định riêng và phủ định chung</span>",
+      "khẳng định chung và khẳng định riêng",
+      "khẳng định chung và phủ định chung"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">phủ định riêng và phủ định chung</span> <div class=\"note\"><b>💡 Giải thích:</b> Theo quy tắc tính chu diên, vị từ P trong mọi phán đoán phủ định (phủ định riêng O và phủ định chung E) LUÔN LUÔN CHU DIÊN (P⁺), vì nội dung của phán đoán phủ định đòi hỏi tách hoàn toàn vị từ ra khỏi chủ từ (hoặc một bộ phận chủ từ).</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Phán Đoán Đơn",
+      "Cấu trúc"
+    ],
+    "question": "<span class=\"keyword\">Chủ từ</span> trong phán đoán nào <span class=\"keyword\">luôn chu diên</span>?",
+    "options": [
+      "<span class=\"answer-keyword\">phủ định chung và khẳng định chung</span>",
+      "phủ định chung và phủ định riêng",
+      "khẳng định riêng và phủ định chung",
+      "khẳng định chung và phủ định riêng"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">phủ định chung và khẳng định chung</span> <div class=\"note\"><b>💡 Giải thích:</b> Theo quy tắc tính chu diên, chủ từ S trong mọi phán đoán toàn thể/chung (khẳng định chung A và phủ định chung E) LUÔN LUÔN CHU DIÊN (S⁺), vì lượng từ toàn thể (\"Mọi\", \"Tất cả\", \"Không... nào\") bao quát 100% ngoại diên của chủ từ S.</div>",
+    "weight": "high"
   }
 ]
