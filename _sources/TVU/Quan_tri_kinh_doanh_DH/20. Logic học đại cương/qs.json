@@ -186,12 +186,12 @@
     ],
     "question": "Cho p và q là hai mệnh đề: p: \"Cử nhân phải là người có tri thức chuyên môn\", q: \"Cử nhân phải là người có đạo đức tốt\". Phán đoán: <span class=\"keyword\">“Cử nhân phải là người vừa có tri thức chuyên môn vừa có đạo đức tốt”</span> có công thức:",
     "options": [
-      "<span class=\"answer-keyword\">p ∧ q</span>",
+      "q → p",
+      "p ∨̲ q",
       "p ∨ q",
-      "p → q",
-      "p ↔ q"
+      "<span class=\"answer-keyword\">p ∧ q</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">p ∧ q</span> <div class=\"note\"><b>💡 Giải thích:</b> Cụm liên từ \"vừa... vừa...\" trong tư duy logic biểu thị sự liên kết đồng thời cả hai thuộc tính, tương đương với liên từ logic \"VÀ\" (phép hội). Do đó, công thức chuẩn của phán đoán phức này là p ∧ q (hoặc p . q).</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">p ∧ q</span> <div class=\"note\"><b>💡 Giải thích:</b> Cụm liên từ \"vừa... vừa...\" biểu thị phép hội (liên từ logic \"VÀ\"). Do đó, công thức chuẩn của phán đoán phức này là p ∧ q.</div>",
     "weight": "high"
   },
   {
@@ -289,14 +289,14 @@
       "Phán Đoán Phức",
       "Logic & Nguyên tắc"
     ],
-    "question": "<span class=\"keyword\">Phán đoán kéo theo</span> (p → q) có <span class=\"keyword\">giá trị sai khi và chỉ khi</span>:",
+    "question": "Phán đoán <span class=\"keyword\">p → q</span> có <span class=\"keyword\">giá trị sai khi và chỉ khỉ</span>:",
     "options": [
       "<span class=\"answer-keyword\">p đúng và q sai</span>",
       "p và q không cùng giá trị",
       "p và q cùng đúng",
       "p và q cùng sai"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">p đúng và q sai</span> <div class=\"note\"><b>💡 Giải thích:</b> Phán đoán kéo theo p → q (\"Nếu p thì q\") chỉ sai trong trường hợp duy nhất là tiền đề p đúng mà kết luận q sai (1 → 0 = 0). Trong mọi trường hợp còn lại (1 → 1 = 1, 0 → 1 = 1, 0 → 0 = 1), phán đoán kéo theo đều mang giá trị đúng. <i>(Lưu ý: Nếu trên LMS là phép tuyển p ∨ q thì sai khi p và q cùng sai).</i></div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">p đúng và q sai</span> <div class=\"note\"><b>💡 Giải thích:</b> Phán đoán kéo theo p → q (\"Nếu p thì q\") có giá trị sai duy nhất khi tiền đề p đúng mà kết luận q sai (1 → 0 = 0). Mọi trường hợp còn lại đều có giá trị đúng.</div>",
     "weight": "high"
   },
   {
@@ -382,11 +382,11 @@
     "question": "Quan hệ đúng sai giữa hai phán đoán <span class=\"keyword\">“Xã hội này tiên tiến”</span> và <span class=\"keyword\">“Xã hội này không tiên tiến”</span> là",
     "options": [
       "Quan hệ phụ thuộc",
-      "<span class=\"answer-keyword\">Quan hệ mâu thuẫn</span>",
-      "Quan hệ đối lập chung",
+      "Quan hệ mâu thuẫn",
+      "<span class=\"answer-keyword\">Quan hệ đối lập chung</span>",
       "Quan hệ đối lập riêng"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Quan hệ mâu thuẫn</span> <div class=\"note\"><b>💡 Giải thích:</b> Đây là hai phán đoán đơn nhất về cùng một đối tượng xác định (\"xã hội này\"), một bên khẳng định và một bên phủ định. Chúng không thể cùng đúng và không thể cùng sai, tuân theo quy luật bài trung và quy luật cấm mâu thuẫn, do đó có quan hệ mâu thuẫn.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án TVU:</div><span class=\"answer-keyword\">Quan hệ đối lập chung</span> <div class=\"note\"><b>💡 Lưu ý bẫy LMS TVU:</b> Trong giáo trình logic học truyền thống của Đại học Trà Vinh (TVU), phán đoán đơn nhất (\"Xã hội này...\") về mặt lượng được quy ước xếp vào loại phán đoán toàn thể (phán đoán chung). Vì vậy: \"Xã hội này tiên tiến\" được xem là phán đoán khẳng định chung (A), còn \"Xã hội này không tiên tiến\" được xem là phán đoán phủ định chung (E). Giữa A và E ở cạnh trên hình vuông logic là <b>Quan hệ đối lập chung</b> (đối chọi trên). Đáp án chính thức của hệ thống LMS TVU bắt buộc là <b>Quan hệ đối lập chung</b>.</div>",
     "weight": "high"
   },
   {
