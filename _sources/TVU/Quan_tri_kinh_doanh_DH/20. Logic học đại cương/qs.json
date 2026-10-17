@@ -448,5 +448,125 @@
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">phủ định chung và khẳng định chung</span> <div class=\"note\"><b>💡 Giải thích:</b> Theo quy tắc tính chu diên, chủ từ S trong mọi phán đoán toàn thể/chung (khẳng định chung A và phủ định chung E) LUÔN LUÔN CHU DIÊN (S⁺), vì lượng từ toàn thể (\"Mọi\", \"Tất cả\", \"Không... nào\") bao quát 100% ngoại diên của chủ từ S.</div>",
     "weight": "high"
+  },
+  {
+    "tags": [
+      "Quy Luật Tư Duy",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Câu ca dao: <span class=\"keyword\">“Có thương thì nói là thương. Không thương thì nói một đường cho xong”</span>, là bị chi phối bởi quy luật nào?",
+    "options": [
+      "Luật lý do đầy đủ",
+      "Quy luật mâu thuẫn",
+      "<span class=\"answer-keyword\">Quy luật bài trung</span>",
+      "Quy luật đồng nhất"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Quy luật bài trung</span> <div class=\"note\"><b>💡 Giải thích:</b> Câu ca dao thể hiện yêu cầu dứt khoát phải chọn một trong hai khả năng mâu thuẫn nhau: hoặc \"thương\" (A) hoặc \"không thương\" (¬A), không chấp nhận khả năng thứ ba lấp lửng (\"nói một đường cho xong\"). Đây là đặc trưng cốt lõi của quy luật bài trung (loại trừ cái thứ ba).</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Thao Tác Khái Niệm",
+      "Phân luồng"
+    ],
+    "question": "Khái niệm <span class=\"keyword\">tam giác vuông</span> có thể <span class=\"keyword\">mở rộng một lần</span> thành:",
+    "options": [
+      "Khái niệm tứ giác",
+      "<span class=\"answer-keyword\">Khái niệm tam giác</span>",
+      "Khái niệm tam giác đều",
+      "Khái niệm tam giác vuông cân"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Khái niệm tam giác</span> <div class=\"note\"><b>💡 Giải thích:</b> Mở rộng khái niệm là thao tác chuyển từ khái niệm có ngoại diên hẹp (hạng) lên khái niệm có ngoại diên rộng hơn bao hàm nó (loại gần nhất) bằng cách lược bớt thuộc tính trong nội hàm. Khái niệm loại gần nhất bao hàm trực tiếp \"tam giác vuông\" khi bớt thuộc tính \"vuông\" chính là \"tam giác\".</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Quan Hệ Khái Niệm",
+      "Hệ thống"
+    ],
+    "question": "Hai khái niệm: <span class=\"keyword\">“văn hóa vật thể”</span> và <span class=\"keyword\">“văn hóa phi vật thể”</span> có quan hệ:",
+    "options": [
+      "Đồng nhất",
+      "<span class=\"answer-keyword\">Mâu thuẫn</span>",
+      "Bao hàm",
+      "Giao nhau"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Mâu thuẫn</span> <div class=\"note\"><b>💡 Giải thích:</b> Hai khái niệm này có nội hàm phủ định lẫn nhau (vật thể vs phi vật thể / không phải vật thể) và tổng ngoại diên của chúng bao quát trọn vẹn toàn bộ ngoại diên của khái niệm loại chung là \"văn hóa\" (A ∪ B = E và A ∩ B = ∅). Do đó, đây là quan hệ mâu thuẫn.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Hình Vuông Logic",
+      "Hệ thống"
+    ],
+    "question": "Phán đoán <span class=\"keyword\">“Loài cá không sống dưới nước”</span> có <span class=\"keyword\">giá trị đối lập</span> với giá trị của phán đoán:",
+    "options": [
+      "Không loài cá nào sống dưới nước",
+      "<span class=\"answer-keyword\">Có loài cá sống dưới nước</span>",
+      "Loài sống dưới nước là cá",
+      "Một số loài cá không sống dưới nước"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Có loài cá sống dưới nước</span> <div class=\"note\"><b>💡 Giải thích:</b> \"Loài cá không sống dưới nước\" là phán đoán phủ định chung E (SEP) mang giá trị giả dối (sai = 0). Phán đoán có giá trị đối lập (chân thực = 1) là phán đoán khẳng định riêng I (SIP): \"Có loài cá sống dưới nước\" (quan hệ mâu thuẫn giữa E và I trên hình vuông logic: E = 0 ⇔ I = 1).</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Hình Vuông Logic",
+      "Giới hạn & Rủi ro"
+    ],
+    "question": "Nếu <span class=\"keyword\">phán đoán phủ định chung</span> có <span class=\"keyword\">giá trị đúng</span> thì giá trị phán đoán nào sau đây đúng?",
+    "options": [
+      "<span class=\"answer-keyword\">Phán đoán phủ định riêng có giá trị chân thực</span>",
+      "Phán đoán phủ định riêng có giá trị giả dối",
+      "Phán đoán khẳng định chung có giá trị chân thực",
+      "Phán đoán khẳng định riêng có giá trị chân thực"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Phán đoán phủ định riêng có giá trị chân thực</span> <div class=\"note\"><b>💡 Giải thích:</b> Theo quan hệ thứ bậc giữa phán đoán toàn thể và bộ phận cùng chất (E và O): phán đoán toàn thể đúng thì phán đoán bộ phận tất yếu đúng (E = 1 ⇒ O = 1). Do đó, phán đoán phủ định riêng có giá trị chân thực.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Phán Đoán Phức",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Hình thức của phán đoán: <span class=\"keyword\">“Tri vô bất ngôn, ngôn vô bất tận”</span> là:",
+    "options": [
+      "p ∧ q",
+      "<span class=\"answer-keyword\">(q → p) ∧ (p → r)</span>",
+      "(q → p → r)",
+      "(q → p) ∧ (q → r)"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">(q → p) ∧ (p → r)</span> <div class=\"note\"><b>💡 Giải thích:</b> \"Tri vô bất ngôn\" là mệnh đề kéo theo: Nếu biết thì nói (q → p); \"Ngôn vô bất tận\" là mệnh đề kéo theo tiếp theo: Nếu nói thì nói cho đến cùng/hết ý (p → r). Hai vế liên kết bằng phép hội: (q → p) ∧ (p → r).</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Phán Đoán Phức",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Cho p và q là hai mệnh đề: p: \"Anh đã nói sai\", q: \"Tôi đã nghe sai\". Phán đoán: <span class=\"keyword\">“Hoặc là anh đã nói sai hoặc là tôi đã nghe sai”</span> có công thức:",
+    "options": [
+      "q → p",
+      "p ∧ q",
+      "p ↔ q",
+      "<span class=\"answer-keyword\">p ∨̲ q</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">p ∨̲ q</span> <div class=\"note\"><b>💡 Giải thích:</b> Cặp liên từ \"Hoặc là... hoặc là...\" diễn đạt phép tuyển nghiêm ngặt (tuyển chặt / loại trừ nhau), có công thức ký hiệu là p ∨̲ q (hoặc p ⊻ q, p ⊕ q).</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Hình Vuông Logic",
+      "Giới hạn & Rủi ro"
+    ],
+    "question": "Biết phán đoán <span class=\"keyword\">“Loài cá không sống trên cạn”</span> có giá trị giả dối. Phán đoán <span class=\"keyword\">“Có loài cá không sống trên cạn”</span>, có giá trị:",
+    "options": [
+      "<span class=\"answer-keyword\">chân thực</span>",
+      "vừa chân thực vừa giả dối",
+      "không xác định",
+      "giả dối"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án TVU:</div><span class=\"answer-keyword\">chân thực</span> <div class=\"note\"><b>💡 Lưu ý bẫy LMS TVU:</b> Câu hỏi này trích nguyên văn từ ví dụ minh họa trong Slide bài giảng TVU Chương 4 (trang 23 - Quan hệ đối chọi dưới I - O): 'Có loài cá sống trên cạn (I₀: giả dối)' đối chọi dưới với 'Có loài cá không sống trên cạn (O₁: chân thực)'. Giảng viên TVU hỏi trực tiếp giá trị thực tế của phán đoán này theo ví dụ bài giảng, do đó đáp án chuẩn LMS là <b>chân thực</b>.</div>",
+    "weight": "high"
   }
 ]
