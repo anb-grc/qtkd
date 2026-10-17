@@ -1,1 +1,152 @@
-[]
+[
+  {
+    "tags": [
+      "Quy Luật Tư Duy",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Đặc trưng của <span class=\"keyword\">quy luật mâu thuẫn</span> là:",
+    "options": [
+      "Thừa nhận tư tưởng tự mâu thuẫn",
+      "Thừa nhận mọi tư tưởng đều mâu thuẫn",
+      "Không thừa nhận mọi tư tưởng đều mâu thuẫn",
+      "<span class=\"answer-keyword\">Không cho phép</span> tư tưởng <span class=\"answer-keyword\">tự mâu thuẫn</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Không cho phép</span> tư tưởng <span class=\"answer-keyword\">tự mâu thuẫn</span> <div class=\"note\"><b>💡 Giải thích:</b> Quy luật cấm mâu thuẫn (quy luật mâu thuẫn) đòi hỏi trong quá trình tư duy về cùng một đối tượng trong cùng một thời gian và quan hệ xác định, tư tưởng không được vừa khẳng định vừa phủ định một thuộc tính, tức là không cho phép tư tưởng tự mâu thuẫn logic chủ quan.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Quy Luật Tư Duy",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Hãy chọn phương án trả lời <span class=\"keyword\">đúng nhất</span>.",
+    "options": [
+      "<span class=\"answer-keyword\">Chỉ có tuân thủ các quy luật cơ bản của logic hình thức</span> thì tư duy <span class=\"answer-keyword\">mới có thể chính xác</span>",
+      "Nếu tuân thủ các quy luật cơ bản của logic hình thức thì tư duy chắc chắn chính xác",
+      "Có thể tuân thủ các quy luật cơ bản của logic hình thức thì tư duy không chính xác",
+      "Tư duy chính xác thì không phải tuân thủ các quy luật cơ bản của logic hình thức"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Chỉ có tuân thủ các quy luật cơ bản của logic hình thức</span> thì tư duy <span class=\"answer-keyword\">mới có thể chính xác</span> <div class=\"note\"><b>💡 Giải thích:</b> Tuân thủ các quy luật của logic hình thức là điều kiện cần (chứ chưa phải điều kiện đủ) để tư duy đạt tính chính xác, rành mạch và không mâu thuẫn. Nếu không tuân thủ các quy luật này thì tư duy chắc chắn sai lầm; nhưng chỉ tuân thủ về mặt hình thức mà tiền đề sai thì kết luận vẫn có thể không chân thực. Do đó, \"Chỉ có tuân thủ... mới có thể chính xác\" là phương án đúng nhất.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Quy Luật Tư Duy",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "<span class=\"keyword\">Công thức</span> của <span class=\"keyword\">quy luật bài trung</span> là:",
+    "options": [
+      "<span class=\"answer-keyword\">A ∨ ¬A</span> (A hoặc không A)",
+      "¬(A ∧ ¬A) (không thể vừa là A vừa là không A)",
+      "A ≡ A (A là A)",
+      "A ∧ ¬A"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">A ∨ ¬A</span> (A hoặc không A) <div class=\"note\"><b>💡 Giải thích:</b> Quy luật bài trung (quy luật triệt tam / loại trừ cái thứ ba) có công thức là A ∨ ¬A (hoặc a ∨ ā), nghĩa là trong hai phán đoán mâu thuẫn nhau, dứt khoát một phán đoán phải đúng, một phán đoán phải sai, không có khả năng thứ ba.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Quy Luật Tư Duy",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Ví dụ nào là <span class=\"keyword\">trái với</span> <span class=\"keyword\">quy luật mâu thuẫn</span>?",
+    "options": [
+      "Khẳng định SAP, phủ định SIP",
+      "Phủ định cả SAP và SEP",
+      "<span class=\"answer-keyword\">Khẳng định cả SAP và SEP</span>",
+      "Khẳng định cả SIP và SOP"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Khẳng định cả SAP và SEP</span> <div class=\"note\"><b>💡 Giải thích:</b> SAP (Khẳng định toàn thể: Mọi S là P) và SEP (Phủ định toàn thể: Mọi S không là P) nằm ở mối quan hệ đối chọi trên trong hình vuông logic. Quy luật đối chọi trên chỉ ra rằng hai phán đoán này không thể cùng đúng (A=1 ⇒ E=0). Vì vậy, nếu khẳng định cả SAP và SEP đều đúng thì trái trực tiếp với quy luật cấm mâu thuẫn.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Quy Luật Tư Duy",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "<span class=\"keyword\">Công thức</span> của <span class=\"keyword\">quy luật mâu thuẫn</span> là:",
+    "options": [
+      "<span class=\"answer-keyword\">¬(A ∧ ¬A)</span> (không thể vừa là A vừa là không A)",
+      "A ∨ ¬A (A hoặc không A)",
+      "A ≡ A (A là A)",
+      "A ∧ ¬A"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">¬(A ∧ ¬A)</span> (không thể vừa là A vừa là không A) <div class=\"note\"><b>💡 Giải thích:</b> Quy luật cấm mâu thuẫn có công thức là ¬(A ∧ ¬A) (hoặc -(A ^ -A), ā ∧ a = 0), khẳng định rằng không thể vừa là A lại vừa là không A trong cùng một mối quan hệ và cùng một thời điểm.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Phân Chia Khái Niệm",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Chọn phương án trả lời đúng nhất về <span class=\"keyword\">phân chia</span>.",
+    "options": [
+      "“Học sinh” được phân chia thành “học sinh nam”, “học sinh nữ” và “đoàn viên”",
+      "“Tam giác” được phân chia thành “tam giác cân” và “tam giác đều”",
+      "“Nghệ thuật biểu diễn” được phân chia thành “âm nhạc”, “múa” và “điện ảnh”",
+      "<span class=\"answer-keyword\">“Nghệ thuật tạo hình”</span> được phân chia thành <span class=\"answer-keyword\">“hội họa” và “điêu khắc”</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">“Nghệ thuật tạo hình”</span> được phân chia thành <span class=\"answer-keyword\">“hội họa” và “điêu khắc”</span> <div class=\"note\"><b>💡 Giải thích:</b> Phân chia khái niệm phải cùng một cơ sở và các thành phần phải loại trừ lẫn nhau. Câu A sai vì lẫn lộn cơ sở giới tính và đoàn thể; Câu B sai vì tam giác đều là tập con của tam giác cân (không loại trừ nhau); Câu C sai vì điện ảnh không thuộc nghệ thuật biểu diễn sân khấu trực tiếp; Câu D là phép phân chia chuẩn giữa hai loại hình không gian mặt phẳng 2D (hội họa) và không gian 3D (điêu khắc).</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Thao Tác Khái Niệm",
+      "Phân luồng"
+    ],
+    "question": "Khái niệm <span class=\"keyword\">máy thu hình</span> có thể <span class=\"keyword\">thu hẹp</span> thành:",
+    "options": [
+      "Khái niệm máy thu",
+      "Khái niệm máy thu âm",
+      "Khái niêm bóng hình",
+      "Khái niệm <span class=\"answer-keyword\">máy thu hình màu</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>Khái niệm <span class=\"answer-keyword\">máy thu hình màu</span> <div class=\"note\"><b>💡 Giải thích:</b> Thao tác thu hẹp khái niệm là chuyển từ khái niệm có ngoại diên rộng sang khái niệm có ngoại diên hẹp hơn bằng cách bổ sung thêm thuộc tính vào nội hàm (thêm dấu hiệu \"màu\" vào \"máy thu hình\"). Còn \"máy thu\" là thao tác mở rộng khái niệm.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Khái Niệm",
+      "Nền tảng"
+    ],
+    "question": "<span class=\"keyword\">Khái niệm</span> là hình thứ tư duy trừu tượng phản ánh:",
+    "options": [
+      "Toàn bộ thuộc tính về đối tượng",
+      "<span class=\"answer-keyword\">Thuộc tính bản chất</span> về đối tượng",
+      "Hình ảnh cụ thể và thuộc tính về đối tượng",
+      "Nhận thức của con người về đối tượng"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Thuộc tính bản chất</span> về đối tượng <div class=\"note\"><b>💡 Giải thích:</b> Theo định nghĩa logic học, khái niệm là hình thức cơ bản của tư duy trừu tượng, phản ánh những thuộc tính bản chất của sự vật, hiện tượng trong hiện thực khách quan hoặc các mối liên hệ giữa chúng.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Khái Niệm",
+      "Cấu trúc"
+    ],
+    "question": "Dựa vào <span class=\"keyword\">nội hàm</span>, khái niệm có thể được <span class=\"keyword\">phân chia thành</span>:",
+    "options": [
+      "Khái niệm tập hợp và khái niệm rỗng",
+      "Khái niệm <span class=\"answer-keyword\">khẳng định</span> và khái niệm <span class=\"answer-keyword\">phủ định</span>",
+      "Khái niệm rỗng và khái niệm cụ thể",
+      "Khái niệm chung và khái niệm riêng"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>Khái niệm <span class=\"answer-keyword\">khẳng định</span> và khái niệm <span class=\"answer-keyword\">phủ định</span> <div class=\"note\"><b>💡 Giải thích:</b> Căn cứ vào dấu hiệu nội hàm, khái niệm được chia thành khái niệm khẳng định (chỉ sự tồn tại của thuộc tính) và phủ định (chỉ sự không tồn tại của thuộc tính); hoặc khái niệm cụ thể và trừu tượng. Còn phân chia thành đơn nhất/chung/tập hợp/rỗng là căn cứ vào ngoại diên.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Khái Niệm",
+      "Cấu trúc"
+    ],
+    "question": "<span class=\"keyword\">Mở rộng ngoại diên</span> của khái niệm cũng là quá trình:",
+    "options": [
+      "làm rõ bản chất biện chứng của khái niệm",
+      "làm cho nội hàm của khái niệm trở nên phong phú",
+      "<span class=\"answer-keyword\">thu hẹp nội hàm</span> của khái niệm",
+      "mở rộng nội hàm của khái niệm"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">thu hẹp nội hàm</span> của khái niệm <div class=\"note\"><b>💡 Giải thích:</b> Theo quy luật tỷ lệ nghịch giữa nội hàm và ngoại diên: ngoại diên càng rộng thì nội hàm càng ít (thu hẹp lại); ngược lại ngoại diên càng hẹp thì nội hàm càng phong phú. Do đó, mở rộng ngoại diên của khái niệm đồng nghĩa với quá trình thu hẹp (bớt đi các thuộc tính trong) nội hàm.</div>",
+    "weight": "high"
+  }
+]

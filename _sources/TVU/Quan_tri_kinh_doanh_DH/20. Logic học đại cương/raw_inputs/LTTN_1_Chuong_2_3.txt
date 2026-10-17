@@ -1,0 +1,69 @@
+Câu 1:
+Đặc trưng của quy luật mâu thuẫn là:
+A. Thừa nhận tư tưởng tự mâu thuẫn
+B. Thừa nhận mọi tư tưởng đều mâu thuẫn
+C. Không thừa nhận mọi tư tưởng đều mâu thuẫn
+D. Không cho phép tư tưởng tự mâu thuẫn
+
+Câu 2:
+Hãy chọn phương án trả lời đúng nhất.
+A. Chỉ có tuân thủ các quy luật cơ bản của logic hình thức thì tư duy mới có thể chính xác
+B. Nếu tuân thủ các quy luật cơ bản của logic hình thức thì tư duy chắc chắn chính xác
+C. Có thể tuân thủ các quy luật cơ bản của logic hình thức thì tư duy không chính xác
+D. Tư duy chính xác thì không phải tuân thủ các quy luật cơ bản của logic hình thức
+
+Câu 3:
+Công thức của quy luật bài trung là:
+A. A ∨ ¬A (A hoặc không A)
+B. ¬(A ∧ ¬A)
+C. A ≡ A
+D. A ∧ ¬A
+
+Câu 4:
+Ví dụ nào là trái với quy luật mâu thuẫn?
+A. Khẳng định SAP, phủ định SIP
+B. Phủ định cả SAP và SEP
+C. Khẳng định cả SAP và SEP
+D. Khẳng định cả SIP và SOP
+
+Câu 5:
+Công thức của quy luật mâu thuẫn là:
+A. ¬(A ∧ ¬A) (không thể vừa là A vừa là không A)
+B. A ∨ ¬A
+C. A ≡ A
+D. A ∧ ¬A
+
+Câu 6:
+Chọn phương án trả lời đúng nhất về phân chia.
+A. “Học sinh” được phân chia thành “học sinh nam”, “học sinh nữ” và “đoàn viên”
+B. “Tam giác” được phân chia thành “tam giác cân” và “tam giác đều”
+C. “Nghệ thuật biểu diễn” được phân chia thành “âm nhạc”, “múa” và “điện ảnh”
+D. “Nghệ thuật tạo hình” được phân chia thành “hội họa” và “điêu khắc”
+
+Câu 7:
+Khái niệm máy thu hình có thể thu hẹp thành:
+A. Khái niệm máy thu
+B. Khái niệm máy thu âm
+C. Khái niêm bóng hình
+D. Khái niệm máy thu hình màu
+
+Câu 8:
+Khái niệm là hình thứ tư duy trừu tượng phản ánh:
+A. Toàn bộ thuộc tính về đối tượng
+B. Thuộc tính bản chất về đối tượng
+C. Hình ảnh cụ thể và thuộc tính về đối tượng
+D. Nhận thức của con người về đối tượng
+
+Câu 9:
+Dựa vào nội hàm, khái niệm có thể được phân chia thành:
+A. Khái niệm tập hợp và khái niệm rỗng
+B. Khái niệm khẳng định và khái niệm phủ định
+C. Khái niệm rỗng và khái niệm cụ thể
+D. Khái niệm chung và khái niệm riêng
+
+Câu 10:
+Mở rộng ngoại diên của khái niệm cũng là quá trình:
+A. làm rõ bản chất biện chứng của khái niệm
+B. làm cho nội hàm của khái niệm trở nên phong phú
+C. thu hẹp nội hàm của khái niệm
+D. mở rộng nội hàm của khái niệm

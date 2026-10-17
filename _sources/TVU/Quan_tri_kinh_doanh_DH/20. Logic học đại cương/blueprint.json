@@ -1,0 +1,87 @@
+{
+  "subject": "Logic học đại cương",
+  "version": "1.0",
+  "author": "The Veteran Professor (AI Agent)",
+  "core_focus_80_20": {
+    "root_concepts": [
+      "Đối tượng nghiên cứu của Logic học: các quy luật và hình thức của tư duy chính xác phản ánh hiện thực khách quan.",
+      "4 Quy luật cơ bản của tư duy: Quy luật đồng nhất (A ≡ A), Quy luật cấm mâu thuẫn (¬(A ∧ ¬A)), Quy luật bài trung/triệt tam (A ∨ ¬A), Quy luật lý do đầy đủ.",
+      "Cấu trúc logic của khái niệm: Nội hàm (tập hợp dấu hiệu bản chất) và Ngoại diên (tập hợp đối tượng); Quy luật tỷ lệ nghịch giữa nội hàm và ngoại diên.",
+      "Các thao tác logic với khái niệm: Thu hẹp, Mở rộng, Định nghĩa (4 quy tắc), Phân chia (4 quy tắc).",
+      "Cấu trúc phán đoán đơn thuộc tính: S-P, 4 dạng chuẩn A (SAP: Mọi S là P), E (SEP: Mọi S không là P), I (SIP: Một số S là P), O (SOP: Một số S không là P).",
+      "Tính chu diên của các thuật từ trong phán đoán đơn (+ / -) và Hình vuông logic (Mâu thuẫn A-O, E-I; Đối chọi trên A-E; Đối chọi dưới I-O; Thứ bậc A-I, E-O).",
+      "Phán đoán phức hợp: Hội (∧), Tuyển (∨), Kéo theo (→), Tương đương (≡) và Bảng chân trị.",
+      "Suy luận diễn dịch gián tiếp: Tam đoạn luận đơn (Cấu trúc S-P-M, 7 quy tắc chung, 4 hình, các kiểu hợp thức).",
+      "Suy luận quy nạp (hoàn toàn vs không hoàn toàn) và 4 phương pháp xác định mối liên hệ nhân quả của Bacon - Mill (Tổng hợp/Đồng nhất, Sai biệt, Đồng biến, Thặng dư/Trừ dư).",
+      "Cấu trúc logic của Chứng minh và Bác bỏ (Luận đề, Luận cứ, Luận chứng) và Các quy tắc logic chống ngụy biện."
+    ],
+    "common_traps": [
+      "Bẫy đánh tráo khái niệm: Vi phạm quy luật đồng nhất khi dùng từ đa nghĩa hoặc chuyển nghĩa giữa chừng trong lập luận.",
+      "Bẫy mâu thuẫn logic chủ quan: Khẳng định hai phán đoán đối chọi trên (SAP và SEP) cùng đúng, vi phạm quy luật cấm mâu thuẫn.",
+      "Bẫy ngộ nhận về quy luật bài trung: Áp dụng bài trung cho hai phán đoán đối chọi trên (A và E) thay vì hai phán đoán mâu thuẫn (A và O, hoặc E và I). A và E có thể cùng sai!",
+      "Nhầm lẫn giữa Thu hẹp khái niệm (tăng nội hàm, giảm ngoại diên) và Phân tích bộ phận vật lý của đối tượng.",
+      "Bẫy phân chia vi phạm quy tắc: Đổi cơ sở phân chia giữa chừng hoặc các thành phần phân chia không loại trừ nhau (ví dụ: chia học sinh thành 'nam', 'nữ' và 'đoàn viên').",
+      "Bẫy chu diên trong Tam đoạn luận đơn: Thuật từ giữa M không chu diên ít nhất một lần, hoặc đại từ/tiểu từ không chu diên ở tiền đề nhưng lại chu diên ở kết luận (mở rộng thuật từ bất hợp pháp).",
+      "Bẫy 'Sau cái đó nghĩa là do cái đó' (Post hoc ergo propter hoc): Nhầm lẫn giữa quan hệ kế tiếp nhau về thời gian với quan hệ nhân quả thực sự."
+    ],
+    "high_coverage": [
+      "Đặc trưng, công thức và yêu cầu của 4 quy luật tư duy cơ bản (Đồng nhất, Mâu thuẫn, Bài trung, Lý do đầy đủ).",
+      "Quy luật tỷ lệ nghịch giữa nội hàm và ngoại diên; kỹ thuật thu hẹp và mở rộng khái niệm.",
+      "Các quy tắc phân chia khái niệm và nhận diện lỗi vi phạm phép phân chia.",
+      "Quan hệ chân trị trên hình vuông logic (A, E, I, O).",
+      "Quy tắc và các lỗi vi phạm trong tam đoạn luận đơn."
+    ]
+  },
+  "exam_matrix": [
+    {
+      "tag": "Nhận Thức Luận",
+      "percentage": 5,
+      "description": "Bản chất tư duy logic, nhận thức cảm tính vs lý tính, tính chân thực của tư tưởng vs tính đúng đắn về hình thức."
+    },
+    {
+      "tag": "Lịch Sử Logic",
+      "percentage": 5,
+      "description": "Lịch sử logic học Phương Đông và Phương Tây (Aristotle, Bacon, Leibniz, Hegel, Mill)."
+    },
+    {
+      "tag": "Quy Luật Tư Duy",
+      "percentage": 25,
+      "description": "Bản chất, công thức, yêu cầu và lỗi vi phạm 4 quy luật: Đồng nhất, Cấm mâu thuẫn, Triệt tam (Bài trung), Lý do đầy đủ."
+    },
+    {
+      "tag": "Khái Niệm",
+      "percentage": 10,
+      "description": "Nội hàm và ngoại diên, quy luật tỷ lệ nghịch, phân loại khái niệm (đơn nhất, chung, tập hợp, rỗng, khẳng định, phủ định)."
+    },
+    {
+      "tag": "Quan Hệ Khái Niệm",
+      "percentage": 8,
+      "description": "Quan hệ đồng nhất, bao hàm, giao nhau, ngang hàng, đối lập, mâu thuẫn."
+    },
+    {
+      "tag": "Thao Tác Khái Niệm",
+      "percentage": 12,
+      "description": "Thu hẹp, mở rộng, quy tắc định nghĩa khái niệm, quy tắc phân chia khái niệm."
+    },
+    {
+      "tag": "Phán Đoán Đơn",
+      "percentage": 15,
+      "description": "Cấu trúc S-P, 4 dạng A-E-I-O, tính chu diên của thuật ngữ và quan hệ trên hình vuông logic."
+    },
+    {
+      "tag": "Phán Đoán Phức",
+      "percentage": 5,
+      "description": "Hội, tuyển, kéo theo, tương đương và bảng giá trị chân trị."
+    },
+    {
+      "tag": "Suy Luận & Tam Đoạn Luận",
+      "percentage": 10,
+      "description": "Tam đoạn luận đơn (cấu trúc, 7 quy tắc, 4 hình), suy luận quy nạp và 4 phương pháp Mill."
+    },
+    {
+      "tag": "Chứng Minh & Bác Bỏ",
+      "percentage": 5,
+      "description": "Cấu trúc 3 thành phần, quy tắc chứng minh, phương pháp bác bỏ và nhận diện ngụy biện."
+    }
+  ]
+}
