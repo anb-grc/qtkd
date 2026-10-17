@@ -1,0 +1,1742 @@
+{
+  "subject": "Giáo dục thể chất 2",
+  "overview": {
+    "type": "mindmap",
+    "title": "Bản đồ Kiến thức Toàn diện Cờ Vua",
+    "data": {
+      "root": "Giáo dục thể chất 2",
+      "children": [
+        {
+          "id": "c1_lich_su_gia_tri",
+          "label": "Lịch sử & Giá trị Thể thao Trí tuệ",
+          "description": "Nguồn gốc, các mốc phát triển quốc tế và tác dụng rèn luyện nhân cách",
+          "children": [
+            {
+              "id": "ls_nguon_goc",
+              "label": "Nguồn gốc Chatugara & Quốc tế",
+              "description": "Từ Ấn Độ thế kỷ VI đến sự ra đời của FIDE và Olympic cờ vua"
+            },
+            {
+              "id": "ls_viet_nam",
+              "label": "Tiến trình Cờ Vua Việt Nam",
+              "description": "Từ Hội cờ tướng 1965 đến thành viên FIDE và môn thể thao mũi nhọn"
+            },
+            {
+              "id": "ls_gia_tri_tac_dung",
+              "label": "Đặc điểm & Giá trị Giáo dục",
+              "description": "Rèn luyện tư duy logic, sự kiên nhẫn, tính kỷ luật và bản lĩnh quyết đoán"
+            }
+          ]
+        },
+        {
+          "id": "c2_thiet_lap_ban_co",
+          "label": "Thiết lập Bàn cờ & Tọa độ Không gian",
+          "description": "Quy ước bàn cờ, tọa độ đại số và các khu vực chiến lược",
+          "children": [
+            {
+              "id": "bc_thiet_lap",
+              "label": "Thiết lập Bàn cờ & Tọa độ",
+              "description": "64 ô vuông, quy chuẩn ô sáng góc phải, 8 cột dọc và 8 hàng ngang"
+            },
+            {
+              "id": "bc_trung_tam",
+              "label": "Khu vực Trung tâm & Mở rộng",
+              "description": "Pháo đài 4 ô trung tâm hẹp và vành đai 16 ô trung tâm mở rộng"
+            }
+          ]
+        },
+        {
+          "id": "c3_dong_hoc_quan_co",
+          "label": "Động học Quân cờ & Cơ chế Ngoại lệ",
+          "description": "Quy tắc di chuyển của 6 loại quân và 3 nước đi đặc biệt",
+          "children": [
+            {
+              "id": "qd_quan_nhe",
+              "label": "Nước đi Quân nhẹ (Mã & Tượng)",
+              "description": "Đặc tính nhảy chữ L đổi màu của Mã và đường chéo tầm xa của Tượng"
+            },
+            {
+              "id": "qd_quan_nang",
+              "label": "Nước đi Quân nặng (Xe & Hậu)",
+              "description": "Sức mạnh hàng ngang cột dọc của Xe và tính toàn năng của Hậu"
+            },
+            {
+              "id": "qd_tot_co_ban",
+              "label": "Động học Tiến & Bắt của Tốt",
+              "description": "Quy tắc tiến 1-2 ô ban đầu, tiến thẳng và cơ chế ăn chéo trước mặt"
+            },
+            {
+              "id": "nb_nhap_thanh",
+              "label": "Cơ chế & Điều kiện Nhập thành",
+              "description": "Bảo vệ Vua và xuất Xe với điều kiện chưa di chuyển và đường đi an toàn"
+            },
+            {
+              "id": "nb_bat_tot_qua_duong",
+              "label": "Bắt Tốt qua đường (En Passant)",
+              "description": "Đặc quyền của Tốt quá cảnh khi đối phương tiến 2 ô vượt mặt"
+            },
+            {
+              "id": "nb_phong_cap",
+              "label": "Quy tắc Phong cấp Tốt",
+              "description": "Hóa thân thành Hậu, Xe, Tượng, Mã ngay khi chạm hàng ngang cuối"
+            }
+          ]
+        },
+        {
+          "id": "c4_luat_thi_dau_ket_qua",
+          "label": "Luật Thi đấu & Ký hiệu Biên bản",
+          "description": "Quy tắc xử lý chạm quân, biên bản đại số và kết quả ván cờ",
+          "children": [
+            {
+              "id": "luat_cham_quan",
+              "label": "Luật Chạm quân & Tranh chấp",
+              "description": "Nguyên tắc chạm quân phải đi, chạm địch phải bắt và thủ tục sửa quân"
+            },
+            {
+              "id": "luat_bien_ban",
+              "label": "Hệ thống Ký hiệu & Biên bản",
+              "description": "Ký hiệu đại số quốc tế và 2 phương pháp ghi chép đầy đủ vs rút gọn"
+            },
+            {
+              "id": "kq_thang_thua",
+              "label": "Điều kiện Thắng & Thua",
+              "description": "Chiếu hết, xin thua, hết giờ và các trường hợp bị xử thua do kỷ luật"
+            },
+            {
+              "id": "kq_the_hoa",
+              "label": "5 Trường hợp Hòa cờ FIDE",
+              "description": "Thế Pat, thiếu lực lượng, 3 lần lặp, luật 50 nước và thỏa thuận hòa"
+            }
+          ]
+        },
+        {
+          "id": "c5_ky_chien_thuat_3_giai_doan",
+          "label": "Lý luận & Kỹ chiến thuật 3 Giai đoạn",
+          "description": "Phương pháp và nguyên tắc vận hành trong Khai cuộc, Trung cuộc và Tàn cuộc",
+          "children": [
+            {
+              "id": "kc_nguyen_tac",
+              "label": "3 Nguyên tắc Vàng Khai cuộc",
+              "description": "Chiếm trung tâm, triển khai quân nhẹ, nhập thành và kết nối quân nặng"
+            },
+            {
+              "id": "kc_he_thong",
+              "label": "3 Hệ thống Khai cuộc Lớn",
+              "description": "Phân biệt hệ thống khai cuộc Thoáng (1.e4 e5), Nửa thoáng và Kín"
+            },
+            {
+              "id": "tc_nhan_to_chien_thuat",
+              "label": "3 Nhân tố Chiến thuật",
+              "description": "Tình thế bó buộc ép nước, sự đe dọa thường trực và quản lý thời gian"
+            },
+            {
+              "id": "tc_don_tan_cong",
+              "label": "4 Đòn Phối hợp Điển hình",
+              "description": "Thủ pháp đòn Ghim giằng, Giằng xiên, Bắt đôi và Thu hút vào ô tử"
+            },
+            {
+              "id": "tc_danh_gia_the_tran",
+              "label": "Đánh giá Thế trận Trung cuộc",
+              "description": "Quy trình phân tích cấu trúc Tốt, ô mạnh yếu và chiếm lĩnh cột mở"
+            },
+            {
+              "id": "tan_dac_tinh_nguyen_tac",
+              "label": "Đặc tính & 3 Nguyên tắc Tàn cuộc",
+              "description": "Kích hoạt Vua tấn công, nâng tầm giá trị Tốt và tính chuẩn mẫu của giải pháp"
+            },
+            {
+              "id": "tan_vua_tot_quy_tac",
+              "label": "3 Quy tắc Vua + Tốt chống Vua",
+              "description": "Thế đối Vua, kiểm soát ô hiệu quả và Quy tắc hình vuông của Tốt"
+            },
+            {
+              "id": "tan_quan_chong_tot",
+              "label": "Quân nhẹ & Quân nặng chống Tốt",
+              "description": "Kỹ thuật chặn ô của Mã, tầm xa của Tượng, cắt đường của Xe và tam giác định mạng của Hậu"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "details": [
+    {
+      "node_id": "ls_nguon_goc",
+      "breadcrumb": "Cờ Vua > Lịch Sử & Giá Trị > Nguồn Gốc Quốc Tế",
+      "components": [
+        {
+          "type": "timeline",
+          "title": "Biên niên sử Phát triển Cờ Vua Thế giới",
+          "data": {
+            "items": [
+              {
+                "time": "Thế kỷ VI",
+                "title": "Khởi nguồn Chatugara tại Ấn Độ",
+                "description": "Trò chơi Chatugara (nghĩa là '04 thành viên') xuất hiện, mô phỏng 4 binh chủng quân đội cổ đại: Chiến xa, Tượng xa, Kị binh và Lục quân gắn liền với nghệ thuật quân sự 'Bài binh bố trận'."
+              },
+              {
+                "time": "Thời Trung Cổ",
+                "title": "Lan tỏa sang Ba Tư, Ả Rập và Châu Âu",
+                "description": "Truyền sang Ả Rập với tên gọi 'Satơrăng', sau đó theo các cuộc chiến tranh và giao thương du nhập vào Tây Ban Nha, Ý rồi lan rộng khắp Châu Âu (Schanh ở Đức, Chess ở Anh, Echess ở Pháp)."
+              },
+              {
+                "time": "TK XV - XIX",
+                "title": "Định hình và Hoàn thiện Luật chơi",
+                "description": "Cuối thế kỷ XV đầu thế kỷ XVI bắt đầu hình thành các trường phái như Italia (1600-1634), Kalabri - Pôlôria; đến thế kỷ XIX luật chơi cờ vua chính thức được chuẩn hóa như ngày nay."
+              },
+              {
+                "time": "Năm 1883",
+                "title": "Sáng chế Đồng hồ Thi đấu Chuyên dụng",
+                "description": "Người thợ đồng hồ người Anh tên là Uyxơn sáng chế ra chiếc đồng hồ bấm giờ chuyên dụng đầu tiên dùng cho các giải thi đấu cờ vua quốc tế."
+              },
+              {
+                "time": "Năm 1886",
+                "title": "Giải Vô địch Thế giới Đầu tiên",
+                "description": "Giải vô địch cờ vua thế giới chính thức đầu tiên dành cho nam được tổ chức (đến năm 1927 mới có giải vô địch dành cho nữ)."
+              },
+              {
+                "time": "Năm 1924",
+                "title": "Thành lập Liên đoàn Cờ vua Thế giới (FIDE)",
+                "description": "Fédération Internationale Des Échecs (FIDE) được thành lập tại thủ đô Paris (Pháp), trở thành cơ quan quyền lực cao nhất điều hành bộ môn cờ vua toàn cầu."
+              },
+              {
+                "time": "Năm 1927",
+                "title": "Khai mạc Thế vận hội Olympic Cờ vua",
+                "description": "Olympic Cờ vua được tổ chức độc lập hoàn toàn với các kỳ thế vận hội thể thao khác, duy trì chu kỳ tổ chức định kỳ 2 năm một lần."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức: Nguồn gốc & Tiến trình Cờ Vua Quốc tế",
+          "data": {
+            "stages": [
+              {
+                "stage": "Khởi nguyên Quân sự",
+                "action": "Hiểu bản chất cờ vua bắt nguồn từ trò chơi Chatugara phản ánh 4 binh chủng quân đội Ấn Độ cổ đại.",
+                "painPoint": "Nhầm lẫn cờ vua bắt nguồn từ châu Âu hoặc xem cờ vua đơn thuần là trò chơi giải trí vô thưởng vô phạt.",
+                "solution": "Gắn liền cờ vua với nghệ thuật 'Bài binh bố trận' và 'Điều binh khiển tướng' trong quân sự học.",
+                "emotion": "positive"
+              },
+              {
+                "stage": "Chuẩn hóa Thể chế",
+                "action": "Ghi nhớ các cột mốc thể chế lớn: Đồng hồ Uyxơn (1883), Giải VĐTG (1886), FIDE (1924) và Olympic Cờ vua (1927).",
+                "painPoint": "Lẫn lộn năm thành lập FIDE (1924) với năm tổ chức Olympic Cờ vua đầu tiên (1927).",
+                "solution": "Neo mốc: 1924 lập Liên đoàn tại Paris -> 3 năm sau (1927) mới mở kỳ Olympic Cờ vua đầu tiên (chu kỳ 2 năm/lần).",
+                "emotion": "neutral"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Luyện tập: Lịch sử Cờ vua Quốc tế",
+          "data": {
+            "quiz_tags": [
+              "Lịch Sử Cờ Vua",
+              "Nền tảng"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "ls_viet_nam",
+      "breadcrumb": "Cờ Vua > Lịch Sử & Giá Trị > Cờ Vua Việt Nam",
+      "components": [
+        {
+          "type": "timeline",
+          "title": "Tiến trình Lịch sử Cờ Vua Việt Nam",
+          "data": {
+            "items": [
+              {
+                "time": "14/02/1965",
+                "title": "Thành lập Hội Cờ tướng Việt Nam",
+                "description": "Tổ chức tiền thân ra đời tại Nhà khai trí kiến thức (14 Lê Thái Tổ, Hà Nội), do Bác sĩ Lê Đình Thám - Chủ tịch Ủy ban Hòa bình thế giới làm Hội trưởng."
+              },
+              {
+                "time": "Năm 1978",
+                "title": "Chỉ thị 73/CT của Tổng cục TDTT",
+                "description": "Tổng cục Thể dục Thể thao ban hành Chỉ thị 73/CT hướng dẫn và phát động phong trào tập luyện Cờ Vua rộng rãi trong nhân dân, đặc biệt là thanh thiếu niên."
+              },
+              {
+                "time": "05/08/1980",
+                "title": "Văn bản 1787/TDQS đưa Cờ Vua vào Học đường",
+                "description": "Bộ Giáo dục ban hành văn bản số 1787/TDQS chính thức đưa môn Cờ Vua vào chương trình giảng dạy thể chất tại các trường phổ thông, cao đẳng, đại học trên toàn quốc."
+              },
+              {
+                "time": "15/12/1980",
+                "title": "Tái lập Hội Cờ Việt Nam",
+                "description": "Hội cờ được kiện toàn, đổi tên thành Hội Cờ Việt Nam do ông Hồ Trúc - Thứ trưởng Bộ Giáo dục và Đào tạo đảm nhiệm cương vị Hội trưởng."
+              },
+              {
+                "time": "10/1984",
+                "title": "Gia nhập Liên đoàn Cờ Vua Châu Á",
+                "description": "Hội Cờ Việt Nam chính thức được công nhận là thành viên chính thức của Liên đoàn Cờ Vua Châu Á, mở đường thi đấu quốc tế."
+              },
+              {
+                "time": "Năm 1988",
+                "title": "Gia nhập FIDE & Môn Thể thao Mũi nhọn",
+                "description": "Việt Nam chính thức trở thành thành viên của FIDE. Hiện nay cờ vua là 1 trong 10 môn thể thao mũi nhọn của nước ta với các đại kiện tướng quốc tế như Lê Quang Liêm, Nguyễn Ngọc Trường Sơn."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức: Thể chế & Phong trào Cờ Vua Việt Nam",
+          "data": {
+            "stages": [
+              {
+                "stage": "Giai đoạn Tiền thân",
+                "action": "Nhận diện mốc khởi đầu ngày 14/02/1965 với tiền thân là Hội cờ tướng Việt Nam do Bs. Lê Đình Thám đứng đầu.",
+                "painPoint": "Nhầm tưởng Hội cờ vua Việt Nam được thành lập riêng biệt ngay từ những năm 1960.",
+                "solution": "Ghi nhớ: Tiền thân là Hội Cờ Tướng (1965), mãi đến cuối năm 1980 mới tái lập thành Hội Cờ Việt Nam.",
+                "emotion": "neutral"
+              },
+              {
+                "stage": "Pháp lý Học đường & Hội nhập",
+                "action": "Nắm vững văn bản 1787/TDQS (05/08/1980) đưa cờ vua vào trường học và mốc 1988 chính thức gia nhập FIDE.",
+                "painPoint": "Nhầm lẫn năm gia nhập Liên đoàn Châu Á (1984) với năm gia nhập Liên đoàn Thế giới FIDE (1988).",
+                "solution": "Quy tắc bậc thang: Vào Châu Á trước (1984) -> Tiến lên Thế giới FIDE sau (1988).",
+                "emotion": "positive"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Luyện tập: Cờ vua Việt Nam",
+          "data": {
+            "quiz_tags": [
+              "Lịch Sử Cờ Vua",
+              "Hệ thống"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "ls_gia_tri_tac_dung",
+      "breadcrumb": "Cờ Vua > Lịch Sử & Giá Trị > Giá Trị Giáo Dục",
+      "components": [
+        {
+          "type": "features",
+          "title": "Đặc điểm Thể thao & Giá trị Rèn luyện Nhân cách",
+          "data": {
+            "items": [
+              {
+                "title": "Yêu cầu Tố chất Trí tuệ",
+                "description": "Môn thể thao ít đòi hỏi thể lực cơ bắp va chạm, nhưng đòi hỏi cực cao về tính kiên trì, bền bỉ, mưu trí, thông minh và óc sáng tạo linh hoạt."
+              },
+              {
+                "title": "Tiện ích & Tính Phổ cập",
+                "description": "Không đòi hỏi dụng cụ hay sân bãi phức tạp, không cần tập trung đông người; người chơi có thể tự nghiên cứu qua sách báo, máy đánh cờ hoặc phần mềm máy tính."
+              },
+              {
+                "title": "Phát triển Tư duy Khoa học",
+                "description": "Rèn luyện tư duy logic, thói quen phân tích tổng hợp tình hình khách quan, tầm nhìn xa trông rộng và tác phong làm việc bài bản có kế hoạch."
+              },
+              {
+                "title": "Giáo dục Phẩm chất & Bản lĩnh",
+                "description": "Bồi dưỡng tính tổ chức kỷ luật, sự kiên cường, điềm tĩnh trước áp lực và tính quyết đoán táo bạo khi đứng trước các tình huống ngặt nghèo."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức: Tác dụng Rèn luyện Trí tuệ",
+          "data": {
+            "stages": [
+              {
+                "stage": "Nhận thức Bản chất",
+                "action": "Xem cờ vua là công cụ rèn luyện phương pháp luận tư duy thay vì chỉ là trò chơi cờ bạc giải trí.",
+                "painPoint": "Nghĩ rằng chơi cờ vua chỉ cần nhớ nước đi mà không rèn luyện sự bình tĩnh và tư duy bao quát.",
+                "solution": "Áp dụng tư duy lập kế hoạch và phân tích đa chiều từ bàn cờ vào giải quyết vấn đề thực tế.",
+                "emotion": "positive"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Luyện tập: Đặc điểm và Tác dụng",
+          "data": {
+            "quiz_tags": [
+              "Lịch Sử Cờ Vua",
+              "Góc nhìn Đa chiều"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "bc_thiet_lap",
+      "breadcrumb": "Cờ Vua > Thiết Lập Bàn Cờ > Cấu Trúc Bàn Cờ",
+      "components": [
+        {
+          "type": "flip-card",
+          "title": "Quy chuẩn Thiết lập Bàn cờ & Tọa độ",
+          "data": {
+            "front": "Quy chuẩn Bàn cờ",
+            "back": "64 ô vuông đậm nhạt xen kẽ; góc bên phải của mỗi kỳ thủ bắt buộc là ô sáng (ô trắng); 8 cột dọc (a-h từ trái qua phải của Trắng), 8 hàng ngang (1-8 từ dưới lên của Trắng); quân Trắng ở hàng 1-2, Đen ở hàng 7-8."
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức: Thiết lập Bàn cờ Chuẩn xác",
+          "data": {
+            "stages": [
+              {
+                "stage": "Quy tắc Ô góc sáng",
+                "action": "Luôn kiểm tra ô ở góc dưới bên tay phải của mình phải là ô màu trắng (ô sáng) trước khi xếp quân.",
+                "painPoint": "Đặt ngược bàn cờ dẫn đến ô góc phải là ô sẫm màu, làm sai lệch hoàn toàn vị trí ban đầu của Vua và Hậu.",
+                "solution": "Khắc cốt ghi tâm khẩu quyết quốc tế: 'White on right' (Trắng ở góc phải).",
+                "emotion": "frustration"
+              },
+              {
+                "stage": "Quy ước Tọa độ Đại số",
+                "action": "Nắm vững 8 cột dọc ký hiệu bằng chữ cái in thường a, b, c, d, e, f, g, h và 8 hàng ngang đánh số 1 đến 8.",
+                "painPoint": "Lẫn lộn chiều đánh số hàng ngang của bên Đen (Trắng đi từ 1 lên 8, Đen nhìn ngược lại từ 8 xuống 1).",
+                "solution": "Lấy hệ quy chiếu chuẩn của bên Trắng làm mỏ neo tuyệt đối cho toàn bộ hệ tọa độ.",
+                "emotion": "neutral"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Luyện tập: Cấu trúc Bàn cờ",
+          "data": {
+            "quiz_tags": [
+              "Bàn Cờ Và Quân Cờ",
+              "Cấu trúc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "bc_trung_tam",
+      "breadcrumb": "Cờ Vua > Thiết Lập Bàn Cờ > Khu Vực Trung Tâm",
+      "components": [
+        {
+          "type": "vs-wrap",
+          "title": "Đối chiếu Khu vực Trung tâm & Trung tâm Mở rộng",
+          "data": {
+            "left": {
+              "title": "Trung tâm Hẹp (Lõi)",
+              "description": "Gồm 4 ô cờ trung tâm cốt lõi",
+              "points": [
+                "Bao gồm đúng 4 ô: e4, e5, d4, d5.",
+                "Đóng vai trò như một pháo đài chỉ huy bao quát toàn bộ bàn cờ.",
+                "Quân đứng tại đây phát huy tối đa tầm khống chế (Hậu khống chế 27 ô, Mã khống chế 8 ô).",
+                "Là bàn đạp xuất phát thuận lợi nhất để chuyển quân tấn công sang bất kỳ cánh nào."
+              ],
+              "keywords": [
+                "4 ô lõi",
+                "e4 e5 d4 d5",
+                "Tối đa hóa sức mạnh"
+              ]
+            },
+            "right": {
+              "title": "Trung tâm Mở rộng",
+              "description": "Vành đai chiến lược 16 ô bao quanh",
+              "points": [
+                "Bao gồm 16 ô cờ: c3-c6, d3-d6, e3-e6, f3-f6.",
+                "Vành đai đệm hỗ trợ triển khai lực lượng quân nhẹ (Mã c3/f3, Tượng c4/f4).",
+                "Giữ vai trò tiếp ứng, kiểm soát các đường giao tranh trước khi đột kích vào trung tâm lõi.",
+                "Tạo không gian an toàn để cấu trúc Tốt liên kết che chắn cho Vua."
+              ],
+              "keywords": [
+                "16 ô bao quanh",
+                "Vành đai c3-f6",
+                "Tiếp ứng triển khai"
+              ]
+            }
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức: Chiếm lĩnh Không gian Trung tâm",
+          "data": {
+            "stages": [
+              {
+                "stage": "Hiểu Giá trị Pháo đài",
+                "action": "Nhận thức rõ quân đặt ở trung tâm có số ô khống chế vượt trội (Mã ở góc chỉ kiểm soát 2 ô, ở trung tâm kiểm soát 8 ô).",
+                "painPoint": "Đưa quân dạt ra biên hoặc ở góc bàn cờ làm giảm 75% hiệu suất chiến đấu của quân cờ.",
+                "solution": "Mọi kế hoạch khai cuộc và trung cuộc đều phải xoay quanh trục kiểm soát 4 ô trung tâm lõi.",
+                "emotion": "positive"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Luyện tập: Khu vực Trung tâm",
+          "data": {
+            "quiz_tags": [
+              "Bàn Cờ Và Quân Cờ",
+              "Cấu trúc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "qd_quan_nhe",
+      "breadcrumb": "Cờ Vua > Động Học Quân Cờ > Quân Nhẹ",
+      "components": [
+        {
+          "type": "vs-wrap",
+          "title": "Đối chiếu Động học Quân nhẹ: Mã vs Tượng",
+          "data": {
+            "left": {
+              "title": "Quân Mã (M)",
+              "description": "Quân cờ cơ động phi tuyến tính độc nhất",
+              "points": [
+                "Di chuyển theo đường chéo của hình chữ nhật 2x3 (hình chữ L).",
+                "Đặc quyền duy nhất: Được phép 'nhảy cóc' qua các quân khác bất kể quân mình hay quân địch.",
+                "Luôn luôn tiếp đất tại ô khác màu với ô đang đứng sau mỗi nước đi.",
+                "Cực kỳ nguy hiểm trong thế trận kín, nơi các quân khác bị cản trở bởi hàng rào Tốt."
+              ],
+              "keywords": [
+                "Nhảy chữ L",
+                "Nhảy cóc",
+                "Đổi màu ô",
+                "Thế trận kín"
+              ]
+            },
+            "right": {
+              "title": "Quân Tượng (T)",
+              "description": "Quân cờ kiểm soát đường chéo tầm xa",
+              "points": [
+                "Di chuyển và bắt quân trên các đường chéo tùy ý số ô nếu không bị cản.",
+                "Bị giới hạn tuyệt đối: Suốt ván cờ chỉ đi trên các ô cùng màu với ô ban đầu (Tượng ô trắng / Tượng ô đen).",
+                "Không được phép nhảy qua đầu quân khác; bị giảm sức mạnh nếu bị Tốt mình cản đường.",
+                "Phát huy uy lực tối đa trong thế trận mở, nơi các đường chéo thông thoáng không bị nghẽn."
+              ],
+              "keywords": [
+                "Đi chéo",
+                "Giữ nguyên màu ô",
+                "Không nhảy cóc",
+                "Thế trận mở"
+              ]
+            }
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức: Vận hành Quân nhẹ Mã & Tượng",
+          "data": {
+            "stages": [
+              {
+                "stage": "Phân biệt Cơ động",
+                "action": "Nhận biết Mã mạnh trong thế cờ kín (nhảy qua tốt), Tượng mạnh trong thế cờ thoáng mở (đường chéo dài).",
+                "painPoint": "Dùng Tượng đâm đầu vào chuỗi Tốt khóa chặt hoặc để Mã đứng ở mép bàn cờ bị cô lập.",
+                "solution": "Ghi nhớ ngạn ngữ cờ vua: 'Mã ở biên như rơm rác' - đưa Mã hướng vào tâm và mở đường chéo cho Tượng.",
+                "emotion": "positive"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Luyện tập: Nước đi Quân nhẹ",
+          "data": {
+            "quiz_tags": [
+              "Nước Đi Quân Cờ",
+              "Logic & Nguyên tắc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "qd_quan_nang",
+      "breadcrumb": "Cờ Vua > Động Học Quân Cờ > Quân Nặng",
+      "components": [
+        {
+          "type": "features",
+          "title": "Động học Quân nặng: Xe & Hậu",
+          "data": {
+            "items": [
+              {
+                "title": "Quân Xe (X) - Trục Ngang & Dọc",
+                "description": "Di chuyển và bắt quân trên các hàng ngang và cột dọc tùy ý số ô nếu không bị cản; sức mạnh tăng vọt khi kiểm soát cột mở hoặc xâm nhập hàng ngang 7/8."
+              },
+              {
+                "title": "Quân Hậu (H) - Bá chủ Toàn năng",
+                "description": "Quân mạnh nhất trên bàn cờ, kết hợp hoàn hảo sức mạnh của Xe và Tượng (H = X + T); di chuyển và ăn quân theo cột dọc, hàng ngang và đường chéo tùy ý số ô."
+              },
+              {
+                "title": "Nguyên lý Giá trị & Bảo toàn Hậu",
+                "description": "Hậu có giá trị tác chiến rất lớn (khoảng 9 điểm), tuyệt đối không đưa Hậu tham chiến quá sớm ở khai cuộc vì dễ bị các quân nhẹ của đối phương truy đuổi giành nước tiên."
+              },
+              {
+                "title": "Phối hợp Song Xe & Hậu - Xe",
+                "description": "Hai Xe kết nối trên cùng cột mở tạo thành mũi khoan sấm sét; Hậu kết hợp Xe tạo thành đòn tấn công chiếu hết uy lực không thể cản phá."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức: Sử dụng Quân nặng Hiệu quả",
+          "data": {
+            "stages": [
+              {
+                "stage": "Bảo vệ Hậu Khai cuộc",
+                "action": "Giữ Hậu ở tuyến sau hỗ trợ, chỉ tung Hậu vào trận khi các quân nhẹ đã triển khai xong và trung tâm đã định hình.",
+                "painPoint": "Ham ăn Tốt biên của đối thủ bằng Hậu ngay từ đầu ván cờ dẫn đến việc Hậu bị vây bắt hoặc mất quyền kiểm soát trung tâm.",
+                "solution": "Khắc ghi nguyên tắc: Không bao giờ xuất Hậu sớm nếu không có đòn chiếu hết hoặc bắt quân quyết định.",
+                "emotion": "negative"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Luyện tập: Nước đi Quân nặng",
+          "data": {
+            "quiz_tags": [
+              "Nước Đi Quân Cờ",
+              "Logic & Nguyên tắc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "qd_tot_co_ban",
+      "breadcrumb": "Cờ Vua > Động Học Quân Cờ > Quân Tốt",
+      "components": [
+        {
+          "type": "process-steps",
+          "title": "Quy trình Vận động & Cơ chế Tác chiến của Tốt",
+          "data": {
+            "steps": [
+              {
+                "name": "Nước Xuất phát Đầu tiên",
+                "description": "Từ vị trí ban đầu (hàng 2 Trắng / hàng 7 Đen), Tốt được quyền lựa chọn đi 1 ô hoặc nhảy vọt 2 ô về phía trước nếu ô đó trống."
+              },
+              {
+                "name": "Hành tiến Dọc thường lệ",
+                "description": "Sau khi đã rời vị trí ban đầu, Tốt chỉ được phép tiến từng ô một về phía trước theo cột dọc và tuyệt đối không bao giờ được lùi lại phía sau."
+              },
+              {
+                "name": "Cơ chế Bắt quân Khác biệt",
+                "description": "Tốt không ăn quân theo đường thẳng đi tới; Tốt chỉ ăn quân đối phương nằm ở ô chéo liền kề ngay phía trước mặt mình."
+              },
+              {
+                "name": "Khóa Chặn & Tạo Cấu trúc",
+                "description": "Khi gặp một quân cản ngay trước mặt, Tốt bị chặn đứng không thể tiến; các Tốt liên kết chéo che chắn cho nhau tạo thành cấu trúc Tốt kiên cố."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức: Động học Khác biệt của Tốt",
+          "data": {
+            "stages": [
+              {
+                "stage": "Nguyên tắc Bất khả hồi",
+                "action": "Cân nhắc kỹ trước mỗi nước đẩy Tốt vì Tốt là quân duy nhất trên bàn cờ không thể đi lùi.",
+                "painPoint": "Đẩy Tốt bừa bãi tạo ra những ô yếu vĩnh viễn ở phía sau cho đối phương khai thác.",
+                "solution": "Mỗi nước Tốt đi là một sự thay đổi vĩnh viễn cấu trúc thế trận, phải bảo đảm Tốt luôn có sự yểm trợ.",
+                "emotion": "neutral"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Luyện tập: Quân Tốt",
+          "data": {
+            "quiz_tags": [
+              "Nước Đi Quân Cờ",
+              "Phân luồng"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "nb_nhap_thanh",
+      "breadcrumb": "Cờ Vua > Cơ Chế Ngoại Lệ > Nhập Thành",
+      "components": [
+        {
+          "type": "decision-tree",
+          "title": "Cây Quyết định Điều kiện Nhập thành Hợp lệ",
+          "data": {
+            "startNodeId": "kt_di_chuyen",
+            "nodes": {
+              "kt_di_chuyen": {
+                "label": "1. Kiểm tra Lịch sử Di chuyển",
+                "question": "Quân Vua hoặc quân Xe hướng dự định nhập thành đã từng di chuyển lần nào chưa?",
+                "options": [
+                  {
+                    "text": "Vua hoặc Xe đó đã từng di chuyển",
+                    "nextNodeId": "mat_quyen",
+                    "tag": "Phạm quy"
+                  },
+                  {
+                    "text": "Cả Vua và Xe đều chưa từng di chuyển",
+                    "nextNodeId": "kt_dang_chieu",
+                    "tag": "Đạt chuẩn"
+                  }
+                ]
+              },
+              "mat_quyen": {
+                "label": "Mất Quyền Nhập thành",
+                "outcome": "Mất quyền nhập thành vĩnh viễn với quân Xe đó (hoặc mất hoàn toàn nếu Vua đã đi).",
+                "isTrap": true,
+                "explanation": "Dù Vua hay Xe có quay trở lại ô xuất phát ban đầu thì quyền nhập thành cũng đã bị hủy bỏ vĩnh viễn."
+              },
+              "kt_dang_chieu": {
+                "label": "2. Kiểm tra Tình trạng Chiếu",
+                "question": "Quân Vua hiện tại có đang bị đối phương chiếu không?",
+                "options": [
+                  {
+                    "text": "Vua đang bị chiếu",
+                    "nextNodeId": "tam_hoan",
+                    "tag": "Bị cấm"
+                  },
+                  {
+                    "text": "Vua hoàn toàn bình yên",
+                    "nextNodeId": "kt_duong_di",
+                    "tag": "An toàn"
+                  }
+                ]
+              },
+              "tam_hoan": {
+                "label": "Tạm thời Không được Nhập thành",
+                "outcome": "Không thể dùng nước nhập thành để hóa giải đòn chiếu.",
+                "isTrap": true,
+                "explanation": "Phải giải chiếu bằng cách khác (chặn, ăn quân chiếu, hoặc nếu Vua chạy thì sau đó mất quyền nhập thành)."
+              },
+              "kt_duong_di": {
+                "label": "3. Kiểm tra Chướng ngại & Ô kiểm soát",
+                "question": "Giữa Vua và Xe có quân nào đứng cản, hoặc ô Vua đi qua / ô Vua sắp đến có bị đối phương kiểm soát không?",
+                "options": [
+                  {
+                    "text": "Có quân cản hoặc ô bị kiểm soát",
+                    "nextNodeId": "bi_can",
+                    "tag": "Nguy hiểm"
+                  },
+                  {
+                    "text": "Đường đi trống và các ô đều an toàn",
+                    "nextNodeId": "hop_le",
+                    "tag": "Hợp lệ"
+                  }
+                ]
+              },
+              "bi_can": {
+                "label": "Không thể Thực hiện",
+                "outcome": "Tạm thời không được nhập thành cho đến khi ô cản được dọn sạch và an toàn.",
+                "isTrap": true,
+                "explanation": "Vua không được phép nhảy qua hoặc đáp xuống ô đang bị quân đối phương khống chế."
+              },
+              "hop_le": {
+                "label": "Được phép Nhập thành Hợp lệ!",
+                "outcome": "Di chuyển Vua 2 ô về phía Xe trước, sau đó nhấc Xe nhảy qua đứng sát cạnh Vua. Nhập thành gần: 0-0 (cánh Vua); Nhập thành xa: 0-0-0 (cánh Hậu).",
+                "explanation": "Quy tắc thao tác: BẮT BUỘC chạm và di chuyển Vua trước, sau đó mới di chuyển Xe. Nếu chạm Xe trước thì bắt buộc phải đi Xe!"
+              }
+            }
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức: Thao tác & Điều kiện Nhập thành",
+          "data": {
+            "stages": [
+              {
+                "stage": "Quy tắc Tay chạm Vua",
+                "action": "Khi nhập thành, luôn luôn dùng một tay chạm và dịch chuyển quân Vua 2 ô trước, rồi mới nhấc quân Xe.",
+                "painPoint": "Chạm tay vào quân Xe trước khi nhập thành dẫn đến bị trọng tài bắt buộc phải đi Xe thay vì được nhập thành.",
+                "solution": "Nhập thành là nước đi của Vua: Vua đi trước 2 ô -> Xe nhảy qua đứng kế bên.",
+                "emotion": "frustration"
+              },
+              {
+                "stage": "Phân biệt Vĩnh viễn vs Tạm thời",
+                "action": "Phân định rõ: Vua/Xe đã đi = mất quyền vĩnh viễn; Vua đang bị chiếu hoặc ô bị khống chế = chỉ tạm hoãn nước đó.",
+                "painPoint": "Nghĩ rằng khi bị chiếu thì mất luôn quyền nhập thành của cả ván đấu.",
+                "solution": "Nếu giải chiếu bằng cách lấy quân khác che chắn (không di chuyển Vua) thì sau đó vẫn được nhập thành bình thường.",
+                "emotion": "positive"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Luyện tập: Nước Nhập thành",
+          "data": {
+            "quiz_tags": [
+              "Nước Đi Đặc Biệt",
+              "Giới hạn & Rủi ro"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "nb_bat_tot_qua_duong",
+      "breadcrumb": "Cờ Vua > Cơ Chế Ngoại Lệ > Bắt Tốt Qua Đường",
+      "components": [
+        {
+          "type": "flip-card",
+          "title": "Quy tắc Bắt Tốt qua đường (En Passant)",
+          "data": {
+            "front": "Bắt Tốt qua đường",
+            "back": "Áp dụng khi Tốt đã tới hàng 5 (Trắng) hoặc hàng 4 (Đen) - gọi là Tốt quá cảnh. Nếu Tốt đối phương ở cột liền kề tiến 2 ô vượt mặt đứng ngang hàng, Tốt quá cảnh có quyền ăn chéo ra ô phía sau Tốt đó như thể nó chỉ đi 1 ô. ĐẶC QUYỀN NÀY CHỈ CÓ HIỆU LỰC NGAY TẠI NƯỚC ĐI KẾ TIẾP, để lỡ lượt sẽ mất quyền vĩnh viễn."
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức: Bắt Tốt Qua Đường",
+          "data": {
+            "stages": [
+              {
+                "stage": "Điều kiện Quá cảnh",
+                "action": "Kiểm tra vị trí Tốt của mình phải nằm ở hàng 5 (nếu là Trắng) hoặc hàng 4 (nếu là Đen).",
+                "painPoint": "Cố gắng bắt tốt qua đường khi Tốt mình chưa đứng ở hàng quá cảnh quy định.",
+                "solution": "Chỉ kích hoạt khi Tốt mình ở hàng 5 (Trắng) / hàng 4 (Đen) và Tốt địch nhảy 2 ô đứng sát nách.",
+                "emotion": "neutral"
+              },
+              {
+                "stage": "Tính Tức thì Tuyệt đối",
+                "action": "Quyết định ăn ngay lập tức tại nước cờ đối phương vừa nhảy 2 ô, không được trì hoãn.",
+                "painPoint": "Đi một nước cờ khác rồi sau đó quay lại đòi bắt tốt qua đường.",
+                "solution": "Cơ hội chỉ xuất hiện đúng 1 lần duy nhất ngay sau nước đi của đối phương: 'Không ăn ngay là mất lượt mãi mãi'.",
+                "emotion": "frustration"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Luyện tập: Bắt Tốt Qua Đường",
+          "data": {
+            "quiz_tags": [
+              "Nước Đi Đặc Biệt",
+              "Giới hạn & Rủi ro"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "nb_phong_cap",
+      "breadcrumb": "Cờ Vua > Cơ Chế Ngoại Lệ > Phong Cấp",
+      "components": [
+        {
+          "type": "flip-card",
+          "title": "Quy tắc Phong cấp Tốt tại hàng biên",
+          "data": {
+            "front": "Phong cấp Tốt",
+            "back": "Khi Tốt tiến tới hàng ngang cuối cùng (hàng 8 Trắng / hàng 1 Đen), Tốt được thay thế ngay lập tức bằng một trong bốn quân: Hậu, Xe, Tượng, hoặc Mã (cùng màu) và có hiệu lực chiến đấu ngay. Việc phong cấp không phụ thuộc vào việc quân đó đã bị bắt hay chưa (trên bàn cờ có thể có từ 2 quân Hậu trở lên cùng màu)."
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức: Phong cấp & Biến chuyển Lực lượng",
+          "data": {
+            "stages": [
+              {
+                "stage": "Quyền Tự do Chọn lựa",
+                "action": "Nắm vững quyền được phong thành bất kỳ quân nào trong bộ tứ (Hậu, Xe, Tượng, Mã), thông thường nhất là Hậu.",
+                "painPoint": "Hiểu sai rằng chỉ được phong cấp thành quân cờ đã bị đối phương ăn trước đó.",
+                "solution": "Luật FIDE không giới hạn số lượng: Kỳ thủ hoàn toàn có thể có 2, 3 quân Hậu trên bàn cờ nếu đẩy được nhiều Tốt xuống đáy.",
+                "emotion": "positive"
+              },
+              {
+                "stage": "Nghệ thuật Phong cấp Dưới (Underpromotion)",
+                "action": "Nhận biết những tình huống đặc biệt cần phong Xe hoặc Mã thay vì Hậu để tránh làm ván cờ bị hòa do thế Pat.",
+                "painPoint": "Theo quán tính luôn phong Hậu dẫn đến việc vô tình tước đoạt nước đi của Vua địch tạo thành thế cờ Pat hòa đáng tiếc.",
+                "solution": "Quan sát kỹ ô chạy của Vua đối phương trước khi đặt quân phong cấp lên bàn cờ.",
+                "emotion": "neutral"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Luyện tập: Phong Cấp",
+          "data": {
+            "quiz_tags": [
+              "Nước Đi Đặc Biệt",
+              "Logic & Nguyên tắc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "luat_cham_quan",
+      "breadcrumb": "Cờ Vua > Luật Thi Đấu > Quy Tắc Chạm Quân",
+      "components": [
+        {
+          "type": "chat-simulation",
+          "title": "Giải quyết Tranh chấp Luật Chạm quân trong Thi đấu",
+          "data": {
+            "scenario": "Tình huống kỳ thủ chạm tay vào quân cờ trong giải đấu sinh viên có trọng tài giám sát.",
+            "messages": [
+              {
+                "sender": "Sinh viên",
+                "role": "Kỳ thủ Trắng",
+                "text": "Thưa trọng tài, em lỡ tay chạm vào quân Tượng nhưng giờ em thấy đi quân Mã có lợi hơn, em đổi ý đi Mã được không ạ?"
+              },
+              {
+                "sender": "Trọng tài",
+                "role": "Trọng tài FIDE",
+                "text": "Tuyệt đối không được! Luật Cờ Vua quy định rất nghiêm: Nếu em chạm tay vào quân cờ của mình mà quân đó có nước đi hợp lệ thì BẮT BUỘC em phải đi quân đó!"
+              },
+              {
+                "sender": "Sinh viên",
+                "role": "Kỳ thủ Trắng",
+                "text": "Dạ em hiểu rồi, nhưng nếu quân cờ nằm lệch ô méo mó, em muốn chỉnh lại cho ngay ngắn thì phải làm thế nào để không bị phạt ạ?"
+              },
+              {
+                "sender": "Trọng tài",
+                "role": "Trọng tài FIDE",
+                "text": "Em chỉ được chỉnh quân khi ĐANG LÀ LƯỢT ĐI của mình, và trước khi chạm tay vào quân cờ em BẮT BUỘC phải thông báo rõ ràng bằng lời: 'Tôi sửa quân' (tiếng Pháp là J'adoube)."
+              },
+              {
+                "sender": "Sinh viên",
+                "role": "Kỳ thủ Trắng",
+                "text": "Thế còn trường hợp em lỡ chạm tay vào quân cờ của đối thủ thì sao thưa thầy?"
+              },
+              {
+                "sender": "Trọng tài",
+                "role": "Trọng tài FIDE",
+                "text": "Nếu em chạm vào một hay nhiều quân của đối phương, thì em BẮT BUỘC phải bắt quân đối phương bị chạm đầu tiên nếu quân đó có thể bị bắt hợp lệ bởi bất kỳ quân nào của em! Hãy nhớ quy tắc vàng: 'Chạm quân mình phải đi, chạm quân địch phải bắt' và luôn dùng duy nhất một tay để thực hiện nước cờ."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức: Kỷ luật Thi đấu & Tránh Bẫy Phạt",
+          "data": {
+            "stages": [
+              {
+                "stage": "Quy tắc Một Tay",
+                "action": "Luôn thực hiện toàn bộ thao tác đi quân, ăn quân và bấm đồng hồ bằng cùng MỘT TAY.",
+                "painPoint": "Dùng một tay đi quân cờ rồi dùng tay kia bấm đồng hồ thi đấu vi phạm luật FIDE.",
+                "solution": "Tập thói quen: Tay nào cầm quân đi thì chính tay đó đưa lên bấm đồng hồ.",
+                "emotion": "neutral"
+              },
+              {
+                "stage": "Khẩu hiệu Sửa quân",
+                "action": "Nói rõ 'Tôi sửa quân' trước khi ngón tay chạm vào bất kỳ quân cờ nào trên bàn.",
+                "painPoint": "Vừa chạm tay vào quân cờ vừa nói sửa quân khiến trọng tài và đối thủ không công nhận.",
+                "solution": "Phát âm thanh thông báo trước -> Nhận diện đối thủ đã nghe -> Mới đưa tay chỉnh sửa.",
+                "emotion": "positive"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Luyện tập: Quy tắc Chạm quân",
+          "data": {
+            "quiz_tags": [
+              "Luật Thi Đấu",
+              "Giới hạn & Rủi ro"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "luat_bien_ban",
+      "breadcrumb": "Cờ Vua > Luật Thi Đấu > Ký Hiệu Biên Bản",
+      "components": [
+        {
+          "type": "matrix-table",
+          "title": "Hệ thống Ký hiệu Đại số & Cách Ghi Biên bản Thi đấu",
+          "data": {
+            "headers": [
+              "Ký hiệu Đại số",
+              "Ý nghĩa Thao tác",
+              "Cách ghi Đầy đủ",
+              "Cách ghi Rút gọn",
+              "Ví dụ Minh họa"
+            ],
+            "rows": [
+              [
+                "-",
+                "Nước đi thông thường",
+                "Ô xuất phát - Ô đến",
+                "Chỉ ghi ô đến",
+                "e2 - e4 hoặc e4; Mg1 - f3 hoặc Mf3"
+              ],
+              [
+                ": hoặc x",
+                "Nước ăn (bắt) quân",
+                "Ô xuất phát x Ô bị bắt",
+                "Cột tốt / Ký hiệu quân x Ô đến",
+                "e4 : d5 hoặc exd5; Mf3 x d4 hoặc Mxd4"
+              ],
+              [
+                "+",
+                "Chiếu Vua đối phương",
+                "Thêm dấu + vào cuối",
+                "Thêm dấu + vào cuối",
+                "Vf7+ hoặc He8+"
+              ],
+              [
+                "++",
+                "Chiếu đôi (2 quân chiếu)",
+                "Thêm ++ vào cuối",
+                "Thêm ++ vào cuối",
+                "Mxd7++"
+              ],
+              [
+                "# hoặc X",
+                "Chiếu hết (Kết thúc)",
+                "Thêm # hoặc X vào cuối",
+                "Thêm # hoặc X vào cuối",
+                "Hf7# hoặc Hf7X (Checkmate)"
+              ],
+              [
+                "0 - 0",
+                "Nhập thành gần (cánh Vua)",
+                "0 - 0",
+                "0 - 0",
+                "Vua e1 sang g1, Xe h1 sang f1"
+              ],
+              [
+                "0 - 0 - 0",
+                "Nhập thành xa (cánh Hậu)",
+                "0 - 0 - 0",
+                "0 - 0 - 0",
+                "Vua e1 sang c1, Xe a1 sang d1"
+              ],
+              [
+                "= hoặc /",
+                "Phong cấp Tốt",
+                "Ô đến = Tên quân mới",
+                "Ô đến = Tên quân mới",
+                "e7 - e8=H hoặc e8=H"
+              ],
+              [
+                "qđ hoặc e.p",
+                "Bắt tốt qua đường",
+                "Kèm ký hiệu qđ / e.p",
+                "Kèm ký hiệu qđ / e.p",
+                "e5 : d6 qđ hoặc exd6 e.p"
+              ]
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức: Kỹ năng Ghi Biên bản Chuẩn xác",
+          "data": {
+            "stages": [
+              {
+                "stage": "Quy trình Nước đi & Ghi chép",
+                "action": "Thực hiện nước đi trên bàn cờ trước, sau đó ghi ngay vào biên bản rồi mới bấm đồng hồ.",
+                "painPoint": "Ghi nước đi dự định vào biên bản trước khi đi cờ trên bàn (vi phạm luật cấm ghi chép trước).",
+                "solution": "Thứ tự bất di bất dịch: Nghĩ -> Đi quân -> Bấm đồng hồ -> Ghi biên bản.",
+                "emotion": "positive"
+              },
+              {
+                "stage": "Ngoại lệ Khẩn cấp Thời gian",
+                "action": "Biết rằng khi đồng hồ còn dưới 5 phút (và không có thời gian cộng thêm tích lũy), đấu thủ được miễn ghi biên bản.",
+                "painPoint": "Cuống cuồng vừa ghi biên bản vừa đánh cờ trong lúc chỉ còn vài chục giây dẫn đến rụng kim thua giờ.",
+                "solution": "Dưới 5 phút được quyền dừng ghi để tập trung đánh cờ; sau khi ván đấu kết thúc mới bổ sung hoàn thiện biên bản.",
+                "emotion": "neutral"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Luyện tập: Biên bản Thi đấu",
+          "data": {
+            "quiz_tags": [
+              "Biên Bản Thi Đấu",
+              "Cấu trúc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "kq_thang_thua",
+      "breadcrumb": "Cờ Vua > Luật Thi Đấu > Kết Quả Thắng Thua",
+      "components": [
+        {
+          "type": "pair-grid",
+          "title": "Các Trường hợp Thắng & Thua cuộc Tuyệt đối",
+          "data": {
+            "instruction": "Đối chiếu nguyên nhân và hệ quả xác định thắng thua trong một ván cờ chính thức",
+            "pairs": [
+              {
+                "id": "p1",
+                "leftText": "Chiếu hết Vua (#)",
+                "rightText": "Đấu thủ bị chiếu mà không còn bất kỳ nước đi hợp lệ nào để giải chiếu -> Thua cuộc ngay lập tức.",
+                "explanation": "Chiếu hết là mục tiêu tối thượng của ván cờ, ván đấu kết thúc ngay tại thời điểm nước chiếu hết được thực hiện."
+              },
+              {
+                "id": "p2",
+                "leftText": "Tuyên bố Xin thua",
+                "rightText": "Đấu thủ nhận thấy thế cờ không thể cứu vãn chủ động tuyên bố đầu hàng hoặc dừng đồng hồ -> Đối phương thắng.",
+                "explanation": "Hành vi dừng đồng hồ và bắt tay đối thủ hoặc đặt đổ Vua của mình là dấu hiệu xin thua hợp lệ."
+              },
+              {
+                "id": "p3",
+                "leftText": "Hết thời gian Quy định",
+                "rightText": "Đấu thủ hết giờ suy nghĩ trên đồng hồ mà chưa hoàn thành số nước đi quy định -> Bị xử thua cờ.",
+                "explanation": "Ngoại lệ: Nếu đấu thủ hết giờ nhưng đối phương chỉ còn lại duy nhất quân Vua (không đủ lực lượng chiếu hết) thì ván cờ được xử HÒA."
+              },
+              {
+                "id": "p4",
+                "leftText": "Xử thua do Kỷ luật",
+                "rightText": "Đến trễ giờ quy định (mặc định quá giờ bắt đầu) hoặc vi phạm nghiêm trọng luật thi đấu -> Xử thua.",
+                "explanation": "Nếu cả hai đấu thủ đều đến muộn quá giờ quy định hoặc cùng vi phạm nghiêm trọng thì cả hai đều bị xử thua."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức: Ranh giới Thắng Thua & Ngoại lệ Đồng hồ",
+          "data": {
+            "stages": [
+              {
+                "stage": "Bẫy Rụng kim Đồng hồ",
+                "action": "Nhận biết bẫy: Hết giờ không phải lúc nào cũng thua nếu đối thủ không đủ quân chiếu hết.",
+                "painPoint": "Tưởng rằng cứ hết giờ là bị xử thua 100% dù đối phương chỉ còn trơ trọi một con Vua.",
+                "solution": "Nếu đối phương chỉ còn mình Vua (hoặc Vua+Mã, Vua+Tượng đơn độc), khi mình hết giờ ván cờ lập tức được xử HÒA.",
+                "emotion": "positive"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Luyện tập: Điều kiện Thắng Thua",
+          "data": {
+            "quiz_tags": [
+              "Kết Quả Ván Cờ",
+              "Logic & Nguyên tắc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "kq_the_hoa",
+      "breadcrumb": "Cờ Vua > Luật Thi Đấu > Trường Hợp Hòa Cờ",
+      "components": [
+        {
+          "type": "carousel",
+          "title": "5 Trường hợp Hòa cờ Chuẩn Quốc tế (FIDE)",
+          "data": {
+            "items": [
+              {
+                "title": "1. Thế cờ Pat (Hết nước đi)",
+                "description": "Đấu thủ đến lượt đi không bị chiếu nhưng không còn bất kỳ một nước đi hợp lệ nào với Vua hay bất kỳ quân cờ nào khác -> Ván cờ hòa ngay lập tức."
+              },
+              {
+                "title": "2. Bất khả Chiếu hết (Thiếu Lực lượng)",
+                "description": "Thế trận xuất hiện khi không bên nào có thể chiếu hết Vua đối phương bằng các nước đi hợp lệ: Vua chống Vua; Vua + Mã chống Vua; Vua + Tượng chống Vua."
+              },
+              {
+                "title": "3. Thỏa thuận Hòa cờ",
+                "description": "Hai đấu thủ đạt được sự thỏa thuận hòa cờ trong quá trình diễn ra ván đấu (đấu thủ chỉ được đề nghị hòa sau khi đã thực hiện nước đi trên bàn cờ)."
+              },
+              {
+                "title": "4. Lặp lại Thế cờ 3 lần",
+                "description": "Một thế cờ giống hệt nhau (cùng vị trí các quân, cùng lượt đi, cùng quyền nhập thành và bắt tốt qua đường) xuất hiện hoặc chuẩn bị xuất hiện lần thứ 3."
+              },
+              {
+                "title": "5. Quy tắc 50 Nước đi",
+                "description": "Ván cờ được xử hòa nếu trong 50 nước đi liên tiếp cuối cùng của cả hai bên, không có bất kỳ nước di chuyển Tốt nào và không có bất kỳ nước bắt quân nào diễn ra."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức: Phòng tránh & Tận dụng Thế Hòa",
+          "data": {
+            "stages": [
+              {
+                "stage": "Bẫy Thế cờ Pat",
+                "action": "Khi đang chiếm ưu thế lực lượng tuyệt đối (có Hậu, Xe), luôn chừa cho Vua đối phương ít nhất một ô thoát để tránh hòa Pat.",
+                "painPoint": "Dồn ép quá đà khiến Vua đối phương không bị chiếu nhưng không còn ô nào đi được -> Mất trắng chiến thắng vào thế Pat.",
+                "solution": "Mỗi nước dồn ép Vua địch ở cuối trận phải tự hỏi: 'Vua nó còn ô đi hợp lệ không?' hoặc 'Nước này có chiếu không?'.",
+                "emotion": "negative"
+              },
+              {
+                "stage": "Chiến thuật Cầu hòa",
+                "action": "Khi ở thế cờ yếu hơn, chủ động tìm cách thí quân ép Vua mình vào thế Pat hoặc tạo chuỗi nước chiếu vĩnh viễn (lặp 3 lần).",
+                "painPoint": "Đầu hàng quá sớm khi bị dẫn quân mà không tìm kiếm cơ hội đưa ván cờ về thế hòa kỹ thuật.",
+                "solution": "Tận dụng triệt để quy tắc Pat và lặp thế cờ làm vũ khí cứu vãn điểm số.",
+                "emotion": "positive"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Luyện tập: Các Trường hợp Hòa cờ",
+          "data": {
+            "quiz_tags": [
+              "Kết Quả Ván Cờ",
+              "Giới hạn & Rủi ro"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "kc_nguyen_tac",
+      "breadcrumb": "Cờ Vua > Các Giai Đoạn > Khai Cuộc",
+      "components": [
+        {
+          "type": "process-steps",
+          "title": "3 Nguyên tắc Vàng Triển khai Giai đoạn Khai cuộc",
+          "data": {
+            "steps": [
+              {
+                "name": "1. Chiếm lĩnh & Kiểm soát Trung tâm",
+                "description": "Đẩy các Tốt trung tâm (cột c, d, e) lên chiếm giữ không gian, thiết lập pháo đài kiểm soát các ô e4, d4, mở đường cho Tượng và Hậu phát triển."
+              },
+              {
+                "name": "2. Nhanh chóng Phát triển Quân nhẹ",
+                "description": "Ưu tiên đưa Mã và Tượng hướng về trung tâm; tuân thủ quy tắc không đi một quân nhiều lần trong khai cuộc để tranh thủ nước tiên."
+              },
+              {
+                "name": "3. Nhập thành Đưa Vua vào Vị trí An toàn",
+                "description": "Thực hiện nhập thành sớm (thường trong 10-15 nước đầu) để đưa Vua vào góc an toàn và đưa quân Xe ra các cột chiến lược."
+              },
+              {
+                "name": "4. Xây dựng Cấu trúc Tốt Vững chắc",
+                "description": "Không đẩy Tốt biên (f, g, h) bừa bãi; tránh tạo ra Tốt cô lập, Tốt chồng hoặc các lỗ hổng phòng thủ phía trước mặt Vua."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức: Kỷ luật Khai cuộc",
+          "data": {
+            "stages": [
+              {
+                "stage": "Sai lầm Đi một quân nhiều lần",
+                "action": "Phát triển hài hòa toàn bộ lực lượng: Mỗi nước đi là một quân mới được kích hoạt tham chiến.",
+                "painPoint": "Dùng một quân Mã hoặc Tượng chạy nhảy khắp bàn cờ để săn đuổi đối phương khiến toàn bộ cánh cờ còn lại bị đóng băng.",
+                "solution": "Nhanh chóng huy động toàn bộ lực lượng nhẹ trước khi nghĩ đến việc tấn công đối thủ.",
+                "emotion": "frustration"
+              },
+              {
+                "stage": "Nguy cơ Tốt f",
+                "action": "Hạn chế tối đa việc đẩy Tốt cột f (f2-f4 hoặc f7-f5) trong những nước cờ đầu tiên.",
+                "painPoint": "Đẩy Tốt f làm mở toang đường chéo tử thần e1-h4 (hoặc e8-h5) dẫn đến việc bị chiếu hết chớp nhoáng.",
+                "solution": "Bảo vệ đường chéo quanh Vua bằng cách giữ nguyên vị trí Tốt f cho đến khi đã nhập thành an toàn.",
+                "emotion": "negative"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Luyện tập: Nguyên tắc Khai cuộc",
+          "data": {
+            "quiz_tags": [
+              "Giai Đoạn Khai Cuộc",
+              "Phân luồng"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "kc_he_thong",
+      "breadcrumb": "Cờ Vua > Các Giai Đoạn > Hệ Thống Khai Cuộc",
+      "components": [
+        {
+          "type": "matrix-table",
+          "title": "3 Hệ thống Khai cuộc Kinh điển trong Cờ Vua",
+          "data": {
+            "headers": [
+              "Hệ thống Khai cuộc",
+              "Nước đi Khởi đầu",
+              "Đặc trưng Cấu trúc",
+              "Kế hoạch Tác chiến",
+              "Ví dụ Khai cuộc Điển hình"
+            ],
+            "rows": [
+              [
+                "Khai cuộc Thoáng",
+                "1. e4 e5",
+                "Trung tâm rộng mở sớm, hai bên giáp mặt trực diện",
+                "Phát triển quân cực nhanh, tranh chấp quyết liệt các ô trung tâm, thế trận bùng nổ chiến thuật.",
+                "Ván cờ Ý (Giuoco Piano), Ván cờ Tây Ban Nha (Ruy Lopez), Gambit Vua."
+              ],
+              [
+                "Khai cuộc Nửa thoáng",
+                "1. e4 (Đen đáp khác e5)",
+                "Cấu trúc Tốt bất đối xứng, trung tâm bị giằng co",
+                "Đen nhường tạm quyền kiểm soát trung tâm để tập trung phản công bên cánh hoặc phản kích cấu trúc Tốt.",
+                "Phòng thủ Sicilian (1...c5), Phòng thủ Pháp (1...e6), Phòng thủ Caro-Kann (1...c6)."
+              ],
+              [
+                "Khai cuộc Kín",
+                "Trắng đi khác 1.e4 (1.d4, 1.c4, 1.Nf3...)",
+                "Cấu trúc Tốt trung tâm khóa chặt, tính cơ động chậm",
+                "Tác chiến chiều sâu theo kế hoạch chiến lược lâu dài, luân chuyển quân tích lũy ưu thế vị trí rồi mới đột phá.",
+                "Gambit Hậu (1.d4 d5 2.c4), Khai cuộc Anh (1.c4), Phòng thủ Ấn Độ."
+              ]
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức: Nhận diện Bản chất Hệ thống Khai cuộc",
+          "data": {
+            "stages": [
+              {
+                "stage": "Quy luật Nước đi Đầu tiên",
+                "action": "Nhìn nước đi 1.e4 của Trắng và phản ứng của Đen để phân loại ngay lập tức dạng khai cuộc.",
+                "painPoint": "Học thuộc lòng biến thế từng nước mà không nắm được tư tưởng chiến lược của hệ thống (thoáng hay kín).",
+                "solution": "Nắm bản chất: 1.e4 e5 = Thoáng (chiến thuật); 1.e4 c5/e6 = Nửa thoáng (phản công); 1.d4 = Kín (chiến lược vị trí).",
+                "emotion": "positive"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Luyện tập: Hệ thống Khai cuộc",
+          "data": {
+            "quiz_tags": [
+              "Giai Đoạn Khai Cuộc",
+              "Cấu trúc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "tc_nhan_to_chien_thuat",
+      "breadcrumb": "Cờ Vua > Các Giai Đoạn > Trung Cuộc",
+      "components": [
+        {
+          "type": "features",
+          "title": "3 Nhân tố Cốt lõi của Chiến thuật trong Trung cuộc",
+          "data": {
+            "items": [
+              {
+                "title": "Tình thế Bó buộc (Ép nước đi)",
+                "description": "Ở một thời điểm then chốt, đấu thủ sử dụng một tổ hợp các nước đi có định hướng (kể cả thí quân) để ép đối phương phải trả lời bằng loạt nước đi bắt buộc khiến thế cờ xấu đi nghiêm trọng."
+              },
+              {
+                "title": "Sự Đe dọa Chiến thuật Thường trực",
+                "description": "Liên tục tạo ra các mối đe dọa tấn công vào điểm yếu, ô yếu, quân cờ không được bảo vệ chắc chắn hoặc nhắm thẳng vào vị trí quân Vua của đối thủ."
+              },
+              {
+                "title": "Thời gian Trực tiếp & Gián tiếp",
+                "description": "Bao gồm thời gian trực tiếp trên đồng hồ thi đấu (gây áp lực tâm lý) và thời gian gián tiếp (tốc độ huy động lực lượng, tranh thủ từng nước tiên để ra đòn trước)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức: Tư duy Chiến thuật Trung cuộc",
+          "data": {
+            "stages": [
+              {
+                "stage": "Nắm bắt Nước đi Bắt buộc",
+                "action": "Luôn tính toán các nước đi có tính ép buộc cao nhất: Chiếu Vua -> Bắt quân -> Đe dọa chiếu hết.",
+                "painPoint": "Tính toán lan man các nước đi thụ động khiến đối phương có đủ thời gian củng cố phòng thủ.",
+                "solution": "Bắt đầu chuỗi tính toán bằng các nước đi ép buộc đối phương chỉ có duy nhất 1 phương án đáp trả.",
+                "emotion": "positive"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Luyện tập: Nhân tố Chiến thuật",
+          "data": {
+            "quiz_tags": [
+              "Giai Đoạn Trung Cuộc",
+              "Nền tảng"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "tc_don_tan_cong",
+      "breadcrumb": "Cờ Vua > Các Giai Đoạn > Đòn Tấn Công",
+      "components": [
+        {
+          "type": "carousel",
+          "title": "4 Đòn Tấn công Chiến thuật Điển hình trong Trung cuộc",
+          "data": {
+            "items": [
+              {
+                "title": "1. Đòn Ghim (Giằng) quân",
+                "description": "Thủ pháp làm tê liệt sự cơ động của quân đối phương. Quân bị ghim (có giá trị nhỏ hơn) không thể di chuyển vì nếu di chuyển sẽ để lộ quân có giá trị lớn hơn ở phía sau (hoặc Vua) bị tiêu diệt."
+              },
+              {
+                "title": "2. Đòn Giằng xiên (Xiên que)",
+                "description": "Cơ chế đảo ngược của đòn ghim: Quân có giá trị lớn hơn (Vua hoặc Hậu) đứng ở phía trước bị tấn công trực diện và buộc phải bỏ chạy, để lộ quân có giá trị nhỏ hơn đứng sau bị bắt gọn."
+              },
+              {
+                "title": "3. Đòn Bắt đôi (Đòn kép)",
+                "description": "Một quân cờ tấn công cùng lúc vào hai hoặc nhiều mục tiêu sơ hở của đối phương (Chiếu đôi là trường hợp đặc biệt vừa mở đường vừa chiếu Vua, buộc Vua phải chạy mà không thể dùng quân khác che chắn)."
+              },
+              {
+                "title": "4. Đòn Thu hút (Dụ dỗ)",
+                "description": "Thủ pháp phối hợp (thường sử dụng đòn thí quân ngoạn mục) để dụ dỗ hoặc ép buộc quân cờ của đối phương phải bước vào một ô cờ tử địa đầy bất lợi, sau đó tung đòn quyết định tiêu diệt."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức: Nhận diện & Thi triển Đòn phối hợp",
+          "data": {
+            "stages": [
+              {
+                "stage": "So sánh Ghim vs Xiên",
+                "action": "Phân biệt rõ: Đòn ghim = Quân nhỏ đứng trước, quân lớn đứng sau; Đòn xiên = Quân lớn đứng trước, quân nhỏ đứng sau.",
+                "painPoint": "Nhầm lẫn giữa 2 đòn thế dẫn đến việc chọn sai quân tấn công và mục tiêu yểm trợ.",
+                "solution": "Mẹo nhớ: Xiên là chọc thẳng vào đầu quân lớn (ép quân lớn chạy để ăn quân nhỏ phía sau).",
+                "emotion": "positive"
+              },
+              {
+                "stage": "Khắc phục Quân không bảo vệ",
+                "action": "Luôn rà soát bàn cờ: Bất kỳ quân nào không được quân khác bảo vệ đều là mồi ngon cho Đòn bắt đôi.",
+                "painPoint": "Bố trí các quân cờ đứng rời rạc không có mắt xích liên kết che chở lẫn nhau.",
+                "solution": "Quy tắc an toàn: Mỗi quân cờ xuất kích đều phải có ít nhất một quân đồng đội yểm trợ phía sau.",
+                "emotion": "neutral"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Luyện tập: Các Đòn Tấn công",
+          "data": {
+            "quiz_tags": [
+              "Giai Đoạn Trung Cuộc",
+              "Logic & Nguyên tắc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "tc_danh_gia_the_tran",
+      "breadcrumb": "Cờ Vua > Các Giai Đoạn > Đánh Giá Thế Trận",
+      "components": [
+        {
+          "type": "decision-tree",
+          "title": "Cây Quyết định Đánh giá & Phân tích Thế trận Trung cuộc",
+          "data": {
+            "startNodeId": "kt_tot_yeu",
+            "nodes": {
+              "kt_tot_yeu": {
+                "label": "1. Đánh giá Cấu trúc Tốt",
+                "question": "Bên đối phương có xuất hiện các điểm yếu về Tốt (Tốt chồng, Tốt cô lập, Tốt lạc hậu) không?",
+                "options": [
+                  {
+                    "text": "Có Tốt yếu của đối phương",
+                    "nextNodeId": "tan_cong_tot",
+                    "tag": "Ưu thế Tốt"
+                  },
+                  {
+                    "text": "Cấu trúc Tốt đối phương vững chắc",
+                    "nextNodeId": "kt_cot_mo",
+                    "tag": "Cân bằng"
+                  }
+                ]
+              },
+              "tan_cong_tot": {
+                "label": "Chiến lược Tấn công Tốt yếu",
+                "outcome": "Tập trung lực lượng quân nặng và quân nhẹ phong tỏa, cô lập và tiêu diệt các Tốt yếu.",
+                "explanation": "Tốt yếu là điểm tựa cố định không thể tự bảo vệ; đánh sập cấu trúc Tốt sẽ mở toang đường vào Vua đối thủ."
+              },
+              "kt_cot_mo": {
+                "label": "2. Đánh giá Cột mở & Đường chéo",
+                "question": "Bàn cờ có cột mở (không có Tốt) hoặc cột nửa mở (chỉ có Tốt của 1 bên) không?",
+                "options": [
+                  {
+                    "text": "Có cột mở hoặc nửa mở",
+                    "nextNodeId": "chiem_cot_mo",
+                    "tag": "Chiếm trục"
+                  },
+                  {
+                    "text": "Các cột đều bị khóa bởi Tốt",
+                    "nextNodeId": "kt_o_manh",
+                    "tag": "Thế trận kín"
+                  }
+                ]
+              },
+              "chiem_cot_mo": {
+                "label": "Chiếm lĩnh Cột mở & Hàng ngang 7",
+                "outcome": "Đưa quân Xe chiếm lĩnh ngay cột mở và đột nhập vào hàng ngang thứ 7 (hoặc thứ 8) của đối phương.",
+                "explanation": "Chiếm hàng ngang 7 là một trong những ưu thế chiến lược quyết định nhất trong cờ vua trung cuộc."
+              },
+              "kt_o_manh": {
+                "label": "3. Xác định Ô mạnh & Ô yếu",
+                "question": "Tìm các ô mạnh (ô không bị Tốt đối phương kiểm soát và được Tốt mình bảo vệ)?",
+                "options": [
+                  {
+                    "text": "Xác định được ô mạnh tiền đồn",
+                    "nextNodeId": "dat_tien_don",
+                    "tag": "Chiếm tiền đồn"
+                  },
+                  {
+                    "text": "Không có ô mạnh rõ ràng",
+                    "nextNodeId": "dieu_vua",
+                    "tag": "Củng cố"
+                  }
+                ]
+              },
+              "dat_tien_don": {
+                "label": "Chiếm giữ Ô mạnh bằng Mã",
+                "outcome": "Cắm quân Mã vào ô mạnh làm tiền đồn tác chiến chiều sâu, khống chế không gian và uy hiếp trận địa đối phương.",
+                "explanation": "Ô mạnh của ta chính là ô yếu của địch; một quân Mã ngự trị trên ô mạnh có sức mạnh ngang ngửa một quân Xe."
+              },
+              "dieu_vua": {
+                "label": "Củng cố Vị trí Vua & Chờ thời cơ",
+                "outcome": "Bảo vệ chặt chẽ các lối vào quanh Vua, tích lũy lực lượng và kiên nhẫn tìm kiếm sơ hở của đối phương.",
+                "explanation": "Khi thế trận cân bằng tuyệt đối, việc duy trì sự an toàn của Vua là ưu tiên sống còn trước khi chuyển sang tàn cuộc."
+              }
+            }
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức: Đánh giá Thế trận Khách quan",
+          "data": {
+            "stages": [
+              {
+                "stage": "Linh hồn Cấu trúc Tốt",
+                "action": "Nhìn vào cấu trúc Tốt để định hình toàn bộ kế hoạch tác chiến: Tấn công cánh Vua, cánh Hậu hay đột phá Trung tâm.",
+                "painPoint": "Chỉ chăm chăm đếm số lượng quân mà bỏ qua cấu trúc Tốt bị xé lẻ hoặc bị chồng.",
+                "solution": "Tốt là xương sống của thế trận: Thắng hay bại phụ thuộc vào vị trí hay hoặc dở của những quân Tốt.",
+                "emotion": "positive"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Luyện tập: Đánh giá Thế trận",
+          "data": {
+            "quiz_tags": [
+              "Giai Đoạn Trung Cuộc",
+              "Phân luồng"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "tan_dac_tinh_nguyen_tac",
+      "breadcrumb": "Cờ Vua > Các Giai Đoạn > Tàn Cuộc Cơ Bản",
+      "components": [
+        {
+          "type": "features",
+          "title": "Bản chất & 3 Nguyên tắc Chỉ đạo Giai đoạn Tàn cuộc",
+          "data": {
+            "items": [
+              {
+                "title": "Tích cực hóa Vị trí của Vua",
+                "description": "Trong tàn cuộc, nguy cơ bị chiếu hết giảm tối đa do lực lượng ít; quân Vua lập tức chuyển từ vai trò ẩn nấp phòng thủ sang lực lượng tấn công và hỗ trợ tích cực nhất trên bàn cờ."
+              },
+              {
+                "title": "Nâng tầm Giá trị Chiến lược của Tốt",
+                "description": "Số lượng quân trên bàn cờ giảm sút khiến giá trị của mỗi con Tốt tăng vọt; mục tiêu chiến lược cốt lõi của cờ tàn là đưa Tốt tiến lên phong cấp quyết định ván cờ."
+              },
+              {
+                "title": "Tính Chuẩn mẫu của Kế hoạch",
+                "description": "Nếu ở trung cuộc kế hoạch phụ thuộc vào sở thích và trí tưởng tượng, thì ở tàn cuộc kế hoạch hoàn toàn mang tính khuôn mẫu kỹ thuật chính xác cho từng thế cờ định sẵn."
+              },
+              {
+                "title": "Phối hợp Chính xác Lực lượng còn lại",
+                "description": "Đẩy mạnh tối đa tầm hoạt động của các quân cờ còn sót lại, phối hợp ăn ý giữa Vua và quân yểm trợ để ngăn chặn Tốt đối phương và mở đường cho Tốt mình."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức: Chuyển dịch Tư duy sang Tàn cuộc",
+          "data": {
+            "stages": [
+              {
+                "stage": "Kích hoạt Quân Vua",
+                "action": "Dũng cảm đưa Vua rời khỏi góc nhập thành tiến thẳng vào trung tâm ngay khi Hậu của hai bên đã đổi hết.",
+                "painPoint": "Giữ Vua trốn kỹ ở góc bàn cờ như giai đoạn trung cuộc khiến bên kia chiếm mất thế chủ động tàn cuộc.",
+                "solution": "Cháy hết mình với Vua trong tàn cuộc: 'Vua là một quân tấn công mạnh mẽ trị giá ít nhất 4 điểm'.",
+                "emotion": "positive"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Luyện tập: Bản chất Tàn cuộc",
+          "data": {
+            "quiz_tags": [
+              "Giai Đoạn Tàn Cuộc",
+              "Nền tảng"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "tan_vua_tot_quy_tac",
+      "breadcrumb": "Cờ Vua > Các Giai Đoạn > Tàn Cuộc Vua Tốt",
+      "components": [
+        {
+          "type": "delta-cheat-sheet",
+          "title": "Bí kíp Phân biệt 3 Quy tắc Vàng: Vua + Tốt chống Vua",
+          "data": {
+            "items": [
+              {
+                "questionSnippet": "Trong thế cờ tàn Vua + Tốt chống Vua, bên nào chiếm được 'Thế đối Vua' sẽ giành ưu thế quyết định?",
+                "keyword": "Thế đối Vua (Opposition)",
+                "correctDelta": "Hai quân Vua đứng đối diện nhau cách nhau 1 ô; bên nào đẩy được đối phương vào lượt phải đi là bên giành lợi thế.",
+                "wrongTraps": [
+                  "Hai Vua đứng cạnh sát nhau",
+                  "Bên có Tốt luôn luôn chiếm được thế đối Vua mà không cần tính nước đi",
+                  "Thế đối Vua chỉ có hiệu lực theo hàng dọc"
+                ],
+                "explanation": "Thế đối Vua có thể diễn ra theo hàng dọc, hàng ngang hoặc đường chéo. Bên có Tốt chiếm được thế đối Vua sẽ ép Vua đối phương phải dạt sang một bên để Vua mình mở đường cho Tốt phong cấp."
+              },
+              {
+                "questionSnippet": "Khái niệm 'Ô hiệu quả' (Key Squares) của quân Tốt trong cờ tàn được xác định như thế nào?",
+                "keyword": "Ô hiệu quả của Tốt",
+                "correctDelta": "Là ô ở phía trước mặt Tốt cách một hàng ngang và hai ô nằm kề bên cạnh nó; Vua bên mạnh chiếm được ô này thì Tốt chắc chắn phong cấp thành công.",
+                "wrongTraps": [
+                  "Là chính ô Tốt đang đứng",
+                  "Là hàng ngang số 8 trên bàn cờ",
+                  "Là ô Vua đối phương đang phòng thủ"
+                ],
+                "explanation": "Khi Tốt tiến lên phía trước thì các ô hiệu quả của nó cũng tịnh tiến theo. Vua bên có Tốt chỉ cần đặt chân vào một trong các ô hiệu quả thì bất chấp đối phương đi thế nào Tốt cũng sẽ phong cấp an toàn."
+              },
+              {
+                "questionSnippet": "Quy tắc Hình vuông của Tốt (Rule of the Square) được vận dụng nhằm mục đích gì?",
+                "keyword": "Quy tắc hình vuông",
+                "correctDelta": "Xác định nhanh bằng mắt xem Vua đối phương có kịp đuổi theo bắt Tốt phong cấp mà không cần sự trợ giúp của Vua mình hay không.",
+                "wrongTraps": [
+                  "Tính diện tích bàn cờ dành cho Tốt",
+                  "Đo lường số ô Tốt đã đi qua",
+                  "Kiểm tra xem Tốt có bị ghim hay không"
+                ],
+                "explanation": "Vẽ một hình vuông có chiều dài cạnh bằng số ô từ Tốt đến hàng phong cấp cuối cùng. Nếu Vua đối phương nằm trong hoặc bước được vào hình vuông đó khi đến lượt đi của mình thì sẽ cản được Tốt; ngược lại Tốt sẽ phong cấp thành công."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức: Làm chủ Tàn cuộc Vua Tốt",
+          "data": {
+            "stages": [
+              {
+                "stage": "Quy tắc Vua đi trước Tốt",
+                "action": "Luôn dùng Vua chiếm lĩnh ô hiệu quả và thế đối Vua trước, rồi mới từ từ đẩy Tốt tiến lên theo sau.",
+                "painPoint": "Hấp tấp đẩy Tốt vượt lên trước mặt Vua khiến Vua mình bị tụt lại phía sau và bị Vua đối phương cản mất thế thắng.",
+                "solution": "Khẩu quyết cờ tàn: 'Vua đi trước dọn đường, Tốt cắp tráp theo sau'.",
+                "emotion": "positive"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Luyện tập: Quy tắc Tàn cuộc Vua Tốt",
+          "data": {
+            "quiz_tags": [
+              "Giai Đoạn Tàn Cuộc",
+              "Logic & Nguyên tắc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "tan_quan_chong_tot",
+      "breadcrumb": "Cờ Vua > Các Giai Đoạn > Kỹ Thuật Chống Tốt",
+      "components": [
+        {
+          "type": "pair-grid",
+          "title": "Kỹ thuật Tác chiến: Các Quân cờ chống Tốt trong Cờ tàn",
+          "data": {
+            "instruction": "Đối chiếu nguyên lý xử lý đặc thù của từng loại quân khi phong tỏa Tốt đối phương",
+            "pairs": [
+              {
+                "id": "q1",
+                "leftText": "Mã chống Tốt",
+                "rightText": "Mã bắt buộc phải chiếm lĩnh ô cờ nằm ngay trên đường tiến phía trước mặt Tốt để chặn đứng Tốt và đạt kết quả hòa cờ.",
+                "explanation": "Mã không có tầm xa nên cách duy nhất để ngăn Tốt phong cấp là chiếm đúng ô chặn trước mũi Tốt."
+              },
+              {
+                "id": "q2",
+                "leftText": "Tượng chống Tốt",
+                "rightText": "Tượng có tầm đánh xa chéo nên chỉ cần kiểm soát một ô trên đường đi của Tốt; cần phối hợp ăn ý với Vua nếu đối phương có nhiều Tốt liên hoàn.",
+                "explanation": "Tượng từ xa có thể khống chế ô phong cấp mà không nhất thiết phải đứng sát cạnh Tốt."
+              },
+              {
+                "id": "q3",
+                "leftText": "Xe chống Tốt",
+                "rightText": "Xe và Vua có ưu thế thắng lớn; dùng Vua cắt đường Vua đối phương trên hàng ngang khi Tốt địch chưa qua đường giới tuyến.",
+                "explanation": "Yếu tố quyết định là Vua bên có Xe có kịp thời tiến lại gần hỗ trợ Xe tiêu diệt Tốt hay không."
+              },
+              {
+                "id": "q4",
+                "leftText": "Hậu chống Tốt (Tam giác định mạng)",
+                "rightText": "Dùng Hậu liên tục chiếu ép Vua địch phải đứng vào ô phong cấp của Tốt, tranh thủ thời gian đó đưa Vua mình tiến sát lại hỗ trợ ăn Tốt.",
+                "explanation": "Nguyên lý Tam giác định mạng buộc đối thủ tự lấy thân Vua chặn đường phong cấp của Tốt mình."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản đồ Nhận thức: Kỹ thuật Chống Tốt Phong Cấp",
+          "data": {
+            "stages": [
+              {
+                "stage": "Chiến thuật Tam giác Định mạng",
+                "action": "Dùng Hậu chiếu Vua -> Dồn Vua đối phương đứng chặn đầu Tốt -> Bước Vua mình tiến lên 1 nước -> Lặp lại quy trình.",
+                "painPoint": "Chiếu Vua tùy hứng không ép được Vua đối phương vào ô phong cấp khiến ván đấu kéo dài hoặc dẫn đến hòa Pat.",
+                "solution": "Tuân thủ chặt chẽ vòng lặp tam giác định mạng để kéo Vua mình từ xa về kết liễu Tốt đối phương.",
+                "emotion": "positive"
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Luyện tập: Quân cờ Chống Tốt",
+          "data": {
+            "quiz_tags": [
+              "Giai Đoạn Tàn Cuộc",
+              "Logic & Nguyên tắc"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
