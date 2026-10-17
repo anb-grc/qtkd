@@ -54,3 +54,5 @@ Khi chạy xong luồng xử lý câu hỏi mới, Agent tự động thêm 1 d�
 
 - KTVM: Lọc lô 10 câu hỏi Batch 8. Loại bỏ 7 câu trùng, cập nhật 3 câu mới (Đường BP, mô hình Mundell-Fleming tỷ giá cố định, thành phần biến động chu kỳ) với Highlight chuẩn chỉ và giải thích chuyên sâu. Đã nối vào qs.json.
 - [2026-09-01] [GIÁO DỤC THỂ CHẤT 1] Xử lý Lô Đề Batch 9 (LUYỆN ĐỀ). Đã lọc trùng và bổ sung 9 câu hỏi mới vào ngân hàng. Gắn tag, highlight và weight theo chuẩn SSoT.
+- [2026-10-17] [LOGIC HỌC ĐẠI CƯƠNG] Hoàn thành Tái cấu trúc Zero-based & Trực quan hóa kb.json theo chuẩn Độ Sâu Bất Đối Xứng Hữu Cơ (43 Micro-nodes, 12 component Nhóm B = 27.9%, 100% kèm JourneyMap + Quiz + Breadcrumb). Đã cập nhật SSoT và push lên Vercel.
+
