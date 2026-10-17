@@ -494,5 +494,129 @@
     "tags": [
       "Dân Chủ & Nhà Nước XHCN"
     ]
+  },
+  {
+    "question": "Ai là người đã <span class=\"keyword\">phát hiện</span> và <span class=\"keyword\">khởi xướng</span> <span class=\"keyword\">lý tưởng cộng sản</span>?<div class=\"options-grid\"><div class=\"option-item\">A. Ph.Ăngghen và V.I.Lênin.</div><div class=\"option-item\">B. V.I.Lênin và J.Xtalin.</div><div class=\"option-item\">C. C.Mác và V.I.Lênin.</div><div class=\"option-item correct\">D. C.Mác và Ph.Ăngghen.</div></div><div class=\"note\">💡 <b>Giải thích:</b> C.Mác và Ph.Ăngghen là hai nhà sáng lập chủ nghĩa xã hội khoa học, người phát hiện ra quy luật vận động lịch sử và khởi xướng lý tưởng cộng sản chủ nghĩa trên nền tảng khoa học.</div>",
+    "answer": "<span class=\"answer-keyword\">C.Mác và Ph.Ăngghen</span>.",
+    "options": [
+      "Ph.Ăngghen và V.I.Lênin.",
+      "V.I.Lênin và J.Xtalin.",
+      "C.Mác và V.I.Lênin.",
+      "C.Mác và Ph.Ăngghen."
+    ],
+    "tags": [
+      "Hình Thành CNXHKH"
+    ]
+  },
+  {
+    "question": "Ai là người <span class=\"keyword\">kế tục lãnh đạo cao nhất</span> của <span class=\"keyword\">Đảng Cộng sản (b) Nga</span> sau khi <span class=\"keyword\">V.I.Lênin qua đời</span>?<div class=\"options-grid\"><div class=\"option-item\">A. L.Brêgiơnép</div><div class=\"option-item correct\">B. J.Xtalin</div><div class=\"option-item\">C. M.S.Gorbachev</div><div class=\"option-item\">D. G.Đimitrốp</div></div><div class=\"note\">💡 <b>Giải thích:</b> Sau khi V.I.Lênin từ trần năm 1924, J.Xtalin là người kế tục vị trí lãnh đạo cao nhất của Đảng Cộng sản (b) Nga, tiếp tục vận dụng và phát triển CNXHKH trong công cuộc xây dựng CNXH ở Liên Xô (1924-1953).</div>",
+    "answer": "<span class=\"answer-keyword\">J.Xtalin</span>",
+    "options": [
+      "L.Brêgiơnép",
+      "J.Xtalin",
+      "M.S.Gorbachev",
+      "G.Đimitrốp"
+    ],
+    "tags": [
+      "Hình Thành CNXHKH"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Khái niệm dùng để chỉ công nhân theo <span class=\"keyword\">xu hướng “trí tuệ hóa”</span> là:<div class=\"options-grid\"><div class=\"option-item correct\">A. Công nhân áo trắng</div><div class=\"option-item\">B. Công nhân áo xanh</div><div class=\"option-item\">C. Công nhân áo đen</div><div class=\"option-item\">D. Công nhân áo vàng</div></div><div class=\"note\">💡 <b>Giải thích:</b> Cùng với cuộc cách mạng khoa học công nghệ, công nhân hiện đại có xu hướng trí tuệ hóa (công nhân tri thức), thường được gọi là \"công nhân áo trắng\" (White-collar), phân biệt với \"công nhân áo xanh\" (Blue-collar) lao động cơ bắp truyền thống.</div>",
+    "answer": "Công nhân <span class=\"answer-keyword\">áo trắng</span>",
+    "options": [
+      "Công nhân áo trắng",
+      "Công nhân áo xanh",
+      "Công nhân áo đen",
+      "Công nhân áo vàng"
+    ],
+    "tags": [
+      "Sứ Mệnh Giai Cấp Công Nhân"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Để <span class=\"keyword\">thực hiện sứ mệnh lịch sử</span> của <span class=\"keyword\">giai cấp công nhân Việt Nam</span> hiện nay, phải <span class=\"keyword\">đặc biệt coi trọng</span> điều gì?<div class=\"options-grid\"><div class=\"option-item\">A. Coi trọng việc hoàn thiện thể chế kinh tế thị trường định hướng xã hội chủ nghĩa.</div><div class=\"option-item\">B. Coi trọng việc tăng nhanh số lượng giai cấp công nhân.</div><div class=\"option-item correct\">C. Coi trọng công tác xây dựng, chỉnh đốn Đảng.</div><div class=\"option-item\">D. Coi trọng việc thực hiện liên minh giai cấp công nhân với giai cấp nông dân.</div></div><div class=\"note\">💡 <b>Giải thích:</b> Đảng Cộng sản là nhân tố chủ quan quyết định hàng đầu để GCCN thực hiện thắng lợi sứ mệnh lịch sử. Do đó, trong bối cảnh hiện nay, việc xây dựng và chỉnh đốn Đảng trong sạch, vững mạnh, giữ vững bản chất giai cấp công nhân là nhiệm vụ then chốt, được đặc biệt coi trọng.</div>",
+    "answer": "Coi trọng công tác <span class=\"answer-keyword\">xây dựng, chỉnh đốn Đảng</span>.",
+    "options": [
+      "Coi trọng việc hoàn thiện thể chế kinh tế thị trường định hướng xã hội chủ nghĩa.",
+      "Coi trọng việc tăng nhanh số lượng giai cấp công nhân.",
+      "Coi trọng công tác xây dựng, chỉnh đốn Đảng.",
+      "Coi trọng việc thực hiện liên minh giai cấp công nhân với giai cấp nông dân."
+    ],
+    "tags": [
+      "Sứ Mệnh Giai Cấp Công Nhân"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Một trong những <span class=\"keyword\">biến đổi và khác biệt</span> của <span class=\"keyword\">giai cấp công nhân hiện nay</span> so với <span class=\"keyword\">thế kỷ XIX</span> là:<div class=\"options-grid\"><div class=\"option-item\">A. Bị giai cấp tư sản bóc lột giá trị thặng dư.</div><div class=\"option-item\">B. Xung đột về lợi ích cơ bản với giai cấp tư sản.</div><div class=\"option-item correct\">C. Xu hướng “trung lưu hóa” gia tăng.</div><div class=\"option-item\">D. Lực lượng sản xuất hàng đầu của xã hội hiện đại.</div></div><div class=\"note\">💡 <b>Giải thích:</b> So với thế kỷ XIX, một bộ phận công nhân hiện đại đã sở hữu một phần tư liệu sản xuất thông qua cổ phần hóa và nâng cao mức sống, dẫn đến xu hướng \"trung lưu hóa\" gia tăng. Trong khi đó, việc bị bóc lột giá trị thặng dư và là LLSX hàng đầu là những điểm tương đối ổn định.</div>",
+    "answer": "Xu hướng <span class=\"answer-keyword\">“trung lưu hóa” gia tăng</span>.",
+    "options": [
+      "Bị giai cấp tư sản bóc lột giá trị thặng dư.",
+      "Xung đột về lợi ích cơ bản với giai cấp tư sản.",
+      "Xu hướng “trung lưu hóa” gia tăng.",
+      "Lực lượng sản xuất hàng đầu của xã hội hiện đại."
+    ],
+    "tags": [
+      "Sứ Mệnh Giai Cấp Công Nhân"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Theo chủ nghĩa Mác - Lênin, một trong những <span class=\"keyword\">điều kiện chủ quan</span> để giai cấp công nhân <span class=\"keyword\">thực hiện sứ mệnh lịch sử</span> là:<div class=\"options-grid\"><div class=\"option-item\">A. Do địa vị kinh tế của giai cấp công nhân.</div><div class=\"option-item\">B. Do địa vị chính trị - xã hội của giai cấp công nhân.</div><div class=\"option-item correct\">C. Sự phát triển của bản thân giai cấp công nhân cả về số lượng và chất lượng.</div><div class=\"option-item\">D. Sự liên minh giữa giai cấp công nhân với giai cấp nông dân và các tầng lớp lao động khác.</div></div><div class=\"note\">💡 <b>Giải thích:</b> Điều kiện chủ quan quan trọng hàng đầu của bản thân giai cấp công nhân là sự phát triển cả về số lượng (quy mô lực lượng) và chất lượng (trình độ học vấn, tay nghề, giác ngộ giai cấp). Địa vị kinh tế và chính trị - xã hội là điều kiện khách quan.</div>",
+    "answer": "Sự phát triển của bản thân giai cấp công nhân cả về <span class=\"answer-keyword\">số lượng và chất lượng</span>.",
+    "options": [
+      "Do địa vị kinh tế của giai cấp công nhân.",
+      "Do địa vị chính trị - xã hội của giai cấp công nhân.",
+      "Sự phát triển của bản thân giai cấp công nhân cả về số lượng và chất lượng.",
+      "Sự liên minh giữa giai cấp công nhân với giai cấp nông dân và các tầng lớp lao động khác."
+    ],
+    "tags": [
+      "Sứ Mệnh Giai Cấp Công Nhân"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Trong <span class=\"keyword\">thời kỳ quá độ</span> lên CNXH, về <span class=\"keyword\">phương diện chính trị</span>, là việc:<div class=\"options-grid\"><div class=\"option-item\">A. Tồn tại nhiều tư tưởng khác nhau.</div><div class=\"option-item\">B. Tồn tại nhiều giai cấp, tầng lớp khác nhau.</div><div class=\"option-item\">C. Phát triển nền kinh tế nhiều thành phần.</div><div class=\"option-item correct\">D. Thiết lập, tăng cường chuyên chính vô sản.</div></div><div class=\"note\">💡 <b>Giải thích:</b> Về phương diện chính trị trong thời kỳ quá độ lên CNXH, nhiệm vụ trọng tâm là thiết lập, tăng cường chuyên chính vô sản - tức giai cấp công nhân nắm và sử dụng quyền lực nhà nước để trấn áp các lực lượng thù địch và tổ chức xây dựng xã hội mới.</div>",
+    "answer": "Thiết lập, tăng cường <span class=\"answer-keyword\">chuyên chính vô sản</span>.",
+    "options": [
+      "Tồn tại nhiều tư tưởng khác nhau.",
+      "Tồn tại nhiều giai cấp, tầng lớp khác nhau.",
+      "Phát triển nền kinh tế nhiều thành phần.",
+      "Thiết lập, tăng cường chuyên chính vô sản."
+    ],
+    "tags": [
+      "Chủ Nghĩa Xã Hội & Quá Độ"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Bản chất <span class=\"keyword\">dân chủ xã hội chủ nghĩa</span> ở Việt Nam được <span class=\"keyword\">thực hiện thông qua các hình thức</span>:<div class=\"options-grid\"><div class=\"option-item\">A. Dân chủ chủ yếu và dân chủ thứ yếu.</div><div class=\"option-item\">B. Dân chủ bên trong và dân chủ bên ngoài.</div><div class=\"option-item correct\">C. Dân chủ gián tiếp và dân chủ trực tiếp.</div><div class=\"option-item\">D. Dân chủ cơ bản và dân chủ không cơ bản.</div></div><div class=\"note\">💡 <b>Giải thích:</b> Ở Việt Nam, bản chất dân chủ XHCN được thực thi kết hợp hài hòa thông qua hai hình thức cơ bản: Dân chủ trực tiếp (nhân dân trực tiếp biểu quyết, giám sát) và Dân chủ gián tiếp (dân chủ đại diện thông qua Quốc hội, HĐND và các đoàn thể).</div>",
+    "answer": "Dân chủ <span class=\"answer-keyword\">gián tiếp</span> và dân chủ <span class=\"answer-keyword\">trực tiếp</span>.",
+    "options": [
+      "Dân chủ chủ yếu và dân chủ thứ yếu.",
+      "Dân chủ bên trong và dân chủ bên ngoài.",
+      "Dân chủ gián tiếp và dân chủ trực tiếp.",
+      "Dân chủ cơ bản và dân chủ không cơ bản."
+    ],
+    "tags": [
+      "Dân Chủ & Nhà Nước XHCN"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Nguyên tắc tổ chức và hoạt động</span> của <span class=\"keyword\">bộ máy Nhà nước pháp quyền</span> XHCN ở Việt Nam là:<div class=\"options-grid\"><div class=\"option-item\">A. Đoàn kết thống nhất</div><div class=\"option-item\">B. Tập thể lãnh đạo, cá nhân phụ trách</div><div class=\"option-item\">C. Kỷ luật nghiêm minh</div><div class=\"option-item correct\">D. Tập trung dân chủ</div></div><div class=\"note\">💡 <b>Giải thích:</b> Bộ máy Nhà nước pháp quyền XHCN Việt Nam được tổ chức và hoạt động theo nguyên tắc tập trung dân chủ: quyền lực nhà nước là thống nhất, có sự phân công, phối hợp và kiểm soát nhưng bảo đảm sự chỉ đạo tập trung, thống nhất của Trung ương.</div>",
+    "answer": "<span class=\"answer-keyword\">Tập trung dân chủ</span>",
+    "options": [
+      "Đoàn kết thống nhất",
+      "Tập thể lãnh đạo, cá nhân phụ trách",
+      "Kỷ luật nghiêm minh",
+      "Tập trung dân chủ"
+    ],
+    "tags": [
+      "Dân Chủ & Nhà Nước XHCN"
+    ]
   }
 ]
