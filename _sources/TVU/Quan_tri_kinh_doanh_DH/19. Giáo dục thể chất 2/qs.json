@@ -1,1 +1,288 @@
-[]
+[
+  {
+    "weight": "high",
+    "question": "Trong <span class=\"keyword\">lịch sử</span>, cờ vua được truyền bá vào châu Âu chủ yếu qua <span class=\"keyword\">con đường nào</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Người Ả Rập qua Tây Ban Nha</span><div class=\"note\">💡 Giải thích: Từ Ấn Độ, cờ vua chuyển sang Trung Á, ở Ả Rập mang tên là Satơrăng, sau đó theo các cuộc chiến tranh và buôn bán du nhập vào Tây Ban Nha, Italia rồi lan rộng khắp châu Âu.</div>",
+    "options": [
+      "Con đường tơ lụa",
+      "Người Ả Rập qua Tây Ban Nha",
+      "Thập tự chinh",
+      "Thương nhân Ấn Độ"
+    ],
+    "tags": [
+      "Lịch Sử Cờ Vua",
+      "Nền tảng"
+    ]
+  },
+  {
+    "question": "<span class=\"keyword\">Lênin</span> là nhân vật nổi tiếng trong <span class=\"keyword\">lĩnh vực nào</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Chính trị</span><div class=\"note\">💡 Giải thích: V.I. Lênin là lãnh tụ chính trị thiên tài của giai cấp vô sản và phong trào cách mạng thế giới, đồng thời là người rất say mê tập luyện môn cờ vua.</div>",
+    "options": [
+      "Chính trị",
+      "Điện ảnh",
+      "Thể thao",
+      "Âm nhạc"
+    ],
+    "tags": [
+      "Lịch Sử Cờ Vua",
+      "Góc nhìn Đa chiều"
+    ]
+  },
+  {
+    "question": "Theo tài liệu, Cờ Vua góp phần <span class=\"keyword\">xây dựng điều gì</span> cho xã hội?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Con người mới xã hội chủ nghĩa</span><div class=\"note\">💡 Giải thích: Giáo trình xác định chơi cờ vua góp phần xây dựng con người mới xã hội chủ nghĩa, nâng cao đời sống văn hóa tinh thần của nhân dân.</div>",
+    "options": [
+      "Công nghiệp hóa",
+      "Kinh tế thị trường",
+      "Con người mới xã hội chủ nghĩa",
+      "Hiện đại hóa nông nghiệp"
+    ],
+    "tags": [
+      "Lịch Sử Cờ Vua",
+      "Góc nhìn Đa chiều"
+    ]
+  },
+  {
+    "question": "Người chơi Cờ Vua cần <span class=\"keyword\">rèn luyện tính gì</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Quyết đoán</span><div class=\"note\">💡 Giải thích: Cờ vua rèn luyện cách làm việc có kế hoạch, tính quyết đoán và táo bạo trong xử lý tình huống.</div>",
+    "options": [
+      "Lười biếng",
+      "Vội vàng",
+      "Quyết đoán",
+      "Chủ quan"
+    ],
+    "tags": [
+      "Lịch Sử Cờ Vua",
+      "Góc nhìn Đa chiều"
+    ]
+  },
+  {
+    "question": "<span class=\"keyword\">Bobby Fischer</span> là nhà vô địch thế giới người nước nào đã <span class=\"keyword\">chấm dứt sự thống trị</span> của Liên Xô năm 1972?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Mỹ</span><div class=\"note\">💡 Giải thích: Bobby Fischer là đại kiện tướng cờ vua huyền thoại người Mỹ, đã đánh bại Boris Spassky (Liên Xô) trong trận đấu thế kỷ năm 1972 tại Reykjavik.</div>",
+    "options": [
+      "Canada",
+      "Pháp",
+      "Anh",
+      "Mỹ"
+    ],
+    "tags": [
+      "Lịch Sử Cờ Vua",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Màu sắc tiêu chuẩn</span> của bàn cờ vua trong lịch sử luôn là sự kết hợp của?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Ô sáng và Ô tối</span><div class=\"note\">💡 Giải thích: Bàn cờ là một hình vuông chia thành 64 ô vuông nhỏ bằng nhau, các ô nhỏ đó được tô màu đậm, nhạt xen kẽ nhau (gọi chung là ô sáng và ô tối).</div>",
+    "options": [
+      "Ô sáng và Ô tối",
+      "Xanh và Trắng",
+      "Vàng và Nâu",
+      "Đen và Đỏ"
+    ],
+    "tags": [
+      "Bàn Cờ Và Quân Cờ",
+      "Cấu trúc"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Cờ Vua Việt Nam phát triển <span class=\"keyword\">sâu rộng</span> từ sau <span class=\"keyword\">sự kiện nào</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Thành lập Hội cờ Việt Nam năm 1980</span><div class=\"note\">💡 Giải thích: Ngày 15/12/1980, Hội cờ được thành lập lại lấy tên là Hội cờ Việt Nam do Thứ trưởng Hồ Trúc làm Hội trưởng; từ đó cờ vua Việt Nam bước đầu phát triển sâu rộng ở mọi đối tượng trong xã hội.</div>",
+    "options": [
+      "Gia nhập FIDE",
+      "Thành lập Hội cờ Việt Nam năm 1980",
+      "Giải thế giới 1886",
+      "Olympic Cờ Vua"
+    ],
+    "tags": [
+      "Lịch Sử Cờ Vua",
+      "Hệ thống"
+    ]
+  },
+  {
+    "question": "<span class=\"keyword\">Ngày Quốc tế Cờ vua</span> được kỷ niệm vào <span class=\"keyword\">ngày nào hàng năm</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">20/07</span><div class=\"note\">💡 Giải thích: Ngày 20 tháng 7 hàng năm được Liên Hợp Quốc và FIDE chọn làm Ngày Quốc tế Cờ vua để kỷ niệm ngày thành lập FIDE tại Paris vào năm 1924.</div>",
+    "options": [
+      "20/06",
+      "20/07",
+      "20/05",
+      "20/08"
+    ],
+    "tags": [
+      "Lịch Sử Cờ Vua",
+      "Nền tảng"
+    ]
+  },
+  {
+    "question": "Kỳ thủ nào giữ kỷ lục <span class=\"keyword\">vô địch thế giới lâu nhất</span> trong lịch sử (27 năm)?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Emanuel Lasker</span><div class=\"note\">💡 Giải thích: Emanuel Lasker (người Đức) giữ ngôi vị Vua cờ thế giới liên tục trong 27 năm từ năm 1894 đến năm 1921, kỷ lục dài nhất lịch sử cờ vua thế giới.</div>",
+    "options": [
+      "Emanuel Lasker",
+      "Garry Kasparov",
+      "Magnus Carlsen",
+      "Anatoly Karpov"
+    ],
+    "tags": [
+      "Lịch Sử Cờ Vua",
+      "Nền tảng"
+    ]
+  },
+  {
+    "question": "Sách dạy cờ vua in ấn <span class=\"keyword\">đầu tiên xuất hiện</span> vào khoảng <span class=\"keyword\">năm nào</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">1495</span><div class=\"note\">💡 Giải thích: Cuốn sách cờ vua in ấn đầu tiên được biết đến do Francesc Vicent xuất bản tại Valencia (Tây Ban Nha) vào khoảng năm 1495.</div>",
+    "options": [
+      "1495",
+      "1924",
+      "1850",
+      "1600"
+    ],
+    "tags": [
+      "Lịch Sử Cờ Vua",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Văn bản số 1787/TDQS</span> được ban hành bởi <span class=\"keyword\">cơ quan nào</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Bộ Giáo dục</span><div class=\"note\">💡 Giải thích: Ngày 05/8/1980 Bộ Giáo dục đã ra văn bản số 1787/TDQS về việc chính thức đưa Cờ Vua vào giảng dạy ở các trường phổ thông, cao đẳng, đại học trên toàn quốc.</div>",
+    "options": [
+      "Bộ Giáo dục",
+      "FIDE",
+      "Tổng cục Thể dục Thể thao",
+      "Bộ Văn hóa"
+    ],
+    "tags": [
+      "Lịch Sử Cờ Vua",
+      "Hệ thống"
+    ]
+  },
+  {
+    "question": "Ai được coi là <span class=\"keyword\">Cha đẻ của trường phái cờ vua hiện đại</span> với lý thuyết kiểm soát trung tâm?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Wilhelm Steinitz</span><div class=\"note\">💡 Giải thích: Wilhelm Steinitz (nhà vô địch thế giới chính thức đầu tiên năm 1886) là người đặt nền móng cho trường phái cờ vua hiện đại với học thuyết về tích lũy ưu thế vị trí và kiểm soát trung tâm.</div>",
+    "options": [
+      "Wilhelm Steinitz",
+      "Mikhail Tal",
+      "Paul Morphy",
+      "Aaron Nimzowitsch"
+    ],
+    "tags": [
+      "Lịch Sử Cờ Vua",
+      "Nền tảng"
+    ]
+  },
+  {
+    "question": "Kỳ thủ nào được mệnh danh là <span class=\"keyword\">Phù thủy vùng Riga</span> với lối chơi <span class=\"keyword\">tấn công hủy diệt</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Mikhail Tal</span><div class=\"note\">💡 Giải thích: Mikhail Tal sinh ra tại Riga (Latvia), nổi tiếng với lối chơi tấn công thí quân táo bạo và được mệnh danh là 'Phù thủy vùng Riga' (The Magician from Riga).</div>",
+    "options": [
+      "Mikhail Botvinnik",
+      "Mikhail Tal",
+      "Viswanathan Anand",
+      "Tigran Petrosian"
+    ],
+    "tags": [
+      "Lịch Sử Cờ Vua",
+      "Nền tảng"
+    ]
+  },
+  {
+    "question": "Trận đấu lịch sử giữa Garry Kasparov và <span class=\"keyword\">siêu máy tính Deep Blue</span> diễn ra vào <span class=\"keyword\">năm nào</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">1996</span><div class=\"note\">💡 Giải thích: Trận đối đầu nổi tiếng đầu tiên giữa nhà vô địch Garry Kasparov và siêu máy tính Deep Blue của IBM diễn ra vào tháng 2/1996 tại Philadelphia (Kasparov thắng 4-2).</div>",
+    "options": [
+      "2005",
+      "2010",
+      "1990",
+      "1996"
+    ],
+    "tags": [
+      "Lịch Sử Cờ Vua",
+      "Nền tảng"
+    ]
+  },
+  {
+    "question": "Sự kiện <span class=\"keyword\">Schism</span> (Sự chia rẽ) của làng cờ thế giới (1993-2006) liên quan đến việc thành lập <span class=\"keyword\">tổ chức nào</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">PCA (Hiệp hội cờ chuyên nghiệp)</span><div class=\"note\">💡 Giải thích: Năm 1993, Garry Kasparov và Nigel Short tách khỏi FIDE thành lập Professional Chess Association (PCA), tạo nên cuộc chia rẽ ngôi vô địch thế giới kéo dài đến năm 2006.</div>",
+    "options": [
+      "ICU",
+      "PCA (Hiệp hội cờ chuyên nghiệp)",
+      "FIDE",
+      "Chess.com"
+    ],
+    "tags": [
+      "Lịch Sử Cờ Vua",
+      "Nền tảng"
+    ]
+  },
+  {
+    "question": "Trước khi có tên gọi Cờ vua, trò chơi này tại Việt Nam thế kỷ XX <span class=\"keyword\">thường bị nhầm hoặc gọi chung là</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Cả Cờ tướng Tây và Cờ quốc tế</span><div class=\"note\">💡 Giải thích: Vào giữa thế kỷ XX ở Việt Nam, cờ vua chưa phổ biến rộng rãi và thường được người dân gọi là Cờ tướng Tây hoặc Cờ quốc tế.</div>",
+    "options": [
+      "Cờ tướng Tây",
+      "Cả Cờ tướng Tây và Cờ quốc tế",
+      "Cờ tiên",
+      "Cờ quốc tế"
+    ],
+    "tags": [
+      "Lịch Sử Cờ Vua",
+      "Hệ thống"
+    ]
+  },
+  {
+    "question": "Trường phái <span class=\"keyword\">Cờ vua lãng mạn</span> (Romantic Chess) ở thế kỷ XIX ưu tiên <span class=\"keyword\">phong cách chơi nào</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Tấn công, thí quân</span><div class=\"note\">💡 Giải thích: Thời kỳ lãng mạn của cờ vua (thế kỷ XIX) đặc trưng bởi phong cách chơi tấn công rực lửa, sẵn sàng thí quân để mở đường chiếu Vua đẹp mắt (tiêu biểu như ván cờ Bất tử của Adolf Anderssen).</div>",
+    "options": [
+      "Tấn công, thí quân",
+      "Đánh bằng tâm lý",
+      "Kiểm soát tàn cuộc",
+      "Phòng thủ chặt chẽ"
+    ],
+    "tags": [
+      "Lịch Sử Cờ Vua",
+      "Nền tảng"
+    ]
+  },
+  {
+    "question": "Cờ Vua có <span class=\"keyword\">hình thức tập luyện</span> như thế nào?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Phong phú, đa dạng</span><div class=\"note\">💡 Giải thích: Giáo trình khẳng định hình thức tập luyện cờ vua phong phú, đa dạng, có thể tự mình nghiên cứu tài liệu sách báo, máy đánh cờ, hoặc chơi trên máy tính tùy theo từng trình độ khác nhau.</div>",
+    "options": [
+      "Đơn điệu",
+      "Khó tiếp cận",
+      "Phong phú, đa dạng",
+      "Tốn kém"
+    ],
+    "tags": [
+      "Lịch Sử Cờ Vua",
+      "Góc nhìn Đa chiều"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Trường phái cờ Italia</span> phát triển mạnh trong <span class=\"keyword\">giai đoạn nào</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">1600–1634</span><div class=\"note\">💡 Giải thích: Theo giáo trình trường, cùng với sự phát triển của cờ vua qua từng thời kỳ có những trường phái cờ khác nhau, tiêu biểu là trường phái Italia (1600-1634), trường phái Kalabri – Pôlôria, Xenviô, Klêva....</div>",
+    "options": [
+      "1600–1634",
+      "1700–1750",
+      "1400–1500",
+      "1800–1850"
+    ],
+    "tags": [
+      "Lịch Sử Cờ Vua",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Tên gọi <span class=\"keyword\">Satơrăng</span> xuất hiện ở <span class=\"keyword\">khu vực nào</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Ả Rập</span><div class=\"note\">💡 Giải thích: Từ Ấn Độ trò chơi Chatugara được chuyển sang Trung Á, ở Ả Rập nó được mang tên là Satơrăng trước khi du nhập vào châu Âu.</div>",
+    "options": [
+      "Ả Rập",
+      "Mỹ",
+      "Nga",
+      "Châu Âu"
+    ],
+    "tags": [
+      "Lịch Sử Cờ Vua",
+      "Nền tảng"
+    ]
+  }
+]

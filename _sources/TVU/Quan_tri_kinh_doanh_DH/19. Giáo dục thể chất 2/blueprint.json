@@ -1,0 +1,78 @@
+{
+  "subject": "GIÁO DỤC THỂ CHẤT 2",
+  "version": "1.0",
+  "author": "The Veteran Professor (AI Agent)",
+  "core_focus_80_20": {
+    "root_concepts": [
+      "Lịch sử Cờ Vua: Nguồn gốc Chatugara (Ấn Độ thế kỷ VI), Satơrăng (Ả Rập sang Tây Ban Nha), FIDE thành lập 1924, Olympic cờ vua 1927.",
+      "Lịch sử Cờ Vua Việt Nam: Hội cờ tướng 1965 (Bs. Lê Đình Thám), Chỉ thị 73/CT (1978), Văn bản 1787/TDQS đưa vào học đường (1980), Hội cờ Việt Nam (1980), gia nhập FIDE (1988).",
+      "Quy chuẩn Bàn cờ & Tọa độ: 64 ô, góc phải bên Trắng là ô sáng, 8 cột a-h, 8 hàng 1-8, 4 ô trung tâm hẹp e4 e5 d4 d5, 16 ô trung tâm mở rộng.",
+      "Động học Quân cờ: Mã nhảy chữ L đổi màu ô không bị cản, Tượng đi chéo cùng màu, Xe ngang dọc, Hậu toàn năng H=X+T, Tốt tiến 1-2 ô ăn chéo.",
+      "3 Nước đi Đặc biệt: Nhập thành (0-0 và 0-0-0, điều kiện chưa di chuyển, không bị chiếu/cản), Bắt tốt qua đường (En Passant - Tốt hàng 5/4 ăn chéo ngay nước kế), Phong cấp Tốt tại hàng 8/1.",
+      "Luật Thi đấu & Kết quả: Chạm quân phải đi, chạm địch phải bắt, 'Tôi sửa quân'; 5 trường hợp hòa cờ (Pat, thiếu lực lượng, 3 lần lặp, 50 nước, thỏa thuận).",
+      "Khai cuộc: 3 nguyên tắc vàng (chiếm trung tâm, quân nhẹ, nhập thành, quân nặng); 3 hệ thống (Thoáng 1.e4 e5, Nửa thoáng 1.e4 khác e5, Kín khác 1.e4).",
+      "Trung cuộc: 3 nhân tố chiến thuật (bó buộc, đe dọa, thời gian); 4 đòn phối hợp (ghim giằng, giằng xiên, bắt đôi, thu hút); đánh giá cấu trúc tốt và cột mở.",
+      "Tàn cuộc: Tích cực hóa Vua, nâng tầm giá trị Tốt; Tàn cuộc Vua+Tốt (Thế đối Vua, Ô hiệu quả, Quy tắc hình vuông của Tốt); Kỹ thuật quân nhẹ/nặng chống Tốt."
+    ],
+    "common_traps": [
+      "Bẫy chạm quân khi nhập thành: Chạm Xe trước thì bắt buộc phải đi Xe chứ không được nhập thành.",
+      "Bẫy thế cờ Pat: Đấu thủ không bị chiếu nhưng không còn nước đi hợp lệ -> Hòa cờ chứ không phải thắng.",
+      "Bẫy hết giờ nhưng đối phương chỉ còn mình Vua -> Xử Hòa chứ không xử thua.",
+      "Bẫy bắt tốt qua đường: Chỉ có hiệu lực ngay tại nước đi kế tiếp, để lỡ lượt sẽ mất quyền vĩnh viễn.",
+      "Bẫy ô góc bàn cờ: Góc bên phải của kỳ thủ luôn luôn phải là ô sáng (ô trắng)."
+    ],
+    "high_coverage": [
+      "Các mốc lịch sử thể chế trọng yếu tại Việt Nam (1965, 1980, 1988, văn bản 1787/TDQS).",
+      "Quy tắc và điều kiện hợp lệ tuyệt đối của 3 nước đi đặc biệt (Nhập thành, En Passant, Phong cấp).",
+      "Các điều kiện hòa cờ kỹ thuật (Thế cờ Pat, quy tắc 50 nước, lặp lại 3 lần).",
+      "Các quy tắc toán học hình học trong cờ tàn (Thế đối Vua, Ô hiệu quả, Quy tắc hình vuông của Tốt)."
+    ]
+  },
+  "exam_matrix": [
+    {
+      "tag": "Lịch Sử Cờ Vua",
+      "percentage": 20,
+      "description": "Nguồn gốc Chatugara, truyền bá quốc tế, FIDE và các mốc lịch sử cờ vua Việt Nam."
+    },
+    {
+      "tag": "Bàn Cờ Và Quân Cờ",
+      "percentage": 10,
+      "description": "Thiết lập 64 ô, quy ước ô sáng góc phải, tọa độ cột hàng và khu vực trung tâm."
+    },
+    {
+      "tag": "Nước Đi Quân Cờ",
+      "percentage": 15,
+      "description": "Quy tắc di chuyển của Mã, Tượng, Xe, Hậu, Tốt và giá trị tương quan."
+    },
+    {
+      "tag": "Nước Đi Đặc Biệt",
+      "percentage": 15,
+      "description": "Cơ chế Nhập thành, Bắt tốt qua đường (En Passant) và Phong cấp Tốt."
+    },
+    {
+      "tag": "Luật Thi Đấu",
+      "percentage": 10,
+      "description": "Quy tắc chạm quân, sửa quân, biên bản đại số và phân định kết quả thắng thua."
+    },
+    {
+      "tag": "Kết Quả Ván Cờ",
+      "percentage": 10,
+      "description": "Chiếu hết, đầu hàng, hết giờ và 5 trường hợp hòa cờ chuẩn FIDE."
+    },
+    {
+      "tag": "Giai Đoạn Khai Cuộc",
+      "percentage": 10,
+      "description": "3 nguyên tắc vàng khai cuộc và 3 hệ thống khai cuộc (Thoáng, Nửa thoáng, Kín)."
+    },
+    {
+      "tag": "Giai Đoạn Trung Cuộc",
+      "percentage": 5,
+      "description": "Nhân tố chiến thuật, 4 đòn phối hợp tấn công và đánh giá thế trận."
+    },
+    {
+      "tag": "Giai Đoạn Tàn Cuộc",
+      "percentage": 5,
+      "description": "Nguyên tắc tàn cuộc, quy tắc Vua+Tốt và kỹ thuật quân cờ chống Tốt."
+    }
+  ]
+}
