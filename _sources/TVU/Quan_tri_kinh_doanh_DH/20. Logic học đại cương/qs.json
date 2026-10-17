@@ -36,12 +36,12 @@
     ],
     "question": "<span class=\"keyword\">Công thức</span> của <span class=\"keyword\">quy luật bài trung</span> là:",
     "options": [
-      "<span class=\"answer-keyword\">A ∨ ¬A</span> (A hoặc không A)",
-      "¬(A ∧ ¬A) (không thể vừa là A vừa là không A)",
-      "A ≡ A (A là A)",
-      "A ∧ ¬A"
+      "p ∧ p̄",
+      "\\overline{p ∨ p̄}",
+      "\\overline{p ∧ p̄}",
+      "<span class=\"answer-keyword\">p ∨ p̄</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">A ∨ ¬A</span> (A hoặc không A) <div class=\"note\"><b>💡 Giải thích:</b> Quy luật bài trung (quy luật triệt tam / loại trừ cái thứ ba) có công thức là A ∨ ¬A (hoặc a ∨ ā), nghĩa là trong hai phán đoán mâu thuẫn nhau, dứt khoát một phán đoán phải đúng, một phán đoán phải sai, không có khả năng thứ ba.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">p ∨ p̄</span> <div class=\"note\"><b>💡 Giải thích:</b> Quy luật bài trung (loại trừ cái thứ ba) có công thức là p ∨ p̄ (hoặc A ∨ ¬A), nghĩa là trong hai phán đoán mâu thuẫn nhau dứt khoát phải có một phán đoán đúng, một phán đoán sai, không có khả năng thứ ba.</div>",
     "weight": "high"
   },
   {
@@ -66,12 +66,12 @@
     ],
     "question": "<span class=\"keyword\">Công thức</span> của <span class=\"keyword\">quy luật mâu thuẫn</span> là:",
     "options": [
-      "<span class=\"answer-keyword\">¬(A ∧ ¬A)</span> (không thể vừa là A vừa là không A)",
-      "A ∨ ¬A (A hoặc không A)",
-      "A ≡ A (A là A)",
-      "A ∧ ¬A"
+      "p ∨ p̄",
+      "\\overline{p ∧ p}",
+      "<span class=\"answer-keyword\">p ∧ p̄</span>",
+      "\\overline{p ∨ p̄}"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">¬(A ∧ ¬A)</span> (không thể vừa là A vừa là không A) <div class=\"note\"><b>💡 Giải thích:</b> Quy luật cấm mâu thuẫn có công thức là ¬(A ∧ ¬A) (hoặc -(A ^ -A), ā ∧ a = 0), khẳng định rằng không thể vừa là A lại vừa là không A trong cùng một mối quan hệ và cùng một thời điểm.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án TVU:</div><span class=\"answer-keyword\">p ∧ p̄</span> <div class=\"note\"><b>💡 Lưu ý bẫy LMS TVU:</b> Về mặt hình thức quy chuẩn, quy luật cấm mâu thuẫn có công thức phủ định là ¬(p ∧ ¬p) hay \\overline{p ∧ p̄}. Tuy nhiên, hệ thống đề thi LMS Đại học Trà Vinh (TVU) thiết lập đáp án cho 'Công thức của quy luật mâu thuẫn' là biểu thức mâu thuẫn trực tiếp: <b>p ∧ p̄</b> (đồng thời phương án B trên LMS bị lỗi typo thành \\overline{p ∧ p}). Sinh viên bắt buộc chọn <b>p ∧ p̄</b> để được hệ thống chấm đúng.</div>",
     "weight": "high"
   },
   {
