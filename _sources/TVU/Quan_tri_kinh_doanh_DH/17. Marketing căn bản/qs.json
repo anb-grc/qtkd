@@ -306,5 +306,116 @@
       "Dễ hiểu và dễ vận dụng"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Thường xuyên chỉnh sửa, bổ sung</span> <div class=\"note\"><b>💡 Giải thích:</b> Hệ thống chính sách, quy định pháp luật và thông tư hướng dẫn tại Việt Nam thường xuyên được sửa đổi, bổ sung và điều chỉnh nhanh chóng, khiến các doanh nghiệp gặp rủi ro pháp lý và gặp khó khăn trong việc dự báo chính sách để xây dựng kế hoạch kinh doanh dài hạn.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Phân khúc Thị trường",
+      "Khái niệm phân khúc"
+    ],
+    "question": "<span class=\"keyword\">Phân khúc thị trường</span> là",
+    "options": [
+      "Các yếu tố như giao hàng tận nơi, lắp đặt, hướng dẫn khách hàng sử dụng, sửa chữa, bảo hành,…",
+      "<span class=\"answer-keyword\">chia thị trường thành nhiều phân đoạn</span> khác nhau theo <span class=\"answer-keyword\">những tiêu thức nhất định</span>",
+      "xác định vị trí sản phẩm và phát triển vị trí sản phẩm trong tâm trí khách hàng",
+      "sự lựa chọn một hoặc nhiều vùng thị trường thích hợp nhất, có độ hấp dẫn cao nhất đối với doanh nghiệp"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">chia thị trường thành nhiều phân đoạn</span> khác nhau theo <span class=\"answer-keyword\">những tiêu thức nhất định</span> <div class=\"note\"><b>💡 Giải thích:</b> Phân khúc (phân đoạn) thị trường là quá trình phân chia thị trường tổng thể không đồng nhất thành các nhóm (đoạn) thị trường đồng nhất hơn về nhu cầu, đặc điểm hoặc hành vi dựa trên những tiêu thức nhất định.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Môi trường Vi mô",
+      "Môi trường bên ngoài"
+    ],
+    "question": "<span class=\"keyword\">Môi trường bên ngoài</span> bao gồm <span class=\"keyword\">các loại môi trường</span> sau:",
+    "options": [
+      "<span class=\"answer-keyword\">Môi trường vĩ mô và môi trường vi mô</span>",
+      "Môi trường toàn cầu và môi trường cạnh tranh",
+      "Môi trường cạnh tranh và môi trường pháp luật",
+      "Môi trường toàn cầu, môi trường vĩ mô và môi trường vi mô"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Môi trường vĩ mô và môi trường vi mô</span> <div class=\"note\"><b>💡 Giải thích:</b> Theo giáo trình Marketing căn bản TVU, môi trường marketing bên ngoài doanh nghiệp được phân chia thành 2 cấp độ chính: Môi trường vi mô (các lực lượng tác động trực tiếp như khách hàng, đối thủ, nhà cung ứng, trung gian...) và Môi trường vĩ mô (các yếu tố diện rộng PESTLE tác động gián tiếp).</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Môi trường Vi mô",
+      "Bản chất môi trường"
+    ],
+    "question": "<span class=\"keyword\">Môi trường marketing</span> là tổng hợp các yếu tố nào có <span class=\"keyword\">ảnh hưởng đến hoạt động Marketing</span> của doanh nghiệp?",
+    "options": [
+      "Bên ngoài.",
+      "Bên trong hoặc bên ngoài",
+      "<span class=\"answer-keyword\">Bên trong và bên ngoài</span>",
+      "Bên trong."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Bên trong và bên ngoài</span> <div class=\"note\"><b>💡 Giải thích:</b> Môi trường marketing của doanh nghiệp là một thể thống nhất bao gồm cả các yếu tố bên trong (nội bộ: tài chính, nhân sự, sản xuất, văn hóa DN) và các yếu tố bên ngoài (vi mô và vĩ mô) chi phối trực tiếp và gián tiếp đến toàn bộ hoạt động marketing.</div>"
+  },
+  {
+    "tags": [
+      "Thực tiễn",
+      "Môi trường Vi mô",
+      "Môi trường nhân khẩu"
+    ],
+    "question": "Doanh nghiệp sản xuất <span class=\"keyword\">hàng tiêu dùng</span> thường đầu tư vào <span class=\"keyword\">nước đang phát triển</span> dựa trên phân tích <span class=\"keyword\">môi trường nào</span>?",
+    "options": [
+      "Môi trường chính trị thế giới",
+      "Môi trường kinh tế thế giới",
+      "Môi trường văn hóa quốc tế",
+      "<span class=\"answer-keyword\">Môi trường dân số toàn cầu</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Môi trường dân số toàn cầu</span> <div class=\"note\"><b>💡 Giải thích:</b> Hàng tiêu dùng (FMCG) phục vụ trực tiếp cho nhu cầu sinh hoạt hàng ngày của người dân. Các nước đang phát triển có quy mô dân số rất đông, tốc độ tăng dân số cao và cơ cấu dân số trẻ, tạo ra thị trường tiêu thụ vô cùng màu mỡ.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Thực tiễn",
+      "Phân khúc Thị trường",
+      "Định vị sản phẩm"
+    ],
+    "question": "Các sản phẩm cùng loại <span class=\"keyword\">tương đối như nhau</span> về kiểu dáng lẫn chất lượng, thì <span class=\"keyword\">định vị quan trọng nhất</span> để tăng sức cạnh tranh là nên tập trung vào",
+    "options": [
+      "Chủng loại sản phẩm",
+      "Lợi ích sản phẩm",
+      "Hình ảnh nhân sự",
+      "<span class=\"answer-keyword\">Dịch vụ đi kèm</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Dịch vụ đi kèm</span> <div class=\"note\"><b>💡 Giải thích:</b> Khi sản phẩm vật chất cốt lõi của các đối thủ trở nên tương đồng nhau về công năng và kiểu dáng, lợi thế cạnh tranh khác biệt vượt trội (định vị khác biệt hóa) sẽ dịch chuyển sang sản phẩm gia tăng, cụ thể là Dịch vụ đi kèm (chăm sóc khách hàng, giao hàng, bảo hành, hậu mãi).</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Phân khúc Thị trường",
+      "Điều kiện phân khúc"
+    ],
+    "question": "<span class=\"keyword\">Điều kiện</span> để <span class=\"keyword\">phân đoạn thị trường</span> là",
+    "options": [
+      "Nhu cầu của khách hàng trong đoạn thị trường phải đủ lớn để có khả năng sinh lợi",
+      "Khúc thị trường phải đủ lớn và tăng trưởng tốt, phù hợp với mục tiêu và nguồn lực của doanh nghiệp",
+      "Phải đo lường được về quy mô và hiệu quả kinh doanh của đoạn thị trường",
+      "<span class=\"answer-keyword\">Phải có sự khác nhau về nhu cầu giữa các nhóm khách hàng khác nhau</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Phải có sự khác nhau về nhu cầu giữa các nhóm khách hàng khác nhau</span> <div class=\"note\"><b>💡 Giải thích:</b> Tiền đề quan trọng nhất để tiến hành phân đoạn thị trường là phải tồn tại sự khác nhau về nhu cầu và hành vi giữa các nhóm khách hàng. Nếu tất cả khách hàng đều có nhu cầu giống hệt nhau thì việc phân đoạn không còn ý nghĩa.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Bản chất Marketing",
+      "Vai trò Marketing"
+    ],
+    "question": "<span class=\"keyword\">Hoạt động nào</span> mang tính <span class=\"keyword\">bao quát toàn bộ</span> doanh nghiệp?",
+    "options": [
+      "Phân phối",
+      "Tài chính",
+      "<span class=\"answer-keyword\">Marketing</span>",
+      "Sản xuất"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Marketing</span> <div class=\"note\"><b>💡 Giải thích:</b> Theo quan điểm quản trị hiện đại, Marketing là triết lý và hoạt động mang tính bao quát toàn bộ doanh nghiệp. Mọi hoạt động từ nghiên cứu, chế tạo sản phẩm, tài chính cho đến phân phối và bán hàng đều phải xuất phát từ nhu cầu thị trường do Marketing định hướng.</div>"
   }
 ]

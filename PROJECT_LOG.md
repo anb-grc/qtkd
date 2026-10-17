@@ -60,6 +60,8 @@ Khi chạy xong luồng xử lý câu hỏi mới, Agent tự động thêm 1 d�
 - [2026-10-17] [Marketing căn bản] Xử lý lô LTTN 2 (10 câu hỏi). Đã tiệt trùng HTML, highlight Ma Trận Lục Hợp, gán trọng số blueprint 80/20 (4 câu High). Lọc trùng: 0 trùng, thêm mới 10 câu. Tổng ngân hàng: 20 câu. Lưu thành công vào qs.json.
 - [2026-10-17] [Marketing căn bản] Cập nhật đáp án chuẩn TVU cho Câu 7 LTTN 2: 'Mua hàng nhiều và mang tính lặp lại'.
 - [2026-10-17] [Hiến pháp & Luật] Cập nhật 3 quy chuẩn trả lời câu hỏi thảo luận diễn đàn vào Source_of_Truth.md và .agents/AGENTS.md: (1) Bỏ chữ 'Dạ' - xưng 'Thưa'; (2) Định dạng văn bản thuần sạch (Anti-AI/Anti-Codeblock); (3) Khử mùi AI & cho phép 1-2 lỗi gõ phím Telex/chính tả tự nhiên ở từ phụ.
+- [2026-10-17] [Marketing căn bản] Xử lý lô LTTN 3 (10 câu hỏi). Lọc trùng: 3 câu trùng lặp, thêm mới 7 câu. Highlight Ma Trận Lục Hợp, gán trọng số blueprint 80/20 (5 câu High). Tổng ngân hàng: 27 câu. Lưu thành công vào qs.json.
+
 
 
 
