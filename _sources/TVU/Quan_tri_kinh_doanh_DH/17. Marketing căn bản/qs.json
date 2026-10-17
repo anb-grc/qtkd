@@ -332,12 +332,12 @@
     ],
     "question": "<span class=\"keyword\">Môi trường bên ngoài</span> bao gồm <span class=\"keyword\">các loại môi trường</span> sau:",
     "options": [
-      "<span class=\"answer-keyword\">Môi trường vĩ mô và môi trường vi mô</span>",
+      "Môi trường vĩ mô và môi trường vi mô",
       "Môi trường toàn cầu và môi trường cạnh tranh",
       "Môi trường cạnh tranh và môi trường pháp luật",
-      "Môi trường toàn cầu, môi trường vĩ mô và môi trường vi mô"
+      "<span class=\"answer-keyword\">Môi trường toàn cầu, môi trường vĩ mô và môi trường vi mô</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Môi trường vĩ mô và môi trường vi mô</span> <div class=\"note\"><b>💡 Giải thích:</b> Theo giáo trình Marketing căn bản TVU, môi trường marketing bên ngoài doanh nghiệp được phân chia thành 2 cấp độ chính: Môi trường vi mô (các lực lượng tác động trực tiếp như khách hàng, đối thủ, nhà cung ứng, trung gian...) và Môi trường vĩ mô (các yếu tố diện rộng PESTLE tác động gián tiếp).</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Môi trường toàn cầu, môi trường vĩ mô và môi trường vi mô</span> <div class=\"note\"><b>💡 Giải thích:</b> Theo chuẩn barem của TVU, môi trường marketing bên ngoài doanh nghiệp được phân chia thành 3 tầng nấc: Môi trường toàn cầu (bối cảnh quốc tế xuyên quốc gia), Môi trường vĩ mô (các yếu tố diện rộng PESTLE) và Môi trường vi mô (các lực lượng thị trường ngành tác động trực tiếp).</div>"
   },
   {
     "weight": "high",
@@ -396,11 +396,11 @@
     "question": "<span class=\"keyword\">Điều kiện</span> để <span class=\"keyword\">phân đoạn thị trường</span> là",
     "options": [
       "Nhu cầu của khách hàng trong đoạn thị trường phải đủ lớn để có khả năng sinh lợi",
-      "Khúc thị trường phải đủ lớn và tăng trưởng tốt, phù hợp với mục tiêu và nguồn lực của doanh nghiệp",
+      "<span class=\"answer-keyword\">Khúc thị trường phải đủ lớn và tăng trưởng tốt, phù hợp với mục tiêu và nguồn lực của doanh nghiệp</span>",
       "Phải đo lường được về quy mô và hiệu quả kinh doanh của đoạn thị trường",
-      "<span class=\"answer-keyword\">Phải có sự khác nhau về nhu cầu giữa các nhóm khách hàng khác nhau</span>"
+      "Phải có sự khác nhau về nhu cầu giữa các nhóm khách hàng khác nhau"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Phải có sự khác nhau về nhu cầu giữa các nhóm khách hàng khác nhau</span> <div class=\"note\"><b>💡 Giải thích:</b> Tiền đề quan trọng nhất để tiến hành phân đoạn thị trường là phải tồn tại sự khác nhau về nhu cầu và hành vi giữa các nhóm khách hàng. Nếu tất cả khách hàng đều có nhu cầu giống hệt nhau thì việc phân đoạn không còn ý nghĩa.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Khúc thị trường phải đủ lớn và tăng trưởng tốt, phù hợp với mục tiêu và nguồn lực của doanh nghiệp</span> <div class=\"note\"><b>💡 Giải thích:</b> Theo đáp án chuẩn của TVU, điều kiện để phân đoạn thị trường hiệu quả là khúc thị trường đó phải đủ lớn, có khả năng tăng trưởng tốt và đồng thời phải phù hợp với mục tiêu chiến lược cũng như nguồn lực thực tế của doanh nghiệp.</div>"
   },
   {
     "weight": "high",
