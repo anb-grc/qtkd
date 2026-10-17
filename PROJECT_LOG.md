@@ -57,3 +57,5 @@ Khi chạy xong luồng xử lý câu hỏi mới, Agent tự động thêm 1 d�
 - [2026-10-17] [LOGIC HỌC ĐẠI CƯƠNG] Hoàn thành Tái cấu trúc Zero-based & Trực quan hóa kb.json theo chuẩn Độ Sâu Bất Đối Xứng Hữu Cơ (43 Micro-nodes, 12 component Nhóm B = 27.9%, 100% kèm JourneyMap + Quiz + Breadcrumb). Đã cập nhật SSoT và push lên Vercel.
 - [2026-10-17] [GIÁO DỤC THỂ CHẤT 2] Hoàn thành Tái cấu trúc Zero-based & Trực quan hóa kb.json theo chuẩn Độ Sâu Bất Đối Xứng Hữu Cơ (23 Micro-nodes, 6 component Nhóm B = 26.1%, 100% kèm JourneyMap + Quiz + Breadcrumb).
 - [2026-10-17] [Marketing căn bản] Hoàn thành Tái cấu trúc Zero-based & Trực quan hóa kb.json (61 Micro-nodes, 17 component Nhóm B = 27.9%, 100% kèm JourneyMap + Quiz). Khởi tạo ngân hàng đề thi: Nạp lô LTTN 1 (10 câu), gắn highlight Ma Trận Lục Hợp, gán trọng số blueprint 80/20 (4 câu High). Lưu thành công vào qs.json.
+- [2026-10-17] [Marketing căn bản] Xử lý lô LTTN 2 (10 câu hỏi). Đã tiệt trùng HTML, highlight Ma Trận Lục Hợp, gán trọng số blueprint 80/20 (4 câu High). Lọc trùng: 0 trùng, thêm mới 10 câu. Tổng ngân hàng: 20 câu. Lưu thành công vào qs.json.
+

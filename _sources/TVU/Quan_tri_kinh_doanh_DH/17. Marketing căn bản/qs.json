@@ -152,5 +152,159 @@
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Marketing bao gồm cả hoạt động bán hàng</span>. <div class=\"note\"><b>💡 Giải thích:</b> Bán hàng chỉ là một khâu trong quá trình xúc tiến và lưu thông của Marketing. Marketing có phạm vi bao trùm rộng hơn rất nhiều, từ nghiên cứu nhu cầu, thiết kế sản phẩm, định giá, phân phối cho đến bán hàng và dịch vụ hậu mãi.</div>",
     "weight": "high"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Phân khúc Thị trường",
+      "Định vị sản phẩm"
+    ],
+    "question": "<span class=\"keyword\">Hoạt động định vị sản phẩm</span> là",
+    "options": [
+      "<span class=\"answer-keyword\">xác định vị trí sản phẩm</span> và <span class=\"answer-keyword\">phát triển vị trí sản phẩm</span> trong <span class=\"answer-keyword\">tâm trí khách hàng</span>",
+      "các yếu tố như giao hàng tận nơi, lắp đặt, hướng dẫn khách hàng sử dụng, sửa chữa, bảo hành,…",
+      "chia thị trường thành nhiều phân đoạn khác nhau theo những tiêu thức nhất định",
+      "sự lựa chọn một hoặc nhiều vùng thị trường thích hợp nhất, có độ hấp dẫn cao nhất đối với doanh nghiệp"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">xác định vị trí sản phẩm</span> và <span class=\"answer-keyword\">phát triển vị trí sản phẩm</span> trong <span class=\"answer-keyword\">tâm trí khách hàng</span> <div class=\"note\"><b>💡 Giải thích:</b> Định vị sản phẩm (Positioning) là việc khắc họa hình ảnh, vị trí của sản phẩm và thương hiệu vào sâu trong nhận thức (tâm trí) của khách hàng mục tiêu so với các đối thủ cạnh tranh. Các phương án còn lại lần lượt là: dịch vụ hỗ trợ sản phẩm gia tăng, phân đoạn thị trường và lựa chọn thị trường mục tiêu.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Hành vi Khách hàng B2C",
+      "Yếu tố tâm lý"
+    ],
+    "question": "<span class=\"keyword\">Động cơ, nhận thức, niềm tin</span> và thái độ để một khách hàng mua sắm thuộc <span class=\"keyword\">nhóm yếu tố</span> nào sau đây?",
+    "options": [
+      "Cá nhân",
+      "<span class=\"answer-keyword\">Tâm lý</span>",
+      "Văn hóa",
+      "Xã hội"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Tâm lý</span> <div class=\"note\"><b>💡 Giải thích:</b> Bốn nhân tố tâm lý cốt lõi chi phối hành vi mua sắm của người tiêu dùng gồm: Động cơ (Motivation), Nhận thức (Perception), Lĩnh hội/Học hỏi (Learning), Niềm tin và Thái độ (Beliefs & Attitudes). Yếu tố cá nhân bao gồm tuổi tác, lối sống; văn hóa và xã hội là các yếu tố môi trường bên ngoài.</div>"
+  },
+  {
+    "tags": [
+      "Kiến thức",
+      "Môi trường Vi mô",
+      "Môi trường nội bộ"
+    ],
+    "question": "Yếu tố nào sau đây thuộc về <span class=\"keyword\">hoạt động sản xuất</span> trong <span class=\"keyword\">doanh nghiệp</span>?",
+    "options": [
+      "Chính sách thu hút và đãi ngộ người lao động",
+      "Xây dựng kế hoạch quảng cáo và tiếp thị",
+      "<span class=\"answer-keyword\">Hoạt động nghiên cứu và phát triển sản phẩm mới</span>",
+      "Tình hình phân bổ và sử dụng nguồn vốn"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Hoạt động nghiên cứu và phát triển sản phẩm mới</span> <div class=\"note\"><b>💡 Giải thích:</b> Hoạt động nghiên cứu và phát triển sản phẩm mới (R&D) gắn liền trực tiếp với chức năng sản xuất và kỹ thuật công nghệ của doanh nghiệp. Trong khi đó, thu hút đãi ngộ thuộc Quản trị nhân sự; kế hoạch quảng cáo thuộc Marketing; phân bổ nguồn vốn thuộc Tài chính - Kế toán.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Môi trường Vi mô",
+      "Môi trường vĩ mô"
+    ],
+    "question": "Các yếu tố liên quan đến: <span class=\"keyword\">dân số, kinh tế, chính trị - luật pháp</span>, văn hóa – xã hội, tự nhiên và công nghệ của một quốc gia thuộc <span class=\"keyword\">môi trường nào</span>?",
+    "options": [
+      "Toàn cầu",
+      "Nội bộ",
+      "Vi mô",
+      "<span class=\"answer-keyword\">Vĩ mô</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Vĩ mô</span> <div class=\"note\"><b>💡 Giải thích:</b> Môi trường marketing vĩ mô (mô hình PESTLE) bao gồm các lực lượng diện rộng bên ngoài doanh nghiệp tác động gián tiếp đến toàn bộ ngành nghề và hoạt động marketing: Dân số (Nhân khẩu), Kinh tế, Tự nhiên, Công nghệ, Chính trị - Luật pháp, Văn hóa - Xã hội.</div>"
+  },
+  {
+    "tags": [
+      "Thực tiễn",
+      "Hệ thống MIS",
+      "Cải tiến sản phẩm"
+    ],
+    "question": "Các công ty thường ghi nhận lại các <span class=\"keyword\">khiếu nại, phản hồi của khách hàng</span> để có nhiều thông tin phục vụ cho <span class=\"keyword\">hoạt động nào</span> sau đây?",
+    "options": [
+      "<span class=\"answer-keyword\">Cải tiến sản phẩm dịch vụ</span>",
+      "Phát hiện các điểm yếu",
+      "Nghiên cứu thị trường",
+      "Chăm sóc khách hàng"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Cải tiến sản phẩm dịch vụ</span> <div class=\"note\"><b>💡 Giải thích:</b> Ý kiến khiếu nại và phản hồi từ khách hàng phản ánh chân thực trải nghiệm và thiếu sót của sản phẩm/dịch vụ trên thị trường. Dữ liệu này giúp doanh nghiệp trực tiếp cải tiến, hoàn thiện chất lượng sản phẩm và dịch vụ để đáp ứng tốt hơn nhu cầu khách hàng.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Môi trường Vi mô",
+      "Phân tích SWOT"
+    ],
+    "question": "<span class=\"keyword\">Ma trận SWOT</span> có được từ việc <span class=\"keyword\">phân tích môi trường nào</span>?",
+    "options": [
+      "Môi trường cạnh tranh",
+      "<span class=\"answer-keyword\">Bên trong và bên ngoài</span>",
+      "Bên ngoài doanh nghiệp",
+      "Nội bộ doanh nghiệp"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Bên trong và bên ngoài</span> <div class=\"note\"><b>💡 Giải thích:</b> Ma trận SWOT được tổng hợp từ việc phân tích môi trường bên trong (nội bộ) nhằm chỉ ra Điểm mạnh (S) và Điểm yếu (W), kết hợp với phân tích môi trường bên ngoài (vi mô và vĩ mô) nhằm nhận diện Cơ hội (O) và Thách thức (T).</div>"
+  },
+  {
+    "tags": [
+      "Kiến thức",
+      "Hành vi Khách hàng B2C",
+      "Thị trường B2B"
+    ],
+    "question": "Khách hàng là tổ chức thường có <span class=\"keyword\">đặc điểm cơ bản hấp dẫn</span> các <span class=\"keyword\">doanh nghiệp</span> là",
+    "options": [
+      "<span class=\"answer-keyword\">Mua hàng với số lượng lớn</span>",
+      "Mua hàng nhiều và mang tính lặp lại",
+      "Mua hàng thông qua đấu thầu",
+      "Mua hàng trả tiền ngay"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Mua hàng với số lượng lớn</span> <div class=\"note\"><b>💡 Giải thích:</b> Theo giáo trình TVU, đặc điểm cốt lõi và hấp dẫn nhất của thị trường khách hàng tổ chức (B2B) là dù số lượng khách hàng ít hơn thị trường tiêu dùng cá nhân, nhưng quy mô đơn hàng lại cực kỳ lớn, mang lại doanh thu và sản lượng tiêu thụ lớn cho nhà cung ứng.</div>"
+  },
+  {
+    "tags": [
+      "Thực tiễn",
+      "Hành vi Khách hàng B2C",
+      "Yếu tố văn hóa"
+    ],
+    "question": "Các doanh nghiệp sản xuất bánh kẹo thường thiết kế <span class=\"keyword\">bao bì màu đỏ</span> để bán vào dịp <span class=\"keyword\">tết Nguyên đán</span> của Việt Nam. Vậy khách hàng bị chi phối bởi <span class=\"keyword\">yếu tố nào</span>?",
+    "options": [
+      "Kinh tế",
+      "Cá nhân",
+      "Tự nhiên",
+      "<span class=\"answer-keyword\">Văn hóa</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Văn hóa</span> <div class=\"note\"><b>💡 Giải thích:</b> Tết Nguyên đán là phong tục lễ hội truyền thống, và màu đỏ tượng trưng cho may mắn, tài lộc trong tiềm thức văn hóa người Việt nói riêng và Á Đông nói chung. Do đó hành vi chuộng bao bì màu đỏ ngày Tết chịu sự chi phối mạnh mẽ từ yếu tố Văn hóa.</div>"
+  },
+  {
+    "tags": [
+      "Kiến thức",
+      "Phân khúc Thị trường",
+      "Tiêu thức phân khúc"
+    ],
+    "question": "<span class=\"keyword\">Cá tính hay sở thích</span> là một tiêu thức cụ thể trong tiêu thức nào sau đây để <span class=\"keyword\">phân đoạn thị trường</span> người tiêu dùng?",
+    "options": [
+      "Hành vi",
+      "Nhân khẩu học",
+      "<span class=\"answer-keyword\">Tâm lý học</span>",
+      "Địa lý"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Tâm lý học</span> <div class=\"note\"><b>💡 Giải thích:</b> Phân đoạn thị trường theo Tâm lý học (Psychographics) chia người tiêu dùng dựa trên lối sống, tầng lớp xã hội, cá tính (nhân cách) hoặc sở thích. Nhân khẩu học căn cứ vào tuổi tác, giới tính, thu nhập; còn Hành vi căn cứ vào dịp mua sắm, lợi ích tìm kiếm, mức độ sử dụng.</div>"
+  },
+  {
+    "tags": [
+      "Thực tiễn",
+      "Môi trường Vi mô",
+      "Môi trường chính trị - pháp luật"
+    ],
+    "question": "Phân tích <span class=\"keyword\">môi trường luật pháp</span> của Việt Nam thì ta thấy có <span class=\"keyword\">đặc điểm nổi bật</span> làm các doanh nghiệp <span class=\"keyword\">lo lắng</span> là gì?",
+    "options": [
+      "Mang tính lạc hậu so với xã hội",
+      "<span class=\"answer-keyword\">Thường xuyên chỉnh sửa, bổ sung</span>",
+      "Mang tính ổn định cao",
+      "Dễ hiểu và dễ vận dụng"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Thường xuyên chỉnh sửa, bổ sung</span> <div class=\"note\"><b>💡 Giải thích:</b> Hệ thống chính sách, quy định pháp luật và thông tư hướng dẫn tại Việt Nam thường xuyên được sửa đổi, bổ sung và điều chỉnh nhanh chóng, khiến các doanh nghiệp gặp rủi ro pháp lý và gặp khó khăn trong việc dự báo chính sách để xây dựng kế hoạch kinh doanh dài hạn.</div>"
   }
 ]
