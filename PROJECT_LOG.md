@@ -62,6 +62,8 @@ Khi chạy xong luồng xử lý câu hỏi mới, Agent tự động thêm 1 d�
 - [2026-10-17] [Hiến pháp & Luật] Cập nhật 3 quy chuẩn trả lời câu hỏi thảo luận diễn đàn vào Source_of_Truth.md và .agents/AGENTS.md: (1) Bỏ chữ 'Dạ' - xưng 'Thưa'; (2) Định dạng văn bản thuần sạch (Anti-AI/Anti-Codeblock); (3) Khử mùi AI & cho phép 1-2 lỗi gõ phím Telex/chính tả tự nhiên ở từ phụ.
 - [2026-10-17] [Marketing căn bản] Xử lý lô LTTN 3 (10 câu hỏi). Lọc trùng: 3 câu trùng lặp, thêm mới 7 câu. Highlight Ma Trận Lục Hợp, gán trọng số blueprint 80/20 (5 câu High). Tổng ngân hàng: 27 câu. Lưu thành công vào qs.json.
 - [2026-10-17] [Marketing căn bản] Cập nhật đáp án chuẩn TVU cho LTTN 3: Câu 3 (Môi trường toàn cầu, vĩ mô và vi mô) & Câu 8 (Khúc thị trường phải đủ lớn và tăng trưởng tốt, phù hợp mục tiêu và nguồn lực).
+- [2026-10-17] [Hiến pháp & Luật] Luật hóa Tháp 3 Tầng Ưu Tiên Giải Đề (Three-Tier Resolution Cascade) vào Source_of_Truth.md và .agents/AGENTS.md: (1) Kho qs.json đã hiệu chỉnh theo LMS; (2) Slide bài giảng & giáo trình trường (SLIDE/); (3) Kiến thức chuyên ngành quy chuẩn (Philip Kotler).
+
 
 
 
