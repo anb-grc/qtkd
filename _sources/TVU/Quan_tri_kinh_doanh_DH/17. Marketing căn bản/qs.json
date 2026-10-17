@@ -417,5 +417,21 @@
       "Sản xuất"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Marketing</span> <div class=\"note\"><b>💡 Giải thích:</b> Theo quan điểm quản trị hiện đại, Marketing là triết lý và hoạt động mang tính bao quát toàn bộ doanh nghiệp. Mọi hoạt động từ nghiên cứu, chế tạo sản phẩm, tài chính cho đến phân phối và bán hàng đều phải xuất phát từ nhu cầu thị trường do Marketing định hướng.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Bản chất Marketing",
+      "Mô hình 4P"
+    ],
+    "question": "<span class=\"keyword\">Marketing-mix</span> bao gồm <span class=\"keyword\">các công cụ nào</span>?",
+    "options": [
+      "Bán hàng; dịch vụ khách hàng; giá cả; bảo hành",
+      "<span class=\"answer-keyword\">Sản phẩm; giá cả; phân phối; xúc tiến</span>",
+      "Giá bán; chất lượng; phân phối; chăm sóc khách hàng",
+      "Bao bì; kênh phân phối; yếu tố hữu hình; quảng cáo"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Sản phẩm; giá cả; phân phối; xúc tiến</span> <div class=\"note\"><b>💡 Giải thích:</b> Mô hình Marketing-mix (4P) truyền thống gồm 4 công cụ nền tảng phối hợp chặt chẽ với nhau: Product (Sản phẩm), Price (Giá cả), Place (Phân phối) và Promotion (Xúc tiến / Chiêu thị).</div>"
   }
 ]
