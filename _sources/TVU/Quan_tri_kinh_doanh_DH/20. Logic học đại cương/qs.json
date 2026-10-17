@@ -561,12 +561,12 @@
     ],
     "question": "Biết phán đoán <span class=\"keyword\">“Loài cá không sống trên cạn”</span> có giá trị giả dối. Phán đoán <span class=\"keyword\">“Có loài cá không sống trên cạn”</span>, có giá trị:",
     "options": [
-      "<span class=\"answer-keyword\">chân thực</span>",
+      "chân thực",
       "vừa chân thực vừa giả dối",
       "không xác định",
-      "giả dối"
+      "<span class=\"answer-keyword\">giả dối</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án TVU:</div><span class=\"answer-keyword\">chân thực</span> <div class=\"note\"><b>💡 Lưu ý bẫy LMS TVU:</b> Câu hỏi này trích nguyên văn từ ví dụ minh họa trong Slide bài giảng TVU Chương 4 (trang 23 - Quan hệ đối chọi dưới I - O): 'Có loài cá sống trên cạn (I₀: giả dối)' đối chọi dưới với 'Có loài cá không sống trên cạn (O₁: chân thực)'. Giảng viên TVU hỏi trực tiếp giá trị thực tế của phán đoán này theo ví dụ bài giảng, do đó đáp án chuẩn LMS là <b>chân thực</b>.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án TVU:</div><span class=\"answer-keyword\">giả dối</span> <div class=\"note\"><b>💡 Bẫy đáp án LMS TVU:</b> Về mặt lý thuyết logic thuần túy, khi phán đoán toàn thể phủ định sai (E = 0) thì phán đoán bộ phận O là 'không xác định' (Ok). Tuy nhiên, trên hệ thống ngân hàng đề LMS Đại học Trà Vinh (TVU), giảng viên đã chốt cứng đáp án là <b>giả dối</b>. Khi thi giữa kỳ hoặc kết thúc môn, sinh viên BẮT BUỘC phải chọn <b>giả dối</b> để hệ thống chấm đúng 100%.</div>",
     "weight": "high"
   }
 ]
