@@ -284,5 +284,292 @@
       "Lịch Sử Cờ Vua",
       "Nền tảng"
     ]
+  },
+  {
+    "question": "Có <span class=\"keyword\">bao nhiêu quân Xe</span> trên bàn <span class=\"keyword\">lúc đầu</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">4</span><div class=\"note\">💡 Giải thích: Mỗi bên khi bắt đầu ván cờ có 2 quân Xe đặt ở hai góc bàn cờ (Trắng ở a1, h1; Đen ở a8, h8), tổng cộng có 4 quân Xe trên bàn cờ.</div>",
+    "options": [
+      "8",
+      "6",
+      "2",
+      "4"
+    ],
+    "tags": [
+      "Bàn Cờ Và Quân Cờ",
+      "Cấu trúc"
+    ]
+  },
+  {
+    "question": "Quân nào di chuyển theo <span class=\"keyword\">đường chéo</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Tượng</span><div class=\"note\">💡 Giải thích: Quân Tượng di chuyển và bắt quân theo đường chéo, mỗi nước có thể đi một hoặc nhiều ô tùy ý nếu không bị cản.</div>",
+    "options": [
+      "Tượng",
+      "Xe",
+      "Mã",
+      "Hậu"
+    ],
+    "tags": [
+      "Nước Đi Quân Cờ",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Với tàn cuộc: <span class=\"keyword\">Vua và Xe đấu Vua</span>, <span class=\"keyword\">kết quả lý thuyết</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Trắng chiếu bí đen</span><div class=\"note\">💡 Giải thích: Tàn cuộc Vua + Xe chống Vua là dạng tàn cuộc kỹ thuật cơ bản, bên có Xe và Vua sẽ luôn dồn được Vua đối phương vào cạnh hoặc góc bàn cờ để chiếu hết (chiếu bí).</div>",
+    "options": [
+      "Trắng chiếu bí đen",
+      "Đen chiếu bí trắng",
+      "Hòa",
+      "Đen thắng"
+    ],
+    "tags": [
+      "Giai Đoạn Tàn Cuộc",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "question": "Trong ghi biên bản quốc tế, nước đi <span class=\"keyword\">Qxh7+</span> có nghĩa là gì?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Hậu ăn quân tại h7 và chiếu Vua</span><div class=\"note\">💡 Giải thích: Q là ký hiệu quân Hậu (Queen), x là ăn quân, h7 là tọa độ ô cờ, + là dấu chiếu Vua đối phương.</div>",
+    "options": [
+      "Hậu ăn quân tại h7 và chiếu Vua",
+      "Xe ăn h7",
+      "Hậu đi h7",
+      "Hậu nhập thành"
+    ],
+    "tags": [
+      "Biên Bản Thi Đấu",
+      "Cấu trúc"
+    ]
+  },
+  {
+    "question": "Ván cờ có thể <span class=\"keyword\">tối đa mấy quân</span> khi <span class=\"keyword\">bắt đầu</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">32</span><div class=\"note\">💡 Giải thích: Khi bắt đầu ván cờ, mỗi đấu thủ có 16 quân cờ (1 Vua, 1 Hậu, 2 Xe, 2 Tượng, 2 Mã, 8 Tốt), tổng cộng cả hai bên là 32 quân.</div>",
+    "options": [
+      "16",
+      "28",
+      "20",
+      "32"
+    ],
+    "tags": [
+      "Bàn Cờ Và Quân Cờ",
+      "Cấu trúc"
+    ]
+  },
+  {
+    "question": "Ký hiệu <span class=\"keyword\">!!</span> trong biên bản nghĩa là gì?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Nước đi xuất sắc</span><div class=\"note\">💡 Giải thích: Trong bình luận và ghi chép cờ vua quốc tế, ký hiệu ! nghĩa là nước đi hay, còn !! biểu thị một nước đi xuất sắc (nước cờ thiên tài).</div>",
+    "options": [
+      "Nước đi xuất sắc",
+      "Chiếu bí",
+      "Lỗi nặng",
+      "Ăn quân"
+    ],
+    "tags": [
+      "Biên Bản Thi Đấu",
+      "Cấu trúc"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Nếu <span class=\"keyword\">chỉ còn vua và mã</span>, có <span class=\"keyword\">chiếu bí được không</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Không</span><div class=\"note\">💡 Giải thích: Thế cờ Vua + Mã chống Vua là trường hợp bất khả chiếu hết do bên mạnh không đủ lực lượng tối thiểu để tạo ra thế chiếu bí, ván cờ lập tức hòa.</div>",
+    "options": [
+      "Khi cùng quân Tốt",
+      "Không",
+      "Khi đối phương sơ hở",
+      "Có"
+    ],
+    "tags": [
+      "Kết Quả Ván Cờ",
+      "Giới hạn & Rủi ro"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Quân Xe di chuyển theo <span class=\"keyword\">hướng nào</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Đường dọc, ngang</span><div class=\"note\">💡 Giải thích: Quân Xe đi hoặc bắt quân trên hàng ngang và cột dọc, mỗi nước có thể đi một hoặc nhiều ô tùy ý nếu không bị cản.</div>",
+    "options": [
+      "Đường dọc, ngang",
+      "Đường chéo",
+      "Hình chữ L",
+      "Đường zigzag"
+    ],
+    "tags": [
+      "Nước Đi Quân Cờ",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Quân cờ nào <span class=\"keyword\">duy nhất</span> <span class=\"keyword\">không thể đi lùi</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Tốt</span><div class=\"note\">💡 Giải thích: Tốt là quân cờ duy nhất trên bàn cờ chỉ có thể tiến về phía trước theo cột dọc và ăn chéo, tuyệt đối không bao giờ được đi lùi.</div>",
+    "options": [
+      "Mã",
+      "Tốt",
+      "Tượng",
+      "Xe"
+    ],
+    "tags": [
+      "Nước Đi Quân Cờ",
+      "Phân luồng"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Cờ vua <span class=\"keyword\">bắt nguồn</span> từ <span class=\"keyword\">nước nào</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Ấn Độ</span><div class=\"note\">💡 Giải thích: Cờ Vua xuất hiện ở Ấn Độ vào thế kỷ thứ VI sau Công nguyên với tên gọi ban đầu là Chatugara trước khi lan rộng ra toàn thế giới.</div>",
+    "options": [
+      "Ấn Độ",
+      "Italia",
+      "Nga",
+      "Trung Quốc"
+    ],
+    "tags": [
+      "Lịch Sử Cờ Vua",
+      "Nền tảng"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Quân Hậu <span class=\"keyword\">kết hợp khả năng di chuyển</span> của quân nào?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Xe và Tượng</span><div class=\"note\">💡 Giải thích: Quân Hậu là quân mạnh nhất trên bàn cờ, kết hợp hoàn hảo nước đi của Xe (ngang, dọc) và Tượng (chéo), trong giáo trình ký hiệu H = X + T.</div>",
+    "options": [
+      "Vua và Tượng",
+      "Mã và Xe",
+      "Mã và Vua",
+      "Xe và Tượng"
+    ],
+    "tags": [
+      "Nước Đi Quân Cờ",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "question": "Chữ <span class=\"keyword\">N</span> khi ghi nước đi tượng trưng cho?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Knight</span><div class=\"note\">💡 Giải thích: Trong biên bản quốc tế tiếng Anh, chữ N tượng trưng cho quân Mã (Knight), do chữ K đã được sử dụng cho quân Vua (King).</div>",
+    "options": [
+      "Tốt",
+      "Knight",
+      "Xe",
+      "Hậu"
+    ],
+    "tags": [
+      "Biên Bản Thi Đấu",
+      "Cấu trúc"
+    ]
+  },
+  {
+    "question": "Trong tàn cuộc, loại quân nào <span class=\"keyword\">hay thí nhất</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Tốt</span><div class=\"note\">💡 Giải thích: Trong tàn cuộc, người chơi thường chủ động thí Tốt để đánh lạc hướng Vua đối phương, phá vỡ cấu trúc tốt hoặc tạo điều kiện cho Tốt thông ở cánh kia phong cấp.</div>",
+    "options": [
+      "Xe",
+      "Tốt",
+      "Tượng",
+      "Hậu"
+    ],
+    "tags": [
+      "Giai Đoạn Tàn Cuộc",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "question": "<span class=\"keyword\">Trận mở đầu</span> gọi là gì trong cờ vua?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Khai cuộc</span><div class=\"note\">💡 Giải thích: Giai đoạn bắt đầu ván đấu (thường khoảng 10 đến 15 nước đi đầu tiên) được gọi là giai đoạn Khai cuộc.</div>",
+    "options": [
+      "Trung cuộc",
+      "Hậu cuộc",
+      "Khai cuộc",
+      "Phản công"
+    ],
+    "tags": [
+      "Giai Đoạn Khai Cuộc",
+      "Phân luồng"
+    ]
+  },
+  {
+    "question": "Quân Hậu <span class=\"keyword\">kết hợp di chuyển</span> như quân nào?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Xe và Tượng</span><div class=\"note\">💡 Giải thích: Quân Hậu có thể đi và bắt quân theo hàng ngang, cột dọc và đường chéo tùy ý số ô nếu không bị cản, tức là kết hợp cách đi của Xe và Tượng.</div>",
+    "options": [
+      "Xe và Tượng",
+      "Xe và Mã",
+      "Vua và Xe",
+      "Tốt và Mã"
+    ],
+    "tags": [
+      "Nước Đi Quân Cờ",
+      "Logic & Nguyên tắc"
+    ]
+  },
+  {
+    "question": "Ký hiệu <span class=\"keyword\">?</span> trong biên bản là gì?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Sai lầm</span><div class=\"note\">💡 Giải thích: Trong ghi chép và phân tích biên bản cờ vua, dấu ? biểu thị một nước đi sai lầm hoặc nước đi yếu.</div>",
+    "options": [
+      "Chiếu tướng",
+      "Đổi quân",
+      "Xuất sắc",
+      "Sai lầm"
+    ],
+    "tags": [
+      "Biên Bản Thi Đấu",
+      "Cấu trúc"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Trong nhập thành, <span class=\"keyword\">điều kiện nào là BẮT BUỘC</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Vua chưa di chuyển</span><div class=\"note\">💡 Giải thích: Nguyên tắc tiên quyết để được nhập thành là quân Vua và quân Xe tham gia nhập thành đều chưa từng di chuyển trước đó trong ván cờ.</div>",
+    "options": [
+      "Có thể bị chiếu",
+      "Xe đã đi rồi",
+      "Vua chưa di chuyển",
+      "Trên bàn còn 8 quân"
+    ],
+    "tags": [
+      "Nước Đi Đặc Biệt",
+      "Giới hạn & Rủi ro"
+    ]
+  },
+  {
+    "question": "Nếu bắt quân bằng <span class=\"keyword\">tốt e lấy quân d5</span>, ghi là?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">exd5</span><div class=\"note\">💡 Giải thích: Khi Tốt ăn quân, ta ghi tên cột của Tốt đang đứng kèm dấu x (hoặc dấu :) và ô mà Tốt ăn đến, ở đây tốt cột e ăn quân ở d5 ghi là exd5.</div>",
+    "options": [
+      "ed5",
+      "e5x",
+      "exd4",
+      "exd5"
+    ],
+    "tags": [
+      "Biên Bản Thi Đấu",
+      "Cấu trúc"
+    ]
+  },
+  {
+    "question": "Quân nào được <span class=\"keyword\">ký hiệu là R</span> khi ghi nước đi?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Xe</span><div class=\"note\">💡 Giải thích: Trong biên bản quốc tế tiếng Anh, chữ R tượng trưng cho quân Xe (Rook).</div>",
+    "options": [
+      "Xe",
+      "Hậu",
+      "Tượng",
+      "Mã"
+    ],
+    "tags": [
+      "Biên Bản Thi Đấu",
+      "Cấu trúc"
+    ]
+  },
+  {
+    "question": "<span class=\"keyword\">Ký hiệu tiếng Anh</span> của <span class=\"keyword\">quân Vua</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">K</span><div class=\"note\">💡 Giải thích: Trong hệ thống ký hiệu quốc tế tiếng Anh, chữ K tượng trưng cho quân Vua (King).</div>",
+    "options": [
+      "Q",
+      "K",
+      "B",
+      "R"
+    ],
+    "tags": [
+      "Biên Bản Thi Đấu",
+      "Cấu trúc"
+    ]
   }
 ]

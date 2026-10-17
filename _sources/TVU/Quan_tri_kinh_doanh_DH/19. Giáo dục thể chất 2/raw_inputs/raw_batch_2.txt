@@ -1,0 +1,119 @@
+Câu 1: Có bao nhiêu quân Xe trên bàn lúc đầu?
+A. 8
+B. 6
+C. 2
+D. 4
+
+Câu 2: Quân nào di chuyển theo đường chéo?
+A. Tượng
+B. Xe
+C. Mã
+D. Hậu
+
+Câu 3: Với tàn cuộc: Vua và Xe đấu Vua, kết quả lý thuyết?
+A. Trắng chiếu bí đen
+B. Đen chiếu bí trắng
+C. Hòa
+D. Đen thắng
+
+Câu 4: Trong ghi biên bản quốc tế, nước đi “Qxh7+” có nghĩa là gì?
+A. Hậu ăn quân tại h7 và chiếu Vua
+B. Xe ăn h7
+C. Hậu đi h7
+D. Hậu nhập thành
+
+Câu 5: Ván cờ có thể tối đa mấy quân khi bắt đầu?
+A. 16
+B. 28
+C. 20
+D. 32
+
+Câu 6: Ký hiệu "!!" trong biên bản nghĩa là gì?
+A. Nước đi xuất sắc
+B. Chiếu bí
+C. Lỗi nặng
+D. Ăn quân
+
+Câu 7: Nếu chỉ còn vua và mã, có chiếu bí được không?
+A. Khi cùng quân Tốt
+B. Không
+C. Khi đối phương sơ hở
+D. Có
+
+Câu 8: Quân Xe di chuyển theo hướng nào?
+A. Đường dọc, ngang
+B. Đường chéo
+C. Hình chữ L
+D. Đường zigzag
+
+Câu 9: Quân cờ nào duy nhất không thể đi lùi?
+A. Mã
+B. Tốt
+C. Tượng
+D. Xe
+
+Câu 10: Cờ vua bắt nguồn từ nước nào?
+A. Ấn Độ
+B. Italia
+C. Nga
+D. Trung Quốc
+
+Câu 11: Quân Hậu kết hợp khả năng di chuyển của quân nào?
+A. Vua và Tượng
+B. Mã và Xe
+C. Mã và Vua
+D. Xe và Tượng
+
+Câu 12: Chữ “N” khi ghi nước đi tượng trưng cho?
+A. Tốt
+B. Knight
+C. Xe
+D. Hậu
+
+Câu 13: Trong “tàn cuộc”, loại quân nào hay “thí” nhất?
+A. Xe
+B. Tốt
+C. Tượng
+D. Hậu
+
+Câu 14: Trận mở đầu gọi là gì trong cờ vua?
+A. Trung cuộc
+B. Hậu cuộc
+C. Khai cuộc
+D. Phản công
+
+Câu 15: Quân Hậu kết hợp di chuyển như quân nào?
+A. Xe và Tượng
+B. Xe và Mã
+C. Vua và Xe
+D. Tốt và Mã
+
+Câu 16: Ký hiệu “?” trong biên bản là gì?
+A. Chiếu tướng
+B. Đổi quân
+C. Xuất sắc
+D. Sai lầm
+
+Câu 17: Trong nhập thành, điều kiện nào là BẮT BUỘC?
+A. Có thể bị chiếu
+B. Xe đã đi rồi
+C. Vua chưa di chuyển
+D. Trên bàn còn 8 quân
+
+Câu 18: Nếu bắt quân bằng tốt e lấy quân d5, ghi là?
+A. ed5
+B. e5x
+C. exd4
+D. exd5
+
+Câu 19: Quân nào được ký hiệu là R khi ghi nước đi?
+A. Xe
+B. Hậu
+C. Tượng
+D. Mã
+
+Câu 20: Ký hiệu tiếng Anh của quân Vua?
+A. Q
+B. K
+C. B
+D. R
