@@ -1,1 +1,156 @@
-[]
+[
+  {
+    "tags": [
+      "Kiến thức",
+      "Bản chất Marketing",
+      "Nền tảng"
+    ],
+    "question": "Theo <span class=\"keyword\">Hiệp hội Marketing Hoa Kỳ</span> thì Marketing bao gồm <span class=\"keyword\">các hoạt động</span> nào?",
+    "options": [
+      "Quảng cáo và tuyên truyền về sản phẩm, dịch vụ",
+      "Quảng cáo và tiếp thị",
+      "Nghiên cứu thị trường và sản xuất sản phẩm",
+      "<span class=\"answer-keyword\">Nghiên cứu thị trường</span> và <span class=\"answer-keyword\">sản xuất sản phẩm</span>, <span class=\"answer-keyword\">định giá</span>, <span class=\"answer-keyword\">phân phối</span> và <span class=\"answer-keyword\">chiêu thị</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Nghiên cứu thị trường</span> và <span class=\"answer-keyword\">sản xuất sản phẩm</span>, <span class=\"answer-keyword\">định giá</span>, <span class=\"answer-keyword\">phân phối</span> và <span class=\"answer-keyword\">chiêu thị</span> <div class=\"note\"><b>💡 Giải thích:</b> Theo định nghĩa của AMA (Hiệp hội Marketing Mỹ), Marketing là một hệ thống tổng thể gồm nghiên cứu thị trường, hoạch định sản phẩm, định giá, xúc tiến (chiêu thị) và phân phối để thỏa mãn nhu cầu thị trường mục tiêu.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Kiến thức",
+      "Bản chất Marketing",
+      "Nền tảng"
+    ],
+    "question": "<span class=\"keyword\">Quá trình phát triển</span> của Marketing được chia thành <span class=\"keyword\">mấy thời kỳ</span>, đó là những thời kỳ nào?",
+    "options": [
+      "3 thời kỳ: Từ đầu thế kỷ 20 đến 1930; từ 1930 – 1960; từ 1960 trở về sau.",
+      "3 thời kỳ: Từ đầu thế kỷ 20 đến 1960; từ 1960 – 1980; từ 1980 trở về sau.",
+      "<span class=\"answer-keyword\">2 thời kỳ</span>: Thời kỳ từ <span class=\"answer-keyword\">đầu thế kỷ 20</span> đến <span class=\"answer-keyword\">đầu thập niên 1960</span> và thời kỳ từ <span class=\"answer-keyword\">1960 trở về sau</span>.",
+      "2 thời kỳ: từ đầu thế kỷ 20 đến 1986; từ 1986 trở về sau."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">2 thời kỳ</span>: Thời kỳ từ <span class=\"answer-keyword\">đầu thế kỷ 20</span> đến <span class=\"answer-keyword\">đầu thập niên 1960</span> và thời kỳ từ <span class=\"answer-keyword\">1960 trở về sau</span>. <div class=\"note\"><b>💡 Giải thích:</b> Lịch sử Marketing chia làm 2 thời kỳ lớn: Marketing truyền thống (từ đầu thế kỷ 20 đến đầu thập niên 1960) và Marketing hiện đại (từ sau năm 1960 với sự ra đời của khái niệm Marketing-mix và định hướng khách hàng).</div>"
+  },
+  {
+    "tags": [
+      "Kiến thức",
+      "Bản chất Marketing",
+      "Cấu trúc"
+    ],
+    "question": "Marketing được chia thành <span class=\"keyword\">Marketing hàng hóa hữu hình</span> và <span class=\"keyword\">Marketing dịch vụ</span>. Đây là cách phân loại dựa vào:",
+    "options": [
+      "Khách hàng",
+      "Lĩnh vực hoạt động",
+      "Phạm vi hoạt động",
+      "<span class=\"answer-keyword\">Đặc điểm sản phẩm</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Đặc điểm sản phẩm</span> <div class=\"note\"><b>💡 Giải thích:</b> Căn cứ vào tính chất và đặc điểm của sản phẩm (hữu hình hay vô hình) mà người ta chia thành Marketing cho hàng hóa hữu hình và Marketing dịch vụ.</div>"
+  },
+  {
+    "tags": [
+      "Kiến thức",
+      "Bản chất Marketing",
+      "Nền tảng"
+    ],
+    "question": "Marketing có <span class=\"keyword\">vai trò</span> như thế nào đối với <span class=\"keyword\">doanh nghiệp</span>?",
+    "options": [
+      "<span class=\"answer-keyword\">Làm cho các hoạt động</span> của doanh nghiệp <span class=\"answer-keyword\">thích ứng với thị trường</span>.",
+      "Tiêu thụ sản phẩm",
+      "Nghiên cứu thị trường",
+      "Làm tăng thị phần"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Làm cho các hoạt động</span> của doanh nghiệp <span class=\"answer-keyword\">thích ứng với thị trường</span>. <div class=\"note\"><b>💡 Giải thích:</b> Marketing đóng vai trò là cầu nối giữa thị trường với các chức năng sản xuất, tài chính, nhân sự; định hướng toàn bộ hoạt động của doanh nghiệp thích ứng linh hoạt với sự biến đổi của nhu cầu thị trường.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Kiến thức",
+      "Truyền thông Xúc tiến",
+      "Cấu trúc"
+    ],
+    "question": "Hoạt động <span class=\"keyword\">quảng cáo</span> thuộc <span class=\"keyword\">công cụ nào</span> của <span class=\"keyword\">Marketing-mix</span>?",
+    "options": [
+      "<span class=\"answer-keyword\">P4: Promotion</span> (Chiêu thị)",
+      "P3: Place (Phân phối)",
+      "P1: Product (Sản phẩm)",
+      "P2: Price (Giá cả)"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">P4: Promotion</span> (Chiêu thị) <div class=\"note\"><b>💡 Giải thích:</b> Quảng cáo là một trong 5 công cụ cốt lõi của phối thức Xúc tiến hỗn hợp / Chiêu thị (Promotion), cùng với Khuyến mại, PR, Bán hàng cá nhân và Marketing trực tiếp.</div>"
+  },
+  {
+    "tags": [
+      "Kiến thức",
+      "Bản chất Marketing",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "<span class=\"keyword\">Nguyên tắc nào</span> giữ <span class=\"keyword\">vai trò chủ đạo</span> trong marketing?",
+    "options": [
+      "Nguyên tắc lợi thế khác biệt hay dị biệt",
+      "Nguyên tắc phối hợp",
+      "Nguyên tắc chọn lọc và tập trung",
+      "<span class=\"answer-keyword\">Nguyên tắc giá trị khách hàng</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Nguyên tắc giá trị khách hàng</span> <div class=\"note\"><b>💡 Giải thích:</b> Trong 4 nguyên tắc cơ bản của Marketing (Chọn lọc, Giá trị khách hàng, Khác biệt, Phối hợp), nguyên tắc Giá trị khách hàng giữ vai trò chủ đạo và tối cao, vì bản chất của Marketing hiện đại là tạo dựng và chuyển giao giá trị vượt trội cho khách hàng.</div>"
+  },
+  {
+    "tags": [
+      "Kiến thức",
+      "Chiến lược Giá",
+      "Cấu trúc"
+    ],
+    "question": "<span class=\"keyword\">Công cụ nào</span> của Marketing-mix có liên quan đến việc <span class=\"keyword\">xác định chi phí sản xuất</span>?",
+    "options": [
+      "P4: Promotion (Chiêu thị)",
+      "P3: Place (Phân phối)",
+      "P1: Product (Sản phẩm)",
+      "<span class=\"answer-keyword\">P2: Price</span> (Giá cả)"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">P2: Price</span> (Giá cả) <div class=\"note\"><b>💡 Giải thích:</b> Chi phí sản xuất là căn cứ nền tảng bên trong quyết định mức giá sàn (giá tối thiểu) trong chính sách Giá (Price) của doanh nghiệp.</div>"
+  },
+  {
+    "tags": [
+      "Kiến thức",
+      "Phân khúc Thị trường",
+      "Phân luồng"
+    ],
+    "question": "Quyết định <span class=\"keyword\">lựa chọn thị trường mục tiêu</span> thuộc <span class=\"keyword\">chức năng nào</span> của <span class=\"keyword\">nhà quản trị marketing</span>?",
+    "options": [
+      "Lãnh đạo",
+      "<span class=\"answer-keyword\">Hoạch định</span>",
+      "Kiểm tra",
+      "Tổ chức"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Hoạch định</span> <div class=\"note\"><b>💡 Giải thích:</b> Phân đoạn, lựa chọn thị trường mục tiêu và định vị (STP) là các quyết định chiến lược thuộc chức năng Hoạch định (Planning) của nhà quản trị marketing.</div>"
+  },
+  {
+    "tags": [
+      "Kiến thức",
+      "Bản chất Marketing",
+      "Nền tảng"
+    ],
+    "question": "Hoạt động marketing trong doanh nghiệp <span class=\"keyword\">bắt đầu</span> khi nào?",
+    "options": [
+      "Ngay sau khi bán sản phẩm cho khách hàng",
+      "Ngay từ khi bắt đầu quá trình sản xuất ra sản phẩm",
+      "<span class=\"answer-keyword\">Trước khi bắt đầu</span> quá trình sản xuất ra sản phẩm",
+      "Trong và ngay sau khi bán sản phẩm cho khách hàng"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Trước khi bắt đầu</span> quá trình sản xuất ra sản phẩm <div class=\"note\"><b>💡 Giải thích:</b> Marketing bắt đầu trước khi sản xuất thông qua việc nghiên cứu thị trường, phát hiện nhu cầu của khách hàng để định hướng cho bộ phận R&D và sản xuất làm ra đúng sản phẩm thị trường đang cần.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Kiến thức",
+      "Bản chất Marketing",
+      "Góc nhìn Đa chiều"
+    ],
+    "question": "Nhận định nào sau đây là <span class=\"keyword\">đúng đắn</span> khi so sánh giữa <span class=\"keyword\">Marketing và bán hàng</span>?",
+    "options": [
+      "Marketing và bán hàng là hai thuật ngữ khác biệt nhau",
+      "Bán hàng bao gồm cả Marketing",
+      "<span class=\"answer-keyword\">Marketing bao gồm cả hoạt động bán hàng</span>.",
+      "Marketing và bán hàng là hai thuật ngữ đồng nghĩa"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Marketing bao gồm cả hoạt động bán hàng</span>. <div class=\"note\"><b>💡 Giải thích:</b> Bán hàng chỉ là một khâu trong quá trình xúc tiến và lưu thông của Marketing. Marketing có phạm vi bao trùm rộng hơn rất nhiều, từ nghiên cứu nhu cầu, thiết kế sản phẩm, định giá, phân phối cho đến bán hàng và dịch vụ hậu mãi.</div>",
+    "weight": "high"
+  }
+]

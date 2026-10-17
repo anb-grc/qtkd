@@ -1,0 +1,82 @@
+{
+  "subject": "Marketing căn bản",
+  "version": "1.0",
+  "author": "The Veteran Professor (AI Agent)",
+  "core_focus_80_20": {
+    "root_concepts": [
+      "Định nghĩa Marketing (AMA, Kotler) và 5 quan điểm quản trị marketing (Sản xuất, Sản phẩm, Bán hàng, Marketing, Đạo đức xã hội).",
+      "Mô hình phối thức Marketing-mix (4P và 4C của khách hàng) và Quy trình quản trị R-STP-MM-I-C.",
+      "Cấu trúc hệ thống thông tin marketing MIS và Quy trình nghiên cứu marketing 6 bước.",
+      "Môi trường marketing: 6 lực lượng vi mô và các yếu tố vĩ mô PESTLE.",
+      "Mô hình hành vi người tiêu dùng B2C (Hộp đen ý thức) và 4 dạng hành vi mua sắm.",
+      "Chiến lược STP: Tiêu thức phân khúc, 3 chiến lược bao phủ thị trường và Bản đồ định vị.",
+      "Cấu trúc 3 cấp độ sản phẩm và 4 giai đoạn của Chu kỳ sống sản phẩm (PLC).",
+      "Định giá dựa trên chi phí (Hòa vốn BEP, Markup) vs Định giá theo giá trị cảm nhận, Độ co giãn Ed.",
+      "Cấu trúc các cấp kênh phân phối và 3 hệ thống marketing liên kết dọc (VMS: Doanh nghiệp, Hợp đồng, Quản trị).",
+      "Mô hình truyền thông marketing, phối thức 5 công cụ xúc tiến và Chiến lược Đẩy (Push) vs Kéo (Pull)."
+    ],
+    "common_traps": [
+      "Bẫy đánh đồng Bán hàng và Marketing: Bán hàng chỉ là một khâu nhỏ trong Marketing; Bán hàng tập trung vào người bán, Marketing tập trung vào người mua.",
+      "Bẫy 'Thiển cận Marketing' (Marketing Myopia) trong quan điểm sản phẩm: Quá yêu sản phẩm mà quên đi nhu cầu thực sự của khách hàng.",
+      "Nhầm lẫn giữa Nhu cầu tự nhiên (Needs - có sẵn), Mong muốn (Wants - bị văn hóa định hình) và Cầu (Demands - có tiền bảo đảm).",
+      "Nhầm lẫn giữa Dữ liệu sơ cấp (thu thập mới, đắt, khớp mục tiêu) và Dữ liệu thứ cấp (có sẵn, rẻ, dễ lỗi thời).",
+      "Đánh đồng Nhà bán buôn (sở hữu hàng hóa, chịu rủi ro) và Đại lý/Môi giới (không sở hữu hàng hóa, chỉ hưởng hoa hồng).",
+      "Bẫy xung đột dọc (giữa các cấp) vs xung đột ngang (cùng một cấp) trong kênh phân phối.",
+      "Bẫy tính lãi theo % chi phí vs % giá bán trong công thức định giá cộng lãi."
+    ],
+    "high_coverage": [
+      "Bản chất và các hoạt động cốt lõi của Marketing theo AMA và Kotler.",
+      "Sự khác biệt bản chất giữa quan điểm Bán hàng và quan điểm Marketing.",
+      "Các quyết định 4P trong từng giai đoạn của Chu kỳ sống sản phẩm (PLC).",
+      "Chiến lược định giá sản phẩm mới: Hớt váng (Skimming) vs Thâm nhập (Penetration).",
+      "Đặc thù thị trường B2B: Cầu phái sinh, độ co giãn kém và 5 vai trò trong Trung tâm mua sắm (DMU)."
+    ]
+  },
+  "exam_matrix": [
+    {
+      "tag": "Bản chất Marketing",
+      "percentage": 15,
+      "description": "Sự ra đời, khái niệm cốt lõi, 5 quan điểm quản trị, quy trình R-STP-MM-I-C và mô hình 4P/4C."
+    },
+    {
+      "tag": "Hệ thống MIS",
+      "percentage": 10,
+      "description": "Cấu trúc 4 phân hệ MIS, quy trình nghiên cứu marketing 6 bước, dữ liệu sơ cấp vs thứ cấp."
+    },
+    {
+      "tag": "Môi trường Vi mô",
+      "percentage": 10,
+      "description": "6 lực lượng vi mô (DN, nhà cung ứng, trung gian, khách hàng, đối thủ, công chúng) và môi trường vĩ mô PESTLE."
+    },
+    {
+      "tag": "Hành vi Khách hàng B2C",
+      "percentage": 15,
+      "description": "Mô hình hộp đen ý thức, 4 dạng hành vi mua, tiến trình 5 giai đoạn mua và thị trường B2B."
+    },
+    {
+      "tag": "Phân khúc Thị trường",
+      "percentage": 10,
+      "description": "Tiêu thức phân khúc, 5 điều kiện phân khúc hiệu quả, đánh giá thị trường mục tiêu và định vị STP."
+    },
+    {
+      "tag": "Chiến lược Sản phẩm",
+      "percentage": 15,
+      "description": "3 cấp độ sản phẩm, phân loại hàng hóa, chu kỳ sống PLC, danh mục chủng loại và phát triển SP mới."
+    },
+    {
+      "tag": "Chiến lược Giá",
+      "percentage": 10,
+      "description": "Các nhân tố cấu thành giá, phương pháp chi phí/giá trị, độ co giãn Ed, hớt váng vs thâm nhập."
+    },
+    {
+      "tag": "Chiến lược Phân phối",
+      "percentage": 8,
+      "description": "Chức năng kênh, trung gian phân phối, cấp kênh, hệ thống VMS, xung đột kênh và phân phối vật chất."
+    },
+    {
+      "tag": "Truyền thông Xúc tiến",
+      "percentage": 7,
+      "description": "Mô hình truyền thông, 5 công cụ xúc tiến, chiến lược đẩy và kéo, xác định ngân sách xúc tiến."
+    }
+  ]
+}
