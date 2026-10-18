@@ -558,9 +558,9 @@
     if (elCompPct) elCompPct.textContent = `${completedPct}%`;
     if (elActiveCount) elActiveCount.textContent = activeList.length;
 
-    // Vẽ Vòng SVG Radial Ring (Chu vi = 138.2)
+    // Vẽ Vòng SVG Radial Ring (Chu vi = 150.8, r=24)
     if (elRadialCircle) {
-      const circumference = 138.2;
+      const circumference = 150.8;
       const offset = circumference - (completedPct / 100) * circumference;
       elRadialCircle.style.strokeDashoffset = offset;
     }
@@ -593,15 +593,20 @@
     if (elLegTodo) elLegTodo.textContent = notStartedCount;
 
     // 2. BIỂU ĐỒ TỪNG MÔN: Render danh sách môn đang học kèm Đồ thị phong độ
+    const activeSection = document.getElementById('tvuActiveSection');
+    const allDoneStatus = document.getElementById('dashAllDoneStatus');
     const activeContainer = document.getElementById('tvuActiveSubjectsList');
-    if (activeContainer) {
-      if (activeList.length === 0) {
-        activeContainer.innerHTML = `
-          <div class="tvu-all-done-banner">
-            🎉 Chúc mừng! Bạn đã hoàn thành tất cả ${totalCount} môn học trong chương trình!
-          </div>
-        `;
-      } else {
+
+    if (activeList.length === 0) {
+      // Khi đã hoàn thành tất cả môn: Ẩn phần môn đang học, hiện trạng thái tinh tế ở trên
+      if (activeSection) activeSection.style.display = 'none';
+      if (allDoneStatus) allDoneStatus.style.display = 'inline-flex';
+      if (activeContainer) activeContainer.innerHTML = '';
+    } else {
+      if (activeSection) activeSection.style.display = 'flex';
+      if (allDoneStatus) allDoneStatus.style.display = 'none';
+
+      if (activeContainer) {
         activeContainer.innerHTML = activeList.map(({ subject, progress }) => {
           let scoreText = '';
           let sparkBarsHtml = '';

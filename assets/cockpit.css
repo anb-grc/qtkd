@@ -628,10 +628,10 @@
   border: none !important;
 }
 
-/* Vòng Radial Ring Apple Fitness Style (54px) */
+/* Vòng Radial Ring Apple Fitness Style (58px, chống tràn viền) */
 .tvu-radial-ring-wrap {
-  width: 54px;
-  height: 54px;
+  width: 58px;
+  height: 58px;
   position: relative;
   flex-shrink: 0;
 }
@@ -657,22 +657,23 @@
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
   line-height: 1;
 }
 
 .tvu-radial-center .radial-val {
-  font-size: 0.82em;
+  font-size: 0.74em;
   font-weight: 800;
   color: #ffffff;
+  letter-spacing: -0.6px;
 }
 
 /* Khối thông số & Segmented Bar */
 .tvu-curriculum-body {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 5px;
   flex: 1;
   min-width: 0;
 }
@@ -721,7 +722,7 @@
   align-items: center;
   gap: 3px;
   width: 100%;
-  height: 7px;
+  height: 6px;
   border-radius: 99px;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.04);
@@ -770,15 +771,30 @@
   gap: 4px;
 }
 
+.legend-item strong {
+  color: #ffffff;
+}
+
 .legend-dot {
-  width: 6px;
-  height: 6px;
+  width: 5px;
+  height: 5px;
   border-radius: 50%;
   display: inline-block;
 }
 .legend-dot.green { background: #00d2a0; }
 .legend-dot.purple { background: #a29bfe; }
 .legend-dot.gray { background: rgba(255, 255, 255, 0.2); }
+
+/* Dòng trạng thái khi hoàn thành tất cả môn (không nền hộp riêng biệt) */
+.tvu-all-done-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.76em;
+  font-weight: 600;
+  color: #00d2a0;
+  margin-top: 3px;
+}
 
 /* 2. BIỂU ĐỒ TỪNG MÔN ĐANG HỌC: LEARNING CURVE SPARK-BARS */
 .tvu-active-section {
@@ -1054,16 +1070,6 @@
   background: rgba(162, 155, 254, 0.15);
 }
 
-/* Empty State khi hoàn thành hết môn */
-.tvu-all-done-banner {
-  text-align: center;
-  padding: 16px 12px;
-  color: #00d2a0;
-  font-size: 0.9em;
-  font-weight: 700;
-  background: rgba(0, 210, 160, 0.08);
-  border-radius: 10px;
-}
 
 /* 3. Row Action Cấp thiết khi có bài nộp gấp từ bot */
 .tvu-hud-action-row {
@@ -1125,8 +1131,8 @@
     gap: 12px;
   }
   .tvu-radial-ring-wrap {
-    width: 48px;
-    height: 48px;
+    width: 54px;
+    height: 54px;
   }
   .tvu-curriculum-numbers {
     font-size: 0.95em;

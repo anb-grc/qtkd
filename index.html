@@ -28,7 +28,7 @@
   <link rel="apple-touch-startup-image" href="./assets/splash/splash-1170x2532.png" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
   <link rel="apple-touch-startup-image" href="./assets/splash/splash-1125x2436.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
   <link rel="apple-touch-startup-image" href="./assets/splash/splash-828x1792.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
-  <link rel="stylesheet" href="./assets/cockpit.css?v=8">
+  <link rel="stylesheet" href="./assets/cockpit.css?v=9">
   <style>
   :root {
     /* === Dark Mode Tokens (Kỷ Nguyên 34 Component) === */
@@ -122,17 +122,17 @@
     <section class="tvu-dashboard" id="tvuHomeDashboard">
       <!-- 1. BIỂU ĐỒ TỔNG THỂ: RADIAL RING + SEGMENTED BAR 11 MÔN -->
       <div class="tvu-overall-chart-row">
-        <!-- Vòng Radial Ring SVG (Apple Fitness style, 54px) -->
+        <!-- Vòng Radial Ring SVG (Apple Fitness style, 58px, chống tràn viền) -->
         <div class="tvu-radial-ring-wrap" title="Tỷ lệ hoàn thành chương trình TVU">
-          <svg viewBox="0 0 54 54" class="tvu-radial-svg">
+          <svg viewBox="0 0 58 58" class="tvu-radial-svg">
             <defs>
               <linearGradient id="tvuCurriculumGrad" x1="0%" y1="0%" x2="100%" y2="100%">
                 <stop offset="0%" stop-color="#00d2a0" />
                 <stop offset="100%" stop-color="#a29bfe" />
               </linearGradient>
             </defs>
-            <circle cx="27" cy="27" r="22" class="tvu-radial-bg" stroke-width="5" fill="none" />
-            <circle cx="27" cy="27" r="22" class="tvu-radial-progress" id="dashRadialCircle" stroke="url(#tvuCurriculumGrad)" stroke-width="5" stroke-dasharray="138.2" stroke-dashoffset="138.2" fill="none" />
+            <circle cx="29" cy="29" r="24" class="tvu-radial-bg" stroke-width="3.5" fill="none" />
+            <circle cx="29" cy="29" r="24" class="tvu-radial-progress" id="dashRadialCircle" stroke="url(#tvuCurriculumGrad)" stroke-width="3.5" stroke-dasharray="150.8" stroke-dashoffset="150.8" fill="none" />
           </svg>
           <div class="tvu-radial-center">
             <span class="radial-val" id="dashCompletedPercent">0%</span>
@@ -148,7 +148,7 @@
             </div>
             <div class="tvu-curriculum-actions">
               <button class="tg-icon-btn" id="dashRefreshBtn" title="Làm mới tiến độ">
-                <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-15 6.7L3 16"/><path d="M3 21v-5h5"/></svg>
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-15 6.7L3 16"/><path d="M3 21v-5h5"/></svg>
               </button>
             </div>
           </div>
@@ -162,37 +162,42 @@
             <!-- 11 đoạn render bởi JS -->
           </div>
 
-          <!-- Chú thích phân khúc mini -->
+          <!-- Chú thích phân khúc sạch sẽ, không dấu ngoặc thừa -->
           <div class="tvu-segmented-legend">
-            <span class="legend-item"><span class="legend-dot green"></span> Đã xong (<b id="legDoneCount">0</b>)</span>
-            <span class="legend-item"><span class="legend-dot purple"></span> Đang học (<b id="legActiveCount">0</b>)</span>
-            <span class="legend-item"><span class="legend-dot gray"></span> Chưa học (<b id="legTodoCount">0</b>)</span>
+            <span class="legend-item"><span class="legend-dot green"></span> Đã xong: <strong id="legDoneCount">0</strong></span>
+            <span class="legend-item"><span class="legend-dot purple"></span> Đang học: <strong id="legActiveCount">0</strong></span>
+            <span class="legend-item"><span class="legend-dot gray"></span> Chưa học: <strong id="legTodoCount">0</strong></span>
+          </div>
+
+          <!-- Dòng thông báo tinh tế khi hoàn thành 100% (không nền hộp riêng biệt) -->
+          <div class="tvu-all-done-status" id="dashAllDoneStatus" style="display: none;">
+            <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>Đã hoàn thành toàn bộ 11/11 môn học</span>
           </div>
         </div>
       </div>
 
       <!-- 2. BIỂU ĐỒ TỪNG MÔN ĐANG HỌC (Learning Curve Spark-bars) -->
-      <div class="tvu-active-section">
+      <div class="tvu-active-section" id="tvuActiveSection">
         <div class="tvu-active-header">
           <span>MÔN ĐANG HỌC (<span id="dashActiveCount">0</span>)</span>
-          <span class="tvu-active-hint">Bấm <strong>✓ Xong</strong> khi thi xong để ẩn</span>
         </div>
 
         <!-- Danh sách các môn đang học (Mỗi môn có đồ thị phong độ cột mini) -->
         <div class="tvu-active-list" id="tvuActiveSubjectsList">
           <!-- Render động qua JS -->
         </div>
+      </div>
 
-        <!-- Khay xem lại các môn đã hoàn thành (mặc định thu gọn) -->
-        <div class="tvu-completed-toggle-row" id="completedToggleRow" style="display: none;">
-          <button class="tvu-completed-toggle-btn" id="btnToggleCompletedList" type="button">
-            <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-            <span>Đã hoàn thành <strong id="completedSubjectsBadge">0</strong> môn (Nhấn để xem / khôi phục)</span>
-            <span class="tvu-toggle-arrow" id="completedToggleArrow">▾</span>
-          </button>
-          <div class="tvu-completed-tray" id="tvuCompletedTray" style="display: none;">
-            <!-- Danh sách môn đã xong kèm nút 'Học lại' -->
-          </div>
+      <!-- Khay xem lại các môn đã hoàn thành (mặc định thu gọn) -->
+      <div class="tvu-completed-toggle-row" id="completedToggleRow" style="display: none;">
+        <button class="tvu-completed-toggle-btn" id="btnToggleCompletedList" type="button">
+          <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+          <span>Đã hoàn thành <strong id="completedSubjectsBadge">0</strong> môn (Nhấn để xem / khôi phục)</span>
+          <span class="tvu-toggle-arrow" id="completedToggleArrow">▾</span>
+        </button>
+        <div class="tvu-completed-tray" id="tvuCompletedTray" style="display: none;">
+          <!-- Danh sách môn đã xong kèm nút 'Học lại' -->
         </div>
       </div>
 
@@ -323,6 +328,6 @@
         });
     });
   </script>
-  <script src="./assets/cockpit.js?v=7"></script>
+  <script src="./assets/cockpit.js?v=8"></script>
 </body>
 </html>
