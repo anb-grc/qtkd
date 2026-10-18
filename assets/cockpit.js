@@ -7,6 +7,7 @@
   'use strict';
 
   const STORAGE_KEY_LAST_SEEN = 'learniz_tg_last_seen_id';
+  const STORAGE_KEY_COLLAPSED = 'learniz_dash_collapsed';
   const EVENTS_URL = './assets/dashboard_events.json';
   const POLL_INTERVAL = 15000; // 15s
 
@@ -27,7 +28,11 @@
     clock: `<svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>`,
     cpu: `<svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="16" x="4" y="4" rx="2"/><rect width="6" height="6" x="9" y="9" rx="1"/><path d="M15 2v2"/><path d="M15 20v2"/><path d="M2 15h2"/><path d="M2 9h2"/><path d="M20 15h2"/><path d="M20 9h2"/><path d="M9 2v2"/><path d="M9 20v2"/></svg>`,
     battery: `<svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="10" x="2" y="7" rx="2" ry="2"/><line x1="22" x2="22" y1="11" y2="13"/></svg>`,
-    shieldAlert: `<svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>`
+    shieldAlert: `<svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>`,
+    bookOpen: `<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>`,
+    chevronUp: `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>`,
+    chevronDown: `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>`,
+    award: `<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>`
   };
 
   function injectDOM() {
@@ -417,24 +422,87 @@
       .replace(/'/g, '&#039;');
   }
 
+  function getTVUWeeklyDeadline() {
+    const now = new Date();
+    const dayOfWeek = now.getDay(); // 0 is Sunday, 1 is Monday ...
+    let daysUntilSunday = (7 - dayOfWeek) % 7;
+    const deadline = new Date(now.getFullYear(), now.getMonth(), now.getDate() + daysUntilSunday, 23, 59, 59);
+    const diffMs = deadline.getTime() - now.getTime();
+    if (diffMs <= 0) return 'Đã hết hạn';
+
+    const diffHours = Math.floor(diffMs / (1000 * 60 * 60));
+    const diffDays = Math.floor(diffHours / 24);
+    const remHours = diffHours % 24;
+
+    if (diffDays > 0) {
+      return `Còn ${diffDays} ngày ${remHours}h`;
+    }
+    return `Còn ${diffHours} giờ`;
+  }
+
+  function getPersonalStudyStats() {
+    let totalAttempts = 0;
+    let latestScores = [];
+
+    try {
+      for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        if (key && key.startsWith('tvu_history_')) {
+          const raw = localStorage.getItem(key);
+          if (!raw) continue;
+          const history = JSON.parse(raw);
+          if (Array.isArray(history) && history.length > 0) {
+            totalAttempts += history.length;
+            const latest = history[history.length - 1];
+            if (latest && typeof latest.percent === 'number') {
+              latestScores.push(latest.percent);
+            }
+          }
+        }
+      }
+    } catch (_) {}
+
+    if (totalAttempts === 0 || latestScores.length === 0) {
+      return {
+        attemptsText: '0 lượt (Hãy bắt đầu cày đề!)',
+        avgScoreText: 'Chưa có điểm',
+        colorClass: ''
+      };
+    }
+
+    const avg = Math.round(latestScores.reduce((a, b) => a + b, 0) / latestScores.length);
+    const score10 = (avg / 10).toFixed(1);
+    const colorClass = avg >= 80 ? 'score-high' : (avg >= 50 ? 'score-mid' : 'score-low');
+
+    return {
+      attemptsText: `${totalAttempts} lượt thi thử`,
+      avgScoreText: `${score10}/10 (${avg}%)`,
+      colorClass
+    };
+  }
+
   function renderHomeDashboard() {
     const dash = document.getElementById('tvuHomeDashboard');
     if (!dash) return;
 
     // 1. Header status & subtitle
     const statusDot = document.getElementById('dashStatusDot');
+    const isOnline = systemStatusCache.status === 'online';
     if (statusDot) {
-      const isOnline = systemStatusCache.status === 'online';
       statusDot.style.background = isOnline ? '#00d2a0' : '#ffc107';
       statusDot.style.boxShadow = isOnline ? '0 0 8px #00d2a0' : '0 0 8px #ffc107';
-      statusDot.title = `Trạng thái: ${isOnline ? 'Sẵn sàng' : 'Chờ kết nối'}`;
+      statusDot.title = `Trạng thái: ${isOnline ? 'Sẵn sàng' : 'Ngoại tuyến / Chờ kết nối'}`;
     }
 
     const subtitleEl = document.getElementById('dashSubtitle');
     if (subtitleEl) {
-      const slotText = systemStatusCache.slot || 'Chiều - Tối (19:00 - 21:00)';
-      const deviceText = systemStatusCache.device || 'MacBook Pro';
-      subtitleEl.textContent = `Khung giờ: ${slotText} • Thiết bị: ${deviceText}`;
+      if (isOnline) {
+        const slotText = systemStatusCache.slot || 'Chiều - Tối (19:00 - 21:00)';
+        const deviceText = systemStatusCache.device || 'MacBook Pro';
+        subtitleEl.textContent = `Khung giờ: ${slotText} • Thiết bị: ${deviceText}`;
+      } else {
+        subtitleEl.textContent = 'Ngoại tuyến • Đang nạp dữ liệu đệm từ máy';
+      }
     }
 
     const lastSyncEl = document.getElementById('dashLastSync');
@@ -444,18 +512,17 @@
       lastSyncEl.textContent = `Đồng bộ: ${timeStr}`;
     }
 
-    // 2. Compute 4 KPI Tiles
+    // 2. Compute 4 KPI Tiles & Collapsed Summary
+    const activeSubjects = new Set(
+      eventsCache
+        .filter(e => e.subject_id && e.subject_id !== '00')
+        .map(e => e.subject_id)
+    );
+    const coursesCount = activeSubjects.size > 0 ? activeSubjects.size : 3;
+
     const kpiCourses = document.getElementById('dashKpiCourses');
     const kpiSlot = document.getElementById('dashKpiSlot');
-    if (kpiCourses) {
-      const activeSubjects = new Set(
-        eventsCache
-          .filter(e => e.subject_id && e.subject_id !== '00')
-          .map(e => e.subject_id)
-      );
-      const count = activeSubjects.size > 0 ? activeSubjects.size : 3;
-      kpiCourses.textContent = `${count}/3 môn`;
-    }
+    if (kpiCourses) kpiCourses.textContent = `${coursesCount}/3 môn`;
     if (kpiSlot) {
       const rawSlot = systemStatusCache.slot || 'Trưa & Tối';
       const slotShort = rawSlot.split('(')[0].trim();
@@ -510,6 +577,32 @@
       }
     }
 
+    // Update Collapsed Summary Bar
+    const colPillCourses = document.getElementById('colPillCourses');
+    const colPillQuiz = document.getElementById('colPillQuiz');
+    const colPillForum = document.getElementById('colPillForum');
+    if (colPillCourses) {
+      colPillCourses.textContent = `${coursesCount} môn chu kỳ`;
+    }
+    if (colPillQuiz) {
+      if (quizEvt) {
+        colPillQuiz.className = 'tvu-summary-pill urgent';
+        colPillQuiz.textContent = '1 bài chờ nộp';
+      } else {
+        colPillQuiz.className = 'tvu-summary-pill green';
+        colPillQuiz.textContent = 'LTTN: Ổn định';
+      }
+    }
+    if (colPillForum) {
+      if (forumEvt) {
+        colPillForum.className = 'tvu-summary-pill purple';
+        colPillForum.textContent = '1 bản nháp thảo luận';
+      } else {
+        colPillForum.className = 'tvu-summary-pill';
+        colPillForum.textContent = 'Thảo luận tuần';
+      }
+    }
+
     // 3. Render Today's Active Courses List
     const courseListEl = document.getElementById('dashCourseList');
     if (courseListEl) {
@@ -523,21 +616,39 @@
         courseListEl.innerHTML = recentEvents.map(evt => {
           let badgeClass = 'badge-info';
           let badgeText = 'CẬP NHẬT';
+          let showDeadline = false;
 
           if (evt.type === 'quiz_completed') {
             badgeClass = 'badge-urgent';
             badgeText = 'CẦN NỘP BÀI';
+            showDeadline = true;
           } else if (evt.type === 'forum_draft') {
             badgeClass = 'badge-info';
             badgeText = 'BÀI THẢO LUẬN';
+            showDeadline = true;
           } else if (evt.type === 'harvest') {
             badgeClass = 'badge-done';
             badgeText = 'THU HOẠCH ĐỀ';
           }
 
+          const deadlineBadge = showDeadline
+            ? `<span class="tvu-dash-badge badge-deadline">${ICONS.clock} Hạn: 23:59 CN (${getTVUWeeklyDeadline()})</span>`
+            : '';
+
+          // Nút Vào ôn ngay trên LearnIZ
+          let practiceBtn = '';
+          if (evt.subject_id && evt.subject_id !== '00') {
+            practiceBtn = `
+              <a href="./quiz.html?id=${escapeHTML(evt.subject_id)}" class="tg-action-btn quick-practice" title="Vào ôn thi trắc nghiệm môn này trên LearnIZ">
+                ${ICONS.bookOpen}
+                <span>Vào ôn ngay</span>
+              </a>
+            `;
+          }
+
           let actionsHTML = '';
           if (evt.actions && Array.isArray(evt.actions) && evt.actions.length > 0) {
-            actionsHTML = evt.actions.map(act => {
+            const btns = evt.actions.map(act => {
               if (act.type === 'copy') {
                 return `
                   <button class="tg-action-btn primary" data-copy="${escapeHTML(act.copy_text || '')}" title="Sao chép">
@@ -554,8 +665,10 @@
                 `;
               }
             }).join('');
+            actionsHTML = `${practiceBtn}${btns}`;
           } else {
             actionsHTML = `
+              ${practiceBtn}
               <button class="tg-action-btn" data-open-drawer="true" title="Xem luồng sự kiện">
                 ${ICONS.telegram}
                 <span>Chi tiết</span>
@@ -570,6 +683,7 @@
               <div class="tvu-dash-course-info">
                 <div class="tvu-dash-course-badge-row">
                   <span class="tvu-dash-badge ${badgeClass}">${badgeText}</span>
+                  ${deadlineBadge}
                   <span style="font-size:0.75em; color:var(--muted);">${escapeHTML(evt.time_str || '')}</span>
                 </div>
                 <div class="tvu-dash-course-title">${subjectLabel}${escapeHTML(evt.title || '')}</div>
@@ -595,6 +709,19 @@
         });
       }
     }
+
+    // 4. Render Personal Study Bar
+    const personalBar = document.getElementById('dashPersonalBar');
+    if (personalBar) {
+      const stats = getPersonalStudyStats();
+      const attemptsEl = document.getElementById('personalAttempts');
+      const avgScoreEl = document.getElementById('personalAvgScore');
+      if (attemptsEl) attemptsEl.textContent = stats.attemptsText;
+      if (avgScoreEl) {
+        avgScoreEl.textContent = stats.avgScoreText;
+        avgScoreEl.className = stats.colorClass;
+      }
+    }
   }
 
   function setupHomeDashboardListeners() {
@@ -605,6 +732,20 @@
         fetchEvents(true).finally(() => {
           setTimeout(() => refreshBtn.classList.remove('spinning'), 400);
         });
+      });
+    }
+
+    const toggleBtn = document.getElementById('dashToggleBtn');
+    if (toggleBtn) {
+      toggleBtn.addEventListener('click', () => {
+        const dash = document.getElementById('tvuHomeDashboard');
+        if (!dash) return;
+        const isCurrentlyCollapsed = dash.classList.contains('is-collapsed');
+        const willCollapse = !isCurrentlyCollapsed;
+        dash.classList.toggle('is-collapsed', willCollapse);
+        toggleBtn.innerHTML = willCollapse ? ICONS.chevronDown : ICONS.chevronUp;
+        localStorage.setItem(STORAGE_KEY_COLLAPSED, willCollapse ? 'true' : 'false');
+        triggerHaptic(15);
       });
     }
 
@@ -629,6 +770,16 @@
       } catch (_) {}
     }
     injectDOM();
+
+    // Khôi phục trạng thái thu gọn từ localStorage
+    const isSavedCollapsed = localStorage.getItem(STORAGE_KEY_COLLAPSED) === 'true';
+    const dash = document.getElementById('tvuHomeDashboard');
+    const toggleBtn = document.getElementById('dashToggleBtn');
+    if (dash && isSavedCollapsed) {
+      dash.classList.add('is-collapsed');
+      if (toggleBtn) toggleBtn.innerHTML = ICONS.chevronDown;
+    }
+
     setupHomeDashboardListeners();
     fetchEvents();
     setInterval(() => fetchEvents(false), POLL_INTERVAL);

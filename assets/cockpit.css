@@ -855,6 +855,123 @@
   gap: 8px;
 }
 
+.tvu-dash-badge.badge-deadline {
+  background: rgba(255, 170, 0, 0.18);
+  color: #ffaa00;
+  border: 1px solid rgba(255, 170, 0, 0.35);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.tvu-dash-badge.badge-deadline svg {
+  vertical-align: middle;
+}
+
+.tg-action-btn.quick-practice {
+  background: rgba(162, 155, 254, 0.15);
+  border-color: rgba(162, 155, 254, 0.35);
+  color: var(--secondary, #a29bfe);
+}
+
+.tg-action-btn.quick-practice:hover {
+  background: var(--secondary, #a29bfe);
+  color: #0f0f1a;
+  transform: translateY(-1px);
+}
+
+/* Collapsed State for Dashboard */
+.tvu-dashboard.is-collapsed {
+  padding: 16px 20px;
+  margin-bottom: 24px;
+}
+
+.tvu-dashboard.is-collapsed .tvu-dash-header {
+  margin-bottom: 0;
+}
+
+.tvu-dashboard.is-collapsed .tvu-dash-grid,
+.tvu-dashboard.is-collapsed .tvu-dash-courses-wrap,
+.tvu-dashboard.is-collapsed .tvu-dash-personal-bar {
+  display: none !important;
+}
+
+.tvu-dash-collapsed-summary {
+  display: none;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px dashed rgba(255, 255, 255, 0.1);
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tvu-dashboard.is-collapsed .tvu-dash-collapsed-summary {
+  display: flex;
+}
+
+.tvu-summary-pill {
+  font-size: 0.78em;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 8px;
+  background: rgba(15, 15, 26, 0.65);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--muted, rgba(255, 255, 255, 0.75));
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.tvu-summary-pill.urgent {
+  border-color: rgba(255, 107, 107, 0.35);
+  color: #ff6b6b;
+  background: rgba(255, 107, 107, 0.12);
+}
+
+.tvu-summary-pill.green {
+  border-color: rgba(0, 210, 160, 0.35);
+  color: #00d2a0;
+  background: rgba(0, 210, 160, 0.12);
+}
+
+.tvu-summary-pill.purple {
+  border-color: rgba(162, 155, 254, 0.35);
+  color: #a29bfe;
+  background: rgba(162, 155, 254, 0.12);
+}
+
+/* Personal Study Stats Bar */
+.tvu-dash-personal-bar {
+  margin-top: 16px;
+  padding: 11px 16px;
+  background: rgba(15, 15, 26, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 0.82em;
+  color: var(--muted, rgba(255, 255, 255, 0.7));
+}
+
+.tvu-personal-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.tvu-personal-item strong {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.tvu-personal-item strong.score-high { color: #00d2a0; }
+.tvu-personal-item strong.score-mid { color: #ffc107; }
+.tvu-personal-item strong.score-low { color: #ff6b6b; }
+
 /* Section divider on Home */
 .section-divider {
   display: flex;
@@ -870,3 +987,4 @@
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+
