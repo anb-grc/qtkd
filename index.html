@@ -28,7 +28,7 @@
   <link rel="apple-touch-startup-image" href="./assets/splash/splash-1170x2532.png" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
   <link rel="apple-touch-startup-image" href="./assets/splash/splash-1125x2436.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
   <link rel="apple-touch-startup-image" href="./assets/splash/splash-828x1792.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
-  <link rel="stylesheet" href="./assets/cockpit.css?v=5">
+  <link rel="stylesheet" href="./assets/cockpit.css?v=6">
   <style>
   :root {
     /* === Dark Mode Tokens (Kỷ Nguyên 34 Component) === */
@@ -118,127 +118,66 @@
       <p>Kiến thức trực quan, dễ dàng ôn luyện</p>
     </div>
 
-    <!-- TVU AUTOMATION EXECUTIVE DASHBOARD -->
+    <!-- TVU AUTOMATION EXECUTIVE HUD (Clean & Clear, Zero Box-in-Box) -->
     <section class="tvu-dashboard" id="tvuHomeDashboard">
-      <div class="tvu-dash-header">
-        <div class="tvu-dash-title-wrap">
-          <div class="tvu-dash-icon">
-            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
+      <!-- ROW 1: Visual Metrics Bar -->
+      <div class="tvu-hud-main">
+        <div class="tvu-hud-left">
+          <!-- Mini Radial Ring (42px) -->
+          <div class="tvu-ring-mini" title="Tiến độ hoàn thành mục tiêu tuần">
+            <svg viewBox="0 0 44 44">
+              <defs>
+                <linearGradient id="tvuMiniGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#00d2a0" />
+                  <stop offset="100%" stop-color="#a29bfe" />
+                </linearGradient>
+              </defs>
+              <circle cx="22" cy="22" r="18" class="tvu-ring-mini-bg" stroke-width="4" fill="none" />
+              <circle cx="22" cy="22" r="18" class="tvu-ring-mini-progress" id="ringGoalCircle" stroke="url(#tvuMiniGrad)" stroke-width="4" stroke-dasharray="113.1" stroke-dashoffset="25" fill="none" />
+            </svg>
+            <span class="tvu-ring-mini-text" id="ringGoalPercent">--%</span>
           </div>
-          <div>
-            <div class="tvu-dash-title">
-              BẢNG ĐIỀU PHỐI TVU LMS
-              <span class="tg-status-dot" id="dashStatusDot" title="Trạng thái hệ thống: Đang kết nối..."></span>
-            </div>
-            <div class="tvu-dash-subtitle" id="dashSubtitle">Đang kết nối trung tâm điều phối...</div>
-          </div>
-        </div>
-        <div class="tvu-dash-controls">
-          <button class="tg-icon-btn" id="dashRefreshBtn" title="Làm mới">
-            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-15 6.7L3 16"/><path d="M3 21v-5h5"/></svg>
-          </button>
-          <button class="tg-icon-btn" id="dashToggleBtn" title="Thu gọn / Mở rộng bảng điều phối">
-            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
-          </button>
-          <button class="tvu-dash-btn-open" id="dashOpenDrawerBtn" title="Mở luồng tin chi tiết Telegram">
-            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
-            <span>Luồng sự kiện</span>
-          </button>
-        </div>
-      </div>
 
-      <!-- COLLAPSED SUMMARY BAR (Hiện khi thu gọn) -->
-      <div class="tvu-dash-collapsed-summary" id="dashCollapsedSummary">
-        <span class="tvu-summary-pill" id="colPillCourses">Đang nạp...</span>
-        <span class="tvu-summary-pill" id="colPillQuiz">Trắc nghiệm</span>
-        <span class="tvu-summary-pill" id="colPillForum">Thảo luận</span>
-      </div>
-
-      <!-- VISUAL CHARTS GRID (2 Compact Visual Cards) -->
-      <div class="tvu-dash-visual-grid" id="dashVisualGrid">
-        <!-- Card 1: Tiến độ Tuần (Radial Goal Ring) -->
-        <div class="tvu-visual-card">
-          <div class="tvu-card-label-row">
-            <span>MỤC TIÊU TUẦN TVU</span>
-            <span id="dashGoalSlotText" style="color:var(--secondary); font-size: 0.9em;">Slot: Trưa & Tối</span>
-          </div>
-          <div class="tvu-ring-container">
-            <div class="tvu-ring-svg-wrap">
-              <svg viewBox="0 0 80 80">
-                <defs>
-                  <linearGradient id="tvuGoalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stop-color="#00d2a0" />
-                    <stop offset="100%" stop-color="#a29bfe" />
-                  </linearGradient>
-                </defs>
-                <circle cx="40" cy="40" r="32" class="tvu-ring-bg" stroke-width="6" fill="none" />
-                <circle cx="40" cy="40" r="32" class="tvu-ring-progress" id="ringGoalCircle" stroke="url(#tvuGoalGrad)" stroke-width="6" stroke-dasharray="201.06" stroke-dashoffset="60" fill="none" />
-              </svg>
-              <div class="tvu-ring-text">
-                <span class="tvu-ring-val" id="ringGoalPercent">--%</span>
-                <span class="tvu-ring-unit">Tiến độ</span>
-              </div>
+          <!-- Quick Numbers Inline (Flat, no nested boxes) -->
+          <div class="tvu-hud-stats">
+            <div class="tvu-stat-unit">
+              <span class="stat-num teal" id="hudStatQuiz">--</span>
+              <span class="stat-lbl">LTTN</span>
             </div>
-            <div class="tvu-ring-legend">
-              <div class="tvu-legend-item">
-                <span><i class="legend-dot green"></i>Trắc nghiệm:</span>
-                <strong id="dashKpiQuiz">--</strong>
-              </div>
-              <div class="tvu-legend-item">
-                <span><i class="legend-dot purple"></i>Thảo luận:</span>
-                <strong id="dashKpiForum">--</strong>
-              </div>
-              <div class="tvu-legend-item">
-                <span><i class="legend-dot blue"></i>Môn chu kỳ:</span>
-                <strong id="dashKpiCourses">--</strong>
-              </div>
+            <div class="tvu-stat-unit">
+              <span class="stat-num purple" id="hudStatForum">--</span>
+              <span class="stat-lbl">Thảo luận</span>
+            </div>
+            <div class="tvu-stat-unit">
+              <span class="stat-num" id="hudStatCourses">--</span>
+              <span class="stat-lbl">Chu kỳ</span>
             </div>
           </div>
         </div>
 
-        <!-- Card 2: Nhịp cày đề 7 ngày & Phân bổ điểm -->
-        <div class="tvu-visual-card">
-          <div class="tvu-card-label-row">
-            <span>NHỊP ĐỘ ÔN TẬP 7 NGÀY</span>
-            <span id="dashActivitySummary" style="color:var(--text); font-weight:700;">--</span>
+        <!-- 7-Day Sparkline & Clean Tools -->
+        <div class="tvu-hud-right">
+          <div class="tvu-spark-wrap" id="hudSparkline" title="Nhịp ôn tập 7 ngày qua">
+            <!-- 7 thanh ngày T2..CN render bằng JS -->
           </div>
-          <div class="tvu-bars-wrap" id="dashWeeklyBars">
-            <!-- 7 thanh ngày T2 -> CN được render từ JS -->
-          </div>
-          <div>
-            <div class="tvu-mastery-strip" id="dashMasteryStrip">
-              <div class="mastery-seg green" id="segHigh" style="width: 70%;" title="Điểm >=80%"></div>
-              <div class="mastery-seg yellow" id="segMid" style="width: 20%;" title="Điểm 50-79%"></div>
-              <div class="mastery-seg red" id="segLow" style="width: 10%;" title="Điểm <50%"></div>
-            </div>
-            <div class="tvu-mastery-sub" style="margin-top: 4px;">
-              <span>Phân bổ điểm:</span>
-              <span id="dashMasteryText">🟢 Vững --% • 🟡 Cần ôn --%</span>
-            </div>
+          <div class="tvu-hud-tools">
+            <button class="tg-icon-btn" id="dashRefreshBtn" title="Làm mới">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-15 6.7L3 16"/><path d="M3 21v-5h5"/></svg>
+            </button>
+            <button class="tg-icon-btn" id="dashOpenDrawerBtn" title="Mở luồng sự kiện chi tiết">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
+            </button>
           </div>
         </div>
       </div>
 
-      <!-- TODAY'S ACTIVE COURSES BANNER -->
-      <div class="tvu-dash-courses-wrap">
-        <div class="tvu-dash-section-label">
-          <span>TIẾN TRÌNH HỌC TẬP HÔM NAY</span>
-          <span class="tvu-dash-time-stamp" id="dashLastSync">Vừa cập nhật</span>
+      <!-- ROW 2: Single Action Line (Chỉ 1 dòng phẳng khi có việc khẩn cấp) -->
+      <div class="tvu-hud-action-row" id="hudActionRow" style="display: none;">
+        <div class="tvu-action-left" id="hudActionLeft">
+          <!-- Render từ JS: Badge + Tên môn + Mô tả ngắn -->
         </div>
-        <div class="tvu-dash-course-list" id="dashCourseList">
-          <div class="tg-empty-state" style="padding: 16px;">Đang tải tiến trình môn học...</div>
-        </div>
-        <!-- PERSONAL STUDY BAR -->
-        <div class="tvu-dash-personal-bar" id="dashPersonalBar">
-          <div class="tvu-personal-item">
-            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
-            <span>Thành tích của bạn:</span>
-            <strong id="personalAttempts">--</strong>
-          </div>
-          <div class="tvu-personal-item">
-            <span>Điểm TB gần nhất:</span>
-            <strong id="personalAvgScore">--</strong>
-          </div>
+        <div class="tvu-action-btns" id="hudActionBtns">
+          <!-- Render từ JS: Nút vào ôn / nộp bài -->
         </div>
       </div>
     </section>
@@ -353,6 +292,6 @@
         });
     });
   </script>
-  <script src="./assets/cockpit.js?v=4"></script>
+  <script src="./assets/cockpit.js?v=5"></script>
 </body>
 </html>

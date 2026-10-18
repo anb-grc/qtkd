@@ -481,15 +481,15 @@
     };
   }
 
-  function renderWeeklyActivityChart() {
-    const barsContainer = document.getElementById('dashWeeklyBars');
-    if (!barsContainer) return;
+  function renderWeeklySparkline() {
+    const sparkContainer = document.getElementById('hudSparkline');
+    if (!sparkContainer) return;
 
     const dayLabels = ['T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'CN'];
     const todayIndex = (new Date().getDay() + 6) % 7; // T2: 0, CN: 6
 
     let dayCounts = [0, 0, 0, 0, 0, 0, 0];
-    let allScores = [];
+    let totalAttempts = 0;
 
     try {
       for (let i = 0; i < localStorage.length; i++) {
@@ -499,8 +499,8 @@
           if (!raw) continue;
           const history = JSON.parse(raw);
           if (Array.isArray(history)) {
+            totalAttempts += history.length;
             history.forEach(item => {
-              if (item.percent !== undefined) allScores.push(item.percent);
               if (item.timestamp) {
                 const d = new Date(item.timestamp);
                 const dIdx = (d.getDay() + 6) % 7;
@@ -512,7 +512,6 @@
       }
     } catch (_) {}
 
-    const totalAttempts = allScores.length;
     if (dayCounts.every(c => c === 0) && totalAttempts > 0) {
       dayCounts[todayIndex] = Math.ceil(totalAttempts * 0.4);
       dayCounts[(todayIndex + 6) % 7] = Math.ceil(totalAttempts * 0.3);
@@ -525,93 +524,26 @@
 
     const maxCount = Math.max(...dayCounts, 1);
 
-    barsContainer.innerHTML = dayLabels.map((label, idx) => {
+    sparkContainer.innerHTML = dayLabels.map((label, idx) => {
       const isToday = idx === todayIndex;
       const count = dayCounts[idx];
-      const heightPct = Math.max(12, Math.round((count / maxCount) * 100));
+      const heightPct = Math.max(15, Math.round((count / maxCount) * 100));
       return `
-        <div class="tvu-day-col ${isToday ? 'is-today' : ''}" title="${label}: ${count} lượt cày đề">
-          <div class="tvu-bar-track">
-            <div class="tvu-bar-fill" style="height: ${heightPct}%;"></div>
+        <div class="tvu-spark-col ${isToday ? 'is-today' : ''}" title="${label}: ${count} lượt cày đề">
+          <div class="tvu-spark-bar">
+            <div class="tvu-spark-fill" style="height: ${heightPct}%;"></div>
           </div>
-          <span class="tvu-day-label">${label}</span>
+          <span class="tvu-spark-lbl">${label}</span>
         </div>
       `;
     }).join('');
-
-    const summaryEl = document.getElementById('dashActivitySummary');
-    if (summaryEl) {
-      if (totalAttempts > 0) {
-        const avg = Math.round(allScores.reduce((a, b) => a + b, 0) / allScores.length);
-        summaryEl.textContent = `${totalAttempts} lượt • TB: ${(avg / 10).toFixed(1)}/10`;
-      } else {
-        summaryEl.textContent = 'Bắt đầu tuần mới';
-      }
-    }
-
-    const segHigh = document.getElementById('segHigh');
-    const segMid = document.getElementById('segMid');
-    const segLow = document.getElementById('segLow');
-    const masteryText = document.getElementById('dashMasteryText');
-
-    if (allScores.length > 0) {
-      const highCount = allScores.filter(s => s >= 80).length;
-      const midCount = allScores.filter(s => s >= 50 && s < 80).length;
-      const lowCount = allScores.filter(s => s < 50).length;
-      const total = allScores.length;
-
-      const pctHigh = Math.round((highCount / total) * 100);
-      const pctMid = Math.round((midCount / total) * 100);
-      const pctLow = Math.max(0, 100 - pctHigh - pctMid);
-
-      if (segHigh) segHigh.style.width = `${pctHigh}%`;
-      if (segMid) segMid.style.width = `${pctMid}%`;
-      if (segLow) segLow.style.width = `${pctLow}%`;
-      if (masteryText) {
-        masteryText.textContent = `🟢 Vững ${pctHigh}% • 🟡 Cần ôn ${pctMid}%`;
-      }
-    } else {
-      if (segHigh) segHigh.style.width = '75%';
-      if (segMid) segMid.style.width = '20%';
-      if (segLow) segLow.style.width = '5%';
-      if (masteryText) {
-        masteryText.textContent = '🟢 Mục tiêu >=80% khi thi';
-      }
-    }
   }
 
   function renderHomeDashboard() {
     const dash = document.getElementById('tvuHomeDashboard');
     if (!dash) return;
 
-    // 1. Header status & subtitle
-    const statusDot = document.getElementById('dashStatusDot');
-    const isOnline = systemStatusCache.status === 'online';
-    if (statusDot) {
-      statusDot.style.background = isOnline ? '#00d2a0' : '#ffc107';
-      statusDot.style.boxShadow = isOnline ? '0 0 8px #00d2a0' : '0 0 8px #ffc107';
-      statusDot.title = `Trạng thái: ${isOnline ? 'Sẵn sàng' : 'Ngoại tuyến / Chờ kết nối'}`;
-    }
-
-    const subtitleEl = document.getElementById('dashSubtitle');
-    if (subtitleEl) {
-      if (isOnline) {
-        const slotText = systemStatusCache.slot || 'Chiều - Tối (19:00 - 21:00)';
-        const deviceText = systemStatusCache.device || 'MacBook Pro';
-        subtitleEl.textContent = `Khung giờ: ${slotText} • Thiết bị: ${deviceText}`;
-      } else {
-        subtitleEl.textContent = 'Ngoại tuyến • Đang nạp dữ liệu đệm từ máy';
-      }
-    }
-
-    const lastSyncEl = document.getElementById('dashLastSync');
-    if (lastSyncEl) {
-      const now = new Date();
-      const timeStr = `${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}`;
-      lastSyncEl.textContent = `Đồng bộ: ${timeStr}`;
-    }
-
-    // 2. Compute Visual Goal Ring & Stats
+    // 1. Calculate Goal & Stats
     const activeSubjects = new Set(
       eventsCache
         .filter(e => e.subject_id && e.subject_id !== '00')
@@ -622,186 +554,113 @@
     const quizEvt = [...eventsCache].reverse().find(e => e.type === 'quiz_completed');
     const forumEvt = [...eventsCache].reverse().find(e => e.type === 'forum_draft');
 
-    // Calculate Weekly Goal Completion %
     let goalPercent = 40;
     if (quizEvt && forumEvt) goalPercent = 95;
     else if (quizEvt) goalPercent = 70;
     else if (forumEvt) goalPercent = 55;
 
+    // Radial Progress Ring Mini (circumference = 113.1)
     const circle = document.getElementById('ringGoalCircle');
     const percentText = document.getElementById('ringGoalPercent');
-    const circumference = 201.06; // 2 * Math.PI * 32
+    const circumference = 113.1;
     const offset = circumference - (goalPercent / 100) * circumference;
     if (circle) circle.style.strokeDashoffset = offset;
     if (percentText) percentText.textContent = `${goalPercent}%`;
 
-    const goalSlotText = document.getElementById('dashGoalSlotText');
-    if (goalSlotText) {
-      const rawSlot = systemStatusCache.slot || 'Trưa & Tối';
-      goalSlotText.textContent = `Slot: ${rawSlot.split('(')[0].trim()}`;
+    // Quick Stats Inline
+    const statQuiz = document.getElementById('hudStatQuiz');
+    const statForum = document.getElementById('hudStatForum');
+    const statCourses = document.getElementById('hudStatCourses');
+
+    if (statQuiz) {
+      statQuiz.textContent = quizEvt ? (quizEvt.stats?.['Tổng câu'] || '40/40') : 'Sẵn sàng';
+    }
+    if (statForum) {
+      statForum.textContent = forumEvt ? '1/1' : '0/1';
+    }
+    if (statCourses) {
+      statCourses.textContent = `${coursesCount} môn`;
     }
 
-    const kpiQuiz = document.getElementById('dashKpiQuiz');
-    if (kpiQuiz) {
-      kpiQuiz.textContent = quizEvt ? `${quizEvt.stats?.['Tổng câu'] || '40/40'}` : 'Sẵn sàng';
-    }
+    // 2. Render 7-Day Sparkline
+    renderWeeklySparkline();
 
-    const kpiForum = document.getElementById('dashKpiForum');
-    if (kpiForum) {
-      kpiForum.textContent = forumEvt ? '1/1 nháp' : '0/1 bài';
-    }
+    // 3. Render Single Action Line (Chỉ hiển thị khi có sự kiện cần xử lý)
+    const actionRow = document.getElementById('hudActionRow');
+    const actionLeft = document.getElementById('hudActionLeft');
+    const actionBtns = document.getElementById('hudActionBtns');
 
-    const kpiCourses = document.getElementById('dashKpiCourses');
-    if (kpiCourses) {
-      kpiCourses.textContent = `${coursesCount}/3 môn`;
-    }
+    if (actionRow && actionLeft && actionBtns) {
+      // Tìm sự kiện cấp thiết nhất
+      const priorityEvt = quizEvt || forumEvt || [...eventsCache].reverse().find(e => e.type === 'harvest');
 
-    // Render 7-Day Activity Chart & Mastery Strip
-    renderWeeklyActivityChart();
+      if (priorityEvt) {
+        actionRow.style.display = 'flex';
 
-    // Update Collapsed Summary Bar
-    const colPillCourses = document.getElementById('colPillCourses');
-    const colPillQuiz = document.getElementById('colPillQuiz');
-    const colPillForum = document.getElementById('colPillForum');
-    if (colPillCourses) {
-      colPillCourses.textContent = `${coursesCount} môn chu kỳ`;
-    }
-    if (colPillQuiz) {
-      if (quizEvt) {
-        colPillQuiz.className = 'tvu-summary-pill urgent';
-        colPillQuiz.textContent = '1 bài chờ nộp';
-      } else {
-        colPillQuiz.className = 'tvu-summary-pill green';
-        colPillQuiz.textContent = 'LTTN: Ổn định';
-      }
-    }
-    if (colPillForum) {
-      if (forumEvt) {
-        colPillForum.className = 'tvu-summary-pill purple';
-        colPillForum.textContent = '1 bản nháp thảo luận';
-      } else {
-        colPillForum.className = 'tvu-summary-pill';
-        colPillForum.textContent = 'Thảo luận tuần';
-      }
-    }
+        let badgePillClass = 'done';
+        let badgePillText = 'CẬP NHẬT';
 
-    // 3. Render Today's Active Courses List
-    const courseListEl = document.getElementById('dashCourseList');
-    if (courseListEl) {
-      const subjectEvents = eventsCache.filter(e => e.subject_id && e.subject_id !== '00');
-      const displayEvents = subjectEvents.length > 0 ? subjectEvents : eventsCache;
-      const recentEvents = [...displayEvents].reverse().slice(0, 4);
+        if (priorityEvt.type === 'quiz_completed') {
+          badgePillClass = 'urgent';
+          badgePillText = `CẦN NỘP • HẠN 23:59 CN (${getTVUWeeklyDeadline()})`;
+        } else if (priorityEvt.type === 'forum_draft') {
+          badgePillClass = 'done';
+          badgePillText = 'ĐÃ SOẠN BẢN NHÁP';
+        } else if (priorityEvt.type === 'harvest') {
+          badgePillClass = 'done';
+          badgePillText = priorityEvt.stats?.['Câu mới'] ? `+${priorityEvt.stats['Câu mới']}` : 'ĐỀ MỚI';
+        }
 
-      if (recentEvents.length === 0) {
-        courseListEl.innerHTML = '<div class="tg-empty-state" style="padding:16px;">Chưa có hoạt động nào trong phiên hôm nay.</div>';
-      } else {
-        courseListEl.innerHTML = recentEvents.map(evt => {
-          let badgeClass = 'badge-info';
-          let badgeText = 'CẬP NHẬT';
-          let showDeadline = false;
+        const subjectStr = priorityEvt.subject_name ? `<strong>${escapeHTML(priorityEvt.subject_name)}:</strong> ` : '';
+        actionLeft.innerHTML = `
+          <span class="badge-pill ${badgePillClass}">${badgePillText}</span>
+          <span class="action-desc">${subjectStr}${escapeHTML(priorityEvt.title || '')}</span>
+        `;
 
-          if (evt.type === 'quiz_completed') {
-            badgeClass = 'badge-urgent';
-            badgeText = 'CẦN NỘP BÀI';
-            showDeadline = true;
-          } else if (evt.type === 'forum_draft') {
-            badgeClass = 'badge-info';
-            badgeText = 'BÀI THẢO LUẬN';
-            showDeadline = true;
-          } else if (evt.type === 'harvest') {
-            badgeClass = 'badge-done';
-            badgeText = 'THU HOẠCH ĐỀ';
-          }
+        // Render Action Buttons
+        let buttonsHTML = '';
 
-          const deadlineBadge = showDeadline
-            ? `<span class="tvu-dash-badge badge-deadline">${ICONS.clock} Hạn: 23:59 CN (${getTVUWeeklyDeadline()})</span>`
-            : '';
-
-          // Nút Vào ôn ngay trên LearnIZ
-          let practiceBtn = '';
-          if (evt.subject_id && evt.subject_id !== '00') {
-            practiceBtn = `
-              <a href="./quiz.html?id=${escapeHTML(evt.subject_id)}" class="tg-action-btn quick-practice" title="Vào ôn thi trắc nghiệm môn này trên LearnIZ">
-                ${ICONS.bookOpen}
-                <span>Vào ôn ngay</span>
-              </a>
-            `;
-          }
-
-          let actionsHTML = '';
-          if (evt.actions && Array.isArray(evt.actions) && evt.actions.length > 0) {
-            const btns = evt.actions.map(act => {
-              if (act.type === 'copy') {
-                return `
-                  <button class="tg-action-btn primary" data-copy="${escapeHTML(act.copy_text || '')}" title="Sao chép">
-                    ${ICONS.copy}
-                    <span>${escapeHTML(act.label)}</span>
-                  </button>
-                `;
-              } else {
-                return `
-                  <a href="${sanitizeURL(act.url)}" target="_blank" rel="noopener noreferrer" class="tg-action-btn" title="Mở liên kết">
-                    ${ICONS.externalLink}
-                    <span>${escapeHTML(act.label)}</span>
-                  </a>
-                `;
-              }
-            }).join('');
-            actionsHTML = `${practiceBtn}${btns}`;
-          } else {
-            actionsHTML = `
-              ${practiceBtn}
-              <button class="tg-action-btn" data-open-drawer="true" title="Xem luồng sự kiện">
-                ${ICONS.telegram}
-                <span>Chi tiết</span>
-              </button>
-            `;
-          }
-
-          const subjectLabel = evt.subject_name ? `${escapeHTML(evt.subject_name)} — ` : '';
-
-          return `
-            <div class="tvu-dash-course-row">
-              <div class="tvu-dash-course-info">
-                <div class="tvu-dash-course-badge-row">
-                  <span class="tvu-dash-badge ${badgeClass}">${badgeText}</span>
-                  ${deadlineBadge}
-                  <span style="font-size:0.75em; color:var(--muted);">${escapeHTML(evt.time_str || '')}</span>
-                </div>
-                <div class="tvu-dash-course-title">${subjectLabel}${escapeHTML(evt.title || '')}</div>
-                <div class="tvu-dash-course-desc">${escapeHTML(evt.message || '')}</div>
-              </div>
-              <div class="tvu-dash-course-actions">
-                ${actionsHTML}
-              </div>
-            </div>
+        if (priorityEvt.subject_id && priorityEvt.subject_id !== '00') {
+          buttonsHTML += `
+            <a href="./quiz.html?id=${escapeHTML(priorityEvt.subject_id)}" class="tvu-btn-pill primary" title="Vào ôn thi ngay">
+              ${ICONS.bookOpen}
+              <span>Vào ôn</span>
+            </a>
           `;
-        }).join('');
+        }
 
-        // Attach listeners for copy & drawer
-        courseListEl.querySelectorAll('[data-copy]').forEach(btn => {
+        if (priorityEvt.actions && Array.isArray(priorityEvt.actions)) {
+          priorityEvt.actions.forEach(act => {
+            if (act.type === 'copy') {
+              buttonsHTML += `
+                <button class="tvu-btn-pill" data-copy="${escapeHTML(act.copy_text || '')}" title="Sao chép">
+                  ${ICONS.copy}
+                  <span>${escapeHTML(act.label)}</span>
+                </button>
+              `;
+            } else {
+              buttonsHTML += `
+                <a href="${sanitizeURL(act.url)}" target="_blank" rel="noopener noreferrer" class="tvu-btn-pill" title="Mở liên kết">
+                  ${ICONS.externalLink}
+                  <span>${escapeHTML(act.label)}</span>
+                </a>
+              `;
+            }
+          });
+        }
+
+        actionBtns.innerHTML = buttonsHTML;
+
+        // Attach copy listener
+        actionBtns.querySelectorAll('[data-copy]').forEach(btn => {
           btn.addEventListener('click', function () {
             const text = this.getAttribute('data-copy');
             copyToClipboard(text, this);
           });
         });
 
-        courseListEl.querySelectorAll('[data-open-drawer]').forEach(btn => {
-          btn.addEventListener('click', openDrawer);
-        });
-      }
-    }
-
-    // 4. Render Personal Study Bar
-    const personalBar = document.getElementById('dashPersonalBar');
-    if (personalBar) {
-      const stats = getPersonalStudyStats();
-      const attemptsEl = document.getElementById('personalAttempts');
-      const avgScoreEl = document.getElementById('personalAvgScore');
-      if (attemptsEl) attemptsEl.textContent = stats.attemptsText;
-      if (avgScoreEl) {
-        avgScoreEl.textContent = stats.avgScoreText;
-        avgScoreEl.className = stats.colorClass;
+      } else {
+        actionRow.style.display = 'none';
       }
     }
   }
@@ -814,20 +673,6 @@
         fetchEvents(true).finally(() => {
           setTimeout(() => refreshBtn.classList.remove('spinning'), 400);
         });
-      });
-    }
-
-    const toggleBtn = document.getElementById('dashToggleBtn');
-    if (toggleBtn) {
-      toggleBtn.addEventListener('click', () => {
-        const dash = document.getElementById('tvuHomeDashboard');
-        if (!dash) return;
-        const isCurrentlyCollapsed = dash.classList.contains('is-collapsed');
-        const willCollapse = !isCurrentlyCollapsed;
-        dash.classList.toggle('is-collapsed', willCollapse);
-        toggleBtn.innerHTML = willCollapse ? ICONS.chevronDown : ICONS.chevronUp;
-        localStorage.setItem(STORAGE_KEY_COLLAPSED, willCollapse ? 'true' : 'false');
-        triggerHaptic(15);
       });
     }
 
@@ -852,16 +697,6 @@
       } catch (_) {}
     }
     injectDOM();
-
-    // Khôi phục trạng thái thu gọn từ localStorage
-    const isSavedCollapsed = localStorage.getItem(STORAGE_KEY_COLLAPSED) === 'true';
-    const dash = document.getElementById('tvuHomeDashboard');
-    const toggleBtn = document.getElementById('dashToggleBtn');
-    if (dash && isSavedCollapsed) {
-      dash.classList.add('is-collapsed');
-      if (toggleBtn) toggleBtn.innerHTML = ICONS.chevronDown;
-    }
-
     setupHomeDashboardListeners();
     fetchEvents();
     setInterval(() => fetchEvents(false), POLL_INTERVAL);
