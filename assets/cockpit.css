@@ -602,35 +602,86 @@
 }
 
 /* ==============================================================================
-   CLEAN & CLEAR TVU DASHBOARD (Zero Border, Pure Minimalist, Subject-Oriented)
+   GLOBAL EDTECH TVU DASHBOARD (Zero Border, Dual Visual Charts, Minimalist HUD)
    ============================================================================== */
 .tvu-dashboard {
+  background: transparent;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 4px 2px 16px 2px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* 1. BIỂU ĐỒ TỔNG THỂ: RADIAL RING + SEGMENTED BAR */
+.tvu-overall-chart-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
   background: rgba(22, 22, 38, 0.45);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: none !important;
-  box-shadow: none !important;
   border-radius: 14px;
   padding: 14px 16px;
-  margin-bottom: 24px;
-  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+  border: none !important;
 }
 
-/* 1. Tiến độ tổng thể chương trình */
-.tvu-curriculum-header {
+/* Vòng Radial Ring Apple Fitness Style (54px) */
+.tvu-radial-ring-wrap {
+  width: 54px;
+  height: 54px;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.tvu-radial-svg {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+
+.tvu-radial-bg {
+  stroke: rgba(255, 255, 255, 0.08);
+}
+
+.tvu-radial-progress {
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.tvu-radial-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1;
+}
+
+.tvu-radial-center .radial-val {
+  font-size: 0.82em;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+/* Khối thông số & Segmented Bar */
+.tvu-curriculum-body {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+  min-width: 0;
+}
+
+.tvu-curriculum-title-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
-}
-
-.tvu-curriculum-left {
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
+  gap: 8px;
 }
 
 .tvu-curriculum-badge {
@@ -653,59 +704,87 @@
   display: inline-block;
 }
 
-.tvu-curriculum-stats {
-  font-size: 1.12em;
+.tvu-curriculum-numbers {
+  font-size: 1.05em;
   font-weight: 800;
   color: #ffffff;
+}
+
+.tvu-curriculum-numbers .num-highlight {
+  color: #00d2a0;
+  font-size: 1.2em;
+}
+
+/* Thanh phân khúc 11 môn học (GitHub style Segmented Bar) */
+.tvu-segmented-bar {
   display: flex;
   align-items: center;
-  gap: 8px;
-}
-
-.tvu-curriculum-stats .stat-highlight {
-  color: #00d2a0;
-  font-size: 1.25em;
-}
-
-.tvu-curriculum-stats .stat-pct-badge {
-  font-size: 0.72em;
-  font-weight: 800;
-  padding: 2px 7px;
-  border-radius: 6px;
-  background: rgba(0, 210, 160, 0.15);
-  color: #00d2a0;
-  border: 1px solid rgba(0, 210, 160, 0.3);
-}
-
-.tvu-curriculum-actions {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-
-/* Thanh tiến độ tổng thể */
-.tvu-progress-bar-wrap {
+  gap: 3px;
   width: 100%;
-  height: 6px;
-  background: rgba(255, 255, 255, 0.08);
+  height: 7px;
   border-radius: 99px;
   overflow: hidden;
+  background: rgba(255, 255, 255, 0.04);
 }
 
-.tvu-progress-bar-fill {
+.tvu-seg-unit {
+  flex: 1;
   height: 100%;
-  border-radius: 99px;
-  background: linear-gradient(90deg, #00d2a0, #a29bfe);
-  box-shadow: 0 0 10px rgba(0, 210, 160, 0.5);
-  transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 2px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: relative;
 }
 
-/* 2. Tiến độ từng môn đang học */
+.tvu-seg-unit.done {
+  background: #00d2a0;
+  box-shadow: 0 0 6px rgba(0, 210, 160, 0.5);
+}
+
+.tvu-seg-unit.active {
+  background: #a29bfe;
+  box-shadow: 0 0 5px rgba(162, 155, 254, 0.4);
+}
+
+.tvu-seg-unit.todo {
+  background: rgba(255, 255, 255, 0.09);
+}
+
+.tvu-seg-unit:hover {
+  transform: scaleY(1.4);
+}
+
+/* Legend Chú thích thanh phân khúc */
+.tvu-segmented-legend {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.68em;
+  font-weight: 600;
+  color: var(--muted, rgba(255, 255, 255, 0.5));
+}
+
+.legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.legend-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.legend-dot.green { background: #00d2a0; }
+.legend-dot.purple { background: #a29bfe; }
+.legend-dot.gray { background: rgba(255, 255, 255, 0.2); }
+
+/* 2. BIỂU ĐỒ TỪNG MÔN ĐANG HỌC: LEARNING CURVE SPARK-BARS */
 .tvu-active-section {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  margin-top: 4px;
 }
 
 .tvu-active-header {
@@ -733,7 +812,7 @@
   gap: 6px;
 }
 
-/* Từng môn đang học (Single Surface, không viền hộp) */
+/* Từng môn đang học (Single Surface, không viền) */
 .tvu-active-item {
   display: flex;
   align-items: center;
@@ -754,7 +833,7 @@
 .tvu-active-info {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 5px;
   flex: 1;
   min-width: 0;
 }
@@ -790,38 +869,60 @@
   color: var(--secondary, #a29bfe);
 }
 
+/* Đồ thị phong độ cột mini (Learning Curve Spark-bars) */
 .tvu-active-meta {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
+}
+
+.tvu-spark-curve {
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 3px;
+  height: 20px;
+  padding: 0 1px;
+}
+
+.tvu-spark-bar-unit {
+  width: 5px;
+  height: 18px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 2px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.tvu-spark-bar-fill {
+  width: 100%;
+  border-radius: 2px;
+  background: #00d2a0;
+  transition: height 0.4s ease;
+}
+
+.tvu-spark-bar-fill.high { background: #00d2a0; }
+.tvu-spark-bar-fill.mid { background: #fbc531; }
+.tvu-spark-bar-fill.low { background: #ff6b6b; }
+.tvu-spark-bar-fill.empty { background: rgba(255, 255, 255, 0.12); }
+
+.tvu-spark-bar-unit.is-latest {
+  box-shadow: 0 0 5px rgba(0, 210, 160, 0.4);
+}
+
+.tvu-meta-text {
   font-size: 0.76em;
   color: var(--muted, rgba(255, 255, 255, 0.6));
 }
 
-.tvu-active-meta .meta-score {
+.tvu-meta-text .score-val {
   font-weight: 700;
 }
-.tvu-active-meta .meta-score.high { color: #00d2a0; }
-.tvu-active-meta .meta-score.mid { color: #fbc531; }
-.tvu-active-meta .meta-score.low { color: #ff6b6b; }
+.tvu-meta-text .score-val.high { color: #00d2a0; }
+.tvu-meta-text .score-val.mid { color: #fbc531; }
+.tvu-meta-text .score-val.low { color: #ff6b6b; }
 
-.tvu-mini-bar-wrap {
-  width: 50px;
-  height: 4px;
-  background: rgba(255, 255, 255, 0.08);
-  border-radius: 99px;
-  overflow: hidden;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.tvu-mini-bar-fill {
-  height: 100%;
-  border-radius: 99px;
-  background: #00d2a0;
-}
-
-/* Nút hành động cho từng môn */
+/* Nút hành động */
 .tvu-active-actions {
   display: flex;
   align-items: center;
@@ -1016,12 +1117,23 @@
 /* Mobile Optimizations */
 @media (max-width: 640px) {
   .tvu-dashboard {
-    padding: 12px 10px;
-    margin-bottom: 16px;
-    gap: 10px;
+    padding: 2px 0 12px 0;
+    gap: 12px;
   }
-  .tvu-curriculum-stats {
-    font-size: 1.02em;
+  .tvu-overall-chart-row {
+    padding: 12px 10px;
+    gap: 12px;
+  }
+  .tvu-radial-ring-wrap {
+    width: 48px;
+    height: 48px;
+  }
+  .tvu-curriculum-numbers {
+    font-size: 0.95em;
+  }
+  .tvu-segmented-legend {
+    gap: 8px;
+    font-size: 0.62em;
   }
   .tvu-active-item {
     padding: 8px 10px;
@@ -1031,11 +1143,7 @@
     font-size: 0.88em;
   }
   .tvu-active-meta {
-    font-size: 0.72em;
     gap: 6px;
-  }
-  .tvu-mini-bar-wrap {
-    width: 36px;
   }
   .tvu-active-actions {
     gap: 4px;
