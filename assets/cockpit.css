@@ -410,10 +410,12 @@
 
 /* Message Bubble Cards */
 .tg-card {
-  background: rgba(24, 24, 43, 0.95);
+  background: rgba(30, 30, 53, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   border: 1px solid var(--border, rgba(255, 255, 255, 0.08));
   border-radius: 14px;
-  padding: 14px 16px;
+  padding: 15px 16px;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -423,20 +425,34 @@
 
 .tg-card:hover {
   background: var(--surface-hover, #252545);
-  border-color: rgba(162, 155, 254, 0.3);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  transform: translateY(-1px);
 }
 
 .tg-card.priority-high {
-  border-left: 3px solid #ff6b6b;
+  border: 1px solid rgba(255, 107, 107, 0.32);
+}
+
+.tg-card.priority-high:hover {
+  border-color: rgba(255, 107, 107, 0.55);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3), 0 0 12px rgba(255, 107, 107, 0.15);
 }
 
 .tg-card.priority-normal {
-  border-left: 3px solid #00d2a0;
+  border: 1px solid rgba(0, 210, 160, 0.32);
+}
+
+.tg-card.priority-normal:hover {
+  border-color: rgba(0, 210, 160, 0.55);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3), 0 0 12px rgba(0, 210, 160, 0.15);
 }
 
 .tg-card.priority-low {
-  border-left: 3px solid var(--secondary, #a29bfe);
+  border: 1px solid rgba(162, 155, 254, 0.3);
+}
+
+.tg-card.priority-low:hover {
+  border-color: var(--secondary, #a29bfe);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3), 0 0 12px rgba(108, 92, 231, 0.15);
 }
 
 .tg-card-header {
