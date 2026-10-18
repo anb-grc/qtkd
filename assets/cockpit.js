@@ -478,12 +478,20 @@
       const percent = typeof lastAttempt.percent === 'number' 
         ? lastAttempt.percent 
         : Math.round(((lastAttempt.score || 0) / (lastAttempt.total || 1)) * 100);
+      
+      const recentAttempts = history.slice(-5).map(h => ({
+        score: h.score || 0,
+        total: h.total || 0,
+        percent: typeof h.percent === 'number' ? h.percent : Math.round(((h.score || 0) / (h.total || 1)) * 100)
+      }));
+
       return {
         hasData: true,
         attempts: history.length,
         lastScore: lastAttempt.score || 0,
         lastTotal: lastAttempt.total || 0,
         lastPercent: percent,
+        recentAttempts: recentAttempts,
         isCompleted: isCompleted,
         lastOpened: lastOpened
       };
@@ -495,6 +503,7 @@
       lastScore: 0,
       lastTotal: 0,
       lastPercent: 0,
+      recentAttempts: [],
       isCompleted: isCompleted,
       lastOpened: lastOpened
     };
@@ -507,18 +516,23 @@
     const subjects = window.TVU_SUBJECTS || [];
     const totalCount = subjects.length;
 
-    // Phân loại môn: Đã hoàn thành vs Đang học
+    // Phân loại môn: Đã hoàn thành vs Đang học vs Chưa học
     const completedList = [];
     const activeList = [];
+    let activeStudyingCount = 0;
+    let notStartedCount = 0;
 
-    subjects.forEach(sub => {
+    const subjectsWithProg = subjects.map(sub => {
       const prog = getSubjectProgress(sub);
       const item = { subject: sub, progress: prog };
       if (prog.isCompleted) {
         completedList.push(item);
       } else {
         activeList.push(item);
+        if (prog.hasData) activeStudyingCount++;
+        else notStartedCount++;
       }
+      return item;
     });
 
     // Sắp xếp môn đang học: ưu tiên môn có tương tác gần nhất
@@ -529,23 +543,56 @@
       return parseInt(a.subject.id) - parseInt(b.subject.id);
     });
 
-    // 1. Cập nhật tiến độ tổng thể chương trình
+    // 1. BIỂU ĐỒ TỔNG THỂ: Cập nhật Radial Ring & Segmented Bar
     const completedCount = completedList.length;
     const completedPct = totalCount > 0 ? Math.round((completedCount / totalCount) * 100) : 0;
 
     const elCompCount = document.getElementById('dashCompletedCount');
     const elTotalCount = document.getElementById('dashTotalCount');
     const elCompPct = document.getElementById('dashCompletedPercent');
-    const elBar = document.getElementById('dashOverallBar');
     const elActiveCount = document.getElementById('dashActiveCount');
+    const elRadialCircle = document.getElementById('dashRadialCircle');
 
     if (elCompCount) elCompCount.textContent = completedCount;
     if (elTotalCount) elTotalCount.textContent = totalCount;
     if (elCompPct) elCompPct.textContent = `${completedPct}%`;
-    if (elBar) elBar.style.width = `${completedPct}%`;
     if (elActiveCount) elActiveCount.textContent = activeList.length;
 
-    // 2. Render danh sách môn đang học (Môn học xong tự động ẩn)
+    // Vẽ Vòng SVG Radial Ring (Chu vi = 138.2)
+    if (elRadialCircle) {
+      const circumference = 138.2;
+      const offset = circumference - (completedPct / 100) * circumference;
+      elRadialCircle.style.strokeDashoffset = offset;
+    }
+
+    // Vẽ Thanh phân khúc Segmented Bar (11 đoạn đại diện cho 11 môn)
+    const segContainer = document.getElementById('dashSegmentedBar');
+    if (segContainer) {
+      segContainer.innerHTML = subjectsWithProg.map(({ subject, progress }) => {
+        let statusClass = 'todo';
+        let tooltip = `${subject.name}: Chưa bắt đầu`;
+        if (progress.isCompleted) {
+          statusClass = 'done';
+          tooltip = `${subject.name}: Đã học xong`;
+        } else if (progress.hasData) {
+          statusClass = 'active';
+          tooltip = `${subject.name}: Đang học (${progress.lastPercent}%)`;
+        }
+        return `
+          <div class="tvu-seg-unit ${statusClass}" title="${escapeHTML(tooltip)}" onclick="window.location.href='./quiz.html?id=${subject.id}'"></div>
+        `;
+      }).join('');
+    }
+
+    // Chú thích phân khúc
+    const elLegDone = document.getElementById('legDoneCount');
+    const elLegActive = document.getElementById('legActiveCount');
+    const elLegTodo = document.getElementById('legTodoCount');
+    if (elLegDone) elLegDone.textContent = completedCount;
+    if (elLegActive) elLegActive.textContent = activeStudyingCount;
+    if (elLegTodo) elLegTodo.textContent = notStartedCount;
+
+    // 2. BIỂU ĐỒ TỪNG MÔN: Render danh sách môn đang học kèm Đồ thị phong độ
     const activeContainer = document.getElementById('tvuActiveSubjectsList');
     if (activeContainer) {
       if (activeList.length === 0) {
@@ -557,15 +604,35 @@
       } else {
         activeContainer.innerHTML = activeList.map(({ subject, progress }) => {
           let scoreText = '';
-          let scoreClass = 'low';
-          let barWidth = 0;
+          let sparkBarsHtml = '';
 
-          if (progress.hasData) {
-            barWidth = Math.min(100, Math.max(5, progress.lastPercent));
-            scoreClass = progress.lastPercent >= 80 ? 'high' : (progress.lastPercent >= 50 ? 'mid' : 'low');
-            scoreText = `Điểm: <span class="meta-score ${scoreClass}">${progress.lastScore}/${progress.lastTotal} (${progress.lastPercent}%)</span> • ${progress.attempts} lượt ôn`;
+          if (progress.hasData && progress.recentAttempts.length > 0) {
+            const lastPct = progress.lastPercent;
+            const scoreClass = lastPct >= 80 ? 'high' : (lastPct >= 50 ? 'mid' : 'low');
+            scoreText = `Gần nhất: <span class="score-val ${scoreClass}">${progress.lastScore}/${progress.lastTotal} (${lastPct}%)</span> • ${progress.attempts} lượt thi`;
+
+            // Vẽ 4-5 cột đồ thị phong độ (Learning Curve)
+            const attempts = progress.recentAttempts;
+            sparkBarsHtml = attempts.map((att, idx) => {
+              const isLatest = idx === attempts.length - 1;
+              const barHeight = Math.min(100, Math.max(18, att.percent));
+              const colorClass = att.percent >= 80 ? 'high' : (att.percent >= 50 ? 'mid' : 'low');
+              return `
+                <div class="tvu-spark-bar-unit ${isLatest ? 'is-latest' : ''}" title="Lần ${idx + 1}: ${att.score}/${att.total} (${att.percent}%)">
+                  <div class="tvu-spark-bar-fill ${colorClass}" style="height: ${barHeight}%;"></div>
+                </div>
+              `;
+            }).join('');
+
           } else {
-            scoreText = 'Chưa thi thử';
+            scoreText = '<span class="score-val">Chưa thi thử</span>';
+            // Render 4 vạch mờ đồng đều khi chưa có dữ liệu
+            sparkBarsHtml = `
+              <div class="tvu-spark-bar-unit"><div class="tvu-spark-bar-fill empty" style="height: 20%;"></div></div>
+              <div class="tvu-spark-bar-unit"><div class="tvu-spark-bar-fill empty" style="height: 20%;"></div></div>
+              <div class="tvu-spark-bar-unit"><div class="tvu-spark-bar-fill empty" style="height: 20%;"></div></div>
+              <div class="tvu-spark-bar-unit"><div class="tvu-spark-bar-fill empty" style="height: 20%;"></div></div>
+            `;
           }
 
           return `
@@ -578,10 +645,12 @@
                   </a>
                 </div>
                 <div class="tvu-active-meta">
-                  <span class="tvu-mini-bar-wrap">
-                    <span class="tvu-mini-bar-fill" style="width: ${barWidth}%;"></span>
-                  </span>
-                  <span>${scoreText}</span>
+                  <div class="tvu-spark-curve" title="Biểu đồ phong độ điểm các lần thi gần nhất">
+                    ${sparkBarsHtml}
+                  </div>
+                  <div class="tvu-meta-text">
+                    ${scoreText}
+                  </div>
                 </div>
               </div>
               <div class="tvu-active-actions">
