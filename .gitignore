@@ -5,5 +5,11 @@ staging/
 scratch/*
 !scratch/cleanup.py
 !scratch/process_oneshot.py
+!scratch/sync_tvu_lms.py
+scratch/telegram_config.json
+scratch/lms_auth_state.json
+scratch/*.lock
+scratch/*.log
+scratch/sync_schedule_state.json
 .DS_Store
 *.zip

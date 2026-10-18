@@ -1,4 +1,4 @@
-const CACHE_NAME = 'learniz-cache-v107';
+const CACHE_NAME = 'learniz-cache-v108';
 const DYNAMIC_CACHE = 'learniz-dynamic-v26';
 
 const PRECACHE_URLS = [
@@ -9,6 +9,8 @@ const PRECACHE_URLS = [
   './assets/style.css',
   './assets/config.js',
   './assets/app.js',
+  './assets/cockpit.css',
+  './assets/cockpit.js',
   './assets/icons/icon-192.png',
   './assets/icons/icon-512.png',
   './assets/icons/apple-touch-icon.png'
@@ -42,7 +44,8 @@ self.addEventListener('fetch', event => {
   
   // Với các file HTML hoặc JSON, ưu tiên lấy từ Network (để luôn cập nhật mới nhất)
   // Nếu mất mạng thì fallback về Cache
-  if (event.request.headers.get('accept').includes('text/html') || event.request.url.includes('.json')) {
+  const acceptHeader = event.request.headers.get('accept') || '';
+  if (acceptHeader.includes('text/html') || event.request.url.includes('.json')) {
     event.respondWith(
       fetch(event.request).then(response => {
         const responseClone = response.clone();
