@@ -1,0 +1,96 @@
+{
+  "last_updated": "2026-10-18T16:20:00+07:00",
+  "bot_username": "LearnIZ_TVU_Bot",
+  "system_status": {
+    "status": "online",
+    "slot": "Chiều - Tối (19:00 - 21:00)",
+    "device": "MacBook Pro",
+    "battery": "100% (Đang cắm sạc)",
+    "active_lock": false
+  },
+  "events": [
+    {
+      "id": "evt-1792252475101",
+      "timestamp": "2026-10-18T06:00:15+07:00",
+      "time_str": "06:00",
+      "type": "system",
+      "priority": "low",
+      "subject_id": "00",
+      "subject_name": "Hệ thống Điều phối",
+      "title": "Khởi động phiên làm việc",
+      "message": "Đã kích hoạt chu kỳ buổi sáng. Kiểm tra kết nối mạng và pin: Ổn định.",
+      "stats": {
+        "Khung giờ": "Sáng (06:00 - 09:00)",
+        "Nguồn": "Cắm sạc"
+      }
+    },
+    {
+      "id": "evt-1792252475102",
+      "timestamp": "2026-10-18T08:45:22+07:00",
+      "time_str": "08:45",
+      "type": "harvest",
+      "priority": "normal",
+      "subject_id": "17",
+      "subject_name": "Marketing căn bản",
+      "title": "Thu hoạch câu hỏi mới",
+      "message": "Đã bóc tách và làm sạch +12 câu trắc nghiệm mới từ LMS, đồng bộ vào kho qs.json.",
+      "stats": {
+        "Câu mới": "+12 câu",
+        "Tổng kho": "248 câu"
+      },
+      "actions": [
+        {
+          "label": "Xem môn học",
+          "url": "./quiz.html?id=17",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "id": "evt-1792252475103",
+      "timestamp": "2026-10-18T12:15:10+07:00",
+      "time_str": "12:15",
+      "type": "forum_draft",
+      "priority": "normal",
+      "subject_id": "14",
+      "subject_name": "Kinh tế vi mô",
+      "title": "Soạn sẵn bài thảo luận tuần 3",
+      "message": "Đã chuẩn bị bản nháp trả lời thảo luận LMS sạch sẽ trong thư mục môn học, sẵn sàng dán nộp.",
+      "actions": [
+        {
+          "label": "Mở diễn đàn LMS",
+          "url": "https://lms.tvu.edu.vn",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "id": "evt-1792252475104",
+      "timestamp": "2026-10-18T12:35:48+07:00",
+      "time_str": "12:35",
+      "type": "quiz_completed",
+      "priority": "high",
+      "subject_id": "18",
+      "subject_name": "Chủ nghĩa xã hội khoa học",
+      "title": "Đã hoàn thành bài làm - Chờ lệnh nộp",
+      "message": "Đã chọn đáp án 40/40 câu. Thời gian ngẫu nhiên 18 phút 42 giây (đạt chuẩn >= 1/4 tổng thời lượng).",
+      "stats": {
+        "Dự kiến": "39/40 (97.5%)",
+        "Thời gian": "18m 42s",
+        "Khung giờ": "Trưa"
+      },
+      "actions": [
+        {
+          "label": "Mở trang bài làm TVU",
+          "url": "https://lms.tvu.edu.vn",
+          "type": "link"
+        },
+        {
+          "label": "Copy lệnh xác nhận",
+          "copy_text": "/submit_18_confirm",
+          "type": "copy"
+        }
+      ]
+    }
+  ]
+}
