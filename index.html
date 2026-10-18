@@ -28,7 +28,7 @@
   <link rel="apple-touch-startup-image" href="./assets/splash/splash-1170x2532.png" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
   <link rel="apple-touch-startup-image" href="./assets/splash/splash-1125x2436.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
   <link rel="apple-touch-startup-image" href="./assets/splash/splash-828x1792.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
-  <link rel="stylesheet" href="./assets/cockpit.css?v=4">
+  <link rel="stylesheet" href="./assets/cockpit.css?v=5">
   <style>
   :root {
     /* === Dark Mode Tokens (Kỷ Nguyên 34 Component) === */
@@ -154,27 +154,68 @@
         <span class="tvu-summary-pill" id="colPillForum">Thảo luận</span>
       </div>
 
-      <!-- 4 KPI TILES -->
-      <div class="tvu-dash-grid">
-        <div class="tvu-kpi-tile">
-          <div class="tvu-kpi-label">Môn học chu kỳ</div>
-          <div class="tvu-kpi-val" id="dashKpiCourses">--</div>
-          <div class="tvu-kpi-sub" id="dashKpiSlot">Slot: Đang tải...</div>
+      <!-- VISUAL CHARTS GRID (2 Compact Visual Cards) -->
+      <div class="tvu-dash-visual-grid" id="dashVisualGrid">
+        <!-- Card 1: Tiến độ Tuần (Radial Goal Ring) -->
+        <div class="tvu-visual-card">
+          <div class="tvu-card-label-row">
+            <span>MỤC TIÊU TUẦN TVU</span>
+            <span id="dashGoalSlotText" style="color:var(--secondary); font-size: 0.9em;">Slot: Trưa & Tối</span>
+          </div>
+          <div class="tvu-ring-container">
+            <div class="tvu-ring-svg-wrap">
+              <svg viewBox="0 0 80 80">
+                <defs>
+                  <linearGradient id="tvuGoalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#00d2a0" />
+                    <stop offset="100%" stop-color="#a29bfe" />
+                  </linearGradient>
+                </defs>
+                <circle cx="40" cy="40" r="32" class="tvu-ring-bg" stroke-width="6" fill="none" />
+                <circle cx="40" cy="40" r="32" class="tvu-ring-progress" id="ringGoalCircle" stroke="url(#tvuGoalGrad)" stroke-width="6" stroke-dasharray="201.06" stroke-dashoffset="60" fill="none" />
+              </svg>
+              <div class="tvu-ring-text">
+                <span class="tvu-ring-val" id="ringGoalPercent">--%</span>
+                <span class="tvu-ring-unit">Tiến độ</span>
+              </div>
+            </div>
+            <div class="tvu-ring-legend">
+              <div class="tvu-legend-item">
+                <span><i class="legend-dot green"></i>Trắc nghiệm:</span>
+                <strong id="dashKpiQuiz">--</strong>
+              </div>
+              <div class="tvu-legend-item">
+                <span><i class="legend-dot purple"></i>Thảo luận:</span>
+                <strong id="dashKpiForum">--</strong>
+              </div>
+              <div class="tvu-legend-item">
+                <span><i class="legend-dot blue"></i>Môn chu kỳ:</span>
+                <strong id="dashKpiCourses">--</strong>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="tvu-kpi-tile">
-          <div class="tvu-kpi-label">Trắc nghiệm LTTN</div>
-          <div class="tvu-kpi-val highlight-green" id="dashKpiQuiz">--</div>
-          <div class="tvu-kpi-sub" id="dashKpiQuizSub">Ước tính: --</div>
-        </div>
-        <div class="tvu-kpi-tile">
-          <div class="tvu-kpi-label">Bài thảo luận tuần</div>
-          <div class="tvu-kpi-val highlight-purple" id="dashKpiForum">--</div>
-          <div class="tvu-kpi-sub" id="dashKpiForumSub">Trạng thái: --</div>
-        </div>
-        <div class="tvu-kpi-tile">
-          <div class="tvu-kpi-label">Thu hoạch đề mới</div>
-          <div class="tvu-kpi-val highlight-amber" id="dashKpiHarvest">--</div>
-          <div class="tvu-kpi-sub" id="dashKpiTotalQs">Tổng kho: --</div>
+
+        <!-- Card 2: Nhịp cày đề 7 ngày & Phân bổ điểm -->
+        <div class="tvu-visual-card">
+          <div class="tvu-card-label-row">
+            <span>NHỊP ĐỘ ÔN TẬP 7 NGÀY</span>
+            <span id="dashActivitySummary" style="color:var(--text); font-weight:700;">--</span>
+          </div>
+          <div class="tvu-bars-wrap" id="dashWeeklyBars">
+            <!-- 7 thanh ngày T2 -> CN được render từ JS -->
+          </div>
+          <div>
+            <div class="tvu-mastery-strip" id="dashMasteryStrip">
+              <div class="mastery-seg green" id="segHigh" style="width: 70%;" title="Điểm >=80%"></div>
+              <div class="mastery-seg yellow" id="segMid" style="width: 20%;" title="Điểm 50-79%"></div>
+              <div class="mastery-seg red" id="segLow" style="width: 10%;" title="Điểm <50%"></div>
+            </div>
+            <div class="tvu-mastery-sub" style="margin-top: 4px;">
+              <span>Phân bổ điểm:</span>
+              <span id="dashMasteryText">🟢 Vững --% • 🟡 Cần ôn --%</span>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -312,6 +353,6 @@
         });
     });
   </script>
-  <script src="./assets/cockpit.js?v=3"></script>
+  <script src="./assets/cockpit.js?v=4"></script>
 </body>
 </html>

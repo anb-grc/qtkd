@@ -692,62 +692,244 @@
   transform: translateY(-1px);
 }
 
-/* 4 KPI Metric Cards */
-.tvu-dash-grid {
+/* ==============================================================================
+   COMPACT VISUAL CHARTS GRID (Mobile-First, Pure SVG)
+   ============================================================================== */
+.tvu-dash-visual-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 1fr 1.15fr;
   gap: 12px;
-  margin-bottom: 22px;
+  margin-bottom: 16px;
 }
 
 @media (max-width: 680px) {
-  .tvu-dash-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
   .tvu-dashboard {
-    padding: 18px 16px;
+    padding: 14px 14px;
+    margin-bottom: 20px;
+  }
+  .tvu-dash-header {
+    margin-bottom: 12px;
+  }
+  .tvu-dash-title {
+    font-size: 0.95em;
+  }
+  .tvu-dash-subtitle {
+    font-size: 0.78em;
+  }
+  .tvu-dash-icon {
+    width: 34px;
+    height: 34px;
+  }
+  .tvu-dash-icon svg {
+    width: 18px;
+    height: 18px;
+  }
+  .tvu-dash-visual-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-bottom: 14px;
+  }
+  .tvu-dash-course-row {
+    padding: 10px 12px;
   }
 }
 
-.tvu-kpi-tile {
-  background: rgba(15, 15, 26, 0.6);
+.tvu-visual-card {
+  background: rgba(15, 15, 26, 0.65);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 12px;
-  padding: 14px 16px;
+  padding: 12px 14px;
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  justify-content: space-between;
+  gap: 8px;
   transition: all 0.2s;
 }
 
-.tvu-kpi-tile:hover {
-  border-color: rgba(162, 155, 254, 0.3);
-  background: rgba(24, 24, 43, 0.8);
+.tvu-visual-card:hover {
+  border-color: rgba(162, 155, 254, 0.25);
+  background: rgba(22, 22, 38, 0.75);
 }
 
-.tvu-kpi-label {
-  font-size: 0.76em;
+.tvu-card-label-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.74em;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   color: var(--muted, rgba(255, 255, 255, 0.6));
 }
 
-.tvu-kpi-val {
-  font-size: 1.35em;
+.tvu-card-label-row span {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Card 1: Radial Goal Ring */
+.tvu-ring-container {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.tvu-ring-svg-wrap {
+  width: 76px;
+  height: 76px;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.tvu-ring-svg-wrap svg {
+  transform: rotate(-90deg);
+  width: 100%;
+  height: 100%;
+}
+
+.tvu-ring-bg {
+  stroke: rgba(255, 255, 255, 0.08);
+}
+
+.tvu-ring-progress {
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.tvu-ring-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1;
+}
+
+.tvu-ring-val {
+  font-size: 1.15em;
   font-weight: 800;
   color: #ffffff;
-  line-height: 1.2;
 }
 
-.tvu-kpi-val.highlight-green { color: #00d2a0; }
-.tvu-kpi-val.highlight-purple { color: #a29bfe; }
-.tvu-kpi-val.highlight-amber { color: #ffc107; }
+.tvu-ring-unit {
+  font-size: 0.62em;
+  font-weight: 600;
+  color: var(--muted, rgba(255, 255, 255, 0.6));
+  margin-top: 2px;
+}
 
-.tvu-kpi-sub {
-  font-size: 0.8em;
+.tvu-ring-legend {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex: 1;
+  min-width: 0;
+}
+
+.tvu-legend-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.78em;
   color: var(--muted, rgba(255, 255, 255, 0.7));
 }
+
+.tvu-legend-item strong {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.legend-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+  flex-shrink: 0;
+}
+.legend-dot.green { background: #00d2a0; box-shadow: 0 0 5px #00d2a0; }
+.legend-dot.purple { background: #a29bfe; box-shadow: 0 0 5px #a29bfe; }
+.legend-dot.blue { background: #2AABEE; box-shadow: 0 0 5px #2AABEE; }
+
+/* Card 2: 7-Day Mini Bar Chart & Mastery */
+.tvu-bars-wrap {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 6px;
+  height: 48px;
+  padding: 2px 2px 0;
+}
+
+.tvu-day-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  flex: 1;
+}
+
+.tvu-bar-track {
+  width: 100%;
+  max-width: 14px;
+  height: 32px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.tvu-bar-fill {
+  width: 100%;
+  border-radius: 4px;
+  background: rgba(162, 155, 254, 0.4);
+  transition: height 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.tvu-day-col.is-today .tvu-bar-fill {
+  background: linear-gradient(180deg, #00d2a0, #2AABEE);
+  box-shadow: 0 0 8px rgba(0, 210, 160, 0.4);
+}
+
+.tvu-day-label {
+  font-size: 0.66em;
+  font-weight: 700;
+  color: var(--muted, rgba(255, 255, 255, 0.5));
+}
+
+.tvu-day-col.is-today .tvu-day-label {
+  color: #00d2a0;
+  font-weight: 800;
+}
+
+.tvu-mastery-strip {
+  height: 4px;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.08);
+  display: flex;
+  overflow: hidden;
+  margin-top: 4px;
+}
+
+.mastery-seg {
+  height: 100%;
+  transition: width 0.6s ease;
+}
+.mastery-seg.green { background: #00d2a0; }
+.mastery-seg.yellow { background: #ffc107; }
+.mastery-seg.red { background: #ff6b6b; }
+
+.tvu-mastery-sub {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.7em;
+  color: var(--muted, rgba(255, 255, 255, 0.6));
+}
+
 
 /* Today's Courses Section */
 .tvu-dash-courses-wrap {
@@ -890,7 +1072,7 @@
   margin-bottom: 0;
 }
 
-.tvu-dashboard.is-collapsed .tvu-dash-grid,
+.tvu-dashboard.is-collapsed .tvu-dash-visual-grid,
 .tvu-dashboard.is-collapsed .tvu-dash-courses-wrap,
 .tvu-dashboard.is-collapsed .tvu-dash-personal-bar {
   display: none !important;
