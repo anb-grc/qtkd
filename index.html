@@ -28,7 +28,7 @@
   <link rel="apple-touch-startup-image" href="./assets/splash/splash-1170x2532.png" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
   <link rel="apple-touch-startup-image" href="./assets/splash/splash-1125x2436.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
   <link rel="apple-touch-startup-image" href="./assets/splash/splash-828x1792.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
-  <link rel="stylesheet" href="./assets/cockpit.css?v=6">
+  <link rel="stylesheet" href="./assets/cockpit.css?v=7">
   <style>
   :root {
     /* === Dark Mode Tokens (Kỷ Nguyên 34 Component) === */
@@ -118,67 +118,61 @@
       <p>Kiến thức trực quan, dễ dàng ôn luyện</p>
     </div>
 
-    <!-- TVU AUTOMATION EXECUTIVE HUD (Clean & Clear, Zero Box-in-Box) -->
+    <!-- TVU DASHBOARD: TIẾN ĐỘ TỔNG & TIẾN ĐỘ TỪNG MÔN ĐANG HỌC (Zero Border, Clean & Clear) -->
     <section class="tvu-dashboard" id="tvuHomeDashboard">
-      <!-- ROW 1: Visual Metrics Bar -->
-      <div class="tvu-hud-main">
-        <div class="tvu-hud-left">
-          <!-- Mini Radial Ring (42px) -->
-          <div class="tvu-ring-mini" title="Tiến độ hoàn thành mục tiêu tuần">
-            <svg viewBox="0 0 44 44">
-              <defs>
-                <linearGradient id="tvuMiniGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stop-color="#00d2a0" />
-                  <stop offset="100%" stop-color="#a29bfe" />
-                </linearGradient>
-              </defs>
-              <circle cx="22" cy="22" r="18" class="tvu-ring-mini-bg" stroke-width="4" fill="none" />
-              <circle cx="22" cy="22" r="18" class="tvu-ring-mini-progress" id="ringGoalCircle" stroke="url(#tvuMiniGrad)" stroke-width="4" stroke-dasharray="113.1" stroke-dashoffset="25" fill="none" />
-            </svg>
-            <span class="tvu-ring-mini-text" id="ringGoalPercent">--%</span>
+      <!-- 1. TIẾN ĐỘ TỔNG THỂ CÁC MÔN -->
+      <div class="tvu-curriculum-header">
+        <div class="tvu-curriculum-left">
+          <div class="tvu-curriculum-badge">
+            <span class="dot-live"></span>
+            <span>Tiến độ chương trình</span>
           </div>
-
-          <!-- Quick Numbers Inline (Flat, no nested boxes) -->
-          <div class="tvu-hud-stats">
-            <div class="tvu-stat-unit">
-              <span class="stat-num teal" id="hudStatQuiz">--</span>
-              <span class="stat-lbl">LTTN</span>
-            </div>
-            <div class="tvu-stat-unit">
-              <span class="stat-num purple" id="hudStatForum">--</span>
-              <span class="stat-lbl">Thảo luận</span>
-            </div>
-            <div class="tvu-stat-unit">
-              <span class="stat-num" id="hudStatCourses">--</span>
-              <span class="stat-lbl">Chu kỳ</span>
-            </div>
+          <div class="tvu-curriculum-stats">
+            <span class="stat-highlight" id="dashCompletedCount">0</span>/<span id="dashTotalCount">11</span> môn hoàn thành
+            <span class="stat-pct-badge" id="dashCompletedPercent">0%</span>
           </div>
         </div>
+        <div class="tvu-curriculum-actions">
+          <button class="tg-icon-btn" id="dashRefreshBtn" title="Làm mới tiến độ">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-15 6.7L3 16"/><path d="M3 21v-5h5"/></svg>
+          </button>
+        </div>
+      </div>
 
-        <!-- 7-Day Sparkline & Clean Tools -->
-        <div class="tvu-hud-right">
-          <div class="tvu-spark-wrap" id="hudSparkline" title="Nhịp ôn tập 7 ngày qua">
-            <!-- 7 thanh ngày T2..CN render bằng JS -->
-          </div>
-          <div class="tvu-hud-tools">
-            <button class="tg-icon-btn" id="dashRefreshBtn" title="Làm mới">
-              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-15 6.7L3 16"/><path d="M3 21v-5h5"/></svg>
-            </button>
-            <button class="tg-icon-btn" id="dashOpenDrawerBtn" title="Mở luồng sự kiện chi tiết">
-              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
-            </button>
+      <!-- Thanh tiến độ tổng thể mượt mà -->
+      <div class="tvu-progress-bar-wrap">
+        <div class="tvu-progress-bar-fill" id="dashOverallBar" style="width: 0%;"></div>
+      </div>
+
+      <!-- 2. TIẾN ĐỘ TỪNG MÔN ĐANG HỌC -->
+      <div class="tvu-active-section">
+        <div class="tvu-active-header">
+          <span>MÔN ĐANG HỌC (<span id="dashActiveCount">0</span>)</span>
+          <span class="tvu-active-hint">Bấm <strong>✓ Xong</strong> khi học xong để ẩn</span>
+        </div>
+
+        <!-- Danh sách các môn đang học (render động bằng JS) -->
+        <div class="tvu-active-list" id="tvuActiveSubjectsList">
+          <!-- Render từng môn qua JS -->
+        </div>
+
+        <!-- Khay xem lại các môn đã hoàn thành (mặc định thu gọn) -->
+        <div class="tvu-completed-toggle-row" id="completedToggleRow" style="display: none;">
+          <button class="tvu-completed-toggle-btn" id="btnToggleCompletedList" type="button">
+            <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>Đã hoàn thành <strong id="completedSubjectsBadge">0</strong> môn (Nhấn để xem / khôi phục)</span>
+            <span class="tvu-toggle-arrow" id="completedToggleArrow">▾</span>
+          </button>
+          <div class="tvu-completed-tray" id="tvuCompletedTray" style="display: none;">
+            <!-- Danh sách môn đã xong kèm nút 'Học lại' -->
           </div>
         </div>
       </div>
 
-      <!-- ROW 2: Single Action Line (Chỉ 1 dòng phẳng khi có việc khẩn cấp) -->
+      <!-- 3. HÀNG THÔNG BÁO CẤP THIẾT (Nếu có bài cần nộp trên LMS từ bot) -->
       <div class="tvu-hud-action-row" id="hudActionRow" style="display: none;">
-        <div class="tvu-action-left" id="hudActionLeft">
-          <!-- Render từ JS: Badge + Tên môn + Mô tả ngắn -->
-        </div>
-        <div class="tvu-action-btns" id="hudActionBtns">
-          <!-- Render từ JS: Nút vào ôn / nộp bài -->
-        </div>
+        <div class="tvu-action-left" id="hudActionLeft"></div>
+        <div class="tvu-action-btns" id="hudActionBtns"></div>
       </div>
     </section>
 
@@ -264,23 +258,33 @@
                 localStorage.setItem('tvu_last_opened_' + subject.id, Date.now());
             };
             
-            // Lấy JSON Path filename để tính localStorage key (y chang cũ để giữ điểm)
-            let jsonFilename = subject.jsonPath.substring(subject.jsonPath.lastIndexOf('/') + 1);
-            let historyKey = 'tvu_history_' + jsonFilename.replace(/[^a-zA-Z0-9]/g, '_');
-            let history = JSON.parse(localStorage.getItem(historyKey) || '[]');
+            // Tra cứu lịch sử đa nguồn và trạng thái hoàn thành
+            let isCompleted = localStorage.getItem('tvu_completed_subject_' + subject.id) === 'true';
+            let history = [];
+            try {
+              let key1 = 'tvu_history_' + subject.jsonPath.normalize('NFC').replace(/[^a-zA-Z0-9]/g, '_');
+              let key2 = 'tvu_history_' + subject.jsonPath.substring(subject.jsonPath.lastIndexOf('/') + 1).replace(/[^a-zA-Z0-9]/g, '_');
+              let raw = localStorage.getItem(key1) || localStorage.getItem(key2) || localStorage.getItem('tvu_history_subject_' + subject.id);
+              if (raw) history = JSON.parse(raw);
+            } catch (_) {}
             
             let scoreHtml = '';
-            if (history.length > 0) {
+            if (Array.isArray(history) && history.length > 0) {
                 let lastAttempt = history[history.length - 1];
-                let color = lastAttempt.percent >= 80 ? '#4cd137' : (lastAttempt.percent >= 50 ? '#fbc531' : '#e84118');
-                scoreHtml = `<div style="margin-top:8px; font-size:0.85em;">Lần thi gần nhất: <b style="color: ${color}">${lastAttempt.score}/${lastAttempt.total}</b> <span style="color:var(--muted)">(${lastAttempt.percent}%)</span></div>`;
+                let percent = typeof lastAttempt.percent === 'number' ? lastAttempt.percent : Math.round((lastAttempt.score / (lastAttempt.total || 1)) * 100);
+                let color = percent >= 80 ? '#00d2a0' : (percent >= 50 ? '#fbc531' : '#ff6b6b');
+                scoreHtml = `<div style="margin-top:8px; font-size:0.85em;">Lần thi gần nhất: <b style="color: ${color}">${lastAttempt.score}/${lastAttempt.total}</b> <span style="color:var(--muted)">(${percent}%)</span></div>`;
             }
+
+            let statusBadge = isCompleted 
+                ? `<span style="display:inline-block; margin-left:6px; padding:2px 7px; border-radius:6px; background:rgba(0,210,160,0.15); color:#00d2a0; font-size:0.75em; font-weight:700; border:1px solid rgba(0,210,160,0.3);">✓ ĐÃ HỌC XONG</span>`
+                : '';
 
             card.innerHTML = `
                 <div class="card-content">
                   <div class="mod-number"><span>${subject.id}</span></div>
                   <div class="card-info">
-                    <div class="card-tags"><span class="tag-program">${subject.program}</span></div>
+                    <div class="card-tags"><span class="tag-program">${subject.program}</span>${statusBadge}</div>
                     <h2>${subject.name}</h2>
                     <p>${subject.desc}</p>
                     ${scoreHtml}
@@ -292,6 +296,6 @@
         });
     });
   </script>
-  <script src="./assets/cockpit.js?v=5"></script>
+  <script src="./assets/cockpit.js?v=6"></script>
 </body>
 </html>

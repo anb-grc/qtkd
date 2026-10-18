@@ -440,207 +440,257 @@
     return `Còn ${diffHours} giờ`;
   }
 
-  function getPersonalStudyStats() {
-    let totalAttempts = 0;
-    let latestScores = [];
+  // Helper tra cứu tiến độ học tập đa nguồn cho từng môn học
+  function getSubjectProgress(subject) {
+    if (!subject) return { hasData: false, attempts: 0, lastScore: 0, lastTotal: 0, lastPercent: 0, isCompleted: false };
 
+    let history = [];
     try {
-      for (let i = 0; i < localStorage.length; i++) {
-        const key = localStorage.key(i);
-        if (key && key.startsWith('tvu_history_')) {
-          const raw = localStorage.getItem(key);
-          if (!raw) continue;
-          const history = JSON.parse(raw);
-          if (Array.isArray(history) && history.length > 0) {
-            totalAttempts += history.length;
-            const latest = history[history.length - 1];
-            if (latest && typeof latest.percent === 'number') {
-              latestScores.push(latest.percent);
+      const key1 = 'tvu_history_' + (subject.jsonPath || '').normalize('NFC').replace(/[^a-zA-Z0-9]/g, '_');
+      const filename = (subject.jsonPath || '').substring((subject.jsonPath || '').lastIndexOf('/') + 1);
+      const key2 = 'tvu_history_' + filename.replace(/[^a-zA-Z0-9]/g, '_');
+      const key3 = 'tvu_history_subject_' + subject.id;
+
+      const raw = localStorage.getItem(key1) || localStorage.getItem(key2) || localStorage.getItem(key3);
+      if (raw) {
+        history = JSON.parse(raw);
+      } else {
+        // Quét tìm key chứa tên môn hoặc ID
+        const normName = (subject.name || '').normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+        for (let i = 0; i < localStorage.length; i++) {
+          const k = localStorage.key(i);
+          if (k && k.startsWith('tvu_history_')) {
+            const cleanK = k.toLowerCase().replace(/[^a-zA-Z0-9]/g, '');
+            if (normName && cleanK.includes(normName)) {
+              const r = localStorage.getItem(k);
+              if (r) { history = JSON.parse(r); break; }
             }
           }
         }
       }
     } catch (_) {}
 
-    if (totalAttempts === 0 || latestScores.length === 0) {
+    const isCompleted = localStorage.getItem('tvu_completed_subject_' + subject.id) === 'true';
+    const lastOpened = parseInt(localStorage.getItem('tvu_last_opened_' + subject.id)) || 0;
+
+    if (Array.isArray(history) && history.length > 0) {
+      const lastAttempt = history[history.length - 1];
+      const percent = typeof lastAttempt.percent === 'number' 
+        ? lastAttempt.percent 
+        : Math.round(((lastAttempt.score || 0) / (lastAttempt.total || 1)) * 100);
       return {
-        attemptsText: '0 lượt (Hãy bắt đầu cày đề!)',
-        avgScoreText: 'Chưa có điểm',
-        colorClass: ''
+        hasData: true,
+        attempts: history.length,
+        lastScore: lastAttempt.score || 0,
+        lastTotal: lastAttempt.total || 0,
+        lastPercent: percent,
+        isCompleted: isCompleted,
+        lastOpened: lastOpened
       };
     }
 
-    const avg = Math.round(latestScores.reduce((a, b) => a + b, 0) / latestScores.length);
-    const score10 = (avg / 10).toFixed(1);
-    const colorClass = avg >= 80 ? 'score-high' : (avg >= 50 ? 'score-mid' : 'score-low');
-
     return {
-      attemptsText: `${totalAttempts} lượt thi thử`,
-      avgScoreText: `${score10}/10 (${avg}%)`,
-      colorClass
+      hasData: false,
+      attempts: 0,
+      lastScore: 0,
+      lastTotal: 0,
+      lastPercent: 0,
+      isCompleted: isCompleted,
+      lastOpened: lastOpened
     };
-  }
-
-  function renderWeeklySparkline() {
-    const sparkContainer = document.getElementById('hudSparkline');
-    if (!sparkContainer) return;
-
-    const dayLabels = ['T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'CN'];
-    const todayIndex = (new Date().getDay() + 6) % 7; // T2: 0, CN: 6
-
-    let dayCounts = [0, 0, 0, 0, 0, 0, 0];
-    let totalAttempts = 0;
-
-    try {
-      for (let i = 0; i < localStorage.length; i++) {
-        const key = localStorage.key(i);
-        if (key && key.startsWith('tvu_history_')) {
-          const raw = localStorage.getItem(key);
-          if (!raw) continue;
-          const history = JSON.parse(raw);
-          if (Array.isArray(history)) {
-            totalAttempts += history.length;
-            history.forEach(item => {
-              if (item.timestamp) {
-                const d = new Date(item.timestamp);
-                const dIdx = (d.getDay() + 6) % 7;
-                dayCounts[dIdx]++;
-              }
-            });
-          }
-        }
-      }
-    } catch (_) {}
-
-    if (dayCounts.every(c => c === 0) && totalAttempts > 0) {
-      dayCounts[todayIndex] = Math.ceil(totalAttempts * 0.4);
-      dayCounts[(todayIndex + 6) % 7] = Math.ceil(totalAttempts * 0.3);
-      dayCounts[(todayIndex + 5) % 7] = Math.ceil(totalAttempts * 0.2);
-      const rem = totalAttempts - dayCounts[todayIndex] - dayCounts[(todayIndex + 6) % 7] - dayCounts[(todayIndex + 5) % 7];
-      if (rem > 0) dayCounts[(todayIndex + 4) % 7] = rem;
-    } else if (totalAttempts === 0) {
-      dayCounts = [1, 2, 4, 3, 5, 7, 2];
-    }
-
-    const maxCount = Math.max(...dayCounts, 1);
-
-    sparkContainer.innerHTML = dayLabels.map((label, idx) => {
-      const isToday = idx === todayIndex;
-      const count = dayCounts[idx];
-      const heightPct = Math.max(15, Math.round((count / maxCount) * 100));
-      return `
-        <div class="tvu-spark-col ${isToday ? 'is-today' : ''}" title="${label}: ${count} lượt cày đề">
-          <div class="tvu-spark-bar">
-            <div class="tvu-spark-fill" style="height: ${heightPct}%;"></div>
-          </div>
-          <span class="tvu-spark-lbl">${label}</span>
-        </div>
-      `;
-    }).join('');
   }
 
   function renderHomeDashboard() {
     const dash = document.getElementById('tvuHomeDashboard');
     if (!dash) return;
 
-    // 1. Calculate Goal & Stats
-    const activeSubjects = new Set(
-      eventsCache
-        .filter(e => e.subject_id && e.subject_id !== '00')
-        .map(e => e.subject_id)
-    );
-    const coursesCount = activeSubjects.size > 0 ? activeSubjects.size : 3;
+    const subjects = window.TVU_SUBJECTS || [];
+    const totalCount = subjects.length;
 
+    // Phân loại môn: Đã hoàn thành vs Đang học
+    const completedList = [];
+    const activeList = [];
+
+    subjects.forEach(sub => {
+      const prog = getSubjectProgress(sub);
+      const item = { subject: sub, progress: prog };
+      if (prog.isCompleted) {
+        completedList.push(item);
+      } else {
+        activeList.push(item);
+      }
+    });
+
+    // Sắp xếp môn đang học: ưu tiên môn có tương tác gần nhất
+    activeList.sort((a, b) => {
+      const tA = Math.max(a.progress.lastOpened, a.progress.attempts > 0 ? 1 : 0);
+      const tB = Math.max(b.progress.lastOpened, b.progress.attempts > 0 ? 1 : 0);
+      if (tA !== tB) return tB - tA;
+      return parseInt(a.subject.id) - parseInt(b.subject.id);
+    });
+
+    // 1. Cập nhật tiến độ tổng thể chương trình
+    const completedCount = completedList.length;
+    const completedPct = totalCount > 0 ? Math.round((completedCount / totalCount) * 100) : 0;
+
+    const elCompCount = document.getElementById('dashCompletedCount');
+    const elTotalCount = document.getElementById('dashTotalCount');
+    const elCompPct = document.getElementById('dashCompletedPercent');
+    const elBar = document.getElementById('dashOverallBar');
+    const elActiveCount = document.getElementById('dashActiveCount');
+
+    if (elCompCount) elCompCount.textContent = completedCount;
+    if (elTotalCount) elTotalCount.textContent = totalCount;
+    if (elCompPct) elCompPct.textContent = `${completedPct}%`;
+    if (elBar) elBar.style.width = `${completedPct}%`;
+    if (elActiveCount) elActiveCount.textContent = activeList.length;
+
+    // 2. Render danh sách môn đang học (Môn học xong tự động ẩn)
+    const activeContainer = document.getElementById('tvuActiveSubjectsList');
+    if (activeContainer) {
+      if (activeList.length === 0) {
+        activeContainer.innerHTML = `
+          <div class="tvu-all-done-banner">
+            🎉 Chúc mừng! Bạn đã hoàn thành tất cả ${totalCount} môn học trong chương trình!
+          </div>
+        `;
+      } else {
+        activeContainer.innerHTML = activeList.map(({ subject, progress }) => {
+          let scoreText = '';
+          let scoreClass = 'low';
+          let barWidth = 0;
+
+          if (progress.hasData) {
+            barWidth = Math.min(100, Math.max(5, progress.lastPercent));
+            scoreClass = progress.lastPercent >= 80 ? 'high' : (progress.lastPercent >= 50 ? 'mid' : 'low');
+            scoreText = `Điểm: <span class="meta-score ${scoreClass}">${progress.lastScore}/${progress.lastTotal} (${progress.lastPercent}%)</span> • ${progress.attempts} lượt ôn`;
+          } else {
+            scoreText = 'Chưa thi thử';
+          }
+
+          return `
+            <div class="tvu-active-item" data-subject-id="${subject.id}">
+              <div class="tvu-active-info">
+                <div class="tvu-active-name-row">
+                  <span class="tvu-active-id">${subject.id}</span>
+                  <a href="./quiz.html?id=${subject.id}" class="tvu-active-name" title="Mở môn ${escapeHTML(subject.name)}">
+                    ${escapeHTML(subject.name)}
+                  </a>
+                </div>
+                <div class="tvu-active-meta">
+                  <span class="tvu-mini-bar-wrap">
+                    <span class="tvu-mini-bar-fill" style="width: ${barWidth}%;"></span>
+                  </span>
+                  <span>${scoreText}</span>
+                </div>
+              </div>
+              <div class="tvu-active-actions">
+                <a href="./quiz.html?id=${subject.id}" class="tvu-btn-pill primary" title="Vào ôn thi">
+                  ${ICONS.bookOpen}
+                  <span>Vào ôn</span>
+                </a>
+                <button type="button" class="tvu-btn-done btn-mark-done" data-id="${subject.id}" title="Đánh dấu đã học xong để ẩn khỏi Dashboard">
+                  <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Xong</span>
+                </button>
+              </div>
+            </div>
+          `;
+        }).join('');
+
+        // Gắn sự kiện đánh dấu hoàn thành
+        activeContainer.querySelectorAll('.btn-mark-done').forEach(btn => {
+          btn.addEventListener('click', function () {
+            const sid = this.getAttribute('data-id');
+            if (sid) {
+              localStorage.setItem('tvu_completed_subject_' + sid, 'true');
+              renderHomeDashboard();
+              updateSubjectsGridBadges();
+            }
+          });
+        });
+      }
+    }
+
+    // 3. Render khay môn đã hoàn thành (để xem / khôi phục)
+    const toggleRow = document.getElementById('completedToggleRow');
+    const badgeCompleted = document.getElementById('completedSubjectsBadge');
+    const tray = document.getElementById('tvuCompletedTray');
+
+    if (toggleRow && badgeCompleted && tray) {
+      if (completedList.length > 0) {
+        toggleRow.style.display = 'block';
+        badgeCompleted.textContent = completedList.length;
+
+        tray.innerHTML = completedList.map(({ subject, progress }) => {
+          const scoreInfo = progress.hasData ? `(${progress.lastScore}/${progress.lastTotal} - ${progress.lastPercent}%)` : '';
+          return `
+            <div class="tvu-completed-item">
+              <div>
+                <span class="comp-name">${subject.id}. ${escapeHTML(subject.name)}</span>
+                <span style="font-size: 0.85em; margin-left: 4px; color: #00d2a0;">${scoreInfo}</span>
+              </div>
+              <button type="button" class="tvu-btn-restore btn-restore-subject" data-id="${subject.id}" title="Đưa môn này trở lại danh sách đang học">
+                Học lại
+              </button>
+            </div>
+          `;
+        }).join('');
+
+        // Gắn sự kiện khôi phục môn
+        tray.querySelectorAll('.btn-restore-subject').forEach(btn => {
+          btn.addEventListener('click', function () {
+            const sid = this.getAttribute('data-id');
+            if (sid) {
+              localStorage.removeItem('tvu_completed_subject_' + sid);
+              renderHomeDashboard();
+              updateSubjectsGridBadges();
+            }
+          });
+        });
+
+      } else {
+        toggleRow.style.display = 'none';
+        tray.style.display = 'none';
+      }
+    }
+
+    // 4. Hàng sự kiện cấp thiết từ bot Telegram (nếu có bài cần nộp)
     const quizEvt = [...eventsCache].reverse().find(e => e.type === 'quiz_completed');
-    const forumEvt = [...eventsCache].reverse().find(e => e.type === 'forum_draft');
-
-    let goalPercent = 40;
-    if (quizEvt && forumEvt) goalPercent = 95;
-    else if (quizEvt) goalPercent = 70;
-    else if (forumEvt) goalPercent = 55;
-
-    // Radial Progress Ring Mini (circumference = 113.1)
-    const circle = document.getElementById('ringGoalCircle');
-    const percentText = document.getElementById('ringGoalPercent');
-    const circumference = 113.1;
-    const offset = circumference - (goalPercent / 100) * circumference;
-    if (circle) circle.style.strokeDashoffset = offset;
-    if (percentText) percentText.textContent = `${goalPercent}%`;
-
-    // Quick Stats Inline
-    const statQuiz = document.getElementById('hudStatQuiz');
-    const statForum = document.getElementById('hudStatForum');
-    const statCourses = document.getElementById('hudStatCourses');
-
-    if (statQuiz) {
-      statQuiz.textContent = quizEvt ? (quizEvt.stats?.['Tổng câu'] || '40/40') : 'Sẵn sàng';
-    }
-    if (statForum) {
-      statForum.textContent = forumEvt ? '1/1' : '0/1';
-    }
-    if (statCourses) {
-      statCourses.textContent = `${coursesCount} môn`;
-    }
-
-    // 2. Render 7-Day Sparkline
-    renderWeeklySparkline();
-
-    // 3. Render Single Action Line (Chỉ hiển thị khi có sự kiện cần xử lý)
     const actionRow = document.getElementById('hudActionRow');
     const actionLeft = document.getElementById('hudActionLeft');
     const actionBtns = document.getElementById('hudActionBtns');
 
     if (actionRow && actionLeft && actionBtns) {
-      // Tìm sự kiện cấp thiết nhất
-      const priorityEvt = quizEvt || forumEvt || [...eventsCache].reverse().find(e => e.type === 'harvest');
-
-      if (priorityEvt) {
+      if (quizEvt) {
         actionRow.style.display = 'flex';
-
-        let badgePillClass = 'done';
-        let badgePillText = 'CẬP NHẬT';
-
-        if (priorityEvt.type === 'quiz_completed') {
-          badgePillClass = 'urgent';
-          badgePillText = `CẦN NỘP • HẠN 23:59 CN (${getTVUWeeklyDeadline()})`;
-        } else if (priorityEvt.type === 'forum_draft') {
-          badgePillClass = 'done';
-          badgePillText = 'ĐÃ SOẠN BẢN NHÁP';
-        } else if (priorityEvt.type === 'harvest') {
-          badgePillClass = 'done';
-          badgePillText = priorityEvt.stats?.['Câu mới'] ? `+${priorityEvt.stats['Câu mới']}` : 'ĐỀ MỚI';
-        }
-
-        const subjectStr = priorityEvt.subject_name ? `<strong>${escapeHTML(priorityEvt.subject_name)}:</strong> ` : '';
+        const subjectStr = quizEvt.subject_name ? `<strong>${escapeHTML(quizEvt.subject_name)}:</strong> ` : '';
         actionLeft.innerHTML = `
-          <span class="badge-pill ${badgePillClass}">${badgePillText}</span>
-          <span class="action-desc">${subjectStr}${escapeHTML(priorityEvt.title || '')}</span>
+          <span class="badge-pill urgent">CẦN NỘP • HẠN 23:59 CN (${getTVUWeeklyDeadline()})</span>
+          <span class="action-desc">${subjectStr}${escapeHTML(quizEvt.title || '')}</span>
         `;
 
-        // Render Action Buttons
-        let buttonsHTML = '';
-
-        if (priorityEvt.subject_id && priorityEvt.subject_id !== '00') {
-          buttonsHTML += `
-            <a href="./quiz.html?id=${escapeHTML(priorityEvt.subject_id)}" class="tvu-btn-pill primary" title="Vào ôn thi ngay">
+        let btnsHTML = '';
+        if (quizEvt.subject_id && quizEvt.subject_id !== '00') {
+          btnsHTML += `
+            <a href="./quiz.html?id=${escapeHTML(quizEvt.subject_id)}" class="tvu-btn-pill primary">
               ${ICONS.bookOpen}
               <span>Vào ôn</span>
             </a>
           `;
         }
-
-        if (priorityEvt.actions && Array.isArray(priorityEvt.actions)) {
-          priorityEvt.actions.forEach(act => {
+        if (quizEvt.actions && Array.isArray(quizEvt.actions)) {
+          quizEvt.actions.forEach(act => {
             if (act.type === 'copy') {
-              buttonsHTML += `
-                <button class="tvu-btn-pill" data-copy="${escapeHTML(act.copy_text || '')}" title="Sao chép">
+              btnsHTML += `
+                <button class="tvu-btn-pill" data-copy="${escapeHTML(act.copy_text || '')}">
                   ${ICONS.copy}
                   <span>${escapeHTML(act.label)}</span>
                 </button>
               `;
             } else {
-              buttonsHTML += `
-                <a href="${sanitizeURL(act.url)}" target="_blank" rel="noopener noreferrer" class="tvu-btn-pill" title="Mở liên kết">
+              btnsHTML += `
+                <a href="${sanitizeURL(act.url)}" target="_blank" rel="noopener noreferrer" class="tvu-btn-pill">
                   ${ICONS.externalLink}
                   <span>${escapeHTML(act.label)}</span>
                 </a>
@@ -648,21 +698,44 @@
             }
           });
         }
+        actionBtns.innerHTML = btnsHTML;
 
-        actionBtns.innerHTML = buttonsHTML;
-
-        // Attach copy listener
-        actionBtns.querySelectorAll('[data-copy]').forEach(btn => {
-          btn.addEventListener('click', function () {
-            const text = this.getAttribute('data-copy');
-            copyToClipboard(text, this);
+        actionBtns.querySelectorAll('[data-copy]').forEach(b => {
+          b.addEventListener('click', function () {
+            copyToClipboard(this.getAttribute('data-copy'), this);
           });
         });
-
       } else {
         actionRow.style.display = 'none';
       }
     }
+  }
+
+  // Cập nhật badge hoàn thành trên grid môn học toàn trang
+  function updateSubjectsGridBadges() {
+    const grid = document.getElementById('subjectsGrid');
+    if (!grid) return;
+    const cards = grid.querySelectorAll('.card');
+    cards.forEach(card => {
+      const numEl = card.querySelector('.mod-number span');
+      if (numEl) {
+        const sid = numEl.textContent.trim();
+        const isCompleted = localStorage.getItem('tvu_completed_subject_' + sid) === 'true';
+        let badge = card.querySelector('.tag-completed-live');
+        if (isCompleted && !badge) {
+          const tagsWrap = card.querySelector('.card-tags');
+          if (tagsWrap) {
+            const b = document.createElement('span');
+            b.className = 'tag-completed-live';
+            b.style.cssText = 'display:inline-block; margin-left:6px; padding:2px 7px; border-radius:6px; background:rgba(0,210,160,0.15); color:#00d2a0; font-size:0.75em; font-weight:700; border:1px solid rgba(0,210,160,0.3);';
+            b.textContent = '✓ ĐÃ HỌC XONG';
+            tagsWrap.appendChild(b);
+          }
+        } else if (!isCompleted && badge) {
+          badge.remove();
+        }
+      }
+    });
   }
 
   function setupHomeDashboardListeners() {
@@ -670,9 +743,21 @@
     if (refreshBtn) {
       refreshBtn.addEventListener('click', () => {
         refreshBtn.classList.add('spinning');
+        renderHomeDashboard();
+        updateSubjectsGridBadges();
         fetchEvents(true).finally(() => {
           setTimeout(() => refreshBtn.classList.remove('spinning'), 400);
         });
+      });
+    }
+
+    const toggleCompletedBtn = document.getElementById('btnToggleCompletedList');
+    const completedTray = document.getElementById('tvuCompletedTray');
+    if (toggleCompletedBtn && completedTray) {
+      toggleCompletedBtn.addEventListener('click', () => {
+        const isHidden = completedTray.style.display === 'none';
+        completedTray.style.display = isHidden ? 'flex' : 'none';
+        toggleCompletedBtn.classList.toggle('is-open', isHidden);
       });
     }
 
@@ -698,6 +783,8 @@
     }
     injectDOM();
     setupHomeDashboardListeners();
+    renderHomeDashboard();
+    updateSubjectsGridBadges();
     fetchEvents();
     setInterval(() => fetchEvents(false), POLL_INTERVAL);
   }

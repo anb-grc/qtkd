@@ -602,181 +602,378 @@
 }
 
 /* ==============================================================================
-   CLEAN & CLEAR TVU EXECUTIVE HUD (Zero Box-in-Box, Pure Minimalist)
+   CLEAN & CLEAR TVU DASHBOARD (Zero Border, Pure Minimalist, Subject-Oriented)
    ============================================================================== */
 .tvu-dashboard {
-  background: rgba(22, 22, 38, 0.6);
+  background: rgba(22, 22, 38, 0.45);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: none !important;
+  box-shadow: none !important;
   border-radius: 14px;
-  padding: 12px 18px;
+  padding: 14px 16px;
   margin-bottom: 24px;
-  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
   flex-direction: column;
-  gap: 10px;
-}
-
-.tvu-dashboard:hover {
-  border-color: rgba(162, 155, 254, 0.25);
-  background: rgba(26, 26, 44, 0.7);
-}
-
-/* Row 1: The Visual Metrics Bar (Flat, Unboxed) */
-.tvu-hud-main {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  flex-wrap: wrap;
-}
-
-.tvu-hud-left {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-}
-
-/* Mini Radial Ring (42px) */
-.tvu-ring-mini {
-  width: 42px;
-  height: 42px;
-  position: relative;
-  flex-shrink: 0;
-}
-
-.tvu-ring-mini svg {
-  transform: rotate(-90deg);
-  width: 100%;
-  height: 100%;
-}
-
-.tvu-ring-mini-bg {
-  stroke: rgba(255, 255, 255, 0.08);
-}
-
-.tvu-ring-mini-progress {
-  stroke-linecap: round;
-  transition: stroke-dashoffset 0.8s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.tvu-ring-mini-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 0.78em;
-  font-weight: 800;
-  color: #ffffff;
-  line-height: 1;
-}
-
-/* Quick Metrics Inline (Flat, no borders) */
-.tvu-hud-stats {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-
-.tvu-stat-unit {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.15;
-}
-
-.tvu-stat-unit .stat-num {
-  font-size: 1.05em;
-  font-weight: 800;
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
-
-.tvu-stat-unit .stat-num.teal { color: #00d2a0; }
-.tvu-stat-unit .stat-num.purple { color: #a29bfe; }
-
-.tvu-stat-unit .stat-lbl {
-  font-size: 0.68em;
-  font-weight: 600;
-  color: var(--muted, rgba(255, 255, 255, 0.5));
-  text-transform: uppercase;
-  letter-spacing: 0.4px;
-}
-
-/* Right: 7-Day Sparkline & Controls (Flat, no boxes) */
-.tvu-hud-right {
-  display: flex;
-  align-items: center;
   gap: 12px;
 }
 
-.tvu-spark-wrap {
+/* 1. Tiến độ tổng thể chương trình */
+.tvu-curriculum-header {
   display: flex;
-  align-items: flex-end;
-  gap: 4px;
-  height: 28px;
-  padding: 0 4px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
 }
 
-.tvu-spark-col {
+.tvu-curriculum-left {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 2px;
+  gap: 3px;
 }
 
-.tvu-spark-bar {
-  width: 6px;
-  height: 20px;
-  background: rgba(255, 255, 255, 0.08);
-  border-radius: 2px;
+.tvu-curriculum-badge {
+  font-size: 0.68em;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--muted, rgba(255, 255, 255, 0.5));
   display: flex;
-  align-items: flex-end;
+  align-items: center;
+  gap: 6px;
+}
+
+.tvu-curriculum-badge .dot-live {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #00d2a0;
+  box-shadow: 0 0 6px rgba(0, 210, 160, 0.7);
+  display: inline-block;
+}
+
+.tvu-curriculum-stats {
+  font-size: 1.12em;
+  font-weight: 800;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tvu-curriculum-stats .stat-highlight {
+  color: #00d2a0;
+  font-size: 1.25em;
+}
+
+.tvu-curriculum-stats .stat-pct-badge {
+  font-size: 0.72em;
+  font-weight: 800;
+  padding: 2px 7px;
+  border-radius: 6px;
+  background: rgba(0, 210, 160, 0.15);
+  color: #00d2a0;
+  border: 1px solid rgba(0, 210, 160, 0.3);
+}
+
+.tvu-curriculum-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Thanh tiến độ tổng thể */
+.tvu-progress-bar-wrap {
+  width: 100%;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 99px;
   overflow: hidden;
 }
 
-.tvu-spark-fill {
-  width: 100%;
-  border-radius: 2px;
-  background: rgba(162, 155, 254, 0.35);
-  transition: height 0.4s ease;
+.tvu-progress-bar-fill {
+  height: 100%;
+  border-radius: 99px;
+  background: linear-gradient(90deg, #00d2a0, #a29bfe);
+  box-shadow: 0 0 10px rgba(0, 210, 160, 0.5);
+  transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.tvu-spark-col.is-today .tvu-spark-fill {
-  background: #00d2a0;
-  box-shadow: 0 0 6px rgba(0, 210, 160, 0.5);
+/* 2. Tiến độ từng môn đang học */
+.tvu-active-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 4px;
 }
 
-.tvu-spark-lbl {
-  font-size: 0.58em;
+.tvu-active-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.75em;
   font-weight: 700;
-  color: var(--muted, rgba(255, 255, 255, 0.4));
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--muted, rgba(255, 255, 255, 0.6));
+  padding: 0 2px;
 }
 
-.tvu-spark-col.is-today .tvu-spark-lbl {
+.tvu-active-header .tvu-active-hint {
+  font-size: 0.88em;
+  text-transform: none;
+  font-weight: 500;
+  color: var(--muted, rgba(255, 255, 255, 0.45));
+}
+
+.tvu-active-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/* Từng môn đang học (Single Surface, không viền hộp) */
+.tvu-active-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  transition: all 0.2s ease;
+}
+
+.tvu-active-item:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(162, 155, 254, 0.2);
+}
+
+.tvu-active-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+  min-width: 0;
+}
+
+.tvu-active-name-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tvu-active-id {
+  font-size: 0.72em;
+  font-weight: 800;
+  color: var(--secondary, #a29bfe);
+  background: rgba(162, 155, 254, 0.12);
+  padding: 1px 5px;
+  border-radius: 4px;
+  line-height: 1.2;
+}
+
+.tvu-active-name {
+  font-size: 0.92em;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: color 0.2s;
+}
+
+.tvu-active-name:hover {
+  color: var(--secondary, #a29bfe);
+}
+
+.tvu-active-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.76em;
+  color: var(--muted, rgba(255, 255, 255, 0.6));
+}
+
+.tvu-active-meta .meta-score {
+  font-weight: 700;
+}
+.tvu-active-meta .meta-score.high { color: #00d2a0; }
+.tvu-active-meta .meta-score.mid { color: #fbc531; }
+.tvu-active-meta .meta-score.low { color: #ff6b6b; }
+
+.tvu-mini-bar-wrap {
+  width: 50px;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 99px;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.tvu-mini-bar-fill {
+  height: 100%;
+  border-radius: 99px;
+  background: #00d2a0;
+}
+
+/* Nút hành động cho từng môn */
+.tvu-active-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.tvu-btn-pill {
+  padding: 4px 9px;
+  border-radius: 7px;
+  font-size: 0.78em;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.2s;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+
+.tvu-btn-pill:hover {
+  background: rgba(255, 255, 255, 0.12);
+  transform: translateY(-1px);
+}
+
+.tvu-btn-pill.primary {
+  background: rgba(162, 155, 254, 0.15);
+  border-color: rgba(162, 155, 254, 0.3);
+  color: var(--secondary, #a29bfe);
+}
+
+.tvu-btn-pill.primary:hover {
+  background: var(--secondary, #a29bfe);
+  color: #0f0f1a;
+}
+
+.tvu-btn-done {
+  padding: 4px 8px;
+  border-radius: 7px;
+  font-size: 0.78em;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  cursor: pointer;
+  background: rgba(0, 210, 160, 0.1);
+  border: 1px solid rgba(0, 210, 160, 0.25);
+  color: #00d2a0;
+  transition: all 0.2s;
+}
+
+.tvu-btn-done:hover {
+  background: #00d2a0;
+  color: #0f0f1a;
+  transform: translateY(-1px);
+}
+
+/* Khay xem lại các môn đã hoàn thành */
+.tvu-completed-toggle-row {
+  margin-top: 6px;
+}
+
+.tvu-completed-toggle-btn {
+  background: none;
+  border: none;
+  padding: 4px 2px;
+  color: var(--muted, rgba(255, 255, 255, 0.5));
+  font-size: 0.76em;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: color 0.2s;
+}
+
+.tvu-completed-toggle-btn:hover {
   color: #00d2a0;
 }
 
-.tvu-hud-tools {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  border-left: 1px solid rgba(255, 255, 255, 0.08);
-  padding-left: 10px;
+.tvu-completed-toggle-btn .tvu-toggle-arrow {
+  transition: transform 0.2s ease;
 }
 
-/* Row 2: Action Line (Chỉ 1 dòng phẳng mỏng khi có việc) */
+.tvu-completed-toggle-btn.is-open .tvu-toggle-arrow {
+  transform: rotate(180deg);
+}
+
+.tvu-completed-tray {
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-left: 8px;
+  border-left: 2px solid rgba(0, 210, 160, 0.3);
+}
+
+.tvu-completed-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 8px;
+  font-size: 0.8em;
+  color: var(--muted, rgba(255, 255, 255, 0.6));
+}
+
+.tvu-completed-item .comp-name {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.tvu-btn-restore {
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--muted, rgba(255, 255, 255, 0.7));
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 0.85em;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.tvu-btn-restore:hover {
+  color: #ffffff;
+  border-color: var(--secondary, #a29bfe);
+  background: rgba(162, 155, 254, 0.15);
+}
+
+/* Empty State khi hoàn thành hết môn */
+.tvu-all-done-banner {
+  text-align: center;
+  padding: 16px 12px;
+  color: #00d2a0;
+  font-size: 0.9em;
+  font-weight: 700;
+  background: rgba(0, 210, 160, 0.08);
+  border-radius: 10px;
+}
+
+/* 3. Row Action Cấp thiết khi có bài nộp gấp từ bot */
 .tvu-hud-action-row {
   border-top: 1px dashed rgba(255, 255, 255, 0.08);
-  padding-top: 9px;
+  padding-top: 8px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 8px;
-  font-size: 0.84em;
+  font-size: 0.82em;
 }
 
 .tvu-action-left {
@@ -816,66 +1013,40 @@
   gap: 6px;
 }
 
-.tvu-btn-pill {
-  padding: 4px 10px;
-  border-radius: 8px;
-  font-size: 0.8em;
-  font-weight: 600;
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  cursor: pointer;
-  text-decoration: none;
-  transition: all 0.2s;
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  color: #ffffff;
-}
-.tvu-btn-pill:hover {
-  background: rgba(255, 255, 255, 0.12);
-  transform: translateY(-1px);
-}
-.tvu-btn-pill.primary {
-  background: rgba(162, 155, 254, 0.18);
-  border-color: rgba(162, 155, 254, 0.35);
-  color: var(--secondary, #a29bfe);
-}
-.tvu-btn-pill.primary:hover {
-  background: var(--secondary, #a29bfe);
-  color: #0f0f1a;
-}
-
 /* Mobile Optimizations */
 @media (max-width: 640px) {
   .tvu-dashboard {
-    padding: 10px 14px;
+    padding: 12px 10px;
     margin-bottom: 16px;
+    gap: 10px;
+  }
+  .tvu-curriculum-stats {
+    font-size: 1.02em;
+  }
+  .tvu-active-item {
+    padding: 8px 10px;
     gap: 8px;
   }
-  .tvu-hud-main {
-    gap: 8px;
+  .tvu-active-name {
+    font-size: 0.88em;
   }
-  .tvu-hud-stats {
-    gap: 12px;
+  .tvu-active-meta {
+    font-size: 0.72em;
+    gap: 6px;
   }
-  .tvu-stat-unit .stat-num {
-    font-size: 0.95em;
+  .tvu-mini-bar-wrap {
+    width: 36px;
   }
-  .tvu-stat-unit .stat-lbl {
-    font-size: 0.6em;
+  .tvu-active-actions {
+    gap: 4px;
   }
-  .tvu-spark-wrap {
-    height: 24px;
-    gap: 3px;
-  }
-  .tvu-spark-bar {
-    width: 5px;
-    height: 18px;
+  .tvu-btn-pill, .tvu-btn-done {
+    padding: 3px 6px;
+    font-size: 0.74em;
   }
   .tvu-hud-action-row {
     flex-direction: column;
     align-items: flex-start;
-    gap: 6px;
   }
   .tvu-action-btns {
     width: 100%;
