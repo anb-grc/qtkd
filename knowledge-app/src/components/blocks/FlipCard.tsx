@@ -18,7 +18,10 @@ export function FlipCard({ data }: { data: FlipCardBlock['data'] }) {
         className={`${styles.card} ${flipped ? styles.flipped : ''}`}
         onClick={() => setFlipped(!flipped)}
       >
-        <div className={`${styles.face} ${styles.front}`}>
+        <div 
+          className={`${styles.face} ${styles.front}`}
+          style={{ visibility: flipped ? 'hidden' : 'visible' }}
+        >
           <div className={styles.decorCircle}></div>
           <div className={styles.label}>Câu hỏi</div>
           <div className={styles.content} dangerouslySetInnerHTML={{ __html: frontText }} />
@@ -27,7 +30,10 @@ export function FlipCard({ data }: { data: FlipCardBlock['data'] }) {
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 2v6h-6"></path><path d="M3 12a9 9 0 0 1 15-6.7L21 8"></path><path d="M3 22v-6h6"></path><path d="M21 12a9 9 0 0 1-15 6.7L3 16"></path></svg>
           </div>
         </div>
-        <div className={`${styles.face} ${styles.back}`}>
+        <div 
+          className={`${styles.face} ${styles.back}`}
+          style={{ visibility: flipped ? 'visible' : 'hidden' }}
+        >
           <div className={styles.decorCircle}></div>
           <div className={styles.label}>Đáp án</div>
           <div className={styles.content} dangerouslySetInnerHTML={{ __html: backText }} />

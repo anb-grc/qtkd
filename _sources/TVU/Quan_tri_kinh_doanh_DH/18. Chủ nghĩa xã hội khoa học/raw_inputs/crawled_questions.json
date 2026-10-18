@@ -3,12 +3,12 @@
     "question": "Sự phát triển nhanh chóng có tính chính trị công khai của phong trào công nhân những năm 30, 40 của thế kỷ XIX đã chứng minh:",
     "answer": "Giai cấp công nhân đã xuất hiện như một lực lượng chính trị độc lập.",
     "options": [
-      "Giai cấp công nhân đã được hình thành.",
       "Giai cấp tư sản đã tăng cường bóc lột giá trị thặng dư.",
+      "Giai cấp tư sản đã trở thành giai cấp thống trị trong xã hội.",
       "Giai cấp công nhân đã xuất hiện như một lực lượng chính trị độc lập.",
-      "Giai cấp tư sản đã trở thành giai cấp thống trị trong xã hội."
+      "Giai cấp công nhân đã được hình thành."
     ],
-    "feedback": "Đúng. Đáp án đúng là : Giai cấp công nhân đã xuất hiện như một lực lượng chính trị độc lập.   Vì :    Tham khảo :"
+    "feedback": "Đúng. Đáp án đúng là : Giai cấp công nhân đã xuất hiện như một lực lượng chính trị độc lập. Vì : Tham khảo :"
   },
   {
     "question": "Chủ nghĩa xã hội khoa học là một trong ba bộ phận hợp thành chủ nghĩa Mác - Lênin. Đây là cách hiểu theo nghĩa nào?",
@@ -19,7 +19,7 @@
       "Nghĩa phức tạp",
       "Nghĩa rộng"
     ],
-    "feedback": "Đúng. Đáp án đúng là : Nghĩa hẹp   Vì :    Tham khảo :"
+    "feedback": "Đúng. Đáp án đúng là : Nghĩa hẹp Vì : Tham khảo :"
   },
   {
     "question": "Chủ nghĩa xã hội khoa học được hiểu theo bao nhiêu nghĩa?",
@@ -30,7 +30,7 @@
       "Một nghĩa",
       "Bốn nghĩa"
     ],
-    "feedback": "Đúng. Đáp án đúng là : Hai nghĩa   Vì :    Tham khảo :"
+    "feedback": "Đúng. Đáp án đúng là : Hai nghĩa Vì : Tham khảo :"
   },
   {
     "question": "Trong khuôn khổ của học phần này, chủ nghĩa xã hội khoa học được nghiên cứu theo nghĩa nào?",
@@ -41,29 +41,29 @@
       "Nghĩa đơn giản",
       "Nghĩa phức tạp"
     ],
-    "feedback": "Đúng. Đáp án đúng là : Nghĩa hẹp   Vì :    Tham khảo :"
+    "feedback": "Đúng. Đáp án đúng là : Nghĩa hẹp Vì : Tham khảo :"
   },
   {
     "question": "Ai là người đã xây dựng chủ nghĩa xã hội hiện thực?",
     "answer": "V.I.Lênin",
     "options": [
-      "Ph.Ăngghen",
       "C.Mác",
+      "Ph.Ăngghen",
       "Xanh Ximông",
       "V.I.Lênin"
     ],
-    "feedback": "Đúng. Đáp án đúng là : V.I.Lênin   Vì :    Tham khảo :"
+    "feedback": "Sai. Đáp án đúng là : V.I.Lênin Vì : Tham khảo :"
   },
   {
     "question": "Người đã phát triển chủ nghĩa xã hội không tưởng thành chủ nghĩa xã hội khoa học là:",
     "answer": "C.Mác và Ph.Ăngghen.",
     "options": [
-      "Ph.Hêghen và Ph.Ăngghen.",
       "C.Mác và V.I.Lênin.",
+      "Ph.Hêghen và Ph.Ăngghen.",
       "C.Mác và Ph.Ăngghen.",
       "V.I.Lênin và J.Xtalin."
     ],
-    "feedback": "Đúng. Đáp án đúng là : C.Mác và Ph.Ăngghen.   Vì :    Tham khảo :"
+    "feedback": "Sai. Đáp án đúng là : C.Mác và Ph.Ăngghen. Vì : Tham khảo :"
   },
   {
     "question": "Theo V.I.Lênin, hệ thống chuyên chính vô sản bao gồm những tổ chức nào?",
@@ -74,29 +74,29 @@
       "Đảng lãnh đạo, Nhà nước quản lý và tổ chức đoàn thanh niên.",
       "Đảng Bônsêvích lãnh đạo, Nhà nước Xôviết quản lý và tổ chức công đoàn."
     ],
-    "feedback": "Đúng. Đáp án đúng là : Đảng Bônsêvích lãnh đạo, Nhà nước Xôviết quản lý và tổ chức công đoàn.   Vì :    Tham khảo :"
+    "feedback": "Đúng. Đáp án đúng là : Đảng Bônsêvích lãnh đạo, Nhà nước Xôviết quản lý và tổ chức công đoàn. Vì : Tham khảo :"
   },
   {
     "question": "Trong tác phẩm nào, Ph.Ăngghen đã luận chứng sự phát triển của chủ nghĩa xã hội từ không tưởng đến khoa học?",
     "answer": "Chống Đuyrinh",
     "options": [
+      "Chống Đuyrinh",
       "Tuyên ngôn của Đảng Cộng sản",
       "Hệ tư tưởng Đức",
-      "Chống Đuyrinh",
       "Tư bản"
     ],
-    "feedback": "Đúng. Đáp án đúng là : Chống Đuyrinh     Vì :    Tham khảo :"
+    "feedback": "Sai. Đáp án đúng là : Chống Đuyrinh Vì : Tham khảo :"
   },
   {
     "question": "Khẩu hiệu “Cộng hòa hay là chết” của phong trào công nhân dệt thành phố Lion, nước Pháp năm 1834 đã thể hiện tính chất:",
     "answer": "Chính trị",
     "options": [
-      "Xã hội",
       "Chính trị",
       "Kinh tế",
+      "Xã hội",
       "Văn hóa"
     ],
-    "feedback": "Đúng. Đáp án đúng là : Chính trị   Vì :    Tham khảo :"
+    "feedback": "Sai. Đáp án đúng là : Chính trị Vì : Tham khảo :"
   },
   {
     "question": "V.I.Lênin đã khẳng định điều gì khi bàn về chế độ dân chủ?",
@@ -107,7 +107,7 @@
       "Không có dân chủ thuần túy hay dân chủ nói chung.",
       "Không có sự khác nhau căn bản giữa các chế độ dân chủ."
     ],
-    "feedback": "Đúng. Đáp án đúng là : Không có dân chủ thuần túy hay dân chủ nói chung.   Vì :    Tham khảo :"
+    "feedback": "Đúng. Đáp án đúng là : Không có dân chủ thuần túy hay dân chủ nói chung. Vì : Tham khảo :"
   },
   {
     "question": "Tác phẩm nào sau đây đánh dấu sự ra đời của chủ nghĩa xã hội khoa học?",
@@ -118,18 +118,18 @@
       "Lược khảo khoa kinh tế - chính trị.",
       "Tuyên ngôn của Đảng Cộng sản."
     ],
-    "feedback": "Đúng. Đáp án đúng là : Tuyên ngôn của Đảng Cộng sản.   Vì :    Tham khảo :"
+    "feedback": "Đúng. Đáp án đúng là : Tuyên ngôn của Đảng Cộng sản. Vì : Tham khảo :"
   },
   {
     "question": "Sự phân biệt chủ nghĩa xã hội khoa học với các khoa học chính trị - xã hội trước hết là ở:",
     "answer": "Đối tượng nghiên cứu",
     "options": [
       "Mục đích nghiên cứu",
-      "Khách thể nghiên cứu",
       "Đối tượng nghiên cứu",
+      "Khách thể nghiên cứu",
       "Nhiệm vụ nghiên cứu"
     ],
-    "feedback": "Đúng. Đáp án đúng là : Đối tượng nghiên cứu   Vì :    Tham khảo :"
+    "feedback": "Sai. Đáp án đúng là : Đối tượng nghiên cứu Vì : Tham khảo :"
   },
   {
     "question": "Giai cấp công nhân Việt Nam ra đời vào thời gian nào?",
@@ -140,7 +140,7 @@
       "Đầu thế kỷ XIX",
       "Giữa thế kỷ XX"
     ],
-    "feedback": "Đúng. Đáp án đúng là : Đầu thế kỷ XX   Vì :    Tham khảo :"
+    "feedback": "Đúng. Đáp án đúng là : Đầu thế kỷ XX Vì : Tham khảo :"
   },
   {
     "question": "Một trong những điểm tương đối ổn định của giai cấp công nhân hiện nay so với giai cấp công nhân thế kỷ XIX là:",
@@ -151,7 +151,7 @@
       "Vẫn thuần túy hao phí sức lực cơ bắp.",
       "Vẫn không có sở hữu tư liệu sản xuất."
     ],
-    "feedback": "Đúng. Đáp án đúng là : Vẫn đang là lực lượng sản xuất hàng đầu của xã hội hiện đại.   Vì :    Tham khảo :"
+    "feedback": "Đúng. Đáp án đúng là : Vẫn đang là lực lượng sản xuất hàng đầu của xã hội hiện đại. Vì : Tham khảo :"
   },
   {
     "question": "Hiện nay, một bộ phận công nhân đã tham gia vào sở hữu một lượng tư liệu sản xuất của xã hội thông qua chế độ cổ phần hóa. Đây là biểu hiện của xu hướng nào?",
@@ -159,21 +159,21 @@
     "options": [
       "Xu hướng “trí tuệ hóa”",
       "Xu hướng “công nghiệp hóa”",
-      "Xu hướng “vô sản hóa”",
-      "Xu hướng “trung lưu hóa”"
+      "Xu hướng “trung lưu hóa”",
+      "Xu hướng “vô sản hóa”"
     ],
-    "feedback": "Đúng. Đáp án đúng là : Xu hướng “trung lưu hóa”   Vì :    Tham khảo :"
+    "feedback": "Sai. Đáp án đúng là : Xu hướng “trung lưu hóa” Vì : Tham khảo :"
   },
   {
     "question": "Thuật ngữ nào sau đây có nội dung hẹp hơn các thuật ngữ còn lại?",
     "answer": "Công nhân nông nghiệp",
     "options": [
-      "Giai cấp công nhân đại công nghiệp",
-      "Giai cấp vô sản hiện đại",
       "Công nhân nông nghiệp",
+      "Giai cấp vô sản hiện đại",
+      "Giai cấp công nhân đại công nghiệp",
       "Giai cấp vô sản"
     ],
-    "feedback": "Đúng. Đáp án đúng là : Công nhân nông nghiệp   Vì :    Tham khảo :"
+    "feedback": "Sai. Đáp án đúng là : Công nhân nông nghiệp Vì : Tham khảo :"
   },
   {
     "question": "Hiện nay, đội ngũ công nhân Việt Nam trong khu vực kinh tế nào là tiêu biểu, đóng vai trò nòng cốt, chủ đạo?",
@@ -184,7 +184,7 @@
       "Kinh tế tập thể",
       "Kinh tế nhà nước"
     ],
-    "feedback": "Đúng. Đáp án đúng là : Kinh tế nhà nước   Vì :    Tham khảo :"
+    "feedback": "Đúng. Đáp án đúng là : Kinh tế nhà nước Vì : Tham khảo :"
   },
   {
     "question": "Nội dung chủ yếu, điểm căn bản của chủ nghĩa Mác - Lênin là:",
@@ -195,18 +195,18 @@
       "Liên minh giai cấp, tầng lớp trong thời kỳ quá độ lên chủ nghĩa xã hội.",
       "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội."
     ],
-    "feedback": "Đúng. Đáp án đúng là : Sứ mệnh lịch sử thế giới của giai cấp công nhân.   Vì :    Tham khảo :"
+    "feedback": "Đúng. Đáp án đúng là : Sứ mệnh lịch sử thế giới của giai cấp công nhân. Vì : Tham khảo :"
   },
   {
     "question": "Theo chủ nghĩa Mác - Lênin, một trong những điều kiện khách quan quy định sứ mệnh lịch sử của giai cấp công nhân là:",
     "answer": "Do địa vị kinh tế của giai cấp công nhân.",
     "options": [
-      "Sự liên minh giữa giai cấp công nhân với giai cấp nông dân và các tầng lớp lao động khác.",
-      "Sự lãnh đạo của Đảng Cộng sản.",
       "Do địa vị kinh tế của giai cấp công nhân.",
-      "Do sự phát triển của bản thân giai cấp công nhân cả về số lượng và chất lượng."
+      "Do sự phát triển của bản thân giai cấp công nhân cả về số lượng và chất lượng.",
+      "Sự lãnh đạo của Đảng Cộng sản.",
+      "Sự liên minh giữa giai cấp công nhân với giai cấp nông dân và các tầng lớp lao động khác."
     ],
-    "feedback": "Đúng. Đáp án đúng là : Do địa vị kinh tế của giai cấp công nhân.   Vì :    Tham khảo :"
+    "feedback": "Sai. Đáp án đúng là : Do địa vị kinh tế của giai cấp công nhân. Vì : Tham khảo :"
   },
   {
     "question": "Ở các nước tư bản chủ nghĩa hiện nay, mục tiêu đấu tranh trực tiếp của giai cấp công nhân và nhân dân lao động là:",
@@ -217,6 +217,589 @@
       "Chống bất công và bất bình đẳng xã hội.",
       "Xây dựng Đảng cầm quyền trong sạch, vững mạnh."
     ],
-    "feedback": "Đúng. Đáp án đúng là : Chống bất công và bất bình đẳng xã hội.   Vì :    Tham khảo :"
+    "feedback": "Sai. Đáp án đúng là : Chống bất công và bất bình đẳng xã hội. Vì : Tham khảo :"
+  },
+  {
+    "question": "Theo chủ nghĩa Mác - Lênin, điều kiện kinh tế cho sự ra đời của chủ nghĩa xã hội là:",
+    "answer": "Sự phát triển của lực lượng sản xuất.",
+    "options": [
+      "Sự phát triển của quan hệ sản xuất.",
+      "Sự ra đời của giai cấp công nhân.",
+      "Sự phát triển của lực lượng sản xuất.",
+      "Sự ra đời của Đảng Cộng sản."
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Sự phát triển của lực lượng sản xuất. Vì : Tham khảo :"
+  },
+  {
+    "question": "Đại hội nào của Đảng Cộng sản Việt Nam đã xác định mục tiêu đến giữa thế kỷ XXI, nước ta trở thành nước phát triển theo định hướng xã hội chủ nghĩa?",
+    "answer": "Đại hội XIII (2021)",
+    "options": [
+      "Đại hội VI (1986)",
+      "Đại hội XI (2011)",
+      "Đại hội VII (1991)",
+      "Đại hội XIII (2021)"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Đại hội XIII (2021) Vì : Tham khảo :"
+  },
+  {
+    "question": "Nước ta quá độ lên chủ nghĩa xã hội bỏ qua chế độ tư bản chủ nghĩa, tức là bỏ qua điều gì?",
+    "answer": "Bỏ qua việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượng tầng tư bản chủ nghĩa.",
+    "options": [
+      "Bỏ qua việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượng tầng tư bản chủ nghĩa.",
+      "Bỏ qua tất cả những gì của chế độ tư bản chủ nghĩa.",
+      "Bỏ qua việc xác lập vị trí thống trị của lực lượng sản xuất và kiến trúc thượng tầng tư bản chủ nghĩa.",
+      "Bỏ qua hình thức sở hữu tư nhân tư bản chủ nghĩa."
+    ],
+    "feedback": "Sai. Đáp án đúng là : Bỏ qua việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượng tầng tư bản chủ nghĩa. Vì : Tham khảo :"
+  },
+  {
+    "question": "Cương lĩnh xây dựng đất nước trong thời kỳ quá độ lên chủ nghĩa xã hội (1991) đã xác định mô hình chủ nghĩa xã hội ở nước ta với bao nhiêu đặc trưng?",
+    "answer": "Sáu đặc trưng",
+    "options": [
+      "Bảy đặc trưng",
+      "Chín đặc trưng",
+      "Tám đặc trưng",
+      "Sáu đặc trưng"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Sáu đặc trưng Vì : Tham khảo :"
+  },
+  {
+    "question": "Theo chủ nghĩa Mác - Lênin, chủ nghĩa xã hội có bao nhiêu đặc trưng cơ bản?",
+    "answer": "Sáu đặc trưng",
+    "options": [
+      "Năm đặc trưng",
+      "Tám đặc trưng",
+      "Bảy đặc trưng",
+      "Sáu đặc trưng"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Sáu đặc trưng Vì : Tham khảo :"
+  },
+  {
+    "question": "Theo chủ nghĩa Mác - Lênin, sự khác biệt về chất của hình thái kinh tế - xã hội cộng sản chủ nghĩa so với các hình thái kinh tế - xã hội đã xuất hiện trong lịch sử là:",
+    "answer": "Không có giai cấp đối kháng.",
+    "options": [
+      "Con người không cần phải lao động.",
+      "Không có tổ chức, quản lý và kỷ luật lao động.",
+      "Con người không làm chủ tồn tại xã hội của chính mình.",
+      "Không có giai cấp đối kháng."
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Không có giai cấp đối kháng. Vì : Tham khảo :"
+  },
+  {
+    "question": "Trong thời kỳ quá độ lên chủ nghĩa xã hội, về phương diện kinh tế, tất yếu tồn tại:",
+    "answer": "Nền kinh tế nhiều thành phần.",
+    "options": [
+      "Nhiều giai cấp, tầng lớp khác nhau.",
+      "Nền kinh tế nhiều thành phần.",
+      "Nhiều tư tưởng khác nhau.",
+      "Nền kinh tế kế hoạch hóa, tập trung."
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Nền kinh tế nhiều thành phần. Vì : Tham khảo :"
+  },
+  {
+    "question": "Theo chủ nghĩa Mác - Lênin, hình thái kinh tế - xã hội cộng sản chủ nghĩa chỉ được hình thành thông qua:",
+    "answer": "Cách mạng vô sản",
+    "options": [
+      "Cách mạng tư sản",
+      "Đấu tranh giai cấp",
+      "Đấu tranh hòa bình",
+      "Cách mạng vô sản"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Cách mạng vô sản Vì : Tham khảo :"
+  },
+  {
+    "question": "Nhà nước pháp quyền xã hội chủ nghĩa ở Việt Nam phải do Đảng Cộng sản Việt Nam lãnh đạo, phù hợp với điều mấy của Hiến pháp năm 2013?",
+    "answer": "Điều 4",
+    "options": [
+      "Điều 3",
+      "Điều 1",
+      "Điều 2",
+      "Điều 4"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Điều 4 Vì : Tham khảo :"
+  },
+  {
+    "question": "Cơ quan quyền lực nhà nước cao nhất ở nước ta là:",
+    "answer": "Quốc hội",
+    "options": [
+      "Quốc hội",
+      "Chính phủ",
+      "Đảng Cộng sản",
+      "Mặt trận Tổ quốc"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Quốc hội Vì : Tham khảo :"
+  },
+  {
+    "question": "Theo chủ nghĩa Mác - Lênin, dân chủ xã hội chủ nghĩa chỉ có được với điều kiện tiên quyết là:",
+    "answer": "Bảo đảm vai trò lãnh đạo duy nhất của Đảng Cộng sản.",
+    "options": [
+      "Bảo đảm vai trò lãnh đạo duy nhất của Đảng Cộng sản.",
+      "Phát huy được tính tích cực của nhân dân trong sự nghiệp xây dựng xã hội mới.",
+      "Nâng cao được trình độ văn hóa của nhân dân.",
+      "Khoa học - công nghệ phát triển, hiện đại."
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Bảo đảm vai trò lãnh đạo duy nhất của Đảng Cộng sản. Vì : Tham khảo :"
+  },
+  {
+    "question": "Theo chủ nghĩa Mác - Lênin, với tư cách một hình thức tổ chức thiết chế chính trị, dân chủ là một phạm trù:",
+    "answer": "Lịch sử",
+    "options": [
+      "Lịch sử",
+      "Lôgíc",
+      "Vĩnh viễn",
+      "Triết học"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Lịch sử Vì : Tham khảo :"
+  },
+  {
+    "question": "Nền dân chủ xã hội chủ nghĩa chính thức được xác lập khi nào?",
+    "answer": "Khi cách mạng Tháng Mười Nga thành công, Nhà nước xã hội chủ nghĩa đầu tiên trên thế giới ra đời.",
+    "options": [
+      "Khi cách mạng tư sản giành thắng lợi, Nhà nước tư sản được thành lập.",
+      "Khi nhân dân xem việc tuân theo ý chí của giai cấp thống trị là bổn phận.",
+      "Khi cách mạng Tháng Mười Nga thành công, Nhà nước xã hội chủ nghĩa đầu tiên trên thế giới ra đời.",
+      "Khi xuất hiện những tư tưởng tiến bộ về tự do, công bằng, dân chủ."
+    ],
+    "feedback": "Sai. Đáp án đúng là : Khi cách mạng Tháng Mười Nga thành công, Nhà nước xã hội chủ nghĩa đầu tiên trên thế giới ra đời. Vì : Tham khảo :"
+  },
+  {
+    "question": "Khi coi dân chủ là một giá trị xã hội mang tính toàn nhân loại, Chủ tịch Hồ Chí Minh đã khẳng định:",
+    "answer": "Dân chủ là dân là chủ và dân làm chủ.",
+    "options": [
+      "Dân chủ là dân là chủ và dân làm chủ.",
+      "Dân chủ là dân tham gia bầu ra nhà nước.",
+      "Dân chủ là một nguyên tắc - nguyên tắc dân chủ.",
+      "Dân chủ là nhân dân cai trị."
+    ],
+    "feedback": "Sai. Đáp án đúng là : Dân chủ là dân là chủ và dân làm chủ. Vì : Tham khảo :"
+  },
+  {
+    "question": "Nền dân chủ thứ hai trong lịch sử nhân loại là:",
+    "answer": "Nền dân chủ tư sản",
+    "options": [
+      "Nền dân chủ xã hội chủ nghĩa",
+      "Nền dân chủ nguyên thủy",
+      "Nền dân chủ chủ nô",
+      "Nền dân chủ tư sản"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Nền dân chủ tư sản Vì : Tham khảo :"
+  },
+  {
+    "question": "Một trong những tầng lớp xã hội mới xuất hiện trong thời kỳ quá độ lên chủ nghĩa xã hội là:",
+    "answer": "Những người giàu có",
+    "options": [
+      "Công nhân",
+      "Trí thức",
+      "Những người giàu có",
+      "Nông dân"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Những người giàu có Vì : Tham khảo :"
+  },
+  {
+    "question": "Nền kinh tế thị trường phát triển mạnh, tính cạnh tranh cao, xu thế hội nhập ngày càng sâu rộng sẽ làm cho các giai cấp, tầng lớp xã hội trở nên:",
+    "answer": "Năng động, sáng tạo, thích ứng nhanh hơn.",
+    "options": [
+      "Cạnh tranh, bất đồng, mâu thuẫn nhiều hơn.",
+      "Dễ thất nghiệp, nghèo khó hơn.",
+      "Năng động, sáng tạo, thích ứng nhanh hơn.",
+      "Thụ động, ỷ lại hơn."
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Năng động, sáng tạo, thích ứng nhanh hơn. Vì : Tham khảo :"
+  },
+  {
+    "question": "Ở Việt Nam hiện nay, giai cấp nào có xu hướng giảm dần về số lượng và tỷ lệ trong cơ cấu xã hội - giai cấp?",
+    "answer": "Giai cấp nông dân",
+    "options": [
+      "Giai cấp tư sản",
+      "Giai cấp tiểu tư sản",
+      "Giai cấp nông dân",
+      "Giai cấp công nhân"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Giai cấp nông dân Vì : Tham khảo :"
+  },
+  {
+    "question": "Một trong những yêu cầu khách quan về kinh tế của thời kỳ quá độ lên chủ nghĩa xã hội là:",
+    "answer": "Phải gắn chặt nông nghiệp với công nghiệp, dịch vụ, khoa học - công nghệ tạo thành cơ cấu kinh tế quốc dân thống nhất.",
+    "options": [
+      "Phải ưu tiên thỏa mãn những nhu cầu và lợi ích kinh tế của giai cấp công nhân.",
+      "Phải gắn chặt nông nghiệp với công nghiệp, dịch vụ, khoa học - công nghệ tạo thành cơ cấu kinh tế quốc dân thống nhất.",
+      "Phải thu hẹp khối liên minh giữa giai cấp công nhân với giai cấp nông dân và các tầng lớp xã hội khác.",
+      "Phải ưu tiên phát triển nông nghiệp để xây dựng nền tảng vật chất - kỹ thuật cho chủ nghĩa xã hội."
+    ],
+    "feedback": "Sai. Đáp án đúng là : Phải gắn chặt nông nghiệp với công nghiệp, dịch vụ, khoa học - công nghệ tạo thành cơ cấu kinh tế quốc dân thống nhất. Vì : Tham khảo :"
+  },
+  {
+    "question": "Ở Việt Nam hiện nay, tổ chức nào là nơi quy tụ và phát huy tài năng sáng tạo của tuổi trẻ vì sự nghiệp xây dựng và bảo vệ Tổ quốc xã hội chủ nghĩa?",
+    "answer": "Đoàn Thanh niên Cộng sản Hồ Chí Minh",
+    "options": [
+      "Hội Nông dân",
+      "Công đoàn",
+      "Đoàn Thanh niên Cộng sản Hồ Chí Minh",
+      "Hội Liên hiệp phụ nữ"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Đoàn Thanh niên Cộng sản Hồ Chí Minh Vì : Tham khảo :"
+  },
+  {
+    "question": "Loại hình cơ cấu xã hội nào có vị trí quan trọng hàng đầu, chi phối các loại hình khác?",
+    "answer": "Cơ cấu xã hội - giai cấp",
+    "options": [
+      "Cơ cấu xã hội - dân tộc",
+      "Cơ cấu xã hội - giai cấp",
+      "Cơ cấu xã hội - dân cư",
+      "Cơ cấu xã hội - tôn giáo"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Cơ cấu xã hội - giai cấp Vì : Tham khảo :"
+  },
+  {
+    "question": "Theo C.Mác và Ph.Ăngghen, “người bạn đồng minh tự nhiên” của giai cấp công nhân là:",
+    "answer": "Giai cấp nông dân",
+    "options": [
+      "Giai cấp tư sản",
+      "Giai cấp nông dân",
+      "Giai cấp tiểu tư sản",
+      "Giai cấp địa chủ"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Giai cấp nông dân Vì : Tham khảo :"
+  },
+  {
+    "question": "Ở cấp độ gia đình, hoạt động nào là phổ biến nhất của tín ngưỡng truyền thống Việt Nam?",
+    "answer": "Thờ cúng tổ tiên",
+    "options": [
+      "Thờ nữ thần",
+      "Thờ cúng tổ tiên",
+      "Thờ Mẫu",
+      "Thờ cúng Thành hoàng làng"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Thờ cúng tổ tiên Vì : Tham khảo :"
+  },
+  {
+    "question": "Theo chủ nghĩa Mác - Lênin, tôn giáo là một hình thái ý thức xã hội phản ánh như thế nào đối với hiện thực khách quan?",
+    "answer": "Phản ánh hư ảo",
+    "options": [
+      "Phản ánh hư ảo",
+      "Phản ánh sáng tạo",
+      "Phản ánh tiêu cực",
+      "Phản ánh tích cực"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Phản ánh hư ảo Vì : Tham khảo :"
+  },
+  {
+    "question": "Theo chủ nghĩa Mác - Lênin, nhân tố quyết định sự tồn tại và phát triển của tôn giáo là:",
+    "answer": "Sản xuất vật chất và các quan hệ kinh tế.",
+    "options": [
+      "Sản xuất ra các giá trị văn hóa tinh thần.",
+      "Xây dựng hệ thống tín đồ đông đảo.",
+      "Sản xuất vật chất và các quan hệ kinh tế.",
+      "Xây dựng tổ chức nhân sự."
+    ],
+    "feedback": "Sai. Đáp án đúng là : Sản xuất vật chất và các quan hệ kinh tế. Vì : Tham khảo :"
+  },
+  {
+    "question": "Yếu tố nào sau đây thể hiện chủ quyền của một dân tộc trong tương quan với các quốc gia - dân tộc khác?",
+    "answer": "Lãnh thổ",
+    "options": [
+      "Tâm lý",
+      "Ngôn ngữ",
+      "Kinh tế",
+      "Lãnh thổ"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Lãnh thổ Vì : Tham khảo :"
+  },
+  {
+    "question": "Theo chủ nghĩa Mác - Lênin, trong xã hội công xã nguyên thủy, tín ngưỡng, tôn giáo chỉ biểu hiện thuần túy về:",
+    "answer": "Tư tưởng",
+    "options": [
+      "Kinh tế",
+      "Văn hóa",
+      "Tư tưởng",
+      "Chính trị"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Tư tưởng Vì : Tham khảo :"
+  },
+  {
+    "question": "Theo Cương lĩnh dân tộc của V.I.Lênin, liên hiệp công nhân các dân tộc phản ánh sự gắn bó chặt chẽ giữa tinh thần của chủ nghĩa yêu nước và:",
+    "answer": "Chủ nghĩa quốc tế chân chính.",
+    "options": [
+      "Chủ nghĩa quốc tế chân chính.",
+      "Chủ nghĩa dân tộc cực đoan.",
+      "Chủ nghĩa bá quyền nước lớn.",
+      "Chủ nghĩa dân tộc hẹp hòi."
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Chủ nghĩa quốc tế chân chính. Vì : Tham khảo :"
+  },
+  {
+    "question": "Yếu tố nào sau đây là đặc trưng cho thể chế chính trị của dân tộc, là đại diện cho dân tộc trong quan hệ với các quốc gia dân tộc khác trên thế giới?",
+    "answer": "Nhà nước",
+    "options": [
+      "Nhà nước",
+      "Kinh tế",
+      "Lãnh thổ",
+      "Văn hóa"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Nhà nước Vì : Tham khảo :"
+  },
+  {
+    "question": "Theo chủ nghĩa Mác - Lênin, khắc phục dần những ảnh hưởng tiêu cực của tôn giáo phải gắn liền với:",
+    "answer": "Quá trình cải tạo xã hội cũ, xây dựng xã hội mới.",
+    "options": [
+      "Quá trình phát triển kinh tế.",
+      "Quá trình nâng cao trình độ dân trí.",
+      "Quá trình cải tạo xã hội cũ, xây dựng xã hội mới.",
+      "Quá trình giải phóng dân tộc."
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Quá trình cải tạo xã hội cũ, xây dựng xã hội mới. Vì : Tham khảo :"
+  },
+  {
+    "question": "Cương lĩnh dân tộc của V.I.Lênin đã khái quát bao nhiêu nguyên tắc cơ bản?",
+    "answer": "Ba nguyên tắc",
+    "options": [
+      "Hai nguyên tắc",
+      "Năm nguyên tắc",
+      "Ba nguyên tắc",
+      "Bốn nguyên tắc"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Ba nguyên tắc Vì : Tham khảo :"
+  },
+  {
+    "question": "Tín đồ các tôn giáo ở Việt Nam phần lớn là:",
+    "answer": "Nhân dân lao động",
+    "options": [
+      "Nhân dân lao động",
+      "Trí thức",
+      "Doanh nhân",
+      "Thanh niên"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Nhân dân lao động Vì : Tham khảo :"
+  },
+  {
+    "question": "Nội dung chính trị trong chính sách dân tộc của Đảng, Nhà nước Việt Nam là:",
+    "answer": "Thực hiện bình đẳng, đoàn kết, tôn trọng, giúp nhau cùng phát triển giữa các dân tộc.",
+    "options": [
+      "Thực hiện chủ trương, chính sách phát triển kinh tế - xã hội miền núi, vùng đồng bào các dân tộc thiểu số.",
+      "Thực hiện chính sách xã hội, đảm bảo an sinh xã hội trong vùng đồng bào dân tộc thiểu số.",
+      "Thực hiện bình đẳng, đoàn kết, tôn trọng, giúp nhau cùng phát triển giữa các dân tộc.",
+      "Thực hiện việc tăng cường sức mạnh bảo vệ Tổ quốc trên cơ sở đảm bảo ổn định chính trị, thực hiện tốt an ninh chính trị, trật tự - an toàn xã hội."
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Thực hiện bình đẳng, đoàn kết, tôn trọng, giúp nhau cùng phát triển giữa các dân tộc. Vì : Tham khảo :"
+  },
+  {
+    "question": "Theo kết quả tổng điều tra dân số và nhà ở năm 2019, dân tộc nào ở Việt Nam có dân số đông thứ hai, sau dân tộc Kinh?",
+    "answer": "Dân tộc Tày",
+    "options": [
+      "Dân tộc Khmer",
+      "Dân tộc Mường",
+      "Dân tộc Thái",
+      "Dân tộc Tày"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Dân tộc Tày Vì : Tham khảo :"
+  },
+  {
+    "question": "Một trong những hiện tượng tôn giáo mới xuất hiện ở Việt Nam là:",
+    "answer": "Tin Lành Vàng Chứ",
+    "options": [
+      "Hội Thánh Tin Lành Việt Nam (miền Bắc)",
+      "Hội đồng Giám mục Việt Nam",
+      "Tin Lành Vàng Chứ",
+      "Giáo hội Phật giáo Việt Nam"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Tin Lành Vàng Chứ Vì : Tham khảo :"
+  },
+  {
+    "question": "Chức năng nào của gia đình quyết định mật độ dân cư, nguồn lực lao động của một quốc gia và cả quốc tế?",
+    "answer": "Chức năng tái sản xuất ra con người.",
+    "options": [
+      "Chức năng tổ chức tiêu dùng.",
+      "Chức năng tái sản xuất ra con người.",
+      "Chức năng thỏa mãn nhu cầu tâm sinh lý, duy trì tình cảm gia đình.",
+      "Chức năng nuôi dưỡng, giáo dục."
+    ],
+    "feedback": "Sai. Đáp án đúng là : Chức năng tái sản xuất ra con người. Vì : Tham khảo :"
+  },
+  {
+    "question": "Trong thời kỳ quá độ lên chủ nghĩa xã hội, thực hiện chế độ hôn nhân một vợ một chồng chính là thực hiện:",
+    "answer": "Sự bình đẳng, tôn trọng lẫn nhau giữa vợ và chồng.",
+    "options": [
+      "Sự bình đẳng, tôn trọng lẫn nhau giữa vợ và chồng.",
+      "Sự nuôi dưỡng, chăm sóc lẫn nhau giữa vợ và chồng.",
+      "Sự tập trung nhiều của cải vào tay một người.",
+      "Sự giải phóng đối với người đàn ông."
+    ],
+    "feedback": "Sai. Đáp án đúng là : Sự bình đẳng, tôn trọng lẫn nhau giữa vợ và chồng. Vì : Tham khảo :"
+  },
+  {
+    "question": "Nhà nước xã hội chủ nghĩa với tính cách là cơ sở của việc xây dựng gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội, thể hiện rõ nét nhất ở vai trò của:",
+    "answer": "Hệ thống pháp luật và chính sách xã hội.",
+    "options": [
+      "Hệ thống pháp luật và chính sách xã hội.",
+      "Chính sách kinh tế.",
+      "Chính sách dân số, kế hoạch hóa gia đình.",
+      "Hệ thống Hiến pháp và pháp luật."
+    ],
+    "feedback": "Sai. Đáp án đúng là : Hệ thống pháp luật và chính sách xã hội. Vì : Tham khảo :"
+  },
+  {
+    "question": "Trong gia đình Việt Nam truyền thống, sự bền vững của hôn nhân phụ thuộc nhiều vào yếu tố nào?",
+    "answer": "Có con trai nối dõi",
+    "options": [
+      "Có tâm lý vững vàng",
+      "Có kinh tế ổn định",
+      "Có tình cảm sâu sắc",
+      "Có con trai nối dõi"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Có con trai nối dõi Vì : Tham khảo :"
+  },
+  {
+    "question": "Trong gia đình Việt Nam hiện đại, sự bền vững của hôn nhân phụ thuộc nhiều vào yếu tố nào?",
+    "answer": "Tâm lý, tình cảm, kinh tế",
+    "options": [
+      "Có con trai nối dõi",
+      "Phong tục, tập quán",
+      "Tâm lý, tình cảm, kinh tế",
+      "Có đủ hai con"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Tâm lý, tình cảm, kinh tế Vì : Tham khảo :"
+  },
+  {
+    "question": "Theo chủ nghĩa Mác - Lênin, sự thống trị của người đàn ông trong gia đình là kết quả sự thống trị của họ về:",
+    "answer": "Kinh tế",
+    "options": [
+      "Xã hội",
+      "Tư tưởng",
+      "Kinh tế",
+      "Chính trị"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Kinh tế Vì : Tham khảo :"
+  },
+  {
+    "question": "Một trong những ưu điểm của quy mô gia đình Việt Nam hiện nay so với gia đình truyền thống là:",
+    "answer": "Cuộc sống riêng tư của con người được tôn trọng hơn.",
+    "options": [
+      "Thời gian dành cho gia đình ngày càng nhiều hơn.",
+      "Các thành viên trong gia đình gần gũi với nhau hơn.",
+      "Việc giữ gìn các giá trị văn hóa truyền thống của gia đình dễ dàng hơn.",
+      "Cuộc sống riêng tư của con người được tôn trọng hơn."
+    ],
+    "feedback": "Sai. Đáp án đúng là : Cuộc sống riêng tư của con người được tôn trọng hơn. Vì : Tham khảo :"
+  },
+  {
+    "question": "Một mô hình gia đình tiến bộ, một danh hiệu mà nhiều gia đình Việt Nam mong muốn hướng đến là:",
+    "answer": "Gia đình văn hóa",
+    "options": [
+      "Gia đình hiện đại",
+      "Gia đình văn hóa",
+      "Gia đình tiên tiến",
+      "Gia đình truyền thống"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Gia đình văn hóa Vì : Tham khảo :"
+  },
+  {
+    "question": "Chức năng nào của gia đình có ảnh hưởng lâu dài và toàn diện đến cuộc đời của mỗi thành viên?",
+    "answer": "Chức năng nuôi dưỡng, giáo dục.",
+    "options": [
+      "Chức năng thỏa mãn nhu cầu tâm sinh lý, duy trì tình cảm gia đình.",
+      "Chức năng tái sản xuất ra con người.",
+      "Chức năng nuôi dưỡng, giáo dục.",
+      "Chức năng tổ chức tiêu dung."
+    ],
+    "feedback": "Sai. Đáp án đúng là : Chức năng nuôi dưỡng, giáo dục. Vì : Tham khảo :"
+  },
+  {
+    "question": "Ở Việt Nam hiện nay, người chủ gia đình được quan niệm là:",
+    "answer": "Người có những phẩm chất, năng lực và đóng góp vượt trội, được các thành viên trong gia đình coi trọng.",
+    "options": [
+      "Người có những phẩm chất, năng lực và đóng góp vượt trội, được các thành viên trong gia đình coi trọng.",
+      "Người thờ phụng tổ tiên.",
+      "Người nuôi dưỡng, chăm sóc cha mẹ già.",
+      "Người được thừa kế tài sản do tổ tiên để lại."
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Người có những phẩm chất, năng lực và đóng góp vượt trội, được các thành viên trong gia đình coi trọng. Vì : Tham khảo :"
+  },
+  {
+    "question": "Khái niệm dùng để chỉ công nhân theo xu hướng “trí tuệ hóa” là:",
+    "answer": "Công nhân áo trắng",
+    "options": [
+      "Công nhân áo vàng",
+      "Công nhân áo xanh",
+      "Công nhân áo đen",
+      "Công nhân áo trắng"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Công nhân áo trắng Vì : Tham khảo :"
+  },
+  {
+    "question": "Theo chủ nghĩa Mác - Lênin, trong chủ nghĩa xã hội, yếu tố nào là nền tảng tinh thần của xã hội?",
+    "answer": "Văn hóa",
+    "options": [
+      "Triết học",
+      "Chính trị",
+      "Văn hóa",
+      "Đạo đức"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Văn hóa Vì : Tham khảo :"
+  },
+  {
+    "question": "Đặc điểm quá độ lên chủ nghĩa xã hội ở Việt Nam là:",
+    "answer": "Bỏ qua chế độ tư bản chủ nghĩa.",
+    "options": [
+      "Quá độ trực tiếp từ chủ nghĩa tư bản phát triển lên chủ nghĩa xã hội.",
+      "Quá độ gián tiếp từ chủ nghĩa tư bản phát triển trung bình lên chủ nghĩa xã hội.",
+      "Bỏ qua chế độ tư bản chủ nghĩa.",
+      "Có lực lượng sản xuất phát triển đồng đều."
+    ],
+    "feedback": "Sai. Đáp án đúng là : Bỏ qua chế độ tư bản chủ nghĩa. Vì : Tham khảo :"
+  },
+  {
+    "question": "Để đảm bảo vai trò lãnh đạo của mình, trước hết Đảng Cộng sản Việt Nam phải làm gì?",
+    "answer": "Phải vững mạnh về chính trị, tư tưởng và tổ chức.",
+    "options": [
+      "Phải thực hiện tự phê bình và phê bình.",
+      "Phải nâng cao trình độ trí tuệ.",
+      "Phải vững mạnh về chính trị, tư tưởng và tổ chức.",
+      "Phải dân chủ trong sinh hoạt."
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Phải vững mạnh về chính trị, tư tưởng và tổ chức. Vì : Tham khảo :"
+  },
+  {
+    "question": "Bản chất dân chủ xã hội chủ nghĩa ở Việt Nam được thực hiện thông qua các hình thức:",
+    "answer": "Dân chủ gián tiếp và dân chủ trực tiếp.",
+    "options": [
+      "Dân chủ chủ yếu và dân chủ thứ yếu.",
+      "Dân chủ cơ bản và dân chủ không cơ bản.",
+      "Dân chủ bên trong và dân chủ bên ngoài.",
+      "Dân chủ gián tiếp và dân chủ trực tiếp."
+    ],
+    "feedback": "Sai. Đáp án đúng là : Dân chủ gián tiếp và dân chủ trực tiếp. Vì : Tham khảo :"
+  },
+  {
+    "question": "Ở nước ta hiện nay, cơ cấu xã hội muốn biến đổi theo hướng tích cực phải dựa trên cơ sở:",
+    "answer": "Tăng trưởng và phát triển kinh tế nhanh, bền vững.",
+    "options": [
+      "Thực hiện tốt an sinh xã hội.",
+      "Xây dựng nền văn hóa tiên tiến, đậm đà bản sắc dân tộc.",
+      "Giữ vững lập trường chính trị - tư tưởng của giai cấp công nhân.",
+      "Tăng trưởng và phát triển kinh tế nhanh, bền vững."
+    ],
+    "feedback": "Sai. Đáp án đúng là : Tăng trưởng và phát triển kinh tế nhanh, bền vững. Vì : Tham khảo :"
+  },
+  {
+    "question": "Theo chủ nghĩa Mác - Lênin, dân tộc ở phương Tây xuất hiện khi nào?",
+    "answer": "Khi phương thức sản xuất tư bản chủ nghĩa được xác lập.",
+    "options": [
+      "Khi chế độ nguyên thủy tan rã.",
+      "Khi phương thức sản xuất tư bản chủ nghĩa được xác lập.",
+      "Khi chế độ chiếm hữu nô lệ tan rã.",
+      "Khi phương thức sản xuất phong kiến được xác lập."
+    ],
+    "feedback": "Sai. Đáp án đúng là : Khi phương thức sản xuất tư bản chủ nghĩa được xác lập. Vì : Tham khảo :"
+  },
+  {
+    "question": "Người đã phát hiện ra hai xu hướng khách quan trong sự phát triển quan hệ dân tộc là:",
+    "answer": "V.I.Lênin",
+    "options": [
+      "C.Mác",
+      "S.Phuriê",
+      "V.I.Lênin",
+      "Ph.Ăngghen"
+    ],
+    "feedback": "Sai. Đáp án đúng là : V.I.Lênin Vì : Tham khảo :"
   }
 ]

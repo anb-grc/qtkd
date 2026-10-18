@@ -659,12 +659,12 @@
 
 /* 4. Flip Card */
 .kb-flip-wrap { display: flex; flex-wrap: wrap; gap: 24px; justify-content: center; margin: 32px 0; }
-.kb-flip-card { background: transparent; perspective: 1000px; cursor: pointer; flex: 1; min-width: 250px; max-width: 400px; min-height: 200px; }
-.kb-flip-inner { position: relative; width: 100%; height: 100%; text-align: center; transition: transform 0.6s; transform-style: preserve-3d; display: grid; }
-.kb-flip-card:hover .kb-flip-inner, .kb-flip-card.flipped .kb-flip-inner { transform: rotateY(180deg); }
-.kb-flip-front, .kb-flip-back { grid-area: 1 / 1; width: 100%; height: 100%; backface-visibility: hidden; border-radius: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 32px 24px; box-shadow: var(--shadow-md); -webkit-backface-visibility: hidden; }
-.kb-flip-front { background: var(--grad-indigo); color: white; font-weight: 700; font-size: 1.15em; line-height: 1.5; z-index: 2; }
-.kb-flip-back { background: white; color: var(--text); transform: rotateY(180deg); border: 2px solid #3b82f6; font-size: 1em; line-height: 1.6; z-index: 1; }
+.kb-flip-card { background: transparent; -webkit-perspective: 1000px; perspective: 1000px; cursor: pointer; flex: 1; min-width: 250px; max-width: 400px; min-height: 200px; }
+.kb-flip-inner { position: relative; width: 100%; height: 100%; text-align: center; transition: transform 0.6s; -webkit-transform-style: preserve-3d; transform-style: preserve-3d; display: grid; }
+.kb-flip-card:hover .kb-flip-inner, .kb-flip-card.flipped .kb-flip-inner { -webkit-transform: rotateY(180deg); transform: rotateY(180deg); }
+.kb-flip-front, .kb-flip-back { grid-area: 1 / 1; width: 100%; height: 100%; -webkit-backface-visibility: hidden; backface-visibility: hidden; border-radius: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 32px 24px; box-shadow: var(--shadow-md); }
+.kb-flip-front { -webkit-transform: translateZ(1px); transform: translateZ(1px); background-color: #4f46e5; background-image: var(--grad-indigo); color: white; font-weight: 700; font-size: 1.15em; line-height: 1.5; z-index: 2; }
+.kb-flip-back { -webkit-transform: rotateY(180deg) translateZ(1px); transform: rotateY(180deg) translateZ(1px); background-color: var(--card-bg, #ffffff); background-image: none; color: var(--text); border: 2px solid #3b82f6; font-size: 1em; line-height: 1.6; z-index: 1; }
 
 /* 5. Hotspot Image */
 .kb-hotspot-wrap { position: relative; width: 100%; margin: 32px auto; border-radius: 16px; overflow: hidden; box-shadow: var(--shadow-md); border: 1px solid var(--border); background-color: var(--bg); background-image: radial-gradient(var(--border-md) 2px, transparent 2px); background-size: 20px 20px; min-height: 250px; display: flex; align-items: center; justify-content: center; }
