@@ -86,5 +86,13 @@ window.TVU_SUBJECTS = [
     program: "Quản trị kinh doanh (Đại học)",
     desc: "Trang bị kiến thức lý thuyết, kỹ chiến thuật và luật thi đấu môn Cờ vua.",
     jsonPath: "./_sources/TVU/Quan_tri_kinh_doanh_DH/19. Giáo dục thể chất 2/qs.json"
+  },
+  {
+    id: "21",
+    name: "Lược sử Hội Thánh Tin Lành Việt Nam",
+    organization: "TKCB",
+    program: "Thánh Kinh Căn Bản",
+    desc: "Lược sử hình thành và phát triển của Hội Thánh Tin Lành Việt Nam qua 3 giai đoạn: Khởi đầu (1911-1927), Phát triển & biến cố (1927-1975), Sau 1975 đến nay.",
+    jsonPath: "./_sources/TKCB/LUOC SU HTTL VIET NAM/qs.json"
   }
 ];

@@ -1,0 +1,1292 @@
+{
+  "subject": "Lược Sử Hội Thánh Tin Lành Việt Nam",
+  "overview": {
+    "type": "mindmap",
+    "title": "Bản Đồ Tư Duy: Lược Sử Hội Thánh Tin Lành Việt Nam",
+    "data": {
+      "root": "Lược Sử Hội Thánh Tin Lành Việt Nam",
+      "children": [
+        {
+          "label": "Khởi Nguyên & Đặt Nền Móng (1911 - 1927)",
+          "children": [
+            {
+              "id": "tien_truyen_giao",
+              "label": "Bối Cảnh Tiền Truyền Giáo & Thánh Thư Công Hội",
+              "description": "Giai đoạn dọn đường bằng Kinh Thánh chữ Hán và các nỗ lực tiên phong của Thánh Thư Công Hội"
+            },
+            {
+              "id": "hoi_cma_bon_tin_ly",
+              "label": "Hội Truyền Giáo CMA & Tứ Diện Phúc Âm",
+              "description": "Nguồn gốc phong trào Phúc Âm Liên Hiệp và 4 tín lý căn bản gắn liền 4 biểu tượng thần học"
+            },
+            {
+              "id": "khai_cuoc_da_nang_1911",
+              "label": "Khởi Sự Truyền Giáo Tại Đà Nẵng 1911",
+              "description": "Bước chân các giáo sĩ tiên phong và những hoa quả đầu mùa tại dải đất miền Trung"
+            },
+            {
+              "id": "thu_thach_the_chien_1",
+              "label": "Thử Thách Thế Chiến I & Sự Ngăn Trở Thuộc Địa",
+              "description": "Sự kiên trì giữ đạo trước chính sách nghi kỵ và các lệnh trục xuất của chính quyền thực dân"
+            },
+            {
+              "id": "chinh_sach_ba_tu",
+              "label": "Nguyên Tắc Ba Tự & Tiêu Chuẩn Chi Hội Tự Lập",
+              "description": "Chính sách tự trị, tự lập, tự truyền làm nền móng bản xứ hóa vững chắc cho Hội Thánh"
+            },
+            {
+              "id": "dai_hoi_dong_1927",
+              "label": "Đại Hội Đồng Lần I (1927) Thành Lập Tổng Liên Hội",
+              "description": "Mốc son lịch sử chuyển giao từ Hội truyền giáo sang Giáo hội bản xứ độc lập của người Việt"
+            }
+          ]
+        },
+        {
+          "label": "Cơ Cấu Tổ Chức & Thăng Trầm Lịch Sử (1927 - 1975)",
+          "children": [
+            {
+              "id": "tien_trinh_danh_xung",
+              "label": "Tiến Trình Tiến Hóa Danh Xưng Giáo Hội",
+              "description": "Dòng chảy 4 giai đoạn tên gọi phản ánh căn tính dân tộc từ thuộc địa đến độc lập"
+            },
+            {
+              "id": "lanh_dao_tien_boi",
+              "label": "Ban Trị Sự Tiền Bối & Các Đời Hội Trưởng",
+              "description": "Dấu ấn mục vụ và tinh thần tận hiến của dàn lãnh đạo tiền bối qua các thời kỳ thử thách"
+            },
+            {
+              "id": "truyen_giao_tay_nguyen",
+              "label": "Phong Trào Truyền Giáo Sắc Tộc Vùng Cao",
+              "description": "Công cuộc mở mang giữa các bộ tộc Tây Nguyên và sự biến đổi văn hóa buôn làng"
+            },
+            {
+              "id": "bien_co_1954_hai_mien",
+              "label": "Biến Cố 1954 (Genève) & Cơ Cấu Hai Miền",
+              "description": "Bối cảnh chia cắt đất nước và sự thích ứng của Hội Thánh hai miền Bắc - Nam"
+            },
+            {
+              "id": "thu_thach_chien_tranh",
+              "label": "Thử Thách Thời Chiến & Lòng Trung Kiên",
+              "description": "Vượt qua trại tập trung thời Thế chiến II và khói lửa chiến tranh giữ vững đàn chiên"
+            }
+          ]
+        },
+        {
+          "label": "Các Trụ Cột Mục Vụ & Di Sản Văn Hóa",
+          "children": [
+            {
+              "id": "kinh_thanh_quoc_ngu_1926",
+              "label": "Tuyệt Tác Bản Dịch Kinh Thánh Quốc Ngữ 1926",
+              "description": "Kiệt tác văn chương Quốc ngữ của Olsen và Phan Khôi đặt nền tảng tâm linh cho muôn thế hệ"
+            },
+            {
+              "id": "he_thong_than_hoc",
+              "label": "Hệ Thống Giáo Dục & Đào Tạo Thần Học",
+              "description": "Huyết mạch đào tạo giáo phẩm từ Trường Kinh Thánh Đà Nẵng 1921 đến các viện thần học quy củ"
+            },
+            {
+              "id": "co_quan_an_loat",
+              "label": "Hệ Thống Báo Chí, Xuất Bản & Phát Thanh",
+              "description": "Tư duy truyền thông tiên phong qua nhà in, xe ô tô lưu động và sóng phát thanh FEBC"
+            },
+            {
+              "id": "muc_vu_xa_hoi",
+              "label": "Mục Vụ Y Tế, Xã Hội & Cơ Đốc Giáo Dục",
+              "description": "Đạo đi vào đời sống qua cô nhi viện, bệnh xá phong và hệ thống trường Chúa Nhật thiếu nhi"
+            }
+          ]
+        },
+        {
+          "label": "Biến Thiên Sau 1975 & Tiến Trình Pháp Nhân Hiện Đại",
+          "children": [
+            {
+              "id": "bien_co_1975_tu_luc",
+              "label": "Biến Cố 1975 & Giai Đoạn Thử Thách Tự Lực",
+              "description": "Bản lĩnh tự lực tự dưỡng khi vắng bóng giáo sĩ và sự kiên định trong hoàn cảnh mới"
+            },
+            {
+              "id": "phuc_hung_thap_nien_80_90",
+              "label": "Làn Sóng Phục Hưng Sắc Tộc Thập Niên 1980 - 1990",
+              "description": "Hiện tượng phục hưng bùng nổ kỳ diệu giữa đồng bào H'mông, Dao và các dân tộc Tây Nguyên"
+            },
+            {
+              "id": "phap_nhan_2001",
+              "label": "Đại Hội Đồng 43 (2001) & Tái Lập Pháp Nhân",
+              "description": "Cột mốc lịch sử công nhận tư cách pháp nhân và kỷ niệm bách chu niên Tin Lành đến Việt Nam"
+            },
+            {
+              "id": "bai_hoc_lich_su",
+              "label": "Bài Học Thần Học Lịch Sử & Nhận Diện Bẫy Ngộ Nhận",
+              "description": "Khẳng định căn tính dân tộc, gạt bỏ định kiến ngoại lai và gìn giữ di sản đức tin sống động"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "details": [
+    {
+      "node_id": "tien_truyen_giao",
+      "breadcrumb": "Lược Sử HTTL Việt Nam > Khởi Nguyên & Đặt Nền Móng > Bối Cảnh Tiền Truyền Giáo & Thánh Thư Công Hội",
+      "components": [
+        {
+          "type": "timeline",
+          "title": "Mốc Thời Gian Tiền Truyền Giáo & Gieo Hạt Lời Chúa (1890 - 1911)",
+          "data": {
+            "items": [
+              {
+                "time": "1890 - 1902",
+                "title": "Thánh Thư Công Hội Anh Quốc & Charles Bonnet",
+                "description": "Thánh Thư Công Hội (British and Foreign Bible Society - BFBS) cử ông Charles Bonnet (Bù-nê) đến Tourane (Đà Nẵng). Ông lập kho sách nằm giữa ga xe lửa trung tâm thành phố để gieo hạt giống Kinh Thánh chữ Hán."
+              },
+              {
+                "time": "1902 - 1905",
+                "title": "Ba Phát Hành Viên Đầu Tiên",
+                "description": "Ba phát hành viên bản xứ (ông Tinh Lạng An, Tinh Lạng Lộ, Tinh Lạng Tiên) phân phối Tân Ước và các sách Phúc Âm chữ Hán (Ma-thi-ơ, Mác, Lu-ca, Giăng) khắp dải đất miền Trung, âm thầm chuẩn bị tấm lòng đồng bào."
+              },
+              {
+                "time": "1906",
+                "title": "Mục Sư Adon Friedman & 3 Nguyên Tắc Truyền Giáo",
+                "description": "Mục sư Adon Friedman công bố bài báo lịch sử trên tập san 'Tin và Sống', nêu rõ 3 nguyên tắc: Tôn trọng nền văn hiến hơn 15 thế kỷ của người Việt; Phải có nhân sự bản xứ tự gánh vác; Đổi mới tâm linh chứ không chỉ đổi nhãn hiệu tôn giáo."
+              },
+              {
+                "time": "1911",
+                "title": "Thời Khắc Chúa Mở Cửa Bước Vào",
+                "description": "Khép lại hơn hai thập kỷ chuẩn bị âm thầm, đón nhận những giáo sĩ chính thức đầu tiên của Hội Truyền giáo Phúc Âm Liên Hiệp đặt chân lên bến cảng Đà Nẵng."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Tiền Truyền Giáo",
+          "data": {
+            "persona": "Người nghiên cứu lịch sử Giáo hội",
+            "stages": [
+              {
+                "stage": "Gieo Hạt Chữ Hán",
+                "action": "Nhận diện vai trò dọn đường của Kinh Thánh chữ Hán và các phát hành viên trước năm 1911.",
+                "emotion": "neutral",
+                "painPoint": "Cho rằng Tin Lành xuất hiện đột ngột tại Việt Nam vào năm 1911 mà không có giai đoạn gieo giống chuẩn bị trước đó.",
+                "solution": "Hiểu rõ quy luật tiệm tiến của lịch sử cứu rỗi: Lời Chúa qua sách báo chữ Hán đã dọn lòng dân tộc trước khi nhà truyền giáo đặt chân tới."
+              },
+              {
+                "stage": "Nguyên Tắc Friedman",
+                "action": "Thấu triệt 3 nguyên tắc truyền giáo của Friedman làm kim chỉ nam bản xứ hóa sâu sắc.",
+                "emotion": "positive",
+                "painPoint": "Nghĩ rằng nhà truyền giáo phương Tây áp đặt văn hóa ngoại lai mà không tôn trọng truyền thống bản địa.",
+                "solution": "Nhận ra định hướng từ đầu: Tôn trọng văn hiến nghìn năm của dân tộc và kiên định mục tiêu gây dựng một Hội Thánh do người Việt tự điều hành."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Khởi Nguyên & Đặt Nền Móng",
+              "Nền tảng"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "hoi_cma_bon_tin_ly",
+      "breadcrumb": "Lược Sử HTTL Việt Nam > Khởi Nguyên & Đặt Nền Móng > Hội Truyền Giáo CMA & Tứ Diện Phúc Âm",
+      "components": [
+        {
+          "type": "features",
+          "title": "Bản Chất Phong Trào CMA & 4 Tín Lý Cốt Lõi",
+          "data": {
+            "items": [
+              {
+                "title": "Nguồn Gốc Phong Trào (CMA)",
+                "description": "Hội Truyền giáo Phúc Âm Liên Hiệp (Christian and Missionary Alliance) do Tiến sĩ A.B. Simpson sáng lập năm 1887 tại New York. Đây là phong trào truyền giáo liên hệ phái, không phải giáo phái."
+              },
+              {
+                "title": "Chúa Cứu Chuộc (Thập Tự Giá)",
+                "description": "Biểu tượng Thập Tự Giá: Chúa Giê-xu là Đấng Cứu Chuộc duy nhất, đã chịu chết đền tội thay cho cả nhân loại, ban ơn tha thứ và sự sống đời đời cho người tin."
+              },
+              {
+                "title": "Chúa Thánh Hóa (Chậu Nước / Bình Tẩy)",
+                "description": "Biểu tượng Chậu Rửa: Chúa Giê-xu ban Đức Thánh Linh thánh hóa đời sống tín hữu mỗi ngày, thanh tẩy ô dơ và đắc thắng quyền lực tội lỗi."
+              },
+              {
+                "title": "Chúa Chữa Lành (Bình Dầu)",
+                "description": "Biểu tượng Bình Dầu: Quyền năng chữa lành thể xác và tâm hồn của Chúa Giê-xu theo lời hứa Kinh Thánh, xức dầu cầu nguyện ban sự hồi phục trọn vẹn."
+              },
+              {
+                "title": "Chúa Tái Lâm (Mão Triều Thiên)",
+                "description": "Biểu tượng Mão Triều Thiên: Niềm hy vọng vinh hiển về ngày Chúa Giê-xu trở lại tiếp rước Hội Thánh và ban thưởng cho những tôi tớ trung kiên."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Tứ Diện Phúc Âm",
+          "data": {
+            "persona": "Tín hữu tìm hiểu căn cốt giáo lý",
+            "stages": [
+              {
+                "stage": "Bản Chất CMA",
+                "action": "Phân biệt rạch ròi giữa một Hội Truyền giáo liên hệ phái và một giáo phái độc quyền.",
+                "emotion": "neutral",
+                "painPoint": "Đồng hóa CMA với các hệ phái truyền thống như Trưởng Lão, Báp-tít hay Giám Lý.",
+                "solution": "Nắm vững bản chất: CMA ra đời như một phong trào hiệp nhất tín hữu từ mọi hệ phái để hoàn thành đại mạng lệnh rao truyền Phúc Âm."
+              },
+              {
+                "stage": "Tứ Diện Thần Học",
+                "action": "Khắc sâu 4 trụ cột tín lý và biểu tượng tương ứng làm la bàn đức tin cá nhân.",
+                "emotion": "positive",
+                "painPoint": "Xem các biểu tượng chỉ là hình thức trang trí logo mà không hiểu giá trị bảo chứng Kinh Thánh.",
+                "solution": "Gắn liền biểu tượng với trải nghiệm sống: Thập tự (Cứu chuộc) - Chậu nước (Thánh hóa) - Bình dầu (Chữa lành) - Mão miện (Tái lâm)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Khởi Nguyên & Đặt Nền Móng",
+              "Cấu trúc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "khai_cuoc_da_nang_1911",
+      "breadcrumb": "Lược Sử HTTL Việt Nam > Khởi Nguyên & Đặt Nền Móng > Khởi Sự Truyền Giáo Tại Đà Nẵng 1911",
+      "components": [
+        {
+          "type": "decision-tree",
+          "title": "Sơ Đồ Quyết Định: Chiến Lược Đặt Chân Lịch Sử 1911",
+          "data": {
+            "startNodeId": "chon_dia_ban",
+            "nodes": {
+              "chon_dia_ban": {
+                "label": "Lựa chọn bến đỗ đột phá",
+                "question": "Các giáo sĩ Jaffray, Hosler, Hughes nên chọn địa bàn nào để mở cơ sở truyền giáo đầu tiên tại Việt Nam?",
+                "options": [
+                  {
+                    "text": "Đà Nẵng (Tourane) - Đô thị cảng trực trị thuộc Pháp",
+                    "nextNodeId": "dia_ban_danang"
+                  },
+                  {
+                    "text": "Kinh thành Huế - Trung tâm vương quyền triều Nguyễn",
+                    "nextNodeId": "dia_ban_hue"
+                  }
+                ]
+              },
+              "dia_ban_hue": {
+                "label": "Rào cản luật lệ phong kiến",
+                "outcome": "Đình trệ do lệnh cấm đạo",
+                "isTrap": true,
+                "explanation": "Triều đình nhà Nguyễn kiểm soát gắt gao với các dụ cấm đạo truyền thống, người nước ngoài không được phép cư trú hay truyền giáo tự do tại kinh đô."
+              },
+              "dia_ban_danang": {
+                "label": "Bến đỗ chiến lược Tourane",
+                "question": "Năm 1911, khi Hosler trở lại Đà Nẵng một mình giữa hoàn cảnh lạ lẫm, ông nên tiếp cận ra sao?",
+                "options": [
+                  {
+                    "text": "Thuê nhà mặt phố mở phòng đọc và kết thân người dân",
+                    "nextNodeId": "phuong_phap_dung"
+                  },
+                  {
+                    "text": "Tổ chức mít-tinh ngoài trời khi chưa có giấy phép",
+                    "nextNodeId": "phuong_phap_sai"
+                  }
+                ]
+              },
+              "phuong_phap_sai": {
+                "label": "Vi phạm quy chế thuộc địa",
+                "outcome": "Bị chính quyền trục xuất",
+                "isTrap": true,
+                "explanation": "Toàn quyền Pháp kiểm soát an ninh nghiêm ngặt, việc tụ tập đông người không phép sẽ dẫn đến việc đóng cửa cơ sở ngay lập tức."
+              },
+              "phuong_phap_dung": {
+                "label": "Hoa quả đầu mùa lịch sử",
+                "outcome": "Thành lập Hội Thánh Đà Nẵng 1911",
+                "explanation": "Ông Phạm Thanh (nguyên là thầy phù thủy/thầy cúng) và ông Phúc tin Chúa. Năm 1911, Hội Thánh đầu tiên được thành lập tại Đà Nẵng và mở rộng ra Hội An (Phai-phô)."
+              }
+            }
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Cột Mốc 1911",
+          "data": {
+            "persona": "Người tìm hiểu lịch sử truyền giáo",
+            "stages": [
+              {
+                "stage": "Khôn Ngoan Chiến Lược",
+                "action": "Hiểu tại sao Đà Nẵng được chọn làm chiếc nôi đầu tiên của Tin Lành Việt Nam.",
+                "emotion": "positive",
+                "painPoint": "Nghĩ rằng giáo sĩ chọn bừa địa điểm hoặc có sự tiếp đón nồng nhiệt của chính quyền thuộc địa.",
+                "solution": "Thấy rõ sự dẫn dắt thiên thượng: Đà Nẵng là đất nhượng địa có quy chế pháp lý thoáng hơn và là hải cảng giao thương sầm uất."
+              },
+              {
+                "stage": "Quyền Năng Biến Đổi",
+                "action": "Ghi nhớ quả đầu mùa Phạm Thanh như chứng nhân quyền phép giải phóng của Phúc Âm.",
+                "emotion": "positive",
+                "painPoint": "Không nhận thức được rào cản tâm linh của người tin Chúa đầu tiên.",
+                "solution": "Chiêm nghiệm phép mầu: Một thầy phù thủy buông bỏ bùa ngải để phục vụ Đức Chúa Trời, chứng minh Phúc Âm đắc thắng quyền lực tối tăm."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Khởi Nguyên & Đặt Nền Móng",
+              "Logic & Nguyên tắc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "thu_thach_the_chien_1",
+      "breadcrumb": "Lược Sử HTTL Việt Nam > Khởi Nguyên & Đặt Nền Móng > Thử Thách Thế Chiến I & Sự Ngăn Trở Thuộc Địa",
+      "components": [
+        {
+          "type": "vs-wrap",
+          "title": "Đối Chiếu: Sách Lược Kiềm Tỏa vs Sức Sống Đạo Chúa (1914 - 1918)",
+          "data": {
+            "left": {
+              "title": "Chính Sách Kiểm Soát Của Thực Dân Pháp",
+              "description": "Áp lực Thế chiến thứ nhất và sự dò xét an ninh khắt khe",
+              "points": [
+                "Lấy cớ chiến tranh bùng nổ để siết chặt an ninh, nghi ngờ giáo sĩ Tin Lành làm gián điệp hoặc kích động phong trào độc lập.",
+                "Ban hành lệnh cấm truyền giáo ra ngoài phạm vi nhượng địa, cô lập Hội Thánh trong ranh giới hẹp.",
+                "Trục xuất hoặc buộc hồi hương nhiều giáo sĩ kiên định (tiêu biểu như ông Sudebber, ông Bạch Hình).",
+                "Kiểm duyệt ngặt nghèo các tài liệu in ấn, kinh sách tôn giáo lưu hành trong dân chúng."
+              ]
+            },
+            "right": {
+              "title": "Sức Sống Nội Sinh & Sự Mở Rộng Bền Bỉ",
+              "description": "Lửa thử vàng - Phúc Âm bén rễ âm thầm vào lòng người bản xứ",
+              "points": [
+                "Buộc các giáo sĩ phải cấp tốc đào tạo nhân sự người Việt để thay mặt gánh vác mục vụ địa phương.",
+                "Mở rộng tầm nhìn ra hai đầu đất nước: Bắc kỳ (Hà Nội, Hải Phòng) và Nam kỳ (Sài Gòn).",
+                "Năm 1918: Trường Chúa Nhật tại Đà Nẵng và Hà Nội đạt con số kỷ lục hơn 400 học viên thường xuyên.",
+                "Chính quyền thuộc địa dù ngờ vực nhưng buộc phải công nhận nếp sống gương mẫu, ích nước lợi dân của tín hữu."
+              ]
+            }
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Thử Thách 1914 - 1918",
+          "data": {
+            "persona": "Người học phân tích biến thiên lịch sử",
+            "stages": [
+              {
+                "stage": "Lửa Thử Vàng",
+                "action": "Đánh giá tác động tích cực ngoài dự liệu của nghịch cảnh lịch sử 1914 - 1918.",
+                "emotion": "frustration",
+                "painPoint": "Bi quan khi thấy đạo Chúa vừa nhen nhóm đã vấp phải bão táp chính trị và lệnh trục xuất.",
+                "solution": "Nhìn theo nhãn quan đức tin: Chính áp lực trục xuất giáo sĩ đã thúc đẩy tiến trình trao quyền và đào tạo tôi tớ Chúa người Việt sớm hơn."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Khởi Nguyên & Đặt Nền Móng",
+              "Phân luồng"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "chinh_sach_ba_tu",
+      "breadcrumb": "Lược Sử HTTL Việt Nam > Khởi Nguyên & Đặt Nền Móng > Nguyên Tắc Ba Tự & Tiêu Chuẩn Chi Hội Tự Lập",
+      "components": [
+        {
+          "type": "flip-card",
+          "title": "Thẻ Ghi Nhớ Cốt Lõi: Nguyên Tắc Ba Tự",
+          "data": {
+            "front": "Ba Tự trong Hội Thánh là gì?",
+            "back": "Tự Trị (Tự điều hành, bầu cử ban trị sự), Tự Lập/Tự Dưỡng (Tự trang trải tài chính, nuôi mục sư, xây nhà thờ), Tự Truyền (Tự rao giảng Phúc Âm không ỷ lại giáo sĩ). Năm 1922 thông qua tại Đà Nẵng; Hội Thánh Đà Nẵng là chi hội tự lập đầu tiên (115 tín đồ)."
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Nguyên Tắc Ba Tự",
+          "data": {
+            "persona": "Cán sự lãnh đạo Hội Thánh",
+            "stages": [
+              {
+                "stage": "Bản Chất Tự Lập",
+                "action": "Nhận thức trọn vẹn 3 khía cạnh: Tự Trị - Tự Lập - Tự Truyền của một Hội Thánh trưởng thành.",
+                "emotion": "positive",
+                "painPoint": "Nghĩ rằng tự lập chỉ là tự túc tiền bạc mà bỏ quên trách nhiệm tự truyền giảng Phúc Âm.",
+                "solution": "Nắm vững nguyên lý: Một chi hội chỉ thực sự tự lập khi có khả năng nuôi sống tôi tớ Chúa, tự quản lý công việc và chủ động sinh sản tâm linh."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Khởi Nguyên & Đặt Nền Móng",
+              "Logic & Nguyên tắc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "dai_hoi_dong_1927",
+      "breadcrumb": "Lược Sử HTTL Việt Nam > Khởi Nguyên & Đặt Nền Móng > Đại Hội Đồng Lần I (1927) Thành Lập Tổng Liên Hội",
+      "components": [
+        {
+          "type": "timeline",
+          "title": "Tiến Trình Hình Thành Tổng Liên Hội Bản Xứ (1921 - 1928)",
+          "data": {
+            "items": [
+              {
+                "time": "1921",
+                "title": "Khai Giảng Trường Kinh Thánh Đà Nẵng",
+                "description": "Cơ sở huấn luyện thần học đầu tiên ra đời, mở lối cho hàng ngũ truyền đạo, mục sư người Việt có học vấn và linh lực chính thức hầu việc Chúa."
+              },
+              {
+                "time": "1924",
+                "title": "Hình Thành Các Hội Đồng Bộ Liên",
+                "description": "Các hội đồng địa hạt hàng năm được tổ chức định kỳ, gắn kết chặt chẽ các Hội Thánh địa phương ba miền Bắc - Trung - Nam."
+              },
+              {
+                "time": "1927",
+                "title": "Đại Hội Đồng Lần I Tại Đà Nẵng",
+                "description": "Cột mốc lịch sử vĩ đại: Đại hội đồng chính thức thành lập Tổng Liên Hội Hội Thánh Tin Lành Việt Nam. Bầu Mục sư Hoàng Trọng Thừa làm Hội trưởng đầu tiên."
+              },
+              {
+                "time": "1928",
+                "title": "Ban Hành Bản Điều Lệ Giáo Hội",
+                "description": "Chính thức ban hành bản Điều lệ đầu tiên, xác lập tư cách tự trị toàn diện của Giáo hội bản xứ trước pháp luật và Hội truyền giáo quốc tế."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Mốc Son 1927",
+          "data": {
+            "persona": "Người nghiên cứu thể chế giáo hội",
+            "stages": [
+              {
+                "stage": "Ý Nghĩa 1927",
+                "action": "Phân định chính xác ý nghĩa lịch sử của năm 1911 so với năm 1927.",
+                "emotion": "positive",
+                "painPoint": "Xem năm 1911 là ngày thành lập của Hội Thánh Tin Lành Việt Nam.",
+                "solution": "Phân biệt rạch ròi: Năm 1911 là Tin Lành truyền đến Việt Nam; năm 1927 mới là ngày Hội Thánh Tin Lành Việt Nam chính thức thành lập với tư cách Giáo hội tự trị độc lập."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Khởi Nguyên & Đặt Nền Móng",
+              "Hệ thống"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "tien_trinh_danh_xung",
+      "breadcrumb": "Lược Sử HTTL Việt Nam > Cơ Cấu Tổ Chức & Thăng Trầm > Tiến Trình Tiến Hóa Danh Xưng Giáo Hội",
+      "components": [
+        {
+          "type": "process-steps",
+          "title": "4 Giai Đoạn Chuyển Biến Danh Xưng Giáo Hội",
+          "data": {
+            "steps": [
+              {
+                "name": "1928: Hội Tin Lành Đông Pháp",
+                "description": "Tên gọi ban đầu gắn liền bối cảnh địa chính trị Liên bang Đông Dương thuộc Pháp (Indochine Française), áp dụng chung cho vùng lãnh thổ thuộc địa."
+              },
+              {
+                "name": "1936: Hội Tin Lành Việt Nam Đông Pháp",
+                "description": "Bổ sung danh xưng dân tộc 'Việt Nam' vào cấu trúc tên gọi, khẳng định căn tính và ý thức độc lập tự tôn của cộng đồng tín hữu người Việt."
+              },
+              {
+                "name": "1945: Hội Thánh Tin Lành Việt Nam",
+                "description": "Sau biến động lịch sử 1945, chính thức lược bỏ vĩnh viễn cụm từ 'Đông Pháp', định hình danh xưng thuần khiết 'Hội Thánh Tin Lành Việt Nam'."
+              },
+              {
+                "name": "Hiện Đại: HTTLVN (Miền Bắc) & HTTLVN (Miền Nam)",
+                "description": "Cơ cấu tổ chức hai tổ chức tôn giáo độc lập có tư cách pháp nhân riêng biệt được Nhà nước công nhận: HTTLVN (miền Bắc) và HTTLVN (miền Nam)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Tiến Trình Danh Xưng",
+          "data": {
+            "persona": "Người tìm hiểu pháp lý tôn giáo",
+            "stages": [
+              {
+                "stage": "Lột Xác Thuộc Địa",
+                "action": "Nắm vững chuỗi biến chuyển danh xưng phản ánh hành trình vươn lên độc lập của dân tộc.",
+                "emotion": "positive",
+                "painPoint": "Nhầm lẫn niên đại và bối cảnh chính trị giữa các mốc đổi tên 1928, 1936 và 1945.",
+                "solution": "Áp dụng mẹo xâu chuỗi: Bắt đầu từ thuộc địa (Đông Pháp) ➔ Thêm tên nước (Việt Nam Đông Pháp) ➔ Rũ bỏ tàn dư thực dân (Việt Nam trọn vẹn)."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Cơ Cấu Tổ Chức & Thăng Trầm",
+              "Cấu trúc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "lanh_dao_tien_boi",
+      "breadcrumb": "Lược Sử HTTL Việt Nam > Cơ Cấu Tổ Chức & Thăng Trầm > Ban Trị Sự Tiền Bối & Các Đời Hội Trưởng",
+      "components": [
+        {
+          "type": "matrix-table",
+          "title": "Bảng Tổng Hợp Các Đời Hội Trưởng Tiền Bối & Dấu Ấn Lịch Sử",
+          "data": {
+            "headers": [
+              "Thời Kỳ",
+              "Hội Trưởng Tiền Bối",
+              "Dấu Ấn Lãnh Đạo & Cống Hiến Lịch Sử"
+            ],
+            "rows": [
+              [
+                "1927 - 1928",
+                "Mục sư Hoàng Trọng Thừa",
+                "Hội trưởng đầu tiên của Tổng Liên Hội, đặt nền móng hiến chương, ổn định tổ chức thời sơ khai."
+              ],
+              [
+                "1934 - 1960",
+                "Mục sư Lê Văn Thái",
+                "Hội trưởng giữ nhiệm kỳ dài nhất (hơn 25 năm), chèo lái Hội Thánh vượt qua Thế chiến II, Chiến tranh Đông Dương và biến cố 1954."
+              ],
+              [
+                "1960 - 1975",
+                "Mục sư Trần Xuân Hỉ, Dương Nhâm Tiếp, Ông Văn Huyên, Đoàn Văn Miêng",
+                "Dẫn dắt Hội Thánh miền Nam trong thời kỳ phát triển vượt bậc về cơ sở từ thiện xã hội, giáo dục, phát thanh và y tế."
+              ],
+              [
+                "Miền Bắc (1954+)",
+                "Mục sư Dương Tự Lập, Mục sư Bùi Hoành Thử",
+                "Lãnh đạo Hội Thánh Tin Lành miền Bắc giữ vững ngọn đèn đức tin trong hoàn cảnh khó khăn của thời kỳ chiến tranh và bao cấp."
+              ]
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Các Bậc Tiền Nhân",
+          "data": {
+            "persona": "Người tôn vinh các bậc tiền bối đức tin",
+            "stages": [
+              {
+                "stage": "Ghi Ơn Tiền Nhân",
+                "action": "Tôn vinh công lao to lớn của các vị Hội trưởng tiền bối, đặc biệt là Mục sư Lê Văn Thái.",
+                "emotion": "positive",
+                "painPoint": "Chỉ nhớ tên các giáo sĩ phương Tây mà lãng quên công lao xương máu của dàn mục sư tiền bối người Việt.",
+                "solution": "Nhìn nhận công bằng: Chính các tôi tớ Chúa người Việt đã hy sinh trọn đời để chăn dắt bầy chiên vượt qua bao biến cố thăng trầm của lịch sử dân tộc."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Cơ Cấu Tổ Chức & Thăng Trầm",
+              "Hệ thống"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "truyen_giao_tay_nguyen",
+      "breadcrumb": "Lược Sử HTTL Việt Nam > Cơ Cấu Tổ Chức & Thăng Trầm > Phong Trào Truyền Giáo Sắc Tộc Vùng Cao",
+      "components": [
+        {
+          "type": "hotspot",
+          "title": "Bản Đồ Điểm Nóng: Mở Mang Phúc Âm Giữa Các Sắc Tộc Tây Nguyên",
+          "data": {
+            "imageUrl": "assets/images/map_tay_nguyen_missions.png",
+            "points": [
+              {
+                "x": 35,
+                "y": 25,
+                "title": "Đồng bào Ba-na & Hre (Kon Tum - Quảng Ngãi)",
+                "description": "Nơi hạt giống Phúc Âm được gieo đầu tiên trên rẻo cao miền Trung qua sự hy sinh của các giáo sĩ tiên phong và tín hữu bản xứ."
+              },
+              {
+                "x": 45,
+                "y": 50,
+                "title": "Đồng bào Ê-đê (Buôn Ma Thuột - Đắk Lắk)",
+                "description": "Công tác truyền giáo bùng nổ mạnh mẽ, buôn làng từ bỏ hủ tục nghiện rượu, cúng bái ma quỷ để thờ phượng Chúa. Kinh Thánh tiếng Ê-đê được phiên dịch."
+              },
+              {
+                "x": 40,
+                "y": 75,
+                "title": "Đồng bào Koho & M'nông (Lâm Đồng - Đắk Nông)",
+                "description": "Các giáo sĩ Gordon Smith và E.F. Irwin kiên trì băng rừng lội suối, xây dựng nhà thờ, mở lớp xóa mù chữ và chăm sóc trẻ em vùng cao."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Truyền Giáo Vùng Cao",
+          "data": {
+            "persona": "Người tìm hiểu sứ mạng sắc tộc",
+            "stages": [
+              {
+                "stage": "Biến Đổi Văn Hóa",
+                "action": "Nhận thức sức mạnh biến đổi xã hội toàn diện của Phúc Âm giữa các buôn làng dân tộc.",
+                "emotion": "positive",
+                "painPoint": "Định kiến rằng truyền giáo làm mai một bản sắc văn hóa truyền thống của đồng bào.",
+                "solution": "Thực tế lịch sử chứng minh: Phúc Âm giải phóng đồng bào khỏi hủ tục ma chay tốn kém, mê tín sợ hãi, đồng thời đem lại chữ viết và bảo tồn ngôn ngữ mẹ đẻ."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Cơ Cấu Tổ Chức & Thăng Trầm",
+              "Góc nhìn Đa chiều"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "bien_co_1954_hai_mien",
+      "breadcrumb": "Lược Sử HTTL Việt Nam > Cơ Cấu Tổ Chức & Thăng Trầm > Biến Cố 1954 (Genève) & Cơ Cấu Hai Miền",
+      "components": [
+        {
+          "type": "vs-wrap",
+          "title": "Đối Chiếu: Tình Hình Hội Thánh Hai Miền Sau Hiệp Định Genève 1954",
+          "data": {
+            "left": {
+              "title": "Hội Thánh Tin Lành Việt Nam (Miền Bắc)",
+              "description": "Trụ sở: Nhà thờ Ngõ Trạm, Hà Nội",
+              "points": [
+                "Sau năm 1954, khoảng 80% giáo phẩm và đại bộ phận tín hữu di cư vào miền Nam theo làn sóng vĩ tuyến 17.",
+                "Số lượng giáo phẩm và tín đồ còn lại rất khiêm tốn, đối diện muôn vàn khó khăn thiếu thốn nhân lực.",
+                "Năm 1958: Đại hội thành lập Tổng hội miền Bắc, tự lập tự dưỡng hoàn toàn khi không còn giáo sĩ hỗ trợ.",
+                "Duy trì sự trung kiên sắt son với Lời Chúa, giữ vững nếp thờ phượng qua suốt thời kỳ chiến tranh ác liệt."
+              ]
+            },
+            "right": {
+              "title": "Hội Thánh Tin Lành Việt Nam (Miền Nam)",
+              "description": "Trụ sở: Tổng Liên Hội, Sài Gòn",
+              "points": [
+                "Đón nhận làn sóng đồng bào di cư, mở thêm hàng trăm chi hội mới tại các dinh điền và đô thị phía Nam.",
+                "Giai đoạn bùng nổ cơ sở hạ tầng: Thành lập Viện Thần Học Nha Trang (1960), Nhà in, Cô nhi viện, Bệnh xá.",
+                "Hợp tác quốc tế sâu rộng trong mục vụ phát thanh FEBC, truyền giáo lưu hành và in ấn Kinh Thánh quy mô lớn.",
+                "Duy trì cơ cấu Tổng Liên Hội vững mạnh, số lượng tín đồ và giáo phẩm gia tăng nhanh chóng."
+              ]
+            }
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Biến Cố 1954",
+          "data": {
+            "persona": "Người nghiên cứu biến cố phân chia đất nước",
+            "stages": [
+              {
+                "stage": "Thử Thách Chia Cắt",
+                "action": "Cảm thông sâu sắc với nỗi đau chia cắt của Giáo hội trong bối cảnh lịch sử dân tộc năm 1954.",
+                "emotion": "negative",
+                "painPoint": "So sánh khập khiễng số lượng tín hữu mà đánh giá thấp đức tin kiên cường của Hội Thánh miền Bắc.",
+                "solution": "Tôn vinh tinh thần trung kiên: Những người ở lại miền Bắc đã trả giá đắt để giữ vững bàn thờ Chúa trong gian truân bão táp."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Cơ Cấu Tổ Chức & Thăng Trầm",
+              "Phân luồng"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "thu_thach_chien_tranh",
+      "breadcrumb": "Lược Sử HTTL Việt Nam > Cơ Cấu Tổ Chức & Thăng Trầm > Thử Thách Thời Chiến & Lòng Trung Kiên",
+      "components": [
+        {
+          "type": "chat-simulation",
+          "title": "Hội Thoại: Thử Thách Đức Tin Trong Lửa Đạn Thời Chiến",
+          "data": {
+            "scenario": "Buổi tọa đàm chuyên sâu giữa Sinh viên Thần học và Mục sư Sử gia về bản lĩnh Hội Thánh thời chiến tranh (1940 - 1975).",
+            "messages": [
+              {
+                "sender": "Sinh viên Thần học",
+                "role": "inquirer",
+                "text": "Thưa Mục sư, trong Thế chiến II khi quân Nhật chiếm đóng và các giáo sĩ Mỹ bị đưa vào trại tập trung, Hội Thánh đã xoay xở ra sao?"
+              },
+              {
+                "sender": "Mục sư Sử gia",
+                "role": "expert",
+                "text": "Đó chính là lúc nguyên tắc 'Ba Tự' phát huy sức mạnh tối đa! Dù không còn một đồng viện trợ ngoại quốc và mất bóng giáo sĩ, các tôi tớ Chúa người Việt như Mục sư Lê Văn Thái đã đứng mũi chịu sào, tự nuôi sống Hội Thánh."
+              },
+              {
+                "sender": "Sinh viên Thần học",
+                "role": "inquirer",
+                "isTrap": true,
+                "text": "Nhưng có ý kiến cho rằng các giáo sĩ ngoại quốc đã bỏ rơi Hội Thánh Việt Nam lúc khó khăn nhất?"
+              },
+              {
+                "sender": "Mục sư Sử gia",
+                "role": "expert",
+                "text": "Đó là ngộ nhận hoàn toàn sai lầm! Các giáo sĩ bị chính quyền quân phiệt Nhật cưỡng bức giam cầm vào các trại tập trung tại Mỹ Tho, Hà Nội; thậm chí nhiều giáo sĩ đã hy sinh tính mạng trên đất Việt. Cả giáo sĩ lẫn tín hữu bản xứ đều đồng cam cộng khổ vì danh Chúa."
+              },
+              {
+                "sender": "Mục sư Sử gia",
+                "role": "expert",
+                "highlight": true,
+                "text": "Chính lò lửa thử thách ấy đã minh chứng Hội Thánh Tin Lành Việt Nam không phải là tôn giáo ngoại lai phụ thuộc, mà là một thực thể sống động bám rễ sâu xa trong lòng dân tộc."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Thử Thách Thời Chiến",
+          "data": {
+            "persona": "Người phân định sự thật lịch sử",
+            "stages": [
+              {
+                "stage": "Xua Tan Định Kiến",
+                "action": "Giải trừ định kiến sai lầm về mối quan hệ giữa Hội truyền giáo và Hội Thánh bản xứ thời chiến.",
+                "emotion": "positive",
+                "painPoint": "Nghĩ rằng Hội Thánh bản xứ chỉ tồn tại được nhờ sự bảo bọc và tiền bạc của nước ngoài.",
+                "solution": "Hiểu rõ giá trị lịch sử: Những năm tháng vắng bóng giáo sĩ chính là thời điểm trui rèn tinh thần tự lập kiên cường nhất của tín hữu Việt Nam."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Cơ Cấu Tổ Chức & Thăng Trầm",
+              "Giới hạn & Rủi ro"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "kinh_thanh_quoc_ngu_1926",
+      "breadcrumb": "Lược Sử HTTL Việt Nam > Các Trụ Cột Mục Vụ & Di Sản > Tuyệt Tác Bản Dịch Kinh Thánh Quốc Ngữ 1926",
+      "components": [
+        {
+          "type": "features",
+          "title": "Tuyệt Tác Bản Dịch Kinh Thánh 1926 & Đóng Góp Lịch Sử",
+          "data": {
+            "items": [
+              {
+                "title": "Giáo Sĩ John D. Olsen (Chủ Trì Thần Học)",
+                "description": "Giáo sĩ Hội CMA uyên thâm nguyên ngữ Kinh Thánh (Hy-lạp, Hê-bơ-rơ) và chữ Nho, chịu trách nhiệm đối chiếu chuẩn xác từng câu chữ theo bản gốc nguyên thủy."
+              },
+              {
+                "title": "Học Giả Phan Khôi (Nhuận Sắc Văn Chương)",
+                "description": "Nhà văn, học giả cự phách đất Quảng Nam (đỗ tú tài Hán học), với vốn tiếng Việt trác việt đã trau chuốt từng áng văn, đưa bản dịch đạt đỉnh cao nghệ thuật Quốc ngữ đầu thế kỷ 20."
+              },
+              {
+                "title": "Cộng Sự Nguyễn Hữu Phúc & Bà Olsen",
+                "description": "Cụ Nguyễn Hữu Phúc (Hà Nội, cử nhân Nho học) cùng bà Olsen hỗ trợ rà soát văn phạm, tra cứu điển tích và cặm cụi chép tay bản thảo ròng rã nhiều năm."
+              },
+              {
+                "title": "Mốc Xuất Bản 1925 - 1926 Tại Thượng Hải",
+                "description": "Năm 1925 hoàn thành Cựu Ước; năm 1926 in ấn trọn bộ tại Thượng Hải (Trung Hoa). Đây là di sản văn hóa Quốc ngữ vô giá và là kim chỉ nam tâm linh cho hàng triệu con dân Chúa suốt một thế kỷ."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Tuyệt Tác 1926",
+          "data": {
+            "persona": "Người đọc và yêu mến Kinh Thánh",
+            "stages": [
+              {
+                "stage": "Di Sản Bác Học",
+                "action": "Tôn vinh giá trị văn học và thần học vô giá của bản dịch Kinh Thánh truyền thống 1926.",
+                "emotion": "positive",
+                "painPoint": "Không biết ai là người nhuận sắc tiếng Việt tài tình cho bản dịch Kinh Thánh 1926.",
+                "solution": "Khắc ghi đóng góp của cụ Phan Khôi: Sự hội tụ tuyệt vời giữa thần học chuẩn mực của giáo sĩ Olsen và tài năng ngôn ngữ bậc thầy của nhà nho Phan Khôi."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Các Trụ Cột Mục Vụ & Di Sản",
+              "Nền tảng"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "he_thong_than_hoc",
+      "breadcrumb": "Lược Sử HTTL Việt Nam > Các Trụ Cột Mục Vụ & Di Sản > Hệ Thống Giáo Dục & Đào Tạo Thần Học",
+      "components": [
+        {
+          "type": "pyramid",
+          "title": "Kim Tự Tháp: 3 Tầng Nấc Phát Triển Giáo Dục Thần Học",
+          "data": {
+            "levels": [
+              {
+                "name": "Đỉnh Cao: Viện Thánh Kinh Thần Học TP.HCM (2003 - Hiện đại)",
+                "description": "Được Chính phủ cấp phép tái lập tại Quận 2 (TP.HCM), đào tạo hệ Cử nhân Thần học chính quy, Thạc sĩ Mục vụ và các lớp bổ túc truyền đạo vùng sâu."
+              },
+              {
+                "name": "Phát Triển: Viện Thần Học Nha Trang (1960 - 1975)",
+                "description": "Đặt tại khu danh thắng Hòn Chồng (Nha Trang), đào tạo hàng trăm mục sư, truyền đạo kiệt xuất phục vụ khắp các tỉnh thành miền Nam và Tây Nguyên."
+              },
+              {
+                "name": "Nền Móng: Trường Kinh Thánh Đà Nẵng (1921 - 1960)",
+                "description": "Trường Thần học đầu tiên do giáo sĩ và Hội Thánh thiết lập tại Đà Nẵng, chuyển đổi phương pháp từ truyền khẩu sang đào tạo học thuật quy củ cho người bản xứ."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Huyết Mạch Thần Học",
+          "data": {
+            "persona": "Người tìm hiểu hệ thống đào tạo chức sắc",
+            "stages": [
+              {
+                "stage": "Dòng Chảy Đào Tạo",
+                "action": "Nhận thức đào tạo thần học là huyết mạch quyết định sự tồn vong và phát triển của Hội Thánh.",
+                "emotion": "positive",
+                "painPoint": "Nghĩ rằng Viện Thần Học TP.HCM mới được thành lập gần đây mà không biết bề dày lịch sử từ năm 1921.",
+                "solution": "Nắm vững chuỗi phát triển liên tục: Đà Nẵng (1921) ➔ Nha Trang (1960) ➔ TP.HCM (2003), biểu trưng cho ngọn lửa đào tạo không bao giờ tắt."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Các Trụ Cột Mục Vụ & Di Sản",
+              "Cấu trúc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "co_quan_an_loat",
+      "breadcrumb": "Lược Sử HTTL Việt Nam > Các Trụ Cột Mục Vụ & Di Sản > Hệ Thống Báo Chí, Xuất Bản & Phát Thanh",
+      "components": [
+        {
+          "type": "cycle",
+          "title": "Chu Trình Vận Hành: Xuất Bản, In Ấn & Lan Tỏa Phúc Âm",
+          "data": {
+            "steps": [
+              {
+                "name": "1. Biên Tập & Trước Tác",
+                "description": "Ủy ban Cơ Đốc Giáo Dục và các học giả soạn thảo bài học Trường Chúa Nhật, sách giải kinh, thánh ca và các ấn phẩm gây dựng đời sống đức tin."
+              },
+              {
+                "name": "2. Ấn Loát Nhà In Tin Lành",
+                "description": "Thành lập Nhà in Tin Lành chuyên dụng (Đà Nẵng, sau vào Sài Gòn), in ấn hàng triệu trang tài liệu, kinh sách và báo chí mỗi năm."
+              },
+              {
+                "name": "3. Phát Hành Thánh Kinh Báo",
+                "description": "Xuất bản định kỳ Thánh Kinh Báo (sau đổi là Thánh Kinh Nguyệt San), làm cầu nối thông tin, thắt chặt mối hiệp một giữa các Hội Thánh."
+              },
+              {
+                "name": "4. Phân Phối & Xe Ô Tô Lưu Hành",
+                "description": "Hệ thống Nhà sách Tin Lành tại các đô thị và đội xe lưu hành trang bị loa phóng thanh (từ 1933) đưa Lời Chúa về tận làng quê xa xôi hẻo lánh."
+              },
+              {
+                "name": "5. Phát Thanh FEBC Vượt Rào Cản",
+                "description": "Hợp tác phát sóng từ Manila qua làn sóng phát thanh FEBC 'Tiếng Nói Tin Lành', vượt mọi rào cản biên giới để truyền tải Lời Chúa đến từng mái nhà."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Công Tác Ấn Loát",
+          "data": {
+            "persona": "Người nghiên cứu truyền thông Cơ Đốc",
+            "stages": [
+              {
+                "stage": "Tầm Nhìn Truyền Thông",
+                "action": "Đánh giá cao tư duy ứng dụng phương tiện truyền thông hiện đại của các bậc tiền bối.",
+                "emotion": "positive",
+                "painPoint": "Cho rằng Hội Thánh xưa chỉ sinh hoạt khép kín tại nhà thờ mà không biết tận dụng công nghệ.",
+                "solution": "Khâm phục tầm nhìn: Tiền nhân đã tiên phong sử dụng máy in hiện đại, xe ô tô lưu động, tàu thuyền và phát thanh sóng ngắn để gieo giống Phúc Âm."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Các Trụ Cột Mục Vụ & Di Sản",
+              "Hệ thống"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "muc_vu_xa_hoi",
+      "breadcrumb": "Lược Sử HTTL Việt Nam > Các Trụ Cột Mục Vụ & Di Sản > Mục Vụ Y Tế, Xã Hội & Cơ Đốc Giáo Dục",
+      "components": [
+        {
+          "type": "carousel",
+          "title": "Danh Mục 4 Trụ Cột Phục Vụ Cộng Đồng & Xã Hội",
+          "data": {
+            "items": [
+              {
+                "title": "Cô Nhi Viện Tin Lành (1953)",
+                "description": "Thành lập cơ sở cưu mang trẻ mồ côi nạn nhân chiến tranh, nuôi dạy hàng ngàn trẻ em khôn lớn trưởng thành, trang bị nghề nghiệp và đức tin vững chãi."
+              },
+              {
+                "title": "Bệnh Xá & Mục Vụ Phong (Cùi)",
+                "description": "Các phòng khám, trạm xá Tin Lành và làng phong tận tụy chăm sóc bệnh nhân bất hạnh bị xã hội xa lánh, minh chứng tình yêu vô vị lợi của Đấng Christ."
+              },
+              {
+                "title": "Hệ Thống Trường Chúa Nhật",
+                "description": "Tổ chức lớp học Kinh Thánh phân độ tuổi hàng tuần từ 1918, đào tạo nền tảng luân lý, nhân cách Cơ Đốc cho nhiều thế hệ thanh thiếu nhi."
+              },
+              {
+                "title": "Mục Vụ Tuyên Úy Quân Đội",
+                "description": "Chăm sóc tâm linh và an ủi tinh thần cho các quân nhân trong thời chiến, đem lại niềm an bình và hy vọng giữa lằn ranh sự sống và cái chết."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Đạo Đi Vào Đời",
+          "data": {
+            "persona": "Người tìm hiểu công tác bác ái Cơ Đốc",
+            "stages": [
+              {
+                "stage": "Đức Tin Hành Động",
+                "action": "Hiểu rõ mối liên kết bất khả phân giữa việc rao giảng Phúc Âm và hành động bác ái xã hội.",
+                "emotion": "positive",
+                "painPoint": "Xem nhẹ công tác từ thiện xã hội hoặc coi đó chỉ là công cụ phụ trợ thứ yếu.",
+                "solution": "Nắm vững chân lý: Phúc Âm cứu rỗi linh hồn luôn đi đôi với bàn tay xoa dịu nỗi đau thể xác và phục vụ tha nhân không điều kiện."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Các Trụ Cột Mục Vụ & Di Sản",
+              "Góc nhìn Đa chiều"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "bien_co_1975_tu_luc",
+      "breadcrumb": "Lược Sử HTTL Việt Nam > Biến Thiên Sau 1975 & Pháp Nhân Hiện Đại > Biến Cố 1975 & Giai Đoạn Thử Thách Tự Lực",
+      "components": [
+        {
+          "type": "pair-grid",
+          "title": "Bảng Ghép Đôi: Đối Chiếu Cục Diện Trước Và Sau Mốc 1975",
+          "data": {
+            "instruction": "Đối chiếu sự chuyển đổi sâu sắc trong phương thức vận hành của Hội Thánh trước và sau năm 1975:",
+            "pairs": [
+              {
+                "id": "1",
+                "leftText": "Trước 1975: Còn sự hiện diện và trợ lực từ các giáo sĩ nước ngoài thuộc Hội CMA.",
+                "rightText": "Sau 1975: Toàn bộ giáo sĩ ngoại quốc rút lui, người bản xứ tự lực gánh vác 100% mục vụ.",
+                "explanation": "Khép lại kỷ nguyên giáo sĩ ngoại quốc, Hội Thánh bước vào giai đoạn tự trị, tự lập tuyệt đối."
+              },
+              {
+                "id": "2",
+                "leftText": "Trước 1975: Hệ thống cơ sở xã hội (trường thần học, cô nhi viện, bệnh xá) hoạt động công khai.",
+                "rightText": "Sau 1975: Các cơ sở xã hội được chuyển giao cho Nhà nước, đào tạo thần học tập trung bị gián đoạn.",
+                "explanation": "Hội Thánh co cụm lại trong các sinh hoạt thờ phượng thuần túy tại nhà thờ và các điểm nhóm tư gia."
+              },
+              {
+                "id": "3",
+                "leftText": "Trước 1975: Truyền giảng đại chúng ngoài trời quy mô lớn và qua sóng phát thanh radio.",
+                "rightText": "Sau 1975: Truyền giáo âm thầm qua mối quan hệ thân tộc, gia đình và nếp sống đạo chân thật.",
+                "explanation": "Chính phương pháp chứng đạo cá nhân thầm lặng lại tạo nên sức sống và độ lan tỏa bền bỉ kỳ lạ."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Khảo Nghiệm 1975",
+          "data": {
+            "persona": "Người nghiên cứu Hội Thánh giai đoạn hậu chiến",
+            "stages": [
+              {
+                "stage": "Trưởng Thành Trong Nghịch Cảnh",
+                "action": "Nhìn nhận biến cố 1975 như một cột mốc trưởng thành vượt bậc về tinh thần tự lập.",
+                "emotion": "frustration",
+                "painPoint": "Lo sợ rằng khi không còn viện trợ nước ngoài và giáo sĩ thì Hội Thánh sẽ suy sụp.",
+                "solution": "Nhìn thấy quyền năng Chúa: Khi mọi điểm tựa con người bị tước bỏ, Hội Thánh bám chặt vào Đức Chúa Trời và phát triển nội sinh mạnh mẽ."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Biến Thiên Sau 1975 & Pháp Nhân Hiện Đại",
+              "Giới hạn & Rủi ro"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "phuc_hung_thap_nien_80_90",
+      "breadcrumb": "Lược Sử HTTL Việt Nam > Biến Thiên Sau 1975 & Pháp Nhân Hiện Đại > Làn Sóng Phục Hưng Sắc Tộc Thập Niên 1980 - 1990",
+      "components": [
+        {
+          "type": "bar-chart",
+          "title": "Tỷ Lệ Tín Hữu Phân Bổ Theo Nhóm Cư Dân (Thời Kỳ Hiện Đại)",
+          "data": {
+            "orientation": "horizontal",
+            "maxValue": 100,
+            "items": [
+              {
+                "label": "Đồng bào Sắc tộc Tây Nguyên (Ê-đê, Ba-na, Jarai, M'nông, Koho)",
+                "value": 55,
+                "unit": "%",
+                "highlight": true,
+                "explanation": "Khu vực có số lượng tín hữu Tin Lành đông đảo nhất cả nước, chiếm hơn nửa tổng số tín đồ."
+              },
+              {
+                "label": "Đồng bào Sắc tộc Phía Bắc (H'mông, Dao - Thập niên 1980 - 1990)",
+                "value": 25,
+                "unit": "%",
+                "highlight": true,
+                "explanation": "Hiện tượng phục hưng kỳ diệu qua đài phát thanh FEBC, hàng trăm ngàn người H'mông, Dao tin nhận Chúa."
+              },
+              {
+                "label": "Tín hữu Người Kinh (Đô thị & Đồng bằng Bắc - Trung - Nam)",
+                "value": 20,
+                "unit": "%",
+                "highlight": false,
+                "explanation": "Cộng đồng tín hữu người Kinh tại các thành phố lớn và dải đồng bằng ven biển cả nước."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Kỳ Tích Phục Hưng",
+          "data": {
+            "persona": "Người chứng kiến phong trào thức tỉnh tâm linh",
+            "stages": [
+              {
+                "stage": "Kỳ Tích Núi Rừng",
+                "action": "Kinh ngạc trước câu chuyện phục hưng hàng vạn người H'mông, Dao tin Chúa qua sóng phát thanh.",
+                "emotion": "positive",
+                "painPoint": "Chỉ nhìn vào lịch sử của người Kinh ở đồng bằng mà bỏ qua phong trào thức tỉnh vĩ đại ở miền núi.",
+                "solution": "Chiêm nghiệm việc Chúa làm: Trong hoàn cảnh con người không thể đến, Lời Chúa qua sóng radio đã chinh phục trọn vẹn hàng trăm buôn làng."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Biến Thiên Sau 1975 & Pháp Nhân Hiện Đại",
+              "Góc nhìn Đa chiều"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "phap_nhan_2001",
+      "breadcrumb": "Lược Sử HTTL Việt Nam > Biến Thiên Sau 1975 & Pháp Nhân Hiện Đại > Đại Hội Đồng 43 (2001) & Tái Lập Pháp Nhân",
+      "components": [
+        {
+          "type": "timeline",
+          "title": "Tiến Trình Tái Lập Tư Cách Pháp Nhân & Kỷ Niệm 100 Năm (2001 - 2011)",
+          "data": {
+            "items": [
+              {
+                "time": "Tháng 2/2001",
+                "title": "Đại Hội Đồng Tổng Liên Hội Lần Thứ 43 Tại TP.HCM",
+                "description": "Sau 26 năm gián đoạn sinh hoạt đại hội tập trung, hơn 500 đại biểu chính thức nhóm lại tại Nhà thờ Tin Lành TP.HCM thông qua Hiến chương tu chỉnh."
+              },
+              {
+                "time": "Tháng 3/2001",
+                "title": "Chính Phủ Công Nhận Tư Cách Pháp Nhân",
+                "description": "Ban Tôn giáo Chính phủ chính thức trao quyết định công nhận tư cách pháp nhân cho Hội Thánh Tin Lành Việt Nam (miền Nam), tái lập hoạt động công khai hợp pháp."
+              },
+              {
+                "time": "2003",
+                "title": "Tái Lập Viện Thánh Kinh Thần Học",
+                "description": "Khai giảng khóa Thần học đầu tiên sau nhiều thập niên tại Quận 2 (TP.HCM), nối lại dòng chảy đào tạo hàng ngũ mục sư truyền đạo chính quy."
+              },
+              {
+                "time": "2011",
+                "title": "Đại Lễ Kỷ Niệm 100 Năm Tin Lành Đến Việt Nam",
+                "description": "Đại lễ tạ ơn Chúa trọng thể tổ chức tại Đà Nẵng và TP.HCM, quy tụ hàng vạn tín hữu cùng đại diện các Hội Thánh quốc tế mừng thế kỷ gieo gặt Phúc Âm."
+              }
+            ]
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Cột Mốc 2001",
+          "data": {
+            "persona": "Người theo dõi pháp lý tôn giáo đương đại",
+            "stages": [
+              {
+                "stage": "Bình Minh Pháp Lý",
+                "action": "Thấu hiểu ý nghĩa trọng đại của sự kiện công nhận tư cách pháp nhân năm 2001.",
+                "emotion": "positive",
+                "painPoint": "Nhầm lẫn năm 2001 là ngày thành lập mới của Hội Thánh Tin Lành Việt Nam.",
+                "solution": "Hiểu đúng bản chất pháp lý: Năm 2001 là sự tái lập tư cách pháp nhân của một Giáo hội đã có bề dày lịch sử liên tục từ năm 1927."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Biến Thiên Sau 1975 & Pháp Nhân Hiện Đại",
+              "Hệ thống"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "node_id": "bai_hoc_lich_su",
+      "breadcrumb": "Lược Sử HTTL Việt Nam > Biến Thiên Sau 1975 & Pháp Nhân Hiện Đại > Bài Học Thần Học Lịch Sử & Nhận Diện Bẫy Ngộ Nhận",
+      "components": [
+        {
+          "type": "decision-tree",
+          "title": "Cẩm Nang Nhận Diện: Phá Vỡ Các Ngộ Nhận Lịch Sử Phổ Biến",
+          "data": {
+            "startNodeId": "ngo_nhan_root",
+            "nodes": {
+              "ngo_nhan_root": {
+                "label": "Kiểm tra định kiến lịch sử",
+                "question": "Khi nghiên cứu Lược sử Hội Thánh Tin Lành Việt Nam, ngộ nhận nào sau đây nguy hại nhất?",
+                "options": [
+                  {
+                    "text": "Xem HTTLVN là tôn giáo ngoại lai do giáo phái CMA từ Mỹ áp đặt",
+                    "nextNodeId": "bay_ngoai_lai"
+                  },
+                  {
+                    "text": "Nhận diện HTTLVN là Hội Thánh của người Việt, do người Việt tự trị và hy sinh xây dựng",
+                    "nextNodeId": "chan_ly_lich_su"
+                  }
+                ]
+              },
+              "bay_ngoai_lai": {
+                "label": "Bẫy ngộ nhận sai lệch",
+                "outcome": "Định kiến thiếu cứ liệu",
+                "isTrap": true,
+                "explanation": "CMA là Hội truyền giáo liên hệ phái (không phải giáo phái). Mục tiêu từ đầu của giáo sĩ là rút lui trao quyền cho Giáo hội bản xứ tự trị (đã hoàn tất từ Đại hội đồng 1927)."
+              },
+              "chan_ly_lich_su": {
+                "label": "Nhận thức lịch sử đúng đắn",
+                "outcome": "Bản sắc đức tin thuần thành",
+                "explanation": "Lịch sử HTTLVN là bản anh hùng ca về sự trung tín: Vượt qua cấm đạo thực dân, khói lửa chiến tranh, nghèo đói và thử thách thời cuộc để giữ vững ngọn đuốc Phúc Âm cho 100 triệu đồng bào."
+              }
+            }
+          }
+        },
+        {
+          "type": "journey-map",
+          "title": "Bản Đồ Nhận Thức: Đúc Kết Bài Học",
+          "data": {
+            "persona": "Tín hữu Cơ Đốc thế hệ mới",
+            "stages": [
+              {
+                "stage": "Tự Tin Căn Tính",
+                "action": "Tự tin giải trình căn tính dân tộc và đức tin thuần thành của người Cơ Đốc Việt Nam.",
+                "emotion": "positive",
+                "painPoint": "Mặc cảm hoặc lúng túng khi bị người ngoài chất vấn về nguồn gốc tôn giáo phương Tây.",
+                "solution": "Trang bị đầy đủ cứ liệu lịch sử: Kinh Thánh Quốc ngữ 1926, Giáo hội tự trị từ 1927, do chính các tiền nhân người Việt dâng hiến máu xương gìn giữ."
+              }
+            ]
+          }
+        },
+        {
+          "type": "quiz",
+          "title": "Kiểm Tra Nhanh",
+          "data": {
+            "quiz_tags": [
+              "Biến Thiên Sau 1975 & Pháp Nhân Hiện Đại",
+              "Bí kíp Delta Lật kèo"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
