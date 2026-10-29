@@ -789,10 +789,10 @@
     "options": [
       "Bản chất của thị trường và lượng cầu",
       "Chi phí hoạt động marketing",
-      "Thương hiệu nổi tiếng của đối thủ",
-      "<span class=\"answer-keyword\">Tỉ lệ phế phẩm trong quá trình sản xuất</span>"
+      "<span class=\"answer-keyword\">Thương hiệu nổi tiếng của đối thủ</span>",
+      "Tỉ lệ phế phẩm trong quá trình sản xuất"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Tỉ lệ phế phẩm trong quá trình sản xuất</span> <div class=\"note\"><b>💡 Giải thích:</b> Tỉ lệ phế phẩm là chỉ tiêu kỹ thuật tác nghiệp trong xưởng sản xuất, không phải là biến số marketing hay yếu tố chiến lược cấu thành quyết định định giá chung của doanh nghiệp.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Thương hiệu nổi tiếng của đối thủ</span> <div class=\"note\"><b>💡 Giải thích:</b> Theo chuẩn barem TVU, các yếu tố ảnh hưởng trực tiếp đến việc định giá gồm chi phí sản xuất (tỉ lệ phế phẩm ảnh hưởng trực tiếp giá thành), nhu cầu thị trường và mức giá đối thủ. Thương hiệu của đối thủ không phải yếu tố quyết định cấu thành giá.</div>"
   },
   {
     "weight": "high",
@@ -820,11 +820,11 @@
     "question": "<span class=\"keyword\">Chiến lược giá tuyệt hảo</span> là",
     "options": [
       "Giá cả cao – Chất lượng thấp",
-      "Giá cả thấp – Chất lượng cao",
-      "<span class=\"answer-keyword\">Giá cả cao – Chất lượng cao</span>",
+      "<span class=\"answer-keyword\">Giá cả thấp – Chất lượng cao</span>",
+      "Giá cả cao – Chất lượng cao",
       "Giá cả thấp – Chất lượng thấp"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Giá cả cao – Chất lượng cao</span> <div class=\"note\"><b>💡 Giải thích:</b> Trong ma trận 9 chiến lược phối hợp Giá - Chất lượng của Philip Kotler, Chiến lược giá tuyệt hảo (Premium pricing strategy) là sự kết hợp giữa mức giá cao tương xứng với chất lượng vượt trội cao nhất của sản phẩm.</div>"
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Giá cả thấp – Chất lượng cao</span> <div class=\"note\"><b>💡 Giải thích:</b> Theo quy chuẩn đề thi TVU về ma trận Giá - Chất lượng, \"Chiến lược giá tuyệt hảo\" (Superb / Good-value) là sự kết hợp giữa Giá cả thấp – Chất lượng cao nhằm đem lại giá trị vượt trội cho khách hàng.</div>"
   },
   {
     "tags": [
