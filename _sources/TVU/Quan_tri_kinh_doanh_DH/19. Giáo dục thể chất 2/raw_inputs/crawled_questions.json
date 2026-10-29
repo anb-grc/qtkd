@@ -1,0 +1,1289 @@
+[
+  {
+    "question": "Trong lịch sử, cờ vua được truyền bá vào châu Âu chủ yếu qua con đường nào?",
+    "answer": "Người Ả Rập qua Tây Ban Nha",
+    "options": [
+      "Con đường tơ lụa",
+      "Người Ả Rập qua Tây Ban Nha",
+      "Thập tự chinh",
+      "Thương nhân Ấn Độ"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Người Ả Rập qua Tây Ban Nha Vì : Cờ vua được người Ả Rập mang vào châu Âu thông qua cuộc xâm lược bán đảo Iberia thế kỷ VIII."
+  },
+  {
+    "question": "Lênin là nhân vật nổi tiếng trong lĩnh vực nào?",
+    "answer": "Chính trị",
+    "options": [
+      "Chính trị",
+      "Điện ảnh",
+      "Thể thao",
+      "Âm nhạc"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Chính trị Vì : Lênin là lãnh tụ nổi tiếng và rất yêu thích Cờ Vua."
+  },
+  {
+    "question": "Theo tài liệu, Cờ Vua góp phần xây dựng điều gì cho xã hội?",
+    "answer": "Con người mới xã hội chủ nghĩa",
+    "options": [
+      "Công nghiệp hóa",
+      "Kinh tế thị trường",
+      "Con người mới xã hội chủ nghĩa",
+      "Hiện đại hóa nông nghiệp"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Con người mới xã hội chủ nghĩa Vì : Tài liệu nhấn mạnh Cờ Vua góp phần xây dựng con người mới xã hội chủ nghĩa."
+  },
+  {
+    "question": "Người chơi Cờ Vua cần rèn luyện tính gì?",
+    "answer": "Quyết đoán",
+    "options": [
+      "Lười biếng",
+      "Vội vàng",
+      "Chủ quan",
+      "Quyết đoán"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Quyết đoán Vì : Cờ Vua giúp rèn luyện tính quyết đoán trong xử lý tình huống."
+  },
+  {
+    "question": "Bobby Fischer là nhà vô địch thế giới người nước nào đã chấm dứt sự thống trị của Liên Xô năm 1972?",
+    "answer": "Mỹ",
+    "options": [
+      "Canada",
+      "Pháp",
+      "Anh",
+      "Mỹ"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Mỹ Vì : Bobby Fischer thắng Boris Spassky năm 1972, kết thúc kỷ nguyên thống trị dài của các kỳ thủ Liên Xô."
+  },
+  {
+    "question": "Màu sắc tiêu chuẩn của bàn cờ vua trong lịch sử luôn là sự kết hợp của?",
+    "answer": "Ô sáng và Ô tối",
+    "options": [
+      "Ô sáng và Ô tối",
+      "Đen và Đỏ",
+      "Xanh và Trắng",
+      "Vàng và Nâu"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Ô sáng và Ô tối Vì : Dù vật liệu thay đổi, bàn cờ luôn gồm 64 ô màu sáng và tối xen kẽ để dễ phân biệt."
+  },
+  {
+    "question": "Cờ Vua Việt Nam phát triển sâu rộng từ sau sự kiện nào?",
+    "answer": "Thành lập Hội cờ Việt Nam năm 1980",
+    "options": [
+      "Gia nhập FIDE",
+      "Thành lập Hội cờ Việt Nam năm 1980",
+      "Giải thế giới 1886",
+      "Olympic Cờ Vua"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Thành lập Hội cờ Việt Nam năm 1980 Vì : Sau năm 1980, phong trào Cờ Vua phát triển sâu rộng hơn."
+  },
+  {
+    "question": "Ngày Quốc tế Cờ vua được kỷ niệm vào ngày nào hàng năm?",
+    "answer": "20/07",
+    "options": [
+      "20/06",
+      "20/07",
+      "20/05",
+      "20/08"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : 20/07 Vì : Ngày 20/07 được chọn là Ngày Quốc tế Cờ vua nhằm kỷ niệm ngày thành lập Liên đoàn Cờ vua thế giới."
+  },
+  {
+    "question": "Kỳ thủ nào giữ kỷ lục vô địch thế giới lâu nhất trong lịch sử (27 năm)?",
+    "answer": "Emanuel Lasker",
+    "options": [
+      "Emanuel Lasker",
+      "Garry Kasparov",
+      "Magnus Carlsen",
+      "Anatoly Karpov"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Emanuel Lasker Vì : Emanuel Lasker giữ vương miện thế giới từ năm 1894 đến năm 1921, tổng cộng 27 năm liên tục."
+  },
+  {
+    "question": "Sách dạy cờ vua in ấn đầu tiên xuất hiện vào khoảng năm nào?",
+    "answer": "1495",
+    "options": [
+      "1850",
+      "1600",
+      "1495",
+      "1924"
+    ],
+    "feedback": "Sai. Đáp án đúng là : 1495 Vì : Cuốn sách về cờ vua hiện đại đầu tiên được cho là của Francesc Vincent, in tại Valencia năm 1495."
+  },
+  {
+    "question": "Văn bản số 1787/TDQS được ban hành bởi cơ quan nào?",
+    "answer": "Bộ Giáo dục",
+    "options": [
+      "Tổng cục Thể dục Thể thao",
+      "FIDE",
+      "Bộ Văn hóa",
+      "Bộ Giáo dục"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Bộ Giáo dục Vì : Bộ Giáo dục ban hành văn bản đưa Cờ Vua vào giảng dạy."
+  },
+  {
+    "question": "Ai được coi là &quot;Cha đẻ của trường phái cờ vua hiện đại&quot; với lý thuyết kiểm soát trung tâm?",
+    "answer": "Wilhelm Steinitz",
+    "options": [
+      "Paul Morphy",
+      "Aaron Nimzowitsch",
+      "Wilhelm Steinitz",
+      "Mikhail Tal"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Wilhelm Steinitz Vì : Steinitz là người đầu tiên xây dựng lý thuyết về chiến lược và cấu trúc tốt một cách khoa học."
+  },
+  {
+    "question": "Kỳ thủ nào được mệnh danh là &quot;Phù thủy vùng Riga&quot; với lối chơi tấn công hủy diệt?",
+    "answer": "Mikhail Tal",
+    "options": [
+      "Mikhail Botvinnik",
+      "Mikhail Tal",
+      "Viswanathan Anand",
+      "Tigran Petrosian"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Mikhail Tal Vì : Mikhail Tal nổi tiếng với những ván cờ tấn công siêu việt và khả năng thí quân không tưởng."
+  },
+  {
+    "question": "Trận đấu lịch sử giữa Garry Kasparov và siêu máy tính Deep Blue diễn ra vào năm nào?",
+    "answer": "1996",
+    "options": [
+      "2005",
+      "2010",
+      "1990",
+      "1996"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : 1996 Vì : Năm 1996, máy tính Deep Blue của IBM lần đầu thắng một ván trước nhà vô địch thế giới Kasparov."
+  },
+  {
+    "question": "Sự kiện &quot;Schism&quot; (Sự chia rẽ) của làng cờ thế giới (1993-2006) liên quan đến việc thành lập tổ chức nào?",
+    "answer": "PCA (Hiệp hội cờ chuyên nghiệp)",
+    "options": [
+      "ICU",
+      "PCA (Hiệp hội cờ chuyên nghiệp)",
+      "FIDE",
+      "Chess.com"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : PCA (Hiệp hội cờ chuyên nghiệp) Vì : Garry Kasparov đã tách khỏi FIDE để thành lập PCA, dẫn đến việc có hai nhà vô địch thế giới song song."
+  },
+  {
+    "question": "Trước khi có tên gọi &quot;Cờ vua&quot;, trò chơi này tại Việt Nam thế kỷ XX thường bị nhầm hoặc gọi chung là?",
+    "answer": "Cả Cờ tướng Tây và Cờ quốc tế",
+    "options": [
+      "Cờ tướng Tây",
+      "Cả Cờ tướng Tây và Cờ quốc tế",
+      "Cờ tiên",
+      "Cờ quốc tế"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Cả Cờ tướng Tây và Cờ quốc tế Vì : Do phổ biến sau cờ tướng, người Việt thời đầu thường gọi cờ vua là cờ tướng Tây hoặc cờ quốc tế."
+  },
+  {
+    "question": "Trường phái &quot;Cờ vua lãng mạn&quot; (Romantic Chess) ở thế kỷ XIX ưu tiên phong cách chơi nào?",
+    "answer": "Tấn công, thí quân",
+    "options": [
+      "Tấn công, thí quân",
+      "Đánh bằng tâm lý",
+      "Kiểm soát tàn cuộc",
+      "Phòng thủ chặt chẽ"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Tấn công, thí quân Vì : Thời kỳ lãng mạn đặc trưng bởi các đòn tấn công rực rỡ, thí quân táo bạo và tinh thần thượng võ."
+  },
+  {
+    "question": "Cờ Vua có hình thức tập luyện như thế nào?",
+    "answer": "Phong phú, đa dạng",
+    "options": [
+      "Đơn điệu",
+      "Khó tiếp cận",
+      "Phong phú, đa dạng",
+      "Tốn kém"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Phong phú, đa dạng Vì : Hình thức tập luyện Cờ Vua rất phong phú và đa dạng."
+  },
+  {
+    "question": "Trường phái cờ Italia phát triển mạnh trong giai đoạn nào?",
+    "answer": "1600–1634",
+    "options": [
+      "1600–1634",
+      "1800–1850",
+      "1700–1750",
+      "1400–1500"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : 1600–1634 Vì : Trường phái Italia phát triển trong giai đoạn 1600–1634."
+  },
+  {
+    "question": "Tên gọi “Satơrăng” xuất hiện ở khu vực nào?",
+    "answer": "Ả Rập",
+    "options": [
+      "Ả Rập",
+      "Mỹ",
+      "Nga",
+      "Châu Âu"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Ả Rập Vì : Khi truyền sang Ả Rập, trò chơi được gọi là Satơrăng."
+  },
+  {
+    "question": "Có bao nhiêu quân Xe trên bàn lúc đầu?",
+    "answer": "4",
+    "options": [
+      "8",
+      "6",
+      "2",
+      "4"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : 4 Vì : Mỗi bên có 2 Xe, tổng cộng 4 Xe."
+  },
+  {
+    "question": "Quân nào di chuyển theo đường chéo?",
+    "answer": "Tượng",
+    "options": [
+      "Tượng",
+      "Xe",
+      "Mã",
+      "Hậu"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Tượng Vì : Tượng di chuyển theo các đường chéo trên bàn cờ."
+  },
+  {
+    "question": "Với tàn cuộc: Vua và Xe đấu Vua, kết quả lý thuyết?",
+    "answer": "Trắng chiếu bí đen",
+    "options": [
+      "Hòa",
+      "Đen thắng",
+      "Đen chiếu bí trắng",
+      "Trắng chiếu bí đen"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Trắng chiếu bí đen Vì : Vua và Xe thường chiếu bí được Vua đơn lẻ."
+  },
+  {
+    "question": "Trong ghi biên bản quốc tế, nước đi “Qxh7+” có nghĩa là gì?",
+    "answer": "Hậu ăn quân tại h7 và chiếu Vua",
+    "options": [
+      "Hậu ăn quân tại h7 và chiếu Vua",
+      "Xe ăn h7",
+      "Hậu đi h7",
+      "Hậu nhập thành"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Hậu ăn quân tại h7 và chiếu Vua Vì : Ký hiệu x là bắt quân, dấu cộng biểu thị nước chiếu Vua."
+  },
+  {
+    "question": "Ván cờ có thể tối đa mấy quân khi bắt đầu?",
+    "answer": "32",
+    "options": [
+      "16",
+      "28",
+      "20",
+      "32"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : 32 Vì : Mỗi bên 16 quân, tổng cộng 32 quân."
+  },
+  {
+    "question": "Ký hiệu &quot;!!&quot; trong biên bản nghĩa là gì?",
+    "answer": "Nước đi xuất sắc",
+    "options": [
+      "Nước đi xuất sắc",
+      "Chiếu bí",
+      "Lỗi nặng",
+      "Ăn quân"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Nước đi xuất sắc Vì : !! thể hiện nước đi rất hay."
+  },
+  {
+    "question": "Nếu chỉ còn vua và mã, có chiếu bí được không?",
+    "answer": "Không",
+    "options": [
+      "Khi cùng quân Tốt",
+      "Có",
+      "Không",
+      "Khi đối phương sơ hở"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Không Vì : Không thể dùng mã đơn để chiếu bí vua đối phương."
+  },
+  {
+    "question": "Quân Xe di chuyển theo hướng nào?",
+    "answer": "Đường dọc, ngang",
+    "options": [
+      "Đường dọc, ngang",
+      "Đường chéo",
+      "Hình chữ L",
+      "Đường zigzag"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Đường dọc, ngang Vì : Xe đi dọc và ngang tùy ý số ô."
+  },
+  {
+    "question": "Quân cờ nào duy nhất không thể đi lùi?",
+    "answer": "Tốt",
+    "options": [
+      "Mã",
+      "Tốt",
+      "Tượng",
+      "Xe"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Tốt Vì : Tốt chỉ tiến chứ không bao giờ đi lùi."
+  },
+  {
+    "question": "Cờ vua bắt nguồn từ nước nào?",
+    "answer": "Ấn Độ",
+    "options": [
+      "Ấn Độ",
+      "Italia",
+      "Nga",
+      "Trung Quốc"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Ấn Độ Vì : Cờ vua hiện đại khởi nguồn từ Ấn Độ cổ đại."
+  },
+  {
+    "question": "Quân Hậu kết hợp khả năng di chuyển của quân nào?",
+    "answer": "Xe và Tượng",
+    "options": [
+      "Vua và Tượng",
+      "Xe và Tượng",
+      "Mã và Vua",
+      "Mã và Xe"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Xe và Tượng Vì : Hậu có thể đi ngang, dọc và chéo như Xe kết hợp Tượng."
+  },
+  {
+    "question": "Chữ “N” khi ghi nước đi tượng trưng cho?",
+    "answer": "Knight",
+    "options": [
+      "Tốt",
+      "Knight",
+      "Hậu",
+      "Xe"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Knight Vì : &quot;N&quot; dùng ghi nước đi của Mã (Knight)."
+  },
+  {
+    "question": "Trong “tàn cuộc”, loại quân nào hay “thí” nhất?",
+    "answer": "Tốt",
+    "options": [
+      "Xe",
+      "Tốt",
+      "Tượng",
+      "Hậu"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Tốt Vì : Tốt thường được dùng để thí ở tàn cuộc."
+  },
+  {
+    "question": "Trận mở đầu gọi là gì trong cờ vua?",
+    "answer": "Khai cuộc",
+    "options": [
+      "Khai cuộc",
+      "Trung cuộc",
+      "Phản công",
+      "Hậu cuộc"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Khai cuộc Vì : Khai cuộc là giai đoạn đầu của ván cờ."
+  },
+  {
+    "question": "Quân Hậu kết hợp di chuyển như quân nào?",
+    "answer": "Xe và Tượng",
+    "options": [
+      "Xe và Tượng",
+      "Xe và Mã",
+      "Vua và Xe",
+      "Tốt và Mã"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Xe và Tượng Vì : Hậu kết hợp cách đi của Xe và Tượng."
+  },
+  {
+    "question": "Ký hiệu “?” trong biên bản là gì?",
+    "answer": "Sai lầm",
+    "options": [
+      "Chiếu tướng",
+      "Đổi quân",
+      "Xuất sắc",
+      "Sai lầm"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Sai lầm Vì : &quot;?&quot; là nước đi tệ hoặc sai sót lớn."
+  },
+  {
+    "question": "Trong nhập thành, điều kiện nào là BẮT BUỘC?",
+    "answer": "Vua chưa di chuyển",
+    "options": [
+      "Trên bàn còn 8 quân",
+      "Vua chưa di chuyển",
+      "Có thể bị chiếu",
+      "Xe đã đi rồi"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Vua chưa di chuyển Vì : Nhập thành chỉ khi Vua và Xe chưa di chuyển."
+  },
+  {
+    "question": "Nếu bắt quân bằng tốt e lấy quân d5, ghi là?",
+    "answer": "exd5",
+    "options": [
+      "exd4",
+      "ed5",
+      "e5x",
+      "exd5"
+    ],
+    "feedback": "Sai. Đáp án đúng là : exd5 Vì : exd5: tốt cột e ăn quân trên d5."
+  },
+  {
+    "question": "Quân nào được ký hiệu là R khi ghi nước đi?",
+    "answer": "Xe",
+    "options": [
+      "Xe",
+      "Hậu",
+      "Tượng",
+      "Mã"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Xe Vì : R là ký hiệu quốc tế của Xe (Rook)."
+  },
+  {
+    "question": "Ký hiệu tiếng Anh của quân Vua?",
+    "answer": "K",
+    "options": [
+      "R",
+      "K",
+      "B",
+      "Q"
+    ],
+    "feedback": "Sai. Đáp án đúng là : K Vì : K (King) dùng để ký hiệu quân Vua."
+  },
+  {
+    "question": "Yếu tố thời gian trong chiến thuật gồm những loại nào?",
+    "answer": "Trực tiếp và gián tiếp",
+    "options": [
+      "Trực tiếp và gián tiếp",
+      "Gần và xa",
+      "Nhanh và chậm",
+      "Tấn công và phòng thủ"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Trực tiếp và gián tiếp Vì : Yếu tố thời gian gồm thời gian trực tiếp và thời gian gián tiếp."
+  },
+  {
+    "question": "Trong thế Vua chống Vua + Tốt, nếu bên không Tốt chiếm thế đối Vua thì kết quả thường là gì?",
+    "answer": "Hòa cờ",
+    "options": [
+      "Thắng nhanh",
+      "Mất Vua",
+      "Hòa cờ",
+      "Chiếu hết ngay"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Hòa cờ Vì : Chiếm thế đối Vua giúp bên yếu ngăn phong cấp và đạt kết quả hòa."
+  },
+  {
+    "question": "Trong khai cuộc, trung tâm được ví như gì?",
+    "answer": "Pháo đài chỉ huy",
+    "options": [
+      "Hàng rào phòng thủ",
+      "Thành trì yếu",
+      "Pháo đài chỉ huy",
+      "Khu vực nguy hiểm"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Pháo đài chỉ huy Vì : Trung tâm là khu vực giúp quân cơ động và kiểm soát toàn bàn cờ."
+  },
+  {
+    "question": "Đòn thu hút là gì?",
+    "answer": "Dẫn quân đối phương vào vị trí bất lợi",
+    "options": [
+      "Dẫn quân đối phương vào vị trí bất lợi",
+      "Đẩy Tốt trung tâm",
+      "Đổi quân liên tục",
+      "Nhập thành dài"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Dẫn quân đối phương vào vị trí bất lợi Vì : Đòn thu hút dụ quân đối phương vào ô bất lợi rồi tiếp tục tấn công."
+  },
+  {
+    "question": "Trong thế đối Vua, bên nào thường có lợi?",
+    "answer": "Bên chiếm được thế đối Vua",
+    "options": [
+      "Bên mất lượt đi",
+      "Bên chiếm được thế đối Vua",
+      "Bên có Hậu",
+      "Bên còn ít quân"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Bên chiếm được thế đối Vua Vì : Chiếm thế đối Vua giúp kiểm soát không gian và tạo lợi thế chiến lược."
+  },
+  {
+    "question": "Trong tàn cuộc, nếu đối phương mạnh hơn thì mục tiêu chính là gì?",
+    "answer": "Tự vệ và hướng đến hòa",
+    "options": [
+      "Đẩy Tốt biên",
+      "Tự vệ và hướng đến hòa",
+      "Đổi Vua",
+      "Tấn công ngay"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Tự vệ và hướng đến hòa Vì : Khi bất lợi cần phòng thủ chắc chắn và tìm cơ hội đạt kết quả hòa."
+  },
+  {
+    "question": "Quân Mã ở trung tâm có thể khống chế bao nhiêu ô?",
+    "answer": "8 ô",
+    "options": [
+      "6 ô",
+      "2 ô",
+      "4 ô",
+      "8 ô"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : 8 ô Vì : Mã ở trung tâm có khả năng kiểm soát tối đa 8 ô cờ."
+  },
+  {
+    "question": "Trong khai cuộc, quân Xe thường được đưa ra vị trí nào?",
+    "answer": "Các cột quan trọng",
+    "options": [
+      "Hàng ngang cuối",
+      "Ô màu trắng",
+      "Góc bàn cờ",
+      "Các cột quan trọng"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Các cột quan trọng Vì : Xe hoạt động hiệu quả nhất trên các cột mở hoặc nửa mở."
+  },
+  {
+    "question": "Tốt được xem là gì trong thế trận cờ vua?",
+    "answer": "Linh hồn của ván cờ",
+    "options": [
+      "Quân yếu vô dụng",
+      "Quân phòng thủ duy nhất",
+      "Quân mạnh nhất",
+      "Linh hồn của ván cờ"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Linh hồn của ván cờ Vì : Cấu trúc Tốt ảnh hưởng lớn đến tấn công, phòng thủ và chiến lược."
+  },
+  {
+    "question": "Trong cờ tàn nhiều Tốt, yếu tố nào thường quyết định ưu thế?",
+    "answer": "Tốt thông tiến xa",
+    "options": [
+      "Nhập thành",
+      "Tốt thông tiến xa",
+      "Đổi Hậu",
+      "Đổi Xe"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Tốt thông tiến xa Vì : Tốt thông tiến xa tạo sức ép lớn và cơ hội phong cấp quyết định."
+  },
+  {
+    "question": "Hệ thống khai cuộc kín là khi trắng bắt đầu bằng nước nào?",
+    "answer": "Không phải 1.e4",
+    "options": [
+      "1.e4 d5",
+      "Không phải 1.e4",
+      "1.e4 c5",
+      "1.e4 e5"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Không phải 1.e4 Vì : Khai cuộc kín là khi bên trắng không đi nước đầu tiên là 1.e4."
+  },
+  {
+    "question": "Hai Tượng tạo hàng rào bằng cách nào?",
+    "answer": "Khống chế hai đường chéo gần nhau",
+    "options": [
+      "Khống chế hai đường chéo gần nhau",
+      "Kiểm soát hai cột",
+      "Đổi quân liên tục",
+      "Đứng cạnh Vua"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Khống chế hai đường chéo gần nhau Vì : Hai Tượng phối hợp kiểm soát các đường chéo để dồn Vua đối phương."
+  },
+  {
+    "question": "Chiến thuật trong cờ vua là gì?",
+    "answer": "Tổ hợp nước đi nhằm đạt mục đích cụ thể",
+    "options": [
+      "Các nước đi ngẫu nhiên",
+      "Tổ hợp nước đi nhằm đạt mục đích cụ thể",
+      "Chỉ dùng trong khai cuộc",
+      "Chỉ để phòng thủ"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Tổ hợp nước đi nhằm đạt mục đích cụ thể Vì : Chiến thuật là chuỗi nước đi có định hướng để đạt lợi thế."
+  },
+  {
+    "question": "Đòn giằng xiên khác đòn ghim ở điểm nào?",
+    "answer": "Quân mạnh đứng phía trước",
+    "options": [
+      "Không dùng Tượng",
+      "Không dùng Hậu",
+      "Chỉ dùng Mã",
+      "Quân mạnh đứng phía trước"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Quân mạnh đứng phía trước Vì : Đòn xiên có quân giá trị lớn đứng trước và quân nhỏ đứng sau."
+  },
+  {
+    "question": "Trong cờ tàn Hậu chống Tốt, điều kiện nào giúp Hậu dễ thắng hơn?",
+    "answer": "Hậu khống chế đường tiến của Tốt",
+    "options": [
+      "Không có Vua hỗ trợ",
+      "Tốt ở gần hàng đầu",
+      "Hậu khống chế đường tiến của Tốt",
+      "Đổi Hậu"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Hậu khống chế đường tiến của Tốt Vì : Hậu kiểm soát đường tiến sẽ ngăn phong cấp và tạo cơ hội chiến thắng."
+  },
+  {
+    "question": "Trong cờ tàn Mã chống Tốt, nhiệm vụ chính của Mã là gì?",
+    "answer": "Chặn đường phong cấp của Tốt",
+    "options": [
+      "Chặn đường phong cấp của Tốt",
+      "Bảo vệ Hậu",
+      "Đổi quân",
+      "Chiếu hết Vua"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Chặn đường phong cấp của Tốt Vì : Mã cần kiểm soát các ô trên đường tiến của Tốt để cầm hòa."
+  },
+  {
+    "question": "Trong tàn cuộc, vì sao Vua trở nên mạnh hơn?",
+    "answer": "Nguy cơ bị chiếu hết giảm",
+    "options": [
+      "Có thêm nước đi",
+      "Đi như Hậu",
+      "Được phong cấp",
+      "Nguy cơ bị chiếu hết giảm"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Nguy cơ bị chiếu hết giảm Vì : Khi ít quân trên bàn cờ, Vua có thể tham gia chiến đấu tích cực."
+  },
+  {
+    "question": "Nhiệm vụ chính khi có ưu thế trong tàn cuộc là gì?",
+    "answer": "Tận dụng ưu thế để thắng",
+    "options": [
+      "Tận dụng ưu thế để thắng",
+      "Lặp lại nước",
+      "Xin hòa",
+      "Đổi hết quân"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Tận dụng ưu thế để thắng Vì : Khi có ưu thế cần khai thác hiệu quả để chuyển thành chiến thắng."
+  },
+  {
+    "question": "Yếu tố nào KHÔNG thuộc nhân tố chiến thuật trong trung cuộc?",
+    "answer": "Phong cấp",
+    "options": [
+      "Tình thế bó buộc",
+      "Sự đe dọa",
+      "Thời gian",
+      "Phong cấp"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Phong cấp Vì : Phong cấp thuộc tàn cuộc, không phải nhân tố chiến thuật cơ bản của trung cuộc."
+  },
+  {
+    "question": "Ô yếu của một bên thường đồng thời là gì của bên kia?",
+    "answer": "Ô mạnh",
+    "options": [
+      "Ô trung tâm",
+      "Ô phong cấp",
+      "Ô mạnh",
+      "Ô hòa"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Ô mạnh Vì : Ô mạnh của bên này thường chính là ô yếu của đối phương."
+  },
+  {
+    "question": "Trong cờ vua quốc tế, người chơi có thể phong cấp thành những quân nào?",
+    "answer": "Hậu, Xe, Tượng hoặc Mã",
+    "options": [
+      "Chỉ Xe và Hậu",
+      "Bất kỳ quân nào kể cả Vua",
+      "Hậu, Xe, Tượng hoặc Mã",
+      "Chỉ Hậu"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Hậu, Xe, Tượng hoặc Mã Vì : Tốt có thể phong thành Hậu, Xe, Tượng hoặc Mã theo luật quốc tế."
+  },
+  {
+    "question": "Ký hiệu &quot;Q&quot; trong ghi biên bản là gì?",
+    "answer": "Hậu",
+    "options": [
+      "Xe",
+      "Hậu",
+      "Quân tốt",
+      "Mã"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Hậu Vì : Q là ký hiệu của Hậu (Queen)."
+  },
+  {
+    "question": "Ăn quân đối phương gọi là gì?",
+    "answer": "Bắt quân",
+    "options": [
+      "Thăng cấp",
+      "Bắt quân",
+      "Lùi quân",
+      "Thí quân"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Bắt quân Vì : Bắt quân là loại quân đối thủ ra khỏi bàn."
+  },
+  {
+    "question": "Hòa cờ xảy ra khi nào?",
+    "answer": "Không bên nào thắng",
+    "options": [
+      "Không bên nào thắng",
+      "Chiếu bí",
+      "Bắt nhiều quân nhất",
+      "Mỗi bên còn 1 quân Tốt"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Không bên nào thắng Vì : Khi không bên nào thắng sẽ tính hòa cờ."
+  },
+  {
+    "question": "Số quân tối đa cùng màu còn lại đủ để chiếu bí?",
+    "answer": "Chỉ cần Hậu",
+    "options": [
+      "3",
+      "1",
+      "Chỉ cần Hậu",
+      "2"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Chỉ cần Hậu Vì : Chỉ cần quân Hậu là đủ chiếu bí, các trường hợp khác có thể không."
+  },
+  {
+    "question": "Quân Xe nhỏ nhất theo mã ký hiệu nào?",
+    "answer": "R",
+    "options": [
+      "Q",
+      "R",
+      "K",
+      "N"
+    ],
+    "feedback": "Sai. Đáp án đúng là : R Vì : R là ký hiệu quốc tế của Xe (Rook)."
+  },
+  {
+    "question": "Để ghi nước đi đầu tiên bên Trắng, sẽ bắt đầu bằng?",
+    "answer": "1.",
+    "options": [
+      "A...",
+      "1...",
+      "1.",
+      "0."
+    ],
+    "feedback": "Sai. Đáp án đúng là : 1. Vì : Dùng 1. để bắt đầu nước đi đầu trắng."
+  },
+  {
+    "question": "Thuật ngữ “Pat” dùng để chỉ trường hợp nào?",
+    "answer": "Hòa do hết nước đi",
+    "options": [
+      "Xin thua",
+      "Chiếu hết",
+      "Phong cấp",
+      "Hòa do hết nước đi"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Hòa do hết nước đi Vì : Pat là thế hòa khi người chơi không còn nước đi hợp lệ nhưng không bị chiếu."
+  },
+  {
+    "question": "Việc kiểm soát khu trung tâm giúp điều gì?",
+    "answer": "Tăng khả năng cơ động quân",
+    "options": [
+      "Giảm số quân",
+      "Tăng khả năng cơ động quân",
+      "Giảm giá trị quân",
+      "Tránh nhập thành"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Tăng khả năng cơ động quân Vì : Quân ở trung tâm phát huy tối đa sức mạnh và cơ động linh hoạt hơn."
+  },
+  {
+    "question": "Đòn bắt đôi là gì?",
+    "answer": "Một quân tấn công hai mục tiêu",
+    "options": [
+      "Một quân tấn công hai mục tiêu",
+      "Đổi hai quân",
+      "Hai quân cùng ăn một quân",
+      "Chiếu hết nhanh"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Một quân tấn công hai mục tiêu Vì : Đòn bắt đôi là khi một quân cùng lúc tấn công hai quân đối phương."
+  },
+  {
+    "question": "Trong cờ tàn Xe chống Tốt, nếu Tốt chưa qua giới tuyến thì bên mạnh làm gì?",
+    "answer": "Dùng Vua cắt đường Vua đối phương",
+    "options": [
+      "Xin hòa",
+      "Đổi Xe",
+      "Dùng Vua cắt đường Vua đối phương",
+      "Đưa Xe ra biên"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Dùng Vua cắt đường Vua đối phương Vì : Dùng Vua cắt đường giúp Xe dễ dàng ngăn cản và tiêu diệt Tốt."
+  },
+  {
+    "question": "Trong tàn cuộc kỹ thuật, dạng nào đơn giản hơn chiếu hết bằng Xe?",
+    "answer": "Chiếu hết bằng Hậu",
+    "options": [
+      "Chiếu hết bằng Mã",
+      "Chiếu hết bằng Tượng",
+      "Chiếu hết bằng Hậu",
+      "Chiếu hết bằng Tốt"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Chiếu hết bằng Hậu Vì : Hậu cơ động hơn Xe nên việc chiếu hết thường đơn giản hơn."
+  },
+  {
+    "question": "Khai cuộc nửa thoáng xảy ra khi nào?",
+    "answer": "Trắng đi 1.e4, đen không đáp lại e5",
+    "options": [
+      "Không có Tốt trung tâm",
+      "Hai bên nhập thành sớm",
+      "Trắng đi 1.d4",
+      "Trắng đi 1.e4, đen không đáp lại e5"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Trắng đi 1.e4, đen không đáp lại e5 Vì : Khai cuộc nửa thoáng bắt đầu bằng 1.e4 nhưng đen đáp khác e5."
+  },
+  {
+    "question": "Môn Cờ Vua liên quan mật thiết đến nghệ thuật nào?",
+    "answer": "Quân sự",
+    "options": [
+      "Âm nhạc",
+      "Hội họa",
+      "Kiến trúc",
+      "Quân sự"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Quân sự Vì : Cờ Vua gắn liền với nghệ thuật điều binh khiển tướng."
+  },
+  {
+    "question": "Cờ Vua yêu cầu cao về điều gì ở người chơi?",
+    "answer": "Mưu trí",
+    "options": [
+      "Mưu trí",
+      "Thể lực mạnh",
+      "Chiều cao",
+      "Sức bật"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Mưu trí Vì : Người chơi cần có sự mưu trí và thông minh."
+  },
+  {
+    "question": "Hệ thống tính điểm trình độ kỳ thủ (Elo) được đặt theo tên của nhà khoa học nước nào?",
+    "answer": "Mỹ gốc Hungary",
+    "options": [
+      "Nga",
+      "Đức",
+      "Mỹ gốc Hungary",
+      "Hà Lan"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Mỹ gốc Hungary Vì : Arpad Elo là giáo sư vật lý người Mỹ gốc Hungary, ông đã xây dựng hệ thống tính điểm này."
+  },
+  {
+    "question": "FIDE được thành lập tại đâu?",
+    "answer": "Paris",
+    "options": [
+      "Moscow",
+      "Rome",
+      "Paris",
+      "London"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Paris Vì : Liên đoàn Cờ Vua thế giới được thành lập tại Paris, Pháp."
+  },
+  {
+    "question": "Liên đoàn Cờ Vua thế giới viết tắt là gì?",
+    "answer": "FIDE",
+    "options": [
+      "VFF",
+      "IOC",
+      "FIFA",
+      "FIDE"
+    ],
+    "feedback": "Sai. Đáp án đúng là : FIDE Vì : FIDE là tên viết tắt của Liên đoàn Cờ Vua thế giới."
+  },
+  {
+    "question": "Chỉ thị số 73/CT của Tổng cục Thể dục Thao ban hành năm nào?",
+    "answer": "1978",
+    "options": [
+      "1988",
+      "1978",
+      "1965",
+      "1980"
+    ],
+    "feedback": "Sai. Đáp án đúng là : 1978 Vì : Năm 1978 ban hành chỉ thị hướng dẫn phong trào Cờ Vua."
+  },
+  {
+    "question": "Khi chiếu không hợp lệ là khi nào?",
+    "answer": "Chiếu mãi mãi",
+    "options": [
+      "Chiếu khi hết quân",
+      "Chiếu mãi mãi",
+      "Chiếu bằng Tốt",
+      "Không có"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Chiếu mãi mãi Vì : Chiếu mãi mãi dẫn tới hòa, không được tiếp tục."
+  },
+  {
+    "question": "Kết thúc ván bằng chiếu bí được ký hiệu?",
+    "answer": "#",
+    "options": [
+      "$",
+      "+",
+      "#",
+      "x"
+    ],
+    "feedback": "Sai. Đáp án đúng là : # Vì : Dấu &quot;#&quot; là ký hiệu nước chiếu bí."
+  },
+  {
+    "question": "Trong cờ vua, quân Tượng luôn di chuyển trên loại ô nào?",
+    "answer": "Cùng màu ô ban đầu",
+    "options": [
+      "Cùng màu ô ban đầu",
+      "Chỉ ô đen",
+      "Chỉ ô trắng",
+      "Khác màu liên tục"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Cùng màu ô ban đầu Vì : Tượng chỉ hoạt động trên màu ô xuất phát trong suốt ván đấu."
+  },
+  {
+    "question": "Số thứ tự nước đi trên biên bản ghi ở đâu?",
+    "answer": "Trước nước đi của Trắng",
+    "options": [
+      "Không viết",
+      "Sau nước đi Đen",
+      "Cuối dòng",
+      "Trước nước đi của Trắng"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Trước nước đi của Trắng Vì : Luôn ghi số thứ tự trước nước đi Trắng."
+  },
+  {
+    "question": "Cờ vua tiêu chuẩn mỗi bên có mấy phút?",
+    "answer": "90",
+    "options": [
+      "15",
+      "30",
+      "90",
+      "5"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : 90 Vì : Một ván chuẩn mỗi bên thường 90 phút."
+  },
+  {
+    "question": "Có bao nhiêu loại ký hiệu ghi quân cờ trong biên bản quốc tế?",
+    "answer": "6",
+    "options": [
+      "6",
+      "5",
+      "4",
+      "7"
+    ],
+    "feedback": "Sai. Đáp án đúng là : 6 Vì : Gồm 6 ký hiệu: K, Q, R, B, N, (Tốt không ký hiệu)."
+  },
+  {
+    "question": "Trong trường hợp bắt tốt qua đường (en passant), cách ghi tiêu chuẩn là?",
+    "answer": "exd6 e.p.",
+    "options": [
+      "e6x",
+      "exd6",
+      "e.p.",
+      "exd6 e.p."
+    ],
+    "feedback": "Đúng. Đáp án đúng là : exd6 e.p. Vì : Ghi exd6 e.p. để phân biệt nước en passant."
+  },
+  {
+    "question": "Trong luật thi đấu, người chơi phải làm gì khi chạm quân của mình?",
+    "answer": "Di chuyển quân đó nếu có nước hợp lệ",
+    "options": [
+      "Di chuyển quân đó nếu có nước hợp lệ",
+      "Xin phép trọng tài",
+      "Đổi quân",
+      "Kết thúc ván"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Di chuyển quân đó nếu có nước hợp lệ Vì : Luật chạm quân quy định phải đi quân đã chạm nếu nước đi hợp lệ."
+  },
+  {
+    "question": "Bàn cờ đúng đặt thế nào với người chơi?",
+    "answer": "Góc trắng bên phải",
+    "options": [
+      "Tùy ý",
+      "Góc trắng bên phải",
+      "Góc đen bên phải",
+      "Bất kỳ màu nào"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Góc trắng bên phải Vì : Góc trắng luôn phía bên tay phải người chơi."
+  },
+  {
+    "question": "Nếu mã tại g1 di chuyển đến f3 và đang có mã tại b1 cũng đi đến f3, ghi nước đi thế nào?",
+    "answer": "Nhf3 hoặc Nbf3",
+    "options": [
+      "Nhf3 hoặc Nbf3",
+      "Chỉ f3",
+      "Nf3",
+      "N1f3"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Nhf3 hoặc Nbf3 Vì : Thêm cột hoặc hàng để phân biệt mã."
+  },
+  {
+    "question": "Trong cờ vua, bắt tốt qua đường còn gọi là gì?",
+    "answer": "En passant",
+    "options": [
+      "Checkmate",
+      "En passant",
+      "Promotion",
+      "Castling"
+    ],
+    "feedback": "Sai. Đáp án đúng là : En passant Vì : En passant là luật đặc biệt cho phép bắt Tốt vừa đi hai ô."
+  },
+  {
+    "question": "Mã chiếu vua ở đâu không cần đi tạo đôi?",
+    "answer": "Vị trí chữ L",
+    "options": [
+      "Vị trí chữ L",
+      "Trước mặt",
+      "Gần quân tốt",
+      "Bên cạnh"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Vị trí chữ L Vì : Mã đi hình chữ L để chiếu vua."
+  },
+  {
+    "question": "Tình huống nào sau là hòa?",
+    "answer": "Chỉ còn vua đối mặt vua",
+    "options": [
+      "Vua bị chiếu",
+      "Cùng bắt quân",
+      "Chỉ còn vua đối mặt vua",
+      "Nhập thành"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Chỉ còn vua đối mặt vua Vì : Khi chỉ còn vua đối mặt vua không thể chiếu bí."
+  },
+  {
+    "question": "Trong cờ tàn Xe chống Tốt, nhân tố quyết định thường là gì?",
+    "answer": "Vua hỗ trợ Xe kịp thời",
+    "options": [
+      "Vua hỗ trợ Xe kịp thời",
+      "Đẩy Tốt biên",
+      "Số nước khai cuộc",
+      "Đổi Hậu"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Vua hỗ trợ Xe kịp thời Vì : Sự phối hợp giữa Vua và Xe quyết định khả năng thắng trong tàn cuộc."
+  },
+  {
+    "question": "Tốt nào không nên phát triển sớm trong khai cuộc?",
+    "answer": "Tốt f, g, h",
+    "options": [
+      "Tốt c",
+      "Tốt d",
+      "Tốt e",
+      "Tốt f, g, h"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Tốt f, g, h Vì : Đẩy Tốt f, g, h sớm dễ làm yếu vị trí Vua và dẫn đến nguy hiểm."
+  },
+  {
+    "question": "Trong tàn cuộc kỹ thuật, Vua bên yếu thường làm gì?",
+    "answer": "Tìm cách chống đỡ",
+    "options": [
+      "Tấn công mạnh",
+      "Tìm cách chống đỡ",
+      "Đẩy Tốt liên tục",
+      "Đổi Hậu"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Tìm cách chống đỡ Vì : Vua bên yếu cố gắng phòng thủ trước ưu thế áp đảo của đối phương."
+  },
+  {
+    "question": "Thế vận hội Cờ vua (Chess Olympiad) dành cho các đội tuyển quốc gia được tổ chức định kỳ mấy năm?",
+    "answer": "2 năm",
+    "options": [
+      "5 năm",
+      "2 năm",
+      "1 năm",
+      "4 năm"
+    ],
+    "feedback": "Sai. Đáp án đúng là : 2 năm Vì : Tương tự như Olympic, nhưng Chess Olympiad được tổ chức định kỳ 2 năm một lần trên toàn thế giới."
+  },
+  {
+    "question": "Cờ Vua ra đời vào khoảng thế kỷ nào?",
+    "answer": "Thế kỷ VI",
+    "options": [
+      "Thế kỷ IV",
+      "Thế kỷ VI",
+      "Thế kỷ VIII",
+      "Thế kỷ II"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Thế kỷ VI Vì : Theo tài liệu, Cờ Vua xuất hiện ở Ấn Độ vào thế kỷ VI."
+  },
+  {
+    "question": "Tại Việt Nam, giải cờ vua quốc tế thường niên lớn nhất có tên là gì?",
+    "answer": "HDBank quốc tế",
+    "options": [
+      "HDBank quốc tế",
+      "Giải các ngôi sao",
+      "Giải Thăng Long",
+      "Vietnam Open"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : HDBank quốc tế Vì : Giải cờ vua quốc tế HDBank là giải đấu uy tín, quy mô lớn nhất thường niên được tổ chức tại Việt Nam."
+  },
+  {
+    "question": "Cờ Vua giúp rèn luyện khả năng nào sau đây?",
+    "answer": "Nhìn xa trông rộng",
+    "options": [
+      "Nhìn xa trông rộng",
+      "Leo núi",
+      "Bơi nhanh",
+      "Nhảy cao"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Nhìn xa trông rộng Vì : Cờ Vua giúp người chơi rèn luyện khả năng nhìn xa trông rộng."
+  },
+  {
+    "question": "Việt Nam chính thức là thành viên của FIDE vào năm nào?",
+    "answer": "1988",
+    "options": [
+      "1980",
+      "1984",
+      "1986",
+      "1988"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : 1988 Vì : Năm 1988, Việt Nam được công nhận là thành viên của FIDE."
+  },
+  {
+    "question": "Cờ Vua giúp rèn luyện cách làm việc như thế nào?",
+    "answer": "Có kế hoạch",
+    "options": [
+      "Ngẫu nhiên",
+      "Có kế hoạch",
+      "Tùy hứng",
+      "Thiếu tổ chức"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Có kế hoạch Vì : Người chơi học được cách làm việc có kế hoạch và khoa học."
+  },
+  {
+    "question": "Một ván cờ hòa do lặp lại thế cờ xảy ra khi thế cờ xuất hiện bao nhiêu lần?",
+    "answer": "3 lần",
+    "options": [
+      "3 lần",
+      "2 lần",
+      "4 lần",
+      "5 lần"
+    ],
+    "feedback": "Sai. Đáp án đúng là : 3 lần Vì : Luật cờ vua quy định hòa khi cùng một thế cờ lặp lại ba lần."
+  },
+  {
+    "question": "Luật bắt buộc phải đi nước duy nhất còn lại gọi là?",
+    "answer": "Bế tắc",
+    "options": [
+      "Song chiếu",
+      "Bế tắc",
+      "Tịnh tiến",
+      "Chiếu"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Bế tắc Vì : Khi không còn nước hợp lệ: gọi là bế tắc, ván cờ hòa."
+  },
+  {
+    "question": "Trong ghi biên bản, ký hiệu “+” có nghĩa là gì?",
+    "answer": "Chiếu Vua",
+    "options": [
+      "Bắt quân",
+      "Hòa cờ",
+      "Chiếu Vua",
+      "Xin thua"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Chiếu Vua Vì : Dấu cộng được dùng để ký hiệu nước đi chiếu Vua đối phương."
+  },
+  {
+    "question": "Quân nào quan trọng nhất?",
+    "answer": "Vua",
+    "options": [
+      "Tốt",
+      "Hậu",
+      "Xe",
+      "Vua"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Vua Vì : Vua là quân quan trọng nhất."
+  },
+  {
+    "question": "Quân nào có thể tạo &quot;song chiếu&quot;?",
+    "answer": "Mã",
+    "options": [
+      "Xe",
+      "Hậu",
+      "Mã",
+      "Tốt"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Mã Vì : Mã có thể tham gia nước &quot;song chiếu&quot;."
+  },
+  {
+    "question": "Khi nhập thành, Vua di chuyển trước hay Xe di chuyển trước?",
+    "answer": "Vua trước",
+    "options": [
+      "Vua trước",
+      "Xe trước",
+      "Tùy chọn",
+      "Đồng thời"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Vua trước Vì : Khi nhập thành, người chơi luôn phải di chuyển Vua trước tiên."
+  },
+  {
+    "question": "Ván cờ kết thúc khi nào?",
+    "answer": "Tất cả đáp án đều đúng",
+    "options": [
+      "Khi hòa",
+      "Tất cả đáp án đều đúng",
+      "Khi hết quân",
+      "Khi một bên chịu thua"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Tất cả đáp án đều đúng Vì : Cả ba trường hợp đều có thể kết thúc ván cờ."
+  },
+  {
+    "question": "“Resigns” trong biên bản nghĩa là?",
+    "answer": "Xin thua",
+    "options": [
+      "Hòa",
+      "Thí tốt",
+      "Đổi quân",
+      "Xin thua"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Xin thua Vì : &quot;Resigns&quot; ghi lại ý nghĩa người chơi xin thua."
+  },
+  {
+    "question": "Bàn cờ vua chuẩn có kích thước bao nhiêu hàng và cột?",
+    "answer": "8x8",
+    "options": [
+      "8x8",
+      "10x10",
+      "7x7",
+      "6x6"
+    ],
+    "feedback": "Sai. Đáp án đúng là : 8x8 Vì : Bàn cờ vua tiêu chuẩn gồm 8 hàng và 8 cột tạo thành 64 ô."
+  },
+  {
+    "question": "Khi nào gọi là chiếu bí?",
+    "answer": "Vua bị chiếu hết nước đi",
+    "options": [
+      "Đối phương xin hòa",
+      "Bắt quân nhiều nhất",
+      "Vua bị chiếu hết nước đi",
+      "Phát triển nhanh hơn"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Vua bị chiếu hết nước đi Vì : Chiếu bí là khi vua bị chiếu và không thể thoát được."
+  },
+  {
+    "question": "Nước đi &quot;en passant&quot; liên quan đến quân nào?",
+    "answer": "Tốt",
+    "options": [
+      "Mã",
+      "Xe",
+      "Tốt",
+      "Hậu"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Tốt Vì : &quot;En passant&quot; là bắt tốt khi vừa đi 2 ô."
+  },
+  {
+    "question": "Đòn ghim quân nhằm mục đích gì?",
+    "answer": "Hạn chế sự di chuyển quân đối phương",
+    "options": [
+      "Hạn chế sự di chuyển quân đối phương",
+      "Phong cấp Tốt",
+      "Đổi Xe",
+      "Bảo vệ Vua"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Hạn chế sự di chuyển quân đối phương Vì : Đòn ghim làm quân bị ghim khó di chuyển vì phía sau có quân giá trị lớn."
+  },
+  {
+    "question": "Trong khai cuộc, quân nào nên được phát triển trước?",
+    "answer": "Tượng và Mã",
+    "options": [
+      "Tượng và Mã",
+      "Vua",
+      "Hậu",
+      "Xe"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Tượng và Mã Vì : Tượng và Mã là các quân nhẹ nên cần phát triển sớm để kiểm soát trung tâm."
+  },
+  {
+    "question": "Trong tàn cuộc chiến thuật – chiến lược, mục tiêu phổ biến nhất là gì?",
+    "answer": "Dẫn Tốt phong cấp tạo ưu thế thắng",
+    "options": [
+      "Dẫn Tốt phong cấp tạo ưu thế thắng",
+      "Đẩy Tốt h",
+      "Đổi Vua",
+      "Giữ nguyên quân"
+    ],
+    "feedback": "Sai. Đáp án đúng là : Dẫn Tốt phong cấp tạo ưu thế thắng Vì : Phong cấp Tốt là cách quan trọng để tạo ưu thế quyết định ở tàn cuộc."
+  },
+  {
+    "question": "Trong trung cuộc, thời gian gián tiếp được hiểu là gì?",
+    "answer": "Lợi thế nhịp độ tạo ra từ nước đi hiệu quả",
+    "options": [
+      "Số phút suy nghĩ",
+      "Lợi thế nhịp độ tạo ra từ nước đi hiệu quả",
+      "Thời gian trên đồng hồ",
+      "Thời gian nghỉ"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Lợi thế nhịp độ tạo ra từ nước đi hiệu quả Vì : Thời gian gián tiếp là lợi thế về nhịp độ và tốc độ triển khai quân."
+  },
+  {
+    "question": "Trung tâm bàn cờ có vai trò như thế nào?",
+    "answer": "Quyết định diễn biến tiếp theo của ván đấu",
+    "options": [
+      "Quyết định diễn biến tiếp theo của ván đấu",
+      "Chỉ để phòng thủ",
+      "Không ảnh hưởng chiến thuật",
+      "Khu vực ít quan trọng"
+    ],
+    "feedback": "Đúng. Đáp án đúng là : Quyết định diễn biến tiếp theo của ván đấu Vì : Kiểm soát trung tâm giúp tăng sức mạnh và khả năng cơ động quân."
+  }
+]

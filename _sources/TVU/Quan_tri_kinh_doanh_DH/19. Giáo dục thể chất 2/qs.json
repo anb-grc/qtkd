@@ -802,5 +802,297 @@
       "Kết Quả Ván Cờ",
       "Giới hạn & Rủi ro"
     ]
+  },
+  {
+    "weight": "high",
+    "question": "Trong <span class=\"keyword\">tàn cuộc chiến thuật – chiến lược</span>, <span class=\"keyword\">mục tiêu phổ biến nhất</span> là gì?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Dẫn Tốt phong cấp tạo ưu thế thắng</span><div class=\"note\">💡 Giải thích: Trong tàn cuộc, khi lực lượng hai bên đã giảm bớt, mục tiêu chiến lược và chiến thuật phổ biến hàng đầu là hỗ trợ đưa Tốt xuống hàng ngang cuối cùng để phong cấp (thường là thành Hậu), từ đó tạo ưu thế lực lượng áp đảo để giành chiến thắng.</div>",
+    "options": [
+      "Đẩy Tốt h",
+      "Đổi Vua",
+      "Dẫn Tốt phong cấp tạo ưu thế thắng",
+      "Giữ nguyên quân"
+    ],
+    "tags": [
+      "Giai Đoạn Tàn Cuộc",
+      "Nguyên tắc"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Trong <span class=\"keyword\">cờ tàn Tượng chống Tốt</span>, <span class=\"keyword\">ưu điểm lớn nhất của Tượng</span> là gì?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Kiểm soát xa trên đường chéo</span><div class=\"note\">💡 Giải thích: Trong cờ tàn Tượng chống Tốt, Tượng là quân tầm xa có thể khống chế từ khoảng cách rất xa dọc theo các đường chéo quan trọng dẫn tới ô phong cấp của Tốt đối phương.</div>",
+    "options": [
+      "Đi hình chữ L",
+      "Kiểm soát xa trên đường chéo",
+      "Đứng yên",
+      "Nhập thành"
+    ],
+    "tags": [
+      "Giai Đoạn Tàn Cuộc",
+      "Kỹ thuật"
+    ]
+  },
+  {
+    "question": "Trong <span class=\"keyword\">khai cuộc</span>, <span class=\"keyword\">quân Xe</span> thường được đưa ra vị trí nào?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Các cột quan trọng</span><div class=\"note\">💡 Giải thích: Trong khai cuộc sau khi nhập thành, Xe thường được đưa ra chiếm lĩnh các cột mở hoặc cột nửa mở quan trọng (thường là cột d, e, c) để chuẩn bị kiểm soát thế trận trung cuộc.</div>",
+    "options": [
+      "Góc bàn cờ",
+      "Các cột quan trọng",
+      "Ô màu trắng",
+      "Hàng ngang cuối"
+    ],
+    "tags": [
+      "Giai Đoạn Khai Cuộc",
+      "Bố trí lực lượng"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Trong <span class=\"keyword\">cờ tàn Hậu chống Tốt</span>, Hậu cần làm gì <span class=\"keyword\">trước tiên để thắng</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Chặn Tốt đối phương</span><div class=\"note\">💡 Giải thích: Trong cờ tàn Hậu chống Tốt (đặc biệt khi Tốt đã tiến sát ô phong cấp ở hàng 7/hàng 2), nhiệm vụ tiên quyết của Hậu là chặn đứng bước tiến của Tốt đối phương trước, sau đó dùng các nước chiếu ép Vua đối phương che mặt Tốt để đưa Vua mình vào tiếp cận.</div>",
+    "options": [
+      "Đổi Hậu",
+      "Đẩy Tốt biên",
+      "Đưa Vua vào góc",
+      "Chặn Tốt đối phương"
+    ],
+    "tags": [
+      "Giai Đoạn Tàn Cuộc",
+      "Kỹ thuật"
+    ]
+  },
+  {
+    "question": "Trong <span class=\"keyword\">khai cuộc</span>, vì sao không nên <span class=\"keyword\">đưa Mã lên quá sớm thiếu bảo vệ</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Dễ mất quân do bị tấn công</span><div class=\"note\">💡 Giải thích: Phát triển quân sớm mà không có sự liên kết, yểm trợ hoặc thiếu bảo vệ rất dễ trở thành mục tiêu cho đối phương tấn công đuổi bắt, làm mất nhịp phát triển quân hoặc thậm chí bị bẫy mất quân.</div>",
+    "options": [
+      "Mã đi chậm",
+      "Không nhập thành được",
+      "Không kiểm soát trung tâm",
+      "Dễ mất quân do bị tấn công"
+    ],
+    "tags": [
+      "Giai Đoạn Khai Cuộc",
+      "Sai lầm nhận thức"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Một trong hai nhân tố</span> tạo nên <span class=\"keyword\">đòn bắt đôi</span> là gì?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Quân không được bảo vệ chắc chắn</span><div class=\"note\">💡 Giải thích: Hai nhân tố hình thành đòn bắt đôi gồm: (1) Một quân di chuyển tấn công đồng thời hai hay nhiều mục tiêu, và (2) Mục tiêu bị tấn công là quân có giá trị lớn hơn hoặc là quân không được bảo vệ chắc chắn (hoặc bảo vệ không đầy đủ).</div>",
+    "options": [
+      "Đổi Hậu",
+      "Vua nhập thành",
+      "Quân không được bảo vệ chắc chắn",
+      "Đẩy Tốt biên"
+    ],
+    "tags": [
+      "Giai Đoạn Trung Cuộc",
+      "Đòn phối hợp"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Khai cuộc nửa thoáng</span> xảy ra khi nào?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Trắng đi 1.e4, đen không đáp lại e5</span><div class=\"note\">💡 Giải thích: Hệ thống khai cuộc phân thành: Khai cuộc thoáng (1.e4 e5), Khai cuộc nửa thoáng (1.e4 nhưng Đen không đáp lại 1...e5 mà đi c5, e6, c6, d6...), và Khai cuộc kín (Trắng không đi 1.e4, ví dụ 1.d4, 1.c4, 1.Nf3).</div>",
+    "options": [
+      "Hai bên nhập thành sớm",
+      "Trắng đi 1.d4",
+      "Trắng đi 1.e4, đen không đáp lại e5",
+      "Không có Tốt trung tâm"
+    ],
+    "tags": [
+      "Giai Đoạn Khai Cuộc",
+      "Phân loại"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Trong <span class=\"keyword\">cờ tàn Xe chống Tốt</span>, <span class=\"keyword\">nhân tố quyết định</span> thường là gì?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Vua hỗ trợ Xe kịp thời</span><div class=\"note\">💡 Giải thích: Trong cờ tàn Xe chống Tốt, một mình Xe chỉ có thể kìm hãm bước tiến của Tốt từ xa; để tiêu diệt Tốt và chuyển hóa thành thắng lợi thì sự hỗ trợ kịp thời của Vua là nhân tố quyết định sống còn.</div>",
+    "options": [
+      "Vua hỗ trợ Xe kịp thời",
+      "Đẩy Tốt biên",
+      "Số nước khai cuộc",
+      "Đổi Hậu"
+    ],
+    "tags": [
+      "Giai Đoạn Tàn Cuộc",
+      "Kỹ thuật"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Cột mở</span> là cột như thế nào?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Không có Tốt đứng</span><div class=\"note\">💡 Giải thích: Cột mở (Open file) là cột hoàn toàn không có bất kỳ quân Tốt nào của cả hai bên đứng trên đó, là tuyến đường huyết mạch lý tưởng để các quân hạng nặng (Xe, Hậu) chiếm lĩnh và xâm nhập vào trận địa đối phương.</div>",
+    "options": [
+      "Có Hậu đứng",
+      "Không có Tốt đứng",
+      "Có hai Tốt",
+      "Có Xe đứng"
+    ],
+    "tags": [
+      "Giai Đoạn Trung Cuộc",
+      "Cấu trúc thế trận"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Tốt được xem là gì</span> trong <span class=\"keyword\">thế trận cờ vua</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Linh hồn của ván cờ</span><div class=\"note\">💡 Giải thích: Đại sư François-André Danican Philidor đã đưa ra câu danh ngôn kinh điển: \"Tốt là linh hồn của ván cờ\" (Pawns are the soul of chess), bởi cấu trúc Tốt định hình toàn bộ kế hoạch chiến lược và thế trận của ván cờ.</div>",
+    "options": [
+      "Quân yếu vô dụng",
+      "Quân mạnh nhất",
+      "Quân phòng thủ duy nhất",
+      "Linh hồn của ván cờ"
+    ],
+    "tags": [
+      "Giai Đoạn Trung Cuộc",
+      "Chiến lược"
+    ]
+  },
+  {
+    "question": "Trong các <span class=\"keyword\">Tốt phong tỏa lẫn nhau</span>, nên <span class=\"keyword\">tấn công Tốt đối phương</span> từ đâu?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Phía sau</span><div class=\"note\">💡 Giải thích: Khi các Tốt đã khóa đầu phong tỏa nhau ở chính diện, việc tấn công trực diện phía trước là bất khả thi; giải pháp chiến lược là đi vòng ra phía sau hoặc đánh vào gốc xích Tốt (nơi yếu nhất) để phá vỡ cấu trúc phòng thủ.</div>",
+    "options": [
+      "Phía trước",
+      "Trung tâm",
+      "Phía sau",
+      "Bên cạnh"
+    ],
+    "tags": [
+      "Giai Đoạn Tàn Cuộc",
+      "Kỹ thuật Tốt"
+    ]
+  },
+  {
+    "question": "<span class=\"keyword\">Chiếu hết bằng Xe</span> thường cần <span class=\"keyword\">dồn Vua đối phương vào đâu</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Góc hoặc cạnh bàn cờ</span><div class=\"note\">💡 Giải thích: Để thực hiện chiếu hết (Vua + Xe đấu Vua), bên tấn công bắt buộc phải dùng Vua phối hợp với Xe từng bước cắt đường và dồn Vua đối phương về mép bàn cờ (hàng biên, cột biên) hoặc góc bàn cờ để hạn chế tối đa các ô đào thoát.</div>",
+    "options": [
+      "Trung tâm",
+      "Góc hoặc cạnh bàn cờ",
+      "Ô f7",
+      "Hàng 4"
+    ],
+    "tags": [
+      "Giai Đoạn Tàn Cuộc",
+      "Chiếu bí cơ bản"
+    ]
+  },
+  {
+    "question": "Việc <span class=\"keyword\">kiểm soát khu trung tâm</span> giúp điều gì?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Tăng khả năng cơ động quân</span><div class=\"note\">💡 Giải thích: Chiếm giữ và kiểm soát khu trung tâm giúp các quân cờ mở rộng tối đa tầm khống chế, chuyển cánh tấn công dễ dàng và gia tăng vượt bậc khả năng cơ động, đồng thời bóp nghẹt không gian hoạt động của đối phương.</div>",
+    "options": [
+      "Hạn chế đường đi quân mình",
+      "Tăng khả năng cơ động quân",
+      "Giảm lực lượng",
+      "Mất lượt đi"
+    ],
+    "tags": [
+      "Giai Đoạn Khai Cuộc",
+      "Nguyên tắc"
+    ]
+  },
+  {
+    "question": "Trong trung cuộc, <span class=\"keyword\">mưu kế chiến thuật</span> chủ yếu <span class=\"keyword\">nhằm mục tiêu gì</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Giành ưu thế quyết định</span><div class=\"note\">💡 Giải thích: Các đòn phối hợp và mưu kế chiến thuật trong giai đoạn trung cuộc được tung ra nhằm tạo đột biến, đoạt quân, phá hủy cấu trúc phòng thủ đối phương hoặc chiếu hết Vua để giành ưu thế quyết định cục diện ván đấu.</div>",
+    "options": [
+      "Giành ưu thế quyết định",
+      "Đi hết thời gian",
+      "Đổi hết quân để hòa",
+      "Đưa quân về vị trí cũ"
+    ],
+    "tags": [
+      "Giai Đoạn Trung Cuộc",
+      "Mục tiêu"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Trong tàn cuộc, vì sao <span class=\"keyword\">Vua trở nên mạnh hơn</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Nguy cơ bị chiếu hết giảm</span><div class=\"note\">💡 Giải thích: Ở tàn cuộc, phần lớn các quân nặng và quân nhẹ có khả năng tấn công của đối thủ đã bị tiêu diệt hoặc đổi đi, mối nguy hiểm bị chiếu bí trực tiếp giảm xuống mức thấp nhất, cho phép Vua tự tin rời nơi ẩn nấp bước ra tham chiến như một quân tấn công tích cực.</div>",
+    "options": [
+      "Vua có thể nhảy qua quân khác",
+      "Vua được đi hai ô một lúc",
+      "Nguy cơ bị chiếu hết giảm",
+      "Vua có thể đi như Hậu"
+    ],
+    "tags": [
+      "Giai Đoạn Tàn Cuộc",
+      "Vai trò của Vua"
+    ]
+  },
+  {
+    "question": "Trong khai cuộc, <span class=\"keyword\">trung tâm được ví như</span> gì?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Pháo đài chỉ huy</span><div class=\"note\">💡 Giải thích: Trong lý luận cờ vua, khu trung tâm bàn cờ được xem như điểm cao chiến lược hay \"pháo đài chỉ huy\" của cả trận địa; ai làm chủ được trung tâm thì người đó nắm quyền điều phối và chi phối toàn bộ nhịp độ ván đấu.</div>",
+    "options": [
+      "Pháo đài chỉ huy",
+      "Nơi giam giữ",
+      "Vùng đất cấm",
+      "Bẫy nguy hiểm"
+    ],
+    "tags": [
+      "Giai Đoạn Khai Cuộc",
+      "Khái niệm"
+    ]
+  },
+  {
+    "question": "<span class=\"keyword\">Yếu tố thời gian</span> trong chiến thuật gồm <span class=\"keyword\">những loại nào</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Trực tiếp và gián tiếp</span><div class=\"note\">💡 Giải thích: Yếu tố thời gian (nhịp độ nước đi / tempo) trong chiến thuật cờ vua được chia thành hai dạng: thời gian trực tiếp (lợi nước đi ngay lập tức thông qua nước chiếu, bắt quân) và thời gian gián tiếp (tạo áp lực buộc đối phương phản ứng bị động qua nhiều bước).</div>",
+    "options": [
+      "Ngắn hạn và Dài hạn",
+      "Quá khứ và Hiện tại",
+      "Tốc độ và Chậm rãi",
+      "Trực tiếp và gián tiếp"
+    ],
+    "tags": [
+      "Giai Đoạn Trung Cuộc",
+      "Chiến thuật"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Nguyên tắc quan trọng</span> trong <span class=\"keyword\">tàn cuộc</span>:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Tích cực hóa Vua</span><div class=\"note\">💡 Giải thích: Trái ngược với khai cuộc và trung cuộc nơi Vua cần được bảo vệ an toàn sau bức tường Tốt, nguyên tắc vàng trong tàn cuộc là phải \"tích cực hóa Vua\" — đưa Vua vào trung tâm tham gia tranh đoạt ô cờ then chốt và hỗ trợ Tốt phong cấp.</div>",
+    "options": [
+      "Ẩn nấp Vua",
+      "Tích cực hóa Vua",
+      "Đổi hết Tốt",
+      "Giữ nguyên vị trí"
+    ],
+    "tags": [
+      "Giai Đoạn Tàn Cuộc",
+      "Nguyên tắc"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Quân Hậu ở trung tâm</span> <span class=\"keyword\">khống chế tối đa bao nhiêu ô</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">27 ô</span><div class=\"note\">💡 Giải thích: Khi đứng tại 1 trong 4 ô trung tâm của bàn cờ trống, quân Hậu khống chế tối đa 27 ô cờ (14 ô theo cột dọc và hàng ngang của Xe + 13 ô theo các đường chéo của Tượng), minh chứng cho sức mạnh tuyệt đối của việc kiểm soát trung tâm.</div>",
+    "options": [
+      "21 ô",
+      "14 ô",
+      "27 ô",
+      "8 ô"
+    ],
+    "tags": [
+      "Giai Đoạn Khai Cuộc",
+      "Giá trị quân cờ"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Trong <span class=\"keyword\">thế đối Vua</span>, bên nào <span class=\"keyword\">thường có lợi</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Bên chiếm được thế đối Vua</span><div class=\"note\">💡 Giải thích: Thế đối Vua (Opposition) là thế hai Vua đứng đối diện nhau cách nhau một ô lẻ. Bên \"chiếm được thế đối Vua\" (tức người vừa đi nước cờ tạo ra thế đối, đẩy lượt đi cho đối phương) thường nắm lợi thế quyết định vì đối phương buộc phải nhường đường hoặc nhường các ô cờ trọng yếu.</div>",
+    "options": [
+      "Bên không chiếm được",
+      "Bên ít quân hơn",
+      "Bên di chuyển trước",
+      "Bên chiếm được thế đối Vua"
+    ],
+    "tags": [
+      "Giai Đoạn Tàn Cuộc",
+      "Kỹ thuật Vua"
+    ]
   }
 ]
