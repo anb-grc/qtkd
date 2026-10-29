@@ -605,5 +605,318 @@
       "<span class=\"answer-keyword\">Chiến lược marketing</span>"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Chiến lược marketing</span> <div class=\"note\"><b>💡 Giải thích:</b> Thấu hiểu hành vi khách hàng là kim chỉ nam và nền tảng cốt lõi nhất để doanh nghiệp xây dựng toàn bộ Chiến lược Marketing (từ phân khúc, định vị đến phối thức 4P) nhằm tạo ra sự thỏa mãn tối đa cho khách hàng mục tiêu.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Chiến lược Sản phẩm",
+      "Chu kỳ sống sản phẩm"
+    ],
+    "question": "Trong <span class=\"keyword\">chu kỳ sống của sản phẩm</span>, giai đoạn nào có <span class=\"keyword\">doanh thu và lợi nhuận</span> là <span class=\"keyword\">cao nhất</span>?",
+    "options": [
+      "Giới thiệu",
+      "<span class=\"answer-keyword\">Trưởng thành</span>",
+      "Tăng trưởng",
+      "Suy thoái"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Trưởng thành</span> <div class=\"note\"><b>💡 Giải thích:</b> Trong chu kỳ sống của sản phẩm (PLC), giai đoạn Trưởng thành (chín muồi) là giai đoạn sản phẩm đạt mức độ thâm nhập thị trường tối đa, doanh thu đạt đỉnh cao nhất và lợi nhuận tích lũy đạt mức cao nhất trước khi bước vào giai đoạn suy thoái.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Chiến lược Sản phẩm",
+      "Cấp độ sản phẩm"
+    ],
+    "question": "Sắp xếp <span class=\"keyword\">các tầng của sản phẩm</span> theo <span class=\"keyword\">thứ tự từ thấp đến cao</span>.",
+    "options": [
+      "<span class=\"answer-keyword\">Sản phẩm cốt lõi – sản phẩm hiện thực – sản phẩm gia tăng – sản phẩm tiềm năng</span>",
+      "Sản phẩm cốt lõi – sản phẩm hiện thực – sản phẩm tiềm năng – sản phẩm gia tăng",
+      "Sản phẩm cốt lõi – sản phẩm gia tăng – sản phẩm tiềm năng – sản phẩm hiện thực",
+      "Sản phẩm cốt lõi – sản phẩm tiềm năng – sản phẩm hiện thực – sản phẩm gia tăng"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Sản phẩm cốt lõi – sản phẩm hiện thực – sản phẩm gia tăng – sản phẩm tiềm năng</span> <div class=\"note\"><b>💡 Giải thích:</b> Cấu trúc các cấp độ sản phẩm theo thứ tự phát triển từ trong ra ngoài (từ thấp đến cao): (1) Lợi ích cốt lõi ➔ (2) Sản phẩm cụ thể/hiện thực ➔ (3) Sản phẩm gia tăng/bổ sung ➔ (4) Sản phẩm tiềm năng.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Chiến lược Sản phẩm",
+      "Phát triển sản phẩm mới"
+    ],
+    "question": "<span class=\"keyword\">Quy trình phát triển sản phẩm mới</span> bắt đầu bằng việc",
+    "options": [
+      "Sàng lọc ý tưởng",
+      "<span class=\"answer-keyword\">Hình thành ý tưởng</span>",
+      "Phân tích kinh doanh",
+      "Thử nghiệm thị trường"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Hình thành ý tưởng</span> <div class=\"note\"><b>💡 Giải thích:</b> Quy trình phát triển sản phẩm mới gồm 7 bước, bắt đầu từ bước 1 là Hình thành (tìm kiếm) ý tưởng sản phẩm mới từ các nguồn nội bộ và bên ngoài, tiếp theo mới đến sàng lọc, thẩm định dự án, phân tích kinh doanh...</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Chiến lược Sản phẩm",
+      "Chu kỳ sống sản phẩm"
+    ],
+    "question": "<span class=\"keyword\">Mục tiêu chính</span> của hoạt động truyền thông trong <span class=\"keyword\">giai đoạn tăng trưởng</span> là",
+    "options": [
+      "<span class=\"answer-keyword\">Thuyết phục khách hàng</span>",
+      "Quảng bá sản phẩm",
+      "Cung cấp thông tin",
+      "Tăng lượng khách hàng"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Thuyết phục khách hàng</span> <div class=\"note\"><b>💡 Giải thích:</b> Trong giai đoạn tăng trưởng, khách hàng đã biết đến sản phẩm và nhiều đối thủ cạnh tranh bắt đầu nhảy vào thị trường. Do đó, mục tiêu truyền thông chuyển trọng tâm từ thông tin sang Thuyết phục khách hàng ưa chuộng và lựa chọn thương hiệu của doanh nghiệp.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Hành vi Khách hàng B2C",
+      "Chấp nhận sản phẩm mới"
+    ],
+    "question": "<span class=\"keyword\">Trình tự hợp lý</span> trong <span class=\"keyword\">quá trình chấp nhận sản phẩm mới</span> của khách hàng là",
+    "options": [
+      "<span class=\"answer-keyword\">Biết đến – Quan tâm – Đánh giá – Dùng thử – Chấp nhận</span>",
+      "Biết đến - Đánh giá – Quan tâm – Dùng thử – Chấp nhận",
+      "Biết đến – Quan tâm – Dùng thử – Đánh giá – Chấp nhận",
+      "Biết đến – Quan tâm – Chấp nhận - Dùng thử – Đánh giá"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Biết đến – Quan tâm – Đánh giá – Dùng thử – Chấp nhận</span> <div class=\"note\"><b>💡 Giải thích:</b> Quá trình thông qua (chấp nhận) một sản phẩm mới của người tiêu dùng trải qua 5 giai đoạn tâm lý tuần tự: Nhận biết (Biết đến) ➔ Quan tâm (Tìm kiếm thông tin) ➔ Đánh giá (Cân nhắc giá trị) ➔ Dùng thử ➔ Chấp nhận (Mua chính thức).</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Chiến lược Sản phẩm",
+      "Chu kỳ sống sản phẩm"
+    ],
+    "question": "<span class=\"keyword\">Mục tiêu chính</span> của hoạt động truyền thông trong <span class=\"keyword\">giai đoạn giới thiệu</span> là",
+    "options": [
+      "Quảng bá sản phẩm",
+      "Thuyết phục khách hàng",
+      "Tăng lượng khách hàng",
+      "<span class=\"answer-keyword\">Cung cấp thông tin</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Cung cấp thông tin</span> <div class=\"note\"><b>💡 Giải thích:</b> Khi sản phẩm mới được tung ra thị trường ở giai đoạn giới thiệu, khách hàng mục tiêu chưa hề biết về sản phẩm. Do đó, mục tiêu truyền thông số một là Cung cấp thông tin để tạo sự nhận biết và hướng dẫn khách hàng về tính năng, lợi ích của sản phẩm.</div>"
+  },
+  {
+    "tags": [
+      "Thực tiễn",
+      "Phân khúc Thị trường",
+      "Định vị sản phẩm"
+    ],
+    "question": "Các sản phẩm <span class=\"keyword\">dầu gội đầu dành cho nam</span> đều có khách hàng <span class=\"keyword\">ưa thích riêng</span> của nó, đây là kết quả của quá trình",
+    "options": [
+      "Cải tiến",
+      "Phân phối",
+      "<span class=\"answer-keyword\">Định vị</span>",
+      "Phân khúc"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Định vị</span> <div class=\"note\"><b>💡 Giải thích:</b> Mỗi thương hiệu dầu gội nam (như X-Men, Romano, Clear Men) tạo dựng được một hình ảnh, cá tính và giá trị riêng biệt khắc sâu vào tâm trí khách hàng, tạo nên lượng khách hàng ưa thích trung thành riêng. Đây là thành quả của chiến lược Định vị sản phẩm (Positioning).</div>"
+  },
+  {
+    "tags": [
+      "Kiến thức",
+      "Chiến lược Sản phẩm",
+      "Phát triển sản phẩm mới"
+    ],
+    "question": "Hầu hết các <span class=\"keyword\">sản phẩm mới</span> trên thị trường hiện nay thuộc loại",
+    "options": [
+      "Công nghiệp",
+      "<span class=\"answer-keyword\">Sản phẩm cải tiến</span>",
+      "Dân dụng",
+      "Mới hoàn toàn"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Sản phẩm cải tiến</span> <div class=\"note\"><b>💡 Giải thích:</b> Theo thống kê marketing, các sản phẩm mới hoàn toàn về mặt nguyên tắc chỉ chiếm dưới 10% do chi phí R&D và rủi ro thất bại quá lớn. Đa số (>80-90%) sản phẩm mới trên thị trường là các sản phẩm cải tiến từ sản phẩm hiện có (nâng cấp mẫu mã, bổ sung tính năng, hương vị, bao bì).</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Chiến lược Giá",
+      "Phương pháp định giá"
+    ],
+    "question": "Một số công ty chạy đua về giá cả, họ <span class=\"keyword\">định giá gần giống như nhau</span> cho các sản phẩm cùng loại, đây là <span class=\"keyword\">phương pháp định giá</span>",
+    "options": [
+      "Dựa vào chi phí",
+      "Dựa vào đấu thầu",
+      "Dựa trên người mua",
+      "<span class=\"answer-keyword\">Theo thời giá</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Theo thời giá</span> <div class=\"note\"><b>💡 Giải thích:</b> Định giá theo thời giá (Going-rate pricing / Định giá theo giá cạnh tranh hiện hành) là phương pháp doanh nghiệp căn cứ chủ yếu vào mức giá của đối thủ cạnh tranh trên thị trường để định mức giá tương đương hoặc bám sát theo mức giá đó.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Chiến lược Giá",
+      "Phương pháp định giá"
+    ],
+    "question": "<span class=\"keyword\">Định giá</span> bằng cách lấy <span class=\"keyword\">giá thành sản xuất cộng cho một khoản lợi nhuận mục tiêu</span> trên mỗi sản phẩm, đây là phương pháp định giá",
+    "options": [
+      "Dựa vào mùa vụ",
+      "Dựa trên người mua",
+      "Dựa vào đấu thầu",
+      "<span class=\"answer-keyword\">Dựa vào chi phí</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Dựa vào chi phí</span> <div class=\"note\"><b>💡 Giải thích:</b> Phương pháp định giá dựa vào chi phí (Cost-based pricing) lấy chi phí sản xuất làm sàn giá cơ sở rồi cộng thêm mức lợi nhuận biên mong muốn (markup) hoặc lợi nhuận mục tiêu để xác định giá bán cuối cùng.</div>"
+  },
+  {
+    "tags": [
+      "Kiến thức",
+      "Chiến lược Giá",
+      "Nhân tố ảnh hưởng giá"
+    ],
+    "question": "Những <span class=\"keyword\">yếu tố bên trong</span> nào ảnh hưởng đến việc <span class=\"keyword\">định giá</span>?",
+    "options": [
+      "Bản chất thị trường",
+      "Đối thủ cạnh tranh",
+      "Nhu cầu, thị hiếu của khách hàng",
+      "<span class=\"answer-keyword\">Chi phí sản xuất sản phẩm</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Chi phí sản xuất sản phẩm</span> <div class=\"note\"><b>💡 Giải thích:</b> Trong các nhân tố ảnh hưởng đến định giá: Chi phí sản xuất, mục tiêu marketing, chiến lược 4P là nhân tố bên trong nội bộ doanh nghiệp; trong khi thị trường, đối thủ và nhu cầu khách hàng là các nhân tố thuộc môi trường bên ngoài.</div>"
+  },
+  {
+    "tags": [
+      "Kiến thức",
+      "Chiến lược Giá",
+      "Nhân tố ảnh hưởng giá"
+    ],
+    "question": "Yếu tố nào sau đây <span class=\"keyword\">KHÔNG ảnh hưởng</span> đến việc <span class=\"keyword\">định giá</span>?",
+    "options": [
+      "Bản chất của thị trường và lượng cầu",
+      "Chi phí hoạt động marketing",
+      "Thương hiệu nổi tiếng của đối thủ",
+      "<span class=\"answer-keyword\">Tỉ lệ phế phẩm trong quá trình sản xuất</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Tỉ lệ phế phẩm trong quá trình sản xuất</span> <div class=\"note\"><b>💡 Giải thích:</b> Tỉ lệ phế phẩm là chỉ tiêu kỹ thuật tác nghiệp trong xưởng sản xuất, không phải là biến số marketing hay yếu tố chiến lược cấu thành quyết định định giá chung của doanh nghiệp.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Chiến lược Giá",
+      "Chiến lược định giá"
+    ],
+    "question": "<span class=\"keyword\">Chiến lược giá “hớt váng”</span> là",
+    "options": [
+      "<span class=\"answer-keyword\">doanh nghiệp đặt giá bán cao áp dụng đối với sản phẩm cao cấp</span>",
+      "doanh nghiệp đặt giá bán cao áp dụng đối với sản phẩm thông thường (bình dân)",
+      "doanh nghiệp đặt giá bán thấp áp dụng đối với sản phẩm cao cấp",
+      "doanh nghiệp đặt giá bán thấp áp dụng đối với sản phẩm thông thường (bình dân)"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">doanh nghiệp đặt giá bán cao áp dụng đối với sản phẩm cao cấp</span> <div class=\"note\"><b>💡 Giải thích:</b> Chiến lược giá hớt váng (Market-skimming pricing) là việc định giá ban đầu ở mức rất cao nhằm hớt phần ngọn thị trường từ những khách hàng sẵn sàng chi trả cho sản phẩm mới cao cấp có tính năng độc đáo, sau đó mới hạ dần giá để mở rộng phân khúc.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Chiến lược Giá",
+      "Chiến lược định giá"
+    ],
+    "question": "<span class=\"keyword\">Chiến lược giá tuyệt hảo</span> là",
+    "options": [
+      "Giá cả cao – Chất lượng thấp",
+      "Giá cả thấp – Chất lượng cao",
+      "<span class=\"answer-keyword\">Giá cả cao – Chất lượng cao</span>",
+      "Giá cả thấp – Chất lượng thấp"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Giá cả cao – Chất lượng cao</span> <div class=\"note\"><b>💡 Giải thích:</b> Trong ma trận 9 chiến lược phối hợp Giá - Chất lượng của Philip Kotler, Chiến lược giá tuyệt hảo (Premium pricing strategy) là sự kết hợp giữa mức giá cao tương xứng với chất lượng vượt trội cao nhất của sản phẩm.</div>"
+  },
+  {
+    "tags": [
+      "Kiến thức",
+      "Chiến lược Giá",
+      "Nhân tố ảnh hưởng giá"
+    ],
+    "question": "Yếu tố nào sau đây <span class=\"keyword\">ảnh hưởng</span> đến việc <span class=\"keyword\">định giá</span>?",
+    "options": [
+      "Tình hình tài chính khó khăn",
+      "Máy móc thiết bị xuống cấp",
+      "Lao động đang thiếu hụt",
+      "<span class=\"answer-keyword\">Giá của đối thủ cạnh tranh</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Giá của đối thủ cạnh tranh</span> <div class=\"note\"><b>💡 Giải thích:</b> Giá và chi phí của đối thủ cạnh tranh là một trong những nhân tố ngoại vi then chốt ảnh hưởng trực tiếp đến việc định mức giá bán cạnh tranh của doanh nghiệp trên thị trường.</div>"
+  },
+  {
+    "tags": [
+      "Kiến thức",
+      "Chiến lược Giá",
+      "Phương pháp định giá"
+    ],
+    "question": "Xác định <span class=\"keyword\">% tăng giá</span> nhằm bồi hoàn chi phí và đạt lợi nhuận mong muốn là thuộc <span class=\"keyword\">phương pháp định giá nào</span>?",
+    "options": [
+      "Theo giá cạnh tranh hiện hành",
+      "Theo giá trị cảm nhận của khách hàng",
+      "Định giá đấu thầu kín",
+      "<span class=\"answer-keyword\">Dựa vào chi phí</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Dựa vào chi phí</span> <div class=\"note\"><b>💡 Giải thích:</b> Đây là phương pháp định giá cộng lãi vào chi phí (Cost-plus pricing / Markup pricing), trong đó doanh nghiệp cộng một tỷ lệ phần trăm chuẩn vào chi phí đơn vị sản phẩm để bù đắp chi phí bán hàng và thu về lợi nhuận mục tiêu.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Chiến lược Giá",
+      "Chi phí sản xuất"
+    ],
+    "question": "Phát biểu nào sau đây <span class=\"keyword\">KHÔNG đúng</span>?",
+    "options": [
+      "Chi phí cố định phân bổ cho một đơn vị sản phẩm sẽ giảm khi sản lượng tăng lên",
+      "Chi phí biến đổi cho 1 sản phẩm là chi phí biến đổi theo sản lượng",
+      "<span class=\"answer-keyword\">Sản lượng tăng không làm thay đổi tổng chi phí biến đổi</span>",
+      "Giá thành một đơn vị sản phẩm thường giảm khi sản lượng tăng lên"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Sản lượng tăng không làm thay đổi tổng chi phí biến đổi</span> <div class=\"note\"><b>💡 Giải thích:</b> Phát biểu này SAI vì tổng chi phí biến đổi (Total Variable Cost = vc * Q) luôn biến thiên đồng biến tỉ lệ thuận theo sản lượng sản xuất. Chỉ có tổng chi phí cố định (TFC) mới không đổi khi sản lượng tăng.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Chiến lược Giá",
+      "Chiến lược định giá"
+    ],
+    "question": "<span class=\"keyword\">Chiến lược giá cắt cổ</span> là",
+    "options": [
+      "Giá cả thấp – Chất lượng thấp",
+      "Giá cả cao – Chất lượng cao",
+      "<span class=\"answer-keyword\">Giá cả cao – Chất lượng thấp</span>",
+      "Giá cả thấp – Chất lượng cao"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Giá cả cao – Chất lượng thấp</span> <div class=\"note\"><b>💡 Giải thích:</b> Trong ma trận 9 chiến lược Giá - Chất lượng, Chiến lược giá cắt cổ (Rip-off pricing) là trường hợp doanh nghiệp đặt mức giá bán rất cao trong khi chất lượng sản phẩm thực tế lại rất thấp nhằm trục lợi ngắn hạn từ người tiêu dùng.</div>"
+  },
+  {
+    "tags": [
+      "Thực tiễn",
+      "Chiến lược Giá",
+      "Chiến lược định giá"
+    ],
+    "question": "Sản phẩm có <span class=\"keyword\">những khác biệt</span> được khách hàng chấp nhận thì doanh nghiệp nên",
+    "options": [
+      "Định giá thấp hơn sản phẩm cạnh tranh",
+      "Định giá theo chi phí sản phẩm",
+      "Định giá theo thời vụ",
+      "<span class=\"answer-keyword\">Định giá cao hơn sản phẩm cạnh tranh</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Định giá cao hơn sản phẩm cạnh tranh</span> <div class=\"note\"><b>💡 Giải thích:</b> Khi sản phẩm tạo được sự khác biệt hóa vượt trội và mang lại giá trị cảm nhận cao được khách hàng đón nhận, doanh nghiệp nên định giá cao hơn đối thủ cạnh tranh (Premium pricing) để khai thác tối đa giá trị thặng dư và nâng tầm định vị thương hiệu.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Chiến lược Giá",
+      "Mục tiêu định giá"
+    ],
+    "question": "Mục tiêu định giá <span class=\"keyword\">tối đa hóa lợi nhuận</span> tương ứng với kiểu chiến lược giá",
+    "options": [
+      "Trọn gói",
+      "<span class=\"answer-keyword\">Hớt váng</span>",
+      "Thẩm thấu",
+      "Trung hòa"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Hớt váng</span> <div class=\"note\"><b>💡 Giải thích:</b> Chiến lược định giá hớt váng (Skimming pricing) tương ứng với mục tiêu tối đa hóa lợi nhuận trong ngắn hạn bằng cách bán với mức giá cao nhất có thể cho phân khúc thị trường sẵn sàng chi trả cao trước khi cạnh tranh gia tăng.</div>"
   }
 ]
