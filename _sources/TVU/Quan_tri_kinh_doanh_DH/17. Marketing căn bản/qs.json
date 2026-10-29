@@ -918,5 +918,310 @@
       "Trung hòa"
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Hớt váng</span> <div class=\"note\"><b>💡 Giải thích:</b> Chiến lược định giá hớt váng (Skimming pricing) tương ứng với mục tiêu tối đa hóa lợi nhuận trong ngắn hạn bằng cách bán với mức giá cao nhất có thể cho phân khúc thị trường sẵn sàng chi trả cao trước khi cạnh tranh gia tăng.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Chiến lược Phân phối",
+      "Trung gian phân phối"
+    ],
+    "question": "Định nghĩa nào sau đây đúng với một <span class=\"keyword\">nhà bán buôn</span> trong <span class=\"keyword\">kênh phân phối</span>?",
+    "options": [
+      "Là trung gian có quyền hành động hợp pháp thay cho nhà sản xuất",
+      "Là trung gian bán sản phẩm trực tiếp cho người tiêu dùng cuối cùng",
+      "<span class=\"answer-keyword\">Là trung gian mua sản phẩm của nhà sản xuất và bán cho các trung gian khác</span>",
+      "Là trung gian thực hiện chức năng phân phối trên thị trường công nghiệp."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Là trung gian mua sản phẩm của nhà sản xuất và bán cho các trung gian khác</span> <div class=\"note\"><b>💡 Giải thích:</b> Nhà bán buôn (Wholesaler) là trung gian thương mại mua hàng hóa khối lượng lớn từ nhà sản xuất và bán lại cho các nhà bán lẻ hoặc các trung gian khác, không bán trực tiếp cho người tiêu dùng cuối cùng.</div>"
+  },
+  {
+    "tags": [
+      "Kiến thức",
+      "Chiến lược Phân phối",
+      "Căn cứ chọn kênh"
+    ],
+    "question": "Để <span class=\"keyword\">lựa chọn kênh phân phối</span>, doanh nghiệp <span class=\"keyword\">KHÔNG cần dựa vào</span> yếu tố nào sau đây?",
+    "options": [
+      "Thị trường và môi trường hoạt động",
+      "Hệ thống các trung gian phân phối",
+      "Bản thân doanh nghiệp và đặc tính của sản phẩm",
+      "<span class=\"answer-keyword\">Giá cả của sản phẩm đối thủ cạnh tranh</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Giá cả của sản phẩm đối thủ cạnh tranh</span> <div class=\"note\"><b>💡 Giải thích:</b> Các căn cứ lựa chọn kênh phân phối theo giáo trình TVU bao gồm: đặc điểm thị trường/khách hàng, sản phẩm, trung gian, doanh nghiệp và môi trường kinh doanh. Giá cả của đối thủ cạnh tranh là yếu tố định giá, không phải căn cứ thiết kế cấu trúc kênh.</div>"
+  },
+  {
+    "tags": [
+      "Kiến thức",
+      "Chiến lược Phân phối",
+      "Quản trị kênh"
+    ],
+    "question": "Yếu tố nào là <span class=\"keyword\">quan trọng nhất</span> khi lựa chọn thành viên kênh phân phối các <span class=\"keyword\">sản phẩm làm đẹp</span>?",
+    "options": [
+      "<span class=\"answer-keyword\">Có kỹ năng bán hàng, cung cấp dịch vụ khách hàng</span>",
+      "Có đủ vốn để thực hiện các đầu tư ban đầu",
+      "Có kinh nghiệm trong ngành hàng đó",
+      "Có địa điểm và mặt bằng phù hợp"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Có kỹ năng bán hàng, cung cấp dịch vụ khách hàng</span> <div class=\"note\"><b>💡 Giải thích:</b> Sản phẩm làm đẹp (mỹ phẩm, chăm sóc sắc đẹp) đòi hỏi sự tư vấn chuyên sâu, hướng dẫn sử dụng và trải nghiệm dịch vụ khách hàng trực tiếp, do đó kỹ năng bán hàng và chăm sóc khách hàng là tiêu chí quan trọng hàng đầu khi chọn trung gian.</div>"
+  },
+  {
+    "tags": [
+      "Kiến thức",
+      "Chiến lược Phân phối",
+      "Bán lẻ"
+    ],
+    "question": "Quyết định nào sau đây <span class=\"keyword\">KHÔNG phải là quyết định cơ bản</span> về marketing của các <span class=\"keyword\">doanh nghiệp bán lẻ</span>?",
+    "options": [
+      "Về xúc tiến hỗn hợp",
+      "Về địa điểm cửa hàng",
+      "Về danh mục sản phẩm",
+      "<span class=\"answer-keyword\">Về hệ thống phân phối</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Về hệ thống phân phối</span> <div class=\"note\"><b>💡 Giải thích:</b> Doanh nghiệp bán lẻ là mắt xích cuối cùng tiếp xúc trực tiếp người tiêu dùng. Marketing của nhà bán lẻ gồm: thị trường mục tiêu, danh mục sản phẩm/dịch vụ, giá cả, chiêu thị và địa điểm cửa hàng; họ không xây dựng hệ thống kênh phân phối trung gian như nhà sản xuất.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Chiến lược Phân phối",
+      "Hệ thống kênh VMS"
+    ],
+    "question": "Câu nào sau đây thể hiện đúng nhất sự <span class=\"keyword\">khác nhau</span> giữa <span class=\"keyword\">kênh phân phối truyền thống</span> và <span class=\"keyword\">kênh phân phối dọc</span>?",
+    "options": [
+      "Kênh truyền thống được tổ chức theo kiểu dọc được tổ chức theo kiểu mới",
+      "<span class=\"answer-keyword\">Các thành viên trong kênh truyền thống hoạt động vì lợi ích riêng, còn kênh dọc thì các thành viên hoạt động thống nhất nhau</span>",
+      "Kênh truyền thống không có hợp đồng ràng buộc, còn kênh dọc thì có hợp đồng",
+      "Kênh truyền thống chỉ có nhà sản xuất và người tiêu dùng"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Các thành viên trong kênh truyền thống hoạt động vì lợi ích riêng, còn kênh dọc thì các thành viên hoạt động thống nhất nhau</span> <div class=\"note\"><b>💡 Giải thích:</b> Trong kênh truyền thống, các thành viên hoạt động rời rạc vì lợi ích tối đa riêng rẽ. Trong hệ thống liên kết dọc (VMS), nhà sản xuất, bán buôn và bán lẻ hoạt động như một thể thống nhất có sự quản trị hoặc ràng buộc chung.</div>"
+  },
+  {
+    "tags": [
+      "Kiến thức",
+      "Chiến lược Phân phối",
+      "Phương thức phân phối"
+    ],
+    "question": "Để <span class=\"keyword\">nâng cao hình ảnh sản phẩm</span> và mang lại cho doanh nghiệp <span class=\"keyword\">sự chủ động</span> trong cung ứng, doanh nghiệp sẽ chọn hình thức",
+    "options": [
+      "Chọn lọc",
+      "Hỗn hợp",
+      "<span class=\"answer-keyword\">Độc quyền</span>",
+      "Rộng rãi"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Độc quyền</span> <div class=\"note\"><b>💡 Giải thích:</b> Phân phối độc quyền (Exclusive distribution) chỉ cho phép một trung gian duy nhất tại một khu vực bán sản phẩm, giúp duy trì hình ảnh uy tín cao cấp và kiểm soát chặt chẽ nhất giá cả, dịch vụ và lượng cung ứng.</div>"
+  },
+  {
+    "tags": [
+      "Kiến thức",
+      "Chiến lược Phân phối",
+      "Phương thức phân phối"
+    ],
+    "question": "Các <span class=\"keyword\">hãng xe máy</span> đang áp dụng hình thức <span class=\"keyword\">phân phối</span> nào ở Việt Nam?",
+    "options": [
+      "<span class=\"answer-keyword\">Vừa độc quyền vừa chọn lọc</span>",
+      "Chọn lọc một số cửa hàng",
+      "Rộng rãi trên khắp cả nước",
+      "Độc quyền tại một số cửa hàng"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Vừa độc quyền vừa chọn lọc</span> <div class=\"note\"><b>💡 Giải thích:</b> Các hãng xe máy lớn (Honda, Yamaha) vừa áp dụng tiêu chuẩn chọn lọc đại lý đáp ứng chuẩn 3S/4S, vừa trao quyền phân phối độc quyền theo khu vực địa lý cho từng HEAD/Town để tối ưu mạng lưới.</div>"
+  },
+  {
+    "tags": [
+      "Kiến thức",
+      "Chiến lược Phân phối",
+      "Trung gian phân phối"
+    ],
+    "question": "Các nhà sản xuất sử dụng các <span class=\"keyword\">trung gian phân phối</span> vì những lý do sau đây, <span class=\"keyword\">NGOẠI TRỪ</span>",
+    "options": [
+      "<span class=\"answer-keyword\">Các nhà sản xuất không muốn tham gia vào việc phân phối</span>",
+      "Các nhà sản xuất thường đặt nhà máy ở nơi cách xa khách hàng",
+      "Nhà sản xuất không đủ tài chính để tổ chức phân phối hàng hóa",
+      "Các nhà sản xuất nhận thấy rõ hiệu quả của chuyên môn hóa"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Các nhà sản xuất không muốn tham gia vào việc phân phối</span> <div class=\"note\"><b>💡 Giải thích:</b> Việc sử dụng trung gian xuất phát từ lợi ích chuyên môn hóa, hạn chế về nguồn vốn và khoảng cách địa lý, chứ không phải do nhà sản xuất có thái độ chủ quan \"không muốn tham gia\".</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Chiến lược Phân phối",
+      "Cấu trúc kênh"
+    ],
+    "question": "Công ty <span class=\"keyword\">Honda</span> đưa sản phẩm của mình cho các <span class=\"keyword\">cửa hàng, đại lý</span> bán cho khách hàng. Đây là kênh",
+    "options": [
+      "Trực tiếp",
+      "Ba cấp",
+      "<span class=\"answer-keyword\">Một cấp</span>",
+      "Hai cấp"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Một cấp</span> <div class=\"note\"><b>💡 Giải thích:</b> Cấu trúc luân chuyển hàng: Nhà sản xuất (Honda) -> Trung gian bán lẻ (Cửa hàng/Đại lý HEAD) -> Người tiêu dùng. Kênh có duy nhất 1 tầng trung gian nên là kênh một cấp.</div>"
+  },
+  {
+    "tags": [
+      "Kiến thức",
+      "Chiến lược Phân phối",
+      "Phương thức phân phối"
+    ],
+    "question": "Các công ty lớn trong ngành hàng tiêu dùng (ví dụ <span class=\"keyword\">P&amp;G, Unilever</span>) thường <span class=\"keyword\">có mặt sản phẩm tại</span>",
+    "options": [
+      "<span class=\"answer-keyword\">Các siêu thị trên toàn quốc</span>",
+      "Các đại lý của công ty",
+      "Các chợ nhỏ miền quê",
+      "Các nhà phân phối trung gian"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Các siêu thị trên toàn quốc</span> <div class=\"note\"><b>💡 Giải thích:</b> Theo chuẩn ngân hàng câu hỏi TVU, các tập đoàn hàng tiêu dùng nhanh (FMCG) quy mô lớn luôn bao phủ mạnh mẽ hệ thống kênh hiện đại là các chuỗi siêu thị trên toàn quốc để tiếp cận đại chúng.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Truyền thông Xúc tiến",
+      "Mô hình truyền thông"
+    ],
+    "question": "Quá trình mà các ý tưởng được <span class=\"keyword\">chuyển thành những hình thức có tính biểu tượng</span> trong mô hình truyền thông được gọi là",
+    "options": [
+      "Nhiễu",
+      "<span class=\"answer-keyword\">Mã hóa</span>",
+      "Ghi nhớ",
+      "Giải mã"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Mã hóa</span> <div class=\"note\"><b>💡 Giải thích:</b> Mã hóa (Encoding) là quá trình người gửi chuyển các ý tưởng trừu tượng thành thông điệp chứa các biểu tượng, hình ảnh, từ ngữ hoặc âm thanh để truyền đi.</div>"
+  },
+  {
+    "tags": [
+      "Kiến thức",
+      "Truyền thông Xúc tiến",
+      "Công cụ xúc tiến"
+    ],
+    "question": "Trong số các hoạt động xúc tiến hỗn hợp, hoạt động có tác dụng <span class=\"keyword\">thiết lập các mối quan hệ phong phú, đa dạng</span> với khách hàng?",
+    "options": [
+      "Quảng cáo",
+      "Bán hàng cá nhân",
+      "Xúc tiến bán hàng",
+      "<span class=\"answer-keyword\">Quan hệ công chúng</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Quan hệ công chúng</span> <div class=\"note\"><b>💡 Giải thích:</b> Theo chuẩn tài liệu TVU, Quan hệ công chúng (PR) là hoạt động hướng tới xây dựng thiện cảm, kết nối các mối quan hệ phong phú và đa dạng với nhiều nhóm công chúng và khách hàng khác nhau trong xã hội.</div>"
+  },
+  {
+    "tags": [
+      "Kiến thức",
+      "Truyền thông Xúc tiến",
+      "Phương tiện quảng cáo"
+    ],
+    "question": "Phương tiện nào có ưu điểm là có <span class=\"keyword\">cả âm thanh, màu sắc, ngôn ngữ</span> và đối tượng khán giả rộng nhưng <span class=\"keyword\">chi phí thường cao</span>?",
+    "options": [
+      "Tạp chí",
+      "<span class=\"answer-keyword\">Truyền hình</span>",
+      "Báo in",
+      "Biển quảng cáo"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Truyền hình</span> <div class=\"note\"><b>💡 Giải thích:</b> Bảng so sánh Slide 6 trang 14: Quảng cáo truyền hình kết hợp hình ảnh, âm thanh, màu sắc, chuyển động, độ phủ rộng nhưng nhược điểm là chi phí sản xuất và phát sóng rất cao.</div>"
+  },
+  {
+    "tags": [
+      "Kiến thức",
+      "Truyền thông Xúc tiến",
+      "Phương tiện quảng cáo"
+    ],
+    "question": "Phương tiện quảng cáo nào cho phép <span class=\"keyword\">tiếp cận toàn cầu, tuổi thọ cao, chi phí thấp</span>, kết hợp cả hình ảnh, âm thanh, ngôn ngữ?",
+    "options": [
+      "Thư quảng cáo",
+      "Báo chí",
+      "Truyền hình",
+      "<span class=\"answer-keyword\">Internet</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Internet</span> <div class=\"note\"><b>💡 Giải thích:</b> Bảng so sánh Slide 6 trang 15: Quảng cáo Internet có ưu điểm tiếp cận toàn cầu, lưu trữ lâu dài (tuổi thọ cao), chi phí linh hoạt thấp và tích hợp đa phương tiện phong phú.</div>"
+  },
+  {
+    "weight": "high",
+    "tags": [
+      "Kiến thức",
+      "Truyền thông Xúc tiến",
+      "Ngân sách truyền thông"
+    ],
+    "question": "Xác định ngân sách truyền thông có <span class=\"keyword\">căn cứ và có cơ sở khoa học nhất</span> là phương pháp",
+    "options": [
+      "Chi theo khả năng",
+      "Theo tỷ lệ doanh số bán",
+      "<span class=\"answer-keyword\">Căn cứ vào mục tiêu và nhiệm vụ</span>",
+      "Cân bằng cạnh tranh"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Căn cứ vào mục tiêu và nhiệm vụ</span> <div class=\"note\"><b>💡 Giải thích:</b> Bảng phương pháp Slide 6 trang 25: Phương pháp căn cứ vào mục tiêu và nhiệm vụ (Objective-and-task) xây dựng ngân sách dựa trên chi phí giải quyết từng nhiệm vụ cụ thể, là phương pháp khoa học và có căn cứ nhất.</div>"
+  },
+  {
+    "tags": [
+      "Kiến thức",
+      "Truyền thông Xúc tiến",
+      "Ngân sách truyền thông"
+    ],
+    "question": "Trong các phương pháp ngân sách truyền thông, phương pháp nào <span class=\"keyword\">dễ tính toán, dễ chấp nhận</span> nhưng <span class=\"keyword\">không có căn cứ vững chắc</span>?",
+    "options": [
+      "Chi theo khả năng",
+      "<span class=\"answer-keyword\">Theo tỷ lệ doanh số bán</span>",
+      "Căn cứ vào mục tiêu và nhiệm vụ",
+      "Cân bằng cạnh tranh"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Theo tỷ lệ doanh số bán</span> <div class=\"note\"><b>💡 Giải thích:</b> Bảng phương pháp Slide 6 trang 25: Phương pháp theo tỷ lệ của doanh số bán tính bằng % doanh thu dự kiến, dễ tính toán và chấp nhận nhưng có nhược điểm không có căn cứ vững chắc (coi doanh số là nguyên nhân thay vì kết quả xúc tiến).</div>"
+  },
+  {
+    "tags": [
+      "Kiến thức",
+      "Truyền thông Xúc tiến",
+      "Bán hàng trực tiếp"
+    ],
+    "question": "Nhiệm vụ nào dưới đây <span class=\"keyword\">KHÔNG phải là nhiệm vụ</span> của <span class=\"keyword\">người bán hàng trực tiếp</span>?",
+    "options": [
+      "Tìm kiếm khách hàng mới",
+      "<span class=\"answer-keyword\">Thiết kế sản phẩm cho phù hợp với yêu cầu của khách hàng</span>",
+      "Cung cấp dịch vụ trước và sau khi bán hàng",
+      "Truyền đạt thông tin về sản phẩm cho khách hàng"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Thiết kế sản phẩm cho phù hợp với yêu cầu của khách hàng</span> <div class=\"note\"><b>💡 Giải thích:</b> Người bán hàng cá nhân có nhiệm vụ tìm kiếm, giới thiệu, tư vấn, thuyết phục và chăm sóc khách hàng. Nhiệm vụ thiết kế sản phẩm thuộc về bộ phận kỹ thuật R&D hoặc sản xuất.</div>"
+  },
+  {
+    "tags": [
+      "Kiến thức",
+      "Truyền thông Xúc tiến",
+      "Quan hệ công chúng"
+    ],
+    "question": "<span class=\"keyword\">Vận động hành lang</span> là một loại trong chiến lược xúc tiến nào sau đây?",
+    "options": [
+      "Quảng cáo",
+      "Ưu đãi trung gian phân phối",
+      "<span class=\"answer-keyword\">Quan hệ công chúng</span>",
+      "Bán hàng trực tiếp"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Quan hệ công chúng</span> <div class=\"note\"><b>💡 Giải thích:</b> Slide 6 trang 17: Vận động hành lang (Lobbying) là một trong những hoạt động trọng điểm của Quan hệ công chúng (PR) nhằm tác động hợp pháp đến các nhà làm luật và cơ quan hoạch định chính sách.</div>"
+  },
+  {
+    "tags": [
+      "Kiến thức",
+      "Truyền thông Xúc tiến",
+      "Công cụ xúc tiến"
+    ],
+    "question": "Trong hoạt động xúc tiến, <span class=\"keyword\">công cụ hiệu quả nhất</span> đối với các doanh nghiệp là",
+    "options": [
+      "Quảng cáo hoặc tiếp thị",
+      "Quan hệ công chúng (PR)",
+      "Marketing trực tiếp",
+      "<span class=\"answer-keyword\">Kết hợp nhiều công cụ</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Kết hợp nhiều công cụ</span> <div class=\"note\"><b>💡 Giải thích:</b> Mỗi công cụ xúc tiến có ưu thế riêng ở từng thời điểm và từng đối tượng. Việc kết hợp đồng bộ nhiều công cụ (Xúc tiến hỗn hợp / IMC) luôn đem lại hiệu quả tổng hợp cao nhất cho doanh nghiệp.</div>"
+  },
+  {
+    "tags": [
+      "Kiến thức",
+      "Truyền thông Xúc tiến",
+      "Quảng cáo truyền hình"
+    ],
+    "question": "Khi một công ty <span class=\"keyword\">mới gia nhập thị trường</span>, nếu quảng cáo trên truyền hình thì <span class=\"keyword\">hình thức hiệu quả nhất</span> là",
+    "options": [
+      "Đoạn phim thật ngắn (30 hoặc 60 giây)",
+      "<span class=\"answer-keyword\">Phóng sự ngắn (5 hoặc 10 phút)</span>",
+      "Logo bật góc (trong một số chuyên mục)",
+      "Chạy chữ trong một số chương trình"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Phóng sự ngắn (5 hoặc 10 phút)</span> <div class=\"note\"><b>💡 Giải thích:</b> Doanh nghiệp mới gia nhập thị trường chưa có độ nhận biết thương hiệu. Phóng sự ngắn (5-10 phút) cung cấp lượng thông tin chi tiết, hình ảnh thực tế về quy mô và uy tín, giúp tạo dựng lòng tin vững chắc hơn là các đoạn clip ngắn 30s.</div>"
   }
 ]
