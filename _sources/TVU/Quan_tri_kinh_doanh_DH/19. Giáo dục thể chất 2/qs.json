@@ -1094,5 +1094,180 @@
       "Giai Đoạn Tàn Cuộc",
       "Kỹ thuật Vua"
     ]
+  },
+  {
+    "question": "“<span class=\"keyword\">Resigns</span>” trong biên bản nghĩa là gì?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Xin thua</span><div class=\"note\">💡 Giải thích: Thuật ngữ quốc tế \"Resigns\" trong biên bản thi đấu cờ vua có nghĩa là kỳ thủ xin thua (đầu hàng), chủ động dừng ván đấu khi thấy thế cờ không thể cứu vãn.</div>",
+    "options": [
+      "Xin thua",
+      "Thí tốt",
+      "Hòa",
+      "Đổi quân"
+    ],
+    "tags": [
+      "Luật Thi Đấu",
+      "Biên bản thi đấu"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Trong cờ vua, <span class=\"keyword\">bắt tốt qua đường</span> còn gọi là gì?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">En passant</span><div class=\"note\">💡 Giải thích: Bắt tốt qua đường là một quy tắc đặc biệt có tên tiếng Pháp là \"En passant\", cho phép Tốt bắt Tốt đối phương vừa tiến 2 ô vượt qua ô bị khống chế ngay tại nước đi liền sau.</div>",
+    "options": [
+      "En passant",
+      "Castling",
+      "Checkmate",
+      "Promotion"
+    ],
+    "tags": [
+      "Nước Đi Đặc Biệt",
+      "Kỹ thuật"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Nếu <span class=\"keyword\">xe ăn mã</span> tại ô e5, <span class=\"keyword\">nước đi nào đúng</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Rxe5</span><div class=\"note\">💡 Giải thích: Trong biên bản cờ vua đại số quốc tế (FIDE), ký hiệu Xe là \"R\" (Rook), ký hiệu ăn quân là \"x\", và tiếp theo là tọa độ ô mà quân bị ăn đứng (e5) -> Ký hiệu đúng là Rxe5.</div>",
+    "options": [
+      "RMe5",
+      "Rxe5",
+      "xM5",
+      "RxM5"
+    ],
+    "tags": [
+      "Luật Thi Đấu",
+      "Ghi biên bản"
+    ]
+  },
+  {
+    "question": "<span class=\"keyword\">Ký hiệu quốc tế</span> của <span class=\"keyword\">quân Vua</span> là gì?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">K</span><div class=\"note\">💡 Giải thích: Theo quy ước quốc tế FIDE, quân Vua (King) được ký hiệu bằng chữ cái in hoa \"K\" trên biên bản thi đấu.</div>",
+    "options": [
+      "Q",
+      "R",
+      "K",
+      "B"
+    ],
+    "tags": [
+      "Bàn Cờ Và Quân Cờ",
+      "Ký hiệu"
+    ]
+  },
+  {
+    "question": "<span class=\"keyword\">Bao nhiêu quân tốt</span> trên bàn lúc <span class=\"keyword\">ban đầu</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">16</span><div class=\"note\">💡 Giải thích: Khi thiết lập ván cờ, mỗi bên có một hàng 8 quân Tốt (hàng ngang 2 cho Trắng và hàng ngang 7 cho Đen), tổng cộng toàn bộ bàn cờ có 16 quân Tốt.</div>",
+    "options": [
+      "12",
+      "8",
+      "16",
+      "20"
+    ],
+    "tags": [
+      "Bàn Cờ Và Quân Cờ",
+      "Thiết lập bàn cờ"
+    ]
+  },
+  {
+    "question": "<span class=\"keyword\">Số thứ tự nước đi</span> trên biên bản <span class=\"keyword\">ghi ở đâu</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Trước nước đi của Trắng</span><div class=\"note\">💡 Giải thích: Khi ghi biên bản thi đấu đại số, mỗi lượt chơi gồm một nước đi của Trắng và một nước đi của Đen, số thứ tự (1, 2, 3...) luôn được đặt trước nước đi của bên Trắng (ví dụ: 1. e4 e5).</div>",
+    "options": [
+      "Trước nước đi của Trắng",
+      "Không viết",
+      "Cuối dòng",
+      "Sau nước đi Đen"
+    ],
+    "tags": [
+      "Luật Thi Đấu",
+      "Ghi biên bản"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Sau khi <span class=\"keyword\">phong cấp</span>, quân Tốt <span class=\"keyword\">thường chọn phong thành</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Hậu</span><div class=\"note\">💡 Giải thích: Khi Tốt tiến tới hàng ngang cuối cùng (hàng 8 với Trắng, hàng 1 với Đen), người chơi được quyền phong thành Hậu, Xe, Tượng hoặc Mã; hầu hết các ván đấu đều chọn phong Hậu vì đây là quân cơ động và uy lực nhất.</div>",
+    "options": [
+      "Tượng",
+      "Xe",
+      "Hậu",
+      "Mã"
+    ],
+    "tags": [
+      "Nước Đi Đặc Biệt",
+      "Phong cấp"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Trong <span class=\"keyword\">khai cuộc</span>, quân nào nên được <span class=\"keyword\">phát triển trước</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Tượng và Mã</span><div class=\"note\">💡 Giải thích: Nguyên tắc vàng khai cuộc là ưu tiên phát triển các quân nhẹ (Mã và Tượng) ra trước để kiểm soát trung tâm và chuẩn bị cho Vua nhập thành an toàn, tránh đưa các quân nặng (Xe, Hậu) ra quá sớm.</div>",
+    "options": [
+      "Xe",
+      "Vua",
+      "Tượng và Mã",
+      "Hậu"
+    ],
+    "tags": [
+      "Giai Đoạn Khai Cuộc",
+      "Nguyên tắc"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Hình vuông của Tốt</span> được <span class=\"keyword\">tính từ đâu</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Từ vị trí Tốt đến hàng phong cấp</span><div class=\"note\">💡 Giải thích: Quy tắc hình vuông của Tốt xác định: Cạnh của hình vuông có độ dài bằng khoảng cách từ vị trí đứng hiện tại của Tốt đến hàng ngang phong cấp cuối cùng; nếu Vua đối phương nằm trong hình vuông thì cản được Tốt.</div>",
+    "options": [
+      "Từ trung tâm bàn cờ",
+      "Từ vị trí Tốt đến hàng phong cấp",
+      "Từ Hậu",
+      "Từ vị trí Vua"
+    ],
+    "tags": [
+      "Giai Đoạn Tàn Cuộc",
+      "Kỹ thuật Tốt"
+    ]
+  },
+  {
+    "question": "<span class=\"keyword\">Trung tâm bàn cờ</span> có <span class=\"keyword\">vai trò như thế nào</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Quyết định diễn biến tiếp theo của ván đấu</span><div class=\"note\">💡 Giải thích: Khu trung tâm là vị trí trọng yếu chiến lược bao quát toàn bộ bàn cờ; bên nào làm chủ được trung tâm sẽ tối đa hóa sức cơ động của quân mình, tạo bàn đạp tấn công hoặc phòng thủ và quyết định cục diện diễn biến tiếp theo của ván đấu.</div>",
+    "options": [
+      "Quyết định diễn biến tiếp theo của ván đấu",
+      "Chỉ để phòng thủ",
+      "Không ảnh hưởng chiến thuật",
+      "Khu vực ít quan trọng"
+    ],
+    "tags": [
+      "Giai Đoạn Khai Cuộc",
+      "Nguyên tắc"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Trong <span class=\"keyword\">cờ tàn Hậu chống Tốt</span>, điều kiện nào giúp <span class=\"keyword\">Hậu dễ thắng hơn</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Hậu khống chế đường tiến của Tốt</span><div class=\"note\">💡 Giải thích: Trong cờ tàn Hậu chống Tốt, việc Hậu khống chế được đường tiến hoặc chặn đứng Tốt đối phương sẽ triệt tiêu cơ hội phong cấp của đối phương, tạo điều kiện thuận lợi để đưa Vua mình vào phối hợp tiêu diệt Tốt.</div>",
+    "options": [
+      "Đổi Hậu",
+      "Tốt ở gần hàng đầu",
+      "Hậu khống chế đường tiến của Tốt",
+      "Không có Vua hỗ trợ"
+    ],
+    "tags": [
+      "Giai Đoạn Tàn Cuộc",
+      "Kỹ thuật"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Trong <span class=\"keyword\">cờ tàn Xe chống Tốt</span>, nếu <span class=\"keyword\">Tốt chưa qua giới tuyến</span> thì bên mạnh làm gì?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Dùng Vua cắt đường Vua đối phương</span><div class=\"note\">💡 Giải thích: Trong cờ tàn Xe chống Tốt, nếu Tốt đối phương chưa vượt qua đường giới tuyến và Vua đối phương còn tụt lại phía sau Tốt, bên mạnh chỉ cần dùng Vua cắt đường đi của Vua yếu trên hàng ngang là chắc chắn giành chiến thắng.</div>",
+    "options": [
+      "Dùng Vua cắt đường Vua đối phương",
+      "Xin hòa",
+      "Đưa Xe ra biên",
+      "Đổi Xe"
+    ],
+    "tags": [
+      "Giai Đoạn Tàn Cuộc",
+      "Kỹ thuật"
+    ]
   }
 ]
