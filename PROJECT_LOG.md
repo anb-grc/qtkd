@@ -99,3 +99,4 @@ Khi chạy xong luồng xử lý câu hỏi mới, Agent tự động thêm 1 d�
   + 20. Logic học đại cương: Ban đầu 38 câu -> Thêm mới 25 câu, cập nhật giải thích 14 câu -> Tổng ngân hàng: 63 câu.
   + 17. Marketing căn bản: Ban đầu 79 câu -> Thêm mới 16 câu, cập nhật giải thích 25 câu -> Tổng ngân hàng: 95 câu.
 - [2026-10-30] [Chủ nghĩa xã hội khoa học] Xử lý lô đề Batch 4 (20 câu Chương 5 & 6): Lọc trùng 9 câu đã có trong kho, thêm mới 11 câu. Tiệt trùng HTML, highlight Ma Trận Lục Hợp, gán trọng số blueprint 80/20 (8 câu High). Tổng ngân hàng: 103 câu. Lưu thành công vào qs.json.
+- [2026-10-30] [LOGIC HỌC ĐẠI CƯƠNG] Hiệu chỉnh 2 bẫy đáp án đặc thù LMS TVU cho BTGK 2: Câu 15 ("Suy luận sai" thay vì "Suy luận không hợp logic") và Câu 20 ("Tam đoạn luận rút gọn kết luận" vì "Logic học" là thuật ngữ giữa M đứng ở cả 2 tiền đề). Tích hợp toàn bộ ngân hàng BTGK 1 & BTGK 2, nâng tổng số câu hỏi chuẩn lên 85 câu.

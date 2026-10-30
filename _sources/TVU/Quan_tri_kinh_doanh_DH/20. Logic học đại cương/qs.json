@@ -943,5 +943,335 @@
       "Logic học đại cương",
       "LTTN_4"
     ]
+  },
+  {
+    "tags": [
+      "Quy Luật Tư Duy",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Sai lầm do trái với <span class=\"keyword\">quy luật đồng nhất</span> là:",
+    "options": [
+      "Mơ hồ không xác định",
+      "Tự mâu thuẩn",
+      "Không thay đổi luận đề",
+      "<span class=\"answer-keyword\">Thay đổi luận đề</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Thay đổi luận đề</span> <div class=\"note\"><b>💡 Giải thích:</b> Quy luật đồng nhất (A ≡ A) yêu cầu trong suốt quá trình tư duy, một luận đề hay khái niệm phải luôn giữ nguyên nghĩa, không được thay đổi luận đề hoặc đánh tráo khái niệm giữa chừng.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Quy Luật Tư Duy",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Hãy chọn phương án trả lời <span class=\"keyword\">đúng nhất</span> về <span class=\"keyword\">quy luật logic hình thức</span>.",
+    "options": [
+      "Nếu tuân thủ các quy luật cơ bản của logic hình thức thì tư duy chắc chắn chính xác",
+      "Nếu tư duy chính xác không có nghĩa là đã tuân thủ các quy luật cơ bản của logic hình thức",
+      "<span class=\"answer-keyword\">Nếu không tuân thủ các các quy luật cơ bản của logic hình thức thì tư duy không chính xác</span>",
+      "Tuân thủ các quy luật cơ bản của logic hình thức thì tư duy mới có khả năng chính xác"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Nếu không tuân thủ các các quy luật cơ bản của logic hình thức thì tư duy không chính xác</span> <div class=\"note\"><b>💡 Giải thích:</b> Việc tuân thủ các quy luật cơ bản của logic hình thức là điều kiện cần bắt buộc đối với tư duy chính xác. Nếu vi phạm bất kỳ quy luật nào thì tư duy chắc chắn sẽ sai lầm, phi logic.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Quy Luật Tư Duy",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Hãy chọn phương án trả lời <span class=\"keyword\">SAI</span>.",
+    "options": [
+      "Nếu không tuân thủ các quy luật cơ bản của logic hình thức thì tư duy không chính xác",
+      "<span class=\"answer-keyword\">Nếu tuân thủ các quy luật cơ bản của logic hình thức thì tư duy chắc chắn chính xác</span>",
+      "Chỉ có tuân thủ các quy luật cơ bản của logic hình thức thì tư duy mới có thể chính xác",
+      "Nếu tư duy chính xác, tức là đã tuân thủ các quy luật cơ bản của logic hình thức"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Nếu tuân thủ các quy luật cơ bản của logic hình thức thì tư duy chắc chắn chính xác</span> <div class=\"note\"><b>💡 Giải thích:</b> Mệnh đề này SAI vì tuân thủ các quy luật logic hình thức chỉ đảm bảo tính đúng đắn về mặt hình thức (điều kiện cần), chứ chưa bảo đảm tính chân thực của tiền đề (nếu tiền đề sai thì kết luận vẫn có thể sai).</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Quy Luật Tư Duy",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Sai lầm do trái với <span class=\"keyword\">quy luật đồng nhất</span> (về mặt thuật ngữ) là:",
+    "options": [
+      "Mơ hồ không xác định",
+      "Tự mâu thuẩn",
+      "Mơ hồ",
+      "<span class=\"answer-keyword\">Đánh tráo khái niệm</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Đánh tráo khái niệm</span> <div class=\"note\"><b>💡 Giải thích:</b> Đánh tráo khái niệm (thay đổi nội hàm của khái niệm trong quá trình lập luận) là sai lầm điển hình nhất vi phạm quy luật đồng nhất.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Định Nghĩa Khái Niệm",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Trong các phán đoán sau, phán đoán nào được coi là một <span class=\"keyword\">định nghĩa khái niệm đúng</span> về mặt logic?",
+    "options": [
+      "Hàng hóa là sản phẩm lao động",
+      "<span class=\"answer-keyword\">Hiến pháp là đạo luật căn bản của quốc gia</span>",
+      "Hàng hóa là sản phẩm được bày bán trong các nhà sách.",
+      "Hiến pháp là luật pháp của quốc gia"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Hiến pháp là đạo luật căn bản của quốc gia</span> <div class=\"note\"><b>💡 Giải thích:</b> Định nghĩa phải cân đối (A ≡ B). 'Hiến pháp là đạo luật căn bản của quốc gia' nêu đúng thuộc tính bản chất phân biệt hiến pháp với các đạo luật thông thường. Câu A và D quá rộng (không cân đối), câu C quá hẹp.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Khái Niệm",
+      "Cấu trúc"
+    ],
+    "question": "Giữa <span class=\"keyword\">nội hàm và ngoại diên</span> của khái niệm có quan hệ:",
+    "options": [
+      "Nội hàm càng nhiều, ngoại diên càng rộng.",
+      "Ngoại diên càng hẹp, nội hàm càng ít.",
+      "Ngoại diên và nội hàm tương đương nhau.",
+      "<span class=\"answer-keyword\">Nội hàm càng sâu, ngoại diên càng hẹp.</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Nội hàm càng sâu, ngoại diên càng hẹp.</span> <div class=\"note\"><b>💡 Giải thích:</b> Quy luật tỷ lệ nghịch giữa nội hàm và ngoại diên: nội hàm càng phong phú, càng sâu sắc (chứa nhiều dấu hiệu) thì ngoại diên (phạm vi các đối tượng thỏa mãn) càng thu hẹp lại và ngược lại.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Khái Niệm",
+      "Cấu trúc"
+    ],
+    "question": "<span class=\"keyword\">Cấu trúc logic</span> của khái niệm bao gồm:",
+    "options": [
+      "Phản ánh chân thực đối tượng",
+      "Thuộc tính của đối tượng",
+      "Chủng và loại",
+      "<span class=\"answer-keyword\">Nội hàm và ngoại diên</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Nội hàm và ngoại diên</span> <div class=\"note\"><b>💡 Giải thích:</b> Mỗi khái niệm đều được cấu thành bởi hai mặt không thể tách rời: nội hàm (tập hợp các thuộc tính bản chất) và ngoại diên (tập hợp các đối tượng mang các thuộc tính đó).</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Khái Niệm",
+      "Cấu trúc"
+    ],
+    "question": "<span class=\"keyword\">Khái niệm chung</span> là:",
+    "options": [
+      "Khái niệm có ngoại diện chỉ gồm một đối tượng",
+      "<span class=\"answer-keyword\">Khái niệm có ngoại diên từ hai đối tượng trở lên</span>",
+      "Khái niệm về chân lý phổ biến",
+      "Khái niệm có nội hàm phong phú"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Khái niệm có ngoại diên từ hai đối tượng trở lên</span> <div class=\"note\"><b>💡 Giải thích:</b> Căn cứ vào ngoại diên, khái niệm có ngoại diên gồm 1 đối tượng là khái niệm đơn nhất, còn khái niệm có ngoại diên từ hai đối tượng trở lên (hữu hạn hoặc vô hạn) là khái niệm chung.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Quan Hệ Khái Niệm",
+      "Hệ thống"
+    ],
+    "question": "Ngoại diên giữa hai khái niệm <span class=\"keyword\">“núi cao”</span> và <span class=\"keyword\">“núi thấp”</span> có quan hệ:",
+    "options": [
+      "Giao nhau",
+      "Mâu thuẫn",
+      "<span class=\"answer-keyword\">Đối lập</span>",
+      "Bao hàm"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Đối lập</span> <div class=\"note\"><b>💡 Giải thích:</b> Núi cao và núi thấp là hai khái niệm trái ngược nhau về thuộc tính độ cao nhưng tổng ngoại diên của chúng không bao quát hết khái niệm 'núi' (vì còn có núi trung bình). Do đó, đây là quan hệ đối lập (tương phản) chứ không phải mâu thuẫn.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Phán Đoán Phức",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Cho p và q là hai mệnh đề: p: \"Lợi nhuận tăng nhờ nâng cao năng suất lao động\", q: \"Lợi nhuận tăng nhờ giảm giá thành sản phẩm\". Phán đoán: <span class=\"keyword\">“Lợi nhuận tăng nhờ nâng cao năng suất lao động hoặc nhờ giảm giá thành sản phẩm”</span> có công thức:",
+    "options": [
+      "p ∨̲ q",
+      "p ∧ q",
+      "q → p",
+      "<span class=\"answer-keyword\">p ∨ q</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">p ∨ q</span> <div class=\"note\"><b>💡 Giải thích:</b> Từ 'hoặc' ở đây biểu thị phép tuyển thường (tuyển yếu: p ∨ q), vì hai phương thức nâng cao năng suất và giảm giá thành có thể đồng thời cùng xảy ra để làm tăng lợi nhuận.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Hình Vuông Logic",
+      "Hệ thống"
+    ],
+    "question": "Phán đoán nào có <span class=\"keyword\">cùng giá trị</span> với phán đoán <span class=\"keyword\">“Mọi kim loại đều là chất dẫn điện”</span>",
+    "options": [
+      "Chất dẫn điện là kim loại",
+      "Một vài kim loại không là chất dẫn điện",
+      "<span class=\"answer-keyword\">Đa số kim loại là chất dẫn điện</span>",
+      "Kim loại không là chất dẫn điện"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Đa số kim loại là chất dẫn điện</span> <div class=\"note\"><b>💡 Giải thích:</b> 'Mọi kim loại đều là chất dẫn điện' là phán đoán khẳng định chung A có giá trị chân thực. Theo quan hệ thứ bậc (A đúng thì I đúng), phán đoán khẳng định riêng I 'Đa số kim loại là chất dẫn điện' cũng có giá trị chân thực (cùng giá trị đúng).</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Hình Vuông Logic",
+      "Hệ thống"
+    ],
+    "question": "Hai phán đoán <span class=\"keyword\">“Mọi nhà kinh tế học đều là nhà khoa học”</span> và <span class=\"keyword\">“Một số nhà kinh tế học không là nhà khoa học”</span> có quan hệ:",
+    "options": [
+      "phụ thuộc",
+      "đối lập chung",
+      "đối lập riêng",
+      "<span class=\"answer-keyword\">mâu thuẫn</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">mâu thuẫn</span> <div class=\"note\"><b>💡 Giải thích:</b> 'Mọi nhà kinh tế học đều là...' là phán đoán khẳng định chung A, 'Một số nhà kinh tế học không là...' là phán đoán phủ định riêng O. Trên hình vuông logic, quan hệ giữa A và O là quan hệ mâu thuẫn.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Hình Vuông Logic",
+      "Hệ thống"
+    ],
+    "question": "Hai phán đoán <span class=\"keyword\">“Không người yêu chuộng hòa bình nào lại muốn chiến tranh”</span> và <span class=\"keyword\">“Phần lớn người yêu chuộng hòa bình đều không muốn chiến tranh”</span> có quan hệ:",
+    "options": [
+      "đối lập riêng",
+      "mâu thuẫn",
+      "đối lập chung",
+      "<span class=\"answer-keyword\">phụ thuộc</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">phụ thuộc</span> <div class=\"note\"><b>💡 Giải thích:</b> 'Không người yêu chuộng hòa bình nào...' là phán đoán phủ định chung E. 'Phần lớn người yêu chuộng hòa bình...' là phán đoán phủ định riêng O. Cùng chất phủ định, quan hệ giữa E và O là quan hệ phụ thuộc (thứ bậc).</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Hình Vuông Logic",
+      "Giới hạn & Rủi ro"
+    ],
+    "question": "Biết phán đoán <span class=\"keyword\">“Ai cũng mưu cầu hành phúc”</span> có giá trị chân thực, phán đoán <span class=\"keyword\">“Có người mưu cầu hạnh phúc”</span> có giá trị:",
+    "options": [
+      "vừa chân thực vừa giả dối",
+      "<span class=\"answer-keyword\">chân thực</span>",
+      "không xác định",
+      "giả dối"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">chân thực</span> <div class=\"note\"><b>💡 Giải thích:</b> 'Ai cũng mưu cầu hạnh phúc' là phán đoán toàn thể A chân thực. Theo quan hệ thứ bậc: phán đoán toàn thể đúng thì phán đoán bộ phận I 'Có người mưu cầu hạnh phúc' tất yếu có giá trị chân thực.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Phán Đoán Phức",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Cho p và q là hai mệnh đề: p: \"Nghiêm khắc tấn công tội phạm\", q: \"Giữ gìn trật tự kinh tế\". Phán đoán: <span class=\"keyword\">“Nếu chúng ta không nghiêm khắc tấn công tội phạm thì chúng ta không thể giữ gìn trật tự kinh tế”</span> có công thức:",
+    "options": [
+      "p ∨ q",
+      "q → p",
+      "p ∧ q",
+      "<span class=\"answer-keyword\">p̄ → q̄</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">p̄ → q̄</span> <div class=\"note\"><b>💡 Giải thích:</b> 'Không nghiêm khắc tấn công tội phạm' là phủ định p̄, 'không thể giữ gìn trật tự kinh tế' là phủ định q̄. Kết nối bằng liên từ 'Nếu... thì...' (phép kéo theo) tạo thành công thức p̄ → q̄.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Phán Đoán Phức",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Cho tiền đề: <span class=\"keyword\">“Không có tư duy logic nhạy bén thì không thể là nhà khoa học giỏi”</span>, kết luận nào sau đây là <span class=\"keyword\">hợp logic</span>?",
+    "options": [
+      "<span class=\"answer-keyword\">Không thể có chuyện, không có tư duy logic nhạy bén mà vẫn là nhà khoa học giỏi</span>",
+      "Không là nhà khoa học giỏi thì không cần tư duy logic nhạy bén",
+      "Nếu tư duy logic nhạy bén thì sẽ là nhà khoa học giỏi",
+      "Không thể có chuyện có tư duy logic nhạy bén mà lại không phải là nhà khoa học giỏi"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Không thể có chuyện, không có tư duy logic nhạy bén mà vẫn là nhà khoa học giỏi</span> <div class=\"note\"><b>💡 Giải thích:</b> Đặt p: 'Có tư duy logic nhạy bén', q: 'Là nhà khoa học giỏi'. Tiền đề là p̄ → q̄ tương đương với quy tắc phủ định của hội: ¬(p̄ ∧ q) nghĩa là 'Không thể có chuyện không có tư duy logic nhạy bén mà vẫn là nhà khoa học giỏi'.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Phán Đoán Phức",
+      "Logic & Nguyên tắc"
+    ],
+    "question": "Cho tiền đề: <span class=\"keyword\">“Nếu không coi trọng con người thì xã hội sẽ không phát triển”</span>, kết luận nào sau đây là <span class=\"keyword\">sai</span>?",
+    "options": [
+      "<span class=\"answer-keyword\">Xã hội không phát triển thì con người không được coi trọng</span>",
+      "Làm gì có chuyện không coi trọng con người mà xã hội lại phát triển",
+      "Hoặc coi trọng con người hoặc xã hội sẽ không phát triển",
+      "Muốn xã hội phát triển thì phải coi trọng con người"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Xã hội không phát triển thì con người không được coi trọng</span> <div class=\"note\"><b>💡 Giải thích:</b> Tiền đề có dạng p → q. Suy luận ngược lại q → p là ngụy biện đảo ngược điều kiện (ngụy biện khẳng định hệ quả), do đó kết luận này là SAI về mặt logic.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Suy Luận & Tam Đoạn Luận",
+      "Giới hạn & Rủi ro"
+    ],
+    "question": "Tam đoạn luận: <span class=\"keyword\">“Vải rất ngọt, mà quần áo may bằng vải. Vậy quần áo rất ngọt”</span> vi phạm quy tắc nào?",
+    "options": [
+      "<span class=\"answer-keyword\">Tam đoạn luận chỉ có ba thuật ngữ.</span>",
+      "Hai phán đoán tiền đề đều là phán đoán phủ định thì không thể suy ra được kết luận.",
+      "Một trong hai tiền đề là phán đoán phủ định thì kết luận phải là phán đoán phủ định.",
+      "Trong hai tiền đề, thuật ngữ giữa phải chu diên ít nhất một lần."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Tam đoạn luận chỉ có ba thuật ngữ.</span> <div class=\"note\"><b>💡 Giải thích:</b> Từ 'vải' ở tiền đề 1 mang nghĩa quả vải thiều, còn ở tiền đề 2 mang nghĩa chất liệu dệt may. Đây là ngụy biện đánh tráo khái niệm, khiến tam đoạn luận có tới 4 thuật ngữ khác nhau (lỗi bốn thuật ngữ).</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Suy Luận & Tam Đoạn Luận",
+      "Giới hạn & Rủi ro"
+    ],
+    "question": "Tam đoạn luận: <span class=\"keyword\">“Nhựa không là chất dẫn điện, mà sứ không là chất dẫn điện. Vậy sư không là nhựa”</span> vi phạm quy tắc chung nào sau đây?",
+    "options": [
+      "Trong hai tiền đề, thuật ngữ giữa phải chu diên ít nhất một lần.",
+      "Nếu thuật ngữ S hay P không chu diên ở tiền đề thì không chu diên ở kết luận",
+      "Một trong hai tiền đề là phán đoán phủ định thì câu kết luận phải là phán đoán phủ định.",
+      "<span class=\"answer-keyword\">Hai phán đoán tiền đề đều là phán đoán phủ định thì không rút ra được câu kết luận hợp logic.</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Hai phán đoán tiền đề đều là phán đoán phủ định thì không rút ra được câu kết luận hợp logic.</span> <div class=\"note\"><b>💡 Giải thích:</b> Cả hai tiền đề đều là phán đoán phủ định (E và E). Quy tắc chung thứ 5 của tam đoạn luận nêu rõ: Từ hai tiền đề phủ định không thể rút ra bất kỳ kết luận hợp logic nào.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Suy Luận & Tam Đoạn Luận",
+      "Giới hạn & Rủi ro"
+    ],
+    "question": "Suy luận: <span class=\"keyword\">“Một số sinh viên nghiên cứu khoa học, mà tôi là sinh viên. Tất nhiên, tôi cũng nghiên cứu khoa học”</span>, nhận định nào sau đây là đúng?",
+    "options": [
+      "Loại hình 2, phương thức IAI",
+      "Suy luận không hợp logic",
+      "<span class=\"answer-keyword\">Suy luận sai</span>",
+      "Suy luận hợp logic"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án TVU:</div><span class=\"answer-keyword\">Suy luận sai</span> <div class=\"note\"><b>💡 Bẫy đáp án LMS TVU:</b> Thuật ngữ giữa 'sinh viên' mang lượng từ bộ phận ở tiền đề lớn ('Một số sinh viên') nên không chu diên (M⁻), vi phạm quy tắc thuật ngữ giữa phải chu diên ít nhất một lần. Trên hệ thống chấm điểm LMS Đại học Trà Vinh (TVU), giảng viên thiết lập đáp án đúng là <b>Suy luận sai</b> (thay vì phương án học thuật 'Suy luận không hợp logic'). Khi thi bắt buộc chọn <b>Suy luận sai</b>.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Suy Luận & Tam Đoạn Luận",
+      "Cấu trúc"
+    ],
+    "question": "Đặc trưng của tam đoạn luận thuộc <span class=\"keyword\">loại hình 4</span> là:",
+    "options": [
+      "<span class=\"answer-keyword\">Thuật ngữ giữa làm vị từ trong tiền đề lớn, chủ từ trong tiền đề nhỏ.</span>",
+      "Thuật ngữ giữa làm chủ từ trong tiền đề lớn và tiền đề nhỏ.",
+      "Thuật ngữ giữa làm vị từ trong tiền đề lớn và tiền đề nhỏ.",
+      "Thuật ngữ giữa làm chủ từ trong tiền đề lớn, vị từ trong tiền đề nhỏ."
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Thuật ngữ giữa làm vị từ trong tiền đề lớn, chủ từ trong tiền đề nhỏ.</span> <div class=\"note\"><b>💡 Giải thích:</b> Cấu trúc của Loại hình 4 là: P - M / M - S // S - P. Trong đó thuật ngữ giữa M đóng vai trò là vị từ ở tiền đề lớn và chủ từ ở tiền đề nhỏ.</div>",
+    "weight": "high"
+  },
+  {
+    "tags": [
+      "Suy Luận & Tam Đoạn Luận",
+      "Cấu trúc"
+    ],
+    "question": "Suy luận: <span class=\"keyword\">“Logic học là khoa học công cụ, logic học không phải là khoa học xã hội”</span> là:",
+    "options": [
+      "Suy luận diễn dịch trực tiếp",
+      "Tam đoạn luận rút gọn tiền đề lớn",
+      "Tam đoạn luận rút gọn tiền đề nhỏ",
+      "<span class=\"answer-keyword\">Tam đoạn luận rút gọn kết luận</span>"
+    ],
+    "answer": "<div class=\"answer-title\">✅ Đáp án TVU:</div><span class=\"answer-keyword\">Tam đoạn luận rút gọn kết luận</span> <div class=\"note\"><b>💡 Bẫy đáp án LMS TVU:</b> Thuật ngữ 'Logic học' xuất hiện ở cả hai câu nên nó chính là thuật ngữ giữa M (M: Logic học; P: Khoa học công cụ; S: Khoa học xã hội). Hai câu phát biểu ở đề bài đóng vai trò là hai tiền đề: M là P và M không là S. Câu kết luận liên hệ giữa P và S ('Một số khoa học công cụ không phải là khoa học xã hội') đã bị rút gọn. Do đó đáp án chuẩn LMS TVU là <b>Tam đoạn luận rút gọn kết luận</b>.</div>",
+    "weight": "high"
   }
 ]
