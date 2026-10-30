@@ -922,7 +922,7 @@
   },
   {
     "weight": "normal",
-    "question": "Ở Việt Nam hiện nay, giai cấp nào có xu hướng giảm dần về số lượng và tỷ lệ trong cơ cấu xã hội - giai cấp?",
+    "question": "Ở Việt Nam hiện nay, giai cấp nào có <span class=\"keyword\">xu hướng giảm dần về số lượng</span> và tỷ lệ trong <span class=\"keyword\">cơ cấu xã hội - giai cấp</span>?",
     "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Giai cấp nông dân</span> <div class=\"note\"><b>💡 Giải thích:</b> C. Giai cấp nông dân ✓</div>",
     "options": [
       "Giai cấp công nhân",
@@ -1353,6 +1353,157 @@
     "tags": [
       "Chủ nghĩa xã hội khoa học",
       "LTTN_4"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Một trong những <span class=\"keyword\">yêu cầu khách quan về kinh tế</span> của <span class=\"keyword\">thời kỳ quá độ lên CNXH</span> là:<div class=\"options-grid\"><div class=\"option-item\">A. Phải thu hẹp khối liên minh giữa giai cấp công nhân với giai cấp nông dân và các tầng lớp xã hội khác.</div><div class=\"option-item\">B. Phải ưu tiên phát triển nông nghiệp để xây dựng nền tảng vật chất - kỹ thuật cho chủ nghĩa xã hội.</div><div class=\"option-item correct\">C. Phải gắn chặt nông nghiệp với công nghiệp, dịch vụ, khoa học - công nghệ tạo thành cơ cấu kinh tế quốc dân thống nhất.</div><div class=\"option-item\">D. Phải ưu tiên thỏa mãn những nhu cầu và lợi ích kinh tế của giai cấp công nhân.</div></div><div class=\"note\">💡 <b>Giải thích:</b> Về phương diện kinh tế trong thời kỳ quá độ, sự phát triển của lực lượng sản xuất đòi hỏi phải gắn chặt nông nghiệp với công nghiệp, dịch vụ và khoa học - công nghệ để hình thành cơ cấu kinh tế quốc dân thống nhất, hiện đại, làm cơ sở vật chất cho khối liên minh công - nông - trí thức.</div>",
+    "answer": "Phải <span class=\"answer-keyword\">gắn chặt nông nghiệp với công nghiệp, dịch vụ, khoa học - công nghệ</span> tạo thành cơ cấu kinh tế quốc dân thống nhất.",
+    "options": [
+      "Phải thu hẹp khối liên minh giữa giai cấp công nhân với giai cấp nông dân và các tầng lớp xã hội khác.",
+      "Phải ưu tiên phát triển nông nghiệp để xây dựng nền tảng vật chất - kỹ thuật cho chủ nghĩa xã hội.",
+      "Phải gắn chặt nông nghiệp với công nghiệp, dịch vụ, khoa học - công nghệ tạo thành cơ cấu kinh tế quốc dân thống nhất.",
+      "Phải ưu tiên thỏa mãn những nhu cầu và lợi ích kinh tế của giai cấp công nhân."
+    ],
+    "tags": [
+      "Cơ Cấu Xã Hội & Liên Minh"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Loại hình <span class=\"keyword\">cơ cấu xã hội</span> nào có <span class=\"keyword\">vị trí quan trọng hàng đầu</span>, <span class=\"keyword\">chi phối các loại hình khác</span>?<div class=\"options-grid\"><div class=\"option-item\">A. Cơ cấu xã hội - dân cư</div><div class=\"option-item correct\">B. Cơ cấu xã hội - giai cấp</div><div class=\"option-item\">C. Cơ cấu xã hội - tôn giáo</div><div class=\"option-item\">D. Cơ cấu xã hội - dân tộc</div></div><div class=\"note\">💡 <b>Giải thích:</b> Trong hệ thống các cơ cấu xã hội, cơ cấu xã hội - giai cấp giữ vị trí trung tâm, quan trọng hàng đầu vì nó liên quan trực tiếp đến các quan hệ sản xuất, sở hữu tư liệu sản xuất và quyền lực chính trị của xã hội.</div>",
+    "answer": "Cơ cấu xã hội - <span class=\"answer-keyword\">giai cấp</span>",
+    "options": [
+      "Cơ cấu xã hội - dân cư",
+      "Cơ cấu xã hội - giai cấp",
+      "Cơ cấu xã hội - tôn giáo",
+      "Cơ cấu xã hội - dân tộc"
+    ],
+    "tags": [
+      "Cơ Cấu Xã Hội & Liên Minh"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Quan hệ lợi ích</span> giữa <span class=\"keyword\">công nhân, nông dân và trí thức</span> trong thời kỳ quá độ lên CNXH có <span class=\"keyword\">biểu hiện mới, phức tạp</span> là:<div class=\"options-grid\"><div class=\"option-item\">A. Mâu thuẫn gay gắt về lợi ích kinh tế.</div><div class=\"option-item\">B. Vừa mâu thuẫn, vừa bài trừ, phủ định lẫn nhau.</div><div class=\"option-item correct\">C. Vừa thống nhất về lợi ích kinh tế, vừa xuất hiện những mâu thuẫn lợi ích ở những mức độ khác nhau.</div><div class=\"option-item\">D. Lợi ích của giai cấp công nhân là trên hết, trước hết.</div></div><div class=\"note\">💡 <b>Giải thích:</b> Trong thời kỳ quá độ, giữa công nhân, nông dân và trí thức vừa có sự thống nhất căn bản về mục tiêu độc lập dân tộc và CNXH, vừa có những khác biệt, mâu thuẫn lợi ích cục bộ ở các mức độ nhất định do vị trí kinh tế - xã hội khác nhau quy định.</div>",
+    "answer": "<span class=\"answer-keyword\">Vừa thống nhất về lợi ích kinh tế, vừa xuất hiện những mâu thuẫn lợi ích</span> ở những mức độ khác nhau.",
+    "options": [
+      "Mâu thuẫn gay gắt về lợi ích kinh tế.",
+      "Vừa mâu thuẫn, vừa bài trừ, phủ định lẫn nhau.",
+      "Vừa thống nhất về lợi ích kinh tế, vừa xuất hiện những mâu thuẫn lợi ích ở những mức độ khác nhau.",
+      "Lợi ích của giai cấp công nhân là trên hết, trước hết."
+    ],
+    "tags": [
+      "Cơ Cấu Xã Hội & Liên Minh"
+    ]
+  },
+  {
+    "question": "Theo C.Mác và Ph.Ăngghen, nhiều cuộc đấu tranh của <span class=\"keyword\">giai cấp công nhân ở châu Âu</span> giữa thế kỷ XIX bị <span class=\"keyword\">thất bại chủ yếu là do</span>:<div class=\"options-grid\"><div class=\"option-item\">A. Không có tinh thần cách mạng.</div><div class=\"option-item correct\">B. Không tổ chức liên minh giai cấp.</div><div class=\"option-item\">C. Giai cấp tư sản thực hiện những điều chỉnh về chính sách.</div><div class=\"option-item\">D. Giai cấp tư sản tập trung lực lượng đàn áp.</div></div><div class=\"note\">💡 <b>Giải thích:</b> Các cuộc đấu tranh của giai cấp công nhân giữa thế kỷ XIX thất bại vì giai cấp công nhân đơn độc, chưa liên minh được với giai cấp nông dân - người bạn đồng minh tự nhiên của mình, khiến cuộc đấu tranh trở thành bài đồng ca đơn điệu.</div>",
+    "answer": "Không tổ chức <span class=\"answer-keyword\">liên minh giai cấp</span>.",
+    "options": [
+      "Không có tinh thần cách mạng.",
+      "Không tổ chức liên minh giai cấp.",
+      "Giai cấp tư sản thực hiện những điều chỉnh về chính sách.",
+      "Giai cấp tư sản tập trung lực lượng đàn áp."
+    ],
+    "tags": [
+      "Cơ Cấu Xã Hội & Liên Minh"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Trong thời kỳ quá độ lên CNXH, <span class=\"keyword\">cơ cấu xã hội - giai cấp</span> biến đổi <span class=\"keyword\">gắn liền và bị quy định bởi</span>:<div class=\"options-grid\"><div class=\"option-item\">A. Cơ cấu xã hội</div><div class=\"option-item\">B. Cơ cấu văn hóa</div><div class=\"option-item\">C. Cơ cấu chính trị</div><div class=\"option-item correct\">D. Cơ cấu kinh tế</div></div><div class=\"note\">💡 <b>Giải thích:</b> Theo chủ nghĩa duy vật lịch sử, cơ cấu kinh tế là nền tảng vật chất quyết định cơ cấu xã hội - giai cấp. Cơ cấu xã hội - giai cấp luôn biến đổi gắn liền và bị quy định trực tiếp bởi sự biến đổi của cơ cấu kinh tế.</div>",
+    "answer": "Cơ cấu <span class=\"answer-keyword\">kinh tế</span>",
+    "options": [
+      "Cơ cấu xã hội",
+      "Cơ cấu văn hóa",
+      "Cơ cấu chính trị",
+      "Cơ cấu kinh tế"
+    ],
+    "tags": [
+      "Cơ Cấu Xã Hội & Liên Minh"
+    ]
+  },
+  {
+    "question": "Theo chủ nghĩa Mác - Lênin, <span class=\"keyword\">dân tộc ở phương Tây</span> xuất hiện <span class=\"keyword\">khi nào</span>?<div class=\"options-grid\"><div class=\"option-item correct\">A. Khi phương thức sản xuất tư bản chủ nghĩa được xác lập.</div><div class=\"option-item\">B. Khi chế độ nguyên thủy tan rã.</div><div class=\"option-item\">C. Khi chế độ chiếm hữu nô lệ tan rã.</div><div class=\"option-item\">D. Khi phương thức sản xuất phong kiến được xác lập.</div></div><div class=\"note\">💡 <b>Giải thích:</b> Ở phương Tây, dân tộc (quốc gia dân tộc) ra đời gắn liền với sự hình thành và xác lập của phương thức sản xuất tư bản chủ nghĩa, khi thị trường dân tộc thống nhất thay thế tình trạng cát cứ phong kiến.</div>",
+    "answer": "Khi phương thức sản xuất <span class=\"answer-keyword\">tư bản chủ nghĩa được xác lập</span>.",
+    "options": [
+      "Khi phương thức sản xuất tư bản chủ nghĩa được xác lập.",
+      "Khi chế độ nguyên thủy tan rã.",
+      "Khi chế độ chiếm hữu nô lệ tan rã.",
+      "Khi phương thức sản xuất phong kiến được xác lập."
+    ],
+    "tags": [
+      "Dân Tộc & Tôn Giáo"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Theo chủ nghĩa Mác - Lênin, <span class=\"keyword\">khắc phục dần những ảnh hưởng tiêu cực</span> của tôn giáo phải <span class=\"keyword\">gắn liền với</span>:<div class=\"options-grid\"><div class=\"option-item\">A. Quá trình giải phóng dân tộc.</div><div class=\"option-item\">B. Quá trình phát triển kinh tế.</div><div class=\"option-item\">C. Quá trình nâng cao trình độ dân trí.</div><div class=\"option-item correct\">D. Quá trình cải tạo xã hội cũ, xây dựng xã hội mới.</div></div><div class=\"note\">💡 <b>Giải thích:</b> Chủ nghĩa Mác - Lênin khẳng định không thể khắc phục tôn giáo bằng mệnh lệnh hành chính mà phải gắn liền với quá trình cải tạo xã hội cũ, xây dựng xã hội mới, xác lập quan hệ sản xuất mới công bằng, bình đẳng.</div>",
+    "answer": "Quá trình <span class=\"answer-keyword\">cải tạo xã hội cũ, xây dựng xã hội mới</span>.",
+    "options": [
+      "Quá trình giải phóng dân tộc.",
+      "Quá trình phát triển kinh tế.",
+      "Quá trình nâng cao trình độ dân trí.",
+      "Quá trình cải tạo xã hội cũ, xây dựng xã hội mới."
+    ],
+    "tags": [
+      "Dân Tộc & Tôn Giáo"
+    ]
+  },
+  {
+    "question": "Người đã phát hiện ra <span class=\"keyword\">hai xu hướng khách quan</span> trong sự <span class=\"keyword\">phát triển quan hệ dân tộc</span> là:<div class=\"options-grid\"><div class=\"option-item\">A. Ph.Ăngghen</div><div class=\"option-item\">B. C.Mác</div><div class=\"option-item\">C. S.Phuriê</div><div class=\"option-item correct\">D. V.I.Lênin</div></div><div class=\"note\">💡 <b>Giải thích:</b> V.I.Lênin là người phát hiện và luận chứng sâu sắc hai xu hướng khách quan trong sự phát triển của quan hệ dân tộc: xu hướng tách ra thành lập quốc gia độc lập và xu hướng liên hiệp giữa các dân tộc.</div>",
+    "answer": "<span class=\"answer-keyword\">V.I.Lênin</span>",
+    "options": [
+      "Ph.Ăngghen",
+      "C.Mác",
+      "S.Phuriê",
+      "V.I.Lênin"
+    ],
+    "tags": [
+      "Dân Tộc & Tôn Giáo"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "<span class=\"keyword\">Đặc trưng quan trọng nhất của dân tộc</span>, là cơ sở để <span class=\"keyword\">gắn kết các bộ phận, thành viên</span> tạo nên <span class=\"keyword\">tính thống nhất bền vững</span> là:<div class=\"options-grid\"><div class=\"option-item\">A. Có chung một tâm lý, ý thức.</div><div class=\"option-item\">B. Có chung một nền văn hóa.</div><div class=\"option-item correct\">C. Có chung một phương thức sinh hoạt kinh tế.</div><div class=\"option-item\">D. Có chung một ngôn ngữ làm công cụ giao tiếp.</div></div><div class=\"note\">💡 <b>Giải thích:</b> Có chung một phương thức sinh hoạt kinh tế (thị trường dân tộc thống nhất) là đặc trưng cơ bản và quan trọng nhất, là chất keo kinh tế gắn kết bền chặt các bộ phận, thành viên của cộng đồng quốc gia dân tộc.</div>",
+    "answer": "Có chung một <span class=\"answer-keyword\">phương thức sinh hoạt kinh tế</span>.",
+    "options": [
+      "Có chung một tâm lý, ý thức.",
+      "Có chung một nền văn hóa.",
+      "Có chung một phương thức sinh hoạt kinh tế.",
+      "Có chung một ngôn ngữ làm công cụ giao tiếp."
+    ],
+    "tags": [
+      "Dân Tộc & Tôn Giáo"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Theo <span class=\"keyword\">Cương lĩnh dân tộc</span> của V.I.Lênin, <span class=\"keyword\">cơ sở để thực hiện quyền dân tộc tự quyết</span> và <span class=\"keyword\">xây dựng mối quan hệ hữu nghị</span> giữa các dân tộc là:<div class=\"options-grid\"><div class=\"option-item\">A. Quyền độc lập giữa các dân tộc.</div><div class=\"option-item\">B. Quyền giao lưu giữa các dân tộc.</div><div class=\"option-item\">C. Quyền liên hiệp công nhân tất cả các dân tộc.</div><div class=\"option-item correct\">D. Quyền bình đẳng giữa các dân tộc.</div></div><div class=\"note\">💡 <b>Giải thích:</b> Các dân tộc hoàn toàn bình đẳng là quyền thiêng liêng cơ bản của mọi dân tộc, là cơ sở nền tảng để thực hiện quyền dân tộc tự quyết và xây dựng mối quan hệ hữu nghị, hợp tác bình đẳng giữa các dân tộc.</div>",
+    "answer": "Quyền <span class=\"answer-keyword\">bình đẳng giữa các dân tộc</span>.",
+    "options": [
+      "Quyền độc lập giữa các dân tộc.",
+      "Quyền giao lưu giữa các dân tộc.",
+      "Quyền liên hiệp công nhân tất cả các dân tộc.",
+      "Quyền bình đẳng giữa các dân tộc."
+    ],
+    "tags": [
+      "Dân Tộc & Tôn Giáo"
+    ]
+  },
+  {
+    "weight": "high",
+    "question": "Một trong những <span class=\"keyword\">đặc điểm của dân tộc ở Việt Nam</span> là:<div class=\"options-grid\"><div class=\"option-item correct\">A. Có truyền thống đoàn kết, gắn bó lâu đời trong cộng đồng dân tộc - quốc gia thống nhất.</div><div class=\"option-item\">B. Có lãnh thổ cư trú riêng.</div><div class=\"option-item\">C. Có sự đồng đều về số dân giữa các tộc người.</div><div class=\"option-item\">D. Có trình độ phát triển đồng đều về kinh tế, văn hóa, xã hội.</div></div><div class=\"note\">💡 <b>Giải thích:</b> Do yêu cầu trị thủy và chống giặc ngoại xâm từ thuở dựng nước, các dân tộc ở Việt Nam có truyền thống đoàn kết, gắn bó keo sơn lâu đời trong một cộng đồng quốc gia - dân tộc thống nhất.</div>",
+    "answer": "Có <span class=\"answer-keyword\">truyền thống đoàn kết, gắn bó lâu đời</span> trong cộng đồng dân tộc - quốc gia thống nhất.",
+    "options": [
+      "Có truyền thống đoàn kết, gắn bó lâu đời trong cộng đồng dân tộc - quốc gia thống nhất.",
+      "Có lãnh thổ cư trú riêng.",
+      "Có sự đồng đều về số dân giữa các tộc người.",
+      "Có trình độ phát triển đồng đều về kinh tế, văn hóa, xã hội."
+    ],
+    "tags": [
+      "Dân Tộc & Tôn Giáo"
     ]
   }
 ]

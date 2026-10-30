@@ -98,3 +98,4 @@ Khi chạy xong luồng xử lý câu hỏi mới, Agent tự động thêm 1 d�
   + 18. Chủ nghĩa xã hội khoa học: Ban đầu 44 câu -> Thêm mới 48 câu, cập nhật giải thích 17 câu -> Tổng ngân hàng: 92 câu.
   + 20. Logic học đại cương: Ban đầu 38 câu -> Thêm mới 25 câu, cập nhật giải thích 14 câu -> Tổng ngân hàng: 63 câu.
   + 17. Marketing căn bản: Ban đầu 79 câu -> Thêm mới 16 câu, cập nhật giải thích 25 câu -> Tổng ngân hàng: 95 câu.
+- [2026-10-30] [Chủ nghĩa xã hội khoa học] Xử lý lô đề Batch 4 (20 câu Chương 5 & 6): Lọc trùng 9 câu đã có trong kho, thêm mới 11 câu. Tiệt trùng HTML, highlight Ma Trận Lục Hợp, gán trọng số blueprint 80/20 (8 câu High). Tổng ngân hàng: 103 câu. Lưu thành công vào qs.json.
