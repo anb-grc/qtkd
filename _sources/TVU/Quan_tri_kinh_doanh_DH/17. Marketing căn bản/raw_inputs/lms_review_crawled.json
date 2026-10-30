@@ -1,0 +1,842 @@
+[
+  {
+    "source": "LTTN_1",
+    "num": 1,
+    "question": "Quá trình phát triển của Marketing được chia thành mấy thời kỳ, đó là những thời kỳ nào?",
+    "options": [
+      "2 thời kỳ: Thời kỳ từ đầu thế kỷ 20 đến đầu thập niên 1960 và thời kỳ từ 1960 trở về sau.",
+      "3 thời kỳ: Từ đầu thế kỷ 20 đến 1930; từ 1930 – 1960; từ 1960 trở về sau.",
+      "2 thời kỳ: từ đầu thế kỷ 20 đến 1986; từ 1986 trở về sau.",
+      "3 thời kỳ: Từ đầu thế kỷ 20 đến 1960; từ 1960 – 1980; từ 1980 trở về sau."
+    ],
+    "answer": "2 thời kỳ: Thời kỳ từ đầu thế kỷ 20 đến đầu thập niên 1960 và thời kỳ từ 1960 trở về sau.",
+    "explanation": "A. 2 thời kỳ: Thời kỳ từ đầu thế kỷ 20 đến đầu thập niên 1960 và thời kỳ từ 1960 trở về sau. ✓",
+    "raw_feedback": "A.\n2 thời kỳ: Thời kỳ từ đầu thế kỷ 20 đến đầu thập niên 1960 và thời kỳ từ 1960 trở về sau.\n✓"
+  },
+  {
+    "source": "LTTN_1",
+    "num": 2,
+    "question": "Theo Hiệp hội Marketing Hoa Kỳ thì Marketing bao gồm các hoạt động nào?",
+    "options": [
+      "Quảng cáo và tuyên truyền về sản phẩm, dịch vụ",
+      "Nghiên cứu thị trường và sản xuất sản phẩm, định giá, phân phối và chiêu thị",
+      "Quảng cáo và tiếp thị",
+      "Nghiên cứu thị trường và sản xuất sản phẩm"
+    ],
+    "answer": "Nghiên cứu thị trường và sản xuất sản phẩm, định giá, phân phối và chiêu thị",
+    "explanation": "B. Nghiên cứu thị trường và sản xuất sản phẩm, định giá, phân phối và chiêu thị ✓",
+    "raw_feedback": "B.\nNghiên cứu thị trường và sản xuất sản phẩm, định giá, phân phối và chiêu thị\n✓"
+  },
+  {
+    "source": "LTTN_1",
+    "num": 3,
+    "question": "Marketing có vai trò như thế nào đối với doanh nghiệp?",
+    "options": [
+      "Làm cho các hoạt động của doanh nghiệp thích ứng với thị trường.",
+      "Nghiên cứu thị trường",
+      "Tiêu thụ sản phẩm",
+      "Làm tăng thị phần"
+    ],
+    "answer": "Làm cho các hoạt động của doanh nghiệp thích ứng với thị trường.",
+    "explanation": "A. Làm cho các hoạt động của doanh nghiệp thích ứng với thị trường. ✓",
+    "raw_feedback": "A.\nLàm cho các hoạt động của doanh nghiệp thích ứng với thị trường.\n✓"
+  },
+  {
+    "source": "LTTN_1",
+    "num": 4,
+    "question": "Marketing được chia thành Marketing cho hàng hóa hữu hình và Marketing dịch vụ. Đây là cách phân loại Marketing dựa vào",
+    "options": [
+      "Đặc điểm sản phẩm",
+      "Phạm vi hoạt động",
+      "Khách hàng",
+      "Lĩnh vực hoạt động"
+    ],
+    "answer": "Đặc điểm sản phẩm",
+    "explanation": "A. Đặc điểm sản phẩm ✓",
+    "raw_feedback": "A.\nĐặc điểm sản phẩm\n✓"
+  },
+  {
+    "source": "LTTN_1",
+    "num": 5,
+    "question": "Hoạt động quảng cáo thuộc công cụ nào của Marketing-mix?",
+    "options": [
+      "P2: Price (Giá cả)",
+      "P3: Place (Phân phối)",
+      "P1: Product (Sản phẩm)",
+      "P4: Promotion (Chiêu thị)"
+    ],
+    "answer": "P4: Promotion (Chiêu thị)",
+    "explanation": "D. P4: Promotion (Chiêu thị) ✓",
+    "raw_feedback": "D.\nP4: Promotion (Chiêu thị)\n✓"
+  },
+  {
+    "source": "LTTN_1",
+    "num": 6,
+    "question": "Marketing-mix bao gồm các công cụ nào?",
+    "options": [
+      "Bán hàng; dịch vụ khách hàng; giá cả; bảo hành",
+      "Sản phẩm; giá cả; phân phối; xúc tiến",
+      "Giá bán; chất lượng; phân phối; chăm sóc khách hàng",
+      "Bao bì; kênh phân phối; yếu tố hữu hình; quảng cáo"
+    ],
+    "answer": "Sản phẩm; giá cả; phân phối; xúc tiến",
+    "explanation": "B. Sản phẩm; giá cả; phân phối; xúc tiến ✓",
+    "raw_feedback": "B.\nSản phẩm; giá cả; phân phối; xúc tiến\n✓"
+  },
+  {
+    "source": "LTTN_1",
+    "num": 7,
+    "question": "Nguyên tắc nào giữ vai trò chủ đạo trong marketing?",
+    "options": [
+      "Nguyên tắc phối hợp",
+      "Nguyên tắc giá trị khách hàng",
+      "Nguyên tắc lợi thế khác biệt hay dị biệt",
+      "Nguyên tắc chọn lọc và tập trung"
+    ],
+    "answer": "Nguyên tắc chọn lọc và tập trung",
+    "explanation": "D. Nguyên tắc chọn lọc và tập trung ✓",
+    "raw_feedback": "D.\nNguyên tắc chọn lọc và tập trung\n✓"
+  },
+  {
+    "source": "LTTN_1",
+    "num": 8,
+    "question": "Quyết định lựa chọn thị trường mục tiêu thuộc chức năng nào của nhà quản trị marketing?",
+    "options": [
+      "Tổ chức",
+      "Hoạch định",
+      "Lãnh đạo",
+      "Kiểm tra"
+    ],
+    "answer": "Hoạch định",
+    "explanation": "B. Hoạch định ✓",
+    "raw_feedback": "B.\nHoạch định\n✓"
+  },
+  {
+    "source": "LTTN_1",
+    "num": 9,
+    "question": "Hoạt động marketing trong doanh nghiệp bắt đầu",
+    "options": [
+      "Trước khi bắt đầu quá trình sản xuất ra sản phẩm",
+      "Trong và ngay sau khi bán sản phẩm cho khách hàng",
+      "Ngay từ khi bắt đầu quá trình sản xuất ra sản phẩm",
+      "Ngay sau khi bán sản phẩm cho khách hàng"
+    ],
+    "answer": "Trước khi bắt đầu quá trình sản xuất ra sản phẩm",
+    "explanation": "A. Trước khi bắt đầu quá trình sản xuất ra sản phẩm ✓",
+    "raw_feedback": "A.\nTrước khi bắt đầu quá trình sản xuất ra sản phẩm\n✓"
+  },
+  {
+    "source": "LTTN_1",
+    "num": 10,
+    "question": "Có thể nói rằng",
+    "options": [
+      "Marketing bao gồm cả hoạt động bán hàng.",
+      "Bán hàng bao gồm cả Marketing",
+      "Marketing và bán hàng là hai thuật ngữ khác biệt nhau",
+      "Marketing và bán hàng là hai thuật ngữ đồng nghĩa"
+    ],
+    "answer": "Marketing bao gồm cả hoạt động bán hàng.",
+    "explanation": "A. Marketing bao gồm cả hoạt động bán hàng. ✓",
+    "raw_feedback": "A.\nMarketing bao gồm cả hoạt động bán hàng.\n✓"
+  },
+  {
+    "source": "LTTN_2",
+    "num": 1,
+    "question": "Hoạt động định vị sản phẩm là",
+    "options": [
+      "sự lựa chọn một hoặc nhiều vùng thị trường thích hợp nhất, có độ hấp dẫn cao nhất đối với doanh nghiệp",
+      "các yếu tố như giao hàng tận nơi, lắp đặt, hướng dẫn khách hàng sử dụng, sửa chữa, bảo hành,…",
+      "chia thị trường thành nhiều phân đoạn khác nhau theo những tiêu thức nhất định",
+      "xác định vị trí sản phẩm và phát triển vị trí sản phẩm trong tâm trí khách hàng"
+    ],
+    "answer": "xác định vị trí sản phẩm và phát triển vị trí sản phẩm trong tâm trí khách hàng",
+    "explanation": "D. xác định vị trí sản phẩm và phát triển vị trí sản phẩm trong tâm trí khách hàng ✓",
+    "raw_feedback": "D.\nxác định vị trí sản phẩm và phát triển vị trí sản phẩm trong tâm trí khách hàng\n✓"
+  },
+  {
+    "source": "LTTN_2",
+    "num": 2,
+    "question": "Môi trường marketing là tổng hợp các yếu tố nào doanh nghiệp có ảnh hưởng đến hoạt động Marketing của doanh nghiệp?",
+    "options": [
+      "Bên trong hoặc bên ngoài",
+      "Bên trong.",
+      "Bên trong và bên ngoài",
+      "Bên ngoài."
+    ],
+    "answer": "Bên trong và bên ngoài",
+    "explanation": "C. Bên trong và bên ngoài ✓",
+    "raw_feedback": "C.\nBên trong và bên ngoài\n✓"
+  },
+  {
+    "source": "LTTN_2",
+    "num": 3,
+    "question": "Các vấn đề liên quan đến công tác sản xuất và nghiên cứu phát triển sản phẩm mới của công ty thuộc môi trường nào?",
+    "options": [
+      "Vi mô",
+      "Nội bộ",
+      "Vĩ mô",
+      "Toàn cầu"
+    ],
+    "answer": "Nội bộ",
+    "explanation": "B. Nội bộ ✓",
+    "raw_feedback": "B.\nNội bộ\n✓"
+  },
+  {
+    "source": "LTTN_2",
+    "num": 4,
+    "question": "Người tiêu dùng quyết định mua hàng là do bị tác động bởi các nhân tố nào sau đây?",
+    "options": [
+      "Các đặc điểm tâm lý cá nhân của chính khách hàng",
+      "Kích thích marketing từ phía doanh nghiệp",
+      "Bị tác động bởi nhà sản xuất, điều kiện sống và đặc điểm tâm lý cá nhân",
+      "Tác động từ một số yếu tố của môi trường vĩ mô"
+    ],
+    "answer": "Bị tác động bởi nhà sản xuất, điều kiện sống và đặc điểm tâm lý cá nhân",
+    "explanation": "C. Bị tác động bởi nhà sản xuất, điều kiện sống và đặc điểm tâm lý cá nhân ✓",
+    "raw_feedback": "C.\nBị tác động bởi nhà sản xuất, điều kiện sống và đặc điểm tâm lý cá nhân\n✓"
+  },
+  {
+    "source": "LTTN_2",
+    "num": 5,
+    "question": "Các doanh nghiệp sản xuất hàng tiêu dùng thường đầu tư vào thị trường các nước đang phát triển. Quyết định này dựa trên phân tích nào?",
+    "options": [
+      "Môi trường dân số toàn cầu",
+      "Môi trường chính trị thế giới",
+      "Môi trường văn hóa quốc tế",
+      "Môi trường kinh tế thế giới"
+    ],
+    "answer": "Môi trường dân số toàn cầu",
+    "explanation": "A. Môi trường dân số toàn cầu ✓",
+    "raw_feedback": "A.\nMôi trường dân số toàn cầu\n✓"
+  },
+  {
+    "source": "LTTN_2",
+    "num": 6,
+    "question": "Ngày nay, các sản phẩm cùng loại của các nhà sản xuất tương đối như nhau về kiểu dáng lẫn chất lượng, vì vậy việc định vị quan trọng nhất để tăng sức cạnh trạnh là nên tập trung vào",
+    "options": [
+      "Lợi ích sản phẩm",
+      "Hình ảnh nhân sự",
+      "Chủng loại sản phẩm",
+      "Dịch vụ đi kèm"
+    ],
+    "answer": "Dịch vụ đi kèm",
+    "explanation": "D. Dịch vụ đi kèm ✓",
+    "raw_feedback": "D.\nDịch vụ đi kèm\n✓"
+  },
+  {
+    "source": "LTTN_2",
+    "num": 7,
+    "question": "Mục đích của việc lập ma trận SWOT là gì?",
+    "options": [
+      "Quy định chiến lược nào là tốt nhất",
+      "Đề ra các chiến lược có thể lựa chọn",
+      "Xác định các cơ hội thị trường",
+      "Lựa chọn chiến lược phù hợp nhất"
+    ],
+    "answer": "Đề ra các chiến lược có thể lựa chọn",
+    "explanation": "B. Đề ra các chiến lược có thể lựa chọn ✓",
+    "raw_feedback": "B.\nĐề ra các chiến lược có thể lựa chọn\n✓"
+  },
+  {
+    "source": "LTTN_2",
+    "num": 8,
+    "question": "Điều kiện để phân đoạn thị trường là",
+    "options": [
+      "Phải đo lường được về quy mô và hiệu quả kinh doanh của đoạn thị trường",
+      "Khúc thị trường phải đủ lớn và tăng trưởng tốt, phù hợp với mục tiêu và nguồn lực của doanh nghiệp",
+      "Phải có sự khác nhau về nhu cầu giữa các nhóm khách hàng khác nhau",
+      "Nhu cầu của khách hàng trong đoạn thị trường phải đủ lớn để có khả năng sinh lợi"
+    ],
+    "answer": "Khúc thị trường phải đủ lớn và tăng trưởng tốt, phù hợp với mục tiêu và nguồn lực của doanh nghiệp",
+    "explanation": "B. Khúc thị trường phải đủ lớn và tăng trưởng tốt, phù hợp với mục tiêu và nguồn lực của doanh nghiệp ✓",
+    "raw_feedback": "B.\nKhúc thị trường phải đủ lớn và tăng trưởng tốt, phù hợp với mục tiêu và nguồn lực của doanh nghiệp\n✓"
+  },
+  {
+    "source": "LTTN_2",
+    "num": 9,
+    "question": "Khách hàng là tổ chức thường có đặc điểm cơ bản hấp dẫn các doanh nghiệp là",
+    "options": [
+      "Mua hàng nhiều và mang tính lặp lại",
+      "Mua hàng với số lượng lớn",
+      "Mua hàng trả tiền ngay",
+      "Mua hàng thông qua đấu thầu"
+    ],
+    "answer": "Mua hàng nhiều và mang tính lặp lại",
+    "explanation": "A. Mua hàng nhiều và mang tính lặp lại ✓",
+    "raw_feedback": "A.\nMua hàng nhiều và mang tính lặp lại\n✓"
+  },
+  {
+    "source": "LTTN_2",
+    "num": 10,
+    "question": "Hoạt động nào mang tính bao quát toàn bộ doanh nghiệp?",
+    "options": [
+      "Tài chính",
+      "Marketing",
+      "Phân phối",
+      "Sản xuất"
+    ],
+    "answer": "Marketing",
+    "explanation": "B. Marketing ✓",
+    "raw_feedback": "B.\nMarketing\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 1,
+    "question": "Trong chu kỳ sống của sản phẩm, giai đoạn nào có doanh thu và lợi nhuận là cao nhất?",
+    "options": [
+      "Giới thiệu",
+      "Trưởng thành",
+      "Tăng trưởng",
+      "Suy thoái"
+    ],
+    "answer": "Trưởng thành",
+    "explanation": "B. _ Trưởng thành ✓",
+    "raw_feedback": "B.\n_ Trưởng thành\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 2,
+    "question": "Sắp xếp các tầng của sản phẩm theo thứ tự từ thấp đến cao.",
+    "options": [
+      "Sản phẩm cốt lõi– sản phẩm hiện thực – sản phẩm gia tăng – sản phẩm tiềm năng",
+      "Sản phẩm cốt lõi – sản phẩm hiện thực – sản phẩm tiềm năng – sản phẩm gia tăng",
+      "Sản phẩm cốt lõi – sản phẩm gia tăng – sản phẩm tiềm năng – sản phẩm hiện thực",
+      "Sản phẩm cốt lõi – sản phẩm tiềm năng – sản phẩm hiện thực – sản phẩm gia tăng"
+    ],
+    "answer": "Sản phẩm cốt lõi– sản phẩm hiện thực – sản phẩm gia tăng – sản phẩm tiềm năng",
+    "explanation": "A. _ Sản phẩm cốt lõi– sản phẩm hiện thực – sản phẩm gia tăng – sản phẩm tiềm năng ✓",
+    "raw_feedback": "A.\n_ Sản phẩm cốt lõi– sản phẩm hiện thực – sản phẩm gia tăng – sản phẩm tiềm năng\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 3,
+    "question": "Quy trình phát triển sản phẩm mới bắt đầu bằng việc",
+    "options": [
+      "Sàng lọc ý tưởng",
+      "Hình thành ý tưởng",
+      "Phân tích kinh doanh",
+      "Thử nghiệm thị trường"
+    ],
+    "answer": "Hình thành ý tưởng",
+    "explanation": "B. Hình thành ý tưởng ✓",
+    "raw_feedback": "B.\nHình thành ý tưởng\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 4,
+    "question": "Mục tiêu chính của hoạt động truyền thông trong giai đoạn tăng trưởng là",
+    "options": [
+      "Thuyết phục khách hàng",
+      "Quảng bá sản phẩm",
+      "Cung cấp thông tin",
+      "Tăng lượng khách hàng"
+    ],
+    "answer": "Thuyết phục khách hàng",
+    "explanation": "A. Thuyết phục khách hàng ✓",
+    "raw_feedback": "A.\nThuyết phục khách hàng\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 5,
+    "question": "Trình tự hợp lý trong quá trình chấp nhận sản phẩm mới của khách hàng là",
+    "options": [
+      "Biết đến – Quan tâm – Đánh giá – Dùng thử – Chấp nhận",
+      "Biết đến - Đánh giá – Quan tâm – Dùng thử – Chấp nhận",
+      "Biết đến – Quan tâm – Dùng thử – Đánh giá – Chấp nhận",
+      "Biết đến – Quan tâm – Chấp nhận - Dùng thử – Đánh giá"
+    ],
+    "answer": "Biết đến – Quan tâm – Đánh giá – Dùng thử – Chấp nhận",
+    "explanation": "A. _ Biết đến – Quan tâm – Đánh giá – Dùng thử – Chấp nhận ✓",
+    "raw_feedback": "A.\n_ Biết đến – Quan tâm – Đánh giá – Dùng thử – Chấp nhận\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 6,
+    "question": "Mục tiêu chính của hoạt động truyền thông trong giai đoạn giới thiệu là",
+    "options": [
+      "Quảng bá sản phẩm",
+      "Thuyết phục khách hàng",
+      "Tăng lượng khách hàng",
+      "Cung cấp thông tin"
+    ],
+    "answer": "Cung cấp thông tin",
+    "explanation": "D. Cung cấp thông tin ✓",
+    "raw_feedback": "D.\nCung cấp thông tin\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 7,
+    "question": "Các sản phẩm dầu gội đầu dành cho nam đều có khách hàng ưa thích riêng của nó, đây là kết quả của quá trình",
+    "options": [
+      "Cải tiến",
+      "Phân phối",
+      "Định vị",
+      "Phân khúc"
+    ],
+    "answer": "Định vị",
+    "explanation": "C. Định vị ✓",
+    "raw_feedback": "C.\nĐịnh vị\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 8,
+    "question": "Hầu hết các sản phẩm mới trên thị trường hiện nay thuộc loại",
+    "options": [
+      "Công nghiệp",
+      "Sản phẩm cải tiến",
+      "Dân dụng",
+      "Mới hoàn toàn"
+    ],
+    "answer": "Sản phẩm cải tiến",
+    "explanation": "B. Sản phẩm cải tiến ✓",
+    "raw_feedback": "B.\nSản phẩm cải tiến\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 9,
+    "question": "Một số công ty chạy đua với nhau về mặt giá cả, họ định giá gần giống như nhau cho các sản phẩm cùng loại, đây là phương pháp định giá",
+    "options": [
+      "Dựa vào chi phí",
+      "Dựa vào đấu thầu",
+      "Dựa trên người mua",
+      "Theo thời giá"
+    ],
+    "answer": "Theo thời giá",
+    "explanation": "D. _ Theo thời giá ✓",
+    "raw_feedback": "D.\n_ Theo thời giá\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 10,
+    "question": "Định giá bằng cách lấy giá thành sản xuất cộng cho một khoảng lợi nhuận mục tiêu trên mỗi sản phẩm, đây là phương pháp định giá",
+    "options": [
+      "Dựa vào mùa vụ",
+      "Dựa trên người mua",
+      "Dựa vào đấu thầu",
+      "Dựa vào chi phí"
+    ],
+    "answer": "Dựa vào chi phí",
+    "explanation": "D. _ Dựa vào chi phí ✓",
+    "raw_feedback": "D.\n_ Dựa vào chi phí\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 11,
+    "question": "Những yếu tố bên trong nào ảnh hưởng đến việc định giá?",
+    "options": [
+      "Bản chất thị trường",
+      "Đối thủ cạnh tranh",
+      "Nhu cầu, thị hiếu của khách hàng",
+      "Chi phí sản xuất sản phẩm"
+    ],
+    "answer": "Chi phí sản xuất sản phẩm",
+    "explanation": "D. _ Chi phí sản xuất sản phẩm ✓",
+    "raw_feedback": "D.\n_ Chi phí sản xuất sản phẩm\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 12,
+    "question": "Yếu tố nào sao đây KHÔNG ảnh hưởng đến việc định giá?",
+    "options": [
+      "Bản chất của thị trường và lượng cầu",
+      "Chi phí hoạt động marketing",
+      "Thương hiệu nổi tiếng của đối thủ",
+      "Tỉ lệ phế phẩm trong quá trình sản xuất ✗"
+    ],
+    "answer": "Thương hiệu nổi tiếng của đối thủ",
+    "explanation": "",
+    "raw_feedback": "Phản hồi:\n\nSai. Đáp án đúng là: Thương hiệu nổi tiếng của đối thủ\n\nVì:\nTham khảo:"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 13,
+    "question": "Chiến lược giá “hớt váng” là",
+    "options": [
+      "doanh nghiệp đặt giá bán cao áp dụng đối với sản phẩm cao cấp",
+      "doanh nghiệp đặt giá bán cao áp dụng đối với sản phẩm thông thường (bình dân)",
+      "doanh nghiệp đặt giá bán thấp áp dụng đối với sản phẩm cao cấp",
+      "doanh nghiệp đặt giá bán thấp áp dụng đối với sản phẩm thông thường (bình dân)"
+    ],
+    "answer": "doanh nghiệp đặt giá bán cao áp dụng đối với sản phẩm cao cấp",
+    "explanation": "A. _ doanh nghiệp đặt giá bán cao áp dụng đối với sản phẩm cao cấp ✓",
+    "raw_feedback": "A.\n_ doanh nghiệp đặt giá bán cao áp dụng đối với sản phẩm cao cấp\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 14,
+    "question": "Chiến lược giá tuyệt hảo là",
+    "options": [
+      "Giá cả cao – Chất lượng thấp",
+      "Giá cả thấp – Chất lượng cao",
+      "Giá cả cao – Chất lượng cao ✗",
+      "Giá cả thấp – Chất lượng thấp"
+    ],
+    "answer": "Giá cả thấp – Chất lượng cao",
+    "explanation": "",
+    "raw_feedback": "Phản hồi:\n\nSai. Đáp án đúng là: Giá cả thấp – Chất lượng cao\n\nVì:\nTham khảo:"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 15,
+    "question": "Yếu tố nào sau đây ảnh hưởng đến việc định giá?",
+    "options": [
+      "Tình hình tài chính khó khăn",
+      "Máy móc thiết bị xuống cấp",
+      "Lao động đang thiếu hụt",
+      "Giá của đối thủ cạnh tranh"
+    ],
+    "answer": "Giá của đối thủ cạnh tranh",
+    "explanation": "D. Giá của đối thủ cạnh tranh ✓",
+    "raw_feedback": "D.\nGiá của đối thủ cạnh tranh\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 16,
+    "question": "Xác định % tăng giá nhằm bồi hoàn các khoản chi phí bán hàng và đạt được mức lợi nhuận mong muốn là thuộc phương pháp định giá nào?",
+    "options": [
+      "Theo giá cạnh tranh hiện hành",
+      "Theo giá trị cảm nhận của khách hàng",
+      "Định giá đấu thầu kín",
+      "Dựa vào chi phí"
+    ],
+    "answer": "Dựa vào chi phí",
+    "explanation": "D. Dựa vào chi phí ✓",
+    "raw_feedback": "D.\nDựa vào chi phí\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 17,
+    "question": "Phát biểu nào sau đây KHÔNG đúng?",
+    "options": [
+      "Chi phí cố định phân bổ cho một đơn vị sản phẩm sẽ giảm khi sản lượng tăng lên",
+      "Chi phí biến đổi cho 1 sản phẩm là chi phí biến đổi theo sản lượng",
+      "Sản lượng tăng không làm thay đổi tổng chi phí biến đổi",
+      "Giá thành một đơn vị sản phẩm thường giảm khi sản lượng tăng lên"
+    ],
+    "answer": "Sản lượng tăng không làm thay đổi tổng chi phí biến đổi",
+    "explanation": "C. Sản lượng tăng không làm thay đổi tổng chi phí biến đổi ✓",
+    "raw_feedback": "C.\nSản lượng tăng không làm thay đổi tổng chi phí biến đổi\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 18,
+    "question": "Chiến lược giá cắt cổ là",
+    "options": [
+      "Giá cả thấp – Chất lượng thấp",
+      "Giá cả cao – Chất lượng cao",
+      "Giá cả cao – Chất lượng thấp",
+      "Giá cả thấp – Chất lượng cao"
+    ],
+    "answer": "Giá cả cao – Chất lượng thấp",
+    "explanation": "C. Giá cả cao – Chất lượng thấp ✓",
+    "raw_feedback": "C.\nGiá cả cao – Chất lượng thấp\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 19,
+    "question": "Khi sản phẩm của doanh nghiệp có những khác biệt so với những sản phẩm cạnh tranh và sự khác biệt này được khách hàng chấp nhận thì doanh nghiệp nên",
+    "options": [
+      "Định giá thấp hơn sản phẩm cạnh tranh",
+      "Định giá theo chi phí sản phẩm",
+      "Định giá theo thời vụ",
+      "Định giá cao hơn sản phẩm cạnh tranh"
+    ],
+    "answer": "Định giá cao hơn sản phẩm cạnh tranh",
+    "explanation": "D. Định giá cao hơn sản phẩm cạnh tranh ✓",
+    "raw_feedback": "D.\nĐịnh giá cao hơn sản phẩm cạnh tranh\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 20,
+    "question": "Mục tiêu định giá tối đa hóa lợi nhuận tương ứng với kiểu chiến lược giá",
+    "options": [
+      "Trọn gói",
+      "Hớt váng",
+      "Thẩm thấu ✗",
+      "Trung hòa"
+    ],
+    "answer": "Hớt váng",
+    "explanation": "",
+    "raw_feedback": "Phản hồi:\n\nSai. Đáp án đúng là: Hớt váng\n\nVì:\nTham khảo:"
+  },
+  {
+    "source": "LTTN_4",
+    "num": 1,
+    "question": "Định nghĩa nào sau đây đúng với một nhà bán buôn trong kênh phân phối?",
+    "options": [
+      "Là trung gian có quyền hành động hợp pháp thay cho nhà sản xuất",
+      "Là trung gian bán sản phẩm trực tiếp cho người tiêu dùng cuối cùng",
+      "Là trung gian mua sản phẩm của nhà sản xuất và bán cho các trung gian khác",
+      "Là trung gian thực hiện chức năng phân phối trên thị trường công nghiệp."
+    ],
+    "answer": "Là trung gian mua sản phẩm của nhà sản xuất và bán cho các trung gian khác",
+    "explanation": "C. Là trung gian mua sản phẩm của nhà sản xuất và bán cho các trung gian khác ✓",
+    "raw_feedback": "C.\nLà trung gian mua sản phẩm của nhà sản xuất và bán cho các trung gian khác\n✓"
+  },
+  {
+    "source": "LTTN_4",
+    "num": 2,
+    "question": "Để lựa chọn kênh phân phối, doanh nghiệp KHÔNG cần dựa vào yếu tố nào sau đây?",
+    "options": [
+      "Thị trường và môi trường hoạt động",
+      "Hệ thống các trung gian phân phối",
+      "Bản thân doanh nghiệp và đặc tính của sản phẩm",
+      "Giá cả của sản phẩm đối thủ cạnh tranh"
+    ],
+    "answer": "Giá cả của sản phẩm đối thủ cạnh tranh",
+    "explanation": "D. Giá cả của sản phẩm đối thủ cạnh tranh ✓",
+    "raw_feedback": "D.\nGiá cả của sản phẩm đối thủ cạnh tranh\n✓"
+  },
+  {
+    "source": "LTTN_4",
+    "num": 3,
+    "question": "Yếu tố nào là quan trọng nhất khi lựa chọn thành viên kênh phân phối các sản phẩm làm đẹp?",
+    "options": [
+      "Có kỹ năng bán hàng, cung cấp dịch vụ khách hàng",
+      "Có đủ vốn để thực hiện các đầu tư ban đầu",
+      "Có kinh nghiệm trong ngành hàng đó",
+      "Có địa điểm và mặt bằng phù hợp"
+    ],
+    "answer": "Có kỹ năng bán hàng, cung cấp dịch vụ khách hàng",
+    "explanation": "A. Có kỹ năng bán hàng, cung cấp dịch vụ khách hàng ✓",
+    "raw_feedback": "A.\nCó kỹ năng bán hàng, cung cấp dịch vụ khách hàng\n✓"
+  },
+  {
+    "source": "LTTN_4",
+    "num": 4,
+    "question": "Quyết định nào sau đây KHÔNG phải là quyết định cơ bản về marketing của các doanh nghiệp bán lẻ?",
+    "options": [
+      "Về xúc tiến hỗn hợp ✗",
+      "Về địa điểm cửa hàng",
+      "Về danh mục sản phẩm",
+      "Về hệ thống phân phối"
+    ],
+    "answer": "Về hệ thống phân phối",
+    "explanation": "",
+    "raw_feedback": "Phản hồi:\n\nSai. Đáp án đúng là: Về hệ thống phân phối\n\nVì:\nTham khảo:"
+  },
+  {
+    "source": "LTTN_4",
+    "num": 5,
+    "question": "Câu nào sau đây thể hiện đúng nhất sự khác nhau giữa kênh phân phối truyền thống và kênh phân phối dọc?",
+    "options": [
+      "Kênh truyền thống được tổ chức theo kiểu dọc được tổ chức theo kiểu mới",
+      "Các thành viên trong kênh truyền thống hoạt động vì lợi ích riêng, còn kênh dọc thì các thành viên hoạt động thống nhất nhau",
+      "Kênh truyền thống không có hợp đồng ràng buộc, còn kênh dọc thì có hợp đồng",
+      "Kênh truyền thống chỉ có nhà sản xuất và người tiêu dùng"
+    ],
+    "answer": "Các thành viên trong kênh truyền thống hoạt động vì lợi ích riêng, còn kênh dọc thì các thành viên hoạt động thống nhất nhau",
+    "explanation": "B. Các thành viên trong kênh truyền thống hoạt động vì lợi ích riêng, còn kênh dọc thì các thành viên hoạt động thống nhất nhau ✓",
+    "raw_feedback": "B.\nCác thành viên trong kênh truyền thống hoạt động vì lợi ích riêng, còn kênh dọc thì các thành viên hoạt động thống nhất nhau\n✓"
+  },
+  {
+    "source": "LTTN_4",
+    "num": 6,
+    "question": "Để nâng cao hình ảnh sản phẩm và có thể mang lại cho doanh nghiệp sự chủ động trong việc cung ứng hàng hóa cho thị trường, doanh nghiệp sẽ chọn hình thức phân phối",
+    "options": [
+      "Chọn lọc",
+      "Hỗn hợp",
+      "Độc quyền",
+      "Rộng rãi"
+    ],
+    "answer": "Độc quyền",
+    "explanation": "C. Độc quyền ✓",
+    "raw_feedback": "C.\nĐộc quyền\n✓"
+  },
+  {
+    "source": "LTTN_4",
+    "num": 7,
+    "question": "Các hãng xe máy đang áp dụng hình thức phân phối nào ở Việt Nam?",
+    "options": [
+      "Vừa độc quyền vừa chọn lọc",
+      "Chọn lọc một số cửa hàng",
+      "Rộng rãi trên khắp cả nước",
+      "Độc quyền tại một số cửa hàng"
+    ],
+    "answer": "Vừa độc quyền vừa chọn lọc",
+    "explanation": "A. Vừa độc quyền vừa chọn lọc ✓",
+    "raw_feedback": "A.\nVừa độc quyền vừa chọn lọc\n✓"
+  },
+  {
+    "source": "LTTN_4",
+    "num": 8,
+    "question": "Các nhà sản xuất sử dụng các trung gian phân phối vì những lý do sau đây, NGOẠI TRỪ",
+    "options": [
+      "Các nhà sản xuất không muốn tham gia vào việc phân phối",
+      "Các nhà sản xuất thường đặt nhà máy ở nơi cách xa khách hàng",
+      "Nhà sản xuất không đủ tài chính để tổ chức phân phối hàng hóa",
+      "Các nhà sản xuất nhận thấy rõ hiệu quả của chuyên môn hóa"
+    ],
+    "answer": "Các nhà sản xuất không muốn tham gia vào việc phân phối",
+    "explanation": "A. Các nhà sản xuất không muốn tham gia vào việc phân phối ✓",
+    "raw_feedback": "A.\nCác nhà sản xuất không muốn tham gia vào việc phân phối\n✓"
+  },
+  {
+    "source": "LTTN_4",
+    "num": 9,
+    "question": "Công ty Honda đưa các sản phẩm của mình cho các cửa hàng, đại lý bán sản phẩm cho khách hàng. Công ty Honda tổ chức hệ thống kênh phân phối",
+    "options": [
+      "Trực tiếp",
+      "Ba cấp",
+      "Một cấp",
+      "Hai cấp"
+    ],
+    "answer": "Một cấp",
+    "explanation": "C. Một cấp ✓",
+    "raw_feedback": "C.\nMột cấp\n✓"
+  },
+  {
+    "source": "LTTN_4",
+    "num": 10,
+    "question": "Các công ty lớn trong lĩnh vực sản xuất hàng tiêu dùng (ví dụ P&G, Unilever,…) thường có mặt sản phẩm tại",
+    "options": [
+      "Các siêu thị trên toàn quốc",
+      "Các đại lý của công ty",
+      "Các chợ nhỏ miền quê",
+      "Các nhà phân phối trung gian"
+    ],
+    "answer": "Các siêu thị trên toàn quốc",
+    "explanation": "A. _ Các siêu thị trên toàn quốc ✓",
+    "raw_feedback": "A.\n_ Các siêu thị trên toàn quốc\n✓"
+  },
+  {
+    "source": "LTTN_4",
+    "num": 11,
+    "question": "Quá trình mà các ý tưởng được chuyển thành những hình thức có tính biểu tượng trong mô hình truyền thông được gọi là",
+    "options": [
+      "Nhiễu ✗",
+      "Mã hóa",
+      "Ghi nhớ",
+      "Giải mã"
+    ],
+    "answer": "Mã hóa",
+    "explanation": "",
+    "raw_feedback": "Phản hồi:\n\nSai. Đáp án đúng là: Mã hóa\n\nVì:\nTham khảo:"
+  },
+  {
+    "source": "LTTN_4",
+    "num": 12,
+    "question": "Trong số các hoạt động xúc tiến hỗn hợp, hoạt động có tác dụng thiết lập các mối quan hệ phong phú, đa dạng với khách hàng?",
+    "options": [
+      "Quảng cáo",
+      "Bán hàng cá nhân",
+      "Xúc tiến bán hàng",
+      "Quan hệ công chúng"
+    ],
+    "answer": "Quan hệ công chúng",
+    "explanation": "D. Quan hệ công chúng ✓",
+    "raw_feedback": "D.\nQuan hệ công chúng\n✓"
+  },
+  {
+    "source": "LTTN_4",
+    "num": 13,
+    "question": "Phương tiện nào có ưu điểm là có cả âm thanh, màu sắc, ngôn ngữ và đối tượng khán giả rộng nhưng chi phí thường cao?",
+    "options": [
+      "Tạp chí",
+      "Truyền hình",
+      "Báo in",
+      "Biển quảng cáo"
+    ],
+    "answer": "Truyền hình",
+    "explanation": "B. Truyền hình ✓",
+    "raw_feedback": "B.\nTruyền hình\n✓"
+  },
+  {
+    "source": "LTTN_4",
+    "num": 14,
+    "question": "Phương tiện quảng cáo nào cho phép tiếp cận toàn cầu, tuổi thọ cao, chi phí thấp, kết hợp cả hình ảnh, âm thanh, ngôn ngữ?",
+    "options": [
+      "Thư quảng cáo",
+      "Báo chí",
+      "Truyền hình",
+      "Internet"
+    ],
+    "answer": "Internet",
+    "explanation": "D. Internet ✓",
+    "raw_feedback": "D.\nInternet\n✓"
+  },
+  {
+    "source": "LTTN_4",
+    "num": 15,
+    "question": "Xác định ngân sách truyền thông có căn cứ và có cơ sở khoa học nhất là phương pháp",
+    "options": [
+      "Chi theo khả năng",
+      "Theo tỷ lệ doanh số bán",
+      "Căn cứ vào mục tiêu và nhiệm vụ",
+      "Cân bằng cạnh tranh"
+    ],
+    "answer": "Căn cứ vào mục tiêu và nhiệm vụ",
+    "explanation": "C. Căn cứ vào mục tiêu và nhiệm vụ ✓",
+    "raw_feedback": "C.\nCăn cứ vào mục tiêu và nhiệm vụ\n✓"
+  },
+  {
+    "source": "LTTN_4",
+    "num": 16,
+    "question": "Trong các phương pháp hoạch định ngân sách truyền thông, phương pháp nào dễ tính toán và dễ chấp nhận nhưng không có căn cứ vững chắc?",
+    "options": [
+      "Chi theo khả năng",
+      "Theo tỷ lệ doanh số bán",
+      "Căn cứ vào mục tiêu và nhiệm vụ",
+      "Cân bằng cạnh tranh"
+    ],
+    "answer": "Theo tỷ lệ doanh số bán",
+    "explanation": "B. Theo tỷ lệ doanh số bán ✓",
+    "raw_feedback": "B.\nTheo tỷ lệ doanh số bán\n✓"
+  },
+  {
+    "source": "LTTN_4",
+    "num": 17,
+    "question": "Nhiệm vụ nào dưới đây không phải là nhiệm vụ của người bán hàng trực tiếp?",
+    "options": [
+      "Tìm kiếm khách hàng mới",
+      "Thiết kế sản phẩm cho phù hợp với yêu cầu của khách hàng",
+      "Cung cấp dịch vụ trước và sau khi bán hàng",
+      "Truyền đạt thông tin về sản phẩm cho khách hàng"
+    ],
+    "answer": "Thiết kế sản phẩm cho phù hợp với yêu cầu của khách hàng",
+    "explanation": "B. Thiết kế sản phẩm cho phù hợp với yêu cầu của khách hàng ✓",
+    "raw_feedback": "B.\nThiết kế sản phẩm cho phù hợp với yêu cầu của khách hàng\n✓"
+  },
+  {
+    "source": "LTTN_4",
+    "num": 18,
+    "question": "Vận động hành lang là một loại trong chiến lược xúc tiến nào sau đây?",
+    "options": [
+      "Quảng cáo ✗",
+      "Ưu đãi trung gian phân phối",
+      "Quan hệ công chúng",
+      "Bán hàng trực tiếp"
+    ],
+    "answer": "Quan hệ công chúng",
+    "explanation": "",
+    "raw_feedback": "Phản hồi:\n\nSai. Đáp án đúng là: Quan hệ công chúng\n\nVì:\nTham khảo:"
+  },
+  {
+    "source": "LTTN_4",
+    "num": 19,
+    "question": "Trong hoạt động xúc tiến, công cụ hiệu quả nhất đối với các doanh nghiệp là",
+    "options": [
+      "Quảng cáo hoặc tiếp thị",
+      "Quan hệ công chúng (PR)",
+      "Marketing trực tiếp",
+      "Kết hợp nhiều công cụ"
+    ],
+    "answer": "Kết hợp nhiều công cụ",
+    "explanation": "D. Kết hợp nhiều công cụ ✓",
+    "raw_feedback": "D.\nKết hợp nhiều công cụ\n✓"
+  },
+  {
+    "source": "LTTN_4",
+    "num": 20,
+    "question": "Khi một công ty mới gia nhập thị trường, nếu quảng cáo trên truyền hình thì hình thức quảng cáo hiệu quả nhất là",
+    "options": [
+      "Đoạn phim thật ngắn (30 hoặc 60 giây)",
+      "Phóng sự ngắn (5 hoặc 10 phút)",
+      "Logo bật góc (trong một số chuyên mục)",
+      "Chạy chữ trong một số chương trình"
+    ],
+    "answer": "Phóng sự ngắn (5 hoặc 10 phút)",
+    "explanation": "B. _ Phóng sự ngắn (5 hoặc 10 phút) ✓",
+    "raw_feedback": "B.\n_ Phóng sự ngắn (5 hoặc 10 phút)\n✓"
+  }
+]

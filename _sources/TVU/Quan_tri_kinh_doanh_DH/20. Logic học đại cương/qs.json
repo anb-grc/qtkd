@@ -11,7 +11,7 @@
       "Không thừa nhận mọi tư tưởng đều mâu thuẫn",
       "<span class=\"answer-keyword\">Không cho phép</span> tư tưởng <span class=\"answer-keyword\">tự mâu thuẫn</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Không cho phép</span> tư tưởng <span class=\"answer-keyword\">tự mâu thuẫn</span> <div class=\"note\"><b>💡 Giải thích:</b> Quy luật cấm mâu thuẫn (quy luật mâu thuẫn) đòi hỏi trong quá trình tư duy về cùng một đối tượng trong cùng một thời gian và quan hệ xác định, tư tưởng không được vừa khẳng định vừa phủ định một thuộc tính, tức là không cho phép tư tưởng tự mâu thuẫn logic chủ quan.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Không cho phép</span> tư tưởng <span class=\"answer-keyword\">tự mâu thuẫn</span> <div class=\"note\"><b>💡 Giải thích:</b> A. Không cho phép tư tưởng tự mâu thuẫn ✓</div>",
     "weight": "high"
   },
   {
@@ -26,7 +26,7 @@
       "Có thể tuân thủ các quy luật cơ bản của logic hình thức thì tư duy không chính xác",
       "Tư duy chính xác thì không phải tuân thủ các quy luật cơ bản của logic hình thức"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Chỉ có tuân thủ các quy luật cơ bản của logic hình thức</span> thì tư duy <span class=\"answer-keyword\">mới có thể chính xác</span> <div class=\"note\"><b>💡 Giải thích:</b> Tuân thủ các quy luật của logic hình thức là điều kiện cần (chứ chưa phải điều kiện đủ) để tư duy đạt tính chính xác, rành mạch và không mâu thuẫn. Nếu không tuân thủ các quy luật này thì tư duy chắc chắn sai lầm; nhưng chỉ tuân thủ về mặt hình thức mà tiền đề sai thì kết luận vẫn có thể không chân thực. Do đó, \"Chỉ có tuân thủ... mới có thể chính xác\" là phương án đúng nhất.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Chỉ có tuân thủ các quy luật cơ bản của logic hình thức</span> thì tư duy <span class=\"answer-keyword\">mới có thể chính xác</span> <div class=\"note\"><b>💡 Giải thích:</b> C. Luận đề phải đồng nhất với chính nó trong suốt quá trình chứng minh. ✓</div>",
     "weight": "high"
   },
   {
@@ -86,7 +86,7 @@
       "“Nghệ thuật biểu diễn” được phân chia thành “âm nhạc”, “múa” và “điện ảnh”",
       "<span class=\"answer-keyword\">“Nghệ thuật tạo hình”</span> được phân chia thành <span class=\"answer-keyword\">“hội họa” và “điêu khắc”</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">“Nghệ thuật tạo hình”</span> được phân chia thành <span class=\"answer-keyword\">“hội họa” và “điêu khắc”</span> <div class=\"note\"><b>💡 Giải thích:</b> Phân chia khái niệm phải cùng một cơ sở và các thành phần phải loại trừ lẫn nhau. Câu A sai vì lẫn lộn cơ sở giới tính và đoàn thể; Câu B sai vì tam giác đều là tập con của tam giác cân (không loại trừ nhau); Câu C sai vì điện ảnh không thuộc nghệ thuật biểu diễn sân khấu trực tiếp; Câu D là phép phân chia chuẩn giữa hai loại hình không gian mặt phẳng 2D (hội họa) và không gian 3D (điêu khắc).</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">“Nghệ thuật tạo hình”</span> được phân chia thành <span class=\"answer-keyword\">“hội họa” và “điêu khắc”</span> <div class=\"note\"><b>💡 Giải thích:</b> D. “Nghệ thuật tạo hình” được phân chia thành “hội họa” và “điêu khắc” ✓</div>",
     "weight": "high"
   },
   {
@@ -131,7 +131,7 @@
       "Khái niệm rỗng và khái niệm cụ thể",
       "Khái niệm chung và khái niệm riêng"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>Khái niệm <span class=\"answer-keyword\">khẳng định</span> và khái niệm <span class=\"answer-keyword\">phủ định</span> <div class=\"note\"><b>💡 Giải thích:</b> Căn cứ vào dấu hiệu nội hàm, khái niệm được chia thành khái niệm khẳng định (chỉ sự tồn tại của thuộc tính) và phủ định (chỉ sự không tồn tại của thuộc tính); hoặc khái niệm cụ thể và trừu tượng. Còn phân chia thành đơn nhất/chung/tập hợp/rỗng là căn cứ vào ngoại diên.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>Khái niệm <span class=\"answer-keyword\">khẳng định</span> và khái niệm <span class=\"answer-keyword\">phủ định</span> <div class=\"note\"><b>💡 Giải thích:</b> D. Khái niệm khẳng định và khái niệm phủ định ✓</div>",
     "weight": "high"
   },
   {
@@ -146,7 +146,7 @@
       "<span class=\"answer-keyword\">thu hẹp nội hàm</span> của khái niệm",
       "mở rộng nội hàm của khái niệm"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">thu hẹp nội hàm</span> của khái niệm <div class=\"note\"><b>💡 Giải thích:</b> Theo quy luật tỷ lệ nghịch giữa nội hàm và ngoại diên: ngoại diên càng rộng thì nội hàm càng ít (thu hẹp lại); ngược lại ngoại diên càng hẹp thì nội hàm càng phong phú. Do đó, mở rộng ngoại diên của khái niệm đồng nghĩa với quá trình thu hẹp (bớt đi các thuộc tính trong) nội hàm.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">thu hẹp nội hàm</span> của khái niệm <div class=\"note\"><b>💡 Giải thích:</b> B. thu hẹp nội hàm của khái niệm ✓</div>",
     "weight": "high"
   },
   {
@@ -206,7 +206,7 @@
       "Phán đoán phủ định chung có giá trị đúng",
       "Chưa xác định được giá trị của phán đoán khẳng định chung."
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Phán đoán khẳng định chung có giá trị đúng</span> <div class=\"note\"><b>💡 Giải thích:</b> Phán đoán phủ định riêng là O. Khi O sai (O = 0), theo quan hệ mâu thuẫn (A và O không thể cùng sai), phán đoán khẳng định chung A bắt buộc phải đúng (A = 1).</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Phán đoán khẳng định chung có giá trị đúng</span> <div class=\"note\"><b>💡 Giải thích:</b> A. Phán đoán khẳng định chung có giá trị đúng ✓</div>",
     "weight": "high"
   },
   {
@@ -236,7 +236,7 @@
       "Chủ từ và vị từ luôn chu diên",
       "Chủ từ và vị từ luôn không chu diên"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Chủ từ không chu diên, vị từ chu diên hoặc không chu diên</span> <div class=\"note\"><b>💡 Giải thích:</b> Trong phán đoán khẳng định riêng (I: Một số S là P), chủ từ S luôn không chu diên (S⁻). Vị từ P không chu diên (P⁻) khi S và P giao nhau (ví dụ: Một số SV là VĐV); nhưng P chu diên (P⁺) khi P bị bao hàm hoàn toàn trong S (P ⊂ S, ví dụ: Một số động vật là chim).</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Chủ từ không chu diên, vị từ chu diên hoặc không chu diên</span> <div class=\"note\"><b>💡 Giải thích:</b> B. Chủ từ không chu diên, vị từ chu diên hoặc không chu diên ✓</div>",
     "weight": "high"
   },
   {
@@ -311,7 +311,7 @@
       "Chủ từ và vị từ không chu diên",
       "Chủ từ và vị từ không cùng chu diên"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Chủ từ chu diên, vị từ chu diên</span> <div class=\"note\"><b>💡 Giải thích:</b> \"Tam giác có ba cạnh bằng nhau\" (S) và \"tam giác có ba góc bằng nhau\" (P) đều là tam giác đều. Hai khái niệm này đồng nhất hoàn toàn về ngoại diên (S ≡ P). Trong phán đoán khẳng định chung (A) dạng đồng nhất, cả chủ từ và vị từ đều chu diên (S⁺, P⁺).</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Chủ từ chu diên, vị từ chu diên</span> <div class=\"note\"><b>💡 Giải thích:</b> A. Chủ từ chu diên, vị từ chu diên ✓</div>",
     "weight": "high"
   },
   {
@@ -341,7 +341,7 @@
       "Phán đoán khẳng định riêng có giá trị sai",
       "<span class=\"answer-keyword\">Phán đoán khẳng định riêng có giá trị đúng.</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Phán đoán khẳng định riêng có giá trị đúng.</span> <div class=\"note\"><b>💡 Giải thích:</b> Theo quan hệ thứ bậc (phụ thuộc) giữa phán đoán chung và phán đoán riêng cùng chất (A và I): phán đoán toàn thể đúng thì phán đoán bộ phận tất yếu phải đúng (A = 1 ⇒ I = 1). Do đó, phán đoán khẳng định riêng mang giá trị đúng.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Phán đoán khẳng định riêng có giá trị đúng.</span> <div class=\"note\"><b>💡 Giải thích:</b> B. Phán đoán khẳng định riêng có giá trị đúng. ✓</div>",
     "weight": "high"
   },
   {
@@ -356,7 +356,7 @@
       "<span class=\"answer-keyword\">Chủ từ chu diên và vị từ không chu diên</span>",
       "Chủ từ không chu diên, vị từ chu diên"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Chủ từ chu diên và vị từ không chu diên</span> <div class=\"note\"><b>💡 Giải thích:</b> Đây là phán đoán khẳng định chung (A: SAP). Ngoại diên của \"tam giác đều\" (S) nằm trọn trong ngoại diên của \"tam giác cân\" (P), tức S ⊂ P. Trong trường hợp S ⊂ P của phán đoán A, chủ từ S chu diên (S⁺), còn vị từ P không chu diên (P⁻).</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Chủ từ chu diên và vị từ không chu diên</span> <div class=\"note\"><b>💡 Giải thích:</b> B. Chủ từ chu diên và vị từ không chu diên ✓</div>",
     "weight": "high"
   },
   {
@@ -386,7 +386,7 @@
       "<span class=\"answer-keyword\">Quan hệ đối lập chung</span>",
       "Quan hệ đối lập riêng"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án TVU:</div><span class=\"answer-keyword\">Quan hệ đối lập chung</span> <div class=\"note\"><b>💡 Lưu ý bẫy LMS TVU:</b> Trong giáo trình logic học truyền thống của Đại học Trà Vinh (TVU), phán đoán đơn nhất (\"Xã hội này...\") về mặt lượng được quy ước xếp vào loại phán đoán toàn thể (phán đoán chung). Vì vậy: \"Xã hội này tiên tiến\" được xem là phán đoán khẳng định chung (A), còn \"Xã hội này không tiên tiến\" được xem là phán đoán phủ định chung (E). Giữa A và E ở cạnh trên hình vuông logic là <b>Quan hệ đối lập chung</b> (đối chọi trên). Đáp án chính thức của hệ thống LMS TVU bắt buộc là <b>Quan hệ đối lập chung</b>.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án TVU:</div><span class=\"answer-keyword\">Quan hệ đối lập chung</span> <div class=\"note\"><b>💡 Giải thích:</b> C. Quan hệ đối lập chung ✓</div>",
     "weight": "high"
   },
   {
@@ -401,7 +401,7 @@
       "Số ít loại gỗ dẫn điện",
       "<span class=\"answer-keyword\">Không loại gỗ nào dẫn điện</span>"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Không loại gỗ nào dẫn điện</span> <div class=\"note\"><b>💡 Giải thích:</b> \"Mọi loại gỗ đều không dẫn điện\" là phán đoán phủ định chung (E: SEP: Mọi S không là P). Trong tiếng Việt, diễn đạt tương đương hoàn toàn về cấu trúc và giá trị chân lý của phán đoán này là \"Không loại gỗ nào dẫn điện\" (Không S nào là P).</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Không loại gỗ nào dẫn điện</span> <div class=\"note\"><b>💡 Giải thích:</b> C. Không loại gỗ nào dẫn điện ✓</div>",
     "weight": "high"
   },
   {
@@ -431,7 +431,7 @@
       "khẳng định chung và khẳng định riêng",
       "khẳng định chung và phủ định chung"
     ],
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">phủ định riêng và phủ định chung</span> <div class=\"note\"><b>💡 Giải thích:</b> Theo quy tắc tính chu diên, vị từ P trong mọi phán đoán phủ định (phủ định riêng O và phủ định chung E) LUÔN LUÔN CHU DIÊN (P⁺), vì nội dung của phán đoán phủ định đòi hỏi tách hoàn toàn vị từ ra khỏi chủ từ (hoặc một bộ phận chủ từ).</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">phủ định riêng và phủ định chung</span> <div class=\"note\"><b>💡 Giải thích:</b> D. phủ định riêng và phủ định chung ✓</div>",
     "weight": "high"
   },
   {
@@ -568,5 +568,380 @@
     ],
     "answer": "<div class=\"answer-title\">✅ Đáp án TVU:</div><span class=\"answer-keyword\">giả dối</span> <div class=\"note\"><b>💡 Bẫy đáp án LMS TVU:</b> Về mặt lý thuyết logic thuần túy, khi phán đoán toàn thể phủ định sai (E = 0) thì phán đoán bộ phận O là 'không xác định' (Ok). Tuy nhiên, trên hệ thống ngân hàng đề LMS Đại học Trà Vinh (TVU), giảng viên đã chốt cứng đáp án là <b>giả dối</b>. Khi thi giữa kỳ hoặc kết thúc môn, sinh viên BẮT BUỘC phải chọn <b>giả dối</b> để hệ thống chấm đúng 100%.</div>",
     "weight": "high"
+  },
+  {
+    "weight": "normal",
+    "question": "Phán đoán có giá trị sai <span class=\"keyword\">khi và chỉ khỉ</span>:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">p đúng và q sai</span> <div class=\"note\"><b>💡 Giải thích:</b> A. p đúng và q sai ✓</div>",
+    "options": [
+      "p đúng và q sai",
+      "p và q cùng đúng",
+      "p và q không cùng giá trị",
+      "p và q cùng sai"
+    ],
+    "tags": [
+      "Logic học đại cương",
+      "LTTN_2"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Biết phán đoán “Một số từ <span class=\"keyword\">không phải</span> là động từ” có giá trị chân thực. Phán đoán “Từ là động từ”, có giá trị",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">giả dối</span> <div class=\"note\"><b>💡 Giải thích:</b> D. giả dối ✓</div>",
+    "options": [
+      "không xác định",
+      "chân thực",
+      "vừa chân thực vừa giả dối",
+      "giả dối"
+    ],
+    "tags": [
+      "Logic học đại cương",
+      "LTTN_2"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Xác định hình thức của suy luận: “Không người Việt Nam nào lại không muốn <span class=\"keyword\">đất nước phát triển</span>, vì vậy mọi người Việt Nam đều mong muốn đất nước phát triển”.",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>Suy luận diễn dịch <span class=\"answer-keyword\">trực tiếp kiểu đổi chất,</span> suy luận đúng. <div class=\"note\"><b>💡 Giải thích:</b> A. Suy luận diễn dịch trực tiếp kiểu đổi chất, suy luận đúng. ✓</div>",
+    "options": [
+      "Suy luận diễn dịch trực tiếp kiểu đổi chất, suy luận đúng.",
+      "Suy luận diễn dịch trực tiếp kiểu đổi chổ, suy luận đúng.",
+      "Suy luận diễn dịch trực tiếp kiểu đổi chổ, suy luận sai.",
+      "Suy luận diễn dịch trực tiếp kiểu hình vuông logic, suy luận sai."
+    ],
+    "tags": [
+      "Logic học đại cương",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Cho tiền đề: “Tam giác đều cũng là tam giác cân”, kết luận nào <span class=\"keyword\">sau đây là đúng</span>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>Có <span class=\"answer-keyword\">tam giác đều đồng thời</span> là tam giác cân <div class=\"note\"><b>💡 Giải thích:</b> A. Có tam giác đều đồng thời là tam giác cân ✓</div>",
+    "options": [
+      "Có tam giác đều đồng thời là tam giác cân",
+      "Có tam giác không là tam giác cân",
+      "Có tam giác đều không là tam giác cân",
+      "Làm gì có chuyện, có tam giác đều cũng là tam giác cân"
+    ],
+    "tags": [
+      "Logic học đại cương",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Xác định <span class=\"keyword\">loại hình</span> và <span class=\"keyword\">phương thức</span> của suy luận: “Mọi khái niệm đơn nhất đều là khái niệm, mà một số khái niệm là khái niệm khẳng định. Vì vậy có khái niệm khẳng định là khái niệm đơn nhất”.",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Loại hình 4, phương thức</span> AII <div class=\"note\"><b>💡 Giải thích:</b> D. Loại hình 4, phương thức AII ✓</div>",
+    "options": [
+      "Loại hình 3, phương thức AII",
+      "Loại hình 1, phương thức IAI",
+      "Loại hình 2, phương thức AII",
+      "Loại hình 4, phương thức AII"
+    ],
+    "tags": [
+      "Logic học đại cương",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "AOO là <span class=\"keyword\"><span class=\"keyword\">phương thức</span> đúng của</span>:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Loại hình 2</span> <div class=\"note\"><b>💡 Giải thích:</b> D. Loại hình 2 ✓</div>",
+    "options": [
+      "Loại hình 3",
+      "Loại hình 4",
+      "Loại hình 1",
+      "Loại hình 2"
+    ],
+    "tags": [
+      "Logic học đại cương",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Đặc trưng</span> của <span class=\"keyword\">tam đoạn luận</span> thuộc <span class=\"keyword\">loại hình</span> 1 là:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>Thuật ngữ giữa làm chủ từ <span class=\"answer-keyword\">trong tiền đề lớn, vị</span> từ trong tiền đề nhỏ. <div class=\"note\"><b>💡 Giải thích:</b> Phản hồi: Sai. Đáp án đúng là: Thuật ngữ giữa làm chủ từ trong tiền đề lớn, vị từ trong tiền đề nhỏ.</div>",
+    "options": [
+      "Thuật ngữ giữa làm vị từ trong tiền đề lớn, chủ từ trong tiền đề nhỏ. ✗",
+      "Thuật ngữ giữa làm chủ từ trong tiền đề nhỏ, vị từ trong tiền đề lớn.",
+      "Thuật ngữ giữa làm chủ từ trong tiền đề lớn, vị từ trong tiền đề nhỏ.",
+      "Thuật ngữ giữa làm chủ từ trong tiền đề lớn, chủ từ trong tiền đề nhỏ."
+    ],
+    "tags": [
+      "Logic học đại cương",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Quy tắc</span> riêng của <span class=\"keyword\">tam đoạn luận</span> thuộc <span class=\"keyword\">loại hình</span> 1 là:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>Tiền đề lớn phải <span class=\"answer-keyword\">là phán đoán chung, tiền</span> đề nhỏ phải là phán đoán khẳng định <div class=\"note\"><b>💡 Giải thích:</b> B. Tiền đề lớn phải là phán đoán chung, tiền đề nhỏ phải là phán đoán khẳng định ✓</div>",
+    "options": [
+      "Tiền đề lớn phải là phán đoán phủ định, tiền đề nhỏ phải là phán đoán khẳng định",
+      "Tiền đề lớn phải là phán đoán chung, tiền đề nhỏ phải là phán đoán khẳng định",
+      "Tiền đề nhỏ phải là phán đoán chung, tiền đề nhỏ phải là phán đoán phủ định",
+      "Tiền đề lớn phải là phán khẳng định, tiền đề nhỏ phải là phán đoán riêng"
+    ],
+    "tags": [
+      "Logic học đại cương",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Suy luận: “Một số giáo sư không là nhà sử học, mà mọi giáo sư là nhà khoa học. Cho nên, có nhà khoa học không là nhà sử học”, nhận định nào <span class=\"keyword\">sau đây là đúng</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Suy luận hợp logic</span> <div class=\"note\"><b>💡 Giải thích:</b> C. Suy luận hợp logic ✓</div>",
+    "options": [
+      "Loại hình 2, phương thức IAI",
+      "Suy luận không hợp logic",
+      "Suy luận hợp logic",
+      "Suy luận sai"
+    ],
+    "tags": [
+      "Logic học đại cương",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Quy tắc</span> riêng của <span class=\"keyword\">tam đoạn luận</span> <span class=\"keyword\">loại hình</span> 3 là:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>Tiền đề nhỏ <span class=\"answer-keyword\">phải là phán đoán khẳng</span> định và kết luận phải là phán đoán riêng. <div class=\"note\"><b>💡 Giải thích:</b> A. Tiền đề nhỏ phải là phán đoán khẳng định và kết luận phải là phán đoán riêng. ✓</div>",
+    "options": [
+      "Tiền đề nhỏ phải là phán đoán khẳng định và kết luận phải là phán đoán riêng.",
+      "Tiền đề nhỏ phải là phán đoán chung, kết luận là phán đoán chung.",
+      "Tiền đề lớn phải là phán đoán riêng, tiền đề nhỏ là phán đoán phủ định.",
+      "Tiền đề lớn phải là phán khẳng định, tiền nhỏ là phán đoán riêng."
+    ],
+    "tags": [
+      "Logic học đại cương",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Phương thức</span> sai của <span class=\"keyword\">tam đoạn luận</span> <span class=\"keyword\">loại hình</span> 1 là:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">IAI</span> <div class=\"note\"><b>💡 Giải thích:</b> D. IAI ✓</div>",
+    "options": [
+      "EIO",
+      "AAA",
+      "AII",
+      "IAI"
+    ],
+    "tags": [
+      "Logic học đại cương",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Tam đoạn luận</span>: “Kim loại dẫn điện, mà gỗ <span class=\"keyword\">không phải</span> là kim loại. Vậy gỗ không dẫn điện”, vi phạm <span class=\"keyword\">quy tắc</span> chung nào sau đây?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>Nếu thuật ngữ S hay P <span class=\"answer-keyword\">không chu diên ở tiền</span> đề thì không chu diên ở kết luận. <div class=\"note\"><b>💡 Giải thích:</b> B. Nếu thuật ngữ S hay P không chu diên ở tiền đề thì không chu diên ở kết luận. ✓</div>",
+    "options": [
+      "Hai phán đoán tiền đề đều là phán đoán phủ định thì không rút ra được câu kết luận.",
+      "Nếu thuật ngữ S hay P không chu diên ở tiền đề thì không chu diên ở kết luận.",
+      "Trong hai tiền đề, thuật ngữ giữa phải chu diên ít nhất một lần.",
+      "Một trong hai tiền đề là phán đoán phủ định thì câu kết luận phải là phán đoán phủ định."
+    ],
+    "tags": [
+      "Logic học đại cương",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "OAO là <span class=\"keyword\"><span class=\"keyword\">phương thức</span> đúng của</span>:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Loại hình 3</span> <div class=\"note\"><b>💡 Giải thích:</b> D. Loại hình 3 ✓</div>",
+    "options": [
+      "Loại hình 1",
+      "Loại hình 4",
+      "Loại hình 2",
+      "Loại hình 3"
+    ],
+    "tags": [
+      "Logic học đại cương",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Phương thức</span> sai của <span class=\"keyword\">tam đoạn luận</span> thuộc <span class=\"keyword\">loại hình</span> 2 là:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">AAA</span> <div class=\"note\"><b>💡 Giải thích:</b> Phản hồi: Sai. Đáp án đúng là: AAA</div>",
+    "options": [
+      "AEE ✗",
+      "AOO",
+      "EIO",
+      "AAA"
+    ],
+    "tags": [
+      "Logic học đại cương",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Cho tiền đề: “Công đoàn là tổ chức chính trị của <span class=\"keyword\">giai cấp công nhân</span>”, kết luận nào <span class=\"keyword\">sau đây là đúng</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>Làm gì <span class=\"answer-keyword\">có chuyện, công đoàn không</span> là tổ chức chính trị của giai cấp công nhân <div class=\"note\"><b>💡 Giải thích:</b> D. Làm gì có chuyện, công đoàn không là tổ chức chính trị của giai cấp công nhân ✓</div>",
+    "options": [
+      "Tổ chức chính trị của giai cấp công nhân không là công đoàn",
+      "Công đoàn không là tổ chức chính trị của giai cấp công nhân",
+      "Không phải, công đoàn là tổ chức chính trị của giai cấp công nhân",
+      "Làm gì có chuyện, công đoàn không là tổ chức chính trị của giai cấp công nhân"
+    ],
+    "tags": [
+      "Logic học đại cương",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Quy tắc</span> riêng của <span class=\"keyword\">tam đoạn luận</span> thuộc <span class=\"keyword\">loại hình</span> 2 là:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>Tiền đề lớn <span class=\"answer-keyword\">phải là phán đoán chung</span> và một trong hai tiền đề phải là phán đoán phủ định <div class=\"note\"><b>💡 Giải thích:</b> A. Tiền đề lớn phải là phán đoán chung và một trong hai tiền đề phải là phán đoán phủ định ✓</div>",
+    "options": [
+      "Tiền đề lớn phải là phán đoán chung và một trong hai tiền đề phải là phán đoán phủ định",
+      "Tiền đề lớn phải là phán khẳng định và tiền đề nhỏ phải là phán đoán phủ định",
+      "Tiền đề nhỏ phải là phán đoán khẳng định và kết luận là phán đoán phủ định",
+      "Tiền đề lớn phải là phán đoán riêng và hai tiền đề phải là phán đoán phủ định"
+    ],
+    "tags": [
+      "Logic học đại cương",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Theo <span class=\"keyword\">quy tắc</span> riêng của <span class=\"keyword\">tam đoạn luận</span> thuộc <span class=\"keyword\">loại hình</span> 4, nhận định nào sau đây là SAI?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Nếu tiền đề là phán</span> đoán phủ định thì tiền đề nhỏ là phán đoán chung. <div class=\"note\"><b>💡 Giải thích:</b> B. Nếu tiền đề là phán đoán phủ định thì tiền đề nhỏ là phán đoán chung. ✓</div>",
+    "options": [
+      "Nếu một tiền đề là phán đoán phủ định thì tiền đề lớn là phán đoán chung.",
+      "Nếu tiền đề là phán đoán phủ định thì tiền đề nhỏ là phán đoán chung.",
+      "Nếu tiền đề nhỏ là phán đoán khẳng định thì kết luận là phán đoán riêng.",
+      "Nếu tiền đề lớn là phán đoán khẳng định thì tiền đề nhỏ là phán đoán chung"
+    ],
+    "tags": [
+      "Logic học đại cương",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Phương thức</span> sai của <span class=\"keyword\">tam đoạn luận</span> thuộc <span class=\"keyword\">loại hình</span> 3 là:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">III</span> <div class=\"note\"><b>💡 Giải thích:</b> B. III ✓</div>",
+    "options": [
+      "AAI",
+      "III",
+      "AII",
+      "IAI"
+    ],
+    "tags": [
+      "Logic học đại cương",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Đặc trưng</span> của <span class=\"keyword\">tam đoạn luận</span> thuộc <span class=\"keyword\">loại hình</span> 2 là:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Thuật ngữ giữa làm vị</span> từ trong cả tiền đề lớn và tiền đề nhỏ. <div class=\"note\"><b>💡 Giải thích:</b> A. Thuật ngữ giữa làm vị từ trong cả tiền đề lớn và tiền đề nhỏ. ✓</div>",
+    "options": [
+      "Thuật ngữ giữa làm vị từ trong cả tiền đề lớn và tiền đề nhỏ.",
+      "Thuật ngữ giữa làm chủ từ trong tiền đề nhỏ, vị từ trong tiền đề lớn.",
+      "Thuật ngữ giữa làm chủ từ trong tiền đề lớn, vị từ trong tiền đề nhỏ.",
+      "Thuật ngữ giữa làm chủ từ trong tiền đề lớn, chủ từ trong tiền đề nhỏ."
+    ],
+    "tags": [
+      "Logic học đại cương",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Trong <span class=\"keyword\">tam đoạn luận</span>: “Tham nhũng là hành vi phạm tội, mà mọi hành vi phạm tội phải chịu chế tài của pháp luật, cho nên tham nhũng phải chịu chế tài pháp luật”, <span class=\"keyword\">khẳng định nào SAI</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Thuật ngữ lớn: “tham nhũng”</span> <div class=\"note\"><b>💡 Giải thích:</b> D. Thuật ngữ lớn: “tham nhũng” ✓</div>",
+    "options": [
+      "Thuật ngữ nhỏ: “tham nhũng”",
+      "Thuật ngữ lớn là: “chịu chế tài pháp luật”",
+      "Thuật ngữ giữa: “hành vi phạm tội”",
+      "Thuật ngữ lớn: “tham nhũng”"
+    ],
+    "tags": [
+      "Logic học đại cương",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "AAA là <span class=\"keyword\"><span class=\"keyword\">phương thức</span> đúng của</span>:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Loại hình 1</span> <div class=\"note\"><b>💡 Giải thích:</b> Phản hồi: Sai. Đáp án đúng là: Loại hình 1</div>",
+    "options": [
+      "Loại hình 1",
+      "Loại hình 3",
+      "Loại hình 4",
+      "Loại hình 2 ✗"
+    ],
+    "tags": [
+      "Logic học đại cương",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Chọn câu <span class=\"keyword\">đúng nhất</span> về <span class=\"keyword\">tam đoạn luận</span>.",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>Thuật ngữ <span class=\"answer-keyword\">không chu diên trong tiền</span> đề thì không thể chu diên trong kết luận <div class=\"note\"><b>💡 Giải thích:</b> B. Thuật ngữ không chu diên trong tiền đề thì không thể chu diên trong kết luận ✓</div>",
+    "options": [
+      "Thuật ngữ chu diên trong kết luận cũng phải chu diên trong tiền đề",
+      "Thuật ngữ không chu diên trong tiền đề thì không thể chu diên trong kết luận",
+      "Thuật ngữ chu diên trong tiền đề cũng chu diên trong kết luận",
+      "Thuật ngữ chỉ cần chu diên trong tiền đề hoặc chu diên trong kết luận"
+    ],
+    "tags": [
+      "Logic học đại cương",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Phương pháp <span class=\"keyword\">bác bỏ</span> gồm:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">bác bỏ trực tiếp và bác bỏ gián tiếp.</span> <div class=\"note\"><b>💡 Giải thích:</b> A. bác bỏ trực tiếp và bác bỏ gián tiếp. ✓</div>",
+    "options": [
+      "bác bỏ trực tiếp và bác bỏ gián tiếp.",
+      "bác bỏ trực tiếp và bác bỏ gián tiếp luận đề.",
+      "bác bỏ trực tiếp luận đề và bác bỏ gián tiếp.",
+      "bác bỏ trực tiếp và phản chứng."
+    ],
+    "tags": [
+      "Logic học đại cương",
+      "LTTN_4"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Luận cứ</span> của <span class=\"keyword\">chứng minh</span> trả cho câu hỏi:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Chứng minh dựa vào những</span> căn cứ, cơ sở nào? <div class=\"note\"><b>💡 Giải thích:</b> A. Chứng minh dựa vào những căn cứ, cơ sở nào? ✓</div>",
+    "options": [
+      "Chứng minh dựa vào những căn cứ, cơ sở nào?",
+      "Tại sao phải chứng minh?",
+      "Chứng minh cái gì?",
+      "Chứng minh bằng cách nào?"
+    ],
+    "tags": [
+      "Logic học đại cương",
+      "LTTN_4"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "<span class=\"keyword\">Luận đề</span> của <span class=\"keyword\">bác bỏ</span> trả cho câu hỏi:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Bác bỏ cái gì?</span> <div class=\"note\"><b>💡 Giải thích:</b> D. Bác bỏ cái gì? ✓</div>",
+    "options": [
+      "Bác bỏ dựa vào những căn cứ, cơ sở nào?",
+      "Tại sao phải bác bỏ?",
+      "Bác bỏ bằng cách nào?",
+      "Bác bỏ cái gì?"
+    ],
+    "tags": [
+      "Logic học đại cương",
+      "LTTN_4"
+    ]
   }
 ]

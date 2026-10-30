@@ -2,7 +2,7 @@
   {
     "weight": "high",
     "question": "Sự phát triển nhanh chóng <span class=\"keyword\">có tính chính trị công khai</span> của phong trào công nhân <span class=\"keyword\">những năm 30, 40 của thế kỷ XIX</span> đã chứng minh:",
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Giai cấp công nhân đã xuất hiện như một lực lượng chính trị độc lập.</span><div class=\"note\">💡 <b>Giải thích:</b> Các cuộc khởi nghĩa ở Lyon (Pháp 1831, 1834), phong trào Hiến chương (Anh 1836-1848) và Silesia (Đức 1844) chứng minh giai cấp công nhân đã trưởng thành, bước lên vũ đài lịch sử với tư cách một lực lượng chính trị độc lập hướng mũi nhọn đấu tranh vào giai cấp tư sản.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Giai cấp công nhân đã xuất hiện như một lực lượng chính trị độc lập.</span> <div class=\"note\"><b>💡 Giải thích:</b> C. Giai cấp công nhân đã xuất hiện như một lực lượng chính trị độc lập. ✓</div>",
     "options": [
       "A. Giai cấp công nhân đã được hình thành.",
       "B. Giai cấp tư sản đã tăng cường bóc lột giá trị thặng dư.",
@@ -16,7 +16,7 @@
   },
   {
     "question": "Chủ nghĩa xã hội khoa học là <span class=\"keyword\">một trong ba bộ phận hợp thành</span> chủ nghĩa Mác - Lênin. Đây là cách hiểu theo <span class=\"keyword\">nghĩa nào</span>?",
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Nghĩa hẹp</span><div class=\"note\">💡 <b>Giải thích:</b> Theo nghĩa rộng, CNXHKH đồng nhất với toàn bộ chủ nghĩa Mác - Lênin. Theo nghĩa hẹp, CNXHKH là một trong 3 bộ phận cấu thành (Triết học, Kinh tế chính trị và CNXHKH).</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Nghĩa hẹp</span> <div class=\"note\"><b>💡 Giải thích:</b> B. Nghĩa hẹp ✓</div>",
     "options": [
       "A. Nghĩa đơn giản",
       "B. Nghĩa hẹp",
@@ -26,11 +26,12 @@
     "tags": [
       "Hình Thành CNXHKH",
       "Nền tảng"
-    ]
+    ],
+    "weight": "normal"
   },
   {
     "question": "Chủ nghĩa xã hội khoa học được hiểu theo <span class=\"keyword\">bao nhiêu nghĩa</span>?",
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Hai nghĩa</span><div class=\"note\">💡 <b>Giải thích:</b> Chủ nghĩa xã hội khoa học được tiếp cận theo 2 nghĩa: nghĩa rộng (toàn bộ học thuyết Mác - Lênin) và nghĩa hẹp (khoa học chính trị - xã hội nghiên cứu quy luật quá độ lên CNCS).</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Hai nghĩa</span> <div class=\"note\"><b>💡 Giải thích:</b> B. Hai nghĩa ✓</div>",
     "options": [
       "A. Ba nghĩa",
       "B. Hai nghĩa",
@@ -40,11 +41,12 @@
     "tags": [
       "Hình Thành CNXHKH",
       "Nền tảng"
-    ]
+    ],
+    "weight": "normal"
   },
   {
     "question": "Trong <span class=\"keyword\">khuôn khổ của học phần này</span>, chủ nghĩa xã hội khoa học được nghiên cứu theo <span class=\"keyword\">nghĩa nào</span>?",
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Nghĩa hẹp</span><div class=\"note\">💡 <b>Giải thích:</b> Trong chương trình đào tạo đại học, sau khi đã học Triết học Mác - Lênin và Kinh tế chính trị Mác - Lênin, học phần này tiếp cận CNXHKH theo nghĩa hẹp là bộ phận khoa học chính trị - xã hội độc lập.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Nghĩa hẹp</span> <div class=\"note\"><b>💡 Giải thích:</b> B. Nghĩa hẹp ✓</div>",
     "options": [
       "A. Nghĩa rộng",
       "B. Nghĩa hẹp",
@@ -54,12 +56,13 @@
     "tags": [
       "Hình Thành CNXHKH",
       "Nền tảng"
-    ]
+    ],
+    "weight": "normal"
   },
   {
     "weight": "high",
     "question": "Ai là người đã <span class=\"keyword\">xây dựng</span> chủ nghĩa xã hội <span class=\"keyword\">hiện thực</span>?",
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">V.I.Lênin</span><div class=\"note\">💡 <b>Giải thích:</b> C.Mác và Ph.Ăngghen xây dựng lý luận CNXHKH; V.I.Lênin là người trực tiếp lãnh đạo Cách mạng Tháng Mười Nga 1917 thắng lợi và xây dựng mô hình Nhà nước XHCN hiện thực đầu tiên trên thế giới.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">V.I.Lênin</span> <div class=\"note\"><b>💡 Giải thích:</b> D. V.I.Lênin ✓</div>",
     "options": [
       "A. Ph.Ăngghen",
       "B. C.Mác",
@@ -74,7 +77,7 @@
   {
     "weight": "high",
     "question": "Người đã phát triển <span class=\"keyword\">chủ nghĩa xã hội không tưởng</span> thành <span class=\"keyword\">chủ nghĩa xã hội khoa học</span> là:",
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">C.Mác và Ph.Ăngghen.</span><div class=\"note\">💡 <b>Giải thích:</b> C.Mác và Ph.Ăngghen đã kế thừa có phê phán chủ nghĩa xã hội không tưởng phê phán Pháp - Anh và sáng lập ra 3 phát kiến vĩ đại, đưa CNXH từ không tưởng trở thành khoa học.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">C.Mác và Ph.Ăngghen.</span> <div class=\"note\"><b>💡 Giải thích:</b> C. C.Mác và Ph.Ăngghen. ✓</div>",
     "options": [
       "A. Ph.Hêghen và Ph.Ăngghen.",
       "B. C.Mác và V.I.Lênin.",
@@ -89,7 +92,7 @@
   {
     "weight": "high",
     "question": "Theo V.I.Lênin, <span class=\"keyword\">hệ thống chuyên chính vô sản</span> bao gồm <span class=\"keyword\">những tổ chức nào</span>?",
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Đảng Bônsêvích lãnh đạo, Nhà nước Xôviết quản lý và tổ chức công đoàn.</span><div class=\"note\">💡 <b>Giải thích:</b> Lênin chỉ rõ cấu trúc hệ thống chuyên chính vô sản gồm Đảng tiên phong lãnh đạo, Nhà nước Xô viết quản lý xã hội và tổ chức Công đoàn làm cầu nối tập hợp, giáo dục quần chúng công nhân.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Đảng Bônsêvích lãnh đạo, Nhà nước Xôviết quản lý và tổ chức công đoàn.</span> <div class=\"note\"><b>💡 Giải thích:</b> D. Đảng Bônsêvích lãnh đạo, Nhà nước Xôviết quản lý và tổ chức công đoàn. ✓</div>",
     "options": [
       "A. Đảng Bônsêvích lãnh đạo, Nhà nước Xôviết quản lý và Hội nông dân.",
       "B. Đảng Cộng sản lãnh đạo, Nhà nước xã hội chủ nghĩa quản lý và Hội cựu chiến binh.",
@@ -103,7 +106,7 @@
   },
   {
     "question": "Trong <span class=\"keyword\">tác phẩm nào</span>, Ph.Ăngghen đã luận chứng sự phát triển của chủ nghĩa xã hội <span class=\"keyword\">từ không tưởng đến khoa học</span>?",
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Chống Đuyrinh</span><div class=\"note\">💡 <b>Giải thích:</b> Tác phẩm 'Chống Đuyrinh' (1878) của Ph.Ăngghen đã luận chứng toàn diện sự phát triển của CNXH từ không tưởng đến khoa học (sau này phần này được tách thành tác phẩm độc lập cùng tên xuất bản năm 1880).</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Chống Đuyrinh</span> <div class=\"note\"><b>💡 Giải thích:</b> C. Chống Đuyrinh ✓</div>",
     "options": [
       "A. Tuyên ngôn của Đảng Cộng sản",
       "B. Hệ tư tưởng Đức",
@@ -113,7 +116,8 @@
     "tags": [
       "Hình Thành CNXHKH",
       "Logic & Nguyên tắc"
-    ]
+    ],
+    "weight": "normal"
   },
   {
     "weight": "high",
@@ -133,7 +137,7 @@
   {
     "weight": "high",
     "question": "V.I.Lênin đã <span class=\"keyword\">khẳng định điều gì</span> khi bàn về <span class=\"keyword\">chế độ dân chủ</span>?",
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Không có dân chủ thuần túy hay dân chủ nói chung.</span><div class=\"note\">💡 <b>Giải thích:</b> Lênin khẳng định dân chủ luôn gắn liền với giai cấp và mang tính giai cấp: trong xã hội có giai cấp đối kháng, không có dân chủ thuần túy hay dân chủ phi giai cấp, chỉ có dân chủ của giai cấp thống trị.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Không có dân chủ thuần túy hay dân chủ nói chung.</span> <div class=\"note\"><b>💡 Giải thích:</b> C. Không có dân chủ thuần túy hay dân chủ nói chung. ✓</div>",
     "options": [
       "A. Dân chủ tư sản dân chủ hơn so với dân chủ vô sản.",
       "B. Dân chủ tư sản và dân chủ vô sản có thể tồn tại trong mối quan hệ thống nhất.",
@@ -148,7 +152,7 @@
   {
     "weight": "high",
     "question": "Tác phẩm nào sau đây <span class=\"keyword\">đánh dấu sự ra đời</span> của <span class=\"keyword\">chủ nghĩa xã hội khoa học</span>?",
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Tuyên ngôn của Đảng Cộng sản.</span><div class=\"note\">💡 <b>Giải thích:</b> Tác phẩm 'Tuyên ngôn của Đảng Cộng sản' do C.Mác và Ph.Ăngghen soạn thảo, công bố tháng 2 năm 1848, là cương lĩnh chính trị đầu tiên của phong trào cộng sản, đánh dấu sự ra đời chính thức của CNXHKH.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Tuyên ngôn của Đảng Cộng sản.</span> <div class=\"note\"><b>💡 Giải thích:</b> D. Tuyên ngôn của Đảng Cộng sản. ✓</div>",
     "options": [
       "A. Tình cảnh nước Anh.",
       "B. Góp phần phê phán triết học pháp quyền của Hêghen - Lời nói đầu.",
@@ -162,7 +166,7 @@
   },
   {
     "question": "Sự phân biệt <span class=\"keyword\">chủ nghĩa xã hội khoa học</span> với các khoa học chính trị - xã hội <span class=\"keyword\">trước hết là ở</span>:",
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Đối tượng nghiên cứu</span><div class=\"note\">💡 <b>Giải thích:</b> Sự khác biệt bản chất phân định các ngành khoa học độc lập trước hết nằm ở đối tượng nghiên cứu. CNXHKH nghiên cứu quy luật chính trị - xã hội của quá trình quá độ từ CNTB lên CNCS.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Đối tượng nghiên cứu</span> <div class=\"note\"><b>💡 Giải thích:</b> C. Đối tượng nghiên cứu ✓</div>",
     "options": [
       "A. Mục đích nghiên cứu",
       "B. Khách thể nghiên cứu",
@@ -172,12 +176,13 @@
     "tags": [
       "Hình Thành CNXHKH",
       "Nền tảng"
-    ]
+    ],
+    "weight": "normal"
   },
   {
     "weight": "high",
     "question": "Giai cấp công nhân Việt Nam <span class=\"keyword\">ra đời vào thời gian nào</span>?",
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Đầu thế kỷ XX</span><div class=\"note\">💡 <b>Giải thích:</b> GCCN Việt Nam ra đời trong cuộc khai thác thuộc địa lần thứ nhất của thực dân Pháp (1897 - 1914), tức vào đầu thế kỷ XX, ra đời trước cả giai cấp tư sản dân tộc Việt Nam.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Đầu thế kỷ XX</span> <div class=\"note\"><b>💡 Giải thích:</b> B. Đầu thế kỷ XX ✓</div>",
     "options": [
       "A. Giữa thế kỷ XIX",
       "B. Đầu thế kỷ XX",
@@ -216,11 +221,12 @@
     "tags": [
       "Sứ Mệnh Giai Cấp Công Nhân",
       "Cấu trúc"
-    ]
+    ],
+    "weight": "normal"
   },
   {
     "question": "Thuật ngữ nào sau đây <span class=\"keyword\">có nội dung hẹp hơn</span> các thuật ngữ còn lại?",
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Công nhân nông nghiệp</span><div class=\"note\">💡 <b>Giải thích:</b> Các thuật ngữ 'Giai cấp vô sản', 'Giai cấp vô sản hiện đại', 'Giai cấp công nhân đại công nghiệp' chỉ toàn thể giai cấp; trong khi 'Công nhân nông nghiệp' chỉ một bộ phận hẹp trong cơ cấu ngành nghề.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Công nhân nông nghiệp</span> <div class=\"note\"><b>💡 Giải thích:</b> C. Công nhân nông nghiệp ✓</div>",
     "options": [
       "A. Giai cấp công nhân đại công nghiệp",
       "B. Giai cấp vô sản hiện đại",
@@ -230,12 +236,13 @@
     "tags": [
       "Sứ Mệnh Giai Cấp Công Nhân",
       "Cấu trúc"
-    ]
+    ],
+    "weight": "normal"
   },
   {
     "weight": "high",
     "question": "Hiện nay, đội ngũ công nhân Việt Nam trong <span class=\"keyword\">khu vực kinh tế nào</span> là tiêu biểu, đóng vai trò <span class=\"keyword\">nòng cốt, chủ đạo</span>?",
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Kinh tế nhà nước</span><div class=\"note\">💡 <b>Giải thích:</b> Trong nền kinh tế thị trường định hướng XHCN, kinh tế nhà nước giữ vai trò chủ đạo; do đó đội ngũ công nhân trong các doanh nghiệp nhà nước đóng vai trò nòng cốt, tiêu biểu cho bản chất giai cấp công nhân Việt Nam.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Kinh tế nhà nước</span> <div class=\"note\"><b>💡 Giải thích:</b> D. Kinh tế nhà nước ✓</div>",
     "options": [
       "A. Kinh tế tư nhân",
       "B. Kinh tế có vốn đầu tư nước ngoài",
@@ -250,7 +257,7 @@
   {
     "weight": "high",
     "question": "Nội dung chủ yếu, <span class=\"keyword\">điểm căn bản</span> của <span class=\"keyword\">chủ nghĩa Mác - Lênin</span> là:",
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Sứ mệnh lịch sử thế giới của giai cấp công nhân.</span><div class=\"note\">💡 <b>Giải thích:</b> V.I.Lênin nhấn mạnh: 'Điểm chủ yếu trong học thuyết của Mác là ở chỗ nó làm sáng tỏ vai trò lịch sử thế giới của giai cấp vô sản là người xây dựng xã hội xã hội chủ nghĩa'.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Sứ mệnh lịch sử thế giới của giai cấp công nhân.</span> <div class=\"note\"><b>💡 Giải thích:</b> B. Sứ mệnh lịch sử thế giới của giai cấp công nhân. ✓</div>",
     "options": [
       "A. Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa.",
       "B. Sứ mệnh lịch sử thế giới của giai cấp công nhân.",
@@ -265,7 +272,7 @@
   {
     "weight": "high",
     "question": "Theo chủ nghĩa Mác - Lênin, một trong những <span class=\"keyword\">điều kiện khách quan</span> quy định <span class=\"keyword\">sứ mệnh lịch sử của giai cấp công nhân</span> là:",
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Do địa vị kinh tế của giai cấp công nhân.</span><div class=\"note\">💡 <b>Giải thích:</b> Địa vị kinh tế - xã hội (gắn với LLSX tiên tiến, không có TLSX, lợi ích đối kháng với tư sản) là điều kiện khách quan; trong khi sự ra đời của Đảng Cộng sản hay liên minh giai cấp là nhân tố chủ quan.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Do địa vị kinh tế của giai cấp công nhân.</span> <div class=\"note\"><b>💡 Giải thích:</b> C. Do địa vị kinh tế của giai cấp công nhân. ✓</div>",
     "options": [
       "A. Sự liên minh giữa giai cấp công nhân với giai cấp nông dân và các tầng lớp lao động khác.",
       "B. Sự lãnh đạo của Đảng Cộng sản.",
@@ -279,7 +286,7 @@
   },
   {
     "question": "Ở các nước tư bản chủ nghĩa hiện nay, <span class=\"keyword\">mục tiêu đấu tranh trực tiếp</span> của giai cấp công nhân và nhân dân lao động là:",
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Chống bất công và bất bình đẳng xã hội.</span><div class=\"note\">💡 <b>Giải thích:</b> Trong bối cảnh hiện nay ở các nước TBCN chưa có tình thế cách mạng vô sản, mục tiêu trực tiếp trước mắt của phong trào công nhân là đấu tranh đòi quyền dân sinh, dân chủ, chống bất công và phân hóa giàu nghèo.</div>",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div> <span class=\"answer-keyword\">Chống bất công và bất bình đẳng xã hội.</span> <div class=\"note\"><b>💡 Giải thích:</b> C. Chống bất công và bất bình đẳng xã hội. ✓</div>",
     "options": [
       "A. Giành chính quyền về tay giai cấp công nhân và nhân dân lao động.",
       "B. Lãnh đạo thành công sự nghiệp đổi mới.",
@@ -289,7 +296,8 @@
     "tags": [
       "Sứ Mệnh Giai Cấp Công Nhân",
       "Phân luồng"
-    ]
+    ],
+    "weight": "normal"
   },
   {
     "weight": "high",
@@ -316,7 +324,8 @@
     ],
     "tags": [
       "Chủ Nghĩa Xã Hội & Quá Độ"
-    ]
+    ],
+    "weight": "normal"
   },
   {
     "weight": "high",
@@ -343,7 +352,8 @@
     ],
     "tags": [
       "Chủ Nghĩa Xã Hội & Quá Độ"
-    ]
+    ],
+    "weight": "normal"
   },
   {
     "weight": "high",
@@ -398,7 +408,8 @@
     ],
     "tags": [
       "Chủ Nghĩa Xã Hội & Quá Độ"
-    ]
+    ],
+    "weight": "normal"
   },
   {
     "weight": "high",
@@ -425,7 +436,8 @@
     ],
     "tags": [
       "Dân Chủ & Nhà Nước XHCN"
-    ]
+    ],
+    "weight": "normal"
   },
   {
     "weight": "high",
@@ -466,7 +478,8 @@
     ],
     "tags": [
       "Dân Chủ & Nhà Nước XHCN"
-    ]
+    ],
+    "weight": "normal"
   },
   {
     "question": "Khi coi dân chủ là một <span class=\"keyword\">giá trị xã hội toàn nhân loại</span>, <span class=\"keyword\">Chủ tịch Hồ Chí Minh</span> đã khẳng định:<div class=\"options-grid\"><div class=\"option-item\">A. Dân chủ là nhân dân cai trị.</div><div class=\"option-item\">B. Dân chủ là dân tham gia bầu ra nhà nước.</div><div class=\"option-item\">C. Dân chủ là một nguyên tắc - nguyên tắc dân chủ.</div><div class=\"option-item correct\">D. Dân chủ là dân là chủ và dân làm chủ.</div></div><div class=\"note\">💡 <b>Giải thích:</b> Chủ tịch Hồ Chí Minh diễn đạt bản chất cốt lõi của dân chủ một cách mộc mạc, sâu sắc: \"Dân chủ là dân là chủ và dân làm chủ. Nhân dân là người chủ, Chính phủ là người đầy tớ trung thành của nhân dân.\"</div>",
@@ -479,7 +492,8 @@
     ],
     "tags": [
       "Dân Chủ & Nhà Nước XHCN"
-    ]
+    ],
+    "weight": "normal"
   },
   {
     "weight": "high",
@@ -506,7 +520,8 @@
     ],
     "tags": [
       "Hình Thành CNXHKH"
-    ]
+    ],
+    "weight": "normal"
   },
   {
     "question": "Ai là người <span class=\"keyword\">kế tục lãnh đạo cao nhất</span> của <span class=\"keyword\">Đảng Cộng sản (b) Nga</span> sau khi <span class=\"keyword\">V.I.Lênin qua đời</span>?<div class=\"options-grid\"><div class=\"option-item\">A. L.Brêgiơnép</div><div class=\"option-item correct\">B. J.Xtalin</div><div class=\"option-item\">C. M.S.Gorbachev</div><div class=\"option-item\">D. G.Đimitrốp</div></div><div class=\"note\">💡 <b>Giải thích:</b> Sau khi V.I.Lênin từ trần năm 1924, J.Xtalin là người kế tục vị trí lãnh đạo cao nhất của Đảng Cộng sản (b) Nga, tiếp tục vận dụng và phát triển CNXHKH trong công cuộc xây dựng CNXH ở Liên Xô (1924-1953).</div>",
@@ -519,7 +534,8 @@
     ],
     "tags": [
       "Hình Thành CNXHKH"
-    ]
+    ],
+    "weight": "normal"
   },
   {
     "weight": "high",
@@ -617,6 +633,726 @@
     ],
     "tags": [
       "Dân Chủ & Nhà Nước XHCN"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Khẩu hiệu “Cộng hòa hay là chết” của phong trào công nhân dệt thành phố Lion, nước Pháp năm 1834 đã <span class=\"keyword\">thể hiện tính chất</span>:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Chính trị</span> <div class=\"note\"><b>💡 Giải thích:</b> B. Chính trị ✓</div>",
+    "options": [
+      "Xã hội",
+      "Chính trị",
+      "Kinh tế",
+      "Văn hóa"
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_1"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Một trong những điểm tương đối ổn định của <span class=\"keyword\">giai cấp công nhân</span> hiện nay so với giai cấp công nhân <span class=\"keyword\">thế kỷ XIX là</span>:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>Vẫn đang là <span class=\"answer-keyword\">lực lượng sản xuất hàng</span> đầu của xã hội hiện đại. <div class=\"note\"><b>💡 Giải thích:</b> B. Vẫn đang là lực lượng sản xuất hàng đầu của xã hội hiện đại. ✓</div>",
+    "options": [
+      "Vẫn đang trong xu hướng “trí tuệ hóa”.",
+      "Vẫn đang là lực lượng sản xuất hàng đầu của xã hội hiện đại.",
+      "Vẫn thuần túy hao phí sức lực cơ bắp.",
+      "Vẫn không có sở hữu tư liệu sản xuất."
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_1"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Hiện nay, một bộ phận công nhân đã tham gia vào sở hữu một lượng tư liệu sản xuất của xã hội thông qua chế độ cổ phần hóa. Đây là biểu hiện <span class=\"keyword\">của xu hướng nào</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Xu hướng “trung lưu hóa”</span> <div class=\"note\"><b>💡 Giải thích:</b> D. Xu hướng “trung lưu hóa” ✓</div>",
+    "options": [
+      "Xu hướng “trí tuệ hóa”",
+      "Xu hướng “công nghiệp hóa”",
+      "Xu hướng “vô sản hóa”",
+      "Xu hướng “trung lưu hóa”"
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_1"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Theo chủ nghĩa Mác - Lênin, điều kiện kinh tế cho sự ra đời của chủ <span class=\"keyword\">nghĩa xã hội là</span>:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>Sự <span class=\"answer-keyword\">phát triển của lực lượng</span> sản xuất. <div class=\"note\"><b>💡 Giải thích:</b> C. Sự phát triển của lực lượng sản xuất. ✓</div>",
+    "options": [
+      "Sự phát triển của quan hệ sản xuất.",
+      "Sự ra đời của giai cấp công nhân.",
+      "Sự phát triển của lực lượng sản xuất.",
+      "Sự ra đời của Đảng Cộng sản."
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_2"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Đại hội nào của Đảng Cộng sản Việt Nam đã xác định mục tiêu đến giữa thế kỷ XXI, nước ta trở thành nước phát triển theo định hướng <span class=\"keyword\">xã hội chủ nghĩa</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Đại hội XIII (2021)</span> <div class=\"note\"><b>💡 Giải thích:</b> D. Đại hội XIII (2021) ✓</div>",
+    "options": [
+      "Đại hội VII (1991)",
+      "Đại hội VI (1986)",
+      "Đại hội XI (2011)",
+      "Đại hội XIII (2021)"
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_2"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Nước ta quá độ lên chủ nghĩa xã hội bỏ qua chế độ tư bản chủ nghĩa, tức là <span class=\"keyword\">bỏ qua điều gì</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>Bỏ qua việc xác lập vị <span class=\"answer-keyword\">trí thống trị của quan</span> hệ sản xuất và kiến trúc thượng tầng tư bản chủ nghĩa. <div class=\"note\"><b>💡 Giải thích:</b> C. Bỏ qua việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượng tầng tư bản chủ nghĩa. ✓</div>",
+    "options": [
+      "Bỏ qua hình thức sở hữu tư nhân tư bản chủ nghĩa.",
+      "Bỏ qua việc xác lập vị trí thống trị của lực lượng sản xuất và kiến trúc thượng tầng tư bản chủ nghĩa.",
+      "Bỏ qua việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượng tầng tư bản chủ nghĩa.",
+      "Bỏ qua tất cả những gì của chế độ tư bản chủ nghĩa."
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_2"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Cương lĩnh xây dựng đất nước trong <span class=\"keyword\">thời kỳ quá độ</span> lên chủ nghĩa xã hội (1991) đã xác định mô hình chủ nghĩa xã hội ở nước ta với bao nhiêu <span class=\"keyword\">đặc trưng</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Sáu đặc trưng</span> <div class=\"note\"><b>💡 Giải thích:</b> C. Sáu đặc trưng ✓</div>",
+    "options": [
+      "Tám đặc trưng",
+      "Bảy đặc trưng",
+      "Sáu đặc trưng",
+      "Chín đặc trưng"
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_2"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Theo chủ nghĩa Mác - Lênin, chủ nghĩa xã hội có bao nhiêu <span class=\"keyword\"><span class=\"keyword\">đặc trưng</span> cơ bản</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Sáu đặc trưng</span> <div class=\"note\"><b>💡 Giải thích:</b> D. Sáu đặc trưng ✓</div>",
+    "options": [
+      "Năm đặc trưng",
+      "Tám đặc trưng",
+      "Bảy đặc trưng",
+      "Sáu đặc trưng"
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_2"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Theo chủ nghĩa Mác - Lênin, sự khác biệt về chất của hình thái kinh tế - xã hội cộng sản chủ nghĩa so với các hình thái kinh tế - xã hội đã xuất hiện <span class=\"keyword\">trong lịch sử là</span>:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>Không <span class=\"answer-keyword\">có giai cấp đối kháng.</span> <div class=\"note\"><b>💡 Giải thích:</b> D. Không có giai cấp đối kháng. ✓</div>",
+    "options": [
+      "Con người không cần phải lao động.",
+      "Không có tổ chức, quản lý và kỷ luật lao động.",
+      "Con người không làm chủ tồn tại xã hội của chính mình.",
+      "Không có giai cấp đối kháng."
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_2"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Trong <span class=\"keyword\">thời kỳ quá độ</span> lên chủ nghĩa xã hội, về phương diện kinh tế, <span class=\"keyword\">tất yếu tồn tại</span>:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>Nền <span class=\"answer-keyword\">kinh tế nhiều thành phần.</span> <div class=\"note\"><b>💡 Giải thích:</b> B. Nền kinh tế nhiều thành phần. ✓</div>",
+    "options": [
+      "Nhiều giai cấp, tầng lớp khác nhau.",
+      "Nền kinh tế nhiều thành phần.",
+      "Nhiều tư tưởng khác nhau.",
+      "Nền kinh tế kế hoạch hóa, tập trung."
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_2"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Theo chủ nghĩa Mác - Lênin, hình thái kinh tế - xã hội cộng sản chủ nghĩa chỉ được <span class=\"keyword\">hình thành thông qua</span>:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Cách mạng vô sản</span> <div class=\"note\"><b>💡 Giải thích:</b> D. Cách mạng vô sản ✓</div>",
+    "options": [
+      "Cách mạng tư sản",
+      "Đấu tranh giai cấp",
+      "Đấu tranh hòa bình",
+      "Cách mạng vô sản"
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_2"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Nhà nước pháp quyền <span class=\"keyword\">xã hội chủ nghĩa</span> ở Việt Nam phải do Đảng Cộng sản Việt Nam lãnh đạo, phù hợp với điều mấy của <span class=\"keyword\">Hiến pháp năm 2013</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Điều 4</span> <div class=\"note\"><b>💡 Giải thích:</b> D. Điều 4 ✓</div>",
+    "options": [
+      "Điều 3",
+      "Điều 1",
+      "Điều 2",
+      "Điều 4"
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_2"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Cơ quan quyền lực nhà nước cao nhất <span class=\"keyword\">ở nước ta là</span>:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Quốc hội</span> <div class=\"note\"><b>💡 Giải thích:</b> A. Quốc hội ✓</div>",
+    "options": [
+      "Quốc hội",
+      "Chính phủ",
+      "Đảng Cộng sản",
+      "Mặt trận Tổ quốc"
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_2"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Theo chủ nghĩa Mác - Lênin, dân chủ <span class=\"keyword\">xã hội chủ nghĩa</span> chỉ có được với điều <span class=\"keyword\">kiện tiên quyết là</span>:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>Bảo đảm vai trò lãnh đạo duy <span class=\"answer-keyword\">nhất của Đảng Cộng sản.</span> <div class=\"note\"><b>💡 Giải thích:</b> A. Bảo đảm vai trò lãnh đạo duy nhất của Đảng Cộng sản. ✓</div>",
+    "options": [
+      "Bảo đảm vai trò lãnh đạo duy nhất của Đảng Cộng sản.",
+      "Khoa học - công nghệ phát triển, hiện đại.",
+      "Phát huy được tính tích cực của nhân dân trong sự nghiệp xây dựng xã hội mới.",
+      "Nâng cao được trình độ văn hóa của nhân dân."
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_2"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Theo chủ nghĩa Mác - Lênin, với tư cách một hình thức tổ chức thiết chế chính trị, dân chủ <span class=\"keyword\">là một phạm trù</span>:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Lịch sử</span> <div class=\"note\"><b>💡 Giải thích:</b> A. Lịch sử ✓</div>",
+    "options": [
+      "Lịch sử",
+      "Lôgíc",
+      "Vĩnh viễn",
+      "Triết học"
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_2"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Nền dân chủ <span class=\"keyword\">xã hội chủ nghĩa</span> chính thức được <span class=\"keyword\">xác lập khi nào</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>Khi cách mạng <span class=\"answer-keyword\">Tháng Mười Nga thành công,</span> Nhà nước xã hội chủ nghĩa đầu tiên trên thế giới ra đời. <div class=\"note\"><b>💡 Giải thích:</b> C. Khi cách mạng Tháng Mười Nga thành công, Nhà nước xã hội chủ nghĩa đầu tiên trên thế giới ra đời. ✓</div>",
+    "options": [
+      "Khi nhân dân xem việc tuân theo ý chí của giai cấp thống trị là bổn phận.",
+      "Khi xuất hiện những tư tưởng tiến bộ về tự do, công bằng, dân chủ.",
+      "Khi cách mạng Tháng Mười Nga thành công, Nhà nước xã hội chủ nghĩa đầu tiên trên thế giới ra đời.",
+      "Khi cách mạng tư sản giành thắng lợi, Nhà nước tư sản được thành lập."
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_2"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Khi coi dân chủ là một giá trị xã hội mang tính toàn nhân loại, Chủ tịch Hồ Chí <span class=\"keyword\">Minh đã khẳng định</span>:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>Dân chủ là dân là <span class=\"answer-keyword\">chủ và dân làm chủ.</span> <div class=\"note\"><b>💡 Giải thích:</b> D. Dân chủ là dân là chủ và dân làm chủ. ✓</div>",
+    "options": [
+      "Dân chủ là nhân dân cai trị.",
+      "Dân chủ là dân tham gia bầu ra nhà nước.",
+      "Dân chủ là một nguyên tắc - nguyên tắc dân chủ.",
+      "Dân chủ là dân là chủ và dân làm chủ."
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_2"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Nền dân chủ thứ hai trong lịch <span class=\"keyword\">sử nhân loại là</span>:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Nền dân chủ tư sản</span> <div class=\"note\"><b>💡 Giải thích:</b> D. Nền dân chủ tư sản ✓</div>",
+    "options": [
+      "Nền dân chủ xã hội chủ nghĩa",
+      "Nền dân chủ nguyên thủy",
+      "Nền dân chủ chủ nô",
+      "Nền dân chủ tư sản"
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_2"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Tầng lớp xã hội đặc biệt được Đảng ta chủ trương xây dựng thành một đội <span class=\"keyword\">ngũ vững mạnh là</span>:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Đội ngũ doanh nhân</span> <div class=\"note\"><b>💡 Giải thích:</b> A. Đội ngũ doanh nhân ✓</div>",
+    "options": [
+      "Đội ngũ doanh nhân",
+      "Giai cấp nông dân",
+      "Giai cấp công nhân",
+      "Đội ngũ trí thức"
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Ở Việt Nam hiện nay, giai cấp nào có xu hướng giảm dần về số lượng và tỷ lệ trong cơ cấu xã hội - giai cấp?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Giai cấp nông dân</span> <div class=\"note\"><b>💡 Giải thích:</b> C. Giai cấp nông dân ✓</div>",
+    "options": [
+      "Giai cấp công nhân",
+      "Giai cấp tư sản",
+      "Giai cấp nông dân",
+      "Giai cấp tiểu tư sản"
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Một trong những tầng lớp xã hội mới xuất hiện trong <span class=\"keyword\">thời kỳ quá độ</span> lên chủ <span class=\"keyword\">nghĩa xã hội là</span>:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Những người giàu có</span> <div class=\"note\"><b>💡 Giải thích:</b> D. Những người giàu có ✓</div>",
+    "options": [
+      "Công nhân",
+      "Trí thức",
+      "Nông dân",
+      "Những người giàu có"
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Ở Việt Nam hiện nay, giai cấp nào là lực lượng đi đầu trong sự nghiệp công nghiệp hóa, hiện <span class=\"keyword\">đại hóa đất nước</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Giai cấp công nhân</span> <div class=\"note\"><b>💡 Giải thích:</b> B. Giai cấp công nhân ✓</div>",
+    "options": [
+      "Giai cấp tư sản",
+      "Giai cấp công nhân",
+      "Giai cấp nông dân",
+      "Giai cấp tiểu tư sản"
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Nền kinh tế thị trường phát triển mạnh, tính cạnh tranh cao, xu thế hội nhập ngày càng sâu rộng sẽ làm cho các giai cấp, tầng lớp <span class=\"keyword\">xã hội trở nên</span>:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Năng động, sáng tạo, thích</span> ứng nhanh hơn. <div class=\"note\"><b>💡 Giải thích:</b> B. Năng động, sáng tạo, thích ứng nhanh hơn. ✓</div>",
+    "options": [
+      "Thụ động, ỷ lại hơn.",
+      "Năng động, sáng tạo, thích ứng nhanh hơn.",
+      "Dễ thất nghiệp, nghèo khó hơn.",
+      "Cạnh tranh, bất đồng, mâu thuẫn nhiều hơn."
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Ở Việt Nam hiện nay, tổ chức nào là nơi quy tụ và phát huy tài năng sáng tạo của tuổi trẻ vì sự nghiệp xây dựng và bảo vệ Tổ quốc <span class=\"keyword\">xã hội chủ nghĩa</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Đoàn Thanh niên Cộng sản</span> Hồ Chí Minh <div class=\"note\"><b>💡 Giải thích:</b> A. Đoàn Thanh niên Cộng sản Hồ Chí Minh ✓</div>",
+    "options": [
+      "Đoàn Thanh niên Cộng sản Hồ Chí Minh",
+      "Công đoàn",
+      "Hội Nông dân",
+      "Hội Liên hiệp phụ nữ"
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Theo C.Mác và Ph.Ăngghen, “người bạn đồng minh tự nhiên” của <span class=\"keyword\">giai cấp công nhân</span> là:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Giai cấp nông dân</span>",
+    "options": [
+      "Giai cấp tiểu tư sản",
+      "Giai cấp địa chủ",
+      "Giai cấp tư sản ✗",
+      "Giai cấp nông dân"
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Yếu tố nào sau đây thể hiện chủ quyền của một dân tộc trong tương quan với các quốc gia - <span class=\"keyword\">dân tộc khác</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Lãnh thổ</span> <div class=\"note\"><b>💡 Giải thích:</b> D. Lãnh thổ ✓</div>",
+    "options": [
+      "Kinh tế",
+      "Ngôn ngữ",
+      "Tâm lý",
+      "Lãnh thổ"
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Tín đồ các tôn giáo ở Việt <span class=\"keyword\">Nam phần lớn là</span>:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Nhân dân lao động</span> <div class=\"note\"><b>💡 Giải thích:</b> C. Nhân dân lao động ✓</div>",
+    "options": [
+      "Trí thức",
+      "Doanh nhân",
+      "Nhân dân lao động",
+      "Thanh niên"
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Ở cấp độ gia đình, hoạt động nào là phổ biến nhất của tín ngưỡng <span class=\"keyword\">truyền thống Việt Nam</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Thờ cúng tổ tiên</span> <div class=\"note\"><b>💡 Giải thích:</b> B. Thờ cúng tổ tiên ✓</div>",
+    "options": [
+      "Thờ nữ thần",
+      "Thờ cúng tổ tiên",
+      "Thờ cúng Thành hoàng làng",
+      "Thờ Mẫu"
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Một trong những hiện tượng tôn giáo mới xuất hiện <span class=\"keyword\">ở Việt Nam là</span>:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Tin Lành Vàng Chứ</span> <div class=\"note\"><b>💡 Giải thích:</b> B. Tin Lành Vàng Chứ ✓</div>",
+    "options": [
+      "Hội đồng Giám mục Việt Nam",
+      "Tin Lành Vàng Chứ",
+      "Hội Thánh Tin Lành Việt Nam (miền Bắc)",
+      "Giáo hội Phật giáo Việt Nam"
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Theo chủ nghĩa Mác - Lênin, nhân tố <span class=\"keyword\">quyết định</span> sự tồn tại và phát triển <span class=\"keyword\">của tôn giáo là</span>:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Sản xuất vật chất và</span> các quan hệ kinh tế. <div class=\"note\"><b>💡 Giải thích:</b> C. Sản xuất vật chất và các quan hệ kinh tế. ✓</div>",
+    "options": [
+      "Xây dựng tổ chức nhân sự.",
+      "Sản xuất ra các giá trị văn hóa tinh thần.",
+      "Sản xuất vật chất và các quan hệ kinh tế.",
+      "Xây dựng hệ thống tín đồ đông đảo."
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Nội dung chính trị trong chính sách dân tộc của Đảng, Nhà <span class=\"keyword\">nước Việt Nam là</span>:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>Thực hiện bình <span class=\"answer-keyword\">đẳng, đoàn kết, tôn trọng,</span> giúp nhau cùng phát triển giữa các dân tộc.",
+    "options": [
+      "Thực hiện chính sách xã hội, đảm bảo an sinh xã hội trong vùng đồng bào dân tộc thiểu số. ✗",
+      "Thực hiện chủ trương, chính sách phát triển kinh tế - xã hội miền núi, vùng đồng bào các dân tộc thiểu số.",
+      "Thực hiện việc tăng cường sức mạnh bảo vệ Tổ quốc trên cơ sở đảm bảo ổn định chính trị, thực hiện tốt an ninh chính trị, trật tự - an toàn xã hội.",
+      "Thực hiện bình đẳng, đoàn kết, tôn trọng, giúp nhau cùng phát triển giữa các dân tộc."
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Theo Cương lĩnh dân tộc của V.I.Lênin, liên hiệp công nhân các dân tộc phản ánh sự gắn bó chặt chẽ giữa tinh thần của chủ <span class=\"keyword\">nghĩa yêu nước và</span>:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>Chủ <span class=\"answer-keyword\">nghĩa quốc tế chân chính.</span> <div class=\"note\"><b>💡 Giải thích:</b> D. Chủ nghĩa quốc tế chân chính. ✓</div>",
+    "options": [
+      "Chủ nghĩa bá quyền nước lớn.",
+      "Chủ nghĩa dân tộc hẹp hòi.",
+      "Chủ nghĩa dân tộc cực đoan.",
+      "Chủ nghĩa quốc tế chân chính."
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Một trong những đặc điểm của tôn giáo <span class=\"keyword\">ở Việt Nam là</span>:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>Đa dạng, đan xen, chung sống hòa bình và không có xung <span class=\"answer-keyword\">đột, chiến tranh tôn giáo.</span> <div class=\"note\"><b>💡 Giải thích:</b> D. Đa dạng, đan xen, chung sống hòa bình và không có xung đột, chiến tranh tôn giáo. ✓</div>",
+    "options": [
+      "Không có quan hệ với các tổ chức, cá nhân tôn giáo ở nước ngoài.",
+      "Phần lớn tín đồ là trí thức, có lòng yêu nước, tinh thần dân tộc.",
+      "Các tôn giáo du nhập vào Việt Nam đều không chịu ảnh hưởng của bản sắc văn hóa Việt Nam.",
+      "Đa dạng, đan xen, chung sống hòa bình và không có xung đột, chiến tranh tôn giáo."
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Cương lĩnh dân tộc của V.I.Lênin đã khái quát bao nhiêu <span class=\"keyword\">nguyên tắc cơ bản</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Ba nguyên tắc</span> <div class=\"note\"><b>💡 Giải thích:</b> C. Ba nguyên tắc ✓</div>",
+    "options": [
+      "Hai nguyên tắc",
+      "Bốn nguyên tắc",
+      "Ba nguyên tắc",
+      "Năm nguyên tắc"
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Theo chủ nghĩa Mác - Lênin, tôn giáo là một hình thái ý thức xã hội phản ánh như thế nào đối với <span class=\"keyword\">hiện thực khách quan</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Phản ánh hư ảo</span> <div class=\"note\"><b>💡 Giải thích:</b> B. Phản ánh hư ảo ✓</div>",
+    "options": [
+      "Phản ánh sáng tạo",
+      "Phản ánh hư ảo",
+      "Phản ánh tiêu cực",
+      "Phản ánh tích cực"
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Yếu tố nào sau đây là <span class=\"keyword\">đặc trưng</span> cho thể chế chính trị của dân tộc, là đại diện cho dân tộc trong quan hệ với các quốc gia dân tộc <span class=\"keyword\">khác trên thế giới</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Nhà nước</span> <div class=\"note\"><b>💡 Giải thích:</b> B. Nhà nước ✓</div>",
+    "options": [
+      "Văn hóa",
+      "Nhà nước",
+      "Lãnh thổ",
+      "Kinh tế"
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Theo kết quả tổng điều tra dân số và nhà ở năm 2019, dân tộc nào ở Việt Nam có dân số đông thứ hai, <span class=\"keyword\">sau dân tộc Kinh</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Dân tộc Tày</span> <div class=\"note\"><b>💡 Giải thích:</b> A. Dân tộc Tày ✓</div>",
+    "options": [
+      "Dân tộc Tày",
+      "Dân tộc Mường",
+      "Dân tộc Khmer",
+      "Dân tộc Thái"
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Theo Cương lĩnh dân tộc của V.I.Lênin, quyền tự lựa chọn chế độ chính trị và con đường phát triển của dân tộc <span class=\"keyword\">mình được gọi là</span>:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Quyền dân tộc tự quyết</span>",
+    "options": [
+      "Quyền giao lưu giữa các dân tộc",
+      "Quyền dân tộc tự quyết",
+      "Quyền bình đẳng dân tộc ✗",
+      "Quyền liên hiệp công nhân tất cả các dân tộc"
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_3"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Trong gia đình Việt Nam hiện đại, sự bền vững của hôn nhân phụ thuộc nhiều <span class=\"keyword\">vào yếu tố nào</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Tâm lý, tình cảm, kinh</span> tế <div class=\"note\"><b>💡 Giải thích:</b> B. Tâm lý, tình cảm, kinh tế ✓</div>",
+    "options": [
+      "Có đủ hai con",
+      "Tâm lý, tình cảm, kinh tế",
+      "Phong tục, tập quán",
+      "Có con trai nối dõi"
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_4"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Chức năng nào của gia đình <span class=\"keyword\">quyết định</span> mật độ dân cư, nguồn lực lao động của một quốc gia <span class=\"keyword\">và cả quốc tế</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Chức năng tái sản xuất</span> ra con người. <div class=\"note\"><b>💡 Giải thích:</b> A. Chức năng tái sản xuất ra con người. ✓</div>",
+    "options": [
+      "Chức năng tái sản xuất ra con người.",
+      "Chức năng nuôi dưỡng, giáo dục.",
+      "Chức năng thỏa mãn nhu cầu tâm sinh lý, duy trì tình cảm gia đình.",
+      "Chức năng tổ chức tiêu dùng."
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_4"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Trong gia đình Việt Nam truyền thống, sự bền vững của hôn nhân phụ thuộc nhiều <span class=\"keyword\">vào yếu tố nào</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Có con trai nối dõi</span>",
+    "options": [
+      "Có tâm lý vững vàng",
+      "Có tình cảm sâu sắc",
+      "Có kinh tế ổn định ✗",
+      "Có con trai nối dõi"
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_4"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Ở Việt Nam hiện nay, người chủ gia đình <span class=\"keyword\">được quan niệm là</span>:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Người có những phẩm chất,</span> năng lực và đóng góp vượt trội, được các thành viên trong gia đình coi trọng. <div class=\"note\"><b>💡 Giải thích:</b> B. Người có những phẩm chất, năng lực và đóng góp vượt trội, được các thành viên trong gia đình coi trọng. ✓</div>",
+    "options": [
+      "Người thờ phụng tổ tiên.",
+      "Người có những phẩm chất, năng lực và đóng góp vượt trội, được các thành viên trong gia đình coi trọng.",
+      "Người nuôi dưỡng, chăm sóc cha mẹ già.",
+      "Người được thừa kế tài sản do tổ tiên để lại."
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_4"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Trong <span class=\"keyword\">thời kỳ quá độ</span> lên chủ nghĩa xã hội, thực hiện chế độ hôn nhân một vợ một chồng <span class=\"keyword\">chính là thực hiện</span>:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>Sự <span class=\"answer-keyword\">bình đẳng, tôn trọng lẫn</span> nhau giữa vợ và chồng. <div class=\"note\"><b>💡 Giải thích:</b> A. Sự bình đẳng, tôn trọng lẫn nhau giữa vợ và chồng. ✓</div>",
+    "options": [
+      "Sự bình đẳng, tôn trọng lẫn nhau giữa vợ và chồng.",
+      "Sự nuôi dưỡng, chăm sóc lẫn nhau giữa vợ và chồng.",
+      "Sự giải phóng đối với người đàn ông.",
+      "Sự tập trung nhiều của cải vào tay một người."
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_4"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Nhà nước <span class=\"keyword\">xã hội chủ nghĩa</span> với tính cách là cơ sở của việc xây dựng gia đình trong <span class=\"keyword\">thời kỳ quá độ</span> lên chủ nghĩa xã hội, thể hiện rõ nét nhất ở vai trò của:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div>Hệ <span class=\"answer-keyword\">thống pháp luật và chính</span> sách xã hội. <div class=\"note\"><b>💡 Giải thích:</b> B. Hệ thống pháp luật và chính sách xã hội. ✓</div>",
+    "options": [
+      "Hệ thống Hiến pháp và pháp luật.",
+      "Hệ thống pháp luật và chính sách xã hội.",
+      "Chính sách kinh tế.",
+      "Chính sách dân số, kế hoạch hóa gia đình."
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_4"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Chức năng nào của gia đình có ảnh hưởng lâu dài và toàn diện đến cuộc đời <span class=\"keyword\">của mỗi thành viên</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Chức năng nuôi dưỡng, giáo</span> dục. <div class=\"note\"><b>💡 Giải thích:</b> A. Chức năng nuôi dưỡng, giáo dục. ✓</div>",
+    "options": [
+      "Chức năng nuôi dưỡng, giáo dục.",
+      "Chức năng tổ chức tiêu dung.",
+      "Chức năng tái sản xuất ra con người.",
+      "Chức năng thỏa mãn nhu cầu tâm sinh lý, duy trì tình cảm gia đình."
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_4"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Một mô hình gia đình tiến bộ, một danh hiệu mà nhiều gia đình Việt Nam mong <span class=\"keyword\">muốn hướng đến là</span>:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Gia đình văn hóa</span> <div class=\"note\"><b>💡 Giải thích:</b> A. Gia đình văn hóa ✓</div>",
+    "options": [
+      "Gia đình văn hóa",
+      "Gia đình truyền thống",
+      "Gia đình hiện đại",
+      "Gia đình tiên tiến"
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_4"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Theo chủ nghĩa Mác - Lênin, gia đình được hình thành dựa trên cơ sở của bao nhiêu mối <span class=\"keyword\">quan hệ cơ bản</span>?",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Hai mối quan hệ</span> <div class=\"note\"><b>💡 Giải thích:</b> C. Hai mối quan hệ ✓</div>",
+    "options": [
+      "Năm mối quan hệ",
+      "Ba mối quan hệ",
+      "Hai mối quan hệ",
+      "Bốn mối quan hệ"
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_4"
+    ]
+  },
+  {
+    "weight": "normal",
+    "question": "Theo chủ nghĩa Mác - Lênin, sự thống trị của người đàn ông trong gia đình là kết quả sự thống <span class=\"keyword\">trị của họ về</span>:",
+    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Kinh tế</span> <div class=\"note\"><b>💡 Giải thích:</b> A. Kinh tế ✓</div>",
+    "options": [
+      "Kinh tế",
+      "Chính trị",
+      "Xã hội",
+      "Tư tưởng"
+    ],
+    "tags": [
+      "Chủ nghĩa xã hội khoa học",
+      "LTTN_4"
     ]
   }
 ]

@@ -1,0 +1,688 @@
+[
+  {
+    "source": "LTTN_1",
+    "num": 1,
+    "question": "Ví dụ nào là trái với quy luật mâu thuẫn?",
+    "options": [
+      "Khẳng định cả SAP và SEP",
+      "Phủ định cả SAP và SEP",
+      "Khẳng định cả SIP và SOP",
+      "Khẳng định SAP, phủ định SIP"
+    ],
+    "answer": "Khẳng định cả SAP và SEP",
+    "explanation": "A. Khẳng định cả SAP và SEP ✓",
+    "raw_feedback": "A.\nKhẳng định cả SAP và SEP\n✓"
+  },
+  {
+    "source": "LTTN_1",
+    "num": 2,
+    "question": "Đặc trưng của quy luật mâu thuẫn là:",
+    "options": [
+      "Không cho phép tư tưởng tự mâu thuẫn",
+      "Thừa nhận mọi tư tưởng đều mâu thuẫn",
+      "Thừa nhận tư tưởng tự mâu thuẫn",
+      "Không thừa nhận mọi tư tưởng đều mâu thuẫn"
+    ],
+    "answer": "Không cho phép tư tưởng tự mâu thuẫn",
+    "explanation": "A. Không cho phép tư tưởng tự mâu thuẫn ✓",
+    "raw_feedback": "A.\nKhông cho phép tư tưởng tự mâu thuẫn\n✓"
+  },
+  {
+    "source": "LTTN_1",
+    "num": 3,
+    "question": "Câu ca dao: “Có thương thì nói là thương. Không thương thì nói một đường cho xong”, là bị chi phối bởi quy luật nào?",
+    "options": [
+      "Luật lý do đầy đủ",
+      "Quy luật mâu thuẫn",
+      "Quy luật bài trung",
+      "Quy luật đồng nhất"
+    ],
+    "answer": "Quy luật bài trung",
+    "explanation": "C. Quy luật bài trung ✓",
+    "raw_feedback": "C.\nQuy luật bài trung\n✓"
+  },
+  {
+    "source": "LTTN_1",
+    "num": 6,
+    "question": "Khái niệm tam giác vuông có thể mở rộng một lần thành:",
+    "options": [
+      "Khái niệm tứ giác",
+      "Khái niệm tam giác",
+      "Khái niệm tam giác đều",
+      "Khái niệm tam giác vuông cân"
+    ],
+    "answer": "Khái niệm tam giác",
+    "explanation": "B. Khái niệm tam giác ✓",
+    "raw_feedback": "B.\nKhái niệm tam giác\n✓"
+  },
+  {
+    "source": "LTTN_1",
+    "num": 7,
+    "question": "Chọn phương án trả lời đúng nhất về phân chia.",
+    "options": [
+      "“Tam giác” được phân chia thành “tam giác cân” và “tam giác đều”",
+      "“Nghệ thuật biểu diễn” được phân chia thành “âm nhạc”, “múa” và “điện ảnh”",
+      "“Học sinh” được phân chia thành “học sinh nam”, “học sinh nữ” và “đoàn viên”",
+      "“Nghệ thuật tạo hình” được phân chia thành “hội họa” và “điêu khắc”"
+    ],
+    "answer": "“Nghệ thuật tạo hình” được phân chia thành “hội họa” và “điêu khắc”",
+    "explanation": "D. “Nghệ thuật tạo hình” được phân chia thành “hội họa” và “điêu khắc” ✓",
+    "raw_feedback": "D.\n“Nghệ thuật tạo hình” được phân chia thành “hội họa” và “điêu khắc”\n✓"
+  },
+  {
+    "source": "LTTN_1",
+    "num": 8,
+    "question": "Mở rộng ngoại diên của khái niệm cũng là quá trình:",
+    "options": [
+      "làm cho nội hàm của khái niệm trở nên phong phú",
+      "thu hẹp nội hàm của khái niệm",
+      "làm rõ bản chất biện chứng của khái niệm",
+      "mở rộng nội hàm của khái niệm"
+    ],
+    "answer": "thu hẹp nội hàm của khái niệm",
+    "explanation": "B. thu hẹp nội hàm của khái niệm ✓",
+    "raw_feedback": "B.\nthu hẹp nội hàm của khái niệm\n✓"
+  },
+  {
+    "source": "LTTN_1",
+    "num": 9,
+    "question": "Dựa vào nội hàm, khái niệm có thể được phân chia thành:",
+    "options": [
+      "Khái niệm tập hợp và khái niệm rỗng",
+      "Khái niệm chung và khái niệm riêng",
+      "Khái niệm rỗng và khái niệm cụ thể",
+      "Khái niệm khẳng định và khái niệm phủ định"
+    ],
+    "answer": "Khái niệm khẳng định và khái niệm phủ định",
+    "explanation": "D. Khái niệm khẳng định và khái niệm phủ định ✓",
+    "raw_feedback": "D.\nKhái niệm khẳng định và khái niệm phủ định\n✓"
+  },
+  {
+    "source": "LTTN_1",
+    "num": 10,
+    "question": "Hai khái niệm: “văn hóa vật thể” và “văn hóa phi vật thể” có quan hệ:",
+    "options": [
+      "Đồng nhất",
+      "Mâu thuẫn",
+      "Bao hàm",
+      "Giao nhau"
+    ],
+    "answer": "Mâu thuẫn",
+    "explanation": "B. Mâu thuẫn ✓",
+    "raw_feedback": "B.\nMâu thuẫn\n✓"
+  },
+  {
+    "source": "LTTN_2",
+    "num": 1,
+    "question": "Xác định tính chu diên của chủ từ và vị từ trong phán đoán “Mọi tam giác đều là tam giác cân”",
+    "options": [
+      "Chủ từ không chu diên, vị từ chu diên",
+      "Chủ từ chu diên và vị từ không chu diên",
+      "Chủ từ và vị từ cùng chu diên",
+      "Chủ từ và vị từ không chu diên"
+    ],
+    "answer": "Chủ từ chu diên và vị từ không chu diên",
+    "explanation": "B. Chủ từ chu diên và vị từ không chu diên ✓",
+    "raw_feedback": "B.\nChủ từ chu diên và vị từ không chu diên\n✓"
+  },
+  {
+    "source": "LTTN_2",
+    "num": 2,
+    "question": "Quan hệ giữa “Phán đoán phủ định riêng” và “phán đoán khẳng định riêng”, có cùng chủ từ, vị từ là",
+    "options": [
+      "Quan hệ phụ thuộc",
+      "Quan hệ mâu thuẫn",
+      "Quan hệ đối lập chung",
+      "Quan hệ đối lập riêng"
+    ],
+    "answer": "Quan hệ đối lập riêng",
+    "explanation": "D. Quan hệ đối lập riêng ✓",
+    "raw_feedback": "D.\nQuan hệ đối lập riêng\n✓"
+  },
+  {
+    "source": "LTTN_2",
+    "num": 4,
+    "question": "Nếu phán đoán phủ định riêng có giá trị sai thì giá trị phán đoán nào sau đây đúng?",
+    "options": [
+      "Phán đoán khẳng định chung có giá trị đúng",
+      "Chưa xác định được giá trị của phán đoán khẳng định chung.",
+      "Phán đoán khẳng chung có giá trị sai",
+      "Phán đoán phủ định chung có giá trị đúng"
+    ],
+    "answer": "Phán đoán khẳng định chung có giá trị đúng",
+    "explanation": "A. Phán đoán khẳng định chung có giá trị đúng ✓",
+    "raw_feedback": "A.\nPhán đoán khẳng định chung có giá trị đúng\n✓"
+  },
+  {
+    "source": "LTTN_2",
+    "num": 5,
+    "question": "Phán đoán có chủ từ và vị từ luôn chu diên là:",
+    "options": [
+      "Phán đoán phủ định riêng",
+      "Phán đoán khẳng định chung",
+      "Phán đoán khẳng định riêng",
+      "Phán đoán phủ định chung"
+    ],
+    "answer": "Phán đoán phủ định chung",
+    "explanation": "D. Phán đoán phủ định chung ✓",
+    "raw_feedback": "D.\nPhán đoán phủ định chung\n✓"
+  },
+  {
+    "source": "LTTN_2",
+    "num": 6,
+    "question": "Phán đoán có giá trị sai khi và chỉ khỉ:",
+    "options": [
+      "p đúng và q sai",
+      "p và q cùng đúng",
+      "p và q không cùng giá trị",
+      "p và q cùng sai"
+    ],
+    "answer": "p đúng và q sai",
+    "explanation": "A. p đúng và q sai ✓",
+    "raw_feedback": "A.\np đúng và q sai\n✓"
+  },
+  {
+    "source": "LTTN_2",
+    "num": 8,
+    "question": "Quan hệ giữa “Phán đoán phủ định chung” và “phán đoán khẳng định chung” có cùng chủ từ, vị từ là",
+    "options": [
+      "Quan hệ đối lập riêng",
+      "Quan hệ phụ thuộc",
+      "Quan hệ đối lập chung",
+      "Quan hệ mâu thuẫn"
+    ],
+    "answer": "Quan hệ đối lập chung",
+    "explanation": "C. Quan hệ đối lập chung ✓",
+    "raw_feedback": "C.\nQuan hệ đối lập chung\n✓"
+  },
+  {
+    "source": "LTTN_2",
+    "num": 9,
+    "question": "Phán đoán nào có cùng giá trị với phán đoán có cùng giá trị với phán đoán “Mọi loại gỗ đều không dẫn điện” là",
+    "options": [
+      "Có một loại gỗ dẫn điện",
+      "Mọi loại gỗ đều dẫn điện",
+      "Không loại gỗ nào dẫn điện",
+      "Số ít loại gỗ dẫn điện"
+    ],
+    "answer": "Không loại gỗ nào dẫn điện",
+    "explanation": "C. Không loại gỗ nào dẫn điện ✓",
+    "raw_feedback": "C.\nKhông loại gỗ nào dẫn điện\n✓"
+  },
+  {
+    "source": "LTTN_2",
+    "num": 10,
+    "question": "Phán đoán có công thức “Không S nào là P” là:",
+    "options": [
+      "Phán đoán khẳng định riêng",
+      "Phán đoán khẳng định chung",
+      "Phán đoán phủ định riêng",
+      "Phán đoán phủ định chung"
+    ],
+    "answer": "Phán đoán phủ định chung",
+    "explanation": "D. Phán đoán phủ định chung ✓",
+    "raw_feedback": "D.\nPhán đoán phủ định chung\n✓"
+  },
+  {
+    "source": "LTTN_2",
+    "num": 11,
+    "question": "Chọn câu trả lời đúng nhất về tính chu diên của chủ từ và vị từ trong phán đoán khẳng định riêng.",
+    "options": [
+      "Chủ từ và vị từ luôn chu diên",
+      "Chủ từ không chu diên, vị từ chu diên hoặc không chu diên",
+      "Chủ từ không chu diên, vị từ chu diên",
+      "Chủ từ và vị từ luôn không chu diên"
+    ],
+    "answer": "Chủ từ không chu diên, vị từ chu diên hoặc không chu diên",
+    "explanation": "B. Chủ từ không chu diên, vị từ chu diên hoặc không chu diên ✓",
+    "raw_feedback": "B.\nChủ từ không chu diên, vị từ chu diên hoặc không chu diên\n✓"
+  },
+  {
+    "source": "LTTN_2",
+    "num": 12,
+    "question": "Nếu phán đoán khẳng định chung có giá trị đúng thì giá trị phán đoán nào sau đây đúng?",
+    "options": [
+      "Phán đoán phủ định riêng có giá trị đúng",
+      "Phán đoán khẳng định riêng có giá trị đúng.",
+      "Phán đoán phủ định chung có giá trị đúng",
+      "Phán đoán khẳng định riêng có giá trị sai"
+    ],
+    "answer": "Phán đoán khẳng định riêng có giá trị đúng.",
+    "explanation": "B. Phán đoán khẳng định riêng có giá trị đúng. ✓",
+    "raw_feedback": "B.\nPhán đoán khẳng định riêng có giá trị đúng.\n✓"
+  },
+  {
+    "source": "LTTN_2",
+    "num": 14,
+    "question": "Biết phán đoán “Một số từ không phải là động từ” có giá trị chân thực. Phán đoán “Từ là động từ”, có giá trị",
+    "options": [
+      "không xác định",
+      "chân thực",
+      "vừa chân thực vừa giả dối",
+      "giả dối"
+    ],
+    "answer": "giả dối",
+    "explanation": "D. giả dối ✓",
+    "raw_feedback": "D.\ngiả dối\n✓"
+  },
+  {
+    "source": "LTTN_2",
+    "num": 15,
+    "question": "Phán đoán “Loài cá không sống dưới nước” có giá trị đối lập với giá trị của phán đoán:",
+    "options": [
+      "Có loài cá sống dưới nước",
+      "Một số loài cá không sống dưới nước",
+      "Không loài cá nào sống dưới nước",
+      "Loài sống dưới nước là cá"
+    ],
+    "answer": "Có loài cá sống dưới nước",
+    "explanation": "A. Có loài cá sống dưới nước ✓",
+    "raw_feedback": "A.\nCó loài cá sống dưới nước\n✓"
+  },
+  {
+    "source": "LTTN_2",
+    "num": 16,
+    "question": "Xác định tính chu diên của chủ từ và vị từ trong phán đoán “Mọi tam giác có ba cạnh bằng nhau là tam giác có ba góc bằng nhau”.",
+    "options": [
+      "Chủ từ chu diên, vị từ chu diên",
+      "Chủ từ và vị từ không chu diên",
+      "Chủ từ và vị từ không cùng chu diên",
+      "Chủ từ không chu diên, vị từ chu diên"
+    ],
+    "answer": "Chủ từ chu diên, vị từ chu diên",
+    "explanation": "A. Chủ từ chu diên, vị từ chu diên ✓",
+    "raw_feedback": "A.\nChủ từ chu diên, vị từ chu diên\n✓"
+  },
+  {
+    "source": "LTTN_2",
+    "num": 18,
+    "question": "Quan hệ đúng sai giữa hai phán đoán “Xã hội này tiên tiến” và “Xã hội này không tiên tiến” là",
+    "options": [
+      "Quan hệ mâu thuẫn",
+      "Quan hệ phụ thuộc",
+      "Quan hệ đối lập chung",
+      "Quan hệ đối lập riêng"
+    ],
+    "answer": "Quan hệ đối lập chung",
+    "explanation": "C. Quan hệ đối lập chung ✓",
+    "raw_feedback": "C.\nQuan hệ đối lập chung\n✓"
+  },
+  {
+    "source": "LTTN_2",
+    "num": 19,
+    "question": "Vị từ trong phán đoán nào luôn chu diên?",
+    "options": [
+      "khẳng định riêng và phủ định chung",
+      "khẳng định chung và khẳng định riêng",
+      "khẳng định chung và phủ định chung",
+      "phủ định riêng và phủ định chung"
+    ],
+    "answer": "phủ định riêng và phủ định chung",
+    "explanation": "D. phủ định riêng và phủ định chung ✓",
+    "raw_feedback": "D.\nphủ định riêng và phủ định chung\n✓"
+  },
+  {
+    "source": "LTTN_2",
+    "num": 20,
+    "question": "Hai phán đoán “Có những kỹ sư là người lao động trí óc” và “Một số kỹ sư không là người lao động trí óc” có quan hệ:",
+    "options": [
+      "đối lập riêng",
+      "đối lập chung",
+      "mâu thuẫn",
+      "phụ thuộc"
+    ],
+    "answer": "đối lập riêng",
+    "explanation": "A. đối lập riêng ✓",
+    "raw_feedback": "A.\nđối lập riêng\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 1,
+    "question": "Xác định hình thức của suy luận: “Không người Việt Nam nào lại không muốn đất nước phát triển, vì vậy mọi người Việt Nam đều mong muốn đất nước phát triển”.",
+    "options": [
+      "Suy luận diễn dịch trực tiếp kiểu đổi chất, suy luận đúng.",
+      "Suy luận diễn dịch trực tiếp kiểu đổi chổ, suy luận đúng.",
+      "Suy luận diễn dịch trực tiếp kiểu đổi chổ, suy luận sai.",
+      "Suy luận diễn dịch trực tiếp kiểu hình vuông logic, suy luận sai."
+    ],
+    "answer": "Suy luận diễn dịch trực tiếp kiểu đổi chất, suy luận đúng.",
+    "explanation": "A. Suy luận diễn dịch trực tiếp kiểu đổi chất, suy luận đúng. ✓",
+    "raw_feedback": "A.\nSuy luận diễn dịch trực tiếp kiểu đổi chất, suy luận đúng.\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 2,
+    "question": "Cho tiền đề: “Tam giác đều cũng là tam giác cân”, kết luận nào sau đây là đúng",
+    "options": [
+      "Có tam giác đều đồng thời là tam giác cân",
+      "Có tam giác không là tam giác cân",
+      "Có tam giác đều không là tam giác cân",
+      "Làm gì có chuyện, có tam giác đều cũng là tam giác cân"
+    ],
+    "answer": "Có tam giác đều đồng thời là tam giác cân",
+    "explanation": "A. Có tam giác đều đồng thời là tam giác cân ✓",
+    "raw_feedback": "A.\nCó tam giác đều đồng thời là tam giác cân\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 3,
+    "question": "Xác định loại hình và phương thức của suy luận: “Mọi khái niệm đơn nhất đều là khái niệm, mà một số khái niệm là khái niệm khẳng định. Vì vậy có khái niệm khẳng định là khái niệm đơn nhất”.",
+    "options": [
+      "Loại hình 3, phương thức AII",
+      "Loại hình 1, phương thức IAI",
+      "Loại hình 2, phương thức AII",
+      "Loại hình 4, phương thức AII"
+    ],
+    "answer": "Loại hình 4, phương thức AII",
+    "explanation": "D. Loại hình 4, phương thức AII ✓",
+    "raw_feedback": "D.\nLoại hình 4, phương thức AII\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 4,
+    "question": "AOO là phương thức đúng của:",
+    "options": [
+      "Loại hình 3",
+      "Loại hình 4",
+      "Loại hình 1",
+      "Loại hình 2"
+    ],
+    "answer": "Loại hình 2",
+    "explanation": "D. Loại hình 2 ✓",
+    "raw_feedback": "D.\nLoại hình 2\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 5,
+    "question": "Đặc trưng của tam đoạn luận thuộc loại hình 1 là:",
+    "options": [
+      "Thuật ngữ giữa làm vị từ trong tiền đề lớn, chủ từ trong tiền đề nhỏ. ✗",
+      "Thuật ngữ giữa làm chủ từ trong tiền đề nhỏ, vị từ trong tiền đề lớn.",
+      "Thuật ngữ giữa làm chủ từ trong tiền đề lớn, vị từ trong tiền đề nhỏ.",
+      "Thuật ngữ giữa làm chủ từ trong tiền đề lớn, chủ từ trong tiền đề nhỏ."
+    ],
+    "answer": "Thuật ngữ giữa làm chủ từ trong tiền đề lớn, vị từ trong tiền đề nhỏ.",
+    "explanation": "Phản hồi: Sai. Đáp án đúng là: Thuật ngữ giữa làm chủ từ trong tiền đề lớn, vị từ trong tiền đề nhỏ.",
+    "raw_feedback": "Phản hồi:\n\nSai. Đáp án đúng là: Thuật ngữ giữa làm chủ từ trong tiền đề lớn, vị từ trong tiền đề nhỏ."
+  },
+  {
+    "source": "LTTN_3",
+    "num": 6,
+    "question": "Quy tắc riêng của tam đoạn luận thuộc loại hình 1 là:",
+    "options": [
+      "Tiền đề lớn phải là phán đoán phủ định, tiền đề nhỏ phải là phán đoán khẳng định",
+      "Tiền đề lớn phải là phán đoán chung, tiền đề nhỏ phải là phán đoán khẳng định",
+      "Tiền đề nhỏ phải là phán đoán chung, tiền đề nhỏ phải là phán đoán phủ định",
+      "Tiền đề lớn phải là phán khẳng định, tiền đề nhỏ phải là phán đoán riêng"
+    ],
+    "answer": "Tiền đề lớn phải là phán đoán chung, tiền đề nhỏ phải là phán đoán khẳng định",
+    "explanation": "B. Tiền đề lớn phải là phán đoán chung, tiền đề nhỏ phải là phán đoán khẳng định ✓",
+    "raw_feedback": "B.\nTiền đề lớn phải là phán đoán chung, tiền đề nhỏ phải là phán đoán khẳng định\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 7,
+    "question": "Suy luận: “Một số giáo sư không là nhà sử học, mà mọi giáo sư là nhà khoa học. Cho nên, có nhà khoa học không là nhà sử học”, nhận định nào sau đây là đúng?",
+    "options": [
+      "Loại hình 2, phương thức IAI",
+      "Suy luận không hợp logic",
+      "Suy luận hợp logic",
+      "Suy luận sai"
+    ],
+    "answer": "Suy luận hợp logic",
+    "explanation": "C. Suy luận hợp logic ✓",
+    "raw_feedback": "C.\nSuy luận hợp logic\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 8,
+    "question": "Quy tắc riêng của tam đoạn luận loại hình 3 là:",
+    "options": [
+      "Tiền đề nhỏ phải là phán đoán khẳng định và kết luận phải là phán đoán riêng.",
+      "Tiền đề nhỏ phải là phán đoán chung, kết luận là phán đoán chung.",
+      "Tiền đề lớn phải là phán đoán riêng, tiền đề nhỏ là phán đoán phủ định.",
+      "Tiền đề lớn phải là phán khẳng định, tiền nhỏ là phán đoán riêng."
+    ],
+    "answer": "Tiền đề nhỏ phải là phán đoán khẳng định và kết luận phải là phán đoán riêng.",
+    "explanation": "A. Tiền đề nhỏ phải là phán đoán khẳng định và kết luận phải là phán đoán riêng. ✓",
+    "raw_feedback": "A.\nTiền đề nhỏ phải là phán đoán khẳng định và kết luận phải là phán đoán riêng.\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 9,
+    "question": "Phương thức sai của tam đoạn luận loại hình 1 là:",
+    "options": [
+      "EIO",
+      "AAA",
+      "AII",
+      "IAI"
+    ],
+    "answer": "IAI",
+    "explanation": "D. IAI ✓",
+    "raw_feedback": "D.\nIAI\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 10,
+    "question": "Tam đoạn luận: “Kim loại dẫn điện, mà gỗ không phải là kim loại. Vậy gỗ không dẫn điện”, vi phạm quy tắc chung nào sau đây?",
+    "options": [
+      "Hai phán đoán tiền đề đều là phán đoán phủ định thì không rút ra được câu kết luận.",
+      "Nếu thuật ngữ S hay P không chu diên ở tiền đề thì không chu diên ở kết luận.",
+      "Trong hai tiền đề, thuật ngữ giữa phải chu diên ít nhất một lần.",
+      "Một trong hai tiền đề là phán đoán phủ định thì câu kết luận phải là phán đoán phủ định."
+    ],
+    "answer": "Nếu thuật ngữ S hay P không chu diên ở tiền đề thì không chu diên ở kết luận.",
+    "explanation": "B. Nếu thuật ngữ S hay P không chu diên ở tiền đề thì không chu diên ở kết luận. ✓",
+    "raw_feedback": "B.\nNếu thuật ngữ S hay P không chu diên ở tiền đề thì không chu diên ở kết luận.\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 11,
+    "question": "OAO là phương thức đúng của:",
+    "options": [
+      "Loại hình 1",
+      "Loại hình 4",
+      "Loại hình 2",
+      "Loại hình 3"
+    ],
+    "answer": "Loại hình 3",
+    "explanation": "D. Loại hình 3 ✓",
+    "raw_feedback": "D.\nLoại hình 3\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 12,
+    "question": "Phương thức sai của tam đoạn luận thuộc loại hình 2 là:",
+    "options": [
+      "AEE ✗",
+      "AOO",
+      "EIO",
+      "AAA"
+    ],
+    "answer": "AAA",
+    "explanation": "Phản hồi: Sai. Đáp án đúng là: AAA",
+    "raw_feedback": "Phản hồi:\n\nSai. Đáp án đúng là: AAA"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 13,
+    "question": "Cho tiền đề: “Công đoàn là tổ chức chính trị của giai cấp công nhân”, kết luận nào sau đây là đúng?",
+    "options": [
+      "Tổ chức chính trị của giai cấp công nhân không là công đoàn",
+      "Công đoàn không là tổ chức chính trị của giai cấp công nhân",
+      "Không phải, công đoàn là tổ chức chính trị của giai cấp công nhân",
+      "Làm gì có chuyện, công đoàn không là tổ chức chính trị của giai cấp công nhân"
+    ],
+    "answer": "Làm gì có chuyện, công đoàn không là tổ chức chính trị của giai cấp công nhân",
+    "explanation": "D. Làm gì có chuyện, công đoàn không là tổ chức chính trị của giai cấp công nhân ✓",
+    "raw_feedback": "D.\nLàm gì có chuyện, công đoàn không là tổ chức chính trị của giai cấp công nhân\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 14,
+    "question": "Quy tắc riêng của tam đoạn luận thuộc loại hình 2 là:",
+    "options": [
+      "Tiền đề lớn phải là phán đoán chung và một trong hai tiền đề phải là phán đoán phủ định",
+      "Tiền đề lớn phải là phán khẳng định và tiền đề nhỏ phải là phán đoán phủ định",
+      "Tiền đề nhỏ phải là phán đoán khẳng định và kết luận là phán đoán phủ định",
+      "Tiền đề lớn phải là phán đoán riêng và hai tiền đề phải là phán đoán phủ định"
+    ],
+    "answer": "Tiền đề lớn phải là phán đoán chung và một trong hai tiền đề phải là phán đoán phủ định",
+    "explanation": "A. Tiền đề lớn phải là phán đoán chung và một trong hai tiền đề phải là phán đoán phủ định ✓",
+    "raw_feedback": "A.\nTiền đề lớn phải là phán đoán chung và một trong hai tiền đề phải là phán đoán phủ định\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 15,
+    "question": "Theo quy tắc riêng của tam đoạn luận thuộc loại hình 4, nhận định nào sau đây là SAI?",
+    "options": [
+      "Nếu một tiền đề là phán đoán phủ định thì tiền đề lớn là phán đoán chung.",
+      "Nếu tiền đề là phán đoán phủ định thì tiền đề nhỏ là phán đoán chung.",
+      "Nếu tiền đề nhỏ là phán đoán khẳng định thì kết luận là phán đoán riêng.",
+      "Nếu tiền đề lớn là phán đoán khẳng định thì tiền đề nhỏ là phán đoán chung"
+    ],
+    "answer": "Nếu tiền đề là phán đoán phủ định thì tiền đề nhỏ là phán đoán chung.",
+    "explanation": "B. Nếu tiền đề là phán đoán phủ định thì tiền đề nhỏ là phán đoán chung. ✓",
+    "raw_feedback": "B.\nNếu tiền đề là phán đoán phủ định thì tiền đề nhỏ là phán đoán chung.\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 16,
+    "question": "Phương thức sai của tam đoạn luận thuộc loại hình 3 là:",
+    "options": [
+      "AAI",
+      "III",
+      "AII",
+      "IAI"
+    ],
+    "answer": "III",
+    "explanation": "B. III ✓",
+    "raw_feedback": "B.\nIII\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 17,
+    "question": "Đặc trưng của tam đoạn luận thuộc loại hình 2 là:",
+    "options": [
+      "Thuật ngữ giữa làm vị từ trong cả tiền đề lớn và tiền đề nhỏ.",
+      "Thuật ngữ giữa làm chủ từ trong tiền đề nhỏ, vị từ trong tiền đề lớn.",
+      "Thuật ngữ giữa làm chủ từ trong tiền đề lớn, vị từ trong tiền đề nhỏ.",
+      "Thuật ngữ giữa làm chủ từ trong tiền đề lớn, chủ từ trong tiền đề nhỏ."
+    ],
+    "answer": "Thuật ngữ giữa làm vị từ trong cả tiền đề lớn và tiền đề nhỏ.",
+    "explanation": "A. Thuật ngữ giữa làm vị từ trong cả tiền đề lớn và tiền đề nhỏ. ✓",
+    "raw_feedback": "A.\nThuật ngữ giữa làm vị từ trong cả tiền đề lớn và tiền đề nhỏ.\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 18,
+    "question": "Trong tam đoạn luận: “Tham nhũng là hành vi phạm tội, mà mọi hành vi phạm tội phải chịu chế tài của pháp luật, cho nên tham nhũng phải chịu chế tài pháp luật”, khẳng định nào SAI?",
+    "options": [
+      "Thuật ngữ nhỏ: “tham nhũng”",
+      "Thuật ngữ lớn là: “chịu chế tài pháp luật”",
+      "Thuật ngữ giữa: “hành vi phạm tội”",
+      "Thuật ngữ lớn: “tham nhũng”"
+    ],
+    "answer": "Thuật ngữ lớn: “tham nhũng”",
+    "explanation": "D. Thuật ngữ lớn: “tham nhũng” ✓",
+    "raw_feedback": "D.\nThuật ngữ lớn: “tham nhũng”\n✓"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 19,
+    "question": "AAA là phương thức đúng của:",
+    "options": [
+      "Loại hình 1",
+      "Loại hình 3",
+      "Loại hình 4",
+      "Loại hình 2 ✗"
+    ],
+    "answer": "Loại hình 1",
+    "explanation": "Phản hồi: Sai. Đáp án đúng là: Loại hình 1",
+    "raw_feedback": "Phản hồi:\n\nSai. Đáp án đúng là: Loại hình 1"
+  },
+  {
+    "source": "LTTN_3",
+    "num": 20,
+    "question": "Chọn câu đúng nhất về tam đoạn luận.",
+    "options": [
+      "Thuật ngữ chu diên trong kết luận cũng phải chu diên trong tiền đề",
+      "Thuật ngữ không chu diên trong tiền đề thì không thể chu diên trong kết luận",
+      "Thuật ngữ chu diên trong tiền đề cũng chu diên trong kết luận",
+      "Thuật ngữ chỉ cần chu diên trong tiền đề hoặc chu diên trong kết luận"
+    ],
+    "answer": "Thuật ngữ không chu diên trong tiền đề thì không thể chu diên trong kết luận",
+    "explanation": "B. Thuật ngữ không chu diên trong tiền đề thì không thể chu diên trong kết luận ✓",
+    "raw_feedback": "B.\nThuật ngữ không chu diên trong tiền đề thì không thể chu diên trong kết luận\n✓"
+  },
+  {
+    "source": "LTTN_4",
+    "num": 1,
+    "question": "Hãy chọn phương án trả lời đúng nhất.",
+    "options": [
+      "Ngụy biện là những sai lầm cố ý nhằm đánh tráo giá trị của tư tưởng.",
+      "Ngụy biện là những sai lầm cố ý trong lập luận. ✗",
+      "Ngụy biện là những sai lầm cố ý, có chủ định nhằm đánh tráo giá trị của tư tưởng trong lập luận.",
+      "Ngụy biện là những sai lầm, có chủ định của tư tưởng trong lập luận."
+    ],
+    "answer": "Ngụy biện là những sai lầm cố ý, có chủ định nhằm đánh tráo giá trị của tư tưởng trong lập luận.",
+    "explanation": "Phản hồi: Sai. Đáp án đúng là: Ngụy biện là những sai lầm cố ý, có chủ định nhằm đánh tráo giá trị của tư tưởng trong lập luận.",
+    "raw_feedback": "Phản hồi:\n\nSai. Đáp án đúng là: Ngụy biện là những sai lầm cố ý, có chủ định nhằm đánh tráo giá trị của tư tưởng trong lập luận."
+  },
+  {
+    "source": "LTTN_4",
+    "num": 2,
+    "question": "Hãy chọn phương án trả lời đúng nhất.",
+    "options": [
+      "Luận đề phải đồng nhất với chính nó.",
+      "Luận đề không mâu thuẫn trong suốt quá trình chứng minh.",
+      "Luận đề phải đồng nhất với chính nó trong suốt quá trình chứng minh.",
+      "Luận đề đưa ra trong chứng minh có thể được xác định."
+    ],
+    "answer": "Luận đề phải đồng nhất với chính nó trong suốt quá trình chứng minh.",
+    "explanation": "C. Luận đề phải đồng nhất với chính nó trong suốt quá trình chứng minh. ✓",
+    "raw_feedback": "C.\nLuận đề phải đồng nhất với chính nó trong suốt quá trình chứng minh.\n✓"
+  },
+  {
+    "source": "LTTN_4",
+    "num": 3,
+    "question": "Phương pháp bác bỏ gồm:",
+    "options": [
+      "bác bỏ trực tiếp và bác bỏ gián tiếp.",
+      "bác bỏ trực tiếp và bác bỏ gián tiếp luận đề.",
+      "bác bỏ trực tiếp luận đề và bác bỏ gián tiếp.",
+      "bác bỏ trực tiếp và phản chứng."
+    ],
+    "answer": "bác bỏ trực tiếp và bác bỏ gián tiếp.",
+    "explanation": "A. bác bỏ trực tiếp và bác bỏ gián tiếp. ✓",
+    "raw_feedback": "A.\nbác bỏ trực tiếp và bác bỏ gián tiếp.\n✓"
+  },
+  {
+    "source": "LTTN_4",
+    "num": 4,
+    "question": "Luận cứ của chứng minh trả cho câu hỏi:",
+    "options": [
+      "Chứng minh dựa vào những căn cứ, cơ sở nào?",
+      "Tại sao phải chứng minh?",
+      "Chứng minh cái gì?",
+      "Chứng minh bằng cách nào?"
+    ],
+    "answer": "Chứng minh dựa vào những căn cứ, cơ sở nào?",
+    "explanation": "A. Chứng minh dựa vào những căn cứ, cơ sở nào? ✓",
+    "raw_feedback": "A.\nChứng minh dựa vào những căn cứ, cơ sở nào?\n✓"
+  },
+  {
+    "source": "LTTN_4",
+    "num": 5,
+    "question": "Luận đề của bác bỏ trả cho câu hỏi:",
+    "options": [
+      "Bác bỏ dựa vào những căn cứ, cơ sở nào?",
+      "Tại sao phải bác bỏ?",
+      "Bác bỏ bằng cách nào?",
+      "Bác bỏ cái gì?"
+    ],
+    "answer": "Bác bỏ cái gì?",
+    "explanation": "D. Bác bỏ cái gì? ✓",
+    "raw_feedback": "D.\nBác bỏ cái gì?\n✓"
+  }
+]
