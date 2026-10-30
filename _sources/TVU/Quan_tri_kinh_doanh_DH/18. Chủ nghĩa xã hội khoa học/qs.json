@@ -1146,9 +1146,9 @@
     ]
   },
   {
-    "weight": "normal",
-    "question": "Theo chủ nghĩa Mác - Lênin, tôn giáo là một hình thái ý thức xã hội phản ánh như thế nào đối với <span class=\"keyword\">hiện thực khách quan</span>?",
-    "answer": "<div class=\"answer-title\">✅ Đáp án:</div><span class=\"answer-keyword\">Phản ánh hư ảo</span> <div class=\"note\"><b>💡 Giải thích:</b> B. Phản ánh hư ảo ✓</div>",
+    "weight": "high",
+    "question": "Theo chủ nghĩa Mác - Lênin, <span class=\"keyword\">tôn giáo</span> là một hình thái ý thức xã hội <span class=\"keyword\">phản ánh như thế nào</span> đối với <span class=\"keyword\">hiện thực khách quan</span>?<div class=\"options-grid\"><div class=\"option-item\">A. Phản ánh sáng tạo</div><div class=\"option-item correct\">B. Phản ánh hư ảo</div><div class=\"option-item\">C. Phản ánh tiêu cực</div><div class=\"option-item\">D. Phản ánh tích cực</div></div><div class=\"note\">💡 <b>Giải thích:</b> Theo Ph.Ăngghen: <i>\"Tất cả mọi tôn giáo chẳng qua chỉ là sự phản ánh hư ảo - vào trong đầu óc của con người - của những lực lượng bên ngoài chi phối cuộc sống hàng ngày của họ\"</i>. Tôn giáo phản ánh hoang đường, hư ảo các sức mạnh tự nhiên và xã hội thành các lực lượng siêu nhiên, thần thánh.</div>",
+    "answer": "Phản ánh <span class=\"answer-keyword\">hư ảo</span>",
     "options": [
       "Phản ánh sáng tạo",
       "Phản ánh hư ảo",
